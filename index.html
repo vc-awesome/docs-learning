@@ -78,7 +78,7 @@
     // onlyCover: true, // 封面作为首页
 
     // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
-    // repo: 'docsifyjs/docsify',
+    // repo: 'vc-awesome/docs-learning',
     // 甚至直接渲染其他仓库
     // basePath:
     //     'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/',
@@ -91,7 +91,7 @@
 
     // themeColor: '#3c78eb', // 主题颜色
 
-    name: '🌤️ vcode', // 文档标题，会显示在侧边栏顶部。
+    name: '🍋 vc-awesome', // 文档标题，会显示在侧边栏顶部。
 
     maxLevel: 2,
 
@@ -135,8 +135,8 @@
         var footer = [
           '<hr/>',
           '<footer>',
-          /*'<div class = "over" >完结</div><br/><span>我能想到最浪漫的事，就是我喝咖啡你付钱~😆😏 ❤️ 打赏地址：<a href="https://wugenqiang.js.org/sponsor/" target="_blank">https://wugenqiang.js.org/sponsor/</a></span><iframe src="https://wugenqiang.js.org/sponsor/" style="overflow-x:hidden;overflow-y:hidden; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe><br/><span id="sitetime"></span><br/><span>Copyright &copy; 2019 - 至今</span>',*/
-          '<a href="https://wugenqiang.github.io/" target="_blank">🏷️ EnjoyToShare Blog</a> <span> 一个人可以走的很快，但一群人才能走的更远！</span>',
+          '<span><a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;2012.</span>',
+          '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
           '</footer>'
         ].join('');
 
@@ -154,22 +154,29 @@
         });
       },
       // 编辑页面
-      /*function(hook, vm) {
+      function(hook, vm) {
         hook.beforeEach(function(html) {
-          var url =
-              'https://github.com/docsifyjs/docsify/blob/master/docs/' +
-              vm.route.file;
-          var editHtml = '[📝 EDIT DOCUMENT](' + url + ')\n';
+          if (/githubusercontent\.com/.test(vm.route.file)) {
+            url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master');
+          } else if (/jsdelivr\.net/.test(vm.route.file)) {
+            url = vm.route.file
+                .replace('cdn.jsdelivr.net/gh', 'github.com')
+                .replace('@master', '/blob/master');
+          } else {
+            url =
+                'https://github.com/vc-awesome/docs-learning/blob/master' +
+                vm.route.file;
+          }
+          var editHtml = '[:memo: EDIT DOCUMENT](' + url + ')\n';
 
           return (
               editHtml +
-              html +
-              '\n----\n' +
-              'Last modified {docsify-updated} ' +
-              editHtml
+              html
           );
         });
-      }*/
+      }
       // parse twemoji
       /*function (hook, vm) {
         hook.doneEach(function () {

@@ -48,6 +48,36 @@ Bootstrap https://github.com/twbs
 
 
 
+### Github Action
+
+https://github.com/Yikun/hub-mirror-action
+
+?> 一个Github Action，用于在Github和Gitee之间同步代码。Action for mirroring repos between Hubs (like Github and Gitee).
+
+
+
+GitHub Actions 入门教程 http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html
+
+
+
+### Gitee
+
+一篇教你代码同步 Github 和 Gitee https://zhuanlan.zhihu.com/p/445799754
+
+使用Github Actions实现代码推送Github自动同步到Gitee镜像仓库！ https://zhuanlan.zhihu.com/p/353862378
+
+如何把我们的源码同步到gitee或github远程仓库中 https://www.cnblogs.com/hdlan/p/13904878.html
+
+将已有项目同步到远程git仓库(github,gitee)及giteee的visual studio插件使用一二 https://www.cnblogs.com/ccjungle/p/10619169.html
+
+githubactions进行github仓库和gitee仓库同步 https://zhuanlan.zhihu.com/p/258779704
+
+将GitLab仓库同步到GitHub和Gitee https://blog.csdn.net/weixin_39305029/article/details/105741822
+
+同步更新Gitee和GitHub仓库代码 https://blog.csdn.net/qq_42909053/article/details/116893604
+
+
+
 ### Gist
 
 ?> Instantly share code, notes, and snippets.  

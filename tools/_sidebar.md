@@ -1,5 +1,4 @@
 * [Introduce](/tools/ "Introduce")
-* [<i class="icon octicon-file git-icon medium-red "></i> git](/tools/git.md "Git")
 * [宝塔](/tools/bt.md "宝塔")
 * [YApi](/tools/yapi.md "api文档工具")
 * [浏览器](/tools/browser.md "浏览器")
