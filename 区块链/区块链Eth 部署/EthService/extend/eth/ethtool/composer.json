@@ -1,0 +1,23 @@
+{
+    "name": "hubwiz/ethtool",
+    "description": "ethereum dapp development tools",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hubwiz",
+            "email": "support@hubwiz.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.1",
+        "kornrunner/keccak": "~1.0",
+        "simplito/elliptic-php": "~1.0.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "EthTool:\\": "src/"
+        }
+    }
+}

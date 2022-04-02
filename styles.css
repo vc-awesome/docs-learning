@@ -1,0 +1,104 @@
+/*固定导航栏*/
+nav.app-nav {
+    position: fixed;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    width: calc(100% - 325px);
+    background-color: #fff;
+    /*background-color: var(--background);*/
+    /*height: 55px;*/
+    border-bottom: 1px solid #eee;
+}
+
+/*自定义侧边栏*/
+aside.sidebar ul.app-sub-sidebar li.active {
+    position: relative;
+}
+
+aside.sidebar ul.app-sub-sidebar li.active > a:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: -5px;
+    border-radius: 50%;
+    background-color: #fed24a;
+    box-shadow: 0 0 0 3px rgba(254, 210, 74, .4);
+}
+
+/*滚动条样式 start*/
+/* 滚动条宽度 */
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+/* 滚动条颜色 */
+::-webkit-scrollbar-thumb {
+    background: #33a9dc;
+    background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);
+    border-radius: 2em;
+}
+
+/*滚动条样式 end*/
+
+/* Page TOC */
+/*section.content {
+    bottom: auto;
+}
+.page_toc {
+    top: 120px;
+    bottom: 120px;
+    overflow: auto;
+    !*margin-top: 120px;*!
+    font-size: 0.875rem;
+    padding: 0 1rem 0 0.25rem;
+}
+.page_toc ul a {
+    font-weight: 400;
+    color: #888888;
+}
+.page_toc ul a:hover span {
+    color: var(--theme-color, #298596);
+}
+.page_toc .active {
+    border-left: none;
+    color: var(--theme-color, #298596);
+    padding-left: 0;
+}
+.page_toc .active::before {
+    content:'';
+    width: 3px;
+    background-color: var(--theme-color, #298596);
+    display: inline-block;
+    height: 1.25rem;
+    position: absolute;
+    left: 0;
+}
+!* 滚动条颜色 *!
+.page_toc::-webkit-scrollbar-thumb {
+    background: transparent;
+    background-image: none;
+    border-radius: 2em;
+}
+.markdown-section {
+    width: calc(100% - 1160px);
+}
+@media screen and (max-width: 1300px) {
+    .page_toc {
+        margin-bottom: -120px;
+    }
+    .nav {
+        display: none;
+    }
+    .markdown-section {
+        width: auto;
+    }
+}*/
+/* 滚动条颜色 */
+aside.toc-nav::-webkit-scrollbar-thumb {
+    background: transparent!important;
+    background-image: none!important;
+    border-radius: 2em!important;
+}
