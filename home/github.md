@@ -76,6 +76,12 @@ githubactions进行github仓库和gitee仓库同步 https://zhuanlan.zhihu.com/p
 
 同步更新Gitee和GitHub仓库代码 https://blog.csdn.net/qq_42909053/article/details/116893604
 
+利用GitHub Actions自动同步Gitee镜像仓库 https://www.gouguoyin.cn/posts/10095.html
+
+GitHub仓库快速导入Gitee及同步更新 https://gitee.com/help/articles/4284#article-header0
+
+仓库镜像管理 （ Gitee <-> Github 双向同步） https://gitee.com/help/articles/4336#article-header0
+
 
 
 ### Gist

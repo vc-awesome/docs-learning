@@ -685,6 +685,14 @@ gitlab
 
 
 
+#### 参考链接
+
+PHP使用WebHook自动更新Git仓库部署 https://segmentfault.com/a/1190000040540720?sort=votes
+
+Github的WebHooks实现生产环境代码自动更新 https://blog.csdn.net/weixin_36851500/article/details/104011450
+
+
+
 ### git 放弃修改，强制覆盖本地代码
 
 ```bash
