@@ -115,199 +115,147 @@ keywords: [Pandoc, Tutorial, Export]
 
 #### 链接
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
-> ```
+##### **Rendered**
 
-*渲染效果*
+My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
-> My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
+
+
+##### 添加标题 {docsify-ignore}
+
+[Duck Duck Go](https://duckduckgo.com  "The best search engine for privacy")
+
+
+
+##### 网址和电子邮件地址 {docsify-ignore}
+
+<https://www.markdownguide.org>
+
+<fake@example.com>
+
+
+
+##### 引用式链接 {docsify-ignore}
+
+[John Gruber][df1]
+
+[JavaScript Location 对象][JavaScript Location 对象]
+
+[JavaScript Location 对象]: https://www.runoob.com/jsref/met-loc-reload.html	"Location reload()方法"
+[df1]: http://daringfireball.net/projects/markdown	"Hobbit lifestyles"
+
+
+
+##### **Markdown**
+
+```markdown
+My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 ##### 添加标题
-
-*语法*
-
-> ```markdown
-> [Duck Duck Go](https://duckduckgo.com "The best search engine for privacy")
-> ```
-
-*渲染效果*
-
-> [Duck Duck Go](https://duckduckgo.com  "The best search engine for privacy")
+[Duck Duck Go](https://duckduckgo.com "The best search engine for privacy")
 
 ##### 网址和电子邮件地址
-
-*语法*
-
-> ```markdown
-> <https://www.markdownguide.org>
-> <fake@example.com>
-> ```
-
-*渲染效果*
-
-> <https://www.markdownguide.org>
->
-> <fake@example.com>
-
-
+<https://www.markdownguide.org>
+<fake@example.com>
 
 ##### 引用式链接
+[John Gruber][df1]
+[JavaScript Location 对象][JavaScript Location 对象]
 
-*语法*
+[JavaScript Location 对象]: https://www.runoob.com/jsref/met-loc-reload.html "Location reload()方法"
+[df1]: http://daringfireball.net/projects/markdown "Hobbit lifestyles"
+```
 
-> ```markdown
-> [John Gruber][df1]
-> 
-> [JavaScript Location 对象][JavaScript Location 对象]
-> ```
-
-*渲染效果*
-
-> [John Gruber][df1]
->
-> [JavaScript Location 对象][JavaScript Location 对象]
-
-*链接引用*
-
-> `typora`编辑器中可见，导出 *`HTML`* 不可见
->
-> `typora`编辑器中操作
->
-> > 链接在浏览器中打开：<kbd>ctrl</kbd> + `鼠标左击链接`
-
-下列的*渲染效果*仅在`typora`编辑器可见
-
-*语法*
-
-> ```markdown
-> [JavaScript Location 对象]: https://www.runoob.com/jsref/met-loc-reload.html	"Location reload()方法"
-> [df1]: http://daringfireball.net/projects/markdown	"Hobbit lifestyles"
-> ```
+<!-- tabs:end -->
 
 
-
-*渲染效果*
-
-> [JavaScript Location 对象]: https://www.runoob.com/jsref/met-loc-reload.html	"Location reload()方法"
-> [df1]: http://daringfireball.net/projects/markdown	"Hobbit lifestyles"
 
 #### 图片
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> ![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像")
-> ```
+##### **Rendered**
 
-*渲染效果*
+![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像")
 
-> ![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像")
-
-`typora`编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格，如下
-*语法*
-
-> ```markdown
-> ![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像") 
-> ```
-
-*渲染效果*
-
-> ![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像") 
+> `typora`编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格
 
 
 
-**带链接的图片**
+##### 带链接的图片 {docsify-ignore}
 
-*语法*
-> ```markdown
-> [<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
-> ```
+[<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
 
-*渲染效果*
-> [<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
+
+
+##### **Markdown**
+
+```markdown
+![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像")
+
+> `typora`编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格
+
+##### 带链接的图片
+
+[<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
+```
+
+<!-- tabs:end -->
+
+
 
 #### 段落元素
 
-##### 加粗（强调）
+<!-- tabs:start -->
 
-*语法*
+##### **Rendered**
 
-> ```markdown
-> **加粗**
-> 
-> <strong>标签</strong>
-> ```
+**加粗**
 
-*渲染效果*
-
-> **加粗**
->
-> <strong>标签</strong>
-
-##### 斜体（强调）
-
-*语法*
-
-> ```markdown
-> *斜体*
-> 
-> _this text is surrounded by literal asterisks_
-> ```
+<strong>标签</strong>
 
 
 
-*渲染效果*
+*斜体*
 
-> *斜体*
->
-> _this text is surrounded by literal asterisks_
-
-##### 删除线（强调）
-
-*语法*
-
-> ```markdown
-> ~~123~~
-> ```
+_this text is surrounded by literal asterisks_
 
 
 
-*渲染效果*
-
-> ~~123~~
-
-##### 下划线（强调）
-
-*语法*
-
-> ```markdown
-> <u>Underline</u>
-> ```
+~~删除线~~
 
 
 
-*渲染效果*
-
-> <u>Underline</u>
+<u>下划线</u>
 
 
+
+##### 代码 {docsify-ignore}
+
+Use the `printf()` function.
+
+##### **Markdown**
+
+```markdown
+**加粗**
+
+<strong>标签</strong>
+
+*斜体*
+
+_this text is surrounded by literal asterisks_
+
+~~删除线~~
+
+<u>下划线</u>
 
 ##### 代码
+Use the `printf()` function.
+```
 
-*语法*
-
-> ```markdown
-> Use the `printf()` function.
-> ```
-
-
-
-*渲染效果*
-
-> Use the `printf()` function.
+<!-- tabs:end -->
 
 
 
@@ -916,6 +864,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 > author: John Snow
 > creator: Typora inc.
 > subject: Tutorial
+>
 > keywords: [Pandoc, Tutorial, Export]
 > ---
 

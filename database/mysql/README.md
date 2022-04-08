@@ -5,8 +5,11 @@ MySQL是一种关系数据库管理系统，关系数据库将数据保存在不
 
 
 
-菜鸟`mysql`教程 https://www.runoob.com/mysql/mysql-tutorial.html  
-菜鸟`sql`教程 https://www.runoob.com/sql/sql-tutorial.html
+## 教程
+
+菜鸟教程（*mysql*） https://www.runoob.com/mysql/mysql-tutorial.html
+
+菜鸟教程（*sql*） https://www.runoob.com/sql/sql-tutorial.html
 
 
 
@@ -32,7 +35,7 @@ MySQL是一种关系数据库管理系统，关系数据库将数据保存在不
 
 在远程主机中以管理员身份进入
 
-agui为我们使用的用户名，密码为 123
+**agui** 为我们使用的用户名，密码为 **123**
 
 ```bash
 > GRANT ALL PRIVILEGES ON *.* TO 'agui'@%'IDENTIFIEDBY '123' WITH GRANT OPTION；
@@ -109,12 +112,6 @@ UPDATE `ev_member` SET `member_bonus_grade_set` = JSON_SET(`member_bonus_grade_s
 
 
 
-## 教程
-
-https://www.runoob.com/mysql/mysql-tutorial.html
-
- 
-
 ## MySQL函数
 
  
@@ -133,13 +130,13 @@ distinct name,id 这样的mysql 会认为要过滤掉name和id两个字段都重
 
  
 
-MYSQL中可以实现类似IF判断的方法
+MYSQL中可以实现类似 IF 判断的方法
 
-1. 方式一：`case`函数：流程控制函数
+1. 方式一：`case` 函数：流程控制函数
 
-2. 方式二： `IF()`函数
+2. 方式二： `IF()` 函数
 
-3. 方式三：字符串的集合操作`ELT()`
+3. 方式三：字符串的集合操作 `ELT()`
 
  
 
@@ -147,7 +144,61 @@ https://www.cnblogs.com/lihaoyang/p/6733002.html
 
  
 
-## MySQL自连接
+### MySQL聚合函数
+
+
+
+### MySQL日期函数
+
+https://blog.csdn.net/chtjava/article/details/100148356
+
+
+
+### MySQL拼接
+
+`concact()`
+
+`group_concact()`
+
+https://www.cnblogs.com/haw2106/p/10735500.html
+
+
+
+### MySQL字段为空时，赋值为0
+
+- `SELECT COALESCE(字段, 0)`
+
+- `SELECT IFNULL(字段, 0)`
+
+- `SELECT IF(字段 IS NULL,0,字段值) `
+
+- ```sql
+   CASE expression
+   
+     WHEN condition1 THEN result1
+   
+     WHEN condition2 THEN result2
+   
+     ...
+   
+     WHEN conditionN THEN resultN
+   
+     ELSE result
+   
+   END
+   ```
+
+
+
+https://blog.csdn.net/sunwenhao_2017/article/details/83376726
+
+
+
+## MySQL连接（join）
+
+
+
+### MySQL自连接
 
 自联结顾名思义就是把一张表假设为两张一样的表，然后在做“多表查询”
 
@@ -171,7 +222,11 @@ FROM
 GROUP BY  create_time;
 ```
 
-先对B表数据进行排序，则取出的分组数据即为B表中create_time最新的那一行数据，其中经过实践，需要加上limit，否则没效果，估计和mysql版本有关。
+先对 B 表数据进行排序，则取出的分组数据即为 B 表中 create_time 最新的那一行数据，其中经过实践，需要加上 limit，否则没效果，估计和 mysql 版本有关。
+
+
+
+> via [MySQL分组查询每组最新的一条数据(通俗易懂)](https://www.cnblogs.com/java-spring/p/11498457.html)
 
 ```sql
 SELECT t.*
@@ -187,31 +242,9 @@ LEFT JOIN test t
 
 
 
-https://www.cnblogs.com/java-spring/p/11498457.html
-
-
-
 ## MySQL执行顺序
 
- 
 
-## MySQL拼接
-
-`concact()`
-
-`group_concact()`
-
- 
-
-https://www.cnblogs.com/haw2106/p/10735500.html
-
- 
-
-## MySQL日期函数
-
-https://blog.csdn.net/chtjava/article/details/100148356
-
- 
 
 ## MySQL删除重复数据
 
@@ -223,37 +256,7 @@ https://www.cnblogs.com/whyly/p/9772884.html
 
 http://www.mb5u.com/mysql/mysql101484.html
 
- 
 
-## MySQL字段为空时，赋值为0
-
-1. `SELECT COALESCE(字段, 0)`
-
-2. `SELECT IFNULL(字段, 0)`
-
-3. `SELECT IF(字段 IS NULL,0,字段值) `
-
-4. ```sql
-   CASE expression
-   
-     WHEN condition1 THEN result1
-   
-     WHEN condition2 THEN result2
-   
-     ...
-   
-     WHEN conditionN THEN resultN
-   
-     ELSE result
-   
-   END
-   ```
-
-
-
-https://blog.csdn.net/sunwenhao_2017/article/details/83376726
-
- 
 
 ## MySQL优化
 

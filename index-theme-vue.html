@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/vue.css">
+  <!--<link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/buble.css">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/dark.css">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/pure.css">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/dolphin.css">-->
+  <!--<link rel="stylesheet" href="./_libs/docsify-darklight-theme-3.2.0/dist/style.min.css">-->
+  <link rel="stylesheet" href="./_libs/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="./styles.css">
+  <!--  <link rel="stylesheet" href="./_libs/docsify-toc-1.0.0/dist/toc.css">-->
+<!--  <link rel="shortcut icon" href="/images/favicon.ico">-->
+
+  <style>
+
+  </style>
+</head>
+<body>
+<div id="app"></div>
+<script>
+  /*const footnoteMatch = /^\[\^([^\]]+)\]:([\s\S]*)$/
+  const referenceMatch = /\[\^([^\]]+)\](?!\()/g
+  const referencePrefix = "marked-fnref"
+  const footnotePrefix = "marked-fn"
+  const footnoteTemplate = (ref, text) => {
+    return `<sup id="${footnotePrefix}-${ref}" class="footnote-symbol">${ref}</sup><span class="footnote-text">${text}</span>`
+  }
+  const footnoteContainerTemplate = (text) => {
+    return `<div class="marked-footnotes"><h4>References</h4>${text}</div>`
+  }
+  const referenceTemplate = (ref) => {
+    return `<sup id="${referencePrefix}-${ref}" class="footnote-reference-symbol"><a href="${window.location.hash.split("?")[0]}?id=${footnotePrefix}-${ref}">${ref}</a></sup>`
+  }
+  const interpolateReferences = (text) => {
+    return text.replace(referenceMatch, (_, ref) => {
+      return referenceTemplate(ref)
+    })
+  }
+  const interpolateFootnotes = (text) => {
+    const found = text.match(footnoteMatch)
+    if (found) {
+      const replacedText = text.replace(footnoteMatch, (_, value, text) => {
+        return footnoteTemplate(value, text)
+      })
+      return replacedText /!* footnoteContainerTemplate(replacedText) *!/
+    }
+    return text
+  }*/
+
+  window.$docsify = {
+    //...
+    // 定制侧边栏
+    loadSidebar: true,
+    autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
+    subMaxLevel: 2, // 自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
+    auto2top: true, // 切换页面后是否自动跳转到页面顶部。
+    /*alias: { // 定义路由别名，可以更自由的定义路由规则。 支持正则
+      '/.*!/_sidebar.md': '/_sidebar.md'
+    },*/
+
+    // 定制导航栏
+    loadNavbar: true,
+
+    // 禁用 emoji 解析
+    noEmoji: false,
+
+    topMargin: 90, // default: 0
+
+    // 封面页
+    // coverpage: true,
+    // onlyCover: true, // 封面作为首页
+
+    // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
+    // repo: 'vc-awesome/docs-learning',
+    // 甚至直接渲染其他仓库
+    // basePath:
+    //     'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/',
+
+    // logo
+    // logo: '//docsify.js.org/_media/icon.svg', // 在侧边栏中出现的网站图标，你可以使用CSS来更改大小
+
+    // 入口文件改为 /home.md
+    // homepage: '/home/README.md', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用
+
+    // themeColor: '#3c78eb', // 主题颜色
+
+    name: '🍋 docs-learning  ', // 文档标题，会显示在侧边栏顶部。
+
+    maxLevel: 2,
+
+    mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
+
+    // docsify-copy-code (defaults)
+    copyCode: {
+      buttonText: 'Copy to clipboard',
+      errorText: 'Error',
+      successText: 'Copied'
+    },
+    formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
+
+    // ...
+    /*pagination: {
+      previousText: '上一章节',
+      nextText: '下一章节',
+      crossChapter: true,
+      crossChapterText: true,
+    },*/
+
+    count: {
+      countable: true,
+      fontsize: '0.9em',
+      color: 'rgb(90,90,90)',
+      language: 'chinese'
+    },
+
+    // ...
+    scrollToTop: {
+      auto: true,
+      text: '🛩️',
+      right: 15,
+      bottom: 15,
+      offset: 500
+    },
+
+    plugins: [
+      // 添加页脚
+      function (hook) {
+        var footer = [
+          '<hr/>',
+          '<footer>',
+          '<span><a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;2022.</span>',
+          '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+          '</footer>'
+        ].join('');
+
+        hook.afterEach(function (html) {
+          return html + footer;
+        });
+      },
+      // 最近更新时间
+      function (hook, vm) {
+        hook.beforeEach(function (html) {
+          return (
+              '<div style="overflow: auto;"><code> Last modified: {docsify-updated} </code></div>\n\n'
+              + html
+          );
+        });
+      },
+      // 编辑页面
+      function(hook, vm) {
+        hook.beforeEach(function(html) {
+          if (/githubusercontent\.com/.test(vm.route.file)) {
+            url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master');
+          } else if (/jsdelivr\.net/.test(vm.route.file)) {
+            url = vm.route.file
+                .replace('cdn.jsdelivr.net/gh', 'github.com')
+                .replace('@master', '/blob/master');
+          } else {
+            url =
+                'https://github.com/vc-awesome/docs-learning/blob/master/' +
+                vm.route.file;
+          }
+          var editHtml = '[:memo: EDIT DOCUMENT](' + url + ')\n';
+
+          return (
+              editHtml +
+              html
+          );
+        });
+      }
+      // parse twemoji
+      /*function (hook, vm) {
+        hook.doneEach(function () {
+          twemoji.parse(document);
+        });
+      }*/
+    ],
+
+    // 全文搜索
+    search: {
+      paths: 'auto',
+      placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+      noData: {
+        '/zh-cn/': '🙄 找不到结果',
+        '/': '🤷🤦😱🙀🤔🙄 No Results'
+      },
+      // Headline depth, 1 - 6
+      depth: 6,
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+    },
+
+    /*toc: {
+      scope: '.markdown-section',
+      headings: 'h2, h3, h4, h5, h6',
+      title: 'Table of Contents',
+    },*/
+
+    toc: {
+      tocMaxLevel: 5,
+      target: 'h2, h3, h4, h5, h6'
+    },
+
+    /*markdown: function (marked, renderer) {
+      marked.setOptions({
+        smartypants: true,
+        renderer: Object.assign(renderer, {
+          paragraph(text) {
+            return marked.Renderer.prototype.paragraph.apply(null, [
+              interpolateReferences(interpolateFootnotes(text))
+            ])},
+          text(text) {
+            return marked.Renderer.prototype.text.apply(null, [
+              interpolateReferences(interpolateFootnotes(text))
+            ])},
+        }),
+      })
+      return marked
+    },*/
+  }
+</script>
+<!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>-->
+
+<script src="./_libs/docsify-4.12.2/lib/docsify.min.js"></script>
+<!--<script src="./_libs/docsify-darklight-theme-3.2.0/dist/index.min.js"></script>-->
+<!--全文搜索-->
+<script src="./_libs/docsify-4.12.2/lib/plugins/search.min.js"></script>
+<script src="./_libs/docsify-copy-code-2.1.1/dist/docsify-copy-code.min.js"></script>
+<script src="./_libs/docsify-count-1.1.0/dist/countable.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-php.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-bash.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-sql.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-json.min.js"></script>
+<!--返回顶部-->
+<script src="./_libs/docsify-scroll-to-top-1.0.2/dist/docsify-scroll-to-top.min.js"></script>
+<!--Table of Contents-->
+<!--<script src="./_libs/docsify-toc-1.0.0/dist/toc.js"></script>-->
+<script src="./_libs/docsify-plugin-toc-1.2.1/dist/docsify-plugin-toc.min.js"></script>
+<!-- twemoji -->
+<!--<script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>-->
+
+</body>
+</html>
