@@ -1,4 +1,4 @@
-> 切换主题 [vue](../index-theme-vue.html) [themeable](../index-theme-themeable.html)
+> 切换主题 [vue](../index-theme-vue.html) [themeable](../index-theme-themeable.html)
 
 <details>
 <summary>A magical documentation site generator.<span style="color:red">(click to expand)</span></summary>
@@ -91,7 +91,7 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:joy:`                  | :joy:                  | Face with Tears of Joy         | 😂    |                  |
 | `:ticket:`               | :ticket:               | Ticket                         | 🎫    |                  |
 | `:muscle:`               | :muscle:               | Muscle                         | 💪    |                  |
-| `:thumbsup:`             | :thumbsup:             | Thumbs Up                      | 👍    | 推荐/点赞        |
+| `:thumbsup:`             | :thumbsup:             | [Thumbs Up](https://emojipedia.org/thumbs-up/) | 👍    | 推荐/点赞        |
 | `:clap:`                 | :clap:                 | Clapping Hands                 | 👏    |                  |
 | `:writing_hand:`         | :writing_hand:         | Writing Hand                   | ✍️  | 编辑中           |
 | `:heavy_check_mark:`     | :heavy_check_mark:     | Check Mark                     | ✔️  |                  |
@@ -106,6 +106,7 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:waning_gibbous_moon:`  | :waning_gibbous_moon:  | Waning Gibbous Moon            | 🌖    | 进度（75%）      |
 | `:full_moon:`            | :full_moon:            | Full Moon                      | 🌕    | 进度（100%）     |
 | `:open_hands:`           | :open_hands:           | Open Hands                     | 👐    | 分享             |
+| `:art:` | :art: | [Artist Palette](https://emojipedia.org/artist-palette/) | 🎨 | 主题 |
 
 
 
@@ -237,9 +238,9 @@ https://github.com/mrpotatoes/docsify-toc
 
 参考：
 
-https://tainacan.github.io/tainacan-wiki/
+👍 https://tainacan.github.io/tainacan-wiki/
 
-https://github.com/tainacan/tainacan-wiki/blob/master/index.html
+👍 https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
 #### 分享 <!-- {docsify-ignore} -->
 

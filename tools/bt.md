@@ -1,6 +1,6 @@
 ## 官方
 
-Github：https://github.com/aaPanel
+Github：<i class="fa fa-github fa-lg"></i> https://github.com/aaPanel
 
 ### 中文版
 
@@ -9,7 +9,7 @@ Github：https://github.com/aaPanel
 ### 国际版
 
 主页：  
-https://www.aapanel.com/ *国内网络无法访问*  
+<i class="bi bi-ladder"></i> https://www.aapanel.com/ *国内网络无法访问*  
 https://www.aapanel.com/feature.html
 
 文档：https://doc.aapanel.com/web/
@@ -18,13 +18,15 @@ https://www.aapanel.com/feature.html
 
 
 
-## 免费ssl
+## ssl
+
+> 免费
 
 1. 宝塔官网注册账号
-2. 指定域名申请ssl
+2. 指定域名申请 ssl
 3. 部署
-4. 强制HTTPS
-5. 防火墙或者安全组放行443端口
+4. 开启强制 HTTPS
+5. 防火墙或者安全组放行 443 端口
 
 
 
@@ -34,7 +36,41 @@ https://www.aapanel.com/feature.html
 
 
 
-## FAQ
+## ftp
+
+> 宝塔 Linux，FTP 端口：21，主动模式可连接；修改 FTP 端口为非 21，主动模式无法连接，被动模式需放行 FTP 被动端口 39000-40000 才可连接。
+
+👍 宝塔面板FTP端口设置教程 (图文) https://www.idcnote.com/bt/14.html
+
+五、宝塔面板 FTP 安装与使用教程（图文步骤） https://www.php.cn/topic/bt/482698.html
+
+宝塔面板的ftp无法使用解决 https://www.cnblogs.com/pxjbk/articles/10046960.html
+
+被动模式下ftp设置端口范围有哪些？花生壳搭建ftp的步骤有哪些？ https://hsk.oray.com/news/8547.html
+
+VsFtpd指定被动端口范围教程 https://blog.csdn.net/qq_22656871/article/details/109356147
+
+
+
+### 「tool」pure-ftpd
+
+<i class="fa fa-github fa-lg"></i> https://github.com/jedisct1/pure-ftpd/
+
+
+
+宝塔 pure-ftpd 如何开启被动模式(PASV)连接 https://vpsvt.com/reed/443.html
+
+Linux安装配置FTP(pure-ftpd) https://blog.csdn.net/renfeigui0/article/details/100163336
+
+
+
+## links
+
+宝塔面板 – 修改默认端口以及一些常用端口的安全设置 https://www.php.cn/blog/detail/23119.html
+
+
+
+## faq
 
 ### Linux 宝塔面板无法连接phpmyadmin
 

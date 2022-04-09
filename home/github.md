@@ -4,6 +4,8 @@
 
 文档：https://docs.github.com/cn/
 
+品牌：https://brand.github.com/
+
 Security Bug Bounty：https://bounty.github.com/
 
 

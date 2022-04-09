@@ -61,7 +61,7 @@ https://bs4.dashgame.com/pages/extend.html
 
 | 图标                                         | 语境             | 代码                                     |
 | -------------------------------------------- | ---------------- | ---------------------------------------- |
-| <i class="fa fa-github fa-lg"></i>           |                  | `<i class="fa fa-github fa-lg"></i>`     |
+| <i class="fa fa-github fa-lg"></i>           | GitHub           | `<i class="fa fa-github fa-lg"></i>`     |
 | <i class="fa fa-firefox fa-lg"></i>          | 浏览器           | `<i class="fa fa-firefox"></i>`          |
 | <i class="fa fa-chrome fa-lg"></i>           | 浏览器           | `<i class="fa fa-chrome"></i>`           |
 | <i class="fa fa-edge fa-lg"></i>             | 浏览器           | `<i class="fa fa-edge"></i>`             |
@@ -129,12 +129,12 @@ https://bs4.dashgame.com/pages/extend.html
 
 
 
-### Octicons
+### Octicons (For Github)
 
 ?> A scalable set of icons handcrafted with <3 by GitHub.  
 <i class="bi bi-translate dark-yellow"></i> GitHub 使用 <3 手工制作的一组可扩展图标。
 
-!> **GitHub**官网**icons**
+!> **GitHub** 官网 **Icons**
 
 <i class="fa fa-laptop"></i> https://primer.style/octicons/
 
@@ -146,7 +146,7 @@ https://bs4.dashgame.com/pages/extend.html
 
 ?> Material Design icons by Google.<br><i class="bi bi-translate dark-yellow"></i> Google 的 Material Design 图标。
 
-!> 被墙，**Google**产品
+!> <i class="bi bi-ladder"></i> **Google** 产品
 
 <i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons/
 
