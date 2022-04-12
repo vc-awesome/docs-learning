@@ -2,7 +2,9 @@
 
 ### 伪静态
 
-#### Nginx
+<!-- tabs:start -->
+
+#### **Nginx**
 
 文件名：`nginx.htaccess`
 
@@ -18,7 +20,7 @@ location / {
 
 
 
-#### Apache
+#### **Apache**
 
 文件名：`.htaccess`
 
@@ -37,9 +39,13 @@ location / {
 
 
 
+<!-- tabs:end -->
+
 ### PHP版本
 
 - 7.2
+- 7.3 ✔️
+- 7.4
 
 
 
@@ -69,7 +75,9 @@ Linux系统设置项目根目录`runtime`文件夹权限为`757`或`777`
 
 #### 后台管理
 
-##### 正式
+<!-- tabs:start -->
+
+##### **正式**
 
 链接：`http://5gadmin.tikwaipro.com/xpigaeecdateasdtdgrryrxdgw.html`
 
@@ -79,7 +87,7 @@ Linux系统设置项目根目录`runtime`文件夹权限为`757`或`777`
 
 短信验证码：210114
 
-##### 测试
+##### **测试**
 
 链接：`http://5g.test/admin/index/login`
 
@@ -89,19 +97,27 @@ Linux系统设置项目根目录`runtime`文件夹权限为`757`或`777`
 
 短信验证码：210114
 
+<!-- tabs:end -->
+
+
+
 #### 前端接口
 
-##### 正式
+<!-- tabs:start -->
+
+##### **正式**
 
 api `http://5gapi.tikwaipro.com/`
 
 
 
-##### 测试
+##### **测试**
 
 api-ip `http://192.168.2.7/`
 
 api-domain `http://5g.test/`
+
+<!-- tabs:end -->
 
 
 
@@ -115,7 +131,9 @@ api-domain `http://5g.test/`
 
 ### 定时任务
 
-#### Shell脚本
+<!-- tabs:start -->
+
+#### **Shell脚本**
 
 任务名称：`<项目名> - [<控制器名> -] 发放静态收益`  
 执行周期：每天`00`时`01`分  
@@ -139,11 +157,13 @@ php think release countMemberYesterdayBonus
 
 
 
-#### 访问URL
+#### **访问URL**
 
 任务名称：`<项目名> - [<控制器名> -] 签到挖矿`  
 执行周期：每隔`1`分钟执行  
 URL地址：`http://taskakq122.dstnetwork.top/income/static`
+
+<!-- tabs:end -->
 
 
 
@@ -209,9 +229,11 @@ Linux系统拷贝下来的Thinkphp5源码报 `No input file specified.` 错误
 >
 > `...` 部分未完成
 >
->   未完成
+> 未完成
 
-#### 登录注册
+<!-- tabs:start -->
+
+#### **登录注册**
 
 - [x] 登录
 - [x] 注册
@@ -222,13 +244,13 @@ Linux系统拷贝下来的Thinkphp5源码报 `No input file specified.` 错误
 
 
 
-#### 会员模块
+#### **会员模块**
 
 - [x] 修改登录密码
   - [x] 短信验证码接入
 - [x] 修改安全密码
 
-
+<!-- tabs:end -->
 
 ### composer
 

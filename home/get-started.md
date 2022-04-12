@@ -44,17 +44,17 @@ Bootstrap 的官方开源 SVG 图标库。
 
 ## icon
 
-?> 图标
+?> 图标 （本文档使用中的 Icon）
 
- <i class="ri-links-line"></i> [图标字体库](/front-end/?id=图标字体库)
+| Name                                                         | Preview                                                      | Code                                                         | Size class                                                   |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <i class="ri-links-line"></i>[Iconfont - 阿里巴巴矢量图标库](/front-end/?id=iconfont-阿里巴巴矢量图标库) | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |
+| <i class="ri-links-line"></i> [Font Awesome](/front-end/?id=) | <i class="fa fa-link"></i><br /><i class="fa fa-link fa-lg"></i> | `<i class="fa fa-link"></i>`                                 | `fa-lg` `fa-2x` `fa-3x` `fa-4x` `fa-5x`                      |
+| <i class="ri-links-line"></i> [Bootstrap Icons](/front-end/?id=bootstrap-icons) | <i class="bi bi-link-45deg"></i>                             | `<i class="bi bi-link-45deg"></i>`                           |                                                              |
+| <i class="ri-links-line"></i> [Remix Icon](/front-end/?id=remix-icon) | <i class="ri-links-line"></i>                                | `<i class="ri-links-line"></i>`                              | `ri-fw` `ri-xxs` `ri-xs` `ri-sm` `ri-1x` `ri-lg` `ri-xl` `ri-2x`  `ri-3x` ... `ri-10x` [<i class="fa fa-external-link"></i>](https://github.com/Remix-Design/RemixIcon/blob/master/README_CN.md#%E5%A4%A7%E5%B0%8F) |
+| <i class="ri-links-line"></i> [File Icons](/front-end/?id=file-icons) | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |
 
 
-| Preview                          | Name                  | Code                                                       |
-| ---------------------------------- | ----------------------- | ------------------------------------------------------------ |
-| <i class="bi bi-link-45deg"></i> | Bootstrap Icon        | `<i class="bi bi-link-45deg"></i>`                         |
-| <i class="ri-links-line"></i> | Remix Icon | `<i class="ri-links-line"></i>` |
-| <i class="fa fa-link"></i>       | Fontawesome Icon      | `<i class="fa fa-link"></i>`                               |
-| <i class="fa fa-link fa-lg"></i> | Fontawesome Icon Size | `<i class="fa fa-link fa-lg fa-2x fa-3x fa-4x fa-5x"></i>` |
 
 ## emoji
 
@@ -63,7 +63,7 @@ Bootstrap 的官方开源 SVG 图标库。
 `Emoji` 实际上是 UTF-8 (Unicode) 字符集上的字符。
 UTF-8 几乎涵盖了世界上所有的字符和符号。
 
-<i class="fa fa-external-link"></i> https://emojipedia.org/
+
 
 <i class="fa fa-external-link"></i> https://www.webfx.com/tools/emoji-cheat-sheet/
 
@@ -75,6 +75,10 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 
 <i class="fa fa-link"></i> [<i class="icon octicon-file markdown-icon"></i> Markdown](/home/markdown.md?id=emoji表情 "Markdown")
 
+---
+
+<i class="fa fa-external-link"></i> 👍 https://emojipedia.org/ 👇
+
 
 | 简码                     | 效果                   | 描述                           | emoji | 用途/使用场景    |
 | -------------------------- | ------------------------ | -------------------------------- | ------- | ------------------ |
@@ -84,7 +88,7 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:heart:`                | :heart:                | [Red Heart](https://emojipedia.org/red-heart/) | ❤️  | like             |
 | `:two_hearts:`           | :two_hearts:           | [Two Hearts](https://emojipedia.org/two-hearts/) | 💕    | double like      |
 | `:name_badge:`           | :name_badge:           | [Name Badge](https://emojipedia.org/name-badge/) | 📛    |                  |
-| `:sparkles:`             | :sparkles:             | [Sparkles](https://emojipedia.org/sparkles/) | ✨    |                  |
+| `:sparkles:`             | :sparkles:             | [Sparkles](https://emojipedia.org/sparkles/) | ✨    | 常用 |
 | `:tada:`                 | :tada:                 | Party Popper                   | 🎉    |                  |
 | `:smiley:`               | :smiley:               | Grinning Face with Big Eyes    | 😃    |                  |
 | `:blush:`                | :blush:                | Smiling Face with Smiling Eyes | 😊    |                  |
@@ -93,19 +97,21 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:muscle:`               | :muscle:               | Muscle                         | 💪    |                  |
 | `:thumbsup:`             | :thumbsup:             | [Thumbs Up](https://emojipedia.org/thumbs-up/) | 👍    | 推荐/点赞        |
 | `:clap:`                 | :clap:                 | Clapping Hands                 | 👏    |                  |
+| `:point_down:` | :point_down: | [Backhand Index Pointing Down](https://emojipedia.org/backhand-index-pointing-down/) | 👇 | 例：参考链接 👇 |
 | `:writing_hand:`         | :writing_hand:         | Writing Hand                   | ✍️  | 编辑中           |
 | `:heavy_check_mark:`     | :heavy_check_mark:     | Check Mark                     | ✔️  |                  |
 | `:x:`                    | :x:                    | Cross Mark                     | ❌    |                  |
 | `:chestnut:`             | :chestnut:             | Chestnut                       | 🌰    | 举例             |
 | `:warning:`              | :warning:              | Warning                        | ⚠️  | 注意/警告        |
 | `:eyes:`                 | :eyes:                 | Eyes                           | 👀    | 待查看           |
-| `:new_moon`:             | :new_moon:             | New Moon                       | 🌑    | 进度（0%）       |
-| `:new_moon_with_face:`   | :new_moon_with_face:   | New Moon Face                  | 🌚    | 进度（0%）       |
-| `:waning_crescent_moon:` | :waning_crescent_moon: | Waning Crescent Moon           | 🌘    | 进度（25%）      |
-| `:last_quarter_moon:`    | :last_quarter_moon:    | Last Quarter Moon              | 🌗    | 进度（50%）      |
-| `:waning_gibbous_moon:`  | :waning_gibbous_moon:  | Waning Gibbous Moon            | 🌖    | 进度（75%）      |
-| `:full_moon:`            | :full_moon:            | Full Moon                      | 🌕    | 进度（100%）     |
-| `:open_hands:`           | :open_hands:           | Open Hands                     | 👐    | 分享             |
+| `:new_moon`:             | :new_moon:             | [New Moon](https://emojipedia.org/new-moon/) | 🌑    | 进度（0%）       |
+| `:new_moon_with_face:`   | :new_moon_with_face:   | [New Moon Face](https://emojipedia.org/new-moon-face/) | 🌚    | 进度（0%）       |
+| `:waning_crescent_moon:` | :waning_crescent_moon: | [Waning Crescent Moon](https://emojipedia.org/waning-crescent-moon/) | 🌘    | 进度（25%）      |
+| `:last_quarter_moon:`    | :last_quarter_moon:    | [Last Quarter Moon](https://emojipedia.org/last-quarter-moon/) | 🌗    | 进度（50%）      |
+| `:waning_gibbous_moon:`  | :waning_gibbous_moon:  | [Waning Gibbous Moon](https://emojipedia.org/waning-gibbous-moon/) | 🌖    | 进度（75%）      |
+| `:full_moon:`            | :full_moon:            | [Full Moon](https://emojipedia.org/full-moon/) | 🌕    | 进度（100%）     |
+| `:full_moon_with_face:` | :full_moon_with_face: | [Full Moon Face](https://emojipedia.org/full-moon-face/) | 🌝 | 进度（100%） |
+| `:open_hands:`           | :open_hands:           | [Open Hands](https://emojipedia.org/open-hands/) | 👐    | 分享             |
 | `:art:` | :art: | [Artist Palette](https://emojipedia.org/artist-palette/) | 🎨 | 主题 |
 
 
@@ -255,6 +261,32 @@ https://xflihaibo.github.io/docs/#/standard/standard
 #### emoji <!-- {docsify-ignore} -->
 
 https://github.com/TaQini/docsify-twemoji
+
+#### tabs（选项卡）
+
+https://github.com/jhildenbiddle/docsify-tabs
+
+https://jhildenbiddle.github.io/docsify-themeable/#/markdown
+
+```markdown
+<!-- tabs:start -->
+
+#### **English**
+
+Hello!
+
+#### **French**
+
+Bonjour!
+
+#### **Italian**
+
+Ciao!
+
+<!-- tabs:end -->
+```
+
+
 
 ### Showcase
 

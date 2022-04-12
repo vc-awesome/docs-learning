@@ -2,7 +2,6 @@
 * [宝塔](/tools/bt.md "宝塔")
 * [YApi](/tools/yapi.md "api文档工具")
 * [浏览器](/tools/browser.md "浏览器")
-* [跨域请求调试工具](/tools/跨域请求调试工具.md "跨域请求调试工具")
 * [Phpstorm](/tools/phpstorm.md "JetBrains系列编辑器 - Phpstorm")
 * [Phpstudy](/tools/phpstudy.md "Phpstudy")
 * [Postman](/tools/postman.md "Postman")

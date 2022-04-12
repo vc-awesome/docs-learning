@@ -69,13 +69,13 @@ https://bs4.dashgame.com/pages/extend.html
 | <i class="fa fa-windows fa-lg"></i>          | 操作系统         | `<i class="fa fa-windows"></i>`          |
 | <i class="fa fa-apple fa-lg"></i>            | 操作系统         | `<i class="fa fa-apple"></i>`            |
 | <i class="fa fa-android fa-lg"></i>          | 操作系统         | `<i class="fa fa-android"></i>`          |
-| <i class="fa fa-skype fa-lg"></i>            |                  | `<i class="fa fa-skype"></i>`            |
+| <i class="fa fa-skype fa-lg"></i>            | SKYPE            | `<i class="fa fa-skype"></i>`            |
 | <i class="fa fa-bug fa-lg"></i>              | 异常             | `<i class="fa fa-bug"></i>`              |
 | <i class="fa fa-book fa-lg"></i>             | 书籍/手册        | `<i class="fa fa-book"></i>`             |
 | <i class="fa fa-list-ul fa-lg"></i>          | 目录             | `<i class="fa fa-list-ul"></i>`          |
 | <i class="fa fa-code fa-lg"></i>             | 代码             | `<i class="fa fa-code"></i>`             |
 | <i class="fa fa-filter fa-lg"></i>           | 筛选             | `<i class="fa fa-filter"></i>`           |
-| <i class="fa fa-hand-grab-o fa-lg"></i>      |                  | `<i class="fa fa-hand-grab-o"></i>`      |
+| <i class="fa fa-hand-grab-o fa-lg"></i>      | 加油             | `<i class="fa fa-hand-grab-o"></i>`      |
 | <i class="fa fa-home fa-lg"></i>             | 主页（中文）     | `<i class="fa fa-home"></i>`             |
 | <i class="fa fa-laptop fa-lg"></i>           | homepage（英文） | `<i class="fa fa-laptop"></i>`           |
 | <i class="fa fa-language fa-lg"></i>         | 语言             | `<i class="fa fa-language"></i>`         |
@@ -212,6 +212,14 @@ http://google.github.io/material-design-icons/
 
 
 <i class="fa fa-laptop"></i>  <i class="fa fa-shopping-cart"></i> https://glyphicons.com/
+
+
+
+### vscode-icons
+
+?> Icons for Visual Studio Code
+
+<i class="fa fa-github fa-lg"></i> https://github.com/vscode-icons/vscode-icons/
 
 
 

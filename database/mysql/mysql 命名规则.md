@@ -51,37 +51,26 @@ PRIMARY KEY ( `id` )
 
 ## *会员表/ user|member
 
-member_name|member_account|member_username [varchar(50) NOT NULL] 用户名
+| 序号 | 注释                                                         | 字段名                                               | 类型（长度） | NULL                          |
+| ---- | ------------------------------------------------------------ | ---------------------------------------------------- | ------------ | ----------------------------- |
+| 1    | 用户名                                                       | member_name<br />member_account<br />member_username | varchar(50)  | NOT NULL                      |
+| 2    | 真实姓名                                                     | member_truename                                      | varchar(20)  |                               |
+| 3    | 昵称                                                         | member_nickname                                      | varchar(20)  |                               |
+| 4    | 会员头像                                                     | member_avatar                                        | varchar(255) |                               |
+| 5    | 实名认证状态<br /> 0默认<br />1审核中<br />2未通过<br />3已认证 | member_auth_state                                    | tinyint(1)   | unsigned NOT NULL DEFAULT '0' |
+| 6    | 会员身份                                                     | member_identity                                      | varchar(255) |                               |
+| 7    | 实名认证身份证号                                             | member_idcard<br />member_identity                   | varchar(255) |                               |
+| 8    | 手持身份证照                                                 | member_idcard_image1                                 | varchar(255) |                               |
+| 9    | 身份证正面照                                                 | member_idcard_image2                                 | varchar(255) |                               |
+| 10   | 身份证反面照                                                 | member_idcard_image3                                 | varchar(255) |                               |
+| 11   | 图片 url 地址                                                | member_image_src                                     | varchar(255) |                               |
+| 12   | 登录密码                                                     | member_login_password                                | varchar(32)  |                               |
+| 13   | 支付密码                                                     | member_payment_password<br />member_paypwd           | varchar(32)  |                               |
+| 14   | 安全密码                                                     | member_security_password                             | varchar(32)  |                               |
+| 15   | 会员邮箱                                                     | member_email                                         | varchar(50)  |                               |
+| 16   | 手机号码                                                     | member_mobile                                        | varchar(11)  |                               |
 
-member_truename [varchar(20)] 真实姓名
 
-member_nickname [varchar(20)] 昵称
-
-member_avatar [varchar(255)] 会员头像
-
-member_auth_state [tinyint(1) unsigned NOT NULL DEFAULT '0'] 实名认证状态（0默认1审核中2未通过3已认证）
-
-member_identity [varchar(255)] 会员身份
-
-member_idcard|member_identity [varchar(255)] 实名认证身份证号
-
-member_idcard_image1 [varchar(255)] 手持身份证照
-
-member_idcard_image2 [varchar(255)] 身份证正面照
-
-member_idcard_image3 [varchar(255)] 身份证反面照
-
-member_image_src [varchar(255)] 图片url地址
-
-member_login_password [varchar(32)] 登录密码
-
-member_payment_password|member_paypwd [varchar(32)] 支付密码
-
-member_security_password [varchar(32)] 安全密码
-
-member_email [varchar(50)] 会员邮箱
-
-member_mobile [varchar(11)] 手机号码
 
 member_addtime [int(11)] 会员注册时间
 
@@ -404,11 +393,12 @@ PRIMARY KEY ( `id` )
 
 ## 银行账户/ bank
 
-`bank_account_name` 开户名
+* `bank_account_name` 开户名
 
-`bank_card_number` 开户卡号/ 银行卡号
+* `bank_card_number` varchar(50) NULL DEFAULT NULL 开户卡号/ 银行卡号
 
-`bank_name` 开户行
+* `bank_name` varchar(100) NULL DEFAULT NULL 开户行
+* `image_url` varchar(255) NULL DEFAULT NULL 收款码
 
 `bank_branch` 开户支行
 

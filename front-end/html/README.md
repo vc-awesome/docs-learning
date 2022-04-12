@@ -76,3 +76,10 @@ todo...
 <footer class="footer"></footer>
 ```
 
+
+
+## html页面
+
+### 404页面
+
+参考页面 https://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip

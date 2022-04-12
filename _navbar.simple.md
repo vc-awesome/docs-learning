@@ -10,8 +10,10 @@
 
 - Back-end
   - [<span class="icon octicon-file php-icon dark-blue "></span> php](/back-end/php/)
-  - [thinkphp](/back-end/thinkphp/)
-
+  - [<i class="fa fa-fire medium-green"></i> thinkphp](/back-end/thinkphp/)
+  - [<span class="icon octicon-file docker-icon dark-blue"></span> docker](/back-end/docker.md "Docker")
+  - <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" style="margin-left: 8px;"/>travis-ci
+  
 - Database
   - [<i class="iconfont icon-mysql"></i> mysql](/database/mysql/)
   - [<i class="iconfont icon-redis"></i> redis](/database/redis/)

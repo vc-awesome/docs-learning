@@ -15,6 +15,9 @@
   <!-- Theme: Simple (latest v0.x.x) -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
+  <!-- Shortcut icon-->
+  <link rel="shortcut icon" href="//docsify.js.org/_media/favicon.ico">
+
   <style>
       .markdown-section code:not([class*="lang-"]):not([class*="language-"]) {
           white-space: pre-wrap;
@@ -43,6 +46,11 @@
 
 <!--JavaScript-->
 <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-is@18.0.0/umd/react-is.production.min.js"></script>
+<script src="//unpkg.com/styled-components/dist/styled-components.min.js"></script>
 <script>
 
   // Docsify
@@ -82,7 +90,7 @@
       function (hook, vm) {
         hook.beforeEach(function (html) {
           return (
-              '<div style="overflow: auto;"><code> Last modified: {docsify-updated} </code></div>\n\n'
+              '<div style="/*overflow: auto;*/"><code> Last modified: {docsify-updated} </code></div>\n\n'
               + html
           );
         });
@@ -115,6 +123,10 @@
       target: 'h2, h3, h4, h5, h6'
     },
   }
+
+  const Component = window.styled.div`
+  color: red;
+`
 </script>
 <!--docsify-->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>

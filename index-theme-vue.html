@@ -149,7 +149,7 @@
       function (hook, vm) {
         hook.beforeEach(function (html) {
           return (
-              '<div style="overflow: auto;"><code> Last modified: {docsify-updated} </code></div>\n\n'
+              '<div style="/*overflow: auto;*/"><code> Last modified: {docsify-updated} </code></div>\n\n'
               + html
           );
         });
