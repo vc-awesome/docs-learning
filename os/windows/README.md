@@ -43,3 +43,8 @@
 
 [Win10中怎么添加泰语补充字体](https://jingyan.baidu.com/article/22fe7ced0085677103617f01.html)
 
+
+
+## windows hyper-v
+
+Windows虚拟机Hyper-v的安装及使用教程 https://baijiahao.baidu.com/s?id=1682327494844437724

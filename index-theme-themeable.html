@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
@@ -23,9 +23,31 @@
           white-space: pre-wrap;
       }
 
-      /*导航栏*/
+      /* Navbar */
       nav.app-nav {
           z-index: 1000000;
+      }
+      /* Image icon */
+      nav img.img-icon {
+          /* Mobile */
+          margin-right: 5px;
+      }
+      nav.app-nav img.img-icon {
+          /* PC */
+          margin-left: 7px;
+      }
+      /* Font icon */
+      .mysql-icon:before {
+          font-family: Mfizz,serif;
+          font-size: 14px;
+          content: "\f137";
+          top: 1px;
+      }
+      .redis-icon:before {
+          font-family: Mfizz,serif;
+          font-size: 15px;
+          content: "\f14f";
+          top: 1px;
       }
 
       /* 设置（目录）滚动条的样式 */

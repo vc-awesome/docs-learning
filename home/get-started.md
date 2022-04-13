@@ -48,11 +48,12 @@ Bootstrap 的官方开源 SVG 图标库。
 
 | Name                                                         | Preview                                                      | Code                                                         | Size class                                                   |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <i class="ri-links-line"></i>[Iconfont - 阿里巴巴矢量图标库](/front-end/?id=iconfont-阿里巴巴矢量图标库) | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |
+| <i class="ri-links-line"></i> [Iconfont - 阿里巴巴矢量图标库](/front-end/?id=iconfont-阿里巴巴矢量图标库) | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |
 | <i class="ri-links-line"></i> [Font Awesome](/front-end/?id=) | <i class="fa fa-link"></i><br /><i class="fa fa-link fa-lg"></i> | `<i class="fa fa-link"></i>`                                 | `fa-lg` `fa-2x` `fa-3x` `fa-4x` `fa-5x`                      |
 | <i class="ri-links-line"></i> [Bootstrap Icons](/front-end/?id=bootstrap-icons) | <i class="bi bi-link-45deg"></i>                             | `<i class="bi bi-link-45deg"></i>`                           |                                                              |
 | <i class="ri-links-line"></i> [Remix Icon](/front-end/?id=remix-icon) | <i class="ri-links-line"></i>                                | `<i class="ri-links-line"></i>`                              | `ri-fw` `ri-xxs` `ri-xs` `ri-sm` `ri-1x` `ri-lg` `ri-xl` `ri-2x`  `ri-3x` ... `ri-10x` [<i class="fa fa-external-link"></i>](https://github.com/Remix-Design/RemixIcon/blob/master/README_CN.md#%E5%A4%A7%E5%B0%8F) |
-| <i class="ri-links-line"></i> [File Icons](/front-end/?id=file-icons) | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |
+| <i class="ri-links-line"></i> ❤️ [File Icons](/front-end/?id=file-icons) | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |
+| <i class="ri-links-line"></i> [Styled Icons](/front-end/?id=styled-icons) | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |
 
 
 
@@ -101,6 +102,7 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:writing_hand:`         | :writing_hand:         | Writing Hand                   | ✍️  | 编辑中           |
 | `:heavy_check_mark:`     | :heavy_check_mark:     | Check Mark                     | ✔️  |                  |
 | `:x:`                    | :x:                    | Cross Mark                     | ❌    |                  |
+| `:beetle:` | :beetle: | [Lady Beetle](https://emojipedia.org/lady-beetle/) | 🐞 | bug |
 | `:chestnut:`             | :chestnut:             | Chestnut                       | 🌰    | 举例             |
 | `:warning:`              | :warning:              | Warning                        | ⚠️  | 注意/警告        |
 | `:eyes:`                 | :eyes:                 | Eyes                           | 👀    | 待查看           |

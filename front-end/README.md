@@ -174,26 +174,28 @@ http://google.github.io/material-design-icons/
 
 <br>
 
-| 图标                                                         | 代码                                                         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <span class="icon octicon-file github-icon "></span>         | `<span class="icon octicon-file github-icon "></span>`       |
-| <span class="icon octicon-file vue-icon light-green "></span> | `<span class="icon octicon-file vue-icon light-green "></span>` |
-| <span class="icon octicon-file js-icon medium-yellow "></span> | `<span class="icon octicon-file js-icon medium-yellow "></span>` |
-| <span class="icon octicon-file editorconfig-icon medium-orange "></span> | `<span class="icon octicon-file editorconfig-icon medium-orange "></span>` |
-| <span class="icon octicon-file git-icon medium-red "></span> | `<span class="icon octicon-file git-icon medium-red "></span>` |
-| <span class="icon octicon-file php-icon dark-blue "></span>  | `<span class="icon octicon-file php-icon dark-blue "></span>` |
-| <span class="icon octicon-file npm-icon medium-red "></span> | `<span class="icon octicon-file npm-icon medium-red "></span>` |
-| <span class="icon octicon-file css3-icon medium-blue "></span> | `<span class="icon octicon-file css3-icon medium-blue "></span>` |
-| <span class="icon octicon-file composer-icon medium-yellow "></span> | `<span class="icon octicon-file composer-icon medium-yellow "></span>` |
-| <span class="icon octicon-file markdown-icon medium-blue "></span> | `<span class="icon octicon-file markdown-icon medium-blue "></span>` |
-| <span class="icon octicon-file html5-icon medium-orange "></span> | `<span class="icon octicon-file html5-icon medium-orange "></span>` |
-| <span class="icon octicon-file svg-icon dark-yellow "></span> | `<span class="icon octicon-file svg-icon dark-yellow "></span>` |
-| <span class="icon octicon-file book-icon medium-blue "></span> | `<span class="icon octicon-file book-icon medium-blue "></span>` |
-| <span class="icon octicon-file docker-icon dark-blue "></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |
+| 图标                                                         | 代码                                                         | Stylesheets |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
+| <span class="icon octicon-file github-icon "></span>         | `<span class="icon octicon-file github-icon "></span>`       | 原有        |
+| <span class="icon octicon-file vue-icon light-green "></span> | `<span class="icon octicon-file vue-icon light-green "></span>` | 原有        |
+| <span class="icon octicon-file js-icon medium-yellow "></span> | `<span class="icon octicon-file js-icon medium-yellow "></span>` | 原有        |
+| <span class="icon octicon-file editorconfig-icon medium-orange "></span> | `<span class="icon octicon-file editorconfig-icon medium-orange "></span>` | 原有        |
+| <span class="icon octicon-file git-icon medium-red "></span> | `<span class="icon octicon-file git-icon medium-red "></span>` | 原有        |
+| <span class="icon octicon-file php-icon dark-blue "></span>  | `<span class="icon octicon-file php-icon dark-blue "></span>` | 原有        |
+| <span class="icon octicon-file npm-icon medium-red "></span> | `<span class="icon octicon-file npm-icon medium-red "></span>` | 原有        |
+| <span class="icon octicon-file css3-icon medium-blue "></span> | `<span class="icon octicon-file css3-icon medium-blue "></span>` | 原有        |
+| <span class="icon octicon-file composer-icon medium-yellow "></span> | `<span class="icon octicon-file composer-icon medium-yellow "></span>` | 原有        |
+| <span class="icon octicon-file markdown-icon medium-blue "></span> | `<span class="icon octicon-file markdown-icon medium-blue "></span>` | 原有        |
+| <span class="icon octicon-file html5-icon medium-orange "></span> | `<span class="icon octicon-file html5-icon medium-orange "></span>` | 原有        |
+| <span class="icon octicon-file svg-icon dark-yellow "></span> | `<span class="icon octicon-file svg-icon dark-yellow "></span>` | 原有        |
+| <span class="icon octicon-file book-icon medium-blue "></span> | `<span class="icon octicon-file book-icon medium-blue "></span>` | 原有        |
+| <span class="icon octicon-file docker-icon dark-blue "></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` | 原有        |
+| <span class="icon octicon-file mysql-icon dark-blue "></span> | `<span class="icon octicon-file mysql-icon dark-blue "></span>` | 自定义      |
+| <span class="icon octicon-file redis-icon medium-red"></span> | `<span class="icon octicon-file redis-icon medium-red"></span>` | 自定义      |
 
 
 
-### styled-icons
+### Styled Icons
 
 ?> 💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components.<br><i class="fa fa-language dark-yellow"></i> 💅 流行的图标包，如Font Awesome、Material Design和Octicons，可作为React样式的组件提供。
 

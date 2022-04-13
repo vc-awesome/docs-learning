@@ -21,3 +21,9 @@
   Windows系统创建以点开头的文件或文件夹 https://www.jianshu.com/p/75705ff6db17
 
   怎么样建一个.开头的文件夹 https://jingyan.baidu.com/article/67508eb48f8436dccb1ce471.html
+  
+  
+  
+- 如何通过局域网共享文件夹
+
+  如何通过局域网共享文件夹 https://jingyan.baidu.com/article/ca2d939d2cc7acaa6c31cee1.html

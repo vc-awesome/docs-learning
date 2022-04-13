@@ -149,6 +149,22 @@ nginx反向代理允许跨域应该怎么设置 https://www.bt.cn/bbs/forum.php?
 
 
 
+### **chrome**
+
+1. 修改谷歌浏览器的配置
+
+2. 浏览器输入 url：`chrome://flags/#schemeful-same-site` 
+
+3. 将 *default* 改为 *disabled* 即可。
+
+
+
+参考链接 👇
+
+http和https跨域问题 https://blog.csdn.net/qq_40504777/article/details/118676848
+
+
+
  <!-- tabs:end -->
 
 

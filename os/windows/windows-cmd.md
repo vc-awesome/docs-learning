@@ -8,6 +8,10 @@
 
 查看系统配置 `msconfig`
 
+查看系统版本 `winver`
+
+打开注册表编辑器 `regedit`
+
 打开系统启动文件夹`shell:startup`	打开指定文件夹 （shell:指定文件夹名称）ps：无法打开系统Windows下的任何文件夹
 
 
