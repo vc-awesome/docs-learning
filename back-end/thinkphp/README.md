@@ -1,3 +1,17 @@
+![ThinkPHP](https://box.kancloud.cn/2015-12-12_566b6a10506a4.png) 
+
+## 官方
+
+主页：https://www.thinkphp.cn/
+
+Github：https://github.com/top-think
+
+开发手册：  
+*thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/  
+*thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/
+
+
+
 ## 开发规范
 
 *thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/353949  
@@ -201,11 +215,11 @@ lang('file_format',['jpeg,png,gif,jpg','2MB'])
 
 ## 应用模块
 
-!> 1. 尽量使用公共的方法，操作、修改方便
+!> 尽量使用公共的方法，操作、修改方便
 
-!> 2. 控制器（controller）方法命名使用驼峰
+!> 控制器（`controller`）方法命名使用驼峰
 
-!> 3. 功能（common.php）方法命名使用字母加下划线
+!> 功能（`common.php`）方法命名使用字母加下划线
 
 ### 后台应用 admin
 
@@ -238,6 +252,8 @@ v1
 v2
 
 ...
+
+v(n)
 
 
 

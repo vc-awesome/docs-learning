@@ -1,5 +1,32 @@
-- [<i class="fa fa-laptop"></i> Homepage](/home/)
+- [Homepage](/home/)
+- [Front-end](/front-end/)
+  - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
+  - [<i class="fa fa-css3 medium-blue"></i> css](/front-end/css/)
+  - [<i class="icon octicon-file js-icon medium-yellow"></i> javascript](/front-end/javascript/)
+  - [<i class="icon octicon-file node-icon"></i> node.js](/front-end/node.js/)
+  - [<i class="iconfont icon-uniapp dark-green"></i> uni-app](/front-end/uniapp/)
+  - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)
+- Back-end
+  - [<span class="icon octicon-file php-icon dark-blue "></span> php](/back-end/php/)
+  - [<i class="fa fa-fire medium-green"></i> thinkphp](/back-end/thinkphp/)
+  - [<span class="icon octicon-file docker-icon dark-blue"></span> docker](/back-end/docker.md "Docker")
+  - <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>travis-ci
+- Database
+  - [<i class="icon octicon-file mysql-icon dark-blue"></i> mysql](/database/mysql/)
+  - [<i class="icon octicon-file redis-icon medium-red"></i> redis](/database/redis/)
+- [OS](/os/)
+  - [<i class="fa fa-windows"></i> Windows](/os/windows/)
+  - [<i class="fa fa-linux"></i> Linux](/os/linux/)
+  - [<i class="fa fa-apple"></i> Mac](/os/mac/)
+- [Tools](/tools/)
+- More
+  - [开发框架](/开发框架/)
+  - [区块链](/区块链/)
+  - [设计模式](/设计模式/)
 
+<!--
+
+- [<i class="fa fa-laptop"></i> Homepage](/home/)
 - <i class="fa fa-folder-open-o"></i> [Front-end](/front-end/)
   - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
   - [<i class="fa fa-css3 medium-blue"></i> css](/front-end/css/)
@@ -7,24 +34,21 @@
   - [<i class="icon octicon-file node-icon"></i> node.js](/front-end/node.js/)
   - [<i class="iconfont icon-uniapp dark-green"></i> uni-app](/front-end/uniapp/)
   - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)
-
 - <i class="fa fa-folder-open-o"></i> Back-end
   - [<span class="icon octicon-file php-icon dark-blue "></span> php](/back-end/php/)
   - [thinkphp](/back-end/thinkphp/)
   - [<span class="icon octicon-file docker-icon dark-blue "></span> docker](/back-end/docker.md "Docker")
-  
 - <i class="fa fa-folder-open-o"></i> Database
   - [<i class="iconfont icon-mysql"></i> mysql](/database/mysql/)
   - [<i class="iconfont icon-redis"></i> redis](/database/redis/)
-
 - <i class="fa fa-folder-open-o"></i> [OS](/os/)
   - [<i class="fa fa-windows"></i> Windows](/os/windows/)
   - [<i class="fa fa-linux"></i> Linux](/os/linux/)
   - [<i class="fa fa-apple"></i> Mac](/os/mac/)
-
 - [<i class="fa fa-cube"></i> Tools](/tools/)
-
 - <i class="fa fa-ellipsis-h"></i>
   - [开发框架](/开发框架/)
   - [区块链](/区块链/)
   - [设计模式](/设计模式/)
+
+-->

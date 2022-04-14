@@ -17,7 +17,7 @@ keywords: [Pandoc, Tutorial, Export]
 
 
 
-## Todo
+## TODO
 
 如何 `markdown` 使用 `css` 编辑文本的样式?
 
@@ -91,27 +91,45 @@ keywords: [Pandoc, Tutorial, Export]
 
 #### 空格与换行
 
-- 空格
+<!-- tabs:start -->
 
-  > 在输入连续的空格后，Typora 会在编辑器视图里为你保留这些空格，但当你打印或导出时，这些空格会被省略成一个。 
-  > 你可以在源代码模式下，为每个空格前加一个 `\` 转义符，或者直接使用 HTML 风格的 `&nbsp;` 来保持连续的空格。
+##### **空格**
 
-- 软换行 <kbd>Shift</kbd> + <kbd>Enter</kbd>
+在输入连续的空格后，Typora 会在编辑器视图里为你保留这些空格，但当你打印或导出时，这些空格会被省略成一个。 
+你可以在源代码模式下，为每个空格前加一个 `\` 转义符，或者直接使用 HTML 风格的 `&nbsp;` 来保持连续的空格。
 
-  > 需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
 
-- 硬换行 <kbd>空格</kbd> + <kbd>空格</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
-  > 你可以通过 `空格 + 空格 + Shift + Enter` 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
+##### **软换行**
 
-- 换段 <kbd>Enter</kbd>
+<kbd>Shift</kbd> + <kbd>Enter</kbd>
 
-  > 你可以通过 `Enter` 完成一次换段。Typora 会自动帮你完成两次 `Shift + Enter` 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
+需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
+
+
+
+##### **硬换行**
+
+<kbd>空格</kbd> + <kbd>空格</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
+
+你可以通过 `空格 + 空格 + Shift + Enter` 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
+
+
+
+##### **换段**
+
+- <kbd>Enter</kbd>
+
+  你可以通过 `Enter` 完成一次换段。Typora 会自动帮你完成两次 `Shift + Enter` 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
 
 - 换段 连续两次 <kbd>Shift</kbd> + <kbd>Enter</kbd> 
 
-- **Windows 风格（CR+LF）与 Unix 风格（CR）的换行符：**CR 表示回车 `\r` ，即回到一行的开头，而 LF 表示换行 `\n` ，即另起一行。 
-  所以 Windows 风格的换行符本质是「回车 + 换行」，而 Unix 风格的换行符是「换行」。这也是为什么 Unix / Mac 系统下的文件，如果在 Windows 系统直接打开会全部在同一行内。 你可以在 `文件 - 偏好设置 - 编辑器 - 默认换行符` 中对此进行切换。
+<!-- tabs:end -->
+
+**Windows 风格（CR+LF）与 Unix 风格（CR）的换行符：**CR 表示回车 `\r` ，即回到一行的开头，而 LF 表示换行 `\n` ，即另起一行。 
+所以 Windows 风格的换行符本质是「回车 + 换行」，而 Unix 风格的换行符是「换行」。这也是为什么 Unix / Mac 系统下的文件，如果在 Windows 系统直接打开会全部在同一行内。 你可以在 `文件 - 偏好设置 - 编辑器 - 默认换行符` 中对此进行切换。
+
+
 
 #### 链接
 
@@ -232,10 +250,6 @@ _this text is surrounded by literal asterisks_
 
 
 
-##### 代码 {docsify-ignore}
-
-Use the `printf()` function.
-
 ##### **Markdown**
 
 ```markdown
@@ -250,120 +264,163 @@ _this text is surrounded by literal asterisks_
 ~~删除线~~
 
 <u>下划线</u>
-
-##### 代码
-Use the `printf()` function.
 ```
 
 <!-- tabs:end -->
 
 
 
-##### 代码块
+##### 代码/代码块
 
-*语法*
+<!-- tabs:start -->
 
-> ````markdown
-> ```
-> {
->   "firstName": "John",
->   "lastName": "Smith",
->   "age": 25
-> }
-> ```
-> ````
+###### **Rendered**
+
+*代码*
+
+Use the `printf()` function.
 
 
 
-*渲染效果*
-
-> ```
-> {
->   "firstName": "John",
->   "lastName": "Smith",
->   "age": 25
-> }
-> ```
+```
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+```
 
 
 
-###### 语法高亮
+*语法高亮*
 
-*语法*
+```json
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+```
 
-> ~~~markdown
-> ```json
-> {
->   "firstName": "John",
->   "lastName": "Smith",
->   "age": 25
-> }
-> ```
-> ~~~
+```javascript
+function test() {
+ console.log("notice the blank line before this function?");
+}
+```
 
+```php
+Indent paragraphs to include them in the footnote.
 
+`{ my code }`
 
-*渲染效果*
+Add as many paragraphs as you like.
 
-> ```json
-> {
->   "firstName": "John",
->   "lastName": "Smith",
->   "age": 25
-> }
-> ```
-
-
-
-> ```javascript
-> function test() {
->     console.log("notice the blank line before this function?");
-> }
-> ```
-> ```php
-> Indent paragraphs to include them in the footnote.
-> 
-> `{ my code }`
-> 
-> Add as many paragraphs as you like.
-> 
-> ```
+```
 
 
 
-###### 语法语言
+###### **Markdown**
 
-命令行语言
+*代码*
 
-`sh`、`shell`、`bash`、`powershell`
+```markdown
+Use the `printf()` function.
+```
+
+
+
+````markdown
+```
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+```
+````
+
+
+
+*语法高亮*
+
+> - 语法语言  
+>   命令行语言：`sh`、`shell`、`bash`、`powershell`
+
+~~~markdown
+```json
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+```
+~~~
+
+
+
+<!-- tabs:end -->
 
 
 
 ##### HTML标签
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> <code style="color: #c7254e;">`underline`</code>
-> ```
+###### **Rendered**
 
-
-
-*渲染效果*
-
-> <code style="color: #c7254e;">`underline`</code>
-
-*语法*
-
-> ```markdown
-> <span style="color:red">This text is red.</span>
-> ```
+<code style="color: #c7254e;">`underline`</code>
 
 
 
-*渲染效果*
+<span style="color:red">This text is red.</span>
 
-> <span style="color:red">This text is red.</span>
+
+
+<ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>
+
+
+
+*键盘*
+
+<kbd>Ctrl</kbd> + <kbd>F9</kbd>
+
+
+
+HTML entities like &reg; &#182;
+
+
+
+<details>
+ <summary>I have keys but no locks. I have space but no room. You can enter but can't leave. What am I?</summary>
+ A keyboard.
+</details>
+
+
+
+*iframe*
+
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+
+
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+
+###### **Markdown**
+
+```markdown
+<code style="color: #c7254e;">`underline`</code>
+```
+
+
+
+```markdown
+<span style="color:red">This text is red.</span>
+```
+
+
 
 ```html
 <style>
@@ -373,156 +430,117 @@ Use the `printf()` function.
 </style>
 ```
 
-*语法*
-
-> ```markdown
-> <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>
-> ```
 
 
-
-*渲染效果*
-
-> <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>
+```markdown
+<ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>
+```
 
 
 
-###### 键盘
+*键盘*
 
-*语法*
-
-> ```markdown
-> <kbd>Ctrl</kbd> + <kbd>F9</kbd>
-> ```
+```markdown
+<kbd>Ctrl</kbd> + <kbd>F9</kbd>
+```
 
 
 
-*渲染效果*
-
-> <kbd>Ctrl</kbd> + <kbd>F9</kbd>
-
-*语法*
-
-> ```markdown
-> HTML entities like &reg; &#182;
-> ```
+```markdown
+HTML entities like &reg; &#182;
+```
 
 
 
-*渲染效果*
-
-> HTML entities like &reg; &#182;
-
-*语法*
-
-> ```html
-> <details>
->     <summary>I have keys but no locks. I have space but no room. You can enter but can't leave. What am I?</summary>
->     A keyboard.
-> </details>
-> ```
+```html
+<details>
+ <summary>I have keys but no locks. I have space but no room. You can enter but can't leave. What am I?</summary>
+ A keyboard.
+</details>
+```
 
 
 
-*渲染效果*
+*iframe*
 
-> <details>
->     <summary>I have keys but no locks. I have space but no room. You can enter but can't leave. What am I?</summary>
->     A keyboard.
-> </details>
-
-
-
-*语法*
-
-> ```html
-> <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
-> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-> ```
+```html
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+```
 
 
 
-*渲染效果*
+```html
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
-> 下列的*渲染效果*仅在`typora`编辑器可见
->
-> <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
-> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
-**iframe**
-
-*语法*
-
-> ```html
-> <iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
-> ```
-
-
-
-*渲染效果*
-
-> <iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+<!-- tabs:end -->
 
 
 
 #### 列表
 
-##### 有序列表
+<!-- tabs:start -->
 
-*语法*
+##### **Rendered**
 
-> ```markdown
-> 1. 序号1
-> 2. 序号2
-> 3. 序号3
-> ```
+*有序列表*
 
-
-
-*渲染效果*
-
-> 1. 序号1
-> 2. 序号2
-> 3. 序号3
-
-##### 无序列表
-
-*语法*
-
-> ```markdown
-> - 序号1
-> - 序号2
-> - 序号3
-> ```
+1. 序号1
+2. 序号2
+3. 序号3
 
 
 
-*渲染效果*
+*无序列表*
 
-> - 序号1
-> - 序号2
-> - 序号3
-
-
-
-##### 任务列表
-
-*语法*
-
-> ```markdown
-> - [x] 任务1
-> - [ ] 任务2
-> - [ ] 任务3
-> ```
+- 序号1
+- 序号2
+- 序号3
 
 
 
-*渲染效果*
+*任务列表*
 
-> - [x] 任务1
-> - [ ] 任务2
-> - [ ] 任务3
+- [x] 任务1
+- [ ] 任务2
+- [ ] 任务3
+
+
+
+##### **Markdown**
+
+*有序列表*
+
+```markdown
+1. 序号1
+2. 序号2
+3. 序号3
+```
+
+
+
+*无序列表*
+
+```markdown
+- 序号1
+- 序号2
+- 序号3
+```
+
+
+
+*任务列表*
+
+```markdown
+- [x] 任务1
+- [ ] 任务2
+- [ ] 任务3
+```
+
+
+
+<!-- tabs:end -->
 
 
 

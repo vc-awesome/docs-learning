@@ -16,7 +16,9 @@
 
 <i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall
+<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪
+
+<i class="fa fa-github"></i> https://github.com/Ibroad/overthefirewall
 
 <i class="fa fa-github"></i> https://github.com/xiaoming2028/FreePAC
 
@@ -62,16 +64,35 @@
 
 
 
-## browser addons
+### tor
+
+<i class="fa fa-search"></i> *torbrowser*
+
+<i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> <i class="fa fa-android"></i> <i class="bi bi-ladder"></i> https://www.torproject.org/zh-CN/
+
+<i class="fa fa-github"></i> https://github.com/TheTorProject/gettorbrowser
+
+http://t-browser.sourceforge.net/
+
+## browser
+
+### addons / extensions
 
 <i class="fa fa-chrome"></i> <i class="fa fa-firefox"></i> <i class="fa fa-edge"></i>  <i class="fa fa-shopping-cart"></i> http://googlehelper.net/
 
 
 
-### Proxy SwitchyOmega
+#### Proxy SwitchyOmega
 
 ?> 轻松快捷地管理和切换多个代理设置。
 
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
 <i class="fa fa-github"></i> https://github.com/FelisCatus/SwitchyOmega
+
+
+
+### search engines 💪
+
+👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml
+

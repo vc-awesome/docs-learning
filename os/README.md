@@ -27,3 +27,13 @@ https://www.zhihu.com/question/26891149
 <i class="fa fa-apple"></i> https://github.com/jaywcjlove/awesome-mac
 
 <i class="fa fa-apple"></i> https://github.com/iCHAIT/awesome-macOS
+
+## 快捷键
+
+键盘快捷键 https://www.runoob.com/tags/html-keyboardshortcuts.html
+
+## 下载指南
+
+> download guide
+
+https://github.com/BeyondDimension/SteamTools/blob/develop/download-guide.md

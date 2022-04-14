@@ -1,7 +1,8 @@
+<details>
+<summary>A magical documentation site generator. <span style="color:red">(click to expand)</span></summary>
+
 > 切换主题 [vue](../index-theme-vue.html) [themeable](../index-theme-themeable.html)
 
-<details>
-<summary>A magical documentation site generator.<span style="color:red">(click to expand)</span></summary>
 
 
 
@@ -33,16 +34,29 @@ Bootstrap 的官方开源 SVG 图标库。
 
 ## todo :memo:
 
-- [ ] markdown yaml front matter
-- [ ] github
+<details>
+<summary>Click to Expand</summary>
+
+
+- [ ] [markdown yaml front matter](/home/markdown)
+- [ ] [github](/home/github)
+- [ ] [YApi](/tools/yapi)
+- [ ] [ThinkPHP](/back-end/thinkphp/)
+- [ ] [MySQL](/database/mysql/)
 - [ ] awesome
-- [ ] 开发框架
+- [ ] [开发框架](/开发框架/)
 - [ ] 图标字体
 - [ ] 提交代码至远程仓库
+- [ ] [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+
+</details>
 
 
 
 ## icon
+
+<details>
+<summary><span style="color:red">(click to expand)</span></summary>
 
 ?> 图标 （本文档使用中的 Icon）
 
@@ -55,16 +69,19 @@ Bootstrap 的官方开源 SVG 图标库。
 | <i class="ri-links-line"></i> ❤️ [File Icons](/front-end/?id=file-icons) | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |
 | <i class="ri-links-line"></i> [Styled Icons](/front-end/?id=styled-icons) | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |
 
+</details>
+
 
 
 ## emoji
+
+<details>
+<summary><span style="color:red">(click to expand)</span></summary>
 
 ?> Emoji 是来自 UTF-8 字符集的字符: 😄 😍 💗。
 表情符号（英语：emoji，日语：絵文字／えもじ emoji），是使用在网页和聊天中的形意符号，最初是日本在无线通信中所使用的视觉情感符号（图画文字）。表情意指面部表情，图标则是图形标志的意思，可用来代表多种表情，如笑脸表示笑、蛋糕表示食物等。 Emoji 看起来像一张图片或图标，其实不是。
 `Emoji` 实际上是 UTF-8 (Unicode) 字符集上的字符。
 UTF-8 几乎涵盖了世界上所有的字符和符号。
-
-
 
 <i class="fa fa-external-link"></i> https://www.webfx.com/tools/emoji-cheat-sheet/
 
@@ -95,10 +112,13 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:blush:`                | :blush:                | Smiling Face with Smiling Eyes | 😊    |                  |
 | `:joy:`                  | :joy:                  | Face with Tears of Joy         | 😂    |                  |
 | `:ticket:`               | :ticket:               | Ticket                         | 🎫    |                  |
-| `:muscle:`               | :muscle:               | Muscle                         | 💪    |                  |
+| `:muscle:`               | :muscle:               | [Muscle](https://emojipedia.org/flexed-biceps/) | 💪    | 强悍 |
 | `:thumbsup:`             | :thumbsup:             | [Thumbs Up](https://emojipedia.org/thumbs-up/) | 👍    | 推荐/点赞        |
 | `:clap:`                 | :clap:                 | Clapping Hands                 | 👏    |                  |
 | `:point_down:` | :point_down: | [Backhand Index Pointing Down](https://emojipedia.org/backhand-index-pointing-down/) | 👇 | 例：参考链接 👇 |
+| `:point_right:` | :point_right: | [Backhand Index Pointing Right](https://emojipedia.org/backhand-index-pointing-right/) | 👉 |  |
+| `:point_left:` | :point_left: | [Backhand Index Pointing Left](https://emojipedia.org/backhand-index-pointing-left/) | 👈 |  |
+| `:point_up_2:` | :point_up_2: | [Backhand Index Pointing Up](https://emojipedia.org/backhand-index-pointing-up/) | 👆 |  |
 | `:writing_hand:`         | :writing_hand:         | Writing Hand                   | ✍️  | 编辑中           |
 | `:heavy_check_mark:`     | :heavy_check_mark:     | Check Mark                     | ✔️  |                  |
 | `:x:`                    | :x:                    | Cross Mark                     | ❌    |                  |
@@ -115,10 +135,18 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:full_moon_with_face:` | :full_moon_with_face: | [Full Moon Face](https://emojipedia.org/full-moon-face/) | 🌝 | 进度（100%） |
 | `:open_hands:`           | :open_hands:           | [Open Hands](https://emojipedia.org/open-hands/) | 👐    | 分享             |
 | `:art:` | :art: | [Artist Palette](https://emojipedia.org/artist-palette/) | 🎨 | 主题 |
+| `:snail:` | :snail: | [Snail](https://emojipedia.org/snail/) | 🐌 | 网速慢 |
+| `:turtle:` | :turtle: | [Turtle](https://emojipedia.org/turtle/) | 🐢 | 速度慢 |
+| `:rabbit2:` | :rabbit2: | [Rabbit](https://emojipedia.org/rabbit/) | 🐇 | 速度快 |
+
+</details>
 
 
 
 ## docsify
+
+<details>
+<summary><span style="color:red">(click to expand)</span></summary>
 
 ?> A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> <br>一个神奇的文档网站生成器。
 
@@ -312,7 +340,16 @@ https://vueblocks.github.io/ve-charts/#/
 
 看至：`gitmoji-changelog`
 
+
+
+</details>
+
+
+
 ## awesome
+
+<details>
+<summary><span style="color:red">(click to expand)</span></summary>
 
 ?> 😎 Awesome lists about all kinds of interesting topics.  
 <i class="bi bi-translate dark-yellow"></i>  
@@ -351,3 +388,5 @@ Github awesome 系列开源项目合集 https://www.cnblogs.com/fanbi/p/12807731
 Github最受欢迎的Awesome系列 https://blog.csdn.net/weixin_34404393/article/details/88021937
 
 GitHub 上的 Awesome 系列（资源大全系列） https://zhuanlan.zhihu.com/p/89873800
+
+</details>

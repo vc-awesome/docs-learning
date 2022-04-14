@@ -1,7 +1,19 @@
+![MySQL](https://labs.mysql.com/common/logos/mysql-logo.svg?v2 ':size=20%')  
+
+?> RDBMS（Relational Database Management System，关系数据库管理系统）
+MySQL是一种关系数据库管理系统，关系数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
+
+
+
 todo...
 
-RDBMS（Relational Database Management System，关系数据库管理系统）
-MySQL是一种关系数据库管理系统，关系数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
+
+
+## 官方
+
+主页：https://www.mysql.com/
+
+Github：https://github.com/mysql
 
 
 
@@ -132,9 +144,9 @@ distinct name,id 这样的mysql 会认为要过滤掉name和id两个字段都重
 
 MYSQL中可以实现类似 IF 判断的方法
 
-1. 方式一：`case` 函数：流程控制函数
+1. 方式一：`case` 函数：流程控制函数
 
-2. 方式二： `IF()` 函数
+2. 方式二： `IF()` 函数
 
 3. 方式三：字符串的集合操作 `ELT()`
 

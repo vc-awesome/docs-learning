@@ -50,6 +50,13 @@
           top: 1px;
       }
 
+      /* Tag a */
+      a {
+          /* 单词中断 */
+          word-break: break-word!important;
+          word-wrap: break-word!important;
+      }
+
       /* 设置（目录）滚动条的样式 */
       aside.toc-nav::-webkit-scrollbar {
           width: 0;
@@ -79,7 +86,7 @@
   window.$docsify = {
     // 基础配置
     // -----------------------------------------------------------------
-    loadNavbar: '_navbar.simple.md', // 加载自定义导航栏，default: true
+    loadNavbar: '_navbar.md', // 加载自定义导航栏，default: true
     loadSidebar: true, // 定制侧边栏
     autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
     subMaxLevel: 2, // 自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能

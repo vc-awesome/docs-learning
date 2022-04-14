@@ -4,7 +4,8 @@
 
 文档：https://docs.github.com/cn/
 
-品牌：https://brand.github.com/
+品牌：https://brand.github.com/  
+octodex https://octodex.github.com/
 
 Security Bug Bounty：https://bounty.github.com/
 
