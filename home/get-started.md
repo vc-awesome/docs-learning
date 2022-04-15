@@ -120,6 +120,8 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:point_left:` | :point_left: | [Backhand Index Pointing Left](https://emojipedia.org/backhand-index-pointing-left/) | 👈 |  |
 | `:point_up_2:` | :point_up_2: | [Backhand Index Pointing Up](https://emojipedia.org/backhand-index-pointing-up/) | 👆 |  |
 | `:writing_hand:`         | :writing_hand:         | Writing Hand                   | ✍️  | 编辑中           |
+| `:handshake:` | :handshake: | [Handshake](https://emojipedia.org/handshake/) | 🤝 | 中英译 |
+| `:open_hands:`           | :open_hands:           | [Open Hands](https://emojipedia.org/open-hands/) | 👐    | 分享             |
 | `:heavy_check_mark:`     | :heavy_check_mark:     | Check Mark                     | ✔️  |                  |
 | `:x:`                    | :x:                    | Cross Mark                     | ❌    |                  |
 | `:beetle:` | :beetle: | [Lady Beetle](https://emojipedia.org/lady-beetle/) | 🐞 | bug |
@@ -133,7 +135,6 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:waning_gibbous_moon:`  | :waning_gibbous_moon:  | [Waning Gibbous Moon](https://emojipedia.org/waning-gibbous-moon/) | 🌖    | 进度（75%）      |
 | `:full_moon:`            | :full_moon:            | [Full Moon](https://emojipedia.org/full-moon/) | 🌕    | 进度（100%）     |
 | `:full_moon_with_face:` | :full_moon_with_face: | [Full Moon Face](https://emojipedia.org/full-moon-face/) | 🌝 | 进度（100%） |
-| `:open_hands:`           | :open_hands:           | [Open Hands](https://emojipedia.org/open-hands/) | 👐    | 分享             |
 | `:art:` | :art: | [Artist Palette](https://emojipedia.org/artist-palette/) | 🎨 | 主题 |
 | `:snail:` | :snail: | [Snail](https://emojipedia.org/snail/) | 🐌 | 网速慢 |
 | `:turtle:` | :turtle: | [Turtle](https://emojipedia.org/turtle/) | 🐢 | 速度慢 |
