@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
 
   <!-- Shortcut icon-->
-  <link rel="shortcut icon" href="//docsify.js.org/_media/favicon.ico">
+  <link rel="shortcut icon" href="_media/bunny-color.png">
 
   <style>
       .markdown-section code:not([class*="lang-"]):not([class*="language-"]) {
@@ -67,6 +67,16 @@
       .page_toc div.active {
           border-left: 1px solid var(--sidebar-nav-link-color--active, #42b983)!important;
       }
+
+      /* scrollbar */
+      ::-webkit-scrollbar {
+          width: 4px;
+          height: 4px;
+      }
+      ::-webkit-scrollbar-thumb {
+          background-color: rgba(0,0,0,.4);
+          border-radius: 2em;
+      }
   </style>
 </head>
 
@@ -75,18 +85,13 @@
 
 <!--JavaScript-->
 <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
-
-<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-<script crossorigin src="https://unpkg.com/react-is@18.0.0/umd/react-is.production.min.js"></script>
-<script src="//unpkg.com/styled-components/dist/styled-components.min.js"></script>
 <script>
 
   // Docsify
   window.$docsify = {
     // 基础配置
     // -----------------------------------------------------------------
-    loadNavbar: '_navbar.md', // 加载自定义导航栏，default: true
+    loadNavbar: true, // 加载自定义导航栏，default: true
     loadSidebar: true, // 定制侧边栏
     autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
     subMaxLevel: 2, // 自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能
@@ -152,10 +157,6 @@
       target: 'h2, h3, h4, h5, h6'
     },
   }
-
-  const Component = window.styled.div`
-  color: red;
-`
 </script>
 <!--docsify-->
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>

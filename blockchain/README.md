@@ -4,7 +4,7 @@ todo...
 
 
 
-## TODO
+## todo :memo:
 
 开发手册（开发者中心）
 
@@ -12,13 +12,9 @@ todo...
 
 区块浏览器
 
- 
+
 
 web3
-
- 
-
-dapp
 
  
 
@@ -28,25 +24,25 @@ Infura
 
 部署节点服务器
 
- 
+
 
 全（主）节点 fullNode
 
 测试节点 solidityNode
 
- 
+
 
 主网 mainGatewayAddress
 
 侧网 sideGatewayAddress
 
- 
+
 
 主链 mainchain
 
 侧链 sidechain
 
- 
+
 
 公链
 
@@ -58,35 +54,37 @@ https://github.com/iexbase
 
 
 
-## 交易平台
+## platform
 
-### 火币
+### 交易平台
 
-官网：https://www.huobi.com/
+#### 火币
+
+官网：https://www.huobi.com/ <i class="bi bi-ladder"></i> 
+
+火币行情 api https://api.huobi.pro/market/tickers <i class="bi bi-ladder"></i>
+
+API文档：https://huobiapi.github.io/docs/spot/v1/cn/#5ea2e0cde2
+
+Github：https://github.com/huobiapi
 
 
 
-## 非小号
+### 信息平台
+
+https://tokenview.com/
+
+
+
+#### 非小号
 
 官网：https://www.feixiaohao.co/
 
 
 
-## FIL
-
-`Filecoin`
-
-官网：https://filecoin.io/
-
-区块浏览器：https://filscan.io/
-
-github：https://github.com/filecoin-project
-
-
-
 ## dapp
 
-👀 https://pancakeswap.finance/
+👀 
 
 https://dontbuymeme.com/
 
@@ -96,6 +94,63 @@ https://biswap.org/
 
 https://ido.parrot.fi/
 
-https://sunswap.com/ https://justswap.org/
-
 https://cryptomines.app/
+
+
+
+## glossary
+
+以太坊词汇表 https://ethereum.org/zh/glossary/
+
+❓ DEX（去中心化交易所） 💡 https://ethereum.org/zh/glossary/#dex
+
+❓ DeFi（去中心化金融） 💡 https://ethereum.org/zh/glossary/#defi
+
+❓ NFT（非同质化代币） 💡 https://ethereum.org/zh/glossary/#nft
+
+
+
+Question ❓
+
+Answer 👌 💡
+
+
+
+## develop
+
+### api
+
+币动
+http://bidong.io/
+
+
+
+#### CoinDog
+
+~~CoinDog官网~~
+~~http://www.coindog.com/~~
+
+~~行情接口 https://github.com/CoinDogApi/coindog-api/wiki/%E8%A1%8C%E6%83%85%E6%8E%A5%E5%8F%A3~~
+
+~~币值排行（前100名）*不稳定偶尔会雪崩* http://api.coindog.com/api/v1/currency/ranks~~
+
+
+
+#### 金色财经
+
+ api
+https://api.jinse.com/v6/coin/getList?page=1&limit=50&sortby=market_cap&order=desc&search=&currency=CNY
+
+行情 api
+https://api.jinse.com/v6/m/information/list?catelogue_key=fenxishishuo&flag=down&limit=10&information_id=0&version=9.9.9&_source=m
+
+学院 api
+https://api.jinse.com/v6/m/information/list?catelogue_key=xueyuan&flag=down&limit=10&information_id=0&version=9.9.9&_source=m
+
+
+
+#### 获取USD/CNY汇率
+
+https://dncapi.fxhapp.com/api/home/global data.usdt_price_cny
+
+https://dncapi.fxhapp.com/api/coin/web-rate data[12].cny

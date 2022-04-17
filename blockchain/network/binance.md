@@ -1,21 +1,25 @@
+![](https://dex-bin.bnbstatic.com/static/images/logo_BNB_Chain.svg) 
 
 
-## 官方
+
+## Official
 
 官网：  
-https://www.bnbchain.world/  
-https://www.binance.com/  
-https://www.binance.org/
+1️⃣ https://www.bnbchain.world/  
+2️⃣ https://www.binance.org/  
+3️⃣ <i class="bi bi-ladder"></i> https://www.binance.com/
+
+文档：  
+1️⃣ https://docs.bnbchain.world/  
+2️⃣ https://docs.binance.org/
 
 区块浏览器：https://www.bscscan.com/
 
 Github：https://github.com/bnb-chain
 
-文档：
 
 
-
-## token
+## Token
 
 `FIL`币智能合约地址：https://www.bscscan.com/token/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153
 
@@ -39,5 +43,22 @@ Github：https://github.com/bnb-chain
 
 
 
-## TODO
+### BEP-20
 
+https://docs.binance.org/smart-chain/developer/BEP20.html
+
+
+
+## Dapp
+
+### PancakeSwap 
+
+![](../_images/color-black.svg ':size=33%')
+
+> DeFi
+
+主页：https://pancakeswap.finance/
+
+文档：https://docs.pancakeswap.finance/
+
+Github：https://github.com/pancakeswap

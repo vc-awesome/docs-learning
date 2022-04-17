@@ -102,3 +102,17 @@ aside.toc-nav::-webkit-scrollbar-thumb {
     background-image: none!important;
     border-radius: 2em!important;
 }
+
+/* Font icon */
+.mysql-icon:before {
+    font-family: Mfizz,serif;
+    font-size: 14px;
+    content: "\f137";
+    top: 1px;
+}
+.redis-icon:before {
+    font-family: Mfizz,serif;
+    font-size: 15px;
+    content: "\f14f";
+    top: 1px;
+}
