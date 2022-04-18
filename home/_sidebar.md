@@ -3,7 +3,7 @@
 * [Markdown](/tools/markdown.md "Markdown")
 * [Git](/tools/git.md "Git")
 * [GitHub](/tools/github.md "GitHub")
-* [软件版本号](/tools/语义版本号.md "语义版本号")
+* [软件版本号](/home/语义版本号.md "语义版本号")
 
 <!--
 

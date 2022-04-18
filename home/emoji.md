@@ -63,4 +63,6 @@
 | `:snail:` | :snail: | [Snail](https://emojipedia.org/snail/) | 🐌 | 网速慢 |
 | `:turtle:` | :turtle: | [Turtle](https://emojipedia.org/turtle/) | 🐢 | 速度慢 |
 | `:rabbit2:` | :rabbit2: | [Rabbit](https://emojipedia.org/rabbit/) | 🐇 | 速度快 |
+| `:no_entry:` | :no_entry: | [No Entry](https://emojipedia.org/no-entry/) | ⛔ | 禁止，停用 |
+| `:no_entry_sign:` | :no_entry_sign: | [Prohibited](https://emojipedia.org/prohibited/) | 🚫 | 禁止，停用 |
 

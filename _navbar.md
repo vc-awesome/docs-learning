@@ -2,6 +2,7 @@
   - [<i class="ri-rocket-line"></i> Index](/home/)
   - [<i class="fa fa-book"></i> Book](/home/book.md)
   - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
+  - [<i class="fa fa-github fa-lg"></i> Github](/tools/github.md)
 - Front-end
   - [<i class="ri-rocket-line"></i> Index](/front-end/)
   - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
@@ -35,6 +36,7 @@
   - [设计模式](/设计模式/)
   - [BlockChain](/blockchain/)
   - [Project](/project/)
+  - [TechStack](/tech-stack/ "技术栈")
 
 <!--
 

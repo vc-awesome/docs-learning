@@ -116,3 +116,10 @@ aside.toc-nav::-webkit-scrollbar-thumb {
     content: "\f14f";
     top: 1px;
 }
+
+/* Tag a */
+a {
+    /* 单词中断 */
+    word-break: break-word!important;
+    word-wrap: break-word!important;
+}

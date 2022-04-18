@@ -152,6 +152,8 @@ https://github.com/boennemann/badges
 
 #### 👍 Badgen
 
+> Fast badge generating service
+
 主页：https://badgen.net/
 
 ![](https://badgen.net/badge/icon/apple?icon=apple&label)`![](https://badgen.net/badge/icon/apple?icon=apple&label)`
@@ -182,6 +184,8 @@ https://github.com/boennemann/badges
 
 #### 👍 Shields
 
+> Shields.io: Quality metadata badges for open source projects
+>
 > 设计自己的徽章
 
 主页：https://shields.io/

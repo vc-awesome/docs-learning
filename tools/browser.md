@@ -113,23 +113,29 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 <i class="bi bi-filetype-html"></i> <i class="bi bi-hand-thumbs-up"></i> https://www.runningcheese.com/extensions （浏览器必备，2021 年度最喜欢浏览器扩展）
 
-------
+
+
+### 下载
+
+CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 
 
 
-[✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+### 常用<i class="ri-rocket-line"></i>
 
-[✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。")
+[✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
+
+[✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
 
 [✔️EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog)
 
 [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
 
-[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。")
+[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
 [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
 
-[✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager")
+[✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
 
 ?> The world's most popular userscript manager.  
 <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
@@ -153,7 +159,7 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
 <i class="fa fa-github fa-lg"></i> https://github.com/justjavac/ReplaceGoogleCDN
 
-[skyZIP™ Proxy](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
+⛔[~~skyZIP™ Proxy~~](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
 
 [草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg)
 
@@ -166,6 +172,8 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 [Chrome版Todoist](https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh)
 
 [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
+
+[✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) *标签页定时刷新*
 
 ------
 
