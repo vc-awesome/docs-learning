@@ -1,8 +1,44 @@
 > A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> <br>一个神奇的文档网站生成器。
 
+![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github) ![GitHub Release Date](https://img.shields.io/github/release-date/docsifyjs/docsify?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social) ![npm](https://img.shields.io/npm/v/docsify?logo=npm&style=social)
+
 <i class="fa fa-laptop"></i> https://docsify.js.org/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/docsifyjs/docsify/
+
+
+
+<details>
+<summary>A magical documentation site generator. <span style="color:red">(click to expand)</span></summary>
+
+
+
+
+> 文档进阶之路：`记事本` > `word` > `markdown` > `docsify`
+
+```markdown
+?> A scalable set of icons handcrafted with <3 by GitHub.<br>  
+<i class="bi bi-translate dark-yellow"></i><br>  
+GitHub 使用 <3 手工制作的一组可扩展图标。
+```
+
+?> A scalable set of icons handcrafted with <3 by GitHub.<br><i class="bi bi-translate dark-yellow"></i><br>GitHub 使用 <3 手工制作的一组可扩展图标。
+
+---
+
+```markdown
+!> Official open source SVG icon library for Bootstrap.<br>  
+<i class="bi bi-translate dark-yellow"></i><br>  
+Bootstrap 的官方开源 SVG 图标库。
+```
+
+!> Official open source SVG icon library for Bootstrap.<br><i class="bi bi-translate dark-yellow"></i><br>Bootstrap 的官方开源 SVG 图标库。
+
+
+
+</details>
+
+
 
 ## Directory Structure
 

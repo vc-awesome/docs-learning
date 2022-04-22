@@ -3,6 +3,7 @@
   - [<i class="fa fa-book"></i> Book](/home/book.md)
   - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
   - [<i class="fa fa-github fa-lg"></i> Github](/tools/github.md)
+  - [<i class="icon octicon-file markdown-icon"></i> Markdown](/tools/markdown.md)
 - Front-end
   - [<i class="ri-rocket-line"></i> Index](/front-end/)
   - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
@@ -17,7 +18,7 @@
   - [<span class="icon octicon-file php-icon dark-blue "></span> php](/back-end/php/)
   - [<i class="fa fa-fire medium-green"></i> thinkphp](/back-end/thinkphp/)
   - [<span class="icon octicon-file docker-icon dark-blue"></span> docker](/back-end/docker.md "Docker")
-  - ![](https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg ':size=14x14 :class=img-icon')travis-ci
+  - [![](https://cdn.travis-ci.org/images/favicon-076a22660830dc325cc8ed70e7146a59.png ':size=14')travis-ci](/back-end/travis-ci.md "Travis Ci")
 - Database
   - [<i class="ri-rocket-line"></i> Index](/database/)
   - [<i class="icon octicon-file mysql-icon dark-blue"></i> mysql](/database/mysql/)

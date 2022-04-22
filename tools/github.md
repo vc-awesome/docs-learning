@@ -27,6 +27,8 @@ Bootstrap https://github.com/twbs
 
 饿了么前端 https://github.com/elemefe
 
+Metafizzy https://github.com/metafizzy （logo可爱而关注，前端）
+
 
 
 ## 功能
@@ -150,6 +152,28 @@ https://github.com/boennemann/badges
 
 ------
 
+#### 👍 Shields
+
+> Shields.io: Quality metadata badges for open source projects
+>
+> 可以设计自己的徽章
+
+主页：https://shields.io/
+
+Github：https://github.com/badges/shields
+
+
+
+[![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
+
+`[![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)`
+
+[![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
+
+`[![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)`
+
+
+
 #### 👍 Badgen
 
 > Fast badge generating service
@@ -172,6 +196,8 @@ https://github.com/boennemann/badges
 
 #### Fury
 
+> Version Badge for npm, RubyGems, PyPI, Bower and other packages
+>
 > 语言扩展包的版本
 
 主页：https://badge.fury.io/
@@ -179,28 +205,6 @@ https://github.com/boennemann/badges
 [![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)
 
 `[![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)`
-
-
-
-#### 👍 Shields
-
-> Shields.io: Quality metadata badges for open source projects
->
-> 设计自己的徽章
-
-主页：https://shields.io/
-
-Github：https://github.com/badges/shields
-
-
-
-[![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
-
-`[![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)`
-
-[![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
-
-`[![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)`
 
 
 
@@ -222,9 +226,22 @@ https://github.com/badges/stability-badges
 
 
 
+版本稳定性 👇
+
+| name         | badge                                                        | description |
+| ------------ | ------------------------------------------------------------ | ----------- |
+| Deprecated   | [![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges) | 已弃用      |
+| Experimental | [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges) | 试验        |
+| Unstable     | [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges) | 不稳定      |
+| Stable       | [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges) | 稳定        |
+| Frozen       | [![frozen](http://badges.github.io/stability-badges/dist/frozen.svg)](http://github.com/badges/stability-badges) | 冻结        |
+| Locked       | [![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges) | 锁定        |
+
+
+
 #### Awesome Lists
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 `[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)`
 
@@ -248,18 +265,86 @@ https://github.com/badges/stability-badges
 
 ## 工具
 
+### 扩展程序
+
 https://github.com/topics/github-extension
 
-### Tampermonkey 扩展程序
+<i class="ri-link"></i> [浏览器扩展程序 - Github](/tools/browser?id=github)
+
+#### Tampermonkey
 
 - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
 - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
-
 - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
+- [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
 
 
 
-### 在线工具
+### 加速工具
+
+👍 上万良心软件都在GitHub，你却还卡在无法访问？ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw
+
+- UsbEAm Hosts Editor https://www.dogfight360.com/blog/475/
+- steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/ **`using`**
+- FastGithub（WIN／Mac／Linux） https://github.com/dotnetcore/FastGithub
+
+👍 这里有超1亿个开源项目，结果你说它访问慢不好用？ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg
+
+使用Github/jsdelivr加速做远程图床教程 https://www.bilibili.com/read/cv13363398
+
+使用 jsDelivr CDN 加速 Github 仓库的图片，以作为博客的图床 https://juejin.cn/post/6844904095807979534
+
+👍 使用github版本库做图床(jsdelivr方案 / cdn 免费加速) https://www.cnblogs.com/yunweizhijun/p/14620107.html
+
+使用 jsDelivr CDN 对 Github 图床进行加速，带给你如丝滑般的图片体验！ https://blog.csdn.net/DreamHome_S/article/details/105957616
+
+#### 在线工具
 
 github加速（国内镜像，加速下载） https://www.cnblogs.com/jsfh/p/14509629.html
 
+
+
+## Awesome Lists
+
+
+> 😎 Awesome lists about all kinds of interesting topics.  
+> <i class="bi bi-translate dark-yellow"></i>  
+> 😎 关于各种有趣主题的精彩列表。
+
+![](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg) [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
+
+<i class="fa fa-github fa-lg"></i> https://github.com/sindresorhus/awesome
+
+<i class="fa fa-github fa-lg"></i></i> <i class="fa fa-search"></i> https://github.com/topics/awesome
+
+参考链接
+
+chaozh
+/
+awesome-blockchain-cn https://github.com/chaozh/awesome-blockchain-cn
+
+ziadoz
+/
+awesome-php https://github.com/ziadoz/awesome-php
+
+tiimgreen
+/
+github-cheat-sheet https://github.com/tiimgreen/github-cheat-sheet
+
+AllThingsSmitty
+/
+css-protips https://github.com/AllThingsSmitty/css-protips
+
+mundimark
+/
+awesome-markdown https://github.com/mundimark/awesome-markdown
+
+---
+
+Awesome系列：Github中不能错过的巨人肩膀 https://zhuanlan.zhihu.com/p/144053402
+
+Github awesome 系列开源项目合集 https://www.cnblogs.com/fanbi/p/12807731.html
+
+Github最受欢迎的Awesome系列 https://blog.csdn.net/weixin_34404393/article/details/88021937
+
+GitHub 上的 Awesome 系列（资源大全系列） https://zhuanlan.zhihu.com/p/89873800

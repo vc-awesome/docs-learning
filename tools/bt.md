@@ -42,6 +42,8 @@ https://www.aapanel.com/feature.html
 
 👍 宝塔面板FTP端口设置教程 (图文) https://www.idcnote.com/bt/14.html
 
+👍 宝塔 pure-ftpd 如何开启被动模式(PASV)连接 https://vpsvt.com/reed/443.html
+
 五、宝塔面板 FTP 安装与使用教程（图文步骤） https://www.php.cn/topic/bt/482698.html
 
 宝塔面板的ftp无法使用解决 https://www.cnblogs.com/pxjbk/articles/10046960.html
@@ -56,15 +58,13 @@ VsFtpd指定被动端口范围教程 https://blog.csdn.net/qq_22656871/article/d
 
 <i class="fa fa-github fa-lg"></i> https://github.com/jedisct1/pure-ftpd/
 
-
-
-宝塔 pure-ftpd 如何开启被动模式(PASV)连接 https://vpsvt.com/reed/443.html
+参考链接 👇
 
 Linux安装配置FTP(pure-ftpd) https://blog.csdn.net/renfeigui0/article/details/100163336
 
 
 
-## links
+## links<i class="ri-link-m"></i>
 
 宝塔面板 – 修改默认端口以及一些常用端口的安全设置 https://www.php.cn/blog/detail/23119.html
 

@@ -1,4 +1,4 @@
-![ThinkPHP](https://box.kancloud.cn/2015-12-12_566b6a10506a4.png) 
+![ThinkPHP](https://box.kancloud.cn/2015-12-12_566b6a10506a4.png) 
 
 ## 官方
 
@@ -986,6 +986,648 @@ public function searchUserIdAttr($query, $value, $data)
 
 
 
+## 验证
+
+后台表单令牌必验证
+
+在 `model` 中使用
+
+```php
+// 验证数据（thinkphp6 可用）
+$Validate = new \think\Validate();
+$validate_result = $Validate->check($data, [
+    'email|'.lang('邮箱')  => 'require|email|unique:user',
+    'password|'.lang('登录密码') => 'require|min:8|confirm',
+    'paypwd|'.lang('安全密码') => 'require|min:6|confirm',
+    'invit|'.lang('邀请码') => 'require',
+]);
+if (true !== $validate_result) {
+    exception($Validate->getError());
+}
+```
+
+在 `controller` 中使用
+
+```php
+// 验证数据（thinkphp6 可用）
+$validate_result = $this->validate($data, [
+    'email|'.lang('邮箱')  => 'require|email|unique:user',
+    'password|'.lang('登录密码') => 'require|min:8|confirm',
+    'paypwd|'.lang('安全密码') => 'require|min:6|confirm',
+    'email_captcha|'.lang('邮箱验证码') => 'require|length:6|number',
+    'invit|'.lang('邀请码') => 'require',
+    'is_accept|'.lang('勾选注册协议') => 'require|accepted',
+]);
+if (true !== $validate_result) {
+    exception($validate_result);
+}
+```
+
+
+
+### FAQs
+
+验证场景 `append` 追加的错误信息不能与 `protected $rule = [];` 中的一致，否则会跳过验证
+
+错误示例 🌰
+
+```php
+protected $rule = [
+    'to_amount|数量' => 'require|float|>:0',
+];
+public function sceneUserWithdraw()
+{
+    return $this->only([
+        'to_amount',
+    ])->append('to_amount|数量', 'checkWalletMoney:withdrawal');
+}
+```
+
+以上代码因为`数量`重复，所有会跳过验证，应该把其中的一个数量改为提现数量或者其他
+
+### 常用验证
+
+#### 账户内购买验证
+
+验证商品信息
+
+验证输入数量
+
+验证交易密码
+
+验证账户余额
+
+#### 会员注册
+
+- 用户名 username
+
+  必须|唯一|至少6位的字母加数字组合
+
+  `'require|unique:member|regex:/^(?![0-9]+$)(?![a-zA-Z]+$)[0-9A-Za-z]{6,}$/',`
+
+  或
+
+  `'require|unique:member|min:6|alphaNum',`
+
+- 昵称 nickname
+
+  必须|25位长度
+
+  `'require|max:25',`
+
+- 手机号 mobile
+
+  必须|是否为有效的手机|唯一
+
+  `'require|mobile|unique:user',`
+
+- 邮箱 email
+
+  必须|是否为email地址|唯一
+
+  `'require|email|unique:user',`
+
+   
+
+  `$regexp = "^([_a-z0-9-]+)(\.[_a-z0-9-]+)*@([a-z0-9-]+)(\.[a-z0-9-]+)*(\.[a-z]{2,4})$";`
+
+- 登录密码 password
+
+  必须|至少8位|是否和另外一个字段的值一致
+
+  `'require|min:8|confirm',`
+
+  error_message：登录密码不一致
+
+  
+
+  'password_require' => '请输入登录密码',
+
+  'password_min' => '登录密码至少8位',
+
+  'password_confirm' => '登录密码不一致',
+
+- 安全密码 payment_password / security_password
+
+  必须|至少6位|是否和另外一个字段的值一致|固定6位
+
+  `'require|min:6|confirm|length:6',`
+
+  error_message：支付密码不一致
+
+  
+
+  'payment_password_require' => '请输入安全密码',
+
+  'payment_password_min' => '安全密码至少6位',
+
+  'payment_password_confirm' => '安全密码不一致',
+
+  'payment_password_length' => '请输入6位安全密码',
+
+- 邀请码 invitation_code
+
+  见 composer 的 hashids/hashids
+
+- 短信验证码 sms_captcha
+
+  必须|数字|6位长度
+
+  `'require|number|length:6',`
+
+- 注册协议 is_accept
+
+  必须|是否已同意(已勾选)
+
+  `'require|accepted',`
+
+  error_message：未勾选隐私政策注册协议
+
+- 图片url地址 img_src
+
+  必须|否为有效的URL地址
+
+  `'require|url',`
+
+- 真实姓名
+
+  `'truename' => 'require',`
+
+  'truename_require' => '请输入姓名',
+
+  'truename_require' => 'Please type in your name',
+
+- 银行卡号
+
+  `'bank_card_number' => 'require|number',`
+
+  'bank_card_number_require' => '请输入银行卡号',
+
+  'bank_card_number_number' => '银行卡号必须是数字',
+
+  'bank_card_number_require' => 'Please enter bank card number',
+
+  'bank_card_number_number' => 'Bank card number must be a number',
+
+- 开户行
+
+  `'bank_name' => 'require',`
+
+  
+
+  'bank_name_require' => '请输入开户行',
+
+  'bank_name_require' => 'Please enter the bank',
+
+   
+
+- 身份证号码
+
+  `'idcard' => 'require|alphaNum',`
+
+  'idcard_require' => '请输入身份证号码',
+
+  'idcard_alphaNum' => '身份证号码只能是字母和数字',
+
+  'idcard_require' => 'Please enter your ID number',
+
+  'idcard_alphaNum' => 'ID number can only be letters and numbers',
+
+#### 正负整数
+
+```php
+!is_numeric($post_data['price']) || false !== strpos($post_data['price'], '.')
+```
+
+ 
+
+#### 数量
+
+```php
+if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] > 0)) {
+    exception('数量格式错误');
+    exception('兑换金额格式错误');
+}
+```
+
+ 
+
+规则
+
+`'money' => 'require|float|>:0',`
+
+`'money' => 'require|number|>:0', // 一定要带上 >:0，因为 number 包含0`
+
+ 
+
+错误信息
+
+填写大于0的数量
+
+填写正确的数量
+
+最低出售数量5枚
+
+ 
+
+#### 数量倍数
+
+规则
+
+- 方式一
+
+```php
+// 限制100的倍数
+$limit = 100;
+$multiple = $post_data['to_amount']/$limit;
+if (!preg_match('/^\d+$/', $multiple) || $multiple <= 0) {
+    return '数量为'. $limit. '的倍数';
+}
+```
+
+ 
+
+- 方式二（推荐）
+
+```php
+// 限制100的倍数
+$limit = 100;
+$multiple = $post_data['to_amount']/$limit;
+if (!preg_match('/^[1-9][0-9]*$/', $multiple)) { // 非零的正整数
+    return '数量为'. $limit. '的倍数';
+}
+```
+
+ 
+
+错误信息
+
+数量为`$limit`的倍数起售
+
+ 
+
+测试
+
+✔️$post_data[‘to_amount’] = 100 // 正确（测试结果：pass）
+
+✔️$post_data[‘to_amount’] = 10 // 错误（测试结果：pass）
+
+✔️$post_data[‘to_amount’] = 0 // 错误（测试结果：pass）
+
+✔️$post_data[‘to_amount’] = -10 // 错误（测试结果：pass）
+
+✔️$post_data[‘to_amount’] = -100 // 错误（测试结果：pass）
+
+ 
+
+多语言
+
+// 定义
+
+'数量为的倍数' => '数量为%d的倍数',
+
+// 使用
+
+lang('数量为的倍数', [$limit])
+
+ 
+
+ 
+
+'元素碎片枚起售倍数' => '元素碎片%d枚的倍数起售',
+
+'宝箱碎片枚起售倍数' => '宝箱碎片%d枚的倍数起售',
+
+ 
+
+#### 价格
+
+规则
+
+'price' => 'require|float|>:0',
+
+ 
+
+错误信息
+
+填写大于0的价格
+
+填写正确的价格
+
+最低出售价格5
+
+ 
+
+#### 钱包地址
+
+##### ETH / BSC钱包地址
+
+ 
+
+// ETH钱包地址 `0x258F9769Edd6957d1c1Cd25F265e9FDEDD0C00FC`
+
+// BSC钱包地址 `0xbe8abf163d5f020ee65ea6bff87043b5bfc6702a`
+
+- 方式 1（推荐）
+
+```php
+if (!preg_match('/^0[x|X][0-9a-zA-Z]{40}$/', $param_data['to_address'])) {
+    exception('地址格式错误');
+} else {
+    $result_data = $this->withdrawalErc20();
+}
+```
+
+ 
+
+- 方式 2（不够严谨）
+
+ 
+
+```php
+if (stripos($data['address'], '0x') !== 0 || strlen($data['address']) != 42) {
+    exception(lang('address_format_error'));
+}
+```
+
+ 
+
+测试
+
+✔️$data['address'] = '0x67712e1b7225ffad4d8281c3fbbe3372f7baca76'; // 正确（测试结果：pass）
+
+✔️$data['address'] = '0x67712e1b7225ffad4d8281c3fbbe3372f7baca7'; // 错误（测试结果：pass）
+
+✔️$data['address'] = '067712e1b7225ffad4d8281c3fbbe3372f7baca76'; // 错误（测试结果：pass）
+
+✔️$data['address'] = '67712e1b7225ffad4d8281c3fbbe3372f7baca76'; // 错误（测试结果：pass）
+
+✔️$data['address'] = '0x67712e1b72372f7baca76'; // 错误（测试结果：pass）
+
+❌$data['address'] = '0x67712e1b7225ffad4d8281c3fbbe3372f7baca7-'; // 正确（测试结果：fail）
+
+ 
+
+##### TRX钱包地址
+
+// TRX钱包地址 `TBF6qH2i9L7DWst5hrTShzrVGKvQ8qZ2xf`
+
+- 方式 1
+
+```php
+if (!preg_match('/^[t|T][0-9a-zA-Z]{33}$/', $param_data['to_address'])) {
+    exception('地址格式错误');
+} else {
+    $result_data = $this->withdrawalTrc20();
+}
+```
+
+ 
+
+- 方式 2
+
+```php
+if (!preg_match('/^[t|T][0-9a-zA-Z]{33}$/', $param_data['to_address'])) {
+    exception('TRON地址格式有误');
+}
+```
+
+ 
+
+- 方式 3
+
+```php
+if (stripos($data['withdrawal_address'], 'T') !== 0 && strlen($data['withdrawal_address']) != 34) {
+    exception('地址格式错误');
+}
+```
+
+ 
+
+#### 时间验证
+
+验证某个字段的值是否为指定格式的日期
+
+ 
+
+格式
+
+`'time' => 'dateFormat:H:m - H:m'`
+
+✔️正确
+
+10:00 - 11:00
+
+❌错误
+
+```
+10:00:00 - 11:00:00
+
+10:00:00 ~ 11:00:00
+
+10:00 ~ 11:00
+
+10:00 ~ 11:00:00
+```
+
+ 
+
+#### 手机号或者邮箱
+
+#### 错误信息
+
+- 当请求数据错误时提示：
+
+  请求参数异常 `param_error`
+
+ 
+
+- 当请求数据缺少时提示：
+
+  缺少必要参数 `miss_param`
+
+  ```php
+  $diff = [
+      'userid',
+      'money',
+      'currency_id',
+      'wallet_type',
+      'log_id',
+  ];
+  if (array_diff($diff, array_keys($data)) || array_diff(array_keys($data), $diff)) {
+      exception('缺少必要参数');
+  }
+  ```
+
+  
+
+- 当请求用户数据为空时提示：
+
+   无效的用户 `invalid_user`
+
+  
+
+- 当请求数据不等于某值或不在某范围内时提示：
+
+  无效的参数 `invalid_param`
+
+  
+
+- 当请求数据查库为空时提示：
+
+  请求数据有误 `request_data_error`
+
+
+
+- 当更新数据前已更新时提示：
+
+  此等级不可重复标记
+
+  
+
+- 当更新条件错误时显示：
+
+  数据（更新）异常 `update_error`
+
+
+
+#### 自定义验证
+
+tp5.1官方手册地址：[验证 -> 验证器 -> 自定义验证规则](https://www.kancloud.cn/manual/thinkphp5_1/354102)
+
+`checkMobileIsExist()` // 验证手机号码是否存在
+
+`checkUserIsExist()` // 验证用户是否存在
+
+`checkSecurityPassword` // 验证安全密码
+
+`checkWalletMoney()` // 验证钱包余额
+
+`checkSmsCaptcha()` // 验证短信验证码
+
+ 
+
+例 🌰：
+
+```php
+protected function checkUserIsExist($value, $rules, $data)
+{
+    switch ($rules)
+    {
+        case 'id':
+            $value = decode_invite_code($value);
+            break;
+        default:
+    }
+    $is_exist = \app\common\model\User::checkIsExist($rules, $value);
+    return $is_exist ? true : '推荐人不存在';
+}
+```
+
+ 
+
+```php
+namespace app\index\validate;
+
+use think\Validate;
+
+class User extends Validate
+{
+    protected $rule = [
+        'name'  =>  'checkName:thinkphp',
+        'email' =>  'email',
+    ];
+    
+    protected $message = [
+        'name'  =>  '用户名必须',
+        'email' =>  '邮箱格式错误',
+    ];
+    // 自定义验证规则
+    protected function checkName($value,$rule,$data=[]) {
+        return $rule == $value ? true : '名称错误';
+    }
+}
+```
+
+注：上面的`thinkphp`对应的是下面的`$rule`参数
+
+ 
+
+#### 验证场景
+
+注释格式
+
+```php
+/**
+ * 定义验证场景 - 用户绑定付款方式
+ * @return User
+ */
+```
+
+ 
+
+`adminCreate()` 管理员添加
+
+`userRegister()` 用户注册
+
+`userLogin()` 用户登录
+
+`userForgetPassword()` 忘记密码
+
+`userPurchase()` 用户购买
+
+`userTransfer()` 用户划转
+
+
+
+个人惯用
+
+```php
+$result = $this->validate($post_data, '\app\admin\validate\Machine');
+if (true !== $result) {
+    $this->error($result);
+}
+```
+
+ 
+
+#### **表单令牌**
+
+Tp6
+
+`<input type="hidden" name="__token__" value="{$token}" />`
+
+或
+
+`{:token_field()}`
+
+模板中使用`{$token}`，需要整个页面刷新后才会生成新的 **token**，使用 **ajax** 局部刷新只会生成同一个 **token**
+
+
+
+可尝试把 **token** 验证放到新增、更新数据之前验证
+
+
+
+```php
+// 验证数据
+$validate_result = $this->validate($param, [
+    'id' => 'require|number',
+    'password' => 'confirm|min:8',
+    'pay_pwd' => 'confirm|min:6|token' // 表单令牌,token放最后验证,防止最终验证完出现令牌错误
+],[
+    'password.confirm' => '登录密码不一致',
+    'password.min' => '登录密码至少8位',
+    'pay_pwd.confirm' => '支付密码不一致',
+    'pay_pwd.min' => '支付密码至少6位',
+]);
+if (true !== $validate_result) {
+    exception($validate_result);
+}
+```
+
+
+
 ## common.php
 
 ### 自定义日志处理
@@ -1257,142 +1899,9 @@ function cut_out($str) {
 
    
 
-## thinkphp3.2
-
-官方文档看至：`控制器->空控制器`
-
-> 类私有属性、方法命名方式：_parseType，通常下划线开头的方法属于私有方法；
-
-
-
-### sql批量更新
-
-```php
-/*
-批量更新
-@ $table_name 表名全名
-@ data 更新的数据 二位数组
-@ 返回执行行数
-@ 老-猫 2017-08-02
-*/
-function batch_update($table_name='',$data=array(),$field=''){
-
-	if(!$table_name||!$data||!$field){
-		return false;
-	}else{
-		$sql='UPDATE '.$table_name;
-	}
-
-	$con = array();
-	$con_sql = array();
-	$fields = array();
-
-	foreach ($data as $key => $value) {
-
-		$x=0;
-		foreach ($value as $k => $v) {
-
-			if ($k!=$field && !$con[$x] && $x==0){
-				$con[$x]=" set {$k} = (CASE {$field} ";
-			} elseif ($k != $field && !$con[$x] && $x>0) {
-				$con[$x]=" {$k} = (CASE {$field} ";
-			}
-
-			if($k!=$field){
-				$temp=$value[$field];
-				$con_sql[$x].= " WHEN '{$temp}' THEN '{$v}' ";
-				$x++;
-			}
-		}
-
-		$temp=$value[$field];
-
-		if (!in_array($temp,$fields)) {
-			$fields[] = $temp;
-		} 
-	
-	}
-	$num=count($con)-1;
-
-	foreach ($con as $key => $value) {
-
-	foreach ($con_sql as $k => $v) {
-
-	if($k==$key&&$key<$num){$sql.=$value.$v.' end),';}
-
-	elseif($k==$key&&$key==$num){$sql.=$value.$v.' end)';}
-	}
-	}
-	$str=implode(',',$fields);
-	$sql.=" where {$field} in({$str})";
-	$res = M()->execute($sql);
-	//$res =$sql;
-	return $res;
-}
-```
-
-
-
-**Thinkphp3.2 `assign()`/`display()`方法 要区分大小写**
-
-`APP_DEBUG true`调试模式下不区分大小写
-
-`APP_DEBUG false`非调试模式下区分大小写
-
- 
-
-`display()`方法
-
-例子：`display('taskadd');` 对应的静态页面命名必须是taskadd.html
-
-注意大小写要对应，不然在Linux下会找不到模板
-
-`assign()`方法
-
-例子：`assign('tasklist', $taskList);` 在模板页使用时，只能用name="tasklist"
-
-大小写要一定得对应，不然报错。
-
-
-
-## thinkphp5.0
-
-Thinkphp 5.0.21版本在php 7.2.9nts版本中使用增改 (insert、setInc...) 无法保存小数点后的数据（浮点型数据）
-
-(1) 切换非7.2版本的php
-
-(2) 使用原生sql语句写入
-
- 
-
-参考链接 [1](http://www.thinkphp.cn/bug/4622.html) [2](http://www.thinkphp.cn/bug/4664.html)
-
-
-
-## thinkphp5.1
-
---部署模式 --生产环境
-
---调试模式 --开发环境
-
-### 开发须知
-
-- 安全
-
-- 数据库-->查询构造器-->链式操作-->where -字符串条件
-  - 用字符串条件的时候，建议配合预处理机制，确保更加安全
-
-- 文件下载 --响应-->文件下载
-
-
-
-## thinkphp6.0
-
-
-
 ## composer
 
-<i class="ri-links-line"></i> [composer 类库](/开发框架/第三方类库)
+<i class="ri-links-fill"></i> [composer 类库](/开发框架/第三方类库)
 
 
 
@@ -1437,6 +1946,28 @@ Thinkphp 5.0.21版本在php 7.2.9nts版本中使用增改 (insert、setInc...) �
   ```
 
 
+
+### 源码中如何快速定位 thinkphp 版本?
+
+1. 打开项目根目录，找到 composer.json 文件并打开查看 topthink/framework 的值就是框架版本
+
+   ![](_images/thinkphp-图片1.png)
+
+2. 使用命令行“查看当前框架版本”
+
+   `php think version`
+
+### tp6 获取请求的模块名、类名和方法名
+
+参考链接：https://blog.csdn.net/haibo0668/article/details/117604658
+
+
+
+获取请求模块名：`$module = app('http')->getName();`
+
+### 使用 try catch 异常处理
+
+![](_images/thinkphp-图片2.png)
 
 
 ## 更多

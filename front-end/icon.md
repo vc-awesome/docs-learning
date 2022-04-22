@@ -114,6 +114,16 @@ https://bs4.dashgame.com/pages/extend.html
 
 
 
+## Ionicons
+
+> Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
+
+<i class="fa fa-laptop"></i> https://ionic.io/ionicons
+
+<i class="fa fa-github fa-lg"></i> https://github.com/ionic-team/ionicons
+
+
+
 ## Remix Icon
 
 ?> Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
@@ -121,6 +131,13 @@ https://bs4.dashgame.com/pages/extend.html
 <i class="fa fa-laptop"></i> https://remixicon.com/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
+
+| 图标                                  | 语境     | 代码                                    |
+| ------------------------------------- | -------- | --------------------------------------- |
+| <i class="ri-external-link-fill"></i> | 外部链接 | `<i class="ri-external-link-fill"></i>` |
+| <i class="ri-link"></i>               | 内部链接 | `<i class="ri-link"></i>`               |
+| <i class="ri-link-unlink"></i>        | 内部链接 | `<i class="ri-link-unlink"></i>`        |
+| <i class="ri-links-fill"></i>         | 内部链接 | `<i class="ri-links-fill"></i>`         |
 
 
 

@@ -71,7 +71,7 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 ### 横向滚动
 
-1. 长按 <kbd>Shift</kbd> + 上下滑动鼠标滚轮
+1. 长按 <kbd>Shift</kbd> + 上下滑动鼠标滚轮（To scroll a file horizontally, turn the mouse wheel while keeping <kbd>Shift</kbd> pressed.）
 
 
 
@@ -131,7 +131,7 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 
 [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
 
-[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
+[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
 [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
 
@@ -141,7 +141,7 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
 <i class="fa fa-github fa-lg"></i> https://github.com/derjanb  
 
-> > 脚本下载：https://greasyfork.org/zh-CN
+> 脚本下载：https://greasyfork.org/zh-CN
 >
 > 好用的脚本列表：
 >
@@ -241,6 +241,14 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 ?> This extension shows a VS Code icons in Github Repositories  
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/github-vscode-icons/hoccpcefjcgnabbmojbfoflggkecmpgd  
 <i class="fa fa-github fa-lg"></i> https://github.com/dderevjanik/github-vscode-icons
+
+
+
+GitHub加速
+
+?> Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!  
+<i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/github加速/ffjjnphohkfckeplcjflmgneebafggej  
+<i class="fa fa-github fa-lg"></i> https://github.com/fhefh2015/Fast-GitHub
 
 
 

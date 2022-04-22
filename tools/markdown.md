@@ -141,13 +141,13 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 
 
-##### 添加标题 {docsify-ignore}
+##### 添加标题
 
 [Duck Duck Go](https://duckduckgo.com  "The best search engine for privacy")
 
 
 
-##### 网址和电子邮件地址 {docsify-ignore}
+##### 网址和电子邮件地址
 
 <https://www.markdownguide.org>
 
@@ -155,7 +155,7 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 
 
-##### 引用式链接 {docsify-ignore}
+##### 引用式链接
 
 [John Gruber][df1]
 
@@ -202,7 +202,7 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 
 
-##### 带链接的图片 {docsify-ignore}
+##### 带链接的图片
 
 [<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
 
@@ -546,25 +546,31 @@ HTML entities like &reg; &#182;
 
 #### 水平分隔线
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> ***
-> 
-> ---
-> 
-> ___
-> ```
+##### **Rendered**
+
+***
+
+---
+
+___
 
 
 
-*渲染效果*
+##### **Markdown**
 
-> ***
->
-> ---
->
-> ___
+```markdown
+***
+
+---
+
+___
+```
+
+
+
+<!-- tabs:end -->
 
 
 
@@ -572,19 +578,19 @@ HTML entities like &reg; &#182;
 
 要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 (`\`) 。
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> \* 如果没有开头的反斜杠字符的话，这一行将显示为无序列表。
-> ```
+##### **Rendered**
 
+\* 如果没有开头的反斜杠字符的话，这一行将显示为无序列表。
 
+##### **Markdown**
 
-*渲染效果*
+```markdown
+\* 如果没有开头的反斜杠字符的话，这一行将显示为无序列表。
+```
 
-> \* 如果没有开头的反斜杠字符的话，这一行将显示为无序列表。
-
-
+<!-- tabs:end -->
 
 ### 扩展语法
 
@@ -592,159 +598,175 @@ HTML entities like &reg; &#182;
 
 > *TOC* 是 *Table of Contents* 的缩写
 
-*语法*
-
-> ```markdown
-> [TOC]
-> ```
 
 
+<!-- tabs:start -->
 
-*渲染效果*
+##### **Rendered**
 
-> 下列的*渲染效果*仅在`typora`编辑器可见
->
-> [TOC]
+下列的*渲染效果*仅在`typora`编辑器可见
 
+[TOC]
 
+##### **Markdown**
 
+```markdown
+[TOC]
+```
+
+<!-- tabs:end -->
 
 #### 表格
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> | Syntax      | Description |
-> | ----------- | ----------- |
-> | Header      | Title       |
-> | Paragraph   | Text        |
-> ```
->
+##### **Rendered**
 
+| Syntax    | Description |
+| --------- | ----------- |
+| Header    | Title       |
+| Paragraph | Text        |
 
+*对齐*
 
-*渲染效果*
-
-> | Syntax    | Description |
-> | --------- | ----------- |
-> | Header    | Title       |
-> | Paragraph | Text        |
->
+| Syntax    | Description |   Test Text |
+| :-------- | :---------: | ----------: |
+| Header    |    Title    | Here's this |
+| Paragraph |    Text     |    And more |
 
 
 
-**对齐**
+##### **Markdown**
 
-*语法*
+```markdown
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
 
-> ```markdown
-> | Syntax      | Description | Test Text     |
-> | :---        |    :----:   |          ---: |
-> | Header      | Title       | Here's this   |
-> | Paragraph   | Text        | And more      |
-> ```
->
+*对齐*
 
-*渲染效果*
+```markdown
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
 
-> | Syntax    | Description |   Test Text |
-> | :-------- | :---------: | ----------: |
-> | Header    |    Title    | Here's this |
-> | Paragraph |    Text     |    And more |
->
-
-
+<!-- tabs:end -->
 
 #### emoji表情
 
-##### 复制并粘贴表情符号
+<!-- tabs:start -->
+
+##### **Rendered**
+
+*复制并粘贴表情符号*
 
 [emojipedia](https://emojipedia.org/ "简单地从 Emojipedia 等来源复制表情符号，然后将其粘贴到文档中。")
 
 [emojikeyboard](https://emojikeyboard.org/ "可安装google扩展程序")
 
-*渲染效果*
+🎅🐶
 
-> 🎅🐶
-
-
-
-##### 使用表情符号的简码
+*使用表情符号的简码*
 
 [表情符号简码列表](https://gist.github.com/rxaviers/7360908 "请记住，表情符号的简码随着 Markdown 应用程序的不同而不同。")
 
-*渲染效果*
+Gone camping! :tent: Be back soon.
 
-> Gone camping! :tent: Be back soon.
->
-> That is so funny! :joy:
->
-> :smirk::smile::cold_sweat::tent::game_die:
+That is so funny! :joy:
 
+:smirk::smile::cold_sweat::tent::game_die:
 
+##### **Markdown**
 
-##### 常用表情
+*复制并粘贴表情符号*
 
-> 参考`github`的项目`README.md`
->
-> | 用途/使用场景 | 简码         | 效果       |
-> | ------------- | ------------ | ---------- |
-> | 分享          |              |            |
-> | get started   | `:rocket:`   | :rocket:   |
-> | 热点          | `:fire:`     | :fire:     |
-> | 开发中/完善中 | `:seedling:` | :seedling: |
+```markdown
+🎅🐶
+```
+
+*使用表情符号的简码*
+
+```markdown
+Gone camping! :tent: Be back soon.
+
+That is so funny! :joy:
+
+:smirk::smile::cold_sweat::tent::game_die:
+```
+
+<!-- tabs:end -->
 
 
 
 #### 高亮
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> ==highlight==
-> ```
+##### **Rendered**
 
-*渲染效果*
+==highlight==
 
-> ==highlight==
+
+
+##### **Markdown**
+
+```markdown
+==highlight==
+```
+
+<!-- tabs:end -->
 
 #### 脚注
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
-[^1]: This is the first footnote.
+[^1]:This is the first footnote.
 
-[^bignote]: Here's one with multiple paragraphs and code.
+[^bignote]:Here's one with multiple paragraphs and code.
 
 #### 上标
 
 > 需开启`typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> X^2^
-> ```
+##### **Rendered**
 
-*渲染效果*
+X^2^
 
-> X^2^
+##### **Markdown**
 
+```markdown
+X^2^
+```
 
+<!-- tabs:end -->
 
 #### 下标
 
 > 需开启`typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
 
-*语法*
+<!-- tabs:start -->
 
-> ```markdown
-> H~2~O, X~long\ text~
-> ```
+##### **Rendered**
 
-*渲染效果*
+H~2~O, X~long\ text~
 
-> H~2~O, X~long\ text~
+
+
+##### **Markdown**
+
+```markdown
+H~2~O, X~long\ text~
+```
+
+
+
+<!-- tabs:end -->
 
 
 
@@ -752,23 +774,31 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [Draw Diagrams With Markdown 手册](http://support.typora.io/Draw-Diagrams-With-Markdown/)
 
-*语法*
+<!-- tabs:start -->
 
-> ~~~markdown
-> ```sequence
-> Alice->Bob: Hello Bob, how are you?
-> Note right of Bob: Bob thinks
-> Bob-->Alice: I am good thanks!
-> ```
-> ~~~
+##### **Rendered**
 
-*渲染效果*
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
 
-> ```sequence
-> Alice->Bob: Hello Bob, how are you?
-> Note right of Bob: Bob thinks
-> Bob-->Alice: I am good thanks!
-> ```
+
+
+##### **Markdown**
+
+~~~markdown
+```sequence
+Alice->Bob: Hello Bob, how are you?
+Note right of Bob: Bob thinks
+Bob-->Alice: I am good thanks!
+```
+~~~
+
+
+
+<!-- tabs:end -->
 
 
 
@@ -780,66 +810,6 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 
 
-#### 自定义标题的ID
-
-`My Great Heading {#custom-id}`
-
-*语法*
-
-> ```markdown
-> ### My Great Heading {#custom-id}
-> <h3 id="custom-id">My Great Heading</h3>
-> ```
-
-*渲染效果*
-
-> ##### My Great Heading {#custom-id}
-> <h3 id="custom-id">My Great Heading</h3>
-
-**链接到标题的ID**
-
-*语法*
-
-> ```markdown
-> [Heading IDs](#使用场景)
-> [Heading IDs](https://www.markdown.xyz/extended-syntax#heading-ids)
-> ```
-
-*渲染效果*
-
-> [Heading IDs](#使用场景)
->
-> [Heading IDs](https://www.markdown.xyz/extended-syntax#heading-ids)
-
-
-
-#### 定义列表
-
-> `Typora` 不支持
-
-*语法*
-
-> First Term  
-> : This is the definition of the first term.
->
-> Second Term  
-> : This is one definition of the second term.
-> : This is another definition of the second term.
-
-*输出的 HTML*
-
-> ```html
-> <dl>
->   <dt>First Term</dt>
->   <dd>This is the definition of the first term.</dd>
->   <dt>Second Term</dt>
->   <dd>This is one definition of the second term. </dd>
->   <dd>This is another definition of the second term.</dd>
-> </dl>
-> ```
-
-
-
 #### 自动将 URL 转换为链接
 
 许多 Markdown 解析器会自动将 URL 转换为链接。这意味着，即使你没有 [使用中括号](https://www.markdown.xyz/basic-syntax/#links)，如果你输入 http://www.example.com，你的 Markdown 解析器也会自动将其转换为链接。
@@ -848,54 +818,148 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 如果你不希望自动将 URL 转换为链接，则可以通过反引号 将 URL 表示为代码 。
 
-*语法*
+<!-- tabs:start -->
 
-> ```
-> `http://www.example.com`
-> ```
->
+##### **Rendered**
 
-*渲染效果*
+`http://www.example.com`
 
-> `http://www.example.com`
+##### **Markdown**
+
+```
+`http://www.example.com`
+```
+
+
+
+<!-- tabs:end -->
+
+
+
+#### 自定义标题的ID
+
+<!-- tabs:start -->
+
+##### **Rendered**
+
+*链接到标题的ID*
+
+[Heading IDs](#使用场景)
+
+[Heading IDs](https://www.markdown.xyz/extended-syntax#heading-ids)
+
+
+
+##### **Markdown**
+
+```markdown
+### My Great Heading {#custom-id}
+<h3 id="custom-id">My Great Heading</h3>
+```
+
+*链接到标题的ID*
+
+```markdown
+[Heading IDs](#使用场景)
+[Heading IDs](https://www.markdown.xyz/extended-syntax#heading-ids)
+```
+
+<!-- tabs:end -->
+
+
+
+#### 定义列表
+
+> `Typora` 不支持
+
+<!-- tabs:start -->
+
+##### **Rendered**
+
+First Term  
+: This is the definition of the first term.
+
+Second Term  
+: This is one definition of the second term.
+: This is another definition of the second term.
+
+---
+
+```html
+<dl>
+<dt>First Term</dt>
+<dd>This is the definition of the first term.</dd>
+<dt>Second Term</dt>
+<dd>This is one definition of the second term. </dd>
+<dd>This is another definition of the second term.</dd>
+</dl>
+```
+
+
+
+##### **Markdown**
+
+```markdown
+First Term  
+: This is the definition of the first term.
+
+Second Term  
+: This is one definition of the second term.
+: This is another definition of the second term.
+---
+<dl>
+<dt>First Term</dt>
+<dd>This is the definition of the first term.</dd>
+<dt>Second Term</dt>
+<dd>This is one definition of the second term. </dd>
+<dd>This is another definition of the second term.</dd>
+</dl>
+```
+
+<!-- tabs:end -->
 
 
 
 ### YAML Front Matter
 
-*语法*
+<!-- tabs:start -->
 
-> ```yaml
-> ---
-> title: Markdown in Typora
-> author: John Snow
-> creator: Typora inc.
-> subject: Tutorial
-> keywords: [Pandoc, Tutorial, Export]
-> ---
-> ```
+#### **Rendered**
 
-*渲染效果*
+---
 
-> ---
-> title: Markdown in Typora
-> author: John Snow
-> creator: Typora inc.
-> subject: Tutorial
->
-> keywords: [Pandoc, Tutorial, Export]
-> ---
+title: Markdown in Typora
+author: John Snow
+creator: Typora inc.
+subject: Tutorial
+
+---
+
+#### **Markdown**
+
+```yaml
+---
+title: Markdown in Typora
+author: John Snow
+creator: Typora inc.
+subject: Tutorial
+keywords: [Pandoc, Tutorial, Export]
+---
+```
+
+
+
+<!-- tabs:end -->
 
 [`YAML Front Matter`用法](https://support.typora.io/YAML/)
 
-> ```yaml
-> title: typora
-> ```
->
-> ```yaml
-> typora-root-url: image
-> ```
->
+```yaml
+title: typora
+```
+
+```yaml
+typora-root-url: image
+```
 
 
 
