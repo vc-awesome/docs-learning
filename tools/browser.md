@@ -103,7 +103,7 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 
 
-## 扩展程序
+## 扩展程序 <i class="ri-fire-line light-red"></i>
 
 ### Search
 
@@ -123,19 +123,31 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 
 ### 常用<i class="ri-rocket-line"></i>
 
-[✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
+[✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
 
-[✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
+[✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
 
 [✔️EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog)
 
 [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
+<i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](/tools/vpn?id=proxy-switchyomega)
 
-[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
+
+[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
 [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
 
-[✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager") ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
+[✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
 
 ?> The world's most popular userscript manager.  
 <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
@@ -154,6 +166,8 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 
 
 ✔️Replace Google CDN
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social)
 
 ?> ♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。  
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
@@ -180,6 +194,8 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 ### 翻译
 
 [✔️Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb "浏览网页时可轻松查看翻译版本。由Google翻译小组提供。")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/aapbdbdomjkkjkaonfhkkikfgjllcleb?style=social)
 
 [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad "一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。")
 
@@ -192,6 +208,8 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 [✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies")
 
 [✔️FeHelper(前端助手)](https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
 
 [✔️EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
 
@@ -244,7 +262,7 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 
 
 
-GitHub加速
+✔️GitHub加速
 
 ?> Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!  
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/github加速/ffjjnphohkfckeplcjflmgneebafggej  
@@ -260,7 +278,7 @@ GitHub加速
 
 
 
-## 书签
+## 书签 <i class="ri-fire-line light-red"></i>
 
 如何管理浏览器的书签（收藏）？ https://www.zhihu.com/question/19921595/answer/715490524
 
@@ -269,3 +287,13 @@ GitHub加速
 chrome浏览器书签为什么不能同步？ https://www.zhihu.com/question/20434889/answer/1035109307
 
 How to Get the Most Out of the Chrome Bookmarks Bar https://www.howtogeek.com/423917/how-to-get-the-most-out-of-the-chrome-bookmarks-bar/
+
+
+
+## 搜索引擎
+
+百度 https://www.baidu.com/
+
+谷歌 https://www.google.com/
+
+必应 https://www.bing.com/ `Microsoft Bing`

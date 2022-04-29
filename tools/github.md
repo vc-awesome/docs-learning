@@ -13,7 +13,7 @@ Security Bug Bounty：https://bounty.github.com/
 
 ## 社区
 
-GitHub 中文社区：https://www.githubs.cn/
+GitHub 中文社区：https://www.githubs.cn/ 👍
 
 
 
@@ -218,11 +218,9 @@ Github：https://github.com/badges/shields
 
 #### Stability
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-
 `[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)`
 
-https://github.com/badges/stability-badges
+<i class="fa fa-github"></i> https://github.com/badges/stability-badges
 
 
 
@@ -298,6 +296,14 @@ https://github.com/topics/github-extension
 
 使用 jsDelivr CDN 对 Github 图床进行加速，带给你如丝滑般的图片体验！ https://blog.csdn.net/DreamHome_S/article/details/105957616
 
+#### Hosts
+
+<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520
+
+<i class="fa fa-github"></i> https://github.com/ineo6/hosts
+
+<i class="ri-link"></i> [Tools - Hosts](/tools/hosts)
+
 #### 在线工具
 
 github加速（国内镜像，加速下载） https://www.cnblogs.com/jsfh/p/14509629.html
@@ -311,13 +317,13 @@ github加速（国内镜像，加速下载） https://www.cnblogs.com/jsfh/p/145
 > <i class="bi bi-translate dark-yellow"></i>  
 > 😎 关于各种有趣主题的精彩列表。
 
-![](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg) [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
+![](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg) [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
 
 <i class="fa fa-github fa-lg"></i> https://github.com/sindresorhus/awesome
 
 <i class="fa fa-github fa-lg"></i></i> <i class="fa fa-search"></i> https://github.com/topics/awesome
 
-参考链接
+参考链接 👇
 
 chaozh
 /

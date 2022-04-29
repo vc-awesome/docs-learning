@@ -26,6 +26,14 @@ RSS 订阅源整理 https://www.bilibili.com/read/cv13362124
 
 
 
+### Feeder 👍
+
+<i class="ri-link"></i>
+[Feeder](/os/mobile/?id=feeder)
+<i class="fa fa-android light-green"></i>
+
+
+
 ## Browser addons
 
 ### RSSHub Radar

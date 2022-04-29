@@ -46,16 +46,14 @@ keywords: [Pandoc, Tutorial, Export]
 
 ### 编辑器
 
-[`MdEditor` 在线编辑器](http://www.mdeditor.com/)
+<i class="ri-external-link-fill"></i>
+[MdEditor 在线编辑器](http://www.mdeditor.com/)
 
-[`Dillinger` 在线编辑器](https://dillinger.io/)
+<i class="ri-external-link-fill"></i>
+[Dillinger 在线编辑器](https://dillinger.io/)
 
-[`Typora` 编辑器](https://typora.io)
-
-- [Typora官网](https://typora.io/)
-- [Typora主题](https://theme.typora.io/)
-
-- [Typora手册](https://support.typora.io/)
+<i class="ri-link"></i>
+[Typora 编辑器](/tools/应用工具?id=markdown-书写工具)
 
 
 

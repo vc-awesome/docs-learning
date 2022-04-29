@@ -1,6 +1,6 @@
 ## web 框架
 
-### Bootstrap
+### Bootstrap <i class="ri-fire-line light-red"></i>
 
 ?> The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.  
 <i class="bi bi-translate dark-yellow"></i> 最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。
@@ -54,7 +54,7 @@ Github：https://github.com/sentsin/layui
 
 
 
-### Amaze UI
+### Amaze UI <i class="ri-archive-line light-blue"></i>
 
 ?> Amaze UI, a mobile-first and modular front-end framework.  
 <i class="bi bi-translate dark-yellow"></i> Amaze UI，一个移动优先的模块化前端框架。
@@ -175,9 +175,15 @@ Github：https://github.com/jquery/jquery
 
 ## php 框架
 
-### thinkphp
+### thinkphp <i class="ri-fire-line light-red"></i>
 
+![GitHub last commit](https://img.shields.io/github/last-commit/top-think/think?logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/top-think/think?logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/top-think/think?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think?style=social)
 
+<i class="ri-link"></i> [ThinkPHP](/back-end/thinkphp/)
 
 ### Symfony
 

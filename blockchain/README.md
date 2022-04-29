@@ -14,9 +14,9 @@ todo...
 
 
 
-web3
+*---- start*
 
- 
+**节点**
 
 以太坊节点网络
 
@@ -24,7 +24,7 @@ Infura
 
 部署节点服务器
 
-
+*---- end*
 
 全（主）节点 fullNode
 
@@ -45,6 +45,24 @@ Infura
 
 
 公链
+
+
+
+## web3
+
+https://github.com/ChainSafe/web3.js
+
+https://github.com/sc0Vu/web3.php
+
+
+
+Web3.js API 中文文档 https://web3.tryblockchain.org/index.html
+
+
+
+## smart contract
+
+> 智能合约
 
 
 
@@ -98,21 +116,33 @@ https://cryptomines.app/
 
 
 
-## glossary
+## glossary <i class="ri-fire-line light-red"></i>
 
-以太坊词汇表 https://ethereum.org/zh/glossary/
+👍 以太坊词汇表 https://ethereum.org/zh/glossary/
 
-❓ DEX（去中心化交易所） 💡 https://ethereum.org/zh/glossary/#dex
+❓
+DEX（去中心化交易所）  
+💡
+https://ethereum.org/zh/glossary/#dex
 
-❓ DeFi（去中心化金融） 💡 https://ethereum.org/zh/glossary/#defi
+❓
+DeFi（去中心化金融）  
+💡
+https://ethereum.org/zh/glossary/#defi
 
-❓ NFT（非同质化代币） 💡 https://ethereum.org/zh/glossary/#nft
+❓
+NFT（非同质化代币）  
+💡
+https://ethereum.org/zh/glossary/#nft
 
 
 
-Question ❓
+Question
+❓
 
-Answer 👌 💡
+Answer
+👌
+💡
 
 
 

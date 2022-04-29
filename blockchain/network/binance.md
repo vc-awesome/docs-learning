@@ -47,7 +47,7 @@ https://docs.binance.org/smart-chain/developer/BEP20.html
 
 ## Dapp
 
-### PancakeSwap 
+### PancakeSwap <i class="ri-fire-line light-red"></i>
 
 ![](../_images/color-black.svg ':size=33%')
 

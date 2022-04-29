@@ -1,9 +1,13 @@
 - Homepage
   - [<i class="ri-rocket-line"></i> Index](/home/)
   - [<i class="fa fa-book"></i> Book](/home/book.md)
-  - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
   - [<i class="fa fa-github fa-lg"></i> Github](/tools/github.md)
-  - [<i class="icon octicon-file markdown-icon"></i> Markdown](/tools/markdown.md)
+  - [<i class="icon octicon-file markdown-icon"></i> Markdown](/tools/markdown.md)<hr>
+  - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
+  - [<i class="fa fa-fonticons"></i> FontIcon](/front-end/icon.md)
+- Essentials
+  - [身份认证](/essential/identity.md)
+  - [Http](/essential/http.md)
 - Front-end
   - [<i class="ri-rocket-line"></i> Index](/front-end/)
   - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
@@ -27,9 +31,11 @@
   - [<i class="ri-rocket-line"></i> Index](/os/)
   - [<i class="fa fa-windows"></i> Windows](/os/windows/)
   - [<i class="fa fa-linux"></i> Linux](/os/linux/)
-  - [<i class="fa fa-apple"></i> Mac](/os/mac/)
+  - [<i class="fa fa-apple"></i> Mac](/os/mac/)<hr />
+  - [<i class="fa fa-mobile"></i> Mobile](/os/mobile/)
 - Tools
   - [<i class="ri-rocket-line"></i> Index](/tools/)
+  - [<i class="ri-magic-line dark-yellow"></i> Extranet](/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
   - [![](http://docsify.js.org/_media/favicon.ico ':size=14')Docsify](/tools/docsify.md)
 - More
