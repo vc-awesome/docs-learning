@@ -149,6 +149,10 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
 
+[✔️暴力猴](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag "一个开源的用户脚本管理器，支持很多浏览器")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social)
+
 ?> The world's most popular userscript manager.  
 <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
 <i class="fa fa-github fa-lg"></i> https://github.com/derjanb  

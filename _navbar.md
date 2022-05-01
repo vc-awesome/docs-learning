@@ -33,17 +33,18 @@
   - [<i class="fa fa-linux"></i> Linux](/os/linux/)
   - [<i class="fa fa-apple"></i> Mac](/os/mac/)<hr />
   - [<i class="fa fa-mobile"></i> Mobile](/os/mobile/)
+  - [<i class="fa fa-wrench"></i> Tool](/tools/)
 - Tools
   - [<i class="ri-rocket-line"></i> Index](/tools/)
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
   - [![](http://docsify.js.org/_media/favicon.ico ':size=14')Docsify](/tools/docsify.md)
 - More
-  - [开发框架](/开发框架/)
-  - [设计模式](/设计模式/)
-  - [BlockChain](/blockchain/)
-  - [Project](/project/)
+  - [<i class="ri-fire-line light-red"></i> 开发框架](/开发框架/)
+  - [<i class="ri-fire-line light-red"></i> BlockChain](/blockchain/)
+  - [<i class="ri-fire-line light-red"></i> Project](/project/)
   - [TechStack](/tech-stack/ "技术栈")
+  - [设计模式](/设计模式/)
 
 <!--
 

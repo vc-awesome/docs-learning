@@ -1,3 +1,11 @@
+## search <i class="ri-search-line"></i>
+
+> *综合搜索*：后台模板、官网模板、插件......
+
+http://www.bootstrapmb.com/ *综合搜索*
+
+
+
 ## web 框架
 
 ### Bootstrap <i class="ri-fire-line light-red"></i>
@@ -91,6 +99,8 @@ Github：https://github.com/ionic-team/ionic-framework
 菜鸟教程：https://www.runoob.com/ionic/ionic-tutorial.html
 
 
+## css 框架
+
 
 ## vue ui 框架
 
@@ -107,17 +117,54 @@ Github：https://github.com/ElemeFE/element
 
 
 
-### Vant
+### Vant <i class="ri-fire-line light-red"></i>
 
 ?> Lightweight Mobile UI Components built on Vue.  
 <i class="bi bi-translate dark-yellow"></i> 基于 Vue 构建的轻量级移动 UI 组件。
 
 
 
-Website：https://vant-contrib.gitee.io/vant
+Website：https://vant-contrib.gitee.io/vant/
 
-Github：https://github.com/youzan/vant
+Website：https://youzan.github.io/vant/
 
+Website：https://youzan.github.io/vant-weapp/ （轻量、可靠的小程序 UI 组件库）
+
+Github：https://github.com/youzan/vant/
+
+
+
+### Vux
+
+?>
+Mobile UI Components based on Vue & WeUI
+
+Website：https://vux.li/
+
+Github：https://github.com/airyland/vux
+
+
+### uni-app <i class="ri-fire-line light-red"></i>
+
+?>
+uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
+
+Website：https://uniapp.dcloud.io/
+
+Github：https://github.com/dcloudio/uni-app
+
+<i class="ri-link"></i> [uni-app](/front-end/uniapp/)
+
+#### uView
+
+?>
+uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+
+Website：https://www.uviewui.com/
+
+GitHub：https://github.com/umicro/uView2.0
+
+<i class="ri-link"></i> [uView](/front-end/uniapp/uniapp%20+%20uview)
 
 
 ## javascript 框架
@@ -169,8 +216,40 @@ Github：https://github.com/jquery/jquery
 
 ### clipboard.js
 
+?>
+✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋
+
+Website：https://clipboardjs.com/
+
+GitHub：https://github.com/zenorocha/clipboard.js
+
+BootCDN：https://www.bootcdn.cn/clipboard.js/
+
+
 ### bignumber.js
 
+?>
+A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic
+
+Website：https://mikemcl.github.io/bignumber.js/
+
+GitHub：https://github.com/MikeMcl/bignumber.js
+
+BootCDN：https://www.bootcdn.cn/bignumber.js/
+
+
+## jquery 插件
+
+### jQuery.Marquee
+
+?>
+jQuery plugin to scroll the text like the old traditional marquee
+
+Website：http://aamirafridi.com/jquery/jquery-marquee-plugin
+
+GitHub：https://github.com/aamirafridi/jQuery.Marquee
+
+BootCDN：https://www.bootcdn.cn/jQuery.Marquee/
 
 
 ## php 框架
@@ -184,6 +263,27 @@ Github：https://github.com/jquery/jquery
 ![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think?style=social)
 
 <i class="ri-link"></i> [ThinkPHP](/back-end/thinkphp/)
+
+### workerman
+
+?>
+An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols. PHP>=5.3.
+
+Website：https://www.workerman.net/
+
+GitHub：https://github.com/walkor/workerman
+
+
+
+### Swoole
+
+?>
+🚀 Coroutine-based concurrency library for PHP
+
+Website：https://www.swoole.com/
+
+GitHub：https://github.com/swoole/swoole-src
+
 
 ### Symfony
 

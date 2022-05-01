@@ -1,12 +1,21 @@
 todo...
 
-## html使用规则
+## html 使用规则
 
 ### 代码规范
 
  
 
 ### 标签
+
+header 元素
+
+```html
+<meta>
+<link>
+<style></style>
+<script></script>
+```
 
 块元素
 
@@ -78,7 +87,7 @@ todo...
 
 
 
-## html页面
+## html 页面
 
 ### 404页面
 

@@ -13,7 +13,7 @@ Security Bug Bounty：https://bounty.github.com/
 
 ## 社区
 
-GitHub 中文社区：https://www.githubs.cn/ 👍
+GitHub 中文社区：https://www.githubs.cn/ 👍
 
 
 
@@ -317,7 +317,9 @@ github加速（国内镜像，加速下载） https://www.cnblogs.com/jsfh/p/145
 > <i class="bi bi-translate dark-yellow"></i>  
 > 😎 关于各种有趣主题的精彩列表。
 
-![](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg) [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome) [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
+![Awesome-flat2](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg)
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
 
 <i class="fa fa-github fa-lg"></i> https://github.com/sindresorhus/awesome
 

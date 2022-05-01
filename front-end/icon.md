@@ -86,6 +86,7 @@
 | <i class="fa fa-info-circle fa-lg"></i>      | 关于             | `<i class="fa fa-info-circle"></i>`          |
 | <i class="fa fa-sliders fa-lg"></i>          | 常规设置         | `<i class="fa fa-sliders"></i>`              |
 | <i class="fa fa-shopping-cart fa-lg"></i>    | 收费/非免费      | `<i class="fa fa-shopping-cart"></i>`        |
+| <i class="fa fa-wrench fa-lg"></i>           | 工具             | `<i class="fa fa-wrench"></i>`               |
 
 
 
