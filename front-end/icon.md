@@ -87,6 +87,7 @@
 | <i class="fa fa-sliders fa-lg"></i>          | 常规设置         | `<i class="fa fa-sliders"></i>`              |
 | <i class="fa fa-shopping-cart fa-lg"></i>    | 收费/非免费      | `<i class="fa fa-shopping-cart"></i>`        |
 | <i class="fa fa-wrench fa-lg"></i>           | 工具             | `<i class="fa fa-wrench"></i>`               |
+| <i class="fa fa-user-circle-o fa-lg"></i>    | 登录             | `<i class="fa fa-user-circle-o"></i>`        |
 
 
 
@@ -157,6 +158,11 @@ https://bs4.dashgame.com/pages/extend.html
 
 
 
+最佳Icon图标库推荐，收藏等于学会  
+https://www.cnblogs.com/sexintercourse/p/15945269.html
+
+
+
 ## Iconfont
 
 ?>
@@ -192,7 +198,7 @@ https://bs4.dashgame.com/pages/extend.html
 
 ## Ionicons
 
-> Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
+?> Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
 
 <i class="fa fa-laptop"></i> https://ionic.io/ionicons
 
@@ -236,6 +242,16 @@ https://bs4.dashgame.com/pages/extend.html
 
 <i class="fa fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons/
 
+## React Icons
+
+?>
+svg react icons of popular icon packs
+
+<i class="fa fa-laptop"></i>
+https://react-icons.github.io/react-icons/
+
+<i class="fa fa-github fa-lg"></i>
+https://github.com/react-icons/react-icons
 
 
 ## Octicons (For Github)
@@ -249,6 +265,8 @@ https://bs4.dashgame.com/pages/extend.html
 
 <i class="fa fa-github fa-lg"></i> https://github.com/primer/octicons
 
+<i class="ri-soundcloud-line"></i> https://www.bootcdn.cn/octicons/
+
 
 
 ## Material Design Icons
@@ -259,7 +277,9 @@ https://bs4.dashgame.com/pages/extend.html
 
 <i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons/
 
-http://google.github.io/material-design-icons/
+<i class="ri-soundcloud-line"></i> https://www.bootcdn.cn/material-design-icons/
+
+<i class="fa fa-book"></i> http://google.github.io/material-design-icons/
 
 
 
@@ -281,9 +301,20 @@ http://google.github.io/material-design-icons/
 
 ?> Icons for Visual Studio Code
 
-<i class="fa fa-github fa-lg"></i> https://github.com/vscode-icons/vscode-icons/
+<i class="fa fa-github fa-lg"></i>
+https://github.com/vscode-icons/vscode-icons/
 
+<i class="fa fa-github fa-lg"></i>
+https://github.com/microsoft/vscode-codicons
 
+## More
+
+<i class="fa fa-github fa-lg"></i>
+https://github.com/evil-icons/evil-icons
+*Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN*
+
+<i class="fa fa-github fa-lg"></i>
+https://github.com/icons8
 
 ## 在线 icon 搜索
 

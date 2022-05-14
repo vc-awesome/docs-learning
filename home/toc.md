@@ -2,11 +2,16 @@
 
  
 
+## Link <i class="ri-link"></i>
+
+<i class="ri-link"></i>
+[Tools > Docsify > Directory Structure](/tools/docsify?id=目录结构)
+
 参考
 
-tp [基础 > 目录结构](https://www.kancloud.cn/manual/thinkphp6_0/1037483)
+tp https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
 
-bootstrap [快速入门 > 内容](https://v5.bootcss.com/docs/getting-started/contents/)
+bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 内容*
 
 
 
@@ -141,6 +146,37 @@ assets/
 └─ scss/
 ```
 
+### custom <i class="ri-fire-line light-red"></i>
+
+> 自定义目录结构
+
+参考站点：https://gamium.world/ :us:
+
+```markdown
+web
++-- pages
+│  +-- login
++-- static
+│  +-- css
+│      +-- custom.css //自定义样式
+│      +-- main.css //主样式
+│      +-- style.css //全局样式
+│      +-- fonts.css //字体样式
+│      +-- modal.css
+│  +-- font
+│  +-- images
+│  +-- img
+│  +-- js
+│      +-- data.js //中英文数据
+│      +-- main.js
+│      +-- website.js
+│  +-- media
+│  +-- pdf
+│  +-- picture
+│  +-- videos
++-- 404.html
++-- index.html
+```
 
 
 ### uni-app
@@ -241,24 +277,24 @@ thinkphp资源存放：public/static/home/default/
 │  │  ├─ icon-home-light.png 浅色图标
 │  │  ├─ icon-home-line.png 线性图标
 │  │  ├─ icon-home-fill.png 填充图标 --from uView的icon组件
-│  │  ├─ icon-upload.png
+│  │  └─ icon-upload.png
 │  ├─ background|bg/
-│  │ 	├─ bg-i-share.png
+│  │ 	└─ bg-i-share.png
 │  ├─ banner/
-│  │  ├─ banner-radius.png 圆角轮播图
+│  │  └─ banner-radius.png 圆角轮播图
 │  │ 	├─ banner-square.png 方形轮播图
 │  │ 	├─ banner-round-a.png 圆形轮播图
 │  │ 	├─ banner-round-b.png 圆形轮播图
-│  │ 	├─ banner-round-c.png 圆形轮播图
+│  │ 	└─ banner-round-c.png 圆形轮播图
 │  ├─ logo/
 │  │ 	├─ logo.png
-│  │ 	├─ logo-text.png 文字logo
+│  │ 	└─ logo-text.png 文字logo
 │  ├─ adv/ 广告图
 │  ├─ tmp/ 临时图片，例如后台可更改的产品图片
-│  │ 	├─ qrcode.png
+│  │ 	└─ qrcode.png
 │  ├─ avatar/ 头像
 │  └─ empty/ 内容为空 --from uView的Empty组件
-│     	└─ empty-message.png 消息列表为空
+│    	└─ empty-message.png 消息列表为空
 ├─ lib|libs/ 用lib或者用libs，加s表示复数
 ├─ pdf/
 ├─ plug-ins|plugins/
@@ -266,6 +302,6 @@ thinkphp资源存放：public/static/home/default/
 └─ utils/ 工具集 （百度翻译：工具类;效用;实用工具;实用菜单）
 ```
 
-1. uploads文件夹占用空间大，建议存放至public目录下，方便其它文件夹的转移
+1. *uploads* 文件夹占用空间大，建议存放至 *public* 目录下，方便其它文件夹的转移
 
-2. 如果为了安全考虑，可把uploads文件夹放到系统的根目录
+2. 如果为了安全考虑，可把 *uploads* 文件夹放到系统的根目录

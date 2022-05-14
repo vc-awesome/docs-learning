@@ -57,18 +57,6 @@ keywords: [Pandoc, Tutorial, Export]
 
 
 
-### 静态网站生成器
-
-[docsify](https://docsify.js.org/) 不支持`脚注`、`高亮`
-
-[Hexo](https://hexo.io/zh-cn/ "快速、简洁且高效的博客框架")
-
-[Jekyll](https://jekyllrb.com)
-
-[GitBook](https://www.gitbook.com/)
-
-
-
 ## 语法
 
 ### 🔥 参考链接

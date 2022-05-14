@@ -1,14 +1,20 @@
 ## 工具搜索 <i class="ri-fire-line light-red"></i>
 
-最好用的Windows/Mac软件下载网站都在这了！  
-https://www.jianshu.com/p/b32229d6c43c
+- 👍 腾讯电脑管家 > 软件管理
 
-有哪些值得推荐的下载软件的网站？  
-https://www.zhihu.com/question/26891149
+- 最好用的Windows/Mac软件下载网站都在这了！  
+  https://www.jianshu.com/p/b32229d6c43c
 
-👍 阿虚同学  
-https://axutongxue.com/  
-https://mp.weixin.qq.com/s/AB20kTElh-o2o5B4m-M67Q
+- 有哪些值得推荐的下载软件的网站？  
+  https://www.zhihu.com/question/26891149
+
+- 👍 阿虚同学  
+  https://axutongxue.com/  
+  https://mp.weixin.qq.com/s/AB20kTElh-o2o5B4m-M67Q
+- 👍 https://mrhelloworld.com/categories/分享/
+- 酷软清单  
+  https://www.coolist.net/  
+  https://www.kancloud.cn/appexplore/coolist-windows/1466990
 
 ------
 
@@ -38,15 +44,7 @@ https://github.com/ldqk/Masuit.MyBlogs
 
 
 
-## todo... <!-- {docsify-ignore-all} -->
-
-参考链接：
-
-https://mrhelloworld.com/categories/分享/
-
-酷软清单  
-https://www.coolist.net/  
-https://www.kancloud.cn/appexplore/coolist-windows/1466990
+## todo...
 
 
 

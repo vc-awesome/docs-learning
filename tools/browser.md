@@ -111,13 +111,17 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 <i class="fa fa-github fa-lg"></i> https://github.com/topics/browser-extension
 
-<i class="bi bi-filetype-html"></i> <i class="bi bi-hand-thumbs-up"></i> https://www.runningcheese.com/extensions （浏览器必备，2021 年度最喜欢浏览器扩展）
+<i class="bi bi-filetype-html"></i> <i class="bi bi-hand-thumbs-up"></i> <i class="fa fa-user-circle-o"></i> https://www.runningcheese.com/extensions （浏览器必备，2021 年度最喜欢浏览器扩展）
 
 
 
 ### 下载
 
-CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
+https://crxdl.com/ :cn: CrxDL - Chrome浏览器扩展插件CRX下载网
+
+https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Extensions
+
+https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera
 
 
 
@@ -136,7 +140,7 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
-<i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](/tools/vpn?id=proxy-switchyomega)
+<i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
 
 
 [✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。")
@@ -191,7 +195,13 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 
 [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
 
-[✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) *标签页定时刷新*
+[✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog)
+*标签页定时刷新*
+
+[✔️Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
+*最好用的 Chrome 下载管理（支持资源嗅探）*
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
 
 ------
 
@@ -210,6 +220,8 @@ CrxDL - Chrome浏览器扩展插件CRX下载网 https://crxdl.com/
 ### 开发
 
 [✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
 
 [✔️FeHelper(前端助手)](https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)

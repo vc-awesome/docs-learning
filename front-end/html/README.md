@@ -17,6 +17,14 @@ header 元素
 <script></script>
 ```
 
+https://cdnjs.com/libraries/hammer.js
+
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>`
+
+script使用integrity属性进行安全验证 https://blog.csdn.net/chenjiebin/article/details/121093528
+
+Integrity生成器（SRI Hash 生成器） https://www.xftsoft.com/tool/integrity
+
 块元素
 
 ```html

@@ -76,6 +76,8 @@ https://github.com/iexbase
 
 ### 交易平台
 
+欧易 https://www.okx.com <i class="bi bi-ladder"></i>
+
 #### 火币
 
 官网：https://www.huobi.com/ <i class="bi bi-ladder"></i> 
@@ -90,13 +92,16 @@ Github：https://github.com/huobiapi
 
 ### 信息平台
 
-https://tokenview.com/
+?>
+更多内容，可查看网站的友情链接
 
+Tokenview https://tokenview.com/ :cn: :uk:
 
+金色财经 https://www.jinse.com/ :cn:
 
 #### 非小号
 
-官网：https://www.feixiaohao.co/
+官网：https://www.feixiaohao.co/ :cn:
 
 
 
@@ -179,8 +184,8 @@ https://api.jinse.com/v6/m/information/list?catelogue_key=xueyuan&flag=down&limi
 
 
 
-#### 获取USD/CNY汇率
+#### 获取 USD/CNY 汇率
 
-https://dncapi.fxhapp.com/api/home/global data.usdt_price_cny
+https://dncapi.fxhapp.com/api/home/global `data.usdt_price_cny`
 
-https://dncapi.fxhapp.com/api/coin/web-rate data[12].cny
+https://dncapi.fxhapp.com/api/coin/web-rate `data[12].cny`

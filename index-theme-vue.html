@@ -24,12 +24,23 @@
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/bunny-color.png">
 
+  <script id="hexo-configurations">
+    var NexT = window.NexT || {};
+  </script>
+
   <style>
 
   </style>
 </head>
 <body>
 <div id="app"></div>
+
+<!--返回顶部 method-2-->
+<link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
+<div class="back-to-top">
+  <i class="fa fa-arrow-up"></i>
+  <span>0%</span>
+</div>
 <script>
   /*const footnoteMatch = /^\[\^([^\]]+)\]:([\s\S]*)$/
   const referenceMatch = /\[\^([^\]]+)\](?!\()/g
@@ -255,8 +266,6 @@
 <script src="./_libs/prismjs-1.26.0/components/prism-bash.min.js"></script>
 <script src="./_libs/prismjs-1.26.0/components/prism-sql.min.js"></script>
 <script src="./_libs/prismjs-1.26.0/components/prism-json.min.js"></script>
-<!--返回顶部-->
-<script src="./_libs/docsify-scroll-to-top-1.0.2/dist/docsify-scroll-to-top.min.js"></script>
 <!--Table of Contents-->
 <!--<script src="./_libs/docsify-toc-1.0.0/dist/toc.js"></script>-->
 <script src="./_libs/docsify-plugin-toc-1.2.1/dist/docsify-plugin-toc.min.js"></script>
@@ -269,6 +278,13 @@
 <!--图片缩放-->
 <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 
+<!--返回顶部 method-1-->
+<!-- <script src="./_libs/docsify-scroll-to-top-1.0.2/dist/docsify-scroll-to-top.min.js"></script> -->
+
+<!--返回顶部 method-2-->
+<script src="_assets/libs/back2top/js/anime.min.js"></script>
+<script src="_assets/libs/back2top/js/utils.js"></script>
+<script src="_assets/libs/back2top/js/next-boot.js"></script>
 
 </body>
 </html>

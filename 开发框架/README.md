@@ -2,7 +2,7 @@
 
 > *综合搜索*：后台模板、官网模板、插件......
 
-http://www.bootstrapmb.com/ *综合搜索*
+http://www.bootstrapmb.com/ *综合搜索*
 
 
 
@@ -350,4 +350,18 @@ https://www.apicloud.com/
 扫一扫
 
 推送（接收推送通知和透传消息功能）
+
+
+
+## 文档网站生成器
+
+?> 静态网站生成器
+
+[docsify](https://docsify.js.org/) 不支持`脚注`、`高亮`
+
+[Hexo](https://hexo.io/zh-cn/ "快速、简洁且高效的博客框架")
+
+[Jekyll](https://jekyllrb.com)
+
+[GitBook](https://www.gitbook.com/)
 

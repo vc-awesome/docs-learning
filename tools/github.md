@@ -347,6 +347,8 @@ mundimark
 /
 awesome-markdown https://github.com/mundimark/awesome-markdown
 
+xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awesome 后端架构师技术图谱
+
 ---
 
 Awesome系列：Github中不能错过的巨人肩膀 https://zhuanlan.zhihu.com/p/144053402
