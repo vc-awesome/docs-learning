@@ -4,6 +4,12 @@
 
 
 
+## Road Map
+
+?> 前端发展路程
+
+
+
 ## Learning resource
 
 优质框架
@@ -38,7 +44,9 @@ MDN Web Docs > https://developer.mozilla.org/zh-CN/
 
 ## 代码规范
 
+https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html *Javascript编程风格* :cn:
 
+https://github.com/mdo/code-guide *Standards for developing consistent, flexible, and sustainable HTML and CSS.* :us: :cn:
 
 ## 页面布局
 
@@ -63,12 +71,16 @@ https://www.runoob.com/cssref/func-calc.html
 
 ## CDN ⚡
 
-https://www.bootcdn.cn/ :cn: *BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务* 👍
+?> CDN的全称是Content Delivery Network，即[内容分发网络](https://baike.baidu.com/item/内容分发网络/4034265)。CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。
+
+https://www.bootcdn.cn/ :cn: *BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务* 👍
 
 http://staticfile.org/ :cn: *Staticfile CDN*
 
 https://cdnjs.com/ :us: *cdnjs - The #1 free and open source CDN built to make life easier for developers*
 
-https://www.jsdelivr.com/ :us: *jsDelivr - A free, fast, and reliable CDN for open source* 👍
+https://www.jsdelivr.com/ :us: *jsDelivr - A free, fast, and reliable CDN for open source* 👍
 
-https://unpkg.com/ :us: *UNPKG* 👍 
+https://unpkg.com/ :us: *UNPKG* 👍 
+
+https://docs.microsoft.com/en-us/aspnet/ajax/cdn/ :us: :cn: *Microsoft Ajax Content Delivery Network Libraries*

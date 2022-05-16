@@ -66,6 +66,8 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 1. 长按 <kbd>Shift</kbd> + 点击浏览器刷新按钮
 2. 长按 <kbd>Shift</kbd> + 短按 <kbd>F5</kbd>
+3. 长按 <kbd>Ctrl</kbd> + 短按 <kbd>F5</kbd>
+4. 长按 <kbd>Ctrl</kbd> + 短按 <kbd>F5</kbd>
 
 
 
@@ -107,21 +109,30 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 ### Search
 
-<i class="fa fa-github fa-lg"></i> https://github.com/topics/chrome-extension
+<i class="fa fa-github fa-lg"></i>
+https://github.com/topics/chrome-extension
 
-<i class="fa fa-github fa-lg"></i> https://github.com/topics/browser-extension
+<i class="fa fa-github fa-lg"></i>
+https://github.com/topics/browser-extension
 
-<i class="bi bi-filetype-html"></i> <i class="bi bi-hand-thumbs-up"></i> <i class="fa fa-user-circle-o"></i> https://www.runningcheese.com/extensions （浏览器必备，2021 年度最喜欢浏览器扩展）
+<i class="bi bi-filetype-html"></i>
+<i class="bi bi-hand-thumbs-up"></i>
+<i class="fa fa-user-circle-o"></i>
+https://www.runningcheese.com/extensions *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
+
+
+
+https://ldqk.xyz/1775 *高效上网——Chrome/Edge浏览器优秀扩展插件推荐*
 
 
 
 ### 下载
 
-https://crxdl.com/ :cn: CrxDL - Chrome浏览器扩展插件CRX下载网
+https://crxdl.com/ :cn: *CrxDL - Chrome浏览器扩展插件CRX下载网*
 
-https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Extensions
+https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
 
-👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera
+👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
 
 
 
@@ -166,16 +177,15 @@ https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Ext
 <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
 <i class="fa fa-github fa-lg"></i> https://github.com/derjanb  
 
-> 脚本下载：https://greasyfork.org/zh-CN
->
-> 好用的脚本列表：
->
-> - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
-> - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
-> - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
-> - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
->
+- 脚本下载
+  - https://greasyfork.org/zh-CN
 
+
+- 好用的脚本列表
+  - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
+  - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
+  - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
+  - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
 
 
 ✔️Replace Google CDN
@@ -186,7 +196,11 @@ https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Ext
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
 <i class="fa fa-github fa-lg"></i> https://github.com/justjavac/ReplaceGoogleCDN
 
-⛔[~~skyZIP™ Proxy~~](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
+[✔️Gooreplacer](https://github.com/jiacai2050/gooreplacer) *⚡️⚡️A browser extension to modify HTTP requests :-)*
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social)
+
+[~~skyZIP™ Proxy~~](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
 
 [草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg)
 
@@ -216,6 +230,10 @@ https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Ext
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/aapbdbdomjkkjkaonfhkkikfgjllcleb?style=social)
 
+[✔️百度翻译：网页翻译、海淘神器](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci "百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。")
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/edhchknefojhifoiebpcbkhcjlkkklci)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/edhchknefojhifoiebpcbkhcjlkkklci?style=social)
+
 [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad "一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。")
 
 [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg "Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。")
@@ -225,6 +243,7 @@ https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Ext
 ### 开发
 
 [✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies")
+*Identify web technologies*
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
 
@@ -317,4 +336,4 @@ How to Get the Most Out of the Chrome Bookmarks Bar https://www.howtogeek.com/42
 
 谷歌 https://www.google.com/
 
-必应 https://www.bing.com/ `Microsoft Bing`
+必应 https://www.bing.com/ *Microsoft Bing*

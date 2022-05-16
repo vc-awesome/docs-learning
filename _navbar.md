@@ -4,7 +4,7 @@
   - [<i class="fa fa-github fa-lg"></i> Github](/tools/github.md)
   - [<i class="icon octicon-file markdown-icon"></i> Markdown](/tools/markdown.md)<hr>
   - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
-  - [<i class="fa fa-fonticons"></i> FontIcon](/front-end/icon.md)
+  - [<i class="fa fa-fonticons"></i> FontIcon](/front-end/iconfont.md)
 - Essentials
   - [身份认证](/essential/identity.md)
   - [Http](/essential/http.md)
@@ -13,10 +13,11 @@
   - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
   - [<i class="fa fa-css3 medium-blue"></i> css](/front-end/css/)
   - [<i class="icon octicon-file js-icon medium-yellow"></i> javascript](/front-end/javascript/)
+  - [<i class="icon octicon-file jquery-icon medium-blue"></i> jQuery](/front-end/jquery.md)<hr>
   - [<i class="icon octicon-file node-icon"></i> node.js](/front-end/node.js/)
   - [<i class="iconfont icon-uniapp dark-green"></i> uni-app](/front-end/uniapp/)
-  - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)
-  - [<i class="fa fa-fonticons"></i> icon](/front-end/icon.md)
+  - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)<hr>
+  - [<i class="fa fa-fonticons"></i> fonticon](/front-end/iconfont.md)
   - [⚡ CDN](/front-end/?id=CDN-⚡)
 - Back-end
   - [<i class="ri-rocket-line"></i> Index](/back-end/)

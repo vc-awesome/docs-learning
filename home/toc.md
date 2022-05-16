@@ -92,14 +92,16 @@ bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 
 │  │   └─ uniapp/
 │  ├─ 后端/
 │  │   └─ thinkphp/
+│  │       ├─ cron.txt # 定时任务
+│  │       └─ ...
 │  ├─ 前后端/
 │  │   └─ thinkphp/
 │  └─ 波场/
 │       └─ thinkphp/
 ├─ 项目参考/
-├─ 需求图片/
+├─ 项目图片/
 │  └─ 首页轮播图/
-├─ 需求文档/ ---------*
+├─ 项目文档/ ---------*
 │  ├─ 开发文档/
 │  │   └─ 开发文档.docx
 │  ├─ 设计文档/
@@ -174,6 +176,10 @@ web
 │  +-- pdf
 │  +-- picture
 │  +-- videos
+│  +-- libs //扩展库
+│      +-- bootstrap
+│          +-- css
+│          +-- js
 +-- 404.html
 +-- index.html
 ```
