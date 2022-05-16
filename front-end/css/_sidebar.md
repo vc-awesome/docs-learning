@@ -1,2 +1,2 @@
 * [Introduce](/front-end/css/)
-* [css 命名规则](/front-end/css/css%20命名规则.md "css 命名规则")
+* [css 命名规则<i class="ri-fire-line light-red"></i>](/front-end/css/css-命名规则.md "css 命名规则")

@@ -1,4 +1,4 @@
-![MySQL](https://labs.mysql.com/common/logos/mysql-logo.svg?v2 ':size=20%')  
+![MySQL](https://labs.mysql.com/common/logos/mysql-logo.svg?v2 ':size=20%')  
 
 ?> RDBMS（Relational Database Management System，关系数据库管理系统）
 MySQL是一种关系数据库管理系统，关系数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
@@ -208,7 +208,8 @@ https://blog.csdn.net/sunwenhao_2017/article/details/83376726
 
 ## MySQL连接（join）
 
-
+mysql驱动表、被驱动表、大表小表及join优化  
+https://blog.csdn.net/asd051377305/article/details/115320564
 
 ### MySQL自连接
 

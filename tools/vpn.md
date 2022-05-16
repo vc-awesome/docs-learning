@@ -16,13 +16,13 @@
 
 ---
 
-手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等 https://www.zyskys.com/posts/60593.html
+https://www.zyskys.com/posts/60593.html *手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等*
 
-科学上网mac客户端V2rayU使用技巧 https://www.itfanr.cc/2021/03/25/science-online-mac-client-v2rayu/
+https://www.itfanr.cc/2021/03/25/science-online-mac-client-v2rayu/ *科学上网mac客户端V2rayU使用技巧*
 
-windows使用v2rayN详细使用教程 https://mahongfei.com/1736.html
+https://mahongfei.com/1736.html *windows使用v2rayN详细使用教程*
 
-chrome神插件之：SwitchyOmega的安装设置 https://www.cnblogs.com/LyndonMario/p/9326176.html
+https://www.cnblogs.com/LyndonMario/p/9326176.html *chrome神插件之：SwitchyOmega的安装设置*
 
 v2rayN的pac简单规则 https://jonnyan404.github.io/post/v2rayn-de-pac-jian-dan-gui-ze/
 

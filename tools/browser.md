@@ -117,11 +117,11 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 ### 下载
 
-https://crxdl.com/ :cn: CrxDL - Chrome浏览器扩展插件CRX下载网
+https://crxdl.com/ :cn: CrxDL - Chrome浏览器扩展插件CRX下载网
 
 https://www.crx4chrome.com/ :uk: Crx4Chrome - Download CRX for Chrome Apps & Extensions
 
-https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera
+👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera
 
 
 
@@ -136,6 +136,8 @@ https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> Crx搜搜 - 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
 
 [✔️EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
 
 [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
@@ -148,6 +150,9 @@ https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> Crx搜搜 - 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
 [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
+*Quickly enable/disable Google Chrome extensions*
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
 
 [✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager")
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo)

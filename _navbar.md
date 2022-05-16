@@ -17,6 +17,7 @@
   - [<i class="iconfont icon-uniapp dark-green"></i> uni-app](/front-end/uniapp/)
   - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)
   - [<i class="fa fa-fonticons"></i> icon](/front-end/icon.md)
+  - [⚡ CDN](/front-end/?id=CDN-⚡)
 - Back-end
   - [<i class="ri-rocket-line"></i> Index](/back-end/)
   - [<span class="icon octicon-file php-icon dark-blue "></span> php](/back-end/php/)

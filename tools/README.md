@@ -18,21 +18,21 @@
 
 ------
 
-👍 <i class="fa fa-windows"></i>
-<i class="fa fa-apple"></i>
-https://ldqk.xyz/
-<i class="fa fa-github"></i>
-https://github.com/ldqk/Masuit.MyBlogs
+- 👍 <i class="fa fa-windows"></i>
+  <i class="fa fa-apple"></i>
+  https://ldqk.xyz/
+  - <i class="fa fa-github"></i>
+    https://github.com/ldqk/Masuit.MyBlogs
 
-<i class="fa fa-windows"></i> http://www.dayanzai.me/
+- <i class="fa fa-windows"></i> http://www.dayanzai.me/
 
-<i class="fa fa-windows"></i> http://www.xmpojie.com/
+- <i class="fa fa-windows"></i> http://www.xmpojie.com/
 
-<i class="fa fa-windows"></i> https://www.microsoft.com/zh-cn/store
+- <i class="fa fa-windows"></i> https://www.microsoft.com/zh-cn/store
 
-<i class="fa fa-apple"></i> https://macwk.com/
+- <i class="fa fa-apple"></i> https://macwk.com/
 
-<i class="fa fa-apple"></i> https://www.imacso.com/
+- <i class="fa fa-apple"></i> https://www.imacso.com/
 
 ## Awesome
 
@@ -54,7 +54,7 @@ https://github.com/ldqk/Masuit.MyBlogs
 
 | 软件名称                            | 类型             | 下载方式                                                     | 是否登录           |
 | ----------------------------------- | ---------------- | ------------------------------------------------------------ | ------------------ |
-| 电脑管家                            |                  | [下载链接](https://pc.qq.com/detail/1/detail_1841.html)      | :heavy_check_mark: |
+| 电脑管家                            | 安全             | [下载链接](https://pc.qq.com/detail/1/detail_1841.html)      | :heavy_check_mark: |
 | QQ                                  | 通讯             | 电脑管家                                                     | :heavy_check_mark: |
 | 微信                                | 通讯             | 电脑管家                                                     | :heavy_check_mark: |
 | potato chat                         | 通讯             | [下载链接1](https://ppct.in/)、[下载链接2](http://potato.manre.me/) | :heavy_check_mark: |

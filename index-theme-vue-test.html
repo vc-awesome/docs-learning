@@ -4,40 +4,25 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
-
-  <!-- Using jsdelivr -->
-  <!-- ----------------------------------------------------------------- -->
-  <!--
+  <!--  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/vue.css">-->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue"/>
-  &lt;!&ndash; Font icon &ndash;&gt;
+  <!--<link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/buble.css">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/dark.css">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/pure.css">
+  <link rel="stylesheet" href="./_libs/docsify-4.12.2/themes/dolphin.css">-->
+  <!--<link rel="stylesheet" href="./_libs/docsify-darklight-theme-3.2.0/dist/style.min.css">-->
+  <link rel="stylesheet" href="./_libs/font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css">
-  <link rel="stylesheet" href="cdn.jsdelivr.net/npm//font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
-  -->
-
-
-  <!-- Using unpkg -->
-  <!-- ----------------------------------------------------------------- -->
-  <link rel="stylesheet" href="//unpkg.com/docsify@4.12.2/themes/vue.css" title="vue"/>
-  <!-- Font icon -->
-  <link rel="stylesheet" href="//unpkg.com/file-icons-js@1.1.0/css/style.css">
-  <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="//unpkg.com/remixicon@2.5.0/fonts/remixicon.css">
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
+  <link rel="stylesheet" href="_assets/css/custom.css">
+  <!--  <link rel="stylesheet" href="./_libs/docsify-toc-1.0.0/dist/toc.css">-->
+  <!--  <link rel="shortcut icon" href="//docsify.js.org/_media/favicon.ico">-->
+  <!--  <link rel="shortcut icon" href="/images/favicon.ico">-->
 
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/bunny-color.png">
-  <!--
-  <link rel="shortcut icon" href="/images/favicon.ico">
-  <link rel="shortcut icon" href="//docsify.js.org/_media/favicon.ico">
-  -->
-
-  <!-- Using Local -->
-  <!-- ----------------------------------------------------------------- -->
-  <link rel="stylesheet" href="_assets/css/custom.css">
 
   <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -57,6 +42,34 @@
   <span>0%</span>
 </div>
 <script>
+  /*const footnoteMatch = /^\[\^([^\]]+)\]:([\s\S]*)$/
+  const referenceMatch = /\[\^([^\]]+)\](?!\()/g
+  const referencePrefix = "marked-fnref"
+  const footnotePrefix = "marked-fn"
+  const footnoteTemplate = (ref, text) => {
+    return `<sup id="${footnotePrefix}-${ref}" class="footnote-symbol">${ref}</sup><span class="footnote-text">${text}</span>`
+  }
+  const footnoteContainerTemplate = (text) => {
+    return `<div class="marked-footnotes"><h4>References</h4>${text}</div>`
+  }
+  const referenceTemplate = (ref) => {
+    return `<sup id="${referencePrefix}-${ref}" class="footnote-reference-symbol"><a href="${window.location.hash.split("?")[0]}?id=${footnotePrefix}-${ref}">${ref}</a></sup>`
+  }
+  const interpolateReferences = (text) => {
+    return text.replace(referenceMatch, (_, ref) => {
+      return referenceTemplate(ref)
+    })
+  }
+  const interpolateFootnotes = (text) => {
+    const found = text.match(footnoteMatch)
+    if (found) {
+      const replacedText = text.replace(footnoteMatch, (_, value, text) => {
+        return footnoteTemplate(value, text)
+      })
+      return replacedText /!* footnoteContainerTemplate(replacedText) *!/
+    }
+    return text
+  }*/
 
   window.$docsify = {
     //...
@@ -216,63 +229,62 @@
       target: 'h2, h3, h4, h5, h6'
     },
 
+    /*markdown: function (marked, renderer) {
+      marked.setOptions({
+        smartypants: true,
+        renderer: Object.assign(renderer, {
+          paragraph(text) {
+            return marked.Renderer.prototype.paragraph.apply(null, [
+              interpolateReferences(interpolateFootnotes(text))
+            ])},
+          text(text) {
+            return marked.Renderer.prototype.text.apply(null, [
+              interpolateReferences(interpolateFootnotes(text))
+            ])},
+        }),
+      })
+      return marked
+    },*/
   }
 </script>
-
-<!-- Local -->
-<!-- ----------------------------------------------------------------- -->
-<!-- 返回顶部 method-2 -->
-<script src="_assets/libs/back2top/js/anime.min.js"></script>
-<script src="_assets/libs/back2top/js/utils.js"></script>
-<script src="_assets/libs/back2top/js/next-boot.js"></script>
-
-
-<!-- CDN unpkg -->
-<!-- ----------------------------------------------------------------- -->
-<script src="//unpkg.com/docsify@4.12.2/lib/docsify.min.js"></script>
-<script src="//unpkg.com/docsify@4.12.2/lib/plugins/search.min.js"></script> <!--全文搜索-->
-<script src="//unpkg.com/docsify@4.12.2/lib/plugins/zoom-image.min.js"></script> <!--图片缩放-->
-
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-php.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-bash.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-sql.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-json.min.js"></script>
-
-<!-- docsify-tabs (latest v1.x.x) -->
-<script src="//unpkg.com/docsify-tabs@1.5.2/dist/docsify-tabs.min.js"></script>
-
-<!-- Table of Contents -->
-<script src="//unpkg.com/docsify-plugin-toc@1.2.1/dist/docsify-plugin-toc.min.js"></script>
-
-<script src="//unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
-
-<script src="//unpkg.com/docsify-count@1.1.0/dist/countable.min.js"></script>
-
-
-<!-- CDN jsdelivr -->
-<!-- ----------------------------------------------------------------- -->
-<!--
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>&ndash;&gt; &lt;!&ndash;全文搜索&ndash;&gt;
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script> &lt;!&ndash;图片缩放&ndash;&gt;
+<!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>-->
 
-&lt;!&ndash; twemoji &ndash;&gt;
-<script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<!--<script src="./_libs/docsify-darklight-theme-3.2.0/dist/index.min.js"></script>-->
+<!--全文搜索-->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+<script src="./_libs/docsify-copy-code-2.1.1/dist/docsify-copy-code.min.js"></script>
+<script src="./_libs/docsify-count-1.1.0/dist/countable.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-php.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-bash.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-sql.min.js"></script>
+<script src="./_libs/prismjs-1.26.0/components/prism-json.min.js"></script>
+<!--Table of Contents-->
+<!--<script src="./_libs/docsify-toc-1.0.0/dist/toc.js"></script>-->
+<script src="./_libs/docsify-plugin-toc-1.2.1/dist/docsify-plugin-toc.min.js"></script>
+<!-- twemoji -->
+<!--<script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>-->
 
-&lt;!&ndash; docsify-tabs (latest v1.x.x) &ndash;&gt;
+<!-- docsify-tabs (latest v1.x.x) -->
 <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
--->
 
+<!--图片缩放-->
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
+<!--返回顶部 method-1-->
+<!-- <script src="./_libs/docsify-scroll-to-top-1.0.2/dist/docsify-scroll-to-top.min.js"></script> -->
+
+<!--返回顶部 method-2-->
+<script src="_assets/libs/back2top/js/anime.min.js"></script>
+<script src="_assets/libs/back2top/js/utils.js"></script>
+<script src="_assets/libs/back2top/js/next-boot.js"></script>
 
 </body>
 </html>

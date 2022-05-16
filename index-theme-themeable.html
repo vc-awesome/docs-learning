@@ -6,15 +6,32 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no, viewport-fit=cover">
 
+  <!-- Using jsdelivr -->
+  <!-- ----------------------------------------------------------------- -->
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <!--
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-  <!-- Theme: Simple (latest v0.x.x) -->
+  &lt;!&ndash; Theme: Simple (latest v0.x.x) &ndash;&gt;
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  -->
 
+  
+  <!-- Using unpkg -->
+  <!-- ----------------------------------------------------------------- -->
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//unpkg.com/file-icons-js@1.1.0/css/style.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
+  <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="//unpkg.com/remixicon@2.5.0/fonts/remixicon.css">
+  <!-- Theme: Simple (latest v0.x.x) -->
+  <link rel="stylesheet" href="//unpkg.com/docsify-themeable@0.8.6/dist/css/theme-simple.css">
+  
+  
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/bunny-color.png">
   <link rel="shortcut icon" href="_media/favicon.ico">
@@ -164,23 +181,67 @@
     },
   }
 </script>
-<!--docsify-->
+<!-- Using jsdelivr -->
+<!-- ----------------------------------------------------------------- -->
+<!--
+
+&lt;!&ndash;docsify&ndash;&gt;
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 
-<!--全文搜索-->
+&lt;!&ndash;全文搜索&ndash;&gt;
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
-<!--复制到剪贴板-->
+&lt;!&ndash;复制到剪贴板&ndash;&gt;
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
 
-<!--字数统计-->
+&lt;!&ndash;字数统计&ndash;&gt;
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 
-<!--代码高亮-->
+&lt;!&ndash;代码高亮&ndash;&gt;
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+
+&lt;!&ndash;分页&ndash;&gt;
+&lt;!&ndash;<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>&ndash;&gt;
+
+&lt;!&ndash;返回顶部&ndash;&gt;
+<script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
+
+&lt;!&ndash; docsify-themeable (latest v0.x.x) &ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+
+&lt;!&ndash; docsify-tabs (latest v1.x.x) &ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+&lt;!&ndash;图片缩放&ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+
+&lt;!&ndash;目录&ndash;&gt;
+<script src="//unpkg.com/docsify-plugin-toc"></script>
+-->
+
+
+<!-- Using unpkg -->
+<!-- ----------------------------------------------------------------- -->
+<!--docsify-->
+<script src="//unpkg.com/docsify@4.12.2/lib/docsify.min.js"></script>
+
+<!--全文搜索-->
+<script src="//unpkg.com/docsify@4.12.2/lib/plugins/search.min.js"></script>
+
+<!--复制到剪贴板-->
+<script src="//unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+
+<!--字数统计-->
+<script src="//unpkg.com/docsify-count@1.1.0/dist/countable.min.js"></script>
+
+<!--代码高亮-->
+<script src="//unpkg.com/prismjs@1.28.0/components/prism-php.min.js"></script>
+<script src="//unpkg.com/prismjs@1.28.0/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs@1.28.0/components/prism-sql.min.js"></script>
+<script src="//unpkg.com/prismjs@1.28.0/components/prism-json.min.js"></script>
 
 <!--分页-->
 <!--<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>-->
@@ -189,13 +250,13 @@
 <script src="//unpkg.com/docsify-scroll-to-top/dist/docsify-scroll-to-top.min.js"></script>
 
 <!-- docsify-themeable (latest v0.x.x) -->
-<script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+<script src="//unpkg.com/docsify-themeable@0.8.6/dist/js/docsify-themeable.min.js"></script>
 
 <!-- docsify-tabs (latest v1.x.x) -->
-<script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+<script src="//unpkg.com/docsify-tabs@1.5.2/dist/docsify-tabs.min.js"></script>
 
 <!--图片缩放-->
-<script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+<script src="//unpkg.com/docsify@4.12.2/lib/plugins/zoom-image.min.js"></script>
 
 <!--目录-->
 <script src="//unpkg.com/docsify-plugin-toc"></script>

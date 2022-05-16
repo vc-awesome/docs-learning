@@ -42,6 +42,12 @@ MDN Web Docs > https://developer.mozilla.org/zh-CN/
 
 ## 页面布局
 
+<i class="ri-link"></i>
+[html 布局](/front-end/html/?id=布局)
+
+<i class="ri-link"></i>
+[css 布局](/front-end/css/css-命名规则?id=layout布局-)
+
 Grid
 
 Flex
@@ -53,3 +59,16 @@ Table
 元素高度计算函数  calc()函数  
 https://www.runoob.com/cssref/func-calc.html
 
+
+
+## CDN ⚡
+
+https://www.bootcdn.cn/ :cn: *BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务* 👍
+
+http://staticfile.org/ :cn: *Staticfile CDN*
+
+https://cdnjs.com/ :us: *cdnjs - The #1 free and open source CDN built to make life easier for developers*
+
+https://www.jsdelivr.com/ :us: *jsDelivr - A free, fast, and reliable CDN for open source* 👍
+
+https://unpkg.com/ :us: *UNPKG* 👍 
