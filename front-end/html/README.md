@@ -15,6 +15,7 @@ header 元素
 <link>
 <style></style>
 <script></script>
+<noscript></noscript>
 ```
 
 #### \<meta>
@@ -25,12 +26,21 @@ header 元素
 
 #### \<script>
 
-`<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>`
+```javascript
+<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+```
 
-- https://cdnjs.com/libraries/hammer.js *A javascript library for multi-touch gestures*
 
+
+- https://cdnjs.com/libraries/hammer.js *A javascript library for multi-touch gestures*
 - https://blog.csdn.net/chenjiebin/article/details/121093528 *script使用integrity属性进行安全验证*
-- https://www.xftsoft.com/tool/integrity *Integrity生成器（SRI Hash 生成器）*
+- https://www.xftsoft.com/tool/integrity *Integrity生成器（SRI Hash 生成器）*
+
+```javascript
+<script src="js/require.js" defer async="true" ></script>
+```
+
+`async`属性表明这个文件需要异步加载，避免网页失去响应。IE不支持这个属性，只支持`defer`，所以把`defer`也写上。[via](https://www.ruanyifeng.com/blog/2012/11/require_js.html)
 
 块元素
 

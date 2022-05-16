@@ -9,7 +9,7 @@
 
 参考
 
-tp https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
+thinkphp https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
 
 bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 内容*
 
@@ -22,7 +22,7 @@ bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 
 扩展文件：[√ 统一格式文件分类.txt](H:\√ 123456\╰ 公司项目\!! 统一格式文件分类\√ 统一格式文件分类.txt)
 
 ```text
- -- 参考云鼎五行龙丹
+ -- 参考 ydwxld
  ---------* 表示新建项目文件夹必加
 
 
@@ -92,14 +92,16 @@ bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 
 │  │   └─ uniapp/
 │  ├─ 后端/
 │  │   └─ thinkphp/
+│  │       ├─ cron.txt # 定时任务
+│  │       └─ ...
 │  ├─ 前后端/
 │  │   └─ thinkphp/
 │  └─ 波场/
 │       └─ thinkphp/
 ├─ 项目参考/
-├─ 需求图片/
+├─ 项目图片/
 │  └─ 首页轮播图/
-├─ 需求文档/ ---------*
+├─ 项目文档/ ---------*
 │  ├─ 开发文档/
 │  │   └─ 开发文档.docx
 │  ├─ 设计文档/
@@ -123,6 +125,45 @@ bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 
 
 ## 前端
 
+### custom <i class="ri-fire-line light-red"></i>
+
+> 自定义目录结构
+
+参考站点：https://gamium.world/ :us:
+
+```markdown
+web
++-- pages
+│  +-- login
++-- static
+│  +-- css
+│      +-- custom.css //自定义样式
+│      +-- main.css //主样式
+│      +-- style.css //全局样式
+│      +-- fonts.css //字体样式
+│      +-- modal.css
+│      +-- index.css
+│  +-- font
+│  +-- images
+│  +-- img
+│  +-- js
+│      +-- data.js //中英文数据
+│      +-- main.js
+│      +-- website.js
+│  +-- media
+│  +-- pdf
+│  +-- picture
+│  +-- videos
+│  +-- libs //扩展库
+│      +-- bootstrap
+│          +-- css
+│          +-- js
++-- 404.html
++-- index.html
+```
+
+
+
 ### web
 
 > 资源存放
@@ -144,38 +185,6 @@ assets/
 │              └─ examples/
 ├─ js/
 └─ scss/
-```
-
-### custom <i class="ri-fire-line light-red"></i>
-
-> 自定义目录结构
-
-参考站点：https://gamium.world/ :us:
-
-```markdown
-web
-+-- pages
-│  +-- login
-+-- static
-│  +-- css
-│      +-- custom.css //自定义样式
-│      +-- main.css //主样式
-│      +-- style.css //全局样式
-│      +-- fonts.css //字体样式
-│      +-- modal.css
-│  +-- font
-│  +-- images
-│  +-- img
-│  +-- js
-│      +-- data.js //中英文数据
-│      +-- main.js
-│      +-- website.js
-│  +-- media
-│  +-- pdf
-│  +-- picture
-│  +-- videos
-+-- 404.html
-+-- index.html
 ```
 
 
@@ -255,13 +264,13 @@ project/ #目录结构
 
 ## 后端
 
-> thinkphp资源存放:
+> thinkphp资源存放：
 >
-> public/admin
+> - public/admin
 >
-> public/home
+> - public/home
 >
-> public/index
+> - public/index
 
 ```text
 thinkphp资源存放：public/static/home/default/
@@ -302,6 +311,6 @@ thinkphp资源存放：public/static/home/default/
 └─ utils/ 工具集 （百度翻译：工具类;效用;实用工具;实用菜单）
 ```
 
-1. *uploads* 文件夹占用空间大，建议存放至 *public* 目录下，方便其它文件夹的转移
-
-2. 如果为了安全考虑，可把 *uploads* 文件夹放到系统的根目录
+- Tips:
+  1. *uploads* 文件夹占用空间大，建议存放至 *public* 目录下，方便其它文件夹的转移
+  2. 如果为了安全考虑，可把 *uploads* 文件夹放到系统的根目录

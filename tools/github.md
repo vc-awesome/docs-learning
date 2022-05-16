@@ -298,9 +298,9 @@ https://github.com/topics/github-extension
 
 #### Hosts
 
-<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520
+<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520 :cn: *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
 
-<i class="fa fa-github"></i> https://github.com/ineo6/hosts
+<i class="fa fa-github"></i> https://github.com/ineo6/hosts :cn: *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 
 <i class="ri-link"></i> [Tools - Hosts](/tools/hosts)
 

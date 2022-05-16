@@ -116,6 +116,12 @@ aside.toc-nav::-webkit-scrollbar-thumb {
     content: "\f14f";
     top: 1px;
 }
+.tag-icon:before {
+    font-family: octicons,serif;
+    font-size: 16px;
+    content: "\f015";
+    top: 1px;
+}
 
 /* Tag a */
 a {

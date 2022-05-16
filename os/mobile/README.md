@@ -3,17 +3,22 @@
 ### Google Play Store
 
 <i class="ri-android-line"></i>
-https://play.google.com/store/apps
 <i class="bi bi-ladder"></i>
+https://play.google.com/store/apps :us:
 
 
-#### Download
+#### Online Download
 
-google play 谷歌市场镜像替代网站apk下载 – N把刀
-http://www.nbadao.com/2519.html
+<i class="bi-link"></i>
+http://www.nbadao.com/2519.html *google play 谷歌市场镜像替代网站apk下载 – N把刀*
 
-👍 APKMod.cc
-https://apkmod.cc/
+👍 https://apkmod.cc/ :us: *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
+
+https://apkpure.com/ *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* 
+<i class="con octicon-file tag-icon"></i>
+[hosts](https://zhuanlan.zhihu.com/p/47225701)
+
+知乎搜索：**国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?**
 
 
 ### F-Droid
@@ -46,7 +51,7 @@ Website: https://www.zenz-solutions.de/personaldnsfilter-wp/
 
 #### Feeder
 
-优秀、自由并开源的 RSS 订阅阅读器
+?> 优秀、自由并开源的 RSS 订阅阅读器
 
 https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
 ![f-droid](https://badgen.net/f-droid/v/com.nononsenseapps.feeder)
@@ -54,3 +59,7 @@ https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
 <i class="fa fa-gitlab medium-orange"></i>
 https://gitlab.com/spacecowboy/Feeder
 ![GitLab Release (by release name)](https://img.shields.io/gitlab/v/release/spacecowboy/Feeder?include_prereleases&logo=gitlab)
+
+### App Store
+
+官网：https://www.apple.com.cn/app-store/ :cn:

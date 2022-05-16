@@ -23,7 +23,7 @@
   https://ldqk.xyz/
   - <i class="fa fa-github"></i>
     https://github.com/ldqk/Masuit.MyBlogs
-
+    
 - <i class="fa fa-windows"></i> http://www.dayanzai.me/
 
 - <i class="fa fa-windows"></i> http://www.xmpojie.com/
@@ -33,6 +33,8 @@
 - <i class="fa fa-apple"></i> https://macwk.com/
 
 - <i class="fa fa-apple"></i> https://www.imacso.com/
+
+- <i class="fa fa-windows"></i> https://scoop.sh :us: *A command-line installer for Windows*
 
 ## Awesome
 

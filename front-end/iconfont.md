@@ -6,14 +6,14 @@
 
 > 图标 （本文档使用中的 Icon）
 
-| Name                                                  | Preview                                                      | Code                                                         | Size class                                                   | Color class |
-| ----------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
-| [Iconfont](/front-end/icon.md?id=iconfont)            | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |             |
-| [Font Awesome](/front-end/icon?id=font-awesome-)      | <i class="fa fa-link"></i><br /><i class="fa fa-link fa-lg"></i> | `<i class="fa fa-link"></i>`<br />`<i class="fa fa-link fa-lg"></i>` | `fa-lg` `fa-2x` `fa-3x` `fa-4x` `fa-5x`                      |             |
-| [Bootstrap Icons](/front-end/icon?id=bootstrap-icons) | <i class="bi bi-link-45deg"></i>                             | `<i class="bi bi-link-45deg"></i>`                           |                                                              |             |
-| [Remix Icon](/front-end/icon?id=remix-icon-)          | <i class="ri-links-line"></i><br /><i class="ri-link"></i>   | `<i class="ri-links-line"></i>`<br />`<i class="ri-link"></i>` | `ri-fw` `ri-xxs` `ri-xs` `ri-sm` `ri-1x` `ri-lg` `ri-xl` `ri-2x`  `ri-3x` ... `ri-10x` [<i class="fa fa-external-link"></i>](https://github.com/Remix-Design/RemixIcon/blob/master/README_CN.md#%E5%A4%A7%E5%B0%8F) |             |
-| [File Icons](/front-end/icon?id=file-icons)           | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |             |
-| [Styled Icons](/front-end/icon?id=styled-icons-)      | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |             |
+| Name            | Preview                                                      | Code                                                         | Size class                                                   | Color class |
+| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
+| Iconfont        | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |             |
+| Font Awesome    | <i class="fa fa-link"></i><br /><i class="fa fa-link fa-lg"></i> | `<i class="fa fa-link"></i>`<br />`<i class="fa fa-link fa-lg"></i>` | `fa-lg` `fa-2x` `fa-3x` `fa-4x` `fa-5x`                      |             |
+| Bootstrap Icons | <i class="bi bi-link-45deg"></i>                             | `<i class="bi bi-link-45deg"></i>`                           |                                                              |             |
+| Remix Icon      | <i class="ri-links-line"></i><br /><i class="ri-link"></i>   | `<i class="ri-links-line"></i>`<br />`<i class="ri-link"></i>` | `ri-fw` `ri-xxs` `ri-xs` `ri-sm` `ri-1x` `ri-lg` `ri-xl` `ri-2x`  `ri-3x` ... `ri-10x` [<i class="fa fa-external-link"></i>](https://github.com/Remix-Design/RemixIcon/blob/master/README_CN.md#%E5%A4%A7%E5%B0%8F) |             |
+| File Icons      | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |             |
+| Styled Icons    | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |             |
 
 ?> 语法： > `light-*`,`medium-*`,`dark-*`（\* 用 *color name* 替换）<br /><br />
 <i class="ri-fire-line light-red"></i>
@@ -110,6 +110,7 @@
 | <i class="ri-app-store-line"></i>          | 苹果应用市场   | `<i class="ri-app-store-line"></i>`          |
 | <i class="ri-google-play-line"></i>        | 谷歌应用市场   | `<i class="ri-google-play-line"></i>`        |
 | <i class="ri-todo-line"></i>               | 待办           | `<i class="ri-todo-line"></i>`               |
+| <i class="ri-tools-fill"></i>              | 工具           | `<i class="ri-tools-fill"></i>`              |
 | <i class="ri-fire-line light-red"></i>     | 热点           | `<i class="ri-fire-line light-red"></i>`     |
 | <i class="ri-archive-line light-blue"></i> | 归档/ 停止更新 | `<i class="ri-archive-line light-blue"></i>` |
 
@@ -133,6 +134,7 @@
 | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue"></span>` | 原有        |
 | <span class="icon octicon-file mysql-icon dark-blue"></span> | `<span class="icon octicon-file mysql-icon dark-blue"></span>` | 自定义      |
 | <span class="icon octicon-file redis-icon medium-red"></span> | `<span class="icon octicon-file redis-icon medium-red"></span>` | 自定义      |
+| <i class="con octicon-file tag-icon"></i>                    | `<i class="con octicon-file tag-icon"></i>`                  | 自定义      |
 
 </details>
 
@@ -162,12 +164,18 @@ https://www.cnblogs.com/sexintercourse/p/15945269.html
 
 
 
+## Tool <i class="ri-tools-line"></i>
+
+https://github.com/ecomfe/fonteditor :cn: *在线字体编辑器* https://kekee000.github.io/fonteditor/
+
+https://www.high-logic.com/font-editor/fontcreator :us: *FontCreator for Windows - the most popular font editor*
+
 ## Iconfont
 
 ?>
 阿里巴巴矢量图标库
 
-<i class="fa fa-laptop"></i> https://www.iconfont.cn/
+<i class="fa fa-laptop"></i> https://www.iconfont.cn/ :cn:
 
 
 
@@ -177,9 +185,9 @@ https://www.cnblogs.com/sexintercourse/p/15945269.html
 
 
 
-<i class="fa fa-home fa-lg"></i> https://fontawesome.dashgame.com/
+<i class="fa fa-home fa-lg"></i> https://fontawesome.dashgame.com/ :cn:
 
-<i class="fa fa-laptop"></i> https://fontawesome.com/
+<i class="fa fa-laptop"></i> https://fontawesome.com/ :us:
 
 <i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome/
 
@@ -267,7 +275,6 @@ https://github.com/react-icons/react-icons
 <i class="ri-soundcloud-line"></i> https://www.bootcdn.cn/octicons/
 
 
-
 ## Material Design Icons
 
 ?> Material Design icons by Google.<br><i class="bi bi-translate dark-yellow"></i> Google 的 Material Design 图标。
@@ -276,9 +283,21 @@ https://github.com/react-icons/react-icons
 
 <i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons/
 
-<i class="ri-soundcloud-line"></i> https://www.bootcdn.cn/material-design-icons/
+<i class="ri-soundcloud-line"></i> 
+1️⃣ https://www.bootcdn.cn/material-design-icons/
+2️⃣ https://unpkg.com/material-design-icons/
 
 <i class="fa fa-book"></i> http://google.github.io/material-design-icons/
+
+
+
+```html
+<link rel="stylesheet" href="//unpkg.com/material-design-icons@3.0.1/iconfont/material-icons.css">
+<!-- 或 -->
+<!--  <link rel="stylesheet" href="//fonts.loli.net/css?family=Material+Icons">-->
+<!-- 或 -->
+<!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+```
 
 
 
@@ -292,7 +311,7 @@ https://github.com/react-icons/react-icons
 
 
 
-<i class="fa fa-laptop"></i>  <i class="fa fa-shopping-cart"></i> https://glyphicons.com/
+<i class="fa fa-laptop"></i>  <i class="fa fa-shopping-cart"></i> https://glyphicons.com/ :us:
 
 
 
@@ -306,16 +325,19 @@ https://github.com/vscode-icons/vscode-icons/
 <i class="fa fa-github fa-lg"></i>
 https://github.com/microsoft/vscode-codicons
 
+
+
 ## More
 
 <i class="fa fa-github fa-lg"></i>
 https://github.com/evil-icons/evil-icons
 *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN*
 
-<i class="fa fa-github fa-lg"></i>
-https://github.com/icons8
+
 
 ## 在线 icon 搜索
 
-https://www.flaticon.com/
+https://www.flaticon.com/ :us: *Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS*
 
+https://icons8.com :us: :cn: *Free Icons, Clipart Illustrations, Photos, and Music* <i class="fa fa-github fa-lg"></i>
+https://github.com/icons8

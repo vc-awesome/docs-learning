@@ -1,14 +1,35 @@
 todo...
 
-## 学习计划
+- 运行环境
+
+  - 浏览器编程：browser
+
+  - 服务器编程：node.js
+
+## Index
+
+https://www.ruanyifeng.com/blog/2014/10/event-loop.html *JavaScript 运行机制详解：再谈Event Loop*
+
+https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html *JavaScript Source Map 详解*
+
+- 模块编程
+
+  1. https://www.ruanyifeng.com/blog/2012/10/javascript_module.html *Javascript模块化编程（一）：模块的写法*
+  2. https://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html *Javascript模块化编程（二）：AMD规范*
+  3. https://www.ruanyifeng.com/blog/2012/11/require_js.html *Javascript模块化编程（三）：require.js的用法*
+  3. https://www.ruanyifeng.com/blog/2014/09/package-management.html *前端模块管理器简介*
+  
+- 异步编程
+  - https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html *Javascript异步编程的4种方法*
+  - https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html *JavaScript与有限状态机*
+
+## Guide
 
 ### 基础
 
 - 代码规范
   - 变量命名：驼峰法（camelCase）
 - 数据类型
-
-
 
 - JS HTML DOM（文档对象模型）
 - JS 浏览器 BOM
@@ -23,7 +44,7 @@ https://webpack.js.org/
 
 
 
-## 学习笔记
+## Faqs
 
 ### a标签响应onclick事件，并且不执行href动作
 

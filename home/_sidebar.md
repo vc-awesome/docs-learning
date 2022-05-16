@@ -1,5 +1,6 @@
 * [Introduce](/home/ "Introduce")
 * **Frequent Use**
+* [Book](/home/book.md)
 * [Markdown](/tools/markdown.md "Markdown")
 * [Git](/tools/git.md "Git")
 * [GitHub](/tools/github.md "GitHub")
