@@ -118,7 +118,7 @@ bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 
 ├─ 范例 --项目部署.md ---------*
 ├─ 范例 --项目域名.md ---------*
 ├─ 范例 --账号密码.txt ---------*
-└─ 以下项目资料 --<项目名称>.txt
+└─ 范例 --以下项目资料 --<项目名称>.txt
 ```
 
 
@@ -129,10 +129,10 @@ bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 
 
 > 自定义目录结构
 
-参考站点：https://gamium.world/ :us:
+参考站点：1️⃣ https://gamium.world/ :us: 2️⃣ https://unpkg.com/fontawesome-free/
 
 ```markdown
-web
+myproject
 +-- pages
 │  +-- login
 +-- static
@@ -143,6 +143,7 @@ web
 │      +-- fonts.css //字体样式
 │      +-- modal.css
 │      +-- index.css
+│      +-- default.css
 │  +-- font
 │  +-- images
 │  +-- img

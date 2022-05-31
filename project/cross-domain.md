@@ -6,13 +6,13 @@
 
 ### cookie 跨域
 
-thinkphp解决cookie跨域 https://www.cnblogs.com/xfstu/p/15705285.html
+https://www.cnblogs.com/xfstu/p/15705285.html *thinkphp解决cookie跨域*
 
-ThinkPHP中的跨域名共享session https://blog.csdn.net/leejianjun/article/details/52880253
+https://blog.csdn.net/leejianjun/article/details/52880253 *ThinkPHP中的跨域名共享session*
 
-thinkphp中session跨域问题 https://www.cnblogs.com/shitouzi/archive/2017/10/03/7623885.html
+https://www.cnblogs.com/shitouzi/archive/2017/10/03/7623885.html *thinkphp中session跨域问题*
 
-【thinkphp】跨域共享cookies session https://cloud.tencent.com/developer/article/1190563
+https://cloud.tencent.com/developer/article/1190563 *【thinkphp】跨域共享cookies session*
 
 
 
@@ -173,11 +173,11 @@ http和https跨域问题 https://blog.csdn.net/qq_40504777/article/details/11867
 
 > 跨域请求调试工具
 
-### web浏览器跨域调试
+### 浏览器跨域调试
 
 > 👍 [跨域调试 - 浏览器随意打开一个网页 console中输入以下代码调试（注：http或https要一致）](http://www.04007.cn/article/799.html)
 >
-> ajax菜鸟教程链接：https://www.runoob.com/ajax/ajax-tutorial.html
+> 菜鸟教程：https://www.runoob.com/ajax/ajax-tutorial.html *AJAX 教程 | 菜鸟教程*
 
 ```js
 var xhr = new XMLHttpRequest();
@@ -206,7 +206,7 @@ xhr.onload = function(e) {
 
 本地开发调试出现无法跨域的问题
 
-> 检查电脑或浏览器是否开启了 vpn
->
-> 使用浏览器无痕窗口打开
+- 检查电脑或浏览器是否开启了 **vpn**
+
+- 使用浏览器无痕窗口打开
 

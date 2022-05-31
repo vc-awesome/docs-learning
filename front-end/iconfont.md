@@ -211,6 +211,15 @@ https://www.high-logic.com/font-editor/fontcreator :us: *FontCreator for Windows
 
 <i class="fa fa-github fa-lg"></i> https://github.com/ionic-team/ionicons
 
+<i class="ri-soundcloud-line"></i>
+https://unpkg.com/ionicons/
+
+```javascript
+<!-- ionicons -->
+<script type="module" src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+```
+
 
 
 ## Remix Icon <i class="ri-fire-line light-red"></i>
@@ -283,12 +292,11 @@ https://github.com/react-icons/react-icons
 
 <i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons/
 
+<i class="fa fa-book"></i> http://google.github.io/material-design-icons/
+
 <i class="ri-soundcloud-line"></i> 
 1️⃣ https://www.bootcdn.cn/material-design-icons/
 2️⃣ https://unpkg.com/material-design-icons/
-
-<i class="fa fa-book"></i> http://google.github.io/material-design-icons/
-
 
 
 ```html

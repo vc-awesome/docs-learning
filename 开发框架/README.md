@@ -103,8 +103,23 @@ Github：https://github.com/ionic-team/ionic-framework
 
 菜鸟教程：https://www.runoob.com/ionic/ionic-tutorial.html
 
+### Semantic UI
+
+?> Semantic is a UI component framework based around useful principles from natural language.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/semantic-org/semantic-ui?logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/semantic-org/semantic-ui?logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/semantic-org/semantic-ui?logo=github)
+![npm](https://img.shields.io/npm/v/semantic-ui?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/semantic-org/semantic-ui?style=social)
+
+Website：https://semantic-ui.com/ :cn:
+
+Github：https://github.com/semantic-org/semantic-ui
 
 ## css 框架
+
+https://www.tailwindcss.cn/ :cn: *Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。*
 
 
 ## vue 框架
@@ -187,6 +202,14 @@ Website：https://www.uviewui.com/ :cn:
 GitHub：https://github.com/umicro/uView2.0
 
 <i class="ri-link"></i> [uView](/front-end/uniapp/uniapp%20+%20uview)
+
+## react 框架
+
+https://reactjs.bootcss.com :cn: *用于构建用户界面的 JavaScript 框架*
+
+https://www.nextjs.cn :cn: *Next.js 是一个轻量级的 React 服务端渲染应用框架。*
+
+https://segmentfault.com/a/1190000023608841 :cn: *思否开源项目推介丨UUI：功能优先的通用 UI 组件库*
 
 
 ## javascript 框架

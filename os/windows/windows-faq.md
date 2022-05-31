@@ -27,3 +27,14 @@
 - 如何通过局域网共享文件夹
 
   如何通过局域网共享文件夹 https://jingyan.baidu.com/article/ca2d939d2cc7acaa6c31cee1.html
+
+
+
+- win10 添加开机启动项
+
+  1. 按下 `win + R` 快捷键，打开运行窗口，输入 `shell:startup`，点击确定
+  2. 打开启动文件夹，最后把想要添加的启动项快捷方式直接拖进这个文件夹
+  3. 然后就可以看到我们将 `qq` 设置为启动项了。
+  4. 我们还可以进入任务管理器中看看我们有没有添加成功。
+
+  https://product.pconline.com.cn/itbk/software/dnyw/1435/14351335.html *win10开机启动项怎么添加的步骤教程*

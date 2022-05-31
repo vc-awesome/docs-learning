@@ -20,37 +20,31 @@
 
 - 👍 <i class="fa fa-windows"></i>
   <i class="fa fa-apple"></i>
-  https://ldqk.xyz/
+  https://ldqk.xyz/ :cn: - *首页懒得勤快的博客互联网分享精神*
   - <i class="fa fa-github"></i>
     https://github.com/ldqk/Masuit.MyBlogs
-    
-- <i class="fa fa-windows"></i> http://www.dayanzai.me/
-
+- <i class="fa fa-windows"></i> http://www.dayanzai.me/ :cn: - *大眼仔旭 - 专注视频剪辑、解压、录屏、思维导图等办公资源分享*
 - <i class="fa fa-windows"></i> http://www.xmpojie.com/
+- <i class="fa fa-windows"></i> https://www.microsoft.com/zh-cn/store :cn: :us: - *Windows 应用 - Microsoft 应用商店* - ⚠️<u>下载应用需要 Windows 系统预先安装 Microsoft Store</u>
+  - https://zhuanlan.zhihu.com/p/491624008 - *手动安装 Windows 应用商店*
+  - https://store.rg-adguard.net/ - *下载 Windows 应用商店的安装包*
 
-- <i class="fa fa-windows"></i> https://www.microsoft.com/zh-cn/store
-
-- <i class="fa fa-apple"></i> https://macwk.com/
-
-- <i class="fa fa-apple"></i> https://www.imacso.com/
-
-- <i class="fa fa-windows"></i> https://scoop.sh :us: *A command-line installer for Windows*
+- <i class="fa fa-apple"></i> https://macwk.com/ :cn: - *MacWk - 精品mac软件下载*
+- <i class="fa fa-apple"></i> https://www.imacso.com/ :cn: - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
+- <i class="fa fa-windows"></i> https://scoop.sh :us: - *A command-line installer for Windows*
+- <i class="fa fa-windows"></i> https://chocolatey.org :us: - *Chocolatey Software | Chocolatey - The package manager for Windows*
 
 ## Awesome
 
-<i class="fa fa-windows"></i> https://github.com/Awesome-Windows/Awesome
+<i class="fa fa-windows"></i> https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*
 
-<i class="fa fa-apple"></i> https://github.com/jaywcjlove/awesome-mac
+<i class="fa fa-apple"></i> https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.*
 
-<i class="fa fa-apple"></i> https://github.com/iCHAIT/awesome-macOS
-
-
-
-## todo...
+<i class="fa fa-apple"></i> https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
 
 
 
-## 软件安装列表
+## 安装列表
 
 > 软件安装至电脑 `D`、`E` 盘
 
@@ -92,4 +86,68 @@
 | Visual Studio Code                  | 开发             | 电脑管家                                                     | :x:                |
 | 向日葵远程控制软件                  | 开发             | 电脑管家、[下载链接](https://sunlogin.oray.com/personal/)    | :heavy_check_mark: |
 | HBuilder X                          | 开发             | [下载链接](https://www.dcloud.io/hbuilderx.html)             | :x:                |
+
+## 仿站工具
+
+百度搜索词：下载网页模板软件、仿站工具、仿站软件
+
+
+
+- 分类
+  - 针对单页面
+  - 针对整站
+
+
+
+- 安装包
+
+  - Teleport Ultra
+
+    http://www.tenmax.com/teleport/ultra/download.htm/
+
+  - Teleport Pro（电脑管家/收费）
+
+  - 👍 小飞兔（收费功能更完善）
+
+    https://www.xftsoft.com/
+
+    https://smalltool.github.io/
+
+  - Offline Explorer（电脑管家/收费）
+
+    https://metaproducts.com/
+
+  - WebZip
+
+    https://www.onlinedown.net/soft/19648.htm
+
+    
+
+- 浏览器扩展程序
+
+  - Save All Resources
+
+    <i class="fa fa-github"></i> https://github.com/up209d/ResourcesSaverExt
+
+    https://www.crxsoso.com/webstore/detail/abpdnfjocnmdomablahdcfnoggeeiedb
+
+    via https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法 - 掘金*
+
+- 在线工具
+
+  https://bazhan.wang/ :cn: - *在线扒站工具-在线扒站官网网页源码打包下载手机扒站_仿站工具*
+
+- 参考链接
+
+  https://blog.csdn.net/weixin_42514606/article/details/88431772 *扒站工具推荐*
+
+  - 如何优雅的扒网站
+
+    https://www.cnblogs.com/zuoshoupai/p/8276741.html *如何优雅的扒网站——工具篇*
+
+    https://www.cnblogs.com/zuoshoupai/p/9221285.html - *如何优雅的扒站——抓包篇*
+
+    https://www.cnblogs.com/zuoshoupai/p/6985834.html - *如何优雅的仿站Step One——扒网站篇*
+
+  https://blog.51cto.com/lxw1844912514/3073591 - *4种常用扒站工具（webzip、ha_TeleportPro、Offline Explorer、wget）*
 
