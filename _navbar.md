@@ -6,6 +6,7 @@
   - [<i class="fa fa-list-ul fa-flip-horizontal"></i> Toc](/home/toc)
   - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
   - [<i class="fa fa-fonticons"></i> FontIcon](/front-end/iconfont.md)
+  - [<ion-icon name="fast-food-outline"></ion-icon> Mirror](/home/?id=镜像站)
 - Essentials
   - [身份认证](/essential/identity.md)
   - [Http](/essential/http.md)
@@ -22,14 +23,16 @@
   - [⚡ CDN](/front-end/?id=CDN-⚡)
 - Back-end
   - [<i class="ri-rocket-line"></i> Index](/back-end/)
-  - [<span class="icon octicon-file php-icon dark-blue "></span> php](/back-end/php/)
+  - [![](https://www.php.net/favicon.ico ':size=16')php](/back-end/php/)
   - [<i class="fa fa-fire medium-green"></i> thinkphp](/back-end/thinkphp/)
+  - [<i class="icon octicon-file nginx-icon dark-green"></i> nginx](/back-end/nginx.md)
   - [<span class="icon octicon-file docker-icon dark-blue"></span> docker](/back-end/docker.md "Docker")
   - [![](https://cdn.travis-ci.org/images/favicon-076a22660830dc325cc8ed70e7146a59.png ':size=14')travis-ci](/back-end/travis-ci.md "Travis Ci")
 - Database
   - [<i class="ri-rocket-line"></i> Index](/database/)
   - [<i class="icon octicon-file mysql-icon dark-blue"></i> mysql](/database/mysql/)
   - [<i class="icon octicon-file redis-icon medium-red"></i> redis](/database/redis/)
+  - [<i class="icon octicon-file mongodb-icon dark-green"></i> MongoDB](/database/mongodb/)
 - OS
   - [<i class="ri-rocket-line"></i> Index](/os/)
   - [<i class="fa fa-windows"></i> Windows](/os/windows/)

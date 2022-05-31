@@ -29,125 +29,126 @@ https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Ex
 
 ## 常用
 
-[✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
+- [✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
 
-[✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
+- [✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
 
-[✔️EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
+- [✔️EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
 
-[✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
-<i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
+- [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
+  <i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
 
+- [✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
-[✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
+- [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
+  *Quickly enable/disable Google Chrome extensions*
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
+- [✔️暴力猴](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag "一个开源的用户脚本管理器，支持很多浏览器")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social)
 
-[✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
-*Quickly enable/disable Google Chrome extensions*
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
+- [✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
 
-[✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
+  ?> The world's most popular userscript manager.  
+  <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
+  <i class="fa fa-github fa-lg"></i> https://github.com/derjanb  
 
-[✔️暴力猴](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag "一个开源的用户脚本管理器，支持很多浏览器")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social)
+  - 脚本下载
+    - https://greasyfork.org/zh-CN
 
-?> The world's most popular userscript manager.  
-<i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
-<i class="fa fa-github fa-lg"></i> https://github.com/derjanb  
+  - 好用的脚本列表
 
-- 脚本下载
-  - https://greasyfork.org/zh-CN
+    - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
 
+    - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
 
-- 好用的脚本列表
-  - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
-  - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
-  - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
-  - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
+    - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
 
+    - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
 
-✔️Replace Google CDN
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social)
+- ✔️Replace Google CDN
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social)
 
-?> ♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。  
-<i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
-<i class="fa fa-github fa-lg"></i> https://github.com/justjavac/ReplaceGoogleCDN
+  ?> ♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。  
+  <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
+  <i class="fa fa-github fa-lg"></i> https://github.com/justjavac/ReplaceGoogleCDN
 
-[✔️Gooreplacer](https://github.com/jiacai2050/gooreplacer) *⚡️⚡️A browser extension to modify HTTP requests :-)*
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social)
+- [✔️Gooreplacer](https://github.com/jiacai2050/gooreplacer) *⚡️⚡️A browser extension to modify HTTP requests :-)*
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social)
+  - 下载 - https://www.crxsoso.com/webstore/detail/jnlkjeecojckkigmchmfoigphmgkgbip
 
-[~~skyZIP™ Proxy~~](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
+- [~~skyZIP™ Proxy~~](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
 
-[草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg)
+- [草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg)
 
-[Hack-Tools](https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi)
+- [Hack-Tools](https://chrome.google.com/webstore/detail/hack-tools/cmbndhnoonmghfofefkcccljbkdpamhi)
 
-[Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa)
+- [Markdown Here](https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa)
 
-[ZenMate Free VPN–Best VPN for Chrome](https://chrome.google.com/webstore/detail/zenmate-free-vpn%E2%80%93best-vpn/fdcgdnkidjaadafnichfpabhfomcebme)
+- [ZenMate Free VPN–Best VPN for Chrome](https://chrome.google.com/webstore/detail/zenmate-free-vpn%E2%80%93best-vpn/fdcgdnkidjaadafnichfpabhfomcebme)
 
-[Chrome版Todoist](https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh)
+- [Chrome版Todoist](https://chrome.google.com/webstore/detail/todoist-for-chrome/jldhpllghnbhlbpcmnajkpdmadaolakh)
 
-[DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
+- [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
 
-[✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog)
-*标签页定时刷新*
+- [✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog)
+  *标签页定时刷新*
 
-[✔️Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
-*最好用的 Chrome 下载管理（支持资源嗅探）*
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
+- [✔️Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
+  *最好用的 Chrome 下载管理（支持资源嗅探）*
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
 
 ------
 
 ## 翻译
 
-[✔️Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb "浏览网页时可轻松查看翻译版本。由Google翻译小组提供。")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/aapbdbdomjkkjkaonfhkkikfgjllcleb)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/aapbdbdomjkkjkaonfhkkikfgjllcleb?style=social)
+- [✔️Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb "浏览网页时可轻松查看翻译版本。由Google翻译小组提供。")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/aapbdbdomjkkjkaonfhkkikfgjllcleb?style=social)
 
-[✔️百度翻译：网页翻译、海淘神器](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci "百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。")
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/edhchknefojhifoiebpcbkhcjlkkklci)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/edhchknefojhifoiebpcbkhcjlkkklci?style=social)
+- [✔️百度翻译：网页翻译、海淘神器](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci "百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。")
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/edhchknefojhifoiebpcbkhcjlkkklci)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/edhchknefojhifoiebpcbkhcjlkkklci?style=social)
 
-[划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad "一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。")
+- [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad "一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。")
 
-[沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg "Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。")
+- [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg "Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。")
 
 
 
 ## 开发
 
-[✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies")
-*Identify web technologies*
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
+- [✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies")
+  *Identify web technologies*
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
 
-[✔️FeHelper(前端助手)](https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
+- [✔️FeHelper(前端助手)](https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
 
-[✔️EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fngmhnnpilhplaeedifhccceomclgfbg)
-![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fngmhnnpilhplaeedifhccceomclgfbg?style=social)
+- [✔️EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fngmhnnpilhplaeedifhccceomclgfbg)
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fngmhnnpilhplaeedifhccceomclgfbg?style=social)
 
-[✔️时间戳转化](https://www.crxsoso.com/webstore/detail/ahkgjgnlldlkagonpndejcbhipkealgo) *鼠标右键格式化时间戳*
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ahkgjgnlldlkagonpndejcbhipkealgo)
+- [✔️时间戳转化](https://www.crxsoso.com/webstore/detail/ahkgjgnlldlkagonpndejcbhipkealgo) *鼠标右键格式化时间戳*
+  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ahkgjgnlldlkagonpndejcbhipkealgo)
 
 
 ## GitHub

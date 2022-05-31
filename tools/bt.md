@@ -16,6 +16,10 @@ https://www.aapanel.com/feature.html
 
 论坛：https://forum.aapanel.com/
 
+演示：http://demo.aapanel.com/fdgi87jbn/
+
+安装：https://www.aapanel.com/new/download.html
+
 
 
 ## ssl

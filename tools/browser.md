@@ -60,6 +60,36 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 
 
+### More
+
+https://browser.yandex.com/
+
+## 书签 <i class="ri-fire-line light-red"></i>
+
+如何管理浏览器的书签（收藏）？ https://www.zhihu.com/question/19921595/answer/715490524
+
+困扰我多年的“跨浏览器书签同步”问题终于解决了 https://juejin.cn/post/6909814992120315911
+
+chrome浏览器书签为什么不能同步？ https://www.zhihu.com/question/20434889/answer/1035109307
+
+How to Get the Most Out of the Chrome Bookmarks Bar https://www.howtogeek.com/423917/how-to-get-the-most-out-of-the-chrome-bookmarks-bar/
+
+
+
+## 搜索引擎
+
+百度 https://www.baidu.com/
+
+谷歌 https://www.google.com/
+
+必应 https://www.bing.com/ *Microsoft Bing*
+
+https://www.qwant.com :us: *Qwant - The search engine that respects your privacy*
+
+https://yandex.com/ :us: *Yandex*
+
+
+
 ## 浏览器操作
 
 ### 绕过浏览器缓存刷新页面
@@ -101,24 +131,3 @@ chrome:// 的秘密！！一些有用的命令！ https://www.cnblogs.com/hangge
 
 ## 开发者工具
 
-
-
-## 书签 <i class="ri-fire-line light-red"></i>
-
-如何管理浏览器的书签（收藏）？ https://www.zhihu.com/question/19921595/answer/715490524
-
-困扰我多年的“跨浏览器书签同步”问题终于解决了 https://juejin.cn/post/6909814992120315911
-
-chrome浏览器书签为什么不能同步？ https://www.zhihu.com/question/20434889/answer/1035109307
-
-How to Get the Most Out of the Chrome Bookmarks Bar https://www.howtogeek.com/423917/how-to-get-the-most-out-of-the-chrome-bookmarks-bar/
-
-
-
-## 搜索引擎
-
-百度 https://www.baidu.com/
-
-谷歌 https://www.google.com/
-
-必应 https://www.bing.com/ *Microsoft Bing*

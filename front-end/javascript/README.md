@@ -10,7 +10,7 @@ todo...
 
 https://www.ruanyifeng.com/blog/2014/10/event-loop.html *JavaScript 运行机制详解：再谈Event Loop*
 
-https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html *JavaScript Source Map 详解*
+https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html *JavaScript Source Map 详解*
 
 - 模块编程
 
@@ -484,7 +484,7 @@ Value
 
 
 
-## form
+## Form
 
 表单的`enctype`属性：
 

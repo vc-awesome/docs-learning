@@ -122,6 +122,12 @@ aside.toc-nav::-webkit-scrollbar-thumb {
     content: "\f015";
     top: 1px;
 }
+.mongodb-icon:before {
+    font-family: Mfizz,serif;
+    font-size: 16px;
+    content: "\f135";
+    top: 1px;
+}
 
 /* Tag a */
 a {

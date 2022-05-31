@@ -16,38 +16,38 @@
 
 ---
 
-https://www.zyskys.com/posts/60593.html *手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等*
+https://www.zyskys.com/posts/60593.html *手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等*
 
-https://www.itfanr.cc/2021/03/25/science-online-mac-client-v2rayu/ *科学上网mac客户端V2rayU使用技巧*
+https://www.itfanr.cc/2021/03/25/science-online-mac-client-v2rayu/ *科学上网mac客户端V2rayU使用技巧*
 
-https://mahongfei.com/1736.html *windows使用v2rayN详细使用教程*
+https://mahongfei.com/1736.html *windows使用v2rayN详细使用教程*
 
-https://www.cnblogs.com/LyndonMario/p/9326176.html *chrome神插件之：SwitchyOmega的安装设置*
+https://www.cnblogs.com/LyndonMario/p/9326176.html *chrome神插件之：SwitchyOmega的安装设置*
 
-v2rayN的pac简单规则 https://jonnyan404.github.io/post/v2rayn-de-pac-jian-dan-gui-ze/
+https://jonnyan404.github.io/post/v2rayn-de-pac-jian-dan-gui-ze/ *v2rayN的pac简单规则*
 
-[Windows VPS] V2rayN的pac设置我一直没搞明白，如果你也不明白，进来看看 https://hostloc.com/thread-628208-1-1.html
+https://hostloc.com/thread-628208-1-1.html *[Windows VPS] V2rayN的pac设置我一直没搞明白，如果你也不明白，进来看看*
 
-主流V2Ray客户端不再支持PAC代理模式，影响及应对 https://baiyunju.cc/7475
+https://baiyunju.cc/7475 *主流V2Ray客户端不再支持PAC代理模式，影响及应对*
 
-v2rayN 4.x版本如何设置PAC分流访问国内外网站 https://www.dqzboy.com/7510.htmlhttps://www.dqzboy.com/7510.html
+https://www.dqzboy.com/7510.htmlhttps://www.dqzboy.com/7510.html *v2rayN 4.x版本如何设置PAC分流访问国内外网站*
 
 
 ## book
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary
+<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary *总结关于科学上网的概念方法及工具*
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world
+<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪
+<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪 *★覆盖全平台★完全免费★节点订阅★机场推荐★破解VPN软件分享★*
 
 <i class="fa fa-github"></i>
 <i class="fa fa-thumbs-o-up"></i>
-https://github.com/Alvin9999/new-pac
+https://github.com/Alvin9999/new-pac *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙*
 
-<i class="fa fa-github"></i> https://github.com/Ibroad/overthefirewall
+<i class="fa fa-github"></i> https://github.com/Ibroad/overthefirewall *★覆盖全平台★完全免费★节点订阅★机场推荐★〓v2ray/shadowsocks/clash〓*
 
-<i class="fa fa-github"></i> https://github.com/xiaoming2028/FreePAC
+<i class="fa fa-github"></i> https://github.com/xiaoming2028/FreePAC *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
 
 
 
@@ -56,10 +56,10 @@ https://github.com/Alvin9999/new-pac
 
 <i class="fa fa-windows"></i>
 <i class="fa fa-apple"></i>
-https://github.com/xiaoshoudian/xiazai
+https://github.com/xiaoshoudian/xiazai *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
 
 <i class="bi bi-ladder"></i>
-https://www.bypasscensorship.org/zh-hans/
+https://www.bypasscensorship.org/zh-hans/ *BypassCensorship*
 
 <i class="bi bi-ladder"></i>
 <i class="fa fa-thumbs-o-up"></i>
@@ -180,3 +180,5 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 https://github.com/gfwlist/gfwlist
 
 <i class="fa fa-github"></i> https://github.com/petronny/gfwlist2pac
+
+https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac

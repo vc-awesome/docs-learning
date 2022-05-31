@@ -51,10 +51,12 @@ https://docs.binance.org/smart-chain/developer/BEP20.html
 
 ![](../_images/color-black.svg ':size=33%')
 
+?> Decentralized trading protocol on BNB Smart Chain
+
 > DeFi
 
-主页：https://pancakeswap.finance/
+主页：https://pancakeswap.finance/ :us: :cn:
 
-文档：https://docs.pancakeswap.finance/
+文档：https://docs.pancakeswap.finance/ :us:
 
 Github：https://github.com/pancakeswap
