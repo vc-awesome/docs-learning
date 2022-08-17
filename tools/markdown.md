@@ -798,7 +798,7 @@ Bob-->Alice: I am good thanks!
 
 #### 自动将 URL 转换为链接
 
-许多 Markdown 解析器会自动将 URL 转换为链接。这意味着，即使你没有 [使用中括号](https://www.markdown.xyz/basic-syntax/#links)，如果你输入 http://www.example.com，你的 Markdown 解析器也会自动将其转换为链接。
+许多 Markdown 解析器会自动将 URL 转换为链接。这意味着，即使你没有 [使用中括号](https://www.markdown.xyz/basic-syntax/#links)，如果你输入 <http://www.example.com/>，你的 Markdown 解析器也会自动将其转换为链接。
 
 #### 禁止自动将 URL 转换为链接
 

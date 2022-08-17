@@ -43,8 +43,9 @@
   - [<i class="fa fa-apple"></i> Mac](/os/mac/)<hr />
   - [<i class="fa fa-mobile"></i> Mobile](/os/mobile/)
   - [<i class="fa fa-wrench"></i> Tool](/tools/)
-- Tools
+- 🔥 Tools
   - [<i class="ri-rocket-line"></i> Index](/tools/)
+  - [<i class="ri-search-line"></i> Search](/tools/?id=软件资源-)
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](/tools/browser-extensions)

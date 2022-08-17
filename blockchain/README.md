@@ -188,12 +188,12 @@ https://ethereum.org/zh/glossary/#nft
 
 
 
-Question
-❓
-
-Answer
-👌
-💡
+> Question
+> ❓
+>
+> Answer
+> 👌
+> 💡
 
 
 
@@ -226,7 +226,7 @@ https://dncapi.fxhapp.com/api/home/global `data.usdt_price_cny`
 
 https://dncapi.fxhapp.com/api/coin/web-rate `data[12].cny`
 
-https://www.namecheap.com/support/payment/currency-exchange-rates/  - *Namecheap.com - Currency Exchange Rates*
+https://www.namecheap.com/support/payment/currency-exchange-rates/  - *Namecheap.com - Currency Exchange Rates*
 
 ### 获取新闻快讯
 

@@ -113,6 +113,7 @@
 | <i class="ri-tools-fill"></i>              | 工具           | `<i class="ri-tools-fill"></i>`              |
 | <i class="ri-fire-line light-red"></i>     | 热点           | `<i class="ri-fire-line light-red"></i>`     |
 | <i class="ri-archive-line light-blue"></i> | 归档/ 停止更新 | `<i class="ri-archive-line light-blue"></i>` |
+| <i class="ri-search-line"></i>             | 搜索           | `<i class="ri-search-line"></i>`             |
 
 
 

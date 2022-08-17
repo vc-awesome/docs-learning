@@ -1,6 +1,7 @@
 * [Introduce](/tools/ "Introduce")
 * [Index <i class="ri-rocket-line"></i>](/tools/应用工具.md)
-* [Online <i class="ri-cloud-line"></i>](/tools/online.md "在线工具")
+* [Web Tools <i class="ri-cloud-line"></i>](/tools/online.md "在线工具")
+* **Daily**
 * [Browser](/tools/browser.md "浏览器")
 * [Extensions](/tools/browser-extensions.md "浏览器扩展程序")
 * [Hosts](/tools/hosts.md "Hosts")

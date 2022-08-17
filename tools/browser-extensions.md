@@ -9,31 +9,35 @@ https://github.com/topics/browser-extension
 <i class="bi bi-filetype-html"></i>
 <i class="bi bi-hand-thumbs-up"></i>
 <i class="fa fa-user-circle-o"></i>
-https://www.runningcheese.com/extensions *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
+https://www.runningcheese.com/extensions - *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
 
 
 
-https://ldqk.xyz/1775 *高效上网——Chrome/Edge浏览器优秀扩展插件推荐*
+https://ldqk.xyz/1775 - *高效上网——Chrome/Edge浏览器优秀扩展插件推荐*
 
 
 
 ## 下载
 
-https://crxdl.com/ :cn: *CrxDL - Chrome浏览器扩展插件CRX下载网*
+https://crxdl.com/ :cn: - *CrxDL - Chrome浏览器扩展插件CRX下载网*
 
-https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
+https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
 
-👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
+👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
 
 
 
 ## 常用
 
-- [✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
-
-- [✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb "Bitwarden 是一个安全且免费的跨平台密码管理器。")
+- 标签页管理
+  
+  - [✔️OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) - *节省高达95％的内存，并减轻标签页混乱现象*
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
+  - [✔️TABLERONE tab manager](https://www.crxsoso.com/webstore/detail/andpjllgocabfacjlelkfpdemfklpfpo) - *打开太多标签会降低您的工作效率。您的计算机变慢，您需要更长时间才能找到正确的选项卡，而且您经常会在此过程中分心。*
+  - [✔️ Toast - Save Tabs for Later](https://www.crxsoso.com/webstore/detail/pejhbjnfifdecpkgcjhgmcaphdobmiie) - *您肯定有一些打开或固定的选项卡非常有用，但现在不需要。它们不应该被添加到书签中，尽管它们太重要了，不会丢失在浏览器的阅读列表中。*
+  
+- [✔️Bitwarden - 免费密码管理器](https://chrome.google.com/webstore/detail/bitwarden-free-password-m/nngceckbapebfimnlniiiahkandclblb) - *Bitwarden 是一个安全且免费的跨平台密码管理器。*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
 
@@ -41,56 +45,59 @@ https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Ex
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
 
-- [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif "轻松快捷地管理和切换多个代理设置。")
+- [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) - *轻松快捷地管理和切换多个代理设置。*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
   <i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
 
-- [✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm "一款高效的网络请求过滤工具，占用极低的内存和 CPU。")
+- [✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) - *一款高效的网络请求过滤工具，占用极低的内存和 CPU。*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
-- [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg "Quickly enable/disable Google Chrome extensions")
-  *Quickly enable/disable Google Chrome extensions*
+- [✔️Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg) - *Quickly enable/disable Google Chrome extensions*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
-- [✔️暴力猴](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag "一个开源的用户脚本管理器，支持很多浏览器")
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social)
 
-- [✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo "The world's most popular userscript manager")
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
+- 
+  
+  - [✔️暴力猴](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag) - *一个开源的用户脚本管理器，支持很多浏览器*
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social)
+  
+  - [✔️Tampermonkey](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo) - *The world's most popular userscript manager.*
+  
+    ?> ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)  
+    <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
+    <i class="fa fa-github fa-lg"></i> https://github.com/derjanb  
+  
+    - 脚本下载
+      - https://greasyfork.org/zh-CN
+  
+    - 好用的脚本列表
+  
+      - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
+  
+      - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
+  
+      - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
+  
+      - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
+  
+      - [文库下载器,VIP文档免费下载 | 全文阅读| 开启右键复制](https://greasyfork.org/zh-CN/scripts/437043-%E6%96%87%E5%BA%93%E4%B8%8B%E8%BD%BD%E5%99%A8-vip%E6%96%87%E6%A1%A3%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD-%E5%85%A8%E6%96%87%E9%98%85%E8%AF%BB-%E5%BC%80%E5%90%AF%E5%8F%B3%E9%94%AE%E5%A4%8D%E5%88%B6 "保持源文件排版导出 PDF 文件，解除继续阅读限制，净化弹窗、广告，开启文库本地 VIP，淘宝、天猫、京东商品优惠券查询")
+  
+- 
 
-  ?> The world's most popular userscript manager.  
-  <i class="fa fa-laptop"></i> https://www.tampermonkey.net/  
-  <i class="fa fa-github fa-lg"></i> https://github.com/derjanb  
+  - ✔️Replace Google CDN - *♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。*
 
-  - 脚本下载
-    - https://greasyfork.org/zh-CN
+    ?> ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social)  
+    <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
+    <i class="fa fa-github fa-lg"></i> https://github.com/justjavac/ReplaceGoogleCDN
 
-  - 好用的脚本列表
+  - [✔️Gooreplacer](https://github.com/jiacai2050/gooreplacer) *⚡️⚡️A browser extension to modify HTTP requests :-)*
 
-    - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
-
-    - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
-
-    - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
-
-    - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
-
-- ✔️Replace Google CDN
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social)
-
-  ?> ♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。  
-  <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice  
-  <i class="fa fa-github fa-lg"></i> https://github.com/justjavac/ReplaceGoogleCDN
-
-- [✔️Gooreplacer](https://github.com/jiacai2050/gooreplacer) *⚡️⚡️A browser extension to modify HTTP requests :-)*
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social)
-  - 下载 - https://www.crxsoso.com/webstore/detail/jnlkjeecojckkigmchmfoigphmgkgbip
+    ?> ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social)  
+    下载 - https://www.crxsoso.com/webstore/detail/jnlkjeecojckkigmchmfoigphmgkgbip
 
 - [~~skyZIP™ Proxy~~](https://chrome.google.com/webstore/detail/skyzip-proxy/hbgknjagaclofapkgkeapamhmglnbphi)
 
@@ -106,15 +113,52 @@ https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Ex
 
 - [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg)
 
-- [✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog)
-  *标签页定时刷新*
+- [✔️ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) - *标签页定时刷新*
 
-- [✔️Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn)
-  *最好用的 Chrome 下载管理（支持资源嗅探）*
+- [✔️Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn) - *最好用的 Chrome 下载管理（支持资源嗅探）*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
 
-------
+- ✔️crxMouse Chrome™ 手势 - *原名:Gestures for Chrome(TM)汉化版.方便,快捷,充分发掘鼠标的所有操作.功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等.*
+
+  - https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo
+  - https://www.crxsoso.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo
+
+- 搜索引擎
+  - 📜 https://post.smzdm.com/p/az595ge5/ - *Chrome扩展推荐：比地址栏更高效，多个搜索引擎快速切换*
+  - [大术专搜](https://github.com/garywill/BigSearch) - *以 灵活又顺手 的方式 在(切换) 任意一个 或 (连续)多个 搜索引擎（或任意网站）进行搜索。跨浏览器工具。具有高度自定义性。*
+  - [All in one web searcher](https://www.crxsoso.com/webstore/detail/enofjgiadilpmldfknojklfjbeaooiap) - *多合一网络搜索器是一个简单而强大的扩展，可以通过零点击搜索多个站点。添加站点以进行搜索，自定义顺序并在任何地方快速搜索。*
+  - [SearchBar](https://www.crxsoso.com/webstore/detail/fjefgkhmchopegjeicnblodnidbammed)
+
+- 工具箱
+
+  - Ctool 程序开发常用工具 - *程序开发常用工具,哈希/加解密/编码转换/时间戳/二维码/拼音/IP查询/代码优化/Unicode/正则等...*
+    - https://www.crxsoso.com/webstore/detail/ipfcebkfhpkjeikaammlkcnalknjahmh
+    - https://github.com/baiy/Ctool
+
+  - 即时工具 - *一款在线高效办公工具，拥有近300款工具包括视频工具、音频工具、图片工具、文档处理、文档转换、办公辅助、设计工具等等*
+    - https://www.crxsoso.com/webstore/detail/fnlomhffjgaiejopfbacfjjpnegclmfb
+
+- Jisū - *Count words and characters in selected text.*
+
+  - https://www.crxsoso.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi
+  - https://github.com/ikamonster/jisu
+
+- Clipboard Helper - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
+
+  - https://www.crxsoso.com/webstore/detail/meljmedplehjlnnaempfdoecookjenph
+
+- Clipboard History Pro: best productivity tool - *Clipboard manager extension for your browser: history of copied text, favorite items, instant paste*
+
+  - https://www.crxsoso.com/webstore/detail/ajiejmhbejpdgkkigpddefnjmgcbkenk
+
+- MultiLogin - *Using websites with multiple accounts at the same time is made easy. Create an independent tab with a click of a button.*
+
+  - https://www.crxsoso.com/webstore/detail/ijfgglilaeakmoilplpcjcgjaoleopfi
+
+
+
+
 
 ## 翻译
 
@@ -134,21 +178,22 @@ https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Ex
 
 ## 开发
 
-- [✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies")
-  *Identify web technologies*
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
+- [✔️Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg "Identify web technologies") - *Identify web technologies*
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
 
 - [✔️FeHelper(前端助手)](https://chrome.google.com/webstore/detail/fehelper%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8B/pkgccpejnmalmdinmhkkfafefagiiiad)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
 
 - [✔️EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fngmhnnpilhplaeedifhccceomclgfbg)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fngmhnnpilhplaeedifhccceomclgfbg?style=social)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fngmhnnpilhplaeedifhccceomclgfbg)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fngmhnnpilhplaeedifhccceomclgfbg?style=social)
 
-- [✔️时间戳转化](https://www.crxsoso.com/webstore/detail/ahkgjgnlldlkagonpndejcbhipkealgo) *鼠标右键格式化时间戳*
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ahkgjgnlldlkagonpndejcbhipkealgo)
+- [✔️时间戳转化](https://www.crxsoso.com/webstore/detail/ahkgjgnlldlkagonpndejcbhipkealgo) - *鼠标右键格式化时间戳*
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ahkgjgnlldlkagonpndejcbhipkealgo)
+
+- [✔️SingleFile](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) - *SingleFile 是一个扩展程序，可帮助您将完整的页面（包含 CSS、图像、字体、框架等）保存为单个 HTML 文件。*
 
 
 ## GitHub
@@ -208,7 +253,7 @@ https://www.crx4chrome.com/ :us: *Crx4Chrome - Download CRX for Chrome Apps & Ex
 
 ## 钱包
 
-✔️[MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn "以太坊浏览器插件")
+✔️[MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) - *以太坊浏览器插件*
 
-✔️[TronLink（波宝钱包）](https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec "The first and most popular TRON wallet. Recommended by TRON Foundation.")
+✔️[TronLink（波宝钱包）](https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec) - *The first and most popular TRON wallet. Recommended by TRON Foundation.*
 

@@ -49,7 +49,7 @@ Github：https://github.com/foundation/foundation-sites
 
 菜鸟教程：https://www.runoob.com/foundation/foundation-tutorial.html
 
-### Layui
+### ⭐ Layui
 
 ?> 采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写形式，极低门槛，拿来即用。
 
@@ -209,7 +209,7 @@ https://reactjs.bootcss.com :cn: *用于构建用户界面的 JavaScript 框架*
 
 https://www.nextjs.cn :cn: *Next.js 是一个轻量级的 React 服务端渲染应用框架。*
 
-https://segmentfault.com/a/1190000023608841 :cn: *思否开源项目推介丨UUI：功能优先的通用 UI 组件库*
+https://segmentfault.com/a/1190000023608841 :cn: *思否开源项目推介丨UUI：功能优先的通用 UI 组件库*
 
 
 ## javascript 框架
@@ -299,7 +299,7 @@ BootCDN：https://www.bootcdn.cn/jQuery.Marquee/
 
 ## php 框架
 
-### thinkphp <i class="ri-fire-line light-red"></i>
+### ⭐ thinkphp <i class="ri-fire-line light-red"></i>
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/top-think/think?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/top-think/think?logo=github)
@@ -320,7 +320,7 @@ GitHub：https://github.com/walkor/workerman
 
 
 
-### Swoole
+### ⭐ Swoole
 
 ?>
 🚀 Coroutine-based concurrency library for PHP

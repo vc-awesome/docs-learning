@@ -8,9 +8,9 @@
 
 ## 谷歌验证器
 
-[php实现google验证器](https://zhuanlan.zhihu.com/p/137451265)
+https://zhuanlan.zhihu.com/p/137451265 - *php实现google验证器*
 
-[谷歌验证器如何安装使用](https://www.jianshu.com/p/e0cf4dd70873)
+https://www.jianshu.com/p/e0cf4dd70873 - *谷歌验证器如何安装使用*
 
 
 
