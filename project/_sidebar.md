@@ -4,4 +4,3 @@
 * [奖励制度](/project/奖励制度.md "奖励制度")
 * **QUESTION**
 * [项目开发遇到的问题](/project/项目开发中遇到的问题.md "项目开发遇到的问题")
-* [跨域](/project/cross-domain.md "跨域")

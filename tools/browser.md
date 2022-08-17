@@ -88,11 +88,21 @@ https://www.qwant.com :us: - *Qwant - The search engine that respects your priva
 
 https://yandex.com/ :us: - *Yandex*
 
+https://duckduckgo.com/ :us: *DuckDuckGo*
 
+
+
+### 如何快速切换搜索引擎
+
+http://www.360doc.com/content/20/1027/14/68850920_942627324.shtml - Chrome浏览器如何添加自定义搜索引擎以及快速切换搜索引擎
+
+https://blog.51cto.com/u_3826358/3832030 - Chrome浏览器添加自定义搜索引擎-快速切换搜索引擎
+
+https://zhuanlan.zhihu.com/p/57247050 - 如何在浏览器中快速切换搜索引擎
 
 ## 链接
 
-https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法*
+https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法*
 
 ## 浏览器操作
 
@@ -138,6 +148,6 @@ https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用�
 
 ## 开发者工具
 
-https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
+https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
 
 https://baijiahao.baidu.com/s?id=1699345724372278183 - *JavaScript 开发者需要了解的15个 DevTools 技巧*

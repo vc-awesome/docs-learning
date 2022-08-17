@@ -99,20 +99,22 @@
 
 
 
-| 图标                                       | 语境           | 代码                                         |
-| ------------------------------------------ | -------------- | -------------------------------------------- |
-| <i class="ri-external-link-fill"></i>      | 外部链接       | `<i class="ri-external-link-fill"></i>`      |
-| <i class="ri-link"></i>                    | 内部链接       | `<i class="ri-link"></i>`                    |
-| <i class="ri-link-unlink"></i>             | 内部链接       | `<i class="ri-link-unlink"></i>`             |
-| <i class="ri-links-fill"></i>              | 内部链接       | `<i class="ri-links-fill"></i>`              |
-| <i class="ri-apple-line"></i>              | 操作系统       | `<i class="ri-apple-line"></i>`              |
-| <i class="ri-android-line"></i>            | 操作系统       | `<i class="ri-android-line"></i>`            |
-| <i class="ri-app-store-line"></i>          | 苹果应用市场   | `<i class="ri-app-store-line"></i>`          |
-| <i class="ri-google-play-line"></i>        | 谷歌应用市场   | `<i class="ri-google-play-line"></i>`        |
-| <i class="ri-todo-line"></i>               | 待办           | `<i class="ri-todo-line"></i>`               |
-| <i class="ri-tools-fill"></i>              | 工具           | `<i class="ri-tools-fill"></i>`              |
-| <i class="ri-fire-line light-red"></i>     | 热点           | `<i class="ri-fire-line light-red"></i>`     |
-| <i class="ri-archive-line light-blue"></i> | 归档/ 停止更新 | `<i class="ri-archive-line light-blue"></i>` |
+| 图标                                            | 语境           | 代码                                              |
+| ----------------------------------------------- | -------------- | ------------------------------------------------- |
+| <i class="ri-external-link-fill"></i>           | 外部链接       | `<i class="ri-external-link-fill"></i>`           |
+| <i class="ri-link"></i>                         | 内部链接       | `<i class="ri-link"></i>`                         |
+| <i class="ri-link-unlink"></i>                  | 内部链接       | `<i class="ri-link-unlink"></i>`                  |
+| <i class="ri-links-fill"></i>                   | 内部链接       | `<i class="ri-links-fill"></i>`                   |
+| <i class="ri-apple-line"></i>                   | 操作系统       | `<i class="ri-apple-line"></i>`                   |
+| <i class="ri-android-line"></i>                 | 操作系统       | `<i class="ri-android-line"></i>`                 |
+| <i class="ri-app-store-line"></i>               | 苹果应用市场   | `<i class="ri-app-store-line"></i>`               |
+| <i class="ri-google-play-line"></i>             | 谷歌应用市场   | `<i class="ri-google-play-line"></i>`             |
+| <i class="ri-todo-line"></i>                    | 待办           | `<i class="ri-todo-line"></i>`                    |
+| <i class="ri-tools-fill"></i>                   | 工具           | `<i class="ri-tools-fill"></i>`                   |
+| <i class="ri-fire-line light-red"></i>          | 热点           | `<i class="ri-fire-line light-red"></i>`          |
+| <i class="ri-archive-line light-blue"></i>      | 归档/ 停止更新 | `<i class="ri-archive-line light-blue"></i>`      |
+| <i class="ri-search-line"></i>                  | 搜索           | `<i class="ri-search-line"></i>`                  |
+| <i class="ri-alarm-warning-line light-red"></i> | 注意/警告      | `<i class="ri-alarm-warning-line light-red"></i>` |
 
 
 

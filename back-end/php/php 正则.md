@@ -1,6 +1,26 @@
-函数 
+## 官方
 
-`preg_match(pattern , string);`
+PHP 手册：https://www.php.net/manual/zh/book.pcre.php
+
+菜鸟教程：https://www.runoob.com/php/php-pcre.html
+
+
+
+函数
+
+- preg_match() — *执行匹配正则表达式*
+
+  https://www.php.net/manual/zh/function.preg-match.php
+
+  https://www.runoob.com/php/php-preg_match.html
+
+  `preg_match(pattern , string);`
+
+- preg_match_all() — *执行一个全局正则表达式匹配*
+
+  https://www.php.net/manual/zh/function.preg-match-all.php
+
+  https://www.runoob.com/php/php-preg_match_all.html
 
 
 

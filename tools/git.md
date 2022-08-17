@@ -741,9 +741,9 @@ git pull origin master #git remote完成后拉取远程的文件操作
 
 ### :fire: git 放弃本地文件修改
 
-[git放弃本地文件修改](https://www.jianshu.com/p/c0f7e4ac14c7)
+https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
 
-1. 未使用git add缓存代码
+1. 未使用`git add`缓存代码
 
    ```bash
    # 使用git checkout -- filename，注意中间有--
@@ -753,7 +753,7 @@ git pull origin master #git remote完成后拉取远程的文件操作
    git checkout .
    ```
 
-2. 已使用git add缓存代码，未使用git commit
+2. 已使用`git add`缓存代码，未使用`git commit`
 
    > `--soft` 不删除工作空间的改动代码 ，撤销commit，不撤销git add .
    >
@@ -767,7 +767,7 @@ git pull origin master #git remote完成后拉取远程的文件操作
    git reset HEAD
    ```
 
-3. 已使用git commit提交了代码
+3. 已使用`git commit`提交了代码
 
    > `--hard` 删除工作空间的改动代码，撤销commit且撤销add
 
@@ -809,9 +809,9 @@ git push origin master --force #强制提交当前版本号，以达到撤销版
 
 ### git 合并多个提交
 
-git合并多个提交 https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html
+https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
 
-「Git」合并多个 Commit https://www.jianshu.com/p/964de879904a
+https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
 
 
 

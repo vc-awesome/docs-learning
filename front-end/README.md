@@ -48,9 +48,9 @@ MDN Web Docs > https://developer.mozilla.org/zh-CN/
 
 ## 代码规范
 
-https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html *Javascript编程风格* :cn:
+https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格* :cn:
 
-https://github.com/mdo/code-guide *Standards for developing consistent, flexible, and sustainable HTML and CSS.* :us: :cn:
+https://github.com/mdo/code-guide - *Standards for developing consistent, flexible, and sustainable HTML and CSS.* :us: :cn:
 
 ## 页面布局
 
@@ -68,8 +68,7 @@ Position
 
 Table
 
-元素高度计算函数  calc()函数  
-https://www.runoob.com/cssref/func-calc.html
+https://www.runoob.com/cssref/func-calc.html - *元素高度计算函数 `calc()`*
 
 
 
@@ -81,11 +80,11 @@ https://www.runoob.com/cssref/func-calc.html
 
 ?> CDN的全称是Content Delivery Network，即[内容分发网络](https://baike.baidu.com/item/内容分发网络/4034265)。CDN是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问响应速度和命中率。CDN的关键技术主要有内容存储和分发技术。
 
-https://www.bootcdn.cn/ :cn: *BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务* 👍
+https://www.bootcdn.cn/ :cn: - *BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务* 👍
 
-http://staticfile.org/ :cn: *Staticfile CDN*
+http://staticfile.org/ :cn: - *Staticfile CDN*
 
-https://cdn.baomitu.com :cn: *360 前端静态资源托管库*
+https://cdn.baomitu.com :cn: - *360 前端静态资源托管库*
 |
 **Tags:** *前端资源库*、*Google 字体库*
 
@@ -94,14 +93,14 @@ https://loli.net/ :cn:
 - https://cdnjs.loli.net/
 
 - https://css.loli.net/
-- https://u.sb/css-cdn/ *前端 CDNJS 库及 Google Fonts、Ajax 和 Gravatar 国内加速服务*
+- https://u.sb/css-cdn/ - *前端 CDNJS 库及 Google Fonts、Ajax 和 Gravatar 国内加速服务*
 
 ---
 
-https://cdnjs.com/ :us: *cdnjs - The #1 free and open source CDN built to make life easier for developers*
+https://cdnjs.com/ :us: - *cdnjs - The #1 free and open source CDN built to make life easier for developers*
 
-https://www.jsdelivr.com/ :us: *jsDelivr - A free, fast, and reliable CDN for open source* 👍
+https://www.jsdelivr.com/ :us: - *jsDelivr - A free, fast, and reliable CDN for open source* 👍
 
-https://unpkg.com/ :us: *UNPKG* 👍 
+https://unpkg.com/ :us: - *UNPKG* 👍
 
-https://docs.microsoft.com/en-us/aspnet/ajax/cdn/ :us: :cn: *Microsoft Ajax Content Delivery Network Libraries*
+https://docs.microsoft.com/en-us/aspnet/ajax/cdn/ :us: :cn: - *Microsoft Ajax Content Delivery Network Libraries*

@@ -5,7 +5,7 @@
 文档：https://docs.github.com/cn/
 
 品牌：https://brand.github.com/  
-octodex https://octodex.github.com/
+octodex： https://octodex.github.com/
 
 Security Bug Bounty：https://bounty.github.com/
 
@@ -19,15 +19,15 @@ GitHub 中文社区：https://www.githubs.cn/ 👍
 
 ## 组织
 
-阿里云 https://github.com/aliyun
+阿里云 - https://github.com/aliyun
 
-阿里巴巴 https://github.com/alibaba
+阿里巴巴 -  https://github.com/alibaba
 
-Bootstrap https://github.com/twbs
+Bootstrap - https://github.com/twbs
 
-饿了么前端 https://github.com/elemefe
+饿了么前端 - https://github.com/elemefe
 
-Metafizzy https://github.com/metafizzy （logo可爱而关注，前端）
+Metafizzy - https://github.com/metafizzy （logo 可爱而关注，前端）
 
 
 
@@ -298,15 +298,15 @@ https://github.com/topics/github-extension
 
 #### Hosts
 
-<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520 :cn: *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520/ :cn: - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
 
-<i class="fa fa-github"></i> https://github.com/ineo6/hosts :cn: *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
+<i class="fa fa-github"></i> https://github.com/ineo6/hosts/ :cn: - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 
 <i class="ri-link"></i> [Tools - Hosts](/tools/hosts)
 
 #### 在线工具
 
-github加速（国内镜像，加速下载） https://www.cnblogs.com/jsfh/p/14509629.html
+https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
 
 

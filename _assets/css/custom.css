@@ -135,3 +135,16 @@ a {
     word-break: break-word!important;
     word-wrap: break-word!important;
 }
+
+/* 横线/分割线 hr */
+hr {
+    height: 0;
+    line-height: 0;
+    margin: 5px 0;
+    padding: 0;
+    border: none!important;
+    border-bottom: 1px solid #eee!important;
+    clear: both;
+    overflow: hidden;
+    background: 0 0;
+}

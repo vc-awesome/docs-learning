@@ -1,4 +1,4 @@
-> A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> <br>一个神奇的文档网站生成器。
+> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> <br>🃏 一个神奇的文档网站生成器。
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github) ![GitHub Release Date](https://img.shields.io/github/release-date/docsifyjs/docsify?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social) ![npm](https://img.shields.io/npm/v/docsify?logo=npm&style=social)
 

@@ -1,30 +1,41 @@
-todo...
+📝 todo...
 
 
 
-PHP中获取当前页面的URL信息  
-https://www.cnblogs.com/phpper/p/7191089.html
+## 官方
+
+官方站点：https://www.php.net/
+
+官方手册：https://www.php.net/manual/zh/index.php
+
+GitHub：https://github.com/php/
+
+菜鸟教程：https://www.runoob.com/php/php-tutorial.html
+
+PHP版本支持时间表：https://www.php.net/supported-versions.php
+
+------
+
+https://www.cnblogs.com/phpper/p/7191089.html - *PHP中获取当前页面的URL信息*
 
 
 
-利用PHP获取访客IP、地区位置、浏览器及来源页面等信息  
-https://www.jb51.net/article/117265.htm
+https://www.jb51.net/article/117265.htm - *利用PHP获取访客IP、地区位置、浏览器及来源页面等信息*
 
 
 
-PHP取整数函数常用的四种方法：
+## 数学函数
 
-1. 直接取整，舍弃小数，保留整数：`intval() `；
+https://www.cnblogs.com/lixihuan/p/8125894.html - *PHP取整，四舍五入取整、向上取整、向下取整、小数截取*
 
-2. 四舍五入取整：`round()`； 
+- PHP取整数函数常用的四种方法：
+  1. 直接取整，舍弃小数，保留整数：`intval() `；
 
-3. 向上取整，有小数就加1：`ceil()` ；
+  2. 四舍五入取整：`round()`； 
 
-4. 向下取整：`floor()`。
+  3. 向上取整，有小数就加1：`ceil()` ；
 
-
-
-https://www.cnblogs.com/lixihuan/p/8125894.html
+  4. 向下取整：`floor()`。
 
 
 
@@ -44,14 +55,14 @@ php判断变量的类型
 
 `is_numeric()` \ `is_bool()` \ `is_float()` \ ...
 
-https://www.php.cn/php-weizijiaocheng-369503.html
+https://www.php.cn/php-weizijiaocheng-369503.html - *php如何判断某变量的类型？*
 
  
 
 ## 字符串处理
 
-中文字符串处理函数 - mb_strlen  
-https://www.php.net/manual/zh/book.mbstring.php
+
+https://www.php.net/manual/zh/book.mbstring.php - *中文字符串处理函数 - mb_strlen*
 
 
 
@@ -65,19 +76,19 @@ https://www.php.net/manual/zh/book.mbstring.php
 
 ## 雪花算法
 
-**参考链接**
+参考链接
 
-[雪花算法 - snowflake](https://www.ucloud.cn/yun/29788.html)
+- https://www.ucloud.cn/yun/29788.html - *雪花算法 - snowflake*
 
-~~http://www.swoole.org.cn/index.php/archives/302/~~
+- ~~http://www.swoole.org.cn/index.php/archives/302/~~
 
-:thumbsup: [基于雪花算法的 PHP ID 生成器](https://learnku.com/articles/32575)
+- 👍 https://learnku.com/articles/32575/ - *基于雪花算法的 PHP ID 生成器*
 
-> 需要64位PHP7.0以上版本（32位PHP版本microtime会出现负数），phpstudy不可用，phpstudy_pro可用
+  > 需要64位PHP7.0以上版本（32位PHP版本microtime会出现负数），phpstudy不可用，phpstudy_pro可用
 
-[雪花算法及运用PHP,雪花算法生成全局唯一ID,参考了下网上雪花算法生成规则，机器ID和序列号自动获取 理论上毫秒可生成 1024*4096个唯一ID](https://blog.csdn.net/z_wen_quan/article/details/90230282)
+- https://blog.csdn.net/z_wen_quan/article/details/90230282/ - _雪花算法及运用PHP,雪花算法生成全局唯一ID,参考了下网上雪花算法生成规则，机器ID和序列号自动获取 理论上毫秒可生成 1024*4096个唯一ID_
 
-[php实现雪花算法（ID递增）](http://www.manongjc.com/detail/9-lrqizvaqnabbigk.html)
+- http://www.manongjc.com/detail/9-lrqizvaqnabbigk.html - *php实现雪花算法（ID递增）*
 
-[php使用雪花算法SnowFlake生成全球唯一数字id](http://www.zhuyanjun.cn/blog/backend/1074.html)
+- http://www.zhuyanjun.cn/blog/backend/1074.html - *php使用雪花算法SnowFlake生成全球唯一数字id*
 

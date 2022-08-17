@@ -1,29 +1,58 @@
 - Homepage
   - [<i class="ri-rocket-line"></i> Index](/home/)
+  
   - [<i class="fa fa-book"></i> Book](/home/book.md)
+  
   - [<i class="fa fa-github fa-lg"></i> Github](/tools/github.md)
-  - [<i class="icon octicon-file markdown-icon"></i> Markdown](/tools/markdown.md)<hr>
+  
+  - [<i class="icon octicon-file markdown-icon"></i> Markdown](/tools/markdown.md)
+  
+  - [<i class="fa fa-warning light-red"></i> Warning](/home/?id=warning)
+  
+  - <hr>
+  
   - [<i class="fa fa-list-ul fa-flip-horizontal"></i> Toc](/home/toc)
+  
   - [<i class="bi bi-emoji-wink"></i> Emoji](/home/emoji.md)
+  
   - [<i class="fa fa-fonticons"></i> FontIcon](/front-end/iconfont.md)
+  
   - [<ion-icon name="fast-food-outline"></ion-icon> Mirror](/home/?id=镜像站)
+  
 - Essentials
   - [<i class="ri-rocket-line"></i> Index](/essential/)
+  - [设计模式](/设计模式/)
   - [身份认证](/essential/identity.md)
   - [HTTP](/essential/http.md)
   - [SSL](/essential/?id=ssl)
   - [DNS](/essential/?id=dns)
+  - [跨域](/essential/cross-domain.md "跨域")
+  
 - Front-end
   - [<i class="ri-rocket-line"></i> Index](/front-end/)
+  
   - [<i class="fa fa-html5 medium-orange"></i> html](/front-end/html/)
+  
   - [<i class="fa fa-css3 medium-blue"></i> css](/front-end/css/)
+  
   - [<i class="icon octicon-file js-icon medium-yellow"></i> javascript](/front-end/javascript/)
-  - [<i class="icon octicon-file jquery-icon medium-blue"></i> jQuery](/front-end/jquery.md)<hr>
+  
+  - [<i class="icon octicon-file jquery-icon medium-blue"></i> jQuery](/front-end/jquery.md)
+  
+  - <hr>
+  
   - [<i class="icon octicon-file node-icon"></i> node.js](/front-end/node.js/)
+  
   - [<i class="iconfont icon-uniapp dark-green"></i> uni-app](/front-end/uniapp/)
-  - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)<hr>
+  
+  - [<i class="icon octicon-file vue-icon light-green"></i> vue](/front-end/vue/)
+  
+  - <hr>
+  
   - [<i class="fa fa-fonticons"></i> fonticon](/front-end/iconfont.md)
+  
   - [⚡ CDN](/front-end/?id=CDN-⚡)
+  
 - Back-end
   - [<i class="ri-rocket-line"></i> Index](/back-end/)
   - [![](https://www.php.net/favicon.ico ':size=16')php](/back-end/php/)
@@ -31,31 +60,48 @@
   - [<i class="icon octicon-file nginx-icon dark-green"></i> nginx](/back-end/nginx.md)
   - [<span class="icon octicon-file docker-icon dark-blue"></span> docker](/back-end/docker.md "Docker")
   - [![](https://cdn.travis-ci.org/images/favicon-076a22660830dc325cc8ed70e7146a59.png ':size=14')travis-ci](/back-end/travis-ci.md "Travis Ci")
+  
 - Database
   - [<i class="ri-rocket-line"></i> Index](/database/)
   - [<i class="icon octicon-file mysql-icon dark-blue"></i> mysql](/database/mysql/)
   - [<i class="icon octicon-file redis-icon medium-red"></i> redis](/database/redis/)
   - [<i class="icon octicon-file mongodb-icon dark-green"></i> MongoDB](/database/mongodb.md)
+  
 - OS
   - [<i class="ri-rocket-line"></i> Index](/os/)
+  
   - [<i class="fa fa-windows"></i> Windows](/os/windows/)
+  
   - [<i class="fa fa-linux"></i> Linux](/os/linux/)
-  - [<i class="fa fa-apple"></i> Mac](/os/mac/)<hr />
+  
+  - [<i class="fa fa-apple"></i> Mac](/os/mac/)
+  
+  - <hr />
+  
   - [<i class="fa fa-mobile"></i> Mobile](/os/mobile/)
+  
   - [<i class="fa fa-wrench"></i> Tool](/tools/)
-- Tools
+  
+- 🔥 Tools
   - [<i class="ri-rocket-line"></i> Index](/tools/)
+  - [<i class="ri-search-line"></i> Search](/tools/?id=软件资源-)
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](/tools/browser-extensions)
   - [![](http://docsify.js.org/_media/favicon.ico ':size=14')Docsify](/tools/docsify.md)
+  
 - More
   - [<i class="ri-fire-line light-red"></i> 开发框架](/开发框架/)
+  
   - [<i class="ri-fire-line light-red"></i> 功能列表](/function-list/)
+  
   - [<i class="ri-fire-line light-red"></i> BlockChain](/blockchain/)
+  
   - [<i class="ri-fire-line light-red"></i> Project](/project/)
+  
+  - <hr />
+  
   - [TechStack](/tech-stack/ "技术栈")
-  - [设计模式](/设计模式/)
 
 <!--
 

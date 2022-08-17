@@ -1,4 +1,6 @@
-## *基础数据表/ basic
+## 🔥 基础数据表/ basic
+
+**DDL**
 
 ```sql
 CREATE TABLE `表名` (
@@ -17,23 +19,26 @@ PRIMARY KEY ( `id` )
 
 
 
-`serial_number` varchar(255) NOT NULL COMMENT '序列号' 设置唯一索引
+**status 使用场景**
 
- 
+1. user 表，是否启用 0-否，1-是
+2. 审核类型的状态，0-待审核，1-审核通过，2-审核驳回
 
-`create_time` 创建时间
 
-`update_time` 更新时间
 
-`delete_time` 删除时间
-
-`stats_time` 统计时间
-
-`send_time` 发放时间
-
-`reward_time` 奖励时间
-
-`execute_time` 执行时间
+| 字段名        | 数据类型              | 注释                       |
+| ------------- | --------------------- | -------------------------- |
+| serial_number | varchar(255) NOT NULL | 序列号（设置唯一索引）     |
+| data          | varchar(255)          |                            |
+| create_at     | int                   | 创建时间（在什么时候创建） |
+| update_at     | int                   | 更新时间（在什么时候更新） |
+| create_by     | varchar               | 创建人                     |
+| update_by     | varchar               | 更新人                     |
+| delete_time   | int                   | 删除时间                   |
+| stats_time    | int                   | 统计时间                   |
+| send_time     | int                   | 发放时间                   |
+| reward_time   | int                   | 奖励时间                   |
+| execute_time  | int                   | 执行时间                   |
 
 
 
@@ -49,7 +54,7 @@ PRIMARY KEY ( `id` )
 
 
 
-## *会员表/ user|member
+## 🔥 会员表/ user|member
 
 | 序号 | 注释                                                         | 字段名                                               | 类型（长度） | NULL                          |
 | ---- | ------------------------------------------------------------ | ---------------------------------------------------- | ------------ | ----------------------------- |
@@ -94,7 +99,7 @@ company_id 公司id
 
 company_name 公司名称
 
-**create_channel varchar(50) NOT NULL DEFAULT 'user' COMMENT '注册渠道 user用户 admin后台'**
+**create_channel varchar(10) NOT NULL DEFAULT 'user' COMMENT '注册渠道，user-用户，admin-后台，import-导入'**
 
 **status COMMENT '状态 0禁用 1正常'**
 
@@ -764,47 +769,33 @@ PRIMARY KEY ( `id` )
 
  
 
-## *配套投资表/ package
+## 🔥 配套投资表/ package
 
 > 字段内容也可用于矿机表
 
- 
-
-id
-
-image 图片
-
-name 名称
-
-price 价格
-
-storage 库存
-
-profit 收益
-
-limit 限购数量
-
-period 周期（持续时间）/天
-
-duration 持续时间（周期）/天
-
-day_yield 日产量/枚
-
-start_time 开始时间
-
-end_time 结束时间
-
-channel 渠道，1赠送 2购买
-
-status 状态
-
-create_time
-
-update_time
-
-delete_time
+| 字段名      | 注释                 |
+| ----------- | -------------------- |
+| id          |                      |
+| image       | 图片                 |
+| name        | 名称                 |
+| price       | 价格                 |
+| storage     | 库存                 |
+| profit      | 收益                 |
+| limit       | 限购数量             |
+| period      | 周期（持续时间）/天  |
+| duration    | 持续时间（周期）/天  |
+| day_yield   | 日产量/枚            |
+| start_time  | 开始时间             |
+| end_time    | 结束时间             |
+| channel     | 渠道，1-赠送，2-购买 |
+| status      | 状态                 |
+| create_time | 创建时间             |
+| update_time | 更新时间             |
+| delete_time | 删除时间             |
 
  
+
+DDL
 
 ```sql
 CREATE TABLE `ev_package` (
@@ -881,75 +872,50 @@ KEY `email` ( `email` ) USING BTREE
 
  
 
-## *矿机表/ mining_machine
+## 🔥 矿机表/ mining_machine
 
 以下为可选数据表字段
 
- 
+| 字段名            | 数据类型                                         | 注释                           |
+| ----------------- | ------------------------------------------------ | ------------------------------ |
+| image             | varchar(255) DEFAULT NULL                        | 图片                           |
+| name              | varchar(255) DEFAULT NULL                        | 名称                           |
+| price             | decimal(10,2) DEFAULT NULL                       | 价格                           |
+| storage           | int(10) unsigned NOT NULL DEFAULT '0'            | 库存                           |
+| duration          | int(10) unsigned NOT NULL DEFAULT '0'            | 有效期/天                      |
+| min_profit_amount | int(10) unsigned NOT NULL DEFAULT '0'            | 最小收益数量                   |
+| max_profit_amount | int(10) unsigned NOT NULL DEFAULT '0'            | 最大收益数量                   |
+| min_profit_rate   | decimal(5,2) unsigned NOT NULL DEFAULT '0.00'    | 最小收益率                     |
+| max_profit_rate   | decimal(5,2) unsigned NOT NULL DEFAULT '0.00'    | 最大收益率                     |
+| min_amount        | decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' | 最小数量                       |
+| max_amount        | decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' | 最大数量                       |
+| limit             | int(10) unsigned NOT NULL DEFAULT '0'            | 限购数量                       |
+| is_display        | tinyint(3) unsigned NOT NULL DEFAULT '1'         | 是否前端显示，0-不显示，1-显示 |
+| profit_rate       | decimal(10,2) DEFAULT NULL                       | 配套月收益/%                   |
+| profit_text       | varchar(255) DEFAULT NULL                        | 前端显示收益率                 |
+| status            | tinyint(1) DEFAULT '1'                           | 状态，1-为开启，0-为关闭       |
+| create_time       | int(11) DEFAULT '0'                              | 创建时间                       |
+| update_time       | int(11) DEFAULT '0'                              | 更新时间                       |
+| delete_time       | int(11) DEFAULT '0'                              | 删除时间                       |
 
-image varchar(255) DEFAULT NULL COMMENT '图片'
 
-name varchar(255) DEFAULT NULL COMMENT '名称'
 
-price decimal(10,2) DEFAULT NULL COMMENT '价格'
-
-storage int(10) unsigned NOT NULL DEFAULT '0' COMMENT '库存'
-
-duration int(10) unsigned NOT NULL DEFAULT '0' COMMENT '有效期/天'
-
-min_profit_amount int(10) unsigned NOT NULL DEFAULT '0' COMMENT '最小收益数量'
-
-max_profit_amount int(10) unsigned NOT NULL DEFAULT '0' COMMENT '最大收益数量'
-
-min_profit_rate decimal(5,2) unsigned NOT NULL DEFAULT '0.00' COMMENT '最小收益率'
-
-max_profit_rate decimal(5,2) unsigned NOT NULL DEFAULT '0.00' COMMENT '最大收益率'
-
-min_amount decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' COMMENT '最小数量'
-
-max_amount decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' COMMENT '最大数量'
-
-limit int(10) unsigned NOT NULL DEFAULT '0' COMMENT '限购数量'
-
-is_display tinyint(3) unsigned NOT NULL DEFAULT '1' COMMENT '是否前端显示 0不显示 1显示'
-
-profit_rate decimal(10,2) DEFAULT NULL COMMENT '配套月收益/%'
-
-profit_text varchar(255) DEFAULT NULL COMMENT '前端显示收益率',
-
-status tinyint(1) DEFAULT '1' COMMENT '状态 1为开启 0为关闭'
-
-create_time int(11) DEFAULT '0' COMMENT '创建时间'
-
-update_time int(11) DEFAULT '0' COMMENT '更新时间'
-
-delete_time int(11) DEFAULT '0' COMMENT '删除时间'
-
- 
-
-## *会员矿机表/ user_machine
+## 🔥 会员矿机表/ user_machine
 
 以下为可选数据表字段
 
- 
+| 字段名            | 数据类型                              | 注释                     |
+| ----------------- | ------------------------------------- | ------------------------ |
+| **serial_number** | varchar(255) NOT NULL                 | 序列号 设置唯一索引      |
+| **orderno**       | varchar(255) NOT NULL                 | 订单编号 设置唯一索引    |
+| times             | int(10) unsigned NOT NULL DEFAULT '0' | 产出次数                 |
+| from_user_id      | int(11) DEFAULT '0'                   | 管理员id，0-会员端购买   |
+| status            | tinyint(1) DEFAULT '1'                | 状态，1-为开启，0-为关闭 |
+| create_time       | int(11) DEFAULT '0'                   | 创建时间                 |
+| release_time      | int(11) DEFAULT '0'                   | 释放时间                 |
+| output_time       | int(11) DEFAULT '0'                   | 产出时间                 |
 
-**serial_number varchar(255) NOT NULL COMMENT '序列号' 设置唯一索引**
 
-**orderno varchar(255) NOT NULL COMMENT '订单编号' 设置唯一索引**
-
-times int(10) unsigned NOT NULL DEFAULT '0' COMMENT '产出次数'
-
-from_user_id int(11) DEFAULT '0' COMMENT '管理员id（0会员端购买）'
-
-status tinyint(1) DEFAULT '1' COMMENT '状态 1为开启 0为关闭'
-
-create_time int(11) DEFAULT '0' COMMENT '创建时间'
-
-release_time int(11) DEFAULT '0' COMMENT '发放时间'
-
-output_time int(11) DEFAULT '0' COMMENT '产出时间'
-
- 
 
 ```sql
 CREATE TABLE `ev_user_machine` (
@@ -1121,24 +1087,26 @@ PRIMARY KEY ( `id` )
 
  
 
-## *定时任务表/ task
+## 🔥 定时任务表/ task
 
 任务队列表/ cron（crontab）
 
 
 
-| 名                                  | 注释                     |
-| :---------------------------------- | :----------------------- |
-| id                                  |                          |
-| type                                | 类型 0升级               |
-| data                                |                          |
-| execute_id \|  member_id \| user_id |                          |
-| status                              | 状态 0已执行完毕 1未执行 |
-| log_id                              |                          |
-| create_time                         |                          |
-| execute_time                        |                          |
+| 名                                     | 数据类型     | 注释                         |
+| :------------------------------------- | ------------ | :--------------------------- |
+| id                                     |              |                              |
+| type                                   | tinyint(1)   | 类型，0-升级                 |
+| data                                   | varchar(500) |                              |
+| execute_id<br />member_id<br />user_id | int(11)      |                              |
+| status                                 | tinyint(1)   | 状态，0-已执行完毕，1-未执行 |
+| log_id                                 | int(11)      | 日志id                       |
+| create_time                            | int(11)      | 创建时间                     |
+| execute_time                           | int(11)      | 执行时间                     |
 
 
+
+**DDL**
 
 ```sql
 CREATE TABLE `vc_task` (

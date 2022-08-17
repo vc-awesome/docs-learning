@@ -1,8 +1,8 @@
 统一浏览器默认样式
 
-- http://amazeui.shopxo.net/css/normalize/
-  1. https://meyerweb.com/eric/tools/css/reset/ *rest.css*
-  1. https://github.com/necolas/normalize.css *normalize.css*
+- http://amazeui.shopxo.net/css/normalize/ - *CSS - Normalize | Amaze UI*
+  1. https://meyerweb.com/eric/tools/css/reset/ - *rest.css*
+  1. https://github.com/necolas/normalize.css - *normalize.css*
 
 
 
@@ -28,21 +28,21 @@
 
 > 参考大平台的 UI 设计
 
-https://ant.design/index-cn *Ant Design*
+https://ant.design/index-cn - *Ant Design*
 
-https://xiaomi.github.io/hiui/zh-CN *HiUI*
+https://xiaomi.github.io/hiui/zh-CN - *HiUI*
 
-https://amazeui.shopxo.net/ *AmazeUI*
+https://amazeui.shopxo.net/ - *AmazeUI*
 
-https://v4.bootcss.com/ *Bootstrap v4*
+https://v4.bootcss.com/ - *Bootstrap v4*
 
-https://v5.bootcss.com *Bootstrap v5*
+https://v5.bootcss.com - *Bootstrap v5*
 
-http://www.hcoder.net/hui *Hui*
+http://www.hcoder.net/hui - *Hui*
 
-https://element.eleme.io/#/zh-CN *Element*
+https://element.eleme.io/#/zh-CN - *Element*
 
-https://dev.dcloud.net.cn/mui/ *MUI*
+https://dev.dcloud.net.cn/mui/ - *MUI*
 
 
 

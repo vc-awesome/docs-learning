@@ -6,7 +6,7 @@
 
 ## 官方
 
-<i class="fa fa-github fa-lg"></i> https://github.com/YMFE/yapi
+<i class="fa fa-github fa-lg"></i> https://github.com/YMFE/yapi/
 
 主页：http://yapi.smart-xwork.cn/
 
@@ -18,13 +18,13 @@
 
 ## 部署
 
-http://yapi.smart-xwork.cn/doc/devops/index.html - *⚠️ 推荐使用方式二安装，方式一无法安装*
+http://yapi.smart-xwork.cn/doc/devops/index.html - *⚠️ 推荐使用方式二安装，方式一无法安装*
 
 <https://github.com/YMFE/yapi#内网部署>
 
 ## 链接
 
-https://www.cnblogs.com/1120lwk/p/14228385.html - *YApi搭建流程*
+https://www.cnblogs.com/1120lwk/p/14228385.html - *YApi搭建流程*
 
 
 

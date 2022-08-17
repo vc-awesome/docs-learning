@@ -1009,6 +1009,7 @@ if (true !== $validate_result) {
 在 `controller` 中使用
 
 ```php
+// ⚠️类必须继承控制器基础类（/app/BaseController.php）
 // 验证数据（thinkphp6 可用）
 $validate_result = $this->validate($data, [
     'email|'.lang('邮箱')  => 'require|email|unique:user',
@@ -1232,73 +1233,63 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
 
 #### 数量倍数
 
-规则
-
-- 方式一
-
-```php
-// 限制100的倍数
-$limit = 100;
-$multiple = $post_data['to_amount']/$limit;
-if (!preg_match('/^\d+$/', $multiple) || $multiple <= 0) {
-    return '数量为'. $limit. '的倍数';
-}
-```
-
- 
-
-- 方式二（推荐）
-
-```php
-// 限制100的倍数
-$limit = 100;
-$multiple = $post_data['to_amount']/$limit;
-if (!preg_match('/^[1-9][0-9]*$/', $multiple)) { // 非零的正整数
-    return '数量为'. $limit. '的倍数';
-}
-```
-
- 
-
-错误信息
-
-数量为`$limit`的倍数起售
+- 规则
+  - 方式一
+  
+    ```php
+    // 限制100的倍数
+    $limit = 100;
+    $multiple = $post_data['to_amount']/$limit;
+    if (!preg_match('/^\d+$/', $multiple) || $multiple <= 0) {
+        return '数量必须为'. $limit. '的倍数';
+    }
+    ```
+  
+  
+  - 方式二（推荐）
+  
+    ```php
+    // 限制100的倍数
+    $limit = 100;
+    $multiple = $post_data['to_amount']/$limit;
+    if (!preg_match('/^[1-9][0-9]*$/', $multiple)) { // 非零的正整数
+        return '数量必须为'. $limit. '的倍数';
+    }
+    ```
+  
 
  
 
-测试
+- 错误信息
 
-✔️$post_data[‘to_amount’] = 100 // 正确（测试结果：pass）
-
-✔️$post_data[‘to_amount’] = 10 // 错误（测试结果：pass）
-
-✔️$post_data[‘to_amount’] = 0 // 错误（测试结果：pass）
-
-✔️$post_data[‘to_amount’] = -10 // 错误（测试结果：pass）
-
-✔️$post_data[‘to_amount’] = -100 // 错误（测试结果：pass）
+  数量为`$limit`的倍数起售
 
  
 
-多语言
-
-// 定义
-
-'数量为的倍数' => '数量为%d的倍数',
-
-// 使用
-
-lang('数量为的倍数', [$limit])
+- 测试
+  - ✔️$post_data[‘to_amount’] = 100 // 正确（测试结果：pass）
+  - ✔️$post_data[‘to_amount’] = 10 // 错误（测试结果：pass）
+  - ✔️$post_data[‘to_amount’] = 0 // 错误（测试结果：pass）
+  - ✔️$post_data[‘to_amount’] = -10 // 错误（测试结果：pass）
+  - ✔️$post_data[‘to_amount’] = -100 // 错误（测试结果：pass）
 
  
 
- 
+- 多语言
 
-'元素碎片枚起售倍数' => '元素碎片%d枚的倍数起售',
+  - // 定义
 
-'宝箱碎片枚起售倍数' => '宝箱碎片%d枚的倍数起售',
+    '数量为的倍数' => '数量为%d的倍数',
 
- 
+    '元素碎片枚起售倍数' => '元素碎片%d枚的倍数起售',
+
+    '宝箱碎片枚起售倍数' => '宝箱碎片%d枚的倍数起售',
+
+  - // 使用
+
+    lang('数量为的倍数', [$limit])
+
+
 
 #### 价格
 

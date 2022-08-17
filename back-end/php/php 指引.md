@@ -4,12 +4,13 @@
 
 ```php
 <?php
+    // boolean 为类型声明
     function test(boolean $param) {}
     test(true);
 ?>
 ```
 
-`boolean` 为类型声明
+
 
 ## 命令行模式
 

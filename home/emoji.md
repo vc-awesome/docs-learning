@@ -32,6 +32,7 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | -------------------------- | ------------------------ | -------------------------------- | ------- | ------------------ |
 | `:rocket:`               | :rocket:               | [Rocket](https://emojipedia.org/rocket/) | 🚀    | get started/开始 |
 | `:fire:`                 | :fire:                 | [Fire](https://emojipedia.org/fire/) | 🔥    | 热点             |
+| `:star:` | :star: | [Star](https://emojipedia.org/star/) | ⭐ | 加星 |
 | `:seedling:`             | :seedling:             | [Seedling](https://emojipedia.org/seedling/) | 🌱    | 开发中/完善中    |
 | `:memo:` | :memo: | [Memo](https://emojipedia.org/memo/) | 📝 | TODO |
 | `:heart:`                | :heart:                | [Red Heart](https://emojipedia.org/red-heart/) | ❤️  | like             |
@@ -73,4 +74,6 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:zap:` | :zap: | [High Voltage](https://emojipedia.org/high-voltage/) | ⚡ | 速度快 |
 | `:no_entry:` | :no_entry: | [No Entry](https://emojipedia.org/no-entry/) | ⛔ | 禁止，停用 |
 | `:no_entry_sign:` | :no_entry_sign: | [Prohibited](https://emojipedia.org/prohibited/) | 🚫 | 禁止，停用 |
+| `:inbox_tray:` | :inbox_tray: | [Inbox Tray](https://emojipedia.org/inbox-tray/) | 📥 | 下载 |
+| `:outbox_tray:` | :outbox_tray: | [Outbox Tray](https://emojipedia.org/outbox-tray/) | 📤 | 上传 |
 

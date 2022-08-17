@@ -1,28 +1,28 @@
-## 参考链接
+## Link <i class="ri-link"></i>
 
-👍 可能是最好的跨域解决方案了 https://github.com/campcc/blog/issues/15
+👍 https://github.com/campcc/blog/issues/15 - *可能是最好的跨域解决方案了*
 
-浏览器的同源策略 https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy
+https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy - *浏览器的同源策略*
 
 ### cookie 跨域
 
-https://www.cnblogs.com/xfstu/p/15705285.html *thinkphp解决cookie跨域*
+https://www.cnblogs.com/xfstu/p/15705285.html - *thinkphp解决cookie跨域*
 
-https://blog.csdn.net/leejianjun/article/details/52880253 *ThinkPHP中的跨域名共享session*
+https://blog.csdn.net/leejianjun/article/details/52880253 - *ThinkPHP中的跨域名共享session*
 
-https://www.cnblogs.com/shitouzi/archive/2017/10/03/7623885.html *thinkphp中session跨域问题*
+https://www.cnblogs.com/shitouzi/archive/2017/10/03/7623885.html - *thinkphp中session跨域问题*
 
-https://cloud.tencent.com/developer/article/1190563 *【thinkphp】跨域共享cookies session*
+https://cloud.tencent.com/developer/article/1190563 - *【thinkphp】跨域共享cookies session*
 
 
 
-## 代码实现
+## Code
 
 <!-- tabs:start -->
 
 ### **uni-app**
 
-uni-app H5跨域问题解决方案（CORS、Cross-Origin） https://ask.dcloud.net.cn/article/35267
+https://ask.dcloud.net.cn/article/35267 - *uni-app H5跨域问题解决方案（CORS、Cross-Origin）*
 
 
 
@@ -37,11 +37,11 @@ header('Access-Control-Allow-Headers:Authorization, Content-Type, If-Match, If-M
 header('Access-Control-Allow-Credentials:true'); // 配置允许发送认证信息 比如cookies（会话机制的前提）
 ```
 
-
+------
 
 参考链接 👇
 
-PHP后台代码解决跨域问题 https://www.cnblogs.com/mmykdbc/p/8024105.html
+https://www.cnblogs.com/mmykdbc/p/8024105.html - *PHP后台代码解决跨域问题*
 
 
 
@@ -59,7 +59,7 @@ PHP后台代码解决跨域问题 https://www.cnblogs.com/mmykdbc/p/8024105.html
 
 **tp3.2.3**
 
-TP3.2.3 怎么开启允许跨域 http://www.thinkphp.cn/topic/55695.html
+http://www.thinkphp.cn/topic/55695.html - *TP3.2.3 怎么开启允许跨域*
 
 
 
@@ -67,7 +67,7 @@ TP3.2.3 怎么开启允许跨域 http://www.thinkphp.cn/topic/55695.html
 
 **tp5.1**
 
-ThinkPHP 5.1 跨域配置方法 https://www.jb51.net/article/171692.htm
+https://www.jb51.net/article/171692.htm - *ThinkPHP 5.1 跨域配置方法*
 
  
 
@@ -115,9 +115,9 @@ ThinkPHP 5.1 跨域配置方法 https://www.jb51.net/article/171692.htm
 
 **参考链接 👇**
 
-Thinkphp 允许跨域问题(实例+解决方法) https://zhuanlan.zhihu.com/p/105386883
+https://zhuanlan.zhihu.com/p/105386883 - *Thinkphp 允许跨域问题(实例+解决方法)*
 
-thinkphp5 关于跨域的一些坑，附上解决办法（比较全面了） https://www.cnblogs.com/lamplnmp/p/13141689.html
+https://www.cnblogs.com/lamplnmp/p/13141689.html - *thinkphp5 关于跨域的一些坑，附上解决办法（比较全面了）*
 
 
 
@@ -129,7 +129,7 @@ add_header Access-Control-Allow-Methods 'GET,POST,OPTIONS';
 add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,Token';
 ```
 
-
+------
 
 方式一
 
@@ -141,11 +141,11 @@ add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent
 
 ![Cross Domain](_images/cross-domain-2.png)
 
-
+------
 
 参考链接 👇
 
-nginx反向代理允许跨域应该怎么设置 https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=81405
+https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=81405 - *nginx反向代理允许跨域应该怎么设置*
 
 
 
@@ -157,11 +157,11 @@ nginx反向代理允许跨域应该怎么设置 https://www.bt.cn/bbs/forum.php?
 
 3. 将 *default* 改为 *disabled* 即可。
 
-
+------
 
 参考链接 👇
 
-http和https跨域问题 https://blog.csdn.net/qq_40504777/article/details/118676848
+https://blog.csdn.net/qq_40504777/article/details/118676848 - *http和https跨域问题*
 
 
 
@@ -169,15 +169,15 @@ http和https跨域问题 https://blog.csdn.net/qq_40504777/article/details/11867
 
 
 
-## 工具
+## Tool
 
-> 跨域请求调试工具
+?> 跨域请求调试工具
 
 ### 浏览器跨域调试
 
-> 👍 [跨域调试 - 浏览器随意打开一个网页 console中输入以下代码调试（注：http或https要一致）](http://www.04007.cn/article/799.html)
+> 👍 http://www.04007.cn/article/799.html - *跨域调试 - 浏览器随意打开一个网页 console中输入以下代码调试（注：http或https要一致）*
 >
-> 菜鸟教程：https://www.runoob.com/ajax/ajax-tutorial.html *AJAX 教程 | 菜鸟教程*
+> https://www.runoob.com/ajax/ajax-tutorial.html - *AJAX 教程 | 菜鸟教程*
 
 ```js
 var xhr = new XMLHttpRequest();

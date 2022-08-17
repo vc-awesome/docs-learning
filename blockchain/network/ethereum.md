@@ -12,6 +12,8 @@ Github：https://github.com/ethereum/
 
 区块浏览器：https://cn.etherscan.com/
 
+开发者中心：https://ethereum.org/zh/developers/
+
 
 
 ## Web3
