@@ -1,6 +1,74 @@
+## windows 官方
+
+Website：https://www.microsoft.com/zh-cn/
+
+Support：https://support.microsoft.com/zh-cn
+
+Download：https://www.microsoft.com/zh-cn/download
+
+微软官方商城：https://www.microsoftstore.com.cn/
+
+## windows 系统
+
+https://www.microsoft.com/zh-cn/software-download - *软件下载*
+
+https://support.microsoft.com/zh-cn/windows - *Windows 帮助和学习*
+
+- 家庭版 Home
+- 专业版 Pro
+- 企业版 Enterprise
+
+
+
+### 更新
+
+<https://support.microsoft.com/zh-cn/topic/windows-10-更新助手-3550dfb2-a015-7765-12ea-fba2ac36fb3f> - *Windows 10 更新助手*
+
+微软 Windows 10 易升 *Windows10UpgraderApp.exe*
+
+https://docs.microsoft.com/zh-cn/windows/deployment/ - *部署和更新 Windows 客户端*
+
+
+
+### 升级
+
+> 注册表原信息：`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion`
+>
+> EditionID ：EnterpriseS
+>
+> ProductName ：Windows 10 Enterprise 2016 LTSB
+
+Windows10 Enterprise LTSB(LTSC)
+
+https://www.xitongtang.com/class/win10/17128.html - *您可以将Windows 7升级到Windows10 LTSB吗?_系统堂官网*
+
+https://www.xitongbuluo.com/jiaocheng/58592.html - *Win10易升需要联系管理员要？Win10易升需要联系管理员解决方法-系统部落*
+
+https://www.bilibili.com/video/av549495977 - *【更5】若要升级Windows Server 或企业版，请联系系统管理员ltsb ltsc2018 2019 win10系统更新升级失败哔哩哔哩bilibili*
+
+## windows 下载加速
+
+https://www.maxiaobang.com/12017.html - *教你在微软官网不限速下载Windows原版系统镜像文件！ | 马小帮*
+
+- 复制下载链接，打开迅雷下载即可加速
+
+## windows microsoft store
+
+https://apps.microsoft.com/store/apps - *Microsoft 应用程序*
+
+https://www.microsoft.com/store/apps/windows
+
+------
+
+https://www.xitongcheng.com/jiaocheng/win10_article_71916.html - *win10微软商店下载速度很慢_win10微软商店下载提速教程－系统城*
+
+<https://www.dogfight360.com/blog/knowledge-base/如何加快微软商店游戏-windows系统更新下载速度/> - *如何加快微软商店游戏/Windows系统更新下载速度 – Dogfight360*
+
 ## windows help
 
 https://www.winhelponline.com/ :us: - *Winhelponline » Windows Help, How-Tos, and Tech Reviews*
+
+https://www.thewindowsclub.com/ :us: - *Windows 11/10 Tips, Tricks, Help, Support, Downloads, Features*
 
 ## windows bat 命令
 
@@ -110,6 +178,12 @@ https://jingyan.baidu.com/article/22fe7ced0085677103617f01.html - *Win10中怎�
 
 
 
+## windows 开发环境
+
+https://docs.microsoft.com/zh-cn/windows/dev-environment/ - *在 Windows 上设置开发环境 | Microsoft Docs*
+
+
+
 ## windows hyper-v
 
 https://baijiahao.baidu.com/s?id=1682327494844437724/ - *Windows虚拟机Hyper-v的安装及使用教程*
@@ -120,12 +194,12 @@ https://baijiahao.baidu.com/s?id=1682327494844437724/ - *Windows虚拟机Hyper-v
 
 ### WSL(Windows Subsystem for Linux)
 
-https://docs.microsoft.com/zh-cn/windows/wsl/ - *适用于 Linux 的 Windows 子系统文档 | Microsoft Docs*
+https://docs.microsoft.com/zh-cn/windows/wsl/ - *适用于 Linux 的 Windows 子系统文档 | Microsoft Docs*
 
 ### Cygwin
 
-http://www.cygwin.com/
+http://www.cygwin.com/ - *Cygwin*
 
-https://www.jb51.net/softs/102136.html - *Cygwin(模拟Linux环境) v3.1.4 中文官方安装版(附Cygwin安装教程)*
+https://www.jb51.net/softs/102136.html - *Cygwin(模拟Linux环境) v3.1.4 中文官方安装版(附Cygwin安装教程)*
 
-https://www.cnblogs.com/jingchi/p/15912206.html - *Cygwin软件安装及C环境配置*
+https://www.cnblogs.com/jingchi/p/15912206.html - *Cygwin软件安装及C环境配置*

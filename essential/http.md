@@ -2,13 +2,13 @@
 
 ## link <i class="ri-link"></i>
 
-👍 https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
+👍 https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
 
-https://www.runoob.com/http/http-tutorial.html - *菜鸟教程*
+https://www.runoob.com/http/http-tutorial.html - *菜鸟教程*
 
-https://www.kancloud.cn/kancloud/tealeaf-http/43837 - *HTTP 下午茶*
+https://www.kancloud.cn/kancloud/tealeaf-http/43837 - *HTTP 下午茶*
 
-https://segmentfault.com/a/1190000017874063 - *一篇文章带你了解http/https*
+https://segmentfault.com/a/1190000017874063 - *一篇文章带你了解http/https*
 
 
 
@@ -18,7 +18,7 @@ https://segmentfault.com/a/1190000017874063 - *一篇文章带你了解http/htt
 
 请参阅 [IANA MIME 类型](http://www.iana.org/assignments/media-types/)，获得标准 MIME 类型的完整列表。
 
- 
+ https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions/ - *Multipurpose Internet Mail Extensions (MIME) Encyclopedia*
 
 ## Headers
 
@@ -41,7 +41,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers - *HTTP Headers - HTTP
 
 - 浏览器缓存
 
-  https://segmentfault.com/a/1190000009970329 - *最常被遗忘的Web性能优化：浏览器缓存*
+  https://segmentfault.com/a/1190000009970329 - *最常被遗忘的Web性能优化：浏览器缓存*
 
 - last-modified
 - etag
@@ -52,9 +52,9 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers - *HTTP Headers - HTTP
 
 - HTTP 身份验证
 
-  https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication -  *HTTP 身份验证 - HTTP | MDN*
+  https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication -  *HTTP 身份验证 - HTTP | MDN*
 
-  https://blog.csdn.net/ai2000ai/article/details/85775484 - *HTTP basic auth*
+  https://blog.csdn.net/ai2000ai/article/details/85775484 - *HTTP basic auth*
 
  
 

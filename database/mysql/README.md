@@ -236,7 +236,7 @@ https://mp.weixin.qq.com/s/a1hsrsRC3enxunJPvf5PDw/ - *为什么不建议在 MySQ
 
 utf8mb4_general_ci
 
-https://www.cnblogs.com/gaogao67/p/14721829.html - *MySQL--utf8mb4排序规则*
+https://www.cnblogs.com/gaogao67/p/14721829.html - *MySQL--utf8mb4排序规则*
 
 ## 创建数据表
 
@@ -254,7 +254,7 @@ https://www.jb51.net/article/199633.htm - *浅谈MySQL中的自增主键用完�
   
 - 实例
 
-  https://www.cnblogs.com/gaogao67/p/10415665.html - *MySQL--批量插入导致自增跳号问题*
+  https://www.cnblogs.com/gaogao67/p/10415665.html - *MySQL--批量插入导致自增跳号问题*
 
 ### 存储引擎
 
@@ -571,7 +571,7 @@ https://blog.csdn.net/zhizhengguan/article/details/122112773 - *MySQL：多个�
 
 ### 实例
 
-https://www.cnblogs.com/gaogao67/p/10412249.html - *MySQL Lock--并发插入导致的死锁*
+https://www.cnblogs.com/gaogao67/p/10412249.html - *MySQL Lock--并发插入导致的死锁*
 
 https://www.cnblogs.com/gaogao67/p/10411360.html - *MySQL Transaction--RR事务隔离级别下加锁测试*
 
@@ -583,7 +583,7 @@ https://www.cnblogs.com/gaogao67/p/14659093.html - *MySQL Lock--SELECT LOCK IN S
 
 https://www.cnblogs.com/gaogao67/p/14659081.html - *MySQL Lock--SELECT FOR UPDATE加锁*
 
-https://www.cnblogs.com/gaogao67/p/14656022.html - *MySQL LOCK--按照非聚集索引更新时如何加锁*
+https://www.cnblogs.com/gaogao67/p/14656022.html - *MySQL LOCK--按照非聚集索引更新时如何加锁*
 
 ## MVCC
 
@@ -782,6 +782,8 @@ https://www.cnblogs.com/gaogao67/p/14655347.html - *MySQL--SELECT语句中SLEEP�
 ### MySQL 日期函数
 
 https://blog.csdn.net/chtjava/article/details/100148356 - *MySQL 获得当前日期时间 函数*
+
+https://m.php.cn/article/481017.html - *MySQL如何获取当前时间和时间戳*
 
 SELECT NOW(); // 返回当前日期和时间
 

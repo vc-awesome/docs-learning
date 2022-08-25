@@ -84,7 +84,8 @@
   
 - 🔥 Tools
   - [<i class="ri-rocket-line"></i> Index](/tools/)
-  - [<i class="ri-search-line"></i> Search](/tools/?id=软件资源-)
+  - [<i class="ri-search-line"></i> Search](/tools/search.md)
+  - [<i class="fa fa-laptop medium-purple"></i> PC Tool](/tools/应用工具.md)
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](/tools/browser-extensions)

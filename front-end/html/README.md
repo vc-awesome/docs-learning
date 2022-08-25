@@ -22,11 +22,13 @@ header 元素
 
 #### \<meta>
 
-- https://www.runoob.com/w3cnote/meta.html *常用meta整理* 
-- http://fex.baidu.com/blog/2014/10/html-head-tags/ *HTML head 头标签*
-- https://github.com/audreyfeldroy/favicon-cheat-sheet *Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.)*
+- https://www.runoob.com/w3cnote/meta.html - *常用meta整理* 
+- http://fex.baidu.com/blog/2014/10/html-head-tags/ - *HTML head 头标签*
+- https://github.com/audreyfeldroy/favicon-cheat-sheet - *Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.)*
 
 #### \<script>
+
+##### integrity
 
 ```javascript
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -34,15 +36,21 @@ header 元素
 
 
 
-- https://cdnjs.com/libraries/hammer.js *A javascript library for multi-touch gestures*
-- https://blog.csdn.net/chenjiebin/article/details/121093528 *script使用integrity属性进行安全验证*
-- https://www.xftsoft.com/tool/integrity *Integrity生成器（SRI Hash 生成器）*
+- https://cdnjs.com/libraries/hammer.js - *A javascript library for multi-touch gestures*
+- https://blog.csdn.net/chenjiebin/article/details/121093528 - *script使用integrity属性进行安全验证*
+- https://www.xftsoft.com/tool/integrity - *Integrity生成器（SRI Hash 生成器）*
+
+##### async
 
 ```javascript
 <script src="js/require.js" defer async="true" ></script>
 ```
 
 `async`属性表明这个文件需要异步加载，避免网页失去响应。IE不支持这个属性，只支持`defer`，所以把`defer`也写上。[via](https://www.ruanyifeng.com/blog/2012/11/require_js.html)
+
+##### type
+
+https://mp.weixin.qq.com/s/KXpawK0d6ypnyrEDfNCaiQ - *type="module" 你了解，但 type="importmap" 你知道吗*
 
 块元素
 

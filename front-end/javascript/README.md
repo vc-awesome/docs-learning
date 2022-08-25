@@ -8,6 +8,12 @@
 
 菜鸟教程：https://www.runoob.com/js/js-tutorial.html
 
+## Version
+
+ECMAScript5
+
+ECMAScript6
+
 ## Index
 
 https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机制详解：再谈Event Loop*

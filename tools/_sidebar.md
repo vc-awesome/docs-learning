@@ -1,5 +1,6 @@
 * [Introduce](/tools/ "Introduce")
-* [Index <i class="ri-rocket-line"></i>](/tools/应用工具.md)
+* [Search <i class="ri-search-line"></i>](/tools/search.md)
+* [PC Tools <i class="fa fa-laptop"></i>](/tools/应用工具.md)
 * [Web Tools <i class="ri-cloud-line"></i>](/tools/online.md "在线工具")
 * **Daily**
 * [Browser](/tools/browser.md "浏览器")

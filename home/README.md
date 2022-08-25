@@ -1,5 +1,3 @@
-todo...
-
 程序切换语言含国旗可参考 <https://igoutu.cn/>
 
 
@@ -63,6 +61,12 @@ todo...
 
 
 ## 镜像站
+
+- http://mirrors.163.com/ - *网易开源镜像站*
+
+- https://mirrors.tuna.tsinghua.edu.cn/ - *清华大学开源软件镜像站*
+
+- https://mirrors.ustc.edu.cn/ - *中国科学技术大学开源镜像站*
 
 - GitHub
   - https://ghproxy.com/ - *GitHub Proxy 代理加速*

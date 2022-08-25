@@ -1,3 +1,19 @@
+## 变量处理函数
+
+https://www.php.net/manual/zh/book.var.php - *PHP: Variable handling - Manual*
+
+https://www.runoob.com/php/php-variable-handling-functions.html - *PHP 可用的函数 | 菜鸟教程*
+
+empty
+
+gettype
+
+isset
+
+var_dump
+
+var_export
+
 ## 打印函数
 
 `echo`
@@ -47,7 +63,11 @@
 
 
 
-## 时间函数
+## 时间和时间函数
+
+https://www.php.net/manual/zh/book.datetime.php - *PHP: 日期/时间 - Manual* 
+
+https://www.runoob.com/php/php-ref-date.html - *PHP 5 Date/Time 函数 | 菜鸟教程*
 
 ```php
 $yesterday_begin = date("Y-m-d H:i:s", strtotime($today_begin.'-1day')); //昨天开始时间

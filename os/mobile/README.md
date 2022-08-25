@@ -10,11 +10,11 @@ https://play.google.com/store/apps :us:
 #### Online Download
 
 <i class="bi-link"></i>
-http://www.nbadao.com/2519.html *google play 谷歌市场镜像替代网站apk下载 – N把刀*
+http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
 
-👍 https://apkmod.cc/ :us: *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
+👍 https://apkmod.cc/ :us: - *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
 
-https://apkpure.com/ *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* 
+https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* 
 <i class="con octicon-file tag-icon"></i>
 [hosts](https://zhuanlan.zhihu.com/p/47225701)
 
@@ -62,4 +62,4 @@ https://gitlab.com/spacecowboy/Feeder
 
 ### App Store
 
-官网：https://www.apple.com.cn/app-store/ :cn:
+官网：https://www.apple.com.cn/app-store/ :cn: - *App Store - Apple (中国大陆)*

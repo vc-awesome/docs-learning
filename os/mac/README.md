@@ -1,6 +1,6 @@
-to do...
+## 官方
 
-
+https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 ## Tutorial
 
@@ -88,23 +88,34 @@ to do...
    1. 组合键：<kbd>command</kbd> + <kbd>F3</kbd>
    2. 组合键：<kbd>fn</kbd> + <kbd>f11</kbd>
 
-7. Mac 安装 composer
+7. Mac 解压 rar
 
-   [mac 下 composer安装](https://blog.csdn.net/weixin_42178377/article/details/106970111)
-
-8. Homebrew 安装 composer
-
-9. Mac 解压 rar
-
-   [教你如何在Mac系统下解压rar,zip等各种格式文件](https://zhuanlan.zhihu.com/p/103473716)
+   https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,zip等各种格式文件*
 
    1. app store 安装工具 `The Unarchiver`
 
-10. Mac 安装 postman
 
-    1. 官网下载安装 [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
-11. Mac brew
+### 程序安装问题
 
-    1. brew 可以安装哪些软件 [Brew安装常用软件](https://zhuanlan.zhihu.com/p/96609342)
+1. Mac 安装 postman
 
+   1. 官网下载安装 [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
+
+2. Mac brew
+
+   1. brew 可以安装哪些软件
+
+      https://zhuanlan.zhihu.com/p/96609342 - *Brew安装常用软件*
+
+3. Mac 安装 composer
+
+   https://blog.csdn.net/weixin_42178377/article/details/106970111 - *mac 下 composer安装*
+
+   - Homebrew 安装 composer
+
+4. Mac 提示无法验证开发者
+
+   https://jingyan.baidu.com/article/b87fe19e6dc68a1319356823.html - *mac提示无法验证开发者怎么办-百度经验*
+
+### 

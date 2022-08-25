@@ -214,22 +214,22 @@ https://browsersync.bootcss.com/ :cn: - *Browsersync - 省时的浏览器同步�
 
   `npm install browser-sync --save-dev`
 
-  [<i class="ri-link"></i> 如何运行本地安装模块的命令](/front-end/node.js/?id=npm-本地安装模块后如何去运行)
-
 - 查看当前版本
 
   `browser-sync --version`
 
 - 监听所有文件类型
 
-  -  静态网站
+  [<i class="ri-link"></i> 如何运行本地安装模块的命令](/front-end/node.js/?id=npm-本地安装模块后如何去运行)
+
+  - 静态网站
 
     `browser-sync start --server --files "**/**.*"`
 
   - 动态网站
 
     `browser-sync start --proxy "docs-learning.service" --files "**/**.*"`
-
+  
   `**` （表示任意目录）匹配
 
 **参考链接**
