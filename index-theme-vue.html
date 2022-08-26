@@ -21,6 +21,8 @@
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
   <link rel="stylesheet" href="//unpkg.com/docsify@4.12.2/themes/vue.css" title="vue"/>
+  <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
+<!--  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.1.0/dist/toc.css">-->
   <!-- Font icon -->
   <link rel="stylesheet" href="//unpkg.com/file-icons-js@1.1.0/css/style.css">
   <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
@@ -44,6 +46,176 @@
   </script>
 
   <style>
+      aside.toc-nav {
+          max-height: 90%;
+          border-left: 1px solid rgba(0,0,0,0.07)
+      }
+      .page_toc div {
+          border: none;
+      }
+      .page_toc div[class^="lv"] a {
+          position: relative;
+          padding: 5px 10px;
+          line-height: 1em;
+      }
+      .page_toc div[class^="lv"] a:before {
+          content: "{";
+          color: #bbb;
+          position: absolute;
+          font-size: 16px;
+          top: 4px;
+          left: 0;
+          display: none;
+      }
+      .page_toc div[class^="lv"].active a:before {
+          color: var(--theme-color, #42b983);
+          display: block;
+      }
+      .page_toc div[class^="lv"] a:hover:before {
+          display: block;
+      }
+      .page_toc div[class^="lv"] a:before {
+          font-weight: bold;
+      }
+      .page_toc div[class^="lv"] a span {
+          color: #707070;
+          font-size: 14px;
+          font-weight: normal;
+          overflow: hidden;
+          /*text-decoration: none;*/
+          text-overflow: ellipsis;
+          white-space: nowrap;
+      }
+      .page_toc div[class^="lv"].active a span {
+          color: var(--theme-color, #42b983);
+          font-weight: 600;
+      }
+      .page_toc div[class^="lv"] a:hover span {
+          background: none;
+          color: #444;
+      }
+      .page_toc div[class^="lv"] a.anchor:focus,
+      .page_toc div[class^="lv"] a.anchor:hover {
+          text-decoration: underline;
+      }
+
+      /* Page TOC */
+      /*.page_toc {
+          font-size: 0.875rem;
+          padding: 0 1rem 0 0.25rem;
+          overflow: auto;
+          max-height: calc(100vh - 120px);
+          max-width: 100%;
+      }
+      .page_toc ul a {
+          font-weight: 400;
+          color: #707070;
+      }
+      .page_toc ul a.anchor span {
+          color: #707070;
+      }
+      .page_toc ul a.anchor:hover {
+          text-decoration: none;
+      }
+      .page_toc ul a.anchor:focus {
+          text-decoration: underline;
+      }
+      .page_toc ul code {
+          color: #284472;
+      }
+      @media screen and (max-width: 1300px) {
+          .page_toc {
+              max-height: 100%;
+              overflow: hidden;
+          }
+      }
+      .page_toc ul a {
+          position: relative;
+          padding: 5px 10px;
+      }
+      .page_toc ul a span:hover {
+          background: none;
+          color: #444;
+      }
+      .page_toc ul a:before {
+          content: "{";
+          color: #bbb;
+          position: absolute;
+          font-size: 16px;
+          top: 4px;
+          left: 0;
+          display: none;
+      }
+      .page_toc ul a:hover:before {
+          font-weight: bold;
+          display: block;
+      }
+      .page_toc .active {
+          border-left: none;
+          color: #42b983;
+          padding: 5px 10px;
+          display: inline-block;
+      }
+      .page_toc .active:before {
+          font-weight: bold;
+          display: block;
+          color: #42b983;
+      }
+      .page_toc .active:after {
+          content: "";
+      }*/
+
+      .toc-toggle {
+          display: none;
+      }
+      @media only screen and (max-width: 1299px) {
+          aside.toc-nav {
+              display: none;
+          }
+          .toc-nav-hover {
+              display: block!important;
+              max-width: inherit!important;
+              opacity: 1!important;
+              border: 1px solid rgba(0,0,0,0.07)
+          }
+          .toc-toggle {
+              display: block;
+              font-size: 12px;
+              text-align: center;
+              transition-delay: 0s;
+              transition-duration: 0.2s;
+              transition-timing-function: ease-in-out;
+          }
+          .toc-toggle {
+              background: #222;
+              bottom: 45px;
+              box-sizing: border-box;
+              color: #fff;
+              cursor: pointer;
+              right: 30px;
+              padding: 3px 9px;
+              position: fixed;
+              transition-property: bottom;
+              z-index: 1300;
+              width: initial;
+              opacity: 1;
+          }
+      }
+      @media (max-width: 991px) {
+          .toc-toggle {
+              left: 20px;
+              opacity: 0.8;
+          }
+      }
+      .toc-toggle {
+          left: auto;
+          right: 30px;
+      }
+      @media (max-width: 991px) {
+          .toc-toggle {
+              right: 20px;
+          }
+      }
 
   </style>
 </head>
@@ -52,12 +224,19 @@
 
 <!--返回顶部 method-2-->
 <link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
+<div class="toc-toggle">🍬</div>
 <div class="back-to-top">
   <i class="fa fa-arrow-up"></i>
   <span>0%</span>
 </div>
+<div class="back-to-bottom">
+  <i class="fa fa-arrow-down"></i>
+  <span>0%</span>
+</div>
 <script>
-
+  document.querySelector('.toc-toggle').addEventListener('click', () => {
+    document.querySelector('.toc-nav').classList.toggle('toc-nav-hover')
+  });
   window.$docsify = {
     //...
     // 定制侧边栏
@@ -207,13 +386,13 @@
 
     /*toc: {
       scope: '.markdown-section',
-      headings: 'h2, h3, h4, h5, h6',
-      title: 'Table of Contents',
+      headings: 'h1, h2, h3, h4, h5, h6',
+      title: '',
     },*/
 
     toc: {
       tocMaxLevel: 5,
-      target: 'h2, h3, h4, h5, h6'
+      target: 'h1, h2, h3, h4, h5, h6'
     },
 
   }
@@ -243,7 +422,8 @@
 <script src="//unpkg.com/docsify-tabs@1.5.2/dist/docsify-tabs.min.js"></script>
 
 <!-- Table of Contents -->
-<script src="//unpkg.com/docsify-plugin-toc@1.2.1/dist/docsify-plugin-toc.min.js"></script>
+<script src="//unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
+<!--<script src="https://unpkg.com/docsify-toc@1.1.0/dist/toc.js"></script>-->
 
 <!-- docsify-copy-code -->
 <script src="//unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>

@@ -167,7 +167,7 @@ https://bytesfly.github.io/island/#/
 
 ### 目录TOC
 
-:thumbsup: https://github.com/justintien/docsify-plugin-toc
+ 👍 https://github.com/justintien/docsify-plugin-toc
 
 https://github.com/mrpotatoes/docsify-toc
 

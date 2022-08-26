@@ -4,6 +4,8 @@ Website：https://www.microsoft.com/zh-cn/
 
 Support：https://support.microsoft.com/zh-cn
 
+Docs：
+
 Download：https://www.microsoft.com/zh-cn/download
 
 微软官方商城：https://www.microsoftstore.com.cn/
@@ -15,7 +17,7 @@ https://www.microsoft.com/zh-cn/software-download - *软件下载*
 https://support.microsoft.com/zh-cn/windows - *Windows 帮助和学习*
 
 - 家庭版 Home
-- 专业版 Pro
+- 专业版 Professional
 - 企业版 Enterprise
 
 

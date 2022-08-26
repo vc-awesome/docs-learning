@@ -1,4 +1,4 @@
-/*固定导航栏*/
+/* 固定导航栏 */
 nav.app-nav {
     position: fixed;
     margin: 0;
@@ -10,7 +10,7 @@ nav.app-nav {
     border-bottom: 1px solid #eee;
 }
 
-/*自定义侧边栏*/
+/* 自定义侧边栏 */
 aside.sidebar ul.app-sub-sidebar li.active {
     position: relative;
 }
@@ -27,7 +27,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
     box-shadow: 0 0 0 3px rgba(254, 210, 74, .4);
 }
 
-/*滚动条样式 start*/
+/* 滚动条样式 start */
 /* 滚动条宽度 */
 ::-webkit-scrollbar {
     width: 4px;
@@ -41,7 +41,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
     border-radius: 2em;
 }
 
-/*滚动条样式 end*/
+/* 滚动条样式 end */
 
 /* Page TOC */
 /*section.content {
@@ -96,6 +96,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
         width: auto;
     }
 }*/
+
 /* 滚动条颜色 */
 aside.toc-nav::-webkit-scrollbar-thumb {
     background: transparent!important;
