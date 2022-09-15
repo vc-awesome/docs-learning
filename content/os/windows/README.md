@@ -70,7 +70,7 @@ https://www.xitongcheng.com/jiaocheng/win10_article_71916.html - *win10微软商
 
 ### 卸载应用
 
-https://jingyan.baidu.com/article/a24b33cd682ebf58fe002be5.html - *如何卸载在Microsoft store安装的软件-百度经验*
+https://jingyan.baidu.com/article/a24b33cd682ebf58fe002be5.html - *如何卸载在Microsoft store安装的软件-百度经验*
 
 ## windows help
 
@@ -201,7 +201,7 @@ https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Sh
   https://www.it1352.com/2340975.html - _使用 bat 启动 Powershell 脚本_
   
 
-## windows 快捷键
+## windows 快捷键 ⌨
 
 - 快速显示桌面
 
@@ -210,6 +210,10 @@ https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Sh
 - 锁屏
 
   <kbd>windows</kbd> + <kbd>L</kbd>
+
+- 表情符号(E) & 符号
+
+  <kbd>windows</kbd> + <kbd>.</kbd>
 
 - 在指定目录下打开 `cmd` 程序
 
