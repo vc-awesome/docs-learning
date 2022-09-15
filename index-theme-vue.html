@@ -5,37 +5,21 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
 
-  <!-- Using jsdelivr -->
-  <!-- ----------------------------------------------------------------- -->
-  <!--
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue"/>
-  &lt;!&ndash; Font icon &ndash;&gt;
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
-  -->
-
-
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
   <link rel="stylesheet" href="//unpkg.com/docsify@4.12.2/themes/vue.css" title="vue"/>
-  <link rel="stylesheet" href="https://unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
-<!--  <link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.1.0/dist/toc.css">-->
+  <link rel="stylesheet" href="//unpkg.com/docsify@4.12.2/themes/dark.css" title="dark"/>
+  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
   <!-- Font icon -->
   <link rel="stylesheet" href="//unpkg.com/file-icons-js@1.1.0/css/style.css">
   <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//unpkg.com/remixicon@2.5.0/fonts/remixicon.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
+  <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
 
   <!-- Shortcut icon-->
-  <!--
-  <link rel="shortcut icon" href="_media/bunny-color.png">
-  <link rel="shortcut icon" href="/images/favicon.ico">
-  -->
-  <link rel="shortcut icon" href="//docsify.js.org/_media/favicon.ico">
+  <link rel="shortcut icon" href="_media/favicon-docsify.ico">
 
   <!-- Using Local -->
   <!-- ----------------------------------------------------------------- -->
@@ -46,197 +30,25 @@
   </script>
 
   <style>
-      aside.toc-nav {
-          max-height: 90%;
-          border-left: 1px solid rgba(0,0,0,0.07)
-      }
-      .page_toc div {
-          border: none;
-      }
-      .page_toc div[class^="lv"] a {
-          position: relative;
-          padding: 5px 10px;
-          line-height: 1em;
-      }
-      .page_toc div[class^="lv"] a:before {
-          content: "{";
-          color: #bbb;
-          position: absolute;
-          font-size: 16px;
-          top: 4px;
-          left: 0;
-          display: none;
-      }
-      .page_toc div[class^="lv"].active a:before {
-          color: var(--theme-color, #42b983);
-          display: block;
-      }
-      .page_toc div[class^="lv"] a:hover:before {
-          display: block;
-      }
-      .page_toc div[class^="lv"] a:before {
-          font-weight: bold;
-      }
-      .page_toc div[class^="lv"] a span {
-          color: #707070;
-          font-size: 14px;
-          font-weight: normal;
-          overflow: hidden;
-          /*text-decoration: none;*/
-          text-overflow: ellipsis;
-          white-space: nowrap;
-      }
-      .page_toc div[class^="lv"].active a span {
-          color: var(--theme-color, #42b983);
-          font-weight: 600;
-      }
-      .page_toc div[class^="lv"] a:hover span {
-          background: none;
-          color: #444;
-      }
-      .page_toc div[class^="lv"] a.anchor:focus,
-      .page_toc div[class^="lv"] a.anchor:hover {
-          text-decoration: underline;
-      }
-
-      /* Page TOC */
-      /*.page_toc {
-          font-size: 0.875rem;
-          padding: 0 1rem 0 0.25rem;
-          overflow: auto;
-          max-height: calc(100vh - 120px);
-          max-width: 100%;
-      }
-      .page_toc ul a {
-          font-weight: 400;
-          color: #707070;
-      }
-      .page_toc ul a.anchor span {
-          color: #707070;
-      }
-      .page_toc ul a.anchor:hover {
-          text-decoration: none;
-      }
-      .page_toc ul a.anchor:focus {
-          text-decoration: underline;
-      }
-      .page_toc ul code {
-          color: #284472;
-      }
-      @media screen and (max-width: 1300px) {
-          .page_toc {
-              max-height: 100%;
-              overflow: hidden;
-          }
-      }
-      .page_toc ul a {
-          position: relative;
-          padding: 5px 10px;
-      }
-      .page_toc ul a span:hover {
-          background: none;
-          color: #444;
-      }
-      .page_toc ul a:before {
-          content: "{";
-          color: #bbb;
-          position: absolute;
-          font-size: 16px;
-          top: 4px;
-          left: 0;
-          display: none;
-      }
-      .page_toc ul a:hover:before {
-          font-weight: bold;
-          display: block;
-      }
-      .page_toc .active {
-          border-left: none;
-          color: #42b983;
-          padding: 5px 10px;
-          display: inline-block;
-      }
-      .page_toc .active:before {
-          font-weight: bold;
-          display: block;
-          color: #42b983;
-      }
-      .page_toc .active:after {
-          content: "";
-      }*/
-
-      .toc-toggle {
-          display: none;
-      }
-      @media only screen and (max-width: 1299px) {
-          aside.toc-nav {
-              display: none;
-          }
-          .toc-nav-hover {
-              display: block!important;
-              max-width: inherit!important;
-              opacity: 1!important;
-              border: 1px solid rgba(0,0,0,0.07)
-          }
-          .toc-toggle {
-              display: block;
-              font-size: 12px;
-              text-align: center;
-              transition-delay: 0s;
-              transition-duration: 0.2s;
-              transition-timing-function: ease-in-out;
-          }
-          .toc-toggle {
-              background: #222;
-              bottom: 45px;
-              box-sizing: border-box;
-              color: #fff;
-              cursor: pointer;
-              right: 30px;
-              padding: 3px 9px;
-              position: fixed;
-              transition-property: bottom;
-              z-index: 1300;
-              width: initial;
-              opacity: 1;
-          }
-      }
-      @media (max-width: 991px) {
-          .toc-toggle {
-              left: 20px;
-              opacity: 0.8;
-          }
-      }
-      .toc-toggle {
-          left: auto;
-          right: 30px;
-      }
-      @media (max-width: 991px) {
-          .toc-toggle {
-              right: 20px;
-          }
-      }
 
   </style>
 </head>
 <body>
 <div id="app"></div>
 
+<div class="toc-toggle">🎁🎨</div>
 <!--返回顶部 method-2-->
 <link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
-<div class="toc-toggle">🍬</div>
 <div class="back-to-top">
   <i class="fa fa-arrow-up"></i>
   <span>0%</span>
 </div>
-<div class="back-to-bottom">
+<div class="back-to-top" id="back2bottom">
   <i class="fa fa-arrow-down"></i>
   <span>0%</span>
 </div>
 <script>
-  document.querySelector('.toc-toggle').addEventListener('click', () => {
-    document.querySelector('.toc-nav').classList.toggle('toc-nav-hover')
-  });
+
   window.$docsify = {
     //...
     // 定制侧边栏
@@ -247,6 +59,8 @@
     /*alias: { // 定义路由别名，可以更自由的定义路由规则。 支持正则
       '/.*!/_sidebar.md': '/_sidebar.md'
     },*/
+    
+    ext: '.md?v=' + new Date().getTime(),
 
     // 定制导航栏
     loadNavbar: true,
@@ -265,6 +79,7 @@
     // 甚至直接渲染其他仓库
     // basePath:
     //     'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/',
+    basePath: 'content',
 
     // logo
     // logo: '//docsify.js.org/_media/icon.svg', // 在侧边栏中出现的网站图标，你可以使用CSS来更改大小
@@ -280,37 +95,7 @@
 
     mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
 
-    // docsify-copy-code (defaults)
-    copyCode: {
-      buttonText: 'Copy to clipboard',
-      errorText: 'Error',
-      successText: 'Copied'
-    },
     formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
-
-    // ...
-    /*pagination: {
-      previousText: '上一章节',
-      nextText: '下一章节',
-      crossChapter: true,
-      crossChapterText: true,
-    },*/
-
-    count: {
-      countable: true,
-      fontsize: '0.9em',
-      color: 'rgb(90,90,90)',
-      language: 'chinese'
-    },
-
-    // ...
-    scrollToTop: {
-      auto: true,
-      text: '🛩️',
-      right: 15,
-      bottom: 15,
-      offset: 500
-    },
 
     plugins: [
       // 添加页脚
@@ -318,7 +103,7 @@
         var footer = [
           '<hr/>',
           '<footer>',
-          '<span><i class="fa fa-github fa-lg"></i> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;2022.</span>',
+          '<span><i class="fa fa-github fa-lg"></i> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
           '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
           '</footer>'
         ].join('');
@@ -339,6 +124,9 @@
       // 编辑页面
       function(hook, vm) {
         hook.beforeEach(function(html) {
+          console.log(vm)
+          console.log(vm.route)
+          
           if (/githubusercontent\.com/.test(vm.route.file)) {
             url = vm.route.file
                 .replace('raw.githubusercontent.com', 'github.com')
@@ -359,48 +147,29 @@
               html
           );
         });
-      }
-      // parse twemoji
-      /*function (hook, vm) {
-        hook.doneEach(function () {
-          twemoji.parse(document);
-        });
-      }*/
+      },
     ],
-
-    // 全文搜索
-    search: {
-      paths: 'auto',
-      placeholder: {
-        '/zh-cn/': '搜索',
-        '/': 'Type to search'
-      },
-      noData: {
-        '/zh-cn/': '🙄 找不到结果',
-        '/': '🤷🤦😱🙀🤔🙄 No Results'
-      },
-      // Headline depth, 1 - 6
-      depth: 6,
-      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-    },
-
-    /*toc: {
-      scope: '.markdown-section',
-      headings: 'h1, h2, h3, h4, h5, h6',
-      title: '',
-    },*/
-
-    toc: {
-      tocMaxLevel: 5,
-      target: 'h1, h2, h3, h4, h5, h6'
-    },
-
   }
+
 </script>
 
 <!-- Local -->
 <!-- ----------------------------------------------------------------- -->
 <!-- 返回顶部 method-2 -->
+<script>
+  window.$docsify.plugins.push(// 回到底部按钮显示状态
+      function(hook, vm) {
+        hook.doneEach(function() {
+          var docHeight = document.querySelector('.markdown-section').offsetHeight;
+          var winHeight = window.innerHeight;
+          if (docHeight > winHeight) {
+            document.querySelector('#back2bottom').classList.add('back-to-top-on');
+          } else {
+            document.querySelector('#back2bottom').classList.remove('back-to-top-on');
+          }
+        });
+      },)
+</script>
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/libs/back2top/js/utils.js"></script>
 <script src="_assets/libs/back2top/js/next-boot.js"></script>
@@ -409,6 +178,23 @@
 <!-- CDN unpkg -->
 <!-- ----------------------------------------------------------------- -->
 <script src="//unpkg.com/docsify@4.12.2/lib/docsify.min.js"></script>
+<script>
+  // 全文搜索
+  window.$docsify.search = {
+    paths: 'auto',
+    placeholder: {
+      '/zh-cn/': '搜索',
+      '/': 'Type to search'
+    },
+    noData: {
+      '/zh-cn/': '🙄 找不到结果',
+      '/': '🤷🤦😱🙀🤔🙄 No Results'
+    },
+    // Headline depth, 1 - 6
+    depth: 6,
+    maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+  }
+</script>
 <script src="//unpkg.com/docsify@4.12.2/lib/plugins/search.min.js"></script><!--全文搜索-->
 <script src="//unpkg.com/docsify@4.12.2/lib/plugins/zoom-image.min.js"></script><!--图片缩放-->
 <script src="//unpkg.com/docsify@4.12.2/lib/plugins/emoji.min.js"></script><!--emoji-->
@@ -422,52 +208,94 @@
 <script src="//unpkg.com/docsify-tabs@1.5.2/dist/docsify-tabs.min.js"></script>
 
 <!-- Table of Contents -->
+<script>
+  /*var count = 0;
+  var outTime = 1; //分钟
+  var el = document.querySelector('.toc-nav-hover')
+
+  function go() {
+    count++;
+    if (count == outTime * 5) {
+      // alert('您长时间未操作页面');
+
+      document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', el)
+
+      count = 0;
+      // 此处处理后续操作
+    }
+  }
+  window.setInterval(go, 1000);*/
+
+  let ObjStatus = document.querySelector('.toc-toggle')
+  document.addEventListener('click', (e) => {
+    let t = document.querySelector('.toc-nav') // 最外层元素
+    if (!e.path.includes(ObjStatus)) {
+      if (!e.path.includes(t)) {
+        document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t))
+        // ObjStatus.innerHTML = '事件触发情况：触发'
+      } else {
+        // ObjStatus.innerHTML = '事件触发情况：未触发'
+      }
+    }
+  })
+  document.querySelector('.toc-toggle').addEventListener('click', (e) => {
+    console.log(e)
+    document.querySelector('.toc-nav').classList.toggle('toc-nav-hover')
+  });
+  window.$docsify.toc = {
+    tocMaxLevel: 5,
+    target: 'h1, h2, h3, h4, h5, h6'
+  }
+</script>
 <script src="//unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
-<!--<script src="https://unpkg.com/docsify-toc@1.1.0/dist/toc.js"></script>-->
 
 <!-- docsify-copy-code -->
+<script>
+  // docsify-copy-code (defaults)
+  window.$docsify.copyCode = {
+    buttonText: 'Copy to clipboard',
+    errorText: 'Error',
+    successText: 'Copied'
+  }
+</script>
 <script src="//unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
 
 <!-- countable -->
+<script>
+  window.$docsify.count = {
+    countable: true,
+    fontsize: '0.9em',
+    color: 'rgb(90,90,90)',
+    language: 'chinese'
+  }
+</script>
 <script src="//unpkg.com/docsify-count@1.1.0/dist/countable.min.js"></script>
 
 <!-- ionicons -->
 <script type="module" src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+<!-- Latest -->
+<script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
 
-<!-- CDN jsdelivr -->
-<!-- ----------------------------------------------------------------- -->
-<!--
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>&lt;!&ndash;全文搜索&ndash;&gt;
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>&lt;!&ndash;图片缩放&ndash;&gt;
-<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>&lt;!&ndash;emoji&ndash;&gt;
+<script>
+  window.$docsify.customPageTitle = {
+    prefix:     'docs-learning',      // [optional] title prefix. default: false eg: prefix: "Application"
+    suffix:     false,      // [optional] title suffix. default: false eg: suffix: "v1.0.0"
+    seprator:   '-',        // [optional] seprator for title eg: title->   prefix | title | suffix
+    debug:      false,      // [optional] should debug
+  }
+</script>
+<script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
 
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
-<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+<!-- 手机端网页调试 -->
+<!-- <script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
+<script>eruda.init();</script>-->
 
-&lt;!&ndash; docsify-tabs (latest v1.x.x) &ndash;&gt;
-<script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-
-&lt;!&ndash; Table of Contents &ndash;&gt;
-<script src="//unpkg.com/docsify-plugin-toc@1.2.1/dist/docsify-plugin-toc.min.js"></script>
-
-&lt;!&ndash; docsify-copy-code &ndash;&gt;
-<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-
-&lt;!&ndash; countable &ndash;&gt;
-<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-
-&lt;!&ndash; pagination &ndash;&gt;
-<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
-
-&lt;!&ndash; twemoji &ndash;&gt;
-<script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
--->
-
+<script src='https://cdn.bootcss.com/vConsole/3.2.2/vconsole.min.js' type="text/javascript" charset="utf-8"></script>
+<script>
+	window.vConsole = new window.VConsole()
+</script>
 
 </body>
 </html>

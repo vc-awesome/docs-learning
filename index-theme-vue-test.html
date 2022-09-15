@@ -21,8 +21,23 @@
   <!--  <link rel="shortcut icon" href="//docsify.js.org/_media/favicon.ico">-->
   <!--  <link rel="shortcut icon" href="/images/favicon.ico">-->
 
+
+  <!-- Using jsdelivr -->
+  <!-- ----------------------------------------------------------------- -->
+  <!--
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" title="vue"/>
+  &lt;!&ndash; Font icon &ndash;&gt;
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
+  -->
+
+
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/bunny-color.png">
+  <link rel="shortcut icon" href="/images/favicon.ico">
 
   <script id="hexo-configurations">
     var NexT = window.NexT || {};
@@ -137,15 +152,6 @@
       language: 'chinese'
     },
 
-    // ...
-    scrollToTop: {
-      auto: true,
-      text: '🛩️',
-      right: 15,
-      bottom: 15,
-      offset: 500
-    },
-
     plugins: [
       // 添加页脚
       function (hook) {
@@ -250,6 +256,15 @@
 <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+<script>
+  // ...
+  window.$docsify.pagination = {
+    previousText: '上一章节',
+    nextText: '下一章节',
+    crossChapter: true,
+    crossChapterText: true,
+  }
+</script>
 <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
 <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
 <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
@@ -267,7 +282,17 @@
 <script src="./_libs/prismjs-1.26.0/components/prism-sql.min.js"></script>
 <script src="./_libs/prismjs-1.26.0/components/prism-json.min.js"></script>
 <!--Table of Contents-->
-<!--<script src="./_libs/docsify-toc-1.0.0/dist/toc.js"></script>-->
+
+<!--
+<link rel="stylesheet" href="https://unpkg.com/docsify-toc@1.1.0/dist/toc.css">  
+<script>
+  window.$docsify.toc = {
+    scope: '.markdown-section',
+    headings: 'h1, h2, h3, h4, h5, h6',
+    title: '',
+  }
+</script>
+<script src="//unpkg.com/docsify-toc@1.1.0/dist/toc.js"></script> -->
 <script src="./_libs/docsify-plugin-toc-1.2.1/dist/docsify-plugin-toc.min.js"></script>
 <!-- twemoji -->
 <!--<script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>-->
@@ -279,12 +304,56 @@
 <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
 
 <!--返回顶部 method-1-->
+<script>
+  // ...
+  window.$docsify.scrollToTop = {
+      auto: true,
+      text: '🛩️',
+      right: 15,
+      bottom: 15,
+      offset: 500
+  }
+</script>
 <!-- <script src="./_libs/docsify-scroll-to-top-1.0.2/dist/docsify-scroll-to-top.min.js"></script> -->
 
 <!--返回顶部 method-2-->
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/libs/back2top/js/utils.js"></script>
 <script src="_assets/libs/back2top/js/next-boot.js"></script>
+
+
+<!-- CDN jsdelivr -->
+<!-- ----------------------------------------------------------------- -->
+<!--
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>&lt;!&ndash;全文搜索&ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>&lt;!&ndash;图片缩放&ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>&lt;!&ndash;emoji&ndash;&gt;
+
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-php.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-sql.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+
+&lt;!&ndash; docsify-tabs (latest v1.x.x) &ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+
+&lt;!&ndash; Table of Contents &ndash;&gt;
+<script src="//unpkg.com/docsify-plugin-toc@1.2.1/dist/docsify-plugin-toc.min.js"></script>
+
+&lt;!&ndash; docsify-copy-code &ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+
+&lt;!&ndash; countable &ndash;&gt;
+<script src="//unpkg.com/docsify-count/dist/countable.js"></script>
+
+&lt;!&ndash; pagination &ndash;&gt;
+<script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+&lt;!&ndash; twemoji &ndash;&gt;
+<script src="//cdn.jsdelivr.net/gh/TaQini/docsify-twemoji@master/twemoji.min.js"></script>
+-->
+
 
 </body>
 </html>

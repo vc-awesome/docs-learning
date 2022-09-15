@@ -1,20 +1,23 @@
 /* 固定导航栏 */
 nav.app-nav {
-    position: fixed;
     margin: 0;
     padding: 10px 0 10px 0;
     width: calc(100% - 325px);
-    background-color: #fff;
-    /*background-color: var(--background);*/
-    /*height: 55px;*/
-    border-bottom: 1px solid #eee;
+    background-color: var(--background, #fff);
+    border-bottom: 1px solid rgba(0,0,0,0.07); /* rgba(0,0,0,0.07) == #eee */
+}
+body.sticky nav.app-nav {
+    position: fixed;
+}
+nav.app-nav i,
+nav i {
+    margin-right: 0!important;
 }
 
 /* 自定义侧边栏 */
 aside.sidebar ul.app-sub-sidebar li.active {
     position: relative;
 }
-
 aside.sidebar ul.app-sub-sidebar li.active > a:before {
     content: '';
     position: absolute;
@@ -28,14 +31,11 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 }
 
 /* 滚动条样式 start */
-/* 滚动条宽度 */
-::-webkit-scrollbar {
+::-webkit-scrollbar { /* 滚动条宽度 */
     width: 4px;
     height: 4px;
 }
-
-/* 滚动条颜色 */
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb { /* 滚动条颜色 */
     background: #33a9dc;
     background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);
     border-radius: 2em;
@@ -43,7 +43,10 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 /* 滚动条样式 end */
 
-/* Page TOC */
+/**
+ * Page TOC
+ * @url //unpkg.com/docsify-toc/
+ */
 /*section.content {
     bottom: auto;
 }
@@ -95,6 +98,71 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
     .markdown-section {
         width: auto;
     }
+}*/
+/* Page TOC */
+/*.page_toc {
+  font-size: 0.875rem;
+  padding: 0 1rem 0 0.25rem;
+  overflow: auto;
+  max-height: calc(100vh - 120px);
+  max-width: 100%;
+}
+.page_toc ul a {
+  font-weight: 400;
+  color: #707070;
+}
+.page_toc ul a.anchor span {
+  color: #707070;
+}
+.page_toc ul a.anchor:hover {
+  text-decoration: none;
+}
+.page_toc ul a.anchor:focus {
+  text-decoration: underline;
+}
+.page_toc ul code {
+  color: #284472;
+}
+@media screen and (max-width: 1300px) {
+  .page_toc {
+      max-height: 100%;
+      overflow: hidden;
+  }
+}
+.page_toc ul a {
+  position: relative;
+  padding: 5px 10px;
+}
+.page_toc ul a span:hover {
+  background: none;
+  color: #444;
+}
+.page_toc ul a:before {
+  content: "{";
+  color: #bbb;
+  position: absolute;
+  font-size: 16px;
+  top: 4px;
+  left: 0;
+  display: none;
+}
+.page_toc ul a:hover:before {
+  font-weight: bold;
+  display: block;
+}
+.page_toc .active {
+  border-left: none;
+  color: #42b983;
+  padding: 5px 10px;
+  display: inline-block;
+}
+.page_toc .active:before {
+  font-weight: bold;
+  display: block;
+  color: #42b983;
+}
+.page_toc .active:after {
+  content: "";
 }*/
 
 /* 滚动条颜色 */
@@ -148,4 +216,114 @@ hr {
     clear: both;
     overflow: hidden;
     background: 0 0;
+}
+
+/** 
+ * TOC
+ * @url //unpkg.com/docsify-plugin-toc/
+ */
+aside.toc-nav {
+  bottom: 70px;
+  max-height: 100%;
+  border-left: 1px solid rgba(0,0,0,0.07)
+}
+.page_toc div {
+  border: none;
+}
+.page_toc div[class^="lv"] a {
+  position: relative;
+  padding: 5px 10px;
+  line-height: 1em;
+}
+.page_toc div[class^="lv"] a:before {
+  content: "{";
+  color: #bbb;
+  position: absolute;
+  font-size: 16px;
+  top: 4px;
+  left: 0;
+  display: none;
+}
+.page_toc div[class^="lv"].active a:before {
+  color: var(--theme-color, #42b983);
+  display: block;
+}
+.page_toc div[class^="lv"] a:hover:before {
+  display: block;
+}
+.page_toc div[class^="lv"] a:before {
+  font-weight: bold;
+}
+.page_toc div[class^="lv"] a span {
+  color: #707070;
+  font-size: 14px;
+  font-weight: normal;
+  overflow: hidden;
+  /*text-decoration: none;*/
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.page_toc div[class^="lv"].active a span {
+  color: var(--theme-color, #42b983);
+  font-weight: 600;
+}
+.page_toc div[class^="lv"] a:hover span {
+  background: none;
+  color: #444;
+}
+.page_toc div[class^="lv"] a.anchor:focus,
+.page_toc div[class^="lv"] a.anchor:hover {
+  text-decoration: underline;
+}
+/* 小屏幕显示 TOC */
+.toc-toggle {
+  display: none;
+}
+@media only screen and (max-width: 1299px) {
+  aside.toc-nav {
+      display: none;
+  }
+  .toc-nav-hover {
+      display: block!important;
+      max-width: inherit!important;
+      opacity: 1!important;
+      border: 1px solid rgba(0,0,0,0.07)
+  }
+  .toc-toggle {
+      display: block;
+      font-size: 12px;
+      text-align: center;
+      transition-delay: 0s;
+      transition-duration: 0.2s;
+      transition-timing-function: ease-in-out;
+  }
+  .toc-toggle {
+      background: #222;
+      bottom: 45px;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      right: 30px;
+      padding: 3px 9px;
+      position: fixed;
+      transition-property: bottom;
+      z-index: 1300;
+      width: initial;
+      opacity: 1;
+  }
+}
+@media (max-width: 991px) {
+  .toc-toggle {
+      left: 20px;
+      opacity: 0.8;
+  }
+}
+.toc-toggle {
+  left: auto;
+  right: 30px;
+}
+@media (max-width: 991px) {
+  .toc-toggle {
+      right: 20px;
+  }
 }

@@ -135,18 +135,19 @@ NexT.utils = {
   },
 
   registerScrollPercent: function() {
-    var THRESHOLD = 50;
+    var THRESHOLD = 0;
     var backToTop = document.querySelector('.back-to-top');
     var readingProgressBar = document.querySelector('.reading-progress-bar');
     // For init back to top in sidebar if page was scrolled after page refresh.
     window.addEventListener('scroll', () => {
       if (backToTop || readingProgressBar) {
-        var docHeight = document.querySelector('.markdown-section').offsetHeight;
+        var docHeight = document.querySelector('.markdown-section').offsetHeight + THRESHOLD;
         var winHeight = window.innerHeight;
         var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
         var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
         if (backToTop) {
-          backToTop.classList.toggle('back-to-top-on', window.scrollY > THRESHOLD);
+          // backToTop.classList.toggle('back-to-top-on', window.scrollY > THRESHOLD);
+          backToTop.classList.toggle('back-to-top-on', window.scrollY > 0);
           backToTop.querySelector('span').innerText = Math.round(scrollPercent) + '%';
         }
         if (readingProgressBar) {
@@ -164,24 +165,30 @@ NexT.utils = {
       });
     });
 
-    var backToBottom = document.querySelector('.back-to-bottom');
+    var backToBottom = document.querySelector('#back2bottom');
     // For init back to top in sidebar if page was scrolled after page refresh.
     window.addEventListener('scroll', () => {
-      if (backToBottom || readingProgressBar) {
-        var docHeight = document.querySelector('.markdown-section').offsetHeight;
+      if (backToBottom) {
+        var docHeight = document.querySelector('.markdown-section').offsetHeight + THRESHOLD;
         var winHeight = window.innerHeight;
         var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
-        var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
+        scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
+
+        // console.log(docHeight, winHeight, window.scrollY)
         if (backToBottom) {
-          if (backToBottom.classList.toggle('back-to-bottom-off', window.scrollY > contentVisibilityHeight - THRESHOLD)) {
-            backToTop.style.right = '30px';
+          if (backToBottom.classList.toggle('back-to-top-on', Math.round(scrollPercent) < 100)) {
+            if (backToTop.attributes.getNamedItem('style')) {
+              backToTop.attributes.removeNamedItem('style');
+            }
           } else {
-            backToTop.style.right = '90px';
+            if (window.innerWidth <= 991) {
+              backToTop.style.right = '20px';
+            } else {
+              backToTop.style.right = '30px';
+            }
+            
           }
           backToBottom.querySelector('span').innerText = Math.round(scrollPercent) + '%';
-        }
-        if (readingProgressBar) {
-          readingProgressBar.style.width = scrollPercent.toFixed(2) + '%';
         }
       }
     });
@@ -194,7 +201,7 @@ NexT.utils = {
         targets  : document.scrollingElement,
         duration : 500,
         easing   : 'linear',
-        scrollTop: contentVisibilityHeight + 100
+        scrollTop: 20000
       });
     });
   },

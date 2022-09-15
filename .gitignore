@@ -1,3 +1,9 @@
 /.idea
-
+/.stfolder
+/.stversions
 /.vscode
+/node_modules
+/.stignore
+/package.json
+/package-lock.json
+.DS_Store
