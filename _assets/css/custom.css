@@ -327,3 +327,16 @@ aside.toc-nav {
       right: 20px;
   }
 }
+
+/* 外链添加 FontIcon */
+a[target=_blank]:after {
+    /*font-family: 'remixicon' !important; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\ecae";*/
+    display: inline-block;
+    padding-left: 3px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f08e";
+}

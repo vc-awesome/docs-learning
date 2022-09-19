@@ -61,31 +61,31 @@ https://github.com/Yikun/hub-mirror-action
 
 
 
-GitHub Actions 入门教程 http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html
+http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
 
 
 
 ### Gitee
 
-一篇教你代码同步 Github 和 Gitee https://zhuanlan.zhihu.com/p/445799754
+https://zhuanlan.zhihu.com/p/445799754 - *一篇教你代码同步 Github 和 Gitee*
 
-使用Github Actions实现代码推送Github自动同步到Gitee镜像仓库！ https://zhuanlan.zhihu.com/p/353862378
+https://zhuanlan.zhihu.com/p/353862378 - *使用Github Actions实现代码推送Github自动同步到Gitee镜像仓库！*
 
-如何把我们的源码同步到gitee或github远程仓库中 https://www.cnblogs.com/hdlan/p/13904878.html
+https://www.cnblogs.com/hdlan/p/13904878.html - *如何把我们的源码同步到gitee或github远程仓库中*
 
-将已有项目同步到远程git仓库(github,gitee)及giteee的visual studio插件使用一二 https://www.cnblogs.com/ccjungle/p/10619169.html
+https://www.cnblogs.com/ccjungle/p/10619169.html - *将已有项目同步到远程git仓库(github,gitee)及giteee的visual studio插件使用一二*
 
-githubactions进行github仓库和gitee仓库同步 https://zhuanlan.zhihu.com/p/258779704
+https://zhuanlan.zhihu.com/p/258779704 - *githubactions进行github仓库和gitee仓库同步*
 
-将GitLab仓库同步到GitHub和Gitee https://blog.csdn.net/weixin_39305029/article/details/105741822
+https://blog.csdn.net/weixin_39305029/article/details/105741822 - *将GitLab仓库同步到GitHub和Gitee*
 
-同步更新Gitee和GitHub仓库代码 https://blog.csdn.net/qq_42909053/article/details/116893604
+https://blog.csdn.net/qq_42909053/article/details/116893604 - *同步更新Gitee和GitHub仓库代码*
 
-利用GitHub Actions自动同步Gitee镜像仓库 https://www.gouguoyin.cn/posts/10095.html
+https://www.gouguoyin.cn/posts/10095.html - *利用GitHub Actions自动同步Gitee镜像仓库*
 
-GitHub仓库快速导入Gitee及同步更新 https://gitee.com/help/articles/4284#article-header0
+https://gitee.com/help/articles/4284#article-header0 - *GitHub仓库快速导入Gitee及同步更新*
 
-仓库镜像管理 （ Gitee <-> Github 双向同步） https://gitee.com/help/articles/4336#article-header0
+https://gitee.com/help/articles/4336#article-header0 - *仓库镜像管理 （ Gitee <-> Github 双向同步）*
 
 
 
@@ -106,11 +106,11 @@ Lepton https://github.com/hackjutsu/Lepton
 
 #### FAQ
 
-github,gist.github 打不开 https://www.jianshu.com/p/82ee14139048
+https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
 
-积水成渊：用github gist收藏你的代码片段 https://segmentfault.com/a/1190000009224437
+https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
 
-如何看待 Github Gist 这个服务，怎样更好的利用？ https://www.zhihu.com/question/21343711/answer/32023379
+https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
 
 
 
@@ -150,7 +150,7 @@ https://github.blog/2008-12-19-github-ribbons/
 
 https://github.com/boennemann/badges
 
-------
+
 
 #### Shields ✅
 
@@ -162,31 +162,25 @@ https://github.com/boennemann/badges
 
 Github：https://github.com/badges/shields
 
+<details>
+ <summary>Show demo.</summary>
+
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
-
-
-```
+```markdown
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
 ```
-
 
 [![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
-
-
-```
+```markdown
 [![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
 ```
 
-
 [![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
-
-
-```
+```markdown
 [![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
 ```
-
-
+</details>
 
 
 #### Badgen ✅
@@ -195,17 +189,40 @@ Github：https://github.com/badges/shields
 
 主页：https://badgen.net/
 
-![](https://badgen.net/badge/icon/apple?icon=apple&label)`![](https://badgen.net/badge/icon/apple?icon=apple&label)`
+<details>
+ <summary>Show demo.</summary>
 
-![](https://badgen.net/badge/icon/codecov?icon=codecov&label) `![](https://badgen.net/badge/icon/codecov?icon=codecov&label)`
 
-![](https://badgen.net/badge/icon/discord?icon=discord&label) `![](https://badgen.net/badge/icon/discord?icon=discord&label)`
+![](https://badgen.net/badge/icon/apple?icon=apple&label)
+```markdown
+![](https://badgen.net/badge/icon/apple?icon=apple&label)
+```
 
-![](https://badgen.net/badge/icon/kofi?icon=kofi&label) `![](https://badgen.net/badge/icon/kofi?icon=kofi&label)`
+![](https://badgen.net/badge/icon/codecov?icon=codecov&label) 
+```markdown
+![](https://badgen.net/badge/icon/codecov?icon=codecov&label)
+```
 
-![](https://badgen.net/docker/stars/library/mongo?icon=docker&label=stars) `![](https://badgen.net/docker/stars/library/mongo?icon=docker&label=stars)`
+![](https://badgen.net/badge/icon/discord?icon=discord&label) 
+```markdown
+![](https://badgen.net/badge/icon/discord?icon=discord&label)
+```
 
-![](https://badgen.net/badge/color/blue/blue) `![](https://badgen.net/badge/color/blue/blue)`
+![](https://badgen.net/badge/icon/kofi?icon=kofi&label) 
+```markdown
+![](https://badgen.net/badge/icon/kofi?icon=kofi&label)
+```
+
+![](https://badgen.net/docker/stars/library/mongo?icon=docker&label=stars)
+```markdown
+![](https://badgen.net/docker/stars/library/mongo?icon=docker&label=stars)
+```
+
+![](https://badgen.net/badge/color/blue/blue) 
+```markdown
+![](https://badgen.net/badge/color/blue/blue)
+```
+</details>
 
 
 
@@ -217,23 +234,30 @@ Github：https://github.com/badges/shields
 
 主页：https://badge.fury.io/
 
+<details>
+ <summary>Show demo</summary>
+
 [![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)
-
-`[![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)`
-
+```markdown
+[![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)
+```
+</details>
 
 
 #### Chat
+<details>
+ <summary>Show demo</summary>
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)]()
-
-`[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](聊天室 URL)`
-
+```markdown
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](聊天室 URL)
+```
+</details>
 
 
 #### Stability
 
-`[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)`
+[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
 <i class="fa fa-github"></i> https://github.com/badges/stability-badges
 
@@ -256,15 +280,11 @@ Github：https://github.com/badges/shields
 
 [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-`[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)`
-
 
 
 #### License
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
-
-`[![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)`
 
 
 
@@ -289,27 +309,27 @@ https://github.com/topics/github-extension
 
 ### 访问加速
 
-👍 上万良心软件都在GitHub，你却还卡在无法访问？ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw
+1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw - *上万良心软件都在GitHub，你却还卡在无法访问？*
 
 - UsbEAm Hosts Editor https://www.dogfight360.com/blog/475/
 - steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/ **`using`**
 - FastGithub（WIN／Mac／Linux） https://github.com/dotnetcore/FastGithub
 
-👍 这里有超1亿个开源项目，结果你说它访问慢不好用？ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg
+2️⃣ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg - *这里有超1亿个开源项目，结果你说它访问慢不好用？*
 
-#### jsDelivr 
+#### jsDelivr
 
-使用Github/jsdelivr加速做远程图床教程 https://www.bilibili.com/read/cv13363398
+1️⃣ https://www.cnblogs.com/yunweizhijun/p/14620107.html - *使用github版本库做图床(jsdelivr方案 / cdn 免费加速)*
 
-使用 jsDelivr CDN 加速 Github 仓库的图片，以作为博客的图床 https://juejin.cn/post/6844904095807979534
+https://www.bilibili.com/read/cv13363398 - *使用Github/jsdelivr加速做远程图床教程*
 
-👍 使用github版本库做图床(jsdelivr方案 / cdn 免费加速) https://www.cnblogs.com/yunweizhijun/p/14620107.html
+https://juejin.cn/post/6844904095807979534 - *使用 jsDelivr CDN 加速 Github 仓库的图片，以作为博客的图床*
 
-使用 jsDelivr CDN 对 Github 图床进行加速，带给你如丝滑般的图片体验！ https://blog.csdn.net/DreamHome_S/article/details/105957616
+https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr CDN 对 Github 图床进行加速，带给你如丝滑般的图片体验！*
 
 #### Hosts
 
-<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520/ :cn: - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520/ :cn: - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
 
 <i class="fa fa-github"></i> https://github.com/ineo6/hosts/ :cn: - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 
@@ -317,7 +337,7 @@ https://github.com/topics/github-extension
 
 #### Web Tools
 
-https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
+https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
 
 
@@ -362,10 +382,10 @@ xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awe
 
 ---
 
-Awesome系列：Github中不能错过的巨人肩膀 https://zhuanlan.zhihu.com/p/144053402
+https://zhuanlan.zhihu.com/p/144053402 - *Awesome系列：Github中不能错过的巨人肩膀*
 
-Github awesome 系列开源项目合集 https://www.cnblogs.com/fanbi/p/12807731.html
+https://www.cnblogs.com/fanbi/p/12807731.html - *Github awesome 系列开源项目合集*
 
-Github最受欢迎的Awesome系列 https://blog.csdn.net/weixin_34404393/article/details/88021937
+https://blog.csdn.net/weixin_34404393/article/details/88021937 - *Github最受欢迎的Awesome系列*
 
-GitHub 上的 Awesome 系列（资源大全系列） https://zhuanlan.zhihu.com/p/89873800
+https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源大全系列）*

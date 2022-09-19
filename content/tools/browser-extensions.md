@@ -39,7 +39,8 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 
 👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
 
-    - https://www.baiduyun.wiki/zh-cn/crx.html - _如何安装浏览器扩展？ | 油小猴_
+
+- https://www.baiduyun.wiki/zh-cn/crx.html - _如何安装浏览器扩展？ | 油小猴_
 
 
 
@@ -88,7 +89,6 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
 
-  
 - HTTP 客户端
 
   - ✔️Replace Google CDN - *♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。*
@@ -174,10 +174,12 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 
         - https://www.crxsoso.com/webstore/detail/lmgbdjfoaihhgdphombpgjpaohjfeapp
         
+        - https://github.com/k08045kk/CopyTabTitleUrl
+        
         - 手机浏览器可用
         
     - Copy Title and Url as Markdown Style
-        
+      
         - https://www.crxsoso.com/webstore/detail/fpmbiocnfbjpajgeaicmnjnnokmkehil
         
         - 手机浏览器可用
@@ -276,7 +278,7 @@ https://github.com/refined-github/refined-github - _:octocat: Browser extension 
         - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
 
         - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
-    
+      
         - [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
 
     - [下载器](#tampermonkey-download ':id=tampermonkey-download')

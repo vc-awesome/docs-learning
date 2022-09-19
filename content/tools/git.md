@@ -1,12 +1,30 @@
-## git 参考链接
+> Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-[_git_ 官网](https://git-scm.com)
+## git 官方
 
-[_git_ 菜鸟教程](https://www.runoob.com/git/git-tutorial.html "菜鸟教程")
+https://git-scm.com - *git 官网*
 
-[_git_ 廖雪峰官网教程](https://www.liaoxuefeng.com/wiki/896043488029600 "廖雪峰官方网站")
+## git 教程
 
-[*git* 简易指南](https://www.bootcss.com/p/git-guide/) :star2:
+1️⃣ https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
+
+2️⃣ https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
+
+3️⃣ https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
+
+## git 工具
+
+### 图形界面工具
+
+1. ✅ [Sourcetree](https://www.sourcetreeapp.com/) - *Sourcetree | Free Git GUI for Mac and Windows*
+   - [Sourcetree 使用教程](https://www.runoob.com/git/source-tree-intro.html)
+   - 支持 Windows, MacOS
+   - 免费
+2. ✅ [GitHub Desktop](https://desktop.github.com/ ':id=github-desktop') - *GitHub Desktop | Simple collaboration from your desktop*
+   - 支持 Windows, MacOS, [GitHub](https://github.com/desktop/desktop)
+   - 开源免费
+3. [Tower](https://www.git-tower.com/) - *The most powerful Git client for Mac and Windows | Tower Git Client*
+   - 支持 Windows, MacOS
 
 ## git 工作流程
 
@@ -41,7 +59,7 @@ $ git config --list
 
 
 
-### :fire: 创建仓库
+### 🔥 创建仓库
 
 初始化 `git` 仓库（指定系统文件夹下执行）
 
@@ -101,7 +119,7 @@ git merge origin master
 
 
 
-### :fire: 提交远程仓库
+### 🔥 提交远程仓库
 
 1. 查看仓库当前的状态，显示有变更的文件
 
@@ -474,23 +492,23 @@ git status -s #简短格式查看文件修改状态
 
 ### *rebase*
 
-git stash 用法总结和注意点 https://www.cnblogs.com/zndxall/p/9586088.html
+https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
 
 
 
-## git 远程仓库
+## 🔥 git 远程仓库
 
 ### 配置验证信息 *ssh*
 
-> 由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过SSH加密的，所以我们需要配置验证信息
+> 由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过 SSH 加密的，所以我们需要配置验证信息
 
-1. 生成`SSH Key`
+1. 生成 `SSH Key`
 
    ```bash
    ssh-keygen -t rsa -C "youremail@example.com" # 后面的 your_email@youremail.com 改为你在 Github 上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在 ~/ 下生成 .ssh 文件夹，进去，打开 id_rsa.pub，复制里面的key
    ```
 
-2. 获取`SSH Key`
+2. 获取 `SSH Key`
 
    ```bash
    # GNU/Linux/Mac/PowerShell
@@ -504,7 +522,7 @@ git stash 用法总结和注意点 https://www.cnblogs.com/zndxall/p/9586088.htm
    type %userprofile%\.ssh\id_rsa.pub
    ```
 
-3. 复制`SSH Key`
+3. 复制 `SSH Key`
 
    ```bash
    # Windows Command Line
@@ -534,13 +552,13 @@ git stash 用法总结和注意点 https://www.cnblogs.com/zndxall/p/9586088.htm
 
    
 
-4. 远程仓库添加`SSH Key`
+4. 远程仓库添加 `SSH Key`
 
    `github`、`gitee`、`阿里云`代码仓库都有设置`SSH`的选项
 
    
 
-5. 验证`SSH Key`是否设置成功
+5. 验证 `SSH Key` 是否设置成功
 
    ```bash
    ssh -T git@github.com # git@github.com 为远程仓库SSH
@@ -550,7 +568,7 @@ git stash 用法总结和注意点 https://www.cnblogs.com/zndxall/p/9586088.htm
 
 ### 配置参考链接
 
-[菜鸟教程](https://www.runoob.com/w3cnote/git-guide.html)
+https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
 
 
@@ -685,11 +703,11 @@ gitlab
 
 
 
-#### 参考链接
+参考链接 👇
 
-PHP使用WebHook自动更新Git仓库部署 https://segmentfault.com/a/1190000040540720?sort=votes
+https://segmentfault.com/a/1190000040540720?sort=votes - *PHP使用WebHook自动更新Git仓库部署*
 
-Github的WebHooks实现生产环境代码自动更新 https://blog.csdn.net/weixin_36851500/article/details/104011450
+https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
 
 
 
@@ -701,7 +719,7 @@ git reset --hard origin/master
 
 
 
-### :fire: git 创建新版本库
+### 🔥 git 创建新版本库
 
 > via 阿里云代码仓库
 
@@ -716,7 +734,7 @@ git push -u origin master
 
 
 
-### :fire: git 已存在的文件夹或 Git 仓库
+### 🔥 git 已存在的文件夹或 Git 仓库
 
 > via 阿里云代码仓库
 
@@ -739,9 +757,9 @@ git pull origin master #git remote完成后拉取远程的文件操作
 
  
 
-### :fire: git 放弃本地文件修改
+### 🔥 git 放弃本地文件修改
 
-https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
+https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
 
 1. 未使用`git add`缓存代码
 
@@ -781,7 +799,7 @@ https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
 
 
 
-### :fire: git如何从远端获取某个文件
+### 🔥 git如何从远端获取某个文件
 
 ```bash
 git fetch
@@ -789,7 +807,7 @@ git checkout origin/master -- path/folder/filename #获取某个文件
 git checkout origin/master -- path/folder #获取某个目录
 ```
 
-参考链接：https://www.cnblogs.com/olive27/p/11791162.html
+参考链接：https://www.cnblogs.com/olive27/p/11791162.html - *git如何从远端获取某个文件 - OliveKong - 博客园*
 
 
 
@@ -798,27 +816,25 @@ git checkout origin/master -- path/folder #获取某个目录
 
 1. --force
 
-```bash
-git reset --soft commit id
-git push origin master --force #强制提交当前版本号，以达到撤销版本号的目的.必须添加参数force进行强制提交，否则会提交失败,报错原因：本地项目版本号低于远端仓库版本号（注意:这种强制提交的方法只有owner的时候可以用）
-```
+   ```bash
+   git reset --soft commit id
+   git push origin master --force #强制提交当前版本号，以达到撤销版本号的目的.必须添加参数force进行强制提交，否则会提交失败,报错原因：本地项目版本号低于远端仓库版本号（注意:这种强制提交的方法只有owner的时候可以用）
+   ```
 
-2. 
-
-
+   
 
 ### git 合并多个提交
 
-https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
+https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
 
-https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
+https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
 
 
 
 ### git commit emoji
 
-GitHub中提交代码说明时添加emoji小图标  
-https://jackiehao.blog.csdn.net/article/details/109309743
+
+https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代码说明时添加emoji小图标*
 
 ?> An emoji guide for your commit messages. 😜  
 <i class="bi bi-translate dark-yellow"></i> 提交消息的表情符号指南。 😜
@@ -831,4 +847,4 @@ https://jackiehao.blog.csdn.net/article/details/109309743
 
 ### git 在本地局域网中的两台电脑间同步代码
 
-通过Git在本地局域网中的两台电脑间同步代码 https://www.cnblogs.com/phillee/p/15353020.html
+https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*
