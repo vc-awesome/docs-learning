@@ -174,6 +174,8 @@ https://bs4.dashgame.com/pages/extend.html - *Bootstrap4 中文文档*
 
 https://www.cnblogs.com/sexintercourse/p/15945269.html - *最佳Icon图标库推荐，收藏等于学会*
 
+https://zhuanlan.zhihu.com/p/473946284 - *推荐 5 个优秀的 Javascript 图标库 - 知乎*
+
 
 
 ## Tool <i class="ri-tools-line"></i>
@@ -217,25 +219,13 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 <i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome/
 
 
+## Remix Icon 2️⃣
 
-## Foundation Icon Fonts
+?> Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
 
-?> Customize your icons to be any size, color, style in CSS
+<i class="fa fa-laptop"></i> https://remixicon.com/
 
-<i class="fa fa-laptop"></i> https://zurb.com/playground/foundation-icon-fonts-3 - *Foundation Icon Fonts 3 | Playground from ZURB*
-
-<i class="fa fa-book"></i> https://www.runoob.com/foundation/foundation-icons.html - *Foundation 图标 | 菜鸟教程*
-
-<i class="ri-soundcloud-line"></i> https://unpkg.com/foundation-icons/
-
-## Bootstrap Icons
-
-?> Official open source SVG icon library for Bootstrap.<br><i class="fa fa-language dark-yellow"></i> Bootstrap 的官方开源 SVG 图标库。
-
-<i class="fa fa-laptop"></i> https://icons.getbootstrap.com/
-
-<i class="fa fa-github fa-lg"></i> https://github.com/twbs/icons
-
+<i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
 
 
 ## Ionicons 3️⃣
@@ -256,14 +246,24 @@ https://unpkg.com/ionicons/
 ```
 
 
+## Foundation Icon Fonts
 
-## Remix Icon 2️⃣
+?> Customize your icons to be any size, color, style in CSS
 
-?> Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
+<i class="fa fa-laptop"></i> https://zurb.com/playground/foundation-icon-fonts-3 - *Foundation Icon Fonts 3 | Playground from ZURB*
 
-<i class="fa fa-laptop"></i> https://remixicon.com/
+<i class="fa fa-book"></i> https://www.runoob.com/foundation/foundation-icons.html - *Foundation 图标 | 菜鸟教程*
 
-<i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
+<i class="ri-soundcloud-line"></i> https://unpkg.com/foundation-icons/
+
+
+## Bootstrap Icons
+
+?> Official open source SVG icon library for Bootstrap.<br><i class="fa fa-language dark-yellow"></i> Bootstrap 的官方开源 SVG 图标库。
+
+<i class="fa fa-laptop"></i> https://icons.getbootstrap.com/
+
+<i class="fa fa-github fa-lg"></i> https://github.com/twbs/icons
 
 
 
@@ -283,7 +283,7 @@ https://unpkg.com/ionicons/
 
 
 
-## Styled Icons <i class="ri-fire-line light-red"></i>
+## Styled Icons 🔥
 
 ?> 💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components.<br><i class="fa fa-language dark-yellow"></i> 💅 流行的图标包，如Font Awesome、Material Design和Octicons，可作为React样式的组件提供。
 

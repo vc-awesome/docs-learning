@@ -8,8 +8,9 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 - 触控板单指点击为单击功能
 - 触控板双指点击为鼠标右键功能
-- command + Q 退出当前程序，后台不运行该程序
-- control + 空格 切换输入法
+- <kbd>command</kbd> + <kbd>Q</kbd> 退出当前程序，后台不运行该程序
+- <kbd>command</kbd> + <kbd>option</kbd> + <kbd>ESC</kbd> 强制退出当前程序
+- <kbd>control</kbd> + <kbd>空格</kbd> 切换输入法
 - 文本操作
   - fn + 上箭头：向上滚动一页（Page Up）
   - fn + 下箭头：向下滚动一页（Page Down）
@@ -31,20 +32,31 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
   - fn + F11
 
 - 窗口最小化
-  - cmd + m
-  - cmd + opt + m
-  - cmd + h
-  - cmd + opt + h
+  - <kbd>cmd</kbd> + <kbd>m</kbd>
+  - <kbd>cmd</kbd> + <kbd>opt</kbd> + <kbd>m</kbd>
+  - <kbd>cmd</kbd> + <kbd>h</kbd>
+  - <kbd>cmd</kbd> + <kbd>opt</kbd> + <kbd>h</kbd>
 
 - 显示窗口
   - cmd + tab + opt + 松开cmd
 
 - 查看隐藏的文件
-  - cmd + shift + .
+  - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 可以显示隐藏文件、文件夹，再按一次，恢复隐藏。
 
-- QQ双开：打开 QQ 客户端，然后cmd + n
+- QQ双开：打开 QQ 客户端，然后 cmd + n
 
-- 隐藏文件、文件夹？
+- 隐藏文件、文件夹
+    - 打开终端执行
+
+        ```shell
+        #显示文件（-R 文件夹递归操作）
+        chflags [-R] nohidden [ 文件路径 ]
+        
+        #隐藏文件
+        chflags [-R] hidden [文件路径]
+        ```
+        
+        https://baijiahao.baidu.com/s?id=1737497237739550300 - *两招教你如何在Mac上隐藏文件！*
 
 - 如何设置文件默认打开方式？
     - https://jingyan.baidu.com/article/d5c4b52bd1496e9b560dc5b0.html
@@ -82,15 +94,11 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
 
    `finder`下使用 <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> 可以前往任何文件夹，包括隐藏文件夹。
 
-2. Mac 如何显示隐藏文件
+2. Mac 指定文件夹打开终端
 
-   <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 可以显示隐藏文件、文件夹，再按一次，恢复隐藏。
+3. Mac 如何查看访达的当前路径
 
-3. Mac 指定文件夹打开终端
-
-4. Mac 如何查看访达的当前路径
-
-5. Mac 中的git
+4. Mac 中的git
 
    mac 系统自带 git，无需额外安装
 

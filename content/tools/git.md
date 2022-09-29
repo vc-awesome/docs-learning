@@ -690,6 +690,14 @@ git push
 [Git - .gitignore文件的用法](https://www.cnblogs.com/yulinlewis/p/10231035.html)
 
 
+## .gitattributes
+
+https://www.bookstack.cn/read/git-doc-zh/docs-39.md - *gitattributes - 《Git 中文参考》 - 书栈网 · BookStack*
+
+https://baijiahao.baidu.com/s?id=1658545315960482338 - *请把 .gitattributes 加到你的 Git 仓库中*
+
+https://www.cnblogs.com/friedCoder/p/12467515.html - *.gitattributes - friedCoder - 博客园*
+
 
 ## FAQ
 

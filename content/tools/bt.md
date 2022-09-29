@@ -1,10 +1,15 @@
 ## 官方
 
-Github：<i class="fa fa-github fa-lg"></i> https://github.com/aaPanel
+GitHub：https://github.com/aaPanel
 
 ### 中文版
 
 主页：https://www.bt.cn/
+
+安装：
+1. https://www.bt.cn/new/download.html - *宝塔面板下载，免费全能的服务器运维软件*
+2. https://www.bt.cn/bbs/thread-19376-1-1.html - *宝塔Linux面板安装教程 - 2022年7月14日更新 - 7.9.3正式版 - Linux面板 - 宝塔面板论坛*
+
 
 ### 国际版
 
@@ -20,6 +25,20 @@ https://www.aapanel.com/feature.html
 
 安装：https://www.aapanel.com/new/download.html
 
+
+## 终端命令
+
+https://www.bt.cn/btcode.html - *宝塔linux面板命令大全 - 宝塔面板*
+
+## 面板API
+
+官方：https://www.bt.cn/bbs/thread-20376-1-1.html - *API接口使用教程 - 第三方应用 - 宝塔面板论坛*
+
+https://www.daniao.org/4296.html - *宝塔面板API接口抓取教程-宝塔接口配置文件 - 大鸟博客*
+
+https://blog.szhcloud.cn/blog/2020/10/23/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFapi-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/ - *宝塔面板API 使用指南 - 寰智博客*
+
+https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量导入新服务器的宝塔-杂草猿工记-个人博客-韦炳生博客-技术分享*
 
 
 ## ssl
@@ -44,9 +63,9 @@ https://www.aapanel.com/feature.html
 
 > 宝塔 Linux，FTP 端口：21，主动模式可连接；修改 FTP 端口为非 21，主动模式无法连接，被动模式需放行 FTP 被动端口 39000-40000 才可连接。
 
-👍 宝塔面板FTP端口设置教程 (图文) https://www.idcnote.com/bt/14.html
+1️⃣ 宝塔面板FTP端口设置教程 (图文) https://www.idcnote.com/bt/14.html
 
-👍 宝塔 pure-ftpd 如何开启被动模式(PASV)连接 https://vpsvt.com/reed/443.html
+2️⃣ 宝塔 pure-ftpd 如何开启被动模式(PASV)连接 https://vpsvt.com/reed/443.html
 
 五、宝塔面板 FTP 安装与使用教程（图文步骤） https://www.php.cn/topic/bt/482698.html
 
@@ -68,10 +87,16 @@ Linux安装配置FTP(pure-ftpd) https://blog.csdn.net/renfeigui0/article/details
 
 
 
-## links<i class="ri-link-m"></i>
+## link
 
-宝塔面板 – 修改默认端口以及一些常用端口的安全设置 https://www.php.cn/blog/detail/23119.html
+https://www.php.cn/blog/detail/23119.html - *宝塔面板 – 修改默认端口以及一些常用端口的安全设置*
+ 
+https://yangmao.info/225285.html - *新版宝塔面板降级并解除强制绑定手机号码-羊毛之家*
 
+
+### 站长教程
+
+https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些宝塔技术分享！*
 
 
 ## faq
@@ -126,3 +151,22 @@ Linux安装配置FTP(pure-ftpd) https://blog.csdn.net/renfeigui0/article/details
 
 另一种网上解决方式：<https://ask.fastadmin.net/question/26538.html> *（未尝试）*
 
+
+### 国内宝塔面板降级
+
+> Q：为什么要降级
+> 
+> A：屏蔽宝塔强制绑定手机号
+
+https://www.zouht.com/2906.html - *宝塔面板 7.9.2 降级 7.7.0 方法 – 颢天*（亲测有效）
+https://www.bilibili.com/read/mobile?id=17006523
+
+https://www.huhexian.com/47380.html - *宝塔面板降级7.7低版本关闭强制绑定手机账号 | 青山绿水*
+
+1. 打开系统终端
+2. `wget https://github.com/wei/baota/releases/download/7.7.0/LinuxPanel-7.7.0.zip` - *下载 7.7.0 版本*
+3. `unzip LinuxPanel-7.7.0.zip`
+4. `cd panel/`
+5. `bash update.sh` - *运行更新脚本降级*
+6. `sed -i "s|bind_user == 'True'|bind_user == 'XXXX'|" /www/server/panel/BTPanel/static/js/index.js` - *屏蔽强制绑定手机号*
+7. `rm -f /www/server/panel/data/bind.pl` - *删除强制绑定手机 js 文件*

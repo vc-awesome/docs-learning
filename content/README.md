@@ -10,7 +10,11 @@
 3. [Browser](tools/browser) + [Browser Extension](tools/browser-extensions) - *浏览器*
 4. [HTTP](essential/http) + [CORS（跨域）](essential/http.md#跨域) + [DNS](essential/?id=dns) + [Hosts](tools/hosts) + [VPN](tools/vpn.md) - *网络*
 5. [Mirror](home/?id=镜像站) + [CDN](front-end/?id=cdn-⚡) - *加速工具*
-6. [Windows cmd /*.bat](os/windows/?id=windows-bat-脚本) + [Windows powershell /*.ps1](os/windows/?id=windows-powershell) + [Linux Shell /Bash-*.sh](os/linux/linux-shell) + [Git Bash]()- *命令行*
+6. Shell
+	1. [Windows cmd /*.bat](os/windows/?id=windows-bat-脚本)
+	2. [Windows powershell /*.ps1](os/windows/?id=windows-powershell)
+	3. [Linux Shell /Bash-*.sh](os/linux/linux-shell)
+	4. [Git Bash]()- *命令行*
 7. [Git](tools/git.md) + [GitHub](tools/github.md)
 
 <details>
