@@ -32,7 +32,7 @@ https://github.com/topics/hosts
 
 
 
-## Link<i class="ri-link-m"></i>
+## Link
 
 https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 款小工具推荐给你*
 
@@ -47,6 +47,11 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 > 1. `win+R`组合键启动运行，输入`cmd`
 > 2. 在cmd界面输入`ipconfig /flushdns`，然后回车
 > 3. 接下来你会看到`已成功刷新 DNS 解析缓存。`
+>
+> Mac
+>
+> 1. 打开终端工具
+> 2. 输入 `sudo killall -HUP mDNSResponder`
 
 
 

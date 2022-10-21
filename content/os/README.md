@@ -2,6 +2,12 @@
 
 https://www.runoob.com/tags/html-keyboardshortcuts.html - *键盘快捷键*
 
+<i class="ri-link"></i> [浏览器快捷键](/tools/browser?id=浏览器快捷键-⌨️)
+
+<i class="ri-link"></i> [MacOS 快捷键](/os/mac/?id=tutorial)
+
+<i class="ri-link"></i> [Windows 快捷键](/os/windows/?id=windows-快捷键-⌨)
+
 ## 下载指南
 
 > download guide

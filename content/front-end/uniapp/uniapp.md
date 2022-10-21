@@ -13,15 +13,25 @@
      - 页面样式与布局
           - 尺寸单位
 
+## 目录结构
 
+<i class="ri-links-fill"></i> [uni-app 目录结构](home/toc?id=uni-app)
+
+<https://uniapp.dcloud.net.cn/tutorial/project.html#目录结构>
 
 ## dcloud插件市场
 
 ### 前端项目模板
 
+#### ColorUI
+
 [ColorUI](https://ext.dcloud.net.cn/plugin?id=239)
 
-[uViewUI](https://ext.dcloud.net.cn/plugin?id=1593)
+#### uViewUI
+
+插件市场：https://ext.dcloud.net.cn/plugin?id=1593
+
+官网：https://www.uviewui.com/ - *uView 2.0 - 全面兼容nvue的uni-app生态框架 - uni-app UI框架*
 
 #### 模板组件对比
 

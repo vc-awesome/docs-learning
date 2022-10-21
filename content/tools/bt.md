@@ -30,6 +30,209 @@ https://www.aapanel.com/feature.html
 
 https://www.bt.cn/btcode.html - *宝塔linux面板命令大全 - 宝塔面板*
 
+## 部署🔥
+
+### 基础环境
+
+#### Nginx
+
+v1.21
+
+#### MySQL
+
+v5.7
+
+需放行 3306 端口
+
+#### PHP
+
+v7.3
+
+v7.4（有 Bug）
+
+PHP 安装 `redis` 扩展（如有需要）注意：安装完成后重启 PHP
+
+![img](./_images/bt-deploy-01.png)
+
+#### Redis（可安装最新版）
+
+v7.0
+
+v6.2
+
+#### phpMyAdmin（如有需要）
+
+宝塔面板推荐使用 `phpmyadmin` 4.4 版本，4.4 版本可直接访问（无需登录）
+
+配置问题可参考[[√ 开发中遇到的问题（20210425）](")第 18 条]
+
+#### Pure-Ftpd（FTP工具，如有需要）
+
+v1.0
+
+#### Linux Tools（如有需要）
+
+v1.7
+
+1. 国际版宝塔，设置时区为 `Asia/Shanghai`
+
+   > **添加定点计划任务需特别注意，比如凌晨 00:00:00 执行的任务**
+
+   ![img](./_images/bt-deploy-02.png)
+
+2. 修改 SSH 登录密码
+
+   ![img](./_images/bt-deploy-03.png)
+
+   参考：
+
+   http://www.tdaidc.com/help/article/704.html - *宝塔LINUX控制面板如何修改服务器的root的密码？*
+
+   http://xkzzz.com/post/40375.html - *宝塔面板如何修改root密码,ssh端口号,封ip,开放端口_侠客网*
+
+#### 放行端口，组策略问题
+
+当无法修改远程服务器组策略的情况下，可尝试下图组红框端口区间内的端口是否可用
+
+![img](./_images/bt-deploy-04.png)
+
+#### 安全配置
+
+1. 修改 SSH 默认端口 22
+
+   ![img](./_images/bt-deploy-05.png)
+
+2. 修改面板别名
+
+   ![img](./_images/bt-deploy-06.png)
+
+3. 修改面板端口号
+
+   ![img](./_images/bt-deploy-07.png)
+
+4. 修改安全入口
+
+   ![img](./_images/bt-deploy-08.png)
+
+5. 开启 BasicAuth 认证
+
+   ![img](./_images/bt-deploy-09.png)
+
+   ![img](./_images/bt-deploy-10.png)
+
+6. 设置域名、IP 访问（如有需要）
+
+   ![img](./_images/bt-deploy-11.png)
+
+   例如：设置访问域名 `www.lukswapd.test` ，然后在电脑 `hosts` 文件中添加 `45.115.243.144 www.lukswapd.test`
+
+7. 修改面板登录账户、密码
+
+### 网站站点
+
+#### 添加站点（ThinkPHP）
+
+1. [《应用根目录》]()删除无用文件
+
+2. 目录直接指向根目录，不指向 `/public` 目录
+
+3. 站点修改设置运行目录为 `/public` 目录
+
+   ![img](./_images/bt-deploy-12.png)
+
+4. 设置伪静态
+
+   ![img](./_images/bt-deploy-13.png)
+
+5. 申请 SSL
+
+   ![img](./_images/bt-deploy-14.png)
+
+   `api 域名`申请 SSL
+
+   `www 域名`申请 SSL
+
+6. 应用根目录
+
+   > 即 WEB 根目录
+
+   - ThinkPHP6 目录中可删除无用文件
+
+     1. /.git
+     2. /.idea
+     3. /view/README.md
+     4. /runtime
+     5. /.env.develop
+     6. /.env.produce
+     7. /.example.env
+     8. /.gitignore（没有使用git可删）
+     9. /.htaccess
+     10. /.travis.yml
+     11. /404.html
+     12. /LICENSE.txt
+     13. /README.md
+     14. /index.html
+
+   - ThinkPHP6 关闭调试模式
+
+     文件名：`.env`
+
+     修改内容：`APP_DEBUG = false`
+
+1. - 修改 Redis 配置
+
+     文件名：`/extend/service/Redis.php`
+
+     修改内容：`$this->project = 'sky'; // sky修改为（在同服务器下唯一的）项目名称`
+
+### 站点备份（计划任务）
+
+#### 备份网站
+
+![img](./_images/bt-deploy-15.png)
+
+#### 备份数据库
+
+![img](./_images/bt-deploy-16.png)
+
+#### 项目所需定时任务
+
+
+
+[挂载磁盘](https://www.bt.cn/bbs/thread-50002-1-1.html)
+
+[宝塔目录结构](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=38655&extra=page%3D11%26filter%3Dtypeid%26typeid%3D10)
+
+[负载均衡教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=34116&extra=page%3D10%26filter%3Dtypeid%26typeid%3D10)
+
+[宝塔负载均衡使用教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=13074&extra=page%3D2%26filter%3Dtypeid%26typeid%3D10)
+
+[Thinkphp项目 安全配置加固](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=52183&extra=page%3D9%26filter%3Dtypeid%26typeid%3D10)
+
+[家用电脑虚拟机安装centos8使用宝塔面板](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=61891&extra=page%3D8%26filter%3Dtypeid%26typeid%3D10)
+
+[【系统防火墙】使用教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=50150&extra=page%3D7%26filter%3Dtypeid%26typeid%3D10)
+
+[面板设置消息通道配置之邮箱配置教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=66183&extra=page%3D7%26filter%3Dtypeid%26typeid%3D10)
+
+[宝塔系统加固之三个常见问题教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=64723&extra=page%3D7%26filter%3Dtypeid%26typeid%3D10)
+
+[通过Nginx配置一个简单的下载站](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=69797&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
+
+[宝塔安全建站指南 - 你不得不看的面板安全设置](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=48577&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
+
+[Liunx面板如何设置能充分利用服务器性能](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=3117&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
+
+[nginx环境下禁止ip访问（防恶意解析）教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=4693&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
+
+[宝塔面板放行端口](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=40037&extra=page%3D5%26filter%3Dtypeid%26typeid%3D10)
+
+[反向代理（Nginx版本）](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=43588&extra=page%3D4%26filter%3Dtypeid%26typeid%3D10)
+
+[阿里云ECS无法打开面板的解决方法—阿里云安全组放行教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=2897&extra=page%3D4%26filter%3Dtypeid%26typeid%3D10)
+
+[大炮分享不可不学的网络命令](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=63199&extra=page%3D2%26filter%3Dtypeid%26typeid%3D10)
+
 ## 面板API
 
 官方：https://www.bt.cn/bbs/thread-20376-1-1.html - *API接口使用教程 - 第三方应用 - 宝塔面板论坛*
@@ -41,12 +244,12 @@ https://blog.szhcloud.cn/blog/2020/10/23/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFapi
 https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量导入新服务器的宝塔-杂草猿工记-个人博客-韦炳生博客-技术分享*
 
 
-## ssl
+## SSL
 
 > 免费
 
 1. 宝塔官网注册账号
-2. 指定域名申请 ssl
+2. 指定域名申请 SSL
 3. 部署
 4. 开启强制 HTTPS
 5. 防火墙或者安全组放行 443 端口
@@ -59,7 +262,7 @@ https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量
 
 
 
-## ftp
+## FTP
 
 > 宝塔 Linux，FTP 端口：21，主动模式可连接；修改 FTP 端口为非 21，主动模式无法连接，被动模式需放行 FTP 被动端口 39000-40000 才可连接。
 
@@ -87,10 +290,10 @@ Linux安装配置FTP(pure-ftpd) https://blog.csdn.net/renfeigui0/article/details
 
 
 
-## link
+## Link
 
 https://www.php.cn/blog/detail/23119.html - *宝塔面板 – 修改默认端口以及一些常用端口的安全设置*
- 
+
 https://yangmao.info/225285.html - *新版宝塔面板降级并解除强制绑定手机号码-羊毛之家*
 
 
@@ -99,7 +302,7 @@ https://yangmao.info/225285.html - *新版宝塔面板降级并解除强制绑�
 https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些宝塔技术分享！*
 
 
-## faq
+## FAQ
 
 ### Linux 宝塔面板无法连接phpmyadmin
 
@@ -115,7 +318,7 @@ https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些�
 
 2. 检查安全组（需在服务器供应商中查看，比如阿里云、腾讯云）
 
-3. 如果使用的默认888端口在防火墙中已放行，仍无法连接到，可能是安全组中没有放行导致，在无法修改安全组的情况下，可通过修改`phpmyadmin`访问端口的方式放行
+3. 如果使用的默认 888 端口在防火墙中已放行，仍无法连接到，可能是安全组中没有放行导致，在无法修改安全组的情况下，可通过修改`phpmyadmin`访问端口的方式放行
 
    1. 设置
 

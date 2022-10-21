@@ -15,7 +15,7 @@
 	2. [Windows powershell /*.ps1](os/windows/?id=windows-powershell)
 	3. [Linux Shell /Bash-*.sh](os/linux/linux-shell)
 	4. [Git Bash]()- *命令行*
-7. [Git](tools/git.md) + [GitHub](tools/github.md)
+7. [Git](tools/git.md) + [GitHub](tools/github.md)（[加速工具](/tools/github?id=工具-1)）
 
 <details>
 <summary>🎉🎉🎉 <span style="color:red">click to expand ~</span></summary>

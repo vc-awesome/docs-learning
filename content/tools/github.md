@@ -309,11 +309,12 @@ https://github.com/topics/github-extension
 
 ### 访问加速
 
-1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw - *上万良心软件都在GitHub，你却还卡在无法访问？*
+1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你却还卡在无法访问？*
 
-- UsbEAm Hosts Editor https://www.dogfight360.com/blog/475/
+- UsbEAm Hosts Editor（WIN） https://www.dogfight360.com/blog/475/
 - steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/ **`using`**
 - FastGithub（WIN／Mac／Linux） https://github.com/dotnetcore/FastGithub
+- Steam++（WIN／Mac／Linux／Android） https://steampp.net/
 
 2️⃣ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg - *这里有超1亿个开源项目，结果你说它访问慢不好用？*
 
@@ -337,6 +338,8 @@ https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr C
 
 #### Web Tools
 
+<i class="ri-link"></i> [镜像](/home/?id=镜像站)
+
 https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
 
@@ -358,27 +361,27 @@ https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，�
 
 参考链接 👇
 
-chaozh
-/
-awesome-blockchain-cn https://github.com/chaozh/awesome-blockchain-cn
+- chaozh
+  /
+  awesome-blockchain-cn https://github.com/chaozh/awesome-blockchain-cn
 
-ziadoz
-/
-awesome-php https://github.com/ziadoz/awesome-php
+- ziadoz
+  /
+  awesome-php https://github.com/ziadoz/awesome-php
 
-tiimgreen
-/
-github-cheat-sheet https://github.com/tiimgreen/github-cheat-sheet
+- tiimgreen
+  /
+  github-cheat-sheet https://github.com/tiimgreen/github-cheat-sheet
 
-AllThingsSmitty
-/
-css-protips https://github.com/AllThingsSmitty/css-protips
+- AllThingsSmitty
+  /
+  css-protips https://github.com/AllThingsSmitty/css-protips
 
-mundimark
-/
-awesome-markdown https://github.com/mundimark/awesome-markdown
+- mundimark
+  /
+  awesome-markdown https://github.com/mundimark/awesome-markdown
 
-xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awesome 后端架构师技术图谱
+- xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awesome 后端架构师技术图谱
 
 ---
 

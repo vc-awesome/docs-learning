@@ -876,27 +876,47 @@ KEY `email` ( `email` ) USING BTREE
 
 以下为可选数据表字段
 
-| 字段名            | 数据类型                                         | 注释                           |
-| ----------------- | ------------------------------------------------ | ------------------------------ |
-| image             | varchar(255) DEFAULT NULL                        | 图片                           |
-| name              | varchar(255) DEFAULT NULL                        | 名称                           |
-| price             | decimal(10,2) DEFAULT NULL                       | 价格                           |
-| storage           | int(10) unsigned NOT NULL DEFAULT '0'            | 库存                           |
-| duration          | int(10) unsigned NOT NULL DEFAULT '0'            | 有效期/天                      |
-| min_profit_amount | int(10) unsigned NOT NULL DEFAULT '0'            | 最小收益数量                   |
-| max_profit_amount | int(10) unsigned NOT NULL DEFAULT '0'            | 最大收益数量                   |
-| min_profit_rate   | decimal(5,2) unsigned NOT NULL DEFAULT '0.00'    | 最小收益率                     |
-| max_profit_rate   | decimal(5,2) unsigned NOT NULL DEFAULT '0.00'    | 最大收益率                     |
-| min_amount        | decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' | 最小数量                       |
-| max_amount        | decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' | 最大数量                       |
-| limit             | int(10) unsigned NOT NULL DEFAULT '0'            | 限购数量                       |
-| is_display        | tinyint(3) unsigned NOT NULL DEFAULT '1'         | 是否前端显示，0-不显示，1-显示 |
-| profit_rate       | decimal(10,2) DEFAULT NULL                       | 配套月收益/%                   |
-| profit_text       | varchar(255) DEFAULT NULL                        | 前端显示收益率                 |
-| status            | tinyint(1) DEFAULT '1'                           | 状态，1-为开启，0-为关闭       |
-| create_time       | int(11) DEFAULT '0'                              | 创建时间                       |
-| update_time       | int(11) DEFAULT '0'                              | 更新时间                       |
-| delete_time       | int(11) DEFAULT '0'                              | 删除时间                       |
+| 字段名            | 数据类型                                         | 注释                               |
+| ----------------- | ------------------------------------------------ | ---------------------------------- |
+| image             | varchar(255) DEFAULT NULL                        | 图片                               |
+| name              | varchar(255) NOT NULL                            | 名称                               |
+| price             | decimal(10,2) NOT NULL DEFAULT '0.00'            | 价格                               |
+| storage           | int(10) unsigned NOT NULL DEFAULT '0'            | 库存                               |
+| duration          | int(10) unsigned NOT NULL DEFAULT '0'            | 有效期/天                          |
+| min_profit_amount | int(10) unsigned NOT NULL DEFAULT '0'            | 最小收益数量                       |
+| max_profit_amount | int(10) unsigned NOT NULL DEFAULT '0'            | 最大收益数量                       |
+| min_profit_rate   | decimal(5,2) unsigned NOT NULL DEFAULT '0.00'    | 最小收益率                         |
+| max_profit_rate   | decimal(5,2) unsigned NOT NULL DEFAULT '0.00'    | 最大收益率                         |
+| min_amount        | decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' | 最小数量                           |
+| max_amount        | decimal(14,4) unsigned NOT NULL DEFAULT '0.0000' | 最大数量                           |
+| limit             | int(10) unsigned NOT NULL DEFAULT '0'            | 限购数量                           |
+| is_display        | tinyint(3) unsigned NOT NULL DEFAULT '1'         | 是否前端显示，0-不显示，1-显示     |
+| profit            | decimal(10,3) DEFAULT '0.000'                    | 配套收益                           |
+| profit_type       | tinyint(1) DEFAULT '1'                           | 配套收益类型，1-指定数量，2-百分比 |
+| profit_rate       | decimal(10,2) DEFAULT NULL                       | 配套月收益/%                       |
+| profit_text       | varchar(255) DEFAULT NULL                        | 前端显示收益率                     |
+| status            | tinyint(1) DEFAULT '1'                           | 状态，1-为开启，0-为关闭           |
+| create_time       | int(11) DEFAULT '0'                              | 创建时间                           |
+| update_time       | int(11) DEFAULT '0'                              | 更新时间                           |
+| delete_time       | int(11) DEFAULT '0'                              | 删除时间                           |
+
+
+
+```sql
+CREATE TABLE `base_machine` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) NOT NULL COMMENT '名称',
+  `price` decimal(10,2) NOT NULL DEFAULT '0.00' COMMENT '价格',
+  `duration` int(10) unsigned NOT NULL DEFAULT '0' COMMENT '有效期/天',
+  `profit` decimal(10,3) DEFAULT '0.000' COMMENT '日收益',
+  `profit_type` tinyint(1) DEFAULT '1' COMMENT '收益类型，1-指定数量，2-百分比',
+  `status` tinyint(1) DEFAULT '1' COMMENT '开启状态，1-为开启，0-为关闭',
+  `create_time` int(11) DEFAULT '0' COMMENT '添加时间',
+  `update_time` int(11) DEFAULT '0' COMMENT '更新时间',
+  `delete_time` int(11) DEFAULT '0' COMMENT '删除时间',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COMMENT='矿机表';
+```
 
 
 
@@ -918,15 +938,15 @@ KEY `email` ( `email` ) USING BTREE
 
 
 ```sql
-CREATE TABLE `ev_user_machine` (
+CREATE TABLE `base_user_machine` (
 	`id` INT ( 11 ) NOT NULL AUTO_INCREMENT,
-	`user_id` INT ( 11 ) NOT NULL DEFAULT '0' COMMENT '用户id',
+	`userid` INT ( 11 ) NOT NULL DEFAULT '0' COMMENT '用户id',
 	`machine_id` INT ( 11 ) NOT NULL DEFAULT '0' COMMENT '矿机id',
-	`channel` TINYINT ( 4 ) NOT NULL DEFAULT '1' COMMENT '购买渠道 0为赠送 1为购买',
-	`status` TINYINT ( 1 ) DEFAULT '1' COMMENT '开启状态 1为开启 0为关闭',
-	`create_time` INT ( 11 ) DEFAULT NULL DEFAULT '0' COMMENT '添加时间',
-	`update_time` INT ( 11 ) DEFAULT NULL DEFAULT '0' COMMENT '更新时间',
-	`delete_time` INT ( 11 ) NOT NULL DEFAULT '0' COMMENT '删除时间',
+	`channel` TINYINT ( 4 ) NOT NULL DEFAULT '1' COMMENT '购买渠道，0-为赠送，1-为购买',
+	`status` TINYINT ( 1 ) DEFAULT '1' COMMENT '开启状态，1-为开启，0-为关闭',
+	`create_time` INT ( 11 ) DEFAULT '0' COMMENT '添加时间',
+	`update_time` INT ( 11 ) DEFAULT '0' COMMENT '更新时间',
+	`delete_time` INT ( 11 ) DEFAULT '0' COMMENT '删除时间',
 PRIMARY KEY ( `id` ) 
 ) ENGINE = INNODB AUTO_INCREMENT = 1 DEFAULT CHARSET = utf8 COMMENT = '用户矿机表';
 ```

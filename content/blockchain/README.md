@@ -191,6 +191,16 @@ NFT（非同质化代币）
 💡
 https://ethereum.org/zh/glossary/#nft
 
+❓
+区块高度  
+💡
+https://ethereum.org/zh/developers/docs/blocks/
+
+❓
+Gas  
+💡
+https://ethereum.org/zh/developers/docs/gas/
+
 
 
 > Question

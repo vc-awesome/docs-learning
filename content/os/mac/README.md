@@ -7,29 +7,39 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 ?> Mac的使用教程
 
 - 触控板单指点击为单击功能
+
 - 触控板双指点击为鼠标右键功能
-- <kbd>command</kbd> + <kbd>Q</kbd> 退出当前程序，后台不运行该程序
-- <kbd>command</kbd> + <kbd>option</kbd> + <kbd>ESC</kbd> 强制退出当前程序
-- <kbd>control</kbd> + <kbd>空格</kbd> 切换输入法
-- 文本操作
-  - fn + 上箭头：向上滚动一页（Page Up）
-  - fn + 下箭头：向下滚动一页（Page Down）
-  - fn + 左箭头：滚动至文档开头（Home）
-  - fn + 右箭头：滚动至文档末尾（End）
-  - cmd + 右箭头：将光标移至当前行的末尾
-  - cmd + 左箭头：将光标移至当前行的行首
-  - cmd + 下箭头：将光标移至文稿末尾
-  - cmd + 上箭头：将光标移至文稿开头
-  - Opt + 右箭头：将光标移至下一个单词的末尾
-  - Opt + 左箭头：将光标移至下一个单词的开头
-  - ctr + A：移至行或段落的开头
-  - fn + backspace：删除光标之后的一个字符
-  - option + backspace：删除光标之前的一个单词（英文有效）
-  - fn + option + backspace：删除光标之后的一个单词
-  - cmd + backspace：删除当前文件
+
+- <kbd>command</kbd> + <kbd>Q</kbd> - *退出当前程序，后台不运行该程序*
+
+- <kbd>command</kbd> + <kbd>option</kbd> + <kbd>ESC</kbd> - *强制退出当前程序*
+
+- <kbd>control</kbd> + <kbd>空格</kbd> - *切换输入法*
+
+    
+
+### 文本操作
+
+- <kbd>fn</kbd> + <kbd>上箭头</kbd>：向上滚动一页（Page Up）
+- <kbd>fn</kbd> + <kbd>下箭头</kbd>：向下滚动一页（Page Down）
+- <kbd>fn</kbd> + <kbd>左箭头</kbd>：滚动至文档开头（Home）
+- <kbd>fn</kbd> + <kbd>右箭头</kbd>：滚动至文档末尾（End）
+- <kbd>cmd</kbd> + <kbd>右箭头</kbd>：将光标移至当前行的末尾
+- <kbd>cmd</kbd> + <kbd>左箭头</kbd>：将光标移至当前行的行首
+- <kbd>cmd</kbd> + <kbd>下箭头</kbd>：将光标移至文稿末尾
+- <kbd>cmd</kbd> + <kbd>上箭头</kbd>：将光标移至文稿开头
+- <kbd>Opt</kbd> + <kbd>右箭头</kbd>：将光标移至下一个单词的末尾
+- <kbd>Opt</kbd> + <kbd>左箭头</kbd>：将光标移至下一个单词的开头
+- <kbd>ctrl</kbd> + <kbd>A</kbd>：移至行或段落的开头
+- <kbd>fn</kbd> + <kbd>backspace</kbd>：删除光标之后的一个字符
+- <kbd>option</kbd> + <kbd>backspace</kbd>：删除光标之前的一个单词（英文有效）
+- <kbd>fn</kbd> + <kbd>option</kbd> + <kbd>backspace</kbd>：删除光标之后的一个单词
+- <kbd>cmd</kbd> + <kbd>backspace</kbd>：删除当前文件
 
 - 显示桌面
-  - fn + F11
+  - <kbd>fn</kbd> + <kbd>F11</kbd>
+
+### 窗口操作
 
 - 窗口最小化
   - <kbd>cmd</kbd> + <kbd>m</kbd>
@@ -38,12 +48,21 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
   - <kbd>cmd</kbd> + <kbd>opt</kbd> + <kbd>h</kbd>
 
 - 显示窗口
-  - cmd + tab + opt + 松开cmd
+  - <kbd>cmd</kbd> + <kbd>tab</kbd> + <kbd>opt</kbd> + 松开 <kbd>cmd</kbd>
+
+- 切换窗口
+
+  - <kbd>command</kbd> + <kbd>tab</kbd> - *切换到下一个窗口*
+  - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>tab</kbd> - *切换到上一个窗口*
+
+- 同一应用程序之间窗口切换
+
+  - <kbd>command</kbd> + <kbd>~</kbd>
 
 - 查看隐藏的文件
-  - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 可以显示隐藏文件、文件夹，再按一次，恢复隐藏。
+  - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> - *可以显示隐藏文件、文件夹，再按一次，恢复隐藏。*
 
-- QQ双开：打开 QQ 客户端，然后 cmd + n
+- QQ双开：打开 QQ 客户端，然后 <kbd>cmd</kbd> + <kbd>n</kbd>
 
 - 隐藏文件、文件夹
     - 打开终端执行
@@ -63,9 +82,9 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 - chrome 浏览器
 
-  普通刷新 command + R
+  <kbd>command</kbd> + <kbd>R</kbd>：普通刷新
 
-  强制刷新 command + Shift + R
+  <kbd>command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：强制刷新
 
 ### 卸载软件
 
@@ -79,8 +98,8 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 ### 截屏
 
-- cmd + shift + 3 - *截取全屏*
-- cmd + shift + 4 - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口*
+- <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> - *截取全屏*
+- <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口*
 
 ### 开机启动项
 

@@ -1,8 +1,6 @@
-todo...
-
 ## Index
 
-官网：https://www.dcloud.io
+官网：https://www.dcloud.io - *DCloud - HBuilder、HBuilderX、uni-app、uniapp、5+、5plus、mui、wap2app、流应用、HTML5、小程序开发、跨平台App、多端框架*
 
 插件市场：https://ext.dcloud.net.cn
 
@@ -10,11 +8,9 @@ uni-app：https://uniapp.dcloud.io
 
 HBuilder X：https://www.dcloud.io/hbuilderx.html
 
+GitHub：https://github.com/dcloudio/uni-app
 
 
-## 目录结构
-
-<i class="ri-links-fill"></i> [uni-app 目录结构](home/toc?id=uni-app)
 
 ## FAQ
 

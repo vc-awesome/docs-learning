@@ -16,7 +16,7 @@ https://git-scm.com - *git 官网*
 
 ### 图形界面工具
 
-1. ✅ [Sourcetree](https://www.sourcetreeapp.com/) - *Sourcetree | Free Git GUI for Mac and Windows*
+1. ✅ [Sourcetree](https://www.sourcetreeapp.com/ ":id=sourcetree") - *Sourcetree | Free Git GUI for Mac and Windows*
    - [Sourcetree 使用教程](https://www.runoob.com/git/source-tree-intro.html)
    - 支持 Windows, MacOS
    - 免费

@@ -33,14 +33,14 @@ https://chrome.google.com/webstore/ - 🧱
 
 ### 下载 crx 🔥
 
-https://crxdl.com/ :cn: - *CrxDL - Chrome浏览器扩展插件CRX下载网*
-
-https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
-
-👍 https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
+1️⃣ https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
 
 
 - https://www.baiduyun.wiki/zh-cn/crx.html - _如何安装浏览器扩展？ | 油小猴_
+
+https://crxdl.com/ :cn: - *CrxDL - Chrome浏览器扩展插件CRX下载网*
+
+https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
 
 
 
@@ -58,6 +58,7 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 10. [Tampermonkey](#tampermonkey)
 11. [uBlock Origin](#ublock-origin)
 12. [Jisū](#jisu)
+12. [Google 翻译](#google-translate)
 
 
 
@@ -191,13 +192,17 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 
 ### 翻译
 
-- [✔️Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb "浏览网页时可轻松查看翻译版本。由Google翻译小组提供。")
+- [✔️Google 翻译](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb ":id=google-translate")
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/aapbdbdomjkkjkaonfhkkikfgjllcleb)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/aapbdbdomjkkjkaonfhkkikfgjllcleb?style=social)
 
-- [✔️百度翻译：网页翻译、海淘神器](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci "百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。")
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/edhchknefojhifoiebpcbkhcjlkkklci)
-  ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/edhchknefojhifoiebpcbkhcjlkkklci?style=social)
+  浏览网页时可轻松查看翻译版本。由Google翻译小组提供。
+  
+  - 百度搜索：谷歌翻译加速，谷歌翻译扩展无法使用
+  - https://blog.csdn.net/m0_67402096/article/details/123323867 - *谷歌浏览器 无法翻译此网页的解决方法*
+  - https://zhuanlan.zhihu.com/p/286815739 - *「技巧」解决「Google 翻译」改版后，访问及翻译 速度很慢很迟钝的问题！ - 知乎*
+  
+- [✔️~~百度翻译：网页翻译、海淘神器~~](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci "百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。")
 
 - [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad "一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。")
 
@@ -230,24 +235,24 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 
 ------
 
-https://github.com/refined-github/refined-github - _:octocat: Browser extension that simplifies the GitHub interface and adds useful features_
+1. https://github.com/refined-github/refined-github - _:octocat: Browser extension that simplifies the GitHub interface and adds useful features_
 
-[GitZip for github](http://gitzip.org/) - _It can make the sub-directories and files of github repository as zip and download it_
+2. [GitZip for github](http://gitzip.org/) - _It can make the sub-directories and files of github repository as zip and download it_
 
-[Octotree - GitHub code tree](https://www.octotree.io/) - _GitHub on steroids_
+3. [Octotree - GitHub code tree](https://www.octotree.io/) - _GitHub on steroids_
 
+4. [File Icons for GitHub and GitLab](https://github.com/homerchen19/github-file-icons) - _A Chrome Extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs._
 
-[File Icons for GitHub and GitLab](https://github.com/homerchen19/github-file-icons) - _A Chrome Extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs._
+5. [github-vscode-icons](https://github.com/dderevjanik/github-vscode-icons) - _This extension shows a VS Code icons in Github Repositories_
 
-
-[github-vscode-icons](https://github.com/dderevjanik/github-vscode-icons) - _This extension shows a VS Code icons in Github Repositories_
-
-[GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
+6. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
 
 
 ### 钱包
 
 ✔️[MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn ':id=metamask') - *以太坊浏览器插件*
+
+- https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm
 
 ✔️[TronLink（波宝钱包）](https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec) - *The first and most popular TRON wallet. Recommended by TRON Foundation.*
 
@@ -273,13 +278,13 @@ https://github.com/refined-github/refined-github - _:octocat: Browser extension 
   
       - [GitHub](#tampermonkey-github ':id=tampermonkey-github')
 
-        - [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
+        1. [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
 
-        - [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
+        2. [github release 加速下载](https://greasyfork.org/da/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
 
-        - [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
+        3. [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
       
-        - [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
+        4. [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
 
     - [下载器](#tampermonkey-download ':id=tampermonkey-download')
         - https://www.baiduyun.wiki/ - _油小猴_

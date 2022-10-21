@@ -785,11 +785,20 @@ https://blog.csdn.net/chtjava/article/details/100148356 - *MySQL 获得当前日
 
 https://m.php.cn/article/481017.html - *MySQL如何获取当前时间和时间戳*
 
-SELECT NOW(); // 返回当前日期和时间
+```sql
+SELECT NOW(); -- 返回当前日期和时间，查询结果：2022-10-11 22:38:51
+```
 
-SELECT unix_timestamp([date]); // 将时间转换为时间戳
+```sql
+SELECT unix_timestamp([date]); -- 将时间转换为时间戳，[date] 内容可选
+SELECT unix_timestamp(); -- 查询结果：1665499210
+SELECT unix_timestamp('2022-10-11 22:38:51'); -- 将时间转换为时间戳,查询结果：1665499131
+```
 
-SELECT from_unixtime(unix_timestamp, '%Y-%m-%d %H:%i:%s'); // 将时间戳转换为日期
+```sql
+SELECT from_unixtime('1665499131', '%Y-%m-%d %H:%i:%s'); -- 将时间戳转换为日期，查询结果：2022-10-11 22:38:51
+SELECT from_unixtime(UNIX_TIMESTAMP(), '%Y-%m-%d %H:%i:%s'); -- 将时间戳转换为日期，查询结果：2022-10-11 22:56:21
+```
 
 
 
@@ -805,27 +814,33 @@ https://www.cnblogs.com/haw2106/p/10735500.html
 
 ### MySQL 字段为空时，赋值为0
 
-- `SELECT COALESCE(字段, 0)`
+```sql
+SELECT COALESCE(字段, 0)
+```
 
-- `SELECT IFNULL(字段, 0)`
+```sql
+SELECT IFNULL(字段, 0)
+```
 
-- `SELECT IF(字段 IS NULL,0,字段值) `
+```sql
+SELECT IF(字段 IS NULL,0,字段值) 
+```
 
-- ```sql
-   CASE expression
-   
-     WHEN condition1 THEN result1
-   
-     WHEN condition2 THEN result2
-   
-     ...
-   
-     WHEN conditionN THEN resultN
-   
-     ELSE result
-   
-   END
-   ```
+```sql
+CASE expression
+
+  WHEN condition1 THEN result1
+
+  WHEN condition2 THEN result2
+
+  ...
+
+  WHEN conditionN THEN resultN
+
+  ELSE result
+
+END
+```
 
 
 

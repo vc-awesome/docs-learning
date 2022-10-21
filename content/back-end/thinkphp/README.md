@@ -167,6 +167,22 @@ public function test()
 
 ## 多语言
 
+> 在模板中输出语言变量（lang_var）
+>
+> - 两种方式
+>
+>   1. `{$Think.lang.lang_var}`
+>
+>      不支持中文变量，例如：`{$Think.lang.主题}`
+>
+>      支持英文变量，例如：`{$Think.lang.theme}`
+>
+>   2. `{:lang('lang_var')}`
+>
+>      支持中文变量，例如：`{:lang(''主题')'}`
+>
+>      支持英文变量，例如：`{:lang('theme')}`
+
 *thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/354119  
 *thinkphp5.1（验证器）* https://www.kancloud.cn/manual/thinkphp5_1/354103  
 *thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037637  
@@ -952,6 +968,8 @@ public function user()
 
 ### 获取器
 
+https://www.kancloud.cn/manual/thinkphp6_0/1037588
+
 ```php
 /**
  * 获取状态（xxx）
@@ -965,6 +983,21 @@ public function getStatusTextAttr($value, $data)
     ];
     return $statusVia[$data['status']];
 }
+```
+
+
+
+读取数据时如何追加？
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037591
+
+```php
+// 使用 `->append(['status_text'])` 追加
+$list = User::where('status', 1)
+    ->append(['status_text'])
+    ->order('create_time desc')
+    ->page($page, 15)
+    ->select();
 ```
 
 
