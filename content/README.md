@@ -4,7 +4,7 @@
 
 
 
-1. [PHP](back-end/php/) + [Apache](back-end/apache) + [MySQL](database/mysql/) + [Redis](database/redis/) + [Nginx](back-end/nginx.md) + [Composer](back-end/composer/) + [ThinkPHP](back-end/thinkphp/)
+1. [PHP](back-end/php/) + [Apache](back-end/apache) + [MySQL](database/mysql/) + [Redis](database/redis/) + [Nginx](back-end/nginx.md) + [Composer](back-end/composer/) + [ThinkPHP](back-end/thinkphp/) + [宝塔](/tools/bt)
 
 2. [Apache](back-end/apache.md) + [Nginx](back-end/nginx.md) + [Docker](back-end/docker.md) - *Web 服务器*
 3. [Browser](tools/browser) + [Browser Extension](tools/browser-extensions) - *浏览器*

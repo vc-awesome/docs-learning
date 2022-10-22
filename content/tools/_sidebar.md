@@ -9,15 +9,14 @@
 * [Markdown](/tools/markdown.md)
 * [Docsify](/tools/docsify.md)
 * [科学上网](/tools/vpn.md "科学上网")
-* [Rss](/tools/rss.md)
+* [RSS](/tools/rss.md)
 * <!--[More](/tools/应用工具.md "应用工具")-->
 * **Development**
 * [GitHub](/tools/github.md)
 * [Git](/tools/git.md)
 * [宝塔](/tools/bt.md "宝塔")
 * [YApi](/tools/yapi.md "api文档工具")
-* [Phpstorm](/tools/phpstorm.md "JetBrains系列编辑器 - Phpstorm")
+* [PhpStorm](/tools/phpstorm.md "JetBrains系列编辑器 - Phpstorm")
 * [Phpstudy](/tools/phpstudy.md "Phpstudy")
 * [Postman](/tools/postman.md "Postman")
-
 

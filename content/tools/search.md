@@ -89,7 +89,7 @@
 
 ##### GitHub
 
-https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
+https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 #### 绿色版 🔥
 
@@ -105,6 +105,8 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 - <i class="fa fa-windows"></i> https://scoop.sh :us: - *A command-line installer for Windows*
 - <i class="fa fa-windows"></i> https://chocolatey.org :us: - *Chocolatey Software | Chocolatey - The package manager for Windows*
+  - https://www.jianshu.com/p/f6c4d261f356 - *chocolatey介绍与使用 - 简书*
+
 
 
 

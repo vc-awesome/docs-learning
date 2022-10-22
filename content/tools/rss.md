@@ -1,4 +1,4 @@
-## Link<i class="ri-link-m"></i>
+## Link
 
 知道RSS的人越少，我就越希望它能被人知道！ https://zhuanlan.zhihu.com/p/349349861
 
@@ -14,15 +14,19 @@ RSS 订阅源整理 https://www.bilibili.com/read/cv13362124
 
 ## Tool
 
-### fluent-reader
+### Fluent Reader
 
-<i class="fa fa-github fa-lg"></i> <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> https://github.com/yang991178/fluent-reader
+https://github.com/yang991178/fluent-reader - *Modern desktop RSS reader built with Electron, React, and Fluent UI*
 
+- 支持 Windows, macOS, Linux
 
+https://github.com/yang991178/fluent-reader-lite - *Simplistic mobile RSS client built with Flutter*
+
+- 支持 iOS, Android
 
 ### Tiny Tiny RSS
 
-官网：https://tt-rss.org/
+官网：https://tt-rss.org/ - *Tiny Tiny RSS is a free and open source web-based news feed (RSS/Atom) reader and aggregator*
 
 
 
@@ -30,19 +34,19 @@ RSS 订阅源整理 https://www.bilibili.com/read/cv13362124
 
 <i class="ri-link"></i>
 [Feeder](/os/mobile/?id=feeder)
-<i class="fa fa-android light-green"></i>
+<i class="fa fa-android light-green"></i> - *An awesome Libre and Open Source RSS feed reader*
 
 
 
-## Browser addons
+## Browser Addons
 
 ### RSSHub Radar
+
+<i class="fa fa-github fa-lg"></i> https://github.com/DIYgod/RSSHub-Radar - *🍰 Browser extension that simplifies finding and subscribing RSS and RSSHub*
 
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa
 
 <i class="fa fa-firefox"></i> https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/
-
-<i class="fa fa-github fa-lg"></i> https://github.com/DIYgod/RSSHub-Radar
 
 参考链接 👇
 
@@ -52,7 +56,7 @@ RSSHub Radar — 订阅一个 RSS 源不应该这么难 https://sspai.com/post/5
 
 ### Feedbro
 
-<i class="fa fa-laptop"></i> https://nodetics.com/feedbro/
+<i class="fa fa-laptop"></i> https://nodetics.com/feedbro/ - *Feedbro - RSS Feed Reader with built-in Rule Engine*
 
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa
 
