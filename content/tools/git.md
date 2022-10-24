@@ -16,11 +16,11 @@ https://git-scm.com - *git 官网*
 
 ### 图形界面工具
 
-1. ✅ [Sourcetree](https://www.sourcetreeapp.com/ ":id=sourcetree") - *Sourcetree | Free Git GUI for Mac and Windows*
+1. ✅ [Sourcetree](https://www.sourcetreeapp.com/ ":id=sourcetree") - *Sourcetree | Free Git GUI for Mac and Windows*
    - [Sourcetree 使用教程](https://www.runoob.com/git/source-tree-intro.html)
    - 支持 Windows, MacOS
    - 免费
-2. ✅ [GitHub Desktop](https://desktop.github.com/ ':id=github-desktop') - *GitHub Desktop | Simple collaboration from your desktop*
+2. ✅ [GitHub Desktop](https://desktop.github.com/ ':id=github-desktop') - *GitHub Desktop | Simple collaboration from your desktop*
    - 支持 Windows, MacOS, [GitHub](https://github.com/desktop/desktop)
    - 开源免费
 3. [Tower](https://www.git-tower.com/) - *The most powerful Git client for Mac and Windows | Tower Git Client*
@@ -492,7 +492,7 @@ git status -s #简短格式查看文件修改状态
 
 ### *rebase*
 
-https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
+https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
 
 
 
@@ -558,7 +558,7 @@ https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注�
 
    
 
-5. 验证 `SSH Key` 是否设置成功
+5. 验证 `SSH Key` 是否设置成功
 
    ```bash
    ssh -T git@github.com # git@github.com 为远程仓库SSH
@@ -568,7 +568,7 @@ https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注�
 
 ### 配置参考链接
 
-https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
+https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
 
 
@@ -713,9 +713,9 @@ gitlab
 
 参考链接 👇
 
-https://segmentfault.com/a/1190000040540720?sort=votes - *PHP使用WebHook自动更新Git仓库部署*
+https://segmentfault.com/a/1190000040540720?sort=votes - *PHP使用WebHook自动更新Git仓库部署*
 
-https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
+https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
 
 
 
@@ -725,7 +725,7 @@ https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的Web
 git reset --hard origin/master
 ```
 
-
+https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
 
 ### 🔥 git 创建新版本库
 
@@ -815,7 +815,7 @@ git checkout origin/master -- path/folder/filename #获取某个文件
 git checkout origin/master -- path/folder #获取某个目录
 ```
 
-参考链接：https://www.cnblogs.com/olive27/p/11791162.html - *git如何从远端获取某个文件 - OliveKong - 博客园*
+参考链接：https://www.cnblogs.com/olive27/p/11791162.html - *git如何从远端获取某个文件 - OliveKong - 博客园*
 
 
 
@@ -855,4 +855,4 @@ https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代�
 
 ### git 在本地局域网中的两台电脑间同步代码
 
-https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*
+https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*

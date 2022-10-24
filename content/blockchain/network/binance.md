@@ -55,8 +55,14 @@ https://docs.binance.org/smart-chain/developer/BEP20.html
 
 > DeFi
 
-主页：https://pancakeswap.finance/ :us: :cn:
+主页：https://pancakeswap.finance/ :us: :cn:
 
-文档：https://docs.pancakeswap.finance/ :us:
+文档：https://docs.pancakeswap.finance/ :us:
 
 Github：https://github.com/pancakeswap
+
+#### API
+
+https://github.com/pancakeswap/pancake-subgraph - *📊 Pancake subgraph (blocks, profile, prediction, NFT's, ...)📊 Pancake subgraph (blocks, profile, prediction, NFT's, ...)*
+
+https://bsc.streamingfast.io/subgraphs/name/pancakeswap/exchange-v2 - [*Via*](https://pancakeswap.medium.com/pancakeswap-info-relaunch-in-partnership-with-150-000-bounty-winner-streamingfast-f7892559d388)

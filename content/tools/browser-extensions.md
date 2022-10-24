@@ -58,7 +58,8 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 10. [Tampermonkey](#tampermonkey)
 11. [uBlock Origin](#ublock-origin)
 12. [Jisū](#jisu)
-12. [Google 翻译](#google-translate)
+13. [Google 翻译](#google-translate)
+14. [Proxy SwitchyOmega](#proxy-switchyomega)
 
 
 
@@ -79,7 +80,7 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 - [✔️EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
-- [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) - *轻松快捷地管理和切换多个代理设置。*
+- [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif ":id=proxy-switchyomega") - *轻松快捷地管理和切换多个代理设置。*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
   <i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
@@ -151,6 +152,7 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 - ✅ [Jisū](#jisu ':id=jisu') - *Count words and characters in selected text.*
 
   - https://www.crxsoso.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi
+  - https://microsoftedge.microsoft.com/addons/detail/jis%C5%AB/bbclbgdgnkggbgnknlppkkgghfemliap
   - https://github.com/ikamonster/jisu
 
 - Clipboard Helper - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
@@ -204,7 +206,10 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
   
 - [✔️~~百度翻译：网页翻译、海淘神器~~](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci "百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。")
 
-- [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad "一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。")
+- [划词翻译](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad) - *一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。*
+
+  - GitHub：https://github.com/hcfyapp - *一站式划词 / 截图 / 全文 / 音视频翻译软件。*
+  - FAQ：https://hcfy.app/blog/2022/09/28/ggg - *谷歌翻译不能用的解决方案 | 划词翻译 (hcfy.app)*
 
 - [沙拉查词-聚合词典划词翻译](https://chrome.google.com/webstore/detail/%E6%B2%99%E6%8B%89%E6%9F%A5%E8%AF%8D-%E8%81%9A%E5%90%88%E8%AF%8D%E5%85%B8%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/cdonnmffkdaoajfknoeeecmchibpmkmg "Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。")
 

@@ -4,18 +4,15 @@
 
 
 
-1. [PHP](back-end/php/) + [Apache](back-end/apache) + [MySQL](database/mysql/) + [Redis](database/redis/) + [Nginx](back-end/nginx.md) + [Composer](back-end/composer/) + [ThinkPHP](back-end/thinkphp/) + [宝塔](/tools/bt)
+1. [PHP](back-end/php/) + [Apache](back-end/apache) + [MySQL](database/mysql/) + [Redis](database/redis/) + [Nginx](back-end/nginx.md) + [Composer](back-end/composer/) + [ThinkPHP](back-end/thinkphp/) + [宝塔](/tools/bt)
 
 2. [Apache](back-end/apache.md) + [Nginx](back-end/nginx.md) + [Docker](back-end/docker.md) - *Web 服务器*
 3. [Browser](tools/browser) + [Browser Extension](tools/browser-extensions) - *浏览器*
 4. [HTTP](essential/http) + [CORS（跨域）](essential/http.md#跨域) + [DNS](essential/?id=dns) + [Hosts](tools/hosts) + [VPN](tools/vpn.md) - *网络*
 5. [Mirror](home/?id=镜像站) + [CDN](front-end/?id=cdn-⚡) - *加速工具*
-6. Shell
-	1. [Windows cmd /*.bat](os/windows/?id=windows-bat-脚本)
-	2. [Windows powershell /*.ps1](os/windows/?id=windows-powershell)
-	3. [Linux Shell /Bash-*.sh](os/linux/linux-shell)
-	4. [Git Bash]()- *命令行*
+6. Shell > [Windows cmd /*.bat](os/windows/?id=windows-bat-脚本) + [Windows powershell /*.ps1](os/windows/?id=windows-powershell) + [Linux Shell /Bash-*.sh](os/linux/linux-shell) + [Git Bash]()（*命令行*）
 7. [Git](tools/git.md) + [GitHub](tools/github.md)（[加速工具](/tools/github?id=工具-1)）
+8. Windows > [快捷键](/os/windows/?id=windows-快捷键-⌨)
 
 <details>
 <summary>🎉🎉🎉 <span style="color:red">click to expand ~</span></summary>

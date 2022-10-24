@@ -221,6 +221,19 @@ https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Sh
 
 - 鼠标拖动任意一个窗口快速`左右左` / `右左右`移动，即可将本窗口以外的窗口最小化，再次按原步骤操作即可还原被最小化的窗口
 
+- 打开任务管理器
+
+  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>Esc</kbd>
+
+  [win10打开任务管理器的4种快捷方式-百度经验 (baidu.com)](https://jingyan.baidu.com/article/e5c39bf5e1d52939d76033a1.html)
+
+- 打开系统菜单
+
+  <kbd>windows</kbd> + <kbd>X</kbd>
+
+  [教你使用windows10系统windows+x快捷键-百度经验 (baidu.com)](https://jingyan.baidu.com/article/eb9f7b6d77e3be869264e849.html)
+
+
 
 
 
