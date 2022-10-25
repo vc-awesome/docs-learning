@@ -1,6 +1,6 @@
 ## 官方
 
-官网：https://github.com/
+官网：https://github.com/ - *GitHub: Where the world builds software · GitHub*
 
 文档：https://docs.github.com/cn/
 
@@ -61,31 +61,31 @@ https://github.com/Yikun/hub-mirror-action
 
 
 
-http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
+http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
 
 
 
 ### Gitee
 
-https://zhuanlan.zhihu.com/p/445799754 - *一篇教你代码同步 Github 和 Gitee*
+https://zhuanlan.zhihu.com/p/445799754 - *一篇教你代码同步 Github 和 Gitee*
 
-https://zhuanlan.zhihu.com/p/353862378 - *使用Github Actions实现代码推送Github自动同步到Gitee镜像仓库！*
+https://zhuanlan.zhihu.com/p/353862378 - *使用Github Actions实现代码推送Github自动同步到Gitee镜像仓库！*
 
-https://www.cnblogs.com/hdlan/p/13904878.html - *如何把我们的源码同步到gitee或github远程仓库中*
+https://www.cnblogs.com/hdlan/p/13904878.html - *如何把我们的源码同步到gitee或github远程仓库中*
 
-https://www.cnblogs.com/ccjungle/p/10619169.html - *将已有项目同步到远程git仓库(github,gitee)及giteee的visual studio插件使用一二*
+https://www.cnblogs.com/ccjungle/p/10619169.html - *将已有项目同步到远程git仓库(github,gitee)及giteee的visual studio插件使用一二*
 
-https://zhuanlan.zhihu.com/p/258779704 - *githubactions进行github仓库和gitee仓库同步*
+https://zhuanlan.zhihu.com/p/258779704 - *githubactions进行github仓库和gitee仓库同步*
 
-https://blog.csdn.net/weixin_39305029/article/details/105741822 - *将GitLab仓库同步到GitHub和Gitee*
+https://blog.csdn.net/weixin_39305029/article/details/105741822 - *将GitLab仓库同步到GitHub和Gitee*
 
-https://blog.csdn.net/qq_42909053/article/details/116893604 - *同步更新Gitee和GitHub仓库代码*
+https://blog.csdn.net/qq_42909053/article/details/116893604 - *同步更新Gitee和GitHub仓库代码*
 
-https://www.gouguoyin.cn/posts/10095.html - *利用GitHub Actions自动同步Gitee镜像仓库*
+https://www.gouguoyin.cn/posts/10095.html - *利用GitHub Actions自动同步Gitee镜像仓库*
 
-https://gitee.com/help/articles/4284#article-header0 - *GitHub仓库快速导入Gitee及同步更新*
+https://gitee.com/help/articles/4284#article-header0 - *GitHub仓库快速导入Gitee及同步更新*
 
-https://gitee.com/help/articles/4336#article-header0 - *仓库镜像管理 （ Gitee <-> Github 双向同步）*
+https://gitee.com/help/articles/4336#article-header0 - *仓库镜像管理 （ Gitee <-> Github 双向同步）*
 
 
 
@@ -106,11 +106,11 @@ Lepton https://github.com/hackjutsu/Lepton
 
 #### FAQ
 
-https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
+https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
 
-https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
+https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
 
-https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
+https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
 
 
 

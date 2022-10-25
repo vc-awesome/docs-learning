@@ -343,7 +343,7 @@ DROP TABLE IF EXISTS `table_name`;
 
 - 索引命名
 
-  唯一索引名为`uk_字段名`；普通索引名则为`idx_字段名`。（说明：`uk_`即 unique key；`idx_` 即index的简称）
+  唯一索引名为`uk_字段名`；普通索引名则为`idx_字段名`。（说明：`uk_`即 unique key；`idx_` 即 index 的简称）
 
 
 
@@ -360,7 +360,7 @@ DROP TABLE IF EXISTS `table_name`;
   - 外键索引
   - 复合索引
   - 前缀索引
-  - 全文索引（Myisam数据表支持、InnoDB数据表不支持）（极少使用）
+  - 全文索引（Myisam 数据表支持、InnoDB 数据表不支持）（极少使用）
   - 覆盖索引（是一种查询的效果）
 
 
@@ -378,6 +378,7 @@ DROP TABLE IF EXISTS `table_name`;
   - https://www.php.cn/mysql-tutorials-493444.html - *深入解析mysql中的索引（原理详解）*
   - https://blog.csdn.net/weixin_36586564/article/details/79641748 - *Mysql专题三：B+树索引实战*
   - https://bbs.huaweicloud.com/blogs/302782 - *Mysql从入门到入魔——9. 游标、高级SQL特性*
+  - https://www.runoob.com/w3cnote/mysql-index.html - *MySQL 索引优化全攻略 | 菜鸟教程*
 
 ## 🔥 锁
 
@@ -783,7 +784,7 @@ https://www.cnblogs.com/gaogao67/p/14655347.html - *MySQL--SELECT语句中SLEEP�
 
 https://blog.csdn.net/chtjava/article/details/100148356 - *MySQL 获得当前日期时间 函数*
 
-https://m.php.cn/article/481017.html - *MySQL如何获取当前时间和时间戳*
+https://m.php.cn/article/481017.html - *MySQL如何获取当前时间和时间戳*
 
 ```sql
 SELECT NOW(); -- 返回当前日期和时间，查询结果：2022-10-11 22:38:51

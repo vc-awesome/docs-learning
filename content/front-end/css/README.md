@@ -11,8 +11,8 @@ https://www.cnblogs.com/moqiutao/p/4783526.html - *CSS之设置滚动条样式*
 
 菜鸟教程
 
-1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
-2. https://www.runoob.com/css3/css3-tutorial.html - *CSS3 教程*
+1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
+2. https://www.runoob.com/css3/css3-tutorial.html - *CSS3 教程*
 
 ## Sass
 
@@ -46,4 +46,23 @@ https://github.com/less/ :us: - *GitHub*
 
 ## Animation
 
-https://animate.style/ - *Animate.css | A cross-browser library of CSS animations.*
+https://animate.style/ - *Animate.css | A cross-browser library of CSS animations.*
+
+http://anijs.github.io/ - *AniJS, A Library to Raise your Web Design without Coding*
+
+https://www.minimamente.com/project/magic/ - *Magic Animations CSS3*
+
+https://animejs.com/ - *anime.js • JavaScript animation engine*
+
+https://github.com/vace/css3-animation-generator - *chrome plugin css3 animation generator*
+
+https://css3gen.com/wp-content/cache/all/css3-animation/index.html - *CSS3 Animation Generator - CSS3gen*
+
+### Search
+
+- http://t.zoukankan.com/i7758-p-5226394.html - *11款CSS3动画工具的开发 - 走看看*
+- https://wanghi.cn/202003/24716.html - *值得你收藏的10个CSS3动画工具菜鸟教程网_动画小白攻略 - 王海*
+- https://www.php.cn/css-tutorial-381741.html - *用CSS3做动画效果用什么工具-css教程-PHP中文网*
+- https://blog.csdn.net/cune1359/article/details/106848015 - *css3动画工具_您应该收藏的10个CSS3动画工具_cune1359的博客-CSDN博客*
+- https://www.yisu.com/zixun/642979.html - *CSS3的动画工具有哪些 - web开发 - 亿速云*
+- https://blog.csdn.net/qq_38110572/article/details/113944689 - *十个CSS3动画工具，你必须收藏！_Leeeeeer的博客-CSDN博客_css 动画设计器*

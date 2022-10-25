@@ -1,6 +1,6 @@
 * [Introduce](back-end/php/  "Introduce")
 * [指引](back-end/php/php%20指引.md  "指引")
-* [cli命令](back-end/php/php%20cli%20命令.md  "")
+* [CLI 命令](back-end/php/php%20cli%20命令.md  "")
 * [函数](back-end/php/php%20函数.md  "函数")
 * [换行符](back-end/php/php%20换行符.md  "换行符")
 * [接口签名](back-end/php/php%20接口签名.md  "接口签名")

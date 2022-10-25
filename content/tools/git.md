@@ -12,19 +12,41 @@ https://git-scm.com - *git 官网*
 
 3️⃣ https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
 
+https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
+
 ## git 工具
 
 ### 图形界面工具
 
 1. ✅ [Sourcetree](https://www.sourcetreeapp.com/ ":id=sourcetree") - *Sourcetree | Free Git GUI for Mac and Windows*
+   
    - [Sourcetree 使用教程](https://www.runoob.com/git/source-tree-intro.html)
+   
    - 支持 Windows, MacOS
+   
    - 免费
+   
+     <details>
+       <summary><i style="color:red">SEE MORE >></i></summary>
+   
+       - https://www.cnblogs.com/wl-blog/p/15105318.html - *SourceTree使用方法（拉取、提交、推送、获取、冲突解决、分支管理） - dreamw - 博客园*
+       - https://www.jianshu.com/p/4349a8843730 - *解决sourcetree无法推送 - 简书*
+     - https://blog.csdn.net/pp5265/article/details/127442157 - *Sourcetree无法推送问题_深夜加餐的博客-CSDN博客*
+       </details>
+   
 2. ✅ [GitHub Desktop](https://desktop.github.com/ ':id=github-desktop') - *GitHub Desktop | Simple collaboration from your desktop*
    - 支持 Windows, MacOS, [GitHub](https://github.com/desktop/desktop)
    - 开源免费
+   
 3. [Tower](https://www.git-tower.com/) - *The most powerful Git client for Mac and Windows | Tower Git Client*
    - 支持 Windows, MacOS
+
+### 代码托管平台
+
+1. [GitHub](/tools/github) - *GitHub: Where the world builds software · GitHub*
+2. [Gitee](https://gitee.com/) - *Gitee - 基于 Git 的代码托管和研发协作平台*
+3. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
+4. [Bitbucket](https://www.atlassian.com/zh/software/bitbucket) - *用于团队的 Atlassian Bitbucket Git 代码管理工具 | Atlassian*
 
 ## git 工作流程
 
@@ -152,7 +174,7 @@ git merge origin master
    
    git commit -am '第一次版本提交' #提交到本地仓库，省去第2步（git add）
    
-   git commit -amend #进入默认vim编辑器，修改注释完毕后保存就好了
+   git commit --amend #进入默认 vim 编辑器，修改注释完毕后保存就好了
    ```
 
 4. 将本地的分支版本上传到远程并合并
@@ -725,7 +747,7 @@ https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebH
 git reset --hard origin/master
 ```
 
-https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
+https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
 
 ### 🔥 git 创建新版本库
 
