@@ -103,6 +103,7 @@
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](/tools/browser-extensions)
   - [![](http://docsify.js.org/_media/favicon.ico ':size=14') Docsify](/tools/docsify.md)
+  - [<ion-icon name="hammer-outline"></ion-icon> Custom](/tools/custom)
   
 - More
 
