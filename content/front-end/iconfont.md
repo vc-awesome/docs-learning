@@ -210,18 +210,30 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
 ?> The iconic SVG, font, and CSS toolkit.<br><i class="fa fa-language dark-yellow"></i> 标志性的 SVG、字体和 CSS 工具包。
 
-
-
-<i class="fa fa-home fa-lg"></i> https://fontawesome.dashgame.com/ :cn:
+![GitHub last commit](https://img.shields.io/github/last-commit/FortAwesome/Font-Awesome?color=blue&logo=github&style=flat-square)
 
 <i class="fa fa-laptop"></i> https://fontawesome.com/ :us:
 
-<i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome/
+<i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome
+
+1. V6（最新版）
+
+   https://fa6.dashgame.com/ - *Font Awesome 6，一套始终绝佳的图标字体库和CSS框架*
+
+2. V5（LTS）
+
+   https://fa5.dashgame.com/ - *Font Awesome 5，一套依旧绝佳的图标字体库和CSS框架*
+
+3. V4（停止维护）
+
+   https://fontawesome.dashgame.com/ :cn: - *Font Awesome，一套绝佳的图标字体库和CSS框架*
 
 
 ## Remix Icon 2️⃣
 
 ?> Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/Remix-Design/remixicon?icon=github&color=blue)
 
 <i class="fa fa-laptop"></i> https://remixicon.com/
 
@@ -231,6 +243,8 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 ## Ionicons 3️⃣
 
 ?> Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
+
+![GitHub last commit](https://img.shields.io/github/last-commit/ionic-team/ionicons?color=blue&logo=github&style=flat-square)
 
 <i class="fa fa-laptop"></i> https://ionic.io/ionicons
 
@@ -261,6 +275,8 @@ https://unpkg.com/ionicons/
 
 ?> Official open source SVG icon library for Bootstrap.<br><i class="fa fa-language dark-yellow"></i> Bootstrap 的官方开源 SVG 图标库。
 
+![GitHub last commit](https://img.shields.io/github/last-commit/twbs/icons?color=blue&logo=github&style=flat-square)
+
 <i class="fa fa-laptop"></i> https://icons.getbootstrap.com/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/twbs/icons
@@ -271,7 +287,7 @@ https://unpkg.com/ionicons/
 
 ?> High-quality vector icons for Atom and VSCode, with thousands of supported filetypes and growing.<br><i class="fa fa-language dark-yellow"></i> Atom和VSCode的高质量矢量图标，支持数千种文件类型，并且不断增长。
 
-
+![GitHub last commit](https://flat.badgen.net/github/last-commit/file-icons/atom?icon=github&color=blue)
 
 <i class="fa fa-github fa-lg"></i> https://github.com/file-icons/atom
 
@@ -287,16 +303,18 @@ https://unpkg.com/ionicons/
 
 ?> 💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components.<br><i class="fa fa-language dark-yellow"></i> 💅 流行的图标包，如Font Awesome、Material Design和Octicons，可作为React样式的组件提供。
 
-
+![GitHub last commit](https://img.shields.io/github/last-commit/styled-icons/styled-icons?color=blue&logo=github&style=flat-square)
 
 <i class="fa fa-laptop"></i> https://styled-icons.dev/
 
-<i class="fa fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons/
+<i class="fa fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons
 
 ## React Icons
 
 ?>
 svg react icons of popular icon packs
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/react-icons/react-icons?icon=github&color=blue)
 
 <i class="fa fa-laptop"></i>
 https://react-icons.github.io/react-icons/
@@ -309,6 +327,8 @@ https://github.com/react-icons/react-icons
 
 ?> A scalable set of icons handcrafted with <3 by GitHub.  
 <i class="bi bi-translate dark-yellow"></i> GitHub 使用 <3 手工制作的一组可扩展图标。
+
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/octicons?color=blue&logo=github&style=flat-square)
 
 !> **GitHub** 官网 **Icons**
 
@@ -323,9 +343,11 @@ https://github.com/react-icons/react-icons
 
 ?> Material Design icons by Google.<br><i class="bi bi-translate dark-yellow"></i> Google 的 Material Design 图标。
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/google/material-design-icons?icon=github&color=blue)
+
 !> <i class="bi bi-ladder"></i> **Google** 产品
 
-<i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons/
+<i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons
 
 <i class="fa fa-book"></i> http://google.github.io/material-design-icons/
 
@@ -363,15 +385,19 @@ https://github.com/react-icons/react-icons
 ?> Icons for Visual Studio Code
 
 <i class="fa fa-github fa-lg"></i>
-https://github.com/vscode-icons/vscode-icons/
+https://github.com/vscode-icons/vscode-icons
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/vscode-icons/vscode-icons?icon=github&color=blue)
 
 <i class="fa fa-github fa-lg"></i>
 https://github.com/microsoft/vscode-codicons
 
-
+![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/vscode-codicons?color=blue&logo=github&style=flat-square)
 
 ## More
 
 <i class="fa fa-github fa-lg"></i>
 https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
 

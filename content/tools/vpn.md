@@ -1,20 +1,21 @@
-## link 🔗
+## Link
 
-### github
+### GitHub
 
-:octocat: <i class="fa fa-search"></i> *免费 ss*
+1. :octocat:搜索：*免费 ss*
+2. https://github.com/topics/vpn
 
-<i class="fa fa-github"></i> <i class="fa fa-search"></i> https://github.com/topics/vpn
+👍 https://github.com/freefq
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/freefq
+https://github.com/v2ray
 
-<i class="fa fa-github"></i> https://github.com/v2ray
+https://github.com/v2fly
 
-<i class="fa fa-github"></i> https://github.com/v2fly
+https://github.com/Qv2ray
 
-<i class="fa fa-github"></i> https://github.com/Qv2ray
+https://github.com/anaer/Sub - *自用clash订阅链接*
 
-<i class="fa fa-github"></i> https://github.com/anaer/Sub - *自用clash订阅链接*
+![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
 
 
 ### others
@@ -36,7 +37,7 @@ https://baiyunju.cc/7475 - *主流V2Ray客户端不再支持PAC代理模式，�
 https://www.dqzboy.com/7510.htmlhttps://www.dqzboy.com/7510.html - *v2rayN 4.x版本如何设置PAC分流访问国内外网站*
 
 
-## book
+## Book
 
 <i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
 
@@ -64,7 +65,7 @@ https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上�
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
 
 
-## tool
+## Tool
 
 <i class="fa fa-windows"></i>
 <i class="fa fa-apple"></i>
@@ -147,7 +148,7 @@ https://github.com/TheTorProject/gettorbrowser
 
 http://t-browser.sourceforge.net/
 
-## browser
+## Browser
 
 ### addons / extensions
 
@@ -183,7 +184,7 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
 👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml
 
-## glossary
+## Glossary
 
 ### PAC
 

@@ -1,5 +1,5 @@
 * [Introduce](/开发框架/ "Introduce")
-* [Javascript 插件](/开发框架/javascript-plugins)
+* [JavaScript 插件](/开发框架/javascript-plugins)
 * **后台模板**
 * [Index <i class="ri-rocket-line"></i>](/开发框架/后台模板/)
 * [Template](/开发框架/后台模板/Tpl.md "Template")

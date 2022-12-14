@@ -211,3 +211,7 @@ https://github.com/fex-team/ueditor :cn: - *rich text rich text editor*
 
 https://github.com/fex-team/webuploader :cn: - *It's a new file uploader solution!*
 🏷 停更
+
+## PrismJS
+
+https://github.com/PrismJS/prism - *Lightweight, robust, elegant syntax highlighting.*

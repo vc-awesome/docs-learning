@@ -9,10 +9,17 @@
    Vue.use(vant.Lazyload); // Vue.use(vant.Lazyload);需要放在new Vue({});前面
    ```
 
-   参考链接  https://segmentfault.com/q/1010000022016145?utm_source=tag-newest
+   参考链接：
+
+   https://segmentfault.com/q/1010000022016145 - *前端 - vant 轮播图怎么实现图片懒加载 - SegmentFault 思否*
 
 2. https://cloud.tencent.com/developer/article/1626876 - *如何实现 Vue 自定义组件中 hover 事件以及 v-model - 腾讯云开发者社区-腾讯云*
-2. 待添加...
+
+3. https://blog.csdn.net/weixin_44092905/article/details/120336568 - *记一个vue开发问题-----js如何从浏览器剪贴板获取内容_咕咚，来了的博客-CSDN博客_vue 获取不到clipboarddata*
+
+   https://ask.csdn.net/questions/7482682 - *vue 实现获取剪切板的内容-有问必答-CSDN问答*
+
+4. 待添加...
 
 
 

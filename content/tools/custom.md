@@ -140,6 +140,25 @@
           //console.log(err)
           //console.log(err.message)
         }
+      },
+      async getClipboardText() {
+        const clipboardItems = await window.navigator.clipboard.read()
+        let textHtml, textPlain
+        for (const clipboardItem of clipboardItems) {
+          for (const type of clipboardItem.types) {
+            const item = await clipboardItem.getType(type)
+            if (item && item.type === 'text/html') {
+              textHtml = await item.text()
+            }
+            if (item && item.type === 'text/plain') {
+              textPlain = await item.text()
+            }
+          }
+        }
+        this.message = textPlain;
+        console.log(textPlain)
+        this.onSubmit();
+        return { textHtml, textPlain }
       }
     }
   })
@@ -171,7 +190,7 @@
         </el-button-group>
       </el-form-item>
     </el-form> -->
-    <el-input v-model="message" placeholder="请输入内容" clearable autocomplete="on" size="medium">
+    <el-input v-model="message" placeholder="请输入内容" clearable autocomplete="on" size="medium" @clear="getClipboardText">
       <i class="fa fa-github fa-lg el-input__icon" slot="prefix"></i>
       <div slot="prepend">
         <el-button-group>
@@ -219,6 +238,7 @@
         </el-col>
       </el-row>
     </div>
+    <br/>
     <div style="box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px 0px;">
       <el-alert :title="alert.title_1" :type="alert.type_1" :closable="false" show-icon></el-alert>
       <el-row type="flex" justify="space-between">
