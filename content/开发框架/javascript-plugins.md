@@ -4,17 +4,35 @@
 ?>
 ✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋
 
+![](https://flat.badgen.net/github/last-commit/zenorocha/clipboard.js?icon=github&color=blue)
+
 Website：https://clipboardjs.com/
 
 GitHub：https://github.com/zenorocha/clipboard.js
 
 BootCDN：https://www.bootcdn.cn/clipboard.js/
 
+## vue-clipboard2
+
+?> A simple vue2 binding to clipboard.js
+
+![](https://flat.badgen.net/github/last-commit/Inndy/vue-clipboard2?icon=github&color=blue)
+
+GitHub：https://github.com/Inndy/vue-clipboard2
+
+BootCDN：https://www.bootcdn.cn/vue-clipboard2/
+
+FAQ：
+
+1. https://blog.csdn.net/qq_37600506/article/details/122220627 - *vue-clipboard2 点击复制粘贴功能(复制内容到剪贴板)_俺是老王的博客-CSDN博客_$copytext*
+
 
 ## Bignumber.js
 
 ?>
 A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic
+
+![](https://flat.badgen.net/github/last-commit/MikeMcl/bignumber.js?icon=github&color=blue)
 
 Website：https://mikemcl.github.io/bignumber.js/
 

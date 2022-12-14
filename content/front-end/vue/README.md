@@ -1,5 +1,3 @@
-todo...
-
 ## 项目开发中遇到的问题
 
 1. `CDN`方式引入`vant`时，无法使用图片懒加载
@@ -13,8 +11,7 @@ todo...
 
    参考链接  https://segmentfault.com/q/1010000022016145?utm_source=tag-newest
 
- 
-
+2. https://cloud.tencent.com/developer/article/1626876 - *如何实现 Vue 自定义组件中 hover 事件以及 v-model - 腾讯云开发者社区-腾讯云*
 2. 待添加...
 
 

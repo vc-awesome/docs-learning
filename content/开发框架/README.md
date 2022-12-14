@@ -122,7 +122,8 @@ Github：https://github.com/semantic-org/semantic-ui
 ### Tailwind CSS
 
 https://www.tailwindcss.cn/ :cn: *Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。*
-- https://github.com/tailwindlabs/tailwindcss :uk: - _A utility-first CSS framework for rapid UI development._
+
+- https://github.com/tailwindlabs/tailwindcss :uk: - _A utility-first CSS framework for rapid UI development._
 
 
 ### Pure.js
@@ -134,6 +135,18 @@ https://github.com/pure-css/pure/ :uk: *A set of small, responsive CSS modules t
 
 https://github.com/animate-css/animate.css :uk: *🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.*
 
+### Primer CSS
+
+?> The CSS design system that powers GitHub
+
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/css?color=blue&logo=github&style=flat-square)
+
+Website：https://primer.style/css
+
+GitHub：https://github.com/primer/css
+
+BootCDN：https://www.bootcdn.cn/Primer/
+
 
 ## Javascript 框架
 
@@ -142,6 +155,8 @@ https://github.com/animate-css/animate.css :uk: *🍿 A cross-browser library of
 ?> 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.  
 <i class="bi bi-translate dark-yellow"></i>  
 🖖 Vue.js是一个渐进的、可逐步采用的JavaScript框架，用于在web上构建UI。
+
+![GitHub last commit](https://img.shields.io/github/last-commit/vuejs/vue?color=blue&logo=github&style=flat-square)
 
 Website：https://cn.vuejs.org/ :cn:
 
@@ -172,25 +187,27 @@ Website：https://bootstrap-vue.org/
 Github：https://github.com/bootstrap-vue/bootstrap-vue
 
 
-#### Element UI
+#### Element UI 🔥
 
 ?> A Vue.js 2.0 UI Toolkit for Web.  
 <i class="bi bi-translate dark-yellow"></i> 用于 Web 的 Vue.js 2.0 UI 工具包。
 
-
+![GitHub last commit](https://flat.badgen.net/github/last-commit/ElemeFE/element?icon=github&color=blue)
 
 Website：https://element.eleme.io/
 
-Github：https://github.com/ElemeFE/element
+GitHub：https://github.com/ElemeFE/element
 
+FAQ：
 
+1. https://blog.csdn.net/qq_27674439/article/details/111315917 - *el-button组件里hover事件不生效_一晌贪欢i的博客-CSDN博客_el-button hover*
 
 #### Vant 🔥
 
 ?> Lightweight Mobile UI Components built on Vue.  
 <i class="bi bi-translate dark-yellow"></i> 基于 Vue 构建的轻量级移动 UI 组件。
 
-
+![GitHub last commit](https://img.shields.io/github/last-commit/youzan/vant?color=blue&logo=github&style=flat-square)
 
 Website：https://vant-contrib.gitee.io/vant/
 
@@ -198,7 +215,7 @@ Website：https://youzan.github.io/vant/
 
 Website：https://youzan.github.io/vant-weapp/ （轻量、可靠的小程序 UI 组件库）
 
-Github：https://github.com/youzan/vant/
+Github：https://github.com/youzan/vant
 
 
 
@@ -217,6 +234,8 @@ Github：https://github.com/airyland/vux
 ?>
 uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/dcloudio/uni-app?icon=github&color=blue)
+
 Website：https://uniapp.dcloud.io/ :cn:
 
 Github：https://github.com/dcloudio/uni-app
@@ -230,7 +249,7 @@ uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷�
 
 Website：https://www.uviewui.com/ :cn:
 
-GitHub：https://github.com/umicro/uView2.0
+GitHub：https://github.com/umicro/uView2.0 ![GitHub last commit](https://flat.badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
 
 <i class="ri-link"></i> [uView](/front-end/uniapp/uniapp%20+%20uview)
 
@@ -238,6 +257,8 @@ GitHub：https://github.com/umicro/uView2.0
 ### jQuery.js
 
 ?> jQuery JavaScript Library
+
+![](https://img.shields.io/github/last-commit/jquery/jquery?color=blue&logo=github&style=flat-square)
 
 Website：https://jquery.com/
 

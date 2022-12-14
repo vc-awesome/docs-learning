@@ -2,7 +2,7 @@
 
 ### github
 
-<i class="fa fa-github"></i> <i class="fa fa-search"></i> *免费 ss*
+:octocat: <i class="fa fa-search"></i> *免费 ss*
 
 <i class="fa fa-github"></i> <i class="fa fa-search"></i> https://github.com/topics/vpn
 
@@ -38,21 +38,30 @@ https://www.dqzboy.com/7510.htmlhttps://www.dqzboy.com/7510.html - *v2rayN 4.x�
 
 ## book
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
+<i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/crifan/scientific_network_summary?icon=github&color=blue)
 
-<i class="fa fa-github"></i> <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪 - *★覆盖全平台★完全免费★节点订阅★机场推荐★破解VPN软件分享★*
+<i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
 
-<i class="fa fa-github"></i>
+![GitHub last commit](https://flat.badgen.net/github/last-commit/hoochanlon/w3-goto-world?icon=github&color=blue)
+
+<i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪 - *★覆盖全平台★完全免费★节点订阅★机场推荐★破解VPN软件分享★*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/ZGQ-inc/overthefirewall?color=blue&logo=github&style=flat-square)
+
 <i class="fa fa-thumbs-o-up"></i>
 https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙*
 
-<i class="fa fa-github"></i> https://github.com/Ibroad/overthefirewall - *★覆盖全平台★完全免费★节点订阅★机场推荐★〓v2ray/shadowsocks/clash〓*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/Alvin9999/new-pac?icon=github&color=blue)
 
-<i class="fa fa-github"></i> https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
+https://github.com/Ibroad/overthefirewall - *★覆盖全平台★完全免费★节点订阅★机场推荐★〓v2ray/shadowsocks/clash〓*
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Ibroad/overthefirewall?color=blue&logo=github&style=flat-square)
 
+https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
 
 
 ## tool
@@ -61,12 +70,9 @@ https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免
 <i class="fa fa-apple"></i>
 https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
 
-<i class="bi bi-ladder"></i>
-https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*
+🪜 https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*
 
-<i class="bi bi-ladder"></i>
-<i class="fa fa-thumbs-o-up"></i>
-https://free-ss.site/ - *免费上网账号*
+🪜 👍 https://free-ss.site/ - *免费上网账号*
 
 
 ### v2ray 🔥
@@ -157,6 +163,8 @@ http://googlehelper.net/
 
 ?> 轻松快捷地管理和切换多个代理设置。
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/FelisCatus/SwitchyOmega?icon=github&color=blue)
+
 <i class="fa fa-chrome"></i>
 https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif
 
@@ -177,11 +185,11 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
 ## glossary
 
-### PAC 📝
+### PAC
 
-<i class="fa fa-github"></i>
-https://github.com/gfwlist/gfwlist
+?> `代理自动配置（Proxy auto-config，简称PAC）` 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
 
-<i class="fa fa-github"></i> https://github.com/petronny/gfwlist2pac
+https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here* ![GitHub last commit](https://flat.badgen.net/github/last-commit/gfwlist/gfwlist?icon=github&color=blue)
 
-https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
+https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday* ![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
+

@@ -76,4 +76,6 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:no_entry_sign:` | :no_entry_sign: | [Prohibited](https://emojipedia.org/prohibited/) | 🚫 | 禁止，停用 |
 | `:inbox_tray:` | :inbox_tray: | [Inbox Tray](https://emojipedia.org/inbox-tray/) | 📥 | 下载 |
 | `:outbox_tray:` | :outbox_tray: | [Outbox Tray](https://emojipedia.org/outbox-tray/) | 📤 | 上传 |
+| `:ladder:` | :ladder: | [Ladder](https://emojipedia.org/ladder/) | 🪜 | 梯子 |
+| `:octocat:` | :octocat: | [GitHub系列](https://emojipedia.org/github/) |  | GitHub |
 
