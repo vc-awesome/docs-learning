@@ -36,6 +36,7 @@ Mirror：https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站
 
 ?> 使用 Blocklist 在本地的 VPN 上基于 DNS 请求的主机阻止程序
 
+支持的平台：
 <i class="fa fa-windows"></i>
 <i class="fa fa-linux"></i>
 <i class="ri-android-line"></i>
@@ -45,7 +46,7 @@ https://f-droid.org/zh_Hans/packages/dnsfilter.android/
 ![f-droid](https://badgen.net/f-droid/v/dnsfilter.android)
 
 <i class="fa fa-github"></i>
-https://github.com/IngoZenz/personaldnsfilter
+https://github.com/IngoZenz/personaldnsfilter ![GitHub last commit](https://badgen.net/github/last-commit/IngoZenz/personaldnsfilter?icon=github&color=blue)
 
 Website: https://www.zenz-solutions.de/personaldnsfilter-wp/
 
@@ -60,9 +61,13 @@ Website: https://www.zenz-solutions.de/personaldnsfilter-wp/
 
 ?> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
+![GitHub last commit](https://badgen.net/github/last-commit/gsantner/markor?icon=github&color=blue)
+
+支持的平台：
 <i class="fa fa-android"></i>
 
-<i class="fa fa-github"></i> https://github.com/gsantner/markor ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
+<i class="fa fa-github"></i> https://github.com/gsantner/markor
 
 #### Feeder
 

@@ -120,7 +120,7 @@
 
         // 切换主题
         let themeHtml = "🎨 <a href=\"index-theme-vue.html\">Switch to Vue.</a>";
-        if (window.location.pathname == "/index-theme-vue.html") {
+        if (window.location.pathname.indexOf("/index-theme-vue.html") >= 0) {
           themeHtml = "🎨 <a href=\"index-theme-themeable.html\">Switch to Themeable.</a>";
         }
 
@@ -275,7 +275,8 @@
     target: 'h1, h2, h3, h4, h5, h6'
   }
 </script>
-<script src="//unpkg.com/docsify-plugin-toc@latest/dist/docsify-plugin-toc.min.js"></script>
+<!-- <script src="//unpkg.com/docsify-plugin-toc@latest/dist/docsify-plugin-toc.min.js"></script> -->
+<script src="_assets/libs/docsify-plugin-toc.js"></script>
 
 <!-- docsify-copy-code -->
 <script>

@@ -133,7 +133,7 @@
 
         // 切换主题
         let themeHtml = "🎨 <a href=\"index-theme-vue.html\">Switch to Vue.</a>";
-        if (window.location.pathname == "/index-theme-vue.html") {
+        if (window.location.pathname.indexOf("/index-theme-vue.html") >= 0) {
           themeHtml = "🎨 <a href=\"index-theme-themeable.html\">Switch to Themeable.</a>";
         }
 

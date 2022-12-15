@@ -28,13 +28,13 @@ https://browser.yandex.com/
 
 ## Via
 
-![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label) ![GitHub last commit](https://badgen.net/github/last-commit/tuyafeng/Via?icon=github&color=blue)
 
 > Open-Source
 
-https://viayoo.com/zh-cn/
+https://viayoo.com/zh-cn/ - *Via浏览器官网 - 崇尚速度与简约的手机浏览器，Via唯一官方网站*
 
-https://github.com/tuyafeng/Via
+https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository is set for localization.*
 
 - 屏蔽广告
     - 可自定义规则
@@ -49,7 +49,7 @@ https://github.com/tuyafeng/Via
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 
-https://www.opera.com/zh-cn
+https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
 
 - [x] 屏蔽广告
 - [x] 翻译
@@ -70,7 +70,7 @@ https://duckduckgo.com/ 🧱
 
 ## Firefox
 
-https://www.firefox.com.cn/
+https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快速 | 官方最新下载*
 
 - 扩展程序
   - 屏蔽广告
@@ -88,7 +88,7 @@ https://www.google.com/chrome/
 
 ## QQ浏览器 ✅
 
-https://browser.qq.com/
+https://browser.qq.com/ - *QQ浏览器官网_手机浏览器_电脑浏览器_*
 
 - 工具
   - 资源嗅探
@@ -103,6 +103,7 @@ https://browser.qq.com/
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 ![](https://img.shields.io/github/stars/greatfire/wiki?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
 
 
 https://freebrowser.org/ 🧱

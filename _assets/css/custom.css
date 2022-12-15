@@ -327,6 +327,33 @@ aside.toc-nav {
       right: 20px;
   }
 }
+/* TOC 缩进参考线 */
+[class^=lv] {
+  position: relative;
+}
+[class^=line]:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  top: -1px;
+  border-left: 1px dotted #bbb;
+  /* background-color: yellow; */
+}
+.line2:before {
+  left: 20px;
+}
+.line3:before {
+  left: 30px;
+}
+.line4:before {
+  left: 40px;
+}
+.line5:before {
+  left: 50px;
+}
+.line6:before {
+  left: 50px;
+}
 
 /* 外链添加 FontIcon */
 a[target=_blank]:after {
