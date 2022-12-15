@@ -7,8 +7,8 @@
 
 - [![](https://www.liaoxuefeng.com/favicon.ico ':size=14')Liaoxuefeng](https://www.liaoxuefeng.com/)
 
-<br>
+<!-- <br>
 
 - **Themes**
-- <a href="index-theme-vue.html">1️⃣ Vue</a>
-- <a href="index-theme-themeable.html">2️⃣ Themeable</a>
+- <a href="index-theme-vue.html">🎨 Vue</a>
+- <a href="index-theme-themeable.html">🎨 Themeable</a> -->

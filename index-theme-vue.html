@@ -7,17 +7,26 @@
 
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
-  <link rel="stylesheet" href="//unpkg.com/docsify@4.12.2/themes/vue.css" title="vue"/>
-  <link rel="stylesheet" href="//unpkg.com/docsify@4.12.2/themes/dark.css" title="dark"/>
-  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@1.3.1/dist/light.css">
+  <link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
+  <style>
+    /*解决上面引用样式对原有样式的改写*/
+    a {
+      text-decoration: underline;
+    }
+    .docsify-copy-code-button span {
+      border: none;
+    }
+  </style>
+  <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
+  <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/dark.css" title="dark"/>
+  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
-  <link href="https://unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
   <!-- Font icon -->
-  <link rel="stylesheet" href="//unpkg.com/file-icons-js@1.1.0/css/style.css">
+  <link rel="stylesheet" href="//unpkg.com/file-icons-js@latest/css/style.css">
   <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="//unpkg.com/remixicon@2.5.0/fonts/remixicon.css">
+  <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@latest/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
 
@@ -97,7 +106,7 @@
 
     // themeColor: '#3c78eb', // 主题颜色
 
-    name: '<i class="ri-github-line"></i> docs-learning  ', // 文档标题，会显示在侧边栏顶部。
+    name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ', // 文档标题，会显示在侧边栏顶部。
 
     maxLevel: 2,
 
@@ -108,13 +117,23 @@
     plugins: [
       // 添加页脚
       function (hook) {
+
+        // 切换主题
+        let themeHtml = "🎨 <a href=\"index-theme-vue.html\">Switch to Vue.</a>";
+        if (window.location.pathname == "/index-theme-vue.html") {
+          themeHtml = "🎨 <a href=\"index-theme-themeable.html\">Switch to Themeable.</a>";
+        }
+
         var footer = [
           '<hr/>',
           '<footer>',
           '<span><img src="//github.githubassets.com/images/icons/emoji/octocat.png" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
           '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+          themeHtml,
           '</footer>'
         ].join('');
+
+        console.log(hook,window.location);
 
         hook.afterEach(function (html) {
           return html + footer;
@@ -185,7 +204,7 @@
 
 <!-- CDN unpkg -->
 <!-- ----------------------------------------------------------------- -->
-<script src="//unpkg.com/docsify@4.12.2/lib/docsify.min.js"></script>
+<script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script>
 <script>
   // 全文搜索
   window.$docsify.search = {
@@ -203,18 +222,18 @@
     maxAge: 86400000, // 过期时间，单位毫秒，默认一天
   }
 </script>
-<script src="//unpkg.com/docsify@4.12.2/lib/plugins/search.min.js"></script><!--全文搜索-->
-<script src="//unpkg.com/docsify@4.12.2/lib/plugins/zoom-image.min.js"></script><!--图片缩放-->
-<script src="//unpkg.com/docsify@4.12.2/lib/plugins/emoji.min.js"></script><!--emoji-->
+<script src="//unpkg.com/docsify@latest/lib/plugins/search.min.js"></script><!--全文搜索-->
+<script src="//unpkg.com/docsify@latest/lib/plugins/zoom-image.min.js"></script><!--图片缩放-->
+<script src="//unpkg.com/docsify@latest/lib/plugins/emoji.min.js"></script><!--emoji-->
 
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-php.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-bash.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-sql.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-json.min.js"></script>
-<script src="//unpkg.com/prismjs@1.28.0/components/prism-markdown.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
 
 <!-- docsify-tabs (latest v1.x.x) -->
-<script src="//unpkg.com/docsify-tabs@1.5.2/dist/docsify-tabs.min.js"></script>
+<script src="//unpkg.com/docsify-tabs@latest/dist/docsify-tabs.min.js"></script>
 
 <!-- Table of Contents -->
 <script>
@@ -256,7 +275,7 @@
     target: 'h1, h2, h3, h4, h5, h6'
   }
 </script>
-<script src="//unpkg.com/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
+<script src="//unpkg.com/docsify-plugin-toc@latest/dist/docsify-plugin-toc.min.js"></script>
 
 <!-- docsify-copy-code -->
 <script>
@@ -267,7 +286,7 @@
     successText: 'Copied'
   }
 </script>
-<script src="//unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+<script src="//unpkg.com/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script>
 
 <!-- countable -->
 <script>
@@ -278,11 +297,11 @@
     language: 'chinese'
   }
 </script>
-<script src="//unpkg.com/docsify-count@1.1.0/dist/countable.min.js"></script>
+<script src="//unpkg.com/docsify-count@latest/dist/countable.min.js"></script>
 
 <!-- ionicons -->
-<script type="module" src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script type="module" src="//unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="//unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
 
 <!-- Latest -->
 <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
@@ -312,7 +331,7 @@
 <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
 <script src="//unpkg.com/element-ui/lib/index.js"></script>
 
-<script src="//unpkg.com/vue-clipboard2@0/dist/vue-clipboard.min.js"></script>
+<script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
 
 </body>
 </html>

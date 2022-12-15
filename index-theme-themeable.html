@@ -121,20 +121,29 @@
     auto2top: true, // 切换页面后是否自动跳转到页面顶部
     topMargin: 90, // default: 0
     repo: 'vc-awesome/docs-learning', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用
-    name: '<i class="ri-rocket-line"></i> docs-learning', // 文档标题，会显示在侧边栏顶部
+    name: '<img src="//github.githubassets.com/images/icons/emoji/octocat.png" alt="octocat" width="20"/>  docs-learning', // 文档标题，会显示在侧边栏顶部
     mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
     formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
+    basePath: 'content',
 
     plugins: [ // write a plugin
       // 添加页脚
       // -----------------------------------------------------------------
       function (hook) {
+
+        // 切换主题
+        let themeHtml = "🎨 <a href=\"index-theme-vue.html\">Switch to Vue.</a>";
+        if (window.location.pathname == "/index-theme-vue.html") {
+          themeHtml = "🎨 <a href=\"index-theme-themeable.html\">Switch to Themeable.</a>";
+        }
+
         var footer = [
           '<hr/>',
           '<footer>',
           '<span>&copy;2022.</span>',
           '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
           '<span> 🎨Theme is <a href="//jhildenbiddle.github.io/docsify-themeable/" target="_blank">docsify-themeable</a> by <i class="fa fa-github fa-lg"></i> <a href="//github.com/jhildenbiddle/docsify-themeable" target="_blank">jhildenbiddle.</a></span>',
+          themeHtml,
           '</footer>'
         ].join('');
 
