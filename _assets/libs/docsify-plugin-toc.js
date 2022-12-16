@@ -13,7 +13,6 @@
             function (o) {
                 const n = function (o, n) {
                     if (o >= 1 && o <= window.$docsify.toc.tocMaxLevel) {
-                        console.log(n)
                         // 自定义内容 - start
                         /**
                          * TOC 添加“代码缩进参考线”
@@ -21,6 +20,7 @@
                          * @url https://blog.csdn.net/weixin_41981080/article/details/82659022 - PhpStorm代码编辑区竖线的用途
                          * @url https://www.cnblogs.com/zqifa/p/12651446.html - phpstorm 代码编辑区去掉、设置灰色竖线 打印分割线设置
                          */
+                        // console.log(n)
                         if (o == 2) {
                             // n = n.replace(/<span>/g,"<span class='line2'>");
                             // n = n.replace(/<\/span>/g,"</span>"); // Bug：使用此方式点击链接无操作，推荐使用下一行代码

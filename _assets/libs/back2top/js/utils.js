@@ -172,7 +172,7 @@ NexT.utils = {
         var docHeight = document.querySelector('.markdown-section').offsetHeight + THRESHOLD;
         var winHeight = window.innerHeight;
         var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
-        scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
+        var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
 
         // console.log(docHeight, winHeight, window.scrollY)
         if (backToBottom) {
@@ -190,18 +190,18 @@ NexT.utils = {
           }
           backToBottom.querySelector('span').innerText = Math.round(scrollPercent) + '%';
         }
+        if (readingProgressBar) {
+          readingProgressBar.style.width = scrollPercent.toFixed(2) + '%';
+        }
       }
     });
 
     backToBottom && backToBottom.addEventListener('click', () => {
-      var docHeight = document.querySelector('.markdown-section').offsetHeight;
-      var winHeight = window.innerHeight;
-      var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
       window.anime({
         targets  : document.scrollingElement,
         duration : 500,
         easing   : 'linear',
-        scrollTop: 20000
+        scrollTop: 2000000
       });
     });
   },

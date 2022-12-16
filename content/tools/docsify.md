@@ -57,7 +57,7 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 
 ## Plugins
 
-### Css
+### CSS
 
 #### 固定顶部导航栏
 

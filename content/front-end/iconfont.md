@@ -206,7 +206,7 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
 
 
-## Font Awesome 1️⃣
+## Font Awesome 🥇
 
 ?> The iconic SVG, font, and CSS toolkit.<br><i class="fa fa-language dark-yellow"></i> 标志性的 SVG、字体和 CSS 工具包。
 
@@ -229,7 +229,7 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
    https://fontawesome.dashgame.com/ :cn: - *Font Awesome，一套绝佳的图标字体库和CSS框架*
 
 
-## Remix Icon 2️⃣
+## Remix Icon 🥈
 
 ?> Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
 
@@ -240,7 +240,7 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 <i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
 
 
-## Ionicons 3️⃣
+## Ionicons 🥉
 
 ?> Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
 

@@ -48,12 +48,15 @@
     nav img {
       vertical-align: text-top;
     }
+    i[class^=ri] {
+      vertical-align: bottom;
+    }
   </style>
 </head>
 <body>
 <div id="app"></div>
 
-<div class="toc-toggle">🎁🎨</div>
+<div class="toc-toggle" style="min-width: 50px;">📚 🤔</div>
 <!--返回顶部 method-2-->
 <link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
 <div class="back-to-top">
@@ -133,7 +136,7 @@
           '</footer>'
         ].join('');
 
-        console.log(hook,window.location);
+        // console.log(hook,window.location);
 
         hook.afterEach(function (html) {
           return html + footer;
@@ -254,12 +257,18 @@
   }
   window.setInterval(go, 1000);*/
 
+  // document.querySelector('code').addEventListener('click', (e) => {
+  //   console.log(e);
+  // })
+
   let ObjStatus = document.querySelector('.toc-toggle')
   document.addEventListener('click', (e) => {
     let t = document.querySelector('.toc-nav') // 最外层元素
     if (!e.path.includes(ObjStatus)) {
       if (!e.path.includes(t)) {
-        document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t))
+        document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t));
+
+        document.querySelector('.toc-toggle').innerText = "📚 🤔";
         // ObjStatus.innerHTML = '事件触发情况：触发'
       } else {
         // ObjStatus.innerHTML = '事件触发情况：未触发'
@@ -267,8 +276,15 @@
     }
   })
   document.querySelector('.toc-toggle').addEventListener('click', (e) => {
-    console.log(e)
-    document.querySelector('.toc-nav').classList.toggle('toc-nav-hover')
+    // console.log(e, document.querySelector('.toc-nav-hover'));
+
+    if (!document.querySelector('.toc-nav-hover')) {
+      document.querySelector('.toc-toggle').innerText = "📖 🥳";
+    } else {
+      document.querySelector('.toc-toggle').innerText = "📚 🤔";
+    }
+    
+    document.querySelector('.toc-nav').classList.toggle('toc-nav-hover');
   });
   window.$docsify.toc = {
     tocMaxLevel: 5,
@@ -287,7 +303,8 @@
     successText: 'Copied'
   }
 </script>
-<script src="//unpkg.com/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script>
+<!-- <script src="//unpkg.com/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script> -->
+<script src="_assets/libs/docsify-copy-code.js"></script>
 
 <!-- countable -->
 <script>

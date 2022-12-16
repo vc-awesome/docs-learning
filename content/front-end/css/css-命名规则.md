@@ -2,7 +2,9 @@
 
 - http://amazeui.shopxo.net/css/normalize/ - *CSS - Normalize | Amaze UI*
   1. https://meyerweb.com/eric/tools/css/reset/ - *rest.css*
-  1. https://github.com/necolas/normalize.css - *normalize.css*
+     ![](https://flat.badgen.net/badge/Previous%20Versions/V1.0(200802)/blue)
+  2. https://github.com/necolas/normalize.css - *normalize.css*
+     ![GitHub last commit](https://flat.badgen.net/github/last-commit/necolas/normalize.css?icon=github&color=blue)
 
 
 
@@ -16,7 +18,7 @@
 
 视觉框架
 
-- 字体 [link「翻墙访问」](https://xiaomi.github.io/hiui/zh-CN/designs/font#%E5%AD%97%E5%8F%B7%E5%AD%97%E9%98%B6)
+- 字体 https://xiaomi.github.io/hiui/design/font/
   - 字号字阶：主字体大小为14px最佳
   - 字体行高：若字体为14，行高为22，相差为8；若字体为12，行高20；若字体为16，行高为24
 
@@ -30,7 +32,9 @@
 
 https://ant.design/index-cn - *Ant Design*
 
-https://xiaomi.github.io/hiui/zh-CN - *HiUI*
+https://xiaomi.github.io/hiui/ - *HiUI*
+
+↘️ :octocat: https://github.com/XiaoMi/hiui ![GitHub last commit](https://flat.badgen.net/github/last-commit/XiaoMi/hiui?icon=github&color=blue)
 
 https://amazeui.shopxo.net/ - *AmazeUI*
 
@@ -48,7 +52,7 @@ https://dev.dcloud.net.cn/mui/ - *MUI*
 
 ## 开发前看
 
-### html/css 规范
+### HTML/CSS 规范
 
 http://amazeui.shopxo.net/getting-started/html-css/
 
@@ -131,9 +135,9 @@ Amaze UI 中有两个表示状态的 class：
 
 
 
-## layout布局  <i class="ri-fire-line light-red"></i>
+## Layout布局  <i class="ri-fire-line light-red"></i>
 
-### container布局容器
+### Container布局容器
 
 <details>
 <summary><span style="color:red">click to expand ~</span></summary>
@@ -1926,7 +1930,7 @@ list-news-ft列表底部
 
 
 
-## utility辅助类
+## Utility辅助类
 
 ### 水平滚动
 
@@ -2071,7 +2075,7 @@ list-news-ft列表底部
 
 
 
-## css单位
+## CSS单位
 
 英寸1in = 96px 	= 2.54cm
 
@@ -2795,9 +2799,9 @@ Series	系列
 
 方式一
 
-`writing-mode`结合`text-align:center;`或者使用`margin:auto;`
+`writing-mode` 结合 `text-align:center;` 或者使用 `margin:auto;`
 
-https://www.cnblogs.com/gja1026/p/9279818.html
+https://www.cnblogs.com/gja1026/p/9279818.html - *CSS3实现文本垂直排列 - 逆旅wy - 博客园*
 
 
 
@@ -2811,7 +2815,7 @@ https://www.cnblogs.com/gja1026/p/9279818.html
 
 4. position:fixed + :after;
 
-:thumbsup: https://www.cnblogs.com/yugege/p/5246652.html
+:thumbsup: https://www.cnblogs.com/yugege/p/5246652.html - *CSS实现垂直居中的常用方法 - ChessZhang - 博客园*
 
 
 
@@ -2919,7 +2923,9 @@ textarea:-ms-input-placeholder {
 }
 ```
 
-https://www.cnblogs.com/hcxwd/p/9232936.html
+参考：
+
+https://www.cnblogs.com/hcxwd/p/9232936.html - *css3 placeholder字体颜色大小 - 清风晰心 - 博客园*
 
 
 
@@ -2957,26 +2963,47 @@ transform: translateY(-50%);
 
 ### p标签文本内容不自动换行解决方法
 
-使用链接中的内容样式
+> 使用链接中的内容样式
 
-[https://v4.bootcss.com/docs/utilities/text/#%E5%8D%95%E8%AF%8D%E4%B8%AD%E6%96%AD](https://v4.bootcss.com/docs/utilities/text/#单词中断)
+<https://v4.bootcss.com/docs/utilities/text/#文字折行和溢出>
 
+```css
+/* 文字折行 */
+.text-wrap {
+    white-space: normal!important;
+}
+```
 
+```css
+/* 防止文字折行 */
+.text-nowrap {
+    white-space: nowrap!important;
+}
+```
+
+<https://v4.bootcss.com/docs/utilities/text/#单词中断>
+
+```css
+.text-break {
+    word-break: break-word!important;
+    word-wrap: break-word!important;
+}
+```
 
 ### 禁止蒙版下的页面滚动
 
- 
+
 
 参考链接：
 
-https://m.jb51.net/article/191900.htm?ivk_sa=1024320u
+https://m.jb51.net/article/191900.htm - *vue 遮罩层阻止默认滚动事件操作_vue.js_脚本之家*
 
-https://www.jb51.net/article/178246.htm
+https://www.jb51.net/article/178246.htm - *javascript实现蒙版与禁止页面滚动_javascript技巧_脚本之家*
 
-https://ask.dcloud.net.cn/question/64257
+https://ask.dcloud.net.cn/question/64257 - *禁止遮罩下页面滑动 - 知乎*
 
-https://www.cnblogs.com/lymconch/p/11454475.html
+https://www.cnblogs.com/lymconch/p/11454475.html - *遮罩层下禁止页面滚动 - 一只螺 - 博客园*
 
-https://zhuanlan.zhihu.com/p/222584304
+https://zhuanlan.zhihu.com/p/222584304 - *uni-app div蒙版，如何禁止蒙版下的页面滚动？ - DCloud问答*
 
  

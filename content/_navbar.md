@@ -26,7 +26,7 @@
   
 - Essentials
 
-  - [<i class="ri-rocket-line fa-fw"></i> Index](essential/)
+  - [<i class="ri-rocket-2-line fa-fw"></i> Index](essential/)
 
   - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
 
@@ -40,11 +40,11 @@
 
   - [<i class="ri-link"></i> cURL](essential/curl.md)
 
-  - [HTTP](essential/http.md)
+  - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
 
-  - [DNS](essential/?id=dns)
+  - [<i class="ri-questionnaire-line"></i> DNS](essential/?id=dns)
 
-  - [正则表达式](essential/pcre.md)
+  - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
   
 - Front-end
 
@@ -120,7 +120,7 @@
   
 - 🔥 Tools
 
-  - [<i class="ri-rocket-line"></i> Index](/tools/)
+  - [<i class="fa fa-rocket medium-red"></i> Index](/tools/)
 
   - [<i class="ri-search-line"></i> Search](/tools/search.md)
 
