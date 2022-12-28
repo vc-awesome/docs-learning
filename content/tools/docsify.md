@@ -299,7 +299,9 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 ## Awesome
 
-https://github.com/docsifyjs/awesome-docsify/ - *💖 A curated list of awesome things related to docsify*
+https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome things related to docsify*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
 
 ### Showcase
 

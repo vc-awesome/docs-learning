@@ -1,4 +1,4 @@
-## todo
+## TODO
 
 - [ ] [markdown yaml front matter](/tools/markdown)
 - [ ] [github](/tools/github)
@@ -19,7 +19,7 @@
 
 
 
-## skill
+## Skill
 
 - 搜索技巧
   - 知乎话题搜索

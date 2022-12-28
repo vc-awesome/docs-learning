@@ -1,14 +1,16 @@
-## Roadmap
+## 发展路程
 
-?> 前端发展路程
+?> 前端发展路程 Roadmap
 
 
 
-## Learning route
+## 学习路线
 
-?> 学习路线
+?> 学习路线 Learning route
 
-## Learning resource
+## 学习资源
+
+?> Learning resource
 
 优质框架
 

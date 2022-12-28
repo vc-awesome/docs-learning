@@ -1,7 +1,7 @@
 /* 固定导航栏 */
 nav.app-nav {
     margin: 0;
-    padding: 10px 0 10px 0;
+    padding: 11px 0 11px 0;
     width: calc(100% - 325px);
     background-color: var(--background, #fff);
     border-bottom: 1px solid rgba(0,0,0,0.07); /* rgba(0,0,0,0.07) == #eee */
@@ -280,7 +280,8 @@ aside.toc-nav {
   display: none;
 }
 @media only screen and (max-width: 1299px) {
-  aside.toc-nav {
+  /* TOC 无过渡效果 -start */
+  /*aside.toc-nav {
       display: none;
   }
   .toc-nav-hover {
@@ -288,7 +289,29 @@ aside.toc-nav {
       max-width: inherit!important;
       opacity: 1!important;
       border: 1px solid rgba(0,0,0,0.07)
+  }*/
+  /* TOC 无过渡效果 -end */
+  /* TOC 过渡效果 -start */
+  aside.toc-nav {
+    display: block;
+    transition-delay: 0s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    transition-property: right;
   }
+  aside.toc-nav {
+    right: -1000px !important;
+  }
+  aside.toc-nav.toc-nav-hover {
+    right: 0 !important;
+    
+    display: block!important;
+    max-width: inherit!important;
+    opacity: 1!important;
+    border: 1px solid rgba(0,0,0,0.07)
+  }
+  /* TOC 过渡效果 -end */
+
   .toc-toggle {
       display: block;
       font-size: 12px;
@@ -317,6 +340,27 @@ aside.toc-nav {
       left: 20px;
       opacity: 0.8;
   }
+}
+.toc-toggle {
+    font-size: 12px;
+    text-align: center;
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    bottom: -100px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    left: 30px;
+    opacity: 1;
+    padding: 3px 9px;
+    position: fixed;
+    transition-property: bottom;
+    z-index: 1300;
+    width: initial;
+}
+.toc-toggle.toc-toggle-on {
+    bottom: 45px;
 }
 .toc-toggle {
   left: auto;

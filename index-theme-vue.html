@@ -39,6 +39,7 @@
 
   <script id="hexo-configurations">
     var NexT = window.NexT || {};
+    var CONFIG = {"sidebar": {"position": "right"}};
   </script>
 
   <style>
@@ -56,7 +57,72 @@
 <body>
 <div id="app"></div>
 
-<div class="toc-toggle" style="min-width: 50px;">📚 🤔</div>
+
+<style>
+  /*TOC*/
+  .toc-toggle .toggle-line {
+    background: #fff;
+    display: inline-block;
+    height: 2px;
+    left: 0;
+    position: relative;
+    top: 0;
+    transition: all 0.4s;
+    vertical-align: top;
+    width: 100%;
+  }
+  .toc-toggle .toggle-line:not(:first-child) {
+    margin-top: 3px;
+  }
+  .toc-toggle.toggle-arrow .toggle-line-first {
+    top: 2px;
+    transform: rotate(-45deg);
+    width: 50%;
+  }
+  .toc-toggle.toggle-arrow .toggle-line-middle {
+    width: 90%;
+  }
+  .toc-toggle.toggle-arrow .toggle-line-last {
+    top: -2px;
+    transform: rotate(45deg);
+    width: 50%;
+  }
+  .toc-toggle.toggle-close .toggle-line-first {
+    top: 5px;
+    transform: rotate(-45deg);
+  }
+  .toc-toggle.toggle-close .toggle-line-middle {
+    opacity: 0;
+  }
+  .toc-toggle.toggle-close .toggle-line-last {
+    top: -5px;
+    transform: rotate(45deg);
+  }
+  .toc-sidebar-toggle {
+    background: #222;
+    /*bottom: 45px;*/
+    cursor: pointer;
+    height: 24px;
+    left: auto;
+    /*right: 30px;*/
+    padding: 5px;
+    position: fixed;
+    width: 24px;
+    z-index: 1300;
+    line-height: 0;
+    text-align: left;
+  }
+  .toc-sidebar-toggle:hover .toggle-line {
+   background: #87daff;
+ }
+</style>
+<div class="toc-toggle toc-sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+<!-- <div class="toc-toggle" style="min-width: 50px;">📚🔻</div> -->
 <!--返回顶部 method-2-->
 <link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
 <div class="back-to-top">
@@ -203,6 +269,7 @@
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/libs/back2top/js/utils.js"></script>
 <script src="_assets/libs/back2top/js/next-boot.js"></script>
+<script src="_assets/libs/back2top/js/muse.js"></script>
 
 
 <!-- CDN unpkg -->
@@ -257,9 +324,9 @@
   }
   window.setInterval(go, 1000);*/
 
-  // document.querySelector('code').addEventListener('click', (e) => {
-  //   console.log(e);
-  // })
+  /*document.querySelector('code').addEventListener('click', (e) => {
+    console.log(e);
+  })
 
   let ObjStatus = document.querySelector('.toc-toggle')
   document.addEventListener('click', (e) => {
@@ -268,7 +335,7 @@
       if (!e.path.includes(t)) {
         document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t));
 
-        document.querySelector('.toc-toggle').innerText = "📚 🤔";
+        document.querySelector('.toc-toggle').innerText = "📚🔻";
         // ObjStatus.innerHTML = '事件触发情况：触发'
       } else {
         // ObjStatus.innerHTML = '事件触发情况：未触发'
@@ -279,13 +346,24 @@
     // console.log(e, document.querySelector('.toc-nav-hover'));
 
     if (!document.querySelector('.toc-nav-hover')) {
-      document.querySelector('.toc-toggle').innerText = "📖 🥳";
+      document.querySelector('.toc-toggle').innerText = "📖🔺";
     } else {
-      document.querySelector('.toc-toggle').innerText = "📚 🤔";
+      document.querySelector('.toc-toggle').innerText = "📚🔻";
     }
     
     document.querySelector('.toc-nav').classList.toggle('toc-nav-hover');
-  });
+  });*/
+  window.$docsify.plugins.push(// 
+    function(hook, vm) {
+      hook.doneEach(function() {
+        setTimeout(function(){
+          // console.log(document.getElementsByClassName('lv2').length, document.querySelector('.toc-toggle'))
+            document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
+        }, 1);
+      });
+    },
+  )
+  
   window.$docsify.toc = {
     tocMaxLevel: 5,
     target: 'h1, h2, h3, h4, h5, h6'

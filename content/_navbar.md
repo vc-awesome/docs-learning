@@ -14,7 +14,7 @@
   
   - <hr>
   
-  - [<i class="fa fa-list-ul fa-fw"></i> Toc](/home/toc)
+  - [<i class="fa fa-list-ul fa-fw"></i> TOC](/home/toc)
   
   - [<i class="fa fa-smile-o fa-fw"></i> Emoji](/home/emoji.md)
   
@@ -151,4 +151,3 @@
   - <hr />
 
   - [<i class="ri-stack-fill"></i> TechStack](/tech-stack/ "技术栈")
-  
