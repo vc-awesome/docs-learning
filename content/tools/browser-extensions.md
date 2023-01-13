@@ -60,6 +60,7 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 12. [Jisū](#jisu)
 13. [Google 翻译](#google-translate)
 14. [Proxy SwitchyOmega](#proxy-switchyomega)
+14. [Clipboard Helper](#clipboard-helper)
 
 
 
@@ -155,7 +156,7 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
   - https://microsoftedge.microsoft.com/addons/detail/jis%C5%AB/bbclbgdgnkggbgnknlppkkgghfemliap
   - https://github.com/ikamonster/jisu
 
-- Clipboard Helper - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
+- ✅ [Clipboard Helper](#clipboard-helper ':id=clipboard-helper') - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
 
   - https://www.crxsoso.com/webstore/detail/meljmedplehjlnnaempfdoecookjenph
 

@@ -80,8 +80,6 @@ https://www.zhihu.com/question/20434889/answer/1035109307 - *chrome浏览器书�
 
 https://www.howtogeek.com/423917/how-to-get-the-most-out-of-the-chrome-bookmarks-bar/ - *How to Get the Most Out of the Chrome Bookmarks Bar*
 
-----
-
 ### Bookmarklet
 
 > JavaScript 脚本书签

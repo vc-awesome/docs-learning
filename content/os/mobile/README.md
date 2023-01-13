@@ -3,8 +3,8 @@
 ### Google Play Store
 
 <i class="ri-android-line"></i>
-<i class="bi bi-ladder"></i>
-https://play.google.com/store/apps :us:
+🪜
+https://play.google.com/store/apps - *Google Play 上的 Android 应用*
 
 
 #### Online Download
@@ -48,7 +48,12 @@ https://f-droid.org/zh_Hans/packages/dnsfilter.android/
 <i class="fa fa-github"></i>
 https://github.com/IngoZenz/personaldnsfilter ![GitHub last commit](https://badgen.net/github/last-commit/IngoZenz/personaldnsfilter?icon=github&color=blue)
 
-Website: https://www.zenz-solutions.de/personaldnsfilter-wp/
+Website:
+
+1. https://www.zenz-solutions.de/personaldnsfilter-wp/ - *personalDNSfilter | Zenz Solutions | adblocker & privacy protection*
+2. https://www.zenz-solutions.de/help/ - *personalDNSfilter help | Zenz Solutions*
+
+<br/>
 
 > [!TIP]
 > Android platform: XiaoMi + personalDNSfilter`V1.50.51.0` + Opera`V68.3.3557.64528` = VPN
@@ -79,6 +84,10 @@ https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
 <i class="fa fa-gitlab medium-orange"></i>
 https://gitlab.com/spacecowboy/Feeder
 ![GitLab Release (by release name)](https://img.shields.io/gitlab/v/release/spacecowboy/Feeder?include_prereleases&logo=gitlab)
+
+### 小米应用商店
+
+https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应用商店*
 
 ### App Store
 

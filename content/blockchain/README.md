@@ -1,16 +1,16 @@
-## link
+## Link
 
 https://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html - *区块链入门教程 - 阮一峰的网络日志*
 
 
 
-## todo :memo:
+## Todo
 
 开发手册（开发者中心）
 
 区块浏览器
 
-## networks-节点
+## Networks-节点
 
 ?> RPC 节点
 
@@ -30,13 +30,13 @@ https://www.ruanyifeng.com/blog/2017/12/blockchain-tutorial.html - *区块链入
 
 
 
-### public
+### Public
 
 https://chainlist.org/zh 👍 - *Chainlist 是 EVM 网络的列表。 用户可以使用这些信息将他们的钱包和 Web3 中间件提供商连接到适当的Chain ID 和网络 ID，以连接到正确的链。*
 
 - https://github.com/DefiLlama/chainlist
 
-### ethereum
+### Ethereum
 
 https://www.learnblockchain.cn/article/1792 - *以太坊可用RPC节点列表*
 
@@ -52,7 +52,7 @@ https://blog.csdn.net/fangdengfu123/article/details/82621537 - *使用infura 提
 
 
 
-### binance
+### Binance
 
 https://docs.pancakeswap.finance/get-started/connection-guide :us: - *Connect Your Wallet to PancakeSwap - PancakeSwap*
 
@@ -89,15 +89,15 @@ https://docs.pancakeswap.finance/get-started/connection-guide :us: - *Connect Yo
 
 
 
-## web3
+## Web3
 
-### javascript
+### Javascript
 
 https://github.com/ChainSafe/web3.js - *Ethereum JavaScript API*
 
 Web3.js API 中文文档 https://web3.tryblockchain.org/index.html
 
-### php
+### PHP
 
 https://github.com/web3p/web3.php - *A php interface for interacting with the Ethereum blockchain and ecosystem. Native ABI parsing and smart contract interactions.*
 
@@ -105,19 +105,19 @@ https://github.com/sc0Vu/web3.php - *This repository should be archived in the f
 
 
 
-## smart contract
+## Smart contract
 
 > 智能合约
 
 
 
-## github
+## GitHub
 
 https://github.com/iexbase :us: - *A decentralized application and tool venture production studio*
 
 
 
-## platform
+## Platform
 
 ### 交易平台
 
@@ -150,29 +150,42 @@ Tokenview https://tokenview.com/ :cn: :us: - *区块链浏览器|以太坊浏览
 
 #### 非小号
 
-官网：https://www.feixiaohao.co/ :cn: - *非小号 - 比特币行情价格_专注数字货币行业大数据分析*
+官网：
+
+1. https://www.feixiaohao.co/ :cn: - *非小号 - 比特币行情价格_专注数字货币行业大数据分析*
+
+2. https://www.feixiaohao.com
+
+3. https://www.feixiaohaozh.info/ - *非小号 - 比特币行情价格_专注数字货币行业大数据分析*
+4. https://m.feixiaohaopro.info/ - *非小号 - 比特币行情价格_专注数字货币行业大数据分析*
+
+客户端
+
+1. 🪜 [Android - Google Play Store](https://play.google.com/store/apps/details?id=com.feixiaohao)
 
 
 
-## dapp
+## Dapp
 
 👀 
 
-https://dontbuymeme.com/
+~~https://dontbuymeme.com/~~
 
-https://p.td/
+https://p.td/ - *Pilot*
 
-https://biswap.org/
+~~https://biswap.org/~~
 
-https://ido.parrot.fi/
+https://ido.parrot.fi/ - *Parrot Protocol IDO*
 
-https://cryptomines.app/
+https://cryptomines.app/ - *CryptoMines Reborn | Sci-Fi Play to Earn on BNB Chain*
 
-https://www.yuga.com/
+https://www.yuga.com/ - *Welcome to Yuga Labs, Home of BAYC, MAYC, Otherside, Cryptopunks, and Meebits*
+
+https://asphalt9.info/ - *Asphalt 9 Legends Database - All about Asphalt 9 Legends*
 
 
 
-## glossary ✨
+## Glossary ✨
 
 👍 以太坊词汇表 https://ethereum.org/zh/glossary/
 
@@ -212,7 +225,7 @@ https://ethereum.org/zh/developers/docs/gas/
 
 
 
-## develop
+## Develop
 
 ?> api
 

@@ -119,35 +119,35 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 ### 回到顶部
 
-- plugin
-  - https://gitee.com/zhengxiangqi/docsify-scroll-to-top
-- showcase
+- Plugin
+  - https://gitee.com/zhengxiangqi/docsify-scroll-to-top - *docsify-scroll-to-top: 基于Docsify的页面滚动回顶部的插件*
+- Showcase
   - https://www.itfanr.cc/ - *IT范儿*
     - https://theme-next.org/ - *Home Page | Theme-Next*
 
 ### 添加页脚
 
-- plugin
+- Plugin
   - <https://docsify.js.org/#/zh-cn/write-a-plugin?id=例子>
 
 ### 全文搜索
 
-- plugin
+- Plugin
   - <https://docsify.js.org/#/zh-cn/plugins?id=全文搜索-search>
 
 ### 字数统计
 
-- plugin
+- Plugin
   - <https://docsify.js.org/#/zh-cn/plugins?id=字数统计>
 
 ### 复制到剪贴板/复制代码
 
-- plugin
+- Plugin
   - <https://docsify.js.org/#/zh-cn/plugins?id=复制到剪贴板>
 
 ### 评论系统
 
-- plugin
+- Plugin
 
   - disqus https://docsify.js.org/#/zh-cn/plugins?id=disqus
 
@@ -156,7 +156,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 ### 当前文档最近修改/更新时间
 
-- showcase
+- Showcase
 
   - https://tainacan.github.io/
 
@@ -166,42 +166,43 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 ### 评分
 
-- showcase
+- Showcase
   - https://lhammer.cn/You-need-to-know-css/#/
 
 ### 切换主题（白天/夜间模式切换）
 
-- showcase
-  - https://bytesfly.github.io/island/#/
+- Showcase
+  - https://bytesfly.github.io/island/#/ - *侠客岛*
 
-- plugin
+- Plugin
   - 👍 https://jhildenbiddle.github.io/docsify-themeable/#/themes?id=defaults - *docsify-themeable - A delightfully simple theme system for docsify.js*
+  - https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode - *docsify-plugin/packages/docsify-dark-mode at master · Plugin-contrib/docsify-plugin · GitHub* `使用中`
 
 ### 鼠标点击特效
 
-- showcase
-  - https://notebook.js.org/#/
+- Showcase
+  - https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
 
 ### 目录 TOC
 
--  plugin
+-  Plugin
 
   - 👍 https://github.com/justintien/docsify-plugin-toc - *page's ToC (Table of Content) for docsify.*
 
-  - https://github.com/mrpotatoes/docsify-toc
+  - https://github.com/mrpotatoes/docsify-toc - *GitHub - mrpotatoes/docsify-toc: docsify-toc*
 
-- showcase
+- Showcase
   - 👍 https://tainacan.github.io/tainacan-wiki/
     - 👍 https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
 ### 目录结构
 
-- showcase
+- Showcase
   - https://xflihaibo.github.io/docs/#/standard/standard - *书写规范 - 幸福拾荒者*
 
 ### Flexible Alerts 🎁
 
-- plugin
+- Plugin
 
   - https://github.com/fzankl/docsify-plugin-flexible-alerts - *docsify plugin to convert blockquotes into beautiful and configurable alerts using preconfigured or own styles and alert types.*
 
@@ -250,24 +251,24 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 ### Page title 🎁
 
-- plugin
+- Plugin
   - https://github.com/Sujaykumarh/docsify-plugin-title - *🔌 Docsify plugin customize page title*
 
 ### 分享
 
-- showcase
+- Showcase
   - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
 ### Emoji
 
-- plugin
+- Plugin
   - https://github.com/TaQini/docsify-twemoji - *parse all emoji in style of twitter emoji for docsify*
 
 ### Tabs（标签页）
 
-- plugin
+- Plugin
 
-  - https://github.com/jhildenbiddle/docsify-tabs
+  - https://github.com/jhildenbiddle/docsify-tabs - *GitHub - jhildenbiddle/docsify-tabs: A docsify.js plugin for rendering tabbed content from markdown*
 
   - https://jhildenbiddle.github.io/docsify-themeable/#/markdown
 
@@ -293,7 +294,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 ### Accordion（手风琴） 🎁
 
-- plugin
+- Plugin
   - https://github.com/isaozler/docsify-accordion - *Accordion plugin for docsify*
 
 
@@ -307,19 +308,19 @@ https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome t
 
 👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
 
-http://note.taqini.space/
+~~http://note.taqini.space/~~
 
-https://xflihaibo.github.io/docs/#/
+https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
 
-https://bytesfly.github.io/island/#/
+https://bytesfly.github.io/island/#/ - *侠客岛*
 
-https://docs.saasify.sh/#/
+~~https://docs.saasify.sh/#/~~
 
-https://tainacan.github.io/tainacan-wiki/#/
+https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
 
-https://lhammer.cn/You-need-to-know-css/#/
+https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
 
-https://vueblocks.github.io/ve-charts/#/
+https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
 
 
 

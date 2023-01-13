@@ -2,7 +2,7 @@
 
 ### GitHub
 
-1. :octocat:搜索：*免费 ss*
+1. :octocat: 搜索：*免费 ss*
 2. https://github.com/topics/vpn
 
 👍 https://github.com/freefq
@@ -18,7 +18,7 @@ https://github.com/anaer/Sub - *自用clash订阅链接*
 ![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
 
 
-### others
+### Others
 
 https://www.zyskys.com/posts/60593.html - *手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等*
 
@@ -76,7 +76,7 @@ https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 
 🪜 👍 https://free-ss.site/ - *免费上网账号*
 
 
-### v2ray 🔥
+### V2Ray 🔥
 
 ?> A platform for building proxies to bypass network restrictions.
 
@@ -100,7 +100,7 @@ https://www.v2ray.com/ :cn: :uk:
 https://toutyrater.github.io/
 
 
-### shadowsocks 🔥
+### Shadowsocks 🔥
 
 ?> shadowsocks is a fast tunnel proxy that helps you bypass firewalls
 
@@ -112,19 +112,25 @@ https://github.com/shadowsocks /
 https://shadowsocks.org/
 
 <i class="fa fa-windows"></i>
-https://github.com/HMBSbige/ShadowsocksR-Windows
+https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/ShadowsocksR-Windows?color=blue&logo=github&style=flat-square)
 
 
 
-### clash
+### Clash
 
 <i class="fa fa-windows"></i>
 <i class="fa fa-apple"></i>
 <i class="fa fa-linux"></i>
-https://github.com/Fndroid/clash_for_windows_pkg
+https://github.com/Fndroid/clash_for_windows_pkg - *A Windows/macOS GUI based on Clash*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Fndroid/clash_for_windows_pkg?color=blue&logo=github&style=flat-square)
 
 <i class="fa fa-apple"></i>
 https://github.com/yichengchen/clashX
+
+![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
 
 
 ### personalDNSfilter 🔥
@@ -132,7 +138,7 @@ https://github.com/yichengchen/clashX
 [personalDNSfilter](/os/mobile/?id=personaldnsfilter)
 
 
-### tor
+### Tor
 
 <i class="fa fa-search"></i> *torbrowser*
 
@@ -141,22 +147,22 @@ https://github.com/yichengchen/clashX
 <i class="fa fa-linux"></i>
 <i class="fa fa-android"></i>
 <i class="bi bi-ladder"></i>
-https://www.torproject.org/zh-CN/
+https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 <i class="fa fa-github"></i>
 https://github.com/TheTorProject/gettorbrowser
 
-http://t-browser.sourceforge.net/
+https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
 
 ## Browser
 
-### addons / extensions
+### Addons / Extensions
 
 <i class="fa fa-chrome"></i>
 <i class="fa fa-firefox"></i>
 <i class="fa fa-edge"></i> 
 <i class="fa fa-shopping-cart"></i>
-http://googlehelper.net/
+http://googlehelper.net/ - *Google Helper*
 
 
 
@@ -180,7 +186,7 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
 
 
-### search engines 💪
+### Search engines 💪
 
 👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml
 
@@ -190,7 +196,11 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
 ?> `代理自动配置（Proxy auto-config，简称PAC）` 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
 
-https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here* ![GitHub last commit](https://flat.badgen.net/github/last-commit/gfwlist/gfwlist?icon=github&color=blue)
+https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
 
-https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday* ![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
+![GitHub last commit](https://flat.badgen.net/github/last-commit/gfwlist/gfwlist?icon=github&color=blue)
+
+https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
 

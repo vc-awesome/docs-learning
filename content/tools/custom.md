@@ -1,5 +1,3 @@
-## 生成（GitHub）徽章
-
 <script>
   new Vue({
     el: '#app1',
@@ -45,6 +43,9 @@
           copied: "el-icon-check",
         },
         command: "",
+
+        // 
+        url: "https://element.eleme.cn/",
       }
     },
     created: function() {
@@ -61,7 +62,7 @@
           console.log(e)
         })
       },
-      handleCommand(command) {
+      handleCommand(command, url = '') {
         const _that = this;
         if (command == "a") {
           const text = "![GitHub last commit](" + _that.image.src_1 + ")";
@@ -105,6 +106,14 @@
             alert('Can not copy')
             console.log(e)
           })
+        } else if (command == "d") {
+          _that.$copyText(url).then(function (e) {
+            // _that.$message({message: 'URL Copied', type: 'success'});
+            console.log(e)
+          }, function (e) {
+            alert('Can not copy')
+            console.log(e)
+          })
         }
         _that.command = command;
         _that.is_tooltip = true;
@@ -122,11 +131,11 @@
 
           _that.image.src_1 = _that.alert.title_1 = "https://img.shields.io/github/last-commit" + url.pathname +"?color=blue&logo=github&style=flat-square";
           _that.image.src_2 = _that.alert.title_2 = "https://flat.badgen.net/github/last-commit" + url.pathname +"?icon=github&color=blue";
-
+    
           _that.alert.type_1 = "success";
           _that.alert.type_2 = "warning";
           _that.dropdown.disabled = false;
-          // console.log(url);
+          console.log(url);
           // console.log('submit!');
         }
         catch(err) {
@@ -159,14 +168,34 @@
         console.log(textPlain)
         this.onSubmit();
         return { textHtml, textPlain }
-      }
+      },
+      async getClipboardText2() {
+        const clipboardItems = await window.navigator.clipboard.read()
+        let textHtml, textPlain
+        for (const clipboardItem of clipboardItems) {
+          for (const type of clipboardItem.types) {
+            const item = await clipboardItem.getType(type)
+            if (item && item.type === 'text/html') {
+              textHtml = await item.text()
+            }
+            if (item && item.type === 'text/plain') {
+              textPlain = await item.text()
+            }
+          }
+        }
+        this.url = textPlain;
+        console.log(url);
+        return { textHtml, textPlain };
+      },
     }
   })
 </script>
 
-<output data-lang="output">
+<div id="app1">
 
-  <div id="app1">
+## 生成 GitHub 徽章
+
+  <output data-lang="output">
     <!-- <el-form :inline="true" :model="formInline" class="demo-form-inline" size="medium">
       <el-form-item label="">
       	<el-input v-model="message" placeholder="请输入内容" clearable autocomplete="on">
@@ -265,9 +294,7 @@
         </el-dropdown-menu>
       </el-dropdown>
     </p> -->
-  </div>
-
-</output>
+  </output>
 
 参考链接
 
@@ -275,3 +302,28 @@
 2. https://docsify.js.org/#/vue - *Vue compatibility*
 3. https://element.eleme.cn/#/zh-CN - *Element - 网站快速成型工具*
 4. https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
+
+
+## 输入 URL 获取页面标题
+
+  <output data-lang="output">
+    <iframe :src="url" id="iframe2"></iframe>
+    <el-input v-model="url" placeholder="请输入内容" clearable autocomplete="on" size="medium" @clear="getClipboardText2">
+      <div slot="prepend">
+        <el-button-group>
+          <el-button type="info" :icon="command=='d' ? button_icon.copied : button_icon.uncopy" plain @click="handleCommand('d', 'view-source:' + url)" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';"></el-button><i class="fa fa-github el-input__icon" slot="prefix"></i>
+        </el-button-group>
+      </div>
+      <!-- <el-button slot="append" icon="el-icon-search" type="primary" @click="onSubmit2"></el-button> -->
+    </el-input>
+    <br/>
+    <br/>
+    <el-alert
+      :title="'view-source:' + url"
+      type="info"
+      :closable="false"
+      show-icon>
+    </el-alert>
+  </output>
+
+</div>

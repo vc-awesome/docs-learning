@@ -45,12 +45,17 @@ BootCDN：https://www.bootcdn.cn/bignumber.js/
 
 ### Ajax-hook.js
 
-GitHub：https://github.com/wendux/Ajax-hook - *Intercepting browser's http requests which made by XMLHttpRequest.*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/wendux/Ajax-hook?icon=github&color=blue)
 
+GitHub：https://github.com/wendux/Ajax-hook - *Intercepting browser's http requests which made by XMLHttpRequest.*
 
 ### Axios.js
 
-Website：https://axios-http.com/
+![GitHub last commit](https://img.shields.io/github/last-commit/axios/axios?color=blue&logo=github&style=flat-square)
+
+Website：https://axios-http.com/ - *Axios*
+
+Website：https://axios-http.com/zh/
 
 GitHub：https://github.com/axios/axios - _Promise based HTTP client for the browser and node.js_
 

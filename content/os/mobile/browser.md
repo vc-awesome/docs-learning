@@ -5,9 +5,9 @@
 
 > Open-Source
 
-https://kiwibrowser.com/
+https://kiwibrowser.com/ - *Home - Kiwi Browser*
 
-https://github.com/kiwibrowser
+https://github.com/kiwibrowser - *kiwibrowser (Kiwi Browser) · GitHub*
 
 - [x] 屏蔽广告
 - [x] 扩展程序
@@ -18,7 +18,7 @@ https://github.com/kiwibrowser
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 
-https://browser.yandex.com/
+https://browser.yandex.com/ - *Download Yandex Browser*
 
 - 屏蔽广告
 - 扩展程序
@@ -62,7 +62,7 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 ![](https://badgen.net/f-droid/v/com.duckduckgo.mobile.android?icon=f-droid)
 
-https://duckduckgo.com/ 🧱
+🧱 https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
 
 - 隐私保护
   - 无历史记录
@@ -81,7 +81,7 @@ https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快�
 ## Chrome
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 
-https://www.google.com/chrome/
+https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 
 - 同步
 - 🧱
@@ -96,6 +96,8 @@ https://browser.qq.com/ - *QQ浏览器官网_手机浏览器_电脑浏览器_*
 
 ## 小米浏览器
 
+http://app.xiaomi.com/detail/105559 - *小米浏览器-保护隐私安全上网*
+
 - 资源嗅探
 
 
@@ -106,7 +108,19 @@ https://browser.qq.com/ - *QQ浏览器官网_手机浏览器_电脑浏览器_*
 ![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
 
 
-https://freebrowser.org/ 🧱
+🧱 https://freebrowser.org/ - *免费下载自由浏览 app，了解墙外最新资讯*
 
 https://github.com/greatfire/wiki
 
+## 狐猴浏览器 ✅
+
+https://lemurbrowser.com/app/zh/ - *狐猴浏览器*
+
+- [ ] 屏蔽广告
+- [x] 扩展程序
+- [x] 多语言
+- [ ] 翻译
+- [ ] 🪜
+- [ ] 账号同步
+- [ ] 隐私保护
+- [ ] 资源嗅探

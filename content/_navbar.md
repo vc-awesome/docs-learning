@@ -42,7 +42,7 @@
 
   - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
 
-  - [<i class="ri-questionnaire-line"></i> DNS](essential/?id=dns)
+  - [<i class="ri-questionnaire-line"></i> DNS](essential/dns.md)
 
   - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
   
@@ -102,7 +102,7 @@
 
   - [<i class="icon octicon-file mongodb-icon dark-green fa-fw"></i> MongoDB](/database/mongodb.md)
   
-- OS
+- 🔥 OS
 
   - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](/os/)
   
@@ -112,30 +112,30 @@
   
   - [<i class="fa fa-apple fa-fw"></i> Mac](/os/mac/)
   
-  - <hr />
-  
   - [<ion-icon name="phone-portrait-outline" class="fa-fw"></ion-icon> Mobile](/os/mobile/)
   
-  - [<i class="fa fa-wrench fa-fw"></i> Tools](/tools/)
+  - 
   
-- 🔥 Tools
-
+    <hr />
+  
+  - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools"><i class="fa fa-wrench fa-fw"></i> Tools</i></strong>
+  
   - [<i class="fa fa-rocket medium-red"></i> Index](/tools/)
-
+  
   - [<i class="ri-search-line"></i> Search](/tools/search.md)
-
+  
   - [<i class="ri-apps-line medium-purple"></i> PC Tools](/tools/应用工具.md)
-
+  
   - [<i class="ri-cloud-line"></i> Web Tools](/tools/online.md "在线工具")
-
+  
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](/tools/vpn.md)
-
+  
   - [<i class="ri-earth-line medium-green"></i> Browser](/tools/browser.md "浏览器")
-
+  
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](/tools/browser-extensions)
-
+  
   - [![](http://docsify.js.org/_media/favicon.ico ':size=14') Docsify](/tools/docsify.md)
-
+  
   - [<ion-icon name="hammer-outline"></ion-icon> Custom](/tools/custom)
   
 - More

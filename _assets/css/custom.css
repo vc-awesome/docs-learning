@@ -3,8 +3,13 @@ nav.app-nav {
     margin: 0;
     padding: 11px 0 11px 0;
     width: calc(100% - 325px);
-    background-color: var(--background, #fff);
-    border-bottom: 1px solid rgba(0,0,0,0.07); /* rgba(0,0,0,0.07) == #eee */
+    background-color: var(--docsify_dark_mode_bg, #fff);
+    /*border-bottom: 1px solid rgba(0,0,0,0.07);*/
+    /* rgba(0,0,0,0.07) == #eee */
+    border-bottom: 1px solid rgb(180 180 180 / 30%);
+}
+nav.app-nav li:hover ul {
+    z-index: 1;
 }
 body.sticky nav.app-nav {
     position: fixed;
@@ -13,6 +18,20 @@ nav.app-nav i,
 nav i {
     margin-right: 0!important;
 }
+/*列表中间间隔线 -start*/
+.app-nav>ul>li:after {
+    content: '';
+    background-color: rgba(180,180,180,.3);
+    width: 1px;
+    position: absolute;
+    top: 10px;
+    right: -15px;
+    bottom: 10px;
+}
+.app-nav>ul>li:last-child:after {
+    content: none;
+}
+/*列表中间间隔线 -end*/
 
 /* 自定义侧边栏 */
 aside.sidebar ul.app-sub-sidebar li.active {
@@ -212,7 +231,8 @@ hr {
     margin: 5px 0;
     padding: 0;
     border: none!important;
-    border-bottom: 1px solid #eee!important;
+    /*border-bottom: 1px solid #eee!important;*/
+    border-bottom: 1px solid rgba(180, 180, 180, .3)!important;
     clear: both;
     overflow: hidden;
     background: 0 0;
@@ -301,14 +321,15 @@ aside.toc-nav {
   }
   aside.toc-nav {
     right: -1000px !important;
+    background: var(--docsify_dark_mode_bg, #fff);
   }
   aside.toc-nav.toc-nav-hover {
-    right: 0 !important;
+    right: -1px !important;
     
     display: block!important;
     max-width: inherit!important;
     opacity: 1!important;
-    border: 1px solid rgba(0,0,0,0.07)
+    border: 1px solid rgb(180 180 180 / 30%);
   }
   /* TOC 过渡效果 -end */
 
@@ -378,9 +399,10 @@ aside.toc-nav {
 [class^=line]:before {
   content: "";
   position: absolute;
-  bottom: 0px;
-  top: -1px;
-  border-left: 1px dotted #bbb;
+  bottom: 0;
+  top: 0;
+  /*border-left: 1px dotted #bbb;*/
+  border-left: 1px solid rgb(180 180 180 / 30%);
   /* background-color: yellow; */
 }
 .line2:before {

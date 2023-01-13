@@ -18,7 +18,7 @@
     }
   </style>
   <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
-  <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/dark.css" title="dark"/>
+  <!-- <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/dark.css" title="dark"/> -->
   <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -29,6 +29,22 @@
   <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
+  <!-- 切换主题 -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
+  <style>
+    .search {
+      border-bottom: 1px solid rgb(180 180 180 / 30%)!important;
+    }
+    .search input {
+      background-color: var(--docsify_dark_mode_bg, #fff);
+    }
+    @media screen and (max-width: 768px) {
+      body.close .sidebar-toggle {
+        background: var(--docsify_dark_mode_bg, #fff);
+        opacity: .8;
+      }
+    }
+  </style>
 
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/favicon-docsify.ico">
@@ -174,6 +190,7 @@
     // homepage: '/home/README.md', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用
 
     // themeColor: '#3c78eb', // 主题颜色
+    themeColor: '#42b983',
 
     name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ', // 文档标题，会显示在侧边栏顶部。
 
@@ -428,6 +445,27 @@
 <script src="//unpkg.com/element-ui/lib/index.js"></script>
 
 <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
+
+<!-- 切换主题 -->
+<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
+<script>
+  window.$docsify.darkMode = {
+    dark: {
+      // background: "#1c2022",
+      background: "#091a28",
+      toggleBtnBg: "#34495e",
+      textColor: "#b4b4b4"
+    },
+    light: {
+      background: "white",
+      toggleBtnBg: "var(--theme-color)",
+      // textColor: "var(--theme-color)",
+      textColor: "#34495e"
+    }
+  }
+  // ...
+
+</script>
 
 </body>
 </html>

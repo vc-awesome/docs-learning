@@ -5,13 +5,11 @@
 https://developer.mozilla.org/zh-CN/docs/Web/HTTP
 
 
-## https
+## HTTPS
 
 👍 https://www.cnblogs.com/qlongbg/p/12074016.html - _关于http与https_
 
-
-
-## ssl
+## SSL
 
 ?> （Secure Sockets Layer 安全套接字协议），及其继任者传输层安全（Transport Layer Security，TLS）是为网络通信提供安全及数据完整性的一种安全协议。TLS与SSL在传输层与应用层之间对网络连接进行加密。
 
@@ -44,7 +42,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP
 
 
 
-## link <i class="ri-link"></i>
+## Link
 
 👍 https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
 
