@@ -1,4 +1,4 @@
-## windows 官方
+## Windows 官方
 
 Website：https://www.microsoft.com/zh-cn/
 
@@ -10,7 +10,7 @@ Download：https://www.microsoft.com/zh-cn/download
 
 微软官方商城：https://www.microsoftstore.com.cn/
 
-## windows 系统
+## Windows 系统
 
 https://www.microsoft.com/zh-cn/software-download - *软件下载*
 
@@ -48,13 +48,13 @@ https://www.xitongbuluo.com/jiaocheng/58592.html - *Win10易升需要联系管�
 
 https://www.bilibili.com/video/av549495977 - *【更5】若要升级Windows Server 或企业版，请联系系统管理员ltsb ltsc2018 2019 win10系统更新升级失败哔哩哔哩bilibili*
 
-## windows 下载加速
+## Windows 下载加速
 
 https://www.maxiaobang.com/12017.html - *教你在微软官网不限速下载Windows原版系统镜像文件！ | 马小帮*
 
 - 复制下载链接，打开迅雷下载即可加速
 
-## windows microsoft store
+## Windows Microsoft Store
 
 https://apps.microsoft.com/store/apps - *Microsoft 应用程序*
 
@@ -72,13 +72,13 @@ https://www.xitongcheng.com/jiaocheng/win10_article_71916.html - *win10微软商
 
 https://jingyan.baidu.com/article/a24b33cd682ebf58fe002be5.html - *如何卸载在Microsoft store安装的软件-百度经验*
 
-## windows help
+## Windows Help
 
 https://www.winhelponline.com/ :us: - *Winhelponline » Windows Help, How-Tos, and Tech Reviews*
 
 https://www.thewindowsclub.com/ :us: - *Windows 11/10 Tips, Tricks, Help, Support, Downloads, Features*
 
-## windows 运行
+## Windows 运行
 
 https://baike.baidu.com/item/%E8%BF%90%E8%A1%8C/13132909 - *运行（Windows组成部分）_百度百科*
 
@@ -110,7 +110,7 @@ https://baike.baidu.com/item/%E8%BF%90%E8%A1%8C/13132909 - *运行（Windows组�
 
   对应路径：C:\WINDOWS\system32
 
-## windows bat 脚本
+## Windows bat 脚本
 
 https://baike.baidu.com/item/bat/365230 - *bat （批处理文件类型）*
 
@@ -140,7 +140,7 @@ https://blog.csdn.net/qq_26226375/article/details/122882619/ - *windows bat脚�
 
      https://jingyan.baidu.com/article/3a2f7c2ec7bbfb26afd61112.html - *bat程序连续执行不能退出关闭及其妙用*
 
-## windows powershell
+## Windows PowerShell
 
 > PowerShell for every system!
 
@@ -201,7 +201,7 @@ https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Sh
   https://www.it1352.com/2340975.html - _使用 bat 启动 Powershell 脚本_
   
 
-## windows 快捷键 ⌨
+## Windows 快捷键 ⌨
 
 - 快速显示桌面
 
@@ -237,7 +237,7 @@ https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Sh
 
 
 
-## windows 字体
+## Windows 字体
 
 打开本机（电脑） `控制面板\所有控制面板项\字体` 查看字体
 
@@ -249,19 +249,19 @@ https://jingyan.baidu.com/article/22fe7ced0085677103617f01.html - *Win10中怎�
 
 
 
-## windows 开发环境
+## Windows 开发环境
 
 https://docs.microsoft.com/zh-cn/windows/dev-environment/ - *在 Windows 上设置开发环境 | Microsoft Docs*
 
 
 
-## windows hyper-v
+## Windows Hyper-v
 
 https://baijiahao.baidu.com/s?id=1682327494844437724/ - *Windows虚拟机Hyper-v的安装及使用教程*
 
 
 
-## windows 模拟 linux 环境
+## Windows 模拟 Linux 环境
 
 ### WSL(Windows Subsystem for Linux)
 
