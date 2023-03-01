@@ -20,12 +20,12 @@
 <i class="ri-app-store-line"></i> 表示 支持 App Store 下载  
 <i class="ri-google-play-line"></i> 表示 支持 Play Store 下载  
 <i class="fa fa-github"></i> 表示 支持 GitHub 下载  
-![][guanjia-qq Icon] 表示 支持“电脑管家-软件管理”下载  
+![腾讯电脑管家][guanjia-qq Icon] 表示 支持“电脑管家-软件管理”下载  
 ![F-Droid][F-Droid Icon] 表示 支持 F-Droid 下载  
 ![Microsoft Store][Microsoft Store Icon] 表示 支持 Microsoft Store 下载  
 ![App Store][App Store Icon] 表示 支持 App Store 下载
 
-[guanjia-qq Icon]: http://guanjia.qq.com/assets/images/v15/favicon.ico ":size=14 腾讯电脑管家 style=width: 14px"
+[guanjia-qq Icon]: http://guanjia.qq.com/assets/images/v15/favicon.ico ":size=14 腾讯电脑管家"
 [F-Droid Icon]: https://f-droid.org/assets/favicon_yJPr4UNteJc-cseeq16P0Hvl1kDbJjTVYcj-KA6-_Fs=.ico ":size=14 F-Droid"
 [Microsoft Store Icon]: https://apps.microsoft.com/store/images/logo-16x16.png ":size=14"
 [App Store Icon]: https://apps.apple.com/favicon.ico ":size=14"
