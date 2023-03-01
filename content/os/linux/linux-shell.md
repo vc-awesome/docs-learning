@@ -4,7 +4,7 @@
 
 
 
-## Bash 🎉
+## Bash
 
 教程：https://www.wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 

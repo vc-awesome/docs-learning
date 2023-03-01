@@ -149,6 +149,18 @@ GitHub：https://github.com/primer/css
 
 BootCDN：https://www.bootcdn.cn/Primer/
 
+### Open Props
+
+?> CSS custom properties to help accelerate adaptive and consistent design.
+
+> 一个CSS变量的库，提供大量有用的预置值
+
+![GitHub last commit](https://img.shields.io/github/last-commit/argyleink/open-props?color=blue&logo=github&style=flat-square)
+
+Website：https://open-props.style - *Open Props: sub-atomic styles*
+
+GitHub：https://github.com/argyleink/open-props
+
 
 ## JavaScript 框架
 

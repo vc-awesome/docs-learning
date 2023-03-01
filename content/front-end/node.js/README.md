@@ -1,12 +1,12 @@
-## node
+## Node
 
 ### node 官方
 
 <i class="fa fa-github"></i> https://github.com/nodejs/node - *Node.js JavaScript runtime ✨🐢🚀✨*
 
-https://nodejs.org/zh-cn/ :cn: - *Node.js 官网*
+https://nodejs.org/zh-cn/ 🇨🇳 - *Node.js 官网*
 
-https://nodejs.org/ :us: - *Node.js 官网*
+https://nodejs.org/ 🇺🇸 - *Node.js 官网*
 
 ---
 
@@ -60,7 +60,7 @@ https://github.com/goldbergyoni/nodebestpractices - *✅ The Node.js best practi
 
 https://baijiahao.baidu.com/s?id=1726423980119026076 - _一文搞定nodeJS相关的nvm、npm、nrm、yarn、npx等_
 
-## npm
+## NPM
 
 > NPM 是Node的包管理工具（全名叫做 Node package manager），在我们安装Node时候，就已经顺便也安装了 NPM 这个管理工具。
 
@@ -248,7 +248,7 @@ https://zhuanlan.zhihu.com/p/269419296 - *npx简介*
 
 - 开始使用
 
-  [<i class="ri-link"></i> 如何运行本地安装模块的命令](/front-end/node.js/?id=npm-本地安装模块后如何去运行)
+  [如何运行本地安装模块的命令](/front-end/node.js/?id=npm-本地安装模块后如何去运行)
 
   1. `./node_modules/http-server/bin/http-server`
   2. 打开浏览器访问 `http://127.0.0.1:8080`， ;)
@@ -269,9 +269,9 @@ Via <http://yapi.smart-xwork.cn/doc/devops/index.html#服务器管理>
 
 <i class="fa fa-github"></i> https://github.com/BrowserSync/browser-sync
 
-https://browsersync.io/ :uk: - *Browsersync Time-saving synchronised browser testing.*
+https://browsersync.io/ 🇬🇧 - *Browsersync Time-saving synchronised browser testing.*
 
-https://browsersync.bootcss.com/ :cn: - *Browsersync - 省时的浏览器同步测试工具 | Browsersync 中文文档*
+https://browsersync.bootcss.com/ 🇨🇳 - *Browsersync - 省时的浏览器同步测试工具 | Browsersync 中文文档*
 
 
 
@@ -291,7 +291,7 @@ https://browsersync.bootcss.com/ :cn: - *Browsersync - 省时的浏览器同步�
 
 - 监听所有文件类型
 
-  [<i class="ri-link"></i> 如何运行本地安装模块的命令](/front-end/node.js/?id=npm-本地安装模块后如何去运行)
+  [如何运行本地安装模块的命令](/front-end/node.js/?id=npm-本地安装模块后如何去运行)
 
   - 静态网站
 
@@ -315,7 +315,7 @@ https://blog.csdn.net/qq_41328247/article/details/79926353 - *browsersync的使�
 
 
 
-### npm faq
+### npm FAQ
 
 #### npm 本地安装模块后如何去运行
 
@@ -353,7 +353,7 @@ https://blog.csdn.net/guyue35/article/details/55195198 - *怎么运行npm本地�
 ## yarn
 
 
-## nvm
+## NVM
 
 > 使用 `nvm` 管理不同版本的 `Node`
 
@@ -403,7 +403,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 #### 在 Windows 中安装
 
-首先最重要的是：一定要卸载已安装的 NodeJS，否则会发生冲突。然后下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) 最新安装包，直接安装即可。 Via https://www.runoob.com/w3cnote/nvm-manager-node-versions.html
+⚠️ 首先最重要的是：一定要卸载已安装的 NodeJS，否则会发生冲突。然后下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) 最新安装包，直接安装即可。 Via https://www.runoob.com/w3cnote/nvm-manager-node-versions.html
 
 <i class="fa fa-github"></i> https://github.com/coreybutler/nvm-windows - *A node.js version management utility for Windows. Ironically written in Go.*
 
@@ -471,7 +471,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 
 
-### FAQ
+### nvm FAQ
 
 https://blog.csdn.net/N1keo/article/details/89971307 - *利用nvm安装npm失败的解决办法*
 

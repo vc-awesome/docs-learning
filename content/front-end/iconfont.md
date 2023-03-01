@@ -216,6 +216,8 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
 <i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome
 
+中文手册
+
 1. V6（最新版）
 
    https://fa6.dashgame.com/ - *Font Awesome 6，一套始终绝佳的图标字体库和CSS框架*
@@ -224,9 +226,9 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
    https://fa5.dashgame.com/ - *Font Awesome 5，一套依旧绝佳的图标字体库和CSS框架*
 
-3. V4（停止维护）
+3. V4（官方已停止维护）
 
-   https://fontawesome.dashgame.com/ :cn: - *Font Awesome，一套绝佳的图标字体库和CSS框架*
+   https://fontawesome.dashgame.com/ - *Font Awesome，一套绝佳的图标字体库和CSS框架*
 
 
 ## Remix Icon 🥈
@@ -235,7 +237,7 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/Remix-Design/remixicon?icon=github&color=blue)
 
-<i class="fa fa-laptop"></i> https://remixicon.com/
+<i class="fa fa-laptop"></i> https://remixicon.com/ - *Remix Icon - Open source icon library*
 
 <i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
 

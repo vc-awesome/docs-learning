@@ -2,18 +2,19 @@
 
 官网：https://github.com/ - *GitHub: Where the world builds software · GitHub*
 
-文档：https://docs.github.com/cn/
+文档：https://docs.github.com/cn/ - *GitHub Documentation*
 
-品牌：https://brand.github.com/  
-octodex： https://octodex.github.com/
+品牌：https://brand.github.com/ - *GitHub Brand Guide*
 
-Security Bug Bounty：https://bounty.github.com/
+Octodex： https://octodex.github.com/ - *GitHub Octodex*
+
+Security Bug Bounty：https://bounty.github.com/ - *GitHub Security - GitHub Bug Bounty*
 
 
 
 ## 社区
 
-GitHub 中文社区：https://www.githubs.cn/ 👍
+👍 https://www.githubs.cn/ - *GitHub中文社区 | GitHub中文网*
 
 
 
@@ -27,13 +28,75 @@ Bootstrap - https://github.com/twbs
 
 饿了么前端 - https://github.com/elemefe
 
-Metafizzy - https://github.com/metafizzy （logo 可爱而关注，前端）
+Metafizzy - https://github.com/metafizzy _（logo 可爱而关注，前端）_
+
+
+## 仓库
+
+https://github.com/Wei-Xia/most-frequent-technology-english-words - *程序员工作中常见的英语词汇* ![GitHub last commit](https://flat.badgen.net/github/last-commit/Wei-Xia/most-frequent-technology-english-words?icon=github&color=blue)
+
+https://github.com/markgoodyear/markgoodyear.github.io - *Source for my personal site.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/markgoodyear/markgoodyear.github.io?icon=github&color=blue)
+
+https://github.com/GitHubDaily/GitHubDaily - *坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.* ![GitHub last commit](https://img.shields.io/github/last-commit/GitHubDaily/GitHubDaily?color=blue&logo=github&style=flat-square)
+
+
+### Awesome Lists
+
+
+> 😎 Awesome lists about all kinds of interesting topics.  
+> <i class="bi bi-translate dark-yellow"></i>  
+> 😎 关于各种有趣主题的精彩列表。
+
+![Awesome-flat2](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg)
+[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
+![GitHub last commit](https://img.shields.io/github/last-commit/sindresorhus/awesome?color=blue&logo=github&style=flat-square)
+
+<i class="fa fa-github fa-lg"></i> https://github.com/sindresorhus/awesome
+
+<i class="fa fa-github fa-lg"></i></i> <i class="fa fa-search"></i> https://github.com/topics/awesome
+
+参考链接 👇
+
+- chaozh
+  /
+  awesome-blockchain-cn https://github.com/chaozh/awesome-blockchain-cn ![GitHub last commit](https://flat.badgen.net/github/last-commit/chaozh/awesome-blockchain-cn?icon=github&color=blue)
+
+- ziadoz
+  /
+  awesome-php https://github.com/ziadoz/awesome-php ![GitHub last commit](https://flat.badgen.net/github/last-commit/ziadoz/awesome-php?icon=github&color=blue)
+
+- tiimgreen
+  /
+  github-cheat-sheet https://github.com/tiimgreen/github-cheat-sheet ![GitHub last commit](https://flat.badgen.net/github/last-commit/tiimgreen/github-cheat-sheet?icon=github&color=blue)
+
+- AllThingsSmitty
+  /
+  css-protips https://github.com/AllThingsSmitty/css-protips ![GitHub last commit](https://flat.badgen.net/github/last-commit/AllThingsSmitty/css-protips?icon=github&color=blue) 
+
+- mundimark
+  /
+  awesome-markdown https://github.com/mundimark/awesome-markdown ![GitHub last commit](https://flat.badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
+
+- xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awesome - *后端架构师技术图谱* ![GitHub last commit](https://flat.badgen.net/github/last-commit/xingshaocheng/architect-awesome?icon=github&color=blue)
+
+- https://github.com/jondot/awesome-weekly - *An "awesome" type curated list of quality weekly subscription newsletters from the software world* ![GitHub last commit](https://flat.badgen.net/github/last-commit/jondot/awesome-weekly?icon=github&color=blue)
+
+---
+
+https://zhuanlan.zhihu.com/p/144053402 - *Awesome系列：Github中不能错过的巨人肩膀*
+
+https://www.cnblogs.com/fanbi/p/12807731.html - *Github awesome 系列开源项目合集*
+
+https://blog.csdn.net/weixin_34404393/article/details/88021937 - *Github最受欢迎的Awesome系列*
+
+https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源大全系列）*
 
 
 
-## 功能 ✨
+## 功能
 
-👍 https://github.com/AntBranch/awesome-github
+👍 https://github.com/AntBranch/awesome-github - *A curated list of awesome GitHub guides, articles, sites, tools, projects and resources. 收集这个列表，只是为了更好地使用GitHub,欢迎提交pr和issue。*
 
 
 
@@ -41,11 +104,18 @@ Metafizzy - https://github.com/metafizzy （logo 可爱而关注，前端）
 
 [GitHub的各标签的功能说明以及使用方法](https://blog.csdn.net/wang975380547/article/details/78095299)
 
+### Issues
+
+https://docs.github.com/zh/issues - *GitHub 问题 - GitHub Docs*
+
+https://docs.github.com/zh/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository - *为仓库配置议题模板 - GitHub Docs*
+
+> 创建议题模板参考：https://github.com/maks/MGit/issues - *Issues · maks/MGit · GitHub*
 
 
-### Github Pages
+### GitHub Pages
 
-官网：https://pages.github.com/
+官网：https://pages.github.com/ - *GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.*
 
 - [搭建一个免费的，无限流量的Blog----githubPages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
@@ -53,12 +123,9 @@ Metafizzy - https://github.com/metafizzy （logo 可爱而关注，前端）
 
 
 
-### Github Action
+### GitHub Action
 
-https://github.com/Yikun/hub-mirror-action
-
-?> 一个Github Action，用于在Github和Gitee之间同步代码。Action for mirroring repos between Hubs (like Github and Gitee).
-
+https://github.com/Yikun/hub-mirror-action - *一个Github Action，用于在Github和Gitee之间同步代码。Action for mirroring repos between Hubs (like Github and Gitee).*
 
 
 http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
@@ -94,13 +161,13 @@ https://gitee.com/help/articles/4336#article-header0 - *仓库镜像管理 （ G
 ?> Instantly share code, notes, and snippets.  
 <i class="bi bi-translate dark-yellow"></i> 即时共享代码、注释和片段。
 
-官网：https://gist.github.com/
+官网：https://gist.github.com/ 🪜
 
 
 
 #### 工具
 
-Lepton https://github.com/hackjutsu/Lepton
+https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
 
 
 
@@ -116,7 +183,9 @@ https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github G
 
 ### 图标 *icon*
 
-安装谷歌扩展程序 https://github.com/homerchen19/github-file-icons
+https://github.com/homerchen19/github-file-icons - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
+
+> 🏷️ _安装谷歌扩展程序_
 
 [简单三步，让GitHub依照不同文档类型显示不同的图标](https://baijiahao.baidu.com/s?id=1590369276833636579)
 
@@ -124,7 +193,7 @@ https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github G
 
 ### 角标 *corners*
 
-GitHub Corners https://tholman.com/github-corners/
+https://tholman.com/github-corners/ - *GitHub Corners*
 
 [给Hexo博客首页添加GitHub图标](https://zhuanlan.zhihu.com/p/409427566)
 
@@ -160,7 +229,7 @@ https://github.com/boennemann/badges
 
 主页：https://shields.io/
 
-Github：https://github.com/badges/shields
+GitHub：https://github.com/badges/shields
 
 <details>
  <summary>Show demo.</summary>
@@ -302,9 +371,9 @@ Github：https://github.com/badges/shields
 
 https://github.com/topics/github-extension
 
-<i class="ri-link"></i> [浏览器扩展程序 - GitHub](/tools/browser-extensions?id=github)
+[浏览器扩展程序 - GitHub](/tools/browser-extensions?id=github)
 
-<i class="ri-link"></i> [浏览器扩展程序 - Tampermonkey](/tools/browser-extensions?id=tampermonkey-github)
+[浏览器扩展程序 - Tampermonkey](/tools/browser-extensions?id=tampermonkey-github)
 
 
 ### 访问加速
@@ -334,61 +403,14 @@ https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr C
 
 <i class="fa fa-github"></i> https://github.com/ineo6/hosts/ :cn: - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 
-与 [<i class="ri-link"></i> Tools - Hosts](/tools/hosts) 组合使用
+与 [Tools - Hosts](tools/hosts.md) 组合使用
 
-#### Web Tools
+#### Mirror
 
-<i class="ri-link"></i> [镜像](/home/?id=镜像站)
+[镜像](home/readme.md#镜像站)
 
 https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
+## FAQ
 
-
-## Awesome Lists
-
-
-> 😎 Awesome lists about all kinds of interesting topics.  
-> <i class="bi bi-translate dark-yellow"></i>  
-> 😎 关于各种有趣主题的精彩列表。
-
-![Awesome-flat2](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg)
-[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
-
-<i class="fa fa-github fa-lg"></i> https://github.com/sindresorhus/awesome
-
-<i class="fa fa-github fa-lg"></i></i> <i class="fa fa-search"></i> https://github.com/topics/awesome
-
-参考链接 👇
-
-- chaozh
-  /
-  awesome-blockchain-cn https://github.com/chaozh/awesome-blockchain-cn
-
-- ziadoz
-  /
-  awesome-php https://github.com/ziadoz/awesome-php
-
-- tiimgreen
-  /
-  github-cheat-sheet https://github.com/tiimgreen/github-cheat-sheet
-
-- AllThingsSmitty
-  /
-  css-protips https://github.com/AllThingsSmitty/css-protips
-
-- mundimark
-  /
-  awesome-markdown https://github.com/mundimark/awesome-markdown
-
-- xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awesome 后端架构师技术图谱
-
----
-
-https://zhuanlan.zhihu.com/p/144053402 - *Awesome系列：Github中不能错过的巨人肩膀*
-
-https://www.cnblogs.com/fanbi/p/12807731.html - *Github awesome 系列开源项目合集*
-
-https://blog.csdn.net/weixin_34404393/article/details/88021937 - *Github最受欢迎的Awesome系列*
-
-https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源大全系列）*
+https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打不开怎么办？*

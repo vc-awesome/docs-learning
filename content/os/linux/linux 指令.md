@@ -2,6 +2,16 @@
 
 源码安装与一键安装
 
+## 使用教程
+
+https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
+
+- [x] https://wangdoc.com/bash/grammar - *Bash 的基本语法 - Bash 脚本教程 - 网道*
+
+## 问题搜索
+
+[linux两条命令一起执行 - 百度](https://m.baidu.com/s?ie=UTF-8&wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C&from=1029078n)
+
 ## 命令大全
 
 https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*

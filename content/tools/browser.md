@@ -1,6 +1,6 @@
 ## 分类
 
-https://www.baiduyun.wiki/zh-cn/crx.html
+https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
 
 - QQBrowser :cn:
 

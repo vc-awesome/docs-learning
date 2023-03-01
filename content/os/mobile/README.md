@@ -2,17 +2,14 @@
 
 ### Google Play Store
 
-<i class="ri-android-line"></i>
-🪜
-https://play.google.com/store/apps - *Google Play 上的 Android 应用*
+🪜 https://play.google.com/store/apps - *Google Play 上的 Android 应用*
 
 
 #### Online Download
 
-<i class="bi-link"></i>
 http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
 
-👍 https://apkmod.cc/ :us: - *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
+👍 https://apkmod.cc/ 🇺🇸 - *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
 
 https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* 
 <i class="con octicon-file tag-icon"></i>
@@ -60,7 +57,7 @@ Website:
 
 #### Daedalus
 
-<i class="ri-link"></i> [Daedalus](tools/hosts?id=daedalus)
+[Daedalus](tools/hosts?id=daedalus)
 
 #### Markor
 
@@ -78,6 +75,9 @@ Website:
 
 ?> 优秀、自由并开源的 RSS 订阅阅读器
 
+支持的平台：
+<i class="fa fa-android"></i>
+
 https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
 ![f-droid](https://badgen.net/f-droid/v/com.nononsenseapps.feeder)
 
@@ -91,7 +91,13 @@ https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应�
 
 ### App Store
 
-官网：https://www.apple.com.cn/app-store/ :cn: - *App Store - Apple (中国大陆)*
+**官网**：
+
+https://www.apple.com.cn/app-store/ 🇨🇳 - *App Store - Apple (中国大陆)*
+
+https://www.apple.com/app-store/ 🇺🇸 - *App Store - Apple*
+
+🌰： https://apps.apple.com/us/story/id1533325663?itscg=10000&itsct= - *5 Winning Tips for Among Us! : App Store Story* > https://apps.apple.com/us/app/among-us/id1351168404 - *Among Us! on the App Store*
 
 ## Web 服务器
 
@@ -99,7 +105,7 @@ https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应�
 
 http://www.kslabs.ru/ - *KSWEB Official Website*
 
-<i class="ri-link"></i> [Termux](/os/mobile/app-termux.md)
+1. [Termux](/os/mobile/app-termux.md)
 
 ### Reference
 

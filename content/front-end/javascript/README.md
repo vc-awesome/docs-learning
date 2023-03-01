@@ -8,11 +8,11 @@
 
 ## 运行环境
 
-- 浏览器编程：browser
+- 浏览器编程：_Browser_
 
-- 服务器编程：node.js
+- 服务器编程：_Node.js_
 
-## Version
+## 历史版本
 
 - ECMAScript5
 
@@ -28,58 +28,44 @@ https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html - *JavaScript
   - <https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html> - *Javascript异步编程的4种方法*
   - https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html - *JavaScript与有限状态机*
 
-## Guide
+## Getting started
 
 ### 基础
 
-- 代码规范
-  - 变量命名：驼峰法（camelCase）
-- 数据类型
+#### 代码规范
 
-- JS HTML DOM（文档对象模型）
-- JS 浏览器 BOM
-- JS 对象
+https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
+
+> 变量命名：驼峰法*（camelCase）*
 
 
 #### 对象
 
-JavaScript对象
+- JavaScript 对象
 
-Browser对象（BOM）
+    [JavaScript 和 HTML DOM 参考手册 | 菜鸟教程](https://www.runoob.com/jsref/jsref-tutorial.html)-“JavaScript 对象参考手册”
+    
+    “Number 对象方法”常用方法：[isNaN](https://www.runoob.com/jsref/jsref-isnan-number.html)
 
-DOM对象（DOM）
+- Browser 对象（BOM）
 
-HTML对象
+    [JavaScript 和 HTML DOM 参考手册 | 菜鸟教程](https://www.runoob.com/jsref/jsref-tutorial.html)-“Browser 对象参考手册”
 
+- DOM 对象（DOM）
 
+    [JavaScript 和 HTML DOM 参考手册 | 菜鸟教程](https://www.runoob.com/jsref/jsref-tutorial.html)-“HTML DOM 参考手册”
 
-InnerHTML
+- HTML 对象
 
-innerText
+    [JavaScript 和 HTML DOM 参考手册 | 菜鸟教程](https://www.runoob.com/jsref/jsref-tutorial.html)-“HTML DOM 元素对象参考手册”
 
-Length
+[element.innerHTML](https://www.runoob.com/jsref/prop-html-innerhtml.html) - *HTML DOM innerHTML 属性 | 菜鸟教程*
 
-Value
-
-
-
-#### 属性
-
-- 获取属性
-
-- 设置属性
-
- 
-
-#### 事件
-
-- 单击
-
-- 双击
-
- 
+[HTMLElement.innerText](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/innerText) - *HTMLElement.innerText - Web API 接口参考 | MDN*
 
 #### 数据类型
+
+https://www.runoob.com/js/js-datatypes.html - *JavaScript 数据类型 | 菜鸟教程*
 
 - 整型
 
@@ -99,12 +85,12 @@ Value
 
 #### webpack
 
-https://webpack.js.org/
+https://webpack.js.org/ - *webpack*
 
 https://www.webpackjs.com/ - _webpack 中文文档 | webpack 中文网_
 
 
-#### 模块化编程 🔥
+### 模块化编程 🔥
 
   1. https://www.ruanyifeng.com/blog/2012/10/javascript_module.html - *Javascript模块化编程（一）：模块的写法*
   2. https://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html - *Javascript模块化编程（二）：AMD规范*
@@ -119,38 +105,38 @@ https://blog.csdn.net/a562550212/article/details/95751478 - _JS模块介绍_鬼�
 <https://v2.cn.vuejs.org/v2/guide/installation.html#对不同构建版本的解释> - _安装 — Vue.js_
 
 
-##### ES Module 1️⃣
+#### ES Module 1️⃣
 
 > EcmaScript Module
 
 <https://es6.ruanyifeng.com/#docs/module#概述> - *Module 的语法 - ECMAScript 6入门*
 
 
-##### UMD
+#### UMD
 
 https://github.com/umdjs/umd - _UMD (Universal Module Definition) patterns for JavaScript modules that work everywhere._
 
 
-##### CommonJS
+#### CommonJS
 
 http://javascript.ruanyifeng.com/nodejs/module.html#toc0 - _CommonJS规范 -- JavaScript 标准参考教程（alpha）_
 
 https://wiki.commonjs.org/wiki/Modules/1.1 - _Modules/1.1 - CommonJS Spec Wiki_
 
 
-##### CMD
+#### CMD
 
-https://www.zhangxinxu.com/sp/seajs/
-
-
-##### AMD
-
-https://requirejs.org/
+https://www.zhangxinxu.com/sp/seajs/ - *SeaJS - A Module Loader for the Web*
 
 
-## HTML 对象
+#### AMD
 
-https://www.runoob.com/jsref/dom-obj-anchor.html
+https://requirejs.org/ - *RequireJS*
+
+
+## JavaScript 参考手册
+
+https://www.runoob.com/jsref/jsref-tutorial.html - *JavaScript 和 HTML DOM 参考手册 | 菜鸟教程*
 
 ## HTML DOM
 
@@ -267,116 +253,50 @@ element.removeEventListener(event, function, useCapture);
 ```
 
 
-
 ### 对象
 
 > 划分对象属性和对象方法
 
 #### Document 对象
 
-https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象HTML DOM Document 对象*
+https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 | 菜鸟教程*
 
-1. [document.write();](https://www.runoob.com/jsref/met-doc-write.html) 向文档写 HTML 表达式 或 JavaScript 代码。
+常用方法：[document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html)、[document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html)
 
-2. [document.URL;](https://www.runoob.com/jsref/prop-doc-url.html) 返回文档完整的URL
-
-3. [document.querySelector();](https://www.runoob.com/jsref/met-document-queryselector.html) 返回文档中匹配指定 CSS 选择器的一个元素。（querySelector() 方法仅仅返回匹配指定选择器的第一个元素。如果你需要返回所有的元素，请使用 querySelectorAll() 方法替代。）
-
-4. ...
 
 #### 元素对象
 
-https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象*
+https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象 | 菜鸟教程*
 
-1. element.appendChild() 为元素添加一个新的子元素
-2. element.attributes 返回一个元素的属性数组
-3. element.children 返回元素的子元素的集合
-4. ...
 
 #### 属性对象
 
-https://www.runoob.com/jsref/dom-obj-attributes.html - *HTML DOM 属性 对象*
+https://www.runoob.com/jsref/dom-obj-attributes.html - *HTML DOM 属性对象 | 菜鸟教程*
 
-1. attr.name 返回属性名称
-2. attr.value 设置或者返回属性值
-3. ...
 
 #### 事件对象
 
-https://www.runoob.com/jsref/dom-obj-event.html - *HTML DOM 事件*
+https://www.runoob.com/jsref/dom-obj-event.html - *HTML DOM 事件对象 | 菜鸟教程*
 
-1. onclick 当用户点击某个对象时调用的事件句柄。
-
-2. oncontextmenu 在用户点击鼠标右键打开上下文菜单时触发
-
-3. ...
 
 #### Console 对象
 
-https://www.runoob.com/jsref/obj-console.html
+https://www.runoob.com/jsref/obj-console.html - *Console 对象 | 菜鸟教程*
 
-1. assert() 如果断言为 false，则在信息到控制台输出错误信息。
-
-2. clear() 清除控制台上的信息。
-
-3. ...
 
 #### CSS 样式声明对象(CSSStyleDeclaration)
 
-https://www.runoob.com/jsref/obj-cssstyledeclaration.html
+https://www.runoob.com/jsref/obj-cssstyledeclaration.html - *CSS 样式声明对象(CSSStyleDeclaration) | 菜鸟教程*
 
-1. cssText 设置或返回样式声明文本，cssText 对应的是 HTML 元素的 style 属性。
-
-2. length 返回样式中包含多少条声明。
-
-3. ...
 
 #### DOM HTMLCollection
 
-https://www.runoob.com/jsref/dom-htmlcollection.html
-
-1. item() 返回 HTMLCollection 中指定索引的元素。
-
-2. length 返回 HTMLCollection 中元素的数量。
-
-3. namedItem() 返回 HTMLCollection 中指定 ID 或 name 属性的元素。
-4. ...
+https://www.runoob.com/jsref/dom-htmlcollection.html - *DOM HTMLCollection | 菜鸟教程*
 
 
+### Form 对象
 
-## 浏览器 BOM
-
-https://www.runoob.com/js/js-window.html - *JavaScript Window - 浏览器对象模型*
-
-### Browser 对象
-
-> 划分对象属性和对象方法
-
-#### Window 对象
-
-https://www.runoob.com/jsref/obj-window.html
-
-#### Navigator 对象
-
-https://www.runoob.com/jsref/obj-navigator.html
-
-#### Screen 对象
-
-https://www.runoob.com/jsref/obj-screen.html
-
-#### History 对象
-
-https://www.runoob.com/jsref/obj-history.html
-
-#### Location 对象
-
-https://www.runoob.com/jsref/obj-location.html
-
-#### 存储对象
-
-https://www.runoob.com/jsref/obj-storage.html
-
-## Form
+https://www.runoob.com/jsref/dom-obj-form.html - *HTML DOM Form 对象 | 菜鸟教程*
 
 表单 `enctype` 属性：
 
@@ -386,9 +306,9 @@ https://www.runoob.com/jsref/obj-storage.html
 
 
 
-### FormData
+#### FormData 对象
 
-<https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects> - *FormData 对象的使用 - Web API 接口参考 | MDN*
+https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects - *FormData 对象的使用 - Web API 接口参考 | MDN*
 
 用一些键值对来模拟一系列表单空间：即把 form 中所有表单元素的 name 与 value 组装成一个 queryString
 
@@ -398,8 +318,6 @@ formData.append('user', 'ccc');  // 新增
 formData.get('user');  // 获取
 formData.append('user');  // 删除
 ```
-
-
 
 使用 `FormData` 对象发送文件
 
@@ -426,7 +344,35 @@ $.ajax({
 });
 ```
 
+## 浏览器 BOM
 
+https://www.runoob.com/js/js-window.html - *JavaScript Window - 浏览器对象模型*
+
+> 划分对象属性和对象方法
+
+### Window 对象
+
+https://www.runoob.com/jsref/obj-window.html
+
+### Navigator 对象
+
+https://www.runoob.com/jsref/obj-navigator.html
+
+### Screen 对象
+
+https://www.runoob.com/jsref/obj-screen.html
+
+### History 对象
+
+https://www.runoob.com/jsref/obj-history.html
+
+### Location 对象
+
+https://www.runoob.com/jsref/obj-location.html
+
+### 存储对象
+
+https://www.runoob.com/jsref/obj-storage.html
 
 ## Ajax
 

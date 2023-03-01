@@ -62,3 +62,9 @@ https://github.com/justjavac/free-programming-books-zh_CN - *免费的编程中�
   ![](https://flat.badgen.net/github/last-commit/markyun/My-blog?icon=github&color=blue)
 
 - https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
+
+## 博客
+
+https://u.sb/ - *烧饼博客*
+
+🏷️ _运维_

@@ -76,6 +76,9 @@
 
 <style>
   /*TOC*/
+  .toc-toggle.toc-toggle-on {
+    bottom: 13px;
+  }
   .toc-toggle .toggle-line {
     background: #fff;
     display: inline-block;
@@ -141,6 +144,22 @@
 <!-- <div class="toc-toggle" style="min-width: 50px;">📚🔻</div> -->
 <!--返回顶部 method-2-->
 <link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
+<style>
+  .back-to-top.toc {
+    right: 120px;
+  }
+  #back2bottom.toc-b {
+    right: 60px;
+  }
+  @media (max-width: 991px) {
+    #back2bottom.toc-b {
+      right: 50px;
+    }
+    .back-to-top.toc {
+      right: 110px;
+    }
+  }
+</style>
 <div class="back-to-top">
   <i class="fa fa-arrow-up"></i>
   <span>0%</span>
@@ -253,7 +272,9 @@
                 'https://github.com/vc-awesome/docs-learning/blob/master/' +
                 vm.route.file;
           }
-          var editHtml = '[:memo: EDIT DOCUMENT](' + url + ')\n';
+          var editHtml = '📝[EDIT DOCUMENT](' + url + ')';
+          
+          editHtml += ' | <i class="fa fa-hand-pointer-o"></i> [BACK HOME](/)\n';
 
           return (
               editHtml +
@@ -280,6 +301,20 @@
           } else {
             document.querySelector('#back2bottom').classList.remove('back-to-top-on');
           }
+          
+          // 获取未来元素的属性值
+          setTimeout(function() {
+            console.log(Docsify.dom.find('.toc-toggle-on'))
+            if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
+              console.log("存在");
+              document.querySelector('.back-to-top').classList.toggle('toc', true);
+              document.querySelector('#back2bottom').classList.toggle('toc-b', true);
+            } else {
+              console.log("不存在");
+              document.querySelector('.back-to-top').classList.toggle('toc', false);
+              document.querySelector('#back2bottom').classList.toggle('toc-b', false);
+            }
+          }, 10);
         });
       },)
 </script>

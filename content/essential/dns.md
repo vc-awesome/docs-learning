@@ -34,10 +34,6 @@ dns.adguard-dns.com
 https://sdns.360.net/ - *360安全DNS*
 
 ```
-dot.360.cn
-```
-
-```
 101.226.4.6
 ```
 
@@ -53,7 +49,7 @@ https://www.dnspod.cn/Products/publicdns - *DNSPod Public DNS（腾讯云）*
 | 百度       | 180.76.76.76    |                |                                                            |
 | 114        | 114.114.114.114 |                |                                                            |
 | 腾讯       | 119.29.29.29    |                |                                                            |
-| ⭐ 阿里     | 223.5.5.5       | 223.6.6.6      | [官方链接](https://www.alidns.com/)                        |
+| 阿里     | 223.5.5.5       | 223.6.6.6      | [官方链接](https://www.alidns.com/)                        |
 | 微软       | 4.2.2.1         | 4.2.2.2        |                                                            |
 | Cloudflare | 1.1.1.1         | 1.0.0.1        |                                                            |
 | 电信的DNS  | 202.103.44.150  | 202.103.0.68   |                                                            |
@@ -76,7 +72,27 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
 
 ### 手机配置私人 DNS
 
-https://www.alidns.com/knowledge?type=SETTING_DOCS#user_android - *阿里公共DNS*
+配置步骤：
+
+1. https://www.alidns.com/knowledge?type=SETTING_DOCS#user_android - *阿里公共DNS*
+    1. ```
+dot.360.cn
+```
+    
+2. [清除 Android 设备的 DNS 缓存](https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache/#android%E5%AE%89%E5%8D%93)
+    1. 最简单的方法：打开和关闭飞行模式。
+
+
+## DNS 缓存
+
+🪜 https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache - *如何刷新DNS缓存 | AdGuard DNS Knowledge Base*
+
+🏷️ _macOS_ 、 _Windows_ 、 _Linux_ 、 _Android（安卓）_ 、 _iOS_
+
+http://www.dayanzai.me/flush-dns.html - *刷新 DNS：如何清除 DNS 缓存*
+
+🏷️ _Windows_
+
 
 ## 工具
 
@@ -102,13 +118,29 @@ https://zhuanlan.zhihu.com/p/89837660 - *使用Simple DNSCrypt/DNSoverHTTPS？ -
 
 ### 查询工具
 
-nslookup 命令 `windows`
+- Windows nslookup 命令
 
-https://nstool.netease.com/ - *网易DNS检测工具*
+- https://nstool.netease.com/ - *网易DNS检测工具*
 
-https://uutool.cn/nslookup/ - *在线nslookup域名解析查询工具 - UU在线工具*
+- https://uutool.cn/nslookup/ - *在线nslookup域名解析查询工具 - UU在线工具*
 
-https://cloud.baidu.com/product/bcd/mobile/#/ - *bcd-applet*
+- https://cloud.baidu.com/product/bcd/mobile/#/ - *bcd-applet*
+
+### DNSMasq
+
+🏷️ _Linux 工具_
+
+**官方**：https://dnsmasq.org/ - _Dnsmasq - network services for small networks._
+
+https://wiki.archlinux.org/title/Dnsmasq_(简体中文) - _dnsmasq - Arch Linux 中文维基_
+
+https://wiki.debian.org/dnsmasq - _dnsmasq - Debian Wiki_
+
+~~https://cloud.tencent.com/developer/article/1174~~
+
+https://www.cnblogs.com/sunsky303/p/9238669.html - *dnsmasq详解&手册 - sunsky303 - 博客园*
+
+https://blog.51cto.com/longlei/2065967 - _dnsmasq详解及配置_51CTO博客_dnsmasq配置_
 
 ### AdGuard 🔥
 
@@ -122,17 +154,11 @@ https://adguard.com/zh_cn/welcome.html - *AdGuard - 世界上最高级的广告�
 
 🪜 https://adguard-vpn.com/zh_cn/welcome.html - *AdGuard VPN 保护你的隐私与安全*
 
-## DNS 缓存
-
-🪜 https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache - *如何刷新DNS缓存 | AdGuard DNS Knowledge Base*
-
-http://www.dayanzai.me/flush-dns.html - *刷新 DNS：如何清除 DNS 缓存*
-
 ## CNAME
 
 https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - *如何配置域名的 CNAME - 七牛开发者中心*
 
-## FAQs
+## FAQ
 
 1. https://sspai.com/post/42125 - *网速变慢？你可能需要先设置好 DNS | 科普*
 

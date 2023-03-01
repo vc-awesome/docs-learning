@@ -12,7 +12,7 @@ GitHub：https://github.com/termux/termux-app - *Termux - a terminal emulator ap
 
 F-Droid：https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
 
-## Getting started
+## Get started
 
 https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
 
@@ -22,8 +22,17 @@ https://mirrors.tuna.tsinghua.edu.cn/help/termux/ - *termux | 镜像站使用帮
 
 ### Addons
 
-- [Termux:API](https://f-droid.org/en/packages/com.termux.api/)
-- [Termux:Widget](https://wiki.termux.com/wiki/Termux:Widget)
+https://wiki.termux.com/wiki/Main_Page#Addons - *Termux Wiki*
+
+#### Termux:API
+
+Download：https://f-droid.org/en/packages/com.termux.api
+
+#### Termux:Widget
+
+Download：https://f-droid.org/en/packages/com.termux.widget
+
+Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget&t=ofa&ia=web)
 
 ## FAQ
 

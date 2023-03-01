@@ -1,3 +1,46 @@
+----
+
+<i class="ri-link"></i> 表示 内部链接  
+<i class="ri-external-link-fill"></i> 表示 外部链接  
+<i class="fa fa-shopping-cart"></i> 表示 收费 / 非免费  
+<i class="ri-check-double-line"></i> 表示 使用中  
+<i class="ri-open-source-fill medium-green"></i> 表示 开源软件  
+
+
+<i class="fa fa-windows"></i> 表示 支持 Windows  
+<i class="fa fa-linux"></i> 表示 支持 Linux  
+<i class="fa fa-apple"></i> 表示 支持 macOS  
+<i class="ri-android-line"></i> 表示 支持 Android  
+<i class="ri-apple-line"></i> 表示 支持 iOS / iPhone  
+<i class="fa fa-laptop"></i> 表示 支持 Web 网页  
+<i class="fa fa-chrome"></i> 表示 支持 浏览器扩展  
+<i class="fa fa-code"></i> 表示 支持 代码部署  
+<i class="fa fa-terminal"></i> 表示 支持 CLI 终端
+
+<i class="ri-app-store-line"></i> 表示 支持 App Store 下载  
+<i class="ri-google-play-line"></i> 表示 支持 Play Store 下载  
+<i class="fa fa-github"></i> 表示 支持 GitHub 下载  
+![][guanjia-qq Icon] 表示 支持“电脑管家-软件管理”下载  
+![F-Droid][F-Droid Icon] 表示 支持 F-Droid 下载  
+![Microsoft Store][Microsoft Store Icon] 表示 支持 Microsoft Store 下载  
+![App Store][App Store Icon] 表示 支持 App Store 下载
+
+[guanjia-qq Icon]: http://guanjia.qq.com/assets/images/v15/favicon.ico ":size=14 腾讯电脑管家 style=width: 14px"
+[F-Droid Icon]: https://f-droid.org/assets/favicon_yJPr4UNteJc-cseeq16P0Hvl1kDbJjTVYcj-KA6-_Fs=.ico ":size=14 F-Droid"
+[Microsoft Store Icon]: https://apps.microsoft.com/store/images/logo-16x16.png ":size=14"
+[App Store Icon]: https://apps.apple.com/favicon.ico ":size=14"
+
+----
+
+
+_参考：_  
+_1. https://bitwarden.com/download/ - *Install and Sync All of Your Devices | Bitwarden*_
+
+_2. https://github.com/vc-awesome/docs-learning/issues/4 - *Bitwarden · Issue #4 · vc-awesome/docs-learning · GitHub*_
+
+_3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-mac/README.md at master · jaywcjlove/awesome-mac · GitHub*_
+
+
 ## 安装列表
 
 > 软件安装至电脑 `D`、`E` 盘

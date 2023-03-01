@@ -433,3 +433,6 @@ a[target=_blank]:after {
     -moz-osx-font-smoothing: grayscale;
     content: "\f08e";
 }
+a[href*=docs-learning]:after {
+    content: "";
+}

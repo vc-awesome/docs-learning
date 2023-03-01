@@ -144,6 +144,10 @@ NexT.utils = {
         var docHeight = document.querySelector('.markdown-section').offsetHeight + THRESHOLD;
         var winHeight = window.innerHeight;
         var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
+        if (Number.isNaN(contentVisibilityHeight)) {
+          // 防止出现 NaN
+          contentVisibilityHeight = 0;
+        }
         var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
         if (backToTop) {
           // backToTop.classList.toggle('back-to-top-on', window.scrollY > THRESHOLD);
@@ -181,12 +185,21 @@ NexT.utils = {
               backToTop.attributes.removeNamedItem('style');
             }
           } else {
-            if (window.innerWidth <= 991) {
-              backToTop.style.right = '20px';
+            if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
+              console.log("存在");
+              if (window.innerWidth <= 991) {
+                backToTop.style.right = '50px';
+              } else {
+                backToTop.style.right = '60px';
+              }
             } else {
-              backToTop.style.right = '30px';
+              console.log("不存在");
+              if (window.innerWidth <= 991) {
+                backToTop.style.right = '20px';
+              } else {
+                backToTop.style.right = '30px';
+              }
             }
-            
           }
           backToBottom.querySelector('span').innerText = Math.round(scrollPercent) + '%';
         }

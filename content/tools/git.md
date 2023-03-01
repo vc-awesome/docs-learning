@@ -1,10 +1,10 @@
 > Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-## git 官方
+## 官方
 
 https://git-scm.com - *git 官网*
 
-## git 教程
+## 教程
 
 1️⃣ https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
 
@@ -14,7 +14,7 @@ https://git-scm.com - *git 官网*
 
 https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
 
-## git 工具
+## 工具
 
 ### 图形界面工具
 
@@ -48,7 +48,7 @@ https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and comman
 3. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
 4. [Bitbucket](https://www.atlassian.com/zh/software/bitbucket) - *用于团队的 Atlassian Bitbucket Git 代码管理工具 | Atlassian*
 
-## git 工作流程
+## 工作流程
 
 1. 克隆 Git 资源作为工作目录。
 2. 在克隆的资源上添加或修改文件。
@@ -61,9 +61,9 @@ https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and comman
 
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
 
-## git 命令›基础
+## 命令 › 基础
 
-### 查看 *git* 版本
+### 查看版本
 
 ```bash
 git --version
@@ -71,7 +71,7 @@ git --version
 
 
 
-### 配置 *config*
+### 配置 - *config*
 
 查看配置信息
 
@@ -185,7 +185,7 @@ git merge origin master
 
 
 
-### 推送改动 *push*
+### 推送改动 - *push*
 
 ```bash
 git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分支版本上传到远程并合并
@@ -193,7 +193,7 @@ git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分�
 
 
 
-### 更新与合并 *pull*
+### 更新与合并 - *pull*
 
 - pull 命令（方式一）
 
@@ -211,7 +211,7 @@ git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分�
 
 
 
-### 查看提交历史 *log*（本地仓库）
+### 查看提交历史 - *log*（本地仓库）
 
 ```bash
 git log
@@ -233,7 +233,7 @@ git log --decorate #查看标签
 
 
 
-### 远程操作 *remote*
+### 远程操作 - *remote*
 
 查看远程仓库
 
@@ -280,7 +280,7 @@ git remote set-url [sortname] [url] #例：git remote set-url origin http://137.
 
 
 
-### 分支 *branch*
+### 分支 - *branch*
 
 ```bash
 
@@ -299,7 +299,7 @@ git merge (branch) #分支合并 [合并完记得删除分支]
 
 
 
-### 标签 *tag*
+### 标签 - *tag*
 
 ```bash
 git tag #查看所有标签
@@ -317,7 +317,7 @@ git show v1.0 #查看指定版本所修改的内容
 
 
 
-### 文件差异 *diff*
+### 文件差异 - *diff*
 
 ```bash
 $ git diff [file] #尚未缓存的改动（没有git add的文件）
@@ -335,7 +335,7 @@ $ git diff [first-branch]...[second-branch] #显示两次提交之间的差异�
 
 
 
-### 回退版本 *reset*
+### 回退版本 - *reset*
 
 git reset 命令用于回退版本，可以指定退回某一次提交的版本
 
@@ -382,7 +382,7 @@ git reset --hard origin/master #将本地的状态回退到和远程的一样
 
 
 
-### 删除 *rm*
+### 删除 - *rm*
 
 > 删除文件后，目录为空时提交远程仓库会自动删除空目录
 
@@ -398,7 +398,7 @@ git rm -r * #进入某个目录中，执行此语句，会删除该目录下的�
 
 
 
-### 移动/重命名 *mv*
+### 移动/重命名 - *mv*
 
 ```bash
 git mv [file] [newfile] #移动或重命名一个文件、目录或软连接
@@ -410,7 +410,7 @@ git mv <source> <destination> #在工作区和暂存区中进行移动或重命�
 
 
 
-### 解决合并冲突 *checkout*
+### 解决合并冲突 - *checkout*
 
  - 编辑冲突文件后重新提交
 
@@ -446,7 +446,7 @@ git checkout HEAD <file> #有操作提示
 
 
 
-### 恢复 *restore*
+### 恢复 - *restore*
 
 ```bash
 git restore <file> #恢复未提交已改动的文件
@@ -456,7 +456,7 @@ git restore --staged <file> #恢复暂存状态的文件
 
 
 
-### 状态 *status*
+### 状态 - *status*
 
 ```bash
 git status #显示工作树状态
@@ -468,31 +468,31 @@ git status -s #简短格式查看文件修改状态
 
 [Git基础-查看当前文件状态、跟踪新文件、暂存文件、忽略文件、提交更新、移除文件、移动文件](https://www.cnblogs.com/wangwenhui/p/10555261.html)
 
-#### 未跟踪 *Untracked*
+#### 未跟踪 - *Untracked*
 
 > *工作区状态*
 
 未跟踪, 此文件在文件夹中, 但并没有加入到git库, 不参与版本控制. 通过`git add` 状态变为*Staged*.
 
-#### 未修改 *Unmodify*
+#### 未修改 - *Unmodify*
 
 > *使用 commit 命令后的状态*
 
 文件已经入库, 未修改, 即版本库中的文件快照内容与文件夹中完全一致. 这种类型的文件有两种去处, 如果它被修改,
 而变为*Modified*. 如果使用`git rm`移出版本库, 则成为*Untracked*文件
 
-#### 已修改 *Modified*
+#### 已修改 - *Modified*
 
 > *针对unmodified 进行操作*
 
 文件已修改, 仅仅是修改, 并没有进行其他的操作. 这个文件也有两个去处, 通过`git add`可进入暂存*staged*状态,
 使用`git checkout` 则丢弃修改过, 返回到*unmodify*状态, 这个`git checkout`即从库中取出文件, 覆盖当前修改
 
-#### 未暂存状态 *not staged*
+#### 未暂存状态 - *not staged*
 
 > `not staged`  表示add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
 
-#### 暂存状态 *Staged*
+#### 暂存状态 - *Staged*
 
 > *add 命令状态*
 
@@ -506,7 +506,7 @@ git status -s #简短格式查看文件修改状态
 
 
 
-## git 命令›进阶
+## 命令 › 进阶
 
 ### *stash*
 
@@ -518,9 +518,9 @@ https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注�
 
 
 
-## 🔥 git 远程仓库
+## 🔥 远程仓库
 
-### 配置验证信息 *ssh*
+### 配置验证信息 - *ssh*
 
 > 由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过 SSH 加密的，所以我们需要配置验证信息
 
@@ -588,7 +588,7 @@ https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注�
 
    
 
-### 配置参考链接
+#### 参考链接
 
 https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
@@ -600,7 +600,7 @@ https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教
 
 ### 忽略文件
 
-方式1 忽略跟踪*modified*状态的文件
+方式 1：忽略跟踪*modified*状态的文件
 
 ```bash
 #忽略跟踪
@@ -617,7 +617,7 @@ git ls-files -v | grep '^h\ ' | awk '{print $2}'
 git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assume-unchanged
 ```
 
-方式2 需要推送到远程仓库
+方式 2：需要推送到远程仓库
 
 ```bash
 git rm -r --cached <file> #把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除
@@ -632,9 +632,9 @@ git push
 
 忽略*untracked*状态的文件
 
-方式1：将文件加入到 `.gitignore`
+方式 1：将文件加入到 `.gitignore`
 
-方式2：将文件加入到 `.git/info/exclude` *via phpstorm/git*
+方式 2：将文件加入到 `.git/info/exclude` *via phpstorm/git*
 
 
 
@@ -723,7 +723,7 @@ https://www.cnblogs.com/friedCoder/p/12467515.html - *.gitattributes - friedCode
 
 ## FAQ
 
-### git *webhook*
+### *webhook*
 
 gitee
 
@@ -741,7 +741,7 @@ https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebH
 
 
 
-### git 放弃修改，强制覆盖本地代码
+### 放弃修改，强制覆盖本地代码
 
 ```bash
 git reset --hard origin/master
@@ -749,7 +749,7 @@ git reset --hard origin/master
 
 https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
 
-### 🔥 git 创建新版本库
+### 🔥 创建新版本库
 
 > via 阿里云代码仓库
 
@@ -764,7 +764,7 @@ git push -u origin master
 
 
 
-### 🔥 git 已存在的文件夹或 Git 仓库
+### 🔥 已存在的文件夹或 Git 仓库
 
 > via 阿里云代码仓库
 
@@ -787,7 +787,7 @@ git pull origin master #git remote完成后拉取远程的文件操作
 
  
 
-### 🔥 git 放弃本地文件修改
+### 🔥 放弃本地文件修改
 
 https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
 
@@ -829,7 +829,7 @@ https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
 
 
 
-### 🔥 git如何从远端获取某个文件
+### 🔥 如何从远端获取某个文件
 
 ```bash
 git fetch
@@ -842,7 +842,7 @@ git checkout origin/master -- path/folder #获取某个目录
 
 
 
-### git 回退*push*的文件
+### 回退*push*的文件
 
 1. --force
 
@@ -853,7 +853,7 @@ git checkout origin/master -- path/folder #获取某个目录
 
    
 
-### git 合并多个提交
+### 合并多个提交
 
 https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
 
@@ -861,7 +861,7 @@ https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
 
 
 
-### git commit emoji
+### commit emoji 😜
 
 
 https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代码说明时添加emoji小图标*
@@ -875,6 +875,6 @@ https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代�
 
 
 
-### git 在本地局域网中的两台电脑间同步代码
+### 在本地局域网中的两台电脑间同步代码
 
 https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*

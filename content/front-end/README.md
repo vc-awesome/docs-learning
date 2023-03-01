@@ -40,19 +40,17 @@ https://github.com/mdo/code-guide - *Standards for developing consistent, flexib
 
 ## 页面布局
 
-<i class="ri-link"></i>
-[html 布局](/front-end/html/?id=布局)
+[HTML 布局](/front-end/html/?id=布局)
 
-<i class="ri-link"></i>
-[css 布局](/front-end/css/css-命名规则?id=layout布局-)
+[CSS 布局](/front-end/css/css-命名规则?id=layout布局-)
 
-Grid
+- Grid
 
-Flex
+- Flex
 
-Position
+- Position
 
-Table
+- Table
 
 https://www.runoob.com/cssref/func-calc.html - *元素高度计算函数 `calc()`*
 

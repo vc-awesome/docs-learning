@@ -30,28 +30,38 @@ https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
 #	::1             localhost
 ```
 
-
-
 ## Link
+
+http://ddrfans.com/Html/1/301864.html - _hosts文件修改方法集合(附各种问题解决方法) | 更新日期：2023/1/14,DDR爱好者之家 - 无损音乐,高清电影,福利资源,技术教程,磁力下载,网盘云盘资源_
 
 https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 款小工具推荐给你*
 
 ~~https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*~~
 
-> 刷新本地 dns
->
-> 修改了 hosts 文件后不需要重启电脑，直接在本地刷新 dns 的缓存即可生效：
->
-> Windows
->
-> 1. `win+R`组合键启动运行，输入`cmd`
-> 2. 在cmd界面输入`ipconfig /flushdns`，然后回车
-> 3. 接下来你会看到`已成功刷新 DNS 解析缓存。`
->
-> Mac
->
-> 1. 打开终端工具
-> 2. 输入 `sudo killall -HUP mDNSResponder`
+刷新本地 DNS
+
+修改了 hosts 文件后不需要重启电脑，直接在本地刷新 dns 的缓存即可生效：
+
+- Windows
+
+    1. <kbd>win</kbd> + <kbd>R</kbd> 组合键启动运行，输入 `cmd` 打开命令行工具
+    2. 在 `cmd` 工具界面输入
+
+        ```bash
+        ipconfig /flushdns
+        ```
+
+        ，然后回车
+    3. 接下来你会看到`已成功刷新 DNS 解析缓存。`
+
+- macOS
+
+    1. 打开终端工具
+    2. 输入
+        ```bash
+        sudo killall -HUP mDNSResponder
+        ```
+
 
 
 
@@ -91,7 +101,37 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 ### personalDNSfilter
 
-<i class="ri-link"></i> [personalDNSfilter](os/mobile/?id=personaldnsfilter)
+[personalDNSfilter](os/mobile/?id=personaldnsfilter)
+
+## Rules
+
+### Google
+
+搜索引擎、GitHub 搜索：_google host_
+
+- https://github.com/y1yang0/host
+    ![](https://flat.badgen.net/github/last-commit/y1yang0/hosts?icon=github&color=blue)
+
+- https://github.com/googlehosts/hosts
+    ![](https://flat.badgen.net/github/last-commit/googlehosts/hosts?icon=github&color=blue)
+
+- https://github.com/lennylxx/ipv6-hosts
+    ![](https://img.shields.io/github/last-commit/lennylxx/ipv6-hosts?color=blue&logo=github&style=flat-square)
+
+- https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*
+
+### GitHub
+
+https://raw.hellogithub.com/hosts via https://github.com/521xueweihan/GitHub520 ![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+
+### AD
+
+> 广告过滤（拦截）
+
+- https://github.com/privacy-protection-tools/anti-AD ![](https://flat.badgen.net/github/last-commit/privacy-protection-tools/anti-AD?icon=github&color=blue)
+
+- https://github.com/gorhill/uBlock ![](https://flat.badgen.net/github/last-commit/gorhill/uBlock?icon=github&color=blue)
+
 
 ## Browser addons
 

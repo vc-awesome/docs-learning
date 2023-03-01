@@ -130,8 +130,14 @@ Question：
 
 ## html 页面
 
-### 404页面
+### 404 页面
 
 参考页面：
 
 - https://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip
+
+### 引导页面
+
+按步骤引导用户操作的页面
+
+> 这里放一张截图
