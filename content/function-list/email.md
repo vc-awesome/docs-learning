@@ -1,4 +1,4 @@
-## php 发送邮件
+## PHP 发送邮件
 
 
 
@@ -12,7 +12,7 @@
 
 ### Composer
 
-<i class="ri-link"></i> [phpmailer/phpmailer 6.5.1](/开发框架/composer?id=phpmailerphpmailer-651)
+[phpmailer/phpmailer 6.5.1](back-end/composer/composer-pkgs.md#phpmailerphpmailer-651)
 
 
 
@@ -215,7 +215,7 @@ https://www.daniao.org/9208.html - *宝塔邮局管理器安装与设置 – 多
 https://www.xujiahua.com/8844.html - _宝塔邮局，让你瞬间拥有无限个域名邮箱! vps上搭建你的私人邮件服务器_
 
 
-- windows 系统
+- Windows 系统
     -  https://blog.csdn.net/weixin_45127815/article/details/123805307 - _怎么搭建自己邮箱服务器，详细教程_
         - https://www.hmailserver.com/download - 
         _Download - hMailServer - Free open source email server for Microsoft Windows_

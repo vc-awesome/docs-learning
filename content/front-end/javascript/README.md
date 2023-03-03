@@ -352,27 +352,27 @@ https://www.runoob.com/js/js-window.html - *JavaScript Window - 浏览器对象�
 
 ### Window 对象
 
-https://www.runoob.com/jsref/obj-window.html
+https://www.runoob.com/jsref/obj-window.html - *Window 对象 | 菜鸟教程*
 
 ### Navigator 对象
 
-https://www.runoob.com/jsref/obj-navigator.html
+https://www.runoob.com/jsref/obj-navigator.html - *Navigator 对象 | 菜鸟教程*
 
 ### Screen 对象
 
-https://www.runoob.com/jsref/obj-screen.html
+https://www.runoob.com/jsref/obj-screen.html - *Screen 对象 | 菜鸟教程*
 
 ### History 对象
 
-https://www.runoob.com/jsref/obj-history.html
+https://www.runoob.com/jsref/obj-history.html - *History 对象 | 菜鸟教程*
 
 ### Location 对象
 
-https://www.runoob.com/jsref/obj-location.html
+https://www.runoob.com/jsref/obj-location.html - *Location 对象 | 菜鸟教程*
 
 ### 存储对象
 
-https://www.runoob.com/jsref/obj-storage.html
+https://www.runoob.com/jsref/obj-storage.html - *JavaScript 存储对象 | 菜鸟教程*
 
 ## Ajax
 
@@ -380,7 +380,7 @@ https://www.runoob.com/ajax/ajax-tutorial.html - *AJAX 教程 | 菜鸟教程*
 
 ## FAQ
 
-### a标签响应onclick事件，并且不执行href动作
+### a 标签响应 onclick 事件，并且不执行 href动作
 
 ```html
 <a href="javascript:void(0)" onclick="doSomething()">链接</a>
@@ -398,7 +398,7 @@ https://www.runoob.com/ajax/ajax-tutorial.html - *AJAX 教程 | 菜鸟教程*
 event.preventDefault(); // 如果<a>定义了 target="_blank“ 需要这句来阻止打开新页面
 ```
 
-### jquery多个选择器绑定同一个事件
+### jquery 多个选择器绑定同一个事件
 
 ```js
 $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
@@ -408,7 +408,7 @@ $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
 
 
 
-### Jquery手册事件处理on、bind
+### Jquery 手册事件处理 on、bind
 
  
 
@@ -422,13 +422,13 @@ $("#id").val("");
 $("input").attr("value",""); 
 ```
 
-### 限制input输入框输入的长度
+### 限制 input 输入框输入的长度
 
 1. style 属性中添加 `minlength="4" maxlength="4"`
 
 2. 添加属性 `minlength="4" maxlength="4"` 
 
-### jquery加载页面的方法(页面加载完成就执行),建议大家看下windows.onload与$(document).ready之间的区别。
+### jquery 加载页面的方法(页面加载完成就执行),建议大家看下 windows.onload 与 $(document).ready之 间的区别。
 
 HTML：
 
@@ -569,13 +569,13 @@ window.onload = function(){
 >
 > Tip ：jQuery 中真正与 window.onload 完全等价的是 $(window).load() 方法
 
-### js中location.href的用法
+### js 中 location.href 的用法
 
-https://www.cnblogs.com/wmcoder/p/5688988.html
+https://www.cnblogs.com/wmcoder/p/5688988.html - *js中location.href的用法 - WKellyL - 博客园*
 
-### 按钮点击事件绑定--onClick事件
+### 按钮点击事件绑定-- onClick 事件
 
-https://blog.csdn.net/kye055947/article/details/79619538
+https://blog.csdn.net/kye055947/article/details/79619538 - *【JavaScript】按钮绑定点击事件-onCliek事件_js 绑定按钮事件_程序员不弃的博客-CSDN博客*
 
 ### Jquery on 绑定未来元素
 
@@ -616,11 +616,25 @@ onclick="window.location.href='#'"
 </a>
 ```
 
-### js中json数据的处理
+### js 如何打开链接
 
-https://blog.csdn.net/cgj19960119/article/details/84987426
+百度关键词搜索：[js打开链接](https://www.baidu.com/s?word=js打开链接)
 
-json对象：
+https://cloud.tencent.com/developer/information/js%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5 - *js如何打开链接_js 打开a链接_js 打开链接 - 腾讯云开发者社区 - 腾讯云*
+
+- https://cloud.tencent.com/developer/article/1868570 - *JS 新窗口打开超链接 - 腾讯云开发者社区-腾讯云*
+
+
+``` javascript
+window.open("https://www.baidu.com/s?word=");
+```
+
+
+### js 中 json 数据的处理
+
+https://blog.csdn.net/cgj19960119/article/details/84987426 - *JS中json数据的处理_js json数据_不为人知的小小鸟的博客-CSDN博客*
+
+json 对象：
 
 ````javascript
 var obj = {"name":"xiao","age":12};
@@ -654,9 +668,9 @@ json_str = JSON.stringify(obj);
 
 
 
-### js中字符串全部替换
+### js 中字符串全部替换
 
-https://www.cnblogs.com/cblogs/p/9293522.html
+https://www.cnblogs.com/cblogs/p/9293522.html - *js中字符串全部替换 - HaydenChao - 博客园*
 
 语法
 
@@ -672,7 +686,7 @@ str.replace(/需要替换的字符串/g，"新字符串");
 
 
 
-### js跳转至页面底部
+### js 跳转至页面底部
 
 https://zhidao.baidu.com/question/308832148.html - *jQuery实现方式不一样的跳转到底部*
 

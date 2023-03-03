@@ -123,5 +123,5 @@ https://blog.csdn.net/ai2000ai/article/details/85775484 - *HTTP basic auth*
 
 https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS - *跨源资源共享（CORS）*
 
-<i class="ri-link"></i> [cross-domain](essential/cross-domain.md)
+[cross-domain](essential/cross-domain.md)
 

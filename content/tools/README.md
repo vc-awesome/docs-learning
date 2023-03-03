@@ -1,8 +1,10 @@
+!> ⚠️ 各软件应用、系统不断更新换代，长久未更新的软件会出现不适配、淘汰的情况。
+
 ----
 
 <i class="ri-link"></i> 表示 内部链接  
 <i class="ri-external-link-fill"></i> 表示 外部链接  
-<i class="fa fa-shopping-cart"></i> 表示 收费 / 非免费  
+<i class="fa fa-shopping-cart"></i> 表示 付费 / 非免费  
 <i class="ri-check-double-line"></i> 表示 使用中  
 <i class="ri-open-source-fill medium-green"></i> 表示 开源软件  
 
@@ -13,6 +15,7 @@
 <i class="ri-android-line"></i> 表示 支持 Android  
 <i class="ri-apple-line"></i> 表示 支持 iOS / iPhone  
 <i class="fa fa-laptop"></i> 表示 支持 Web 网页  
+<i class="fa fa-mobile"></i> 表示 支持 [WAP](https://baike.baidu.com/item/wap%E7%BD%91%E7%AB%99/3419865)  
 <i class="fa fa-chrome"></i> 表示 支持 浏览器扩展  
 <i class="fa fa-code"></i> 表示 支持 代码部署  
 <i class="fa fa-terminal"></i> 表示 支持 CLI 终端
@@ -45,7 +48,10 @@ _3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-m
 
 > 软件安装至电脑 `D`、`E` 盘
 
-| 序号 | 软件名称                            | 类型             | 下载方式                                                     | 是否登录           |
+<details>
+<summary><i style="color:red">展开/收起</i></summary>
+
+| 序号（36） | 软件名称                            | 类型             | 下载方式                                                     | 是否登录           |
 | ---- | ----------------------------------- | ---------------- | ------------------------------------------------------------ | ------------------ |
 | 1    | 电脑管家                            | 安全             | [下载链接](https://pc.qq.com/detail/1/detail_1841.html)      | :heavy_check_mark: |
 | 2    | QQ                                  | 通讯             | 电脑管家                                                     | :heavy_check_mark: |
@@ -84,67 +90,26 @@ _3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-m
 | 35   | 向日葵远程控制软件                  | 开发             | 电脑管家<br />[下载链接](https://sunlogin.oray.com/personal/) | :heavy_check_mark: |
 | 36   | HBuilder X                          | 开发             | [下载链接](https://www.dcloud.io/hbuilderx.html)             | :x:                |
 
-## 仿站工具
-
-百度搜索词：下载网页模板软件、仿站工具、仿站软件
+</details>
 
 
+## FAQ
 
-- 分类
-  - 针对单页面
-  - 针对整站
+### 软件如何分类？
 
+_> 参考「Google Play 商店」、「小米应用商店」、「Mac APP Store」。_
 
+### 如何验证软件安装包真伪？
 
-- 安装包
+**方式一**
 
-  - Teleport Ultra
+https://support.token.im/hc/zh-cn/articles/4405256632601 - *如何验证 imToken App 的真伪？ – imToken - 以太坊钱包 比特币钱包 - 客服中心*
 
-    http://www.tenmax.com/teleport/ultra/download.htm/
+https://support.token.im/hc/zh-cn/articles/360008124173-如何注册非中国大陆区-Apple-ID- *如何注册非中国大陆区 Apple ID？ – imToken - 以太坊钱包 比特币钱包 - 客服中心*
 
-  - Teleport Pro（电脑管家/收费）
+**方式二**
 
-  - 👍 小飞兔（收费功能更完善）
+使用手机应用 [App Manager](https://f-droid.org/packages/io.github.muntashirakon.AppManager) 验证
 
-    https://www.xftsoft.com/
-
-    https://smalltool.github.io/
-
-  - Offline Explorer（电脑管家/收费）
-
-    https://metaproducts.com/
-
-  - WebZip
-
-    https://www.onlinedown.net/soft/19648.htm
-
-    
-
-- 浏览器扩展程序
-
-  - Save All Resources
-
-    <i class="fa fa-github"></i> https://github.com/up209d/ResourcesSaverExt
-
-    https://www.crxsoso.com/webstore/detail/abpdnfjocnmdomablahdcfnoggeeiedb
-
-    via https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法 - 掘金*
-
-- 在线工具
-
-  https://bazhan.wang/ :cn: - *在线扒站工具-在线扒站官网网页源码打包下载手机扒站_仿站工具*
-
-- 参考链接
-
-  https://blog.csdn.net/weixin_42514606/article/details/88431772 - *扒站工具推荐*
-
-  - 如何优雅的扒网站
-
-    https://www.cnblogs.com/zuoshoupai/p/8276741.html - *如何优雅的扒网站——工具篇*
-
-    https://www.cnblogs.com/zuoshoupai/p/9221285.html - *如何优雅的扒站——抓包篇*
-
-    https://www.cnblogs.com/zuoshoupai/p/6985834.html - *如何优雅的仿站Step One——扒网站篇*
-
-  https://blog.51cto.com/lxw1844912514/3073591 - *4种常用扒站工具（webzip、ha_TeleportPro、Offline Explorer、wget）*
-
+操作步骤：
+_> 打开应用 > 搜索指定应用 > 顶部菜单栏选择“签名”标签页_

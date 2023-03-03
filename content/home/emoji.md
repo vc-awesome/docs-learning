@@ -5,30 +5,29 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 
 
 
-## Link <i class="ri-link"></i>
+## Link
 
-<i class="ri-external-link-line"></i> https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
+https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
 
-<i class="ri-external-link-line"></i> [github emoji 表情列表](https://www.cnblogs.com/takeurhand/p/6940135.html)
+https://www.cnblogs.com/takeurhand/p/6940135.html - *github emoji 表情列表 - CaiYongji - 博客园*
 
-<i class="ri-external-link-line"></i> [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev/)
+https://gitmoji.dev/ - *gitmoji | An emoji guide for your commit messages*
+![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)  
 
-<i class="ri-link"></i> [<i class="fa fa-github"></i> GitHub](/home/github)
 
-<i class="ri-link"></i> [<i class="icon octicon-file markdown-icon"></i> Markdown](/home/markdown.md?id=emoji表情 "Markdown")
+[<i class="fa fa-github"></i> GitHub](tools/github.md)
 
----
+[<i class="icon octicon-file markdown-icon"></i>Markdown](tools/markdown#emoji-表情 "Markdown")
 
 ## Frequent use
 
-<i class="ri-external-link-line"></i> 👍 https://emojipedia.org/ 👇
+https://emojipedia.org/ - *📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍*
 
 [0️⃣](https://emojipedia.org/keycap-digit-zero/) 1️⃣ 2️⃣ 3️⃣ 4️⃣ 5️⃣ 6️⃣ 7️⃣ 8️⃣ 9️⃣ 🔟
 
-> 参考`github`的项目`README.md`
+_> 参考 `GitHub` 的项目 `README.md`_
 
-
-| 简码                     | 效果                   | 描述                           | emoji | 用途/使用场景    |
+| 简码                     | 效果                   | 描述                           | Emoji | 用途/使用场景    |
 | -------------------------- | ------------------------ | -------------------------------- | ------- | ------------------ |
 | `:rocket:`               | :rocket:               | [Rocket](https://emojipedia.org/rocket/) | 🚀    | get started/开始 |
 | `:fire:`                 | :fire:                 | [Fire](https://emojipedia.org/fire/) | 🔥    | 热点             |
@@ -78,4 +77,3 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 | `:outbox_tray:` | :outbox_tray: | [Outbox Tray](https://emojipedia.org/outbox-tray/) | 📤 | 上传 |
 | `:ladder:` | :ladder: | [Ladder](https://emojipedia.org/ladder/) | 🪜 | 梯子 |
 | `:octocat:` | :octocat: | [GitHub系列](https://emojipedia.org/github/) |  | GitHub |
-

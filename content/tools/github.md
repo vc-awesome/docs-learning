@@ -117,6 +117,8 @@ https://docs.github.com/zh/communities/using-templates-to-encourage-useful-issue
 
 官网：https://pages.github.com/ - *GitHub Pages | Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.*
 
+文档：https://docs.github.com/zh/pages - *GitHub Pages 文档 - GitHub Docs*
+
 - [搭建一个免费的，无限流量的Blog----githubPages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
 
 - [hexo你的博客](http://ibruce.info/2013/11/22/hexo-your-blog/)
@@ -407,7 +409,7 @@ https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr C
 
 #### Mirror
 
-[镜像](home/readme.md#镜像站)
+[镜像](home/README.md#镜像站)
 
 https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 

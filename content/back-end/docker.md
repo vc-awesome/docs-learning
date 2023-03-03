@@ -115,7 +115,7 @@ https://www.runoob.com/docker/macos-docker-install.html - *MacOS Docker 安装 |
 
 
 
-## faqs
+## FAQs
 
 docker ⇣
 

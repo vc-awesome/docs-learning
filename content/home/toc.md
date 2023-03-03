@@ -1,25 +1,22 @@
 资源文件夹命名
 
- 
-
 ## Link
 
-<i class="ri-link"></i>
 [Tools > Docsify > Directory Structure](/tools/docsify?id=目录结构)
 
 参考
 
-- thinkphp https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
+- ThinkPHP https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
 
-- bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 内容*
+- Bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 内容*
 
 
 
 ## 项目
 
-扩展目录：[H:\√ 123456\╰ 公司项目\!! 统一格式文件分类](H:\√ 123456\╰ 公司项目\!! 统一格式文件分类)
+扩展目录：_H:\√ 123456\╰ 公司项目\!! 统一格式文件分类_
 
-扩展文件：[√ 统一格式文件分类.txt](H:\√ 123456\╰ 公司项目\!! 统一格式文件分类\√ 统一格式文件分类.txt)
+扩展文件：_H:\√ 123456\╰ 公司项目\!! 统一格式文件分类\√ 统一格式文件分类.txt_
 
 ```text
  -- 参考 ydwxld
@@ -133,9 +130,9 @@
 
 参考站点：
 
-- 1️⃣ https://gamium.world/ :us:
+1️⃣ https://gamium.world/ 🇺🇸
 
-- 2️⃣ https://unpkg.com/fontawesome-free/
+2️⃣ https://unpkg.com/fontawesome-free/
 
 ```markdown
 myproject
@@ -168,8 +165,6 @@ myproject
 +-- 404.html
 +-- index.html
 ```
-
-
 
 ### Web
 
@@ -273,7 +268,7 @@ project/ #目录结构
 
 ## 后端
 
-> thinkphp资源存放：
+> ThinkPHP 资源存放：
 >
 > - public/admin
 >
@@ -282,7 +277,7 @@ project/ #目录结构
 > - public/index
 
 ```text
-thinkphp资源存放：public/static/home/default/
+ThinkPHP 资源存放：public/static/home/default/
 ├─ css/
 ├─ demo/
 ├─ js/

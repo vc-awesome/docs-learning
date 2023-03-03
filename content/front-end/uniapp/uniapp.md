@@ -15,7 +15,7 @@
 
 ## 目录结构
 
-<i class="ri-links-fill"></i> [uni-app 目录结构](home/toc?id=uni-app)
+[uni-app 目录结构](home/toc?id=uni-app)
 
 <https://uniapp.dcloud.net.cn/tutorial/project.html#目录结构>
 
@@ -43,14 +43,12 @@
 
 ### 通用组件
 
-[g_bro_marquee](https://ext.dcloud.net.cn/plugin?id=1805) | `跑马灯`
-
-[luch-request](https://ext.dcloud.net.cn/plugin?id=392) | `拦截器` `网络请求`
-
-[APP Update](https://ext.dcloud.net.cn/plugin?id=1643) | `APP版本更新`
-
-[tony-scroll](https://ext.dcloud.net.cn/plugin?id=1179) | `列表上下循环滚动`
-
+ID  | 插件名  | 插件市场链接
+---|---|---
+1  | 跑马灯  | [g_bro_marquee](https://ext.dcloud.net.cn/plugin?id=1805)
+2  | 拦截器、网络请求  | [luch-request](https://ext.dcloud.net.cn/plugin?id=392)
+3  | APP版本更新  | [APP Update](https://ext.dcloud.net.cn/plugin?id=1643)
+4  | 列表上下循环滚动  | [tony-scroll](https://ext.dcloud.net.cn/plugin?id=1179)
 
 
 ## 打包流程
@@ -121,13 +119,13 @@
 
 ## 样式
 
-style的scoped属性
+style 的 scoped 属性
 
 
 
-css预处理器sass/scss、less、stylus
+css 预处理器 sass/scss、less、stylus
 
-> 使用sass/scss时，需在style添加属性lang="scss"
+> 使用 sass/scss 时，需在 style 添加属性 lang="scss"
 
 
 
@@ -182,7 +180,7 @@ fr
 
 方式二：api [官方文档与本标题对应]
 
-`methods`方法定义：`toRecharge`,`toWithdrawal`
+`methods` 方法定义：`toRecharge`,`toWithdrawal`
 
 ### 参数传递?
 
@@ -229,7 +227,7 @@ fr
 
 ## Vue教程
 
-[uniapp vue教程](https://uniapp.dcloud.net.cn/vue-basics)
+https://uniapp.dcloud.net.cn/tutorial/vue-basics.html - *介绍 | uni-app官网*
 
 ### Vuex
 
@@ -237,13 +235,13 @@ fr
 
 ## 条件编译 解决各端差异
 
-[uniapp 教程](https://uniapp.dcloud.io/platform?id=%e6%9d%a1%e4%bb%b6%e7%bc%96%e8%af%91)
+https://uniapp.dcloud.net.cn/tutorial/platform.html - *跨端兼容 | uni-app官网*
 
 
 
 ## 组件webview
 
-[uniapp 教程](https://uniapp.dcloud.io/component/web-view)
+https://uniapp.dcloud.net.cn/component/web-view.html# - *web-view | uni-app官网*
 
 [【报Bug】uni-app 自定义导航条被web-view页面覆盖了](https://ask.dcloud.net.cn/question/66374)
 
@@ -303,23 +301,23 @@ fr
 
 > 在 onLoad 里得到，onLoad 的参数是其他页面打开当前页面所传递的数据
 
-[uni-app官方/link](https://uniapp.dcloud.net.cn/vue-api?id=_1-%e5%a6%82%e4%bd%95%e8%8e%b7%e5%8f%96%e4%b8%8a%e4%b8%aa%e9%a1%b5%e9%9d%a2%e4%bc%a0%e9%80%92%e7%9a%84%e6%95%b0%e6%8d%ae)
+https://uniapp.dcloud.net.cn/tutorial/vue-api.html#_1-%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%AA%E9%A1%B5%E9%9D%A2%E4%BC%A0%E9%80%92%E7%9A%84%E6%95%B0%E6%8D%AE - *全局配置 | uni-app官网*
 
-:+1: [uni-app官方/页面通讯](https://uniapp.dcloud.io/collocation/frame/communication)
+:+1: https://uniapp.dcloud.net.cn/tutorial/page.html#%E9%A1%B5%E9%9D%A2%E9%80%9A%E8%AE%AF - *页面简介 | uni-app官网*
 
 ### 如何设置全局的数据和全局的方法
 
-[link](https://uniapp.dcloud.net.cn/vue-api?id=_2-%e5%a6%82%e4%bd%95%e8%ae%be%e7%bd%ae%e5%85%a8%e5%b1%80%e7%9a%84%e6%95%b0%e6%8d%ae%e5%92%8c%e5%85%a8%e5%b1%80%e7%9a%84%e6%96%b9%e6%b3%95)
+https://uniapp.dcloud.net.cn/tutorial/vue-api.html#_2-%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E5%85%A8%E5%B1%80%E7%9A%84%E6%96%B9%E6%B3%95 - *全局配置 | uni-app官网*
 
 ### :fire: 当前页面如何绑定传参 [v-for]
 
-[link](https://ask.dcloud.net.cn/article/35705)
+https://ask.dcloud.net.cn/m/article/35705 - *uni-app中在同一个页面使用多个picker组件出现的一些问题以及解决方法 - DCloud问答*
 
-[事件传参](https://blog.csdn.net/CUFEECR/article/details/111240593)
+https://blog.csdn.net/CUFEECR/article/details/111240593 - *uni-app入门教程（3）数据绑定、样式绑定和事件处理_cutercorley的博客-CSDN博客*
 
 ### html标签的默认样式
 
-[link](https://ask.dcloud.net.cn/article/13327)
+https://ask.dcloud.net.cn/m/article/13327 - *HTML的各个标签的默认样式 - DCloud问答*
 
 ### 如何查看插件市场插件的历史版本
 

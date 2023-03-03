@@ -146,13 +146,17 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 - 网页软件（可在浏览器中使用）
 - 桌面软件（需下载安装到电脑中使用）
+    - 版本（Version）
+        - 安装程序（Installer / Setup）
+        - 便携式版本（Portable version）
+- 跨平台应用（支持 PC 端、智能手机、平板、Web 网页等平台）
 
+----
 
+1. 完全免费
+2. 免费试用?天（过了试用期需购买）
+3. 免费功能（Lite版本）、收费功能（Pro版本，应用内购买升级）
 
-- 版本（Version）
-
-  - 安装程序（Installer） / （Setup）
-  - 便携式版本（Portable version）
 
 
 ## 软件卸载

@@ -1,34 +1,31 @@
-后台二开
+## 后台二开
 
-- swarm *
-- 5G探索 *
-- 猎鹰 
-- 财务系统（权限管理功能）-使用猎鹰源码二开 *
+- SWARM *
+- 5G 探索 *
+- 猎鹰
+- 财务系统（权限管理功能）- _使用猎鹰源码二开_ *
 - 财务系统（后台操作日志）
 
+----
 
 
+- TRC_USDT / 猎鹰
+- ETC_USDT / 猎鹰
+- ETH / 奈特
+- TRC_LOH / LOH
+- TRC_USDT 批量提币 / 财务系统
 
 
-- TRC_USDT /猎鹰
-- ETC_USDT /猎鹰
-- ETH /奈特
-- TRC_LOH /LOH
-- TRC_USDT批量提币/财务系统
+Web 页面类型
 
-
-
-web 页面类型
-
-- 单页版（spa）
+- 单页版（SPA）
 
 - iframe版（iframe）即多标签页版（muiltTab）
 
 
-
 后台模板选型
 
-- Table表格
+- Table 表格
   - 字段排序
   - 筛选
   - 搜索

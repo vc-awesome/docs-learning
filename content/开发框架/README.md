@@ -31,7 +31,7 @@ Document：https://v4.bootcss.com :cn:
 
 Document：https://v3.bootcss.com :cn: <i class="con octicon-file tag-icon"></i>[<small>定制</small>](https://v3.bootcss.com/customize/)
 
-Github：https://github.com/twbs/bootstrap
+GitHub：https://github.com/twbs/bootstrap
 
 
 
@@ -47,7 +47,7 @@ Github：https://github.com/twbs/bootstrap
 
 Website：https://get.foundation :us:
 
-Github：https://github.com/foundation/foundation-sites
+GitHub：https://github.com/foundation/foundation-sites
 
 菜鸟教程：https://www.runoob.com/foundation/foundation-tutorial.html
 
@@ -65,7 +65,7 @@ Website：https://www.layuion.com/
 
 Gitee：https://gitee.com/sentsin/layui
 
-Github：https://github.com/sentsin/layui
+GitHub：https://github.com/sentsin/layui
 
 
 
@@ -82,7 +82,7 @@ Github：https://github.com/sentsin/layui
 
 Website：http://amazeui.shopxo.net/
 
-Github：https://github.com/amazeui/amazeui
+GitHub：https://github.com/amazeui/amazeui
 
 
 
@@ -101,7 +101,7 @@ Website：https://ionic.io/
 
 Website：https://ionicframework.com/
 
-Github：https://github.com/ionic-team/ionic-framework
+GitHub：https://github.com/ionic-team/ionic-framework
 
 菜鸟教程：https://www.runoob.com/ionic/ionic-tutorial.html
 
@@ -117,7 +117,7 @@ Github：https://github.com/ionic-team/ionic-framework
 
 Website：https://semantic-ui.com/ :cn:
 
-Github：https://github.com/semantic-org/semantic-ui
+GitHub：https://github.com/semantic-org/semantic-ui
 
 ## CSS 框架
 
@@ -172,17 +172,17 @@ GitHub：https://github.com/argyleink/open-props
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/vuejs/vue?color=blue&logo=github&style=flat-square)
 
-Website：https://cn.vuejs.org/ :cn:
+Website：https://cn.vuejs.org/ 🇨🇳
 
-Website：https://vuejs.org/ :us:
+Website：https://vuejs.org/ 🇺🇸
 
-Github：https://github.com/vuejs/vue
+GitHub：https://github.com/vuejs/vue
 
 Awesome：https://github.com/vuejs/awesome-vue
 
 菜鸟教程：  
 1️⃣ https://www.runoob.com/vue2/vue-tutorial.html  
-2️⃣ https://www.runoob.com/vue3/vue3-tutorial.html:cn:
+2️⃣ https://www.runoob.com/vue3/vue3-tutorial.html
 
 
 #### BootstrapVue
@@ -198,7 +198,7 @@ Awesome：https://github.com/vuejs/awesome-vue
 
 Website：https://bootstrap-vue.org/
 
-Github：https://github.com/bootstrap-vue/bootstrap-vue
+GitHub：https://github.com/bootstrap-vue/bootstrap-vue
 
 
 #### Element UI 🔥
@@ -231,7 +231,7 @@ Website：https://youzan.github.io/vant/
 
 Website：https://youzan.github.io/vant-weapp/ （轻量、可靠的小程序 UI 组件库）
 
-Github：https://github.com/youzan/vant
+GitHub：https://github.com/youzan/vant
 
 
 
@@ -242,7 +242,7 @@ Mobile UI Components based on Vue & WeUI
 
 Website：https://vux.li/
 
-Github：https://github.com/airyland/vux
+GitHub：https://github.com/airyland/vux
 
 
 #### uni-app 🔥
@@ -254,9 +254,9 @@ uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
 
 Website：https://uniapp.dcloud.io/ :cn:
 
-Github：https://github.com/dcloudio/uni-app
+GitHub：https://github.com/dcloudio/uni-app
 
-<i class="ri-link"></i> [uni-app](/front-end/uniapp/)
+[uni-app](/front-end/uniapp/)
 
 ##### uView
 
@@ -267,7 +267,7 @@ Website：https://www.uviewui.com/ :cn:
 
 GitHub：https://github.com/umicro/uView2.0 ![GitHub last commit](https://flat.badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
 
-<i class="ri-link"></i> [uView](/front-end/uniapp/uniapp%20+%20uview)
+[uView](/front-end/uniapp/uniapp%20+%20uview)
 
 
 ### jQuery.js
@@ -278,7 +278,7 @@ GitHub：https://github.com/umicro/uView2.0 ![GitHub last commit](https://flat.b
 
 Website：https://jquery.com/
 
-Github：https://github.com/jquery/jquery
+GitHub：https://github.com/jquery/jquery
 
 
 #### jQuery.Marquee
@@ -316,7 +316,7 @@ https://github.com/vercel/next.js :us: *The React Framework*
 
 Website：https://www.eggjs.org/
 
-Github：https://github.com/eggjs/egg
+GitHub：https://github.com/eggjs/egg
 
 首次接触 At *2022/03/18* via https://oldj.net/article/2019/10/03/the-history-of-this-blog-2019/
 
@@ -331,7 +331,7 @@ Github：https://github.com/eggjs/egg
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think?style=social)
 
-<i class="ri-link"></i> [ThinkPHP](/back-end/thinkphp/)
+[ThinkPHP](/back-end/thinkphp/)
 
 ### Workerman
 
@@ -356,7 +356,7 @@ GitHub：https://github.com/swoole/swoole-src
 
 ### Symfony
 
-<i class="fa fa-home"></i> https://symfony.com/ - _Symfony, High Performance PHP Framework for Web Development_
+Website：https://symfony.com/ - _Symfony, High Performance PHP Framework for Web Development_
 
 
 
@@ -368,21 +368,21 @@ GitHub：https://github.com/swoole/swoole-src
 
 https://dcloud.io/index.html - _DCloud - HBuilder、HBuilderX、uni-app、uniapp、5+、5plus、mui、wap2app、流应用、HTML5、小程序开发、跨平台App、多端框架_
 
-开发文档
+1. 开发文档
 
-开发规范
+2. 开发规范
 
-开发工具：HBuilderX
+3. 开发工具：HBuilderX
 
-真机调试
+4. 真机调试
 
-生成APP（android / ios）
+5. 生成 APP（Android / iOS）
 
-市场（插件）
+6. 市场（插件）
 
-社区
+7. 社区
 
-案例
+8. 案例
 
 
 
@@ -390,35 +390,35 @@ https://dcloud.io/index.html - _DCloud - HBuilder、HBuilderX、uni-app、uniapp
 
 https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低代码开发平台_
 
-开发文档
+1. 开发文档
 
-开发规范
+2. 开发规范
 
-开发工具：APICloud Studio 2
+3. 开发工具：APICloud Studio 2
 
-真机调试
+4. 真机调试
 
-生成APP（android / ios）
+5. 生成 APP（Android / iOS）
 
-市场（模块store）
+6. 市场（模块 Store）
 
-社区
+7. 社区
 
-案例
+8. 案例
 
 
 
 ### 功能列表
 
-上拉加载
+1. 上拉加载
 
-下拉刷新
+2. 下拉刷新
 
-页面加载中
+3. 页面加载中
 
-扫一扫
+4. 扫一扫
 
-推送（接收推送通知和透传消息功能）
+5. 推送（接收推送通知和透传消息功能）
 
 
 
@@ -428,7 +428,7 @@ https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低�
 
 [docsify](https://docsify.js.org/) - _A magical documentation site generator._
 
-- 不支持 `脚注`、`高亮`
+- _不支持 **脚注**、**高亮**_
 
 [Hexo](https://hexo.io/zh-cn/ "快速、简洁且高效的博客框架") - _快速、简洁且高效的博客框架_
 

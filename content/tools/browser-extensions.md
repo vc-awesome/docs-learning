@@ -9,7 +9,7 @@ https://ldqk.xyz/1775 - *高效上网——Chrome/Edge浏览器优秀扩展插�
 
 
 
-### GitHub
+### GitHub Topics
 
 <i class="fa fa-github fa-lg"></i>
 https://github.com/topics/chrome-extension
@@ -252,6 +252,8 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 5. [github-vscode-icons](https://github.com/dderevjanik/github-vscode-icons) - _This extension shows a VS Code icons in Github Repositories_
 
 6. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
+
+7. https://github.com/conwnet/github1s - *GitHub - conwnet/github1s: One second to read GitHub code with VS Code.* ( _**via** https://zhuanlan.zhihu.com/p/350615234 - *人生第一个扩展——Github1s - 知乎*_ )
 
 
 ### 钱包
