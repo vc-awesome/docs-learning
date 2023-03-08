@@ -21,12 +21,12 @@
 <i class="fa fa-terminal"></i> 表示 支持 CLI 终端
 
 <i class="ri-app-store-line"></i> 表示 支持 App Store 下载  
+![App Store][App Store Icon] 表示 支持 App Store 下载  
 <i class="ri-google-play-line"></i> 表示 支持 Play Store 下载  
 <i class="fa fa-github"></i> 表示 支持 GitHub 下载  
 ![腾讯电脑管家][guanjia-qq Icon] 表示 支持“电脑管家-软件管理”下载  
 ![F-Droid][F-Droid Icon] 表示 支持 F-Droid 下载  
-![Microsoft Store][Microsoft Store Icon] 表示 支持 Microsoft Store 下载  
-![App Store][App Store Icon] 表示 支持 App Store 下载
+![Microsoft Store][Microsoft Store Icon] 表示 支持 Microsoft Store 下载
 
 [guanjia-qq Icon]: http://guanjia.qq.com/assets/images/v15/favicon.ico ":size=14 腾讯电脑管家"
 [F-Droid Icon]: https://f-droid.org/assets/favicon_yJPr4UNteJc-cseeq16P0Hvl1kDbJjTVYcj-KA6-_Fs=.ico ":size=14 F-Droid"
@@ -46,7 +46,7 @@ _3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-m
 
 ## 安装列表
 
-> 软件安装至电脑 `D`、`E` 盘
+> 软件安装至电脑 _D_ 或者 _E_ 盘
 
 <details>
 <summary><i style="color:red">展开/收起</i></summary>

@@ -1,4 +1,4 @@
-## Search 🔍
+## Search
 
 > *综合搜索*：后台模板、官网模板、插件......
 
@@ -128,7 +128,7 @@ https://www.tailwindcss.cn/ :cn: *Tailwind CSS 是一个用于快速UI开发的�
 - https://github.com/tailwindlabs/tailwindcss :uk: - _A utility-first CSS framework for rapid UI development._
 
 
-### Pure.js
+### Pure.css
 
 https://github.com/pure-css/pure/ :uk: *A set of small, responsive CSS modules that you can use in every web project.*
 
@@ -280,6 +280,8 @@ Website：https://jquery.com/
 
 GitHub：https://github.com/jquery/jquery
 
+BootCDN：https://www.bootcdn.cn/jquery/ - *jquery (v3.6.3) - jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。它提供的 API 易于使用且兼容众多浏览器，这让诸如 HTML 文档遍历和操作、事件处理、动画和 Ajax 操作更加简单。 | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
+
 
 #### jQuery.Marquee
 
@@ -426,14 +428,18 @@ https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低�
 
 ?> 静态网站生成器
 
-[docsify](https://docsify.js.org/) - _A magical documentation site generator._
+1. [docsify](https://docsify.js.org/) - _A magical documentation site generator._
+    - _不支持 **脚注**、**高亮**_
+2. [Hexo](https://hexo.io/zh-cn/ "快速、简洁且高效的博客框架") - _快速、简洁且高效的博客框架_
+3. [Jekyll](https://jekyllrb.com) - _Jekyll • Simple, blog-aware, static sites | Transform your plain text into static websites and blogs_
+4. [GitBook](https://www.gitbook.com/) - _GitBook - Where software teams break knowledge silos._
+    - https://blog.csdn.net/xixihahalelehehe/article/details/125120709 - *gtibook 插件 代码块_gitbook 代码_ghostwritten的博客-CSDN博客*
+5. [VuePress](https://www.vuepress.cn) - *Vue 驱动的静态网站生成器*
+    - https://developer.aliyun.com/article/1152243 - *零成本也能快速开发个人博客？vuepress-next快速入门-阿里云开发者社区*
+6. [Doctocat](https://github.com/primer/doctocat) - *GitHub - primer/doctocat: A Gatsby theme for building Primer documentation sites*
+    - 谁在使用
+        - https://primer.style/doctocat/ - *Doctocat*
+        - https://github.com/npm/documentation - *GitHub - npm/documentation: Documentation for the npm registry, website, and command-line interface.*
 
-- _不支持 **脚注**、**高亮**_
-
-[Hexo](https://hexo.io/zh-cn/ "快速、简洁且高效的博客框架") - _快速、简洁且高效的博客框架_
-
-[Jekyll](https://jekyllrb.com) - _Jekyll • Simple, blog-aware, static sites | Transform your plain text into static websites and blogs_
-
-[GitBook](https://www.gitbook.com/) - _GitBook - Where software teams break knowledge silos._
-
-[VuePress](https://www.vuepress.cn) :cn: - *Vue 驱动的静态网站生成器*
+7. [Gatsby](https://www.gatsbyjs.com/) - *The Fastest Frontend for the Headless Web | Gatsby*
+    - https://blog.csdn.net/woyebuzhidao321/article/details/124214321 - *Gatsby静态站点生成器_创建 gatsby_拾荒李的博客-CSDN博客*

@@ -1,0 +1,36 @@
+// im图标跳动
+@keyframes im_icon{
+    0%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+    50%{
+        opacity: 1;
+        transform: translate(0,3px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+}
+@-webkit-keyframes im_icon{
+    0%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+    50%{
+        opacity: 1;
+        transform: translate(0,3px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+}
+.im {
+    margin-top: -4px;
+    margin-left: 10px;
+    cursor: pointer;
+    animation:  im_icon 1s linear infinite;
+    -webkit-animation:  im_icon 1s linear infinite;
+}

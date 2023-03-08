@@ -104,13 +104,14 @@ https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源�
 
 [GitHub的各标签的功能说明以及使用方法](https://blog.csdn.net/wang975380547/article/details/78095299)
 
-### Issues
+### GitHub Issues
 
 https://docs.github.com/zh/issues - *GitHub 问题 - GitHub Docs*
 
 https://docs.github.com/zh/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository - *为仓库配置议题模板 - GitHub Docs*
 
-> 创建议题模板参考：https://github.com/maks/MGit/issues - *Issues · maks/MGit · GitHub*
+> 创建议题模板参考*（进入页面后，点击“New issue”按钮即可查看议题模板）*：https://github.com/maks/MGit/issues - *Issues · maks/MGit · GitHub*  
+https://github.com/gsantner/markor/issues - *Issues · gsantner/markor · GitHub*
 
 
 ### GitHub Pages
@@ -131,6 +132,26 @@ https://github.com/Yikun/hub-mirror-action - *一个Github Action，用于在Git
 
 
 http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
+
+
+### GitHub Gist
+
+?> Instantly share code, notes, and snippets.  
+<i class="bi bi-translate dark-yellow"></i> 即时共享代码、注释和片段。
+
+官网：https://gist.github.com/ 🪜
+
+**客户端工具**
+
+https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
+
+**FAQ**
+
+https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
+
+https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
+
+https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
 
 
 
@@ -155,42 +176,6 @@ https://www.gouguoyin.cn/posts/10095.html - *利用GitHub Actions自动同步Git
 https://gitee.com/help/articles/4284#article-header0 - *GitHub仓库快速导入Gitee及同步更新*
 
 https://gitee.com/help/articles/4336#article-header0 - *仓库镜像管理 （ Gitee <-> Github 双向同步）*
-
-
-
-### Gist
-
-?> Instantly share code, notes, and snippets.  
-<i class="bi bi-translate dark-yellow"></i> 即时共享代码、注释和片段。
-
-官网：https://gist.github.com/ 🪜
-
-
-
-#### 工具
-
-https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
-
-
-
-#### FAQ
-
-https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
-
-https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
-
-https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
-
-
-
-### 图标 *icon*
-
-https://github.com/homerchen19/github-file-icons - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
-
-> 🏷️ _安装谷歌扩展程序_
-
-[简单三步，让GitHub依照不同文档类型显示不同的图标](https://baijiahao.baidu.com/s?id=1590369276833636579)
-
 
 
 ### 角标 *corners*
@@ -233,8 +218,7 @@ https://github.com/boennemann/badges
 
 GitHub：https://github.com/badges/shields
 
-<details>
- <summary>Show demo.</summary>
+<details class="details-reset"><summary class="btn">DEMO <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
@@ -251,6 +235,18 @@ GitHub：https://github.com/badges/shields
 ```markdown
 [![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
 ```
+
+![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get)
+```markdown
+![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get)
+```
+
+![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get)
+```markdown
+![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get)
+```
+
+</div>
 </details>
 
 
@@ -260,8 +256,7 @@ GitHub：https://github.com/badges/shields
 
 主页：https://badgen.net/
 
-<details>
- <summary>Show demo.</summary>
+<details class="details-reset"><summary class="btn">DEMO <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
 
 ![](https://badgen.net/badge/icon/apple?icon=apple&label)
@@ -293,6 +288,7 @@ GitHub：https://github.com/badges/shields
 ```markdown
 ![](https://badgen.net/badge/color/blue/blue)
 ```
+</div>
 </details>
 
 
@@ -305,24 +301,27 @@ GitHub：https://github.com/badges/shields
 
 主页：https://badge.fury.io/
 
-<details>
- <summary>Show demo</summary>
+<details class="details-reset"><summary class="btn">DEMO <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+
 
 [![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)
 ```markdown
 [![PHP version](https://badge.fury.io/ph/mpdf%2Fmpdf.svg)](https://badge.fury.io/ph/mpdf%2Fmpdf)
 ```
+</div>
 </details>
 
 
 #### Chat
-<details>
- <summary>Show demo</summary>
+
+<details class="details-reset"><summary class="btn">DEMO <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)]()
 ```markdown
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](聊天室 URL)
 ```
+</div>
 </details>
 
 

@@ -11,6 +11,9 @@
           value: "zhihu",
           label: "知乎"
         }, {
+          value: "github",
+          label: "GitHub"
+        }, {
           value: "duckduckgo",
           label: "DuckDuckGo"
         }],
@@ -77,6 +80,9 @@
           } else if (this.value == 'zhihu') {
             _that.alert.title = "https://www.zhihu.com/search?type=content&q=" + this.message;
             _that.label = "知乎话题搜索"
+          } else if (this.value == 'github') {
+            _that.alert.title = "https://github.com/search?q=" + this.message;
+            _that.label = "GitHub 关键词搜索"
           } else if (this.value == 'duckduckgo') {
             _that.alert.title = "https://duckduckgo.com/?q=" + this.message;
             _that.label = "DuckDuckGo 关键词搜索"

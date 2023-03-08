@@ -8,18 +8,7 @@
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
   <link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
-  <style>
-    /*解决上面引用样式对原有样式的改写*/
-    a {
-      text-decoration: underline;
-    }
-    .docsify-copy-code-button span {
-      border: none;
-    }
-  </style>
   <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
-  <!-- <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/dark.css" title="dark"/> -->
-  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
   <!-- Font icon -->
@@ -29,137 +18,23 @@
   <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
-  <!-- 切换主题 -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
-  <style>
-    .search {
-      border-bottom: 1px solid rgb(180 180 180 / 30%)!important;
-    }
-    .search input {
-      background-color: var(--docsify_dark_mode_bg, #fff);
-    }
-    @media screen and (max-width: 768px) {
-      body.close .sidebar-toggle {
-        background: var(--docsify_dark_mode_bg, #fff);
-        opacity: .8;
-      }
-    }
-  </style>-->
-
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/favicon-docsify.ico">
 
   <!-- Using Local -->
   <!-- ----------------------------------------------------------------- -->
   <link rel="stylesheet" href="_assets/css/custom.css">
-
-  <script id="hexo-configurations">
-    var NexT = window.NexT || {};
-    var CONFIG = {"sidebar": {"position": "right"}};
-  </script>
-
-  <style>
-    .icon.fa-fw {
-      width: 1.28571429em;
-    }
-    nav img {
-      vertical-align: text-top;
-    }
-    i[class^=ri] {
-      vertical-align: bottom;
-    }
-  </style>
+  <link rel="stylesheet" href='_assets/css/vc-animation.css'>
 </head>
 <body>
 <div id="app"></div>
 
-
-<style>
-  /*TOC*/
-  .toc-toggle.toc-toggle-on {
-    bottom: 13px;
-  }
-  .toc-toggle .toggle-line {
-    background: #fff;
-    display: inline-block;
-    height: 2px;
-    left: 0;
-    position: relative;
-    top: 0;
-    transition: all 0.4s;
-    vertical-align: top;
-    width: 100%;
-  }
-  .toc-toggle .toggle-line:not(:first-child) {
-    margin-top: 3px;
-  }
-  .toc-toggle.toggle-arrow .toggle-line-first {
-    top: 2px;
-    transform: rotate(-45deg);
-    width: 50%;
-  }
-  .toc-toggle.toggle-arrow .toggle-line-middle {
-    width: 90%;
-  }
-  .toc-toggle.toggle-arrow .toggle-line-last {
-    top: -2px;
-    transform: rotate(45deg);
-    width: 50%;
-  }
-  .toc-toggle.toggle-close .toggle-line-first {
-    top: 5px;
-    transform: rotate(-45deg);
-  }
-  .toc-toggle.toggle-close .toggle-line-middle {
-    opacity: 0;
-  }
-  .toc-toggle.toggle-close .toggle-line-last {
-    top: -5px;
-    transform: rotate(45deg);
-  }
-  .toc-sidebar-toggle {
-    background: #222;
-    /*bottom: 45px;*/
-    cursor: pointer;
-    height: 24px;
-    left: auto;
-    /*right: 30px;*/
-    padding: 5px;
-    position: fixed;
-    width: 24px;
-    z-index: 1300;
-    line-height: 0;
-    text-align: left;
-  }
-  .toc-sidebar-toggle:hover .toggle-line {
-   background: #87daff;
- }
-</style>
-<div class="toc-toggle toc-sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-<!-- <div class="toc-toggle" style="min-width: 50px;">📚🔻</div> -->
-<!--返回顶部 method-2-->
+<!-- 返回顶部 -->
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {"sidebar": {"position": "right"}};
+</script>
 <link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
-<style>
-  .back-to-top.toc {
-    right: 120px;
-  }
-  #back2bottom.toc-b {
-    right: 60px;
-  }
-  @media (max-width: 991px) {
-    #back2bottom.toc-b {
-      right: 50px;
-    }
-    .back-to-top.toc {
-      right: 110px;
-    }
-  }
-</style>
 <div class="back-to-top">
   <i class="fa fa-arrow-up"></i>
   <span>0%</span>
@@ -168,6 +43,16 @@
   <i class="fa fa-arrow-down"></i>
   <span>0%</span>
 </div>
+
+<!-- Table of Contents -->
+<link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
+<link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
+<button class="toc-toggle toc-sidebar-toggle btn">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+</button>
+
 <script>
 
   window.$docsify = {
@@ -215,7 +100,7 @@
 
     maxLevel: 2,
 
-    mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
+    // mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
 
     formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
 
@@ -233,7 +118,7 @@
           '<hr/>',
           '<footer>',
           '<span><img src="//github.githubassets.com/images/icons/emoji/octocat.png" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
-          '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>.</span>',
+          '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</span>',
           themeHtml,
           '</footer>'
         ].join('');
@@ -274,7 +159,7 @@
           }
           var editHtml = '📝[EDIT DOCUMENT](' + url + ')';
           
-          editHtml += ' | <i class="fa fa-hand-pointer-o"></i> [BACK HOME](/)\n';
+          editHtml += ' | 🚀[BACK HOME](/)\n';
 
           return (
               editHtml +
@@ -289,9 +174,81 @@
 
 <!-- Local -->
 <!-- ----------------------------------------------------------------- -->
-<!-- 返回顶部 method-2 -->
+<!-- Table of Contents -->
 <script>
-  window.$docsify.plugins.push(// 回到底部按钮显示状态
+  window.$docsify.plugins.push(// 
+    function(hook, vm) {
+      hook.doneEach(function() {
+        setTimeout(function(){
+          document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
+
+          var para = document.createElement("div");
+           para.setAttribute("class", "flisxm");
+           document.querySelector(".toc-nav").appendChild(para);
+           
+          // 选择需要观察变动的节点
+          const targetNode = document.querySelector('.toc-nav');
+          
+          // 观察器的配置（需要观察什么变动）
+          const config = { attributes: true, childList: true, subtree: true };
+          
+          // 当观察到变动时执行的回调函数
+          const callback = function(mutationsList, observer) {
+            // Use traditional 'for loops' for IE 11
+            for(let mutation of mutationsList) {
+                if (mutation.type === 'childList') {
+                    console.log('A child node has been added or removed.');
+                }
+                else if (mutation.type === 'attributes') {
+                //console.log(document.querySelector('body').classList.toggle('toc-body', true))
+                console.log(document.querySelector('.toc-nav-hover'))
+                   if (document.querySelector('.toc-nav-hover')) {
+                      console.log("TOC 开启");
+                      document.querySelector('body').classList.toggle('toc-body', true);
+                      document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
+                      document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
+                      document.querySelector('.app-nav').style.display = "none";
+                    } else {
+                      console.log("TOC 关闭");
+                      document.querySelector('body').classList.toggle('toc-body', false);
+                      document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
+                      document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
+                      document.querySelector('.app-nav').style.display = "block";
+                    }
+                    console.log('The ' + mutation.attributeName + ' attribute was modified.');
+                }
+        
+            }
+        };
+
+        // 创建一个观察器实例并传入回调函数
+        const observer = new MutationObserver(callback);
+        // 以上述配置开始观察目标节点
+        observer.observe(targetNode, config);
+
+        // 之后，可停止观察
+        //observer.disconnect();
+        
+           // 监听事件
+           document.getElementsByClassName("flisxm")[0].addEventListener("click", function () {
+             document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", false);
+           });
+        }, 1);
+      });
+    },
+  )
+  
+  window.$docsify.toc = {
+    tocMaxLevel: 5,
+    target: 'h1, h2, h3, h4, h5, h6'
+  }
+</script>
+
+<script src="_assets/libs/docsify-plugin-toc.js"></script>
+
+<!-- 返回顶部 -->
+<script>
+  window.$docsify.plugins.push( // 回到底部按钮显示状态
       function(hook, vm) {
         hook.doneEach(function() {
           var docHeight = document.querySelector('.markdown-section').offsetHeight;
@@ -301,7 +258,6 @@
           } else {
             document.querySelector('#back2bottom').classList.remove('back-to-top-on');
           }
-          
           // 获取未来元素的属性值
           setTimeout(function() {
             console.log(Docsify.dom.find('.toc-toggle-on'))
@@ -346,95 +302,9 @@
 </script>
 <script src="//unpkg.com/docsify@latest/lib/plugins/search.min.js"></script><!--全文搜索-->
 <script src="//unpkg.com/docsify@latest/lib/plugins/zoom-image.min.js"></script><!--图片缩放-->
-<script src="//unpkg.com/docsify@latest/lib/plugins/emoji.min.js"></script><!--emoji-->
-
-<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
 
 <!-- docsify-tabs (latest v1.x.x) -->
 <script src="//unpkg.com/docsify-tabs@latest/dist/docsify-tabs.min.js"></script>
-
-<!-- Table of Contents -->
-<script>
-  /*var count = 0;
-  var outTime = 1; //分钟
-  var el = document.querySelector('.toc-nav-hover')
-
-  function go() {
-    count++;
-    if (count == outTime * 5) {
-      // alert('您长时间未操作页面');
-
-      document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', el)
-
-      count = 0;
-      // 此处处理后续操作
-    }
-  }
-  window.setInterval(go, 1000);*/
-
-  /*document.querySelector('code').addEventListener('click', (e) => {
-    console.log(e);
-  })
-
-  let ObjStatus = document.querySelector('.toc-toggle')
-  document.addEventListener('click', (e) => {
-    let t = document.querySelector('.toc-nav') // 最外层元素
-    if (!e.path.includes(ObjStatus)) {
-      if (!e.path.includes(t)) {
-        document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t));
-
-        document.querySelector('.toc-toggle').innerText = "📚🔻";
-        // ObjStatus.innerHTML = '事件触发情况：触发'
-      } else {
-        // ObjStatus.innerHTML = '事件触发情况：未触发'
-      }
-    }
-  })
-  document.querySelector('.toc-toggle').addEventListener('click', (e) => {
-    // console.log(e, document.querySelector('.toc-nav-hover'));
-
-    if (!document.querySelector('.toc-nav-hover')) {
-      document.querySelector('.toc-toggle').innerText = "📖🔺";
-    } else {
-      document.querySelector('.toc-toggle').innerText = "📚🔻";
-    }
-    
-    document.querySelector('.toc-nav').classList.toggle('toc-nav-hover');
-  });*/
-  window.$docsify.plugins.push(// 
-    function(hook, vm) {
-      hook.doneEach(function() {
-        setTimeout(function(){
-          // console.log(document.getElementsByClassName('lv2').length, document.querySelector('.toc-toggle'))
-            document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
-        }, 1);
-      });
-    },
-  )
-  
-  window.$docsify.toc = {
-    tocMaxLevel: 5,
-    target: 'h1, h2, h3, h4, h5, h6'
-  }
-</script>
-<!-- <script src="//unpkg.com/docsify-plugin-toc@latest/dist/docsify-plugin-toc.min.js"></script> -->
-<script src="_assets/libs/docsify-plugin-toc.js"></script>
-
-<!-- docsify-copy-code -->
-<script>
-  // docsify-copy-code (defaults)
-  window.$docsify.copyCode = {
-    buttonText: 'Copy to clipboard',
-    errorText: 'Error',
-    successText: 'Copied'
-  }
-</script>
-<!-- <script src="//unpkg.com/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script> -->
-<script src="_assets/libs/docsify-copy-code.js"></script>
 
 <!-- countable -->
 <script>
@@ -454,53 +324,12 @@
 <!-- Latest -->
 <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
 
-<script>
-  window.$docsify.customPageTitle = {
-    prefix:     'docs-learning',      // [optional] title prefix. default: false eg: prefix: "Application"
-    suffix:     false,      // [optional] title suffix. default: false eg: suffix: "v1.0.0"
-    seprator:   '-',        // [optional] seprator for title eg: title->   prefix | title | suffix
-    debug:      false,      // [optional] should debug
-  }
-</script>
-<script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
-
-<!-- 手机端网页调试 -->
-<!-- <script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
-<script>eruda.init();</script>-->
-
-<!-- <script src="//unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
-<script>
-  // VConsole 默认会挂载到 `window.VConsole` 上
-  var vConsole = new window.VConsole();
-</script> -->
-
-
 <!-- 引入组件库 -->
 <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
 <script src="//unpkg.com/element-ui/lib/index.js"></script>
 
 <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
 
-<!-- 切换主题 -->
-<!-- <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
-<script>
-  window.$docsify.darkMode = {
-    dark: {
-      // background: "#1c2022",
-      background: "#091a28",
-      toggleBtnBg: "#34495e",
-      textColor: "#b4b4b4"
-    },
-    light: {
-      background: "white",
-      toggleBtnBg: "var(--theme-color)",
-      // textColor: "var(--theme-color)",
-      textColor: "#34495e"
-    }
-  }
-  // ...
-
-</script>-->
-
+<script src="_assets/libs/docsify-copy-code.js"></script>
 </body>
 </html>

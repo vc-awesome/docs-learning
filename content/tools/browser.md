@@ -1,3 +1,10 @@
+## 链接
+
+https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法*
+
+https://www.baiduyun.wiki/ - _油小猴_
+
+
 ## 分类
 
 https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
@@ -36,38 +43,29 @@ https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油
 
   https://browser.yandex.com/
 
-### Google Chrome
+- Google Chrome
 
-<i class="fa fa-chrome"></i> https://www.google.com/chrome/
+  <i class="fa fa-chrome"></i>
+  https://www.google.com/chrome/
+  
+  **命令**
 
+  ```shell
+  chrome://chrome-urls/
+  ```
 
+  https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
+  
+  https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
 
-#### 命令
+  **参考链接**
 
-```shell
-chrome://chrome-urls/
-```
+  https://jingyan.baidu.com/album/b2c186c822546ac46ef6ff04.html - *google浏览器怎么删除指定cookie数据*
 
+  https://blog.csdn.net/u012086167/article/details/38331543 - *google浏览器网页背景颜色修改*
 
+  https://blog.csdn.net/zhaojunjie_dream/article/details/80021064 - *如何通过Chrome打断点的方法调试代码*
 
-https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
-
-https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
-
-
-
-#### 参考链接
-
-https://jingyan.baidu.com/album/b2c186c822546ac46ef6ff04.html - *google浏览器怎么删除指定cookie数据*
-
-https://blog.csdn.net/u012086167/article/details/38331543 - *google浏览器网页背景颜色修改*
-
-https://blog.csdn.net/zhaojunjie_dream/article/details/80021064 - *如何通过Chrome打断点的方法调试代码*
-
-
-## 手机浏览器
-
-🔗 [Mobile browser](/os/mobile/browser)
 
 
 ## 书签 🔥
@@ -116,13 +114,8 @@ https://blog.51cto.com/u_3826358/3832030 - *Chrome浏览器添加自定义搜索
 
 https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索引擎*
 
-## 链接 ✨
 
-https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法*
-
-https://www.baiduyun.wiki/ - _油小猴_
-
-## 浏览器快捷键 ⌨️
+## 浏览器快捷键
 
 - 绕过浏览器缓存刷新页面
 
@@ -133,7 +126,6 @@ https://www.baiduyun.wiki/ - _油小猴_
   - 长按 <kbd>Ctrl</kbd> + 短按 <kbd>F5</kbd>
 
   - 长按 <kbd>Ctrl</kbd> + 短按 <kbd>F5</kbd>
-
 
 
 - 横向滚动
@@ -204,6 +196,8 @@ https://www.baiduyun.wiki/ - _油小猴_
 
 
 ## 开发者工具
+
+https://developer.mozilla.org/zh-CN/docs/Web#%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3 - *Web 开发技术 | MDN*
 
 https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
 

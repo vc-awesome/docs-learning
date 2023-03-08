@@ -8,7 +8,7 @@ keywords: [Pandoc, Tutorial, Export]
 
 
 
-以上内容为*YAML Front Matter*
+以上内容为 *YAML Front Matter*
 
 
 
@@ -17,11 +17,11 @@ keywords: [Pandoc, Tutorial, Export]
 
 
 
-## TODO
+## Todo
 
-如何 `markdown` 使用 `css` 编辑文本的样式?
+1. Markdown 如何使用 CSS 编辑文本的样式？
 
-*YAML Front Matter* 的用法?与 `hexo`、`jekyll`有关?
+2. YAML Front Matter 的用法与 Hexo 、Jekyll 有关？
 
 ## 使用场景
 
@@ -40,17 +40,47 @@ keywords: [Pandoc, Tutorial, Export]
 
 ### 在线编辑器
 
-<i class="ri-external-link-fill"></i>
-[MdEditor 在线编辑器](http://www.mdeditor.com/)
+1. [MdEditor](http://www.mdeditor.com/)
 
-<i class="ri-external-link-fill"></i>
-[Dillinger 在线编辑器](https://dillinger.io/)
+2. [Dillinger](https://dillinger.io/)
 
 
 ### 应用编辑器
 
-<i class="ri-link"></i>
-[Typora 编辑器](/tools/应用工具#markdown-typora)
+1. [Typora](/tools/应用工具#markdown-typora)
+
+2. [Markor](os/mobile/README.md#markor)
+
+
+## 布局样式
+
+实例一：
+
+<img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/icon_Ab31f6rFiG70NRqjyOH87znJd2y38yiEg2Tz_lY791w=.png" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> An awesome Libre and Open Source RSS feed reader
+
+<br/>
+
+_📋复制模板 - 方角图片_
+
+``` markdown
+<img src="" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;">
+```
+
+实例二：
+
+<img src="https://f-droid.org/repo/net.gsantner.markor/en-US/icon_jm7Yt2QTE4iuxQp_T98o-PSJ4m6GPzmawSrx99KYiE8=.png" align="left" width="78" hspace="0" vspace="0">Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+
+<br/>
+
+_📋复制模板 - 圆角图片_
+
+``` markdown
+<img src="" align="left" width="78" hspace="0" vspace="0">
+```
+
+参考：
+1. https://github.com/gsantner/markor/blob/master/README.md
+2. https://github.com/p0deje/Maccy/blob/master/README.md
 
 
 
@@ -179,24 +209,24 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 ##### **Rendered**
 
-![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像")
+![旺仔头像](../../_media/images.liqucn.jpeg "最近超火的旺仔……头像")
 
-> `typora`编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格
+> `Typora` 编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格
 
 
 
 ##### 带链接的图片
 
-[<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
+[<img src="../../_media/images.liqucn.jpeg" title="带链接的图片" style="zoom: 45%;" />](http://liqucn.com/bz/1154169.wml)
 
 
 
 ##### **Markdown**
 
 ```markdown
-![旺仔头像](https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201901%2F28%2F20190128184852_dRcy2.thumb.100_100_c.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490133&t=621cca17696ce7c702745c80e28516be "最近超火的旺仔……头像")
+![旺仔头像](../../_media/images.liqucn.jpeg "最近超火的旺仔……头像")
 
-> `typora`编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格
+> `Typora` 编辑器中图片默认居中对齐，如需左对齐，在图片后加一个空格
 
 ##### 带链接的图片
 
@@ -253,7 +283,7 @@ _this text is surrounded by literal asterisks_
 
 
 
-##### 代码/代码块
+##### 代码 / 代码块
 
 <!-- tabs:start -->
 
@@ -263,7 +293,7 @@ _this text is surrounded by literal asterisks_
 
 Use the `printf()` function.
 
-
+*代码块*
 
 ```
 {
@@ -310,7 +340,7 @@ Add as many paragraphs as you like.
 Use the `printf()` function.
 ```
 
-
+*代码块*
 
 ````markdown
 ```
@@ -345,7 +375,7 @@ Use the `printf()` function.
 
 
 
-##### HTML标签
+##### HTML 标签
 
 <!-- tabs:start -->
 
@@ -819,7 +849,7 @@ Bob-->Alice: I am good thanks!
 
 
 
-#### 自定义标题的ID
+#### 自定义标题的 ID
 
 <!-- tabs:start -->
 

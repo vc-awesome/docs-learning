@@ -1,20 +1,22 @@
 ## Search
 
+https://www.runningcheese.com/extensions - *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
 <i class="bi bi-filetype-html"></i>
 <i class="bi bi-hand-thumbs-up"></i>
 <i class="fa fa-user-circle-o"></i>
-https://www.runningcheese.com/extensions - *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
 
 https://ldqk.xyz/1775 - *高效上网——Chrome/Edge浏览器优秀扩展插件推荐*
 
+----
+
+https://mp.weixin.qq.com/s/74mW44aBySJ9VW1_A7j5mg - *前端请装上这个 Chrome 插件*  
+https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工具 - Omni*
 
 
 ### GitHub Topics
 
-<i class="fa fa-github fa-lg"></i>
 https://github.com/topics/chrome-extension
 
-<i class="fa fa-github fa-lg"></i>
 https://github.com/topics/browser-extension
 
 
@@ -27,20 +29,20 @@ https://addons.mozilla.org/zh-CN/firefox/extensions/ - _扩展 – Firefox 附�
 
 https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN - _Microsoft Edge 加载项_
 
-https://chrome.google.com/webstore/ - 🧱
+https://chrome.google.com/webstore/ - *Chrome 应用商店* 🧱
 
 
 
-### 下载 crx 🔥
+### 下载 CRX 🔥
 
-1️⃣ https://www.crxsoso.com/ :cn: <i class="fa fa-user-circle-o"></i> - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
+1️⃣ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera* 🇨🇳 <i class="fa fa-user-circle-o"></i>
 
 
 - https://www.baiduyun.wiki/zh-cn/crx.html - _如何安装浏览器扩展？ | 油小猴_
 
-https://crxdl.com/ :cn: - *CrxDL - Chrome浏览器扩展插件CRX下载网*
+https://crxdl.com/ - *CrxDL - Chrome浏览器扩展插件CRX下载网* 🇨🇳
 
-https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
+https://www.crx4chrome.com/ - *Crx4Chrome - Download CRX for Chrome Apps & Extensions* 🇺🇸
 
 
 
@@ -84,7 +86,7 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 - [✔️Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif ":id=proxy-switchyomega") - *轻松快捷地管理和切换多个代理设置。*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social)  
-  <i class="ri-link"></i> [Tools >> Vpn >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
+  - [Tools >> VPN >> Proxy SwitchyOmega](tools/vpn?id=proxy-switchyomega-)
 - [✔️uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm ':id=ublock-origin') - *一款高效的网络请求过滤工具，占用极低的内存和 CPU。*
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
@@ -254,6 +256,12 @@ https://www.crx4chrome.com/ :us: - *Crx4Chrome - Download CRX for Chrome Apps & 
 6. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
 
 7. https://github.com/conwnet/github1s - *GitHub - conwnet/github1s: One second to read GitHub code with VS Code.* ( _**via** https://zhuanlan.zhihu.com/p/350615234 - *人生第一个扩展——Github1s - 知乎*_ )
+
+8. https://github.com/homerchen19/github-file-icons - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
+    
+    🏷️ _安装谷歌扩展程序_ 、 _图标 icon_
+    
+    [简单三步，让GitHub依照不同文档类型显示不同的图标](https://baijiahao.baidu.com/s?id=1590369276833636579)
 
 
 ### 钱包

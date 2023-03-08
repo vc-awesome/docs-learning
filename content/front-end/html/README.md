@@ -1,12 +1,35 @@
-## html 官方
+## html 教程
 
-菜鸟教程：https://www.runoob.com/html/html-tutorial.html
+https://www.runoob.com/html/html-tutorial.html - *HTML 教程 | 菜鸟教程*
 
 ## html 使用规则
 
 ### 代码规范
 
- 
+有关详细信息，请参阅“[代码规范](front-end/README.md#代码规范)”
+
+### 代码模板
+
+https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bootstrap · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
+
+文件名：_index. html_
+
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/mhDoLbDldZc3qpsJHpLogda//BVZbgYuw6kof4u2FrCedxOtgRZDTHgHUhOCVim" crossorigin="anonymous"></script>
+  </body>
+</html>
+```
+
 
 ### 标签
 
@@ -89,6 +112,7 @@ https://mp.weixin.qq.com/s/KXpawK0d6ypnyrEDfNCaiQ - *type="module" 你了解，
 <strong></strong>
 <em></em>
 <code></code>
+<kbd></kbd>
 ```
 
 
@@ -108,7 +132,7 @@ Question：
 
 - 跨域
 
-### 布局
+### 页面布局
 
 ```html
 <!--头部-->

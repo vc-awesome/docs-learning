@@ -16,7 +16,7 @@
 
 - ECMAScript5
 
-- ECMAScript6
+- [ECMAScript6](front-end/javascript/javascript-es6.md)
 
 ## Index
 
@@ -152,6 +152,8 @@ https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
 
 `document.getElementsByClassName();`
 
+`document.querySelector();`
+
 ### 改变 HTML
 
 - 改变 HTML 输出流
@@ -159,21 +161,26 @@ https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
   `document.write();`
 
 - 改变 HTML 内容
-
+  
+  语法：  
   `document.getElementById(id).innerHTML = 新的 HTML`
 
 - 改变 HTML 属性
-
+  
+  语法：  
   `document.getElementById(id).attribute = 新属性值`
-
+  
+  实例：  
   `document.getElementById("image").src = "landscape.jpg";`
 
 ### 改变 CSS
 
 - 改变 HTML 样式
-
+  
+  语法：  
   `document.getElementById(id).style.property = 新样式`
 
+  实例：  
   `document.getElementById("p2").style.color = "blue";`
 
 ### 创建 HTML 元素
@@ -244,13 +251,19 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
 
 https://www.runoob.com/js/js-htmldom-eventlistener.html - _JavaScript HTML DOM EventListener | 菜鸟教程_
 
-语法
-
+语法：  
 ```javascript
 element.addEventListener(event, function, useCapture);
-
+```
+```javascript
 element.removeEventListener(event, function, useCapture);
 ```
+
+### 监听 DOM 变化
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver - *MutationObserver - Web API 接口参考 | MDN*
+
+https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的MutationObserver - 个人文章 - SegmentFault 思否*
 
 
 ### 对象

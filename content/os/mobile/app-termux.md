@@ -1,3 +1,7 @@
+## Introduction
+
+<img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" align="left" width="78" hspace="10" vspace="0"> Terminal emulator with packages
+
 ## Official
 
 Website：https://termux.dev/ - *Termux | The main termux site and help pages.*
@@ -38,45 +42,45 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
 
 ### 如何将 Apache 的网站默认路径，修改为手机本地存储？
 
-1. 开启“访问本机存储”，参考“[手机电脑互传文件](https://blog.csdn.net/xiao_qi_tong/article/details/122628099)”
+1. 开启“访问本机存储”，请参阅“[手机电脑互传文件](https://blog.csdn.net/xiao_qi_tong/article/details/122628099)”
 
     `$ termux-setup-storage`
     
-    ```
+    ```sh
     termux-setup-storage
     ```
     
     `$ pkg install tree`
     
-    ```
+    ```sh
     pkg install tree
     ```
     
     `$ tree`
     
-    ```
+    ```sh
     tree
     ```
 
-2. 开启 root 权限（否则无权修改 *httpd.conf* 配置文件），参考“[Termux详细教程！-进阶配置-超级管理员身份-手机没有root](https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t28)”
+2. 开启 root 权限（否则无权修改 *httpd.conf* 配置文件），请参阅“[Termux详细教程！-进阶配置-超级管理员身份-手机没有root](https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t28)”
 
     `$ pkg install proot -y`
     
-    ```
+    ```sh
     pkg install proot -y
     ```
     
     `$ termux-chroot`
     
-    ```
+    ```sh
     termux-chroot
     ```
 
-3. 安装 Apache，参考“[Termux详细教程！-开发环境-Apache](https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t38)”
+3. 安装 Apache，请参阅“[Termux详细教程！-开发环境-Apache](https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t38)”
 
     `$ pkg install apache2`
     
-    ```
+    ```sh
     pkg install apache2
     ```
 
@@ -84,7 +88,7 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
 
     `$ cp $PREFIX/etc/apache2/httpd.conf httpd.conf.bak`
     
-    ```
+    ```sh
     cp $PREFIX/etc/apache2/httpd.conf httpd.conf.bak
     ```
 
@@ -92,7 +96,7 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
 
     `$ pkg install vim`
     
-    ```
+    ```sh
     pkg install vim
     ```
     
@@ -100,7 +104,7 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
     
     `$ vim $PREFIX/etc/apache2/httpd.conf`
     
-    ```
+    ```sh
     vim $PREFIX/etc/apache2/httpd.conf
     ```
     
@@ -110,7 +114,7 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
     <Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
     `
     
-    ```
+    ```sh
     DocumentRoot "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs"
     <Directory "/data/data/com.termux/files/usr/share/apache2/default-site/htdocs">
     ```
@@ -121,7 +125,7 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
     <Directory "/home/storage/shared/documents/markor/github/docs-learning">
     `
     
-    ```
+    ```sh
     DocumentRoot "/home/storage/shared/documents/markor/github/docs-learning"
     <Directory "/home/storage/shared/documents/markor/github/docs-learning">
     ```
@@ -131,14 +135,14 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
     > 在 vim 中字符串替换（一般操作此步一次即可）
     >
     > 
-    > ```
+    > ```sh
     > :%s/"\/data\/data\/com.termux\/files\/usr\/share\/apache2\/default-site\/htdocs"/"\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"/
     > ```
     >
     > 在 vim 中字符串搜索
     >
     > 
-    > ```
+    > ```sh
     > /"\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"
     > ```
 
@@ -146,7 +150,7 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
 
     `$ apachectl restart`
     
-    ```
+    ```sh
     apachectl restart
     ```
 
@@ -154,11 +158,11 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
 
     1.  打开 “Termux”，按顺序执行下列 2 条命令
 
-     ```
+     ```sh
      termux-chroot
      ```
      
-     ```
+     ```sh
      apachectl restart
      ```
 
@@ -170,21 +174,21 @@ Search：[🪜 termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AW
 
 1.  打开 vim
 
-    ```
+    ```sh
     vim $PREFIX/etc/apache2/httpd.conf
     ```
 
 2. 将下列代码复制粘贴过去
 
-    ```
+    ```sh
     /"\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"
     ```
 
 3.  键盘按下回车键
 
-4. 如需 “查找下一个”，按 n 键；“查找上一个”：按 N 键
+4. 如需 “查找下一个”，按 <kbd>n</kbd> 键；“查找上一个”：按 <kbd>N</kbd> 键
 
-## Reference link
+## Reference
 
 ### 参考博文
 

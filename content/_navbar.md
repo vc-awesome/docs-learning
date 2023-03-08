@@ -4,6 +4,8 @@
 
   - [<i class="fa fa-plane fa-fw"></i> Index](home/README.md)
   
+  - [<i class="fa fa-book fa-fw"></i> <span class="color-fg-done">学习</span>](home/book.md)
+  
   - [<i class="fa fa-book fa-fw"></i> Book](home/book.md)
   
   - [<i class="fa fa-github fa-fw"></i> GitHub](tools/github.md)
@@ -18,15 +20,13 @@
   
   - [<i class="fa fa-smile-o fa-fw"></i> Emoji](home/emoji.md)
   
-  - [<i class="fa fa-font-awesome fa-fw"></i> FontIcon](front-end/iconfont.md)
-  
   - [<i class="fa fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
   
   - [<i class="fa fa-slideshare fa-fw"></i> Share](home/good-share.md "干货分享")
   
 - Essentials
 
-  - [<i class="ri-rocket-2-line fa-fw"></i> Index](essential/README.md)
+  - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](essential/README.md)
 
   - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
 
@@ -137,8 +137,6 @@
   - [<i class="ri-earth-line medium-green"></i> Browser](tools/browser.md "浏览器")
   
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](tools/browser-extensions)
-  
-  - [![](http://docsify.js.org/_media/favicon.ico ':size=14') Docsify](tools/docsify.md)
   
   - <hr/>
   

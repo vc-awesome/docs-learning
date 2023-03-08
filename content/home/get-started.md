@@ -22,23 +22,26 @@
 ## Skill
 
 - [搜索技巧](tools/browser.md#搜索引擎)
+
+    [Web 工具](tools/custom-search.md)
+    
     - 知乎话题搜索
   
-    ```
+    ```js
     https://www.zhihu.com/search?type=content&q=%s
-    ```
+```
 
     - 百度关键词搜索
   
-    ```
+    ```js
     https://www.baidu.com/s?word=%s
-    ```
+```
 
     - GitHub 关键词搜索
   
-    ```
+    ```js
     https://github.com/search?q=%s
-    ```
+```
 
 _注：其中 %s 是关键字的占位符。_
 

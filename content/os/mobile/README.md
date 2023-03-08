@@ -1,37 +1,47 @@
-## 应用市场
+## 应用商店
 
 ### Google Play Store
 
 🪜 https://play.google.com/store/apps - *Google Play 上的 Android 应用*
 
+----
 
-#### Online Download
+APK Download
 
 http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
 
 👍 https://apkmod.cc/ 🇺🇸 - *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
 
-https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* 
-<i class="con octicon-file tag-icon"></i>
-[hosts](https://zhuanlan.zhihu.com/p/47225701)
+https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网*   
+🏷️ [配置 hosts](https://zhuanlan.zhihu.com/p/47225701)
 
-知乎搜索：**国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?**
+知乎搜索：*国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?*
+
+<img alt="Get it on Google Play" src="https://user-content.gitlab-static.net/54407afbd0fad55a97199bdd76b9e25b5a2319dc/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f7374617469632f696d616765732f6261646765732f656e5f62616467655f7765625f67656e657269632e706e67" height="80"/>
+
+![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get) *（ via https://github.com/Delta-Icons/android - *GitHub - Delta-Icons/android: Delta Icons for Android*）*
 
 
 ### F-Droid
 
 ?> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
 
-<i class="ri-android-line"></i>
-https://f-droid.org/
+https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository*
 
 Mirror：https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
+
+<img src="https://f-droid.org/badge/get-it-on.png" alt="available on F-Droid app store" height="80"/>
+
+![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get) *（ via https://github.com/Delta-Icons/android - *GitHub - Delta-Icons/android: Delta Icons for Android*）*
 
 
 
 #### personalDNSfilter
 
 ?> 使用 Blocklist 在本地的 VPN 上基于 DNS 请求的主机阻止程序
+
+![GitHub last commit](https://badgen.net/github/last-commit/IngoZenz/personaldnsfilter?icon=github&color=blue)
+![f-droid](https://badgen.net/f-droid/v/dnsfilter.android)
 
 支持的平台：
 <i class="fa fa-windows"></i>
@@ -40,10 +50,8 @@ Mirror：https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站
 <i class="ri-google-play-line"></i>
 
 https://f-droid.org/zh_Hans/packages/dnsfilter.android/
-![f-droid](https://badgen.net/f-droid/v/dnsfilter.android)
 
-<i class="fa fa-github"></i>
-https://github.com/IngoZenz/personaldnsfilter ![GitHub last commit](https://badgen.net/github/last-commit/IngoZenz/personaldnsfilter?icon=github&color=blue)
+https://github.com/IngoZenz/personaldnsfilter
 
 Website:
 
@@ -53,7 +61,7 @@ Website:
 <br/>
 
 > [!TIP]
-> Android platform: XiaoMi + personalDNSfilter`V1.50.51.0` + Opera`V68.3.3557.64528` = VPN
+> Android platform: XiaoMi + personalDNSfilter `V1.50.51.0` + Opera `V68.3.3557.64528` = VPN
 
 #### Daedalus
 
@@ -61,7 +69,7 @@ Website:
 
 #### Markor
 
-?> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+<img src="https://f-droid.org/repo/net.gsantner.markor/en-US/icon_jm7Yt2QTE4iuxQp_T98o-PSJ4m6GPzmawSrx99KYiE8=.png" align="left" width="78" hspace="0" vspace="0">Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
 
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
 ![GitHub last commit](https://badgen.net/github/last-commit/gsantner/markor?icon=github&color=blue)
@@ -69,21 +77,21 @@ Website:
 支持的平台：
 <i class="fa fa-android"></i>
 
-<i class="fa fa-github"></i> https://github.com/gsantner/markor
+https://github.com/gsantner/markor
 
 #### Feeder
 
-?> 优秀、自由并开源的 RSS 订阅阅读器
+<img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/icon_Ab31f6rFiG70NRqjyOH87znJd2y38yiEg2Tz_lY791w=.png" align="left" width="58" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> 优秀、自由并开源的 RSS 订阅阅读器
+
+![f-droid](https://badgen.net/f-droid/v/com.nononsenseapps.feeder)
+![GitLab Release (by release name)](https://img.shields.io/gitlab/v/release/spacecowboy/Feeder?include_prereleases&logo=gitlab)
 
 支持的平台：
 <i class="fa fa-android"></i>
 
 https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
-![f-droid](https://badgen.net/f-droid/v/com.nononsenseapps.feeder)
 
-<i class="fa fa-gitlab medium-orange"></i>
 https://gitlab.com/spacecowboy/Feeder
-![GitLab Release (by release name)](https://img.shields.io/gitlab/v/release/spacecowboy/Feeder?include_prereleases&logo=gitlab)
 
 ### 小米应用商店
 

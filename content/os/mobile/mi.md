@@ -1,0 +1,135 @@
+https://www.mi.com/ - *小米官网 - Xiaomi 13系列，Xiaomi Mix Fold 2，MIUI14，小米徕卡影像大赛*
+
+ 玩转小米手机
+
+## 提取文字
+
+百度关键字搜索：[小米截图识别文字](https://www.baidu.com/s?word=小米截图识别文字)
+
+1. 小爱翻译
+
+    如何打开：
+    _应用 > 小爱语音 > 技能 > 小爱翻译_
+    
+    添加桌面图标：
+    _应用 > 设置 > 小爱同学 > 小爱翻译 > （打开方式）桌面图标_
+
+2. 小爱视觉
+
+    操作步骤：_打开应用 > 选择“识文字” > 拍一张照片或从相册选择一张图片_
+   
+3. 百度翻译
+
+    操作步骤：_打开应用 > 翻译浮球 > 截屏翻译_
+
+4. 系统相册
+
+    操作步骤：_打开一张图片 > 底部选项“更多┅”  > 提取文字_
+   
+5. 传送门 ✅
+
+    <u>MIUI 13</u> 功能位置：_应用 > 设置 > 特色功能 > 传送门_
+
+    <u>MIUI 14</u> 功能位置：_应用 > 设置 > 更多设置 > （特色功能）传送门_
+   
+    _注：_  
+    1. _✅ 可区域截屏进行文字识别、图片识别、翻译；_
+    2. _⚠️ ️正在运行的应用无法使用传送门功能时，查看应用是否加入了黑名单。_
+
+## 屏幕录制
+
+> 系统自带“屏幕录制”工具
+
+功能设置：_应用 > 设置 > 更多设置 > （辅助功能）屏幕录制_
+
+http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈网*
+
+1. 打开方式一：_拉下“控制中心” > 屏幕录制_
+2. 打开方式二：_全局侧边栏 > 视频工具箱 > 录屏（需“自定义设置”中的应用）_
+3. 打开方式三：_小爱语音 > 屏幕录制_
+
+## 设置默认应用
+
+操作步骤：_应用 > 设置 > 应用设置 > 应用管理 > 右上角┇ > 默认应用设置_
+
+## 悬浮球
+
+操作步骤：_应用 > 设置 > 更多设置 > 悬浮球_
+
+## 区域截屏
+
+设置操作：_应用 > 设置 > 更多设置 > 快捷手势 > 区域截屏_
+
+使用操作：_“三指长按”手机屏幕_
+
+## 全局侧边栏
+
+MIUI 13  
+设置操作：_应用 > 设置 > 特色功能 > 自由窗口 > 全局侧边栏_
+
+MIUI 14  
+设置操作：_应用 > 设置 > 更多设置 > 特色功能-自由窗口_
+
+## 添加到主屏幕
+
+各 APP、小程序、浏览器等，如果支持此功能均可操作。
+
+以 Opera 浏览器标签页操作为例：
+> 这里放一张截图
+
+参考：https://mip.680.com/jingxuangl/info-337716.html - *小米手机微信创建桌面快捷方式的权限在哪里-时间财富网*
+
+## 隐私空间
+
+MIUI 14  
+设置操作：_应用 > 设置 > 隐私保护 > 保护隐私 > 保险箱_
+- 私密相册
+- 私密文件夹
+
+## 专注模式
+
+MIUI 14  
+设置操作：_应用 > 设置 > 屏幕时间管理 > 专注模式_
+
+## 网络助手
+
+MIUI 14  
+设置操作：_应用 > 手机管家 > 网络助手_
+
+**如何关闭单个应用的网络？**
+
+设置操作：_网络助手 > 联网控制 > 应用列表找到要关闭网络的应用 > 联网控制中可选择关闭“数据”或“WLAN”网络_
+
+**搜索帮助**
+
+1. [断开某个应用的网络 - 百度](https://m.baidu.com/s?ie=UTF-8&wd=%E6%96%AD%E5%BC%80%E6%9F%90%E4%B8%AA%E5%BA%94%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C)
+2. https://wen.baidu.com/question/529138871019976405.html - *怎么关闭单个应用的网络_百度问一问*
+
+## 常见问题解答
+
+https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小程序添加到桌面后桌面上找不到小程序图标 - 腾讯客服*
+
+> **来源**：任意微信小程序“添加到桌面”操作弹窗提示。
+
+<div class="border border-dashed p-2 m-2">
+如何将微信公众号文章链接复制成自定义格式？</div>
+
+- 将链接 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 」 复制成 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA - *明黄的 iPhone 14 亮出来，接春天。*」 的格式。
+1. 打开应用 *[微信](http://app.xiaomi.com/detail/1122) > 复制链接*；
+2. 使用（小米手机）系统悬浮窗工具打开应用 *[Simple Clipboard Editor](https://play.google.com/store/apps/details?id=com.trianguloy.clipboardeditor) > Share：在 Yandex Browser 浏览器中打开*；
+3. 打开浏览器 *[Yandex Browser](https://play.google.com/store/apps/details?id=com.yandex.browser) > 扩展插件：[CopyTabTitleUrl](https://chrome.google.com/webstore/detail/copytabtitleurl/lmgbdjfoaihhgdphombpgjpaohjfeapp) > format*。
+   > https://www.cccitu.com/982.html - *手机浏览器 Yandex 安装 Chrome 扩展插件 - CCCiTU - 玩机大学*
+
+<div class="border border-dashed p-2 m-2">如何将微信公众号文章长链接转换成短链接再复制？</div>
+
+- 将链接¹ https://mp.weixin.qq.com/s?__biz=MzIwOTA2MzYwNA==&mid=2247514218&idx=1&sn=0f3a174deb53be7b962facbfda66fedd 转换成链接² https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 。
+
+1. 使用 QQ 浏览器 *打开链接¹ > 分享至微信“朋友圈”*；
+2. 跳转至 *微信“朋友圈”编辑页面后，点击链接¹*（通过微信内置浏览器访问链接）；
+3. 微信内置浏览器打开网页后，点击页面右上角 *“···” > 复制链接* （复制的链接即链接²）。
+
+<div class="border border-dashed p-2 m-2">如何将微信好友发的“支付宝收款码图片”在支付宝中打开？</div>
+
+1. 打开二维码图片，点击屏幕右下角 *“···” > 识别图中二维码*；
+2. 复制识别的二维码链接，在浏览器地址栏粘贴进行访问；
+3. 浏览器访问成功后，会提示是否跳转至支付宝 App，选择跳转即可操作转账。

@@ -11,31 +11,19 @@
 
 开发参考
 
-1. Bootstrap  <i class="ri-fire-line light-red"></i>
-2. Amazeui
+1. [Bootstrap](https://getbootstrap.com/)  <i class="ri-fire-line light-red"></i>
+2. [Amazeui](https://amazeui.shopxo.net/)
 
 
 
 视觉框架
 
 - 字体 https://xiaomi.github.io/hiui/design/font/
-  - 字号字阶：主字体大小为14px最佳
-  - 字体行高：若字体为14，行高为22，相差为8；若字体为12，行高20；若字体为16，行高为24
-
-
-## 命名规范
-
-### BEM
-
-> **获取来源**：https://element-plus.gitee.io/zh-CN/guide/theming.html - *主题 | Element Plus*
-
-https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
-
+  - 字号字阶：主字体大小为 14px 最佳
+  - 字体行高：若字体为 14，行高为 22，相差为 8；若字体为 12，行高 20；若字体为 16，行高为 24
 
 
 ## 开发思路
-
-### 参考链接
 
 > 参考大平台的 UI 设计
 
@@ -61,7 +49,7 @@ https://dev.dcloud.net.cn/mui/ - *MUI*
 
 ## 开发前看
 
-### HTML/CSS 规范
+### HTML / CSS 规范
 
 http://amazeui.shopxo.net/getting-started/html-css/
 
@@ -124,7 +112,7 @@ Amaze UI 中有两个表示状态的 class：
 
  
 
-### class命名说明
+### Class 命名说明
 
 [http://amazeui.shopxo.net/css/#class-ming-ming-shuo-ming](#class-ming-ming-shuo-ming)
 
@@ -142,70 +130,65 @@ Amaze UI 中有两个表示状态的 class：
 .am-post-title-highlight {}  /* Element Modifier */
 ```
 
+### BEM 命名规范
+
+> **获取来源**：https://element-plus.gitee.io/zh-CN/guide/theming.html - *主题 | Element Plus*
+
+https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 
 
-## Layout布局  <i class="ri-fire-line light-red"></i>
+## Layout 布局  <i class="ri-fire-line light-red"></i>
 
-### Container布局容器
+### Container 布局容器
 
 <details>
-<summary><span style="color:red">click to expand ~</span></summary>
-<br>
+<summary><span style="color:red">Click to Expand ~</span></summary>
+
 
 - container
   - row
     - col-sm
 
- 
+
+----
+
 
 - container *外层容器 固定宽度*
   - item
 
--container-fluid全屏宽度 --from bootstrap
 
--container-sm
 
--container-md
+----
 
--container-lg
 
--container-xl
+- -container-fluid 全屏宽度 - _via Bootstrap_
+- -container-sm
+- -container-md
+- -container-lg
+- -container-xl
+    - --header 顶栏容器
+    - --aside 侧边栏容器
+    - --main 主要区域容器
+    - --footer 底栏容器
+    - --item 子元素
+    - --topmenu 顶部菜单
+    - --sidemenu 侧边菜单
 
---header顶栏容器
 
---aside侧边栏容器
+----
 
---main主要区域容器
 
---footer底栏容器
-
---item子元素
-
---topmenu顶部菜单
-
---sidemenu侧边菜单
-
--title 标题
-
--value 值
-
--content 内容
-
--header
-
--body
-
---content
-
--footer
-
--fl 左浮动
-
--fr 右浮动
-
--center 水平居中
-
--cf clearfix
+- -title 标题
+- -value 值
+- -content 内容
+- -header
+- -body
+    - --content
+- -footer
+- -fl 左浮动
+- -fr 右浮动
+- -center 水平居中
+- -cf clearfix
 
 ```css
 am-cf:after,.am-cf:before {
@@ -232,17 +215,17 @@ am-cf:after,.am-cf:before {
 
 -item子元素
 
--row 行 --from bootstrap
+-row 行 - _via Bootstrap_
 
--col 列 --from bootstrap
+-col 列 - _via Bootstrap_
 
 -cell
 
 -text 文本内容
 
--card --from element
+-card - _via Element_
 
--cell --form vant
+-cell - _via Vant_
 
 -box 盒子
 
@@ -250,25 +233,19 @@ am-cf:after,.am-cf:before {
 
  
 
--from bootstrap
+> From Bootstrap
 
--wrapper
+- -wrapper
+    - --content-main
+    - --content-secondary
 
---content-main
+-footer-line - *via HUI*
 
---content-secondary
-
- 
-
--footer-line --from hui
-
- 
 
 -list
 
 -thumb / -thumbnail 缩略图
 
- 
 
 vertical 垂直
 
@@ -276,39 +253,31 @@ horizontal 水平
 
 radial 径向
 
- 
 
- 
+row > col
 
-row >col
+row > cell
 
-row >cell
 
- 
+group > item - *via uViewUI*
 
-group >item --from uViewUI
-
- 
 
 top right center bottom left
 
- 
 
-wrap 有独自占一行的意思 --from uViewUI radio组件
+wrap 有独自占一行的意思 - *via uViewUI radio 组件*
 
 </details>
 
-### Flex布局
+### Flex 布局
 
 <details>
-<summary><span style="color:red">click to expand ~</span></summary>
-<br>
+<summary><span style="color:red">Click to Expand ~</span></summary>
 
-参考
+  http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html - _Flex 布局教程：语法篇_
+ https://www.ruanyifeng.com/blog/2015/07/flex-examples.html - _Flex 布局教程：实例篇_
 
-- Flex 布局教程：语法篇 http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
-- Flex 布局教程：实例篇 https://www.ruanyifeng.com/blog/2015/07/flex-examples.html
-
+----
 
 
 `justify-content` 属性定义了项目在主轴上的对齐方式。
@@ -356,85 +325,48 @@ wrap 有独自占一行的意思 --from uViewUI radio组件
 
  
 
---from hui
+> From HUI
 
--flex
+- -flex
 
  
 
---from bootstrap
+> From Bootstrap
 
-container
-
-\>
-
-row
-
-row-cols-1
-
-row-cols-2
-
-row-cols-3
-
-row-cols-4
-
-row-cols-5
-
-row-cols-6
-
-align-items-start
-
-align-items-center
-
-align-items-end
-
-justify-content-start
-
-justify-content-center
-
-justify-content-end
-
-justify-content-around
-
-justify-content-between
-
-no-gutters
-
-\>
-
-col
-
-col-auto
-
-col-1
-
-col-2
-
-col-3
-
-col-4
-
-col-5
-
-col-6
-
-col-7
-
-col-8
-
-col-9
-
-col-10
-
-col-11
-
-col-12
-
-align-self-start
-
-align-self-center
-
-align-self-end
+- container
+    - row
+    - row-cols-1
+    - row-cols-2
+    - row-cols-3
+    - row-cols-4
+    - row-cols-5
+    - row-cols-6
+    - align-items-start
+    - align-items-center
+    - align-items-end
+    - justify-content-start
+    - justify-content-center
+    - justify-content-end
+    - justify-content-around
+    - justify-content-between
+    - no-gutters
+        - col
+        - col-auto
+        - col-1
+        - col-2
+        - col-3
+        - col-4
+        - col-5
+        - col-6
+        - col-7
+        - col-8
+        - col-9
+        - col-10
+        - col-11
+        - col-12
+    - align-self-start
+    - align-self-center
+    - align-self-end
 
 ```css
 container {
@@ -697,7 +629,6 @@ order-12
 ```
 
 
-
 ```css
 .align-self-start {
     -ms-flex-item-align: start!important;
@@ -715,15 +646,14 @@ order-12
 
 </details>
 
-### Grid栅格布局
+### Grid 栅格布局
 
-http://amazeui.shopxo.net/css/grid/ *Amaze UI*
+http://amazeui.shopxo.net/css/grid/ - *Amaze UI*
 
-https://v3.bootcss.com/css/#grid *Bootstrap v3*
+https://v3.bootcss.com/css/#grid - *Bootstrap v3*
 
 
-
-> From Bootstrap
+> From Bootstrap https://v5.bootcss.com/docs/layout/grid/ - *Grid system · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
 
 - -container
   - -row
@@ -740,17 +670,17 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
 
 
 
-### Position布局
+### Position 布局
 
  
 
-### Table布局
+### Table 布局
 
 
 
 ## 工具
 
-### color 颜色
+### Color 颜色
 
 - 字体色
 
@@ -799,9 +729,9 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
 
  
 
-### border 边框
+### Border 边框
 
-> From bootstrap https://v5.bootcss.com/docs/5.1/utilities/borders/
+> From Bootstrap https://v5.bootcss.com/docs/5.1/utilities/borders/
 
 - **Additive/ 加法**
   - -border
@@ -852,7 +782,7 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
 
 
 
-> From amazeui http://amazeui.shopxo.net/css/
+> From Amazeui http://amazeui.shopxo.net/css/
 
 -border-vertical 垂直方向边框
 
@@ -932,11 +862,10 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
 
 
 
-### text 文本
+### Text 文本
 
 > From Bootstrap https://v5.bootcss.com/docs/utilities/text/
 
- 
 
 - 对齐方式
   - -text-left
@@ -944,7 +873,6 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
   - -text-right
   - -text-justify
   - -text-nowrap
-
 
 
 - 文字颜色
@@ -966,7 +894,6 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
   - -text-capitalize
 
 
-
 - 单词中断
 
   ```css
@@ -975,7 +902,6 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
       word-wrap: break-word!important;
   }
   ```
-
 
 
 - 字体粗细和斜体
@@ -1002,7 +928,7 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
   ```
 
 
-> From amazeui http://amazeui.shopxo.net/css/utility/#wen-ben-gong-ju
+> From Amazeui http://amazeui.shopxo.net/css/utility/#wen-ben-gong-ju
 
 
 - 文字大小
@@ -1014,9 +940,8 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
   - -text-xxl 32px 2.5rem
   - -text-xxxl 42px
 
- 
 
-- 文字换行及截断 --from amazeui
+- 文字换行及截断 - *via Amazeui*
 
   ```css
   -text-truncate {
@@ -1026,17 +951,13 @@ https://v3.bootcss.com/css/#grid *Bootstrap v3*
   }
   ```
 
-   
-
 - 禁止文字换行
   - -text-nowrap
 
 
+### Typography 文字
 
-
-### typography 文字
-
-> From MUI
+> From MUI https://www.dcloud.io/hellomui/examples/typography.html - *Hello MUI*
 
 ```css
 h1 {
@@ -1081,7 +1002,7 @@ h6 {
 
 
 
-### background 背景
+### Background 背景
 
 // 水平或垂直平铺(设置背景图像是否及如何重复)
 
@@ -1111,34 +1032,34 @@ h6 {
 
 #### 背景色
 
-> From bootstrap https://v5.bootcss.com/docs/utilities/background/
+> From Bootstrap https://v5.bootcss.com/docs/utilities/background/
 
-- -bg-primary <span style="color: #fff;background-color: #337ab7;">color: #fff;background-color: #337ab7;</span>
-- -bg-success <span style="background-color: #dff0d8;">background-color: #dff0d8;</span>
-- -bg-info <span style="background-color: #d9edf7;">background-color: #d9edf7;</span>
-- -bg-warning <span style="background-color: #fcf8e3;">background-color: #fcf8e3;</span>
-- -bg-danger <span style="background-color: #f2dede;">background-color: #f2dede;</span>
-- -bg-light <span style="background-color: #f8f9fa!important;">background-color: #f8f9fa!important;</span>
-- -bg-white <span style="background-color: #fff!important;">background-color: #fff!important;</span>
+- -bg-primary  
+    <span style="color: #fff;background-color: #337ab7;">color: #fff;background-color: #337ab7;</span>
+- -bg-success  
+    <span style="background-color: #dff0d8;">background-color: #dff0d8;</span>
+- -bg-info  
+    <span style="background-color: #d9edf7;">background-color: #d9edf7;</span>
+- -bg-warning  
+    <span style="background-color: #fcf8e3;">background-color: #fcf8e3;</span>
+- -bg-danger  
+    <span style="background-color: #f2dede;">background-color: #f2dede;</span>
+- -bg-light  
+    <span style="background-color: #f8f9fa!important;">background-color: #f8f9fa!important;</span>
+- -bg-white  
+    <span style="background-color: #fff!important;">background-color: #fff!important;</span>
 
  
 
 #### 渐变背景色
 
 - -bg-gradient-primary
-
 - -bg-gradient-secondary
-
 - -bg-gradient-success
-
 - -bg-gradient-danger
-
 - -bg-gradient-warning
-
 - -bg-gradient-info
-
 - -bg-gradient-light
-
 - -bg-gradient-dark
 
   
@@ -1179,32 +1100,25 @@ h6 {
   }
   ```
 
-  
-
 - 页面背景
   - -bg-i-page-primary {}
 
 - 元素背景
   - -bg-i-box-primary {}
 
-
-
-- 背景图命名
-  - 圆形 /circle/round
-  - 正方形 /square
-  - 长方形 /rectangle
-
-
+- 背景图形状命名
+  - 圆形 circle / round
+  - 正方形 square
+  - 长方形 rectangle
 
 - 背景图色系命名
   - 深色 dark
   - 浅色 light
 
 
+## 组件 / 模块
 
-## 组件/模块
-
-### jumbotron巨幕
+### Jumbotron 巨幕
 
 > From Bootstrap
 
@@ -1219,9 +1133,9 @@ h6 {
 
 
 
-### cell 单元格
+### Cell 单元格
 
-> --From vant https://vant-contrib.gitee.io/vant/#/zh-CN/cell
+> From Vant https://vant-contrib.gitee.io/vant/#/zh-CN/cell
 
 - -cell-group
 - \----
@@ -1253,24 +1167,21 @@ h6 {
 
 
 
-### icon图标
+### Icon 图标
 
 - 图片 icon
   - -img-icon
-
- 
+----
 
 - 块状居中
   - -icon-center [标签：i]
-
-
+----
 
 - 尺寸大小
   - -icon-sm [标签：i]
   - -icon-md [标签：i]
   - -icon-lg [标签：i]
-
-
+----
 
 - 图片文件及样式命名
   - -icon-home 实心图标（选中）
@@ -1278,8 +1189,7 @@ h6 {
   - 或
   - -icon-home-line 线性图标（未选中）
   - -icon-home-fill 填充图标（选中）
-
- 
+----
 
 - 图片命名
   - icon-home-ingots 元宝
@@ -1312,8 +1222,6 @@ h6 {
   - icon-me-bank-o 银行卡
   - icon-me-profile-o 个人信息
   - icon-me-setting-o 设置
-
-
 
 ```css
 /*icon图标*/
@@ -1387,61 +1295,39 @@ h6 {
 
 
 
-### accordion折叠面板
+### Accordion 折叠面板
 
 
 
-### form表单
+### Form 表单
 
-form form-horizontal>form-group>
+- form form-horizontal
+    - form-group
 
- 
 
---from bootstrap
+> From Bootstrap
 
-form-inline
 
-\>
+- form-inline
+    - form-row [标签：div]
+        - form-group
+        - form-check
+        - form-check-inline
+            - form-control [标签：input、select、textarea]
+            - form-control-file [标签：input[type=file]]
+            - form-control-lg [标签：input、select]
+            - form-control-sm [标签：input、select]
+            - form-control-plaintext [标签：input]
+            - form-control-range [标签：input[type=range]]
+            - form-check-label [标签：label]
+            - form-check-input [标签：input[type=checkbox]、input[type=radio]]
+            - col-form-label [标签：label]
+            - col-form-label-sm [标签：label]
+            - col-form-label-lg [标签：label]
+            - form-text [标签：small]
 
-form-row [标签：div]
 
-\>
-
-form-group
-
-form-check
-
-form-check-inline
-
-\>
-
-form-control [标签：input、select、textarea]
-
-form-control-file [标签：input[type=file]]
-
-form-control-lg [标签：input、select]
-
-form-control-sm [标签：input、select]
-
-form-control-plaintext [标签：input]
-
-form-control-range [标签：input[type=range]]
-
-form-check-label [标签：label]
-
-form-check-input [标签：input[type=checkbox]、input[type=radio]]
-
-col-form-label [标签：label]
-
-col-form-label-sm [标签：label]
-
-col-form-label-lg [标签：label]
-
-form-text [标签：small]
-
- 
-
---from amazeui
+> From Amazeui
 
 -form
 
@@ -1555,54 +1441,44 @@ am-form-sm -font-size: 1.4rem;
 
 
 
-### table表格
+### Table 表格
 
-tabs选项卡
+tabs 选项卡
 
-tips提示文本
-
- 
-
--scrollable-horizontal [标签：div]
-
-\>
-
--table [标签：table]
-
--table-centered [标签：table]
-
--table-bordered [标签：table]
-
--table-radius [标签：table]
-
--table-striped [标签：table]
-
--table-hover [标签：table]
-
--table-compact [标签：table]
-
--text-nowrap [标签：table]
-
-\>
-
-am-active 激活 [标签：tr、td]
-
-am-disabled 禁用 [标签：tr、td]
-
-am-primary 蓝色高亮 [标签：tr、td]
-
-am-success 绿色高亮 [标签：tr、td]
-
-am-warning 橙色高亮 [标签：tr、td]
-
-am-danger 红色高亮 [标签：tr、td]
+tips 提示文本
 
  
 
-table>thead>tr>th 表头
+- -scrollable-horizontal [标签：div]
+    - -table [标签：table]
+    - -table-centered [标签：table]
+    - -table-bordered [标签：table]
+    - -table-radius [标签：table]
+    - -table-striped [标签：table]
+    - -table-hover [标签：table]
+    - -table-compact [标签：table]
+    - -text-nowrap [标签：table]
+        - am-active 激活 [标签：tr、td]
+        - am-disabled 禁用 [标签：tr、td]
+        - am-primary 蓝色高亮 [标签：tr、td]
+        - am-success 绿色高亮 [标签：tr、td]
+        - am-warning 橙色高亮 [标签：tr、td]
+        - am-danger 红色高亮 [标签：tr、td]
 
-table>tbody>tr>td 表内容
 
+----
+
+
+- table
+    - thead 表头
+        - tr
+            - th
+    - tbody 表内容
+        - tr
+            - td
+
+
+----
 
 
 ![](./_images/图片1.png)
@@ -1674,33 +1550,33 @@ table>tbody>tr>td 表内容
 
 
 
-### list列表
+### List 列表
 
-html标签
+html 标签
 
-ul > li无序列表
+ul > li 无序列表
 
-ol > li有序列表
+ol > li 有序列表
 
 dl > dt > dd 
 
  
 
-list-main列表主体内容
+list-main 列表主体内容
 
-list-news内容列表
+list-news 内容列表
 
-list-news-default内容列表样式
+list-news-default 内容列表样式
 
-list-news-hd列表标题
+list-news-hd 列表标题
 
-list-news-bd列表内容
+list-news-bd 列表内容
 
-list-news-ft列表底部
+list-news-ft 列表底部
 
 
 
-### button按钮
+### Button 按钮
 
 普通按钮
 
@@ -1844,9 +1720,9 @@ list-news-ft列表底部
 
 -btn etc
 
-### avatar头像
+### Avatar 头像
 
-#### shape 形状
+#### Shape 形状
 
 ```css
 -avatar-circle {
@@ -1860,7 +1736,7 @@ list-news-ft列表底部
 
  
 
-#### size 大小
+#### Size 大小
 
 -avatar-xl 50px*50px
 
@@ -1887,9 +1763,9 @@ list-news-ft列表底部
 
  
 
-### tag标签
+### Tag 标签
 
-> --from vant
+> From Vant https://vant-contrib.gitee.io/vant/mobile.html#/zh-CN/tag
 
 -tag
 
@@ -1939,7 +1815,7 @@ list-news-ft列表底部
 
 
 
-## Utility辅助类
+## Utility 辅助类
 
 ### 水平滚动
 
@@ -1974,7 +1850,7 @@ list-news-ft列表底部
 
 ### 宽高
 
-> --from bootstrap
+> From Bootstrap https://v5.bootcss.com/docs/utilities/sizing/ - *尺寸（Sizing） · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
 
 ```css
 -w-50 {
@@ -1995,21 +1871,14 @@ list-news-ft列表底部
 
 ### 定位
 
--position-static
-
--position-relative
-
--position-absolute
-
--position-fixed
-
--position-sticky
-
--fixed-top
-
--fixed-bottom
-
--sticky-top
+- -position-static
+- -position-relative
+- -position-absolute
+- -position-fixed
+- -position-sticky
+- -fixed-top
+- -fixed-bottom
+- -sticky-top
 
 ```css
 .position-static {
@@ -2084,7 +1953,7 @@ list-news-ft列表底部
 
 
 
-## CSS单位
+## CSS 单位
 
 英寸1in = 96px 	= 2.54cm
 
@@ -2112,7 +1981,7 @@ vh viewpoint height，视窗高度，1vh=视窗高度的1%
 
 ### 顶部导航栏
 
-html标签
+html 标签
 
 `<header></header>`
 
@@ -2120,7 +1989,7 @@ html标签
 
 ### 底部选项卡
 
-html标签
+html 标签
 
 `<footer></footer>`
 
@@ -2203,7 +2072,7 @@ html标签
 
 ### 菜单栏
 
-html标签
+html 标签
 
 `<nav></nav>`
 
@@ -2211,23 +2080,14 @@ html标签
 
 ### 个人信息
 
--profile
-
--profile-header
-
--profile-content
-
--profile-footer
+- -profile
+    - -profile-header
+    - -profile-content
+    - -profile-footer
+    - -profile-avatar
+    - -profile-info
 
 ![](./_images/图片3.png)
-
--profile
-
-\>
-
--profile-avatar
-
--profile-info
 
 ```html
 <div class="ev-profile ev-bg-gradient-primary">
@@ -2272,19 +2132,14 @@ html标签
 
 ### 分段标签卡片
 
-百度翻译搜：分段
+百度翻译搜：_分段_
 
--segment 暂选为样式名
-
--segment-line 分割线
-
--fragment 片段
-
--tabcard
-
--partition
-
--division
+- -segment 暂选为样式名
+    - -segment-line 分割线
+- -fragment 片段
+- -tabcard
+- -partition
+- -division
 
 ![](./_images/图片4.png)
 
@@ -2347,39 +2202,39 @@ html标签
 
 ### 卡片
 
-card-group/card-deck>card>card-header
+- card-group / card-deck
+    - card
+        - card-header
 
-card-group/card-deck>card>card-body>card-title/card-subtitle/card-text/card-link
+----
 
-card-group/card-deck>card>card-img-overlay
+- card-group / card-deck
+    - card
+        - card-body
+            - card-title / card-subtitle / card-text / card-link
 
--card-group/-card-deck
+----
 
--card
+- card-group / card-deck
+    - card
+        - card-img-overlay
 
--card-img
+----
 
--card-img-top `<img>`
+- -card-group/-card-deck
+    - -card
+        - -card-img
+            - -card-img-top `<img>`
+        - -card-header
+        - -card-content / -card-body / -card-img-overlay
+            - -card-title
+                - -card-subtitle 副标题
+                - -card-text
+                - -card-link
+        - -card-footer
 
--card-header
 
--card-content/-card-body/-card-img-overlay
-
- -card-title
-
- -card-subtitle 副标题
-
- -card-text
-
- -card-link
-
--card-footer
-
- 
-
---from bootstrap
-
- 
+> From Bootstrap
 
 ```css
 .card-img-overlay {
@@ -2408,19 +2263,19 @@ card-group/card-deck>card>card-img-overlay
 
 ### 标签页
 
--tabs --from vant / amazeui
+> From Vant / Amazeui
 
- 
+-tabs
 
-### 空状态
 
--empty --from vant
+### 空状态 Empty
 
--empty-image
+> From Vant
 
--empty-description 描述文字
-
--empty-bottom 底部内容，如返回、跳转按钮等
+- -empty
+    - -empty-image
+    - -empty-description 描述文字
+    - -empty-bottom 底部内容，如返回、跳转按钮等
 
  
 
@@ -2558,25 +2413,13 @@ card-group/card-deck>card>card-img-overlay
 
 ### 分享邀请好友
 
--share-card
-
-\>
-
--share-card-profile
-
--share-card-logo
-
- 
-
--share-content
-
-\>
-
--share-content-hd
-
--share-content-bd
-
--share-content-ft
+- -share-card
+    - -share-card-profile
+    - -share-card-logo
+    - -share-content
+        - -share-content-hd
+        - -share-content-bd
+        - -share-content-ft
 
 ![](./_images/图片8.png)
 
@@ -2620,7 +2463,7 @@ card-group/card-deck>card>card-img-overlay
 
 
 
-### 轮播图
+### 轮播图 Banner
 
 ![](./_images/图片9.png)
 
@@ -2668,11 +2511,8 @@ card-group/card-deck>card>card-img-overlay
 
 ### 通知栏 NoticeBar
 
--notice-bar
-
-\>
-
--notice-bar-title
+- -notice-bar
+    - -notice-bar-title
 
 ![](./_images/图片10.png)
 
@@ -2718,7 +2558,7 @@ card-group/card-deck>card>card-img-overlay
 
 
 
-### 商城
+### 商城 Shop
 
 -cash 现金
 
@@ -2790,7 +2630,7 @@ card-group/card-deck>card>card-img-overlay
 
 ## 词汇
 
-### Charts图表
+### Charts 图表
 
 Meter	仪表
 
@@ -2843,7 +2683,7 @@ https://www.cnblogs.com/gja1026/p/9279818.html - *CSS3实现文本垂直排列 -
 "><img src="assets/i/qrcode.png" alt=""></div>
 ```
 
-`.ev-share-content-bd` width设置了以px为单位的宽度，`margin: 0 auto;`才会居中，设置为%无效
+`.ev-share-content-bd` width 设置了以 px 为单位的宽度，`margin: 0 auto;` 才会居中，设置为 % 无效
 
 ```html
 <u-image width="239rpx" height="287rpx" src="@/static/images/logo/logo.png" style="display: block;margin: 0 auto;"></u-image>
@@ -2970,7 +2810,7 @@ transform: translateY(-50%);
 
 
 
-### p标签文本内容不自动换行解决方法
+### p 标签文本内容不自动换行解决方法
 
 > 使用链接中的内容样式
 
@@ -3001,9 +2841,7 @@ transform: translateY(-50%);
 
 ### 禁止蒙版下的页面滚动
 
-
-
-参考链接：
+参考：
 
 https://m.jb51.net/article/191900.htm - *vue 遮罩层阻止默认滚动事件操作_vue.js_脚本之家*
 

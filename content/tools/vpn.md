@@ -250,10 +250,18 @@ https://github.com/EtherDream/jsproxy
 
 ### Addons / Extensions
 
-<i class="fa fa-chrome"></i>
-<i class="fa fa-firefox"></i>
-<i class="fa fa-edge"></i> 
-<i class="fa fa-shopping-cart"></i>
+<div class="AvatarStack AvatarStack--three-plus">
+  <div
+    class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
+    aria-label="support chrome, firefox, edge, and purchases."
+  >
+    <i<i class="fa fa-chrome"></i>
+    <i class="fa fa-firefox"></i>
+    <i class="fa fa-edge"></i> 
+    <i class="fa fa-shopping-cart"></i>
+  </div>
+</div>
+
 http://googlehelper.net/ - *Google Helper*
 
 

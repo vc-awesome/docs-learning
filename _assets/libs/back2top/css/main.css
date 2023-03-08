@@ -40,7 +40,6 @@
         right: 20px;
     }
 }
-
 #back2bottom {
     left: auto;
     right: 30px;
@@ -51,5 +50,20 @@
     }
     .back-to-top {
         right: 80px;
+    }
+}
+/* New add */
+.back-to-top.toc {
+    right: 120px;
+}
+#back2bottom.toc-b {
+    right: 60px;
+}
+@media (max-width: 991px) {
+    #back2bottom.toc-b {
+        right: 50px;
+    }
+    .back-to-top.toc {
+        right: 110px;
     }
 }

@@ -2,21 +2,19 @@
 
 https://www.runoob.com/tags/html-keyboardshortcuts.html - *键盘快捷键*
 
-[浏览器快捷键](/tools/browser?id=浏览器快捷键-⌨️)
-
-[MacOS 快捷键](/os/mac/?id=tutorial)
-
-[Windows 快捷键](/os/windows/?id=windows-快捷键-⌨)
+- [浏览器快捷键](tools/browser.md#浏览器快捷键-⌨️)
+- [MacOS 快捷键](os/mac/README.md#tutorial)
+- [Windows 快捷键](os/windows/README.md#windows-快捷键-⌨)
 
 ## 下载指南
 
 > download guide
 
-https://github.com/BeyondDimension/SteamTools/blob/develop/download-guide.md
+https://github.com/BeyondDimension/SteamTools/blob/develop/download-guide.md - *SteamTools/download-guide.md at develop · BeyondDimension/SteamTools · GitHub*
 
 ## 平台架构
 
-Platform architecture: 32-bit/64-bit/arm64
+Platform architecture: 32-bit / 64-bit / arm64
 
 参考链接：
 
@@ -27,11 +25,11 @@ Platform architecture: 32-bit/64-bit/arm64
 - https://www.eefocus.com/ask/489696 - *arm64什么意思*
 - https://www.henrypp.org/product/memreduct - *Mem Reduct*
 
-## <i class="fa fa-terminal dark-yellow"></i> CLI
+## CLI
 
 > **命令行界面**（英语：**command-line interface**，缩写：**CLI**）是在得到普及之前使用最为广泛的用户界面，它通常不支持鼠标，用户通过键盘输入指令，计算机接收到指令后，予以执行。也有人称之为**字符用户界面**（CUI）。
 
-<https://baike.baidu.com/item/命令行界面/9910197>/ - *命令行界面_百度百科*
+<https://baike.baidu.com/item/命令行界面/9910197> - *命令行界面_百度百科*
 
 
 

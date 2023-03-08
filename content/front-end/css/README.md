@@ -59,7 +59,63 @@ https://css3gen.com/wp-content/cache/all/css3-animation/index.html - *CSS3 Anim
 - https://www.yisu.com/zixun/642979.html - *CSS3的动画工具有哪些 - web开发 - 亿速云*
 - https://blog.csdn.net/qq_38110572/article/details/113944689 - *十个CSS3动画工具，你必须收藏！_Leeeeeer的博客-CSDN博客_css 动画设计器*
 
+### 实例
+
+_via https://blog.csdn.net/Bonjours/article/details/124383032 - *css设置图标跳动-CSDN博客*_
+
+代码：
+
+``` css
+// im图标跳动
+@keyframes im_icon{
+    0%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+    50%{
+        opacity: 1;
+        transform: translate(0,3px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+}
+@-webkit-keyframes im_icon{
+    0%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+    50%{
+        opacity: 1;
+        transform: translate(0,3px);
+    }
+    100%{
+        opacity: 0.8;
+        transform: translate(0,0);
+    }
+}
+.im {
+    margin-top: -4px;
+    margin-left: 10px;
+    cursor: pointer;
+    animation:  im_icon 1s linear infinite;
+    -webkit-animation:  im_icon 1s linear infinite;
+}
+```
+
+``` html
+<img alt='bunny-color' src='_media/bunny-color.png' class="im" />
+```
+
+效果：
+
+<img alt='bunny-color' src='_media/bunny-color.png' class="im" />
+
+
 ## Link
 
 https://mp.weixin.qq.com/s/YpMjQrFTYwwTQJcWAqKwRA - *CSS 中流与宽高之间是如何相互影响的？*
+
+https://1linelayouts.glitch.me/ - _一行 CSS 布局_ 🪜
 
