@@ -82,26 +82,11 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> <i class="fa fa-apple"></i> https://github.com/oldj/SwitchHosts/releases
 
-### Daedalus
+----
 
-?> No root required Android DNS modifier and Hosts/DNSMasq resolver.
-
-![GitHub last commit](https://img.shields.io/github/last-commit/iTXTech/Daedalus?logo=github)
-![GitHub Release Date](https://img.shields.io/github/release-date/iTXTech/Daedalus?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/iTXTech/Daedalus?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/iTXTech/Daedalus?style=social)
-![F-Droid](https://badgen.net/f-droid/v/com.duckduckgo.mobile.android?icon=f-droid)
-
-
-<i class="fa fa-laptop"></i> https://itxtech.org/
-
-<i class="fa fa-github fa-lg"></i> https://github.com/iTXTech/Daedalus
-
-<i class="fa fa-android"></i> https://github.com/iTXTech/Daedalus/releases
-
-### personalDNSfilter
-
-[personalDNSfilter](os/mobile/?id=personaldnsfilter)
+手机应用
+1. [Daedalus](os/mobile/README.md#daedalus)
+2. [personalDNSfilter](os/mobile/README.md#personaldnsfilter)
 
 ## Rules
 
@@ -109,7 +94,7 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 搜索引擎、GitHub 搜索：_google host_
 
-- https://github.com/y1yang0/host
+- https://github.com/y1yang0/hosts
     ![](https://flat.badgen.net/github/last-commit/y1yang0/hosts?icon=github&color=blue)
 
 - https://github.com/googlehosts/hosts

@@ -25,12 +25,6 @@
 - [v4 英文文档](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
 
-## 代码规范
-
-https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格* 🇨🇳
-
-https://github.com/mdo/code-guide - *Standards for developing consistent, flexible, and sustainable HTML and CSS.* 🇺🇸 🇨🇳
-
 ## 页面布局
 
 [HTML 布局](/front-end/html/?id=布局)

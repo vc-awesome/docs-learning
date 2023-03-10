@@ -15,8 +15,10 @@
 ## 历史版本
 
 - ECMAScript5
+    - https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道*
+- [ECMAScript6](front-end/javascript/javascript-es6.md)  ➠ ES2015
+    - https://www.babeljs.cn/docs/learn - *学习 ES2015 · Babel 中文文档 | Babel中文网*
 
-- [ECMAScript6](front-end/javascript/javascript-es6.md)
 
 ## Index
 

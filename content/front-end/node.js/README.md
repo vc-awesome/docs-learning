@@ -2,11 +2,11 @@
 
 ### node 官方
 
-<i class="fa fa-github"></i> https://github.com/nodejs/node - *Node.js JavaScript runtime ✨🐢🚀✨*
+https://github.com/nodejs/node - *Node.js JavaScript runtime ✨🐢🚀✨*
 
-https://nodejs.org/zh-cn/ 🇨🇳 - *Node.js 官网*
+https://nodejs.org/zh-cn/ - *Node.js 官网* 🇨🇳
 
-https://nodejs.org/ 🇺🇸 - *Node.js 官网*
+https://nodejs.org/ - *Node.js 官网* 🇺🇸
 
 ---
 
@@ -29,22 +29,18 @@ https://npm.taobao.org/mirrors/node/ - *Node.js 淘宝镜像*
 ### node 安装
 
 - **方式一**、使用 nvm 安装 node（推荐）
+    https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程* （安装前查看评论区内容）
+    
+    安装步骤：
+    1. [安装 NVM](#nvm-%e5%ae%89%e8%a3%85)；
+    2. 通过 NVM 安装 Node；
+    3. 安装 NPM *（无需安装，因为 NPM 是随同 NodeJS 一起安装的包管理工具）* ；
+    4. [使用淘宝 NPM 镜像](#npm-%e9%95%9c%e5%83%8f)。
+         - https://npmmirror.com/ - *npmmirror 中国镜像站*
+         - https://zhuanlan.zhihu.com/p/465424728 - *【公告】淘宝 npm 域名即将切换 && npmmirror 重构升级 && 微信交流群*
 
-  https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程* （安装前查看评论区内容）
-
-  
-
-  安装步骤：
-
-  1. 安装 nvm
-  1. 通过 nvm 安装 node
-  1. 安装 npm （无需安装，因为NPM是随同NodeJS一起安装的包管理工具）
-  1. 使用淘宝 NPM 镜像
-     - https://npmmirror.com/ - *npmmirror 中国镜像站*
-     - https://zhuanlan.zhihu.com/p/465424728 - *【公告】淘宝 npm 域名即将切换 && npmmirror 重构升级 && 微信交流群*
-
-
-
+- **方式二**、官方下载安装
+    https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程*
 
 ### node 命令行
 
@@ -85,7 +81,7 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
 
 ### npm 命令行
 
-:star: https://zhuanlan.zhihu.com/p/534461112 - *npm 常用命令和使用技巧*
+⭐ https://zhuanlan.zhihu.com/p/534461112 - *npm 常用命令和使用技巧*
 
 - 查看当前版本
 
@@ -96,7 +92,7 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
   `npm install <Module Name>`
 
   ```bash
-  npm install # 安装package.json定义好的模块，简写 npm i
+  npm install # 安装 package.json 定义好的模块，简写 npm i
   
   # 安装包指定模块
   npm i <ModuleName>
@@ -104,22 +100,20 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
   # 全局安装
   npm i <ModuleName> -g
   
-  # 安装包的同时，将信息写入到package.json中的 dependencies 配置中
+  # 安装包的同时，将信息写入到 package.json 中的 dependencies 配置中
   npm i <ModuleName> --save
   
-  # 安装包的同时，将信息写入到package.json中的 devDependencies 配置中
+  # 安装包的同时，将信息写入到 package.json 中的 devDependencies 配置中
   npm i <ModuleName> --save-dev
   
   # 安装多模块
   npm i <ModuleName1> <ModuleName2>
   
   # 安装方式参数：
-  -save # 简写-S，加入到生产依赖中
-  -save-dev # 简写-D，加入到开发依赖中
+  -save # 简写 -S，加入到生产依赖中
+  -save-dev # 简写 -D，加入到开发依赖中
   -g # 全局安装 将安装包放在 /usr/local 下或者你 node 的安装目录
   ```
-
-
 
 - 卸载模块
 
@@ -267,11 +261,11 @@ Via <http://yapi.smart-xwork.cn/doc/devops/index.html#服务器管理>
 
 ?> Keep multiple browsers & devices in sync when building websites.
 
-<i class="fa fa-github"></i> https://github.com/BrowserSync/browser-sync
+https://github.com/BrowserSync/browser-sync
 
-https://browsersync.io/ 🇬🇧 - *Browsersync Time-saving synchronised browser testing.*
+https://browsersync.io/ - *Browsersync Time-saving synchronised browser testing.*
 
-https://browsersync.bootcss.com/ 🇨🇳 - *Browsersync - 省时的浏览器同步测试工具 | Browsersync 中文文档*
+https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试工具 | Browsersync 中文文档*
 
 
 
@@ -279,15 +273,19 @@ https://browsersync.bootcss.com/ 🇨🇳 - *Browsersync - 省时的浏览器同
 
 **命令行**
 
-- 安装（Local Install）
+- 安装（ _Local Install_ ）
 
-  推荐这种方式来安装 Browsersync - 通过本地安装到每个项目。这种方式的可以使依赖被添加到你的package.json文件里（gulp或grunt构建方式）
+  推荐这种方式来安装 _Browsersync_ - 通过本地安装到每个项目的根目录。这种方式的可以使依赖被添加到你的 package.json 文件里（ gulp 或 grunt 构建方式）
 
-  `npm install browser-sync --save-dev`
+  ``` sh
+  npm install browser-sync --save-dev
+  ```
 
 - 查看当前版本
 
-  `browser-sync --version`
+  ``` sh
+  browser-sync --version
+  ```
 
 - 监听所有文件类型
 
@@ -295,13 +293,17 @@ https://browsersync.bootcss.com/ 🇨🇳 - *Browsersync - 省时的浏览器同
 
   - 静态网站
 
-    `browser-sync start --server --files "**/**.*"`
+    ``` sh
+    browser-sync start --server --files "**/**.*"
+    ```
 
   - 动态网站
 
-    `browser-sync start --proxy "docs-learning.service" --files "**/**.*"`
+    ``` sh
+    browser-sync start --proxy "docs-learning.service" --files "**/**.*"
+    ```
 
-  `**` （表示任意目录）匹配
+      > `**` （表示任意目录）匹配
 
 **参考链接**
 
@@ -313,13 +315,21 @@ https://blog.csdn.net/lgxzzz/article/details/122018090 - *Browsersync的安装�
 
 https://blog.csdn.net/qq_41328247/article/details/79926353 - *browsersync的使用方法*
 
+#### PostCSS
 
+##### Autoprefixer
+
+https://github.com/postcss/autoprefixer#usage - *GitHub - postcss/autoprefixer: Parse CSS and add vendor prefixes to rules by Can I Use*
+
+https://autoprefixer.github.io/ - *Autoprefixer CSS online*
 
 ### npm FAQ
 
 #### npm 本地安装模块后如何去运行
 
-- 方式1：进入安装目录，打开命令行工具 `Git Bash`，直接执行 `./node_modules/.bin/<packageName>`
+- 方式1：进入安装目录，打开命令行工具 `Git Bash`，直接执行
+    
+    `./node_modules/.bin/<packageName>`
 
 - 方式2：进入安装目录，新建 index.js 文件
 
@@ -350,7 +360,7 @@ https://blog.csdn.net/weixin_43302112/article/details/124932956 - *17.如何使�
 https://blog.csdn.net/guyue35/article/details/55195198 - *怎么运行npm本地安装的模块*
 
 
-## yarn
+## ~~Yarn~~
 
 
 ## NVM
@@ -403,7 +413,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 #### 在 Windows 中安装
 
-⚠️ 首先最重要的是：一定要卸载已安装的 NodeJS，否则会发生冲突。然后下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) 最新安装包，直接安装即可。 Via https://www.runoob.com/w3cnote/nvm-manager-node-versions.html
+⚠️ 首先最重要的是：一定要卸载已安装的 *Node.js*，否则会发生冲突。然后下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) 最新安装包，直接安装即可。 Via https://www.runoob.com/w3cnote/nvm-manager-node-versions.html
 
 <i class="fa fa-github"></i> https://github.com/coreybutler/nvm-windows - *A node.js version management utility for Windows. Ironically written in Go.*
 
@@ -423,7 +433,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
   6. vim ~/.nvm/.zshrc
 
-     ```shell
+     ```sh
      export NVM_DIR="$HOME/.nvm"
         [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
         [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
@@ -439,13 +449,11 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
      避免每次重启终端需要重复第8步操作的问题，以下步骤是解决方式
 
-     - 设置环境变量（[macos设置环境变量path详解
-       
-       ](https://blog.csdn.net/Mint6/article/details/124156340)、[Mac 解决每次新建终端 都要重新运行 source ~/.bash_profile问题](https://www.cnblogs.com/pansidong/p/15055345.html)）
+     - 设置环境变量（[macos设置环境变量path详解](https://blog.csdn.net/Mint6/article/details/124156340)、[Mac 解决每次新建终端 都要重新运行 source ~/.bash_profile问题](https://www.cnblogs.com/pansidong/p/15055345.html)）
 
   10. vim .zshrc（添加下列内容）
 
-      ```shell
+      ```sh
       #cnpm之前加载npm，cnpm才会生效
       source ~/.nvm/.zshrc
          

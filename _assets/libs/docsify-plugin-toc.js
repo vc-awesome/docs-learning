@@ -16,7 +16,7 @@
                         // 自定义内容 - start
                         /**
                          * TOC 添加“代码缩进参考线”
-                         * phpstorm 中如何设置并查看效果：1. phpstorm 菜单栏 -> preferences...（设置）； 2. 编辑器 -> 常规 -> 外观：勾选选项“显示缩进参考线”
+                         * PhpStorm 中如何设置并查看效果：1. phpstorm 菜单栏 -> preferences...（设置）； 2. 编辑器 -> 常规 -> 外观：勾选选项“显示缩进参考线”
                          * @url https://blog.csdn.net/weixin_41981080/article/details/82659022 - PhpStorm代码编辑区竖线的用途
                          * @url https://www.cnblogs.com/zqifa/p/12651446.html - phpstorm 代码编辑区去掉、设置灰色竖线 打印分割线设置
                          */

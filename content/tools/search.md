@@ -12,8 +12,8 @@
 
 3. https://www.zhihu.com/question/26891149 - *有哪些值得推荐的下载软件的网站？*
 
-4. 👍 阿虚同学
-    - https://github.com/axutongxue/
+4. 👍 阿虚同学 <i id="axutongxue"></i>
+    - https://github.com/axutongxue/ - *axutongxue (阿虚同学) · GitHub*
     - https://axutongxue.com/ - *阿虚同学的储物间*
     - 分类目录
         - `04 电脑常用 / 05.浏览器`
@@ -56,7 +56,6 @@
 - 操作系统，应用商店下载
 
 
-
 ### 下载站点
 
 #### 中文站
@@ -68,13 +67,16 @@
 
 3. <i class="fa fa-windows"></i> http://www.xmpojie.com/ - *熊喵破解|最全的Win/Mac软件分享站，一直被模仿，从未被超越*
 
-4. <i class="fa fa-apple"></i> https://macwk.com/ - *MacWk - 精品mac软件下载*
+4. ~~<i class="fa fa-apple"></i> https://macwk.com/ - *MacWk - 精品mac软件下载*~~
 
-5. <i class="fa fa-windows"></i> https://winwk.com/ - *WinWk - 精品windows软件下载*
+5. ~~<i class="fa fa-windows"></i> https://winwk.com/ - *WinWk - 精品windows软件下载*~~
 
 6. <i class="fa fa-apple"></i> https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
 
 7. <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i> <i class="ri-apple-line"></i> http://windows.dailydownloaded.com/zh/ - *软件评论，下载，游戏和应用..... | Windows*
+
+8. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* （*via https://www.cnblogs.com/fdw630/p/16792457.html - macwk.com破产关站，真正原因！（免费的替代站） - FrankStan - 博客园*）
+
 
 #### 英文站
 

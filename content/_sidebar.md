@@ -1,10 +1,10 @@
-* [Quick Index](/ "")
-* **Quick Links**
-* [![](https://emojipedia.org/static/img/favicons/favicon-32x32.png ':size=14')Emojipedia](https://emojipedia.org/)
-* [<i class="fa fa-github"></i>&nbsp; GitHub](https://github.com/)
-* [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
-* [![](http://www.ruanyifeng.com/favicon.ico ':size=14')Ruanyifeng](http://www.ruanyifeng.com/blog/)
-- [![](https://www.liaoxuefeng.com/favicon.ico ':size=14')Liaoxuefeng](https://www.liaoxuefeng.com/)
+- [Quick Index](/ "")
+- **Quick Links**
+- [Emojipedia](https://emojipedia.org/)
+- [菜鸟教程](https://www.runoob.com/)
+- [阮一峰的网络日志](home/book.md#%e9%98%ae%e4%b8%80%e5%b3%b0%e7%9a%84%e7%bd%91%e7%bb%9c%e6%97%a5%e5%bf%97)
+- [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
+- [阿虚同学](tools/search.md#axutongxue)
 - **Document Plug-in**
 - [Primer CSS](https://primer.style/css/)
 <!-- <br>

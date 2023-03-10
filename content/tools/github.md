@@ -14,21 +14,22 @@ Security Bug Bounty：https://bounty.github.com/ - *GitHub Security - GitHub Bug
 
 ## 社区
 
-👍 https://www.githubs.cn/ - *GitHub中文社区 | GitHub中文网*
+https://www.githubs.cn/ - *GitHub中文社区 | GitHub中文网*
 
 
 
 ## 组织
 
-阿里云 - https://github.com/aliyun
+https://github.com/aliyun - *Alibaba Cloud · GitHub*
 
-阿里巴巴 -  https://github.com/alibaba
+https://github.com/alibaba - *Alibaba · GitHub*
 
-Bootstrap - https://github.com/twbs
+https://github.com/twbs - *Bootstrap · GitHub*
 
-饿了么前端 - https://github.com/elemefe
+https://github.com/elemefe - *饿了么前端 · GitHub*
 
-Metafizzy - https://github.com/metafizzy _（logo 可爱而关注，前端）_
+Metafizzy - https://github.com/metafizzy - *Metafizzy · GitHub*  
+🏷️  _logo 可爱而关注_ ，_前端_
 
 
 ## 仓库
@@ -43,54 +44,49 @@ https://github.com/GitHubDaily/GitHubDaily - *坚持分享 GitHub 上高质量�
 ### Awesome Lists
 
 
-> 😎 Awesome lists about all kinds of interesting topics.  
-> <i class="bi bi-translate dark-yellow"></i>  
-> 😎 关于各种有趣主题的精彩列表。
+?> 😎 Awesome lists about all kinds of interesting topics.  
+<i class="bi bi-translate dark-yellow"></i>  
+😎 关于各种有趣主题的精彩列表。
 
 ![Awesome-flat2](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge-flat2.svg)
 [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](https://www.trackawesomelist.com/)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sindresorhus/awesome?color=blue&logo=github&style=flat-square)
 
-<i class="fa fa-github fa-lg"></i> https://github.com/sindresorhus/awesome
+https://github.com/sindresorhus/awesome
 
-<i class="fa fa-github fa-lg"></i></i> <i class="fa fa-search"></i> https://github.com/topics/awesome
+https://github.com/topics/awesome
 
-参考链接 👇
+https://www.trackawesomelist.com - *Track Awesome List - Track your Favorite Github Awesome List Daily*
 
-- chaozh
-  /
-  awesome-blockchain-cn https://github.com/chaozh/awesome-blockchain-cn ![GitHub last commit](https://flat.badgen.net/github/last-commit/chaozh/awesome-blockchain-cn?icon=github&color=blue)
+----
 
-- ziadoz
-  /
-  awesome-php https://github.com/ziadoz/awesome-php ![GitHub last commit](https://flat.badgen.net/github/last-commit/ziadoz/awesome-php?icon=github&color=blue)
+列表：
 
-- tiimgreen
-  /
-  github-cheat-sheet https://github.com/tiimgreen/github-cheat-sheet ![GitHub last commit](https://flat.badgen.net/github/last-commit/tiimgreen/github-cheat-sheet?icon=github&color=blue)
+1. https://github.com/chaozh/awesome-blockchain-cn - *GitHub - chaozh/awesome-blockchain-cn: 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料* ![GitHub last commit](https://flat.badgen.net/github/last-commit/chaozh/awesome-blockchain-cn?icon=github&color=blue)
 
-- AllThingsSmitty
-  /
-  css-protips https://github.com/AllThingsSmitty/css-protips ![GitHub last commit](https://flat.badgen.net/github/last-commit/AllThingsSmitty/css-protips?icon=github&color=blue) 
+2. https://github.com/ziadoz/awesome-php - *GitHub - ziadoz/awesome-php: A curated list of amazingly awesome PHP libraries, resources and shiny things.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/ziadoz/awesome-php?icon=github&color=blue)
 
-- mundimark
-  /
-  awesome-markdown https://github.com/mundimark/awesome-markdown ![GitHub last commit](https://flat.badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
+3. https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-cheat-sheet: A list of cool features of Git and GitHub.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/tiimgreen/github-cheat-sheet?icon=github&color=blue)
 
-- xingshaocheng / architect-awesome https://github.com/xingshaocheng/architect-awesome - *后端架构师技术图谱* ![GitHub last commit](https://flat.badgen.net/github/last-commit/xingshaocheng/architect-awesome?icon=github&color=blue)
+4. https://github.com/AllThingsSmitty/css-protips - *GitHub - AllThingsSmitty/css-protips: ⚡️ A collection of tips to help take your CSS skills pro 🦾* ![GitHub last commit](https://flat.badgen.net/github/last-commit/AllThingsSmitty/css-protips?icon=github&color=blue) 
 
-- https://github.com/jondot/awesome-weekly - *An "awesome" type curated list of quality weekly subscription newsletters from the software world* ![GitHub last commit](https://flat.badgen.net/github/last-commit/jondot/awesome-weekly?icon=github&color=blue)
+5. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)* ![GitHub last commit](https://flat.badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
+
+6. https://github.com/xingshaocheng/architect-awesome - *后端架构师技术图谱* ![GitHub last commit](https://flat.badgen.net/github/last-commit/xingshaocheng/architect-awesome?icon=github&color=blue)
+
+7. https://github.com/jondot/awesome-weekly - *An "awesome" type curated list of quality weekly subscription newsletters from the software world* ![GitHub last commit](https://flat.badgen.net/github/last-commit/jondot/awesome-weekly?icon=github&color=blue)
 
 ---
+参考链接 👇
 
-https://zhuanlan.zhihu.com/p/144053402 - *Awesome系列：Github中不能错过的巨人肩膀*
+1. https://zhuanlan.zhihu.com/p/144053402 - *Awesome系列：Github中不能错过的巨人肩膀*
 
-https://www.cnblogs.com/fanbi/p/12807731.html - *Github awesome 系列开源项目合集*
+2. https://www.cnblogs.com/fanbi/p/12807731.html - *Github awesome 系列开源项目合集*
 
-https://blog.csdn.net/weixin_34404393/article/details/88021937 - *Github最受欢迎的Awesome系列*
+3. https://blog.csdn.net/weixin_34404393/article/details/88021937 - *Github最受欢迎的Awesome系列*
 
-https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源大全系列）*
+4. https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源大全系列）*
 
 
 
@@ -98,11 +94,9 @@ https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源�
 
 👍 https://github.com/AntBranch/awesome-github - *A curated list of awesome GitHub guides, articles, sites, tools, projects and resources. 收集这个列表，只是为了更好地使用GitHub,欢迎提交pr和issue。*
 
+https://blog.csdn.net/tuna_lxg/article/details/27660611 - *庄表伟：谈谈大家是怎么玩Github的*
 
-
-[庄表伟：谈谈大家是怎么玩Github的](https://blog.csdn.net/tuna_lxg/article/details/27660611)
-
-[GitHub的各标签的功能说明以及使用方法](https://blog.csdn.net/wang975380547/article/details/78095299)
+https://blog.csdn.net/wang975380547/article/details/78095299 - *GitHub的各标签的功能说明以及使用方法*
 
 ### GitHub Issues
 
@@ -113,6 +107,9 @@ https://docs.github.com/zh/communities/using-templates-to-encourage-useful-issue
 > 创建议题模板参考*（进入页面后，点击“New issue”按钮即可查看议题模板）*：https://github.com/maks/MGit/issues - *Issues · maks/MGit · GitHub*  
 https://github.com/gsantner/markor/issues - *Issues · gsantner/markor · GitHub*
 
+### GitHub Wiki
+
+https://docs.github.com/zh/communities/documenting-your-project-with-wikis/about-wikis - *关于 wikis - GitHub Docs*
 
 ### GitHub Pages
 
@@ -141,17 +138,15 @@ http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html 
 
 官网：https://gist.github.com/ 🪜
 
-**客户端工具**
+**客户端工具：**
 
-https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
+1. https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
 
-**FAQ**
+**FAQ：**
 
-https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
-
-https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
-
-https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
+1. https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
+2. https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
+3. https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
 
 
 
@@ -210,8 +205,8 @@ https://github.com/boennemann/badges
 
 #### Shields ✅
 
-> Shields.io: Quality metadata badges for open source projects
->
+?> Shields.io: Quality metadata badges for open source projects
+
 > 可以设计自己的徽章
 
 主页：https://shields.io/
@@ -252,9 +247,9 @@ GitHub：https://github.com/badges/shields
 
 #### Badgen ✅
 
-> Fast badge generating service
+?> Fast badge generating service
 
-主页：https://badgen.net/
+主页：https://badgen.net/ - *Badgen - Fast badge generating service*
 
 <details class="details-reset"><summary class="btn">DEMO <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
@@ -295,8 +290,8 @@ GitHub：https://github.com/badges/shields
 
 #### Fury
 
-> Version Badge for npm, RubyGems, PyPI, Bower and other packages
->
+?> Version Badge for npm, RubyGems, PyPI, Bower and other packages
+
 > 语言扩展包的版本
 
 主页：https://badge.fury.io/
@@ -329,13 +324,13 @@ GitHub：https://github.com/badges/shields
 
 [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
 
-<i class="fa fa-github"></i> https://github.com/badges/stability-badges
+https://github.com/badges/stability-badges - *GitHub - badges/stability-badges: A set of SVG badges to mark your modules with the Node stability index*
 
 
 
 版本稳定性 👇
 
-| name         | badge                                                        | description |
+| Name         | Badge                                                        | Description |
 | ------------ | ------------------------------------------------------------ | ----------- |
 | Deprecated   | [![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges) | 已弃用      |
 | Experimental | [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges) | 试验        |
@@ -343,13 +338,6 @@ GitHub：https://github.com/badges/shields
 | Stable       | [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges) | 稳定        |
 | Frozen       | [![frozen](http://badges.github.io/stability-badges/dist/frozen.svg)](http://github.com/badges/stability-badges) | 冻结        |
 | Locked       | [![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges) | 锁定        |
-
-
-
-#### Awesome
-
-[![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
 
 
 #### License
@@ -382,13 +370,15 @@ https://github.com/topics/github-extension
 1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你却还卡在无法访问？*
 
 - UsbEAm Hosts Editor（WIN） https://www.dogfight360.com/blog/475/
-- steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/ **`using`**
+- steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/
 - FastGithub（WIN／Mac／Linux） https://github.com/dotnetcore/FastGithub
 - Steam++（WIN／Mac／Linux／Android） https://steampp.net/
 
 2️⃣ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg - *这里有超1亿个开源项目，结果你说它访问慢不好用？*
 
 #### jsDelivr
+
+https://www.jsdelivr.com/?docs=gh - *jsDelivr - A free, fast, and reliable CDN for JS and open source*
 
 1️⃣ https://www.cnblogs.com/yunweizhijun/p/14620107.html - *使用github版本库做图床(jsdelivr方案 / cdn 免费加速)*
 
@@ -400,13 +390,13 @@ https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr C
 
 #### Hosts
 
-<i class="fa fa-github"></i> https://github.com/521xueweihan/GitHub520/ :cn: - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+https://github.com/521xueweihan/GitHub520/ - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
 
-<i class="fa fa-github"></i> https://github.com/ineo6/hosts/ :cn: - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
+https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 
-与 [Tools - Hosts](tools/hosts.md) 组合使用
+*👏 与 [Tools - Hosts](tools/hosts.md) 组合使用*
 
-#### Mirror
+#### 镜像站
 
 [镜像](home/README.md#镜像站)
 

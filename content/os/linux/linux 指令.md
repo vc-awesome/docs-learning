@@ -22,43 +22,9 @@ https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linu
 
 ## 常用命令
 
-### 切换目录
+### 文件基本属性
 
-[cd](https://www.runoob.com/linux/linux-comm-cd.html) - _切换用户当前工作目录_
-
-文件及目录以 `.` 开头的为隐藏文件或目录  
-`cd ~` - _`~`表示根目录，目录位于 `/root`_
-
-### 查看路径
-
-[pwd](https://www.runoob.com/linux/linux-comm-pwd.html) - *显示当前工作目录的绝对路径*
-
-[whereis](https://www.runoob.com/linux/linux-comm-whereis.html) - _查找二进制程序、代码等相关文件路径_
-
-[which](https://www.runoob.com/linux/linux-comm-which.html) - _查找并显示给定命令的绝对路径_
-
-### 创建目录
-
-`mkdir [目录名]`
-
-
-
-### 删除目录
-
-`rm -r [目录名]`
-
-
-
-### 创建文件
-
-`touch [文件名]`
-
-
-
-### 删除文件
-
-`rm [文件名]`
-
+https://m.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基本属性 | 菜鸟教程*
 
 
 ### 查看当前目录
@@ -70,11 +36,53 @@ https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linu
 `ls -l` - _查看所有文件的属性_
 
 
+### 切换目录
+
+[cd](https://www.runoob.com/linux/linux-comm-cd.html) - _切换用户当前工作目录_
+
+文件及目录以 `.` 开头的为隐藏文件或目录  
+`cd ~` - _`~`表示根目录，目录位于 `/root`_
+
+
+### 查看路径
+
+[pwd](https://www.runoob.com/linux/linux-comm-pwd.html) - *显示当前工作目录的绝对路径*
+
+[whereis](https://www.runoob.com/linux/linux-comm-whereis.html) - _查找二进制程序、代码等相关文件路径_
+
+[which](https://www.runoob.com/linux/linux-comm-which.html) - _查找并显示给定命令的绝对路径_
+
+
+### 创建目录
+
+`mkdir [目录名]`
+
+
+### 删除目录
+
+`rm -r [目录名]`
+
+
+### 创建文件
+
+`touch [文件名]`
+
+
+### 删除文件
+
+`rm [文件名]`
+
+
+### 修改文件名
+
+https://www.runoob.com/linux/linux-comm-mv.html - *Linux mv 命令 | 菜鸟教程*
+
+`mv [源文件名] [目标文件名]`
+
 
 ### 编辑文件
 
 `vim [文件名]`
-
 
 
 ### 文件写入
@@ -82,23 +90,21 @@ https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linu
 `echo 'runoob.com' > test.txt`
 
 
-
 ### 查看文件内容
 
+https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教程*
+
 `cat [文件名] `
-
-
-
-### 清屏
-
-`clear`
-
 
 
 ### 查看文件指定行
 
 `head -3 [文件名]`
 
+
+### 清屏
+
+`clear`
 
 
 ### 修改用户密码
@@ -110,14 +116,11 @@ https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linu
 `passwd [用户名]` - _修改其他用户密码_
 
 
-
 ### 复制文件或文件夹
 
 `cp [选项] [源文件或目录] [目标文件或目录]`
 
 
-
 ### 退出登录
 
 `exit`
-

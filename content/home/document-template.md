@@ -12,6 +12,16 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 - https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 - https://www.markdownguide.org/ - *Markdown Guide*
     - https://www.markdown.xyz/ - *Markdown 指南中文版 | Markdown中文网*
+- https://www.wikipedia.org/wiki/Polyfill_(programming) 🪜
+- 如何快速上手使用应用工具？
+    1. 干什么用的，有什么用途（简介）
+    2. 怎么获取安装（下载）
+    3. 简单实例教怎么用（快速入门）
+    4. 如何设置各项操作的参数（配置）
+    5. 使用中会遇到什么问题（FAQ）
+    6. 遇到问题网上搜索别人的解决方式（参考）
+    7. 是否依赖其它工具，否则无法运行
+    8. 可搭配什么工具，使其运行更高效
 
 ----
 
@@ -28,6 +38,7 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 - Keyword search - *关键词搜索*
 - Technologies - *技术列表* *via https://github.com/gsantner/markor*
 - Who uses - *谁在使用* *via https://github.com/kucherenko/jscpd*
+- Glossary - *术语表*
 
 ----
 

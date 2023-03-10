@@ -8,31 +8,31 @@
 
 ## Sass
 
-https://www.sasscss.com :cn: - *Sass: Sass 是世界上最成熟、稳定、强大的专业级 CSS 扩展语言。Sass 是 Syntactically Awesome Style Sheets 的缩写。 | Sass 中文网*
+https://www.sasscss.com - *Sass: Sass 是世界上最成熟、稳定、强大的专业级 CSS 扩展语言。Sass 是 Syntactically Awesome Style Sheets 的缩写。 | Sass 中文网* 🇨🇳
 
-https://sass-lang.com :us: - *Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.*
+https://sass-lang.com - *Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.* 🇺🇸
 
-https://github.com/sass :us: - *GitHub*
+https://github.com/sass - *GitHub*
 
 
 
 ## Less
 
-https://less.bootcss.com :cn: 
+https://less.bootcss.com 🇨🇳
 
-https://lesscss.org :us:
+https://lesscss.org 🇺🇸
 
-https://github.com/less/ :us: - *GitHub*
+https://github.com/less - *GitHub*
 
 
 
 ## Tool
 
-- https://www.postcss.com.cn :cn: - *PostCSS 利用 JavaScript 的强大编程能力对 CSS 代码进行转换。数以百计的 PostCSS 插件可以用来为 CSS 属性添加特定于浏览器厂商的前缀、支持未来 CSS 语法、模块化、代码检测等。*
+- https://www.postcss.com.cn - *PostCSS 利用 JavaScript 的强大编程能力对 CSS 代码进行转换。数以百计的 PostCSS 插件可以用来为 CSS 属性添加特定于浏览器厂商的前缀、支持未来 CSS 语法、模块化、代码检测等。* 🇨🇳
 
-- https://stylelint.bootcss.com :cn: - *Stylelint 是一个强大、先进的 CSS 代码检查器（linter），可以帮助你规避 CSS 代码中的错误并保持一致的编码风格。*
+- https://stylelint.bootcss.com - *Stylelint 是一个强大、先进的 CSS 代码检查器（linter），可以帮助你规避 CSS 代码中的错误并保持一致的编码风格。* 🇨🇳
 
-- https://www.purgecss.cn/ :cn: - *PurgeCSS 是一个用来删除未使用的 CSS 代码的工具，能够减小 CSS 文件的体积。例如可以用来减小 Bootstrap 等前端框架的文件体积，提升加载速度。*
+- https://www.purgecss.cn/ - *PurgeCSS 是一个用来删除未使用的 CSS 代码的工具，能够减小 CSS 文件的体积。例如可以用来减小 Bootstrap 等前端框架的文件体积，提升加载速度。* 🇨🇳
 
 
 
@@ -66,31 +66,31 @@ _via https://blog.csdn.net/Bonjours/article/details/124383032 - *css设置图标
 代码：
 
 ``` css
-// im图标跳动
-@keyframes im_icon{
-    0%{
+// im 图标跳动
+@keyframes im_icon {
+    0% {
         opacity: 0.8;
         transform: translate(0,0);
     }
-    50%{
+    50% {
         opacity: 1;
         transform: translate(0,3px);
     }
-    100%{
+    100% {
         opacity: 0.8;
         transform: translate(0,0);
     }
 }
-@-webkit-keyframes im_icon{
-    0%{
+@-webkit-keyframes im_icon {
+    0% {
         opacity: 0.8;
         transform: translate(0,0);
     }
-    50%{
+    50% {
         opacity: 1;
         transform: translate(0,3px);
     }
-    100%{
+    100% {
         opacity: 0.8;
         transform: translate(0,0);
     }

@@ -64,10 +64,12 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 
 ## 全局侧边栏
 
-MIUI 13  
+> MIUI 13
+
 设置操作：_应用 > 设置 > 特色功能 > 自由窗口 > 全局侧边栏_
 
-MIUI 14  
+> MIUI 14
+
 设置操作：_应用 > 设置 > 更多设置 > 特色功能-自由窗口_
 
 ## 添加到主屏幕
@@ -75,25 +77,29 @@ MIUI 14
 各 APP、小程序、浏览器等，如果支持此功能均可操作。
 
 以 Opera 浏览器标签页操作为例：
-> 这里放一张截图
+
+![opera-android-add-to-home-screen](_images/opera-android-add-to-home-screen.jpg)
 
 参考：https://mip.680.com/jingxuangl/info-337716.html - *小米手机微信创建桌面快捷方式的权限在哪里-时间财富网*
 
 ## 隐私空间
 
-MIUI 14  
+> MIUI 14
+
 设置操作：_应用 > 设置 > 隐私保护 > 保护隐私 > 保险箱_
 - 私密相册
 - 私密文件夹
 
 ## 专注模式
 
-MIUI 14  
+> MIUI 14
+
 设置操作：_应用 > 设置 > 屏幕时间管理 > 专注模式_
 
 ## 网络助手
 
-MIUI 14  
+> MIUI 14
+
 设置操作：_应用 > 手机管家 > 网络助手_
 
 **如何关闭单个应用的网络？**
@@ -104,6 +110,13 @@ MIUI 14
 
 1. [断开某个应用的网络 - 百度](https://m.baidu.com/s?ie=UTF-8&wd=%E6%96%AD%E5%BC%80%E6%9F%90%E4%B8%AA%E5%BA%94%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C)
 2. https://wen.baidu.com/question/529138871019976405.html - *怎么关闭单个应用的网络_百度问一问*
+
+
+## 蓝牙耳机
+
+> MIUI 14
+
+使用操作：*应用 > 小爱语音 > 右上角“我的” > 蓝牙设备 > 连接指定设备后可查看电池电量、产品说明书*
 
 ## 常见问题解答
 
@@ -116,8 +129,8 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 
 - 将链接 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 」 复制成 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA - *明黄的 iPhone 14 亮出来，接春天。*」 的格式。
 1. 打开应用 *[微信](http://app.xiaomi.com/detail/1122) > 复制链接*；
-2. 使用（小米手机）系统悬浮窗工具打开应用 *[Simple Clipboard Editor](https://play.google.com/store/apps/details?id=com.trianguloy.clipboardeditor) > Share：在 Yandex Browser 浏览器中打开*；
-3. 打开浏览器 *[Yandex Browser](https://play.google.com/store/apps/details?id=com.yandex.browser) > 扩展插件：[CopyTabTitleUrl](https://chrome.google.com/webstore/detail/copytabtitleurl/lmgbdjfoaihhgdphombpgjpaohjfeapp) > format*。
+2. 使用（小米手机）系统悬浮窗工具打开应用 *[Simple Clipboard Editor](https://play.google.com/store/apps/details?id=com.trianguloy.clipboardeditor) > 点击分享图标（Share：在 Yandex Browser 浏览器中打开）*；
+3. 分享成功后会自动跳转至浏览器，并新建新标签页打开链接 *[Yandex Browser](https://play.google.com/store/apps/details?id=com.yandex.browser) > 扩展插件：[CopyTabTitleUrl](https://chrome.google.com/webstore/detail/copytabtitleurl/lmgbdjfoaihhgdphombpgjpaohjfeapp) > format*。
    > https://www.cccitu.com/982.html - *手机浏览器 Yandex 安装 Chrome 扩展插件 - CCCiTU - 玩机大学*
 
 <div class="border border-dashed p-2 m-2">如何将微信公众号文章长链接转换成短链接再复制？</div>

@@ -27,23 +27,23 @@ primer.css,
 
 /* 固定导航栏 */
 nav.app-nav {
-    margin: 0;
-    padding: 11px 0 11px 0;
-    width: calc(100% - 325px);
-    background-color: var(--docsify_dark_mode_bg, #fff);
-    /*border-bottom: 1px solid rgba(0,0,0,0.07);*/
-    /* rgba(0,0,0,0.07) == #eee */
-    border-bottom: 1px solid rgb(180 180 180 / 30%);
+  margin: 0;
+  padding: 11px 0 11px 0;
+  width: calc(100% - 325px);
+  background-color: var(--docsify_dark_mode_bg, #fff);
+  /*border-bottom: 1px solid rgba(0,0,0,0.07);*/
+  /* rgba(0,0,0,0.07) == #eee */
+  border-bottom: 1px solid rgb(180 180 180 / 30%);
 }
 nav.app-nav li:hover ul {
-    z-index: 1;
+  z-index: 1;
 }
 body.sticky nav.app-nav {
-    position: fixed;
+  position: fixed;
 }
 nav.app-nav i,
 nav i {
-    margin-right: 0!important;
+  margin-right: 0!important;
 }
 /* 小屏幕显示打开/关闭 app-nav 按钮 */
 nav.app-nav {
@@ -73,57 +73,57 @@ nav.app-nav {
 
 /*列表中间间隔线 -start*/
 .app-nav>ul>li:after {
-    content: '';
-    background-color: rgba(180,180,180,.3);
-    width: 1px;
-    position: absolute;
-    top: 10px;
-    right: -15px;
-    bottom: 10px;
+  content: '';
+  background-color: rgba(180,180,180,.3);
+  width: 1px;
+  position: absolute;
+  top: 10px;
+  right: -15px;
+  bottom: 10px;
 }
 .app-nav>ul>li:last-child:after {
-    content: none;
+  content: none;
 }
 /*列表中间间隔线 -end*
 
 /* 滚动条样式 start */
 ::-webkit-scrollbar { /* 滚动条宽度 */
-    width: 4px;
-    height: 4px;
+  width: 4px;
+  height: 4px;
 }
 ::-webkit-scrollbar-thumb { /* 滚动条颜色 */
-    background: #c0c4cc;
-    // background: #33a9dc;
-    // background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);
-    border-radius: 2em;
+  background: #c0c4cc;
+  // background: #33a9dc;
+  // background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);
+  border-radius: 2em;
 }
 
 /* 滚动条样式 end */
 
 /* Font icon */
 .mysql-icon:before {
-    font-family: Mfizz,serif;
-    font-size: 14px;
-    content: "\f137";
-    top: 1px;
+  font-family: Mfizz,serif;
+  font-size: 14px;
+  content: "\f137";
+  top: 1px;
 }
 .redis-icon:before {
-    font-family: Mfizz,serif;
-    font-size: 15px;
-    content: "\f14f";
-    top: 1px;
+  font-family: Mfizz,serif;
+  font-size: 15px;
+  content: "\f14f";
+  top: 1px;
 }
 .tag-icon:before {
-    font-family: octicons,serif;
-    font-size: 16px;
-    content: "\f015";
-    top: 1px;
+  font-family: octicons,serif;
+  font-size: 16px;
+  content: "\f015";
+  top: 1px;
 }
 .mongodb-icon:before {
-    font-family: Mfizz,serif;
-    font-size: 16px;
-    content: "\f135";
-    top: 1px;
+  font-family: Mfizz,serif;
+  font-size: 16px;
+  content: "\f135";
+  top: 1px;
 }
 
 /* Tag a */
@@ -218,5 +218,3 @@ body .docsify-copy-code-button {
   right: 80%;
   padding: 5px;
 }
-
-

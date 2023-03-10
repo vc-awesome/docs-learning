@@ -6,22 +6,10 @@ subject: Tutorial
 keywords: [Pandoc, Tutorial, Export]
 ---
 
+以上内容为：*YAML Front Matter*
 
 
-以上内容为 *YAML Front Matter*
-
-
-
-:loudspeaker: 软件功能优先查看官方文档
-
-
-
-
-## Todo
-
-1. Markdown 如何使用 CSS 编辑文本的样式？
-
-2. YAML Front Matter 的用法与 Hexo 、Jekyll 有关？
+!> 📢 软件功能优先查看官方文档
 
 ## 使用场景
 
@@ -38,14 +26,14 @@ keywords: [Pandoc, Tutorial, Export]
 
 ## 书写工具
 
-### 在线编辑器
+在线编辑器
 
 1. [MdEditor](http://www.mdeditor.com/)
 
 2. [Dillinger](https://dillinger.io/)
 
 
-### 应用编辑器
+应用编辑器
 
 1. [Typora](/tools/应用工具#markdown-typora)
 
@@ -83,10 +71,7 @@ _📋复制模板 - 圆角图片_
 2. https://github.com/p0deje/Maccy/blob/master/README.md
 
 
-
-## 语法
-
-### 🔥 参考链接
+## 参考 🔥
 
 [Markdown 指南](https://www.markdownguide.org/)
 
@@ -98,6 +83,10 @@ _📋复制模板 - 圆角图片_
 
 [Typora Markdown 手册](https://www.jianshu.com/p/b30955885e6d)
 
+https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
+
+
+## 语法
 
 
 ### 基本语法
@@ -607,7 +596,7 @@ ___
 
 ### 扩展语法
 
-#### 内容目录
+#### 目录
 
 > *TOC* 是 *Table of Contents* 的缩写
 
@@ -949,6 +938,10 @@ subject: Tutorial
 ---
 
 #### **Markdown**
+
+
+> YAML Front Matter 的用法与 Hexo 、Jekyll 有关？
+
 
 ```yaml
 ---

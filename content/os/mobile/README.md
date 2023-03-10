@@ -1,6 +1,6 @@
 ## 应用商店
 
-### Google Play Store
+### Play Store
 
 🪜 https://play.google.com/store/apps - *Google Play 上的 Android 应用*
 
@@ -65,19 +65,48 @@ Website:
 
 #### Daedalus
 
-[Daedalus](tools/hosts?id=daedalus)
+?> No root required Android DNS modifier and Hosts/DNSMasq resolver.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/iTXTech/Daedalus?logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/iTXTech/Daedalus?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/iTXTech/Daedalus?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/iTXTech/Daedalus?style=social)
+![F-Droid](https://badgen.net/f-droid/v/com.duckduckgo.mobile.android?icon=f-droid)
+
+
+<i class="fa fa-laptop"></i> https://itxtech.org/
+
+<i class="fa fa-github fa-lg"></i> https://github.com/iTXTech/Daedalus
+
+<i class="fa fa-android"></i> https://github.com/iTXTech/Daedalus/releases
+
 
 #### Markor
 
 <img src="https://f-droid.org/repo/net.gsantner.markor/en-US/icon_jm7Yt2QTE4iuxQp_T98o-PSJ4m6GPzmawSrx99KYiE8=.png" align="left" width="78" hspace="0" vspace="0">Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
 
+![f-droid](https://badgen.net/f-droid/v/net.gsantner.markor)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
 ![GitHub last commit](https://badgen.net/github/last-commit/gsantner/markor?icon=github&color=blue)
+
 
 支持的平台：
 <i class="fa fa-android"></i>
 
 https://github.com/gsantner/markor
+
+https://f-droid.org/zh_Hans/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and Open Source Android App Repository*
+
+----
+
+设置：
+1. ActionButton 操作顺序
+    - _设置 >（格式）Markdown > （ActionButton）操作顺序_
+2. 备份设置
+    - _设置 > 其它 > （Backup）备份设置 > 导出设置到 JSON 文件_
+3. ActionButton 水平间距
+    - _设置 > 其它 > （编辑器）ActionButton 间距_
+
 
 #### Feeder
 
@@ -93,6 +122,18 @@ https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
 
 https://gitlab.com/spacecowboy/Feeder
 
+#### Acode
+
+?> Acode - powerful text/code editor for android
+
+![f-droid](https://badgen.net/f-droid/v/com.foxdebug.acode)
+![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/Acode?color=blue&logo=github&style=flat-square)
+
+https://github.com/deadlyjack/Acode - *GitHub - deadlyjack/Acode: Acode - powerful text/code editor for android*
+
+https://f-droid.org/zh_Hans/packages/com.foxdebug.acode/ - *Acode | F-Droid - Free and Open Source Android App Repository*
+
+
 ### 小米应用商店
 
 https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应用商店*
@@ -101,11 +142,13 @@ https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应�
 
 **官网**：
 
-https://www.apple.com.cn/app-store/ 🇨🇳 - *App Store - Apple (中国大陆)*
+https://www.apple.com.cn/app-store/ - *App Store - Apple (中国大陆)* 🇨🇳
 
-https://www.apple.com/app-store/ 🇺🇸 - *App Store - Apple*
+https://www.apple.com/app-store/ - *App Store - Apple* 🇺🇸
 
-🌰： https://apps.apple.com/us/story/id1533325663?itscg=10000&itsct= - *5 Winning Tips for Among Us! : App Store Story* > https://apps.apple.com/us/app/among-us/id1351168404 - *Among Us! on the App Store*
+🌰：
+
+https://apps.apple.com/us/story/id1533325663 - *5 Winning Tips for Among Us! : App Store Story* > https://apps.apple.com/us/app/among-us/id1351168404 - *Among Us! on the App Store*
 
 ## Web 服务器
 

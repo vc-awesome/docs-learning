@@ -1,6 +1,6 @@
 资源文件夹命名
 
-## Link
+## 链接
 
 [Tools > Docsify > Directory Structure](/tools/docsify?id=目录结构)
 
@@ -134,7 +134,7 @@
 
 2️⃣ https://unpkg.com/fontawesome-free/
 
-```markdown
+```text
 myproject
 +-- pages
 │  +-- login
@@ -172,12 +172,12 @@ myproject
 
 参考 Bootstrap 源码：
 
-- :cn: https://v5.bootcss.com/docs/getting-started/contents
+- https://v5.bootcss.com/docs/getting-started/contents
 
-- :us: https://getbootstrap.com/docs/5.1/getting-started/contents/
+- https://getbootstrap.com/docs/5.1/getting-started/contents/
 
-```markdown
-# 每个页面对应一个css文件，例如：blog页面文件夹下有index.html 和 blog.css
+```text
+# 每个页面对应一个css文件，例如：blog 页面文件夹下有 index.html 和 blog.css
 assets/
 ├─ dist/ #构建目录
 │  ├─ css/
@@ -192,32 +192,32 @@ assets/
 ```
 
 
-### Uni-app
+### uni-app
 
 > 资源存放
 
 ```text
 # 含带 * 号表示官方说明
 project/ #目录结构
-├─ common/ # 外部引入的css及js文件存放目录
+├─ common/ # 外部引入的 css 及 js 文件存放目录
 │  ├─ locales/ #语言包
 │  │  ├─ my.js #马来语
 │  │  ├─ en.js #英文
 │  │  └─ zh.js #中文
-│  ├─ clipboard.js #APP平台复制文件至粘贴板
+│  ├─ clipboard.js #APP 平台复制文件至粘贴板
 │  ├─ custom.css #自定义样式
 │  ├─ helper.js #助手函数
 │  ├─ http.interceptor.js #拦截器 --from uview
 │  ├─ http.api.js #*API集中管理 --from uView
 │  ├─ util.js #工具类
 │  └─ ...
-├─ components #*符合vue组件规范的uni-app组件目录
+├─ components #*符合 vue 组件规范的 uni-app 组件目录
 │  ├─ 项目组件 #仅适用于单一项目
 │  └─ 公共组件 #可适用所有项目
-├─ js_sdk/ #uniapp官方插件市场
-│  ├─ mmmm-image-tools #图像转换工具，可用于图像和base64的转换
+├─ js_sdk/ #uniapp 官方插件市场
+│  ├─ mmmm-image-tools #图像转换工具，可用于图像和 base64 的转换
 │  └─ ...
-├─ node_modules/ #npm安装模块
+├─ node_modules/ #npm 安装模块
 │  └─ vue-i18n/ #多语言
 ├─ pages/ #页面命名参考本文档 [位置]
 │  └─ login/ #未登录可访问的页面
@@ -244,7 +244,7 @@ project/ #目录结构
 │      │   │   └─ avatar-circle.png #圆形
 │      │   ├─ background/ #背景图
 │      │   │   └─ bg-i-user.png #图片背景
-│      │   └─ empty/ #内容为空 --from uView的Empty组件
+│      │   └─ empty/ #内容为空 --from uView 的 Empty 组件
 │      │	    └─ empty-message.png #消息列表为空
 │      │   ├─ start/
 │      │   │   └─ start-image.png #启动图
@@ -253,10 +253,10 @@ project/ #目录结构
 │      │   │   └─ icon-upload.png #上传图标
 │      │   ├─ logo/
 │      │   │   └─ logo.png
-│      │   └─ tabbarA/ #底部标签页A、B、C...内的图片
-├─ store/ #vuex状态管理
+│      │   └─ tabbarA/ #底部标签页 A、B、C... 内的图片
+├─ store/ #vuex 状态管理
 │      └─ index.js
-├─ utils/ #工具集，从uniapp插件导入的插件
+├─ utils/ #工具集，从 uni-app 插件导入的插件
 ├─ App.vue
 ├─ main.js
 ├─ manifest.json
@@ -269,12 +269,9 @@ project/ #目录结构
 ## 后端
 
 > ThinkPHP 资源存放：
->
-> - public/admin
->
-> - public/home
->
-> - public/index
+> - public/admin/
+> - public/home/
+> - public/index/
 
 ```text
 ThinkPHP 资源存放：public/static/home/default/
@@ -289,7 +286,7 @@ ThinkPHP 资源存放：public/static/home/default/
 │  │  ├─ icon-home-dark.png 深色图标
 │  │  ├─ icon-home-light.png 浅色图标
 │  │  ├─ icon-home-line.png 线性图标
-│  │  ├─ icon-home-fill.png 填充图标 --from uView的icon组件
+│  │  ├─ icon-home-fill.png 填充图标 --from uView 的 icon 组件
 │  │  └─ icon-upload.png
 │  ├─ background|bg/
 │  │ 	└─ bg-i-share.png
@@ -301,20 +298,20 @@ ThinkPHP 资源存放：public/static/home/default/
 │  │ 	└─ banner-round-c.png 圆形轮播图
 │  ├─ logo/
 │  │ 	├─ logo.png
-│  │ 	└─ logo-text.png 文字logo
+│  │ 	└─ logo-text.png 文字 logo
 │  ├─ adv/ 广告图
 │  ├─ tmp/ 临时图片，例如后台可更改的产品图片
 │  │ 	└─ qrcode.png
 │  ├─ avatar/ 头像
-│  └─ empty/ 内容为空 --from uView的Empty组件
+│  └─ empty/ 内容为空 --from uView 的 Empty 组件
 │    	└─ empty-message.png 消息列表为空
-├─ lib|libs/ 用lib或者用libs，加s表示复数
+├─ lib|libs/ 用 lib 或者用 libs，加 s 表示复数
 ├─ pdf/
 ├─ plug-ins|plugins/
 ├─ uploads/ 前后台上传的资源
 └─ utils/ 工具集 （百度翻译：工具类;效用;实用工具;实用菜单）
 ```
 
-- Tips:
-  1. *uploads* 文件夹占用空间大，建议存放至 *public* 目录下，方便其它文件夹的转移
-  2. 如果为了安全考虑，可把 *uploads* 文件夹放到系统的根目录
+Tips:
+1. *uploads* 文件夹占用空间大，建议存放至 *public* 目录下，方便其它文件夹的转移；
+2. 如果为了安全考虑，可把 *uploads* 文件夹放到系统的根目录。

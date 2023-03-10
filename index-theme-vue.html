@@ -7,7 +7,7 @@
 
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
-  <link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="//unpkg.com/@primer/css@latest/dist/primer.css" />
   <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -48,25 +48,20 @@
 <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
 <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
 <button class="toc-toggle toc-sidebar-toggle btn">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
+  <span class="toggle-line toggle-line-first"></span>
+  <span class="toggle-line toggle-line-middle"></span>
+  <span class="toggle-line toggle-line-last"></span>
 </button>
 
 <script>
 
   window.$docsify = {
-    //...
+  
     // 定制侧边栏
     loadSidebar: true,
     autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
     subMaxLevel: 2, // 自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
     auto2top: true, // 切换页面后是否自动跳转到页面顶部。
-    /*alias: { // 定义路由别名，可以更自由的定义路由规则。 支持正则
-      '/.*!/_sidebar.md': '/_sidebar.md'
-    },*/
-    
-    ext: '.md?v=' + new Date().getTime(),
 
     // 定制导航栏
     loadNavbar: true,
@@ -76,32 +71,20 @@
 
     topMargin: 90, // default: 0
 
-    // 封面页
-    // coverpage: true,
-    // onlyCover: true, // 封面作为首页
-
     // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
-    // repo: 'vc-awesome/docs-learning',
-    // 甚至直接渲染其他仓库
-    // basePath:
-    //     'https://raw.githubusercontent.com/ryanmcdermott/clean-code-javascript/master/',
     basePath: 'content',
 
-    // logo
-    // logo: '//docsify.js.org/_media/icon.svg', // 在侧边栏中出现的网站图标，你可以使用CSS来更改大小
-
-    // 入口文件改为 /home.md
-    // homepage: '/home/README.md', // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用
-
-    // themeColor: '#3c78eb', // 主题颜色
+    // 主题颜色
     themeColor: '#42b983',
-
-    name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ', // 文档标题，会显示在侧边栏顶部。
+    
+    // 文档标题，会显示在侧边栏顶部。
+    name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ',
 
     maxLevel: 2,
-
-    // mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
-
+    
+    // 小屏设备下合并导航栏到侧边栏
+    mergeNavbar: false,
+    
     formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
 
     plugins: [
@@ -123,12 +106,11 @@
           '</footer>'
         ].join('');
 
-        // console.log(hook,window.location);
-
         hook.afterEach(function (html) {
           return html + footer;
         });
       },
+      
       // 最近更新时间
       function (hook, vm) {
         hook.beforeEach(function (html) {
@@ -138,6 +120,7 @@
           );
         });
       },
+      
       // 编辑页面
       function(hook, vm) {
         hook.beforeEach(function(html) {
@@ -154,12 +137,12 @@
                 .replace('@master', '/blob/master');
           } else {
             url =
-                'https://github.com/vc-awesome/docs-learning/blob/master/' +
+                'https://github.com/vc-awesome/docs-learning/blob/master' +
                 vm.route.file;
           }
           var editHtml = '📝[EDIT DOCUMENT](' + url + ')';
           
-          editHtml += ' | 🚀[BACK HOME](/)\n';
+          editHtml += ' | 🚀[BACK HOME](/) | <code>📂<i><u>PATH:' + decodeURIComponent(vm.route.file) +'</u></i></code>\n';
 
           return (
               editHtml +
@@ -169,7 +152,6 @@
       },
     ],
   }
-
 </script>
 
 <!-- Local -->
@@ -183,8 +165,8 @@
           document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
 
           var para = document.createElement("div");
-           para.setAttribute("class", "flisxm");
-           document.querySelector(".toc-nav").appendChild(para);
+          para.setAttribute("class", "flisxm");
+          document.querySelector(".toc-nav").appendChild(para);
            
           // 选择需要观察变动的节点
           const targetNode = document.querySelector('.toc-nav');
@@ -196,43 +178,42 @@
           const callback = function(mutationsList, observer) {
             // Use traditional 'for loops' for IE 11
             for(let mutation of mutationsList) {
-                if (mutation.type === 'childList') {
-                    console.log('A child node has been added or removed.');
-                }
-                else if (mutation.type === 'attributes') {
+              if (mutation.type === 'childList') {
+                console.log('A child node has been added or removed.');
+              }
+              else if (mutation.type === 'attributes') {
                 //console.log(document.querySelector('body').classList.toggle('toc-body', true))
                 console.log(document.querySelector('.toc-nav-hover'))
-                   if (document.querySelector('.toc-nav-hover')) {
-                      console.log("TOC 开启");
-                      document.querySelector('body').classList.toggle('toc-body', true);
-                      document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
-                      document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
-                      document.querySelector('.app-nav').style.display = "none";
-                    } else {
-                      console.log("TOC 关闭");
-                      document.querySelector('body').classList.toggle('toc-body', false);
-                      document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
-                      document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
-                      document.querySelector('.app-nav').style.display = "block";
-                    }
-                    console.log('The ' + mutation.attributeName + ' attribute was modified.');
+                if (document.querySelector('.toc-nav-hover')) {
+                  console.log("TOC 开启");
+                  document.querySelector('body').classList.toggle('toc-body', true);
+                  document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
+                  document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
+                  document.querySelector('.app-nav').style.display = "none";
+                } else {
+                  console.log("TOC 关闭");
+                  document.querySelector('body').classList.toggle('toc-body', false);
+                  document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
+                  document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
+                  document.querySelector('.app-nav').style.display = "block";
                 }
-        
+                console.log('The ' + mutation.attributeName + ' attribute was modified.');
+              }
             }
-        };
+          };
 
-        // 创建一个观察器实例并传入回调函数
-        const observer = new MutationObserver(callback);
-        // 以上述配置开始观察目标节点
-        observer.observe(targetNode, config);
+          // 创建一个观察器实例并传入回调函数
+          const observer = new MutationObserver(callback);
+          // 以上述配置开始观察目标节点
+          observer.observe(targetNode, config);
 
-        // 之后，可停止观察
-        //observer.disconnect();
+          // 之后，可停止观察
+          //observer.disconnect();
         
-           // 监听事件
-           document.getElementsByClassName("flisxm")[0].addEventListener("click", function () {
-             document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", false);
-           });
+          // 监听事件
+          document.getElementsByClassName("flisxm")[0].addEventListener("click", function () {
+            document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", false);
+          });
         }, 1);
       });
     },
@@ -243,42 +224,41 @@
     target: 'h1, h2, h3, h4, h5, h6'
   }
 </script>
-
 <script src="_assets/libs/docsify-plugin-toc.js"></script>
 
 <!-- 返回顶部 -->
 <script>
   window.$docsify.plugins.push( // 回到底部按钮显示状态
-      function(hook, vm) {
-        hook.doneEach(function() {
-          var docHeight = document.querySelector('.markdown-section').offsetHeight;
-          var winHeight = window.innerHeight;
-          if (docHeight > winHeight) {
-            document.querySelector('#back2bottom').classList.add('back-to-top-on');
+    function(hook, vm) {
+      hook.doneEach(function() {
+        var docHeight = document.querySelector('.markdown-section').offsetHeight;
+        var winHeight = window.innerHeight;
+        if (docHeight > winHeight) {
+          document.querySelector('#back2bottom').classList.add('back-to-top-on');
+        } else {
+          document.querySelector('#back2bottom').classList.remove('back-to-top-on');
+        }
+        // 获取未来元素的属性值
+        setTimeout(function() {
+          console.log(Docsify.dom.find('.toc-toggle-on'))
+          if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
+            console.log("存在");
+            document.querySelector('.back-to-top').classList.toggle('toc', true);
+            document.querySelector('#back2bottom').classList.toggle('toc-b', true);
           } else {
-            document.querySelector('#back2bottom').classList.remove('back-to-top-on');
+            console.log("不存在");
+            document.querySelector('.back-to-top').classList.toggle('toc', false);
+            document.querySelector('#back2bottom').classList.toggle('toc-b', false);
           }
-          // 获取未来元素的属性值
-          setTimeout(function() {
-            console.log(Docsify.dom.find('.toc-toggle-on'))
-            if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
-              console.log("存在");
-              document.querySelector('.back-to-top').classList.toggle('toc', true);
-              document.querySelector('#back2bottom').classList.toggle('toc-b', true);
-            } else {
-              console.log("不存在");
-              document.querySelector('.back-to-top').classList.toggle('toc', false);
-              document.querySelector('#back2bottom').classList.toggle('toc-b', false);
-            }
-          }, 10);
-        });
-      },)
+        }, 10);
+      });
+    },
+  )
 </script>
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/libs/back2top/js/utils.js"></script>
 <script src="_assets/libs/back2top/js/next-boot.js"></script>
 <script src="_assets/libs/back2top/js/muse.js"></script>
-
 
 <!-- CDN unpkg -->
 <!-- ----------------------------------------------------------------- -->

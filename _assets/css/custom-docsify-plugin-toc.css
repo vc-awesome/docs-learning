@@ -7,6 +7,7 @@ aside.toc-nav {
   max-height: 100%;
   border-left: 1px solid rgba(0,0,0,0.07)
 }
+/* 右侧目录选中项目显示 `{` 标识 via https://code.visualstudio.com/docs#keyboard-shortcuts （电脑模式打开） */
 .page_toc div {
   border: none;
 }
@@ -85,7 +86,6 @@ aside.toc-nav {
   }
   aside.toc-nav.toc-nav-hover {
     right: -1px !important;
-    
     display: block!important;
     max-width: inherit!important;
     opacity: 1!important;
@@ -94,54 +94,54 @@ aside.toc-nav {
   /* TOC 过渡效果 -end */
 
   .toc-toggle {
-      display: block;
-      font-size: 12px;
-      text-align: center;
-      transition-delay: 0s;
-      transition-duration: 0.2s;
-      transition-timing-function: ease-in-out;
-  }
-  .toc-toggle {
-      background: #222;
-      bottom: 45px;
-      box-sizing: border-box;
-      color: #fff;
-      cursor: pointer;
-      right: 30px;
-      padding: 3px 9px;
-      position: fixed;
-      transition-property: bottom;
-      z-index: 1300;
-      width: initial;
-      opacity: 1;
-  }
-}
-@media (max-width: 991px) {
-  .toc-toggle {
-      left: 20px;
-      opacity: 0.8;
-  }
-}
-.toc-toggle {
+    display: block;
     font-size: 12px;
     text-align: center;
     transition-delay: 0s;
     transition-duration: 0.2s;
     transition-timing-function: ease-in-out;
-    bottom: -100px;
+  }
+  .toc-toggle {
+    background: #222;
+    bottom: 45px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    left: 30px;
-    opacity: 1;
+    right: 30px;
     padding: 3px 9px;
     position: fixed;
     transition-property: bottom;
     z-index: 1300;
     width: initial;
+    opacity: 1;
+  }
+}
+@media (max-width: 991px) {
+  .toc-toggle {
+    left: 20px;
+    opacity: 0.8;
+  }
+}
+.toc-toggle {
+  font-size: 12px;
+  text-align: center;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  bottom: -100px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  left: 30px;
+  opacity: 1;
+  padding: 3px 9px;
+  position: fixed;
+  transition-property: bottom;
+  z-index: 1300;
+  width: initial;
 }
 .toc-toggle.toc-toggle-on {
-    bottom: 45px;
+  bottom: 45px;
 }
 .toc-toggle {
   left: auto;
@@ -149,7 +149,7 @@ aside.toc-nav {
 }
 @media (max-width: 991px) {
   .toc-toggle {
-      right: 20px;
+    right: 20px;
   }
 }
 /* TOC 缩进参考线 */
@@ -181,11 +181,11 @@ aside.toc-nav {
 
 @media (max-width: 991px) {
   .toc-nav .page_toc {
-      background: #fff;
-      min-height: 100%;
-      z-index: 99;
-      margin: 0;
-      padding: 10px;
+    background: #fff;
+    min-height: 100%;
+    z-index: 99;
+    margin: 0;
+    padding: 10px;
   }
   aside.toc-nav {
     top: 0;
@@ -207,82 +207,82 @@ aside.toc-nav {
   }
 }
 /* TOC */
-  .toc-toggle.toc-toggle-on {
-    bottom: 13px;
-  }
-  .toc-toggle .toggle-line {
-    background: #fff;
-    display: inline-block;
-    height: 2px;
-    left: 0;
-    position: relative!important;
-    top: 0;
-    transition: all 0.4s;
-    vertical-align: top;
-    width: 100%;
-  }
-  .toc-toggle .toggle-line:not(:first-child) {
-    margin-top: 3px;
-  }
-  .toc-toggle.toggle-arrow .toggle-line-first {
-    top: 2px;
-    transform: rotate(-45deg);
-    width: 50%;
-  }
-  .toc-toggle.toggle-arrow .toggle-line-middle {
-    width: 90%;
-  }
-  .toc-toggle.toggle-arrow .toggle-line-last {
-    top: -2px;
-    transform: rotate(45deg);
-    width: 50%;
-  }
-  .toc-toggle.toggle-close .toggle-line-first {
-    top: 5px;
-    transform: rotate(-45deg);
-  }
-  .toc-toggle.toggle-close .toggle-line-middle {
-    opacity: 0;
-  }
-  .toc-toggle.toggle-close .toggle-line-last {
-    top: -5px;
-    transform: rotate(45deg);
-  }
-  .toc-sidebar-toggle {
-    background: #222;
-    cursor: pointer;
-    height: 24px;
-    left: auto;
-    padding: 5px;
-    position: fixed;
-    width: 24px;
-    z-index: 1300;
-    line-height: 0;
-    text-align: left;
-  }
-  .toc-sidebar-toggle:hover .toggle-line {
-   background: #87daff;
-  }
-  /* New add */
-  .flisxm {
-    inset: 0px;
-    position: fixed;
-    display: none;
-    background-color: rgba(0,0, 0, 0.5);
-  }
-  .flisxm-show {
-    display: block;
-  }
-  .toc-sidebar-toggle {
-    background: #fff;
-    color: #87daff;
-  }
-  .toc-toggle .toggle-line {
-    background: #87daff;
-  }
-  .toc-toggle.btn {
-    white-space: normal;
-  }
-  .toc-sidebar-toggle {
-    width: 28px;
+.toc-toggle.toc-toggle-on {
+  bottom: 13px;
+}
+.toc-toggle .toggle-line {
+  background: #fff;
+  display: inline-block;
+  height: 2px;
+  left: 0;
+  position: relative!important;
+  top: 0;
+  transition: all 0.4s;
+  vertical-align: top;
+  width: 100%;
+}
+.toc-toggle .toggle-line:not(:first-child) {
+  margin-top: 3px;
+}
+.toc-toggle.toggle-arrow .toggle-line-first {
+  top: 2px;
+  transform: rotate(-45deg);
+  width: 50%;
+}
+.toc-toggle.toggle-arrow .toggle-line-middle {
+  width: 90%;
+}
+.toc-toggle.toggle-arrow .toggle-line-last {
+  top: -2px;
+  transform: rotate(45deg);
+  width: 50%;
+}
+.toc-toggle.toggle-close .toggle-line-first {
+  top: 5px;
+  transform: rotate(-45deg);
+}
+.toc-toggle.toggle-close .toggle-line-middle {
+  opacity: 0;
+}
+.toc-toggle.toggle-close .toggle-line-last {
+  top: -5px;
+  transform: rotate(45deg);
+}
+.toc-sidebar-toggle {
+  background: #222;
+  cursor: pointer;
+  height: 24px;
+  left: auto;
+  padding: 5px;
+  position: fixed;
+  width: 24px;
+  z-index: 1300;
+  line-height: 0;
+  text-align: left;
+}
+.toc-sidebar-toggle:hover .toggle-line {
+  background: #87daff;
+}
+/* New add */
+.flisxm {
+  inset: 0px;
+  position: fixed;
+  display: none;
+  background-color: rgba(0,0, 0, 0.5);
+}
+.flisxm-show {
+  display: block;
+}
+.toc-sidebar-toggle {
+  background: #fff;
+  color: #87daff;
+}
+.toc-toggle .toggle-line {
+  background: #87daff;
+}
+.toc-toggle.btn {
+  white-space: normal;
+}
+.toc-sidebar-toggle {
+  width: 28px;
 }

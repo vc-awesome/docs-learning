@@ -4,36 +4,48 @@ https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效
 
 https://www.baiduyun.wiki/ - _油小猴_
 
+## 图标
+
+https://github.com/refined-github/refined-github - *GitHub - refined-github/refined-github: Browser extension that simplifies the GitHub interface and adds useful features*
+
+https://www.octotree.io/download - *Download*
+
+<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">
+
+<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/firefox/firefox.svg" width="48" alt="Firefox" valign="middle">
+
+<img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/safari/safari_128x128.png" width="48" alt="Safari" valign="middle">
+
 
 ## 分类
 
 https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
 
-- QQBrowser :cn:
+- <i class="fa fa-qq"></i> QQBrowser 🇨🇳
 
-  <i class="fa fa-qq"></i> https://browser.qq.com/
+  https://browser.qq.com/
 
   - *支持网页版微信*
 
 
 
-- Firefox :us:
+- <i class="fa fa-firefox"></i> Firefox 🇺🇸
+  
+  http://www.firefox.com.cn/
 
-  <i class="fa fa-firefox"></i> http://www.firefox.com.cn/
 
 
+- <i class="fa fa-edge"></i> Microsoft Edge 🇺🇸
 
-- Microsoft Edge :us:
-
-  <i class="fa fa-edge"></i> https://www.microsoft.com/zh-cn/edge
+  https://www.microsoft.com/zh-cn/edge
 
   - *重复书签会自动剔除*
 
 
 
-- Opera :norway:
+- <i class="fa fa-opera"></i> Opera :norway:
 
-  <i class="fa fa-opera"></i> https://www.opera.com/zh-cn
+  https://www.opera.com/zh-cn
 
   - *Opera浏览器退出程序后会保存标签页，下次打开程序仍是最近一次关闭的标签页*
 
@@ -43,20 +55,29 @@ https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油
 
   https://browser.yandex.com/
 
-- Google Chrome
-
-  <i class="fa fa-chrome"></i>
-  https://www.google.com/chrome/
+- <i class="fa fa-chrome"></i> Chrome 🇺🇸
+    
+    https://www.google.com/chrome/
+    
+    https://developers.google.cn/ - *Google Developers*
+    
+    https://source.android.google.cn/ - *Android 开源项目  |  Android Open Source Project*
+    
+    https://developer.android.google.cn/ - *Android 开发者  |  Android Developers*
+    
+    **命令**
+    
+    ```sh
+    chrome://chrome-urls/
+    ```
   
-  **命令**
-
-  ```shell
-  chrome://chrome-urls/
-  ```
-
-  https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
-  
-  https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
+    ``` sh
+    chrome://extensions/
+    ```
+    
+    https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
+    
+    https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
 
   **参考链接**
 

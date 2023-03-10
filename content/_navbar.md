@@ -6,8 +6,6 @@
   
   - [<i class="fa fa-book fa-fw"></i> <span class="color-fg-done">学习</span>](home/book.md)
   
-  - [<i class="fa fa-book fa-fw"></i> Book](home/book.md)
-  
   - [<i class="fa fa-github fa-fw"></i> GitHub](tools/github.md)
   
   - [<i class="fa-fw icon octicon-file markdown-icon"></i> Markdown](tools/markdown.md)
