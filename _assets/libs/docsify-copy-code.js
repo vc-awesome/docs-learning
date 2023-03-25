@@ -54,7 +54,8 @@
         o.doneEach(function () {
             var o = Array.apply(null, document.querySelectorAll("pre[data-lang]")),
                 c = {
-                    buttonText: "Copy to clipboard",
+                    // buttonText: "Copy to clipboard",
+                    buttonText: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14" height="14"><path fill="none" d="M0 0h24v24H0z"/><path d="M7 6V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-3v3c0 .552-.45 1-1.007 1H4.007A1.001 1.001 0 0 1 3 21l.003-14c0-.552.45-1 1.007-1H7zM5.003 8L5 20h10V8H5.003zM9 6h8v10h2V4H9v2z" fill="currentColor"/></svg>',
                     errorText: "Error",
                     successText: "Copied"
                 };
@@ -78,6 +79,33 @@
 
         o.mounted(function () {
             document.querySelector(".content").addEventListener("click", function (o) {
+              
+              function findParentEle(ele) {
+                try {
+                  if ("CODE" === ele.tagName) {
+                    return ele;
+                  } else {
+                    // console.log(ele.parentNode)
+                    findParentEle(ele.parentNode);
+                  }
+                } catch (error) {
+                  // console.error("docsify-copy-code: ".concat(error));
+                  // return "";
+                }
+              }
+              var e = findParentEle(o.target);
+              if (typeof e !== "undefined" && e !== null) {
+                // 按钮组没有折行按钮改变复制按钮样式
+                var ep = e.parentNode,
+                    eBtn = ep.querySelector(".docsify-code-text-wrap-button"),
+                    eBtn2 = ep.querySelector(".docsify-copy-code-button");
+                    
+                if (typeof eBtn !== "undefined" && eBtn !== null) {
+                  eBtn2.style.borderBottomLeftRadius = "0";
+                } else {
+                  eBtn2.style.borderBottomLeftRadius = "3px";
+                } // -end
+              }
                 if (o.target.classList.contains("docsify-copy-code-button")) {
                     var e = "BUTTON" === o.target.tagName ? o.target : o.target.parentNode,
                         t = document.createRange(),
@@ -88,12 +116,17 @@
 
                     t.selectNode(n), c.removeAllRanges(), c.addRange(t);
                     try {
+                      
+                      if (window.getComputedStyle(e, null).opacity == 1) {
+                        
                         document.execCommand("copy") && (e.classList.add("success"), 
 
                         setTimeout(
                             function () {
                                 e.classList.remove("success")
                             }, 1e3))
+                            
+                      }
 
                     } catch (o) {
                         console.error("docsify-copy-code: ".concat(o)), 

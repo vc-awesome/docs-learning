@@ -1,2 +1,2 @@
-* [Introduce](/back-end/composer/)
+* [Composer](/back-end/composer/)
 * [Packages](/back-end/composer/composer-pkgs.md)

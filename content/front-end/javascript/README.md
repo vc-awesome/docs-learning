@@ -148,42 +148,99 @@ https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
 
 ### 查找 HTML 元素
 
-`document.getElementById();`
 
-`document.getElementsByTagName();`
+```javascript
+document.getElementById();
+```
 
-`document.getElementsByClassName();`
+```javascript
+document.getElementsByTagName();
+```
 
-`document.querySelector();`
+```javascript
+document.getElementsByClassName();
+```
+
+```javascript
+document.querySelector();
+```
+
 
 ### 改变 HTML
 
 - 改变 HTML 输出流
+  
+  ```javascript
+  document.write();
+  ```
 
-  `document.write();`
 
 - 改变 HTML 内容
   
-  语法：  
-  `document.getElementById(id).innerHTML = 新的 HTML`
+  语法：
+
+  ```javascript
+  document.getElementById(id).innerHTML = 新的 HTML
+  ```
+
 
 - 改变 HTML 属性
   
-  语法：  
-  `document.getElementById(id).attribute = 新属性值`
+  语法：
+
+  ```javascript
+  document.getElementById(id).attribute = 新属性值
+  ```
+
   
-  实例：  
-  `document.getElementById("image").src = "landscape.jpg";`
+  实例：
+
+  ```javascript
+  document.getElementById("image").src = "landscape.jpg";`
+  ```
+
+### 获取 CSS
+
+语法：
+
+```javascript
+window.getComputedStyle("元素", "伪类");
+```
+
+实例：
+
+```javascript
+var test = document.getElementById("test"),
+    demo = window.getComputedStyle(test, null); 
+
+// 获取节点的 color
+
+demo.color
+```
+
+参考：
+
+1. https://m.jb51.net/article/89961.htm - *原生js获取元素样式的简单方法_javascript技巧_脚本之家*
+2. https://www.baidu.com/s?word=Js查看元素样式 - *Js查看元素样式 - 百度*
+
+
 
 ### 改变 CSS
 
 - 改变 HTML 样式
   
-  语法：  
-  `document.getElementById(id).style.property = 新样式`
+  语法：
 
-  实例：  
-  `document.getElementById("p2").style.color = "blue";`
+  ```javascript
+  document.getElementById(id).style.property = 新样式
+  ```
+  
+  实例：
+
+  ```javascript
+  document.getElementById("p2").style.color = "blue";
+  ```
+
 
 ### 创建 HTML 元素
 
@@ -202,7 +259,7 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
 - 创建新的 HTML 元素 (节点)
 
   ```javascript
-  insertBefore();
+  element.insertBefore();
   ```
 
 - 移除已存在的元素
@@ -773,3 +830,46 @@ https://bbs.csdn.net/topics/60457054 - *一张html网页，如何让它打开时
 ### 重绘 、回流
 
 ~~https://www.jianshu.com/p/ae1f2bd0d08f~~
+
+### 判断是否存在某个 class
+
+
+```javascript
+// 判断是否存在某个 class
+if (document.querySelector(".className").getAttribute("class").indexOf("docsify-code-text-wrap-on") != -1) {
+    // 存在
+    e.classList.remove('docsify-code-text-wrap-on'),
+    n.removeAttribute("style");
+} else {
+    // 不存在
+    e.classList.add('docsify-code-text-wrap-on'),
+    n.style = "white-space: pre-wrap;overflow-wrap: anywhere;";
+}
+```
+
+### 判断文本是否溢出
+
+
+```javascript
+// JS 判断文本是否溢出
+// console.log(o.firstElementChild)
+// 当前容器的宽度
+var containerLength = o.firstElementChild.offsetWidth;
+// 当前文字（包括省略部分）的宽度
+var textLength = o.firstElementChild.scrollWidth; 
+// console.log("containerLength:" + containerLength);
+// console.log("textLength", textLength);
+if (textLength > containerLength) {
+  // 文本溢出增加折行按钮
+  o.insertAdjacentHTML("beforeend", e);
+}
+```
+
+
+https://blog.csdn.net/GrootBaby/article/details/95950773 - *JS 判断文本是否溢出容器_js判断文本是否溢出__格鲁特宝宝的博客-CSDN博客*
+
+https://blog.csdn.net/mouday/article/details/127982924 - *js:判断文本溢出隐藏生效text-overflow: ellipsis_js判断文本是否溢出_彭世瑜的博客-CSDN博客*
+
+### 点击某元素以外的地方触发事件
+
+https://blog.csdn.net/qq_33933205/article/details/108262805 - *JS 点击某元素以外的地方触发事件 - Kaiqisan_点击元素外触发事件_kaiqisan的博客-CSDN博客*

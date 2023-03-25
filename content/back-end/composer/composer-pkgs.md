@@ -18,7 +18,7 @@
 
 
 
-### 参考链接
+### 参考
 
 百度搜索：PHP 的 Minify
 
@@ -118,7 +118,7 @@
 
 - 如当前cli模式的php版本不是当前项目的php版本，环境变量切换至当前项目的php版本
 
-### 参考链接
+### 参考
 
 [thinkphp Redis问题](https://segmentfault.com/q/1010000015308180)
 

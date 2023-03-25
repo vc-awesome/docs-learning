@@ -41,7 +41,7 @@ GitHub：https://github.com/MikeMcl/bignumber.js
 BootCDN：https://www.bootcdn.cn/bignumber.js/
 
 
-## HTTP client
+## HTTP Client
 
 ### Ajax-hook.js
 
@@ -217,6 +217,27 @@ https://github.com/fex-team/ueditor :cn: - *rich text rich text editor*
 https://github.com/fex-team/webuploader :cn: - *It's a new file uploader solution!*
 🏷 停更
 
-## PrismJS
+
+## 代码高亮
+
+### PrismJS
 
 https://github.com/PrismJS/prism - *Lightweight, robust, elegant syntax highlighting.*
+
+
+### Highlight.js
+
+https://github.com/highlightjs/highlight.js - *GitHub - highlightjs/highlight.js: JavaScript syntax highlighter with language auto-detection and zero dependencies.*
+
+
+## 流程图
+
+> UML-Unified Modeling Language 统一建模语言 ，又称 标准建模语言 。是用来对软件密集系统进行可视化 建模 的一种语言。UML的定义包括UML语义和UML表示法两个元素。
+
+🪜 https://support.typora.io/Draw-Diagrams-With-Markdown/ - *Draw Diagrams With Markdown - Typora Support*
+
+1. https://github.com/mermaid-js/mermaid - *GitHub - mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown*
+
+2. https://github.com/adrai/flowchart.js - *GitHub - adrai/flowchart.js: Draws simple SVG flow chart diagrams from textual representation of the diagram*
+
+3. https://github.com/bramp/js-sequence-diagrams - *GitHub - bramp/js-sequence-diagrams: Draws simple SVG sequence diagrams from textual representation of the diagram*

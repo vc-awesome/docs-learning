@@ -4,7 +4,7 @@ https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
 
 
 
-?> Windows 10 hosts 文件初始内容
+> Windows 10 hosts 文件初始内容
 
 ```shell
 # Copyright (c) 1993-2009 Microsoft Corp.
@@ -38,32 +38,6 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 ~~https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*~~
 
-刷新本地 DNS
-
-修改了 hosts 文件后不需要重启电脑，直接在本地刷新 dns 的缓存即可生效：
-
-- Windows
-
-    1. <kbd>win</kbd> + <kbd>R</kbd> 组合键启动运行，输入 `cmd` 打开命令行工具
-    2. 在 `cmd` 工具界面输入
-
-        ```bash
-        ipconfig /flushdns
-        ```
-
-        ，然后回车
-    3. 接下来你会看到`已成功刷新 DNS 解析缓存。`
-
-- macOS
-
-    1. 打开终端工具
-    2. 输入
-        ```bash
-        sudo killall -HUP mDNSResponder
-        ```
-
-
-
 
 ## Tool
 
@@ -82,9 +56,9 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> <i class="fa fa-apple"></i> https://github.com/oldj/SwitchHosts/releases
 
-----
 
-手机应用
+### 手机应用
+
 1. [Daedalus](os/mobile/README.md#daedalus)
 2. [personalDNSfilter](os/mobile/README.md#personaldnsfilter)
 
@@ -107,7 +81,7 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 ### GitHub
 
-https://raw.hellogithub.com/hosts via https://github.com/521xueweihan/GitHub520 ![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+https://raw.hellogithub.com/hosts ⇒ _via https://github.com/521xueweihan/GitHub520_ ![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
 
 ### AD
 
@@ -120,3 +94,32 @@ https://raw.hellogithub.com/hosts via https://github.com/521xueweihan/GitHub520 
 
 ## Browser addons
 
+
+## 刷新本地 DNS
+
+修改了 hosts 文件后不需要重启电脑，直接在本地刷新 dns 的缓存即可生效：
+
+### Windows
+
+1. <kbd>win</kbd> + <kbd>R</kbd> 组合键启动运行，输入 `cmd` 打开命令行工具
+2. 在 `cmd` 工具界面输入
+
+    ```bash
+    ipconfig /flushdns
+    ```
+
+    ，然后回车
+3. 接下来你会看到`已成功刷新 DNS 解析缓存。`
+
+### macOS
+
+1. 打开终端工具
+2. 输入
+    ```bash
+    sudo killall -HUP mDNSResponder
+    ```
+
+
+### Android
+
+[essential/dns.md#手机配置私人 DNS](essential/dns.md#手机配置私人-DNS)

@@ -2,49 +2,71 @@
 
 ### 获取渠道
 
+[腾讯电脑管家](https://guanjia.qq.com/) > 软件管理  
+👍
 
 #### 博客博文
 
+1. https://www.jianshu.com/p/b32229d6c43c - *最好用的Windows/Mac软件下载网站都在这了！*
 
-1. 👍 [腾讯电脑管家](https://guanjia.qq.com/) > 软件管理
+2. https://www.zhihu.com/question/26891149 - *有哪些值得推荐的下载软件的网站？*
 
-2. https://www.jianshu.com/p/b32229d6c43c - *最好用的Windows/Mac软件下载网站都在这了！*
-
-3. https://www.zhihu.com/question/26891149 - *有哪些值得推荐的下载软件的网站？*
-
-4. 👍 阿虚同学 <i id="axutongxue"></i>
+3. 阿虚同学 <i id="axutongxue"></i>
+    - 👍
     - https://github.com/axutongxue/ - *axutongxue (阿虚同学) · GitHub*
     - https://axutongxue.com/ - *阿虚同学的储物间*
     - 分类目录
-        - `04 电脑常用 / 05.浏览器`
-        - `07 常用网站 / 05.优质软件下载站 / 只提供绿色软件`
-        - `07 常用网站 / 05.优质软件下载站`
-        - `07 常用网站 / 06.国外破解软件下载站`
-        - `07 常用网站 / 07.Mac破解软件下载站`
-        - `07 常用网站 / 14.临时传文件`
+        - _04 电脑常用 / 05.浏览器_
+        - _07 常用网站 / 05.优质软件下载站 / 只提供绿色软件_
+        - _07 常用网站 / 05.优质软件下载站_
+        - _07 常用网站 / 06.国外破解软件下载站_
+        - _07 常用网站 / 07.Mac破解软件下载站_
+        - _07 常用网站 / 14.临时传文件_
     - https://mp.weixin.qq.com/s/AB20kTElh-o2o5B4m-M67Q - *《往期原创文章分类整理目录》*    
     - https://data.newrank.cn/m/s.html?s=NykqOiw2LjJJPw - *阿虚同学-号内搜*
 
-5. 👍 https://mrhelloworld.com/categories/分享/
+4. https://mrhelloworld.com/categories/分享/
 
-6. 酷软清单
+    👍
+
+5. 酷软清单
     1. https://www.coolist.net/
     2. https://www.kancloud.cn/appexplore/coolist-windows/1466990
 
-7. 乐软博客
+6. 乐软博客
     1. https://www.isharepc.com/
   
 
 
-
 #### GitHub Awesome
 
-1. <i class="fa fa-windows"></i> https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*
+1. https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*
 
-2. <i class="fa fa-apple"></i> https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.*
+    <i class="fa fa-windows"></i>
 
-3. <i class="fa fa-apple"></i> https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
+2. https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.*
+    
+    <i class="fa fa-apple"></i>
 
+3. https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
+
+    <i class="fa fa-apple"></i>
+
+4. https://github.com/Psyhackological/AAA - *GitHub - Psyhackological/AAA: Awesome Android Apps - get the Android you deserve.*
+
+    <i class="fa fa-android"></i>
+
+
+#### GitHub Topics
+
+https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
+
+
+#### GitHub Search
+
+https://github.com/search?o=desc&q=Awesome-android-app&s=stars&type=Repositories - *Search · Awesome-android-app · GitHub*
+
+https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Search · Android app · GitHub*
 
 
 ### 下载渠道
@@ -60,31 +82,51 @@
 
 #### 中文站
 
-1. 👍 <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> https://ldqk.xyz/ - *首页懒得勤快的博客互联网分享精神*
+1. https://ldqk.xyz/ - *首页懒得勤快的博客互联网分享精神*
+    
+    👍 <i class="fa fa-windows"></i> <i class="fa fa-apple"></i>
     - https://github.com/ldqk/Masuit.MyBlogs - *基于C#/.NET6的 masuit.org个人博客站项目源码，[https://masuit.org](https://masuit.org/) ，供参考、学习、引用、非商业性质的部署。*
 
-2. <i class="fa fa-windows"></i> http://www.dayanzai.me/ - *大眼仔旭 - 专注视频剪辑、解压、录屏、思维导图等办公资源分享*
+2. http://www.dayanzai.me/ - *大眼仔旭 - 专注视频剪辑、解压、录屏、思维导图等办公资源分享*
+    
+    <i class="fa fa-windows"></i>
 
-3. <i class="fa fa-windows"></i> http://www.xmpojie.com/ - *熊喵破解|最全的Win/Mac软件分享站，一直被模仿，从未被超越*
+3. http://www.xmpojie.com/ - *熊喵破解|最全的Win/Mac软件分享站，一直被模仿，从未被超越*
 
-4. ~~<i class="fa fa-apple"></i> https://macwk.com/ - *MacWk - 精品mac软件下载*~~
+    <i class="fa fa-windows"></i>
 
-5. ~~<i class="fa fa-windows"></i> https://winwk.com/ - *WinWk - 精品windows软件下载*~~
+4. ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
 
-6. <i class="fa fa-apple"></i> https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
+    <i class="fa fa-apple"></i>
 
-7. <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i> <i class="ri-apple-line"></i> http://windows.dailydownloaded.com/zh/ - *软件评论，下载，游戏和应用..... | Windows*
+5. ~~https://winwk.com/ - *WinWk - 精品windows软件下载*~~
+
+    <i class="fa fa-windows"></i>
+
+6. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
+
+    <i class="fa fa-apple"></i> 
+
+7. http://windows.dailydownloaded.com/zh/ - *软件评论，下载，游戏和应用..... | Windows*
+
+    <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i> <i class="ri-apple-line"></i>
 
 8. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* （*via https://www.cnblogs.com/fdw630/p/16792457.html - macwk.com破产关站，真正原因！（免费的替代站） - FrankStan - 博客园*）
 
 
 #### 英文站
 
-1. <i class="fa fa-windows"></i> https://www.sordum.org/ - *Simplify Your computer Usage*
+1. https://www.sordum.org/ - *Simplify Your computer Usage*
 
-2. <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i> <i class="ri-apple-line"></i> https://download.cnet.com/ - *Free Software Downloads and Reviews for Windows, Android, Mac, and iOS – CNET Download*
+    <i class="fa fa-windows"></i>
 
-3. <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i> https://sourceforge.net/ - *Compare, Download & Develop Open Source & Business Software - SourceForge*
+2. https://download.cnet.com/ - *Free Software Downloads and Reviews for Windows, Android, Mac, and iOS – CNET Download*
+
+    <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i> <i class="ri-apple-line"></i>
+
+3. https://sourceforge.net/ - *Compare, Download & Develop Open Source & Business Software - SourceForge*
+
+    <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="ri-android-line"></i>
 
 
 
@@ -104,9 +146,15 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 #### 命令行
 
-- <i class="fa fa-windows"></i> https://scoop.sh 🇺🇸 - *A command-line installer for Windows*
-- <i class="fa fa-windows"></i> https://chocolatey.org 🇺🇸 - *Chocolatey Software | Chocolatey - The package manager for Windows*
-  - https://www.jianshu.com/p/f6c4d261f356 - *chocolatey介绍与使用 - 简书*
+- https://scoop.sh - *A command-line installer for Windows*
+
+    <i class="fa fa-windows"></i> 🇺🇸
+
+- https://chocolatey.org - *Chocolatey Software | Chocolatey - The package manager for Windows*
+
+    <i class="fa fa-windows"></i> 🇺🇸
+    
+    - https://www.jianshu.com/p/f6c4d261f356 - *chocolatey介绍与使用 - 简书*
 
 
 
@@ -115,15 +163,15 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 ##### Microsoft Store
 
-<i class="fa fa-windows"></i> https://www.microsoft.com/zh-cn/store 🇨🇳 🇺🇸 - *Windows 应用 - Microsoft 应用商店* 
+https://www.microsoft.com/zh-cn/store - *Windows 应用 - Microsoft 应用商店*
 
-> ⚠️ 下载应用需要 Windows 系统预先安装 Microsoft Store
+<div class="flash mt-3 flash-warn">
+  ⚠️ 下载应用需要 Windows 系统预先安装 Microsoft Store
+</div>
 
-🌰 https://apps.microsoft.com/store/detail/bitwarden/9PJSDV0VPK04 - *Bitwarden - Microsoft Store 应用程序*
-
+实例：   https://apps.microsoft.com/store/detail/bitwarden/9PJSDV0VPK04 - *Bitwarden - Microsoft Store 应用程序*
 - https://zhuanlan.zhihu.com/p/491624008 - *手动安装 Windows 应用商店*
 - https://store.rg-adguard.net/ - *下载 Windows 应用商店的安装包*
-
 
 
 ##### App Store
@@ -155,9 +203,12 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 ----
 
-1. 完全免费
-2. 免费试用?天（过了试用期需购买）
-3. 免费功能（Lite版本）、收费功能（Pro版本，应用内购买升级）
+1. 开源
+2. 完全免费
+3. 免费试用 ? 天（过了试用期需购买）
+4. 免费功能（Lite 版本）
+5. 收费功能（Pro 版本，应用内购买升级）
+    1. https://emanuele-f.github.io/PCAPdroid/paid_features - *PCAPdroid | User Guide*
 
 
 

@@ -1,4 +1,5 @@
-* [Introduce](/tools/ "Introduce")
+* [Tools](/tools/)
+* [Trial](tools/trial.md)
 * [Search](/tools/search.md)
 * [PC Tools](/tools/应用工具.md)
 * [Web Tools](/tools/online.md "在线工具")
@@ -10,6 +11,7 @@
 * [Docsify](/tools/docsify.md)
 * [科学上网](/tools/vpn.md "科学上网")
 * [RSS](/tools/rss.md)
+* [剪贴板](tools/clipboard.md)
 * **Development**
 * [GitHub](/tools/github.md)
 * [Git](/tools/git.md)
@@ -19,4 +21,3 @@
 * [Phpstudy](/tools/phpstudy.md "Phpstudy")
 * [Postman](/tools/postman.md "Postman")
 * [仿站工具](tools/web-downloader.md "仿站工具")
-

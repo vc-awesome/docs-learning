@@ -2,7 +2,7 @@
 
 
 <details>
-<summary><span style="color:red">click to expand ~</span></summary>
+<summary><span style="color:red">Click to Expand ~</span></summary>
 
 https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及使用方法_
 
@@ -15,7 +15,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 Use **Font Awesome** class.
 
 | Name            | Preview                                                      | Code                                                         | Size class                                                   |
-| --------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| :--------------- | :------------------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------ |
 | Iconfont        | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |
 | Font Awesome    | <i class="fa fa-link"></i><br /><i class="fa fa-link fa-lg"></i> | `<i class="fa fa-link"></i>`<br />`<i class="fa fa-link fa-lg"></i>` | `fa-lg` `fa-2x` `fa-3x` `fa-4x` `fa-5x`                      |
 | Bootstrap Icons | <i class="bi bi-link-45deg"></i>                             | `<i class="bi bi-link-45deg"></i>`                           |                                                              |
@@ -27,35 +27,21 @@ Use **Font Awesome** class.
 
 Use **File Icons** class.
 
-?> *Color class* 语法： > `light-*`,`medium-*`,`dark-*`（\* 用 *color name* 替换）<br /><br />
-<i class="ri-fire-line light-red"></i>
-<i class="ri-fire-line medium-red"></i>
-<i class="ri-fire-line dark-red"></i> red |
-<i class="ri-fire-line light-green"></i>
-<i class="ri-fire-line medium-green"></i>
-<i class="ri-fire-line dark-green"></i> green |
-<i class="ri-fire-line light-yellow"></i>
-<i class="ri-fire-line medium-yellow"></i>
-<i class="ri-fire-line dark-yellow"></i> yellow |<br />
-<i class="ri-fire-line light-blue"></i>
-<i class="ri-fire-line medium-blue"></i>
-<i class="ri-fire-line dark-blue"></i> blue |
-<i class="ri-fire-line light-maroon"></i>
-<i class="ri-fire-line medium-maroon"></i>
-<i class="ri-fire-line dark-maroon"></i> maroon |
-<i class="ri-fire-line light-purple"></i>
-<i class="ri-fire-line medium-purple"></i>
-<i class="ri-fire-line dark-purple"></i> purple |<br />
-<i class="ri-fire-line light-orange"></i>
-<i class="ri-fire-line medium-orange"></i>
-<i class="ri-fire-line dark-orange"></i> orange |
-<i class="ri-fire-line light-cyan"></i>
-<i class="ri-fire-line medium-cyan"></i>
-<i class="ri-fire-line dark-cyan"></i> cyan |
-<i class="ri-fire-line light-pink"></i>
-<i class="ri-fire-line medium-pink"></i>
-<i class="ri-fire-line dark-pink"></i> pink |<br />
-<i class="ri-fire-line theme-colour-check"></i> theme-colour-check
+?> *Color class* 语法： `light-*`,`medium-*`,`dark-*`（\* 用 *color name* 替换）
+
+序号  | 颜色  | 预览
+:---|:---|:---
+1  | red  | <i class="ri-fire-line light-red"></i><i class="ri-fire-line medium-red"></i><i class="ri-fire-line dark-red"></i>
+2  | green  | <i class="ri-fire-line light-green"></i><i class="ri-fire-line medium-green"></i><i class="ri-fire-line dark-green"></i>
+3  | yellow  | <i class="ri-fire-line light-yellow"></i><i class="ri-fire-line medium-yellow"></i><i class="ri-fire-line dark-yellow"></i>
+4  | blue  | <i class="ri-fire-line light-blue"></i><i class="ri-fire-line medium-blue"></i><i class="ri-fire-line dark-blue"></i>
+5  | maroon  | <i class="ri-fire-line light-maroon"></i><i class="ri-fire-line medium-maroon"></i><i class="ri-fire-line dark-maroon"></i>
+6  | purple  | <i class="ri-fire-line light-purple"></i><i class="ri-fire-line medium-purple"></i><i class="ri-fire-line dark-purple"></i>
+7  | orange  | <i class="ri-fire-line light-orange"></i><i class="ri-fire-line medium-orange"></i><i class="ri-fire-line dark-orange"></i>
+8  | cyan  | <i class="ri-fire-line light-cyan"></i><i class="ri-fire-line medium-cyan"></i><i class="ri-fire-line dark-cyan"></i>
+9  | pink  | <i class="ri-fire-line light-pink"></i><i class="ri-fire-line medium-pink"></i><i class="ri-fire-line dark-pink"></i>
+10  | theme-colour-check  | <i class="ri-fire-line theme-colour-check"></i>
+
 
 ## Using
 
@@ -63,7 +49,7 @@ Use **File Icons** class.
 
 
 | 图标                                         | 语境             | 代码                                         |
-| -------------------------------------------- | ---------------- | -------------------------------------------- |
+| :-------------------------------------------- | :---------------- | :-------------------------------------------- |
 | <i class="fa fa-github fa-lg"></i>           | GitHub           | `<i class="fa fa-github fa-lg"></i>`         |
 | <i class="fa fa-gitlab medium-orange"></i>   | GitLab           | `<i class="fa fa-gitlab medium-orange"></i>` |
 | <i class="fa fa-firefox fa-lg"></i>          | 浏览器           | `<i class="fa fa-firefox"></i>`              |
@@ -107,7 +93,7 @@ Use **File Icons** class.
 ### Bootstrap Icons
 
 | 图标                                 | 语境      | 代码                                   |
-| ------------------------------------ | --------- | -------------------------------------- |
+| :------------------------------------ | :--------- | :-------------------------------------- |
 | <i class="bi bi-ladder"></i>         | 梯子      | `<i class="bi bi-ladder"></i>`         |
 | <i class="bi bi-book"></i>           | 书籍/手册 | `<i class="bi bi-book"></i>`           |
 | <i class="bi bi-filetype-html"></i>  | 文件      | `<i class="bi bi-filetype-html"></i>`  |
@@ -116,7 +102,7 @@ Use **File Icons** class.
 ### Remix Icon
 
 | 图标                                             | 语境                | 代码                                               |
-| ------------------------------------------------ | ------------------- | -------------------------------------------------- |
+| :------------------------------------------------ | :------------------- | :-------------------------------------------------- |
 | <i class="ri-external-link-fill"></i>            | 外部链接            | `<i class="ri-external-link-fill"></i>`            |
 | <i class="ri-link"></i>                          | 内部链接            | `<i class="ri-link"></i>`                          |
 | <i class="ri-link-unlink"></i>                   | 内部链接            | `<i class="ri-link-unlink"></i>`                   |
@@ -136,7 +122,7 @@ Use **File Icons** class.
 ### File Icons
 
 | 图标                                                         | 代码                                                         | Stylesheets |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ----------- |
+| :------------------------------------------------------------ | :------------------------------------------------------------ | :----------- |
 | <span class="icon octicon-file github-icon"></span>          | `<span class="icon octicon-file github-icon"></span>`        | 原有        |
 | <span class="icon octicon-file vue-icon light-green"></span> | `<span class="icon octicon-file vue-icon light-green"></span>` | 原有        |
 | <span class="icon octicon-file js-icon medium-yellow"></span> | `<span class="icon octicon-file js-icon medium-yellow"></span>` | 原有        |
@@ -168,6 +154,8 @@ WEB UI框架会自带图标库
 
 <i class="fa fa-github fa-lg"></i> <i class="fa fa-search"></i> https://github.com/topics/icons - *icons · GitHub Topics · GitHub*
 
+https://github.com/topics/icon-font - *icon-font · GitHub Topics · GitHub*
+
 https://juejin.cn/post/6844904150237478926 - *除了阿里的iconfont图标库，还有这10个开源SVG图标库*
 
 https://bs4.dashgame.com/pages/extend.html - *Bootstrap4 中文文档*
@@ -180,7 +168,8 @@ https://zhuanlan.zhihu.com/p/473946284 - *推荐 5 个优秀的 Javascript 图�
 
 ## Tool <i class="ri-tools-line"></i>
 
-https://github.com/ecomfe/fonteditor :cn: - *在线字体编辑器* https://kekee000.github.io/fonteditor/
+https://github.com/ecomfe/fonteditor :cn: - *在线字体编辑器*
+- https://kekee000.github.io/fonteditor/
 
 https://www.high-logic.com/font-editor/fontcreator :us: - *FontCreator for Windows - the most popular font editor*
 
@@ -255,7 +244,7 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 <i class="ri-soundcloud-line"></i>
 https://unpkg.com/ionicons/
 
-```javascript
+```html
 <!-- ionicons -->
 <script type="module" src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
@@ -291,14 +280,16 @@ https://unpkg.com/ionicons/
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/file-icons/atom?icon=github&color=blue)
 
-<i class="fa fa-github fa-lg"></i> https://github.com/file-icons/atom
+<i class="fa fa-github fa-lg"></i>
+https://github.com/file-icons/atom
+- `Via` <i class="fa fa-github fa-lg"></i>
+https://github.com/homerchen19/github-file-icons *谷歌扩展程序*
 
-<span class="icon octicon-file npm-icon medium-red "></span> https://www.jsdelivr.com/package/npm/file-icons-js
+<span class="icon octicon-file npm-icon medium-red"></span>
+https://www.jsdelivr.com/package/npm/file-icons-js
 
-<span class="icon octicon-file css3-icon medium-blue "></span> https://cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css
-
-`Via` <i class="fa fa-github fa-lg"></i> https://github.com/homerchen19/github-file-icons *谷歌扩展程序*
-
+<span class="icon octicon-file css3-icon medium-blue"></span>
+https://cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css
 
 
 ## Styled Icons 🔥
@@ -310,6 +301,7 @@ https://unpkg.com/ionicons/
 <i class="fa fa-laptop"></i> https://styled-icons.dev/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons
+
 
 ## React Icons
 
@@ -353,9 +345,9 @@ https://github.com/react-icons/react-icons
 
 <i class="fa fa-book"></i> http://google.github.io/material-design-icons/
 
-<i class="ri-soundcloud-line"></i> 
-1️⃣ https://www.bootcdn.cn/material-design-icons/
-2️⃣ https://unpkg.com/material-design-icons/
+<i class="ri-soundcloud-line"></i>
+1. https://www.bootcdn.cn/material-design-icons/
+2. https://unpkg.com/material-design-icons/
 
 
 ```html
@@ -398,8 +390,6 @@ https://github.com/microsoft/vscode-codicons
 
 ## More
 
-<i class="fa fa-github fa-lg"></i>
-https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN*
-
-![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
-
+1. https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN* ![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
+2. https://github.com/tabler/tabler-icons - *tabler/tabler-icons: A set of over 4000 free MIT-licensed high-quality SVG icons for you to use in your web projects.*
+3. https://github.com/Templarian/MaterialDesign - *GitHub - Templarian/MaterialDesign: ✒7000+ Material Design Icons from the Community*

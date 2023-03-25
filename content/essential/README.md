@@ -2,6 +2,10 @@
 
 https://whatismyip.li/psiphon1 - _What is my IP? - Why VPN is important?_
 
+
+<iframe src="https://ip.skk.moe/simple" style="width: 100%; border: 0"></iframe>
+
+
 ## 内网穿透
 
 ### 参考

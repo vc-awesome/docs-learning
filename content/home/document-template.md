@@ -9,6 +9,7 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
         - https://redux.js.org/introduction/getting-started - *Getting Started with Redux | Redux*
 - 应用 README.md
     - https://github.com/gsantner/markor - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
+    - https://clipboardjs.com/ - *clipboard.js — Copy to clipboard without Flash*
 - https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 - https://www.markdownguide.org/ - *Markdown Guide*
     - https://www.markdown.xyz/ - *Markdown 指南中文版 | Markdown中文网*
@@ -22,6 +23,15 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
     6. 遇到问题网上搜索别人的解决方式（参考）
     7. 是否依赖其它工具，否则无法运行
     8. 可搭配什么工具，使其运行更高效
+- 标点符号
+    - https://www.jiuwa.net/fuhao/agg/52/ - *三点符号 三个点的特殊符号图案大全-九蛙特殊符号*
+    ```markup
+    ⋮
+    ```
+    
+    ```markup
+    ⵈ
+    ```
 
 ----
 
@@ -32,6 +42,7 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 - Installation - *安装*
 - Configuration - *设置*
 - Usage - *用法*
+- Advanced Usage - *高级用法*
 - FAQ - *常见问题解答*
 - Reference - *参考*
 - Index - *索引*

@@ -2,7 +2,7 @@
 
 ## 教程
 
-https://developer.mozilla.org/zh-CN/docs/Web/HTTP
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
 
 
 ## HTTPS
@@ -111,6 +111,9 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers - *HTTP Headers - HTTP
   - `Content-Encoding`：WEB服务器表明自己使用了什么压缩方法（gzip，deflate）压缩响应中的对象。例如：Content-Encoding：gzip
   - `Content-Language`：WEB服务器告诉浏览器自己响应的对象的语言。
 
+### User-Agent
+
+https://www.useragents.me/ - *Useragents — The Latest and Most Common (Updated Weekly)*
 
 
 ### HTTP 身份验证

@@ -1,6 +1,9 @@
 ## Introduction
 
-<img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" align="left" width="78" hspace="10" vspace="0"> Terminal emulator with packages
+<div class="d-flex flex-items-start"">
+  <div><img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" align="right" width="78" hspace="10" vspace="0"></div>
+  <div>Terminal emulator with packages</div>
+</div>
 
 ## Official
 

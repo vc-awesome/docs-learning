@@ -6,9 +6,7 @@
 
 <i class="fa fa-github fa-lg"></i> https://github.com/docsifyjs/docsify/
 
-
-<details class="details-reset"><summary class="btn">🃏 A magical documentation site generator. <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-
+<details class="details-reset"><div class="border p-3 mt-2">
 
 > 文档进阶之路：`记事本` > `word` > `markdown` > `docsify`
 
@@ -31,11 +29,42 @@ Bootstrap 的官方开源 SVG 图标库。
 !> Official open source SVG icon library for Bootstrap.<br><i class="bi bi-translate dark-yellow"></i><br>Bootstrap 的官方开源 SVG 图标库。
 
 
+
 </div>
 </details>
 
+## Awesome
 
-## Link
+https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome things related to docsify*
+
+https://docsify.js.org/#/awesome - *Awesome docsify*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
+
+### Showcase
+
+👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
+
+~~http://note.taqini.space/~~
+
+https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
+
+https://bytesfly.github.io/island/#/ - *侠客岛*
+
+~~https://docs.saasify.sh/#/~~
+
+https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
+
+https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
+
+https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
+
+
+看至：`gitmoji-changelog`
+
+
+
+## Links
 
 https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 
@@ -143,6 +172,14 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 }
 ```
 
+#### 响应式布局
+
+```css
+/* 小屏设备（最大宽度 768px，超过最大宽度变化为中大屏设备） */
+@media only screen and (max-width: 768px) {
+  /* Write your css code... */
+}
+```
 
 
 ### 回到顶部
@@ -246,7 +283,30 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 - Plugin
   - <https://docsify.js.org/#/zh-cn/plugins?id=字数统计>
 
-### 复制到剪贴板 / 复制代码
+### 代码块
+
+#### 代码语法高亮
+
+https://docsify.js.org/#/language-highlight - *Language highlighting*
+
+https://prismjs.com/index.html - *Prism*
+
+
+#### 代码行号
+
+https://prismjs.com/plugins/line-numbers/ - *Line Numbers ▲ Prism plugins*
+
+https://segmentfault.com/a/1190000009122617 - *代码高亮 - 漂亮的代码语法高亮插件Prism.js简单使用文档 - 严颖专栏 - SegmentFault 思否*
+
+#### 代码块折行
+
+https://www.rollupjs.com/ - *简介 | rollup.js 中文文档 | rollup.js中文网*
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
+
+#### 复制代码至剪贴板
+
+!> 没玩起来😶。
 
 todo
 - 添加代码行数
@@ -945,31 +1005,39 @@ body .docsify-copy-code-button {
 </script>
 ```
 
+### 数学公式 LaTeX
 
-## Awesome
+[tools/markdown.md#数学公式](tools/markdown.md#数学公式)
 
-https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome things related to docsify*
+https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docsify.js plugin for typesetting LaTeX with display engines from markdown.*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
+``` html
+<!-- LaTeX display engine -->
+<script src="//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--  docsify-latex plugin -->
+<script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
+```
 
-### Showcase
+### 图表 Diagrams
 
-👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
+[tools/markdown.md#图表](tools/markdown.md#图表)
 
-~~http://note.taqini.space/~~
+https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A plugin to render mermaid diagrams in docsify*
 
-https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
+``` html
+<script>
+  window.$docsify.mermaidConfig = {
+    querySelector: ".mermaid"
+  };
+</script>
+<script type="module">
+  import mermaid from "//cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
+  window.mermaid = mermaid;
+</script>
+<script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+```
 
-https://bytesfly.github.io/island/#/ - *侠客岛*
+参考：
 
-~~https://docs.saasify.sh/#/~~
-
-https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
-
-https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
-
-https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
-
-
-
-看至：`gitmoji-changelog`
+https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Mermaid插件支持_mermaid 插件_Willin Wang的博客-CSDN博客*

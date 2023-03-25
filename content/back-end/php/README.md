@@ -1,22 +1,22 @@
 ## 官方
 
-官方站点：https://www.php.net/
+官方站点：https://www.php.net/ - *PHP: Hypertext Preprocessor*
 
-官方手册：https://www.php.net/manual/zh/index.php
+官方手册：https://www.php.net/manual/zh/index.php - *PHP: PHP 手册 - Manual*
 
-GitHub：https://github.com/php/
+GitHub：https://github.com/php/- *php.net · GitHub*
 
-菜鸟教程：https://www.runoob.com/php/php-tutorial.html
+菜鸟教程：https://www.runoob.com/php/php-tutorial.html - *PHP 教程 | 菜鸟教程*
 
 ### 版本
 
-PHP版本支持时间表：https://www.php.net/supported-versions.php
+PHP版本支持时间表：https://www.php.net/supported-versions.php - *PHP: Supported Versions*
 
 ### 解析器
 
 - CGI
 - CLI（不需要 Web 服务器 和 Web 浏览器）
-- 服务器模块（Aoache 服务器器模块）
+- 服务器模块（Apache 服务器器模块）
 
 ------
 
@@ -32,7 +32,7 @@ https://www.jb51.net/article/117265.htm - *利用PHP获取访客IP、地区位�
 
 ### MacOS
 
-https://www.php.net/manual/zh/install.macosx.php
+https://www.php.net/manual/zh/install.macosx.php - *PHP: macOS 系统下的安装 - Manual*
 
 
 #### 使用 homebrew 安装
@@ -44,12 +44,12 @@ brew install php
 
 ### Windows
 
-https://www.php.net/manual/zh/install.windows.php
+https://www.php.net/manual/zh/install.windows.php - *PHP: Windows 系统下的安装 - Manual*
 
 
 #### 从源程序编译
 
-https://www.php.net/manual/zh/install.windows.manual.php
+https://www.php.net/manual/zh/install.windows.manual.php - *PHP: 在 Windows 上手动安装 PHP - Manual*
 
 
 
@@ -59,7 +59,7 @@ https://www.php.net/manual/zh/install.windows.manual.php
 
 #### 源码编译安装
 
-https://www.php.net/manual/zh/install.pecl.phpize.php
+https://www.php.net/manual/zh/install.pecl.phpize.php - *PHP: 用 phpize 编译共享 PECL 扩展库 - Manual*
 
 ```shell
 cd extname
@@ -76,9 +76,9 @@ make && meke install
 
   > PHP Extension Community Library（PECL，PHP 扩展社区库）
 
-  https://pecl.php.net/
+  https://pecl.php.net/ - *PECL :: The PHP Extension Community Library*
 
-  https://www.php.net/manual/zh/install.pecl.php
+  https://www.php.net/manual/zh/install.pecl.php - *PHP: PECL 扩展库安装 - Manual*
 
   ```shell
   # 安装扩展
@@ -93,13 +93,13 @@ make && meke install
 
 - PEAR
 
-  https://pear.php.net/
+  https://pear.php.net/ - *PEAR - PHP Extension and Application Repository*
 
 ### Windows
 
-https://www.php.net/manual/zh/install.pecl.windows.php
+https://www.php.net/manual/zh/install.pecl.windows.php - *PHP: 在 Windows 上安装 PHP 扩展 - Manual*
 
-https://windows.php.net/downloads/pecl/releases/
+https://windows.php.net/downloads/pecl/releases/ - *windows.php.net - /downloads/pecl/releases/*
 
 在 Windows 上有两种加载 PHP 扩展的方式：
 1. 扩展编译进 PHP，

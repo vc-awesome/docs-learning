@@ -17,9 +17,9 @@ Github：https://github.com/mysql
 
 ## 教程
 
-菜鸟教程（*mysql*） https://www.runoob.com/mysql/mysql-tutorial.html
+https://www.runoob.com/mysql/mysql-tutorial.html - *MySQL 教程 | 菜鸟教程*
 
-菜鸟教程（*sql*） https://www.runoob.com/sql/sql-tutorial.html
+https://www.runoob.com/sql/sql-tutorial.html - *SQL 教程 | 菜鸟教程*
 
 阿里教程 http://mysql.taobao.org/monthly/ - *数据库内核月报*
 

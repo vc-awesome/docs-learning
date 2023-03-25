@@ -112,6 +112,51 @@ _via https://blog.csdn.net/Bonjours/article/details/124383032 - *css设置图标
 
 <img alt='bunny-color' src='_media/bunny-color.png' class="im" />
 
+----
+
+_via https://clipboardjs.com/ - *clipboard.js — Copy to clipboard without Flash*_
+
+``` css
+.love {
+    display: inline-block;
+    position: relative;
+    top: .2em;
+    font-size: 1.4em;
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    transform: scale(.9);
+    -webkit-animation: love .5s infinite linear alternate-reverse;
+    -moz-animation: love .5s infinite linear alternate-reverse;
+    animation: love .5s infinite linear alternate-reverse
+}
+
+@-webkit-keyframes love {
+    to {
+        -webkit-transform: scale(1.2)
+    }
+}
+
+@-moz-keyframes love {
+    to {
+        -moz-transform: scale(1.2)
+    }
+}
+
+@keyframes love {
+    to {
+        transform: scale(1.2)
+    }
+}
+```
+
+```html
+<span class="love">♥</span>
+```
+
+效果：
+<span class="love">♥</span>
+
+
 
 ## Link
 

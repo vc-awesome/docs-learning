@@ -6,9 +6,15 @@ https://www.baiduyun.wiki/ - _油小猴_
 
 ## 图标
 
+https://github.com/alrra/browser-logos - *GitHub - alrra/browser-logos: 🗂 High resolution web browser logos*
+
 https://github.com/refined-github/refined-github - *GitHub - refined-github/refined-github: Browser extension that simplifies the GitHub interface and adds useful features*
 
+https://clipboardjs.com/ - *clipboard.js — Copy to clipboard without Flash*
+
 https://www.octotree.io/download - *Download*
+
+https://www.youxiaohou.com/tool/crxsoso.html - *Crx搜搜-一个牛X的扩展商店 | 油小猴*
 
 <img src="https://raw.githubusercontent.com/alrra/browser-logos/90fdf03c/src/chrome/chrome.svg" width="48" alt="Chrome" valign="middle">
 
@@ -89,7 +95,7 @@ https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油
 
 
 
-## 书签 🔥
+## 书签
 
 https://www.zhihu.com/question/19921595/answer/715490524 - *如何管理浏览器的书签（收藏）？*
 
@@ -110,21 +116,28 @@ https://blog.csdn.net/u010182162/article/details/124423308 - *在chrome浏览器
 https://blog.csdn.net/qq_42799236/article/details/106739690 - _【JS】把JavaScript脚本作为书签收藏起来并可单击执行_想去潘达利亚的Bush的博客-CSDN博客_js书签_
 
 
+## 标签页同步
+
+百度搜索：_局域网浏览器标签页同步_
+
+https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试试这三种方案 - 少数派*
+
 
 ## 搜索引擎
 
-https://www.baidu.com/ :cn: - *百度*
+https://www.baidu.com/ - *百度*
 
-https://www.google.com/ :us: - *谷歌*
+https://www.google.com/ - *谷歌*
 
-https://www.bing.com/ :us: :cn: - *Microsoft Bing、必应*
+https://www.bing.com/ - *Microsoft Bing、必应*
 
-https://www.qwant.com :us: - *Qwant - The search engine that respects your privacy*
+https://www.qwant.com - *Qwant - The search engine that respects your privacy*
 
-https://yandex.com/ :us: - *Yandex*
+https://yandex.com/ - *Yandex*
 
-https://duckduckgo.com/ :us: *DuckDuckGo*
+https://duckduckgo.com/ - *DuckDuckGo*
 
+https://www.runoob.com/w3cnote/search-engines-usage-skills.html - *盘点全球搜索引擎及其使用技巧 | 菜鸟教程*
 
 
 ### 如何快速切换搜索引擎
@@ -190,9 +203,9 @@ https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索
   
     <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>
   
-    谷歌浏览器使用时，如果不小心关闭了一个标签，按下Ctrl键或Cmd+Shift+T，Chrome将重新打开你最近关闭的标签，仿佛无事发生过。（如果想要恢复的标签不止一个，也可以重复操作。)
+    谷歌浏览器使用时，如果不小心关闭了一个标签，按下 <kbd>Ctrl</kbd> 键或 <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>，Chrome 将重新打开你最近关闭的标签，仿佛无事发生过。（如果想要恢复的标签不止一个，也可以重复操作。)
   
-    <i class="fa fa-external-link"></i> 参考： http://www.cnplugins.com/tool/undo-close-method.html - *Chrome谷歌浏览器中如何恢复已经关闭的网页?*
+    参考： http://www.cnplugins.com/tool/undo-close-method.html - *Chrome谷歌浏览器中如何恢复已经关闭的网页?*
   
   7. 关闭标签页
   
@@ -202,7 +215,7 @@ https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索
   
     <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>
   
-    当打开一堆选项卡并想把这些页面都保存起来以供之后使用，按Ctrl+Shift+D。这样就可以将所有打开的选项卡保存到一个文件夹中，方便以后访问。要恢复它们，只需右键单击书签内的文件夹，选择“打开所有新窗口”。
+    当打开一堆选项卡并想把这些页面都保存起来以供之后使用，按 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>。这样就可以将所有打开的选项卡保存到一个文件夹中，方便以后访问。要恢复它们，只需右键单击书签内的文件夹，选择“打开所有新窗口”。
 
 
 
@@ -218,7 +231,7 @@ https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索
 
 ## 开发者工具
 
-https://developer.mozilla.org/zh-CN/docs/Web#%E5%BC%80%E5%8F%91%E8%80%85%E5%B7%A5%E5%85%B7%E6%96%87%E6%A1%A3 - *Web 开发技术 | MDN*
+https://developer.mozilla.org/zh-CN/docs/Web#开发者工具文档 - *Web 开发技术 | MDN*
 
 https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
 

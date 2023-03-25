@@ -1,16 +1,16 @@
 ## Link
 
-知道RSS的人越少，我就越希望它能被人知道！ https://zhuanlan.zhihu.com/p/349349861
+https://zhuanlan.zhihu.com/p/349349861 - *知道RSS的人越少，我就越希望它能被人知道！*
 
 ## Book
 
-你必读的 RSS 订阅源有哪些？ https://www.zhihu.com/question/19580096
+https://www.zhihu.com/question/19580096 - *你必读的 RSS 订阅源有哪些？*
 
-如何对优质内容进行Rss订阅？ https://www.jianshu.com/p/09facfd11756
+https://www.jianshu.com/p/09facfd11756 - *如何对优质内容进行Rss订阅？*
 
-RSS订阅傻瓜式教程 https://zhuanlan.zhihu.com/p/100086971
+https://zhuanlan.zhihu.com/p/100086971 - *RSS订阅傻瓜式教程*
 
-RSS 订阅源整理 https://www.bilibili.com/read/cv13362124
+https://www.bilibili.com/read/cv13362124 - *RSS 订阅源整理*
 
 ## Tool
 
@@ -32,7 +32,6 @@ https://github.com/yang991178/fluent-reader-lite - *Simplistic mobile RSS clien
 
 ### Feeder 👍
 
-<i class="ri-link"></i>
 [Feeder](/os/mobile/?id=feeder)
 <i class="fa fa-android light-green"></i> - *An awesome Libre and Open Source RSS feed reader*
 
@@ -46,13 +45,13 @@ https://github.com/yang991178/fluent-reader-lite - *Simplistic mobile RSS clien
 
 <i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa
 
-<i class="fa fa-firefox"></i> https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/
+<i class="fa fa-firefox"></i> https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/ - *RSSHub Radar – 下载 🦊 Firefox 扩展（zh-CN）*
 
-参考链接 👇
+参考链接：
 
-👍 《RSSHub Radar》可以帮助你快速发现和订阅当前网站RSS的浏览器扩展 https://blog.csdn.net/zhuoyuedelan/article/details/114304062
+👍 https://blog.csdn.net/zhuoyuedelan/article/details/114304062 - *《RSSHub Radar》可以帮助你快速发现和订阅当前网站RSS的浏览器扩展*
 
-RSSHub Radar — 订阅一个 RSS 源不应该这么难 https://sspai.com/post/56079
+https://sspai.com/post/56079 - *RSSHub Radar — 订阅一个 RSS 源不应该这么难*
 
 ### Feedbro
 

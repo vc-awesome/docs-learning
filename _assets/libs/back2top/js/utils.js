@@ -137,29 +137,27 @@ NexT.utils = {
   registerScrollPercent: function() {
     var THRESHOLD = 0;
     var backToTop = document.querySelector('.back-to-top');
-    var readingProgressBar = document.querySelector('.reading-progress-bar');
     // For init back to top in sidebar if page was scrolled after page refresh.
     window.addEventListener('scroll', () => {
-      if (backToTop || readingProgressBar) {
+      if (backToTop) {
         var docHeight = document.querySelector('.markdown-section').offsetHeight + THRESHOLD;
         var winHeight = window.innerHeight;
         var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
-        if (Number.isNaN(contentVisibilityHeight)) {
-          // 防止出现 NaN
-          contentVisibilityHeight = 0;
-        }
+        // console.log('返回顶部 NaN 问题：', contentVisibilityHeight)
         var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
+        // console.log(scrollPercent);
+        if (Number.isNaN(scrollPercent)) {
+          // console.error("backToTop 出现 NaN 问题：", Number.isNaN(scrollPercent));
+          // 防止出现 NaN
+          scrollPercent = 0;
+        }
         if (backToTop) {
           // backToTop.classList.toggle('back-to-top-on', window.scrollY > THRESHOLD);
           backToTop.classList.toggle('back-to-top-on', window.scrollY > 0);
           backToTop.querySelector('span').innerText = Math.round(scrollPercent) + '%';
         }
-        if (readingProgressBar) {
-          readingProgressBar.style.width = scrollPercent.toFixed(2) + '%';
-        }
       }
     });
-
     backToTop && backToTop.addEventListener('click', () => {
       window.anime({
         targets  : document.scrollingElement,
@@ -176,7 +174,14 @@ NexT.utils = {
         var docHeight = document.querySelector('.markdown-section').offsetHeight + THRESHOLD;
         var winHeight = window.innerHeight;
         var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
+        
+        // var contentVisibilityHeight = NaN; // 测试
         var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
+        if (Number.isNaN(scrollPercent)) {
+          // console.error("backToBottom 出现 NaN 问题：", Number.isNaN(scrollPercent));
+          // 防止出现 NaN
+          scrollPercent = 0;
+        }
 
         // console.log(docHeight, winHeight, window.scrollY)
         if (backToBottom) {
@@ -186,14 +191,14 @@ NexT.utils = {
             }
           } else {
             if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
-              console.log("存在");
+              // console.log("TOC 存在");
               if (window.innerWidth <= 991) {
                 backToTop.style.right = '50px';
               } else {
                 backToTop.style.right = '60px';
               }
             } else {
-              console.log("不存在");
+              // console.log("TOC 不存在");
               if (window.innerWidth <= 991) {
                 backToTop.style.right = '20px';
               } else {
@@ -203,18 +208,14 @@ NexT.utils = {
           }
           backToBottom.querySelector('span').innerText = Math.round(scrollPercent) + '%';
         }
-        if (readingProgressBar) {
-          readingProgressBar.style.width = scrollPercent.toFixed(2) + '%';
-        }
       }
     });
-
     backToBottom && backToBottom.addEventListener('click', () => {
       window.anime({
         targets  : document.scrollingElement,
         duration : 500,
         easing   : 'linear',
-        scrollTop: 2000000
+        scrollTop: 200000
       });
     });
   },

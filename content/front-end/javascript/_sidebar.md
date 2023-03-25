@@ -1,2 +1,2 @@
-* [Introduce](/front-end/javascript/)
+* [JavaScript](/front-end/javascript/)
 * [ES6](front-end/javascript/javascript-es6.md)

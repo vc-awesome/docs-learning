@@ -308,3 +308,7 @@ https://www.crx4chrome.com/ - *Crx4Chrome - Download CRX for Chrome Apps & Exten
     - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
 
     - [文库下载器,VIP文档免费下载 | 全文阅读| 开启右键复制](https://greasyfork.org/zh-CN/scripts/437043-%E6%96%87%E5%BA%93%E4%B8%8B%E8%BD%BD%E5%99%A8-vip%E6%96%87%E6%A1%A3%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD-%E5%85%A8%E6%96%87%E9%98%85%E8%AF%BB-%E5%BC%80%E5%90%AF%E5%8F%B3%E9%94%AE%E5%A4%8D%E5%88%B6 "保持源文件排版导出 PDF 文件，解除继续阅读限制，净化弹窗、广告，开启文库本地 VIP，淘宝、天猫、京东商品优惠券查询")
+
+### 下载工具
+
+https://www.crxsoso.com/webstore/detail/pibnhedpldjakfpnfkabbnifhmokakfb - *M3U8 Downloader | Chrome扩展 - Crx搜搜*

@@ -72,15 +72,18 @@ https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
 
 - HTML 教程
   
-  https://www.wangdoc.com/html/ ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+  https://www.wangdoc.com/html/  
+  ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
   
 - ES6 教程
 
-  https://www.wangdoc.com/es6/ ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+  https://www.wangdoc.com/es6/  
+  ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
 
 - JavaScript 教程（*ES5*）
 
-  https://www.wangdoc.com/javascript/ ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
+  https://www.wangdoc.com/javascript/  
+  ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
 
 
 ## 博客

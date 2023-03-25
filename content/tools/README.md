@@ -1,32 +1,36 @@
-!> ⚠️ 各软件应用、系统不断更新换代，长久未更新的软件会出现不适配、淘汰的情况。
+<div class="flash mt-5 flash-error">
+  ⚠️ 各软件应用、系统不断更新换代，长久未更新的软件会出现不适配、淘汰的情况。
+</div>
 
-----
+## 图标示意
 
 <i class="ri-link"></i> 表示 内部链接  
 <i class="ri-external-link-fill"></i> 表示 外部链接  
-<i class="fa fa-shopping-cart"></i> 表示 付费 / 非免费  
+<i class="fa fa-shopping-cart"></i> 表示 付费（ _非免费_ ）  
 <i class="ri-check-double-line"></i> 表示 使用中  
 <i class="ri-open-source-fill medium-green"></i> 表示 开源软件  
+<i class="fa fa-user-circle-o"></i> 表示 可登录  
 
+<i class="fa fa-windows fa-fw"></i> 表示 支持 _Windows_  
+<i class="fa fa-linux fa-fw"></i> 表示 支持 _Linux_  
+<i class="fa fa-apple fa-fw"></i> 表示 支持 _macOS_  
+<i class="ri-android-line"></i> 表示 支持 _Android_  
+<i class="ri-apple-line"></i> 表示 支持 _iOS / iPhone_  
+<i class="fa fa-laptop fa-fw"></i> 表示 支持 _Web_ 网页  
+<i class="fa fa-mobile fa-fw"></i> 表示 支持 [_WAP_](https://baike.baidu.com/item/wap%E7%BD%91%E7%AB%99/3419865)  
+<i class="fa fa-chrome fa-fw"></i> 表示 支持 浏览器扩展  
+<i class="fa fa-code fa-fw"></i> 表示 支持 代码部署  
+<i class="fa fa-terminal fa-fw"></i> 表示 支持 _CLI_ 终端
 
-<i class="fa fa-windows"></i> 表示 支持 Windows  
-<i class="fa fa-linux"></i> 表示 支持 Linux  
-<i class="fa fa-apple"></i> 表示 支持 macOS  
-<i class="ri-android-line"></i> 表示 支持 Android  
-<i class="ri-apple-line"></i> 表示 支持 iOS / iPhone  
-<i class="fa fa-laptop"></i> 表示 支持 Web 网页  
-<i class="fa fa-mobile"></i> 表示 支持 [WAP](https://baike.baidu.com/item/wap%E7%BD%91%E7%AB%99/3419865)  
-<i class="fa fa-chrome"></i> 表示 支持 浏览器扩展  
-<i class="fa fa-code"></i> 表示 支持 代码部署  
-<i class="fa fa-terminal"></i> 表示 支持 CLI 终端
-
-<i class="ri-app-store-line"></i> 表示 支持 App Store 下载  
-![App Store][App Store Icon] 表示 支持 App Store 下载  
-<i class="ri-google-play-line"></i> 表示 支持 Play Store 下载  
-<i class="fa fa-github"></i> 表示 支持 GitHub 下载  
-![腾讯电脑管家][guanjia-qq Icon] 表示 支持“电脑管家-软件管理”下载  
-![F-Droid][F-Droid Icon] 表示 支持 F-Droid 下载  
-![Microsoft Store][Microsoft Store Icon] 表示 支持 Microsoft Store 下载
+<i class="ri-app-store-line"></i> 表示 支持 _App Store_ 下载  
+![App Store][App Store Icon] 表示 支持 _App Store_ 下载  
+<i class="ri-google-play-line"></i> 表示 支持 _Play Store_ 下载  
+<img src="https://www.gstatic.com/android/market_images/web/favicon_v3.ico" alt="Play Store" width="14" /> 表示 支持 _Play Store_ 下载  
+<img src="//www.youxiaohou.com/images/svg/webstore.svg" alt="Chrome 扩展商店" width="14" /> 表示 支持 _Chrome 扩展商店_ 下载  
+<i class="fa fa-github"></i> 表示 支持 _GitHub_ 下载  
+![腾讯电脑管家][guanjia-qq Icon] 表示 支持 *电脑管家-软件管理* 下载  
+![F-Droid][F-Droid Icon] 表示 支持 _F-Droid_ 下载  
+![Microsoft Store][Microsoft Store Icon] 表示 支持 _Microsoft Store_ 下载
 
 [guanjia-qq Icon]: http://guanjia.qq.com/assets/images/v15/favicon.ico ":size=14 腾讯电脑管家"
 [F-Droid Icon]: https://f-droid.org/assets/favicon_yJPr4UNteJc-cseeq16P0Hvl1kDbJjTVYcj-KA6-_Fs=.ico ":size=14 F-Droid"
@@ -44,15 +48,94 @@ _2. https://github.com/vc-awesome/docs-learning/issues/4 - *Bitwarden · Issue #
 _3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-mac/README.md at master · jaywcjlove/awesome-mac · GitHub*_
 
 
+----
+
+<img alt="Get it on Google Play" src="https://user-content.gitlab-static.net/54407afbd0fad55a97199bdd76b9e25b5a2319dc/68747470733a2f2f706c61792e676f6f676c652e636f6d2f696e746c2f656e5f75732f6261646765732f7374617469632f696d616765732f6261646765732f656e5f62616467655f7765625f67656e657269632e706e67" height="80"/>
+
+<img src="https://f-droid.org/badge/get-it-on.png" alt="available on F-Droid app store" height="80"/>
+
+_参考：_  
+_1. https://github.com/iTXTech/Daedalus - GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver._
+
+----
+
+
+<img alt="Get it from Microsoft" src="https://steampp.net/ApplicationMarket/microsoft_Store.svg" height="65"/>
+
+<img alt="Download on the App Store" src="https://steampp.net/ApplicationMarket/app_store.svg" height="60"/>
+
+_参考：_  
+_1. https://steampp.net/ - *Watt Toolkit - 瓦特工具箱(Steam++官网)*_
+
+----
+
+<img alt="Logo Google Play" src="https://emojipedia.org/static/img/footer/logo_google_playstore.svg" title="Get it on Google Play" height="55"/>
+
+<img alt="Logo Apple Store" src="https://emojipedia.org/static/img/footer/logo_apple_appstore.svg" title="Download on the App Store" height="57"/>
+
+<img alt="Symbol Web Browser" src="https://emojipedia.org/static/img/footer/use_in_browser.svg" title="Use in your Browser" height="59"/>
+
+_参考：_  
+_1. https://emojipedia.org/ - 📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍_
+
+----
+
+![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get) *（ via https://github.com/Delta-Icons/android - *GitHub - Delta-Icons/android: Delta Icons for Android*）*
+
+![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get) *（ via https://github.com/Delta-Icons/android - *GitHub - Delta-Icons/android: Delta Icons for Android*）*
+
+
+
+
+## 推荐
+
+1. [PowerToy](#power-toys)
+2. [Microsoft Sticky Notes](#microsoft-sticky-notes)
+3. [Syncthing](#syncthing)
+4. [Typora](#markdown-typora)
+5. [CLaunch](#claunch)
+6. [Ditto](#ditto)
+7. [qq截图独立版](#qq-screenshot)
+8. [7-Zip](#seven-zip)
+9. [有道云笔记](#youdao-note)
+
+
+## 组合使用
+
+### Windows
+
+1. [Phpstorm](tools/应用工具.md#phpstorm) + [PhpStudy](tools/应用工具.md#phpstudy) + [Navicat](tools/应用工具.md#navicat) + [JMeter](tools/应用工具.md#jmeter) + [Git](tools/应用工具.md#git) + [WPS](tools/应用工具.md#wps) + [Fiddler](tools/应用工具.md#fiddler) + [Syncthing](tools/应用工具.md#syncthing) + [Notepad++](tools/应用工具.md#notepad++) + [Sublime](tools/应用工具.md#sublime) + [WinSCP](tools/应用工具.md#winscp) + [Putty](tools/应用工具.md#putty) + [蓝湖](tools/应用工具.md#lanhu)
+
+2. [GitHub Desktop](tools/git#github-desktop) + [Sourcetree](tools/git.md#sourcetree) +  [Typora](tools/应用工具.md#markdown-typora) + [Sublime](tools/应用工具.md#sublime)
+3. [V2ray](/tools/vpn.md#v2ray-%f0%9f%94%a5) + [Browser](/tools/browser) + [Proxy SwitchyOmega](/tools/vpn#proxy-switchyomega-%f0%9f%94%a5)
+4. [Browser](/tools/browser) + [Browser Extensions](/tools/browser-extensions)
+
+
+### macOS
+
+1. [Phpstorm](tools/应用工具.md#phpstorm) + [PhpStudy](tools/应用工具.md#phpstudy) + [MxSrvs](tools/应用工具.md#mxsrvs) + [Navicat](tools/应用工具.md#navicat) + [Git](tools/应用工具.md#git) + [WPS](tools/应用工具.md#wps) + [Syncthing](tools/应用工具.md#syncthing) + [Sublime](tools/应用工具.md#sublime) + [蓝湖](tools/应用工具.md#lanhu) + [Homebrew](/os/mac/development#homebrew)
+
+2. [Sourcetree](/tools/git.md#sourcetree) + [GitHub](/tools/github.md) + [Typora](tools/应用工具.md#markdown-typora) + [Sublime](tools/应用工具.md#sublime)
+
+
+### Android
+
+1. ~~[Markor](tools/应用工具.md#markor) + [Syncthing](tools/应用工具.md#syncthing) + [Termux](/os/mobile/app-termux) + [FolerSync](tools/应用工具.md#folder-sync)~~
+
+2. [personalDNSfilter](/os/mobile/README.md#personaldnsfilter) + [Opera](/os/mobile/browser#opera-%e2%9c%85)
+
+3. [MGit](os/mobile/mgit.md) + [Markor](tools/应用工具.md#markor) + [Termux](os/mobile/app-termux) + [Acode](os/mobile/README.md#acode)
+
+
 ## 安装列表
 
 > 软件安装至电脑 _D_ 或者 _E_ 盘
 
 <details>
-<summary><i style="color:red">展开/收起</i></summary>
+<summary><i style="color:red">展开 / 收起</i></summary>
 
 | 序号（36） | 软件名称                            | 类型             | 下载方式                                                     | 是否登录           |
-| ---- | ----------------------------------- | ---------------- | ------------------------------------------------------------ | ------------------ |
+| :---- | :----------------------------------- | :---------------- | :------------------------------------------------------------ | :------------------ |
 | 1    | 电脑管家                            | 安全             | [下载链接](https://pc.qq.com/detail/1/detail_1841.html)      | :heavy_check_mark: |
 | 2    | QQ                                  | 通讯             | 电脑管家                                                     | :heavy_check_mark: |
 | 3    | 微信                                | 通讯             | 电脑管家                                                     | :heavy_check_mark: |

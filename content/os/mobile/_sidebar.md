@@ -1,8 +1,8 @@
-* [Introduce](/os/mobile/)
+* [Mobile OS](/os/mobile/)
 * **Mobile System**
 * [MIUI](os/mobile/mi.md)
 * **Mobile Apps**
-* [Termux](/os/mobile/app-termux.md)
-* [Browser](/os/mobile/browser.md)
+* [Browser](os/mobile/browser.md)
+* [Termux](os/mobile/app-termux.md)
 * [MGit](os/mobile/mgit.md)
 

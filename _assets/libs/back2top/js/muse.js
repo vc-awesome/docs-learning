@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
       window.addEventListener('sidebar:show', this.showSidebar.bind(this));
       window.addEventListener('sidebar:hide', this.hideSidebar.bind(this));
 
-      let ObjStatus = document.querySelector('.toc-toggle')
+      /*let ObjStatus = document.querySelector('.toc-toggle')
       document.addEventListener('click', (e) => {
         let t = document.querySelector('.toc-nav') // 最外层元素
         if (!e.path.includes(ObjStatus)) {
@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // ObjStatus.innerHTML = '事件触发情况：未触发'
           }
         }
-      })
+      })*/
     },
     mousedownHandler: function(event) {
       mousePos.X = event.pageX;

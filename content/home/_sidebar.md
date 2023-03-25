@@ -4,3 +4,4 @@
 * [软件版本号](/home/语义版本号.md "语义版本号")
 * [目录结构](/home/toc.md "目录结构")
 * [干货分享](/home/good-share.md "干货分享")
+* [文档模板](home/document-template.md)

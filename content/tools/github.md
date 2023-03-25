@@ -28,7 +28,7 @@ https://github.com/twbs - *Bootstrap · GitHub*
 
 https://github.com/elemefe - *饿了么前端 · GitHub*
 
-Metafizzy - https://github.com/metafizzy - *Metafizzy · GitHub*  
+https://github.com/metafizzy - *Metafizzy · GitHub*  
 🏷️  _logo 可爱而关注_ ，_前端_
 
 
@@ -97,6 +97,10 @@ https://www.trackawesomelist.com - *Track Awesome List - Track your Favorite Git
 https://blog.csdn.net/tuna_lxg/article/details/27660611 - *庄表伟：谈谈大家是怎么玩Github的*
 
 https://blog.csdn.net/wang975380547/article/details/78095299 - *GitHub的各标签的功能说明以及使用方法*
+
+### GitHub Topics
+
+https://github.com/topics - *Topics on GitHub · GitHub*
 
 ### GitHub Issues
 
@@ -221,6 +225,16 @@ GitHub：https://github.com/badges/shields
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
 ```
 
+[![F-Droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker?label=F-Droid%20version)](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.trianguloy.urlchecker.yml) _via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
+```markdown
+[![F-Droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker?label=F-Droid%20version)](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.trianguloy.urlchecker.yml)
+```
+
+[![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.trianguloy.urlchecker%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)](https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker) _via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
+```markdown
+[![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.trianguloy.urlchecker%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)](https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker)
+```
+
 [![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
 ```markdown
 [![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
@@ -309,15 +323,10 @@ GitHub：https://github.com/badges/shields
 
 #### Chat
 
-<details class="details-reset"><summary class="btn">DEMO <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-
-
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)]()
 ```markdown
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](聊天室 URL)
 ```
-</div>
-</details>
 
 
 #### Stability
@@ -344,6 +353,13 @@ https://github.com/badges/stability-badges - *GitHub - badges/stability-badges: 
 
 [![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 
+[<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png"
+alt="Creative Commons Attribution 4.0 International"
+height="40">](http://creativecommons.org/licenses/by/4.0/) _via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
+
+https://docs.github.com/zh/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository - *许可仓库 - GitHub Docs*
+
+https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE - *mitmproxy/LICENSE at main · mitmproxy/mitmproxy*
 
 
 #### For the Badge
@@ -356,9 +372,37 @@ https://github.com/badges/stability-badges - *GitHub - badges/stability-badges: 
 
 ## 工具
 
+### 官方工具
+
+#### GitHub Desktop
+
+https://github.com/desktop/desktop - *GitHub - desktop/desktop: Focus on what matters instead of fighting with Git.*
+
+https://desktop.github.com/ - *GitHub Desktop | Simple collaboration from your desktop*
+
+https://docs.github.com/zh/get-started/using-github/github-desktop - *GitHub Desktop - GitHub Docs*
+
+https://docs.github.com/zh/desktop - *GitHub Desktop - GitHub Docs*
+
+
+#### GitHub Mobile
+
+https://github.com/mobile - *GitHub Mobile · GitHub*
+
+https://docs.github.com/zh/get-started/using-github/github-mobile - *GitHub Mobile - GitHub Docs*
+
+#### GitHub CLI
+
+https://github.com/cli/cli - *GitHub - cli/cli: GitHub’s official command line tool*
+
+https://cli.github.com/ - *GitHub CLI | Take GitHub to the command line*
+
+https://docs.github.com/zh/github-cli - *GitHub CLI - GitHub Docs*
+
+
 ### 扩展程序
 
-https://github.com/topics/github-extension
+https://github.com/topics/github-extension - *github-extension · GitHub Topics · GitHub*
 
 [浏览器扩展程序 - GitHub](/tools/browser-extensions?id=github)
 
@@ -367,12 +411,13 @@ https://github.com/topics/github-extension
 
 ### 访问加速
 
-1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你却还卡在无法访问？*
+1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw - *上万良心软件都在GitHub，你却还卡在无法访问？*  
+https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你却还卡在无法访问？*
 
 - UsbEAm Hosts Editor（WIN） https://www.dogfight360.com/blog/475/
 - steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/
 - FastGithub（WIN／Mac／Linux） https://github.com/dotnetcore/FastGithub
-- Steam++（WIN／Mac／Linux／Android） https://steampp.net/
+- Steam++（WIN／Mac／Linux／Android／iOS） https://steampp.net/
 
 2️⃣ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg - *这里有超1亿个开源项目，结果你说它访问慢不好用？*
 

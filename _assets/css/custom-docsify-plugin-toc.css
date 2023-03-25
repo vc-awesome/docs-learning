@@ -221,6 +221,12 @@ aside.toc-nav {
   vertical-align: top;
   width: 100%;
 }
+.toc-toggle .toggle-line-middle {
+  width: 80%;
+}
+.toc-toggle .toggle-line-last {
+  width: 60%;
+}
 .toc-toggle .toggle-line:not(:first-child) {
   margin-top: 3px;
 }
@@ -247,6 +253,7 @@ aside.toc-nav {
 .toc-toggle.toggle-close .toggle-line-last {
   top: -5px;
   transform: rotate(45deg);
+  width: 100%;
 }
 .toc-sidebar-toggle {
   background: #222;

@@ -52,6 +52,7 @@ GitHub：
 ## Kiwi Browser 
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.kiwibrowser.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 > Open-Source
 
@@ -67,6 +68,7 @@ https://github.com/kiwibrowser - *kiwibrowser (Kiwi Browser) · GitHub*
 ## Yander Browser
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.yandex.browser.beta%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 https://browser.yandex.com/ - *Download Yandex Browser*
 
@@ -78,7 +80,9 @@ https://browser.yandex.com/ - *Download Yandex Browser*
 
 ## Via ✅
 
-![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label) ![GitHub last commit](https://badgen.net/github/last-commit/tuyafeng/Via?icon=github&color=blue)
+![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![GitHub last commit](https://badgen.net/github/last-commit/tuyafeng/Via?icon=github&color=blue)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dmark.via%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 > Open-Source
 
@@ -105,6 +109,7 @@ https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository 
 ## Opera ✅
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.opera.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
 
@@ -129,6 +134,7 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 ![](https://badgen.net/f-droid/v/com.duckduckgo.mobile.android?icon=f-droid)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.duckduckgo.mobile.android%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 🧱 https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
 
@@ -174,6 +180,7 @@ http://app.xiaomi.com/detail/105559 - *小米浏览器-保护隐私安全上网*
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 ![](https://img.shields.io/github/stars/greatfire/wiki?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.kiwibrowser.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 
 🧱 https://freebrowser.org/ - *免费下载自由浏览 app，了解墙外最新资讯*

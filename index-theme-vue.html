@@ -12,7 +12,6 @@
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
   <!-- Font icon -->
-  <link rel="stylesheet" href="//unpkg.com/file-icons-js@latest/css/style.css">
   <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@latest/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
@@ -20,6 +19,7 @@
   <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/favicon-docsify.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
   <!-- Using Local -->
   <!-- ----------------------------------------------------------------- -->
@@ -47,7 +47,7 @@
 <!-- Table of Contents -->
 <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
 <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
-<button class="toc-toggle toc-sidebar-toggle btn">
+<button class="toc-toggle toc-sidebar-toggle btn rounded-0">
   <span class="toggle-line toggle-line-first"></span>
   <span class="toggle-line toggle-line-middle"></span>
   <span class="toggle-line toggle-line-last"></span>
@@ -101,7 +101,7 @@
           '<hr/>',
           '<footer>',
           '<span><img src="//github.githubassets.com/images/icons/emoji/octocat.png" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
-          '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.</span>',
+          '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
           themeHtml,
           '</footer>'
         ].join('');
@@ -142,8 +142,8 @@
           }
           var editHtml = '📝[EDIT DOCUMENT](' + url + ')';
           
-          editHtml += ' | 🚀[BACK HOME](/) | <code>📂<i><u>PATH:' + decodeURIComponent(vm.route.file) +'</u></i></code>\n';
-
+          editHtml += ' | 📂<i class="color-fg-subtle"><u>PATH:' + decodeURIComponent(vm.route.file) +'</u></i>\n';
+          //  🚀[BACK HOME](/) |
           return (
               editHtml +
               html
@@ -156,18 +156,43 @@
 
 <!-- Local -->
 <!-- ----------------------------------------------------------------- -->
-<!-- Table of Contents -->
-<script>
-  window.$docsify.plugins.push(// 
+
+<!-- <script>
+  window.$docsify.plugins.push(
     function(hook, vm) {
       hook.doneEach(function() {
         setTimeout(function(){
-          document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
+          // 重新渲染所有元素
+          window.mermaid.contentLoaded();
+        }, 1)
+      })
+    }
+  )
+  
+  window.$docsify.mermaidConfig = {
+    querySelector: ".mermaid"
+  };
+</script> -->
 
+<!-- Table of Contents -->
+<script>
+  window.$docsify.plugins.push(
+    function(hook, vm) {
+      
+      console.groupCollapsed("开始调试 Table of Contents");
+      
+      hook.doneEach(function() {
+        // mermaid 重新渲染所有元素
+        window.mermaid.contentLoaded();
+        
+        setTimeout(function(){
+          document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
+          
+          // 添加遮罩层
           var para = document.createElement("div");
           para.setAttribute("class", "flisxm");
           document.querySelector(".toc-nav").appendChild(para);
-           
+          
           // 选择需要观察变动的节点
           const targetNode = document.querySelector('.toc-nav');
           
@@ -179,25 +204,27 @@
             // Use traditional 'for loops' for IE 11
             for(let mutation of mutationsList) {
               if (mutation.type === 'childList') {
-                console.log('A child node has been added or removed.');
+                // console.log('A child node has been added or removed.');
               }
               else if (mutation.type === 'attributes') {
-                //console.log(document.querySelector('body').classList.toggle('toc-body', true))
-                console.log(document.querySelector('.toc-nav-hover'))
+                // console.log(document.querySelector('.toc-nav-hover'))
                 if (document.querySelector('.toc-nav-hover')) {
-                  console.log("TOC 开启");
+                  // console.info("TOC 开启");
                   document.querySelector('body').classList.toggle('toc-body', true);
                   document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
                   document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
                   document.querySelector('.app-nav').style.display = "none";
                 } else {
-                  console.log("TOC 关闭");
+                  // console.error("TOC 关闭");
                   document.querySelector('body').classList.toggle('toc-body', false);
-                  document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
+                  const myObj = document.querySelector('.flisxm');
+                  if (typeof myObj !== "undefined" && myObj !== null) {
+                    document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
+                  }
                   document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
                   document.querySelector('.app-nav').style.display = "block";
                 }
-                console.log('The ' + mutation.attributeName + ' attribute was modified.');
+                // console.warn('The ' + mutation.attributeName + ' attribute was modified.');
               }
             }
           };
@@ -205,8 +232,15 @@
           // 创建一个观察器实例并传入回调函数
           const observer = new MutationObserver(callback);
           // 以上述配置开始观察目标节点
-          observer.observe(targetNode, config);
-
+          try {
+            //异常的抛出
+            observer.observe(targetNode, config);
+          } catch(e) {
+            //异常的捕获与处理
+          } finally {
+           //结束处理
+          }
+          
           // 之后，可停止观察
           //observer.disconnect();
         
@@ -216,6 +250,7 @@
           });
         }, 1);
       });
+      console.groupEnd("结束调试 Table of Contents");
     },
   )
   
@@ -240,13 +275,10 @@
         }
         // 获取未来元素的属性值
         setTimeout(function() {
-          console.log(Docsify.dom.find('.toc-toggle-on'))
           if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
-            console.log("存在");
             document.querySelector('.back-to-top').classList.toggle('toc', true);
             document.querySelector('#back2bottom').classList.toggle('toc-b', true);
           } else {
-            console.log("不存在");
             document.querySelector('.back-to-top').classList.toggle('toc', false);
             document.querySelector('#back2bottom').classList.toggle('toc-b', false);
           }
@@ -305,11 +337,29 @@
 <script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
 
 <!-- 引入组件库 -->
-<script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
 <script src="//unpkg.com/element-ui/lib/index.js"></script>
 
 <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
 
 <script src="_assets/libs/docsify-copy-code.js"></script>
+
+<script src="_assets/js/docsify-code-text-wrap.js"></script>
+
+<!-- LaTeX display engine -->
+<script src="//fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<!--  docsify-latex plugin -->
+<script src="//fastly.jsdelivr.net/npm/docsify-latex@0"></script>
+
+<script type="module">
+  import mermaid from "//fastly.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+  mermaid.initialize({ startOnLoad: true });
+  window.mermaid = mermaid;
+</script>
+<script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
+
+<!-- 手机端网页调试 -->
+<script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
+<script>eruda.init();</script>
 </body>
 </html>

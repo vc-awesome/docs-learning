@@ -35,7 +35,7 @@ keywords: [Pandoc, Tutorial, Export]
 
 应用编辑器
 
-1. [Typora](/tools/应用工具#markdown-typora)
+1. [Typora](/tools/应用工具#markdown-Typora)
 
 2. [Markor](os/mobile/README.md#markor)
 
@@ -44,26 +44,26 @@ keywords: [Pandoc, Tutorial, Export]
 
 实例一：
 
-<img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/icon_Ab31f6rFiG70NRqjyOH87znJd2y38yiEg2Tz_lY791w=.png" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> An awesome Libre and Open Source RSS feed reader
+<img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/icon_Ab31f6rFiG70NRqjyOH87znJd2y38yiEg2Tz_lY791w=.png" alt="package icon" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> An awesome Libre and Open Source RSS feed reader
 
 <br/>
 
 _📋复制模板 - 方角图片_
 
 ``` markdown
-<img src="" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;">
+<img src="" alt="package icon" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;">
 ```
 
 实例二：
 
-<img src="https://f-droid.org/repo/net.gsantner.markor/en-US/icon_jm7Yt2QTE4iuxQp_T98o-PSJ4m6GPzmawSrx99KYiE8=.png" align="left" width="78" hspace="0" vspace="0">Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+<img src="https://f-droid.org/repo/net.gsantner.markor/en-US/icon_jm7Yt2QTE4iuxQp_T98o-PSJ4m6GPzmawSrx99KYiE8=.png" alt="package icon" align="left" width="78" hspace="0" vspace="0">Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
 
 <br/>
 
 _📋复制模板 - 圆角图片_
 
 ``` markdown
-<img src="" align="left" width="78" hspace="0" vspace="0">
+<img src="" alt="package icon" align="left" width="78" hspace="0" vspace="0">
 ```
 
 参考：
@@ -73,17 +73,17 @@ _📋复制模板 - 圆角图片_
 
 ## 参考 🔥
 
-[Markdown 指南](https://www.markdownguide.org/)
+1. https://www.markdownguide.org/ - *Markdown 指南*
+2. https://www.markdown.xyz/ - *Markdown 指南中文版*
+3. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
+4. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
 
-[Markdown 指南中文版](https://www.markdown.xyz/)
+----
 
-[Typora 完全使用详解](https://sspai.com/post/54912)
-
-[Markdown 语法 with Typora](https://www.jianshu.com/p/49dd84559d3b)
-
-[Typora Markdown 手册](https://www.jianshu.com/p/b30955885e6d)
-
-https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
+1. https://sspai.com/post/54912 - *Typora 完全使用详解*
+2. https://www.jianshu.com/p/49dd84559d3b - *Markdown 语法 with Typora*
+3. https://www.jianshu.com/p/b30955885e6d - *Typora Markdown 手册*
+4. https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
 
 
 ## 语法
@@ -606,7 +606,7 @@ ___
 
 ##### **Rendered**
 
-下列的*渲染效果*仅在`typora`编辑器可见
+下列的*渲染效果*仅在`Typora`编辑器可见
 
 [TOC]
 
@@ -712,12 +712,15 @@ That is so funny! :joy:
 
 ==highlight==
 
+I need to highlight these <mark>very important words</mark>.
 
 
 ##### **Markdown**
 
 ```markdown
 ==highlight==
+
+I need to highlight these <mark>very important words</mark>.
 ```
 
 <!-- tabs:end -->
@@ -732,7 +735,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 #### 上标
 
-> 需开启`typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
+> 需开启`Typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
 
 <!-- tabs:start -->
 
@@ -740,17 +743,21 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 X^2^
 
+X<sup>2</sup>
+
 ##### **Markdown**
 
 ```markdown
 X^2^
+
+X<sup>2</sup>
 ```
 
 <!-- tabs:end -->
 
 #### 下标
 
-> 需开启`typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
+> 需开启`Typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
 
 <!-- tabs:start -->
 
@@ -758,12 +765,14 @@ X^2^
 
 H~2~O, X~long\ text~
 
-
+H<sub>2</sub>O
 
 ##### **Markdown**
 
 ```markdown
 H~2~O, X~long\ text~
+
+H<sub>2</sub>O
 ```
 
 
@@ -774,11 +783,27 @@ H~2~O, X~long\ text~
 
 #### 图表
 
-[Draw Diagrams With Markdown 手册](http://support.typora.io/Draw-Diagrams-With-Markdown/)
+> Diagrams
+
+🪜 http://support.Typora.io/Draw-Diagrams-With-Markdown/ - *Draw Diagrams With Markdown - Typora Support*
+- Sequence Diagrams - _序列图_
+- Flowcharts - _流程图_
+- Gantt Charts - _甘特图_
+- Class Diagrams - _类图_
+- State Diagrams - _状态图_
+- Pie Charts - _饼图_
+- Requirement Diagram - _需求图_
+- 更多查阅上述链接
+
+JS 插件：
+1. https://github.com/mermaid-js/mermaid - *GitHub - mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown*
+2. https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A plugin to render mermaid diagrams in docsify*
 
 <!-- tabs:start -->
 
 ##### **Rendered**
+
+_序列图_ （依赖 [js-sequence-diagrams](开发框架/javascript-plugins.md#流程图) 插件）
 
 ```sequence
 Alice->Bob: Hello Bob, how are you?
@@ -786,9 +811,114 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
+<details class="details-reset"><summary class="btn">依赖 Mermaid 插件 <span class="dropdown-caret"></summary>
+<div class="border p-3 mt-2">
 
+
+_序列图_
+
+```mermaid
+%% Example of sequence diagram
+  sequenceDiagram
+    Alice->>Bob: Hello Bob, how are you?
+    alt is sick
+    Bob->>Alice: Not so good :(
+    else is well
+    Bob->>Alice: Feeling fresh like a daisy
+    end
+    opt Extra response
+    Bob->>Alice: Thanks for asking
+    end
+```
+
+_流程图_
+
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+```
+
+_甘特图_
+
+```mermaid
+%% Example with selection of syntaxes
+        gantt
+        dateFormat  YYYY-MM-DD
+        title Adding GANTT diagram functionality to mermaid
+
+        section A section
+        Completed task            :done,    des1, 2014-01-06,2014-01-08
+        Active task               :active,  des2, 2014-01-09, 3d
+        Future task               :         des3, after des2, 5d
+        Future task2               :         des4, after des3, 5d
+
+        section Critical tasks
+        Completed task in the critical line :crit, done, 2014-01-06,24h
+        Implement parser and jison          :crit, done, after des1, 2d
+        Create tests for parser             :crit, active, 3d
+        Future task in critical line        :crit, 5d
+        Create tests for renderer           :2d
+        Add to mermaid                      :1d
+
+        section Documentation
+        Describe gantt syntax               :active, a1, after des1, 3d
+        Add gantt diagram to demo page      :after a1  , 20h
+        Add another diagram to demo page    :doc1, after a1  , 48h
+
+        section Last section
+        Describe gantt syntax               :after doc1, 3d
+        Add gantt diagram to demo page      : 20h
+        Add another diagram to demo page    : 48h
+```
+
+_类图_
+
+```mermaid
+classDiagram
+      Animal <|-- Duck
+      Animal <|-- Fish
+      Animal <|-- Zebra
+      Animal : +int age
+      Animal : +String gender
+      Animal: +isMammal()
+      Animal: +mate()
+      class Duck{
+          +String beakColor
+          +swim()
+          +quack()
+      }
+      class Fish{
+          -int sizeInFeet
+          -canEat()
+      }
+      class Zebra{
+          +bool is_wild
+          +run()
+      }
+```
+
+_状态图_
+
+```mermaid
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
+</div>
+</details>
 
 ##### **Markdown**
+
+_时序图_
 
 ~~~markdown
 ```sequence
@@ -806,10 +936,36 @@ Bob-->Alice: I am good thanks!
 
 #### 数学公式
 
+> LaTex 语法
+
+🪜 https://support.typora.io/Math/ - *Math and Academic Functions - Typora Support*
+
+JS 插件：
+1. https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docsify.js plugin for typesetting LaTeX with display engines from markdown.*
 
 
-#### 内联公式
+<!-- tabs:start -->
 
+##### **Rendered**
+
+$$
+E=mc^2
+$$
+
+##### **Markdown**
+
+``` markdown
+$$
+E=mc^2
+$$
+```
+
+<!-- tabs:end -->
+
+
+##### 内联公式
+
+🪜 https://support.typora.io/Math/#inline-math - *Math and Academic Functions - Typora Support*
 
 
 #### 自动将 URL 转换为链接
@@ -887,7 +1043,6 @@ Second Term
 
 ---
 
-```html
 <dl>
 <dt>First Term</dt>
 <dd>This is the definition of the first term.</dd>
@@ -895,7 +1050,6 @@ Second Term
 <dd>This is one definition of the second term. </dd>
 <dd>This is another definition of the second term.</dd>
 </dl>
-```
 
 
 
@@ -954,20 +1108,16 @@ keywords: [Pandoc, Tutorial, Export]
 ```
 
 
-
 <!-- tabs:end -->
 
-[`YAML Front Matter`用法](https://support.typora.io/YAML/)
+🪜 [_YAML Front Matter_ 用法](https://support.Typora.io/YAML/)
 
 ```yaml
-title: typora
+title: Typora
 ```
 
 ```yaml
-typora-root-url: image
+Typora-root-url: image
 ```
 
-
-
-[`typora-root-url`用法](https://support.typora.io/Markdown-Reference/#images)
-
+🪜 [_Typora-root-url_ 用法](https://support.Typora.io/Markdown-Reference/#images)
