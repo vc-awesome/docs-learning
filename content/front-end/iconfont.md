@@ -281,9 +281,7 @@ https://unpkg.com/ionicons/
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/file-icons/atom?icon=github&color=blue)
 
 <i class="fa fa-github fa-lg"></i>
-https://github.com/file-icons/atom
-- `Via` <i class="fa fa-github fa-lg"></i>
-https://github.com/homerchen19/github-file-icons *谷歌扩展程序*
+https://github.com/file-icons/atom ⇒ *Via https://github.com/homerchen19/github-file-icons - *谷歌扩展程序**
 
 <span class="icon octicon-file npm-icon medium-red"></span>
 https://www.jsdelivr.com/package/npm/file-icons-js
@@ -339,7 +337,7 @@ https://github.com/react-icons/react-icons
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/google/material-design-icons?icon=github&color=blue)
 
-!> <i class="bi bi-ladder"></i> **Google** 产品
+!> 🪜 **Google** 产品
 
 <i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons
 

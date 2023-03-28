@@ -593,12 +593,13 @@ https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注�
 https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
 
+## 文件
 
-## .gitignore
+### .gitignore
 
 [git如何忽略已经提交的文件 (.gitignore文件无效)](https://www.jianshu.com/p/e5b13480479b)
 
-### 忽略文件
+#### 忽略文件
 
 方式 1：忽略跟踪*modified*状态的文件
 
@@ -638,7 +639,7 @@ git push
 
 
 
-### 基础操作
+#### 基础操作
 
 > 如果文件已经存在于远程仓库中，是无法通过`.gitignore`文件来忽略的!!! 重新忽略，使用下面的命令
 
@@ -668,7 +669,7 @@ git push
 
 
 
-### 配置语法
+#### 配置语法
 
 以斜杠`/`开头表示目录
 
@@ -684,7 +685,7 @@ git push
 
 
 
-### 示例说明
+#### 示例说明
 
 规则：fd1/* [^说明1]
 
@@ -712,7 +713,7 @@ git push
 [Git - .gitignore文件的用法](https://www.cnblogs.com/yulinlewis/p/10231035.html)
 
 
-## .gitattributes
+### .gitattributes
 
 https://www.bookstack.cn/read/git-doc-zh/docs-39.md - *gitattributes - 《Git 中文参考》 - 书栈网 · BookStack*
 
@@ -863,9 +864,6 @@ https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
 
 ### commit emoji 😜
 
-
-https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代码说明时添加emoji小图标*
-
 ?> An emoji guide for your commit messages. 😜  
 <i class="bi bi-translate dark-yellow"></i> 提交消息的表情符号指南。 😜
 
@@ -873,6 +871,14 @@ https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代�
 
 <i class="fa fa-github fa-lg"></i> https://github.com/carloscuesta/gitmoji
 
+参考：
+
+https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代码说明时添加emoji小图标*
+
+
+### commit 提交规范
+
+https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
 
 
 ### 在本地局域网中的两台电脑间同步代码

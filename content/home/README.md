@@ -8,6 +8,8 @@ https://www.githubs.cn/collections/style-guide - *Github上编码规范开源项
 
 https://www.w3cschool.cn/wematy/ - *腾讯alloyteam团队前端代码规范_w3cschool*
 
+https://juejin.cn/post/6893891476913291278 - *推荐几个大厂的前端代码规范，学会了，你也能写出诗一样的代码！ - 掘金*
+
 ### 代码规范
 
 https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格* 🇨🇳

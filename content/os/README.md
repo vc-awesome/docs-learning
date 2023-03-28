@@ -41,4 +41,4 @@ https://baike.baidu.com/item/DOS/32025 - *DOS（操作系统）_百度百科*
 
 ### DOS 命令
 
-https://baike.baidu.com/item/DOS%E5%91%BD%E4%BB%A4 - *DOS命令_百度百科*
+<https://baike.baidu.com/item/DOS命令> - *DOS命令_百度百科*

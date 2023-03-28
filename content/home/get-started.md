@@ -2,7 +2,7 @@
 
 - [ ] [markdown yaml front matter](/tools/markdown)
 - [ ] [github](/tools/github)
-- [ ] [github awesome 系列](/tools/github?id=awesome)
+  - [ ] [github awesome 系列](/tools/github?id=awesome)
 - [ ] API
   - [ ] [YApi](/tools/yapi)
   - [ ] 开放 API 授权
@@ -27,21 +27,27 @@
     
     - 知乎话题搜索
   
-    ```js
-    https://www.zhihu.com/search?type=content&q=%s
-```
+        ```url
+        https://www.zhihu.com/search?type=content&q=%s
+        ```
 
     - 百度关键词搜索
   
-    ```js
-    https://www.baidu.com/s?word=%s
-```
+        ```url
+        https://www.baidu.com/s?word=%s
+        ```
 
     - GitHub 关键词搜索
   
-    ```js
-    https://github.com/search?q=%s
-```
+        ```url
+        https://github.com/search?q=%s
+        ```
+        
+    - Stack Overflow 搜索
+
+        ```url
+        https://stackoverflow.com/
+        ```
 
 _注：其中 %s 是关键字的占位符。_
 

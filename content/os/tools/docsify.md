@@ -71,7 +71,7 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 
 ## Directory Structure
 
-```bash
+```wiki
 +-- _images // 功能截图...
 |   +-- zh-cn
 |   +-- ...
@@ -82,14 +82,6 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 
 ## Technologies
 
-- [PrismJS](开发框架/javascript-plugins.md#prismjs)
-    ``` html
-    <script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
-    <script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
-    <script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
-    <script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
-    <script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
-    ```
 - [vue-clipboard2](开发框架/javascript-plugins.md#vue-clipboard2)
     ``` html
     <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
@@ -291,22 +283,138 @@ https://docsify.js.org/#/language-highlight - *Language highlighting*
 
 https://prismjs.com/index.html - *Prism*
 
+https://prismjs.com/index.html#supported-languages - *Supported languages*
+
+https://unpkg.com/browse/prismjs/ - *UNPKG - prismjs*
+
+[Prism](开发框架/javascript-plugins.md#prismjs)
+``` html
+<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
+```
+
+php
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
+```
+
+sql
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
+```
+
+bash,sh,shell
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
+```
+
+markdown,md
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
+```
+
+uri,url
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
+```
+
+
 
 #### 代码行号
 
+!> ~~没玩起来😶。~~
+
 https://prismjs.com/plugins/line-numbers/ - *Line Numbers ▲ Prism plugins*
 
-https://segmentfault.com/a/1190000009122617 - *代码高亮 - 漂亮的代码语法高亮插件Prism.js简单使用文档 - 严颖专栏 - SegmentFault 思否*
+https://www.bootcdn.cn/prism/ - *prism (v9000.0.1) - Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet. | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
+
+
+```html
+<!-- 代码块行号 -->
+<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+<style>
+  /*
+   * Fix line number in code block. 
+   * Change this overflow attr to <pre> not the <code>.
+   */
+  .markdown-section pre[data-lang] {
+    overflow: auto !important;
+  }
+  .markdown-section pre[data-lang] code {
+    /*overflow: visible;*/
+    padding: 1.25rem 3.25rem;
+  }
+  .line-numbers .line-numbers-rows {
+    left: -1px;
+    border-right : 1px solid #fff;
+    /* Fix paddings to align with code.*/
+    padding: 1.25rem 0; /* Same as code block */
+  }
+</style>
+```
+
+```html
+<!-- 代码块行号 -->
+<script>
+window.$docsify.markdown = {
+  renderer: {
+    /* Change code block rendering. Add line-numbers class.*/
+    code: function (code, lang) {
+      let cc = document.createElement('code');
+      cc.textContent = code;
+      cc.setAttribute('class', 'language-' + lang);
+      return '<pre data-lang="' + lang + '" class="line-numbers">' + cc.outerHTML + '</pre>';
+    }
+  }
+}
+window.$docsify.plugins.push(
+  function (hook, vm) {
+    hook.doneEach(function (html) {
+      Prism.highlightAll();
+
+      var o = Array.apply(null, document.querySelectorAll("pre[data-lang] code"));
+      o.forEach(function (o) {
+        var linesNum = (1 + o.textContent.split('\n').length);
+        var lineNumbersWrapper;
+
+        var lines = new Array(linesNum);
+        lines = lines.join('<span></span>');
+
+        lineNumbersWrapper = document.createElement('span');
+        lineNumbersWrapper.className = 'line-numbers-rows';
+        lineNumbersWrapper.innerHTML = lines;
+
+        o.appendChild(lineNumbersWrapper);
+      })
+    })
+  }
+)
+</script>
+```
+
+
+参考：
+
+1. https://segmentfault.com/a/1190000009122617 - *代码高亮 - 漂亮的代码语法高亮插件Prism.js简单使用文档 - 严颖专栏 - SegmentFault 思否*
+
+2. https://stackoverflow.com/questions/59508413/static-html-generation-with-prismjs-how-to-enable-line-numbers/64089448#64089448 - *node.js - Static html generation with prismjs - how to enable line-numbers? - Stack Overflow*
 
 #### 代码块折行
 
-https://www.rollupjs.com/ - *简介 | rollup.js 中文文档 | rollup.js中文网*
+参考：
 
-https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
+1. https://www.rollupjs.com/ - *简介 | rollup.js 中文文档 | rollup.js中文网*
+
+2. https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
 
 #### 复制代码至剪贴板
-
-!> 没玩起来😶。
 
 todo
 - 添加代码行数

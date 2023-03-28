@@ -1,8 +1,12 @@
+## 官方
+
+[Vue.js](开发框架/README?id=vuejs)
+
 ## 项目开发中遇到的问题
 
 1. `CDN`方式引入`vant`时，无法使用图片懒加载
 
-   ```vue
+   ```js
    // 通过 CDN 引入时不会自动注册 Lazyload 组件
    // 可以通过下面的方式手动注册
    
@@ -39,7 +43,7 @@
 
 下载并引入`vuex`
 
-```vue
+```js
 import vue from 'vue';
 import vuex from 'vuex';
 
@@ -81,7 +85,7 @@ import`
 
 ### qs
 
-```vue
+```js
 import qs from 'qs';
 
 Vue.prototype.qs = qs;

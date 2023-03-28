@@ -12,19 +12,42 @@
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
   <!-- Font icon -->
+  <link rel="stylesheet" href="//unpkg.com/file-icons-js@latest/css/style.css">
   <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@latest/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
   <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
   <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
   <!-- Shortcut icon-->
-  <link rel="shortcut icon" href="_media/favicon-docsify.ico">
+  <link rel="shortcut icon" href="_media/octocat.png.webp">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
   <!-- Using Local -->
   <!-- ----------------------------------------------------------------- -->
   <link rel="stylesheet" href="_assets/css/custom.css">
   <link rel="stylesheet" href='_assets/css/vc-animation.css'>
+  
+  <!-- 代码块行号 -->
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+  <style>
+    /*
+     * Fix line number in code block. 
+     * Change this overflow attr to <pre> not the <code>.
+     */
+    .markdown-section pre[data-lang] {
+      overflow: auto !important;
+    }
+    .markdown-section pre[data-lang] code {
+      /*overflow: visible;*/
+      padding: 1.25rem 3.25rem;
+    }
+    .line-numbers .line-numbers-rows {
+      left: -1px;
+      border-right : 1px solid #fff;
+      /* Fix paddings to align with code.*/
+      padding: 1.25rem 0; /* Same as code block */
+    }
+  </style>
 </head>
 <body>
 <div id="app"></div>
@@ -86,7 +109,6 @@
     mergeNavbar: false,
     
     formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
-
     plugins: [
       // 添加页脚
       function (hook) {
@@ -100,7 +122,7 @@
         var footer = [
           '<hr/>',
           '<footer>',
-          '<span><img src="//github.githubassets.com/images/icons/emoji/octocat.png" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
+          '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
           '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
           themeHtml,
           '</footer>'
@@ -173,6 +195,43 @@
     querySelector: ".mermaid"
   };
 </script> -->
+
+<!-- 代码块行号 -->
+<script>
+window.$docsify.markdown = {
+  renderer: {
+    /* Change code block rendering. Add line-numbers class.*/
+    code: function (code, lang) {
+      let cc = document.createElement('code');
+      cc.textContent = code;
+      cc.setAttribute('class', 'language-' + lang);
+      return '<pre data-lang="' + lang + '" class="line-numbers">' + cc.outerHTML + '</pre>';
+    }
+  }
+}
+window.$docsify.plugins.push(
+  function (hook, vm) {
+    hook.doneEach(function (html) {
+      Prism.highlightAll();
+
+      var o = Array.apply(null, document.querySelectorAll("pre[data-lang] code"));
+      o.forEach(function (o) {
+        var linesNum = (1 + o.textContent.split('\n').length);
+        var lineNumbersWrapper;
+
+        var lines = new Array(linesNum);
+        lines = lines.join('<span></span>');
+
+        lineNumbersWrapper = document.createElement('span');
+        lineNumbersWrapper.className = 'line-numbers-rows';
+        lineNumbersWrapper.innerHTML = lines;
+
+        o.appendChild(lineNumbersWrapper);
+      })
+    })
+  }
+)
+</script>
 
 <!-- Table of Contents -->
 <script>
@@ -253,7 +312,6 @@
       console.groupEnd("结束调试 Table of Contents");
     },
   )
-  
   window.$docsify.toc = {
     tocMaxLevel: 5,
     target: 'h1, h2, h3, h4, h5, h6'
@@ -295,6 +353,10 @@
 <!-- CDN unpkg -->
 <!-- ----------------------------------------------------------------- -->
 <script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
 <script>
   // 全文搜索
   window.$docsify.search = {
@@ -347,7 +409,7 @@
 <script src="_assets/js/docsify-code-text-wrap.js"></script>
 
 <!-- LaTeX display engine -->
-<script src="//fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="//fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer async="true"></script>
 <!--  docsify-latex plugin -->
 <script src="//fastly.jsdelivr.net/npm/docsify-latex@0"></script>
 
@@ -361,5 +423,44 @@
 <!-- 手机端网页调试 -->
 <script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
 <script>eruda.init();</script>
+
+<script>
+window.$docsify.plugins.push(
+  // 手机端顶部导航栏 :hover 触控处理
+  function(hook, vm) {
+    hook.doneEach(function() {
+      
+      var ele = document.querySelector("nav.app-nav");
+      var els = document.querySelectorAll(".app-nav li");
+      
+      setTimeout(function() {
+        // console.log(window.getComputedStyle(ele).pointerEvents)
+        // console.log(window.getComputedStyle(ele).width)
+        if (window.getComputedStyle(ele).opacity == 1) {
+          els.forEach(function(e) {
+            e.style.pointerEvents = "auto";
+          })
+        }
+      }, 10)
+      
+      document.querySelector("body").addEventListener("click", function(e) {
+        // e.preventDefault()
+        if (window.getComputedStyle(ele).opacity == 1) {
+          els.forEach(function(e) {
+            e.style.pointerEvents = "auto";
+          })
+        } else {
+          els.forEach(function(e) {
+            e.style.pointerEvents = "none";
+          })
+        }
+        // console.log(e, this)
+      }, true)
+      
+    })
+  }
+)
+</script>
+
 </body>
 </html>

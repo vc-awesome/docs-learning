@@ -74,6 +74,13 @@ https://github.com/emanuele-f/PCAPdroid - *emanuele-f/PCAPdroid: No-root network
 
 ### Gif 动图处理
 
+https://github.com/search?o=desc&q=Gif&s=stars&type=Repositories - *Search · Gif · GitHub*
+
+
+#### ScreenToGif
+
+https://www.screentogif.com/ - *ScreenToGif - Record your screen, edit and save as a gif, video or other formats*
+
 
 ## 文件管理
 

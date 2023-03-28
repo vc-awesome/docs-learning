@@ -35,6 +35,8 @@ https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bo
 
 header 元素
 
+https://www.runoob.com/html/html-head.html - *HTML 头部 | 菜鸟教程*
+
 ```html
 <meta>
 <link>
@@ -48,6 +50,12 @@ header 元素
 - https://www.runoob.com/w3cnote/meta.html - *常用meta整理* 
 - http://fex.baidu.com/blog/2014/10/html-head-tags/ - *HTML head 头标签*
 - https://github.com/audreyfeldroy/favicon-cheat-sheet - *Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.)*
+
+#### \<link>
+
+https://www.runoob.com/tags/tag-link.html - *HTML <link>标签 | 菜鸟教程*
+
+https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/link - *<link>：外部资源链接元素 - HTML（超文本标记语言） | MDN*
 
 #### \<script>
 

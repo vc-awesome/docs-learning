@@ -23,19 +23,14 @@
 <i class="fa fa-terminal fa-fw"></i> 表示 支持 _CLI_ 终端
 
 <i class="ri-app-store-line"></i> 表示 支持 _App Store_ 下载  
-![App Store][App Store Icon] 表示 支持 _App Store_ 下载  
+<img src="https://apps.apple.com/favicon.ico" alt="App Store" width="14" /> 表示 支持 _App Store_ 下载  
 <i class="ri-google-play-line"></i> 表示 支持 _Play Store_ 下载  
 <img src="https://www.gstatic.com/android/market_images/web/favicon_v3.ico" alt="Play Store" width="14" /> 表示 支持 _Play Store_ 下载  
-<img src="//www.youxiaohou.com/images/svg/webstore.svg" alt="Chrome 扩展商店" width="14" /> 表示 支持 _Chrome 扩展商店_ 下载  
+<img src="https://www.youxiaohou.com/images/svg/webstore.svg" alt="Chrome 扩展商店" width="14" /> 表示 支持 _Chrome 扩展商店_ 下载  
 <i class="fa fa-github"></i> 表示 支持 _GitHub_ 下载  
-![腾讯电脑管家][guanjia-qq Icon] 表示 支持 *电脑管家-软件管理* 下载  
-![F-Droid][F-Droid Icon] 表示 支持 _F-Droid_ 下载  
-![Microsoft Store][Microsoft Store Icon] 表示 支持 _Microsoft Store_ 下载
-
-[guanjia-qq Icon]: http://guanjia.qq.com/assets/images/v15/favicon.ico ":size=14 腾讯电脑管家"
-[F-Droid Icon]: https://f-droid.org/assets/favicon_yJPr4UNteJc-cseeq16P0Hvl1kDbJjTVYcj-KA6-_Fs=.ico ":size=14 F-Droid"
-[Microsoft Store Icon]: https://apps.microsoft.com/store/images/logo-16x16.png ":size=14"
-[App Store Icon]: https://apps.apple.com/favicon.ico ":size=14"
+<img src="http://guanjia.qq.com/assets/images/v15/favicon.ico" alt="腾讯电脑管家" width="14" /> 表示 支持 *电脑管家-软件管理* 下载  
+<img src="https://f-droid.org/assets/favicon_yJPr4UNteJc-cseeq16P0Hvl1kDbJjTVYcj-KA6-_Fs=.ico" alt="F-Droid" width="14" /> 表示 支持 _F-Droid_ 下载  
+<img src="https://apps.microsoft.com/store/images/logo-16x16.png" alt="Microsoft Store" width="14" /> 表示 支持 _Microsoft Store_ 下载
 
 ----
 
@@ -89,15 +84,15 @@ _1. https://emojipedia.org/ - 📙 Emojipedia — 😃 Home of Emoji Meanings �
 
 ## 推荐
 
-1. [PowerToy](#power-toys)
-2. [Microsoft Sticky Notes](#microsoft-sticky-notes)
-3. [Syncthing](#syncthing)
-4. [Typora](#markdown-typora)
-5. [CLaunch](#claunch)
-6. [Ditto](#ditto)
-7. [qq截图独立版](#qq-screenshot)
-8. [7-Zip](#seven-zip)
-9. [有道云笔记](#youdao-note)
+1. [PowerToy](tools/应用工具.md#power-toys)
+2. [Microsoft Sticky Notes](tools/应用工具.md#microsoft-sticky-notes)
+3. [Syncthing](tools/应用工具.md#syncthing)
+4. [Typora](tools/应用工具.md#markdown-typora)
+5. [CLaunch](tools/应用工具.md#claunch)
+6. [Ditto](tools/应用工具.md#ditto)
+7. [qq截图独立版](tools/应用工具.md#qq-screenshot)
+8. [7-Zip](tools/应用工具.md#seven-zip)
+9. [有道云笔记](tools/应用工具.md#youdao-note)
 
 
 ## 组合使用
@@ -175,6 +170,33 @@ _1. https://emojipedia.org/ - 📙 Emojipedia — 😃 Home of Emoji Meanings �
 
 </details>
 
+## 软件资源
+
+[Search](os/tools/search.md)
+
+## 软件分类
+
+- 网页软件（可在浏览器中使用）
+- 桌面软件（需下载安装到电脑中使用）
+    - 版本（Version）
+        - 安装程序（Installer / Setup）
+        - 便携式版本（Portable version）
+- 跨平台应用（支持 PC 端、智能手机、平板、Web 网页等平台）
+
+----
+
+1. 开源
+2. 完全免费
+3. 免费试用 ? 天（过了试用期需购买）
+4. 免费功能（Lite 版本）
+5. 收费功能（Pro 版本，应用内购买升级）
+    1. https://emanuele-f.github.io/PCAPdroid/paid_features - *PCAPdroid | User Guide*
+
+
+
+## 软件卸载
+
+[最后教一次：完美解决电脑上的流氓软件](https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA) - 阿虚同学
 
 ## FAQ
 

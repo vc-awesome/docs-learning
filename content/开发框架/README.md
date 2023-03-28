@@ -431,28 +431,8 @@ https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低�
 5. 推送（接收推送通知和透传消息功能）
 
 
+## 项目分类
 
-## 文档网站生成器
+[category](project/category.md)
 
-?> 静态网站生成器
-
-1. [docsify](https://docsify.js.org/) - _A magical documentation site generator._
-    - _不支持 **脚注**、**高亮**_
-2. [Hexo](https://hexo.io/zh-cn/ "快速、简洁且高效的博客框架") - _快速、简洁且高效的博客框架_
-3. [Jekyll](https://jekyllrb.com) - _Jekyll • Simple, blog-aware, static sites | Transform your plain text into static websites and blogs_
-4. [GitBook](https://www.gitbook.com/) - _GitBook - Where software teams break knowledge silos._
-    - https://blog.csdn.net/xixihahalelehehe/article/details/125120709 - *gtibook 插件 代码块_gitbook 代码_ghostwritten的博客-CSDN博客*
-5. [VuePress](https://www.vuepress.cn) - *Vue 驱动的静态网站生成器*
-    - https://developer.aliyun.com/article/1152243 - *零成本也能快速开发个人博客？vuepress-next快速入门-阿里云开发者社区*
-6. [Doctocat](https://github.com/primer/doctocat) - *GitHub - primer/doctocat: A Gatsby theme for building Primer documentation sites*
-    - 谁在使用
-        - https://primer.style/doctocat/ - *Doctocat*
-        - https://github.com/npm/documentation - *GitHub - npm/documentation: Documentation for the npm registry, website, and command-line interface.*
-
-7. [Gatsby](https://www.gatsbyjs.com/) - *The Fastest Frontend for the Headless Web | Gatsby*
-    - https://blog.csdn.net/woyebuzhidao321/article/details/124214321 - *Gatsby静态站点生成器_创建 gatsby_拾荒李的博客-CSDN博客*
-
-8. https://readthedocs.org/ - *首页 | Read the Docs*
-    > 技术文档存放于此 Read the Docs 为您提供自动构建，版本控制以及内容托管来简化技术文档流程。
-    - 谁在使用
-        - https://highlightjs.readthedocs.io/en/latest/ - *Highlight.js Documentation — highlight.js 11.7.0 documentation*
+### 文档网站生成器

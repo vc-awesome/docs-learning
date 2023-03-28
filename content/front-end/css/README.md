@@ -6,6 +6,18 @@
 1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
 2. https://www.runoob.com/css3/css3-tutorial.html - *CSS3 教程*
 
+### 选择器
+
+https://www.runoob.com/cssref/css-selectors.html - *CSS 选择器 | 菜鸟教程*
+
+### 伪类
+
+https://www.runoob.com/css/css-pseudo-classes.html - *CSS 伪类 | 菜鸟教程*
+
+### 伪元素
+
+https://www.runoob.com/css/css-pseudo-elements.html - *CSS 伪元素 | 菜鸟教程*
+
 ## Sass
 
 https://www.sasscss.com - *Sass: Sass 是世界上最成熟、稳定、强大的专业级 CSS 扩展语言。Sass 是 Syntactically Awesome Style Sheets 的缩写。 | Sass 中文网* 🇨🇳

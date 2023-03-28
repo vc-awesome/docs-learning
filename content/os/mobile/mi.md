@@ -2,6 +2,8 @@ https://www.mi.com/ - *小米官网 - Xiaomi 13系列，Xiaomi Mix Fold 2，MIUI
 
  玩转小米手机
 
+> 尝试着长按有惊喜！
+
 ## 提取文字
 
 百度关键字搜索：[小米截图识别文字](https://www.baidu.com/s?word=小米截图识别文字)

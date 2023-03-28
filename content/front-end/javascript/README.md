@@ -92,50 +92,6 @@ https://webpack.js.org/ - *webpack*
 https://www.webpackjs.com/ - _webpack 中文文档 | webpack 中文网_
 
 
-### 模块化编程 🔥
-
-  1. https://www.ruanyifeng.com/blog/2012/10/javascript_module.html - *Javascript模块化编程（一）：模块的写法*
-  2. https://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html - *Javascript模块化编程（二）：AMD规范*
-  3. https://www.ruanyifeng.com/blog/2012/11/require_js.html - *Javascript模块化编程（三）：require.js的用法*
-  4. https://www.ruanyifeng.com/blog/2014/09/package-management.html - *前端模块管理器简介*
-
-
-https://www.freesion.com/article/87991328477/ - *node.js npm和包 + 搭建Http服务器 + i5ting_toc(将md文件转化为html文件) - 灰信网（软件开发博客聚合）*
-
-https://blog.csdn.net/a562550212/article/details/95751478 - _JS模块介绍_鬼谷中妖的博客-CSDN博客_js模块_
-
-<https://v2.cn.vuejs.org/v2/guide/installation.html#对不同构建版本的解释> - _安装 — Vue.js_
-
-
-#### ES Module 1️⃣
-
-> EcmaScript Module
-
-<https://es6.ruanyifeng.com/#docs/module#概述> - *Module 的语法 - ECMAScript 6入门*
-
-
-#### UMD
-
-https://github.com/umdjs/umd - _UMD (Universal Module Definition) patterns for JavaScript modules that work everywhere._
-
-
-#### CommonJS
-
-http://javascript.ruanyifeng.com/nodejs/module.html#toc0 - _CommonJS规范 -- JavaScript 标准参考教程（alpha）_
-
-https://wiki.commonjs.org/wiki/Modules/1.1 - _Modules/1.1 - CommonJS Spec Wiki_
-
-
-#### CMD
-
-https://www.zhangxinxu.com/sp/seajs/ - *SeaJS - A Module Loader for the Web*
-
-
-#### AMD
-
-https://requirejs.org/ - *RequireJS*
-
-
 ## JavaScript 参考手册
 
 https://www.runoob.com/jsref/jsref-tutorial.html - *JavaScript 和 HTML DOM 参考手册 | 菜鸟教程*
@@ -308,6 +264,8 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
 
 ### EventListener
 
+https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#options - *EventTarget.addEventListener() - Web API 接口参考 | MDN*
+
 https://www.runoob.com/js/js-htmldom-eventlistener.html - _JavaScript HTML DOM EventListener | 菜鸟教程_
 
 语法：  
@@ -446,9 +404,6 @@ https://www.runoob.com/jsref/obj-location.html - *Location 对象 | 菜鸟教程
 
 https://www.runoob.com/jsref/obj-storage.html - *JavaScript 存储对象 | 菜鸟教程*
 
-## Ajax
-
-https://www.runoob.com/ajax/ajax-tutorial.html - *AJAX 教程 | 菜鸟教程*
 
 ## FAQ
 
@@ -480,9 +435,7 @@ $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
 
 
 
-### Jquery 手册事件处理 on、bind
-
- 
+### jquery 手册事件处理 on、bind
 
 jQuery获取清空 input 值的几种方法
 
@@ -649,7 +602,7 @@ https://www.cnblogs.com/wmcoder/p/5688988.html - *js中location.href的用法 - 
 
 https://blog.csdn.net/kye055947/article/details/79619538 - *【JavaScript】按钮绑定点击事件-onCliek事件_js 绑定按钮事件_程序员不弃的博客-CSDN博客*
 
-### Jquery on 绑定未来元素
+### jquery on 绑定未来元素
 
 ```js
 $('.cla').on('click',function(){
@@ -673,7 +626,7 @@ $(document).on('click','.cla',function(){
 
 
 
-### Button onclick 实现页面跳转
+### button onclick 实现页面跳转
 
 ```html
 onclick="javascript:window.location.href='aa.htm'"
@@ -692,7 +645,7 @@ onclick="window.location.href='#'"
 
 百度关键词搜索：[js打开链接](https://www.baidu.com/s?word=js打开链接)
 
-https://cloud.tencent.com/developer/information/js%E5%A6%82%E4%BD%95%E6%89%93%E5%BC%80%E9%93%BE%E6%8E%A5 - *js如何打开链接_js 打开a链接_js 打开链接 - 腾讯云开发者社区 - 腾讯云*
+https://cloud.tencent.com/developer/information/js如何打开链接 - *js如何打开链接_js 打开a链接_js 打开链接 - 腾讯云开发者社区 - 腾讯云*
 
 - https://cloud.tencent.com/developer/article/1868570 - *JS 新窗口打开超链接 - 腾讯云开发者社区-腾讯云*
 
@@ -873,3 +826,34 @@ https://blog.csdn.net/mouday/article/details/127982924 - *js:判断文本溢出�
 ### 点击某元素以外的地方触发事件
 
 https://blog.csdn.net/qq_33933205/article/details/108262805 - *JS 点击某元素以外的地方触发事件 - Kaiqisan_点击元素外触发事件_kaiqisan的博客-CSDN博客*
+
+### 操作伪类、元素 \:hover
+
+https://blog.csdn.net/c_furong/article/details/126174590 - *css添加伪元素(before、after)并为伪元素添加点击事件_css伪元素点击事件_IT酷盖的博客-CSDN博客*
+
+https://blog.csdn.net/a486259/article/details/81163995/ - *JS工具方法 4 伪元素点击事件实现的两种方法_万里鹏程转瞬至的博客-CSDN博客*
+
+https://blog.csdn.net/qq_25211081/article/details/118655062 - *JS操作CSS伪元素_js添加伪元素_du青松的博客-CSDN博客*
+
+https://blog.csdn.net/Kerwin__li/article/details/129122358 - *前端 伪类元素如何添加点击事件_伪类点击事件_Kerwin__li的博客-CSDN博客*
+
+https://www.bbsmax.com/A/LPdo8MrOz3/ - *使用JS控制伪元素的几种方法*
+
+https://blog.csdn.net/xiaojian_521/article/details/123757021 - *(学习笔记) js获取伪元素_小剑_x的博客-CSDN博客*
+
+https://blog.csdn.net/weixin_44276779/article/details/127654563 - *js实现元素禁用，鼠标不可点击_js 禁止点击_ㄟ、蓦然回首的博客-CSDN博客*
+
+https://blog.csdn.net/qq_42740797/article/details/127889421 - *js 关于如何动态设置css的hover样式最佳方式，设置hover样式_js设置hover样式_草字的博客-CSDN博客*
+
+### 事件处理
+
+https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers - *事件处理 | Vue.js*
+
+https://blog.csdn.net/wsln_123456/article/details/102397112 - *JS阻止子元素触发父元素的事件_阻止子元素触发父元素事件_花铛的博客-CSDN博客*
+
+https://www.5axxw.com/questions/content/x9lfr5?g - *如何使用父元素阻止子元素上的单击事件 - 我爱学习网*
+
+https://blog.csdn.net/weixin_39987313/article/details/111538593 - *js阻止子元素事件_JS阻止冒泡和取消默认事件(默认行为)-前端开发博客_weixin_39987313的博客-CSDN博客*
+
+https://blog.csdn.net/Maybe_ss/article/details/125894645 - *JavaScript事件监听器总结-CSDN博客*
+

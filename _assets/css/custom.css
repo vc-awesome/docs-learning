@@ -55,19 +55,22 @@ nav i {
     opacity: 0.6;
     right: 0 !important;
     margin-right: 0 !important;
-    background: #fff
+    background: #fff;
   }
   nav.app-nav:hover {
     max-width: inherit;
     opacity: 1;
   }
-  nav.app-nav:after {
+  /*nav.app-nav:after {
     padding-right: 10px;
     font-size: inherit;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "🛸";
+  }*/
+  nav.app-nav li {
+    pointer-events: none;
   }
   nav.app-nav li ul {
     max-height: calc(100vh - 251px);
