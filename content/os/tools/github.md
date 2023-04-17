@@ -439,7 +439,7 @@ https://github.com/521xueweihan/GitHub520/ - *😘 让你“爱”上 GitHub，�
 
 https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 
-*👏 与 [Tools - Hosts](tools/hosts.md) 组合使用*
+*👏 与 [Tools - Hosts](os/tools/hosts.md) 组合使用*
 
 #### 镜像站
 
@@ -448,5 +448,7 @@ https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法�
 https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
 ## FAQ
+
+### Github打不开怎么办？
 
 https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打不开怎么办？*

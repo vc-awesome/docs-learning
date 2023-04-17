@@ -9,7 +9,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
 
 👍 https://www.cnblogs.com/qlongbg/p/12074016.html - _关于http与https_
 
-## SSL
+## SSL/TLS
 
 ?> （Secure Sockets Layer 安全套接字协议），及其继任者传输层安全（Transport Layer Security，TLS）是为网络通信提供安全及数据完整性的一种安全协议。TLS与SSL在传输层与应用层之间对网络连接进行加密。
 
@@ -36,9 +36,12 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
 
 
 
-- ssl 配置
+- SSL 配置
 
   https://ssl-config.mozilla.org - *Mozilla SSL Configuration Generator*
+
+- 证书生成
+    - https://toutyrater.github.io/advanced/tls.html#证书生成 - *TLS · V2Ray 配置指南|V2Ray 白话文教程*
 
 
 
@@ -127,4 +130,10 @@ https://blog.csdn.net/ai2000ai/article/details/85775484 - *HTTP basic auth*
 https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS - *跨源资源共享（CORS）*
 
 [cross-domain](essential/cross-domain.md)
+
+## FAQ
+
+### HTTP 与 HTTPS 的区别
+
+https://www.runoob.com/w3cnote/http-vs-https.html - *HTTP 与 HTTPS 的区别 | 菜鸟教程*
 

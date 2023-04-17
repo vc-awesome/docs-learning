@@ -12,6 +12,16 @@ https://zhuanlan.zhihu.com/p/100086971 - *RSS订阅傻瓜式教程*
 
 https://www.bilibili.com/read/cv13362124 - *RSS 订阅源整理*
 
+
+## 订阅源
+
+https://github.com/timqian/chinese-independent-blogs#博客列表 - *GitHub - timqian/chinese-independent-blogs: 中文独立博客列表*
+
+https://rsshub.rssforever.com/ - *Welcome to RSSHub!*
+
+~~https://rsshub.app/~~
+
+
 ## Tool
 
 ### Fluent Reader
@@ -36,27 +46,43 @@ https://github.com/yang991178/fluent-reader-lite - *Simplistic mobile RSS clien
 <i class="fa fa-android light-green"></i> - *An awesome Libre and Open Source RSS feed reader*
 
 
+### Feeds Pub
+
+https://feeds.pub/ - *Feeds Pub*
+
+🏷️ Web browser
+
+
+### FreshRSS
+
+https://rss.rssforever.com/ - *登录 · FreshRSS* ⇒ *via [GitHub Proxy 代理加速](https://ghproxy.com/)*
+
+🏷️ Web browser
+
+> Username : _vc_  
+> Password : _ba***03_
+
 
 ## Browser Addons
 
 ### RSSHub Radar
 
-<i class="fa fa-github fa-lg"></i> https://github.com/DIYgod/RSSHub-Radar - *🍰 Browser extension that simplifies finding and subscribing RSS and RSSHub*
+https://github.com/DIYgod/RSSHub-Radar - *🍰 Browser extension that simplifies finding and subscribing RSS and RSSHub*
 
-<i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa
+https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa
 
-<i class="fa fa-firefox"></i> https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/ - *RSSHub Radar – 下载 🦊 Firefox 扩展（zh-CN）*
+https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/ - *RSSHub Radar – 下载 🦊 Firefox 扩展（zh-CN）*
 
 参考链接：
 
-👍 https://blog.csdn.net/zhuoyuedelan/article/details/114304062 - *《RSSHub Radar》可以帮助你快速发现和订阅当前网站RSS的浏览器扩展*
+1. 👍 https://blog.csdn.net/zhuoyuedelan/article/details/114304062 - *《RSSHub Radar》可以帮助你快速发现和订阅当前网站RSS的浏览器扩展*
 
-https://sspai.com/post/56079 - *RSSHub Radar — 订阅一个 RSS 源不应该这么难*
+2. https://sspai.com/post/56079 - *RSSHub Radar — 订阅一个 RSS 源不应该这么难*
 
 ### Feedbro
 
-<i class="fa fa-laptop"></i> https://nodetics.com/feedbro/ - *Feedbro - RSS Feed Reader with built-in Rule Engine*
+https://nodetics.com/feedbro/ - *Feedbro - RSS Feed Reader with built-in Rule Engine*
 
-<i class="fa fa-chrome"></i> https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa
+https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa
 
-<i class="fa fa-firefox"></i> https://addons.mozilla.org/zh-CN/firefox/addon/feedbroreader/
+https://addons.mozilla.org/zh-CN/firefox/addon/feedbroreader/

@@ -1,10 +1,8 @@
-## IP
+## P2P
 
-https://whatismyip.li/psiphon1 - _What is my IP? - Why VPN is important?_
+### IPFS
 
-
-<iframe src="https://ip.skk.moe/simple" style="width: 100%; border: 0"></iframe>
-
+https://github.com/ipfs/ipfs - *GitHub - ipfs/ipfs: Peer-to-peer hypermedia protocol*
 
 ## 内网穿透
 

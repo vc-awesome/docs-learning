@@ -75,10 +75,9 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
 配置步骤：
 
 1. https://www.alidns.com/knowledge?type=SETTING_DOCS#user_android - *阿里公共DNS*
-    1. ```
-dot.360.cn
-```
-    
+    ```
+    dot.360.cn
+    ```
 2. [清除 Android 设备的 DNS 缓存](https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache/#android%E5%AE%89%E5%8D%93)
     1. 最简单的方法：打开和关闭飞行模式。
 
@@ -112,7 +111,8 @@ https://www.grc.com/dns/benchmark.htm - *GRC's | DNS Nameserver Performance Benc
 
 ### 加密工具
 
-🪜 https://simplednscrypt.org/ - *Simple DNSCrypt* `官方、GitHub`
+🪜 https://simplednscrypt.org/ - *Simple DNSCrypt*  
+🏷️ *官方、GitHub*
 
 https://zhuanlan.zhihu.com/p/89837660 - *使用Simple DNSCrypt/DNSoverHTTPS？ - 知乎*
 
@@ -153,6 +153,10 @@ https://adguard.com/zh_cn/welcome.html - *AdGuard - 世界上最高级的广告�
 2. ✅ https://adguard-dns.io/kb/zh-CN/ - *概览 | AdGuard DNS Knowledge Base*
 
 🪜 https://adguard-vpn.com/zh_cn/welcome.html - *AdGuard VPN 保护你的隐私与安全*
+
+### 待试用
+
+https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*
 
 ## CNAME
 

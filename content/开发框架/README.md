@@ -433,6 +433,8 @@ https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低�
 
 ## 项目分类
 
-[category](project/category.md)
+有关详细信息，请参阅“[项目分类](project/category.md)”。
 
 ### 文档网站生成器
+
+有关详细信息，请参阅“[文档网站生成器](project/category.md#文档网站生成器)”。

@@ -12,10 +12,12 @@
     - [<i class="fa fa-slideshare fa-fw"></i> Share](home/good-share.md "干货分享")
 - Essentials
     - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](essential/README.md)
+    - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
     - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
     - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](设计模式/README.md)
     - [<i class="ri-key-2-line"></i> Crypto-加密](essential/crypto.md)
-    - [<i class="ri-earth-line"></i> Network](essential/README.md)
+    - [<i class="ri-earth-line"></i> Network](essential/internet.md)
+    - [<i class="ri-server-line"></i> 服务器](essential/hosting.md)
     - [<i class="ri-book-3-line"></i> Glossary](essential/README.md)
     - [<i class="ri-link"></i> cURL](essential/curl.md)
     - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
@@ -65,7 +67,7 @@
     - [<i class="ri-search-line"></i> Search](os/tools/search.md)
     - [<i class="ri-apps-line medium-purple"></i> PC Tools](os/tools/应用工具.md) 
     - [<i class="ri-cloud-line"></i> Web Tools](os/tools/online.md "在线工具")
-    - [<i class="ri-smartphone-line"></i> Smartphone Tools](os/mobile/README.md)
+    - [<i class="ri-smartphone-line"></i> Smartphone Tools](os/mobile/mobile-app-list.md)
     - <hr />
     - [<i class="ri-magic-line dark-yellow"></i> Extranet](os/tools/vpn.md)
     - [<i class="ri-earth-line medium-green"></i> Browser](os/tools/browser.md "浏览器")
@@ -85,3 +87,6 @@
     - <hr />
     - [MDN Web Docs](https://developer.mozilla.org/zh-CN/)
     - [Docsify](os/tools/docsify.md)
+    - [文档模板](home/document-template.md)
+    - [网道 - 互联网开发文档](https://wangdoc.com/)
+    - [阮一峰的网络日志](home/book.md#%e9%98%ae%e4%b8%80%e5%b3%b0%e7%9a%84%e7%bd%91%e7%bb%9c%e6%97%a5%e5%bf%97)

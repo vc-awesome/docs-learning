@@ -33,36 +33,6 @@ Bootstrap 的官方开源 SVG 图标库。
 </div>
 </details>
 
-## Awesome
-
-https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome things related to docsify*
-
-https://docsify.js.org/#/awesome - *Awesome docsify*
-
-![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
-
-### Showcase
-
-👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
-
-~~http://note.taqini.space/~~
-
-https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
-
-https://bytesfly.github.io/island/#/ - *侠客岛*
-
-~~https://docs.saasify.sh/#/~~
-
-https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
-
-https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
-
-https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
-
-
-看至：`gitmoji-changelog`
-
-
 
 ## Links
 
@@ -102,11 +72,42 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
     <script src="//unpkg.com/element-ui/lib/index.js"></script>
     ```
 
-## Plugins
 
-### CSS
+## Awesome
 
-#### 固定顶部导航栏
+https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome things related to docsify*
+
+https://docsify.js.org/#/awesome - *Awesome docsify*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
+
+### Showcase
+
+👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
+
+~~http://note.taqini.space/~~
+
+https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
+
+https://bytesfly.github.io/island/#/ - *侠客岛*
+
+~~https://docs.saasify.sh/#/~~
+
+https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
+
+https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
+
+https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
+
+
+看至：`gitmoji-changelog`
+
+
+### Plugins
+
+#### CSS
+
+##### 固定顶部导航栏
 
 ```css
 /* 固定导航栏 */
@@ -124,7 +125,7 @@ body.sticky nav.app-nav {
 
 
 
-#### 自定义滚动条
+##### 自定义滚动条
 
 ```css
 /* 滚动条样式 start */
@@ -142,7 +143,7 @@ body.sticky nav.app-nav {
 
 
 
-#### ~~自定义侧边栏~~
+##### ~~自定义侧边栏~~
 
 _via https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*_
 
@@ -164,7 +165,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 }
 ```
 
-#### 响应式布局
+##### 响应式布局
 
 ```css
 /* 小屏设备（最大宽度 768px，超过最大宽度变化为中大屏设备） */
@@ -174,7 +175,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 ```
 
 
-### 回到顶部
+#### 回到顶部
 
 - Plugin
   - https://gitee.com/zhengxiangqi/docsify-scroll-to-top - *docsify-scroll-to-top: 基于Docsify的页面滚动回顶部的插件*
@@ -260,24 +261,24 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 </details>
 
 
-### 添加页脚
+#### 添加页脚
 
 - Plugin
   - <https://docsify.js.org/#/zh-cn/write-a-plugin?id=例子>
 
-### 全文搜索
+#### 全文搜索
 
 - Plugin
   - <https://docsify.js.org/#/zh-cn/plugins?id=全文搜索-search>
 
-### 字数统计
+#### 字数统计
 
 - Plugin
   - <https://docsify.js.org/#/zh-cn/plugins?id=字数统计>
 
-### 代码块
+#### 代码块
 
-#### 代码语法高亮
+##### 代码语法高亮
 
 https://docsify.js.org/#/language-highlight - *Language highlighting*
 
@@ -327,7 +328,7 @@ uri,url
 
 
 
-#### 代码行号
+##### 代码行号
 
 !> ~~没玩起来😶。~~
 
@@ -406,7 +407,7 @@ window.$docsify.plugins.push(
 
 2. https://stackoverflow.com/questions/59508413/static-html-generation-with-prismjs-how-to-enable-line-numbers/64089448#64089448 - *node.js - Static html generation with prismjs - how to enable line-numbers? - Stack Overflow*
 
-#### 代码块折行
+##### 代码块折行
 
 参考：
 
@@ -414,7 +415,7 @@ window.$docsify.plugins.push(
 
 2. https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
 
-#### 复制代码至剪贴板
+##### 复制代码至剪贴板
 
 todo
 - 添加代码行数
@@ -512,7 +513,7 @@ body .docsify-copy-code-button {
 </details>
   
 
-### ~~评论系统~~
+#### ~~评论系统~~
 
 - Plugin
 
@@ -521,7 +522,7 @@ body .docsify-copy-code-button {
   - gitalk https://docsify.js.org/#/zh-cn/plugins?id=gitalk
 
 
-### 当前文档最近修改 / 更新时间
+#### 当前文档最近修改 / 更新时间
 
 - Showcase
 
@@ -531,72 +532,18 @@ body .docsify-copy-code-button {
 
   - https://xflihaibo.github.io/
 
-### ~~评分~~
+#### ~~评分~~
 
 - Showcase
   - https://lhammer.cn/You-need-to-know-css/#/
 
-### ~~切换主题（白天 / 夜间模式切换）~~
 
-- Showcase
-  - https://bytesfly.github.io/island/#/ - *侠客岛*
-
-- Plugin
-  - 👍 https://jhildenbiddle.github.io/docsify-themeable/#/themes?id=defaults - *docsify-themeable - A delightfully simple theme system for docsify.js*
-  - https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode - *docsify-plugin/packages/docsify-dark-mode at master · Plugin-contrib/docsify-plugin · GitHub*
-
-    <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-    
-    ```html
-    <!-- 切换主题 -->
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
-    <style>
-    .search {
-      border-bottom: 1px solid rgb(180 180 180 / 30%)!important;
-    }
-    .search input {
-      background-color: var(--docsify_dark_mode_bg, #fff);
-    }
-    @media screen and (max-width: 768px) {
-      body.close .sidebar-toggle {
-        background: var(--docsify_dark_mode_bg, #fff);
-        opacity: .8;
-      }
-    }
-    </style>
-    ```
-    
-    ```html
-    <!-- 切换主题 -->
-    <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
-    <script>
-      window.$docsify.darkMode = {
-        dark: {
-          // background: "#1c2022",
-          background: "#091a28",
-          toggleBtnBg: "#34495e",
-          textColor: "#b4b4b4"
-        },
-        light: {
-          background: "white",
-          toggleBtnBg: "var(--theme-color)",
-          // textColor: "var(--theme-color)",
-          textColor: "#34495e"
-        }
-      }
-      // ...
-    </script>
-    ```
-    
-    </div>
-    </details>
-
-### ~~鼠标点击特效~~
+#### ~~鼠标点击特效~~
 
 - Showcase
   - https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
 
-### 目录 TOC
+#### 目录 TOC
 
 -  Plugin
 
@@ -971,12 +918,12 @@ body .docsify-copy-code-button {
   - 👍 https://tainacan.github.io/tainacan-wiki/
     - 👍 https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
-### 目录结构
+#### 目录结构
 
 - Showcase
   - https://xflihaibo.github.io/docs/#/standard/standard - *书写规范 - 幸福拾荒者*
 
-### Flexible Alerts 🎁
+#### Flexible Alerts 🎁
 
 - Plugin
 
@@ -1025,7 +972,7 @@ body .docsify-copy-code-button {
     
     
 
-### Page title 🎁
+#### Page title 🎁
 
 - Plugin
     - https://github.com/Sujaykumarh/docsify-plugin-title - *🔌 Docsify plugin customize page title*
@@ -1048,12 +995,12 @@ body .docsify-copy-code-button {
 
 
 
-### ~~分享~~
+#### ~~分享~~
 
 - Showcase
   - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
-### ~~Emoji~~
+#### ~~Emoji~~
 
 - Plugin
     - https://github.com/TaQini/docsify-twemoji - *parse all emoji in style of twitter emoji for docsify*
@@ -1063,7 +1010,7 @@ body .docsify-copy-code-button {
     ```
 
 
-### Tabs（标签页）
+#### Tabs（标签页）
 
 - Plugin
 
@@ -1091,12 +1038,12 @@ body .docsify-copy-code-button {
     <!-- tabs:end -->
     ```
 
-### ~~Accordion（手风琴） 🎁~~
+#### ~~Accordion（手风琴） 🎁~~
 
 - Plugin
   - https://github.com/isaozler/docsify-accordion - *Accordion plugin for docsify*
 
-### ~~网页调试~~
+#### ~~网页调试~~
 
 ``` html
 <!-- 手机端网页调试 -->
@@ -1113,7 +1060,7 @@ body .docsify-copy-code-button {
 </script>
 ```
 
-### 数学公式 LaTeX
+#### 数学公式 LaTeX
 
 [tools/markdown.md#数学公式](tools/markdown.md#数学公式)
 
@@ -1126,7 +1073,7 @@ https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docs
 <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 ```
 
-### 图表 Diagrams
+#### 图表 Diagrams
 
 [tools/markdown.md#图表](tools/markdown.md#图表)
 
@@ -1149,3 +1096,61 @@ https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A 
 参考：
 
 https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Mermaid插件支持_mermaid 插件_Willin Wang的博客-CSDN博客*
+
+### Themes
+
+#### ~~切换主题（白天 / 夜间模式切换）~~
+
+- Showcase
+  - https://bytesfly.github.io/island/#/ - *侠客岛*
+
+- Plugin
+  - 👍 https://jhildenbiddle.github.io/docsify-themeable/#/themes?id=defaults - *docsify-themeable - A delightfully simple theme system for docsify.js*
+  - https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode - *docsify-plugin/packages/docsify-dark-mode at master · Plugin-contrib/docsify-plugin · GitHub*
+
+    <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+    
+    ```html
+    <!-- 切换主题 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
+    <style>
+    .search {
+      border-bottom: 1px solid rgb(180 180 180 / 30%)!important;
+    }
+    .search input {
+      background-color: var(--docsify_dark_mode_bg, #fff);
+    }
+    @media screen and (max-width: 768px) {
+      body.close .sidebar-toggle {
+        background: var(--docsify_dark_mode_bg, #fff);
+        opacity: .8;
+      }
+    }
+    </style>
+    ```
+    
+    ```html
+    <!-- 切换主题 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
+    <script>
+      window.$docsify.darkMode = {
+        dark: {
+          // background: "#1c2022",
+          background: "#091a28",
+          toggleBtnBg: "#34495e",
+          textColor: "#b4b4b4"
+        },
+        light: {
+          background: "white",
+          toggleBtnBg: "var(--theme-color)",
+          // textColor: "var(--theme-color)",
+          textColor: "#34495e"
+        }
+      }
+      // ...
+    </script>
+    ```
+    
+    </div>
+    </details>
+

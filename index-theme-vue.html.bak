@@ -52,39 +52,44 @@
 <body>
 <div id="app"></div>
 
-<div style="display: none;" id="d-none">
-  <!-- 返回顶部 -->
-  <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent position-fixed bottom-11 right-3 mb-12" style="opacity:.6;" aria-disabled="true">
-    0%
-  </button>
-  <button class="back-to-top btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-10" style="opacity:.6;">
-    <i class="fa fa-arrow-up"></i>
-  </button>
-  <button class="back-to-top btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-8" style="opacity:.6;" id="back2bottom">
-    <i class="fa fa-arrow-down"></i>
-  </button>
-  
-  <!-- Table of Contents -->
-  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
-  <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
-  <button class="toc-toggle back-to-top btn btn-outline btn-sm position-fixed right-3" style="opacity:.6;">
-    <i class="fa fa-reorder"></i>
-  </button>
-  
-  <!-- Page Refresh Button -->
-  <button class="btn btn-outline btn-sm position-fixed bottom-7 right-3" style="opacity:.6;" onclick="window.location.reload();">
-    <i class="fa fa-refresh"></i>
-  </button>
-  <button class="btn btn-outline btn-sm position-fixed bottom-9 right-3" style="opacity:.6;" onclick="toggleFullScreen(this);">
-    <i class="ri-fullscreen-fill"></i>
-  </button>
-  <button class="btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-5" style="opacity:.6;" onclick="if(document.location.hash != '#/'){window.history.back();}">
-    <i class="fa fa-arrow-left"></i>
-  </button>
-  <button class="btn btn-outline btn-sm position-fixed bottom-11 right-3" style="opacity:.6;" onclick="window.history.forward();">
-    <i class="fa fa-arrow-right"></i>
-  </button>
+<!-- 返回顶部 -->
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {"sidebar": {"position": "right"}};
+</script>
+<link rel="stylesheet" href="_assets/libs/back2top/css/main.css">
+<div class="back-to-top btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-8" style="opacity:.6;">
+  <i class="fa fa-arrow-up"></i>
+  <span>0%</span>
 </div>
+<div class="back-to-top btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-11" style="opacity:.6;"" id="back2bottom">
+  <i class="fa fa-arrow-down"></i>
+  <span>0%</span>
+</div>
+
+<!-- Table of Contents -->
+<link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
+<link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
+<button class="toc-toggle toc-sidebar-toggle btn rounded-0">
+<!--<button class="toc-toggle toc-sidebar-toggle btn btn-outline bottom-0 right-0 mr-3 mb-7">-->
+  <span class="toggle-line toggle-line-first"></span>
+  <span class="toggle-line toggle-line-middle"></span>
+  <span class="toggle-line toggle-line-last"></span>
+</button>
+
+<!-- Page Refresh Button -->
+<button class="btn btn-outline btn-sm position-fixed bottom-7 right-3" style="opacity:.6;" onclick="window.location.reload();">
+  <i class="fa fa-refresh"></i>
+</button>
+<button class="btn btn-outline btn-sm position-fixed bottom-9 right-3" style="opacity:.6;" onclick="toggleFullScreen(this);">
+  <i class="ri-fullscreen-fill"></i>
+</button>
+<button class="btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-5" style="opacity:.6;" onclick="if(document.location.hash != '#/'){window.history.back();}">
+  <i class="fa fa-arrow-left"></i>
+</button>
+<button class="btn btn-outline btn-sm position-fixed bottom-11 right-3" style="opacity:.6;" onclick="window.history.forward();">
+  <i class="fa fa-arrow-right"></i>
+</button>
 <script>
 // 切换全屏
 function toggleFullScreen(e) {
@@ -251,19 +256,29 @@ function toggleFullScreen(e) {
           );
         });
       },
-      
-      // Invoked one time after rendering the initial page
-      function(hook, vm) {
-        hook.doneEach(function () {
-          document.querySelector("#d-none").removeAttribute("style")
-        });
-      }
     ],
   }
 </script>
 
 <!-- Local -->
 <!-- ----------------------------------------------------------------- -->
+
+<!-- <script>
+  window.$docsify.plugins.push(
+    function(hook, vm) {
+      hook.doneEach(function() {
+        setTimeout(function(){
+          // 重新渲染所有元素
+          window.mermaid.contentLoaded();
+        }, 1)
+      })
+    }
+  )
+  
+  window.$docsify.mermaidConfig = {
+    querySelector: ".mermaid"
+  };
+</script> -->
 
 <!-- 代码块行号 -->
 <script>
@@ -314,9 +329,7 @@ window.$docsify.plugins.push(
         window.mermaid.contentLoaded();
         
         setTimeout(function(){
-          // document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
-          
-          document.querySelector('.toc-toggle').classList.toggle('bottom-3', document.getElementsByClassName('lv2').length);
+          document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
           
           // 添加遮罩层
           var para = document.createElement("div");
@@ -373,17 +386,11 @@ window.$docsify.plugins.push(
           
           // 之后，可停止观察
           //observer.disconnect();
+        
+          // 监听事件
           document.getElementsByClassName("flisxm")[0].addEventListener("click", function () {
             document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", false);
-          // 监听事件
-        
           });
-          
-          document.getElementsByClassName("toc-toggle")[0].addEventListener("click", function () {
-            console.log(document.querySelector(".toc-nav-hover"))
-            document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", true);
-          });
-          
         }, 1);
       });
       console.groupEnd("结束调试 Table of Contents");
@@ -397,8 +404,35 @@ window.$docsify.plugins.push(
 <script src="_assets/libs/docsify-plugin-toc.js"></script>
 
 <!-- 返回顶部 -->
+<script>
+  window.$docsify.plugins.push( // 回到底部按钮显示状态
+    function(hook, vm) {
+      hook.doneEach(function() {
+        var docHeight = document.querySelector('.markdown-section').offsetHeight;
+        var winHeight = window.innerHeight;
+        if (docHeight > winHeight) {
+          document.querySelector('#back2bottom').classList.add('back-to-top-on');
+        } else {
+          document.querySelector('#back2bottom').classList.remove('back-to-top-on');
+        }
+        // 获取未来元素的属性值
+        setTimeout(function() {
+          if (document.querySelector('.toc-toggle').getAttribute("class").indexOf("toc-toggle-on") != -1) {
+            document.querySelector('.back-to-top').classList.toggle('toc', true);
+            document.querySelector('#back2bottom').classList.toggle('toc-b', true);
+          } else {
+            document.querySelector('.back-to-top').classList.toggle('toc', false);
+            document.querySelector('#back2bottom').classList.toggle('toc-b', false);
+          }
+        }, 10);
+      });
+    },
+  )
+</script>
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
-<script src="_assets/js/back2top.js"></script>
+<script src="_assets/libs/back2top/js/utils.js"></script>
+<script src="_assets/libs/back2top/js/next-boot.js"></script>
+<script src="_assets/libs/back2top/js/muse.js"></script>
 
 <!-- CDN unpkg -->
 <!-- ----------------------------------------------------------------- -->
@@ -471,11 +505,8 @@ window.$docsify.plugins.push(
 <script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
 
 <!-- 手机端网页调试 -->
-<!--<script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
-<script>
-  eruda.init();
-  // eruda.position({x: 20, y: 20});
-</script>-->
+<script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
+<script>eruda.init();eruda.position({x: "95vw", y: "50%"})</script>
 
 <script>
 window.$docsify.plugins.push(

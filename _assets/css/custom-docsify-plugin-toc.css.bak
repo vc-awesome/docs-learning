@@ -92,11 +92,8 @@ aside.toc-nav {
     border: 1px solid rgb(180 180 180 / 30%);
   }
   /* TOC 过渡效果 -end */
-  
+
   .toc-toggle {
-    display: block;
-  }
- /* .toc-toggle {
     display: block;
     font-size: 12px;
     text-align: center;
@@ -154,7 +151,7 @@ aside.toc-nav {
   .toc-toggle {
     right: 20px;
   }
-}*/
+}
 /* TOC 缩进参考线 */
 [class^=lv] {
   position: relative;
@@ -278,7 +275,7 @@ aside.toc-nav {
   inset: 0px;
   position: fixed;
   display: none;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0,0, 0, 0.5);
 }
 .flisxm-show {
   display: block;

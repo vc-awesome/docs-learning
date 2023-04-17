@@ -101,3 +101,6 @@ Shopify
     > 技术文档存放于此 Read the Docs 为您提供自动构建，版本控制以及内容托管来简化技术文档流程。
     - 谁在使用
         - https://highlightjs.readthedocs.io/en/latest/ - *Highlight.js Documentation — highlight.js 11.7.0 documentation*
+10. https://github.com/squidfunk/mkdocs-material - *GitHub - squidfunk/mkdocs-material: Documentation that simply works*
+    - 谁在使用
+        - https://matsuridayo.github.io/ - *MatsuriDayo*

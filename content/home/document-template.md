@@ -2,7 +2,13 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 
 - [GitHub Docs 官网](https://docs.github.com/zh)
     - https://docs.github.com/zh/pages - *GitHub Pages 文档 - GitHub Docs*
-- [Termux 网页](os/mobile/app-termux.md)
+    - https://docs.github.com/zh/get-started/learning-about-github/githubs-products - *GitHub 的产品 - GitHub 文档*
+        - 有关帐户的详细信息，请参阅“[GitHub 帐户类型]()”。
+        - 有关计划功能和产品的信息，请参阅 [GitHub public roadmap]()。
+        - 有关详细信息，请参阅“[为组织启用 GitHub Codespaces]()”。
+        - 有关详细信息，请参阅 GitHub Enterprise Cloud 文档中的“[关于适用于企业的 GitHub]()”。
+        - 有关详细信息，请参阅“[设置 GitHub Enterprise Cloud 试用版]()”和“[设置 GitHub Enterprise Server 试用版]()”。
+- [Termux 网页](os/mobile/termux.md)
 - [中文技术文档的写作规范 - 阮一峰](https://github.com/ruanyf/document-style-guide)
     - [标题](https://github.com/ruanyf/document-style-guide/blob/master/docs/title.md)
     - [文档体系](https://github.com/ruanyf/document-style-guide/blob/master/docs/structure.md)

@@ -49,8 +49,14 @@ _3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-m
 
 <img src="https://f-droid.org/badge/get-it-on.png" alt="available on F-Droid app store" height="80"/>
 
+<img alt="Get it on GitHub" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/GitHub/get-it-on-github.png">
+
+<img alt="Direct APK Download" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/Direct%20Download/direct-apk-download.png">
+
 _参考：_  
-_1. https://github.com/iTXTech/Daedalus - GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver._
+_1. https://github.com/iTXTech/Daedalus - GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver._  
+_2. https://github.com/ente-io/auth - GitHub - ente-io/auth: Authenticator app for storing your 2FA secrets. Use https://web.ente.io/auth to view codes on desktop_  
+_3. https://github.com/TachibanaGeneralLaboratories/download-navi - GitHub - TachibanaGeneralLaboratories/download-navi: Free and Open Source software download manager_
 
 ----
 
@@ -75,9 +81,13 @@ _1. https://emojipedia.org/ - 📙 Emojipedia — 😃 Home of Emoji Meanings �
 
 ----
 
-![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get) *（ via https://github.com/Delta-Icons/android - *GitHub - Delta-Icons/android: Delta Icons for Android*）*
+![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get)
 
-![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get) *（ via https://github.com/Delta-Icons/android - *GitHub - Delta-Icons/android: Delta Icons for Android*）*
+![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get)
+
+*参考：*  
+*https://github.com/Delta-Icons/android - GitHub - Delta-Icons/android: Delta Icons for Android*
+
 
 
 
@@ -172,32 +182,38 @@ _1. https://emojipedia.org/ - 📙 Emojipedia — 😃 Home of Emoji Meanings �
 
 ## 软件资源
 
-[Search](os/tools/search.md)
+有关详细信息，请参阅“[Search](os/tools/search.md)”。
 
 ## 软件分类
 
-- 网页软件（可在浏览器中使用）
-- 桌面软件（需下载安装到电脑中使用）
-    - 版本（Version）
-        - 安装程序（Installer / Setup）
-        - 便携式版本（Portable version）
-- 跨平台应用（支持 PC 端、智能手机、平板、Web 网页等平台）
+### 按设备分类
 
-----
+- 客户端
+    - 网页（Web）软件（可在浏览器中使用）
+    - 桌面（Desktop）软件（需下载安装到电脑中使用）
+        - 版本（Version）
+            - 安装程序（Installer / Setup）
+            - 便携式版本（Portable version）
+    - 手机（Mobile）软件
+    - 跨平台应用（支持 PC 端、智能手机、平板、Web 网页等平台）
+- 服务端
 
-1. 开源
-2. 完全免费
-3. 免费试用 ? 天（过了试用期需购买）
-4. 免费功能（Lite 版本）
-5. 收费功能（Pro 版本，应用内购买升级）
-    1. https://emanuele-f.github.io/PCAPdroid/paid_features - *PCAPdroid | User Guide*
+### 按定价分类
+
+- 开源应用
+- 闭源应用
+- 完全免费
+- 免费试用 ? 天（过了试用期需购买）
+- 免费功能（Lite 版本）
+- 收费功能（Pro 版本，应用内购买升级）
+    - https://emanuele-f.github.io/PCAPdroid/paid_features - *PCAPdroid | User Guide*
 
 
 
 ## 软件卸载
 
-[最后教一次：完美解决电脑上的流氓软件](https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA) - 阿虚同学
-
+https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA - *最后教一次：完美解决电脑上的流氓软件* 🏷️ *阿虚同学*
+ 
 ## FAQ
 
 ### 软件如何分类？

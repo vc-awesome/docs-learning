@@ -4,32 +4,12 @@ https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台�
 
 ### GitHub
 
-1. :octocat: 搜索：*免费 ss*
+1. GitHub 关键词搜索：[免费 ss](https://github.com/search?q=%E5%85%8D%E8%B4%B9%20ss)
 2. https://github.com/topics/vpn
 
-👍 https://github.com/freefq
-
-https://github.com/v2ray
-
-✅ https://github.com/v2fly
-
-- https://www.v2fly.org 🪜
-
-- https://github.com/v2fly/v2fly-github-io
-    
-    ![](https://flat.badgen.net/github/last-commit/v2fly/v2fly-github-io?icon=github&color=blue&ynotemdtimestamp=1669997210647)
-
-- https://guide.v2fly.org 🪜
-
-- https://github.com/v2fly/v2ray-step-by-step
-
-    ![](https://flat.badgen.net/github/last-commit/v2fly/v2ray-step-by-step?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+----
 
 https://github.com/Qv2ray
-
-https://github.com/anaer/Sub - *自用clash订阅链接*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
 
 
 ### Others
@@ -80,6 +60,35 @@ https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上�
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
 
+## 订阅
+
+👍 https://github.com/freefq
+
+https://github.com/anaer/Sub - *自用clash订阅链接*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
+
+### Free Account 🔥
+
+- 导入
+
+    https://free-ss.site/ - *免费上网账号* 
+    https://github.com/free-ss/free-ss.site
+    
+    ![](https://flat.badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
+    > 偶尔有连接不上的情况，过几个小时重新连接大概率可使用。
+
+
+- 订阅
+
+    https://github.com/freefq/free
+    
+    ![](https://flat.badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
+
+    - https://cdn.jsdelivr.net/gh/freefq/free/v2
+
+    - https://raw.fastgit.org/freefq/free/master/v2
+
 
 ## Tool
 
@@ -116,10 +125,29 @@ https://github.com/2dust/v2rayNG
 
 <i class="fa fa-book"></i>
 <i class="bi bi-ladder"></i>
-https://www.v2ray.com/ 🇨🇳 🇬🇧
+https://github.com/v2ray ⇒ https://www.v2ray.com/ - *Project V · Project V 官方网站*
 
 <i class="fa fa-book"></i>
-https://toutyrater.github.io/
+https://github.com/ToutyRater/v2ray-guide
+- https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
+
+#### V2Fly
+
+https://github.com/v2fly
+
+- https://github.com/v2fly/v2fly-github-io
+    
+    ![](https://flat.badgen.net/github/last-commit/v2fly/v2fly-github-io?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+    - https://www.v2fly.org 🪜
+
+- https://github.com/v2fly/v2ray-step-by-step
+
+    ![](https://flat.badgen.net/github/last-commit/v2fly/v2ray-step-by-step?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+    - https://guide.v2fly.org 🪜
+
+#### DNS
+
+https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0
 
 
 ### Shadowsocks 🔥
@@ -193,50 +221,9 @@ https://privacysavvy.com/security/safe-browsing/best-free-proxy-sites/ - *31 Bes
 6. ✅ https://www.blockaway.net/ 🪜
 7. ☑️ https://oracleusa.ml/-----https://free-ss.site/ - *免费上网账号*
 
-### Free Account 🔥
-
-- 导入
-
-    https://free-ss.site/ - *免费上网账号* 
-    https://github.com/free-ss/free-ss.site
-    
-    ![](https://flat.badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
-    > 偶尔有连接不上的情况，过几个小时重新连接大概率可使用。
-
-
-- 订阅
-
-    https://github.com/freefq/free
-    
-    ![](https://flat.badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
-
-    https://cdn.jsdelivr.net/gh/freefq/free/v2
-
-    https://raw.fastgit.org/freefq/free/master/v2
-
 ### In-App Purchases
 
 https://getmoreprivacy.com/surfeasy/ - *SurfEasy VPN是否安全？（2023年完整评测） | GetMorePrivacy.com*
-
-### Test
-
-https://telegram.org/ - *Telegram Messenger* 
-
-https://www.google.com/ - *Google* 
-
-https://www.google.com.hk/ - *Google* 
-
-https://www.wikipedia.org/ - *Wikipedia* 
-
-https://typora.io/ - *Typora — a markdown editor, markdown reader.* 
-
-https://github.com/topics - *Topics on GitHub · GitHub*
-
-https://gist.github.com/ - *Discover gists · GitHub*
-
-https://github.com/ - *GitHub: Let’s build from here · GitHub*
-
-https://www.pixiv.net/ - _插画交流网站_
 
 
 ### Development Tools
@@ -294,7 +281,7 @@ https://proxy-switchyomega.com - _非官网_
 
 ### PAC
 
-?> `代理自动配置（Proxy auto-config，简称PAC）` 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
+?> *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
 
 https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
 
@@ -304,3 +291,23 @@ https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac 
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
 
+
+## Test
+
+https://telegram.org/ - *Telegram Messenger* 
+
+https://www.google.com/ - *Google* 
+
+https://www.google.com.hk/ - *Google* 
+
+https://www.wikipedia.org/ - *Wikipedia* 
+
+https://typora.io/ - *Typora — a markdown editor, markdown reader.* 
+
+https://github.com/topics - *Topics on GitHub · GitHub*
+
+https://gist.github.com/ - *Discover gists · GitHub*
+
+https://github.com/ - *GitHub: Let’s build from here · GitHub*
+
+https://www.pixiv.net/ - _插画交流网站_

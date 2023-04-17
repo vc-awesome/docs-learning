@@ -1,4 +1,4 @@
-## Link <i class="ri-link"></i>
+## Link
 
 👍 https://github.com/campcc/blog/issues/15 - *可能是最好的跨域解决方案了*
 
@@ -206,11 +206,11 @@ xhr.onload = function(e) {
 
 
 
-## faqs
+## FAQs
 
-本地开发调试出现无法跨域的问题
+### 本地开发调试出现无法跨域的问题
 
-- 检查电脑或浏览器是否开启了 **vpn**
+- 检查电脑或浏览器是否开启了 **VPN**
 
 - 使用浏览器无痕窗口打开
 

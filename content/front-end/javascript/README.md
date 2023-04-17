@@ -81,7 +81,9 @@ https://www.runoob.com/js/js-datatypes.html - *JavaScript 数据类型 | 菜鸟�
 
 - 对象
 
+https://www.runoob.com/w3cnote/detect-empty-javascript-object.html - *如何判断 JavaScript 对象是否为空？ | 菜鸟教程*
 
+https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
 
 ### 进阶
 
@@ -848,6 +850,10 @@ https://blog.csdn.net/qq_42740797/article/details/127889421 - *js 关于如何�
 ### 事件处理
 
 https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers - *事件处理 | Vue.js*
+
+https://wangdoc.com/javascript/events/model#事件的传播 - *事件模型 - JavaScript 教程 - 网道*
+
+https://wangdoc.com/javascript/events/event - *Event 对象 - JavaScript 教程 - 网道*
 
 https://blog.csdn.net/wsln_123456/article/details/102397112 - *JS阻止子元素触发父元素的事件_阻止子元素触发父元素事件_花铛的博客-CSDN博客*
 

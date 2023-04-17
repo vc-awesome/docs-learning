@@ -145,10 +145,15 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
    3. 点击`通用`进入
    4. 点击`左下角锁`并输入用户密码进行解锁
    5. 找到并勾选 `App Store 和被认可的开发者`即可
+   
+   > 系统版本：macOS Ventura 13.1 中设置。
+   1. 在“程序坞”中找到并打开应用“系统设置”
+   2. 点击左边列表“隐私与安全性”
+   3. 点击右边列表“安全性”-“App Store 和被认可的开发者”，开启授权
 
 2. 如何安装 Rosetta
 
-   https://support.apple.com/zh-cn/HT211861
+   https://support.apple.com/zh-cn/HT211861 - *如果您需要在 Mac 上安装 Rosetta - 官方 Apple 支持 (中国)*
 
 3. MacBook m1 芯片关闭sip教程
 

@@ -50,17 +50,18 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/oldj/SwitchHosts?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/oldj/SwitchHosts?style=social)
 
-<i class="fa fa-laptop"></i> https://swh.app/zh/
+<i class="fa fa-laptop"></i> https://switchhosts.vercel.app/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/oldj/SwitchHosts
 
-<i class="fa fa-windows"></i> <i class="fa fa-linux"></i> <i class="fa fa-apple"></i> https://github.com/oldj/SwitchHosts/releases
+https://github.com/oldj/SwitchHosts/releases
+- 支持 Windows, macOS, Linux
 
 
 ### 手机应用
 
-1. [Daedalus](os/mobile/README.md#daedalus)
-2. [personalDNSfilter](os/mobile/README.md#personaldnsfilter)
+1. [Daedalus](os/mobile/app-store.md#daedalus)
+2. [personalDNSfilter](os/mobile/app-store.md#personaldnsfilter)
 
 ## Rules
 

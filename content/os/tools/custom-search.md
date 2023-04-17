@@ -73,18 +73,19 @@
       },
       onSubmit() {
         const _that = this;
+        const _params = encodeURI(this.message);
         try {
           if (this.value == 'baidu') {
-            _that.alert.title = "https://www.baidu.com/s?word=" + this.message;
+            _that.alert.title = "https://www.baidu.com/s?word=" + _params;
             _that.label = "百度关键词搜索"
           } else if (this.value == 'zhihu') {
-            _that.alert.title = "https://www.zhihu.com/search?type=content&q=" + this.message;
+            _that.alert.title = "https://www.zhihu.com/search?type=content&q=" + _params;
             _that.label = "知乎话题搜索"
           } else if (this.value == 'github') {
-            _that.alert.title = "https://github.com/search?q=" + this.message;
+            _that.alert.title = "https://github.com/search?q=" + _params;
             _that.label = "GitHub 关键词搜索"
           } else if (this.value == 'duckduckgo') {
-            _that.alert.title = "https://duckduckgo.com/?q=" + this.message;
+            _that.alert.title = "https://duckduckgo.com/?q=" + _params;
             _that.label = "DuckDuckGo 关键词搜索"
           } else {
             _that.value = "duckduckgo";

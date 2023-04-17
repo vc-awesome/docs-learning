@@ -61,37 +61,33 @@ https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油
 
   https://browser.yandex.com/
 
-- <i class="fa fa-chrome"></i> Chrome 🇺🇸
-    
-    https://www.google.com/chrome/
-    
-    https://developers.google.cn/ - *Google Developers*
-    
-    https://source.android.google.cn/ - *Android 开源项目  |  Android Open Source Project*
-    
-    https://developer.android.google.cn/ - *Android 开发者  |  Android Developers*
-    
-    **命令**
-    
-    ```sh
-    chrome://chrome-urls/
-    ```
+### Chrome
+
+<i class="fa fa-chrome"></i> 🇺🇸
+
+https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
+
+**命令**
+
+```sh
+chrome://chrome-urls/
+```
   
-    ``` sh
-    chrome://extensions/
-    ```
-    
-    https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
-    
-    https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
+``` sh
+chrome://extensions/
+```
 
-  **参考链接**
+1. https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
 
-  https://jingyan.baidu.com/album/b2c186c822546ac46ef6ff04.html - *google浏览器怎么删除指定cookie数据*
+2. https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
 
-  https://blog.csdn.net/u012086167/article/details/38331543 - *google浏览器网页背景颜色修改*
+**参考链接**
 
-  https://blog.csdn.net/zhaojunjie_dream/article/details/80021064 - *如何通过Chrome打断点的方法调试代码*
+1. https://jingyan.baidu.com/album/b2c186c822546ac46ef6ff04.html - *google浏览器怎么删除指定cookie数据*
+
+2. https://blog.csdn.net/u012086167/article/details/38331543 - *google浏览器网页背景颜色修改*
+
+3. https://blog.csdn.net/zhaojunjie_dream/article/details/80021064 - *如何通过Chrome打断点的方法调试代码*
 
 
 
@@ -118,7 +114,7 @@ https://blog.csdn.net/qq_42799236/article/details/106739690 - _【JS】把JavaSc
 
 ## 标签页同步
 
-百度搜索：_局域网浏览器标签页同步_
+百度关键词搜索：[局域网浏览器标签页同步](https://www.baidu.com/s?word=%E5%B1%80%E5%9F%9F%E7%BD%91%E6%B5%8F%E8%A7%88%E5%99%A8%E6%A0%87%E7%AD%BE%E9%A1%B5%E5%90%8C%E6%AD%A5)
 
 https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试试这三种方案 - 少数派*
 
@@ -189,33 +185,33 @@ https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索
   
   4. 切换标签页
   
-     <kbd>ctrl</kbd>  + <kbd>shift</kbd>  + <kbd>tab</kbd> 或 <kbd>Ctrl</kbd> + <kbd>PgUp</kbd> `从右向左切换，跳转到上一个打开的标签页`
+     <kbd>ctrl</kbd>  + <kbd>shift</kbd>  + <kbd>tab</kbd> 或 <kbd>Ctrl</kbd> + <kbd>PgUp</kbd> *从右向左切换，跳转到上一个打开的标签页*
   
-     <kbd>ctrl</kbd>  + <kbd>tab</kbd> 或 <kbd>Ctrl</kbd> + <kbd>PgDn</kbd>  `从左向右切换，跳转到下一个打开的标签页`
+     <kbd>ctrl</kbd>  + <kbd>tab</kbd> 或 <kbd>Ctrl</kbd> + <kbd>PgDn</kbd>  *从左向右切换，跳转到下一个打开的标签页*
   
   5. 跳转到特定标签页
   
-    <kbd>Ctrl</kbd> + <kbd>1</kbd> ~ <kbd>Ctrl</kbd> + <kbd>8</kbd>
+     <kbd>Ctrl</kbd> + <kbd>1</kbd> ~ <kbd>Ctrl</kbd> + <kbd>8</kbd>
   
-    <kbd>Ctrl</kbd> + <kbd>9</kbd> `跳转到最后一个标签`
+     <kbd>Ctrl</kbd> + <kbd>9</kbd> *跳转到最后一个标签*
   
   6. 恢复最近关闭的标签
   
-    <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>
+     <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>
   
-    谷歌浏览器使用时，如果不小心关闭了一个标签，按下 <kbd>Ctrl</kbd> 键或 <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>，Chrome 将重新打开你最近关闭的标签，仿佛无事发生过。（如果想要恢复的标签不止一个，也可以重复操作。)
+     谷歌浏览器使用时，如果不小心关闭了一个标签，按下 <kbd>Ctrl</kbd> 键或 <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>，Chrome 将重新打开你最近关闭的标签，仿佛无事发生过。（如果想要恢复的标签不止一个，也可以重复操作。)
   
-    参考： http://www.cnplugins.com/tool/undo-close-method.html - *Chrome谷歌浏览器中如何恢复已经关闭的网页?*
+     参考： http://www.cnplugins.com/tool/undo-close-method.html - *Chrome谷歌浏览器中如何恢复已经关闭的网页?*
   
   7. 关闭标签页
   
-    <kbd>Ctrl</kbd> + <kbd>W</kbd>
+     <kbd>Ctrl</kbd> + <kbd>W</kbd>
   
   8. 保存所有的标签页
   
-    <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>
+     <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>
   
-    当打开一堆选项卡并想把这些页面都保存起来以供之后使用，按 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>。这样就可以将所有打开的选项卡保存到一个文件夹中，方便以后访问。要恢复它们，只需右键单击书签内的文件夹，选择“打开所有新窗口”。
+     当打开一堆选项卡并想把这些页面都保存起来以供之后使用，按 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>。这样就可以将所有打开的选项卡保存到一个文件夹中，方便以后访问。要恢复它们，只需右键单击书签内的文件夹，选择“打开所有新窗口”。
 
 
 

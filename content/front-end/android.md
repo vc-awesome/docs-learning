@@ -8,3 +8,5 @@ context menu - *上下文菜单*
 
 Intent - *意图*
 - https://www.runoob.com/w3cnote/android-tutorial-intent-base.html - *4.5.1 Intent的基本使用 | 菜鸟教程*
+
+URL Scheme - **

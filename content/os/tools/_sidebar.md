@@ -4,14 +4,18 @@
 * [PC Tools](os/tools/应用工具.md)
 * [Web Tools](os/tools/online.md "在线工具")
 * **Daily**
+* [Bitwarden](os/tools/bitwarden.md)
 * [Browser](os/tools/browser.md "浏览器")
 * [Extensions](os/tools/browser-extensions.md "浏览器扩展程序")
+* [Extensions Trial](os/tools/browser-extensions-trial.md)
 * [Hosts](os/tools/hosts.md "Hosts")
 * [Markdown](os/tools/markdown.md)
 * [Docsify](os/tools/docsify.md)
 * [科学上网](os/tools/vpn.md "科学上网")
 * [RSS](os/tools/rss.md)
 * [剪贴板](os/tools/clipboard.md)
+* [多媒体](os/tools/multimedia.md)
+* [文件同步](os/tools/file-sync.md)
 * **Development**
 * [GitHub](os/tools/github.md)
 * [Git](os/tools/git.md)

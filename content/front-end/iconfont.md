@@ -343,6 +343,8 @@ https://github.com/react-icons/react-icons
 
 <i class="fa fa-book"></i> http://google.github.io/material-design-icons/
 
+https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts*
+
 <i class="ri-soundcloud-line"></i>
 1. https://www.bootcdn.cn/material-design-icons/
 2. https://unpkg.com/material-design-icons/
