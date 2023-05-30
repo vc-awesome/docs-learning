@@ -12,7 +12,9 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 ### Size
 
-Use **Font Awesome** class.
+> Use **Font Awesome** class.
+
+<details markdown='1'><summary>展开/收起</summary>
 
 | Name            | Preview                                                      | Code                                                         | Size class                                                   |
 | :--------------- | :------------------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------ |
@@ -23,9 +25,13 @@ Use **Font Awesome** class.
 | File Icons      | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |
 | Styled Icons    | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |
 
+</details>
+
 ### Color
 
-Use **File Icons** class.
+> Use **File Icons** class.
+
+<details markdown='1'><summary>展开/收起</summary>
 
 ?> *Color class* 语法： `light-*`,`medium-*`,`dark-*`（\* 用 *color name* 替换）
 
@@ -42,11 +48,13 @@ Use **File Icons** class.
 9  | pink  | <i class="ri-fire-line light-pink"></i><i class="ri-fire-line medium-pink"></i><i class="ri-fire-line dark-pink"></i>
 10  | theme-colour-check  | <i class="ri-fire-line theme-colour-check"></i>
 
+</details>
 
 ## Using
 
 ### Font Awesome
 
+<details markdown='1'><summary>展开/收起</summary>
 
 | 图标                                         | 语境             | 代码                                         |
 | :-------------------------------------------- | :---------------- | :-------------------------------------------- |
@@ -90,7 +98,11 @@ Use **File Icons** class.
 | <i class="fa fa-wrench fa-lg"></i>           | 工具             | `<i class="fa fa-wrench"></i>`               |
 | <i class="fa fa-user-circle-o fa-lg"></i>    | 登录             | `<i class="fa fa-user-circle-o"></i>`        |
 
+</details>
+
 ### Bootstrap Icons
+
+<details markdown='1'><summary>展开/收起</summary>
 
 | 图标                                 | 语境      | 代码                                   |
 | :------------------------------------ | :--------- | :-------------------------------------- |
@@ -99,7 +111,11 @@ Use **File Icons** class.
 | <i class="bi bi-filetype-html"></i>  | 文件      | `<i class="bi bi-filetype-html"></i>`  |
 | <i class="bi bi-hand-thumbs-up"></i> | 点赞      | `<i class="bi bi-hand-thumbs-up"></i>` |
 
+</details>
+
 ### Remix Icon
+
+<details markdown='1'><summary>展开/收起</summary>
 
 | 图标                                             | 语境                | 代码                                               |
 | :------------------------------------------------ | :------------------- | :-------------------------------------------------- |
@@ -119,7 +135,11 @@ Use **File Icons** class.
 | <i class="ri-alarm-warning-line light-red"></i>  | 注意/警告           | `<i class="ri-alarm-warning-line light-red"></i>`  |
 | <i class="ri-open-source-fill medium-green"></i> | 开源（Open-Source） | `<i class="ri-open-source-fill medium-green"></i>` |
 
+</details>
+
 ### File Icons
+
+<details markdown='1'><summary>展开/收起</summary>
 
 | 图标                                                         | 代码                                                         | Stylesheets |
 | :------------------------------------------------------------ | :------------------------------------------------------------ | :----------- |
@@ -141,7 +161,7 @@ Use **File Icons** class.
 | <span class="icon octicon-file redis-icon medium-red"></span> | `<span class="icon octicon-file redis-icon medium-red"></span>` | 自定义      |
 | <span class="icon octicon-file tag-icon"></span>                    | `<span class="icon octicon-file tag-icon"></span>`                  | 自定义      |
 
-
+</details>
 
 > 图标字体库
 
@@ -175,7 +195,7 @@ https://www.high-logic.com/font-editor/fontcreator :us: - *FontCreator for Windo
 
 
 
-### 在线 icon 搜索
+### 在线 Icon 搜索
 
 https://www.flaticon.com/ :us: - *Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS*
 
@@ -183,7 +203,6 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
 - <i class="fa fa-github fa-lg"></i>
   https://github.com/icons8
-
 
 
 ## Iconfont
@@ -393,3 +412,4 @@ https://github.com/microsoft/vscode-codicons
 1. https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN* ![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
 2. https://github.com/tabler/tabler-icons - *tabler/tabler-icons: A set of over 4000 free MIT-licensed high-quality SVG icons for you to use in your web projects.*
 3. https://github.com/Templarian/MaterialDesign - *GitHub - Templarian/MaterialDesign: ✒7000+ Material Design Icons from the Community*
+4. https://github.com/jaywcjlove/icongo - *GitHub - jaywcjlove/icongo: Search SVG Icons. Easily include popular icons in your React projects and provide an easy tool to convert SVG into React components. @icongo*

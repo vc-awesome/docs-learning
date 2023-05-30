@@ -98,4 +98,9 @@ https://docs.github.com/zh/get-started/quickstart/github-glossary - *GitHub 词�
 1. 浏览器安装了鼠标手势扩展程序，使得 ThinkPHP6 中的表单令牌功能，前端 token 请求页面获取一次，后端 token 请求页面获取一次加上扩展程序请求了一次 url，从而重置了两次 token，导致前后端验证失败；
 2. 服务器生产环境，因为浏览器安装并使用了扩展程序，导致操作只访问 url 一次，而扩展程序脚本也请求了一次，使得后端接收了2 次请求，造成 MySQL 重复插入数据的问题。
 
+## 安全措施
 
+可参考：Bitwarden
+
+- 多账户
+- 两步登录

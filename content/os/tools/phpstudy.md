@@ -1,8 +1,8 @@
 ## 官方
 
-?> php 服务器组件
+> PHP 服务器组件
 
-官网：https://www.xp.cn/
+https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器环境！*
 
 
 
@@ -90,14 +90,10 @@
 
 ## 参考链接
 
-VC10 64位_phpstudy集成安装环境运行库-php中文网工具下载  
-https://www.php.cn/xiazai/gongju/1480
+1. https://www.php.cn/xiazai/gongju/1480 - *VC10 64位_phpstudy集成安装环境运行库-php中文网工具下载*
 
-PHPStudy 加载64位PHP环境 - Lovestu  
-http://www.lovestu.com/phpconfig01.html
+2. http://www.lovestu.com/phpconfig01.html - *PHPStudy 加载64位PHP环境 - Lovestu*
 
-如何使用phpstudy安装PHP7的64位运行环境？  
-https://blog.csdn.net/xgocn/article/details/95754790
+3. https://blog.csdn.net/xgocn/article/details/95754790 - *如何使用phpstudy安装PHP7的64位运行环境？*
 
-phpstudy安装64位PHP  
-https://blog.csdn.net/weixin_36185028/article/details/76144941
+4. https://blog.csdn.net/weixin_36185028/article/details/76144941 - *phpstudy安装64位PHP*

@@ -28,7 +28,7 @@
   <link rel="stylesheet" href='_assets/css/vc-animation.css'>
   
   <!-- 代码块行号 -->
-  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+  <link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
   <style>
     /*
      * Fix line number in code block. 
@@ -53,6 +53,7 @@
 <div id="app"></div>
 
 <div style="display: none;" id="d-none">
+  <button class="btn btn-outline btn-sm position-fixed bottom-11 right-3" style="opacity:.6;margin-bottom:160px;" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
   <!-- 返回顶部 -->
   <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent position-fixed bottom-11 right-3 mb-12" style="opacity:.6;" aria-disabled="true">
     0%
@@ -403,10 +404,12 @@ window.$docsify.plugins.push(
 <!-- CDN unpkg -->
 <!-- ----------------------------------------------------------------- -->
 <script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-powershell.min.js"></script>
 <script>
   // 全文搜索
   window.$docsify.search = {
@@ -512,6 +515,41 @@ window.$docsify.plugins.push(
     })
   }
 )
+</script>
+<!-- SweetAlert2 -->
+<style>
+  .swal2-html-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .swal2-close:focus {
+    box-shadow: none!important;
+  }
+</style>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+function sweetalert2(_filename = 'content/_portal.md') {
+  var html;
+  window.Docsify.get(_filename).then(function(content) {
+    html = window.marked.parse(content);
+    // console.log(content, html)
+    Swal.fire({
+      showConfirmButton: false,
+      showCloseButton: true,
+      focusConfirm: false,
+      html: html
+    })
+  })
+}
+
+function sweetalert2Iframe(_url = "snippets/") {
+  Swal.fire({
+    showConfirmButton: false,
+    showCloseButton: true,
+    focusConfirm: false,
+    html: '<iframe src="/snippets.html#/' + _url + '" frameborder="0" style="height: calc( 100vh / 1.2 );"></iframe>',
+  })
+}
 </script>
 
 </body>

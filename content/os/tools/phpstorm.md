@@ -1,57 +1,59 @@
 ## 官方
 
-官网：https://www.jetbrains.com/
+官网：
 
-手册：https://www.jetbrains.com/help/phpstorm/2020.3/getting-started.html
+https://www.jetbrains.com/ - *JetBrains: Essential tools for software developers and teams*
 
-Github：https://github.com/JetBrains/
+手册：
 
-历史版本下载：https://www.jetbrains.com/phpstorm/download/other.html
+https://www.jetbrains.com/help/phpstorm/2020.3/getting-started.html - *Getting started | PhpStorm*
 
--  https://blog.csdn.net/qq_29752857/article/details/107050967 - _JetBrains下载历史版本(IDEA、PyCharm、WebStorm、PhpStorm等)_ 
+GitHub：
 
+https://github.com/JetBrains/ - *JetBrains · GitHub*
+
+历史版本下载：
+
+https://www.jetbrains.com/phpstorm/download/other.html - *Other Versions - PhpStorm*
+-  https://blog.csdn.net/qq_29752857/article/details/107050967 - *JetBrains下载历史版本(IDEA、PyCharm、WebStorm、PhpStorm等)*
 
 
 ## 注册/激活码
 
 **2022/01/13**
 
-破解方式
+破解方式：
 
 1. 插件：`IDE Eval Reset`
 
    JetBrains全家桶无限试用
 
-   https://mrhelloworld.com/jetbrains/
-
-   
+   https://mrhelloworld.com/jetbrains/ - *一个插件搞定 Jetbrains 系列产品永久试用 - 哈喽沃德先生*
 
 2. 工具：`jetbrains-agent`
 
    相信破解过IDEA的小伙伴，都知道`jetbrains-agent`这个工具，没错，就是那个直接拖入到开发工具界面，一键搞定，so easy的破解工具！这个工具目前已经停止更新了，尽管还有很多小伙伴在使用，但是对新版本IDE的支持已经不是很稳定了。下面我会分享一个无线重置IDE过期时间的插件，让你不太再为IDE频繁时效而烦恼。
 
-   
-   
 3. 激活码`不定期更新`
 
-   https://jetbra.in/s `链接来源 https://zhile.io/2020/11/18/jetbrains-eval-reset-deprecated.html -> 位置：新试用机制`
+   https://jetbra.in/s （链接来源：https://zhile.io/2020/11/18/jetbrains-eval-reset-deprecated.html -> 位置：新试用机制）
    
-   http://soft-hub.cn/
+   http://soft-hub.cn/ - *IDEA激活码-WebStorm激活码-PhpStorm激活码-IDEA主题样式-SoftHub*
 
 ------
 
-:thumbsup: https://zhile.io/ `可查看下列两篇文章`
+👍 https://zhile.io/ - *知了 – 朝闻道，夕可眠矣。* `可查看下列两篇文章`
 
 1. [Jetbrains系列产品重置试用方法[归档]](https://zhile.io/2020/11/18/jetbrains-eval-reset-deprecated.html)
 2. [Jetbrains系列产品最新激活方法[归档]](https://zhile.io/2018/08/25/jetbrains-license-server-crack.html)
 
-http://idea.lanyus.com/ `暂停提供`
+http://idea.lanyus.com/ - *IntelliJ IDEA 注册码* `暂停提供`
 
 ------
 
 **2020/01/07**
 
-:thumbsup: https://www.php.cn/tool/phpstorm/408348.html `暂停提供（评论区有最新有效注册码）`
+👍 https://www.php.cn/tool/phpstorm/408348.html - *正版phpstorm免费激活步骤（图文详解）-phpstorm-PHP中文网* 「暂停提供（评论区有最新有效注册码）」
 
 ------
 
@@ -61,11 +63,11 @@ http://idea.lanyus.com/ `暂停提供`
 
 ~~https://www.frankblog.cn/post/18.html~~
 
-https://www.0daydown.com/tag/phpstorm
+https://www.0daydown.com/tag/phpstorm - *PhpStorm | 下载,Download*
 
-~~http://easycolor.cc/article/4.html~~ `暂停提供（扫码关注公众号） -适用于最新版本（2020版）`
+~~http://easycolor.cc/article/4.html~~ *暂停提供（扫码关注公众号） -适用于最新版本（2020版）*
 
-~~http://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip~~ `查看下载文件创建日期判断是否暂停提供 -适用于最新版本（2020版）`
+~~http://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip~~ *查看下载文件创建日期判断是否暂停提供 -适用于最新版本（2020版）*
 
 ------
 
@@ -77,8 +79,7 @@ https://www.0daydown.com/tag/phpstorm
 
 **2020/12/17**
 
-~~https://tangyulu.com/~~ `最新注册码有效连接`
-
+~~https://tangyulu.com/~~ *最新注册码有效连接*
 
 
 ## 常用操作
@@ -111,17 +112,16 @@ https://www.0daydown.com/tag/phpstorm
 
    `文件` > `设置` > `编辑器` > `Code Style` > `PHP` > `Wrapping and Braces` > `数组初始化`
 
-   https://www.php.cn/tool/phpstorm/441025.html
+   https://www.php.cn/tool/phpstorm/441025.html - *phpstorm如何格式化数组-phpstorm-PHP中文网*
 
 8. 设置方法、函数参数提示
 
-   * `文件` > `设置` > `编辑器` > `镶嵌提示` > `php`
-     * 勾选`Show name for all arguments`
+   * `文件` > `设置` > `编辑器` > `镶嵌提示` > `php` > 勾选`Show name for all arguments`
+
    * 在代码显示的参数名上方右键点击会出现两个选项，选择第二个 Disable 就可以关闭了
 
-   https://www.wenjiangs.com/article/phpstorm-parameter-name-hints.html
+    参考：https://www.wenjiangs.com/article/phpstorm-parameter-name-hints.html - *PhpStorm 取消函数参数提示 Parameter Name Hints - 文章教程 - 文江博客*
 
-   
 
 ## 断点调试
 
@@ -134,15 +134,13 @@ https://www.0daydown.com/tag/phpstorm
 7. 检查xdebug是否开启 on
 
 
-
 ### 一、软件环境
 
-> 运行环境：WAMP
-> PhpStorm版本：2017.2.4
-> PHP Version：5.5.12
-> xdebug版本：php_xdebug-2.2.5-5.5-vc11.dll
-> ps : php版本和xdebug版本一定要相对应
-
+> - 运行环境：WAMP
+> - PhpStorm版本：2017.2.4
+> - PHP Version：5.5.12
+> - xdebug版本：php_xdebug-2.2.5-5.5-vc11.dll
+> - ps : php版本和xdebug版本一定要相对应
 
 
 ### 二、配置php.ini文件
@@ -235,11 +233,8 @@ xdebug.idekey = PHPSTORM
 
 
 参考文档：
-[https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html](https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html)
-[https://blog.csdn.net/ty_hf/article/details/50768702](https://blog.csdn.net/ty_hf/article/details/50768702)
-
-
-
+1. [https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html](https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html) - *phpstorm设置断点调试 - shen1hua - 博客园*
+2. [https://blog.csdn.net/ty_hf/article/details/50768702](https://blog.csdn.net/ty_hf/article/details/50768702) - *phpstorm+Xdebug断点调试PHP_phpstorm + xdebug断点_时而宁靜的博客-CSDN博客*
 
 
 ## 使用SVN

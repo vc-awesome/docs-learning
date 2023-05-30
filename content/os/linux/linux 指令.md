@@ -24,7 +24,7 @@ https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linu
 
 ### 文件基本属性
 
-https://m.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基本属性 | 菜鸟教程*
+https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基本属性 | 菜鸟教程*
 
 
 ### 查看当前目录
@@ -34,6 +34,11 @@ https://m.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基本
 `ls`
 
 `ls -l` - _查看所有文件的属性_
+
+```sh
+tree
+```
+https://www.runoob.com/linux/linux-comm-tree.html - *Linux tree命令 | 菜鸟教程*
 
 
 ### 切换目录
@@ -100,6 +105,24 @@ https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教
 ### 查看文件指定行
 
 `head -3 [文件名]`
+
+
+### 查看文件属性
+
+```sh
+ls -l
+```
+https://www.runoob.com/linux/linux-comm-ls.html - *Linux ls命令 | 菜鸟教程*
+
+```sh
+stat [文件或目录]
+```
+https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟教程*
+
+参考：
+
+1. https://www.linuxprobe.com/linux-properties-permissions.html - *Linux文件之属性与权限详解 | 《Linux就该这么学》*
+2.  https://blog.csdn.net/p309654858/article/details/127765811 - *Linux如何查看文件的属性_linux查看文件属性_music score的博客-CSDN博客*
 
 
 ### 清屏

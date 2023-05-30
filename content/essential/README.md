@@ -1,3 +1,8 @@
+## 进制
+
+http://c.biancheng.net/view/141.html - *进制是什么？*
+
+
 ## P2P
 
 ### IPFS

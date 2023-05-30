@@ -1,15 +1,14 @@
-资源文件夹命名
+> 资源文件夹命名。
 
 ## 链接
 
-[Tools > Docsify > Directory Structure](/tools/docsify?id=目录结构)
+有关详细信息，请参阅“[Tools > Docsify > Directory Structure](/tools/docsify#目录结构)”。
 
-参考
+参考：
 
 - ThinkPHP https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
 
 - Bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 内容*
-
 
 
 ## 项目
@@ -121,18 +120,17 @@
 ```
 
 
-
 ## 前端
 
-### Custom ✨
+### 自整理
 
 > 自定义目录结构
 
 参考站点：
 
-1️⃣ https://gamium.world/ 🇺🇸
+1. https://gamium.world/
 
-2️⃣ https://unpkg.com/fontawesome-free/
+2. https://unpkg.com/fontawesome-free/
 
 ```text
 myproject
@@ -166,15 +164,16 @@ myproject
 +-- index.html
 ```
 
+
 ### Web
 
 > 资源存放
 
 参考 Bootstrap 源码：
 
-- https://v5.bootcss.com/docs/getting-started/contents
+- https://v5.bootcss.com/docs/getting-started/contents - *Contents · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
 
-- https://getbootstrap.com/docs/5.1/getting-started/contents/
+- https://getbootstrap.com/docs/5.1/getting-started/contents/ - *Contents · Bootstrap v5.1*
 
 ```text
 # 每个页面对应一个css文件，例如：blog 页面文件夹下有 index.html 和 blog.css
@@ -264,6 +263,10 @@ project/ #目录结构
 └─ uni.scss
 ```
 
+
+### 工程化
+
+https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-workflow: A web developer workflow used by WeChat team based on Gulp, with cross-platform supported and solutions prepared.*
 
 
 ## 后端

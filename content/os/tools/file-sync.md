@@ -1,12 +1,12 @@
-## 参考
+## WebDAV
 
-☑️ https://baijiahao.baidu.com/s?id=1666954457030652604 - _WebDAV是什么，有哪些支持webdav的网盘和工具？_
+1. https://baijiahao.baidu.com/s?id=1666954457030652604 - *WebDAV是什么，有哪些支持webdav的网盘和工具？*
+
+2. https://baijiahao.baidu.com/s?id=1716111755399982472 - *含WebDAV 文件管理类工具汇总*
 
 ## 文件同步工具
 
 http://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的局域网文件夹同步工具_
-
-- ✅ FolderSync - https://www.tacit.dk/
 
 
 ## 网盘列表
@@ -17,20 +17,6 @@ https://www.rmnof.com/article/cloud-drive-support-webdav/ - _支持WebDAV的云�
 
 https://www.banzhuti.com/webdav-wangpan.html - _支持WebDAV的网盘汇总对比-包含各大国内外网盘WebDAV服务器地址及连接方式_
 
-
-- ✅ TeraCloud :jp: - https://teracloud.jp/en/
-- ✅ 坚果云 :cn: - https://www.jianguoyun.com/
-    - https://zhuanlan.zhihu.com/p/128501633 - _盘点22个支持坚果云WebDav的软件，数据同步不用愁！_
-    - https://www.zhihu.com/tardis/landing/m/360/qus/347182171 - _2022年还有哪些支持WebDAV的网盘？_
-- ✅ Microsoft OneDrive :us: - https://www.microsoft.com/zh-cn/microsoft-365/onedrive/online-cloud-storage
-- ✅ 百度网盘 :cn: - https://pan.baidu.com/
-    - 在线解析
-- Seafile :cn: - https://www.seafile.com/home/ - *Seafile - 开源的企业私有网盘 私有云存储软件 企业维基 知识管理*
-
-    - 支持 Windows, Mac, Linux, iOS, Android, [GitHub](https://github.com/haiwen/seafile)
-
-- ✅ Joplin - https://joplinapp.org/
-    - GitHub https://github.com/laurent22/joplin/
 
 ## 协议列表
 
@@ -43,9 +29,32 @@ http://www.menglei.net/3582/ - *FOLDERSYNC一款支持各大国外网盘同步�
 
 ## 自建网盘
 
-- Nextcloud :us: - https://nextcloud.com/
-    - GitHub https://github.com/nextcloud
+> 自建“私有云”
+
+1. https://nextcloud.com/ - *Nextcloud - Online collaboration platform*
+
+    - 支持 Windows, macOS, Linux, Android, iOS
+    
+    - 开源软件（[GitHub](https://github.com/nextcloud)）
+    
+    - 注册登录（开通会员解锁更多功能）
+    
+2. NAS
+    - https://baike.baidu.com/item/NAS/3465615 - *NAS_百度百科*
+    - https://www.synology.cn/zh-cn - *群晖科技 Synology Inc.*
+
 
 ## 网盘挂载
 
-https://baijiahao.baidu.com/s?id=1716111755399982472 - _含WebDAV 文件管理类工具汇总_
+https://jingyan.baidu.com/article/2f9b480d9d0f9e00cb6cc2c9.html - *如何挂载网盘到本地-百度经验*
+
+https://blog.csdn.net/qq_40903527/article/details/127497825 - *将各种网盘挂载到本地，可以使用磁盘操作（建议收藏）_都是地址而已的博客-CSDN博客*
+
+https://baijiahao.baidu.com/s?id=1749059137522588033&searchword=%E7%BD%91%E7%9B%98%E6%8C%82%E8%BD%BD - *windows10系统下nextcloud服务的webdav网盘挂载方法*
+
+
+## 常见问题
+
+### 应用程序如何连接网盘进行同步？
+
+https://joplinapp.org/help/#synchronisation - *Joplin - an open source note taking and to-do application with synchronisation capabilities*

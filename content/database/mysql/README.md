@@ -11,7 +11,7 @@ MySQL是一种关系数据库管理系统，关系数据库将数据保存在不
 
 文档：https://dev.mysql.com/doc/
 
-Github：https://github.com/mysql
+GitHub：https://github.com/mysql
 
 
 

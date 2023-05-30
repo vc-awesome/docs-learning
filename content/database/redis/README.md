@@ -1,8 +1,8 @@
 ## 官方
 
-官方链接 https://redis.io/
+官方链接：https://redis.io/
 
-中文链接 http://www.redis.cn/
+中文链接：http://www.redis.cn/
 
 
 
@@ -56,7 +56,7 @@ https://www.php.cn/php-ask-479206.html - *php redis怎么安装*
 4. 编译安装
 5. 在 php.ini 加载 phpredis 扩展
 
-### composer
+### Composer
 
 `predis/predis`
 
@@ -64,7 +64,7 @@ https://www.php.cn/php-ask-479206.html - *php redis怎么安装*
 
 
 
-### github
+### GitHub
 
 `phpredis/phpredis`
 

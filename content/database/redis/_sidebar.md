@@ -1,1 +1,1 @@
-* [Introduce](/database/redis/ "introduce")
+* [Redis](/database/redis/)

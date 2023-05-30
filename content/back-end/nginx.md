@@ -8,7 +8,7 @@
 
 中文文档：https://www.nginx.cn/doc/
 
-Github：https://github.com/nginx/nginx
+GitHub：https://github.com/nginx/nginx
 
 ## 安装
 

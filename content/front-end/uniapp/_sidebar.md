@@ -1,4 +1,4 @@
-* [Introduce](/front-end/uniapp/)
+* [uni-app](/front-end/uniapp/)
 * [Tutorial](/front-end/uniapp/uniapp.md "uniapp教程")
 * **插件**
     * [colorui](/front-end/uniapp/uniapp%20+%20colorui.md "Color UI") 

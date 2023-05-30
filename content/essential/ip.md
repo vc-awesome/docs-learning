@@ -1,3 +1,4 @@
+## 查询本机 IP 工具
 
 https://whatismyip.li/ - *What is my IP?*
 - https://whatismyip.li/psiphon1 - _What is my IP? - Why VPN is important?_
@@ -15,9 +16,11 @@ https://www.netspotapp.com/cn/blog/ip-addresses/what-is-my-ip-address.html - *�
 GitHub 关键词搜索：[ip](https://github.com/search?q=ip)
 
 https://github.com/mpolden/echoip - *GitHub - mpolden/echoip: IP address lookup service*
+- 支持 Web
 - https://ifconfig.co/ - *What is my IP address? — ifconfig.co*
 
 https://github.com/angryip/ipscan - *GitHub - angryip/ipscan: Angry IP Scanner - fast and friendly network scanner*
+- 支持 Windows, macOS, Linux
 
 ----
 
@@ -29,6 +32,7 @@ https://github.com/angryip/ipscan - *GitHub - angryip/ipscan: Angry IP Scanner -
 
 - IPv4
 - IPv6
+    - 检测工具：https://test-ipv6.com/ - *IPv6 测试*
 
 ----
 

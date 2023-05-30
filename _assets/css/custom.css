@@ -75,6 +75,9 @@ nav i {
   nav.app-nav li ul {
     max-height: calc(100vh - 251px);
   }
+  nav.app-nav li ul:last-child {
+    max-height: calc(100vh - 321px);
+  }  
 }
 
 /*列表中间间隔线 -start*/

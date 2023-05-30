@@ -174,5 +174,8 @@ _via https://clipboardjs.com/ - *clipboard.js — Copy to clipboard without Flas
 
 https://mp.weixin.qq.com/s/YpMjQrFTYwwTQJcWAqKwRA - *CSS 中流与宽高之间是如何相互影响的？*
 
-https://1linelayouts.glitch.me/ - _一行 CSS 布局_ 🪜
+https://1linelayouts.glitch.me/ - *一行 CSS 布局* 🪜
+
+https://juejin.cn/post/6861501624993447950 - *CSS八种让人眼前一亮的HOVER效果 - 掘金*
+
 

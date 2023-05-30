@@ -2,36 +2,79 @@
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github) ![GitHub Release Date](https://img.shields.io/github/release-date/docsifyjs/docsify?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social) ![npm](https://img.shields.io/npm/v/docsify?logo=npm&style=social)
 
-<i class="fa fa-laptop"></i> https://docsify.js.org/
+----
 
-<i class="fa fa-github fa-lg"></i> https://github.com/docsifyjs/docsify/
+https://docsify.js.org/ - *A magical documentation generator.*
 
-<details class="details-reset"><div class="border p-3 mt-2">
+https://github.com/docsifyjs/docsify/ - *GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.*
 
-> 文档进阶之路：`记事本` > `word` > `markdown` > `docsify`
+
+## Usage
+
+语法：
 
 ```markdown
-?> A scalable set of icons handcrafted with <3 by GitHub.<br>  
-<i class="bi bi-translate dark-yellow"></i><br>  
-GitHub 使用 <3 手工制作的一组可扩展图标。
+?> 🃏 A magical documentation site generator.<br>  
+<i class="bi bi-translate dark-yellow"></i>  
+ *🃏 一个神奇的文档网站生成器。*
 ```
 
-?> A scalable set of icons handcrafted with <3 by GitHub.<br><i class="bi bi-translate dark-yellow"></i><br>GitHub 使用 <3 手工制作的一组可扩展图标。
+渲染效果：
+
+?> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
 
 ---
 
+语法：
+
 ```markdown
-!> Official open source SVG icon library for Bootstrap.<br>  
-<i class="bi bi-translate dark-yellow"></i><br>  
-Bootstrap 的官方开源 SVG 图标库。
+!> 🃏 A magical documentation site generator.<br>  
+<i class="bi bi-translate dark-yellow"></i>  
+ *🃏 一个神奇的文档网站生成器。*
 ```
 
-!> Official open source SVG icon library for Bootstrap.<br><i class="bi bi-translate dark-yellow"></i><br>Bootstrap 的官方开源 SVG 图标库。
+渲染效果：
 
+!> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
 
+----
 
-</div>
-</details>
+解析 Markdown 内容
+
+方式一（在自定义函数中使用）：
+
+```html
+<script>
+// 获取 Markdown 文件内容并解析
+function getMarkdownAndParse() {
+  var html;
+  // 获取 Markdown 文件内容
+  window.Docsify.get('content/_portal.md').then(function(content) {
+    // 文件内容解析
+    html = window.marked.parse(content);
+  })
+}
+</script>
+```
+
+方式二（在自定义插件中使用）：
+
+```html
+<script>
+window.$docsify.plugins.push(
+  function(hook, vm) {
+    hook.doneEach(function() {
+      var html;
+      // 获取 Markdown 文件内容
+      window.Docsify.get('content/_portal.md').then(function(content) {
+        // 文件内容解析
+        html = vm.compiler.compile(content);
+      })
+    })
+  }
+)
+</script>
+```
 
 
 ## Links
@@ -282,55 +325,10 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 https://docsify.js.org/#/language-highlight - *Language highlighting*
 
-https://prismjs.com/index.html - *Prism*
-
-https://prismjs.com/index.html#supported-languages - *Supported languages*
-
-https://unpkg.com/browse/prismjs/ - *UNPKG - prismjs*
-
-[Prism](开发框架/javascript-plugins.md#prismjs)
-``` html
-<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
-```
-
-php
-
-```html
-<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
-```
-
-sql
-
-```html
-<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
-```
-
-bash,sh,shell
-```html
-<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
-```
-
-markdown,md
-
-```html
-<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
-```
-
-uri,url
-
-```html
-<script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
-```
-
+有关详细信息，请参阅“[PrismJS](开发框架/javascript-plugins.md#prismjs)”。
 
 
 ##### 代码行号
-
-!> ~~没玩起来😶。~~
 
 https://prismjs.com/plugins/line-numbers/ - *Line Numbers ▲ Prism plugins*
 
@@ -417,7 +415,6 @@ window.$docsify.plugins.push(
 
 ##### 复制代码至剪贴板
 
-todo
 - 添加代码行数
 - 添加类似 GitHub 复制代码块的效果
 - 参考：https://blog.csdn.net/xixihahalelehehe/article/details/125120709 - *gtibook 插件 代码块_gitbook 代码_ghostwritten的博客-CSDN博客*
@@ -1062,7 +1059,7 @@ body .docsify-copy-code-button {
 
 #### 数学公式 LaTeX
 
-[tools/markdown.md#数学公式](tools/markdown.md#数学公式)
+有关详细信息，请参阅“[Markdown > 数学公式](os/tools/markdown.md#数学公式)”。
 
 https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docsify.js plugin for typesetting LaTeX with display engines from markdown.*
 
@@ -1075,7 +1072,7 @@ https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docs
 
 #### 图表 Diagrams
 
-[tools/markdown.md#图表](tools/markdown.md#图表)
+有关详细信息，请参阅“[Markdown > 图表](os/tools/markdown.md#图表)”。
 
 https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A plugin to render mermaid diagrams in docsify*
 

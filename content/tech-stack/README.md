@@ -1,5 +1,5 @@
 
-## 参考
+## 技术导航
 
 1. https://andreasbm.github.io/web-skills/ - _Web Skills_
 2. https://blog.csdn.net/weixin_41105030/article/details/89145407 - *PHPStorm、PHP、web开发网络概念（HTTP）_前端薛之谦...的博客-CSDN博客*

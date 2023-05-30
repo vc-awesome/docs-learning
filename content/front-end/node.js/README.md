@@ -319,11 +319,14 @@ https://blog.csdn.net/qq_41328247/article/details/79926353 - *browsersync的使�
 
 ##### Autoprefixer
 
-https://github.com/postcss/autoprefixer#usage - *GitHub - postcss/autoprefixer: Parse CSS and add vendor prefixes to rules by Can I Use*
+https://github.com/postcss/autoprefixer - *GitHub - postcss/autoprefixer: Parse CSS and add vendor prefixes to rules by Can I Use*
 
 https://autoprefixer.github.io/ - *Autoprefixer CSS online*
 
-### npm FAQ
+参考：https://www.cnblogs.com/zjzhome/p/4330408.html - *[译]Autoprefixer:用最可行的方式处理浏览器前缀的CSS后处理器 - zjzhome - 博客园*
+
+
+### npm 常见问题
 
 #### npm 本地安装模块后如何去运行
 
@@ -417,7 +420,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 <i class="fa fa-github"></i> https://github.com/coreybutler/nvm-windows - *A node.js version management utility for Windows. Ironically written in Go.*
 
-#### 在 MacOS M1 中安装
+#### 在 macOS M1 中安装
 
 - 安装步骤：
 
@@ -479,7 +482,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 
 
-### nvm FAQ
+### nvm 常见问题
 
 https://blog.csdn.net/N1keo/article/details/89971307 - *利用nvm安装npm失败的解决办法*
 

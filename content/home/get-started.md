@@ -1,10 +1,10 @@
 ## TODO
 
-- [ ] [markdown yaml front matter](/tools/markdown)
-- [ ] [github](/tools/github)
-  - [ ] [github awesome 系列](/tools/github?id=awesome)
+- [ ] [markdown yaml front matter](os/tools/markdown)
+- [ ] [github](os/tools/github)
+  - [ ] [github awesome 系列](os/tools/github?id=awesome)
 - [ ] API
-  - [ ] [YApi](/tools/yapi)
+  - [ ] [YApi](os/tools/yapi)
   - [ ] 开放 API 授权
   - [ ] [身份认证](/essential/identity.md)
 - [ ] JavaScript
@@ -15,15 +15,21 @@
 - [ ] 镜像
 - [ ] OS
   - [ ] 电脑系统安装
+  - [ ] tools > hosts.md > 修改 hosts 文件
+  - [ ] [os/tools/trial.md](os/tools/trial.md)
 - [x] 提交代码至远程仓库
 
 
 
 ## Skill
 
-- [搜索技巧](tools/browser.md#搜索引擎)
+- 文件整理技巧
 
-    [Web 工具](tools/custom-search.md)
+    https://mp.weixin.qq.com/s/VaRKwNwmmxak7tEgXx6I1A - *从收藏到永久保存，阿虚沉淀一年的独家稍后阅读姿势！*
+
+- [搜索技巧](os/tools/browser.md#搜索引擎)
+
+    [Web 工具](os/tools/custom-search.md)
     
     - 知乎话题搜索
   

@@ -2,21 +2,30 @@
 
 https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
-## Tutorial
+## 教程
 
-?> Mac的使用教程
+> Mac的使用教程
+
+### 基础操作
+
+### 触控板
 
 - 触控板单指点击为单击功能
 
 - 触控板双指点击为鼠标右键功能
 
+
+### 应用程序
+
 - <kbd>command</kbd> + <kbd>Q</kbd> - *退出当前程序，后台不运行该程序*
 
 - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>ESC</kbd> - *强制退出当前程序*
 
+
+### 输入法
+
 - <kbd>control</kbd> + <kbd>空格</kbd> - *切换输入法*
 
-    
 
 ### 文本操作
 
@@ -24,31 +33,33 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 - <kbd>fn</kbd> + <kbd>下箭头</kbd>：向下滚动一页（Page Down）
 - <kbd>fn</kbd> + <kbd>左箭头</kbd>：滚动至文档开头（Home）
 - <kbd>fn</kbd> + <kbd>右箭头</kbd>：滚动至文档末尾（End）
-- <kbd>cmd</kbd> + <kbd>右箭头</kbd>：将光标移至当前行的末尾
-- <kbd>cmd</kbd> + <kbd>左箭头</kbd>：将光标移至当前行的行首
-- <kbd>cmd</kbd> + <kbd>下箭头</kbd>：将光标移至文稿末尾
-- <kbd>cmd</kbd> + <kbd>上箭头</kbd>：将光标移至文稿开头
-- <kbd>Opt</kbd> + <kbd>右箭头</kbd>：将光标移至下一个单词的末尾
-- <kbd>Opt</kbd> + <kbd>左箭头</kbd>：将光标移至下一个单词的开头
+- <kbd>command</kbd> + <kbd>右箭头</kbd>：将光标移至当前行的末尾
+- <kbd>command</kbd> + <kbd>左箭头</kbd>：将光标移至当前行的行首
+- <kbd>command</kbd> + <kbd>下箭头</kbd>：将光标移至文稿末尾
+- <kbd>command</kbd> + <kbd>上箭头</kbd>：将光标移至文稿开头
+- <kbd>option</kbd> + <kbd>右箭头</kbd>：将光标移至下一个单词的末尾
+- <kbd>option</kbd> + <kbd>左箭头</kbd>：将光标移至下一个单词的开头
 - <kbd>ctrl</kbd> + <kbd>A</kbd>：移至行或段落的开头
 - <kbd>fn</kbd> + <kbd>backspace</kbd>：删除光标之后的一个字符
 - <kbd>option</kbd> + <kbd>backspace</kbd>：删除光标之前的一个单词（英文有效）
 - <kbd>fn</kbd> + <kbd>option</kbd> + <kbd>backspace</kbd>：删除光标之后的一个单词
-- <kbd>cmd</kbd> + <kbd>backspace</kbd>：删除当前文件
 
-- 显示桌面
-  - <kbd>fn</kbd> + <kbd>F11</kbd>
+
+### 文件操作
+
+- <kbd>command</kbd> + <kbd>backspace</kbd>：删除当前文件
+
 
 ### 窗口操作
 
 - 窗口最小化
-  - <kbd>cmd</kbd> + <kbd>m</kbd>
-  - <kbd>cmd</kbd> + <kbd>opt</kbd> + <kbd>m</kbd>
-  - <kbd>cmd</kbd> + <kbd>h</kbd>
-  - <kbd>cmd</kbd> + <kbd>opt</kbd> + <kbd>h</kbd>
+  - <kbd>command</kbd> + <kbd>m</kbd>
+  - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>m</kbd>
+  - <kbd>command</kbd> + <kbd>h</kbd>
+  - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>h</kbd>
 
 - 显示窗口
-  - <kbd>cmd</kbd> + <kbd>tab</kbd> + <kbd>opt</kbd> + 松开 <kbd>cmd</kbd>
+  - <kbd>command</kbd> + <kbd>tab</kbd> + <kbd>option</kbd> + 松开 <kbd>command</kbd>
 
 - 切换窗口
 
@@ -59,10 +70,19 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
   - <kbd>command</kbd> + <kbd>~</kbd>
 
+- 显示桌面
+  - <kbd>fn</kbd> + <kbd>F11</kbd>
+
+
+### 应用双开
+
+- QQ双开：打开 QQ 客户端，然后 <kbd>command</kbd> + <kbd>n</kbd>
+
+
+### 隐藏文件
+
 - 查看隐藏的文件
   - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> - *可以显示隐藏文件、文件夹，再按一次，恢复隐藏。*
-
-- QQ双开：打开 QQ 客户端，然后 <kbd>cmd</kbd> + <kbd>n</kbd>
 
 - 隐藏文件、文件夹
     - 打开终端执行
@@ -77,14 +97,23 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
         
         https://baijiahao.baidu.com/s?id=1737497237739550300 - *两招教你如何在Mac上隐藏文件！*
 
+- Mac 查看被隐藏的文件
+
+   `finder`下使用 <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> 可以前往任何文件夹，包括隐藏文件夹。
+
+
+### 默认应用
+
 - 如何设置文件默认打开方式？
-    - https://jingyan.baidu.com/article/d5c4b52bd1496e9b560dc5b0.html
+    - https://jingyan.baidu.com/article/d5c4b52bd1496e9b560dc5b0.html - *苹果MAC电脑如何更改默认打开方式-百度经验*
 
-- chrome 浏览器
 
-  <kbd>command</kbd> + <kbd>R</kbd>：普通刷新
+### chrome 浏览器
 
-  <kbd>command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：强制刷新
+<kbd>command</kbd> + <kbd>R</kbd>：普通刷新
+
+<kbd>command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：强制刷新
+
 
 ### 卸载软件
 
@@ -94,12 +123,12 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 - Mac 系统如何卸载/删除软件？
 
-  https://jingyan.baidu.com/article/59703552b380b08fc00740b9.html
+  https://jingyan.baidu.com/article/59703552b380b08fc00740b9.html - *Mac系统如何卸载/删除软件？-百度经验*
 
 ### 截屏
 
-- <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> - *截取全屏*
-- <kbd>cmd</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口*
+- <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> - *截取全屏*
+- <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口*
 
 ### 开机启动项
 
@@ -109,29 +138,24 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
 
 ## FAQ
 
-1. Mac 查看被隐藏的文件
+1. Mac 指定文件夹打开终端
 
-   `finder`下使用 <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> 可以前往任何文件夹，包括隐藏文件夹。
+2. Mac 如何查看访达的当前路径
 
-2. Mac 指定文件夹打开终端
-
-3. Mac 如何查看访达的当前路径
-
-4. Mac 中的git
+3. Mac 中的 git
 
    mac 系统自带 git，无需额外安装
 
-6. Mac 如何快速显示桌面
+4. Mac 如何快速显示桌面
 
    1. 组合键：<kbd>command</kbd> + <kbd>F3</kbd>
    2. 组合键：<kbd>fn</kbd> + <kbd>f11</kbd>
 
-7. Mac 解压 rar
+5. Mac 解压 rar
 
    https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,zip等各种格式文件*
 
-   1. app store 安装工具 `The Unarchiver`
-
+   1. app store 中安装工具 `The Unarchiver`
 
 
 ### 程序安装问题
@@ -140,6 +164,7 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
 
    https://jingyan.baidu.com/article/b87fe19e6dc68a1319356823.html - *mac提示无法验证开发者怎么办-百度经验*
 
+   操作步骤：
    1. 打开`系统偏好设置`
    2. 点击`安全性与隐私`进入
    3. 点击`通用`进入
@@ -171,3 +196,18 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
    ```
 
 4. https://blog.csdn.net/weixin_44722978/article/details/123347801 - *网上下载软件，macOS无法验证此App不包含恶意软件。*
+
+### 应用窗口置顶
+
+百度关键词搜索：[mac应用窗口置顶工具](https://www.baidu.com/s?word=mac%E5%BA%94%E7%94%A8%E7%AA%97%E5%8F%A3%E7%BD%AE%E9%A1%B6%E5%B7%A5%E5%85%B7)
+
+https://www.zhihu.com/question/369340415/answer/2571072461 - *Mac中怎么让一个窗口永远保持在所有窗口最上方？ - Jimmy林夕 的回答 - 知乎*
+
+\> 此方式适用于 M1 芯片（亲测可用）。
+
+1. 下载破解版 [BetterTouchTool](https://appstorrent.ru/394-bettertouchtool.html) ；
+2. 按照上面参考的链接进行设置。
+
+其它参考教程：
+
+1. https://mp.weixin.qq.com/s/u31ajN_EP8LibFSIsNw3mQ - *将任意应用窗口置顶显示，这个工具太强了。*

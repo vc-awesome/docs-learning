@@ -239,6 +239,18 @@ lang('file_format',['jpeg,png,gif,jpg','2MB'])
 
 !> 功能（`common.php`）方法命名使用字母加下划线
 
+- 控制层 - _controller_  
+    - 接收/处理用户传输的数据，控制用户请求的数据以什么视图展现给用户
+
+- 视图层 - _view_  
+    - 放置网页界面以便控制器的随时调用
+
+- 模型层 - _model_
+
+- 验证层 - _validate_  
+    - 存放表单数据等验证信息
+
+
 ### 后台应用 admin
 
 *thinkphp5.1*

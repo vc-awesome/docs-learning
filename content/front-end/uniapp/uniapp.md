@@ -21,17 +21,21 @@
 
 ## dcloud插件市场
 
+https://ext.dcloud.net.cn/ - *DCloud 插件市场*
+
 ### 前端项目模板
 
 #### ColorUI
 
-[ColorUI](https://ext.dcloud.net.cn/plugin?id=239)
+https://ext.dcloud.net.cn/plugin?id=239 - *ColorUI-UniApp - DCloud 插件市场*
+
 
 #### uViewUI
 
-插件市场：https://ext.dcloud.net.cn/plugin?id=1593
-
 官网：https://www.uviewui.com/ - *uView 2.0 - 全面兼容nvue的uni-app生态框架 - uni-app UI框架*
+
+插件市场：https://ext.dcloud.net.cn/plugin?id=1593 - *uView2.0重磅发布，利剑出鞘，一统江湖 - DCloud 插件市场*
+
 
 #### 模板组件对比
 
@@ -79,7 +83,7 @@ ID  | 插件名  | 插件市场链接
 
       ​    根据提示上传三个尺寸的图片
 
-   安装包位置：`E:/project-uniapp/nait/unpackage/release/apk/__UNI__0436D07_20210302183824.apk`
+   - 安装包位置：*E:/project-uniapp/nait/unpackage/release/apk/__UNI__0436D07_20210302183824.apk*
 
 
 
@@ -88,10 +92,13 @@ ID  | 插件名  | 插件市场链接
 
 ### 真机调试
 
-1. [手机开启"开发者选项"](https://jingyan.baidu.com/article/5d368d1eb1aa103f60c05703.html)
-2. "开发者选项"开启“USB 调试”、“USB 安装”
+操作步骤：
+1. [手机开启“开发者选项”](https://jingyan.baidu.com/article/5d368d1eb1aa103f60c05703.html)
+2. 进入“开发者选项”
+    1. 开启“调试” - “USB 调试”
+    2. 开启“调试” - “USB 安装”
 
-> 真机调试安装包位置：`E:\vc_software\HBuilderX.3.1.13.20210514\plugins\launcher\base\android_base.apk`
+> 真机调试安装包位置：*E:\vc_software\HBuilderX.3.1.13.20210514\plugins\launcher\base\android_base.apk*
 
 [HBuilder/HBuilderX真机运行、手机运行、真机联调常见问题](https://ask.dcloud.net.cn/article/97#synchronous)
 
@@ -101,6 +108,7 @@ ID  | 插件名  | 插件市场链接
 
 **MuMu**
 
+操作步骤：
 1. [配置hbuilderx](https://www.cnblogs.com/houxianzhou/p/13625755.html)
 2. 开启模拟器“开发者选项”，打开开发者选项的USB调试功能
 3. 配置完成后，如无法连接或启动，重启hbuilderx或模拟器

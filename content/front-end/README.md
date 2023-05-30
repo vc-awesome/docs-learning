@@ -28,19 +28,22 @@
 
 ## 页面布局
 
-[HTML 布局](/front-end/html.md#布局)
+有关详细信息，请参阅“[HTML 布局](/front-end/html/README.md#布局)”。
 
-[CSS 布局](/front-end/css/css-命名规则.md#layout布局-)
+有关详细信息，请参阅“[CSS 布局](/front-end/css/css-命名规则.md#layout-布局)”。
 
-- Grid
 
-- Flex
+## 浏览器加载过程
 
-- Position
+https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
 
-- Table
+https://juejin.cn/post/6844903815758479374 - *你不知道的浏览器页面渲染机制 - 掘金*
 
-https://www.runoob.com/cssref/func-calc.html - *元素高度计算函数 `calc()`*
+https://blog.csdn.net/Littlegirlha/article/details/128383854 - *浏览器加载网页的过程_小许还在编程的博客-CSDN博客*
+
+https://suanmei.github.io/2017/02/11/url2render-part1/ - *从输入url到浏览器显示页面，发生了什么？（网络通信篇） | 拾壹小筑*
+
+https://suanmei.github.io/2017/02/12/url2render-part2/ - *从输入url到浏览器显示页面，发生了什么？（浏览器渲染篇） | 拾壹小筑*
 
 
 ## 链接

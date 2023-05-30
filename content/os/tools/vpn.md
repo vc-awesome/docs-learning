@@ -1,15 +1,17 @@
-## Link
+## Search
 
-https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台设备*
 
 ### GitHub
 
 1. GitHub 关键词搜索：[免费 ss](https://github.com/search?q=%E5%85%8D%E8%B4%B9%20ss)
 2. https://github.com/topics/vpn
 
-----
 
-https://github.com/Qv2ray
+## Link
+
+https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台设备*
+
+https://github.com/Qv2ray - *Qv2ray Workgroup · GitHub*
 
 
 ### Others
@@ -92,55 +94,67 @@ https://github.com/anaer/Sub - *自用clash订阅链接*
 
 ## Tool
 
-<i class="fa fa-windows"></i>
-<i class="fa fa-apple"></i>
-https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
-
-
-
-🪜 https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*
-
 
 ### V2Ray 🔥
 
-?> A platform for building proxies to bypass network restrictions.
+> A platform for building proxies to bypass network restrictions.
 
-<i class="fa fa-apple"></i>
-<i class="fa fa-thumbs-o-up"></i>
-https://github.com/yanue/V2rayU
+https://github.com/v2ray - *Project V · GitHub*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/yanue/V2rayU?icon=github&color=blue)
+工具：
 
-<i class="fa fa-windows"></i>
-<i class="fa fa-thumbs-o-up"></i>
-https://github.com/2dust/v2rayN
+1. https://github.com/yanue/V2rayU - *GitHub - yanue/V2rayU: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/2dust/v2rayN?icon=github&color=blue)
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/yanue/V2rayU?icon=github&color=blue)
 
-<i class="fa fa-android"></i>
-<i class="fa fa-thumbs-o-up"></i>
-https://github.com/2dust/v2rayNG
+    - 支持 macOS
 
-![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayNG?color=blue&logo=github&style=flat-square)
+2. https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, support Xray core and v2fly core and others*
 
-<i class="fa fa-book"></i>
-<i class="bi bi-ladder"></i>
-https://github.com/v2ray ⇒ https://www.v2ray.com/ - *Project V · Project V 官方网站*
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/2dust/v2rayN?icon=github&color=blue)
+    - 支持 Windows
 
-<i class="fa fa-book"></i>
-https://github.com/ToutyRater/v2ray-guide
-- https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
+
+3. https://github.com/2dust/v2rayNG - *GitHub - 2dust/v2rayNG: A V2Ray client for Android, support Xray core and v2fly core*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayNG?color=blue&logo=github&style=flat-square)
+    - 支持 Android
+    - <details><summary><i style="color:red">SEE MORE >></i></summary>
+
+    「路由设置」 > 域名解析策略：
+        - AsIs：只使用域名进行路由选择，默认值；
+        - IPIfNonMatch：当域名没有匹配任何基于域名的规则时，将域名解析成 IP（A 记录或 AAAA 记录），进行基于 IP 规则的匹配；
+            - 当一个域名有多个 IP 地址时，会尝试匹配所有的 IP 地址，直到其中一个与某个 IP 规则匹配为止；
+            - 解析后的 IP 仅在路由选择时起作用，转发的数据包中依然使用原始域名。
+        - IPOnDemand：当匹配时碰到任何基于 IP 的规则，立即将域名解析为 IP 进行匹配。
+    
+    有关详细信息，请参阅“[Routing 路由 | V2Fly.org](https://www.v2fly.org/config/routing.html)”。
+</details>
+
+文档：
+
+1. https://www.v2ray.com/ - *Project V · Project V 官方网站* 🪜
+    - https://www.v2fly.org/config/routing.html - *Routing 路由 | V2Fly.org*
+ 
+2. https://github.com/ToutyRater/v2ray-guide
+    - https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
+
 
 #### V2Fly
 
-https://github.com/v2fly
+> V2Fly, a community-driven edition of V2Ray.
 
-- https://github.com/v2fly/v2fly-github-io
+https://github.com/v2fly - *V2Fly · GitHub*
+
+
+文档：
+
+1. https://github.com/v2fly/v2fly-github-io
     
     ![](https://flat.badgen.net/github/last-commit/v2fly/v2fly-github-io?icon=github&color=blue&ynotemdtimestamp=1669997210647)
     - https://www.v2fly.org 🪜
 
-- https://github.com/v2fly/v2ray-step-by-step
+2. https://github.com/v2fly/v2ray-step-by-step
 
     ![](https://flat.badgen.net/github/last-commit/v2fly/v2ray-step-by-step?icon=github&color=blue&ynotemdtimestamp=1669997210647)
     - https://guide.v2fly.org 🪜
@@ -150,7 +164,7 @@ https://github.com/v2fly
 https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0
 
 
-### Shadowsocks 🔥
+### Shadowsocks
 
 ?> shadowsocks is a fast tunnel proxy that helps you bypass firewalls
 
@@ -183,9 +197,9 @@ https://github.com/yichengchen/clashX
 ![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
 
 
-### personalDNSfilter 🔥
+### personalDNSfilter
 
-[personalDNSfilter](/os/mobile/?id=personaldnsfilter)
+有关详细信息，请参阅“[personalDNSfilter](/os/mobile/?id=personaldnsfilter)”。
 
 
 ### Tor
@@ -206,6 +220,13 @@ https://github.com/TheTorProject/gettorbrowser
 
 https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
 
+### More...
+
+1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
+    - 支持 Windows, macOS
+
+2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*
+    - 🪜
 
 ## Web Proxy
 
@@ -237,7 +258,11 @@ https://github.com/EtherDream/jsproxy
 
 ### Addons / Extensions
 
-<div class="AvatarStack AvatarStack--three-plus">
+#### Google Helper
+
+http://googlehelper.net/ - *Google Helper*
+
+- <div class="AvatarStack AvatarStack--three-plus">
   <div
     class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
     aria-label="support chrome, firefox, edge, and purchases."
@@ -249,7 +274,6 @@ https://github.com/EtherDream/jsproxy
   </div>
 </div>
 
-http://googlehelper.net/ - *Google Helper*
 
 
 
@@ -292,7 +316,7 @@ https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
 
 
-## Test
+## Test URL
 
 https://telegram.org/ - *Telegram Messenger* 
 

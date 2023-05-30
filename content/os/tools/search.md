@@ -148,10 +148,20 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 - https://chocolatey.org - *Chocolatey Software | Chocolatey - The package manager for Windows*
     - https://www.jianshu.com/p/f6c4d261f356 - *chocolatey介绍与使用 - 简书*
 
+#### macOS
+
+- https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)*
+    - 有关更多详细信息，请参阅“[Mac > homebrew](os/mac/homebrew.md)”。
+
+
+#### Linux
+
+- https://snapcraft.io/ - *Snapcraft - Snaps are universal Linux packages*
+
 
 ### 应用商店
 
-#### Microsoft Store
+#### Windows: Microsoft Store
 
 https://www.microsoft.com/zh-cn/store - *Windows 应用 - Microsoft 应用商店*
 
@@ -164,23 +174,25 @@ https://www.microsoft.com/zh-cn/store - *Windows 应用 - Microsoft 应用商店
 - https://store.rg-adguard.net/ - *下载 Windows 应用商店的安装包*
 
 
-#### App Store
 
-[App Store](/os/mobile/#app-store)
+#### Windows: 腾讯电脑管家
 
-
-
-#### Google Play Store
-
-[Google Play Store](/os/mobile/#google-play-store)
+> 有关详细信息，请参阅“[腾讯电脑管家](https://guanjia.qq.com/) > 软件管理”。
 
 
 
-#### F-Droid
+#### macOS: App Store
 
-[F-Droid](/os/mobile/#f-droid)
+> 有关详细信息，请参阅“[App Store](/os/mobile/app-store.md#app-store)”。
 
 
-#### 腾讯电脑管家
 
-[腾讯电脑管家](https://guanjia.qq.com/) > 软件管理
+#### Android: Google Play Store
+
+> 有关详细信息，请参阅“[Google Play Store](/os/mobile/app-store.md#google-play-store)”。
+
+
+
+#### Android: F-Droid
+
+> 有关详细信息，请参阅“[F-Droid](/os/mobile/app-store.md#f-droid)”。

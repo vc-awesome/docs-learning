@@ -1,6 +1,6 @@
 * [主页](home/)
 * [快速索引](home/quick-index.md)
-* **Frequent Use**
+* **Frequent Use <**
 * [学习书籍](home/book.md)
 * [软件版本号](home/semver.md)
 * [目录结构](home/toc.md)

@@ -1,8 +1,13 @@
-> Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+## 简介
+
+> <img src="https://git-scm.com/images/logo@2x.png" align="left" width="78" hspace="0" vspace="10" style="margin-right: 10px;margin-top:5px;" /> Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## 官方
 
 https://git-scm.com - *git 官网*
+
+https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.*
+
 
 ## 教程
 
@@ -17,6 +22,8 @@ https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and comman
 ## 工具
 
 ### 图形界面工具
+
+https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 1. ✅ [Sourcetree](https://www.sourcetreeapp.com/ ":id=sourcetree") - *Sourcetree | Free Git GUI for Mac and Windows*
    
@@ -35,11 +42,14 @@ https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and comman
        </details>
    
 2. ✅ [GitHub Desktop](https://desktop.github.com/ ':id=github-desktop') - *GitHub Desktop | Simple collaboration from your desktop*
-   - 支持 Windows, MacOS, [GitHub](https://github.com/desktop/desktop)
+
+   - 支持 Windows, macOS, [GitHub](https://github.com/desktop/desktop)
+   
    - 开源免费
    
 3. [Tower](https://www.git-tower.com/) - *The most powerful Git client for Mac and Windows | Tower Git Client*
-   - 支持 Windows, MacOS
+   - 支持 Windows, macOS
+
 
 ### 代码托管平台
 
@@ -879,6 +889,8 @@ https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代�
 ### commit 提交规范
 
 https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
+
+https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
 
 
 ### 在本地局域网中的两台电脑间同步代码

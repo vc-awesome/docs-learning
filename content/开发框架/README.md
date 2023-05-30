@@ -10,6 +10,7 @@
 
 1. http://www.bootstrapmb.com/ - *Bootstrap模板_响应式网站模板 - Bootstrap模板库*
 2. https://www.bootcss.com/ - *Bootstrap中文网*
+3. https://www.jq22.com/ - *jQuery插件库-收集最全最新最好的jQuery插件*
 
 ## 组合使用 🔥
 
@@ -145,6 +146,20 @@ https://github.com/pure-css/pure/ :uk: *A set of small, responsive CSS modules t
 
 https://github.com/animate-css/animate.css :uk: *🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.*
 
+<details markdown='1'><summary>展开/收起</summary>
+
+1. https://www.cnblogs.com/mmzuo-798/p/10882408.html - *vue实现滚动条滚到相应高度触发动画的操作*
+
+2. https://www.cnblogs.com/tcz1018/p/15209291.html - *vue使用动画animate*
+
+3. https://www.cnblogs.com/suwanbin/p/13200296.html - *VUE项目中集成AnimateCSS动画（2020.6.28 亲测可用）*
+
+4. https://www.jianshu.com/p/2e0b2f8d40cf - *vue中使用animate.css实现动画*
+
+5. https://www.cnblogs.com/duanzhenzhen/p/11057361.html - *vue页面滚动监听*
+
+</details>
+
 ### Primer CSS
 
 ?> The CSS design system that powers GitHub
@@ -264,7 +279,7 @@ Website：https://uniapp.dcloud.io/ :cn:
 
 GitHub：https://github.com/dcloudio/uni-app
 
-[uni-app](/front-end/uniapp/)
+有关详细信息，请参阅“[uni-app](/front-end/uniapp/)”。
 
 ##### uView
 
@@ -275,7 +290,7 @@ Website：https://www.uviewui.com/ :cn:
 
 GitHub：https://github.com/umicro/uView2.0 ![GitHub last commit](https://flat.badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
 
-[uView](/front-end/uniapp/uniapp%20+%20uview)
+有关详细信息，请参阅“[uView](/front-end/uniapp/uniapp%20+%20uview)”。
 
 
 ### jQuery.js

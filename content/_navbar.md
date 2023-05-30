@@ -22,6 +22,7 @@
     - [<i class="ri-link"></i> cURL](essential/curl.md)
     - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
     - [<i class="ri-questionnaire-line"></i> DNS](essential/dns.md)
+    - [<i class="ri-questionnaire-line"></i> IP](essential/ip.md)
     - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
     - [<i class="ri-questionnaire-line"></i> API](essential/api.md)
 - Front-end
@@ -29,8 +30,8 @@
     - [<i class="fa fa-html5 medium-orange fa-fw"></i> HTML](front-end/html/README.md)
     - [<i class="fa fa-css3 medium-blue fa-fw"></i> CSS](front-end/css/README.md)
     - [<i class="icon octicon-file js-icon medium-yellow fa-fw"></i> JavaScript](front-end/javascript/README.md)
-    - [<i class="icon octicon-file jquery-icon medium-blue fa-fw"></i> jQuery](front-end/jquery.md)
     - <hr />
+    - [<i class="icon octicon-file jquery-icon medium-blue fa-fw"></i> jQuery](front-end/jquery.md)
     - [<i class="icon octicon-file node-icon fa-fw"></i> Node.js](front-end/node.js/README.md)
     - [<i class="icon octicon-file vue-icon light-green fa-fw"></i> Vue.js](front-end/vue/README.md)
     - <hr />
@@ -45,10 +46,12 @@
     - [<img src="https://www.php.net/favicon.ico" alt=" PHP Icon" width="14" class="fa-fw" /> PHP](back-end/php/README.md)
     - [<img src="https://www.thinkphp.cn/Public/favicon.ico" alt="ThinkPHP Icon" width="14" class="fa-fw" /> ThinkPHP](back-end/thinkphp/README.md)
     - [<i class="icon octicon-file composer-icon medium-yellow fa-fw"></i> Composer](back-end/composer/README.md)
+    - <hr />
     - [<i class="icon octicon-file nginx-icon dark-green fa-fw"></i> Nginx](back-end/nginx.md)
     - [<i class="icon octicon-file apache-icon dark-pink fa-fw"></i> Apache](back-end/apache.md)
     - [<i class="icon octicon-file docker-icon dark-blue fa-fw"></i> Docker](back-end/docker.md "Docker")
-    - [<img src="https://cdn.travis-ci.org/images/favicon-076a22660830dc325cc8ed70e7146a59.png" alt="" width="14" class="fa-fw" /> Travis-CI](back-end/travis-ci.md "Travis Ci")
+    - <hr />
+    - [<img src="https://www.travis-ci.com/wp-content/uploads/2022/05/travis-ci-mascot-1-150x150.png" alt="Travis Ci 官网图标" width="14" class="fa-fw" /> Travis-CI](back-end/travis-ci.md "Travis Ci")
 - Database
     - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](database/README.md)
     - [<i class="icon octicon-file mysql-icon dark-blue fa-fw"></i> MySQL](database/mysql/README.md)
@@ -65,7 +68,7 @@
     - [<i class="fa fa-rocket medium-red"></i> Index](os/tools/README.md)
     - [<i class="ri-test-tube-line medium-purple"></i> Trial](os/tools/trial.md)
     - [<i class="ri-search-line"></i> Search](os/tools/search.md)
-    - [<i class="ri-apps-line medium-purple"></i> PC Tools](os/tools/应用工具.md) 
+    - [<i class="ri-apps-line medium-purple"></i> PC Tools](os/tools/app-list.md) 
     - [<i class="ri-cloud-line"></i> Web Tools](os/tools/online.md "在线工具")
     - [<i class="ri-smartphone-line"></i> Smartphone Tools](os/mobile/mobile-app-list.md)
     - <hr />
@@ -76,17 +79,12 @@
     - [<ion-icon name="medal-outline"></ion-icon> Badge](os/tools/custom.md)
     - [<ion-icon name="search-outline"></ion-icon> Search](os/tools/custom-search.md)
 - More
-    - [<i class="ri-layout-masonry-fill"></i> 开发框架](开发框架/README.md)
-    - [<i class="ri-function-fill"></i> 功能列表](function-list/README.md)
     - [<i class="ri-git-commit-line"></i> BlockChain](blockchain/README.md)
-    - [<i class="ri-building-2-fill light-red"></i> Project](project/README.md)
+    - [<i class="ri-building-2-fill light-red"></i> Project Development](project/README.md)
     - <hr />
     - [<i class="ri-stack-fill"></i> TechStack](tech-stack/README.md "技术栈")
+    - [<i class="ri-layout-masonry-fill"></i> 开发框架](开发框架/README.md)
+    - [<i class="ri-function-fill"></i> 功能列表](function-list/README.md)
+    - <hr />
     - [<img src="https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico" width="14" valign="middle" /> 阿里云](tech-stack/aliyun.md)
     - [<img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width="14" /> 微信](tech-stack/weixin.md)
-    - <hr />
-    - [MDN Web Docs](https://developer.mozilla.org/zh-CN/)
-    - [Docsify](os/tools/docsify.md)
-    - [文档模板](home/document-template.md)
-    - [网道 - 互联网开发文档](https://wangdoc.com/)
-    - [阮一峰的网络日志](home/book.md#%e9%98%ae%e4%b8%80%e5%b3%b0%e7%9a%84%e7%bd%91%e7%bb%9c%e6%97%a5%e5%bf%97)

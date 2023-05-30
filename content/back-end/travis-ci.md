@@ -8,5 +8,4 @@
 
 文档：https://docs.travis-ci.com/
 
-Github：https://github.com/travis-ci
-
+GitHub：https://github.com/travis-ci

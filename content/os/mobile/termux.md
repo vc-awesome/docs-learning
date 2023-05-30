@@ -36,9 +36,73 @@ termux-change-repo
 
 由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 /, /usr 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即~）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
 
-如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 ~ 目录下会生成 storage 的文件链接，其中可以访问 Downloads、dcim、music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
+如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 ~ 目录下会生成 storage 的文件链接，其中可以访问 downloads、dcim、music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
 
 更多关于 Termux 文件系统的介绍可以在[此处](https://wiki.termux.com/wiki/Internal_and_external_storage)了解。
+
+----
+
+从文件管理器访问 Termux 👇
+
+https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_file_manager - *Internal and external storage - Termux Wiki*
+
+操作步骤：
+1. 打开手机应用 [质感文件](os/mobile/mobile-app-list.md#质感文件（Material-Files）)；
+2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
+3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*。
+
+----
+
+```sh
+cd ~/storage/shared/Documents/markor/GitHub/
+```
+\* *指向手机路径 /storage/emulated/0/Documents/markor/GitHub/*
+
+```sh
+cd ~/storage/shared/
+```
+\* *指向手机路径 /storage/emulated/0*
+
+```sh
+cd ~/storage/shared/Download
+```
+
+或
+
+```sh
+cd ~/storage/downloads
+```
+
+\* *指向手机路径 /storage/emulated/0/Download*
+
+
+### 常用命令
+
+https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux Wiki*
+
+```sh
+pkg help
+```
+
+```sh
+pkg upgrade
+```
+注：*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
+
+```sh
+pkg uninstall
+```
+
+```sh
+pkg uninstall [package name]
+```
+注：*Uninstall specified packages. Configuration files will be left intact. - 卸载指定的软件包。配置文件将保持不变。*
+
+```sh
+pkg list-installed
+```
+注：*List installed packages. - 列出已安装的软件包。*
+
 
 ### Addons
 
@@ -132,9 +196,24 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
 
 ## Tool
 
-- nano
-    - https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
-    - https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
+### Nano 编辑器
+
+安装：
+
+```sh
+pkg install nano
+```
+
+卸载：
+
+```sh
+pkg uninstall nano
+```
+
+参考：
+1. https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
+2. 
+https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
 
 
 ## FAQ
@@ -279,7 +358,7 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
     browser-sync start --server --files "**/**.*"
     ```
 - 参考：
-    1. https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t77
+    1. https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t77 - *Termux详细教程！_欧晨eli的博客-CSDN博客*
     2. https://blog.csdn.net/Ximerr/article/details/123503443 - *安卓手机安装 nodejs 时提示cannot link executable “node“ library libcrypto.so.3 问题解决_身价五毛的博客-CSDN博客*
 
 
@@ -320,3 +399,9 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
 6. https://blog.csdn.net/m0_59677938/article/details/124903218 - *废旧手机安装Syncthing作为文件服务器_m0_59677938的博客-CSDN博客*
 
 7. https://blog.csdn.net/freeking101/article/details/122725389 - *Android 手机的高级终端 Termux 安装使用、busybox_擒贼先擒王的博客-CSDN博客*
+
+8. https://termux-wiki.zsxwz.com/ - *termux安装 - zsxwz-termux-wiki*
+
+9. https://p3terx.com/archives/termux-tutorial-1.html - *Termux 使用教程 #1 - Android 手机安装 Linux - P3TERX ZONE*
+
+10. https://p3terx.com/archives/termux-tutorial-2.html - *Termux 使用教程 #2 - 打造手机上的最强终端 - P3TERX ZONE*

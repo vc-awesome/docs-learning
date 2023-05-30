@@ -1,3 +1,9 @@
+
+## 简介
+
+> <img src="https://github.githubassets.com/pinned-octocat.svg" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.
+
+
 ## 官方
 
 官网：https://github.com/ - *GitHub: Where the world builds software · GitHub*
@@ -30,6 +36,8 @@ https://github.com/elemefe - *饿了么前端 · GitHub*
 
 https://github.com/metafizzy - *Metafizzy · GitHub*  
 🏷️  _logo 可爱而关注_ ，_前端_
+
+https://github.com/Tencent - *Tencent · GitHub*
 
 
 ## 仓库
@@ -436,6 +444,14 @@ https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr C
 #### Hosts
 
 https://github.com/521xueweihan/GitHub520/ - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+
+```label
+HelloGitHub
+```
+
+```uri
+https://raw.hellogithub.com/hosts
+```
 
 https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
 

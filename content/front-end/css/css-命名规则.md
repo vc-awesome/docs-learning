@@ -137,7 +137,7 @@ Amaze UI 中有两个表示状态的 class：
 https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 
 
-## Layout 布局  <i class="ri-fire-line light-red"></i>
+## Layout 布局
 
 ### Container 布局容器
 
@@ -535,7 +535,11 @@ col-auto {
 }
 ```
 
-#### 排序
+----
+
+
+> 排序
+
 
 order-first
 
@@ -2641,7 +2645,6 @@ Categories	类别
 Series	系列
 
 
-
 ## FAQ
 
 ### 垂直居中
@@ -2651,7 +2654,6 @@ Series	系列
 `writing-mode` 结合 `text-align:center;` 或者使用 `margin:auto;`
 
 https://www.cnblogs.com/gja1026/p/9279818.html - *CSS3实现文本垂直排列 - 逆旅wy - 博客园*
-
 
 
 方式二
@@ -2667,11 +2669,9 @@ https://www.cnblogs.com/gja1026/p/9279818.html - *CSS3实现文本垂直排列 -
 :thumbsup: https://www.cnblogs.com/yugege/p/5246652.html - *CSS实现垂直居中的常用方法 - ChessZhang - 博客园*
 
 
-
 #### 文本垂直排列
 
 属性：`writing-mode`、`-webkit-writing-mode`
-
 
 
 #### 图片
@@ -2690,7 +2690,6 @@ https://www.cnblogs.com/gja1026/p/9279818.html - *CSS3实现文本垂直排列 -
 ```
 
 
-
 #### 页面
 
 下载页面
@@ -2701,14 +2700,11 @@ https://www.cnblogs.com/gja1026/p/9279818.html - *CSS3实现文本垂直排列 -
 
 #### 元素
 
-
-
 ### 水平居中
 
 ```css
 margin: 0 auto;
 ```
-
 
 
 ### 占位符 placeholder 文本样式
@@ -2777,7 +2773,6 @@ textarea:-ms-input-placeholder {
 https://www.cnblogs.com/hcxwd/p/9232936.html - *css3 placeholder字体颜色大小 - 清风晰心 - 博客园*
 
 
-
 ### 响应式设计
 
 ```css
@@ -2798,16 +2793,19 @@ https://www.cnblogs.com/hcxwd/p/9232936.html - *css3 placeholder字体颜色大�
 ```
 
 
-
-### 头像上移样式可用
+### 头像上移样式
 
 ```css
 transform: translateY(-50%);
 ```
 
-![](./_images/图片11.png) ![](./_images/图片12.png)
+使用前：
 
+![](./_images/图片11.png)
 
+使用后：
+
+![](./_images/图片12.png)
 
 
 ### p 标签文本内容不自动换行解决方法
@@ -2843,16 +2841,24 @@ transform: translateY(-50%);
 
 参考：
 
-https://m.jb51.net/article/191900.htm - *vue 遮罩层阻止默认滚动事件操作_vue.js_脚本之家*
+1. https://m.jb51.net/article/191900.htm - *vue 遮罩层阻止默认滚动事件操作_vue.js_脚本之家*
 
-https://www.jb51.net/article/178246.htm - *javascript实现蒙版与禁止页面滚动_javascript技巧_脚本之家*
+2. https://www.jb51.net/article/178246.htm - *javascript实现蒙版与禁止页面滚动_javascript技巧_脚本之家*
 
-https://ask.dcloud.net.cn/question/64257 - *禁止遮罩下页面滑动 - 知乎*
+3. https://ask.dcloud.net.cn/question/64257 - *禁止遮罩下页面滑动 - 知乎*
 
-https://www.cnblogs.com/lymconch/p/11454475.html - *遮罩层下禁止页面滚动 - 一只螺 - 博客园*
+4. https://www.cnblogs.com/lymconch/p/11454475.html - *遮罩层下禁止页面滚动 - 一只螺 - 博客园*
 
-https://zhuanlan.zhihu.com/p/222584304 - *uni-app div蒙版，如何禁止蒙版下的页面滚动？ - DCloud问答*
+5. https://zhuanlan.zhihu.com/p/222584304 - *uni-app div蒙版，如何禁止蒙版下的页面滚动？ - DCloud问答*
+
 
 ### 滚动条样式
 
 https://www.cnblogs.com/moqiutao/p/4783526.html - *CSS之设置滚动条样式*
+
+
+### 元素高度计算 calc
+
+> 元素高度计算函数
+
+https://www.runoob.com/cssref/func-calc.html - *CSS calc() 函数 | 菜鸟教程*

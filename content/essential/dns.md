@@ -5,6 +5,10 @@
 - https://www.namesilo.com/ - *Cheap Domain Names & Web Hosting Starting at $0.99! | NameSilo*
 - https://www.cloudflare-cn.com/ - *Cloudflare 中国官网 | 智能化云服务平台 | 免费CDN安全防护 | Cloudflare*
 
+### 配置域名 CNAME
+
+https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - *如何配置域名的 CNAME - 七牛开发者中心*
+
 ## DNS 服务商
 
 🪜 https://adguard-dns.io/kb/zh-CN/general/dns-providers/ - *已知的 DNS 提供商 | AdGuard DNS Knowledge Base*
@@ -58,6 +62,14 @@ https://www.dnspod.cn/Products/publicdns - *DNSPod Public DNS（腾讯云）*
 
 Via http://tools.jb51.net/table/public_dns - *公共DNS说明表*
 
+### DNS 加密协议
+
+https://adguard-dns.io/kb/zh-CN/public-dns/overview/ - *概览 | AdGuard DNS Knowledge Base*
+- DNSCrypt（开源的加密协议）
+- DNS-over-HTTPS (DoH)
+- DNS-over-TLS (DoT)
+- DNS-over-QUIC
+
 ## 配置 DNS
 
 ### 浏览器配置 DNS
@@ -69,6 +81,8 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
 > 浏览器配置 DNS 或私人 DNS 后，GitHub 访问速度变快，可无需配置 hosts 规则
 >
 > ⚠️ Opera 手机浏览器配置安全 DNS（ AdGuard 公共 DNS：<https://94.140.14.140/dns-query>），直接翻墙！
+
+
 
 ### 手机配置私人 DNS
 
@@ -82,7 +96,7 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
     1. 最简单的方法：打开和关闭飞行模式。
 
 
-## DNS 缓存
+## 清除 DNS 缓存
 
 🪜 https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache - *如何刷新DNS缓存 | AdGuard DNS Knowledge Base*
 
@@ -157,12 +171,11 @@ https://adguard.com/zh_cn/welcome.html - *AdGuard - 世界上最高级的广告�
 ### 待试用
 
 https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*
+- 支持 Linux
 
-## CNAME
-
-https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - *如何配置域名的 CNAME - 七牛开发者中心*
 
 ## FAQ
 
 1. https://sspai.com/post/42125 - *网速变慢？你可能需要先设置好 DNS | 科普*
 
+### 手机移动网络/WLAN网络如何查看 DNS 服务器地址

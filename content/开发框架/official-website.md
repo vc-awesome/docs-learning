@@ -11,3 +11,7 @@
 5. https://gamium.world/ - *Gamium - The center of the Metaverse*
 
 6. https://www.jq22.com/jquery-info19748 - *HTML5区块链技术网站模板*
+
+7. https://www.jq22.com/demo/jqueryhbmoban201808080023/
+
+8. https://www.starlproject.com :uk: :cn: *STARL - Decentralized Virtual Space Development*

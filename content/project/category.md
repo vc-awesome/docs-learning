@@ -104,3 +104,4 @@ Shopify
 10. https://github.com/squidfunk/mkdocs-material - *GitHub - squidfunk/mkdocs-material: Documentation that simply works*
     - 谁在使用
         - https://matsuridayo.github.io/ - *MatsuriDayo*
+11. https://github.com/jaywcjlove/idoc - *GitHub - jaywcjlove/idoc: Simple document generation tool! Dependence Node.js run.*

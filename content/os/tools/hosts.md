@@ -60,10 +60,11 @@ https://github.com/oldj/SwitchHosts/releases
 
 ### 手机应用
 
-1. [Daedalus](os/mobile/app-store.md#daedalus)
-2. [personalDNSfilter](os/mobile/app-store.md#personaldnsfilter)
+1. [Daedalus](os/mobile/mobile-app-list.md#daedalus)
+2. [personalDNSfilter](os/mobile/mobile-app-list.md#personaldnsfilter)
+3. [AdAway](os/mobile/mobile-app-list.md#adaway)
 
-## Rules
+## Rules（来源）
 
 ### Google
 
@@ -84,7 +85,7 @@ https://github.com/oldj/SwitchHosts/releases
 
 https://raw.hellogithub.com/hosts ⇒ _via https://github.com/521xueweihan/GitHub520_ ![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
 
-### AD
+### 广告拦截
 
 > 广告过滤（拦截）
 
@@ -124,3 +125,8 @@ https://raw.hellogithub.com/hosts ⇒ _via https://github.com/521xueweihan/GitHu
 ### Android
 
 [essential/dns.md#手机配置私人 DNS](essential/dns.md#手机配置私人-DNS)
+
+## 修改 hosts 文件
+
+### macOS
+

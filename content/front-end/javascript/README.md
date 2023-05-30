@@ -47,7 +47,8 @@ https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜�
 
     [JavaScript 和 HTML DOM 参考手册 | 菜鸟教程](https://www.runoob.com/jsref/jsref-tutorial.html)-“JavaScript 对象参考手册”
     
-    “Number 对象方法”常用方法：[isNaN](https://www.runoob.com/jsref/jsref-isnan-number.html)
+    “Number 对象方法”常用方法：
+    1. [isNaN](https://www.runoob.com/jsref/jsref-isnan-number.html)
 
 - Browser 对象（BOM）
 
@@ -85,6 +86,7 @@ https://www.runoob.com/w3cnote/detect-empty-javascript-object.html - *如何判�
 
 https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
 
+
 ### 进阶
 
 #### webpack
@@ -97,6 +99,26 @@ https://www.webpackjs.com/ - _webpack 中文文档 | webpack 中文网_
 ## JavaScript 参考手册
 
 https://www.runoob.com/jsref/jsref-tutorial.html - *JavaScript 和 HTML DOM 参考手册 | 菜鸟教程*
+
+
+## javascript: 用法
+
+```js
+<a href="javascript:void(0)">单击此处什么也不会发生</a>
+```
+
+```js
+<a href="javascript:void(alert('Warning!!!'))">点我!</a>
+```
+
+```js
+<a href="javascript:alert('Warning!!!')">点我!</a>
+```
+
+https://www.runoob.com/js/js-void.html - *javascript:void(0) 含义 | 菜鸟教程*
+
+https://www.ruanyifeng.com/blog/2011/06/a_guide_for_writing_bookmarklet.html - *Bookmarklet编写指南 - 阮一峰的网络日志*
+
 
 ## HTML DOM
 
@@ -199,6 +221,11 @@ demo.color
   document.getElementById("p2").style.color = "blue";
   ```
 
+  ```javascript
+  document.querySelector('body').classList.toggle('close');
+  ```
+  *👆 给 body 标签新增 close 类。*
+
 
 ### 创建 HTML 元素
 
@@ -293,7 +320,9 @@ https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的Mut
 
 https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 | 菜鸟教程*
 
-常用方法：[document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html)、[document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html)
+常用方法：
+1. [document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html)
+2. [document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html)
 
 
 #### 元素对象
@@ -409,24 +438,6 @@ https://www.runoob.com/jsref/obj-storage.html - *JavaScript 存储对象 | 菜�
 
 ## FAQ
 
-### a 标签响应 onclick 事件，并且不执行 href动作
-
-```html
-<a href="javascript:void(0)" onclick="doSomething()">链接</a>
-
-<a href="https://www.baidu.com/" onclick="doSomething();return false;">链接</a>
-
-<a href="https://www.baidu.com/" onclick="doSomething();event.returnValue=false;">链接</a>
-
-<a href='#' disabled='true'>链接</a>
-```
-
-```javascript
-// 使用js移除属性href这个方法才是最可靠最有效的，a.removeAttribute("href"); //经测试
-
-event.preventDefault(); // 如果<a>定义了 target="_blank“ 需要这句来阻止打开新页面
-```
-
 ### jquery 多个选择器绑定同一个事件
 
 ```js
@@ -434,7 +445,6 @@ $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
     // 处理过程
 });
 ```
-
 
 
 ### jquery 手册事件处理 on、bind
@@ -449,11 +459,6 @@ $("#id").val("");
 $("input").attr("value",""); 
 ```
 
-### 限制 input 输入框输入的长度
-
-1. style 属性中添加 `minlength="4" maxlength="4"`
-
-2. 添加属性 `minlength="4" maxlength="4"` 
 
 ### jquery 加载页面的方法(页面加载完成就执行),建议大家看下 windows.onload 与 $(document).ready之 间的区别。
 
@@ -502,8 +507,6 @@ window.onload = function() {
 
 这段代码会在整个页面的 document 全部加载完成以后执行。不幸的这种方式不仅要求页面的 DOM tree 全部加载完成，而且要求所有的外部图片和资源全部加载完成。更不幸的是，如果外部资源，例如图片需要很长时间来加载，那么这个js效果就会让用户感觉失效了。 
 
-
-
 但是用 jquery 的方法： 
 
 ```js
@@ -512,8 +515,6 @@ $(document).ready(function() {
     $("table tr:nth-child(even)").addClass("even"); 
 }); 
 ```
-
-
 
 就仅仅只需要加载所有的DOM结构，在浏览器把所有的HTML放入DOM tree之前就执行js效果。包括在加载外部图片和资源之前。 
 
@@ -531,8 +532,6 @@ $(function(){}); //页面加载时自动调用
 ```javascript
 $(window).load(funtion(){}); //页面加载完之后自动加载，用处吧，就是比如我们页面某些元素是在页面加载时从同台获取数据，并拼接显示出来；但是同时又在页面加载好之后马上使用到这个元素此时就可以结合这两个函数时候，不然单单调用 $(function(){}); 经常会出现 undefined。
 ```
-
-
 
 ```js
 // 语法 1
@@ -555,8 +554,6 @@ window.onload = function(){
     });
 }
 ```
-
-
 
 Demo 
 
@@ -596,13 +593,6 @@ window.onload = function(){
 >
 > Tip ：jQuery 中真正与 window.onload 完全等价的是 $(window).load() 方法
 
-### js 中 location.href 的用法
-
-https://www.cnblogs.com/wmcoder/p/5688988.html - *js中location.href的用法 - WKellyL - 博客园*
-
-### 按钮点击事件绑定-- onClick 事件
-
-https://blog.csdn.net/kye055947/article/details/79619538 - *【JavaScript】按钮绑定点击事件-onCliek事件_js 绑定按钮事件_程序员不弃的博客-CSDN博客*
 
 ### jquery on 绑定未来元素
 
@@ -612,8 +602,6 @@ $('.cla').on('click',function(){
 });
 ```
 
-
-
 发现以上写法不能将事件绑定到动态创建的对象上，更改后的写法为
 
 ```js
@@ -622,26 +610,13 @@ $(document).on('click','.cla',function(){
 });
 ```
 
-
-
 此写法验证可行，道理是通过前辈对象找到下面的 '.cla' 元素后绑定 click 事件。
 
 
+### js location.href 的用法
 
-### button onclick 实现页面跳转
+https://www.cnblogs.com/wmcoder/p/5688988.html - *js中location.href的用法 - WKellyL - 博客园*
 
-```html
-onclick="javascript:window.location.href='aa.htm'"
-
-onclick="location='URL'"
-
-onclick="window.location.href='#'"
-
-<!-- 在按钮外面扩一个`<a>`标签就好了 -->
-<a href="路径">
-  <input type="button"></input>
-</a>
-```
 
 ### js 如何打开链接
 
@@ -657,7 +632,7 @@ window.open("https://www.baidu.com/s?word=");
 ```
 
 
-### js 中 json 数据的处理
+### js json 数据的处理
 
 https://blog.csdn.net/cgj19960119/article/details/84987426 - *JS中json数据的处理_js json数据_不为人知的小小鸟的博客-CSDN博客*
 
@@ -694,8 +669,7 @@ json_str = JSON.stringify(obj);
 ```
 
 
-
-### js 中字符串全部替换
+### js 字符串全部替换
 
 https://www.cnblogs.com/cblogs/p/9293522.html - *js中字符串全部替换 - HaydenChao - 博客园*
 
@@ -710,7 +684,6 @@ str.replace(/需要替换的字符串/g，"新字符串");
 ```javascript
 "yyyy-MM-dd-hh-mm-ss".replace(/-/g,"/") // 结果："yyyy/MM/dd/hh/mm/ss"
 ```
-
 
 
 ### js 跳转至页面底部
@@ -778,16 +751,34 @@ https://bbs.csdn.net/topics/60457054 - *一张html网页，如何让它打开时
 </script>
 ```
 
+
+### js 全屏和退出全屏
+
+https://www.cnblogs.com/DL-CODER/p/16601933.html - *JS 全屏与退出全屏 - DL·Coder - 博客园*
+
+
+### js 浏览器元素尺寸与位置查询
+
+https://lequ7.com/liu-lan-qi-yuan-su-chi-cun-yu-wei-zhi-cha-xun-zhi-nan.html - *浏览器元素尺寸与位置查询指南 - 乐趣区*
+
+https://cloud.tencent.com/developer/article/2109248 - *JS 获取浏览器窗口大小clientWidth、offsetWidth、scrollWidth「建议收藏」-腾讯云开发者社区-腾讯云*
+
+
 ### 前端知识点：防抖节流
 
 ~~https://www.javascriptcn.com/read-91316.html~~
+
+https://blog.csdn.net/shaohao_123/article/details/121408502 - *浏览器页面的加载过程-回流-重绘-浏览器-服务器_浏览器加载过程_少昊~的博客-CSDN博客*
+
 
 ### 重绘 、回流
 
 ~~https://www.jianshu.com/p/ae1f2bd0d08f~~
 
-### 判断是否存在某个 class
+https://suanmei.github.io/2017/02/13/reflow-repaint/ - *回流与重绘及优化 | 拾壹小筑*
 
+
+### 判断是否存在某个 class
 
 ```javascript
 // 判断是否存在某个 class
@@ -802,8 +793,8 @@ if (document.querySelector(".className").getAttribute("class").indexOf("docsify-
 }
 ```
 
-### 判断文本是否溢出
 
+### 判断文本是否溢出
 
 ```javascript
 // JS 判断文本是否溢出
@@ -820,14 +811,15 @@ if (textLength > containerLength) {
 }
 ```
 
-
 https://blog.csdn.net/GrootBaby/article/details/95950773 - *JS 判断文本是否溢出容器_js判断文本是否溢出__格鲁特宝宝的博客-CSDN博客*
 
 https://blog.csdn.net/mouday/article/details/127982924 - *js:判断文本溢出隐藏生效text-overflow: ellipsis_js判断文本是否溢出_彭世瑜的博客-CSDN博客*
 
+
 ### 点击某元素以外的地方触发事件
 
 https://blog.csdn.net/qq_33933205/article/details/108262805 - *JS 点击某元素以外的地方触发事件 - Kaiqisan_点击元素外触发事件_kaiqisan的博客-CSDN博客*
+
 
 ### 操作伪类、元素 \:hover
 
@@ -847,6 +839,7 @@ https://blog.csdn.net/weixin_44276779/article/details/127654563 - *js实现元�
 
 https://blog.csdn.net/qq_42740797/article/details/127889421 - *js 关于如何动态设置css的hover样式最佳方式，设置hover样式_js设置hover样式_草字的博客-CSDN博客*
 
+
 ### 事件处理
 
 https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers - *事件处理 | Vue.js*
@@ -863,3 +856,49 @@ https://blog.csdn.net/weixin_39987313/article/details/111538593 - *js阻止子�
 
 https://blog.csdn.net/Maybe_ss/article/details/125894645 - *JavaScript事件监听器总结-CSDN博客*
 
+
+### button 按钮点击事件绑定-- onClick 事件
+
+https://blog.csdn.net/kye055947/article/details/79619538 - *【JavaScript】按钮绑定点击事件-onCliek事件_js 绑定按钮事件_程序员不弃的博客-CSDN博客*
+
+
+### button onclick 实现页面跳转
+
+```html
+onclick="javascript:window.location.href='aa.htm'"
+
+onclick="location='URL'"
+
+onclick="window.location.href='#'"
+
+<!-- 在按钮外面扩一个`<a>`标签就好了 -->
+<a href="路径">
+  <input type="button"></input>
+</a>
+```
+
+
+### 限制 input 输入框输入的长度
+
+1. style 属性中添加 `minlength="4" maxlength="4"`
+
+2. 添加属性 `minlength="4" maxlength="4"`
+
+
+### a 标签响应 onclick 事件，并且不执行 href动作
+
+```html
+<a href="javascript:void(0)" onclick="doSomething()">链接</a>
+
+<a href="https://www.baidu.com/" onclick="doSomething();return false;">链接</a>
+
+<a href="https://www.baidu.com/" onclick="doSomething();event.returnValue=false;">链接</a>
+
+<a href='#' disabled='true'>链接</a>
+```
+
+```javascript
+// 使用js移除属性href这个方法才是最可靠最有效的，a.removeAttribute("href"); //经测试
+
+event.preventDefault(); // 如果<a>定义了 target="_blank“ 需要这句来阻止打开新页面
+```

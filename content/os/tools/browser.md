@@ -73,10 +73,20 @@ https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 chrome://chrome-urls/
 ```
   
-``` sh
+```sh
 chrome://extensions/
 ```
 
+```sh
+chrome://apps/
+```
+
+```sh
+chrome://flags/
+```
+
+
+参考：
 1. https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
 
 2. https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*

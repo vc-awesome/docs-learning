@@ -1,5 +1,9 @@
+https://builtwith.com/top-sites - *BuiltWith Top Ranked Sites*
+- https://trends.builtwith.com/media/VideoJS - *VideoJS Usage Statistics*
 
-## Clipboard.js
+## 剪贴板
+
+### Clipboard.js
 
 ?>
 ✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋
@@ -12,7 +16,7 @@ GitHub：https://github.com/zenorocha/clipboard.js
 
 BootCDN：https://www.bootcdn.cn/clipboard.js/
 
-## vue-clipboard2
+### vue-clipboard2
 
 ?> A simple vue2 binding to clipboard.js
 
@@ -136,7 +140,9 @@ https://github.com/iamkun/dayjs :uk: :cn: - *⏰ Day.js 2kB immutable date-time 
 https://github.com/hammerjs/hammer.js :uk: - *A javascript library for multi-touch gestures :// You can touch this*
 
 
-## Marked.js
+## Markdown
+
+### Marked.js
 
 https://github.com/markedjs/marked :uk: - *A markdown parser and compiler. Built for speed.*
 
@@ -179,17 +185,41 @@ https://www.starlproject.com/ - _Starl - Decentralized Virtual Space Development
 
 https://github.com/metafizzy/isotope :uk: - *💞 Filter & sort magical layouts*
 
+## 视频播放器
 
 ### Plyr.js
 
-> 视频播放器
+> via *Starl*
 
 https://github.com/sampotts/plyr :uk: - *A simple HTML5, YouTube and Vimeo player*
 
 
-## Toastify.js
+### video.js
+
+https://github.com/videojs/video.js - *GitHub - videojs/video.js: Video.js - open source HTML5 video player*
+
+### DPlayer
+
+https://github.com/DIYgod/DPlayer - *GitHub - DIYgod/DPlayer: Wow, such a lovely HTML5 danmaku video player*
+
+### flv.js
+
+https://github.com/bilibili/flv.js - *GitHub - bilibili/flv.js: HTML5 FLV Player*
+
+
+## Dialog 对话框
+
+### SweetAlert2
+
+https://github.com/sweetalert2/sweetalert2 - *GitHub - sweetalert2/sweetalert2: A beautiful, responsive, highly customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes. Zero dependencies.*
+
+
+## Message 消息提示
+
+### Toastify.js
 
 https://github.com/apvarun/toastify-js :uk: - *Pure JavaScript library for better notification messages*
+
 
 ## Underscore.js
 
@@ -224,6 +254,67 @@ https://github.com/fex-team/webuploader :cn: - *It's a new file uploader solutio
 
 https://github.com/PrismJS/prism - *Lightweight, robust, elegant syntax highlighting.*
 
+<details markdown='1'><summary>展开/收起</summary>
+
+https://prismjs.com/index.html - *Prism*
+
+
+与 CDNs 一起使用：
+
+https://prismjs.com/index.html#basic-usage-cdn - *Usage with CDNs*
+
+https://unpkg.com/browse/prismjs/ - *UNPKG - prismjs*
+
+``` html
+<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
+```
+
+
+支持的语言：
+
+https://prismjs.com/index.html#supported-languages - *Supported languages*
+
+php
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
+```
+
+sql
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
+```
+
+bash,sh,shell
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
+```
+
+markdown,md
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
+```
+
+uri,url
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
+```
+
+PowerShell - `powershell`
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-powershell.min.js"></script>
+```
+
+</details>
+
 
 ### Highlight.js
 
@@ -241,3 +332,7 @@ https://github.com/highlightjs/highlight.js - *GitHub - highlightjs/highlight.js
 2. https://github.com/adrai/flowchart.js - *GitHub - adrai/flowchart.js: Draws simple SVG flow chart diagrams from textual representation of the diagram*
 
 3. https://github.com/bramp/js-sequence-diagrams - *GitHub - bramp/js-sequence-diagrams: Draws simple SVG sequence diagrams from textual representation of the diagram*
+
+## NoSleep.js
+
+https://github.com/richtr/NoSleep.js - *GitHub - richtr/NoSleep.js: Prevent display sleep and enable wake lock in any Android or iOS web browser.*
