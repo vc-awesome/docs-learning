@@ -14,13 +14,19 @@
 
 ## 历史版本
 
-- ECMAScript5
-    - https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道*
-- [ECMAScript6](front-end/javascript/javascript-es6.md)  ➠ ES2015
-    - https://www.babeljs.cn/docs/learn - *学习 ES2015 · Babel 中文文档 | Babel中文网*
+### ECMAScript5
+
+https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道*
 
 
-## Index
+### ECMAScript6(ES2015)
+
+https://www.babeljs.cn/docs/learn - *学习 ES2015 · Babel 中文文档 | Babel中文网*
+
+有关详细信息，请参阅“[ECMAScript6](front-end/javascript/javascript-es6.md) ”。
+
+
+## 索引
 
 https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机制详解：再谈Event Loop*
 
@@ -30,7 +36,7 @@ https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html - *JavaScript
   - <https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html> - *Javascript异步编程的4种方法*
   - https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html - *JavaScript与有限状态机*
 
-## Getting started
+## 入门指南
 
 ### 基础
 
@@ -119,324 +125,7 @@ https://www.runoob.com/js/js-void.html - *javascript:void(0) 含义 | 菜鸟教�
 
 https://www.ruanyifeng.com/blog/2011/06/a_guide_for_writing_bookmarklet.html - *Bookmarklet编写指南 - 阮一峰的网络日志*
 
-
-## HTML DOM
-
-> 当网页被加载时，浏览器会创建页面的文档对象模型（Document Object Model）。
-
-https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
-
-### 查找 HTML 元素
-
-
-```javascript
-document.getElementById();
-```
-
-```javascript
-document.getElementsByTagName();
-```
-
-```javascript
-document.getElementsByClassName();
-```
-
-```javascript
-document.querySelector();
-```
-
-
-### 改变 HTML
-
-- 改变 HTML 输出流
-  
-  ```javascript
-  document.write();
-  ```
-
-
-- 改变 HTML 内容
-  
-  语法：
-
-  ```javascript
-  document.getElementById(id).innerHTML = 新的 HTML
-  ```
-
-
-- 改变 HTML 属性
-  
-  语法：
-
-  ```javascript
-  document.getElementById(id).attribute = 新属性值
-  ```
-
-  
-  实例：
-
-  ```javascript
-  document.getElementById("image").src = "landscape.jpg";`
-  ```
-
-### 获取 CSS
-
-语法：
-
-```javascript
-window.getComputedStyle("元素", "伪类");
-```
-
-实例：
-
-```javascript
-var test = document.getElementById("test"),
-    demo = window.getComputedStyle(test, null); 
-
-// 获取节点的 color
-
-demo.color
-```
-
-参考：
-
-1. https://m.jb51.net/article/89961.htm - *原生js获取元素样式的简单方法_javascript技巧_脚本之家*
-2. https://www.baidu.com/s?word=Js查看元素样式 - *Js查看元素样式 - 百度*
-
-
-
-### 改变 CSS
-
-- 改变 HTML 样式
-  
-  语法：
-
-  ```javascript
-  document.getElementById(id).style.property = 新样式
-  ```
-  
-  实例：
-
-  ```javascript
-  document.getElementById("p2").style.color = "blue";
-  ```
-
-  ```javascript
-  document.querySelector('body').classList.toggle('close');
-  ```
-  *👆 给 body 标签新增 close 类。*
-
-
-### 创建 HTML 元素
-
-https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素 (节点)*
-
-- 创建新的 HTML 元素 (节点) - appendChild()
-
-  ```javascript
-  var para = document.createElement("p");
-  var node = document.createTextNode("这是一个新的段落。");
-  para.appendChild(node);
-  var element = document.getElementById("div1");
-  element.appendChild(para);
-  ```
-
-- 创建新的 HTML 元素 (节点)
-
-  ```javascript
-  element.insertBefore();
-  ```
-
-- 移除已存在的元素
-
-  ```javascript
-  element.removeChild(element);
-  ```
-
-- 替换 HTML 元素 - replaceChild()
-
-  ```javascript
-  element.replaceChild(new_element, old_element);
-  ```
-
-### HTML DOM 事件
-
-- HTML 事件属性
-
-  ```html
-  <button onclick="this.innerHTML='Ooops!'">点击</button>
-  ```
-
-- 使用 HTML DOM 来分配事件
-
-  ```javascript
-  <script>
-    document.getElementById("myBtn").onclick = function(){
-      displayDate();
-    };
-  </script>
-  ```
-
-- 事件
-
-  https://www.runoob.com/jsref/dom-obj-event.html - *HTML DOM 事件*
-
-  1. onload
-  2. onunload
-  3. onchange
-  4. onmouseover
-  5. onmouseout
-  6. onmousedown
-  7. onmouseup
-  8. onclick
-  9. ...
-
-### EventListener
-
-https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#options - *EventTarget.addEventListener() - Web API 接口参考 | MDN*
-
-https://www.runoob.com/js/js-htmldom-eventlistener.html - _JavaScript HTML DOM EventListener | 菜鸟教程_
-
-语法：  
-```javascript
-element.addEventListener(event, function, useCapture);
-```
-```javascript
-element.removeEventListener(event, function, useCapture);
-```
-
-### 监听 DOM 变化
-
-https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver - *MutationObserver - Web API 接口参考 | MDN*
-
-https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的MutationObserver - 个人文章 - SegmentFault 思否*
-
-
-### 对象
-
-> 划分对象属性和对象方法
-
-#### Document 对象
-
-https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 | 菜鸟教程*
-
-常用方法：
-1. [document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html)
-2. [document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html)
-
-
-#### 元素对象
-
-https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象 | 菜鸟教程*
-
-
-#### 属性对象
-
-https://www.runoob.com/jsref/dom-obj-attributes.html - *HTML DOM 属性对象 | 菜鸟教程*
-
-
-#### 事件对象
-
-https://www.runoob.com/jsref/dom-obj-event.html - *HTML DOM 事件对象 | 菜鸟教程*
-
-
-#### Console 对象
-
-https://www.runoob.com/jsref/obj-console.html - *Console 对象 | 菜鸟教程*
-
-
-#### CSS 样式声明对象(CSSStyleDeclaration)
-
-https://www.runoob.com/jsref/obj-cssstyledeclaration.html - *CSS 样式声明对象(CSSStyleDeclaration) | 菜鸟教程*
-
-
-#### DOM HTMLCollection
-
-https://www.runoob.com/jsref/dom-htmlcollection.html - *DOM HTMLCollection | 菜鸟教程*
-
-
-### Form 对象
-
-https://www.runoob.com/jsref/dom-obj-form.html - *HTML DOM Form 对象 | 菜鸟教程*
-
-表单 `enctype` 属性：
-
-1. 默认属性：`application/x-www-form-urlencoded`，只处理表单域中的value属性值，采用这种编码的方式的表单会将表单域的值处理成 url 编码方式
-2. `multipart/form-data`，这种编码方式的表单会以二进制流的方法来处理表单数据。这种编码方式会将文件域指定文件的内容也封装到请求参数里
-3. `text/plain`，这种方式主要适用于直接通过表单发送邮件的方式
-
-
-
-#### FormData 对象
-
-https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects - *FormData 对象的使用 - Web API 接口参考 | MDN*
-
-用一些键值对来模拟一系列表单空间：即把 form 中所有表单元素的 name 与 value 组装成一个 queryString
-
-```js
-let formData = new FormData();  // 实例
-formData.append('user', 'ccc');  // 新增
-formData.get('user');  // 获取
-formData.append('user');  // 删除
-```
-
-使用 `FormData` 对象发送文件
-
-```js
-var file = document.querySelector('[type=file]');
-
-// 通过FormData将文件转成二进制数据
-var formData = new FormData();
-
-// 将文件转二进制
-formData.append('upload', file.files[0]);
-
-$.ajax({
-    url: 'file.php',
-    type: 'POST',
-    data: formData,  // 上传formdata封装的数据
-    dataType: 'JSON',
-    cache: false,  // 不要缓存
-    processData: false,  // jQuery不要去处理发送的数据
-    contentType: false,  // jQuery不要去设置Content-Type的请求头
-    success: function(data) {  // 成功回调
-        console.log(data);
-    }
-});
-```
-
-## 浏览器 BOM
-
-https://www.runoob.com/js/js-window.html - *JavaScript Window - 浏览器对象模型*
-
-> 划分对象属性和对象方法
-
-### Window 对象
-
-https://www.runoob.com/jsref/obj-window.html - *Window 对象 | 菜鸟教程*
-
-### Navigator 对象
-
-https://www.runoob.com/jsref/obj-navigator.html - *Navigator 对象 | 菜鸟教程*
-
-### Screen 对象
-
-https://www.runoob.com/jsref/obj-screen.html - *Screen 对象 | 菜鸟教程*
-
-### History 对象
-
-https://www.runoob.com/jsref/obj-history.html - *History 对象 | 菜鸟教程*
-
-### Location 对象
-
-https://www.runoob.com/jsref/obj-location.html - *Location 对象 | 菜鸟教程*
-
-### 存储对象
-
-https://www.runoob.com/jsref/obj-storage.html - *JavaScript 存储对象 | 菜鸟教程*
-
-
-## FAQ
+## 常见问题
 
 ### jquery 多个选择器绑定同一个事件
 
@@ -763,6 +452,19 @@ https://lequ7.com/liu-lan-qi-yuan-su-chi-cun-yu-wei-zhi-cha-xun-zhi-nan.html - *
 
 https://cloud.tencent.com/developer/article/2109248 - *JS 获取浏览器窗口大小clientWidth、offsetWidth、scrollWidth「建议收藏」-腾讯云开发者社区-腾讯云*
 
+### js 判断对象是否为空
+
+```js
+function isEmpty(obj) {
+    return Object.keys(obj).length === 0;
+}
+```
+
+参考：https://www.runoob.com/w3cnote/detect-empty-javascript-object.html - *如何判断 JavaScript 对象是否为空？ | 菜鸟教程*
+
+### js 判断空值、NULL、undefined的方法
+
+参考：https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
 
 ### 前端知识点：防抖节流
 
@@ -820,24 +522,73 @@ https://blog.csdn.net/mouday/article/details/127982924 - *js:判断文本溢出�
 
 https://blog.csdn.net/qq_33933205/article/details/108262805 - *JS 点击某元素以外的地方触发事件 - Kaiqisan_点击元素外触发事件_kaiqisan的博客-CSDN博客*
 
-
 ### 操作伪类、元素 \:hover
 
-https://blog.csdn.net/c_furong/article/details/126174590 - *css添加伪元素(before、after)并为伪元素添加点击事件_css伪元素点击事件_IT酷盖的博客-CSDN博客*
+实例：
 
-https://blog.csdn.net/a486259/article/details/81163995/ - *JS工具方法 4 伪元素点击事件实现的两种方法_万里鹏程转瞬至的博客-CSDN博客*
+```css
+h1:hover {
+  color: red;
+}
+h1 {
+  /*属性值设为 none ，上面的样式不出触发*/
+  pointer-events: none;
+}
+```
 
-https://blog.csdn.net/qq_25211081/article/details/118655062 - *JS操作CSS伪元素_js添加伪元素_du青松的博客-CSDN博客*
+```html
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>demo</title>
+  </head>
+  <style type="text/css">
+    h1:hover {
+      color: red;
+    }
+    h1 {
+      /*属性值设为 none ，上面的样式不出触发*/
+      pointer-events: none;
+    }
+  </style>
+  <body>
+    <h1>Hello, world!</h1>
+    <p>将鼠标放到 Hello, world! 上看看效果，然后点我试试</p>
+    <script>
+      var num = 0;
+      document.querySelector("p").addEventListener("click", function(e) {
+        // h1 属性值 pointer-events 设置为 auto，则可触发 h1:hover 样式
+        document.querySelector("h1").style.pointerEvents = "auto";
+        if (!num) {
+          this.innerHTML += "（<small>再将鼠标放上去看看效果吧</small>：）"
+        }
+        num += 1;
+      }, true)
+    </script>
+  </body>
+</html>
+```
 
-https://blog.csdn.net/Kerwin__li/article/details/129122358 - *前端 伪类元素如何添加点击事件_伪类点击事件_Kerwin__li的博客-CSDN博客*
+参考：
 
-https://www.bbsmax.com/A/LPdo8MrOz3/ - *使用JS控制伪元素的几种方法*
+1. https://blog.csdn.net/c_furong/article/details/126174590 - *css添加伪元素(before、after)并为伪元素添加点击事件_css伪元素点击事件_IT酷盖的博客-CSDN博客*
 
-https://blog.csdn.net/xiaojian_521/article/details/123757021 - *(学习笔记) js获取伪元素_小剑_x的博客-CSDN博客*
+2. https://blog.csdn.net/a486259/article/details/81163995/ - *JS工具方法 4 伪元素点击事件实现的两种方法_万里鹏程转瞬至的博客-CSDN博客*
 
-https://blog.csdn.net/weixin_44276779/article/details/127654563 - *js实现元素禁用，鼠标不可点击_js 禁止点击_ㄟ、蓦然回首的博客-CSDN博客*
+3. https://blog.csdn.net/qq_25211081/article/details/118655062 - *JS操作CSS伪元素_js添加伪元素_du青松的博客-CSDN博客*
 
-https://blog.csdn.net/qq_42740797/article/details/127889421 - *js 关于如何动态设置css的hover样式最佳方式，设置hover样式_js设置hover样式_草字的博客-CSDN博客*
+4. https://blog.csdn.net/Kerwin__li/article/details/129122358 - *前端 伪类元素如何添加点击事件_伪类点击事件_Kerwin__li的博客-CSDN博客*
+
+5. https://www.bbsmax.com/A/LPdo8MrOz3/ - *使用JS控制伪元素的几种方法*
+
+6. https://blog.csdn.net/xiaojian_521/article/details/123757021 - *(学习笔记) js获取伪元素_小剑_x的博客-CSDN博客*
+
+7. https://blog.csdn.net/weixin_44276779/article/details/127654563 - *js实现元素禁用，鼠标不可点击_js 禁止点击_ㄟ、蓦然回首的博客-CSDN博客*
+
+8. https://blog.csdn.net/qq_42740797/article/details/127889421 - *js 关于如何动态设置css的hover样式最佳方式，设置hover样式_js设置hover样式_草字的博客-CSDN博客*
+
 
 
 ### 事件处理

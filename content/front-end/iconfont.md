@@ -224,7 +224,7 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
 <i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome
 
-中文手册
+中文手册：
 
 1. V6（最新版）
 
@@ -238,6 +238,28 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 
    https://fontawesome.dashgame.com/ - *Font Awesome，一套绝佳的图标字体库和CSS框架*
 
+用法：
+
+```css
+@font-face {
+  font-family:'FontAwesome';
+  src:url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src:url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
+a[target=_blank]:after {
+  display: inline-block;
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f08e";
+  vertical-align: text-bottom;
+}
+```
 
 ## Remix Icon 🥈
 
@@ -358,13 +380,16 @@ https://github.com/react-icons/react-icons
 
 !> 🪜 **Google** 产品
 
-<i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons
+<i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons - *GitHub - google/material-design-icons: Material Design icons by Google*
 
-<i class="fa fa-book"></i> http://google.github.io/material-design-icons/
+<i class="fa fa-book"></i> 
 
-https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts*
+1. http://google.github.io/material-design-icons/ - *Material 图标指南  |  Google Fonts  |  Google for Developers*（遇到站点无法打开，可使用国内站点：https://developers.google.cn/fonts/docs/material_icons?hl=zh-cn ）
+
+2. https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts*
 
 <i class="ri-soundcloud-line"></i>
+
 1. https://www.bootcdn.cn/material-design-icons/
 2. https://unpkg.com/material-design-icons/
 
@@ -374,16 +399,45 @@ https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts*
 <!-- 或 -->
 <!--  <link rel="stylesheet" href="//fonts.loli.net/css?family=Material+Icons">-->
 <!-- 或 -->
-<!--  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+<!--  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 ```
 
+用法：
+
+```css
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://gstatic.loli.net/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
+}
+
+/*下列样式参考了：https://developer.android.google.cn/design/ui/mobile/guides/foundations/accessibility?hl=zh-cn*/
+a[target=_blank]:after {
+  font: normal normal normal 24px/1 Material Icons;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  word-wrap: normal;
+  content: "open_in_new";
+  font-size: 18px;
+  margin-block: 0;
+  /*margin-inline: 4px 0;*/
+  vertical-align: text-bottom;
+}
+```
+
+参考：
+
+~~https://gooyuit.blog.csdn.net/article/details/80407804 - *Google发布750个Material design icons 图标大全使用*~~
 
 
-[Google发布750个Material design icons 图标大全使用](https://gooyuit.blog.csdn.net/article/details/80407804)
 
-
-
-## Glyphicons® 
+## Glyphicons®
 
 ?> Visual language that everybody understands.<br><i class="fa fa-language dark-yellow"></i> 每个人都能理解的视觉语言。
 

@@ -25,9 +25,9 @@ https://developer.aliyun.com/mirror/centos/ - *centos镜像-centos下载地址-c
 
  ID | Command  | Description
 ---|---|---
-1  | :q!  | 强制退出不保存
-2  | :wq!  | 强制退出并且保存
+1  | `:q!` | 强制退出不保存
+2  | `:wq!` | 强制退出并且保存
 
 **参考链接**：
 
-https://www.wenjianb.com/zonghe/16188.html - **vim搜索（Vim查找与替换命令大全） - 文件帮百科**
+https://www.wenjianb.com/zonghe/16188.html - *vim搜索（Vim查找与替换命令大全） - 文件帮百科*

@@ -19,9 +19,9 @@
 
 > Picture
 
-https://tinypng.com/ - _TinyPNG – Compress WebP, PNG and JPEG images intelligently_
+1. https://tinypng.com/ - _TinyPNG – Compress WebP, PNG and JPEG images intelligently_
 
-https://icons8.com/ - _Free Icons, Clipart Illustrations, Photos, and Music_
+2. https://icons8.com/ - _Free Icons, Clipart Illustrations, Photos, and Music_
 
 ### SVG
 
@@ -48,9 +48,9 @@ https://www.fengjs.com/tools/svg2path.html - *SVG转DataURL - FengJS简单极致
 
 > Collect
 
-https://bazhan.wang/ - *在线扒站工具-在线扒站官网_网页源码打包下载_手机扒站_仿站工具*
+1. https://bazhan.wang/ - *在线扒站工具-在线扒站官网_网页源码打包下载_手机扒站_仿站工具*
 
-https://wget.fit/ - *在线仿站工具-Wget.Fit*
+2. https://wget.fit/ - *在线仿站工具-Wget.Fit*
 
 
 ## 开发工具
@@ -71,11 +71,11 @@ https://www.uuidgenerator.net/ - *Online UUID Generator Tool*
 
 ## 翻译网站
 
-https://hosted.weblate.org/ - *Hosted Weblate*
+1. https://hosted.weblate.org/ - *Hosted Weblate*
 
-https://explore.transifex.com/ - *Transifex Explore Projects*
+2. https://explore.transifex.com/ - *Transifex Explore Projects*
 
-https://crowdin.com/ - *Localization Management Platform for agile teams | Crowdin*
+3. https://crowdin.com/ - *Localization Management Platform for agile teams | Crowdin*
 
 
 ## 对比工具

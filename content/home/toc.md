@@ -17,10 +17,8 @@
 
 扩展文件：_H:\√ 123456\╰ 公司项目\!! 统一格式文件分类\√ 统一格式文件分类.txt_
 
-```text
- -- 参考 ydwxld
- ---------* 表示新建项目文件夹必加
-
+```tree
+---------* 表示新建项目文件夹必加
 
 <年月日>_<项目名>[_<主次 main|new|old>]/
 ├─ API/
@@ -132,12 +130,12 @@
 
 2. https://unpkg.com/fontawesome-free/
 
-```text
-myproject
-+-- pages
-│  +-- login
-+-- static
-│  +-- css
+```tree
+myproject/
++-- pages/
+│  +-- login/
++-- static/
+│  +-- css/
 │      +-- custom.css //自定义样式
 │      +-- main.css //主样式
 │      +-- style.css //全局样式
@@ -145,25 +143,24 @@ myproject
 │      +-- modal.css
 │      +-- index.css
 │      +-- default.css
-│  +-- font
-│  +-- images
-│  +-- img
-│  +-- js
+│  +-- font/
+│  +-- images/
+│  +-- img/
+│  +-- js/
 │      +-- data.js //中英文数据
 │      +-- main.js
 │      +-- website.js
-│  +-- media
-│  +-- pdf
-│  +-- picture
-│  +-- videos
-│  +-- libs //扩展库
-│      +-- bootstrap
-│          +-- css
-│          +-- js
+│  +-- media/
+│  +-- pdf/
+│  +-- picture/
+│  +-- videos/
+│  +-- libs/ //扩展库
+│      +-- bootstrap/
+│          +-- css/
+│          +-- js/
 +-- 404.html
 +-- index.html
 ```
-
 
 ### Web
 
@@ -175,7 +172,7 @@ myproject
 
 - https://getbootstrap.com/docs/5.1/getting-started/contents/ - *Contents · Bootstrap v5.1*
 
-```text
+```tree
 # 每个页面对应一个css文件，例如：blog 页面文件夹下有 index.html 和 blog.css
 assets/
 ├─ dist/ #构建目录
@@ -210,11 +207,11 @@ project/ #目录结构
 │  ├─ http.api.js #*API集中管理 --from uView
 │  ├─ util.js #工具类
 │  └─ ...
-├─ components #*符合 vue 组件规范的 uni-app 组件目录
-│  ├─ 项目组件 #仅适用于单一项目
-│  └─ 公共组件 #可适用所有项目
+├─ components/ #*符合 vue 组件规范的 uni-app 组件目录
+│  ├─ 项目组件/ #仅适用于单一项目
+│  └─ 公共组件/ #可适用所有项目
 ├─ js_sdk/ #uniapp 官方插件市场
-│  ├─ mmmm-image-tools #图像转换工具，可用于图像和 base64 的转换
+│  ├─ mmmm-image-tools/ #图像转换工具，可用于图像和 base64 的转换
 │  └─ ...
 ├─ node_modules/ #npm 安装模块
 │  └─ vue-i18n/ #多语言
@@ -276,7 +273,7 @@ https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-wor
 > - public/home/
 > - public/index/
 
-```text
+```tree
 ThinkPHP 资源存放：public/static/home/default/
 ├─ css/
 ├─ demo/

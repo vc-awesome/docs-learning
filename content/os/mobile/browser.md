@@ -132,7 +132,7 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 
 ----
 
-搭建🪜，请参阅“[浏览器配置 DNS](essential/dns.md#浏览器配置-dns)”
+搭建🪜，请参阅“[浏览器配置 DNS](essential/dns.md#浏览器配置-dns)”。
 
 ## DuckDuckGo
 

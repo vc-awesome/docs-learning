@@ -19,7 +19,7 @@ stateDiagram
     Markor/Typora --> GitHub
 ```
 
-1. *学习* > [Book](home/book.md) + [站长](home/good-share.md) + [Front End](front-end/#学习资源)
+1. *学习* > [书籍](home/book.md) + [站长](home/good-share.md) + [前端](front-end/#学习资源)
 2. _Shell_ >
     - [Windows cmd /*.bat](os/windows/README.md#windows-bat-脚本)
     - [Windows powershell /*.ps1](os/windows/README.md#windows-powershell)

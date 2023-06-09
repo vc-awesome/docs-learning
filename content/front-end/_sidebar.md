@@ -3,3 +3,4 @@
 * [图标字体](/front-end/iconfont.md)
 * [jQuery](front-end/jquery.md)
 * [Android](front-end/android.md)
+* [CDN](front-end/cdn.md)

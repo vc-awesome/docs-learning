@@ -57,3 +57,7 @@
 ```uri
 view-source:
 ```
+
+```html
+<kbd></kbd>
+```

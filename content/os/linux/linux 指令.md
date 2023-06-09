@@ -55,6 +55,14 @@ https://www.runoob.com/linux/linux-comm-tree.html - *Linux tree命令 | 菜鸟�
 
 [whereis](https://www.runoob.com/linux/linux-comm-whereis.html) - _查找二进制程序、代码等相关文件路径_
 
+实例：
+
+```sh
+whereis node
+```
+
+输出：`node: /Users/caiyongwen/.nvm/versions/node/v15.14.0/bin/node /Users/caiyongwen/.nvm/versions/node/v15.14.0/share/man/man1/node.1`
+
 [which](https://www.runoob.com/linux/linux-comm-which.html) - _查找并显示给定命令的绝对路径_
 
 

@@ -1,13 +1,3 @@
----
-title: Markdown in Typora
-author: John Snow
-creator: Typora inc.
-subject: Tutorial
-keywords: [Pandoc, Tutorial, Export]
----
-
-以上内容为：*YAML Front Matter*
-
 
 ## 简介
 
@@ -224,6 +214,20 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 [<img src="../../../_media/images.liqucn.jpeg" title="带链接的图片" style="zoom: 45%;" />](http://liqucn.com/bz/1154169.wml)
 
+
+#### 图片说明
+
+<figure>
+    <img src="../../../_media/images.liqucn.jpeg"
+         alt="Albuquerque, New Mexico">
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
+
+
+图片说明参考：https://www.markdownguide.org/hacks/#image-captions
+
+
+
 #### 引用式图片
 
 目前已知 3 种引用方式：
@@ -249,6 +253,14 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 #### 带链接（尺寸缩小）的图片
 
 [<img src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimages.liqucn.com%2Fimg%2Fh23%2Fh09%2Fimg_localize_f78a645ac5fea528e1ca6dc4c87b1167_400x400.png&refer=http%3A%2F%2Fimages.liqucn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1623490558&t=3a5de492f0bdee91329785a3da7f7cd7" alt="旺仔头像" title="带链接的图片" style="zoom:25%;" />](http://liqucn.com/bz/1154169.wml)
+
+#### 图片说明
+
+<figure>
+    <img src="../../../_media/images.liqucn.jpeg"
+         alt="Albuquerque, New Mexico">
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
 ```
 
 <!-- tabs:end -->
@@ -345,7 +357,6 @@ Indent paragraphs to include them in the footnote.
 `{ my code }`
 
 Add as many paragraphs as you like.
-
 ```
 
 

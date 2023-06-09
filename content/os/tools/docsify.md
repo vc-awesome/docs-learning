@@ -37,9 +37,8 @@ https://github.com/docsifyjs/docsify/ - *GitHub - docsifyjs/docsify: 🃏 A magi
 
 !> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
 
-----
 
-解析 Markdown 内容
+### 解析 Markdown 内容
 
 方式一（在自定义函数中使用）：
 
@@ -301,7 +300,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
         <script src="_assets/libs/back2top/js/muse.js"></script>
         ```
         </div>
-</details>
+        </details>
 
 
 #### 添加页脚
@@ -334,6 +333,7 @@ https://prismjs.com/plugins/line-numbers/ - *Line Numbers ▲ Prism plugins*
 
 https://www.bootcdn.cn/prism/ - *prism (v9000.0.1) - Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet. | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
 
+方式一：
 
 ```html
 <!-- 代码块行号 -->
@@ -398,6 +398,49 @@ window.$docsify.plugins.push(
 </script>
 ```
 
+方式二：
+
+```html
+<!-- 代码块行号 -->
+<link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+<style>
+  /*
+   * Fix line number in code block. 
+   * Change this overflow attr to <pre> not the <code>.
+   */
+  .markdown-section pre[data-lang] {
+    overflow: auto !important;
+  }
+  .markdown-section pre[data-lang] code {
+    /*overflow: visible;*/
+    padding: 1.25rem 3.25rem;
+  }
+  .line-numbers .line-numbers-rows {
+    left: -1px;
+    border-right : 1px solid #fff;
+    /* Fix paddings to align with code.*/
+    padding: 1.25rem 0; /* Same as code block */
+  }
+</style>
+```
+
+```html
+<!-- 代码块行号 -->
+<script>
+window.$docsify.plugins.push(
+  function (hook, vm) {
+    hook.doneEach(function (html) {
+      Prism.highlightAll();
+    })
+  }
+)
+</script>
+<script src="https://prismjs.com/plugins/line-numbers/prism-line-numbers.js"></script>
+```
+
+```html
+给 <body></body> 添加 class="line-numbers"
+```
 
 参考：
 
@@ -507,8 +550,60 @@ body .docsify-copy-code-button {
     <script src="_assets/libs/docsify-copy-code.js"></script>
     ```
     </div>
-</details>
-  
+    </details>
+
+<br>
+
+
+##### 显示隐藏的字符
+
+https://prismjs.com/plugins/show-invisibles/ - *Show Invisibles ▲ Prism plugins*
+
+第一步：在 `<head></head>` 标签内添加样式
+
+```html
+<link rel="stylesheet" href="https://prismjs.com/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
+```
+
+第二步：在 `</body>` 前添加脚本
+
+```html
+<script src="https://prismjs.com/plugins/show-invisibles/prism-show-invisibles.js"></script>
+```
+
+
+##### 显示文件系统树结构
+
+https://prismjs.com/plugins/treeview/ - *Treeview ▲ Prism plugins*
+
+第一步：在 `<head></head>` 标签内添加样式
+
+```html
+<link rel="stylesheet" href="https://prismjs.com/plugins/treeview/prism-treeview.css" data-noprefix="">
+```
+
+第二步：在 `</body>` 前添加脚本
+
+```html
+<script src="https://prismjs.com/plugins/treeview/prism-treeview.js"></script>
+```
+第三步：将
+
+```treeview
+root_folder/
+├── a first folder/
+|   ├── holidays.mov
+|   ├── javascript-file.js
+|   └── some_picture.jpg
+├── documents/
+|   ├── spreadsheet.xls
+|   ├── manual.pdf
+|   ├── document.docx
+|   └── presentation.ppt
+└── etc.
+```
+⚠️注意：如果文件类型是目录，则需要在文件名最后加上 `/`；比如：`root_folder` 加了 `/` 后（`root_folder/`），文件名前面显示的是文件夹图标，没有加 `/`，文件名前面显示的是文件图标。
+
 
 #### ~~评论系统~~
 

@@ -1,10 +1,12 @@
 ## 官方
 
+> PHP is a popular general-purpose scripting language that powers everything from your blog to the most popular websites in the world.
+
 官方站点：https://www.php.net/ - *PHP: Hypertext Preprocessor*
 
 官方手册：https://www.php.net/manual/zh/index.php - *PHP: PHP 手册 - Manual*
 
-GitHub：https://github.com/php/- *php.net · GitHub*
+GitHub：https://github.com/php/ - *php.net · GitHub*
 
 菜鸟教程：https://www.runoob.com/php/php-tutorial.html - *PHP 教程 | 菜鸟教程*
 
@@ -22,15 +24,12 @@ PHP版本支持时间表：https://www.php.net/supported-versions.php - *PHP: Su
 
 https://www.cnblogs.com/phpper/p/7191089.html - *PHP中获取当前页面的URL信息*
 
-
-
 https://www.jb51.net/article/117265.htm - *利用PHP获取访客IP、地区位置、浏览器及来源页面等信息*
-
 
 
 ## 安装
 
-### MacOS
+### macOS
 
 https://www.php.net/manual/zh/install.macosx.php - *PHP: macOS 系统下的安装 - Manual*
 
@@ -55,7 +54,7 @@ https://www.php.net/manual/zh/install.windows.manual.php - *PHP: 在 Windows 上
 
 ## 扩展
 
-### MacOS && Linux
+### macOS && Linux
 
 #### 源码编译安装
 
@@ -121,9 +120,9 @@ https://www.php.net/manual/zh/ini.php - *php.ini 配置*
 https://www.cnblogs.com/lixihuan/p/8125894.html - *PHP取整，四舍五入取整、向上取整、向下取整、小数截取*
 
 - PHP取整数函数常用的四种方法：
-  1. 直接取整，舍弃小数，保留整数：`intval() `；
+  1. 直接取整，舍弃小数，保留整数：`intval()`；
 
-  2. 四舍五入取整：`round()`； 
+  2. 四舍五入取整：`round()`；
 
   3. 向上取整，有小数就加1：`ceil()` ；
 

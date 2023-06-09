@@ -1,6 +1,16 @@
 ## 官方
 
+> 探索 Apple 的创新世界，选购各式 iPhone、iPad、Apple Watch 和 Mac，浏览各类配件、娱乐产品，并获得相关产品的专家服务支持。
+
 https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
+
+
+### 使用技巧
+
+\> 打开 *访达 > 菜单栏 > 帮助 > macOS 帮助或者 Mac 使用技巧*（根据当前使用的电脑设备来打开指定版本的使用手册）。
+
+https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 使用手册 - 官方 Apple 支持 (中国)*
+
 
 ## 教程
 
@@ -8,18 +18,53 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 ### 基础操作
 
+
+### 目录结构
+
+- 用户目录：`/Users/caiyongwen`
+
+  如何打开此目录：
+
+  - 终端：`cd ~`；
+
+  - 访达：*菜单栏 > 前往 > 个人*。
+
+
+- 根目录：`/`
+
+	如何打开此目录：
+
+	- 终端：`cd /`；
+  - 访达：*菜单栏 > 前往 > 电脑*。
+
+- `/bin`: 存放所有用户皆可用的系统程序，即普通的基本命令，如：touch ls 等
+- `/sbin`： 存放超级用户才能使用的系统程序，即基本的系统命令，如：sreboot 等
+
+- `/usr/bin`： 存放所有用户都可用的应用程序，一般是已安装软件的运行脚本，如：free、make、wget 等
+
+- `/usr/sbin`： 存放超级用户才能使用的应用程序 ，一般是与服务器软件程序命令相关的，如：dhcpd、 httpd、samba 等
+
+- `/usr/local/bin`： 存放所有用户都可用的第三方软件程序,如 mysql
+
+- `/usr/local/sbin`： 存放超级用户才能使用的第三方软件,如 nginx
+
+
+
 ### 触控板
 
 - 触控板单指点击为单击功能
 
 - 触控板双指点击为鼠标右键功能
 
+- 更多功能可打开 *系统设置 > （左边列表最底下）触控板* 查看教程。
 
 ### 应用程序
 
 - <kbd>command</kbd> + <kbd>Q</kbd> - *退出当前程序，后台不运行该程序*
 
 - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>ESC</kbd> - *强制退出当前程序*
+
+- <kbd>command</kbd> + <kbd>tab</kbd> - *切换应用程序*
 
 
 ### 输入法
@@ -70,8 +115,15 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
   - <kbd>command</kbd> + <kbd>~</kbd>
 
-- 显示桌面
+- 快速显示桌面
   - <kbd>fn</kbd> + <kbd>F11</kbd>
+  - <kbd>command</kbd> + <kbd>F3</kbd>
+
+- 打开调度中心
+  - <kbd>control</kbd> + <kbd>上箭头</kbd> - *调度中心平铺显示所有打开的窗口，可以快速找到需要的窗口*
+
+- 显示当前应用程序的所有窗口
+  - <kbd>control</kbd> + <kbd>下箭头</kbd> - *如果当前app有多个窗口，按command+下方向键可以显示此app的所有窗口，这也叫作“应用程序暴露”*
 
 
 ### 应用双开
@@ -108,18 +160,20 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
     - https://jingyan.baidu.com/article/d5c4b52bd1496e9b560dc5b0.html - *苹果MAC电脑如何更改默认打开方式-百度经验*
 
 
-### chrome 浏览器
+### Chrome 浏览器
 
 <kbd>command</kbd> + <kbd>R</kbd>：普通刷新
 
 <kbd>command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：强制刷新
+
+更多有关详细信息，请参阅“[浏览器快捷键](os/tools/browser.md#浏览器快捷键)”。
 
 
 ### 卸载软件
 
 - Mac 如何彻底移除应用程序？
 
-  打开访达 > 应用程序 > 选择应用程序 > 移除至废纸篓 > 清倒废纸篓（彻底卸载）
+  *打开访达 > 应用程序 > 选择应用程序 > 移除至废纸篓 > 清倒废纸篓（彻底卸载）*
 
 - Mac 系统如何卸载/删除软件？
 
@@ -129,33 +183,51 @@ https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> - *截取全屏*
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口*
+- <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>5</kbd> - *截屏和录制选项*
+
+打开 *系统设置 >（左边列表最底下）键盘 > 键盘快捷键...* ，单击左侧列表的“截屏”选项，可查看具体的快捷键使用说明。
+
+参考：https://baijiahao.baidu.com/s?id=1745189312105411581 - *Mac截图保存在哪里？*
+
 
 ### 开机启动项
 
 Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自动执行命令行*
 
-`系统偏好设置 > 用户与群组 > 登录项` 添加完然后重启电脑
+1. 打开 *系统偏好设置 > 用户与群组 > 登录项*；
+2. 添加完然后重启电脑
 
-## FAQ
+## 常见问题
 
-1. Mac 指定文件夹打开终端
+1. Mac 中的 git
 
-2. Mac 如何查看访达的当前路径
+    mac 系统自带 git，无需额外安装。
 
-3. Mac 中的 git
 
-   mac 系统自带 git，无需额外安装
+### 如何在访达中查看当前路径
 
-4. Mac 如何快速显示桌面
+在“访达”窗口右下方的底部导航栏中，选中指定的文件目录，然后鼠标右键单击，选择：*将“共享”拷贝为路径名称*。
 
-   1. 组合键：<kbd>command</kbd> + <kbd>F3</kbd>
-   2. 组合键：<kbd>fn</kbd> + <kbd>f11</kbd>
+### 如何在指定文件夹中打开终端
 
-5. Mac 解压 rar
+方式一（子文件夹打开终端）：
+1. 打开 *访达 > （选择需要打开的文件夹，比如：根目录）Macintosh HD*；
+2. 在访达窗口右侧文件栏，选择指定的文件夹（如：“用户”文件夹），*单击右键 > 服务 > 新建位于文件夹位置的终端窗口*。
 
-   https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,zip等各种格式文件*
+方式二（当前文件夹打开终端）：
+1. 打开 *访达 > （选择需要打开的文件夹，比如：根目录）Macintosh HD*；
+2. 在访达窗口右上方工具栏上，左键单击 “>>” 选择 *操作 > 服务 > 新建位于文件夹位置的终端窗口*。
 
-   1. app store 中安装工具 `The Unarchiver`
+方式三（当前文件夹及上层文件夹打开终端）：
+1. 打开 *访达 > （选择需要打开的文件夹，比如：“用户”文件夹）用户*；
+2. 在访达窗口右下方的底部导航栏中，选中指定的文件夹，鼠标右键单击，选择：*在终端打开*，或者选择：*> 服务 > 新建位于文件夹位置的终端窗口*。
+
+
+### 解压 rar 文件
+
+https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,zip等各种格式文件*
+
+1. App Store 中安装工具 `The Unarchiver`
 
 
 ### 程序安装问题

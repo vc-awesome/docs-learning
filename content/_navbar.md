@@ -1,6 +1,5 @@
-- Homepage
+- [Home](home/README.md)
     - [<i class="fa fa-flash fa-fw"></i> Quick Index](home/quick-index.md)
-    - [<i class="fa fa-plane fa-fw"></i> Index](home/README.md)
     - [<i class="fa fa-book fa-fw"></i> 学习](home/book.md)
     - [<i class="fa fa-github fa-fw"></i> GitHub](os/tools/github.md)
     - [<i class="fa-fw icon octicon-file markdown-icon"></i> Markdown](os/tools/markdown.md)
@@ -10,8 +9,7 @@
     - [<i class="fa fa-smile-o fa-fw"></i> Emoji](home/emoji.md)
     - [<i class="fa fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
     - [<i class="fa fa-slideshare fa-fw"></i> Share](home/good-share.md "干货分享")
-- Essentials
-    - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](essential/README.md)
+- [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
     - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
     - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](设计模式/README.md)
@@ -25,14 +23,14 @@
     - [<i class="ri-questionnaire-line"></i> IP](essential/ip.md)
     - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
     - [<i class="ri-questionnaire-line"></i> API](essential/api.md)
-- Front-end
-    - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](front-end/README.md)
+- [Front-end](front-end/README.md)
     - [<i class="fa fa-html5 medium-orange fa-fw"></i> HTML](front-end/html/README.md)
     - [<i class="fa fa-css3 medium-blue fa-fw"></i> CSS](front-end/css/README.md)
     - [<i class="icon octicon-file js-icon medium-yellow fa-fw"></i> JavaScript](front-end/javascript/README.md)
     - <hr />
     - [<i class="icon octicon-file jquery-icon medium-blue fa-fw"></i> jQuery](front-end/jquery.md)
     - [<i class="icon octicon-file node-icon fa-fw"></i> Node.js](front-end/node.js/README.md)
+    - [<i class="icon octicon-file npm-icon medium-red fa-fw"></i> NPM](front-end/node.js/npm.md)
     - [<i class="icon octicon-file vue-icon light-green fa-fw"></i> Vue.js](front-end/vue/README.md)
     - <hr />
     - [<i class="iconfont icon-uniapp dark-green fa-fw"></i> uni-app](front-end/uniapp/README.md)
@@ -41,8 +39,7 @@
     - [<i class="ri-pencil-ruler-line"></i> 产品设计](front-end/design/README.md)
     - [<i class="fa fa-fonticons"></i> Icon font](front-end/iconfont.md)
     - [<i class="ri-download-cloud-2-line"></i> CDN](front-end/cdn.md)
-- Back-end
-    - [<i class="fa fa-rocket fa-fw medium-red"></i> Index](back-end/README.md)
+- [Back-end](back-end/README.md)
     - [<img src="https://www.php.net/favicon.ico" alt=" PHP Icon" width="14" class="fa-fw" /> PHP](back-end/php/README.md)
     - [<img src="https://www.thinkphp.cn/Public/favicon.ico" alt="ThinkPHP Icon" width="14" class="fa-fw" /> ThinkPHP](back-end/thinkphp/README.md)
     - [<i class="icon octicon-file composer-icon medium-yellow fa-fw"></i> Composer](back-end/composer/README.md)
@@ -52,13 +49,11 @@
     - [<i class="icon octicon-file docker-icon dark-blue fa-fw"></i> Docker](back-end/docker.md "Docker")
     - <hr />
     - [<img src="https://www.travis-ci.com/wp-content/uploads/2022/05/travis-ci-mascot-1-150x150.png" alt="Travis Ci 官网图标" width="14" class="fa-fw" /> Travis-CI](back-end/travis-ci.md "Travis Ci")
-- Database
-    - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](database/README.md)
+- [Database](database/README.md)
     - [<i class="icon octicon-file mysql-icon dark-blue fa-fw"></i> MySQL](database/mysql/README.md)
     - [<i class="icon octicon-file redis-icon medium-red fa-fw"></i> Redis](database/redis/README.md)
     - [<i class="icon octicon-file mongodb-icon dark-green fa-fw"></i> MongoDB](database/mongodb.md)
-- <span class="animate__animated animate__heartBeat animate__infinite animate__slow" style="display: inline-block;">🔥 OS</span>
-    - [<i class="fa fa-rocket medium-red fa-fw"></i> Index](os/README.md)
+- [<span class="animate__animated animate__heartBeat animate__infinite animate__slow" style="display: inline-block;">🔥 OS</span>](os/README.md)
     - [<i class="fa fa-windows fa-fw"></i> Windows](os/windows/README.md)
     - [<i class="fa fa-linux fa-fw"></i> Linux](os/linux/README.md)
     - [<i class="fa fa-apple fa-fw"></i> Mac](os/mac/README.md)
@@ -88,3 +83,4 @@
     - <hr />
     - [<img src="https://img.alicdn.com/tfs/TB1_ZXuNcfpK1RjSZFOXXa6nFXa-32-32.ico" width="14" valign="middle" /> 阿里云](tech-stack/aliyun.md)
     - [<img src="https://res.wx.qq.com/a/wx_fed/assets/res/NTI4MWU5.ico" width="14" /> 微信](tech-stack/weixin.md)
+    - [<img src="https://www.gstatic.cn/devrel-devsite/prod/v37463d4834445c1e880de1e91d2f8fc2c6a0e86fca4aa6a7bdbb270b040181dc/developers/images/favicon-new.png" width="16" /> Google](os/tools/google.md)

@@ -72,7 +72,7 @@ https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 ```sh
 chrome://chrome-urls/
 ```
-  
+
 ```sh
 chrome://extensions/
 ```
@@ -244,6 +244,48 @@ https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解
 https://baijiahao.baidu.com/s?id=1699345724372278183 - *JavaScript 开发者需要了解的15个 DevTools 技巧*
 
 ### Element
+
+#### 样式
+
+假设某类的样式如下👇：
+
+```css
+.khTxkj {
+    top: 0px;
+    right: 0px;
+    padding: 8px;
+    position: absolute;
+}
+```
+
+在类名 `.khTxkj`上鼠标右键操作：
+
+1. 选择操作「复制selector」，复制的内容为：
+
+    ```css
+    .khTxkj
+    ```
+
+2. 选择操作「复制规则」，复制的内容为：
+
+    ```css
+    .khTxkj {
+        top: 0px;
+        right: 0px;
+        padding: 8px;
+        position: absolute;
+    }
+    ```
+
+3. 选择操作「复制所有声明」，复制的内容为：
+
+    ```css
+        top: 0px;
+        right: 0px;
+        padding: 8px;
+        position: absolute;
+    ```
+
 
 ### Console
 

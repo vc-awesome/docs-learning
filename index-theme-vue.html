@@ -7,7 +7,8 @@
 
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
-  <link rel="stylesheet" href="//unpkg.com/@primer/css@latest/dist/primer.css" />
+  <!-- <link rel="stylesheet" href="//unpkg.com/@primer/css@latest/dist/primer.css" /> -->
+  <link href="//unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
   <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
@@ -20,7 +21,14 @@
   <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/octocat.png.webp">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="//unpkg.com/animate.css@4.1.1/animate.min.css">
+
+  <!-- Table of Contents -->
+  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
+  <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
+
+  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
+  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/treeview/prism-treeview.css" data-noprefix="">
 
   <!-- Using Local -->
   <!-- ----------------------------------------------------------------- -->
@@ -28,7 +36,7 @@
   <link rel="stylesheet" href='_assets/css/vc-animation.css'>
   
   <!-- 代码块行号 -->
-  <link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.css">
   <style>
     /*
      * Fix line number in code block. 
@@ -47,45 +55,252 @@
       /* Fix paddings to align with code.*/
       padding: 1.25rem 0; /* Same as code block */
     }
+    /*右下悬浮按钮组*/
+    .d-flex button {
+      margin-top: 5px;
+      opacity: .6;
+    }
   </style>
 </head>
 <body>
 <div id="app"></div>
 
-<div style="display: none;" id="d-none">
-  <button class="btn btn-outline btn-sm position-fixed bottom-11 right-3" style="opacity:.6;margin-bottom:160px;" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
+<script>
+  // Docsify configuration
+  window.$docsify = {
+  
+  // 定制侧边栏
+    loadSidebar: true,
+    // autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
+    subMaxLevel: 2, // 自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
+    auto2top: true, // 切换页面后是否自动跳转到页面顶部。
+
+    // 定制导航栏
+    loadNavbar: true,
+
+    // 禁用 emoji 解析
+    noEmoji: false,
+
+    topMargin: 90, // default: 0
+
+    // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
+    basePath: 'content',
+
+    // 主题颜色
+    /*themeColor: '#42b983',*/
+    themeColor: '#42b983',
+    
+    // 文档标题，会显示在侧边栏顶部。
+    name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ',
+
+    maxLevel: 2,
+    
+    // 小屏设备下合并导航栏到侧边栏
+    mergeNavbar: true,
+
+    // 全文搜索
+    search: {
+      paths: 'auto',
+      placeholder: {
+        '/zh-cn/': '搜索',
+        '/': 'Type to search'
+      },
+      noData: {
+        '/zh-cn/': '找不到结果',
+        '/': 'No Results'
+      },
+      // Headline depth, 1 - 6
+      depth: 6,
+      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+    },
+
+    // 字数统计
+    count: {
+      countable: true,
+      fontsize: '0.9em',
+      color: 'rgb(90,90,90)',
+      language: 'chinese'
+    },
+
+    // 代码块行号
+    markdown: {
+      renderer: {
+        /* Change code block rendering. Add line-numbers class.*/
+        code: function (code, lang) {
+          if (lang === "mermaid") {
+            return (
+              '<div class="mermaid">' + code + "</div>"
+            );
+          } else {
+            let cc = document.createElement('code');
+            cc.textContent = code;
+            cc.setAttribute('class', 'language-' + lang);
+            return '<pre data-lang="' + lang + '" class="line-numbers">' + cc.outerHTML + '</pre>';
+          }
+          return this.origin.code.apply(this, arguments);
+        }
+      }
+    },
+    
+    formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
+    plugins: [
+      function(hook, vm) {
+        hook.beforeEach(function(html) {
+          // 编辑页面
+          if (/githubusercontent\.com/.test(vm.route.file)) {
+            url = vm.route.file
+                .replace('raw.githubusercontent.com', 'github.com')
+                .replace(/\/master/, '/blob/master');
+          } else if (/jsdelivr\.net/.test(vm.route.file)) {
+            url = vm.route.file
+                .replace('cdn.jsdelivr.net/gh', 'github.com')
+                .replace('@master', '/blob/master');
+          } else {
+            url =
+                'https://github.com/vc-awesome/docs-learning/blob/master' +
+                vm.route.file;
+          }
+          var editHtml = '📝[EDIT DOCUMENT](' + url + ')\n';
+          
+          // 文件所在路径
+          editHtml += '· 📂<abbr title="文件所在路径">*' + decodeURIComponent(vm.route.file) +'*</abbr>\n';
+
+          // 最近更新时间
+          editHtml += "· ⏰<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>\n\n";
+
+        // 添加页脚
+
+          // 切换主题
+          let themeHtml = "🎨 <a href=\"index-theme-vue.html\">Switch to Vue.</a>";
+          if (window.location.pathname.indexOf("/index-theme-vue.html") >= 0) {
+            themeHtml = "🎨 <a href=\"index-theme-themeable.html\">Switch to Themeable.</a>";
+          }
+
+          var sites = [
+            '\n\n',
+            'More sites: ',
+            '<a href=\"snippets.html\">Code Snippets</a> · ',
+            '<a href=\"markdown-mermaid.html\">Mermaid</a> · ',
+            themeHtml
+          ].join('');
+
+          var footer = [
+            '<footer>',
+            '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a>(<a href="https://vc-awesome.github.io/docs-learning/" target="_blank">Website</a>) &copy;' + new Date().getFullYear() + '.</span>',
+            '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
+            sites,
+            '</footer>'
+          ].join('');
+
+          return (
+              editHtml +
+              html+
+              '\n\n----\n\n' +
+              footer
+          );
+        });
+      },
+      function(hook, vm) {
+        hook.doneEach(function() {
+          
+        // 手机端顶部导航栏 :hover 触控处理
+          var ele = document.querySelector("nav.app-nav");
+
+          setTimeout(function() {
+            // 初始化
+            togglePointerEvents(ele);
+          }, 100)
+          
+          document.querySelector("body").addEventListener("click", function(e) {
+            togglePointerEvents(ele);
+          }, true)
+
+          // 切换 pointer-events 的值
+          function togglePointerEvents(ele) {
+            function empty(x) {
+              switch (x) {
+                case "":
+                case 0:
+                case "0":
+                case null:
+                case false:
+                case undefined:
+                  return true;
+                default:
+                  return false;
+              }
+            }
+
+            if (!empty(ele)) {
+              if (window.getComputedStyle(ele).opacity == 1) {
+                document.querySelectorAll("nav.app-nav li").forEach(function(e) {
+                  e.style.pointerEvents = "auto";
+                })
+              } else {
+                document.querySelectorAll("nav.app-nav li").forEach(function(e) {
+                  e.style.pointerEvents = "none";
+                })
+              }
+            }
+          }
+
+          // 代码块行号
+          Prism.highlightAll();
+          var o = Array.apply(null, document.querySelectorAll("pre[data-lang] code"));
+          o.forEach(function (o) {
+            var linesNum = (1 + o.textContent.split('\n').length);
+            var lineNumbersWrapper;
+
+            var lines = new Array(linesNum);
+            lines = lines.join('<span></span>');
+
+            lineNumbersWrapper = document.createElement('span');
+            lineNumbersWrapper.className = 'line-numbers-rows';
+            lineNumbersWrapper.innerHTML = lines;
+
+            o.appendChild(lineNumbersWrapper);
+          })
+        })
+      }
+    ],
+  }
+</script>
+
+<!-- 右下悬浮按钮组 -->
+<div class="d-flex flex-column position-fixed right-2 bottom-2">
+  <button class="btn btn-outline btn-sm" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
   <!-- 返回顶部 -->
-  <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent position-fixed bottom-11 right-3 mb-12" style="opacity:.6;" aria-disabled="true">
+  <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent" aria-disabled="true">
     0%
   </button>
-  <button class="back-to-top btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-10" style="opacity:.6;">
+  <button class="back-to-top btn btn-outline btn-sm">
     <i class="fa fa-arrow-up"></i>
   </button>
-  <button class="back-to-top btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-8" style="opacity:.6;" id="back2bottom">
+  <button class="back-to-top btn btn-outline btn-sm" id="back2bottom">
     <i class="fa fa-arrow-down"></i>
   </button>
-  
-  <!-- Table of Contents -->
-  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
-  <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
-  <button class="toc-toggle back-to-top btn btn-outline btn-sm position-fixed right-3" style="opacity:.6;">
-    <i class="fa fa-reorder"></i>
-  </button>
-  
-  <!-- Page Refresh Button -->
-  <button class="btn btn-outline btn-sm position-fixed bottom-7 right-3" style="opacity:.6;" onclick="window.location.reload();">
-    <i class="fa fa-refresh"></i>
-  </button>
-  <button class="btn btn-outline btn-sm position-fixed bottom-9 right-3" style="opacity:.6;" onclick="toggleFullScreen(this);">
-    <i class="ri-fullscreen-fill"></i>
-  </button>
-  <button class="btn btn-outline btn-sm position-fixed bottom-11 right-3 mb-5" style="opacity:.6;" onclick="if(document.location.hash != '#/'){window.history.back();}">
+  <!-- 历史记录上一页 -->
+  <button class="btn btn-outline btn-sm" onclick="if(document.location.hash != '#/'){window.history.back();}">
     <i class="fa fa-arrow-left"></i>
   </button>
-  <button class="btn btn-outline btn-sm position-fixed bottom-11 right-3" style="opacity:.6;" onclick="window.history.forward();">
+  <!-- 历史记录下一页 -->
+  <button class="btn btn-outline btn-sm" onclick="window.history.forward();">
     <i class="fa fa-arrow-right"></i>
   </button>
+  <!-- 切换全屏 -->
+  <button class="btn btn-outline btn-sm" onclick="toggleFullScreen(this);">
+    <i class="ri-fullscreen-fill"></i>
+  </button>
+  <!-- Page Refresh Button -->
+  <button class="btn btn-outline btn-sm" onclick="window.location.reload();">
+    <i class="fa fa-refresh"></i>
+  </button>
+  <!-- Table of Contents -->
+  <button class="toc-toggle back-to-top btn btn-outline btn-sm">
+    <i class="fa fa-reorder"></i>
+  </button>
 </div>
+<!-- 切换全屏 -->
 <script>
 // 切换全屏
 function toggleFullScreen(e) {
@@ -156,292 +371,120 @@ function toggleFullScreen(e) {
   }
 }
 </script>
+
+<!-- Mermaid -->
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+<script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
+  /**
+   * @url https://docsify.js.org/#/markdown?id=supports-mermaid - *Markdown configuration*
+   * @url https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Mermaid插件支持_mermaid 插件_Willin 老王带你躺平养老的博客-CSDN博客*
+   */
+  var num = 0;
+  mermaid.initialize({ startOnLoad: false });
+  window.$docsify.plugins.push(
+    function(hook, vm) {
+      hook.ready(function() {
+        // 类似 jQuery.ready 初始化 mermaid, 禁用自动渲染
+        mermaid.initialize({ startOnLoad: false });
+      }),
+      hook.doneEach(function() {
+        // 每个页面渲染完成后手动渲染 mermaid 图表
+        mermaid.init(undefined, '.mermaid');
 
-  window.$docsify = {
-  
-    // 定制侧边栏
-    loadSidebar: true,
-    autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
-    subMaxLevel: 2, // 自定义侧边栏后默认不会再生成目录，你也可以通过设置生成目录的最大层级开启这个功能。
-    auto2top: true, // 切换页面后是否自动跳转到页面顶部。
-
-    // 定制导航栏
-    loadNavbar: true,
-
-    // 禁用 emoji 解析
-    noEmoji: false,
-
-    topMargin: 90, // default: 0
-
-    // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
-    basePath: 'content',
-
-    // 主题颜色
-    themeColor: '#42b983',
-    
-    // 文档标题，会显示在侧边栏顶部。
-    name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ',
-
-    maxLevel: 2,
-    
-    // 小屏设备下合并导航栏到侧边栏
-    mergeNavbar: false,
-    
-    formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
-    plugins: [
-      // 添加页脚
-      function (hook) {
-
-        // 切换主题
-        let themeHtml = "🎨 <a href=\"index-theme-vue.html\">Switch to Vue.</a>";
-        if (window.location.pathname.indexOf("/index-theme-vue.html") >= 0) {
-          themeHtml = "🎨 <a href=\"index-theme-themeable.html\">Switch to Themeable.</a>";
-        }
-
-        var footer = [
-          '<hr/>',
-          '<footer>',
-          '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a> &copy;' + new Date().getFullYear() + '.</span>',
-          '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
-          themeHtml,
-          '</footer>'
-        ].join('');
-
-        hook.afterEach(function (html) {
-          return html + footer;
-        });
-      },
-      
-      // 最近更新时间
-      function (hook, vm) {
-        hook.beforeEach(function (html) {
-          return (
-              '<div style="/*overflow: auto;*/"><code> Last modified: {docsify-updated} </code></div>\n\n'
-              + html
-          );
-        });
-      },
-      
-      // 编辑页面
-      function(hook, vm) {
-        hook.beforeEach(function(html) {
-          // console.log(vm)
-          // console.log(vm.route)
-          
-          if (/githubusercontent\.com/.test(vm.route.file)) {
-            url = vm.route.file
-                .replace('raw.githubusercontent.com', 'github.com')
-                .replace(/\/master/, '/blob/master');
-          } else if (/jsdelivr\.net/.test(vm.route.file)) {
-            url = vm.route.file
-                .replace('cdn.jsdelivr.net/gh', 'github.com')
-                .replace('@master', '/blob/master');
-          } else {
-            url =
-                'https://github.com/vc-awesome/docs-learning/blob/master' +
-                vm.route.file;
-          }
-          var editHtml = '📝[EDIT DOCUMENT](' + url + ')';
-          
-          editHtml += ' | 📂<i class="color-fg-subtle"><u>PATH:' + decodeURIComponent(vm.route.file) +'</u></i>\n';
-          //  🚀[BACK HOME](/) |
-          return (
-              editHtml +
-              html
-          );
-        });
-      },
-      
-      // Invoked one time after rendering the initial page
-      function(hook, vm) {
-        hook.doneEach(function () {
-          document.querySelector("#d-none").removeAttribute("style")
-        });
-      }
-    ],
-  }
-</script>
-
-<!-- Local -->
-<!-- ----------------------------------------------------------------- -->
-
-<!-- 代码块行号 -->
-<script>
-window.$docsify.markdown = {
-  renderer: {
-    /* Change code block rendering. Add line-numbers class.*/
-    code: function (code, lang) {
-      let cc = document.createElement('code');
-      cc.textContent = code;
-      cc.setAttribute('class', 'language-' + lang);
-      return '<pre data-lang="' + lang + '" class="line-numbers">' + cc.outerHTML + '</pre>';
-    }
-  }
-}
-window.$docsify.plugins.push(
-  function (hook, vm) {
-    hook.doneEach(function (html) {
-      Prism.highlightAll();
-
-      var o = Array.apply(null, document.querySelectorAll("pre[data-lang] code"));
-      o.forEach(function (o) {
-        var linesNum = (1 + o.textContent.split('\n').length);
-        var lineNumbersWrapper;
-
-        var lines = new Array(linesNum);
-        lines = lines.join('<span></span>');
-
-        lineNumbersWrapper = document.createElement('span');
-        lineNumbersWrapper.className = 'line-numbers-rows';
-        lineNumbersWrapper.innerHTML = lines;
-
-        o.appendChild(lineNumbersWrapper);
+        // mermaid 重新渲染所有元素
+        // window.mermaid.contentLoaded();
       })
-    })
-  }
-)
+    }
+  )
 </script>
 
-<!-- Table of Contents -->
+<!-- Table of Contents：页面右侧目录 -->
+<script src="_assets/libs/docsify-plugin-toc.js"></script>
 <script>
   window.$docsify.plugins.push(
     function(hook, vm) {
       
-      console.groupCollapsed("开始调试 Table of Contents");
-      
       hook.doneEach(function() {
-        // mermaid 重新渲染所有元素
-        window.mermaid.contentLoaded();
-        
         setTimeout(function(){
-          // document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
-          
-          document.querySelector('.toc-toggle').classList.toggle('bottom-3', document.getElementsByClassName('lv2').length);
-          
-          // 添加遮罩层
+      // 是否存在目录
+          var noToc = document.querySelector("aside.toc-nav").classList.contains("nothing");
+          // 调整 body.no-right-toc section.content 的样式
+          document.querySelector("body").classList.toggle("no-right-toc", noToc);
+
+      // 手机端可用 --start
+
+        // 添加遮罩层
           var para = document.createElement("div");
           para.setAttribute("class", "flisxm");
           document.querySelector(".toc-nav").appendChild(para);
-          
-          // 选择需要观察变动的节点
-          const targetNode = document.querySelector('.toc-nav');
-          
-          // 观察器的配置（需要观察什么变动）
-          const config = { attributes: true, childList: true, subtree: true };
-          
-          // 当观察到变动时执行的回调函数
-          const callback = function(mutationsList, observer) {
-            // Use traditional 'for loops' for IE 11
-            for(let mutation of mutationsList) {
-              if (mutation.type === 'childList') {
-                // console.log('A child node has been added or removed.');
-              }
-              else if (mutation.type === 'attributes') {
-                // console.log(document.querySelector('.toc-nav-hover'))
-                if (document.querySelector('.toc-nav-hover')) {
-                  // console.info("TOC 开启");
-                  document.querySelector('body').classList.toggle('toc-body', true);
-                  document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
-                  document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
-                  document.querySelector('.app-nav').style.display = "none";
-                } else {
-                  // console.error("TOC 关闭");
-                  document.querySelector('body').classList.toggle('toc-body', false);
-                  const myObj = document.querySelector('.flisxm');
-                  if (typeof myObj !== "undefined" && myObj !== null) {
-                    document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
-                  }
-                  document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
-                  document.querySelector('.app-nav').style.display = "block";
-                }
-                // console.warn('The ' + mutation.attributeName + ' attribute was modified.');
-              }
-            }
-          };
 
-          // 创建一个观察器实例并传入回调函数
-          const observer = new MutationObserver(callback);
-          // 以上述配置开始观察目标节点
-          try {
-            //异常的抛出
-            observer.observe(targetNode, config);
-          } catch(e) {
-            //异常的捕获与处理
-          } finally {
-           //结束处理
-          }
-          
-          // 之后，可停止观察
-          //observer.disconnect();
-          document.getElementsByClassName("flisxm")[0].addEventListener("click", function () {
+        // 点击目录按钮，打开右侧目录
+          document.querySelector(".toc-toggle").addEventListener("click", function (e) {
+            // 判断是否已打开目录
+            var _hasToc = document.querySelector(".toc-nav").classList.contains("toc-nav-hover");
+
+            // 打开目录
+            document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", !_hasToc);
+
+            // 打开遮罩层
+            toggleMaskLayer(!_hasToc);
+          });
+        // 点击遮罩层，关闭右侧目录
+          document.querySelector(".flisxm").addEventListener("click", function (e) {
+            // 关闭目录
             document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", false);
-          // 监听事件
-        
+            
+            // 关闭遮罩层
+            toggleMaskLayer(false);
           });
-          
-          document.getElementsByClassName("toc-toggle")[0].addEventListener("click", function () {
-            console.log(document.querySelector(".toc-nav-hover"))
-            document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", true);
-          });
-          
+        // 切换遮罩层
+          toggleMaskLayer = function(isTrue) {
+            document.querySelector(".flisxm").classList.toggle("flisxm-show", isTrue);
+
+            // 切换 body 页面滚动条操作
+            document.querySelector('body').classList.toggle('toc-body', isTrue);
+
+            // 显示/隐藏顶部导航栏
+            document.querySelector('.app-nav').style.display = isTrue ? "none" : "block";
+          }
+
+      // 手机端可用 --end
         }, 1);
       });
-      console.groupEnd("结束调试 Table of Contents");
     },
   )
   window.$docsify.toc = {
     tocMaxLevel: 5,
-    target: 'h1, h2, h3, h4, h5, h6'
+    target: 'h2, h3, h4, h5, h6'
   }
 </script>
-<script src="_assets/libs/docsify-plugin-toc.js"></script>
 
 <!-- 返回顶部 -->
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/js/back2top.js"></script>
 
-<!-- CDN unpkg -->
-<!-- ----------------------------------------------------------------- -->
 <script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script>
+
+<!-- 语法高亮 -->
 <script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-powershell.min.js"></script>
-<script>
-  // 全文搜索
-  window.$docsify.search = {
-    paths: 'auto',
-    placeholder: {
-      '/zh-cn/': '搜索',
-      '/': 'Type to search'
-    },
-    noData: {
-      '/zh-cn/': '🙄 找不到结果',
-      '/': '🤷🤦😱🙀🤔🙄 No Results'
-    },
-    // Headline depth, 1 - 6
-    depth: 6,
-    maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-  }
-</script>
-<script src="//unpkg.com/docsify@latest/lib/plugins/search.min.js"></script><!--全文搜索-->
-<script src="//unpkg.com/docsify@latest/lib/plugins/zoom-image.min.js"></script><!--图片缩放-->
+<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
+
+<!-- 全文搜索 -->
+<script src="//unpkg.com/docsify@latest/lib/plugins/search.min.js"></script>
+
+<!-- 图片缩放 -->
+<script src="//unpkg.com/docsify@latest/lib/plugins/zoom-image.min.js"></script>
 
 <!-- docsify-tabs (latest v1.x.x) -->
 <script src="//unpkg.com/docsify-tabs@latest/dist/docsify-tabs.min.js"></script>
 
 <!-- countable -->
-<script>
-  window.$docsify.count = {
-    countable: true,
-    fontsize: '0.9em',
-    color: 'rgb(90,90,90)',
-    language: 'chinese'
-  }
-</script>
 <script src="//unpkg.com/docsify-count@latest/dist/countable.min.js"></script>
 
 <!-- ionicons -->
@@ -449,73 +492,24 @@ window.$docsify.plugins.push(
 <script nomodule src="//unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
 
 <!-- Latest -->
-<script src="//unpkg.com/docsify-plugin-flexible-alerts"></script>
+<script src="//unpkg.com/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
 <!-- 引入组件库 -->
-<script src="//fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+<script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
 <script src="//unpkg.com/element-ui/lib/index.js"></script>
 
 <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
 
+<!-- Copy code -->
 <script src="_assets/libs/docsify-copy-code.js"></script>
 
 <script src="_assets/js/docsify-code-text-wrap.js"></script>
 
 <!-- LaTeX display engine -->
-<script src="//fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer async="true"></script>
-<!--  docsify-latex plugin -->
-<script src="//fastly.jsdelivr.net/npm/docsify-latex@0"></script>
+<script src="//unpkg.com/mathjax@3/es5/tex-mml-chtml.js" defer async="true"></script>
+<!-- docsify-latex plugin -->
+<script src="//unpkg.com/docsify-latex@0/dist/docsify-latex.min.js"></script>
 
-<script type="module">
-  import mermaid from "//fastly.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
-  mermaid.initialize({ startOnLoad: true });
-  window.mermaid = mermaid;
-</script>
-<script src="//unpkg.com/docsify-mermaid@2.0.0/dist/docsify-mermaid.js"></script>
-
-<!-- 手机端网页调试 -->
-<!--<script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
-<script>
-  eruda.init();
-  // eruda.position({x: 20, y: 20});
-</script>-->
-
-<script>
-window.$docsify.plugins.push(
-  // 手机端顶部导航栏 :hover 触控处理
-  function(hook, vm) {
-    hook.doneEach(function() {
-      
-      var ele = document.querySelector("nav.app-nav");
-      
-      setTimeout(function() {
-        // console.log(window.getComputedStyle(ele).pointerEvents)
-        // console.log(window.getComputedStyle(ele).width)
-        if (window.getComputedStyle(ele).opacity == 1) {
-          document.querySelectorAll("nav.app-nav li").forEach(function(e) {
-            e.style.pointerEvents = "auto";
-          })
-        }
-      }, 100)
-      
-      document.querySelector("body").addEventListener("click", function(e) {
-        // e.preventDefault()
-        if (window.getComputedStyle(ele).opacity == 1) {
-          document.querySelectorAll("nav.app-nav li").forEach(function(e) {
-            e.style.pointerEvents = "auto";
-          })
-        } else {
-          document.querySelectorAll("nav.app-nav li").forEach(function(e) {
-            e.style.pointerEvents = "none";
-          })
-        }
-        // console.log(e, this)
-      }, true)
-      
-    })
-  }
-)
-</script>
 <!-- SweetAlert2 -->
 <style>
   .swal2-html-container {
@@ -526,7 +520,7 @@ window.$docsify.plugins.push(
     box-shadow: none!important;
   }
 </style>
-<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="//unpkg.com/sweetalert2@11/dist/sweetalert2.all.js"></script>
 <script>
 function sweetalert2(_filename = 'content/_portal.md') {
   var html;
@@ -541,16 +535,18 @@ function sweetalert2(_filename = 'content/_portal.md') {
     })
   })
 }
-
 function sweetalert2Iframe(_url = "snippets/") {
   Swal.fire({
     showConfirmButton: false,
     showCloseButton: true,
     focusConfirm: false,
-    html: '<iframe src="/snippets.html#/' + _url + '" frameborder="0" style="height: calc( 100vh / 1.2 );"></iframe>',
+    html: '<iframe src="snippets.html#/' + _url + '" frameborder="0" style="width: 100%;height: calc( 100vh / 1.2 );"></iframe>',
   })
 }
 </script>
+
+<script src="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.js"></script>
+<script src="//unpkg.com/prismjs/plugins/treeview/prism-treeview.js"></script>
 
 </body>
 </html>

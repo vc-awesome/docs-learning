@@ -5,23 +5,36 @@
 
 > <img src="https://f-droid.org/repo/com.looker.droidify/en-US/icon_lApsnfhrMqGkCaW-IdnYwx86CUjdTutncPvXPJythaM=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> Material-ify with Droid-ify. A quick material F-Droid client.
 
+------
+
 https://f-droid.org/packages/com.looker.droidify/ - *Droid-ify | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/Iamlooker/Droid-ify - *GitHub - Iamlooker/Droid-ify: F-Droid client with Material UI.*
+
 
 ## 应用管理
 
 ### App Manager
 
+> <img src="https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/icon_Jc_KAiIUxfeHFgZFDxqLREjmodCzjXpuT8I-W_wGTew=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> A full-featured open source package manager for android.
+
+------
+
+https://f-droid.org/packages/io.github.muntashirakon.AppManager/ - *App Manager - Android package manager | F-Droid - Free and Open Source Android App Repository*
+
 https://github.com/MuntashirAkon/AppManager - *GitHub - MuntashirAkon/AppManager: A full-featured package manager and viewer for Android*
+
 
 ## 文件管理
 
 ### 质感文件（Material Files）
 
-> 开源的 Material Design 文件管理器
+> <img src="https://f-droid.org/repo/me.zhanghai.android.files/en-US/icon_BFY8kIAZkrB0kKwXt1uVDgghMociormUlcOIedEh2mA=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 开源的 Material Design 文件管理器
+
+------
 
 支持的平台：Android
+
 
 https://f-droid.org/en/packages/me.zhanghai.android.files/ - *Material Files | F-Droid - Free and Open Source Android App Repository*
 
@@ -48,6 +61,7 @@ https://github.com/zhanghai/MaterialFiles - *GitHub - zhanghai/MaterialFiles: Ma
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
 ![GitHub last commit](https://badgen.net/github/last-commit/gsantner/markor?icon=github&color=blue)
 
+------
 
 支持的平台：
 <i class="fa fa-android"></i>
@@ -72,28 +86,71 @@ https://f-droid.org/zh_Hans/packages/net.gsantner.markor/ - *Markor | F-Droid - 
 6. 关闭滑动以更改模式
     - *设置 > 查看模式 > 滑动以更改模式*
 7. 查看模式
-    1. 在“查看模式”，\<a> 标签内的文本内容不自动换行，导致查看完整页面需要左右滑动的处理方式如下：
+    1. 在“查看模式”下，`<a></a>` 标签内的文本内容不自动换行，导致查看完整页面需要左右滑动的处理方式如下：
         - *设置 > 查看模式 > （Inject）Inject -> Head*
         
-        在 \<style>\</style> 标签内添加样式 ↓
+        在 `<style></style>` 标签内添加样式 ↓
 
         ```css
-          a {
-            word-break: break-word!important;
-            word-wrap: break-word!important;
+          a, em, u {
+            word-break: break-word;
+            word-wrap: break-word;
           }
         ```
-
+        
+    2. 在“查看模式”下，设置 `<code></code>` 标签内容的样式：
+        - *设置 > 查看模式 > （Inject）Inject -> Head*
+        
+        
+        在 `<style></style>` 标签内添加样式 ↓
+        
+        ```css
+          code {
+            padding: 0.2em 0.4em;
+            margin: 0;
+            font-size: 85%;
+            white-space: break-spaces;
+            word-wrap: break-word;
+            background-color: rgba(175,184,193,.2);
+            border-radius: 6px;
+          }
+        ```
+        参考：https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites （在网页浏览器的“手机模式”下，查看效果更佳。）
+        
+    3. 在“查看模式”下，设置 `<kbd></kbd>` 标签内容的样式：
+        - *设置 > 查看模式 > （Inject）Inject -> Head*
+        
+        
+        在 `<style></style>` 标签内添加样式 ↓
+        
+        ```css
+          kbd {
+            border: solid 1px #ccc;
+            border-radius: 3px;
+            display: inline-block;
+            font-size: 12px !important;
+            line-height: 12px;
+            margin-bottom: 3px;
+            padding: 3px 5px;
+            vertical-align: middle;
+            color: #1F2328;
+            background-color: #f6f8fa;
+            box-shadow: inset 0 -1px 0 rgba(175,184,193,0.2);
+          }
+        ```
 ----
+
 https://github.com/gsantner/markor/discussions/1381 - *Filemanager & sync client support (cannot open file from other app) · gsantner/markor · Discussion #1381 · GitHub*
 
 
 ### Acode
 
-> Acode - powerful text/code editor for android
+> <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> Acode - powerful text/code editor for android
 
 ![f-droid](https://badgen.net/f-droid/v/com.foxdebug.acode)
 ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/Acode?color=blue&logo=github&style=flat-square)
+
+------
 
 https://github.com/deadlyjack/Acode - *GitHub - deadlyjack/Acode: Acode - powerful text/code editor for android*
 
@@ -118,11 +175,13 @@ https://f-droid.org/zh_Hans/packages/com.foxdebug.acode/ - *Acode | F-Droid - Fr
 
 ### personalDNSfilter
 
-> 使用 Blocklist 在本地的 VPN 上基于 DNS 请求的主机阻止程序
+> <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 使用 Blocklist 在本地的 VPN 上基于 DNS 请求的主机阻止程序
 
 ![GitHub last commit](https://badgen.net/github/last-commit/IngoZenz/personaldnsfilter?icon=github&color=blue)
 ![f-droid](https://badgen.net/f-droid/v/dnsfilter.android)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Ddnsfilter.android%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+------
 
 支持的平台：
 <i class="fa fa-windows"></i>
@@ -181,7 +240,7 @@ Website:
     >www.baidu.com 127.0.0.1
     ```
 - 备份和还原
-    
+  
     > 3 个文件
     
     备份文件存放位置：_/storage/emulated/0/Android/data/dnsfilter.android/files/PersonalDNSFilter/backup/_ ⇒ 需要使用手机系统自带的文件管理工具打开，因为第三方文件管理工具没有 Root 权限，无法进入到文件所在位置。
@@ -205,7 +264,7 @@ FAQ
 
 ### Daedalus
 
-> No root required Android DNS modifier and Hosts/DNSMasq resolver.
+> <img src="https://f-droid.org/repo/org.itxtech.daedalus/en-US/icon_UtsgiYdLW68Yu96y5Xjwgn-YYZ7KQ5WPxD2DQ_E6eyg=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> No root required Android DNS modifier and Hosts/DNSMasq resolver.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/iTXTech/Daedalus?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/iTXTech/Daedalus?logo=github)
@@ -214,6 +273,9 @@ FAQ
 ![F-Droid](https://badgen.net/f-droid/v/org.itxtech.daedalus?icon=f-droid)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.itxtech.daedalus%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
+------
+
+https://f-droid.org/packages/org.itxtech.daedalus/ - *Daedalus | F-Droid - Free and Open Source Android App Repository*
 
 <i class="fa fa-laptop"></i> https://itxtech.org/
 
@@ -226,7 +288,9 @@ FAQ
 
 ### AdAway
 
-> 一款面向安卓设备的自由和开源的广告拦截应用。
+> <img src="https://f-droid.org/repo/org.adaway/en-US/icon_tKwcVT8aMbx2qao_fv-a4V5Epua_g0FOYWilovP7yjk=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 一款面向安卓设备的自由和开源的广告拦截应用。
+
+------
 
 https://f-droid.org/packages/org.adaway/ - *AdAway | F-Droid - Free and Open Source Android App Repository*
 
@@ -282,14 +346,22 @@ https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.nononsenseapps.feeder%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 ![GitLab Release (by release name)](https://img.shields.io/gitlab/v/release/spacecowboy/Feeder?include_prereleases&logo=gitlab)
 
+------
+
 支持的平台：
 <i class="fa fa-android"></i>
 
-https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/
+https://f-droid.org/zh_Hans/packages/com.nononsenseapps.feeder/ - *Feeder | F-Droid - Free and Open Source Android App Repository*
 
-https://gitlab.com/spacecowboy/Feeder
+https://gitlab.com/spacecowboy/Feeder - *Space Cowboy / Feeder · GitLab*
 
 ### Read You
+
+> <img src="https://f-droid.org/repo/me.ash.reader/zh-CN/icon_Bq9nQb_UzmI1DBSluSA8Q-d5tFo9dQWmyIyt69onHfo=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 一个以 Material You 风格呈现的 RSS 阅读器
+
+------
+
+https://f-droid.org/packages/me.ash.reader/ - *Read You | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS reader presented in Material You style.*
 
@@ -299,6 +371,8 @@ https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS r
 
 ![f-droid](https://badgen.net/f-droid/v/ru.tech.imageresizershrinker)
 ![GitHub last commit](https://img.shields.io/github/last-commit/T8RIN/ImageResizer?color=blue&logo=github&style=flat-square)
+
+------
 
 https://github.com/T8RIN/ImageResizer - *GitHub - T8RIN/ImageResizer: Powerful image resizer with width/height selection, cropping, EXIF editing, quality and output image type picking and batch processing feature.*
 
@@ -315,6 +389,10 @@ https://f-droid.org/packages/ru.tech.imageresizershrinker/ - *Image Resizer | F-
 ## 硬件检测
 
 ### CPU Info
+
+> <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 查看有关设备硬件和软件的信息
+
+------
 
 https://github.com/kamgurgul/cpu-info - *GitHub - kamgurgul/cpu-info: CPU Info provides information about device hardware and software*
 

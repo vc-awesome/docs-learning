@@ -33,7 +33,49 @@ https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bo
 
 ### 标签
 
-header 元素
+#### 块元素
+
+```html
+<div></div>
+<h1></h1>
+<p></p>
+<ul></ul>
+<ol></ol>
+<li></li>
+<table></table>
+```
+
+
+#### 内联元素
+
+```html
+<span></span>
+<b></b>
+<td></td>
+<a></a>
+<img>
+```
+
+
+#### 内联文本元素
+
+```html
+<mark></mark>
+<del></del>
+<ins></ins>
+<u></u>
+<small></small>
+<strong></strong>
+<em></em>
+<pre></pre>
+<code></code>
+<kbd></kbd>
+<q></q>
+<abbr></abbr>
+```
+
+
+### \<head>
 
 https://www.runoob.com/html/html-head.html - *HTML 头部 | 菜鸟教程*
 
@@ -83,56 +125,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/link - *<link>：外�
 
 https://mp.weixin.qq.com/s/KXpawK0d6ypnyrEDfNCaiQ - *type="module" 你了解，但 type="importmap" 你知道吗*
 
-块元素
-
-```html
-<div></div>
-<h1></h1>
-<p></p>
-<ul></ul>
-<ol></ol>
-<li></li>
-<table></table>
-```
-
-
-
-内联元素
-
-```html
-<span></span>
-<b></b>
-<td></td>
-<a></a>
-<img>
-```
-
-
-
-内联文本元素
-
-```html
-<mark></mark>
-<del></del>
-<ins></ins>
-<u></u>
-<small></small>
-<strong></strong>
-<em></em>
-<code></code>
-<kbd></kbd>
-```
-
-
-
-样式/节
-
-```html
-<!--标签定义了文档的某个区域。比如章节、头部、底部或者文档的其他区域。-->
-<section></section>
-```
-
-#### \<iframe>
+### \<iframe>
 
 https://www.runoob.com/html/html-iframes.html - *HTML 框架 | 菜鸟教程*
 
@@ -140,6 +133,7 @@ Question：
 
 - 跨域
 
+### \<form>
 
 #### \<fieldset>
 
@@ -154,7 +148,6 @@ https://www.runoob.com/tags/tag-fieldset.html - *HTML \<fieldset> 标签 | 菜�
 </fieldset>
 ```
 
-
 #### \<output>
 
 https://www.runoob.com/tags/tag-output.html - *HTML \<output> 标签 | 菜鸟教程*
@@ -166,6 +159,32 @@ https://www.runoob.com/tags/tag-output.html - *HTML \<output> 标签 | 菜鸟教
 
 </output>
 ```
+
+### \<img>
+
+#### \<figcaption>
+
+https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | 菜鸟教程*
+
+实例：
+
+<figure>
+    <img src="https://www.markdownguide.org/assets/images/albuquerque.jpg"
+         alt="Albuquerque, New Mexico">
+    <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
+</figure>
+实例参考：https://www.markdownguide.org/hacks/#image-captions - *Hacks | Markdown Guide*
+
+### \<time>
+
+https://www.runoob.com/tags/tag-time.html - *HTML <time> 标签 | 菜鸟教程*
+
+用法：
+
+```html
+<time datetime="2023-06-08T18:24:16+00:00">08 Jun 2023</time>
+```
+
 
 
 ### 属性
@@ -184,25 +203,27 @@ https://developer.mozilla.org/zh-CN/docs/Learn/HTML/Howto/Use_data_attributes - 
 <!--侧边栏-->
 <aside class="menu"></aside>
 
+<!--导航栏-->
+<nav class="navbar"></nav>
+
 <!--内容-->
 <div class="container"></div>
 <div class="content"></div>
-<section></section>
+<section></section><!--标签定义了文档的某个区域。比如章节、头部、底部或者文档的其他区域。-->
 <main></main>
+<article></article>
 
 <!--尾部-->
 <footer class="footer"></footer>
 ```
 
 
-
 ## html 页面
 
 ### 404 页面
 
-参考页面：
+参考页面：https://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip - *Not Found*
 
-- https://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip
 
 ### 引导页面
 

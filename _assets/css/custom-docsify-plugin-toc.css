@@ -3,9 +3,10 @@
  * @url //unpkg.com/docsify-plugin-toc/
  */
 aside.toc-nav {
-  bottom: 70px;
+  /*bottom: 70px;*/
+  bottom: 15px;
   max-height: 100%;
-  border-left: 1px solid rgba(0,0,0,0.07)
+  /*border-left: 1px solid rgba(0,0,0,.07)*/
 }
 /* 右侧目录选中项目显示 `{` 标识 via https://code.visualstudio.com/docs#keyboard-shortcuts （电脑模式打开） */
 .page_toc div {
@@ -17,7 +18,8 @@ aside.toc-nav {
   line-height: 1em;
 }
 .page_toc div[class^="lv"] a:before {
-  content: "{";
+  /*content: "{";*/
+  content: "|";
   color: #bbb;
   position: absolute;
   font-size: 16px;
@@ -73,11 +75,20 @@ aside.toc-nav {
   }*/
   /* TOC 无过渡效果 -end */
   /* TOC 过渡效果 -start */
-  aside.toc-nav {
+  aside.toc-nav
+  ,.flisxm-show {
     display: block;
-    transition-delay: 0s;
-    transition-duration: 0.4s;
-    transition-timing-function: ease-in-out;
+    -webkit-transition-delay: 0s;
+         -o-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    -webkit-transition-timing-function: ease-in-out;
+         -o-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+    -webkit-transition-property: right;
+    -o-transition-property: right;
     transition-property: right;
   }
   aside.toc-nav {
@@ -89,7 +100,7 @@ aside.toc-nav {
     display: block!important;
     max-width: inherit!important;
     opacity: 1!important;
-    border: 1px solid rgb(180 180 180 / 30%);
+    /*border: 1px solid rgb(180 180 180 / 30%);*/
   }
   /* TOC 过渡效果 -end */
   
@@ -220,6 +231,8 @@ aside.toc-nav {
   left: 0;
   position: relative!important;
   top: 0;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
   vertical-align: top;
   width: 100%;
@@ -235,7 +248,9 @@ aside.toc-nav {
 }
 .toc-toggle.toggle-arrow .toggle-line-first {
   top: 2px;
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
   width: 50%;
 }
 .toc-toggle.toggle-arrow .toggle-line-middle {
@@ -243,18 +258,24 @@ aside.toc-nav {
 }
 .toc-toggle.toggle-arrow .toggle-line-last {
   top: -2px;
-  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
   width: 50%;
 }
 .toc-toggle.toggle-close .toggle-line-first {
   top: 5px;
-  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
 .toc-toggle.toggle-close .toggle-line-middle {
   opacity: 0;
 }
 .toc-toggle.toggle-close .toggle-line-last {
   top: -5px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
   transform: rotate(45deg);
   width: 100%;
 }
@@ -282,6 +303,9 @@ aside.toc-nav {
 }
 .flisxm-show {
   display: block;
+  animation-name: fade-in;
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out;
 }
 .toc-sidebar-toggle {
   background: #fff;
@@ -295,4 +319,22 @@ aside.toc-nav {
 }
 .toc-sidebar-toggle {
   width: 28px;
+}
+/* 滚动条样式 start */
+.toc-nav::-webkit-scrollbar {
+  width: 4px;
+}
+.toc-nav::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+.toc-nav:hover::-webkit-scrollbar-thumb {
+  background: rgba(136,136,136,0.4);
+}
+.toc-nav:hover::-webkit-scrollbar-track {
+  background: rgba(136,136,136,0.1);
+}
+/* 滚动条样式 end */
+.no-right-toc section.content {
+  padding-right: 0!important;
 }

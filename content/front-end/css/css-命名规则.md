@@ -2645,7 +2645,7 @@ Categories	类别
 Series	系列
 
 
-## FAQ
+## 常见问题
 
 ### 垂直居中
 
@@ -2796,7 +2796,9 @@ https://www.cnblogs.com/hcxwd/p/9232936.html - *css3 placeholder字体颜色大�
 ### 头像上移样式
 
 ```css
-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
 ```
 
 使用前：
@@ -2851,14 +2853,29 @@ transform: translateY(-50%);
 
 5. https://zhuanlan.zhihu.com/p/222584304 - *uni-app div蒙版，如何禁止蒙版下的页面滚动？ - DCloud问答*
 
+### 设置滚动条样式
 
-### 滚动条样式
+```css
+/* 滚动条样式 start */
+.toc-nav::-webkit-scrollbar {
+  width: 4px;
+  /*height: 4px;*/
+}
+.toc-nav::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 4px;
+}
+.toc-nav:hover::-webkit-scrollbar-thumb {
+  background: rgba(136,136,136,0.4);
+}
+.toc-nav:hover::-webkit-scrollbar-track {
+  background: rgba(136,136,136,0.1);
+}
+/* 滚动条样式 end */
+```
 
-https://www.cnblogs.com/moqiutao/p/4783526.html - *CSS之设置滚动条样式*
+参考：https://www.cnblogs.com/moqiutao/p/4783526.html - *CSS之设置滚动条样式*
 
-
-### 元素高度计算 calc
-
-> 元素高度计算函数
+### 动态计算元素长度值 calc
 
 https://www.runoob.com/cssref/func-calc.html - *CSS calc() 函数 | 菜鸟教程*

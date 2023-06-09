@@ -48,16 +48,16 @@
     - Windows 系统有绿色免安装版
 
     - 有关详细信息，请参阅“[Sublime Text](os/tools/sublime-text.md)”。
- 
+
 2. ✅ [Notepad++](https://notepad-plus-plus.org ':id=notepad++') - *Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and Notepad replacement that supports several languages.*
 
     - 支持 Windows
         <details><summary><i style="color:red">SEE MORE >></i></summary>
 
         - 主页：https://notepad-plus-plus.org
-       
+         
         - GitHub：https://github.com/notepad-plus-plus/notepad-plus-plus/
-    </details>
+        </details>
 
 3. ~~[Atom](https://github.com/atom/atom) - *github专门为程序员推出的一个跨平台文本编辑器*~~
 
@@ -268,7 +268,7 @@
 
 1. https://dprint.dev/ - *dprint - Code Formatter*
 
-#### Json 工具 
+#### JSON 工具 
 
 1. [JSON Hero](https://github.com/jsonhero-io/jsonhero-web) - _JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀_
 
@@ -346,13 +346,13 @@ https://www.bilibili.com/read/cv9664325/ - *那些眼花缭乱……的写作软
     <details><summary><i style="color:red">SEE MORE >></i></summary>
 
         - Website：http://typora.io/
-
+        
         - Website：https://typoraio.cn/ - *Typora 官方中文站*
-
+        
         - GitHub：https://github.com/typora
-
+        
         - Theme：https://theme.typora.io/
-
+        
         - Docs：https://support.typora.io/
     </details>
 
@@ -391,12 +391,13 @@ https://www.bilibili.com/read/cv9664325/ - *那些眼花缭乱……的写作软
 
 1. ✅ [雷电模拟器](https://www.ldmnq.com/) - *「雷电安卓模拟器」手游模拟器安卓版-android手机模拟器电脑版*
     - 支持 Windows
-   
+     
     <details><summary><i style="color:red">SEE MORE >></i></summary>
    
         https://www.cnblogs.com/ljy-/p/12144964.html - *雷电模拟器配置软键盘弹出*
-   </details>
-
+   
+    </details>
+    
 2. [逍遥模拟器]()
 
 3. [夜神模拟器]()
@@ -565,7 +566,7 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
      https://jingyan.baidu.com/article/da1091fbee2d3a427949d60f.html - *调整图层大小*
    
     操作 > 选中图层 > 快捷键 <kbd>ctrl</kbd> + <kbd>t</kbd>
-</details>
+   </details>
 
 1. [PxCook](https://www.fancynode.com.cn/pxcook) - *PxCook - 高效易用的自动标注工具,生成前端代码,设计研发协作利器*
     - 支持 Windows, macOS
@@ -628,7 +629,7 @@ https://post.smzdm.com/p/avx87xop/ - *用的最爽的Windows软件，每一个�
         - [TCPView v4.17 - Tcpview.exe](https://docs.microsoft.com/zh-cn/sysinternals/downloads/tcpview) - *适用于Windows的 TCPView - Windows Sysinternals | Microsoft Docs*
 
         - [进程资源管理器 - procexp.exe](https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer) - *进程资源管理器 - Windows Sysinternals | Microsoft Docs*
-    </details>
+         </details>
 
 3. [Mem Reduct](https://www.henrypp.org/product/memreduct) - *Lightweight real-time memory management application to monitor and clean system memory on your computer.*
 
@@ -915,9 +916,9 @@ https://www.v1tx.com/post/best-email-client/ - *10款好用的邮件客户端推
       <summary><i style="color:red">SEE MORE >></i></summary>
 
         https://service.mail.qq.com/ - *帮助系统*
-        
+      
         [小米“电子邮件”](http://app.xiaomi.com/detail/503786) 👉 *打开应用 > 请选择邮箱服务“QQ邮箱” > 教程：“QQ邮箱如何获取授权码？”*
-    </details>
+      </details>
 
 ## 社交工具
 
@@ -944,15 +945,15 @@ https://www.v1tx.com/post/best-email-client/ - *10款好用的邮件客户端推
             2. https://zhuanlan.zhihu.com/p/510060452 - *开源去中心化的社交平台Mastodon*
         
         - Mastodon 实例（服务器）：
-            
+          
            https://github.com/TheKinrar/instances - *GitHub - TheKinrar/instances: Mastodon instances list*
             1. https://mastodon.social/ - *The original server operated by the Mastodon gGmbH non-profit*
             2. https://fosstodon.org/ - *Fosstodon is an English speaking Mastodon instance that is open to anyone who is interested in technology; particularly free &amp; open source software.*
 
         - Mastodon 应用：
-            
+          
             https://joinmastodon.org/zh/apps - *获取 Mastodon 应用 - Mastodon*
-    </details>
+      </details>
 
 
 

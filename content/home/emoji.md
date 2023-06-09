@@ -1,23 +1,21 @@
+## Introduction
+
 ?> Emoji 是来自 UTF-8 字符集的字符: 😄 😍 💗。
 表情符号（英语：emoji，日语：絵文字／えもじ emoji），是使用在网页和聊天中的形意符号，最初是日本在无线通信中所使用的视觉情感符号（图画文字）。表情意指面部表情，图标则是图形标志的意思，可用来代表多种表情，如笑脸表示笑、蛋糕表示食物等。 Emoji 看起来像一张图片或图标，其实不是。
 `Emoji` 实际上是 UTF-8 (Unicode) 字符集上的字符。
 UTF-8 几乎涵盖了世界上所有的字符和符号。
 
-
-
 ## Link
 
-https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
+- https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
 
-https://www.cnblogs.com/takeurhand/p/6940135.html - *github emoji 表情列表 - CaiYongji - 博客园*
+- https://www.cnblogs.com/takeurhand/p/6940135.html - *github emoji 表情列表 - CaiYongji - 博客园*
 
-https://gitmoji.dev/ - *gitmoji | An emoji guide for your commit messages*
-![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)  
+- https://gitmoji.dev/ - *gitmoji | An emoji guide for your commit messages*
+  ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)  
 
-
-[<i class="fa fa-github"></i> GitHub](tools/github.md)
-
-[<i class="icon octicon-file markdown-icon"></i>Markdown](tools/markdown#emoji-表情 "Markdown")
+- [<i class="fa fa-github"></i> GitHub](os/tools/github.md)
+- [<i class="icon octicon-file markdown-icon"></i>Markdown](os/tools/markdown#emoji-表情 "Markdown")
 
 ## Frequent use
 
@@ -76,4 +74,4 @@ _> 参考 `GitHub` 的项目 `README.md`_
 | `:inbox_tray:` | :inbox_tray: | [Inbox Tray](https://emojipedia.org/inbox-tray/) | 📥 | 下载 |
 | `:outbox_tray:` | :outbox_tray: | [Outbox Tray](https://emojipedia.org/outbox-tray/) | 📤 | 上传 |
 | `:ladder:` | :ladder: | [Ladder](https://emojipedia.org/ladder/) | 🪜 | 梯子 |
-| `:octocat:` | :octocat: | [GitHub系列](https://emojipedia.org/github/) |  | GitHub |
+| `:octocat:` | :octocat: | [GitHub系列](https://emojipedia.org/github/) | N/A | GitHub |

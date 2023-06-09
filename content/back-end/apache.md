@@ -2,11 +2,11 @@
 
 GitHub: https://github.com/apache/httpd - *Mirror of Apache HTTP Server.*
 
-Website: https://httpd.apache.org/
+Website: https://httpd.apache.org/ - *Welcome! - The Apache HTTP Server Project*
 
 ## 安装
 
-### MacOS
+### macOS
 
 系统自带
 
