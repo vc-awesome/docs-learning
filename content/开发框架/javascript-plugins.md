@@ -1,12 +1,14 @@
+## 网上搜索
+
 https://builtwith.com/top-sites - *BuiltWith Top Ranked Sites*
+
 - https://trends.builtwith.com/media/VideoJS - *VideoJS Usage Statistics*
 
 ## 剪贴板
 
 ### Clipboard.js
 
-?>
-✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋
+> ✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋
 
 ![](https://flat.badgen.net/github/last-commit/zenorocha/clipboard.js?icon=github&color=blue)
 
@@ -20,9 +22,11 @@ BootCDN：https://www.bootcdn.cn/clipboard.js/
 
 ### vue-clipboard2
 
-?> A simple vue2 binding to clipboard.js
+> A simple vue2 binding to clipboard.js
 
 ![](https://flat.badgen.net/github/last-commit/Inndy/vue-clipboard2?icon=github&color=blue)
+
+----
 
 GitHub：https://github.com/Inndy/vue-clipboard2
 
@@ -35,10 +39,11 @@ FAQ：
 
 ## Bignumber.js
 
-?>
-A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic
+> A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic
 
 ![](https://flat.badgen.net/github/last-commit/MikeMcl/bignumber.js?icon=github&color=blue)
+
+----
 
 Website：https://mikemcl.github.io/bignumber.js/
 
@@ -84,18 +89,17 @@ GitHub：https://github.com/liriliri/eruda - _Console for mobile browsers_
 
 GitHub：https://github.com/vinta/pangu.js - _Paranoid text spacing in JavaScript_
 
+## Animate
 
-## Gsap.js
+### Gsap.js
 
 https://github.com/greensock/GSAP :uk: - *GreenSock's GSAP JavaScript animation library (including Draggable).*
 
-
-## Smooth-scroll.polyfills.js
+### Smooth-scroll.polyfills.js
 
 https://github.com/cferdinandi/smooth-scroll :uk: - *A lightweight script to animate scrolling to anchor links.*
 
-
-## Wow.js
+### Wow.js
 
 > 网页滚动时的动画效果
 
@@ -155,8 +159,10 @@ http://www.itfanr.cc/
 
 ### Anime.js
 
-https://github.com/juliangarnier/anime/ :uk: - *JavaScript animation engine*
+> *Anime.js* (`/ˈæn.ə.meɪ/`) is a lightweight JavaScript animation library with a simple, yet powerful API.
+> It works with CSS properties, SVG, DOM attributes and JavaScript Objects.
 
+https://github.com/juliangarnier/anime/ :uk: - *JavaScript animation engine*
 
 ### Fancybox.js
 
@@ -171,11 +177,6 @@ https://github.com/julianshapiro/velocity :uk: - *Accelerated JavaScript animati
 ### Lozad.js
 
 https://github.com/ApoorvSaxena/lozad.js :uk: - *🔥 Highly performant, light ~1kb and configurable lazy loader in pure JS with no dependencies for responsive images, iframes and more*
-
-
-### Dplayer.js
-
-https://github.com/DIYgod/DPlayer :cn: :uk: - *🍭 Wow, such a lovely HTML5 danmaku video player*
 
 
 ## <span style="color: red">via  _Starl_</span>
@@ -200,7 +201,9 @@ https://github.com/sampotts/plyr :uk: - *A simple HTML5, YouTube and Vimeo playe
 
 https://github.com/videojs/video.js - *GitHub - videojs/video.js: Video.js - open source HTML5 video player*
 
-### DPlayer
+### DPlayer.js
+
+> 🍭 Wow, such a lovely HTML5 danmaku video player
 
 https://github.com/DIYgod/DPlayer - *GitHub - DIYgod/DPlayer: Wow, such a lovely HTML5 danmaku video player*
 

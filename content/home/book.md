@@ -34,6 +34,8 @@ https://github.com/justjavac/free-programming-books-zh_CN - *免费的编程中�
 
 ### MDN Web Docs
 
+> **MDN Web Docs**（旧称Mozilla Developer Network、Mozilla Developer Center，简称MDN）是一个汇集众多Mozilla基金会产品和网络技术开发文档的**免费网站**。
+
 https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
 

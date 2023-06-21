@@ -33,7 +33,7 @@
 
 5. 乐软博客
     1. https://www.isharepc.com/
-  
+
 
 
 ### GitHub Awesome
@@ -44,14 +44,13 @@
 
 #### macOS
 
-1. https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.*
+1. https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.* [中文文档](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 
 2. https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
 
 #### Android
 
 1. https://github.com/Psyhackological/AAA - *GitHub - Psyhackological/AAA: Awesome Android Apps - get the Android you deserve.*
-
 
 ### GitHub Topics
 

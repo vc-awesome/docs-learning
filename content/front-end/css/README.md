@@ -6,9 +6,37 @@
 1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
 2. https://www.runoob.com/css3/css3-tutorial.html - *CSS3 教程*
 
+### 盒模型
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model - *CSS 基础框盒模型介绍 - CSS：层叠样式表 | MDN*
+
+https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model - *盒模型 - 学习 Web 开发 | MDN*
+
 ### 选择器
 
 https://www.runoob.com/cssref/css-selectors.html - *CSS 选择器 | 菜鸟教程*
+
+- https://www.runoob.com/cssref/sel-not.html - *CSS3 :not 选择器 | 菜鸟教程*
+
+  ```css
+  :not(header a)[target=_blank]:after {
+    display: inline-block;
+    padding-left: 3px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f08e";
+    vertical-align: text-bottom;
+  }
+  ```
+
+  ```css
+  .markdown-section > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
+      font-size: 0.8rem;
+  }
+  ```
 
 ### 伪类
 
@@ -62,7 +90,7 @@ https://github.com/vace/css3-animation-generator - *chrome plugin css3 animation
 
 https://css3gen.com/wp-content/cache/all/css3-animation/index.html - *CSS3 Animation Generator - CSS3gen*
 
-### Search
+### 网搜
 
 - http://t.zoukankan.com/i7758-p-5226394.html - *11款CSS3动画工具的开发 - 走看看*
 - https://wanghi.cn/202003/24716.html - *值得你收藏的10个CSS3动画工具菜鸟教程网_动画小白攻略 - 王海*
@@ -177,5 +205,4 @@ https://mp.weixin.qq.com/s/YpMjQrFTYwwTQJcWAqKwRA - *CSS 中流与宽高之间�
 https://1linelayouts.glitch.me/ - *一行 CSS 布局* 🪜
 
 https://juejin.cn/post/6861501624993447950 - *CSS八种让人眼前一亮的HOVER效果 - 掘金*
-
 

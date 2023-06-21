@@ -3,7 +3,7 @@
   width: 1.28571429em;
 }
 nav img {
-  vertical-align: text-top;
+  vertical-align: text-bottom;
 }
 i[class^=ri] {
   vertical-align: bottom;
@@ -31,10 +31,10 @@ nav.app-nav {
   padding: 11px 0 11px 0;
   width: calc(100% - 300px);
   background-color: var(--docsify_dark_mode_bg, #fff);
-  /*border-bottom: 1px solid rgba(0,0,0,0.07);*/
-  /* rgba(0,0,0,0.07) == #eee */
-  border-bottom: 1px dotted rgb(180 180 180 / 30%);
-  box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;
+/*  border-bottom: 1px solid rgba(0,0,0,0.07);*/
+/*   rgba(0,0,0,0.07) == #eee */
+/*  border-bottom: 1px dotted rgb(180 180 180 / 30%);*/
+/*  box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;*/
 }
 nav.app-nav li:hover ul {
   z-index: 1;
@@ -87,7 +87,7 @@ nav i {
   width: 100%;
 }
 
-/*列表中间间隔线 -start*/
+/* 列表中间间隔线 -start */
 .app-nav>ul>li:after {
   content: '';
   background-color: rgba(180,180,180,.3);
@@ -100,14 +100,14 @@ nav i {
 .app-nav>ul>li:last-child:after {
   content: none;
 }
-/*列表中间间隔线 -end*
+/* 列表中间间隔线 -end */
 
 /* 滚动条样式 start */
-::-webkit-scrollbar { /* 滚动条宽度 */
+::-webkit-scrollbar {
   width: 4px;
   height: 4px;
 }
-::-webkit-scrollbar-thumb { /* 滚动条颜色 */
+::-webkit-scrollbar-thumb {
   /*background: #c0c4cc;
   background: #33a9dc;
   background-image: linear-gradient(#6ecd56, #33a9dc, #cb6196, #c16290);*/
@@ -165,7 +165,7 @@ hr {
 }
 
 /* 外链添加 FontIcon */
-a[target=_blank]:after {
+:not(header a)[target=_blank]:after {
   /*font-family: 'remixicon' !important; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\ecae";*/
   display: inline-block;
   padding-left: 3px;
@@ -177,9 +177,30 @@ a[target=_blank]:after {
   content: "\f08e";
   vertical-align: text-bottom;
 }
-a[href*=docs-learning]:after {
-  content: "";
+/* 代码 */
+/*@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://gstatic.loli.net/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2) format('woff2');
 }
+code:not([class*=lang-]):not([class*=language-]):after {
+  font: normal normal normal 24px/1 Material Icons;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  word-wrap: normal;
+  content: "content_copy";
+  font-size: inherit;
+  margin-block: 0;
+  margin-inline: 4px 0;
+  vertical-align: middle;
+  cursor: pointer;
+}*/
 /*
  * 代码块
  * @url _assets/libs/docsify-copy-code.js
@@ -194,6 +215,17 @@ a[href*=docs-learning]:after {
   word-wrap: break-word;
   word-break: break-all;
   opacity: 0.75;
+}
+.markdown-section code:not([class*=lang-]):not([class*=language-]):active {
+  background-color: hsla(220,14%,93%,1);
+  border-color: rgba(31,35,40,0.15);
+  transition: none;
+}
+.markdown-section code:not([class*=lang-]):not([class*=language-]):hover {
+  background-color: #f3f4f6;
+  border-color: rgba(31,35,40,0.15);
+  transition-duration: .1s;
+  text-decoration: none;
 }
 .content .markdown-section pre[data-lang] {
   position: relative;
@@ -244,5 +276,12 @@ em,
 u {
   /* 单词中断 */
   word-break: break-word!important;
+  word-break: break-all!important;
   word-wrap: break-word!important;
+}
+/* Table */
+.markdown-section td,
+.markdown-section th,
+.markdown-section td code {
+  white-space: nowrap!important;
 }

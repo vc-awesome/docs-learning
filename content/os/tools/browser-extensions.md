@@ -71,8 +71,35 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 2. [Copy Image URL](#copy-image-url)
 3. [拷贝猫](#copycat)
 
+## 开发扩展
+
+在 [Copy DOM Content | Chrome扩展 - Crx搜搜](https://www.crxsoso.com/webstore/detail/dmdbhcacalljmfmilnhmnhihdfoamdap) 源代码的基础上，开发了自己的第一个浏览器扩展程序。
+
+参考：
+
+1. https://www.5axxw.com/questions/content/cce8xc - *如何通过浏览器扩展获取页面主体标签的内容？ - 我爱学习网*
+
+----
+
+如何开发浏览器扩展程序？
+
+- 开发手册：https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions - *浏览器扩展 - Mozilla | MDN*
+
+- 源码参考：https://github.com/wadefelix/copylinktabnameandurl - *wadefelix/copylinktabnameandurl: 复制链接/标签名称和地址*
+
+如何将浏览器扩展程序打包成 crx 文件？
+
+- https://www.cnblogs.com/Galesaur-wcy/p/15748799.html - *如何使用Chrome浏览器，打包生成自己的插件（crx格式文件）？ - 冰糖葫芦很乖 - 博客园*
+- https://www.zhihu.com/question/53546074/answer/2229754960 - *谷歌浏览器插件开发完毕打包如何打包成crx文件？ - 知乎*
 
 ## 扩展列表
+
+### 扩展管理
+
+- ✔️[Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg ':id=extensity') - *Quickly enable/disable Google Chrome extensions*
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
+    - https://www.crxsoso.com/webstore/detail/jjmflmamggggndanpgfnpelongoepncg - *Extensity | Chrome扩展 - Crx搜搜*
 
 
 ### 标签页管理
@@ -84,7 +111,14 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 3. ✔️[ Toast - Save Tabs for Later](https://www.crxsoso.com/webstore/detail/pejhbjnfifdecpkgcjhgmcaphdobmiie) - *您肯定有一些打开或固定的选项卡非常有用，但现在不需要。它们不应该被添加到书签中，尽管它们太重要了，不会丢失在浏览器的阅读列表中。*
 
 
-### 历史记录
+### 标签页定时刷新
+
+- ✔️[ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) - *Automatically reload a page. Configure interval between page refreshes and see a count-down until the next refresh.*
+
+  - https://www.crxsoso.com/webstore/detail/nbbpjdmdkcmpimmhloehkojhbhjlboog - *ChromeReloadPlus | Chrome扩展 - Crx搜搜*
+
+
+### 浏览历史记录
 
 1. [浏览器历史加](https://www.crxsoso.com/webstore/detail/adjifobelhoemalljgnjdlockheiacmc) - *浏览器历史加替换默认浏览器历史记录，并提供额外的控件，以便轻松管理和浏览历史记录。*
 
@@ -107,26 +141,12 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 3. [Adblock Plus - 免费的广告拦截器](https://www.crxsoso.com/webstore/detail/cfhdojbkjhnklbpkdaibdccddilifddb) - *阻止 YouTube™ 广告、弹出窗口并抵御恶意软件！*
 
 
-### 扩展管理
-
-- ✔️[Extensity](https://chrome.google.com/webstore/detail/extensity/jjmflmamggggndanpgfnpelongoepncg ':id=extensity') - *Quickly enable/disable Google Chrome extensions*
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
-    - https://www.crxsoso.com/webstore/detail/jjmflmamggggndanpgfnpelongoepncg - *Extensity | Chrome扩展 - Crx搜搜*
-
 ### 二维码
 
 1. [草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg) - *草料二维码官方开发的免费工具插件，提供简单、专业、快捷的二维码生成和解码功能。*
     - https://www.crxsoso.com/webstore/detail/moombeodfomdpjnpocobemoiaemednkg - *草料二维码-快速生码和解码工具 | Chrome扩展 - Crx搜搜*
 
 2. [二维码（生成及识别）](https://www.crxsoso.com/webstore/detail/hkojjajclkgeijhcmfjcjkddfjpaimek) - *将当前页面地址、选中的文本或链接等生成二维码，也可以识别网页中的二维码图片（支持识别中文）。*
-
-
-### 标签页定时刷新
-
-- ✔️[ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) - *Automatically reload a page. Configure interval between page refreshes and see a count-down until the next refresh.*
-
-  - https://www.crxsoso.com/webstore/detail/nbbpjdmdkcmpimmhloehkojhbhjlboog - *ChromeReloadPlus | Chrome扩展 - Crx搜搜*
 
 
 ### 鼠标手势
@@ -185,8 +205,8 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
             ${url} - *${title}*
             ```
         - “Other”-“Decode the URL”（开启此功能会复制解码的网址）（默认关闭）（类似扩展：https://www.crxsoso.com/webstore/detail/fnbbfiapefhkicjhecnoepbijhanpkjp - *Copy Unicode URLs | Chrome扩展 - Crx搜搜*）
-            - 开启：https://www.baidu.com/s?word=复制链接标题
-            - 关闭： https://www.baidu.com/s?word=%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5%E6%A0%87%E9%A2%98
+            - 开启：`https://www.baidu.com/s?word=复制链接标题`
+            - 关闭： `https://www.baidu.com/s?word=%E5%A4%8D%E5%88%B6%E9%93%BE%E6%8E%A5%E6%A0%87%E9%A2%98`
         - 复制当前标签的图标网址
             1. 勾选“Other”-“Extended mode”；
             2. 勾选“Other”-“Enable format2”；
@@ -207,9 +227,34 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
             8. 复制成功。
         - 设置“Context menu”-“Browser action context menu”
           
-            | ✅ 已勾选                                                      | ❌ 未勾选                                                      |
-            | ------------------------------------------------------------ | ------------------------------------------------------------ |
-            | - *电脑端浏览器：鼠标右键图标* ![browser-extension-copytabtitleurl-01](_images/browser-extension-copytabtitleurl-01.png)*手机端狐猴浏览器：长按图标* 这下面放一张图 | - *电脑端浏览器：鼠标右键图标* ![browser-extension-copytabtitleurl-01](_images/browser-extension-copytabtitleurl-02.png)*手机端狐猴浏览器：长按图标* 这下面放一张图 |
+            | ✅ 已勾选 | ❌ 未勾选 |
+            | ---- | ---- |
+            | - *电脑端浏览器：鼠标右键图标*<br />![browser-extension-copytabtitleurl-01](_images/browser-extension-copytabtitleurl-01.png)<br />*手机端狐猴浏览器：长按图标* 这下面放一张图 | - *电脑端浏览器：鼠标右键图标*<br />![browser-extension-copytabtitleurl-01](_images/browser-extension-copytabtitleurl-02.png)<br />*手机端狐猴浏览器：长按图标* 这下面放一张图 |
+
+        - 复制选定的文本或空白文本（※1）
+        
+            由于上面的操作设置了“Extended mode”，这里直接从第 4 步开始设置：
+        
+            4. 在“Format”-“format5:”中输入：`${selectedText}`；
+        
+            5. 勾选“Context menu”-“All context menus”；
+        
+            6. 勾选“Other”-“Edit the context menu title”，然后将“Context menu”-“Menu item”中的`format5`改成`selectedText`并勾选（更改后方便识别）；
+        
+            7. 打开一个页面 https://wiki.termux.com/wiki/Package_Management ，在页面中选中一段文本后鼠标单击右键：*打开上下文菜单 > CopyTabTitleUrl > 单击“selectedText”*；
+        
+            8. 使用上述的操作复制的文本是纯文本格式，如果使用浏览器（Chrome Browser）右键复制的文本内容则是网页格式：
+        
+               测试：比如在上一步打开的网页中，找一个表格并选中表格中的链接文本，对比两种右键复制如下：
+        
+               ```md
+               # CopyTabTitleUrl 右键复制的内容
+               game-packages	
+               
+               # 浏览器右键复制的内容
+               [game-packages](https://github.com/termux/game-packages)
+               ```
+        
 
 
 3. [Copy Title and Url as Markdown Style](https://www.crxsoso.com/webstore/detail/fpmbiocnfbjpajgeaicmnjnnokmkehil) - *Copy the title and url of the page as Markdown style*
@@ -235,12 +280,21 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 
 - <mark>[Copy Image URL](https://www.crxsoso.com/webstore/detail/okellkdngnddldceghgglinloadinfgg ":id=copy-image-url")</mark> - *此扩展程序允许您从 Google 图片搜索结果中复制图片源 URL*
 
+### 复制代码
+
+- [CodeCopy](https://github.com/zenorocha/codecopy) - *A browser extension that adds copy to clipboard buttons on every code block*
 
 ### 剪贴板
 
 - ✔️[Clipboard Helper](https://www.crxsoso.com/webstore/detail/meljmedplehjlnnaempfdoecookjenph ':id=clipboard-helper') - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
 
 - [Clipboard History Pro: best productivity tool](https://www.crxsoso.com/webstore/detail/ajiejmhbejpdgkkigpddefnjmgcbkenk) - *Clipboard manager extension for your browser: history of copied text, favorite items, instant paste*
+
+### 音视频播放
+
+- [视频文件播放器](https://www.crxsoso.com/webstore/detail/kfcfjmdnmmokdhndbpfcachlkliggggc) - *用于播放本地文件的视频播放器。*
+- [MediaPlayer - Video and Audio Player](https://www.crxsoso.com/webstore/detail/mgmhnaapafpejpkhdhijgkljhpcpecpj) - *一个建立在video.js项目之上的强大媒体播放器，支持HSL、速度控制和播放列表。*
+- [Video Speed Controller](https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk) - _Video Speed Controller Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts_
 
 
 ### TOC
@@ -311,17 +365,16 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 
     - [颜色选择器 - Geco](https://www.crxsoso.com/webstore/detail/eokjikchkppnkdipbiggnmlkahcdkikp) - *从网页抓取颜色，颜色选择器，颜色历史。与颜色选择器，颜色选择，滴管，colorzilla相比，这个更好。*
 
-- 查看页面源代码
+- 查看页面源代码（适用于手机端「狐猴浏览器」，电脑端直接右键操作 > 显示网页源代码）
 
     - [View Page Source](https://www.crxsoso.com/webstore/detail/lcdkhcclmhdepcmfjmdjehekfdldpbje) - *Get access to the page source with the click of a button*
     - [View link source](https://www.crxsoso.com/webstore/detail/kmpjbdkdnehfenbgchigbbmnahcfeidc) - *Add &quot;View link source&quot; to the context menu.*
 
 - [User-Agent Switcher](https://www.crxsoso.com/webstore/detail/kchfmpdcejfkipopnolndinkeoipnoia) - *Simplest way to switch between user-agents in your browser!*
 
-
 ### GitHub
 
-https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collection of awesome browser extensions for GitHub.*
+https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collection of awesome browser extensions for GitHub.* [Website](https://stefanbuck.com/awesome-browser-extensions-for-github)
 
 ------
 
@@ -337,31 +390,35 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 4. [Octotree - GitHub code tree](https://www.octotree.io/) - _GitHub on steroids_
     - https://www.crxsoso.com/webstore/detail/bkhaagjahfmjljalopjnoealnfndnagc - *Octotree - GitHub code tree | Chrome扩展 - Crx搜搜*
 
-5. [File Icons for GitHub and GitLab](https://github.com/homerchen19/github-file-icons) - _A Chrome Extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs._
+5. [Gitako - GitHub file tree](https://www.crxsoso.com/webstore/detail/giljefjcheohhamkjphiebfjnlphnokk) - *File tree for GitHub, and more than that.*
+
+6. [Enhanced GitHub](https://www.crxsoso.com/webstore/detail/anlikcnbgdeidpacdbdljnabclhahhmd) - *Display repo size, size of each file, download link and option to copy file contents*
+
+7. [File Icons for GitHub and GitLab](https://github.com/homerchen19/github-file-icons) - _A Chrome Extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs._
     - https://www.crxsoso.com/webstore/detail/ficfmibkjjnpogdcfhfokmihanoldbfe - *File Icons for GitHub and GitLab | Chrome扩展 - Crx搜搜*
 
-6. [github-vscode-icons](https://github.com/dderevjanik/github-vscode-icons) - _This extension shows a VS Code icons in Github Repositories_
+8. [github-vscode-icons](https://github.com/dderevjanik/github-vscode-icons) - _This extension shows a VS Code icons in Github Repositories_
     - https://www.crxsoso.com/webstore/detail/hoccpcefjcgnabbmojbfoflggkecmpgd - *github-vscode-icons | Chrome扩展 - Crx搜搜*
 
-7. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
+9. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
     - https://www.crxsoso.com/webstore/detail/ffjjnphohkfckeplcjflmgneebafggej - *GitHub加速 | Chrome扩展 - Crx搜搜*
     - 仅支持下载、克隆源码加速，不支持页面、图片加速
 
-8. https://github.com/conwnet/github1s - *GitHub - conwnet/github1s: One second to read GitHub code with VS Code.* ( _**via** https://zhuanlan.zhihu.com/p/350615234 - *人生第一个扩展——Github1s - 知乎*_ )
+10. https://github.com/conwnet/github1s - *GitHub - conwnet/github1s: One second to read GitHub code with VS Code.* ( _**via** https://zhuanlan.zhihu.com/p/350615234 - *人生第一个扩展——Github1s - 知乎*_ )
 
-9. [GitHub File Icons](https://github.com/homerchen19/github-file-icons) - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.*
+11. [GitHub File Icons](https://github.com/homerchen19/github-file-icons) - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.*
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
-    
-    - https://www.crxsoso.com/webstore/detail/kkokonbjllgdmblmbichgkkikhlcnekp - *GitHub File Icons | Chrome扩展 - Crx搜搜*
-    
-    🏷️ _安装谷歌扩展程序_ 、 _图标 icon_
-    
-    _**via** [简单三步，让GitHub依照不同文档类型显示不同的图标](https://baijiahao.baidu.com/s?id=1590369276833636579)_
+     ![GitHub last commit](https://flat.badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
 
-10. [Sourcegraph](https://github.com/sourcegraph/sourcegraph) - *GitHub - sourcegraph/sourcegraph: Code Intelligence Platform*
+     - https://www.crxsoso.com/webstore/detail/kkokonbjllgdmblmbichgkkikhlcnekp - *GitHub File Icons | Chrome扩展 - Crx搜搜*
 
-    - https://www.crxsoso.com/webstore/detail/dgjhfomjieaadpoljlnidmbgkdffpack - *Sourcegraph | Chrome扩展 - Crx搜搜*
+     🏷️ _安装谷歌扩展程序_ 、 _图标 icon_
+
+     _**via** [简单三步，让GitHub依照不同文档类型显示不同的图标](https://baijiahao.baidu.com/s?id=1590369276833636579)_
+
+12. [Sourcegraph](https://github.com/sourcegraph/sourcegraph) - *GitHub - sourcegraph/sourcegraph: Code Intelligence Platform*
+
+     - https://www.crxsoso.com/webstore/detail/dgjhfomjieaadpoljlnidmbgkdffpack - *Sourcegraph | Chrome扩展 - Crx搜搜*
 
 
 ### 钱包
@@ -397,12 +454,15 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 - 脚本下载
     - https://greasyfork.org/zh-CN - _Greasy Fork - 安全、实用的用户脚本大全_
     - https://www.baiduyun.wiki/ - _油小猴_
-
+      - https://www.youxiaohou.com/tool/install-darkmode.html - *夜间模式助手 | 油小猴*
+      - https://www.youxiaohou.com/tool/install-instantpage.html - *网页加速器 | 油小猴*
+      - https://www.youxiaohou.com/tool/install-translate.html - *超级翻译助手 | 油小猴*
+    
 - 好用的脚本列表
   
     - [GitHub](#tampermonkey-github ':id=tampermonkey-github')
 
-        > 仅支持打开网页后，下载资源加速。
+        > 仅支持打开网页后，下载文件资源加速。
 
         1. [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
 
@@ -419,7 +479,8 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
     - [文库下载器,VIP文档免费下载 | 全文阅读| 开启右键复制](https://greasyfork.org/zh-CN/scripts/437043-%E6%96%87%E5%BA%93%E4%B8%8B%E8%BD%BD%E5%99%A8-vip%E6%96%87%E6%A1%A3%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD-%E5%85%A8%E6%96%87%E9%98%85%E8%AF%BB-%E5%BC%80%E5%90%AF%E5%8F%B3%E9%94%AE%E5%A4%8D%E5%88%B6 "保持源文件排版导出 PDF 文件，解除继续阅读限制，净化弹窗、广告，开启文库本地 VIP，淘宝、天猫、京东商品优惠券查询")
 
-    - [auto-toc](https://greasyfork.org/zh-CN/scripts/458022-auto-toc "可以为任何网站生成TOC网站目录大纲, 默认是不打开的, 需要去插件菜单里为想要打开 toc 的网站开启开关, 插件会记住这个开关, 下回再打开这个网站会自动根据开关来生成 toc 与否. 高级技巧: 单击TOC拖动栏可以自动折叠 TOC, 双击TOC拖动栏可以关闭 TOC .")
+    - [auto-toc](https://greasyfork.org/zh-CN/scripts/458022-auto-toc "可以为任何网站生成TOC网站目录大纲, 默认是不打开的, 需要去插件菜单里为想要打开 toc 的网站开启开关, 插件会记住这个开关, 下回再打开这个网站会自动根据开关来生成 toc 与否. 高级技巧: 单击TOC拖动栏可以自动折叠 TOC, 双击TOC拖动栏可以关闭 TOC .") - *可以为任何网站生成TOC网站目录大纲*
+      
         > 狐猴手机浏览器需要开启“桌面模式”。
 
 

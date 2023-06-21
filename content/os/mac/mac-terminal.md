@@ -40,6 +40,12 @@ echo $PATH
 
 输出：`/Users/caiyongwen/.nvm/versions/node/v15.14.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin`
 
+### 文件权限
+
+```sh
+sudo chmod -R 777 要授权的文件目录路径
+```
+
 ## AppleScript
 
 1. https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html - *Introduction to AppleScript Language Guide*

@@ -10,25 +10,31 @@
   <!-- <link rel="stylesheet" href="//unpkg.com/@primer/css@latest/dist/primer.css" /> -->
   <link href="//unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
   <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
+  <link rel="stylesheet" href="//unpkg.com/animate.css@4.1.1/animate.min.css">
   <!-- 引入样式 -->
   <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
+
   <!-- Font icon -->
   <link rel="stylesheet" href="//unpkg.com/file-icons-js@latest/css/style.css">
+  <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free@6/css/all.min.css">
   <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@latest/font/bootstrap-icons.css">
   <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
-  <link rel="stylesheet" href="//at.alicdn.com/t/font_3152517_qn29r96ekxi.css">
-  <link rel="stylesheet" href="//unpkg.com/foundation-icons/foundation-icons.css">
+  <!-- iconfont -->
+  <script type="text/javascript" src="//at.alicdn.com/t/c/font_3152517_j677v0p631.js"></script>
+  <style type="text/css">
+    svg.icon {
+      margin-right: 0;
+      vertical-align: text-bottom;
+    }
+  </style>
+
   <!-- Shortcut icon-->
   <link rel="shortcut icon" href="_media/octocat.png.webp">
-  <link rel="stylesheet" href="//unpkg.com/animate.css@4.1.1/animate.min.css">
 
   <!-- Table of Contents -->
   <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
   <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
-
-  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
-  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/treeview/prism-treeview.css" data-noprefix="">
 
   <!-- Using Local -->
   <!-- ----------------------------------------------------------------- -->
@@ -37,6 +43,8 @@
   
   <!-- 代码块行号 -->
   <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.css">
+  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
+  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/treeview/prism-treeview.css" data-noprefix="">
   <style>
     /*
      * Fix line number in code block. 
@@ -63,12 +71,15 @@
   </style>
 </head>
 <body>
-<div id="app"></div>
-
+<div id="app"><span>Loading</span><span class="AnimatedEllipsis"></span></div>
 <script>
   // Docsify configuration
   window.$docsify = {
-  
+    alias: {
+      '/.*/_navbar.md': '/_navbar.md',
+      '/.*/_media/(.*)': '/_media/$1'
+    },
+
   // 定制侧边栏
     loadSidebar: true,
     // autoHeader: true, // _sidebar.md如果为真，则从_sidebar.md文件加载边栏，否则从指定的路径加载
@@ -89,12 +100,12 @@
     // 主题颜色
     /*themeColor: '#42b983',*/
     themeColor: '#42b983',
-    
+
     // 文档标题，会显示在侧边栏顶部。
     name: '<br class="br-dp"/><style>@media screen and (min-width: 601px) { .br-dp {display: none;} }</style><i class="ri-github-line"></i> docs-learning  ',
 
     maxLevel: 2,
-    
+
     // 小屏设备下合并导航栏到侧边栏
     mergeNavbar: true,
 
@@ -141,10 +152,16 @@
         }
       }
     },
-    
+
     formatUpdated: '{YYYY}/{MM}/{DD}/ {HH}:{mm}',
     plugins: [
       function(hook, vm) {
+      // Invoked one time after rendering the initial page
+        hook.ready(function () {
+          document.querySelector(".d-flex").removeAttribute("style");
+        });
+      // Invoked on each page load before new markdown is transformed to HTML.
+      // Supports asynchronous tasks (see beforeEach documentation for details).
         hook.beforeEach(function(html) {
           // 编辑页面
           if (/githubusercontent\.com/.test(vm.route.file)) {
@@ -160,13 +177,18 @@
                 'https://github.com/vc-awesome/docs-learning/blob/master' +
                 vm.route.file;
           }
-          var editHtml = '📝[EDIT DOCUMENT](' + url + ')\n';
-          
-          // 文件所在路径
-          editHtml += '· 📂<abbr title="文件所在路径">*' + decodeURIComponent(vm.route.file) +'*</abbr>\n';
 
-          // 最近更新时间
-          editHtml += "· ⏰<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>\n\n";
+        // 添加页眉
+          var header = [
+            '<header>\n\n',
+            // 编辑页面
+            '📝[EDIT DOCUMENT](' + url + ')',
+            // 文件所在路径
+            ' · 📂<abbr title="文件所在路径">*' + decodeURIComponent(vm.route.file) + '*</abbr>',
+            // 最近更新时间
+            ' · ⏰<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>',
+            '</header>\n\n'
+          ].join('');
 
         // 添加页脚
 
@@ -177,32 +199,43 @@
           }
 
           var sites = [
-            '\n\n',
-            'More sites: ',
+            ' - More sites: ',
             '<a href=\"snippets.html\">Code Snippets</a> · ',
             '<a href=\"markdown-mermaid.html\">Mermaid</a> · ',
+            '<a href=\"simple.html\">Simple</a> · ',
             themeHtml
+          ].join('');
+
+          var plugins = [
+            '\n\n',
+            'Plugins: ',
+            '[Docsify](os/tools/docsify.md) · ',
+            '[Animate.css](https://animate.style/) · ',
+            '[Element⁺](https://element-plus.gitee.io/zh-CN/) · ',
+            '[SweetAlert2](https://sweetalert2.github.io/) · ',
+            '[PrismJS](开发框架/javascript-plugins.md#prismjs)([Website](https://prismjs.com/index.html))'
           ].join('');
 
           var footer = [
             '<footer>',
             '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a>(<a href="https://vc-awesome.github.io/docs-learning/" target="_blank">Website</a>) &copy;' + new Date().getFullYear() + '.</span>',
-            '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a> and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
+            '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>(<a href="https://docsify.js.org/#/" target="_blank">Website</a>) and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
+            plugins,
             sites,
             '</footer>'
           ].join('');
 
           return (
-              editHtml +
+              header +
               html+
-              '\n\n----\n\n' +
+              '\n\n<div class="el-divider el-divider--horizontal" role="separator"><div class="el-divider__text is-right color-fg-subtle"><i> - THE END.</i></div></div>\n\n'+
+              // '\n\n----\n\n' +
               footer
           );
-        });
-      },
-      function(hook, vm) {
+        }),
+      // Invoked on each page load after new HTML has been appended to the DOM
         hook.doneEach(function() {
-          
+
         // 手机端顶部导航栏 :hover 触控处理
           var ele = document.querySelector("nav.app-nav");
 
@@ -210,28 +243,14 @@
             // 初始化
             togglePointerEvents(ele);
           }, 100)
-          
+
           document.querySelector("body").addEventListener("click", function(e) {
             togglePointerEvents(ele);
           }, true)
 
           // 切换 pointer-events 的值
           function togglePointerEvents(ele) {
-            function empty(x) {
-              switch (x) {
-                case "":
-                case 0:
-                case "0":
-                case null:
-                case false:
-                case undefined:
-                  return true;
-                default:
-                  return false;
-              }
-            }
-
-            if (!empty(ele)) {
+            if (!this.$docsify.empty(ele)) {
               if (window.getComputedStyle(ele).opacity == 1) {
                 document.querySelectorAll("nav.app-nav li").forEach(function(e) {
                   e.style.pointerEvents = "auto";
@@ -261,43 +280,107 @@
             o.appendChild(lineNumbersWrapper);
           })
         })
+      },
+      // 代码复制
+      function(hook, vm) {
+      // Invoked one time when the docsify instance has mounted on the DOM
+        hook.mounted(function() {
+          var listenerHost = document.querySelector(".content");
+          listenerHost.addEventListener("click", function(evt) {
+            var isCodeElm = evt.target.nodeName == "CODE";
+            if (isCodeElm && evt.target.parentNode.nodeName != "PRE") {
+
+              var range = document.createRange();
+              var codeElm = evt.target;
+              var selection = window.getSelection();
+              range.selectNode(codeElm);
+              selection.removeAllRanges();
+              selection.addRange(range);
+              try {
+                var successful = document.execCommand("copy");
+                if (successful) {
+                  showTooltip(evt.target, 'Copied!');
+                }
+              } catch (err) {
+                console.error("docsify-copy-code: ".concat(err));
+                showTooltip(evt.target, "docsify-copy-code: ".concat(err));
+              }
+              selection = window.getSelection();
+              if (typeof selection.removeRange === "function") {
+                selection.removeRange(range);
+              } else if (typeof selection.removeAllRanges === "function") {
+                selection.removeAllRanges();
+              }
+            }
+          });
+          function showTooltip(elem, msg) {
+            elem.setAttribute('class', 'tooltipped tooltipped-n tooltipped-no-delay');
+            elem.setAttribute('aria-label', msg);
+          }
+        });
+        hook.doneEach(function() {
+          var codes = document.querySelectorAll('p code');
+          for (var i = 0; i < codes.length; i++) {
+            codes[i].addEventListener('mouseleave', clearTooltip);
+            codes[i].addEventListener('blur', clearTooltip);
+          }
+          function clearTooltip(e) {
+            e.currentTarget.removeAttribute('class');
+            e.currentTarget.removeAttribute('aria-label');
+          }
+        })
       }
     ],
+    // 判断数据类型是否为空
+    empty: function(x) {
+      switch (x) {
+        case "":
+        case 0:
+        case "0":
+        case null:
+        case false:
+        case undefined:
+          return true;
+        default:
+          return false;
+      }
+    },
   }
 </script>
 
 <!-- 右下悬浮按钮组 -->
-<div class="d-flex flex-column position-fixed right-2 bottom-2">
+<div class="d-flex flex-column position-fixed right-2 bottom-2" style="display: none!important;">
   <button class="btn btn-outline btn-sm" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
   <!-- 返回顶部 -->
   <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent" aria-disabled="true">
     0%
   </button>
   <button class="back-to-top btn btn-outline btn-sm">
-    <i class="fa fa-arrow-up"></i>
+    <span class="fas fa-angle-up"></span>
   </button>
   <button class="back-to-top btn btn-outline btn-sm" id="back2bottom">
-    <i class="fa fa-arrow-down"></i>
+    <span class="fas fa-angle-down"></span>
   </button>
   <!-- 历史记录上一页 -->
   <button class="btn btn-outline btn-sm" onclick="if(document.location.hash != '#/'){window.history.back();}">
-    <i class="fa fa-arrow-left"></i>
+    <span class="fas fa-angle-left"></span>
   </button>
   <!-- 历史记录下一页 -->
   <button class="btn btn-outline btn-sm" onclick="window.history.forward();">
-    <i class="fa fa-arrow-right"></i>
+    <span class="fas fa-angle-right"></span>
   </button>
   <!-- 切换全屏 -->
   <button class="btn btn-outline btn-sm" onclick="toggleFullScreen(this);">
-    <i class="ri-fullscreen-fill"></i>
+    <span class="fas fa-expand"></span>
+    <!-- <i class="ri-fullscreen-fill"></i> -->
   </button>
   <!-- Page Refresh Button -->
   <button class="btn btn-outline btn-sm" onclick="window.location.reload();">
-    <i class="fa fa-refresh"></i>
+    <span class="fas fa-redo-alt"></span>
   </button>
   <!-- Table of Contents -->
   <button class="toc-toggle back-to-top btn btn-outline btn-sm">
-    <i class="fa fa-reorder"></i>
+    <span class="fas fa-stream"></span>
   </button>
 </div>
 <!-- 切换全屏 -->
@@ -306,9 +389,9 @@
 function toggleFullScreen(e) {
   console.log(document.location.pathname, location.hash)
   console.log(window.history.length)
-  if (e.firstElementChild.classList.contains("ri-fullscreen-fill")) {
-    e.firstElementChild.setAttribute("class", "ri-fullscreen-exit-fill");
-    
+  if (e.firstElementChild.classList.contains("fa-expand")) {
+    e.firstElementChild.setAttribute("class", "fas fa-compress");
+
     const element = document.documentElement;
     //IE 10及以下ActiveXObject
     if (window.ActiveXObject) {
@@ -339,8 +422,8 @@ function toggleFullScreen(e) {
       alert("此设备不支持 Fullscreen API")
     }
   } else {
-    e.firstElementChild.setAttribute("class", "ri-fullscreen-fill");
-    
+    e.firstElementChild.setAttribute("class", "fas fa-expand");
+
     const element= document.documentElement;
     //IE ActiveXObject
     if (window.ActiveXObject) {
@@ -404,9 +487,8 @@ function toggleFullScreen(e) {
 <script>
   window.$docsify.plugins.push(
     function(hook, vm) {
-      
+
       hook.doneEach(function() {
-        setTimeout(function(){
       // 是否存在目录
           var noToc = document.querySelector("aside.toc-nav").classList.contains("nothing");
           // 调整 body.no-right-toc section.content 的样式
@@ -420,7 +502,7 @@ function toggleFullScreen(e) {
           document.querySelector(".toc-nav").appendChild(para);
 
         // 点击目录按钮，打开右侧目录
-          document.querySelector(".toc-toggle").addEventListener("click", function (e) {
+          document.querySelector(".toc-toggle").onclick = function (e) {
             // 判断是否已打开目录
             var _hasToc = document.querySelector(".toc-nav").classList.contains("toc-nav-hover");
 
@@ -429,34 +511,36 @@ function toggleFullScreen(e) {
 
             // 打开遮罩层
             toggleMaskLayer(!_hasToc);
-          });
+          };
         // 点击遮罩层，关闭右侧目录
           document.querySelector(".flisxm").addEventListener("click", function (e) {
             // 关闭目录
             document.querySelector('.toc-nav').classList.toggle("toc-nav-hover", false);
-            
+
             // 关闭遮罩层
             toggleMaskLayer(false);
           });
         // 切换遮罩层
-          toggleMaskLayer = function(isTrue) {
+          const toggleMaskLayer = function(isTrue) {
             document.querySelector(".flisxm").classList.toggle("flisxm-show", isTrue);
 
             // 切换 body 页面滚动条操作
             document.querySelector('body').classList.toggle('toc-body', isTrue);
 
             // 显示/隐藏顶部导航栏
-            document.querySelector('.app-nav').style.display = isTrue ? "none" : "block";
+            var appNavEle = document.querySelector('.app-nav');
+            if (!this.$docsify.empty(appNavEle)) {
+              appNavEle.style.display = isTrue ? "none" : "block";
+            }
           }
 
       // 手机端可用 --end
-        }, 1);
       });
     },
   )
   window.$docsify.toc = {
     tocMaxLevel: 5,
-    target: 'h2, h3, h4, h5, h6'
+    target: 'h1, h2, h3, h4, h5, h6'
   }
 </script>
 
@@ -464,7 +548,8 @@ function toggleFullScreen(e) {
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/js/back2top.js"></script>
 
-<script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script>
+<!-- <script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script> -->
+<script src="_assets/libs/docsify.js"></script>
 
 <!-- 语法高亮 -->
 <script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
@@ -548,5 +633,8 @@ function sweetalert2Iframe(_url = "snippets/") {
 <script src="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.js"></script>
 <script src="//unpkg.com/prismjs/plugins/treeview/prism-treeview.js"></script>
 
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uri-js@4.4.1/dist/es5/uri.all.min.js"></script>
 </body>
 </html>

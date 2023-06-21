@@ -1,1 +1,2 @@
-- [Homepage](/)
+- [Homepage](/ "首页导航")
+- [Quick Index](quick-index.md "快速索引")

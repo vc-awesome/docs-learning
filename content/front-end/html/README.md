@@ -162,6 +162,12 @@ https://www.runoob.com/tags/tag-output.html - *HTML \<output> 标签 | 菜鸟教
 
 ### \<img>
 
+https://www.runoob.com/tags/tag-img.html - *HTML \<img> 标签 | 菜鸟教程*
+
+属性 src 是 source 的缩写（规定显示图像的 URL）。
+
+属性 alt 是 alternate 的缩写（规定图像的替代文本）。
+
 #### \<figcaption>
 
 https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | 菜鸟教程*
@@ -173,6 +179,7 @@ https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | �
          alt="Albuquerque, New Mexico">
     <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
 </figure>
+
 实例参考：https://www.markdownguide.org/hacks/#image-captions - *Hacks | Markdown Guide*
 
 ### \<time>
@@ -188,6 +195,14 @@ https://www.runoob.com/tags/tag-time.html - *HTML <time> 标签 | 菜鸟教程*
 
 
 ### 属性
+
+#### 全局属性
+
+https://www.runoob.com/tags/ref-standardattributes.html - *HTML 全局属性 | 菜鸟教程*
+
+#### 事件属性
+
+https://www.runoob.com/tags/ref-eventattributes.html - *HTML 事件 | 菜鸟教程*
 
 #### data-*
 

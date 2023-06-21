@@ -1,4 +1,4 @@
-## Search
+## 网上搜索
 
 关键词搜索
 
@@ -30,6 +30,8 @@
 ![npm](https://img.shields.io/npm/v/bootstrap?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/twbs/bootstrap?style=social)
 
+----
+
 Website：http://www.bootcss.com/ :cn:
 
 Website：https://getbootstrap.com/ :us:
@@ -54,6 +56,8 @@ GitHub：https://github.com/twbs/bootstrap
 ![npm](https://img.shields.io/npm/v/foundation-sites?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/foundation/foundation-sites?style=social)
 
+----
+
 Website：https://get.foundation :us:
 
 GitHub：https://github.com/foundation/foundation-sites
@@ -69,6 +73,8 @@ GitHub：https://github.com/foundation/foundation-sites
 ![GitHub repo size](https://img.shields.io/github/repo-size/layui/layui?logo=github)
 ![npm](https://img.shields.io/npm/v/layui?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/layui/layui?style=social)
+
+----
 
 Website：https://www.layuion.com/
 
@@ -89,6 +95,8 @@ GitHub：https://github.com/sentsin/layui
 ![npm](https://img.shields.io/npm/v/amazeui?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/amazeui/amazeui?style=social)
 
+----
+
 Website：http://amazeui.shopxo.net/
 
 GitHub：https://github.com/amazeui/amazeui
@@ -105,6 +113,8 @@ GitHub：https://github.com/amazeui/amazeui
 ![GitHub repo size](https://img.shields.io/github/repo-size/ionic-team/ionic-framework?logo=github)
 ![npm](https://img.shields.io/npm/v/ionic?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ionic-team/ionic-framework?style=social)
+
+----
 
 Website：https://ionic.io/
 
@@ -124,6 +134,8 @@ GitHub：https://github.com/ionic-team/ionic-framework
 ![npm](https://img.shields.io/npm/v/semantic-ui?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/semantic-org/semantic-ui?style=social)
 
+----
+
 Website：https://semantic-ui.com/ :cn:
 
 GitHub：https://github.com/semantic-org/semantic-ui
@@ -141,30 +153,13 @@ https://www.tailwindcss.cn/ :cn: *Tailwind CSS 是一个用于快速UI开发的�
 
 https://github.com/pure-css/pure/ :uk: *A set of small, responsive CSS modules that you can use in every web project.*
 
-
-### Animate.css
-
-https://github.com/animate-css/animate.css :uk: *🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.*
-
-<details markdown='1'><summary>展开/收起</summary>
-
-1. https://www.cnblogs.com/mmzuo-798/p/10882408.html - *vue实现滚动条滚到相应高度触发动画的操作*
-
-2. https://www.cnblogs.com/tcz1018/p/15209291.html - *vue使用动画animate*
-
-3. https://www.cnblogs.com/suwanbin/p/13200296.html - *VUE项目中集成AnimateCSS动画（2020.6.28 亲测可用）*
-
-4. https://www.jianshu.com/p/2e0b2f8d40cf - *vue中使用animate.css实现动画*
-
-5. https://www.cnblogs.com/duanzhenzhen/p/11057361.html - *vue页面滚动监听*
-
-</details>
-
 ### Primer CSS
 
 ?> The CSS design system that powers GitHub
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/primer/css?color=blue&logo=github&style=flat-square)
+
+----
 
 Website：https://primer.style/css
 
@@ -180,6 +175,8 @@ BootCDN：https://www.bootcdn.cn/Primer/
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/argyleink/open-props?color=blue&logo=github&style=flat-square)
 
+----
+
 Website：https://open-props.style - *Open Props: sub-atomic styles*
 
 GitHub：https://github.com/argyleink/open-props
@@ -194,6 +191,8 @@ GitHub：https://github.com/argyleink/open-props
 🖖 Vue.js是一个渐进的、可逐步采用的JavaScript框架，用于在web上构建UI。
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/vuejs/vue?color=blue&logo=github&style=flat-square)
+
+----
 
 Website：https://cn.vuejs.org/ 🇨🇳
 
@@ -219,6 +218,8 @@ Awesome：https://github.com/vuejs/awesome-vue
 ![npm](https://img.shields.io/npm/v/bootstrap-vue?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bootstrap-vue/bootstrap-vue?style=social)
 
+----
+
 Website：https://bootstrap-vue.org/
 
 GitHub：https://github.com/bootstrap-vue/bootstrap-vue
@@ -230,6 +231,8 @@ GitHub：https://github.com/bootstrap-vue/bootstrap-vue
 <i class="bi bi-translate dark-yellow"></i> 用于 Web 的 Vue.js 2.0 UI 工具包。
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/ElemeFE/element?icon=github&color=blue)
+
+----
 
 Website：https://element.eleme.io/
 
@@ -248,6 +251,8 @@ FAQ：
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/youzan/vant?color=blue&logo=github&style=flat-square)
 
+----
+
 Website：https://vant-contrib.gitee.io/vant/
 
 Website：https://youzan.github.io/vant/
@@ -263,6 +268,8 @@ GitHub：https://github.com/youzan/vant
 ?>
 Mobile UI Components based on Vue & WeUI
 
+----
+
 Website：https://vux.li/
 
 GitHub：https://github.com/airyland/vux
@@ -275,6 +282,8 @@ uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/dcloudio/uni-app?icon=github&color=blue)
 
+----
+
 Website：https://uniapp.dcloud.io/ :cn:
 
 GitHub：https://github.com/dcloudio/uni-app
@@ -286,9 +295,13 @@ GitHub：https://github.com/dcloudio/uni-app
 ?>
 uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
+
+----
+
 Website：https://www.uviewui.com/ :cn:
 
-GitHub：https://github.com/umicro/uView2.0 ![GitHub last commit](https://flat.badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
+GitHub：https://github.com/umicro/uView2.0
 
 有关详细信息，请参阅“[uView](/front-end/uniapp/uniapp%20+%20uview)”。
 
@@ -298,6 +311,8 @@ GitHub：https://github.com/umicro/uView2.0 ![GitHub last commit](https://flat.b
 ?> jQuery JavaScript Library
 
 ![](https://img.shields.io/github/last-commit/jquery/jquery?color=blue&logo=github&style=flat-square)
+
+----
 
 Website：https://jquery.com/
 
@@ -310,6 +325,8 @@ BootCDN：https://www.bootcdn.cn/jquery/ - *jquery (v3.6.3) - jQuery 是一个�
 
 ?>
 jQuery plugin to scroll the text like the old traditional marquee
+
+----
 
 Website：http://aamirafridi.com/jquery/jquery-marquee-plugin
 
@@ -350,13 +367,18 @@ GitHub：https://github.com/eggjs/egg
 
 ### ThinkPHP 🔥
 
+> ThinkPHP 是一个免费开源的，快速、简单的面向对象的 轻量级PHP开发框架 ，创立于2006年初，遵循Apache2开源协议发布，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。ThinkPHP从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。并且拥有众多的原创功能和特性，在社区团队的积极参与下，在易用性、扩展性和性能方面不断优化和改进，已经成长为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/top-think/think?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/top-think/think?logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/top-think/think?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think?style=social)
 
-[ThinkPHP](/back-end/thinkphp/)
+----
+
+有关详细信息，请参阅“[ThinkPHP](/back-end/thinkphp/)”。
+
 
 ### Workerman
 

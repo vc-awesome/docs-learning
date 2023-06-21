@@ -10,6 +10,4 @@ https://www.crxsoso.com/ - *Crx搜搜 - 一个牛X的扩展和应用商店*
 
 - [Scroll To Top](https://www.crxsoso.com/webstore/detail/hegiignepmecppikdlbohnnbfjdoaghj) - _Scroll to top and vice versa in a window._
 
-- [Video Speed Controller](https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk) - _Video Speed Controller Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts_
-
 - https://www.crxsoso.com/webstore/detail/idgpnmonknjnojddfkpgkljpfnnfcklj - *ModHeader - Modify HTTP headers | Chrome扩展 - Crx搜搜*

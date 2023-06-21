@@ -159,15 +159,15 @@ https://www.php.net/manual/zh/book.mbstring.php - *中文字符串处理函数 -
 
 ## 文件处理
 
-https://www.php.net/manual/zh/refs.fileprocess.file.php - *PHP: 文件系统相关扩展 - Manual*
+https://www.php.net/manual/zh/refs.fileprocess.file.php - *PHP: 文件系统相关扩展 - Manual*
 
-[`is_dir()`](https://www.php.net/manual/zh/function.is-dir) 是否目录
+`is_dir()` [是否目录](https://www.php.net/manual/zh/function.is-dir)
 
-[`opendir()`](https://www.php.net/manual/zh/function.opendir.php) 打开目录
+`opendir()` [打开目录](https://www.php.net/manual/zh/function.opendir.php)
 
-[`file_put_contents()`](https://www.runoob.com/php/func-filesystem-file-put-contents.html) 把一个字符串写入文件中
+`file_put_contents()` [把一个字符串写入文件中](https://www.runoob.com/php/func-filesystem-file-put-contents.html)
 
-https://www.php.cn/php-ask-479670.html - *详解PHP文件系统完全指南-PHP问题-PHP中文网*
+https://www.php.cn/php-ask-479670.html - *详解PHP文件系统完全指南-PHP问题-PHP中文网*
 
 ## 雪花算法
 

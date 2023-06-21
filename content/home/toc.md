@@ -2,14 +2,69 @@
 
 ## 链接
 
-有关详细信息，请参阅“[Tools > Docsify > Directory Structure](/tools/docsify#目录结构)”。
-
 参考：
 
 - ThinkPHP https://www.kancloud.cn/manual/thinkphp6_0/1037483 *基础 > 目录结构*
 
 - Bootstrap https://v5.bootcss.com/docs/getting-started/contents/ *快速入门 > 内容*
 
+- 有关详细信息，请参阅“[Tools > Docsify > Directory Structure](os/tools/docsify#目录结构)”。
+
+## 模板
+
+方式一：
+
+```md
+root_folder
+|-- a first folder
+|   |-- holidays.mov
+|   |-- javascript-file.js
+|   `-- some_picture.jpg
+|-- documents
+|   |-- spreadsheet.xls
+|   |-- manual.pdf
+|   |-- document.docx
+|   `-- presentation.ppt
+|       `-- test
+|-- empty_folder
+|-- going deeper
+|   |-- going deeper
+|   |   `-- going deeper
+|   |        `-- going deeper
+|   |            `-- .secret_file
+|   |-- style.css
+|   `-- index.html
+|-- music and movies
+|   |-- great-song.mp3
+|   |-- S01E02.new.episode.avi
+|   |-- S01E02.new.episode.nfo
+|   `-- track 1.cda
+|-- .gitignore
+|-- .htaccess
+|-- .npmignore
+|-- archive 1.zip
+|-- archive 2.tar.gz
+|-- logo.svg
+`-- README.md
+```
+
+方式二：
+
+```md
+root_folder/
+├── a first folder/
+|   ├── holidays.mov
+|   ├── javascript-file.js
+|   └── some_picture.jpg
+├── documents/
+|   ├── spreadsheet.xls
+|   ├── manual.pdf
+|   ├── document.docx
+|   └── presentation.ppt
+└── etc.
+```
+
+有关详细信息，请参阅“[Treeview ▲ Prism plugins](https://prismjs.com/plugins/treeview/)”。
 
 ## 项目
 
@@ -265,8 +320,9 @@ project/ #目录结构
 
 https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-workflow: A web developer workflow used by WeChat team based on Gulp, with cross-platform supported and solutions prepared.*
 
-
 ## 后端
+
+### ThinkPHP
 
 > ThinkPHP 资源存放：
 > - public/admin/

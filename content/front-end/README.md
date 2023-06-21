@@ -45,6 +45,16 @@ https://suanmei.github.io/2017/02/11/url2render-part1/ - *从输入url到浏览�
 
 https://suanmei.github.io/2017/02/12/url2render-part2/ - *从输入url到浏览器显示页面，发生了什么？（浏览器渲染篇） | 拾壹小筑*
 
+1. `document.addEventListener("DOMContentLoaded", function() {});`
+
+2. `window.addEventListener("load", function() {});`
+
+执行顺序：*1 > 2*
+
+## 浏览器兼容性
+
+https://caniuse.com/ - *Can I use... Support tables for HTML5, CSS3, etc*
+
 
 ## 链接
 

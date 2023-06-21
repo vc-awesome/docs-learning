@@ -1,6 +1,6 @@
 ## 简介
 
-> NPM 是Node的包管理工具（全名叫做 Node package manager），在我们安装Node时候，就已经顺便也安装了 NPM 这个管理工具。
+> <img src="https://www.npmjs.cn/images/npm.svg" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> NPM 是 Node 的包管理工具（全名叫做 Node package manager），在我们安装 Node 时候，就已经顺便也安装了 NPM 这个管理工具。
 
 ## 官方
 
@@ -92,20 +92,6 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
 
     `npm config set disturl https://npm.taobao.org/dist --global`
 
-- 使用淘宝 NPM 镜像命令
-
-  - 安装 cnpm 命令行工具
-
-    `npm install -g cnpm --registry=https://registry.npmmirror.com`
-
-  - 使用 cnpm 命令安装模块
-
-    `cnpm install [Module Name]`
-
-  - 参考链接
-
-    https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
-
 - 查看全局安装的模块
 
   `npm list -g`
@@ -136,11 +122,32 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
 
 ## 镜像
 
-https://npmmirror.com/ - *npmmirror 中国镜像站*
+### npmmirror 镜像站（原淘宝 npm）
 
+https://npmmirror.com/ - *npmmirror 镜像站*
+
+使用淘宝 NPM 镜像命令
+
+- 安装 cnpm 命令行工具
+
+  `npm install -g cnpm --registry=https://registry.npmmirror.com`
+
+
+  - 使用 cnpm 命令安装模块
+
+    `cnpm install [Module Name]`
+
+
+  - 参考链接
+
+    https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
 
 
 ### 镜像源管理工具
+
+- 官方
+
+  https://www.npmjs.com/package/nrm - *nrm - npm*
 
 - 安装
 
@@ -215,7 +222,7 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 
 
 
-!>⚠️ 尽可能在无痕，且没安装任何扩展程序的浏览器中运行测试；因为扩展程序中的脚本会窜程序，导致发生意想不到的错误。
+!>⚠️ 尽可能在无痕，且没安装任何扩展程序的浏览器中运行测试；因为扩展程序中的脚本会窜改程序，导致发生意想不到的错误。
 
 **命令行**
 

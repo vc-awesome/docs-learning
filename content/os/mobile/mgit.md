@@ -20,13 +20,13 @@ https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Ope
 
     操作步骤：_> 设置 > （安全）SSH Keys > 新增_
    
-    新建文件名：当前设置名称（例如： _Redmi Note 11T Pro_ ）
+    新建文件名：当前手机设备名称（例如： *`Redmi Note 11T Pro`* ）
    
 2. 打开 MGit 设置 “repos 的根存储位置”
 
     操作步骤：_> 设置 > （通用）repos 的根存储位置_
    
-    ``` markdown
+    ``` sh
     /storage/emulated/0/Documents/markor/GitHub
     ```
 
@@ -34,20 +34,20 @@ https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Ope
 
     操作步骤：_> 设置 > Git 配置_
 
-    用户名：_vc_  
-    用户邮箱：_caiyongwen@yeah.net_
+    用户名：_`vc`_  
+    用户邮箱：_`caiyongwen@yeah.net`_
    
 4. 打开 GitHub 添加 SSH Keys
 
     操作步骤：_> 前往 [SSH and GPG keys](https://github.com/settings/keys) 添加_
 
-    Title：_当前设备名称_  
+    Title：_当前手机设备名称_  
     Key：_复制第 1 步生成的秘钥_
    
 5. 打开 MGit 克隆仓库
 
-    远程地址：_git@github.com:vc-awesome/docs-learning.git_  
-    本地路径：_docs-learning_
+    远程地址：_`git@github.com:vc-awesome/docs-learning.git`_  
+    本地路径：_`docs-learning`_
 
 6. 修改文件后，打开 MGit 提交、推送
 
@@ -59,6 +59,6 @@ https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Ope
 
     4. _屏幕继续从右向左滑_ ，第三项为“状态”标签页，可查看当前已修改文件的修改内容（文件差异）；
 
-    5. 确定文件无异后，点击右上角的操作按钮，选择 _暂存所有 > 提交 > 推送_ 这 3 步操作，将文件推送至远程仓库；
+    5. 确定文件无异后，点击右上角的操作按钮，选择 _暂存所有 > 提交 > 推送_ 这 3 步操作，将文件推送至远程仓库。
 
 ## 常见问题解答

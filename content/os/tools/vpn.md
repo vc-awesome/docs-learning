@@ -30,7 +30,7 @@ https://hostloc.com/thread-628208-1-1.html - *[Windows VPS] V2rayN的pac设置�
 
 https://baiyunju.cc/7475 - *主流V2Ray客户端不再支持PAC代理模式，影响及应对*
 
-https://www.dqzboy.com/7510.htmlhttps://www.dqzboy.com/7510.html - *v2rayN 4.x版本如何设置PAC分流访问国内外网站*
+https://www.dqzboy.com/7510.html - *v2rayN 4.x版本如何设置PAC分流访问国内外网站*
 
 
 ## Book
@@ -75,6 +75,7 @@ https://github.com/anaer/Sub - *自用clash订阅链接*
 - 导入
 
     https://free-ss.site/ - *免费上网账号* 
+    
     https://github.com/free-ss/free-ss.site
     
     ![](https://flat.badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
@@ -87,9 +88,9 @@ https://github.com/anaer/Sub - *自用clash订阅链接*
     
     ![](https://flat.badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
 
-    - https://cdn.jsdelivr.net/gh/freefq/free/v2
+    - 订阅地址1：`https://cdn.jsdelivr.net/gh/freefq/free/v2`
 
-    - https://raw.fastgit.org/freefq/free/master/v2
+    - 订阅地址2：`https://raw.fastgit.org/freefq/free/master/v2`
 
 
 ## Tool
@@ -135,7 +136,7 @@ https://github.com/v2ray - *Project V · GitHub*
 
 1. https://www.v2ray.com/ - *Project V · Project V 官方网站* 🪜
     - https://www.v2fly.org/config/routing.html - *Routing 路由 | V2Fly.org*
- 
+
 2. https://github.com/ToutyRater/v2ray-guide
     - https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
 
@@ -150,7 +151,7 @@ https://github.com/v2fly - *V2Fly · GitHub*
 文档：
 
 1. https://github.com/v2fly/v2fly-github-io
-    
+   
     ![](https://flat.badgen.net/github/last-commit/v2fly/v2fly-github-io?icon=github&color=blue&ynotemdtimestamp=1669997210647)
     - https://www.v2fly.org 🪜
 
@@ -196,7 +197,6 @@ https://github.com/yichengchen/clashX
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
 
-
 ### personalDNSfilter
 
 有关详细信息，请参阅“[personalDNSfilter](/os/mobile/?id=personaldnsfilter)”。
@@ -230,17 +230,25 @@ https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官�
 
 ## Web Proxy
 
+### Free Proxy Sites
+
 https://privacysavvy.com/security/safe-browsing/best-free-proxy-sites/ - *31 Best Free Proxy Sites to Surf Anonymously Online in 2023 - PrivacySavvy*
 
-### Free Proxy Sites
+----
+
+`https://free-ss.site/` 👈 点击复制
 
 1. ✅ https://proxysite.page/en/proxy-site *（无法正确复制链接地址）*
 2. ☑️ https://proxyium.com/ - *Free web proxy - browse fast & anonymously*
+
+   Alternative web-proxies:
+
+   - https://bypasszone.net/ - *Bypasszone | Your Free Web Proxy for Anonymity* （打开网页速度更快）
 3. ✅ https://proxy-123.com/
 4. ✅ https://www.croxyproxy.com/ 🪜
 5. ✅ https://www.croxyproxy.net/ 🪜
 6. ✅ https://www.blockaway.net/ 🪜
-7. ☑️ https://oracleusa.ml/-----https://free-ss.site/ - *免费上网账号*
+7. ☑️ ~~https://oracleusa.ml/-----https://free-ss.site/ - *免费上网账号*~~
 
 ### In-App Purchases
 
@@ -272,7 +280,7 @@ http://googlehelper.net/ - *Google Helper*
     <i class="fa fa-edge"></i> 
     <i class="fa fa-shopping-cart"></i>
   </div>
-</div>
+  </div>
 
 
 
@@ -299,7 +307,7 @@ https://proxy-switchyomega.com - _非官网_
 
 ### Search engines 💪
 
-👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml
+~~👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml~~
 
 ## Glossary
 

@@ -1,27 +1,24 @@
-## Index <i class="ri-rocket-line"></i>
+## Introduction
 
-
-<details>
-<summary><span style="color:red">Click to Expand ~</span></summary>
+!>
+《图标字体库》，有些 WEB UI 框架会自带图标库。
 
 https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及使用方法_
 
-> 图标 （本文档使用中的 Icon）
-
-</details>
+## Usage
 
 ### Size
 
 > Use **Font Awesome** class.
 
-<details markdown='1'><summary>展开/收起</summary>
+<details markdown='1'>
 
 | Name            | Preview                                                      | Code                                                         | Size class                                                   |
 | :--------------- | :------------------------------------------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------ |
 | Iconfont        | <i class="iconfont icon-mysql"></i>                          | `<i class="iconfont icon-mysql"></i>`                        |                                                              |
 | Font Awesome    | <i class="fa fa-link"></i><br /><i class="fa fa-link fa-lg"></i> | `<i class="fa fa-link"></i>`<br />`<i class="fa fa-link fa-lg"></i>` | `fa-lg` `fa-2x` `fa-3x` `fa-4x` `fa-5x`                      |
 | Bootstrap Icons | <i class="bi bi-link-45deg"></i>                             | `<i class="bi bi-link-45deg"></i>`                           |                                                              |
-| Remix Icon      | <i class="ri-links-line"></i><br /><i class="ri-link"></i>   | `<i class="ri-links-line"></i>`<br />`<i class="ri-link"></i>` | `ri-fw` `ri-xxs` `ri-xs` `ri-sm` `ri-1x` `ri-lg` `ri-xl` `ri-2x`  `ri-3x` ... `ri-10x` [<i class="fa fa-external-link"></i>](https://github.com/Remix-Design/RemixIcon/blob/master/README_CN.md#%E5%A4%A7%E5%B0%8F) |
+| Remix Icon      | <i class="ri-links-line"></i><br /><i class="ri-link"></i>   | `<i class="ri-links-line"></i>`<br />`<i class="ri-link"></i>` | `ri-fw` `ri-xxs` `ri-xs` `ri-sm` `ri-1x` `ri-lg` `ri-xl` `ri-2x`  `ri-3x` ... `ri-10x` [文档链接</i>](https://github.com/Remix-Design/RemixIcon/blob/master/README_CN.md#%E5%A4%A7%E5%B0%8F) |
 | File Icons      | <span class="icon octicon-file docker-icon dark-blue"></span> | `<span class="icon octicon-file docker-icon dark-blue "></span>` |                                                              |
 | Styled Icons    | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |
 
@@ -31,7 +28,8 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 > Use **File Icons** class.
 
-<details markdown='1'><summary>展开/收起</summary>
+<details markdown='1'>
+
 
 ?> *Color class* 语法： `light-*`,`medium-*`,`dark-*`（\* 用 *color name* 替换）
 
@@ -54,7 +52,8 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 ### Font Awesome
 
-<details markdown='1'><summary>展开/收起</summary>
+<details markdown='1'>
+
 
 | 图标                                         | 语境             | 代码                                         |
 | :-------------------------------------------- | :---------------- | :-------------------------------------------- |
@@ -102,7 +101,8 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 ### Bootstrap Icons
 
-<details markdown='1'><summary>展开/收起</summary>
+<details markdown='1'>
+
 
 | 图标                                 | 语境      | 代码                                   |
 | :------------------------------------ | :--------- | :-------------------------------------- |
@@ -115,10 +115,12 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 ### Remix Icon
 
-<details markdown='1'><summary>展开/收起</summary>
+<details markdown='1'>
+
 
 | 图标                                             | 语境                | 代码                                               |
 | :------------------------------------------------ | :------------------- | :-------------------------------------------------- |
+| <i class="ri-rocket-line"></i> | Getting started / 开始 | `<i class="ri-rocket-line"></i>` |
 | <i class="ri-external-link-fill"></i>            | 外部链接            | `<i class="ri-external-link-fill"></i>`            |
 | <i class="ri-link"></i>                          | 内部链接            | `<i class="ri-link"></i>`                          |
 | <i class="ri-link-unlink"></i>                   | 内部链接            | `<i class="ri-link-unlink"></i>`                   |
@@ -139,7 +141,8 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 ### File Icons
 
-<details markdown='1'><summary>展开/收起</summary>
+<details markdown='1'>
+
 
 | 图标                                                         | 代码                                                         | Stylesheets |
 | :------------------------------------------------------------ | :------------------------------------------------------------ | :----------- |
@@ -163,14 +166,8 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 </details>
 
-> 图标字体库
 
-!>
-WEB UI框架会自带图标库
-
-
-
-## Link <i class="ri-link"></i>
+## Link
 
 <i class="fa fa-github fa-lg"></i> <i class="fa fa-search"></i> https://github.com/topics/icons - *icons · GitHub Topics · GitHub*
 
@@ -186,10 +183,12 @@ https://zhuanlan.zhihu.com/p/473946284 - *推荐 5 个优秀的 Javascript 图�
 
 
 
-## Tool <i class="ri-tools-line"></i>
+## Tool
+
+### 字体编辑器
 
 https://github.com/ecomfe/fonteditor :cn: - *在线字体编辑器*
-- https://kekee000.github.io/fonteditor/
+- https://kekee000.github.io/fonteditor/ - *FontEditor*
 
 https://www.high-logic.com/font-editor/fontcreator :us: - *FontCreator for Windows - the most popular font editor*
 
@@ -205,24 +204,50 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
   https://github.com/icons8
 
 
-## Iconfont
+
+### Iconfont
 
 ?>
-阿里巴巴矢量图标库
+iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提供矢量图标下载、在线存储、格式转换等功能。阿里巴巴体验团队倾力打造，设计和前端开发的便捷工具。
 
-<i class="fa fa-laptop"></i> https://www.iconfont.cn/ :cn:
+<i class="fa fa-laptop"></i> https://www.iconfont.cn/ - *iconfont-阿里巴巴矢量图标库*
 
+帮助：https://www.iconfont.cn/help/index - *iconfont-阿里巴巴矢量图标库*
 
+- [功能介绍](https://www.iconfont.cn/help/detail?helptype=about)
+- [插画模块](https://www.iconfont.cn/help/detail?helptype=draw_illustration)
+- [图标绘制](https://www.iconfont.cn/help/detail?helptype=draw)
+- [代码应用](https://www.iconfont.cn/help/detail?helptype=code)
+- [相关文章](https://www.iconfont.cn/help/detail?helptype=article)
 
-## Font Awesome 🥇
+> 《阿里巴巴矢量图标库》，下载图标等素材需要登录账号。
+
+如何在代码中使用「iconfont」？
+
+1. 打开网页，登录账号；
+2. 在网页顶部导航栏「素材库」- 「图标库」中找到要添加的图标；
+3. 将找到的图标添加入库（点击操作选项的「购物车」图标）；
+4. 添加成功后，点击顶部导航栏右上角的购物车图标；
+5. 在操作选项中点击「添加至项目」，将图标添加至指定的项目；
+6. 添加成功后，自动跳转至「资源管理」-「我的项目」页面；
+7. 在「我的项目」页面可以进一步的编辑图标、删除图标等操作；
+8. 项目准备完毕后，具体如何使用，官方「[使用帮助](https://www.iconfont.cn/help/detail?helptype=code)」文档有详细说明。
+
+## Library
+
+### Font Awesome 🥇
 
 ?> The iconic SVG, font, and CSS toolkit.<br><i class="fa fa-language dark-yellow"></i> 标志性的 SVG、字体和 CSS 工具包。
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/FortAwesome/Font-Awesome?color=blue&logo=github&style=flat-square)
 
-<i class="fa fa-laptop"></i> https://fontawesome.com/ :us:
+<i class="fa fa-laptop"></i> https://fontawesome.com/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome
+
+----
+
+https://fontawesome.com.cn/ - *首页 - FontAwesome 字体图标中文Icon*
 
 中文手册：
 
@@ -237,6 +262,14 @@ https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and M
 3. V4（官方已停止维护）
 
    https://fontawesome.dashgame.com/ - *Font Awesome，一套绝佳的图标字体库和CSS框架*
+
+英文手册：
+
+https://fontawesome.com/versions - *Font Awesome*
+
+1. https://fontawesome.com/v4/icons/ - *Font Awesome Icons*
+2. https://fontawesome.com/v5/icons/ - *Find the Perfect Icon for Your Project in Font Awesome 5 | Font Awesome*
+3. https://fontawesome.com/v6/icons/ - *Search Icons & Find the Perfect Design | Font Awesome*
 
 用法：
 
@@ -261,7 +294,7 @@ a[target=_blank]:after {
 }
 ```
 
-## Remix Icon 🥈
+### Remix Icon 🥈
 
 ?> Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
 
@@ -271,8 +304,7 @@ a[target=_blank]:after {
 
 <i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
 
-
-## Ionicons 🥉
+### Ionicons 🥉
 
 ?> Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
 
@@ -291,8 +323,7 @@ https://unpkg.com/ionicons/
 <script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 ```
 
-
-## Foundation Icon Fonts
+### Foundation Icon Fonts
 
 ?> Customize your icons to be any size, color, style in CSS
 
@@ -302,8 +333,7 @@ https://unpkg.com/ionicons/
 
 <i class="ri-soundcloud-line"></i> https://unpkg.com/foundation-icons/
 
-
-## Bootstrap Icons
+### Bootstrap Icons
 
 ?> Official open source SVG icon library for Bootstrap.<br><i class="fa fa-language dark-yellow"></i> Bootstrap 的官方开源 SVG 图标库。
 
@@ -315,7 +345,7 @@ https://unpkg.com/ionicons/
 
 
 
-## File Icons
+### File Icons
 
 ?> High-quality vector icons for Atom and VSCode, with thousands of supported filetypes and growing.<br><i class="fa fa-language dark-yellow"></i> Atom和VSCode的高质量矢量图标，支持数千种文件类型，并且不断增长。
 
@@ -330,8 +360,7 @@ https://www.jsdelivr.com/package/npm/file-icons-js
 <span class="icon octicon-file css3-icon medium-blue"></span>
 https://cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css
 
-
-## Styled Icons 🔥
+### Styled Icons 🔥
 
 ?> 💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components.<br><i class="fa fa-language dark-yellow"></i> 💅 流行的图标包，如Font Awesome、Material Design和Octicons，可作为React样式的组件提供。
 
@@ -341,8 +370,7 @@ https://cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css
 
 <i class="fa fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons
 
-
-## React Icons
+### React Icons
 
 ?>
 svg react icons of popular icon packs
@@ -355,8 +383,7 @@ https://react-icons.github.io/react-icons/
 <i class="fa fa-github fa-lg"></i>
 https://github.com/react-icons/react-icons
 
-
-## Octicons (For Github)
+### Octicons (For Github)
 
 ?> A scalable set of icons handcrafted with <3 by GitHub.  
 <i class="bi bi-translate dark-yellow"></i> GitHub 使用 <3 手工制作的一组可扩展图标。
@@ -371,8 +398,7 @@ https://github.com/react-icons/react-icons
 
 <i class="ri-soundcloud-line"></i> https://www.bootcdn.cn/octicons/
 
-
-## Material Design Icons
+### Material Design Icons
 
 ?> Material Design icons by Google.<br><i class="bi bi-translate dark-yellow"></i> Google 的 Material Design 图标。
 
@@ -437,7 +463,7 @@ a[target=_blank]:after {
 
 
 
-## Glyphicons®
+### Glyphicons®
 
 ?> Visual language that everybody understands.<br><i class="fa fa-language dark-yellow"></i> 每个人都能理解的视觉语言。
 
@@ -447,7 +473,7 @@ a[target=_blank]:after {
 
 
 
-## vscode-icons
+### vscode-icons
 
 ?> Icons for Visual Studio Code
 
@@ -461,7 +487,7 @@ https://github.com/microsoft/vscode-codicons
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/vscode-codicons?color=blue&logo=github&style=flat-square)
 
-## More
+### More
 
 1. https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN* ![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
 2. https://github.com/tabler/tabler-icons - *tabler/tabler-icons: A set of over 4000 free MIT-licensed high-quality SVG icons for you to use in your web projects.*

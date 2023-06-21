@@ -1,50 +1,48 @@
-![](../_media/glossary-hero.png)
-<small>*插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)*</small>
+![](../_media/725a2733193942518c254a7eb15e61feeb01fde0e2b051a9168e9c080263d2c6.jpg)
+<small>*插图来源于：[Quzizz](https://quizizz.com/?lng=zh-CN)*</small>
 
 **文档手册**
 
 - [MDN Web Docs](https://developer.mozilla.org/zh-CN/)
 - [网道 - 互联网开发文档](https://wangdoc.com/)
-- [阮一峰的网络日志](home/book.md#阮一峰的网络日志)
+- [冴羽写博客的地方](https://github.com/mqyqingfeng/Blog)
+- [阮一峰的网络日志](http://www.ruanyifeng.com/blog/) 👉 [分类整理](home/book.md#阮一峰的网络日志)
 - [菜鸟教程](https://www.runoob.com/)
-- 👏[文档模板](home/document-template.md)
-
-**插件**
-
-- [Docsify](os/tools/docsify.md)
-- [PrismJS](开发框架/javascript-plugins.md#prismjs)
-- [Primer CSS](https://primer.style/css/)
-- [Element⁺](https://element-plus.gitee.io/zh-CN/)
-- [SweetAlert2](https://sweetalert2.github.io/)
 
 **浏览器扩展**
+
 - [Crx搜搜](https://www.crxsoso.com/)
+- [Tampermonkey](os/tools/browser-extensions.md#tampermonkey)
 
 **写作辅助工具**
+- 👏 [文档模板](home/document-template.md)
+- 📄 [代码片段](snippets/README.md)
 - [在线工具](os/tools/online.md)
   - [菜鸟工具](https://c.runoob.com/)
   - [URL编解码](https://tool.browser.qq.com/urlencode.html)
 - [Markdown Guide](https://www.markdownguide.org/)
-- [代码片段](snippets/README.md)
+- [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/)
 
 **网址导航**
+
 - [首页](README.md)
 - [GitHub](https://github.com/)
 
 ------
 
-**Quick Links**
+**快速导航（Quick Links）**
 
 - [Emojipedia](https://emojipedia.org/)
-- [菜鸟教程](https://www.runoob.com/)
-- [阮一峰的网络日志](home/book.md#阮一峰的网络日志)
 - [廖雪峰的官方网站](https://www.liaoxuefeng.com/)
-- [阿虚同学](os/tools/search.md#阿虚同学)
+- [阿虚同学](os/tools/search.md#阿虚同学) 👉 [阿虚同学的储物间](https://axutongxue.com/)
 - [jaywcjlove (小弟调调\) · GitHub](https://github.com/jaywcjlove)
+- [程序员英语词汇宝典](https://learn-english.dev/)
+- [Bootstrap中文网](https://www.bootcss.com/)
 
-**Document Plug-in**
+**文档插件（Document Plug-in）**
 
-- [Primer CSS](https://primer.style/css/)
 - [Docsify](os/tools/docsify.md) 👉 [docsify](https://docsify.js.org/#/)
 - [Animate.css](https://animate.style/)
-- [Element UI](开发框架/README.md#Element-UI-🔥)
+- [Element UI](开发框架/README.md#Element-UI-🔥) 👉 [Element⁺](https://element-plus.gitee.io/zh-CN/)
+- [PrismJS](开发框架/javascript-plugins.md#prismjs) 👉 [Prism](https://prismjs.com/index.html)
+- [SweetAlert2](https://sweetalert2.github.io/)

@@ -4,6 +4,8 @@
 
 https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
 
+https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model - *文档对象模型 (DOM) - Web API 接口参考 | MDN*
+
 ## 查找 HTML 元素
 
 
@@ -84,6 +86,10 @@ demo.color
 
 ## 改变 CSS
 
+### 通过 style 属性改变
+
+https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 菜鸟教程*
+
 - 改变 HTML 样式
   
   语法：
@@ -97,11 +103,6 @@ demo.color
   ```javascript
   document.getElementById("p2").style.color = "blue";
   ```
-
-  ```javascript
-  document.querySelector('body').classList.toggle('close');
-  ```
-  *👆 给 body 标签新增 close 类。*
   
 - 移除样式
 
@@ -117,7 +118,30 @@ demo.color
   document.getElementsByTagName("H1")[0].removeAttribute("style");
   ```
 
-  
+### 通过 class 属性改变
+
+https://www.runoob.com/jsref/prop-element-classList.html - *HTML DOM classList 属性 | 菜鸟教程*
+
+语法：
+
+`element.classList.add(class1, class2, ...);` 在元素中添加一个或多个类名。
+
+`element.classList.contains(class);` 返回布尔值，判断指定的类名是否存在。
+
+`element.classList.item(index);` 返回元素中索引值对应的类名。索引值从 0 开始。
+
+`element.classList.remove(class1, class2, ...);` 移除元素中一个或多个类名。
+
+`element.classList.toggle(class, true|false);` 在元素中切换类名。
+
+实例：
+
+  ```javascript
+  document.querySelector('body').classList.toggle('close');
+  ```
+  *👆 给 body 标签新增 close 类。*
+
+⚠️ 具体用法点击上方链接进入页面查看。
 
 
 ## 创建 HTML 元素
@@ -170,6 +194,16 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
   </script>
   ```
 
+- 使用 [EventListener](#EventListener) 来监听事件
+
+  ```js
+  <script>
+    document.getElementById("myBtn").addEventListener("click", function(){
+      displayDate();
+    });
+  </script>
+  ```
+
 - 事件
 
   https://www.runoob.com/jsref/dom-obj-event.html - *HTML DOM 事件*
@@ -184,6 +218,46 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
   8. onclick
   9. ...
 
+- ⚠️注意事项
+
+  - `addEventListener()` 方法添加的事件句柄不会覆盖已存在的事件句柄。
+
+    实例：
+
+    ```js
+    var x = document.getElementById("myBtn");
+    x.addEventListener("click", myFunction);
+    x.addEventListener("click", someOtherFunction);
+    function myFunction() {
+        alert ("Hello World!")
+    }
+    function someOtherFunction() {
+        alert ("函数已执行!")
+    }
+    ```
+
+    \> 以上代码会执行两次（执行完 myFunction 后接着会执行 someOtherFunction ），[在线实践](https://www.runoob.com/try/try.php?filename=tryjs_addeventlistener_add_many)。
+
+  - `onclick` 事件添加的事件句柄会覆盖已存在的事件句柄。
+
+    实例：
+
+    ```js
+    var x = document.getElementById("myBtn");
+    x.onclick = myFunction;
+    x.onclick = someOtherFunction;
+    function myFunction() {
+        alert ("Hello World!")
+    }
+    function someOtherFunction() {
+        alert ("函数已执行!")
+    }
+    ```
+
+    \> 以上代码会执行一次（执行最新添加的 someOtherFunction 点击事件）。
+
+### 事件委托？
+
 ## EventListener
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#options - *EventTarget.addEventListener() - Web API 接口参考 | MDN*
@@ -197,6 +271,10 @@ element.addEventListener(event, function, useCapture);
 ```javascript
 element.removeEventListener(event, function, useCapture);
 ```
+
+### DOMContentLoaded 事件
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/Document/DOMContentLoaded_event - *Document: DOMContentLoaded 事件 - Web API 接口参考 | MDN*
 
 ## 监听 DOM 变化
 
@@ -214,12 +292,33 @@ https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的Mut
 https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 | 菜鸟教程*
 
 常用方法：
-1. [document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html)
-2. [document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html)
+1. [document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html) - 向文档添加句柄
+2. [document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html) - 返回文档中匹配指定的CSS选择器的第一元素（[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector)）
+3. [document.querySelectorAll()](https://www.runoob.com/jsref/met-document-queryselectorall.html) - document.querySelectorAll() 是 HTML5中引入的新方法，返回文档中匹配的CSS选择器的所有元素节点列表
 
 ### 元素对象
 
 https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象 | 菜鸟教程*
+
+#### 获取属性
+
+[*element*.attributes](https://www.runoob.com/jsref/prop-node-attributes.html) - 返回一个元素的属性数组
+
+[*element*.getAttribute()](https://www.runoob.com/jsref/met-element-getattribute.html) - 返回指定元素的属性值
+
+[*element*.getAttributeNode()](https://www.runoob.com/jsref/met-element-getattributenode.html) - 返回指定属性节点
+
+[*element*.hasAttribute()](https://www.runoob.com/jsref/met-element-hasattribute.html) - 如果元素中存在指定的属性返回 true，否则返回false。
+
+[*element*.hasAttributes()](https://www.runoob.com/jsref/met-node-hasattributes.html) - 如果元素有任何属性返回true，否则返回false。
+
+[*element*.removeAttribute()](https://www.runoob.com/jsref/met-element-removeattribute.html) - 从元素中删除指定的属性
+
+[*element*.removeAttributeNode()](https://www.runoob.com/jsref/met-element-removeattributenode.html) - 删除指定属性节点并返回移除后的节点。
+
+[*element*.setAttribute()](https://www.runoob.com/jsref/met-element-setattribute.html) - 设置或者改变指定属性并指定值。
+
+[*element*.setAttributeNode()](https://www.runoob.com/jsref/met-element-setattributenode.html) - 设置或者改变指定属性节点。
 
 ### 属性对象
 
@@ -240,6 +339,10 @@ https://www.runoob.com/jsref/obj-cssstyledeclaration.html - *CSS 样式声明对
 ### DOM HTMLCollection
 
 https://www.runoob.com/jsref/dom-htmlcollection.html - *DOM HTMLCollection | 菜鸟教程*
+
+### DOM NodeList
+
+https://www.runoob.com/js/js-htmldom-nodelist.html - *JavaScript HTML DOM 节点列表 | 菜鸟教程*
 
 ## Form 对象
 

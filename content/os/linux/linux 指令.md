@@ -1,6 +1,6 @@
 ## ???
 
-源码安装与一键安装
+源码安装、编译安装与一键安装
 
 ## 使用教程
 
@@ -14,13 +14,22 @@ https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 
 ## 命令大全
 
-https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
+1. https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
 
-https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linux Linux命令搜索引擎 命令详解：最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎*
+2. https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linux Linux命令搜索引擎 命令详解：最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎*
 
-- https://github.com/jaywcjlove/linux-command - *GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux*
+   - https://github.com/jaywcjlove/linux-command - *GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux*
+
 
 ## 常用命令
+
+> 以下的命令可以点击对应的链接，进入网页查看使用实例。
+
+### 文件权限管理
+
+https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜鸟教程*
+
+`chmod` - *控制用户对文件的权限的命令*
 
 ### 文件基本属性
 
@@ -138,7 +147,19 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 `clear`
 
 
-### 修改用户密码
+### 复制文件或文件夹
+
+`cp [选项] [源文件或目录] [目标文件或目录]`
+
+### 系统管理
+
+#### 查看当前用户
+
+https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜鸟教程*
+
+`whoami` - *显示自身用户名称。*
+
+#### 修改用户密码
 
 `id` - _查看登录用户信息_
 
@@ -146,12 +167,6 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 
 `passwd [用户名]` - _修改其他用户密码_
 
-
-### 复制文件或文件夹
-
-`cp [选项] [源文件或目录] [目标文件或目录]`
-
-
-### 退出登录
+#### 退出登录
 
 `exit`

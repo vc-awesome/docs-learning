@@ -339,8 +339,6 @@ GitHub：https://github.com/badges/shields
 
 #### Stability
 
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-
 https://github.com/badges/stability-badges - *GitHub - badges/stability-badges: A set of SVG badges to mark your modules with the Node stability index*
 
 
@@ -349,12 +347,12 @@ https://github.com/badges/stability-badges - *GitHub - badges/stability-badges: 
 
 | Name         | Badge                                                        | Description |
 | ------------ | ------------------------------------------------------------ | ----------- |
-| Deprecated   | [![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges) | 已弃用      |
-| Experimental | [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges) | 试验        |
-| Unstable     | [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges) | 不稳定      |
-| Stable       | [![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges) | 稳定        |
-| Frozen       | [![frozen](http://badges.github.io/stability-badges/dist/frozen.svg)](http://github.com/badges/stability-badges) | 冻结        |
-| Locked       | [![locked](http://badges.github.io/stability-badges/dist/locked.svg)](http://github.com/badges/stability-badges) | 锁定        |
+| Deprecated   | ![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg) | 已弃用      |
+| Experimental | ![experimental](http://badges.github.io/stability-badges/dist/experimental.svg) | 试验        |
+| Unstable     | ![unstable](http://badges.github.io/stability-badges/dist/unstable.svg) | 不稳定      |
+| Stable       | ![stable](http://badges.github.io/stability-badges/dist/stable.svg) | 稳定        |
+| Frozen       | ![frozen](http://badges.github.io/stability-badges/dist/frozen.svg) | 冻结        |
+| Locked       | ![locked](http://badges.github.io/stability-badges/dist/locked.svg) | 锁定        |
 
 
 #### License
@@ -407,15 +405,13 @@ https://cli.github.com/ - *GitHub CLI | Take GitHub to the command line*
 
 https://docs.github.com/zh/github-cli - *GitHub CLI - GitHub Docs*
 
-
-### 扩展程序
+### 浏览器扩展程序
 
 https://github.com/topics/github-extension - *github-extension · GitHub Topics · GitHub*
 
-[浏览器扩展程序 - GitHub](/tools/browser-extensions?id=github)
+- 有关详细信息，请参阅“[浏览器扩展程序 - GitHub](os/tools/browser-extensions.md#github)”。
 
-[浏览器扩展程序 - Tampermonkey](/tools/browser-extensions?id=tampermonkey-github)
-
+- 有关详细信息，请参阅“[浏览器扩展程序 - Tampermonkey](os/tools/browser-extensions.md#tampermonkey-github)”。
 
 ### 访问加速
 
@@ -459,12 +455,12 @@ https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法�
 
 #### 镜像站
 
-[镜像](home/README.md#镜像站)
+有关详细信息，请参阅“[镜像](home/README.md#镜像站)”。
 
 https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
 ## FAQ
 
-### Github打不开怎么办？
+### GitHub 打不开怎么办？
 
 https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打不开怎么办？*

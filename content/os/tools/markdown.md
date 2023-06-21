@@ -439,6 +439,13 @@ HTML entities like &reg; &#182;
 
 
 
+<details>
+<summary><span style="color:red">Click to Expand ~</span></summary>
+Color is red.
+</details>
+
+
+
 *iframe*
 
 <iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
@@ -775,7 +782,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 ### 上标
 
-> 需开启`Typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
+> 需开启`Typora`工具的「上标」设置 *文件 > 偏好设置 > Markdown > Markdown扩展语法*，设置完后重启工具
 
 <!-- tabs:start -->
 
@@ -797,7 +804,7 @@ X<sup>2</sup>
 
 ### 下标
 
-> 需开启`Typora`工具的*上标*设置 `文件` -> `偏好设置` -> `Markdown` -> `Markdown扩展语法`，设置完后重启工具
+> 需开启`Typora`工具的「下标」设置 *文件 > 偏好设置 > Markdown > Markdown扩展语法*，设置完后重启工具
 
 <!-- tabs:start -->
 

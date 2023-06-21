@@ -95,8 +95,9 @@ https://github.com/victorporof/Sublime-HTMLPrettify - *HTML, CSS, JavaScript, J
 
 https://jingyan.baidu.com/article/154b46312e3d3f28ca8f41e0.html - *sublime中如何格式化代码-百度经验*
 
+### CSS
 
-### Autoprefixer（CSS自动完成前缀）
+#### Autoprefixer（CSS自动完成前缀）
 
 https://github.com/sindresorhus/sublime-autoprefixer - *GitHub - sindresorhus/sublime-autoprefixer: Sublime plugin to prefix your CSS*
 
@@ -156,6 +157,11 @@ https://blog.csdn.net/weixin_30832351/article/details/98560819 - *Sublime Text �
       - https://www.cnblogs.com/weizaiyes/p/6064569.html - *Sublime Text3中Autoprefixer失效解决方法 - WWSASUKE - 博客园*
       - http://www.zlprogram.com/Show/14/14203.shtml - *sublime安装插件autoprefixer--Java,.Net,Python,Javascript,Vue,数据库程序教程*
 
+#### CSScomb（CSS样式格式化）
+
+https://packagecontrol.io/packages/CSScomb - *CSScomb - Packages - Package Control*
+
+https://github.com/csscomb/csscomb.js/ - *GitHub - csscomb/csscomb.js: CSS coding style formatter*
 
 ### Json Reindent（JSON 格式化）
 

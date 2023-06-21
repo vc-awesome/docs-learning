@@ -1,3 +1,7 @@
+<div style="position: relative;min-height: 35px;background: rgb(190 179 255) url(../_media/../_media/glossary-hero.png) top/cover no-repeat;box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;margin-bottom: 35px;">
+<i style="position: absolute;right: 0;bottom: -25px;font-size: xx-small;">
+
+插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)&nbsp;&nbsp;</i></div>
 
 ```md
 支持 Windows, macOS, Linux, Android, iOS, Web, 微信小程序, 浏览器扩展, 代码部署

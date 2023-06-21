@@ -84,10 +84,28 @@ https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux W
 pkg help
 ```
 
+```
+pkg
+```
+
+注：*显示命令帮助*
+
 ```sh
 pkg upgrade
 ```
 注：*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
+
+```sh
+pkg install package-name
+```
+
+注：*Installing a new package. - 安装新的软件包。*
+
+```sh
+pkg reinstall <package>
+```
+
+注：*Re-install specified package.. - 重新安装指定的软件包。*
 
 ```sh
 pkg uninstall
@@ -103,12 +121,23 @@ pkg list-installed
 ```
 注：*List installed packages. - 列出已安装的软件包。*
 
+```sh
+pkg list-all
+```
+
+注：*List all available packages. - 列出所有可用的软件包。*
+
+```sh
+pkg show <package>
+```
+
+注：*Show information about specific package. - 显示有关特定包的信息。*
 
 ### Addons
 
 https://wiki.termux.com/wiki/Main_Page#Addons - *Termux Wiki*
 
-https://zsxwz.com/2019/06/22/termux%E5%87%A0%E4%B8%AA%E6%8F%92%E4%BB%B6%E4%BD%BF%E7%94%A8/ - *termux几个插件使用 – 姿势小王子*
+<https://zsxwz.com/2019/06/22/termux几个插件使用/> - *termux几个插件使用 – 姿势小王子*
 
 #### Termux:API
 https://wiki.termux.com/wiki/Termux:API - *Termux:API - Termux Wiki*
@@ -185,7 +214,7 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
         执行结果：*lrwxrwxrwx 1 u0_a410 u0_a410 44 Mar  8 17:26 <span style="color: #ff5d5d;">browser-sync -> ../lib/node_modules/browser-sync/dist/bin.js</span>* ；
         
         注：执行的结果中包含 *browser-sync -> ../lib/node_modules/browser-sync/dist/bin.js* 表示为 js 脚本。
-        
+    
 - 参考：
     https://blog.csdn.net/qq_36821517/article/details/127836409 - *Termux执行shell脚本报错：cannot execute: required file not found_cannot execute shell_我好高冷的博客-CSDN博客*
     
@@ -222,7 +251,7 @@ https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-
 
 1. 开启“访问本机存储”，请参阅“[手机电脑互传文件](https://blog.csdn.net/xiao_qi_tong/article/details/122628099)”
 
-    
+   
     ```sh
     termux-setup-storage
     ```
@@ -313,11 +342,11 @@ https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-
      ```sh
      termux-chroot
      ```
-     
+    
      ```sh
      apachectl restart
      ```
-     
+    
     1. 打开 “网页浏览器”，输入网址：http://127.0.0.1:8080 ，能访问网页说明配置成功。
 
 ### 如何安装 Node.js 和 Browsersync ？

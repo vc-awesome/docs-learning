@@ -1,3 +1,5 @@
+## Introduction
+
 ?> 🃏 A magical documentation site generator.<br><i class="fa fa-language dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github) ![GitHub Release Date](https://img.shields.io/github/release-date/docsifyjs/docsify?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social) ![npm](https://img.shields.io/npm/v/docsify?logo=npm&style=social)
@@ -8,8 +10,9 @@ https://docsify.js.org/ - *A magical documentation generator.*
 
 https://github.com/docsifyjs/docsify/ - *GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.*
 
-
 ## Usage
+
+### 文档助手
 
 语法：
 
@@ -36,7 +39,6 @@ https://github.com/docsifyjs/docsify/ - *GitHub - docsifyjs/docsify: 🃏 A magi
 渲染效果：
 
 !> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
-
 
 ### 解析 Markdown 内容
 
@@ -75,6 +77,63 @@ window.$docsify.plugins.push(
 </script>
 ```
 
+### 开发插件
+
+https://docsify.js.org/#/write-a-plugin - *Write a Plugin*
+
+```js
+(function () {
+  var myPlugin = function (hook, vm) {
+    // Invoked one time when docsify script is initialized
+    hook.init(function () {
+      // ...
+      document.querySelector(".d-none").classList.remove("d-none");
+      console.log("init");console.log(document.querySelector(".d-none"));
+    });
+
+    // Invoked one time when the docsify instance has mounted on the DOM
+    hook.mounted(function () {
+      // ...
+
+      console.log("mounted");console.log(document.querySelector(".d-none"));
+    });
+
+    // Invoked on each page load before new markdown is transformed to HTML.
+    // Supports asynchronous tasks (see beforeEach documentation for details).
+    hook.beforeEach(function (markdown) {
+      // ...
+      console.log("beforeEach");console.log(document.querySelector(".d-none"));
+      return markdown;
+    });
+
+    // Invoked on each page load after new markdown has been transformed to HTML.
+    // Supports asynchronous tasks (see afterEach documentation for details).
+    hook.afterEach(function (html) {
+      // ...
+      console.log("afterEach");console.log(document.querySelector(".d-none"));
+      return html;
+    });
+
+    // Invoked on each page load after new HTML has been appended to the DOM
+    hook.doneEach(function () {
+      // ...
+      console.log("doneEach");console.log(document.querySelector(".d-none"));
+    });
+
+    // Invoked one time after rendering the initial page
+    hook.ready(function () {
+      // ...
+      console.log("ready");console.log(document.querySelector(".d-none"));
+    });
+  };
+
+  // Add plugin to docsify's plugin array
+  $docsify = $docsify || {};
+  $docsify.plugins = [].concat(myPlugin, $docsify.plugins || []);
+})();
+```
+
+执行顺序：*init > mounted > beforeEach > afterEach > doneEach > ready*
 
 ## Links
 

@@ -43,6 +43,10 @@ https://www.fengjs.com/tools/svg2path.html - *SVG转DataURL - FengJS简单极致
 
 4. https://m3u8.cococut.net/player.html - *M3U8 Player - Online HTTP Live Streaming Player For Free*
 
+5. https://m3u8play.com/ - *M3U8播放器 - M3U8在线播放器 - M3U8直播源 - M3U8在线测试 - m3u8play.com*
+
+6. https://m3u8-player.com/ - *m3u8在线播放器*
+
 
 ## 采集工具
 

@@ -135,10 +135,9 @@ $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
 });
 ```
 
-
 ### jquery 手册事件处理 on、bind
 
-jQuery获取清空 input 值的几种方法
+### jquery获取清空 input 值的几种方法
 
 ```javascript
 $("#id").val("");
@@ -593,22 +592,22 @@ h1 {
 
 ### 事件处理
 
-https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers - *事件处理 | Vue.js*
+1. https://cn.vuejs.org/guide/essentials/event-handling.html#event-modifiers - *事件处理 | Vue.js*
 
-https://wangdoc.com/javascript/events/model#事件的传播 - *事件模型 - JavaScript 教程 - 网道*
+2. https://wangdoc.com/javascript/events/model#事件的传播 - *事件模型 - JavaScript 教程 - 网道*
 
-https://wangdoc.com/javascript/events/event - *Event 对象 - JavaScript 教程 - 网道*
+3. https://wangdoc.com/javascript/events/event - *Event 对象 - JavaScript 教程 - 网道*
 
-https://blog.csdn.net/wsln_123456/article/details/102397112 - *JS阻止子元素触发父元素的事件_阻止子元素触发父元素事件_花铛的博客-CSDN博客*
+4. https://blog.csdn.net/wsln_123456/article/details/102397112 - *JS阻止子元素触发父元素的事件_阻止子元素触发父元素事件_花铛的博客-CSDN博客*
 
-https://www.5axxw.com/questions/content/x9lfr5?g - *如何使用父元素阻止子元素上的单击事件 - 我爱学习网*
+5. https://www.5axxw.com/questions/content/x9lfr5?g - *如何使用父元素阻止子元素上的单击事件 - 我爱学习网*
 
-https://blog.csdn.net/weixin_39987313/article/details/111538593 - *js阻止子元素事件_JS阻止冒泡和取消默认事件(默认行为)-前端开发博客_weixin_39987313的博客-CSDN博客*
+6. https://blog.csdn.net/weixin_39987313/article/details/111538593 - *js阻止子元素事件_JS阻止冒泡和取消默认事件(默认行为)-前端开发博客_weixin_39987313的博客-CSDN博客*
 
-https://blog.csdn.net/Maybe_ss/article/details/125894645 - *JavaScript事件监听器总结-CSDN博客*
+7. https://blog.csdn.net/Maybe_ss/article/details/125894645 - *JavaScript事件监听器总结-CSDN博客*
 
 
-### button 按钮点击事件绑定-- onClick 事件
+### button 按钮点击事件绑定
 
 https://blog.csdn.net/kye055947/article/details/79619538 - *【JavaScript】按钮绑定点击事件-onCliek事件_js 绑定按钮事件_程序员不弃的博客-CSDN博客*
 
@@ -635,8 +634,7 @@ onclick="window.location.href='#'"
 
 2. 添加属性 `minlength="4" maxlength="4"`
 
-
-### a 标签响应 onclick 事件，并且不执行 href动作
+### a 标签响应 onclick 事件，并且不执行 href 动作
 
 ```html
 <a href="javascript:void(0)" onclick="doSomething()">链接</a>

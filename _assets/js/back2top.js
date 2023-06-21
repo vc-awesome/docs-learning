@@ -1,4 +1,3 @@
-
 document.addEventListener('DOMContentLoaded', () => {
     var THRESHOLD = 0;
     // For init back to top in sidebar if page was scrolled after page refresh.
@@ -18,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
           scrollPercent = 0;
           
         }
-        // console.log(docHeight, winHeight, window.scrollY)
+        // console.log("docHeight: " + docHeight, "winHeight: " + winHeight, "window.scrollY: " + window.scrollY, contentVisibilityHeight, document.body.scrollHeight)
         document.querySelector('button.back-to-top-progress').innerText = Math.round(scrollPercent) + '%';
       }
       }
@@ -43,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
         targets  : document.scrollingElement,
         duration : 500,
         easing   : 'linear',
-        scrollTop: 200000
+        scrollTop: document.body.scrollHeight
       });
     });
 });

@@ -321,20 +321,28 @@ aside.toc-nav {
   width: 28px;
 }
 /* 滚动条样式 start */
-.toc-nav::-webkit-scrollbar {
+.app-nav li ul::-webkit-scrollbar
+,.toc-nav::-webkit-scrollbar {
   width: 4px;
 }
-.toc-nav::-webkit-scrollbar-thumb {
+.app-nav li ul::-webkit-scrollbar-thumb
+,.toc-nav::-webkit-scrollbar-thumb {
   background: transparent;
   border-radius: 4px;
 }
-.toc-nav:hover::-webkit-scrollbar-thumb {
+.app-nav li ul:hover::-webkit-scrollbar-thumb
+,.toc-nav:hover::-webkit-scrollbar-thumb {
   background: rgba(136,136,136,0.4);
 }
-.toc-nav:hover::-webkit-scrollbar-track {
+.app-nav li ul:hover::-webkit-scrollbar-track
+,.toc-nav:hover::-webkit-scrollbar-track {
   background: rgba(136,136,136,0.1);
 }
 /* 滚动条样式 end */
 .no-right-toc section.content {
   padding-right: 0!important;
+}
+.no-right-toc button.toc-toggle {
+  visibility: hidden;
+  /*display: none;*/
 }

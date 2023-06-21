@@ -1,5 +1,5 @@
 _编写 “工具使用文档” 模板，参考下列 ✍🏻_
-  
+
 <output data-lang="output">
 
 [GitHub Docs 官网](https://docs.github.com/zh)
@@ -23,9 +23,10 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 
 </output>
 
-<output data-lang="output🧬">
+<output data-lang="output">
 
 [中文技术文档的写作规范 - 阮一峰](https://github.com/ruanyf/document-style-guide)
+
 1. [标题](https://github.com/ruanyf/document-style-guide/blob/master/docs/title.md)
 2. [文本](https://github.com/ruanyf/document-style-guide/blob/master/docs/text.md)
 3. [段落](https://github.com/ruanyf/document-style-guide/blob/master/docs/paragraph.md)
@@ -56,15 +57,15 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 
 <output data-lang="output">
 
-如何快速上手使用 App？
-1. 干什么用，有什么用途（简介）
-2. 如何安装（下载）
-3. 简单实例教程（快速入门）
-4. 如何设置各项操作的参数（配置）
-5. 使用中会遇到什么问题（FAQ）
-6. 遇到问题网上搜索别人的解决方式（参考）
-7. 是否依赖其它工具才能运行
-8. 可搭配什么工具，使其运行更高效
+如何快速上手使用 App ？
+1. 干什么用，有什么用途（简介）；
+2. 如何安装（下载）；
+3. 简单实例教程（快速入门）；
+4. 如何设置各项操作的参数（配置）；
+5. 使用中会遇到什么问题（FAQ）；
+6. 遇到问题网上搜索别人的解决方式（参考）；
+7. 是否依赖其它工具才能运行；
+8. 可搭配什么工具，使其运行更高效。
 
 </output>
 
@@ -87,24 +88,24 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 
 <output data-lang="output">
 
-- Introduction - *简介*
-- Tutorials - *教程*
-- Getting started - *入门指南*
-- Quick Start - *快速入门*
-- Installation - *安装*
-- Configuration - *设置*
-- Usage - *用法*
-- Advanced Usage - *高级用法*
-- FAQ - *常见问题解答*
-- Reference - *参考*
+- `Introduction` - *简介*
+- `Tutorials` - *教程*
+- `Getting started` - *入门指南*
+- `Quick Start` - *快速入门*
+- `Installation` - *安装*
+- `Configuration` - *设置*
+- `Usage` - *用法*
+- `Advanced Usage` - *高级用法*
+- `FAQ` - *常见问题解答*
+- `Reference` - *参考*
     - 参考博文
     - 参考资料
     - 参考文献
-- Index - *索引*
-- Keyword search - *关键词搜索*
-- Technologies - *技术列表* *via https://github.com/gsantner/markor*
-- Who uses - *谁在使用* *via https://github.com/kucherenko/jscpd*
-- Glossary - *术语表*
+- `Index` - *索引*
+- `Keyword search` - *关键词搜索*
+- `Technologies` - *技术列表* *via https://github.com/gsantner/markor*
+- `Who uses` - *谁在使用* *via https://github.com/kucherenko/jscpd*
+- `Glossary` - *术语表*
 
 </output>
 

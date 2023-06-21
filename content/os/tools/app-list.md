@@ -55,7 +55,7 @@
         <details><summary><i style="color:red">SEE MORE >></i></summary>
 
         - 主页：https://notepad-plus-plus.org
-         
+        
         - GitHub：https://github.com/notepad-plus-plus/notepad-plus-plus/
         </details>
 
@@ -83,6 +83,9 @@
 #### 插件
 
 1. [Emmet](https://github.com/emmetio/emmet) - *GitHub - emmetio/emmet: The essential toolkit for web-developers，提升编写 HTML/CSS 代码效率的文本编辑器插件*
+
+2. [EditorConfig](https://editorconfig.org/) - *EditorConfig is a file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.*
+
 
 ### 命令行
 
@@ -163,14 +166,23 @@
 
     - 开源软件（[GitHub](https://github.com/YMFE/yapi/)）
 
+3. [RAP](https://github.com/thx/rap2-delos) - *阿里妈妈前端团队出品的开源接口管理工具RAP第二代*
+    - 支持 Web, 代码部署
+
+    - 开源软件
+
 
 ### 测试工具
 
-1. [JMeter](https://jmeter.apache.org/ ':id=jmeter') <i class="fa fa-windows"></i> <i class="fa fa-github"></i> - *It was originally designed for testing Web Applications but has since expanded to other test functions.*
+1. [JMeter](https://jmeter.apache.org/ ':id=jmeter') - *It was originally designed for testing Web Applications but has since expanded to other test functions.*
+
+   - 支持 Windows
+
+   - 开源软件（[GitHub](https://github.com/apache/jmeter)）
 
    <details>
    <summary><i style="color:red">SEE MORE >></i></summary>
-
+   
    - 主页：https://jmeter.apache.org/
    
    - GitHub：https://github.com/apache/jmeter
@@ -391,7 +403,7 @@ https://www.bilibili.com/read/cv9664325/ - *那些眼花缭乱……的写作软
 
 1. ✅ [雷电模拟器](https://www.ldmnq.com/) - *「雷电安卓模拟器」手游模拟器安卓版-android手机模拟器电脑版*
     - 支持 Windows
-     
+    
     <details><summary><i style="color:red">SEE MORE >></i></summary>
    
         https://www.cnblogs.com/ljy-/p/12144964.html - *雷电模拟器配置软键盘弹出*
@@ -674,6 +686,9 @@ https://post.smzdm.com/p/avx87xop/ - *用的最爽的Windows软件，每一个�
 
     https://post.smzdm.com/p/az6lgo7r/ - *堪称神器的软件 篇四：神器组合：PowerToys Run+Everything搭建最强启动器*
 
+### macOS
+
+1. [NetWorker Pro](https://www.imacso.com/networker-pro.html) - *NetWorker是一种轻量级且易于使用的工具，显示当前下载和上传速度或网络适配器的会话流量。 信息显示在菜单栏中的小视图中。*
 
 ## 系统备份
 
@@ -953,7 +968,7 @@ https://www.v1tx.com/post/best-email-client/ - *10款好用的邮件客户端推
         - Mastodon 应用：
           
             https://joinmastodon.org/zh/apps - *获取 Mastodon 应用 - Mastodon*
-      </details>
+          </details>
 
 
 
