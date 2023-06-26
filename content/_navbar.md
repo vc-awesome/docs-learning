@@ -1,8 +1,12 @@
 - [Home](home/README.md)
+  
+    - *🔻* **常用文档**
     - [<i class="fa fa-book fa-fw"></i> 学习](home/book.md)
     - [<i class="fab fa-github fa-fw"></i> GitHub](os/tools/github.md)
+    - [<i class="fa-brands fa-git-alt fa-fw" style="color: #f64d27;"></i> Git](os/tools/git.md)
     - [<i class="fab fa-markdown fa-fw"></i> Markdown](os/tools/markdown.md)
     - [<i class="fa fa-warning medium-orange fa-fw"></i> Warning](home/README.md#warning)
+    - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/linux/linux%20指令)
     - <hr />
     - [<i class="fa fa-list-ul fa-fw"></i> TOC](home/toc.md)
     - [<i class="far fa-smile-wink fa-fw"></i> Emoji](home/emoji.md)
@@ -35,7 +39,7 @@
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-uniapp"></use></svg> uni-app](front-end/uniapp/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-android"></use></svg> Android](front-end/android.md)
     - <hr />
-    - [<i class="fas fa-drafting-compass fa-fw"></i> 产品设计](front-end/design/README.md)
+    - [<i class="fa-duotone fa-compass-drafting fa-fw"></i> 产品设计](front-end/design/README.md)
     - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-CDNHub"></use></svg> CDN](front-end/cdn.md)
 - [Back-end](back-end/README.md)
@@ -58,7 +62,7 @@
   - [<i class="fa fa-windows fa-fw"></i> Windows](os/windows/README.md)
   - [<i class="fa fa-linux fa-fw"></i> Linux](os/linux/README.md)
   - [<i class="fa fa-apple fa-fw"></i> Mac](os/mac/README.md)
-  - [<i class="fas fa-mobile-alt fa-fw"></i> Mobile](os/mobile/README.md)
+  - [<i class="fal fa-mobile fa-fw"></i> Mobile](os/mobile/README.md)
   - <hr />
   - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools"><i class="fa fa-wrench fa-fw"></i> TOOLS</i></strong>
   - [<i class="fa fa-plane medium-red"></i> &nbsp;Index](os/tools/README.md)

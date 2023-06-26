@@ -4,15 +4,15 @@ https://www.php.net/manual/zh/book.var.php - *PHP: Variable handling - Manual*
 
 https://www.runoob.com/php/php-variable-handling-functions.html - *PHP 可用的函数 | 菜鸟教程*
 
-empty
+`empty`
 
-gettype
+`gettype`
 
-isset
+`isset`
 
-var_dump
+`var_dump`
 
-var_export
+`var_export`
 
 ## 打印函数
 
@@ -85,61 +85,61 @@ $today_end = date('Y-m-d H:i:s', strtotime(date("Y-m-d")) + 24*60*60); //结束�
 
 
 
-realpath
+`realpath`
 
-parse_str  --把查询字符串解析到变量中
+`parse_str`  --把查询字符串解析到变量中
 
-sha1  --计算字符串的
+`sha1`  --计算字符串的
 
-SHA-1 散列
+`SHA-1` 散列
 
-function_exists --函数是否存在
+`function_exists` --函数是否存在
 
-filter_var --变量过滤
+`filter_var` --变量过滤
 
-putenv
+`putenv`
 
-getenv
+`getenv`
 
-ob_start
+`ob_start`
 
-ob_get_clean
+`ob_get_clean`
 
-extension_loaded
+`extension_loaded`
 
-get_included_files
+`get_included_files`
 
-memory_get_peak_usage
+`memory_get_peak_usage`
 
-memory_get_usage
+`memory_get_usage`
 
-round
+`round`
 
-microtime
+`microtime`
 
-htmlspecialchars
+`htmlspecialchars`
 
-uniqid --生成一个唯一ID
+`uniqid` --生成一个唯一ID
 
-ip2long
+`ip2long`
 
-compact
+`compact`
 
 
 
 ## 类
 
-stdClass 实例化为对象
+`stdClass` 实例化为对象
 
-get_object_vars()
+`get_object_vars()`
 
 
 
 ## 关键字
 
-final
+`final`
 
-traits
+`traits`
 
-insteadof
+`insteadof`
 

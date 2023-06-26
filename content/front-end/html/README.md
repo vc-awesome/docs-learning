@@ -164,9 +164,19 @@ https://www.runoob.com/tags/tag-output.html - *HTML \<output> 标签 | 菜鸟教
 
 https://www.runoob.com/tags/tag-img.html - *HTML \<img> 标签 | 菜鸟教程*
 
+```
+<img src="" alt="" loading="lazy" decoding="async" />
+```
+
 属性 src 是 source 的缩写（规定显示图像的 URL）。
 
 属性 alt 是 alternate 的缩写（规定图像的替代文本）。
+
+#### loading
+
+`loading="lazy"` 图像延迟加载，只有鼠标滚动到该图片所在位置才会显示。
+
+https://www.runoob.com/tags/att-img-loading.html - *HTML img loading 属性 | 菜鸟教程*
 
 #### \<figcaption>
 

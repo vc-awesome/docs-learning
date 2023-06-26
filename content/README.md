@@ -1,4 +1,4 @@
-<div style="position: relative;min-height: 35px;background: linear-gradient(to left bottom, hsl(180, 100%, 85%) 0%,hsl(249, 100%, 85%) 100%);background: rgb(190 179 255) url(../_media/1686699383997.png) top/cover no-repeat;box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;margin-bottom: 35px;"><i style="position: absolute;right: 0;bottom: -20px;font-size: xx-small;">插图来源于：Todoist &nbsp;&nbsp;</i></div>
+<div style="position: relative;min-height: 35px;background: linear-gradient(to left bottom, hsl(180, 100%, 85%) 0%,hsl(249, 100%, 85%) 100%);background: rgb(190 179 255) url(_media/1686699383997.png) top/cover no-repeat;box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;margin-bottom: 35px;"><i style="position: absolute;right: 0;bottom: -20px;font-size: xx-small;">插图来源于：Todoist &nbsp;&nbsp;</i></div>
 
 ![](https://flat.badgen.net/github/last-commit/vc-awesome/docs-learning?icon=github&color=blue)
 ![](https://flat.badgen.net/github/commits/vc-awesome/docs-learning?icon=github)
@@ -8,7 +8,7 @@
 <span class="animate__animated animate__pulse animate__infinite" style="display: inline-block">[![Track Awesome List](https://www.trackawesomelist.com/badge.svg)](os/tools/github.md#awesome-lists)</span>
 
 1. _基础_ > [Getting started](home/get-started.md)🔻 + [开发规范](home/README.md#开发规范) + [软件版本号](home/semver.md) + [目录结构](home/toc.md) + [术语表](home/README.md#术语表) + [计算机基础](essential/README.md)👏
-2. *服务端* > [PHP](back-end/php/README.md) + [Apache](back-end/apache.md) + [MySQL](database/mysql/README.md) + [Redis](database/redis/README.md) + [Nginx](back-end/nginx.md) + [Composer](back-end/composer/README.md) + [ThinkPHP](back-end/thinkphp/README.md) + [宝塔](os/tools/bt.md)
+2. *服务端* > [PHP](back-end/php/README.md) ( [Composer](back-end/composer/README.md) - [ThinkPHP](back-end/thinkphp/README.md) ) + [Apache](back-end/apache.md) + [MySQL](database/mysql/README.md) + [Redis](database/redis/README.md) + [Nginx](back-end/nginx.md) + [宝塔](os/tools/bt.md)
 3. _[前端](front-end/README.md)_ >
     - [HTML](front-end/html/README.md)
     - [CSS](front-end/css/README.md) >> [命名规则](front-end/css/css-命名规则.md) + [框架](开发框架/README.md#css-框架)

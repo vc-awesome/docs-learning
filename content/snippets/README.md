@@ -54,9 +54,9 @@
 !> ~~没玩起来😶。~~
 
 ```md
-> <img src="" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;">
+> <img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;" />
 ```
-*👆 > \<img src="" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> [Markdown > 布局样式](os/tools/markdown.md#布局样式)*
+*👆 > \<img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;" /> [Markdown > 布局样式](os/tools/markdown.md#布局样式)*
 
 ```uri
 view-source:

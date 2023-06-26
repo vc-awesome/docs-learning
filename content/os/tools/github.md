@@ -459,8 +459,16 @@ https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法�
 
 https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
 
-## FAQ
-
-### GitHub 打不开怎么办？
+#### DNS
 
 https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打不开怎么办？*
+
+在浏览器中设置安全 DNS（以 Chrome 浏览器为例）：
+
+1. 打开 Chrome 浏览器；
+2. 打开 *设置 > 隐私和安全 > 安全 > 高级 > 使用安全 DNS* 或者在地址栏输入： *`chrome://settings/security`* ；
+3. 开启 *使用安全 DNS*；
+4. 选择 *使用 OpenDNS* 或者 *使用 自定义*，然后填写 *DNS URL: `https://doh.360.cn/dns-query`* 。
+
+## FAQ
+

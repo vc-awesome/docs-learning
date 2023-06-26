@@ -38,7 +38,7 @@ stateDiagram
         - [Windows](os/windows/windows-cli.md)
         - [Linux](os/linux/linux%20指令.md)
 3. _模板_ > [文档模板](home/document-template.md) + [官网模板](开发框架/official-website.md) + [后台管理模板](开发框架/后台模板/README.md)
-4. _文档网站生成_ > <img src="./../../_media/favicon-docsify.ico" alt="Docsify" valign="middle" width="16" /> [Docsify](os/tools/docsify.md) + [文档网站生成器](开发框架/README.md#文档网站生成器)
+4. _文档网站生成_ > [Docsify](os/tools/docsify.md) + [文档网站生成器](开发框架/README.md#文档网站生成器)
 5. _大厂_ > [Microsoft]() + [Apple Inc.]() + [Google Inc.](os/tools/google.md)
 6. _站点搭建、部署_ > 
     1. [服务器](essential/hosting.md) - *可购买服务器*

@@ -19,12 +19,18 @@ https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - 
 
 https://www.alidns.com/knowledge - *阿里公共DNS*
 
+配置文档：https://www.alidns.com/knowledge?type=SETTING_DOCS - *阿里公共DNS*
+
 ```
 dns.alidns.com
 ```
 
-```
+```IPv4
 223.5.5.5
+```
+
+```DoH
+https://dns.alidns.com/dns-query
 ```
 
 ### AdGuard公共DNS
@@ -33,12 +39,22 @@ dns.alidns.com
 dns.adguard-dns.com
 ```
 
+```DoH
+https://94.140.14.140/dns-query
+```
+
 ### 360安全DNS
 
 https://sdns.360.net/ - *360安全DNS*
 
-```
+配置文档：https://sdns.360.net/dnsPublic.html - *360安全DNS*
+
+```IPv4
 101.226.4.6
+```
+
+```DoH
+https://doh.360.cn
 ```
 
 ### DNSPod Public DNS（腾讯云）
@@ -157,6 +173,8 @@ https://www.cnblogs.com/sunsky303/p/9238669.html - *dnsmasq详解&手册 - sunsk
 https://blog.51cto.com/longlei/2065967 - _dnsmasq详解及配置_51CTO博客_dnsmasq配置_
 
 ### AdGuard 🔥
+
+> AdGuard 是摆脱烦人广告，在线跟踪并使您的计算机原理恶意软件的最佳途径。其使您体验快速，安全，无广告的网络冲浪。
 
 https://adguard.com/zh_cn/welcome.html - *AdGuard - 世界上最高级的广告拦截程序！*
 

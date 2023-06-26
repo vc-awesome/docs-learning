@@ -89,6 +89,7 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 <output data-lang="output">
 
 - `Introduction` - *简介*
+- `Official website` - *官网*
 - `Tutorials` - *教程*
 - `Getting started` - *入门指南*
 - `Quick Start` - *快速入门*

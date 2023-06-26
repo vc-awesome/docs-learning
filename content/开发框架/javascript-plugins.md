@@ -225,18 +225,41 @@ https://github.com/sweetalert2/sweetalert2 - *GitHub - sweetalert2/sweetalert2: 
 
 https://github.com/apvarun/toastify-js :uk: - *Pure JavaScript library for better notification messages*
 
+## 工具库
 
-## Underscore.js
+### Lodash
+
+> A JavaScript utility library delivering consistency, modularity, performance, & extras.（Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。）
+
+https://www.lodashjs.com/ - *Lodash 简介 | Lodash中文文档 | Lodash中文网*
+
+https://lodash.com/ - *Lodash*
+
+https://github.com/lodash/lodash - *lodash/lodash: A modern JavaScript utility library delivering modularity, performance, & extras.*
+
+### Underscore.js
+
+> Underscore 一个 JavaScript 实用库，提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。它是这个问题的答案：“如果我在一个空白的 HTML 页面前坐下， 并希望立即开始工作， 我需要什么？“...它弥补了部分 jQuery 没有实现的功能,同时又是 Backbone.js 必不可少的部分。
+
+https://www.underscorejs.cn/ - *Underscore.js 简介 | Underscore.js中文文档 | Underscore.js中文网*
+
+https://underscorejs.org/ - *Underscore.js*
 
 https://github.com/jashkenas/underscore - *JavaScript's utility _ belt*
 
+### Zepto.js
 
-## Zepto.js
+> The aerogel-weight jQuery-compatible JavaScript library（Zepto 是一个轻量级的针对现代高级浏览器的 JavaScript 库， 它与 jQuery 有着类似的 API。 如果你会用 jQuery，那么你也会用 Zepto。） 
 
 https://github.com/madrobby/zepto :uk: - *Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API*
 
+https://zeptojs.com/ - *Zepto.js: the aerogel-weight jQuery-compatible JavaScript library*
 
-## Core.js
+https://www.runoob.com/manual/zeptojs.html - *Zepto.js (1.1.6) API 中文文档-轻量级兼容jQuery的JavaScript库*
+
+https://www.runoob.com/w3cnote/zepto-js-source-analysis.html - *zepto.js 源码解析 | 菜鸟教程*
+
+### Core.js
 
 https://github.com/zloirock/core-js :us: - *Standard Library*
 

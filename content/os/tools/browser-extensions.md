@@ -73,24 +73,85 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 
 ## 开发扩展
 
-在 [Copy DOM Content | Chrome扩展 - Crx搜搜](https://www.crxsoso.com/webstore/detail/dmdbhcacalljmfmilnhmnhihdfoamdap) 源代码的基础上，开发了自己的第一个浏览器扩展程序。
+1. 在 [Copy DOM Content | Chrome扩展 - Crx搜搜](https://www.crxsoso.com/webstore/detail/dmdbhcacalljmfmilnhmnhihdfoamdap) 源代码的基础上，开发了自己的第一个浏览器扩展程序。
 
-参考：
+   参考：
 
-1. https://www.5axxw.com/questions/content/cce8xc - *如何通过浏览器扩展获取页面主体标签的内容？ - 我爱学习网*
+   1. https://www.5axxw.com/questions/content/cce8xc - *如何通过浏览器扩展获取页面主体标签的内容？ - 我爱学习网*
+
+2. https://github.com/zenorocha/codecopy - *zenorocha/codecopy: A browser extension that adds copy to clipboard buttons on every code block*
+
+   > 环境要求：
+   >
+   > - macOS: Ventura 13.3.1 (a) - Apple M1
+   > - Node: 16.15.0
+   > - codecopy: 1.2.0（开发包版本）
+   
+   1. 下载开发包
+   
+      ```sh
+      git clone https://github.com/zenorocha/codecopy.git codecopy
+      ```
+   
+   2. Install dependencies:
+   
+      ```sh
+      cd codecopy
+      ```
+   
+      ```sh
+      npm install
+      ```
+   
+      💡 当使用 npm install 安装依赖包失败时，可使用 yarn install 安装（ yarn 安装前，删除 node_modules 目录）：
+   
+      ```sh
+      yarn install
+      ```
+   
+   3. Compile scripts and styles:
+   
+      ```sh
+      npm start
+      ```
+   
+      💡 当执行 npm start 失败时，可使用 npx mix 编译脚本和样式：
+   
+      ```sh
+      npx mix
+      ```
 
 ----
 
-如何开发浏览器扩展程序？
+### 如何开发浏览器扩展程序？
 
 - 开发手册：https://developer.mozilla.org/zh-CN/docs/Mozilla/Add-ons/WebExtensions - *浏览器扩展 - Mozilla | MDN*
 
 - 源码参考：https://github.com/wadefelix/copylinktabnameandurl - *wadefelix/copylinktabnameandurl: 复制链接/标签名称和地址*
 
-如何将浏览器扩展程序打包成 crx 文件？
+### 如何将浏览器扩展程序打包成 crx 文件？
 
-- https://www.cnblogs.com/Galesaur-wcy/p/15748799.html - *如何使用Chrome浏览器，打包生成自己的插件（crx格式文件）？ - 冰糖葫芦很乖 - 博客园*
-- https://www.zhihu.com/question/53546074/answer/2229754960 - *谷歌浏览器插件开发完毕打包如何打包成crx文件？ - 知乎*
+1. 地址栏输入：`chrome://extensions/` ；
+
+2. 点击页面左上角的「打包扩展程序」；
+
+3. 填写「扩展程序根目录」： */Users/xxx/Downloads/crx*
+
+   如何获取扩展程序根目录：
+
+   1. 选择需要打包的扩展程序，在卡片的左下角点击「详情」；
+   2. 向下滑动页面，找到「来源」列表选项；
+   3. 点击进入目录，复制目录的绝对路径，例： */Users/xxx/Downloads/crx* 。
+
+4. 点击「打包扩展程序」；
+
+5. 进入 */Users/xxx/Downloads/crx* 目录，多出来的 *crx.crx* 文件和 *crx.pem* 文件即为打包成功的文件。
+
+参考：
+
+1. https://www.cnblogs.com/Galesaur-wcy/p/15748799.html - *如何使用Chrome浏览器，打包生成自己的插件（crx格式文件）？ - 冰糖葫芦很乖 - 博客园*
+
+2. https://www.zhihu.com/question/53546074/answer/2229754960 - *谷歌浏览器插件开发完毕打包如何打包成crx文件？ - 知乎*
 
 ## 扩展列表
 

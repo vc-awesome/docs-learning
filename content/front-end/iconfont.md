@@ -247,19 +247,20 @@ iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提�
 
 ----
 
-https://fontawesome.com.cn/ - *首页 - FontAwesome 字体图标中文Icon*
 
 中文手册：
 
-1. V6（最新版）
+1. https://fontawesome.com.cn/ - *首页 - FontAwesome 字体图标中文Icon*
+
+2. V6（最新版）
 
    https://fa6.dashgame.com/ - *Font Awesome 6，一套始终绝佳的图标字体库和CSS框架*
 
-2. V5（LTS）
+3. V5（LTS）
 
    https://fa5.dashgame.com/ - *Font Awesome 5，一套依旧绝佳的图标字体库和CSS框架*
 
-3. V4（官方已停止维护）
+4. V4（官方已停止维护）
 
    https://fontawesome.dashgame.com/ - *Font Awesome，一套绝佳的图标字体库和CSS框架*
 
@@ -268,7 +269,9 @@ https://fontawesome.com.cn/ - *首页 - FontAwesome 字体图标中文Icon*
 https://fontawesome.com/versions - *Font Awesome*
 
 1. https://fontawesome.com/v4/icons/ - *Font Awesome Icons*
+
 2. https://fontawesome.com/v5/icons/ - *Find the Perfect Icon for Your Project in Font Awesome 5 | Font Awesome*
+
 3. https://fontawesome.com/v6/icons/ - *Search Icons & Find the Perfect Design | Font Awesome*
 
 用法：

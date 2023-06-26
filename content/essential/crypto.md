@@ -6,13 +6,13 @@
 
 ### PHP 加密函数
 
-1. md5
+1. `md5`
 
-2. hash
+2. `hash`
 
-3. crypt
+3. `crypt`
 
-4. sha1
+4. `sha1`
 
 
 
@@ -25,9 +25,9 @@
 
 ### PHP 加密函数
 
-1. `base64_encode`加密，`base64_decode`解密
+1. `base64_encode` 加密，`base64_decode` 解密
 
-2. `urlencode`加密，`urldecode`解密
+2. `urlencode` 加密，`urldecode` 解密
 
 
 
@@ -41,18 +41,20 @@
 
 > `openssl`  
 
-https://www.yisu.com/zixun/123259.html - *PHP7实现OpenSSL DES-EDE-CBC加密和解密*
+1. https://www.yisu.com/zixun/123259.html - *PHP7实现OpenSSL DES-EDE-CBC加密和解密*
 
-http://www.36nu.com/post/252 - *php使用openssl扩展实现des加解密方法*
+2. http://www.36nu.com/post/252 - *php使用openssl扩展实现des加解密方法*
+
 
 > `mcrypt`  
 > `PHP < 7.2.0`
 
-https://blog.csdn.net/xzykai/article/details/78932206 - *PHP版DES算法加密数据（3DES）*
+1. https://blog.csdn.net/xzykai/article/details/78932206 - *PHP版DES算法加密数据（3DES）*
 
-https://www.cnblogs.com/forforever/p/12674203.html - *Des加密算法的PHP实现*
+2. https://www.cnblogs.com/forforever/p/12674203.html - *Des加密算法的PHP实现*
 
-https://www.cnblogs.com/laushow/p/9086745.html - *PHP DES加密解密*
+3. https://www.cnblogs.com/laushow/p/9086745.html - *PHP DES加密解密*
+
 
 
 
@@ -62,16 +64,18 @@ AES 是 DES 的升级版，密钥长度更长，选择更多，也更灵活，�
 
 > `openssl`  
 
-https://www.jb51.net/article/126021.htm - *AES加解密代码*
+1. https://www.jb51.net/article/126021.htm - *AES加解密代码*
 
-https://www.cnblogs.com/lvjiefly/p/12624830.html - *PHP使用OpenSSL实现AES加密的笔记*
+2. https://www.cnblogs.com/lvjiefly/p/12624830.html - *PHP使用OpenSSL实现AES加密的笔记*
+
 
 > `mcrypt`  
 > `PHP < 7.2.0`
 
-https://www.jb51.net/article/189421.htm - *如何在PHP中使用AES加密算法加密数据*
+1. https://www.jb51.net/article/189421.htm - *如何在PHP中使用AES加密算法加密数据*
 
-https://www.jb51.net/article/128149.htm - *对称加密算法（DES/AES）类的实现代码*
+2. https://www.jb51.net/article/128149.htm - *对称加密算法（DES/AES）类的实现代码*
+
 
 
 
@@ -87,11 +91,12 @@ https://www.xiabingbao.com/encrypt/2016/09/04/php-simple-encrypt.html - *简单�
 
 ## 非对称加密
 
-https://blog.csdn.net/clh604/article/details/20224735 - *php rsa加密解密实例*
+1. https://blog.csdn.net/clh604/article/details/20224735 - *php rsa加密解密实例*
 
-https://www.cnblogs.com/chenhaoyu/p/10695245.html - *PHP RSA加解密详解*
+2. https://www.cnblogs.com/chenhaoyu/p/10695245.html - *PHP RSA加解密详解*
 
-https://blog.csdn.net/u014294681/article/details/86705999 - *加解密篇 - 非对称加密算法 (RSA、DSA、ECC、DH)*
+3. https://blog.csdn.net/u014294681/article/details/86705999 - *加解密篇 - 非对称加密算法 (RSA、DSA、ECC、DH)*
+
 
 
 
@@ -235,15 +240,15 @@ class CryptoArray {
 
 
 
-## 参考链接
+## 参考
 
-https://www.php.cn/php-weizijiaocheng-399378.html - *PHP对称加密函数实现数据的加密解密详解*
+1. https://www.php.cn/php-weizijiaocheng-399378.html - *PHP对称加密函数实现数据的加密解密详解*
 
-https://zhuanlan.zhihu.com/p/146986309 - *PHP加密解密详解*
+2. https://zhuanlan.zhihu.com/p/146986309 - *PHP加密解密详解*
 
-https://www.cnblogs.com/wangyuyanhello/p/13784577.html - *PHP加密解密*
+3. https://www.cnblogs.com/wangyuyanhello/p/13784577.html - *PHP加密解密*
 
-https://www.cnblogs.com/zhangjinghe/p/7754332.html - *密码加密方式*
+4. https://www.cnblogs.com/zhangjinghe/p/7754332.html - *密码加密方式*
 
-https://cloud.tencent.com/developer/article/1724226 - *password_hash*
+5. https://cloud.tencent.com/developer/article/1724226 - *password_hash*
 

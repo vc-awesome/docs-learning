@@ -1,16 +1,24 @@
-## ???
-
-源码安装、编译安装与一键安装
-
 ## 使用教程
 
 https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 
-- [x] https://wangdoc.com/bash/grammar - *Bash 的基本语法 - Bash 脚本教程 - 网道*
+1. https://wangdoc.com/bash/grammar - *Bash 的基本语法 - Bash 脚本教程 - 网道*
 
 ## 问题搜索
 
-[linux两条命令一起执行 - 百度](https://m.baidu.com/s?ie=UTF-8&wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C&from=1029078n)
+1. [linux两条命令一起执行 - 百度](https://www.baidu.com/s?wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C)
+
+   选项一：分号(;)运算符（推荐使用选项二、三）
+
+   例：`ls ; pwd ; whoami`
+
+   选项二：逻辑与运算符(&&)
+
+   例：`mkdir MyFolder && cd MyFolder`
+
+   选项三：逻辑or运算符(||)
+
+   例：`[ -d ~/MyFolder ] || mkdir ~/MyFolder`
 
 ## 命令大全
 
@@ -43,6 +51,10 @@ https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基�
 `ls`
 
 `ls -l` - _查看所有文件的属性_
+
+`ls -a` - *显示所有文件（包含隐藏文件）*
+
+https://www.runoob.com/linux/linux-comm-ls.html - *Linux ls命令 | 菜鸟教程*
 
 ```sh
 tree
@@ -153,6 +165,16 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 
 ### 系统管理
 
+#### 查看 Shell 版本
+
+方式 1：`echo $0`
+
+方式 2：`ps -p $$`
+
+方式 3：`cat /etc/shells`
+
+参考：https://www.dbs724.com/63477.html - *Linux 查看 Shell 版本的方法（linux查看shell版本）-数据库远程运维*
+
 #### 查看当前用户
 
 https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜鸟教程*
@@ -170,3 +192,9 @@ https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜�
 #### 退出登录
 
 `exit`
+
+## 常见问题
+
+### 源码编译安装与一键安装
+
+https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=10153 - *安装第三方PHP扩展示例 - Linux面板 - 宝塔面板论坛*

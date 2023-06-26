@@ -11,13 +11,12 @@ https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is
 
 ## 教程
 
-1️⃣ https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
+1. https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
+2. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
 
-2️⃣ https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
+3. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
+4. https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
 
-3️⃣ https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
-
-https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
 
 ## 工具
 
@@ -73,6 +72,14 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 ## 命令 › 基础
 
+### 查看帮助
+
+```sh
+git --help
+```
+
+
+
 ### 查看版本
 
 ```bash
@@ -88,6 +95,18 @@ git --version
 ```bash
 git config --list
 ```
+
+
+
+### 克隆 - *clone*
+
+克隆指定版本
+
+```sh
+git clone -b v1.2.0 --depth=1 https://ghproxy.com/https://github.com/zenorocha/codecopy.git codecopy
+```
+
+参考：http://www.360doc.com/content/22/0801/15/7579570_1042203637.shtml - *Git 克隆指定版本...*
 
 
 

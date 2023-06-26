@@ -1,9 +1,10 @@
 ## Introduction
 
 <div class="d-flex flex-items-start"">
-  <div><img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" align="right" width="78" hspace="10" vspace="0"></div>
+  <div><img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" alt="f-droid Icon" loading="lazy" decoding="async" align="right" width="78" hspace="10" vspace="0"></div>
   <div>Terminal emulator with packages</div>
 </div>
+
 
 ## Official
 
@@ -19,22 +20,53 @@ GitHub：https://github.com/termux/termux-app - *Termux - a terminal emulator ap
 
 F-Droid：https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
 
-## Get started
+## Getting started
 
 https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
 
-### 更换镜像源
+### 镜像源
 
-https://mirrors.tuna.tsinghua.edu.cn/help/termux/ - *termux | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
+开源镜像源：
+
+1. https://mirrors.tuna.tsinghua.edu.cn/help/termux/ - *termux | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
+2. https://mirrors.ustc.edu.cn/help/termux.html - *Termux 源使用帮助 — USTC Mirror Help 文档*
+
+更换镜像源：
+
+- 方式一：`termux-change-repo` （推荐）
+
+    1. 推荐先更新 「termux-tools」 软件包：`pkg install termux-tools`
+    2. 使用 `termux-change-repo`
+    3. 先选择 「Single mirror」
+    4. 再选择「mirrors.ustc.edu.cn」
+
+- 方式二：手动更换
+
+    1. `vim /data/data/com.termux/files/usr/etc/apt/sources.list`（或者 `apt edit-sources` ）
+    2. 将 sources.list 文件的内容，替换成 `deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main`
+
+
+- 方式三：`sed` 命令更换
+
+  ```sh
+  sed -i 's@packages.termux.org@mirrors.ustc.edu.cn/termux@' $PREFIX/etc/apt/sources.list
+  pkg up
+  ```
+
+  注：Termux 会自动将环境变量 `$PREFIX` 设定为 `/data/data/com.termux/files/usr`
+
+官方镜像源：
 
 _via https://wiki.termux.com/wiki/Package_Management#Official_repositories - *Package Management - Termux Wiki*_
+
 ```  sh
 termux-change-repo
 ```
 
+
 ### 常用目录
 
-由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 /, /usr 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即~）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
+由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 /, /usr 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 ~ ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
 
 如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 ~ 目录下会生成 storage 的文件链接，其中可以访问 downloads、dcim、music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
 
@@ -52,6 +84,22 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
 3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*。
 
 ----
+
+```sh
+cd $PREFIX
+```
+
+\* *指向手机路径 /data/data/com.termux/files/usr*
+
+```sh
+cd ~
+```
+
+```sh
+cd $HOME
+```
+
+\* *指向手机路径 /data/data/com.termux/files/home*
 
 ```sh
 cd ~/storage/shared/Documents/markor/GitHub/
@@ -80,6 +128,8 @@ cd ~/storage/downloads
 
 https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux Wiki*
 
+#### pkg
+
 ```sh
 pkg help
 ```
@@ -91,6 +141,12 @@ pkg
 注：*显示命令帮助*
 
 ```sh
+pkg search <query>
+```
+
+注：*Search package by query, for example by name or description part.*
+
+```sh
 pkg upgrade
 ```
 注：*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
@@ -99,13 +155,13 @@ pkg upgrade
 pkg install package-name
 ```
 
-注：*Installing a new package. - 安装新的软件包。*
+注：*Installing a new package. - 安装新的软件包。*（如果软件包已安装，再次执行此命令，升级当前包到最新版本。）
 
 ```sh
 pkg reinstall <package>
 ```
 
-注：*Re-install specified package.. - 重新安装指定的软件包。*
+注：*Re-install specified package. - 重新安装指定的软件包。*
 
 ```sh
 pkg uninstall
@@ -133,7 +189,63 @@ pkg show <package>
 
 注：*Show information about specific package. - 显示有关特定包的信息。*
 
-### Addons
+#### apt
+
+```sh
+apt help
+```
+
+```sh
+apt
+```
+
+注：*显示命令帮助*
+
+```sh
+apt list
+```
+
+注：*list packages based on package names*
+
+```sh
+apt search
+```
+
+注：*search in package descriptions*
+
+```sh
+apt install
+```
+
+注：*install packages*
+
+```sh
+apt reinstall
+```
+
+注：*reinstall packages*
+
+```sh
+apt remove
+```
+
+注：*remove packages*
+
+```sh
+apt update
+```
+
+注：*update list of available packages*
+
+```sh
+apt edit-sources
+```
+
+注：*edit the source information file*
+
+更多命令，输入 > `apt help` 查看。
+
+### 插件列表
 
 https://wiki.termux.com/wiki/Main_Page#Addons - *Termux Wiki*
 
@@ -227,6 +339,12 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
 
 ### Nano 编辑器
 
+搜索：
+
+```sh
+pkg search nano
+```
+
 安装：
 
 ```sh
@@ -241,9 +359,47 @@ pkg uninstall nano
 
 参考：
 1. https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
-2. 
-https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
+2. https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
 
+### Node.js
+
+搜索：
+
+```sh
+pkg search ^node
+```
+
+安装：
+
+```sh
+pkg install nodejs-lts
+```
+
+卸载：
+
+```sh
+pkg uninstall nodejs-lts
+```
+
+### Git
+
+搜索：
+
+```sh
+pkg search ^git$
+```
+
+安装：
+
+```sh
+pkg install git
+```
+
+卸载：
+
+```sh
+pkg uninstall git
+```
 
 ## FAQ
 

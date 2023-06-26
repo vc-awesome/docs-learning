@@ -1,4 +1,16 @@
+## 简介
+
+> Linux 是一种自由和开放源码的类 UNIX 操作系统。
+>
+> Linux 英文解释为 **Linux is not Unix**。
+>
+> Linux 是在 1991 由林纳斯·托瓦兹在赫尔辛基大学上学时创立的，主要受到 Minix 和 Unix 思想的启发。
+
 ## 官方
+
+https://www.linux.org/ - *Linux.org*
+
+## 教程
 
 菜鸟教程：https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
 
@@ -28,6 +40,6 @@ https://developer.aliyun.com/mirror/centos/ - *centos镜像-centos下载地址-c
 1  | `:q!` | 强制退出不保存
 2  | `:wq!` | 强制退出并且保存
 
-**参考链接**：
+**参考**：
 
 https://www.wenjianb.com/zonghe/16188.html - *vim搜索（Vim查找与替换命令大全） - 文件帮百科*

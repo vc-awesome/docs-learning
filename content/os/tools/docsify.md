@@ -1250,13 +1250,15 @@ https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Me
 
 ### Themes
 
+https://docsify.js.org/#/themes - *Themes*
+
 #### ~~切换主题（白天 / 夜间模式切换）~~
 
 - Showcase
   - https://bytesfly.github.io/island/#/ - *侠客岛*
 
 - Plugin
-  - 👍 https://jhildenbiddle.github.io/docsify-themeable/#/themes?id=defaults - *docsify-themeable - A delightfully simple theme system for docsify.js*
+  - 👍 https://jhildenbiddle.github.io/docsify-themeable/#/themes?id=defaults - *docsify-themeable - A delightfully simple theme system for docsify.js* [GitHub](https://github.com/jhildenbiddle/docsify-themeable)
   - https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode - *docsify-plugin/packages/docsify-dark-mode at master · Plugin-contrib/docsify-plugin · GitHub*
 
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">

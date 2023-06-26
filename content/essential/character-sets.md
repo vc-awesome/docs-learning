@@ -32,7 +32,7 @@ https://www.runoob.com/charsets/ref-html-ansi.html
 
 ## Unicode
 
-### UTF-8✅
+### UTF-8 ✅
 
 1. https://www.runoob.com/charsets/ref-html-utf8.html
 

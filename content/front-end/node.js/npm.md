@@ -24,101 +24,109 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
 
 ⭐ https://zhuanlan.zhihu.com/p/534461112 - *npm 常用命令和使用技巧*
 
-- 查看当前版本
+### 查看当前版本
 
-  `npm -v`
+`npm -v`
 
-- 安装模块（本地安装）
+### 安装模块（本地安装）
 
-  `npm install <Module Name>`
+`npm install <Module Name>`
 
-  ```bash
-  npm install # 安装 package.json 定义好的模块，简写 npm i
-  
-  # 安装包指定模块
-  npm i <ModuleName>
-  
-  # 全局安装
-  npm i <ModuleName> -g
-  
-  # 安装包的同时，将信息写入到 package.json 中的 dependencies 配置中
-  npm i <ModuleName> --save
-  
-  # 安装包的同时，将信息写入到 package.json 中的 devDependencies 配置中
-  npm i <ModuleName> --save-dev
-  
-  # 安装多模块
-  npm i <ModuleName1> <ModuleName2>
-  
-  # 安装方式参数：
-  -save # 简写 -S，加入到生产依赖中
-  -save-dev # 简写 -D，加入到开发依赖中
-  -g # 全局安装 将安装包放在 /usr/local 下或者你 node 的安装目录
-  ```
+```bash
+npm install # 安装 package.json 定义好的模块，简写 npm i
 
-- 安装模块（全局安装）
+# 安装包指定模块
+npm i <ModuleName>
 
-  ```sh
-  npm i <ModuleName> -g
-  ```
+# 全局安装
+npm i <ModuleName> -g
 
-- 卸载模块
+# 安装包的同时，将信息写入到 package.json 中的 dependencies 配置中
+npm i <ModuleName> --save
 
-  `npm uninstall <Module Name>`
+# 安装包的同时，将信息写入到 package.json 中的 devDependencies 配置中
+npm i <ModuleName> --save-dev
 
-- 更新模块
+# 安装多模块
+npm i <ModuleName1> <ModuleName2>
 
-  `npm update <Module Name>`
+# 安装方式参数：
+-save # 简写 -S，加入到生产依赖中
+-save-dev # 简写 -D，加入到开发依赖中
+-g # 全局安装 将安装包放在 /usr/local 下或者你 node 的安装目录
+```
 
-- 搜索模块
+### 安装模块（全局安装）
 
-  `npm search <Module Name>`
+```sh
+npm i <ModuleName> -g
+```
 
-- npm 版本升级
+### 卸载模块
 
-  `npm install npm` # 本地升级
+`npm uninstall <Module Name>`
 
-  `npm install npm -g` # 全局升级
+### 更新模块
 
-- npm 镜像
+`npm update <Module Name>`
 
-  - 查看
+### 搜索模块
 
-    `npm config get registry`
+`npm search <Module Name>`
 
-  - 设置
+### npm 版本升级
 
-    `npm config set registry https://registry.npm.taobao.org --global`
+`npm install npm` # 本地升级
 
-    `npm config set disturl https://npm.taobao.org/dist --global`
+`npm install npm -g` # 全局升级
 
-- 查看全局安装的模块
+### npm 镜像
 
-  `npm list -g`
+- 查看
 
-- 查看`grunt`模块的版本号
+  `npm config get registry`
 
-  `npm list grunt`
+- 设置
 
-- 查看设置
+  `npm config set registry https://registry.npm.taobao.org --global`
 
-  `npm config list` 或 `npm config ls`
+  `npm config set disturl https://npm.taobao.org/dist --global`
 
-  - 查看完整的设置列表
+### 查看全局安装的模块
 
-    `npm config list -l` 或 `npm config ls -l`
+`npm list -g`
 
- - 查看全局安装路径
+### 查看 grunt 模块的版本号
 
-   `npm root -g`
+`npm list grunt`
 
- - 查看安装目录路径
+### 查看包的 package.json 文件
 
-   `npm config get prefix`
+`npm view <ModuleName>`
 
- - 修改安装目录路径
+### 查看设置
 
-   `npm config set ""`
+`npm config list` 或 `npm config ls`
+
+### 查看完整的设置列表
+
+`npm config list -l` 或 `npm config ls -l`
+
+### 查看全局安装路径
+
+`npm root -g`
+
+### 查看安装目录路径
+
+`npm config get prefix`
+
+### 修改安装目录路径
+
+`npm config set ""`
+
+### 清空缓存
+
+`npm cache clean`
 
 ## 镜像
 
@@ -142,8 +150,7 @@ https://npmmirror.com/ - *npmmirror 镜像站*
 
     https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
 
-
-### 镜像源管理工具
+### 镜像源管理工具（nrm）
 
 - 官方
 
@@ -157,9 +164,27 @@ https://npmmirror.com/ - *npmmirror 镜像站*
 
   `nrm ls`
 
+- Show current registry name or URL
+
+  `nrm current`
+
 - 切换为淘宝镜像源
 
   `nrm use taobao`
+
+- display help for command
+
+  `nrm -h` 或者 `nrm --help`
+
+- output the version number
+
+  `nrm -V` 或者 `nrm --version`
+
+- Open the homepage of registry with optional browser
+
+  `nrm home <name> [browser]`
+
+  实例：`nrm home taobao`
 
 - 参考链接
 
@@ -283,6 +308,38 @@ https://autoprefixer.github.io/ - *Autoprefixer CSS online*
 > Find newer versions of package dependencies than what your package.json allows
 
 https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-check-updates: Find newer versions of package dependencies than what your package.json allows*
+
+- 安装
+
+  `npm install -g npm-check-updates`
+
+- You're lookin' at it.
+
+  `ncu -h`
+
+  `ncu --help`
+
+- Output the version number of npm-check-updates.
+
+  `ncu -v`
+
+  `ncu -V`
+
+  `ncu --version`
+
+- Show all new dependencies ([excluding peerDependencies](https://github.com/raineorshine/npm-check-updates/issues/951)) for the project in the current directory.
+
+  `ncu`
+
+- Overwrite package file with upgraded versions instead of just outputting to console.
+
+  `ncu -u`
+
+  `ncu --upgrade`
+
+- Check global packages instead of in the current project.
+
+  `ncu -g`
 
 ## 常见问题
 

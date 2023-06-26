@@ -1,3 +1,7 @@
+## 简介
+
+> 宝塔，让运维简单高效。面板支持Linux与Windows系统。一键配置：LAMP/LNMP、网站、数据库、FTP、SSL，通过Web端轻松管理服务器。
+
 ## 官方
 
 GitHub：https://github.com/aaPanel
@@ -34,13 +38,14 @@ https://www.bt.cn/btcode.html - *宝塔linux面板命令大全 - 宝塔面板*
 
 ### 域名
 
-https://docs.youhaosuda.com/menu/s/547c2cba71ea1e109f000008 - *域名设置 - 友好速搭 -- 使用手册*
+1. https://docs.youhaosuda.com/menu/s/547c2cba71ea1e109f000008 - *域名设置 - 友好速搭 -- 使用手册*
 
-http://www.gzidc.com/diysite.php?m=FrontCms&a=getHelpArticleShow&cat_id=66&art_id=727 - *常用域名解析的设置教程 - 新一代数据中心*
+2. http://www.gzidc.com/diysite.php?m=FrontCms&a=getHelpArticleShow&cat_id=66&art_id=727 - *常用域名解析的设置教程 - 新一代数据中心*
 
-https://www.likecs.com/show-303489.html - *教你四招快速学会设置域名解析 - 爱码网*
+3. https://www.likecs.com/show-303489.html - *教你四招快速学会设置域名解析 - 爱码网*
 
-https://www.xinnet.com/knowledge/1614224510.html - *网站服务器域名怎么配置？分享服务器配置域名操作方法 - 新网数码*
+4. https://www.xinnet.com/knowledge/1614224510.html - *网站服务器域名怎么配置？分享服务器配置域名操作方法 - 新网数码*
+
 
 ### 基础环境
 
@@ -265,11 +270,14 @@ http://xkzzz.com/post/40375.html - *宝塔面板如何修改root密码,ssh端口
 
 官方：https://www.bt.cn/bbs/thread-20376-1-1.html - *API接口使用教程 - 第三方应用 - 宝塔面板论坛*
 
-https://www.daniao.org/4296.html - *宝塔面板API接口抓取教程-宝塔接口配置文件 - 大鸟博客*
+参考：
 
-https://blog.szhcloud.cn/blog/2020/10/23/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFapi-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/ - *宝塔面板API 使用指南 - 寰智博客*
+1. https://www.daniao.org/4296.html - *宝塔面板API接口抓取教程-宝塔接口配置文件 - 大鸟博客*
 
-https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量导入新服务器的宝塔-杂草猿工记-个人博客-韦炳生博客-技术分享*
+2. https://blog.szhcloud.cn/blog/2020/10/23/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFapi-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/ - *宝塔面板API 使用指南 - 寰智博客*
+
+3. https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量导入新服务器的宝塔-杂草猿工记-个人博客-韦炳生博客-技术分享*
+
 
 
 ## SSL

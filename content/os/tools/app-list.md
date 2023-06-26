@@ -32,9 +32,12 @@
 
     - 免费试用
 
-3. [VSCode](https://code.visualstudio.com/) - *Visual Studio Code*
-    - 支持 Windows, macOS, Linux
+3. [VSCode](https://code.visualstudio.com/) - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.*
 
+    - 支持 Windows, macOS, Linux, [Web](https://vscode.dev/)
+
+    - 开源软件（[GitHub](https://github.com/Microsoft/vscode/)）
+    
 4. [HBuilderX](https://www.dcloud.io/hbuilderx.html) - *HBuilderX-高效极客技巧*
     - 支持 Windows, macOS
 

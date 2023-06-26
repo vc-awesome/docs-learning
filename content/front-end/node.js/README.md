@@ -1,5 +1,13 @@
 ## Node
 
+### Node 简介
+
+> <img src="https://raw.githubusercontent.com/nodejs/nodejs.org/main/public/static/images/logo-hexagon.svg" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;" /> Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.（Node.js® 是一个开源、跨平台的 JavaScript 运行时环境。）
+> 
+> Node.js® is a free, open-sourced, cross-platform JavaScript run-time environment—
+that lets developers write command line tools and server-side scripts outside of a browser.
+
+
 ### node 官方
 
 https://github.com/nodejs/node - *Node.js JavaScript runtime ✨🐢🚀✨*
@@ -21,18 +29,25 @@ https://www.runoob.com/nodejs/nodejs-tutorial.html -  *Node.js 教程 | 菜鸟�
 ### node 安装
 
 - **方式一**、使用 nvm 安装 node（推荐）
+
   https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程* （安装前查看评论区内容）
 
   安装步骤：
 
   1. [安装 NVM](#nvm-%e5%ae%89%e8%a3%85)；
+
   2. 通过 NVM 安装 Node；
+
   3. 安装 NPM *（无需安装，因为 NPM 是随同 NodeJS 一起安装的包管理工具）* ；
-  4. [使用淘宝 NPM 镜像](#npm-%e9%95%9c%e5%83%8f)。
+  
+  4. [使用淘宝 NPM 镜像](front-end/node.js/npm.md#npm-%e9%95%9c%e5%83%8f)。
+
      - https://npmmirror.com/ - *npmmirror 中国镜像站*
+
      - https://zhuanlan.zhihu.com/p/465424728 - *【公告】淘宝 npm 域名即将切换 && npmmirror 重构升级 && 微信交流群*
 
 - **方式二**、官方下载安装
+
   https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程*
 
 
@@ -45,9 +60,9 @@ https://nodejs.org/zh-cn/download/releases - *以往的版本 | Node.js*
 
 ### node 镜像
 
-https://registry.npmmirror.com/binary.html?path=node/ - *CNPM Binaries Mirror*
+1. https://registry.npmmirror.com/binary.html?path=node/ - *CNPM Binaries Mirror*
 
-https://npm.taobao.org/mirrors/node/ - *Node.js 淘宝镜像*
+2. https://npm.taobao.org/mirrors/node/ - *Node.js 淘宝镜像*
 
 
 
@@ -63,21 +78,57 @@ https://npm.taobao.org/mirrors/node/ - *Node.js 淘宝镜像*
 
 ### node 链接
 
-https://github.com/goldbergyoni/nodebestpractices - *✅ The Node.js best practices list (August 2022)*
+1. https://github.com/goldbergyoni/nodebestpractices - *✅ The Node.js best practices list (August 2022)*
 
-https://baijiahao.baidu.com/s?id=1726423980119026076 - _一文搞定nodeJS相关的nvm、npm、nrm、yarn、npx等_
+2. https://baijiahao.baidu.com/s?id=1726423980119026076 - _一文搞定nodeJS相关的nvm、npm、nrm、yarn、npx等_
 
+## Yarn
 
-## ~~Yarn~~
+### yarn 简介
 
+> <img src="https://avatars.githubusercontent.com/u/22247014?s=200&v=4" alt="package icon" align="bottom" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> Fast, reliable, and secure dependency management for JavaScript. - Yarn
+
+### yarn 官方
+
+GitHub: https://github.com/yarnpkg - *Yarn*
+
+Website: https://yarnpkg.com/ - *Home | Yarn - Package Manager*
+
+---
+
+https://yarn.bootcss.com/ - *Yarn 中文文档*
+
+### yarn 安装
+
+`npm install -g yarn`
+
+### yarn 命令行
+
+- output usage information
+
+  `yarn -h` 或者 `yarn --help`
+
+- output the version number
+
+  `yarn -v` 或者 `yarn --version`
+
+- 安装模块
+
+  `yarn install`
 
 ## NVM
 
-> 使用 `nvm` 管理不同版本的 `Node`
+### nvm 简介
+
+> <img src="https://avatars.githubusercontent.com/u/49963700?s=200&v=4" alt="package icon" loading="lazy" decoding="async" align="" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;" /> 使用 `nvm` 管理不同版本的 `Node`
 
 ### nvm 官方
 
 GitHub：https://github.com/nvm-sh/nvm - *Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions*
+
+Website: http://nvm.sh/ - *nvm - node version manager*
+
+---
 
 菜鸟教程：https://www.runoob.com/w3cnote/nvm-manager-node-versions.html - *使用 nvm 管理不同版本的 node 与 npm*
 
@@ -87,10 +138,9 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 #### 在 Windows 中安装
 
-⚠️ 首先最重要的是：一定要卸载已安装的 *Node.js*，否则会发生冲突。然后下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) 最新安装包，直接安装即可；有关详细信息，请参阅“https://www.runoob.com/w3cnote/nvm-manager-node-versions.html”。
+!> ⚠️ 首先最重要的是：一定要卸载已安装的 *Node.js*，否则会发生冲突。然后下载 [nvm-windows](https://github.com/coreybutler/nvm-windows/releases) 最新安装包，直接安装即可。<br/> *>* 有关详细信息，请参阅“https://www.runoob.com/w3cnote/nvm-manager-node-versions.html” 。
 
-<i class="fa fa-github"></i> https://github.com/coreybutler/nvm-windows - *A node.js version management utility for Windows. Ironically written in Go.*
-
+GitHub: https://github.com/coreybutler/nvm-windows - *A node.js version management utility for Windows. Ironically written in Go.*
 
 
 #### 在 macOS M1 中安装
@@ -213,7 +263,7 @@ https://www.cnblogs.com/gaozejie/p/10689742.html - *nvm安装与使用*
 
 ### nvm 常见问题
 
-https://blog.csdn.net/N1keo/article/details/89971307 - *利用nvm安装npm失败的解决办法*
+1. https://blog.csdn.net/N1keo/article/details/89971307 - *利用nvm安装npm失败的解决办法*
 
-https://www.html.cn/qa/node-js/11997.html - *如何切换node的版本？*
+2. https://www.html.cn/qa/node-js/11997.html - *如何切换node的版本？*
 
