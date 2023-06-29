@@ -14,6 +14,12 @@ https://www.linux.org/ - *Linux.org*
 
 菜鸟教程：https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
 
+## 入门指南
+
+### 目录结构
+
+https://www.runoob.com/linux/linux-system-contents.html - *Linux 系统目录结构 | 菜鸟教程*
+
 ## 系统
 
 ### CentOS

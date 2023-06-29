@@ -246,7 +246,7 @@ Android:
 ----
 
 
-- 客户端
+- 客户端（Client）
     - 网页（Web）软件（可在浏览器中使用）
     - 桌面（Desktop）软件（需下载安装到电脑中使用）
         - 版本（Version）
@@ -256,20 +256,20 @@ Android:
     - 跨平台应用（支持 PC 端、智能手机、平板、Web 网页等平台）
     - 编程（Programming）软件
     - 插件（Plugin）API
-- 服务端
+- 服务端（Server）
 
 ----
 
-- 客户端
-    - 桌面客户端
+- 客户端（Client）
+    - 桌面客户端（Desktop）
         - Windows 客户端
         - Mac 客户端
         - Linux 客户端
         - Terminal 客户端
-    - 移动客户端
+    - 移动客户端（Mobile）
         - Android 客户端
         - iPad/iPhone 客户端
-- 服务器端
+- 服务器端（Server）
     - Linux 服务器端
 
 参考：https://www.seafile.com/download/ - *下载 - Seafile*
@@ -314,7 +314,7 @@ Android:
 ## 软件卸载
 
 https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA - *最后教一次：完美解决电脑上的流氓软件* 🏷️ *阿虚同学*
- 
+
 ## 常见问题
 
 ### 软件如何分类？

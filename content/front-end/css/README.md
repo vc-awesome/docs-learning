@@ -4,13 +4,14 @@
 **菜鸟教程**：
 
 1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
+
 2. https://www.runoob.com/css3/css3-tutorial.html - *CSS3 教程*
 
 ### 盒模型
 
-https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model - *CSS 基础框盒模型介绍 - CSS：层叠样式表 | MDN*
+1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model - *CSS 基础框盒模型介绍 - CSS：层叠样式表 | MDN*
 
-https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model - *盒模型 - 学习 Web 开发 | MDN*
+2. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model - *盒模型 - 学习 Web 开发 | MDN*
 
 ### 选择器
 
@@ -45,6 +46,10 @@ https://www.runoob.com/css/css-pseudo-classes.html - *CSS 伪类 | 菜鸟教程*
 ### 伪元素
 
 https://www.runoob.com/css/css-pseudo-elements.html - *CSS 伪元素 | 菜鸟教程*
+
+### CSS3 过渡
+
+https://www.runoob.com/css3/css3-transitions.html - *CSS3 过渡 | 菜鸟教程*
 
 ## Sass
 

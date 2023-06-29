@@ -32,8 +32,11 @@ https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程
 
 `npm install <Module Name>`
 
+`npm --registry https://npmreg.proxy.ustclug.org/ install <packagename>` - *使用指定镜像源安装某个软件包*
+
 ```bash
-npm install # 安装 package.json 定义好的模块，简写 npm i
+# 安装 package.json 定义好的模块，简写 npm i
+npm install
 
 # 安装包指定模块
 npm i <ModuleName>
@@ -74,13 +77,13 @@ npm i <ModuleName> -g
 
 `npm search <Module Name>`
 
-### npm 版本升级
+### 升级 npm 版本
 
 `npm install npm` # 本地升级
 
 `npm install npm -g` # 全局升级
 
-### npm 镜像
+### 设置镜像源
 
 - 查看
 
@@ -88,9 +91,18 @@ npm i <ModuleName> -g
 
 - 设置
 
-  `npm config set registry https://registry.npm.taobao.org --global`
+  新版：
 
-  `npm config set disturl https://npm.taobao.org/dist --global`
+  `npm config set registry https://registry.npmmirror.com --global`
+  
+  `npm config set disturl https://npmmirror.com/mirrors/node --global`
+  
+  旧版：
+  
+  ~~`npm config set registry https://registry.npm.taobao.org --global`~~
+  
+  ~~`npm config set disturl https://npm.taobao.org/dist --global`~~
+  
 
 ### 查看全局安装的模块
 
@@ -107,6 +119,10 @@ npm i <ModuleName> -g
 ### 查看设置
 
 `npm config list` 或 `npm config ls`
+
+全局
+
+`npm config list -g` 或 `npm config ls -g`
 
 ### 查看完整的设置列表
 
@@ -128,11 +144,11 @@ npm i <ModuleName> -g
 
 `npm cache clean`
 
-## 镜像
+## 镜像源
 
 ### npmmirror 镜像站（原淘宝 npm）
 
-https://npmmirror.com/ - *npmmirror 镜像站*
+官方：https://npmmirror.com/ - *npmmirror 镜像站*
 
 使用淘宝 NPM 镜像命令
 
@@ -149,6 +165,10 @@ https://npmmirror.com/ - *npmmirror 镜像站*
   - 参考链接
 
     https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
+
+### 中科大镜像站
+
+https://mirrors.ustc.edu.cn/help/npm.html - *NPM 反向代理使用帮助 — USTC Mirror Help 文档*
 
 ### 镜像源管理工具（nrm）
 
@@ -367,13 +387,14 @@ https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-c
 
 
 
-**参考链接**
+**参考**
 
-https://segmentfault.com/q/1010000007774349 - *npm本地安装模块后如何去运行*
+1. https://segmentfault.com/q/1010000007774349 - *npm本地安装模块后如何去运行*
 
-https://www.csdn.net/tags/MtzaYg4sMjU4Mi1ibG9n.html - *npm本地安装模块使用*
+2. https://www.csdn.net/tags/MtzaYg4sMjU4Mi1ibG9n.html - *npm本地安装模块使用*
 
-https://blog.csdn.net/weixin_43302112/article/details/124932956 - *17.如何使用或执行使用 npm 安装的包*
+3. https://blog.csdn.net/weixin_43302112/article/details/124932956 - *17.如何使用或执行使用 npm 安装的包*
 
-https://blog.csdn.net/guyue35/article/details/55195198 - *怎么运行npm本地安装的模块*
+4. https://blog.csdn.net/guyue35/article/details/55195198 - *怎么运行npm本地安装的模块*
+
 

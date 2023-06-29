@@ -1,6 +1,6 @@
 ## 简介
 
-An open source Android Git client.
+> <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="10" vspace="0"> An open source Android Git client.
 
 ## 官方
 
@@ -60,5 +60,9 @@ https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Ope
     4. _屏幕继续从右向左滑_ ，第三项为“状态”标签页，可查看当前已修改文件的修改内容（文件差异）；
 
     5. 确定文件无异后，点击右上角的操作按钮，选择 _暂存所有 > 提交 > 推送_ 这 3 步操作，将文件推送至远程仓库。
+
+## 注意事项
+
+!> 在最新代码未提交至远程仓库前，千万不要点击删除操作，由于点击删除按钮，不会提示“是否确定删除？”，而是直接删除所选文件或文件夹，导致辛苦编辑的内容无法找回。
 
 ## 常见问题解答

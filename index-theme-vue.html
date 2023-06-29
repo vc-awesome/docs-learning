@@ -184,7 +184,7 @@
             // 编辑页面
             '📝[EDIT DOCUMENT](' + url + ')',
             // 文件所在路径
-            ' · 📂<abbr title="文件所在路径">*' + decodeURIComponent(vm.route.file) + '*</abbr>',
+            ' · 📂<abbr title="文件所在路径" data-codecopy="true">*' + decodeURIComponent(vm.route.file) + '*</abbr>',
             // 最近更新时间
             ' · 🗓️<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>',
             '</header>\n\n'
@@ -218,7 +218,7 @@
 
           var footer = [
             '<footer>',
-            '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome" target="_blank">vc-awesome</a>(<a href="https://vc-awesome.github.io/docs-learning/" target="_blank">Website</a>) &copy;' + new Date().getFullYear() + '.</span>',
+            '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome/docs-learning" target="_blank">vc-awesome/docs-learning</a>(<a href="https://vc-awesome.github.io/docs-learning/" target="_blank">Website</a>) &copy;' + new Date().getFullYear() + '.</span>',
             '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>(<a href="https://docsify.js.org/#/" target="_blank">Website</a>) and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
             plugins,
             sites,
@@ -228,13 +228,15 @@
           return (
               header +
               html+
-              '\n\n<div class="el-divider el-divider--horizontal" role="separator"><div class="el-divider__text is-right color-fg-subtle"><i> - THE END.</i></div></div>\n\n'+
+              '\n\n<div class="el-divider el-divider--horizontal my-6" role="separator"><div class="el-divider__text is-right color-fg-subtle"><i> - EOL.</i></div></div>\n\n'+
               // '\n\n----\n\n' +
               footer
           );
         }),
       // Invoked on each page load after new HTML has been appended to the DOM
         hook.doneEach(function() {
+
+          $("blockquote > p").addClass("clearfix");
 
         // 手机端顶部导航栏 :hover 触控处理
           var ele = document.querySelector("nav.app-nav");
@@ -285,41 +287,50 @@
       function(hook, vm) {
       // Invoked one time when the docsify instance has mounted on the DOM
         hook.mounted(function() {
-          var listenerHost = document.querySelector(".content");
+          var listenerHost = document.querySelector(".content,header");
           listenerHost.addEventListener("click", function(evt) {
-            var isCodeElm = evt.target.nodeName == "CODE";
+            var isCodeElm = evt.target.nodeName == "CODE" || evt.target.parentNode.dataset.codecopy;
             if (isCodeElm && evt.target.parentNode.nodeName != "PRE") {
-
-              var range = document.createRange();
-              var codeElm = evt.target;
-              var selection = window.getSelection();
-              range.selectNode(codeElm);
-              selection.removeAllRanges();
-              selection.addRange(range);
-              try {
-                var successful = document.execCommand("copy");
-                if (successful) {
-                  showTooltip(evt.target, 'Copied!');
-                }
-              } catch (err) {
-                console.error("docsify-copy-code: ".concat(err));
-                showTooltip(evt.target, "docsify-copy-code: ".concat(err));
+              if (evt.target.parentNode.dataset.codecopy) {
+                copy(evt, evt.target.parentNode);
+                return;
               }
-              selection = window.getSelection();
-              if (typeof selection.removeRange === "function") {
-                selection.removeRange(range);
-              } else if (typeof selection.removeAllRanges === "function") {
-                selection.removeAllRanges();
-              }
+              copy(evt);
             }
           });
+          function copy(evt, showToolTipTarget) {
+            if (showToolTipTarget === undefined) {
+              showToolTipTarget = evt.target;
+            }
+            var range = document.createRange();
+            var codeElm = evt.target;
+            var selection = window.getSelection();
+            range.selectNode(codeElm);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+              var successful = document.execCommand("copy");
+              if (successful) {
+                showTooltip(showToolTipTarget, 'Copied!');
+              }
+            } catch (err) {
+              console.error("docsify-copy-code: ".concat(err));
+              showTooltip(showToolTipTarget, "docsify-copy-code: ".concat(err));
+            }
+            selection = window.getSelection();
+            if (typeof selection.removeRange === "function") {
+              selection.removeRange(range);
+            } else if (typeof selection.removeAllRanges === "function") {
+              selection.removeAllRanges();
+            }
+          }
           function showTooltip(elem, msg) {
             elem.setAttribute('class', 'tooltipped tooltipped-n tooltipped-no-delay');
             elem.setAttribute('aria-label', msg);
           }
         });
         hook.doneEach(function() {
-          var codes = document.querySelectorAll('p code');
+          var codes = document.querySelectorAll('p code,li > code,[data-codecopy]');
           for (var i = 0; i < codes.length; i++) {
             codes[i].addEventListener('mouseleave', clearTooltip);
             codes[i].addEventListener('mouseenter', showTooltip);
@@ -355,7 +366,33 @@
 
 <!-- 右下悬浮按钮组 -->
 <div class="d-flex flex-column position-fixed right-2 bottom-2" id="right-bottom-float-btns" style="display: none!important;">
+  <details class="dropdown details-reset details-overlay d-inline-block">
+    <!-- <summary class="btn btn-sm" aria-haspopup="true" onmouseover="this.parentNode.setAttribute('open', 'true')"> -->
+      <summary class="btn btn-sm" aria-haspopup="true">
+      🧊
+      <!-- <div class="dropdown-caret"></div> -->
+    </summary>
+
+    <ul class="dropdown-menu dropdown-menu-w">
+      <div class="dropdown-header">
+        Dropdown header（最多可添加 7 列）
+      </div>
+      <li><a class="dropdown-item" href="https://primer.style/css/components/dropdown" target="_blank">1. Dropdown | Primer CSS</a></li>
+      <li class="dropdown-divider" role="separator"></li>
+      <li><a class="dropdown-item" href="https://wangchujiang.com/linux-command/" target="_blank">2. Linux 命令速查手册</a></li>
+      <li class="dropdown-divider" role="separator"></li>
+      <li><a class="dropdown-item" href="https://fontawesome.com/v6/icons/" target="_blank">3. Icons Icon | Font Awesome</a></li>
+      <li><a class="dropdown-item" href="https://www.iconfont.cn/" target="_blank">4. iconfont-阿里巴巴矢量图标库</a></li>
+      <li class="dropdown-divider" role="separator"></li>
+      <li>
+        <a class="dropdown-item" href="#/os/tools/opera">5. <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="Opera" width="16" height="16" style="vertical-align: sub;"> Opera Web Browser</a>
+      </li>
+      <li class="dropdown-divider" role="separator"></li>
+      <li><a class="dropdown-item" href="https://wangdoc.com/" target="_blank">6. 网道 - 互联网开发文档</a></li>
+    </ul>
+  </details>
   <button class="btn btn-outline btn-sm" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
+   <!-- onmouseenter="sweetalert2Iframe('_portal.md')" -->
   <!-- 返回顶部 -->
   <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent" aria-disabled="true">
     0%
@@ -381,7 +418,10 @@
   </button>
   <!-- 切换主题 -->
   <button class="btn btn-outline btn-sm" id="theme=" onclick="setTheme('vue');">
-    <span class="far fa-sun"></span>
+    <span class="fa-regular fa-sun-bright"></span>
+  </button>
+  <button class="toggle-nav btn btn-outline btn-sm" style="display: none">
+    <span class="fa-duotone fa-bars"></span>
   </button>
   <!-- Page Refresh Button -->
   <button class="btn btn-outline btn-sm" onclick="window.location.reload();">
@@ -568,6 +608,7 @@ function toggleFullScreen(e) {
 <script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-powershell.min.js"></script>
 <script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
+<script src="//unpkg.com/prismjs@latest/components/prism-diff.min.js"></script>
 
 <!-- 全文搜索 -->
 <script src="//unpkg.com/docsify@latest/lib/plugins/search.min.js"></script>
@@ -700,7 +741,7 @@ function sweetalert2Iframe(_url = "snippets/") {
 
       let value = id == "vue" ? "dark" : "vue";
       btn.setAttribute("onclick", "setTheme('"+ value + "')");
-      let iconClass = id == "vue" ? "far fa-moon" : "far fa-sun";
+      let iconClass = id == "vue" ? "fa-duotone fa-moon-stars" : "fa-regular fa-sun-bright";
       btn.firstElementChild.setAttribute("class", iconClass);
 
       const bodyEl = document.querySelector("body");
@@ -716,6 +757,48 @@ function sweetalert2Iframe(_url = "snippets/") {
     setTheme(current);
     // console.log(current);
   })()
+</script>
+<!-- 显示/隐藏顶部导航栏 -->
+<style>
+  nav {
+    top: 0;
+    -webkit-transition-delay: 0s;
+    -o-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-duration: 0.6s;
+    -o-transition-duration: 0.6s;
+    transition-duration: 0.6s;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -webkit-transition-property: top;
+    -o-transition-property: top;
+    transition-property: top;
+  }
+  .nav-hide {
+    top: -150px;
+  }
+</style>
+<script type="text/javascript">
+  (function () {
+  var myPlugin = function (hook, vm) {
+    // Invoked one time after rendering the initial page
+    hook.ready(function () {
+      if (!!document.querySelector("body > nav")) {
+        const toggleNavBtn = document.querySelector(".toggle-nav");
+        toggleNavBtn.removeAttribute("style");
+        toggleNavBtn.addEventListener("click", function() {
+          document.querySelector("nav").classList.toggle("nav-hide");
+        })
+      }
+    });
+  };
+
+  // Add plugin to docsify's plugin array
+  $docsify = $docsify || {};
+  $docsify.plugins = [].concat(myPlugin, $docsify.plugins || []);
+})();
+
 </script>
 </body>
 </html>

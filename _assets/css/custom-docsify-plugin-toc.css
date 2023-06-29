@@ -193,7 +193,7 @@ aside.toc-nav {
   left: 50px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1299px) {
   .toc-nav .page_toc {
     background: #fff;
     min-height: 100%;

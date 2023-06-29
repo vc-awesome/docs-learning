@@ -1,18 +1,26 @@
 ## 简介
 
-> <img src="https://brew.sh/assets/img/homebrew.svg" alt="package icon" align="bottom" width="28" hspace="7" vspace="0"> The missing package manager for macOS (or Linux). Homebrew is the easiest and most flexible way to install the UNIX tools Apple didn´t include with macOS. It can also install software not packaged for your Linux distribution without requiring **sudo**.
+> <img src="https://brew.sh/assets/img/homebrew.svg" alt="package icon" align="left" width="28" hspace="10" vspace="0"> The missing package manager for macOS (or Linux). Homebrew is the easiest and most flexible way to install the UNIX tools Apple didn´t include with macOS. It can also install software not packaged for your Linux distribution without requiring **sudo**.
 
 ## 官方
 
-GitHub: https://github.com/Homebrew - *Homebrew · GitHub*
+GitHub: 
 
-Website: https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)* 
+- https://github.com/Homebrew - *Homebrew · GitHub*
 
-Website(中文): https://brew.sh/index_zh-cn - *macOS（或 Linux）缺失的软件包的管理器 — Homebrew*
+Website: 
 
-文档：https://docs.brew.sh/ - *Documentation — Homebrew Documentation*
+1. https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)* 
 
-FAQ：https://docs.brew.sh/FAQ - *FAQ (Frequently Asked Questions) — Homebrew Documentation*
+2. https://brew.sh/index_zh-cn - *macOS（或 Linux）缺失的软件包的管理器 — Homebrew*
+
+文档：
+
+- https://docs.brew.sh/ - *Documentation — Homebrew Documentation*
+
+FAQ：
+
+- https://docs.brew.sh/FAQ - *FAQ (Frequently Asked Questions) — Homebrew Documentation*
 
 ## 安装
 
@@ -40,9 +48,11 @@ https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux - *Ins
 
 `man brew` (*[man brew documentation](https://docs.brew.sh/Manpage)*)
 
-`brew -v`
+- 查看 brew 版本信息
 
-`brew --version`
+  `brew -v`
+
+  `brew --version`
 
 `brew update`
 

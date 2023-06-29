@@ -3,6 +3,16 @@
 https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 
 1. https://wangdoc.com/bash/grammar - *Bash 的基本语法 - Bash 脚本教程 - 网道*
+1. https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道*
+
+### 行操作
+
+- `Ctrl + a`：移到行首。
+- `Ctrl + e`：移到行尾。
+- `Ctrl + d`：删除光标位置的字符（delete）。
+- `Ctrl + w`：删除光标前面的单词。
+
+更多操作方式请参见：https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道*
 
 ## 问题搜索
 
@@ -32,6 +42,22 @@ https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 ## 常用命令
 
 > 以下的命令可以点击对应的链接，进入网页查看使用实例。
+
+### 查看命令帮助文档
+
+`man` - *查看Linux中的指令帮助*
+
+https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命令详解：查看Linux中的指令帮助 - Linux 命令搜索引擎*
+
+`help` - *该命令是bash内建命令，用于显示bash内建命令的帮助信息。*
+
+https://wangchujiang.com/linux-command/c/help.html - *help 命令，Linux help 命令详解：该命令是bash内建命令，用于显示bash内建命令的帮助信息。 - Linux 命令搜索引擎*该命令是bash内建命令，用于显示bash内建命令的帮助信息。
+
+`info` - *Linux下info格式的帮助指令*
+
+参考：
+
+https://blog.csdn.net/Zhi_osX/article/details/80146259 - *linux命令-查看命令帮助文档_Zhi_osX的博客-CSDN博客*
 
 ### 文件权限管理
 
@@ -113,6 +139,14 @@ https://www.runoob.com/linux/linux-comm-mv.html - *Linux mv 命令 | 菜鸟教�
 
 `mv [源文件名] [目标文件名]`
 
+### 文本搜索
+
+https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep 命令详解：强大的文本搜索工具 - Linux 命令搜索引擎*
+
+`grep`
+
+实例：`history | grep git` - *搜索命令行历史记录中 输入过 `git` 命令的记录*
+
 
 ### 编辑文件
 
@@ -154,16 +188,47 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 2.  https://blog.csdn.net/p309654858/article/details/127765811 - *Linux如何查看文件的属性_linux查看文件属性_music score的博客-CSDN博客*
 
 
-### 清屏
-
-`clear`
-
-
 ### 复制文件或文件夹
 
 `cp [选项] [源文件或目录] [目标文件或目录]`
 
 ### 系统管理
+
+#### 查看系统信息
+
+`uname -a` - *查看版本和内核信息*
+
+
+
+#### 环境变量
+
+> 环境变量（environment variables）一般是指在[操作系统](https://baike.baidu.com/item/操作系统/192?fromModule=lemma_inlink)中用来指定操作系统运行环境的一些参数，如：[临时文件夹](https://baike.baidu.com/item/临时文件夹/1061467?fromModule=lemma_inlink)位置和[系统文件夹](https://baike.baidu.com/item/系统文件夹/5328647?fromModule=lemma_inlink)位置等。
+>
+> 环境[变量](https://baike.baidu.com/item/变量?fromModule=lemma_inlink)是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用[程序](https://baike.baidu.com/item/程序?fromModule=lemma_inlink)所将使用到的信息。例如[Windows](https://baike.baidu.com/item/Windows/165458?fromModule=lemma_inlink)和[DOS](https://baike.baidu.com/item/DOS/32025?fromModule=lemma_inlink)操作系统中的path环境变量，当要求系统运行一个[程序](https://baike.baidu.com/item/程序/71525?fromModule=lemma_inlink)而没有告诉它程序所在的完整路径时，系统除了在[当前目录](https://baike.baidu.com/item/当前目录/7205107?fromModule=lemma_inlink)下面寻找此程序外，还应到path中指定的路径去找。用户通过设置环境[变量](https://baike.baidu.com/item/变量?fromModule=lemma_inlink)，来更好的运行进程。
+>
+> —— <https://baike.baidu.com/item/环境变量/1730949> - *环境变量_百度百科*
+
+https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教程 - 网道*
+
+- 查看环境变量
+
+  `env` 或者 `printenv`
+
+- 设置环境变量
+
+  `export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/` - *暂时性修改环境变量，终端窗口关闭后会重置*
+
+  `gedit /etc/profile` - *永久修改 linux 环境变量*
+
+  参考：
+
+  1. https://blog.csdn.net/qq_36393978/article/details/130683444 - *Linux 系统修改环境变量的方法_linux 修改环境变量_Imagine Miracle的博客-CSDN博客*
+
+  2. https://m.php.cn/faq/486664.html - *怎样修改linux的环境变量-linux运维-PHP中文网*
+
+- 移除环境变量
+
+  `unset NVM_NODEJS_ORG_MIRROR`
 
 #### 查看 Shell 版本
 
@@ -193,8 +258,16 @@ https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜�
 
 `exit`
 
+### 清屏
+
+`clear`
+
 ## 常见问题
 
 ### 源码编译安装与一键安装
 
-https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=10153 - *安装第三方PHP扩展示例 - Linux面板 - 宝塔面板论坛*
+1. https://www.php.net/manual/zh/install.pecl.phpize.php - *PHP: 用 phpize 编译共享 PECL 扩展库 - Manual*
+
+2. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=10153 - *安装第三方PHP扩展示例 - Linux面板 - 宝塔面板论坛*
+
+3. https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程* （🫱 查看文档标题「CentOS 下源码安装 Node.js」下的内容）

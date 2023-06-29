@@ -109,18 +109,33 @@
       if (!active) {
         return;
       }
-      var height = tocnav.clientHeight - 40;
+      var height = tocnav.clientHeight - 100;
       var curOffset = 0;
-      var cur = active.offsetTop + active.clientHeight + 40;
+      var cur = active.offsetTop + active.clientHeight;
       var isInView =
           active.offsetTop >= tocnav.scrollTop && cur <= tocnav.scrollTop + height;
       var notThan = cur - curOffset < height;
 
-      var value = isInView ?
+
+      // console.log("active:", "offsetTop:" + active.offsetTop, "clientHeight:" + active.clientHeight, cur);
+
+      // console.log("tocnav:", "scrollTop:" + tocnav.scrollTop, "clientHeight:" + tocnav.clientHeight, tocnav.scrollTop + height);
+
+      // console.log("isInView:", isInView)
+
+      var valueOld = isInView ?
           tocnav.scrollTop :
           notThan ?
           curOffset :
           cur - height;
+      var value = 0;
+      // if (cur >= tocnav.scrollTop + height) {
+        // value = tocnav.scrollHeight - tocnav.clientHeight;
+      // } else {
+        // value = valueOld;
+      // }
+      value = valueOld
+      // console.log(tocnav.scrollHeight)
       tocnav.scrollTop = value;
     };
     return window.$docsify || (window.$docsify = {}), window.$docsify.plugins = (window.$docsify.plugins ||

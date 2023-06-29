@@ -105,3 +105,4 @@ Shopify
     - 谁在使用
         - https://matsuridayo.github.io/ - *MatsuriDayo*
 11. https://github.com/jaywcjlove/idoc - *GitHub - jaywcjlove/idoc: Simple document generation tool! Dependence Node.js run.*
+12. https://github.com/facebook/docusaurus - *facebook/docusaurus: Easy to maintain open source documentation websites.* [Website](https://docusaurus.io/)

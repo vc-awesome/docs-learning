@@ -359,7 +359,12 @@ Indent paragraphs to include them in the footnote.
 Add as many paragraphs as you like.
 ```
 
+```diff
+- https://clients2.google.com/service/update2/crx?response=redirect&x=id%3D<这里是扩展ID>%26uc&prodversion=32
++ https://clients2.google.com/service/update2/crx?response=redirect&x=id%3Diheapfheanfjcemgneblljhaebonakbg%26uc&prodversion=32
+```
 
+注：*可在工具 Typora 或者 [GitHub](https://github.com/jaywcjlove/oscnews/blob/e06905d5e134c5665ab76f866eba3abccc2029ce/README.md?plain=1#L81C1-L84C4) 中查看上面代码块不一样的渲染效果*。
 
 ##### **Markdown**
 

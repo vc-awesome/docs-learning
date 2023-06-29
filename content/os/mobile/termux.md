@@ -1,9 +1,7 @@
 ## Introduction
 
-<div class="d-flex flex-items-start"">
-  <div><img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" alt="f-droid Icon" loading="lazy" decoding="async" align="right" width="78" hspace="10" vspace="0"></div>
-  <div>Terminal emulator with packages</div>
-</div>
+
+> <img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" alt="f-droid Icon" loading="lazy" decoding="async" align="left" width="78" hspace="10" vspace="0"> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager.
 
 
 ## Official
@@ -205,6 +203,12 @@ apt
 apt list
 ```
 
+\# 列出可升级的软件包
+
+```sh
+apt list --upgradable
+```
+
 注：*list packages based on package names*
 
 ```sh
@@ -337,7 +341,7 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
 
 ## Tool
 
-### Nano 编辑器
+### Nano
 
 搜索：
 
@@ -400,6 +404,42 @@ pkg install git
 ```sh
 pkg uninstall git
 ```
+
+---
+
+https://zhuanlan.zhihu.com/p/619764281 - *42号笔记：Android上使用Termux的git同步Obsidian - 知乎*
+
+### Openssh
+
+安装：
+
+```sh
+pkg install openssh
+```
+
+卸载：
+
+```sh
+pkg uninstall openssh
+```
+
+### Xclip
+
+⚠️ 按下面顺序安装，否则无法安装。
+
+先安装：
+
+```sh
+pkg install x11-repo
+```
+
+再安装：
+
+```sh
+pkg install xclip
+```
+
+!> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
 
 ## FAQ
 

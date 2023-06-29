@@ -1,16 +1,22 @@
+## Introduction
+
+> `uni-app` 是一个使用 [Vue.js](https://vuejs.org/) 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、Web（响应式）、以及各种小程序（微信/支付宝/百度/头条/飞书/QQ/快手/钉钉/淘宝）、快应用等多个平台。
+
 ## Index
 
 官网：https://www.dcloud.io - *DCloud - HBuilder、HBuilderX、uni-app、uniapp、5+、5plus、mui、wap2app、流应用、HTML5、小程序开发、跨平台App、多端框架*
 
-插件市场：https://ext.dcloud.net.cn
+插件市场：https://ext.dcloud.net.cn - *DCloud 插件市场*
 
-uni-app：https://uniapp.dcloud.io
+uni-app：https://uniapp.dcloud.io - *uni-app官网*
 
-HBuilder X：https://www.dcloud.io/hbuilderx.html
+GitHub：https://github.com/dcloudio/uni-app - *dcloudio/uni-app: A cross-platform framework using Vue.js*
 
-GitHub：https://github.com/dcloudio/uni-app
+## Tool
 
+### HBuilder X
 
+https://www.dcloud.io/hbuilderx.html - *HBuilderX-高效极客技巧*
 
 ## FAQ
 
@@ -22,17 +28,17 @@ GitHub：https://github.com/dcloudio/uni-app
 
 问题：（问题解决耗时5小时）
 
-Uniapp wgt热更新进度条异常
+Uniapp wgt 热更新进度条异常
 
 原因：
 
-服务器没有响应`Content-Length`
+服务器没有响应 `Content-Length`
 
 ![img](./_images/图片1.png) 
 
 解决：
 
-Apache 配置`mod_deflate.c`模块，添加`wgt`文件类型
+Apache 配置 `mod_deflate.c` 模块，添加 `wgt` 文件类型
 
 ![img](./_images/图片2.png) 
 
@@ -46,17 +52,17 @@ Apache 配置`mod_deflate.c`模块，添加`wgt`文件类型
 
 问题：（问题解决耗时2小时）
 
-uni-app运行环境版本和编译器版本不一致的问题
+uni-app 运行环境版本和编译器版本不一致的问题
 
 原因：
 
-https://ask.dcloud.net.cn/article/35627
+https://ask.dcloud.net.cn/article/35627 - *uni-app运行环境版本和编译器版本不一致的问题 - DCloud问答*
 
 解决：
 
-1. HBuilder编辑器版本升级（升级完重新启动编辑器）
+1. HBuilder 编辑器版本升级（升级完重新启动编辑器）
 
-2. 删除项目根目录`unpackage`文件夹（文件夹包含了旧版本的打包配置）
+2. 删除项目根目录 `unpackage` 文件夹（文件夹包含了旧版本的打包配置）
 
 3. 卸载重装编辑器插件`App真机运行`、`uni-app编译`（完成后重新启动编辑器）
 

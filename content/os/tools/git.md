@@ -53,9 +53,14 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 ### 代码托管平台
 
 1. [GitHub](/tools/github) - *GitHub: Where the world builds software · GitHub*
+
 2. [Gitee](https://gitee.com/) - *Gitee - 基于 Git 的代码托管和研发协作平台*
-3. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
-4. [Bitbucket](https://www.atlassian.com/zh/software/bitbucket) - *用于团队的 Atlassian Bitbucket Git 代码管理工具 | Atlassian*
+
+3. [阿里云云效 Codeup](https://codeup.aliyun.com/) - *云效 Codeup · 企业级代码管理平台* [旧版](https://code.aliyun.com/)
+
+4. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
+
+5. [Bitbucket](https://www.atlassian.com/zh/software/bitbucket) - *用于团队的 Atlassian Bitbucket Git 代码管理工具 | Atlassian*
 
 ## 工作流程
 
@@ -70,7 +75,7 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
 
-## 命令 › 基础
+## 基础命令
 
 ### 查看帮助
 
@@ -90,10 +95,16 @@ git --version
 
 ### 配置 - *config*
 
-查看配置信息
+查看当前仓库配置信息
 
 ```bash
 git config --list
+```
+
+查看全局仓库配置信息
+
+```sh
+git config --list --global
 ```
 
 
@@ -108,11 +119,21 @@ git clone -b v1.2.0 --depth=1 https://ghproxy.com/https://github.com/zenorocha/c
 
 参考：http://www.360doc.com/content/22/0801/15/7579570_1042203637.shtml - *Git 克隆指定版本...*
 
+克隆方式（HTTPS）：
 
+```bash
+git clone https://github.com/zenorocha/codecopy.git
+```
+
+克隆方式（SSH）：
+
+```bash
+git clone git@github.com:zenorocha/codecopy.git
+```
 
 ### 🔥 创建仓库
 
-初始化 `git` 仓库（指定系统文件夹下执行）
+初始化 `git` 仓库（在指定系统文件夹下执行）
 
 ```bash
 git init
@@ -134,6 +155,9 @@ git status
 
 ```bash
 git config --list
+```
+
+```bash
 git config -l
 ```
 
@@ -151,10 +175,21 @@ git config -e --global #针对系统上所有仓库
 
 ```bash
 git config --global user.name "runoob"  
+```
+
+```bash
 git config --global user.email "test@runoob.com"
 ```
 
 > --global: 去掉此参数只针对当前仓库有效
+
+将仓库添加至安全目录（可选操作）
+
+```bash
+git config --global --add safe.directory /storage/emulated/0/Documents/markor/GitHub/vc-awesome
+```
+
+注：部分设备（例：**Termux** ）未执行此命令，会提示错误：“必须执行此命令”；在提示的内容中复制命令执行即可。
 
 实例
 
@@ -170,7 +205,45 @@ git merge origin master
 
 
 
-### 🔥 提交远程仓库
+#### 创建新仓库
+
+> via 阿里云代码仓库
+
+```bash
+git clone git@137.220.33.223:p/sky.git
+cd sky
+touch README.md
+git add README.md
+git commit -m "add README"
+git push -u origin master
+```
+
+
+
+#### 已存在的文件夹
+
+> via 阿里云代码仓库
+
+推送改动
+
+```bash
+cd existing_folder
+git init
+git remote add origin git@code.aliyun.com:torres/swarm.git
+git add .
+git commit -m 
+git push -u origin master
+```
+
+更新合并（已存在的 Git 仓库，执行此命令即可）
+
+```bash
+git pull origin master #git remote完成后拉取远程的文件操作
+```
+
+ 
+
+### 🔥 提交至远程仓库
 
 1. 查看仓库当前的状态，显示有变更的文件
 
@@ -212,7 +285,91 @@ git merge origin master
    git push origin master
    ```
 
+#### 配置验证信息 - *ssh*
 
+> 由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过 SSH 加密的，所以我们需要配置验证信息。
+
+1. 生成 **SSH Key**
+
+   ```bash
+    # 后面的 your_email@youremail.com 改为你在 GitHub 上注册的邮箱；
+    # 之后会要求确认路径和输入密码，我们这使用默认的一路回车就行；
+    # 成功的话会在 ~/ 目录下生成 .ssh 文件夹；
+    # 进去，打开 id_rsa.pub，复制里面的 key。
+   ssh-keygen -t rsa -C "youremail@example.com"
+   ```
+
+   实例：
+
+   ```bash
+   `ssh-keygen -t rsa -C "caiyongwen@yeah.net"`
+   ```
+
+2. 获取 **SSH Key**
+
+   ```bash
+   # GNU/Linux/Mac/PowerShell
+   cat ~/.ssh/id_rsa.pub
+   ```
+
+   
+
+   ```bash
+   # Windows Command Line
+   type %userprofile%\.ssh\id_rsa.pub
+   ```
+
+3. 复制 **SSH Key**
+
+   ```bash
+   # Windows Command Line
+   type %userprofile%\.ssh\id_rsa.pub | clip
+   ```
+
+   
+
+   ```bash
+   # windows PowerShell
+   cat ~/.ssh/id_rsa.pub | clip
+   ```
+
+   
+
+   ```bash
+   # Mac
+   pbcopy < ~/.ssh/id_rsa.pub
+   ```
+
+   
+
+   ```bash
+   # GNU/Linux (requires xclip)
+   xclip -sel clip < ~/.ssh/id_rsa.pub
+   ```
+
+   
+
+4. 远程仓库添加 **SSH Key**
+
+   [GitHub](https://github.com/)、[Gitee](https://gitee.com/)、[阿里云](https://code.aliyun.com/) 代码仓库都有设置 **SSH Key** 的选项。
+
+   
+
+5. 验证 **SSH Key** 是否设置成功
+
+   ```bash
+   ssh -T git@github.com # git@github.com 为远程仓库 SSH
+   ```
+
+   验证 GitHub
+
+   ```bash
+   ssh -T git@github.com
+   ```
+
+   
+
+参考：https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
 ### 推送改动 - *push*
 
@@ -231,12 +388,26 @@ git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分�
   例：git pull origin master #默认的远程主机名为origin，默认的本地分支名为master
   ```
 
+  ```bash
+  git pull
+  ```
+
 - 提取远程仓库（方式二）
 
   ```bash
   1. git fetch [alias] [branch] #中括号的内容可省略
   2. git merge [alias]/[branch] #中括号的内容可省略
   ```
+  
+  ```bash
+  git fetch
+  ```
+  
+  ```bash
+  git merge
+  ```
+  
+  
 
 
 
@@ -366,7 +537,9 @@ $ git diff [first-branch]...[second-branch] #显示两次提交之间的差异�
 
 ### 回退版本 - *reset*
 
-git reset 命令用于回退版本，可以指定退回某一次提交的版本
+> git reset 命令用于回退版本，可以指定退回某一次提交的版本
+
+语法：
 
 ```bash
 git reset [--soft | --mixed | --hard] [HEAD] #[--soft | --mixed | --hard]为可选参数
@@ -381,21 +554,20 @@ git reset [--soft | --mixed | --hard] [HEAD] #[--soft | --mixed | --hard]为可�
 **HEAD说明**
 
 - *HEAD* 表示当前版本
-
 - *HEAD^* 上一个版本
-
 - *HEAD^^* 上上一个版本
-
 - *HEAD\^^^* 上上上一个版本
-
 - 以此类推...
 
-  > 可以使用 ~数字表示
+👇 或者使用 **~数字** 的方式表示
 
 - *HEAD~0* 表示当前版本
 - *HEAD~1* 上一个版本
 - *HEAD^2* 上上一个版本
 - *HEAD^3* 上上上一个版本
+- 以此类推...
+
+实例：
 
 ```bash
 git reset HEAD^ #回退所有内容到上一个版本
@@ -501,21 +673,19 @@ git status -s #简短格式查看文件修改状态
 
 > *工作区状态*
 
-未跟踪, 此文件在文件夹中, 但并没有加入到git库, 不参与版本控制. 通过`git add` 状态变为*Staged*.
+未跟踪，此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；通过 `git add`  状态变为 *Staged*。
 
 #### 未修改 - *Unmodify*
 
 > *使用 commit 命令后的状态*
 
-文件已经入库, 未修改, 即版本库中的文件快照内容与文件夹中完全一致. 这种类型的文件有两种去处, 如果它被修改,
-而变为*Modified*. 如果使用`git rm`移出版本库, 则成为*Untracked*文件
+文件已经入库、未修改，即版本库中的文件快照内容与文件夹中完全一致。这种类型的文件有两种去处，如果它被修改，而变为 *Modified*。 如果使用 `git rm` 移出版本库, 则成为 *Untracked* 文件。
 
 #### 已修改 - *Modified*
 
-> *针对unmodified 进行操作*
+> *针对 unmodified 进行操作*
 
-文件已修改, 仅仅是修改, 并没有进行其他的操作. 这个文件也有两个去处, 通过`git add`可进入暂存*staged*状态,
-使用`git checkout` 则丢弃修改过, 返回到*unmodify*状态, 这个`git checkout`即从库中取出文件, 覆盖当前修改
+文件已修改，仅仅是修改，并没有进行其他的操作。这个文件也有两个去处，通过 `git add` 可进入暂存 *staged* 状态，使用 `git checkout` 则丢弃修改过，返回到 *unmodify* 状态，这个 `git checkout` 即从库中取出文件，覆盖当前修改。
 
 #### 未暂存状态 - *not staged*
 
@@ -525,112 +695,37 @@ git status -s #简短格式查看文件修改状态
 
 > *add 命令状态*
 
-暂存状态. 执行`git commit`则将修改同步到库中, 这时库中的文件和本地文件又变为一致, 文件为 *Unmodify* 状态.
-执行`git reset HEAD filename`取消暂存, 文件状态为 *Modified*
+暂存状态。执行 `git commit` 则将修改同步到库中，这时库中的文件和本地文件又变为一致，文件为 *Unmodify* 状态。
+执行 `git reset HEAD filename` 取消暂存，文件状态为 *Modified*。
 
-> Git 状态 untracked 和 not staged的区别
+> Git 状态 untracked 和 not staged 的区别
 >
-> 1. untrack 表示是新文件，没有被add过，是为跟踪的意思。  
-> 2. not staged  表示add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
+> 1. untrack 表示是新文件，没有被 add 过，是为跟踪的意思；
+> 2. not staged  表示 add 过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思。
 
 
 
-## 命令 › 进阶
+## 进阶命令
 
-### *stash*
+### stash
 
 
 
-### *rebase*
+### rebase
 
 https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
 
-
-
-## 🔥 远程仓库
-
-### 配置验证信息 - *ssh*
-
-> 由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过 SSH 加密的，所以我们需要配置验证信息
-
-1. 生成 `SSH Key`
-
-   ```bash
-   ssh-keygen -t rsa -C "youremail@example.com" # 后面的 your_email@youremail.com 改为你在 Github 上注册的邮箱，之后会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在 ~/ 下生成 .ssh 文件夹，进去，打开 id_rsa.pub，复制里面的key
-   ```
-
-2. 获取 `SSH Key`
-
-   ```bash
-   # GNU/Linux/Mac/PowerShell
-   cat ~/.ssh/id_rsa.pub
-   ```
-
-   
-
-   ```bash
-   # Windows Command Line
-   type %userprofile%\.ssh\id_rsa.pub
-   ```
-
-3. 复制 `SSH Key`
-
-   ```bash
-   # Windows Command Line
-   type %userprofile%\.ssh\id_rsa.pub | clip
-   ```
-
-   
-
-   ```bash
-   # windows PowerShell
-   cat ~/.ssh/id_rsa.pub | clip
-   ```
-
-   
-
-   ```bash
-   # Mac
-   pbcopy < ~/.ssh/id_rsa.pub
-   ```
-
-   
-
-   ```bash
-   # GNU/Linux (requires xclip)
-   xclip -sel clip < ~/.ssh/id_rsa.pub
-   ```
-
-   
-
-4. 远程仓库添加 `SSH Key`
-
-   `github`、`gitee`、`阿里云`代码仓库都有设置`SSH`的选项
-
-   
-
-5. 验证 `SSH Key` 是否设置成功
-
-   ```bash
-   ssh -T git@github.com # git@github.com 为远程仓库SSH
-   ```
-
-   
-
-#### 参考链接
-
-https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
 
 ## 文件
 
 ### .gitignore
 
-[git如何忽略已经提交的文件 (.gitignore文件无效)](https://www.jianshu.com/p/e5b13480479b)
+https://www.jianshu.com/p/e5b13480479b - *git如何忽略已经提交的文件 (.gitignore文件无效) - 简书*
 
 #### 忽略文件
 
-方式 1：忽略跟踪*modified*状态的文件
+方式 1：忽略跟踪 *modified* 状态的文件
 
 ```bash
 #忽略跟踪
@@ -660,7 +755,7 @@ git push
 
 
 
-忽略*untracked*状态的文件
+忽略 *untracked* 状态的文件
 
 方式 1：将文件加入到 `.gitignore`
 
@@ -670,7 +765,9 @@ git push
 
 #### 基础操作
 
-> 如果文件已经存在于远程仓库中，是无法通过`.gitignore`文件来忽略的!!! 重新忽略，使用下面的命令
+> 如果文件已经存在于远程仓库中，是无法通过 `.gitignore` 文件来忽略的！
+>
+> 使用下面的命令，重新忽略
 
 ```bash
 git rm --cached <file> #把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除
@@ -678,7 +775,7 @@ git commit
 git push
 ```
 
-忽略特殊文件，忽略的文件将不会git提交
+忽略特殊文件，忽略的文件将不会 git 提交
 
 ```bash
 /mtk/ #过滤整个文件夹
@@ -686,7 +783,7 @@ git push
 /mtk/do.c #过滤某个具体文件
 ```
 
-> 以上规则意思是：被过滤掉的文件就不会出现在你的GitHub库中了，当然本地库中还有，只是push的时候不会上传。
+> 以上规则意思是：被过滤掉的文件就不会出现在你的 GitHub 仓库中了，当然本地仓库中还有，只是 push 的时候不会上传。
 
 ```bash
 !src/ #不过滤该文件夹
@@ -700,31 +797,31 @@ git push
 
 #### 配置语法
 
-以斜杠`/`开头表示目录
+以斜杠 `/` 开头表示目录
 
-以星号`*`通配多个字符
+以星号 `*` 通配多个字符
 
-以问号`?`通配单个字符
+以问号 `?` 通配单个字符
 
-以方括号`[]`包含单个字符的匹配列表
+以方括号 `[]` 包含单个字符的匹配列表
 
-以叹号`!`表示不忽略（跟踪）匹配到的文件或目录
+以叹号 `!` 表示不忽略（跟踪）匹配到的文件或目录
 
-> 注：此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效；
+> 注：此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效。
 
 
 
 #### 示例说明
 
-规则：fd1/* [^说明1]
+规则：`fd1/*`
 
-[^说明1]: 忽略目录 fd1 下的全部内容；注意，不管是根目录下的 /fd1/ 目录，还是某个子目录 /child/fd1/ 目录，都会被忽略
+说明：忽略目录 `fd1` 下的全部内容；注意，不管是根目录下的 `/fd1/` 目录，还是某个子目录 `/child/fd1/` 目录，都会被忽略。
 
-规则：/fd1/* [^说明2]
+规则：`/fd1/*`
 
-[^说明2]: 忽略根目录下的 /fd1/ 目录的全部内容
+说明：忽略根目录下的 `/fd1/` 目录的全部内容。
 
-规则：[^说明3]
+规则：
 
 ```bash
 /*
@@ -733,13 +830,15 @@ git push
 !/fw/sf/
 ```
 
-[^说明3]: 忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录
+说明：忽略全部内容，但是不忽略 `.gitignore` 文件、根目录下的 `/fw/bin/` 和 `/fw/sf/` 目录。
 
-[.gitignore](https://www.jianshu.com/p/699ed86028c2)
+参考：
 
-[忽略特殊文件(廖雪峰的官方网站)](https://www.liaoxuefeng.com/wiki/896043488029600/900004590234208)
+1. https://www.jianshu.com/p/699ed86028c2 - *.gitignore - 简书*
 
-[Git - .gitignore文件的用法](https://www.cnblogs.com/yulinlewis/p/10231035.html)
+2. https://www.liaoxuefeng.com/wiki/896043488029600/900004590234208 - *忽略特殊文件 - 廖雪峰的官方网站*
+
+3. https://www.cnblogs.com/yulinlewis/p/10231035.html - *Git - .gitignore文件的用法 - 雨临Lewis - 博客园*
 
 ### .gitattributes
 
@@ -754,21 +853,20 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 
 ## 常见问题
 
-### *webhook*
+### webhook
 
-gitee
+- 在 Gitee 中实现
 
-gitlab
+- 在 GitLab 中实现
 
-`crontab` 自动执行脚本
-
-
+- 使用 `crontab` 自动执行脚本 实现
 
 参考链接 👇
 
-https://segmentfault.com/a/1190000040540720?sort=votes - *PHP使用WebHook自动更新Git仓库部署*
+1. https://segmentfault.com/a/1190000040540720?sort=votes - *PHP使用WebHook自动更新Git仓库部署*
 
-https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
+2. https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
+
 
 
 
@@ -780,49 +878,13 @@ git reset --hard origin/master
 
 https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
 
-### 🔥 创建新版本库
 
-> via 阿里云代码仓库
-
-```bash
-git clone git@137.220.33.223:p/sky.git
-cd sky
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
-```
-
-
-
-### 🔥 已存在的文件夹或 Git 仓库
-
-> via 阿里云代码仓库
-
-推送改动
-
-```bash
-cd existing_folder
-git init
-git remote add origin git@code.aliyun.com:torres/swarm.git
-git add .
-git commit -m 
-git push -u origin master
-```
-
-更新合并
-
-```bash
-git pull origin master #git remote完成后拉取远程的文件操作
-```
-
- 
 
 ### 🔥 放弃本地文件修改
 
-https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
+https://www.jianshu.com/p/c0f7e4ac14c7 - *git 放弃本地文件修改*
 
-1. 未使用`git add`缓存代码
+1. 未使用 `git add` 缓存代码
 
    ```bash
    # 使用git checkout -- filename，注意中间有--
@@ -832,11 +894,11 @@ https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
    git checkout .
    ```
 
-2. 已使用`git add`缓存代码，未使用`git commit`
+2. 已使用 `git add` 缓存代码，未使用 `git commit`
 
-   > `--soft` 不删除工作空间的改动代码 ，撤销commit，不撤销git add .
+   > `--soft` 不删除工作空间的改动代码 ，撤销 commit，不撤销 *git add .*
    >
-   > `--mixed` 默认参数，不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
+   > `--mixed` 默认参数，不删除工作空间改动代码，撤销 commit，并且撤销 *git add .* 操作
 
    ```bash
    # 使用 git reset HEAD filename
@@ -846,15 +908,15 @@ https://www.jianshu.com/p/c0f7e4ac14c7 - *git放弃本地文件修改*
    git reset HEAD
    ```
 
-3. 已使用`git commit`提交了代码
+3. 已使用 `git commit` 提交了代码
 
-   > `--hard` 删除工作空间的改动代码，撤销commit且撤销add
+   > `--hard` 删除工作空间的改动代码，撤销 commit 且撤销 add
 
    ```bash
-   # 使用 git reset --hard HEAD^ 来回退到上一次commit的状态
+   # 使用 git reset --hard HEAD^ 来回退到上一次 commit 的状态
    git reset --hard HEAD^
    
-   # 回退到任意版本git reset --hard commit id ，使用git log命令查看git提交历史和commit id
+   # 回退到任意版本 git reset --hard commit id ，使用 git log 命令查看 git 提交历史和 commit id
    git reset --hard commit id
    ```
 
@@ -868,37 +930,38 @@ git checkout origin/master -- path/folder/filename #获取某个文件
 git checkout origin/master -- path/folder #获取某个目录
 ```
 
-参考链接：https://www.cnblogs.com/olive27/p/11791162.html - *git如何从远端获取某个文件 - OliveKong - 博客园*
+参考：https://www.cnblogs.com/olive27/p/11791162.html - *git如何从远端获取某个文件 - OliveKong - 博客园*
 
 
 
-### 回退 *push* 的文件
+### 回退 push 的文件
 
-1. --force
+1. `--force`
 
    ```bash
    git reset --soft commit id
-   git push origin master --force #强制提交当前版本号，以达到撤销版本号的目的.必须添加参数force进行强制提交，否则会提交失败,报错原因：本地项目版本号低于远端仓库版本号（注意:这种强制提交的方法只有owner的时候可以用）
+   git push origin master --force #强制提交当前版本号，以达到撤销版本号的目的.必须添加参数 force 进行强制提交，否则会提交失败,报错原因：本地项目版本号低于远端仓库版本号（注意:这种强制提交的方法只有 owner 的时候可以用）
    ```
 
    
 
 ### 合并多个提交
 
-https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
+1. https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
 
-https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
+2. https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
 
 
 
-### commit emoji 😜
+### commit emoji
 
-?> An emoji guide for your commit messages. 😜  
-<i class="bi bi-translate dark-yellow"></i> 提交消息的表情符号指南。 😜
+?> An emoji guide for your commit messages. 😜（译文：提交消息的表情符号指南。 😜）
 
-<i class="fa fa-laptop"></i> https://gitmoji.dev/ [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://gitmoji.dev/)
+![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
 
-<i class="fa fa-github fa-lg"></i> https://github.com/carloscuesta/gitmoji
+Website: https://gitmoji.dev/
+
+GitHub: https://github.com/carloscuesta/gitmoji
 
 参考：
 
@@ -907,11 +970,12 @@ https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代�
 
 ### commit 提交规范
 
-https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
+1. https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
 
-https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
+2. https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
+
 
 
 ### 在本地局域网中的两台电脑间同步代码
 
-https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*
+1. https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*

@@ -1,3 +1,13 @@
+## 简介
+
+> jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+## 官方
+
+Website: https://jquery.com/ - *jQuery*
+
+GitHub: https://github.com/jquery - *jQuery*
+
 ## 教程
 
 https://www.runoob.com/jquery/jquery-tutorial.html - *jQuery 教程 | 菜鸟教程*

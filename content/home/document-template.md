@@ -2,6 +2,39 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 
 <output data-lang="output">
 
+- `Introduction` - *简介*
+- `Features` - *特色功能*
+- `Official website` - *官网*
+- `Tutorials` - *教程*
+- `Getting started` - *入门指南*
+  - `Table of Contents`*目录结构*
+- `Quick Start` - *快速入门*
+- `Installation` - *安装*
+  - `Desktop client` - *桌面端*
+  - `Mobile client` - *移动端*
+- `Configuration` - *设置*
+- `Usage` - *用法*
+- `Advanced Usage` - *高级用法*
+- `Help` - *帮助与支持*
+- `Changelog` - *版本说明*
+- `FAQ` - *常见问题解答*
+- `Reference` - *参考*
+  - 参考博文
+  - 参考资料
+  - 参考文献
+- `Index` - *索引*
+- `Keyword search` - *关键词搜索*
+- `Technologies` - *技术列表* *via https://github.com/gsantner/markor*
+- `Who uses` - *谁在使用* *via https://github.com/kucherenko/jscpd*
+- `Glossary` - *术语表*
+- `Tool` - *工具*
+
+</output>
+
+---
+
+<output data-lang="output">
+
 [GitHub Docs 官网](https://docs.github.com/zh)
 
 - https://docs.github.com/zh/pages - *GitHub Pages 文档 - GitHub Docs*
@@ -81,32 +114,6 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
     ```markup
     ⵈ
     ```
-
-</output>
-
-----
-
-<output data-lang="output">
-
-- `Introduction` - *简介*
-- `Official website` - *官网*
-- `Tutorials` - *教程*
-- `Getting started` - *入门指南*
-- `Quick Start` - *快速入门*
-- `Installation` - *安装*
-- `Configuration` - *设置*
-- `Usage` - *用法*
-- `Advanced Usage` - *高级用法*
-- `FAQ` - *常见问题解答*
-- `Reference` - *参考*
-    - 参考博文
-    - 参考资料
-    - 参考文献
-- `Index` - *索引*
-- `Keyword search` - *关键词搜索*
-- `Technologies` - *技术列表* *via https://github.com/gsantner/markor*
-- `Who uses` - *谁在使用* *via https://github.com/kucherenko/jscpd*
-- `Glossary` - *术语表*
 
 </output>
 

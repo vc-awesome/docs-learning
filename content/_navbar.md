@@ -1,17 +1,19 @@
 - [Home](home/README.md)
   
     - *🔻* **常用文档**
-    - [<i class="fa fa-book fa-fw"></i> 学习](home/book.md)
+    - [<i class="fa-duotone fa-book fa-fw"></i> 书籍](home/book.md)
     - [<i class="fab fa-github fa-fw"></i> GitHub](os/tools/github.md)
     - [<i class="fa-brands fa-git-alt fa-fw" style="color: #f64d27;"></i> Git](os/tools/git.md)
     - [<i class="fab fa-markdown fa-fw"></i> Markdown](os/tools/markdown.md)
     - [<i class="fa fa-warning medium-orange fa-fw"></i> Warning](home/README.md#warning)
     - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/linux/linux%20指令)
+    - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/termux.md)
+    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
     - <hr />
-    - [<i class="fa fa-list-ul fa-fw"></i> TOC](home/toc.md)
-    - [<i class="far fa-smile-wink fa-fw"></i> Emoji](home/emoji.md)
-    - [<i class="fa fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
-    - [<i class="fas fa-share fa-fw"></i> Share](home/good-share.md "干货分享")
+    - [<i class="fa-duotone fa-list-tree fa-fw"></i> TOC](home/toc.md)
+    - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](home/emoji.md)
+    - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
+    - [<i class="fa-duotone fa-retweet fa-fw"></i> Share](home/good-share.md "干货分享")
 - [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
     - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
@@ -70,7 +72,7 @@
   - [<i class="ri-search-line"></i> Search](os/tools/search.md)
   - [<i class="ri-apps-line medium-purple"></i> PC Tools](os/tools/app-list.md) 
   - [<i class="ri-cloud-line"></i> Web Tools](os/tools/online.md "在线工具")
-  - [<i class="ri-smartphone-line"></i> Smartphone Tools](os/mobile/mobile-app-list.md)
+  - [<i class="ri-smartphone-line"></i> Mobile Tools](os/mobile/mobile-app-list.md)
   - <hr />
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](os/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](os/tools/browser.md "浏览器")

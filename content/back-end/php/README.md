@@ -1,12 +1,17 @@
-## 官方
+## 简介
 
 > PHP is a popular general-purpose scripting language that powers everything from your blog to the most popular websites in the world.
+
+
+## 官方
 
 官方站点：https://www.php.net/ - *PHP: Hypertext Preprocessor*
 
 官方手册：https://www.php.net/manual/zh/index.php - *PHP: PHP 手册 - Manual*
 
 GitHub：https://github.com/php/ - *php.net · GitHub*
+
+---
 
 菜鸟教程：https://www.runoob.com/php/php-tutorial.html - *PHP 教程 | 菜鸟教程*
 
@@ -77,22 +82,62 @@ make && meke install
 
   https://pecl.php.net/ - *PECL :: The PHP Extension Community Library*
 
+  如何安装 pecl 命令？
+
+  - macOS 系统自带，无需安装。
+
   https://www.php.net/manual/zh/install.pecl.php - *PHP: PECL 扩展库安装 - Manual*
 
-  ```shell
-  # 安装扩展
-  pecl install extname
-  # 安装一个 beta 包
-  pecl install extname-beta
-  # 安装一个指定的版本
-  pecl install extname-0.1
-  ```
+  - Display help.
+
+    ```sh
+    pecl
+    ```
+
+    ```sh
+    pecl -h
+    ```
+
+  - List version information.
+
+    ```sh
+    pecl version
+    ```
+
+    ```sh
+    pecl help version
+    ```
+
+    ```sh
+    pecl -V
+    ```
+
+  - List Installed Packages In The Default Channel.
+
+    ```sh
+    pecl list
+    ```
+
+  - Install Package
+
+    ```sh
+    # 安装扩展
+    pecl install extname
+    # 安装一个 beta 包
+    pecl install extname-beta
+    # 安装一个指定的版本
+    pecl install extname-0.1
+    ```
 
   
 
 - PEAR
 
   https://pear.php.net/ - *PEAR - PHP Extension and Application Repository*
+  
+  如何安装 pear 命令？
+  
+  - macOS 系统自带，无需安装。
 
 ### Windows
 
@@ -119,7 +164,7 @@ https://www.php.net/manual/zh/ini.php - *php.ini 配置*
 
 https://www.cnblogs.com/lixihuan/p/8125894.html - *PHP取整，四舍五入取整、向上取整、向下取整、小数截取*
 
-- PHP取整数函数常用的四种方法：
+- PHP 取整数函数常用的四种方法：
   1. 直接取整，舍弃小数，保留整数：`intval()`；
 
   2. 四舍五入取整：`round()`；
@@ -132,15 +177,15 @@ https://www.cnblogs.com/lixihuan/p/8125894.html - *PHP取整，四舍五入取�
 
 ## 常量
 
-预定义常量`PHP_EOL`
+预定义常量 `PHP_EOL`
 
-用函数`get_defined_constants()`来获取所有PHP常量
+用函数 `get_defined_constants()` 来获取所有PHP常量
 
 
 
 ## 变量
 
-php判断变量的类型
+PHP 判断变量的类型
 
 `gettype()`
 

@@ -49,7 +49,7 @@ https://mp.weixin.qq.com/s/v5ejXKQbDTI6cbmSSYMyaw - *新APP原理篇（附视频
 https://github.com/localsend/localsend
 
 https://localsend.org/ - *LocalSend* ⇒ _via https://baijiahao.baidu.com/s?id=1757678693539809181&wfr=spider&for=pc&searchword=localsend - *三款传输工具，LocalSend、极连快传、互传软件体验*_
-  
+
 https://f-droid.org/packages/org.localsend.localsend_app/ - *LocalSend | F-Droid - Free and Open Source Android App Repositor*
 
 
@@ -62,6 +62,20 @@ https://f-droid.org/packages/org.localsend.localsend_app/ - *LocalSend | F-Droid
 https://f-droid.org/packages/com.trianguloy.urlchecker/ - *URLCheck | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*
+
+---
+
+常见问题解答：
+
+> 应用版本：2.11
+
+问题：
+
+当出现这样的情况：点击其他应用中的 URL 链接，通过“Opera”浏览器无法打开。
+
+解答：
+
+可使用方法：*复制 URL 链接 > 下拉“控制中心” > 点击磁贴“检查剪贴板中的链接” > 按正常操作重新执行一遍*。
 
 
 ## 开发工具
@@ -250,21 +264,6 @@ https://github.com/plateaukao/einkbro - *GitHub - plateaukao/einkbro: A small, f
 
 https://f-droid.org/packages/info.plateaukao.einkbro/ - *EinkBro | F-Droid - Free and Open Source Android App Repository*
 
-### Opera
-
-`duckduckgo` 搜索：“macos opera 如何开启 vpn”、“macos opera 国际版”、“macos opera 翻墙”
-
-https://addons.opera.com/zh-cn/extensions/details/opera-vpn/ - *Opera Free VPN - Opera 插件*
-
-https://www.opera.com/features/free-vpn - *Free VPN | Browser with built-in VPN | Download | Opera*
-
-https://www.opera.com/products/vpn-pro - *Opera VPN Pro | Complete VPN Protection | Opera*
-
-https://www.opera.com/zh-cn/ofa/upgraded-72 - *更新完成！*
-
-https://www.opera.com/zh-cn/ofa/upgraded-73 - *更新完成！*
-
-https://www.opera.com/zh-cn/ofa/upgraded-74 - *Update complete!*
 
 ## 实时流量监控（系统工具）
 

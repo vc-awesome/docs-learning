@@ -54,10 +54,12 @@ https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油
   https://www.opera.com/zh-cn
 
   - *Opera浏览器退出程序后会保存标签页，下次打开程序仍是最近一次关闭的标签页*
+  
+  !> 有关详细信息，请参阅“[Opera](os/tools/opera.md)”。
 
 
 
-- Yandex :ru:
+- <i class="fa-brands fa-yandex-international"></i> Yandex :ru:
 
   https://browser.yandex.com/
 

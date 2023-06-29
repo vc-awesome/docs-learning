@@ -216,7 +216,7 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
   6. onmousedown
   7. onmouseup
   8. onclick
-  9. ...
+  9. more...
 
 - ⚠️注意事项
 
@@ -300,7 +300,7 @@ https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 |
 
 https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象 | 菜鸟教程*
 
-#### 获取属性
+#### 元素属性
 
 [*element*.attributes](https://www.runoob.com/jsref/prop-node-attributes.html) - 返回一个元素的属性数组
 

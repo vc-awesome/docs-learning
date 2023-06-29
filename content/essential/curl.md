@@ -25,12 +25,9 @@ https://curl.se - *command line tool and library for transferring data with URLs
 
 ### composer
 
-`php-curl-class/php-curl-class`
+- <https://packagist.org/packages/php-curl-class/php-curl-class> - *php-curl-class/php-curl-class - Packagist*
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> <https://packagist.org/packages/php-curl-class/php-curl-class>  
-<span class="icon octicon-file composer-icon medium-yellow "></span> <https://packagist.org/packages/curl/curl>
-
-
+- <https://packagist.org/packages/curl/curl> - *curl/curl - Packagist*
 
 ### faqs
 

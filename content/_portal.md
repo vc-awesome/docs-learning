@@ -23,11 +23,13 @@
   - [URL编解码](https://tool.browser.qq.com/urlencode.html)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/)
+- [Icons Icon | Font Awesome](https://fontawesome.com/v6/icons/)
 
 **网址导航**
 
 - [首页](README.md)
 - [GitHub](https://github.com/)
+- [Bypasszone | Your Free Web Proxy for Anonymity](https://bypasszone.net/)
 
 ------
 

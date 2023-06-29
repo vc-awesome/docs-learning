@@ -30,7 +30,8 @@ nav.app-nav {
   margin: 0!important;
   padding: 11px 0 11px 0;
   width: calc(100% - 300px);
-  background-color: inherit;
+  backdrop-filter: saturate(180%) blur(.4rem);
+/*  background-color: inherit;*/
 /*  background-color: var(--docsify_dark_mode_bg, #fff);*/
 /*  border-bottom: 1px solid rgba(0,0,0,0.07);*/
 /*   rgba(0,0,0,0.07) == #eee */

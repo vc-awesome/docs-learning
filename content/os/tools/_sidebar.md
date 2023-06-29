@@ -6,6 +6,7 @@
   * [Web Tools](os/tools/online.md "在线工具")
 * **浏览器**
   * [Browser](os/tools/browser.md "浏览器")
+  * [Opera](os/tools/opera.md)
   * [Extensions](os/tools/browser-extensions.md "浏览器扩展程序")
   * [Extensions Trial](os/tools/browser-extensions-trial.md)
 * **Daily**

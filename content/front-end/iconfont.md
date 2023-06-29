@@ -274,7 +274,7 @@ https://fontawesome.com/versions - *Font Awesome*
 
 3. https://fontawesome.com/v6/icons/ - *Search Icons & Find the Perfect Design | Font Awesome*
 
-用法：
+用法 1：
 
 ```css
 @font-face {
@@ -295,6 +295,16 @@ a[target=_blank]:after {
   content: "\f08e";
   vertical-align: text-bottom;
 }
+```
+
+用法 2：
+
+```html
+<link rel="stylesheet" href="//site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+```
+
+```html
+<i class="fab fa-font-awesome"></i>
 ```
 
 ### Remix Icon 🥈

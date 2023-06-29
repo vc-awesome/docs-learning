@@ -1,6 +1,6 @@
 ## 简介
 
-<img src="https://www.alfredapp.com/media/logo4@2x.png" alt="package icon" align="left" width="78" hspace="7" vspace="0"> Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
+> <img src="https://www.alfredapp.com/media/logo4@2x.png" alt="package icon" align="left" width="78" hspace="10" vspace="0"> Alfred is an award-winning app for macOS which boosts your efficiency with hotkeys, keywords, text expansion and more. Search your Mac and the web, and be more productive with custom actions to control your Mac.
 
 ## 官方
 

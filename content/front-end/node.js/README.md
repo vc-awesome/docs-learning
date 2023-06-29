@@ -48,7 +48,7 @@ https://www.runoob.com/nodejs/nodejs-tutorial.html -  *Node.js 教程 | 菜鸟�
 
 - **方式二**、官方下载安装
 
-  https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程*
+  https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程*（包含 Windows、Linux 和 macOS 的安装教程）
 
 
 
@@ -62,7 +62,7 @@ https://nodejs.org/zh-cn/download/releases - *以往的版本 | Node.js*
 
 1. https://registry.npmmirror.com/binary.html?path=node/ - *CNPM Binaries Mirror*
 
-2. https://npm.taobao.org/mirrors/node/ - *Node.js 淘宝镜像*
+   旧版：https://npm.taobao.org/mirrors/node/ - *Node.js 淘宝镜像*（重定向至上列 URI）
 
 
 
@@ -120,7 +120,7 @@ https://yarn.bootcss.com/ - *Yarn 中文文档*
 
 ### nvm 简介
 
-> <img src="https://avatars.githubusercontent.com/u/49963700?s=200&v=4" alt="package icon" loading="lazy" decoding="async" align="" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;" /> 使用 `nvm` 管理不同版本的 `Node`
+> <img src="https://avatars.githubusercontent.com/u/49963700?s=200&v=4" alt="package icon" loading="lazy" decoding="async" align="" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;" /> 使用 **NVM** 管理不同版本的 **Node.js**
 
 ### nvm 官方
 
@@ -197,13 +197,19 @@ GitHub: https://github.com/coreybutler/nvm-windows - *A node.js version manageme
 
 - 参考文档
 
-  https://www.jianshu.com/p/e945bb48593e - *Mac M1安装 nvm 遇到的坑*
+  1. https://www.jianshu.com/p/e945bb48593e - *Mac M1安装 nvm 遇到的坑*
 
-  https://wenku.baidu.com/view/fb419a092c60ddccda38376baf1ffc4ffe47e26a.html - *Mac M1安装 nvm 遇到的坑*
+  2. https://wenku.baidu.com/view/fb419a092c60ddccda38376baf1ffc4ffe47e26a.html - *Mac M1安装 nvm 遇到的坑*
 
-  https://www.cnblogs.com/AAmao/p/15424498.html - *Mac M1芯片 安装nvm遇到的问题*
+  3. https://www.cnblogs.com/AAmao/p/15424498.html - *Mac M1芯片 安装nvm遇到的问题*
 
 
+
+### nvm 镜像
+
+https://mirrors.ustc.edu.cn/help/node.html - *Node 源使用帮助 — USTC Mirror Help 文档*
+
+`export NVM_NODEJS_ORG_MIRROR=https://mirrors.ustc.edu.cn/node/`
 
 ### nvm 命令行
 
