@@ -7,7 +7,7 @@
     var o = {};
 
     function n(o, n) {
-        let e = ['<div class="page_toc"><p class="has-text-weight-bold margin--bottom--sm">On this page</p>'];
+        let e = ['<div class="page_toc"><div class="mb-2 text-bold lv2">On This Page</div>'];
         const t = [];
         return (o = document.querySelectorAll(`#main ${window.$docsify.toc.target}`)) && o.forEach((
             function (o) {

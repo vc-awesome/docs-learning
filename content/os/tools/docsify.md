@@ -1069,6 +1069,16 @@ root_folder/
   - 👍 https://tainacan.github.io/tainacan-wiki/
     - 👍 https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
+- TOC 添加“代码缩进参考线”
+  1. 方式一、通过应用工具 **PhpStorm** 设置查看效果
+     - 操作方法：*菜单栏 > preferences...（设置）> 编辑器 > 常规 > 外观：勾选选项“显示缩进参考线”*。
+     - 参考文档：https://blog.csdn.net/weixin_41981080/article/details/82659022 - *PhpStorm代码编辑区竖线的用途
+       blogs.com/zqifa/p/12651446.html - phpstorm 代码编辑区去掉、设置灰色竖线 打印分割线设置*
+  
+  2. 方式二、借鉴已实现功能的站点
+  
+     - https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/ - *Install Redis on macOS | Redis*
+
 #### 目录结构
 
 - Showcase
@@ -1247,6 +1257,12 @@ https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A 
 参考：
 
 https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Mermaid插件支持_mermaid 插件_Willin Wang的博客-CSDN博客*
+
+#### 脚注
+
+https://github.com/sy-records/docsify-footnotes/ - *sy-records/docsify-footnotes: A plugin that supports the use of footnotes in docsify. :leftwards_arrow_with_hook:*
+
+查看渲染效果：[Markdown > 脚注](os/tools/markdown.md#脚注) 。
 
 ### Themes
 

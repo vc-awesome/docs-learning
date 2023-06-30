@@ -16,10 +16,11 @@
 - [Tampermonkey](os/tools/browser-extensions.md#tampermonkey)
 
 **写作辅助工具**
-- 👏 [文档模板](home/document-template.md)
+- 📃 [文档模板](home/document-template.md)
 - 📄 [代码片段](snippets/README.md)
-- [在线工具](os/tools/online.md)
+- [在线工具](os/tools/web-app.md)
   - [菜鸟工具](https://c.runoob.com/)
+    - [正则表达式在线测试](https://c.runoob.com/front-end/854/)
   - [URL编解码](https://tool.browser.qq.com/urlencode.html)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/)

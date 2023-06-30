@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta charset="UTF-8">
   <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
+  <link href="_assets/libs/primer/css/tooltipped.css" rel="stylesheet">
   <style>
     /* 外链添加 FontIcon */
     @font-face {
@@ -77,6 +78,69 @@
             document.querySelector('.sidebar-toggle').style.visibility = "visible";
           }
         });
+      },
+      // 代码复制
+      function(hook, vm) {
+      // Invoked one time when the docsify instance has mounted on the DOM
+        hook.mounted(function() {
+          var listenerHost = document.querySelector(".content,header");
+          listenerHost.addEventListener("click", function(evt) {
+            var isCodeElm = evt.target.nodeName == "CODE" || evt.target.parentNode.dataset.codecopy;
+            if (isCodeElm && evt.target.parentNode.nodeName != "PRE") {
+              if (evt.target.parentNode.dataset.codecopy) {
+                copy(evt, evt.target.parentNode);
+                return;
+              }
+              copy(evt);
+            }
+          });
+          function copy(evt, showToolTipTarget) {
+            if (showToolTipTarget === undefined) {
+              showToolTipTarget = evt.target;
+            }
+            var range = document.createRange();
+            var codeElm = evt.target;
+            var selection = window.getSelection();
+            range.selectNode(codeElm);
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+              var successful = document.execCommand("copy");
+              if (successful) {
+                showTooltip(showToolTipTarget, 'Copied!');
+              }
+            } catch (err) {
+              console.error("docsify-copy-code: ".concat(err));
+              showTooltip(showToolTipTarget, "docsify-copy-code: ".concat(err));
+            }
+            selection = window.getSelection();
+            if (typeof selection.removeRange === "function") {
+              selection.removeRange(range);
+            } else if (typeof selection.removeAllRanges === "function") {
+              selection.removeAllRanges();
+            }
+          }
+          function showTooltip(elem, msg) {
+            elem.setAttribute('class', 'tooltipped tooltipped-n tooltipped-no-delay');
+            elem.setAttribute('aria-label', msg);
+          }
+        });
+        hook.doneEach(function() {
+          var codes = document.querySelectorAll('p code,li > code,[data-codecopy]');
+          for (var i = 0; i < codes.length; i++) {
+            codes[i].addEventListener('mouseleave', clearTooltip);
+            codes[i].addEventListener('mouseenter', showTooltip);
+            codes[i].addEventListener('blur', showTooltip);
+          }
+          function clearTooltip(e) {
+            e.currentTarget.removeAttribute('class');
+            e.currentTarget.removeAttribute('aria-label');
+          }
+          function showTooltip(e) {
+            e.currentTarget.setAttribute('class', 'tooltipped tooltipped-n tooltipped-no-delay');
+            e.currentTarget.setAttribute('aria-label', 'Copy to clipboard');
+          }
+        })
       }
     ],
   }

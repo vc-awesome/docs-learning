@@ -779,15 +779,33 @@ I need to highlight these <mark>very important words</mark>.
 
 ### 脚注
 
+<!-- tabs:start -->
+
+#### **Rendered**
+
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
-[^1]:This is the first footnote.
 
-[^bignote]:Here's one with multiple paragraphs and code.
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
+
+#### **Markdown**
+
+```markdown
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+[^bignote]: Here's one with multiple paragraphs and code.
+```
+
+<!-- tabs:end -->
+
+https://www.markdownguide.org/extended-syntax/#footnotes - *Extended Syntax | Markdown Guide*
 
 ### 上标
 
-> 需开启`Typora`工具的「上标」设置 *文件 > 偏好设置 > Markdown > Markdown扩展语法*，设置完后重启工具
+> 需开启 `Typora` 工具的「上标」设置 *文件 > 偏好设置 > Markdown > Markdown扩展语法*，设置完后重启工具
 
 <!-- tabs:start -->
 

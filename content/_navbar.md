@@ -7,6 +7,7 @@
     - [<i class="fab fa-markdown fa-fw"></i> Markdown](os/tools/markdown.md)
     - [<i class="fa fa-warning medium-orange fa-fw"></i> Warning](home/README.md#warning)
     - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/linux/linux%20指令)
+    - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/mac/homebrew.md)
     - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/termux.md)
     - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
     - <hr />
@@ -14,14 +15,16 @@
     - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](home/emoji.md)
     - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
     - [<i class="fa-duotone fa-retweet fa-fw"></i> Share](home/good-share.md "干货分享")
+    - [<i class="fa-regular fa-language fa-fw"></i> 中英译](home/chinese-english-translate.md)
+- Daily use
 - [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
     - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
     - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](设计模式/README.md)
-    - [<i class="ri-key-2-line"></i> Crypto-加密](essential/crypto.md)
+    - [<i class="ri-key-2-line"></i> 加密](essential/crypto.md)
     - [<i class="ri-earth-line"></i> Network](essential/internet.md)
     - [<i class="ri-server-line"></i> 服务器](essential/hosting.md)
-    - [<i class="ri-book-3-line"></i> Glossary](essential/README.md)
+    - [<i class="ri-book-3-line"></i> Glossary](home/README.md#术语表)
     - [<i class="ri-link"></i> cURL](essential/curl.md)
     - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
     - [<i class="ri-questionnaire-line"></i> DNS](essential/dns.md)
@@ -68,19 +71,19 @@
   - <hr />
   - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools"><i class="fa fa-wrench fa-fw"></i> TOOLS</i></strong>
   - [<i class="fa fa-plane medium-red"></i> &nbsp;Index](os/tools/README.md)
-  - [<i class="ri-test-tube-line medium-purple"></i> Trial](os/tools/trial.md)
+  - [<i class="ri-test-tube-line medium-purple"></i> Trial](os/tools/app-trial.md)
   - [<i class="ri-search-line"></i> Search](os/tools/search.md)
-  - [<i class="ri-apps-line medium-purple"></i> PC Tools](os/tools/app-list.md) 
-  - [<i class="ri-cloud-line"></i> Web Tools](os/tools/online.md "在线工具")
+  - [<i class="ri-computer-line medium-purple"></i> Desktop Tools](os/tools/app-list.md)
+    <!-- <i class="ri-apps-line medium-purple"></i> -->
   - [<i class="ri-smartphone-line"></i> Mobile Tools](os/mobile/mobile-app-list.md)
+  - [<i class="ri-cloud-line"></i> Web Tools](os/tools/web-app.md "在线工具")
   - <hr />
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](os/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](os/tools/browser.md "浏览器")
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](os/tools/browser-extensions)
   - <hr /> 
-  - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-badge"></use></svg> Badge](os/tools/custom.md)
+  - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-badge"></use></svg> Badge](os/tools/custom-badge.md)
   - [<ion-icon name="search-outline"></ion-icon> Search](os/tools/custom-search.md)
-
 - More
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-blockchain"></use></svg> BlockChain](blockchain/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-devops"></use></svg> Project DevOps](project/README.md)

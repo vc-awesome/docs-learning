@@ -78,15 +78,24 @@ https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux - *Ins
 
   `brew uninstall` \<formula>
 
-### homebrew-cask
+#### Homebrew Cask 命令
 
 https://github.com/Homebrew/homebrew-cask - *Homebrew/homebrew-cask: 🍻 A CLI workflow for the administration of macOS applications distributed as binaries*
 
 - 用法：https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md - *homebrew-cask/USAGE.md at master · Homebrew/homebrew-cask · GitHub*
 
-https://formulae.brew.sh/ - *Homebrew Formulae*
+### 安装软件
+
+> [Homebrew Formulae](https://formulae.brew.sh/) is an online package browser for [Homebrew](https://brew.sh/) – the macOS (and Linux) package manager. For more information on how to install and use Homebrew see [our homepage](https://brew.sh/).
+
+Website:
+
+- https://formulae.brew.sh/ - *Homebrew Formulae*
+
+已安装列表：
 
 - https://formulae.brew.sh/cask/visual-studio-code - *visual-studio-code — Homebrew Formulae*
+- https://formulae.brew.sh/cask/sublime-text - *sublime-text — Homebrew Formulae*
 
 ## 设置
 

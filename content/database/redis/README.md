@@ -1,3 +1,7 @@
+## 简介
+
+> Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache, and message broker. Redis provides data structures …
+
 ## 官方
 
 官方链接：https://redis.io/
@@ -50,11 +54,11 @@ config set [config_setting_name] [new_config_value] --设置配置值
 
 https://www.php.cn/php-ask-479206.html - *php redis怎么安装*
 
-1. 下载 phpredis
-2. 解压安装包并进入解压后的目录
-3. 在当前目录下生成 configure 配置文件
-4. 编译安装
-5. 在 php.ini 加载 phpredis 扩展
+1. 下载 phpredis ；
+2. 解压安装包并进入解压后的目录；
+3. 在当前目录下生成 configure 配置文件；
+4. 编译安装；
+5. 在 php.ini 加载 phpredis 扩展。
 
 ### Composer
 

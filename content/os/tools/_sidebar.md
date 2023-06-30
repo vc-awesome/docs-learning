@@ -1,9 +1,9 @@
 * [Tools](os/tools/)
 * [Search](os/tools/search.md)
 * **应用列表**
-  * [Trial](os/tools/trial.md)
+  * [Trial](os/tools/app-trial.md)
   * [PC Tools](os/tools/app-list.md)
-  * [Web Tools](os/tools/online.md "在线工具")
+  * [Web Tools](os/tools/web-app.md "在线工具")
 * **浏览器**
   * [Browser](os/tools/browser.md "浏览器")
   * [Opera](os/tools/opera.md)
@@ -29,3 +29,7 @@
   * [Postman](os/tools/postman.md)
   * [仿站工具](os/tools/webpage-downloader.md "仿站工具")
   * [Sublime Text](os/tools/sublime-text.md)
+
+- **自建工具**
+  - [Badge](os/tools/custom-badge.md)
+  - [Search](os/tools/custom-search.md)

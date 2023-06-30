@@ -1,4 +1,28 @@
-## Settings
+## Introduction
+
+> <img src="https://www.sublimehq.com/images/sublime_text.png" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
+
+## Official website
+
+Website: https://www.sublimetext.com/ - *Sublime Text - Text Editing, Done Right*
+
+Docs: https://www.sublimetext.com/support - *Support - Sublime Text*
+
+## Installation
+
+https://www.sublimetext.com/download - *Download - Sublime Text*
+
+### macOS
+
+使用在线包管理器 - [Homebrew](os/mac/homebrew.md#安装软件) 安装：
+
+https://formulae.brew.sh/cask/sublime-text - *sublime-text — Homebrew Formulae*
+
+```sh
+brew install --cask sublime-text
+```
+
+## Configuration
 
 ### 自动换行
 

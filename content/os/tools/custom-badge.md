@@ -128,7 +128,7 @@
             _that.image.src = _that.alert.title = "https://flat.badgen.net/github/last-commit" + url.pathname +"?icon=github&color=blue";
             _that.value = "Badgen";
           }
-
+    
           _that.image.src_1 = _that.alert.title_1 = "https://img.shields.io/github/last-commit" + url.pathname +"?color=blue&logo=github&style=flat-square";
           _that.image.src_2 = _that.alert.title_2 = "https://flat.badgen.net/github/last-commit" + url.pathname +"?icon=github&color=blue";
     
@@ -191,6 +191,12 @@
   })
 </script>
 
+<style>
+.el-alert__title{
+  word-wrap: break-word;
+  word-break: break-all;
+}
+</style>
 <div id="app1">
 
 ## 生成 GitHub 徽章
@@ -253,13 +259,9 @@
     <div style="box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px 0px;">
       <el-alert :title="alert.title_2" :type="alert.type_2" :closable="false" show-icon></el-alert>
       <el-row type="flex" justify="space-between">
-        <el-col :span="6">
-          <!-- <el-tag type="success" size="small" effect="plain">Shields</el-tag>
-          <br/>
-          <br/> -->
-        </el-col>
-        <el-col :span="18" style="text-align: right;" v-if="!dropdown.disabled">
+        <el-col :span="24" style="text-align: right;" v-if="!dropdown.disabled">
           <el-image :src="image.src_2"></el-image>
+          <br/>
           <el-button-group style="vertical-align: inherit;">
             <el-button type="success" :icon="command=='cc' ? button_icon.copied : button_icon.uncopy" size="mini" plain @click="handleCommand('cc')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';">URL</el-button>
             <el-button type="primary" :icon="command=='aa' ? button_icon.copied : button_icon.uncopy" size="mini" plain @click="handleCommand('aa')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';">MD</el-button>
@@ -278,6 +280,7 @@
         </el-col>
         <el-col :span="18" style="text-align: right;" v-if="!dropdown.disabled">
           <el-image :src="image.src_1"></el-image>
+          <br/>
           <el-button-group style="vertical-align: inherit;">
             <el-button type="success" :icon="command=='c' ? button_icon.copied : button_icon.uncopy" size="mini" plain @click="handleCommand('c')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';">URL</el-button>
             <el-button type="primary" :icon="command=='a' ? button_icon.copied : button_icon.uncopy" size="mini" plain @click="handleCommand('a')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';">MD</el-button>

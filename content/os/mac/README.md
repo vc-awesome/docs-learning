@@ -14,7 +14,7 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 ## 教程
 
-> Mac的使用教程
+> Mac 的使用教程
 
 ### 基础操作
 
@@ -92,7 +92,7 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 ### 文件操作
 
-- <kbd>command</kbd> + <kbd>backspace</kbd>：删除当前文件
+- <kbd>command</kbd> + <kbd>backspace</kbd> - *删除当前文件*
 
 
 ### 窗口操作
@@ -128,7 +128,7 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 ### 应用双开
 
-- QQ双开：打开 QQ 客户端，然后 <kbd>command</kbd> + <kbd>n</kbd>
+- QQ 双开：打开 QQ 客户端，然后 <kbd>command</kbd> + <kbd>n</kbd>
 
 
 ### 隐藏文件
@@ -162,12 +162,11 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 ### Chrome 浏览器
 
-<kbd>command</kbd> + <kbd>R</kbd>：普通刷新
+<kbd>command</kbd> + <kbd>R</kbd> - *普通刷新*
 
-<kbd>command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>：强制刷新
+<kbd>command</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> - *强制刷新*
 
 更多有关详细信息，请参阅“[浏览器快捷键](os/tools/browser.md#浏览器快捷键)”。
-
 
 ### 卸载软件
 
@@ -182,7 +181,7 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 ### 截屏
 
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> - *截取全屏*
-- <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口*
+- <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口、可识别文字、可选取坐标点*（常用）
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>5</kbd> - *截屏和录制选项*
 
 打开 *系统设置 >（左边列表最底下）键盘 > 键盘快捷键...* ，单击左侧列表的“截屏”选项，可查看具体的快捷键使用说明。
@@ -195,7 +194,12 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自动执行命令行*
 
 1. 打开 *系统偏好设置 > 用户与群组 > 登录项*；
-2. 添加完然后重启电脑
+2. 添加完然后重启电脑。
+
+> 系统版本：*macOS Ventura 13.3.1* 中设置
+
+1. 打开 *系统设置 > 通用 > 登录项*；
+2. 添加完然后重启电脑。
 
 ## 常见问题
 
@@ -243,7 +247,7 @@ https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,z
    4. 点击`左下角锁`并输入用户密码进行解锁
    5. 找到并勾选 `App Store 和被认可的开发者`即可
    
-   > 系统版本：macOS Ventura 13.1 中设置。
+   > 系统版本：*macOS Ventura 13.1.1* 中设置
    1. 在“程序坞”中找到并打开应用“系统设置”
    2. 点击左边列表“隐私与安全性”
    3. 点击右边列表“安全性”-“App Store 和被认可的开发者”，开启授权
@@ -252,7 +256,7 @@ https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,z
 
    https://support.apple.com/zh-cn/HT211861 - *如果您需要在 Mac 上安装 Rosetta - 官方 Apple 支持 (中国)*
 
-3. MacBook m1 芯片关闭sip教程
+3. MacBook m1 芯片关闭 sip 教程
 
    https://blog.csdn.net/weixin_44791976/article/details/110826057 - *macbook air m1芯片关闭sip教程（超详细，防踩坑）*
 

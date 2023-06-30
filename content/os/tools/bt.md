@@ -202,7 +202,7 @@ http://xkzzz.com/post/40375.html - *宝塔面板如何修改root密码,ssh端口
 
      修改内容：`APP_DEBUG = false`
 
-1. - 修改 Redis 配置
+7. 修改 Redis 配置
 
      文件名：`/extend/service/Redis.php`
 

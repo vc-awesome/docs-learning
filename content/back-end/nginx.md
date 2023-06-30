@@ -1,28 +1,34 @@
 ## 简介
 
-?> Nginx (engine x) 是一个高性能的HTTP和反向代理服务，也是一个IMAP/POP3/SMTP服务。
+> <img src="http://nginx.org/nginx.png" alt="package icon" loading="lazy" decoding="async" align="left" width="88" hspace="10" vspace="0" /> nginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by [Igor Sysoev](http://sysoev.ru/en/). For a long time, it has been running on many heavily loaded Russian sites including [Yandex](http://www.yandex.ru/), [Mail.Ru](http://mail.ru/), [VK](http://vk.com/), and [Rambler](http://www.rambler.ru/). According to Netcraft, nginx served or proxied [21.18% busiest sites in May 2023](https://news.netcraft.com/archives/2023/05/26/may-2023-web-server-survey.html). Here are some of the success stories: [Dropbox](https://blogs.dropbox.com/tech/2017/09/optimizing-web-servers-for-high-throughput-and-low-latency/), [Netflix](https://openconnect.netflix.com/en/software/), [Wordpress.com](https://www.nginx.com/case-studies/nginx-wordpress-com/), [FastMail.FM](http://blog.fastmail.fm/2007/01/04/webimappop-frontend-proxies-changed-to-nginx/).
+>
+> —— http://nginx.org/en/ - *nginx*
 
 ## 官方
 
-官网：http://nginx.org/
+官网：http://nginx.org/ - *nginx news*
 
-英文文档：http://nginx.org/en/docs/
+英文文档：http://nginx.org/en/docs/ - *nginx documentation*
 
-中文文档：https://www.nginx.cn/doc/
+中文文档：https://www.nginx.cn/doc/ - *Nginx中文文档*
 
-GitHub：https://github.com/nginx/nginx
+GitHub：https://github.com/nginx/nginx - *nginx/nginx: An official read-only mirror of http://hg.nginx.org/nginx/ which is updated hourly. Pull requests on GitHub cannot be accepted and will be automatically closed. The proper way to submit changes to nginx is via the nginx development mailing list, see http://nginx.org/en/docs/contributing_changes.html*
 
 ## 安装
 
-## 正向代理
+http://nginx.org/en/download.html - *nginx: download*
 
-## 反向代理
+## 用法
 
-## 负载均衡
+### 正向代理
 
-## 内网穿透
+### 反向代理
 
-## 参考文档
+### 负载均衡
+
+### 内网穿透
+
+## 参考
 
 https://baijiahao.baidu.com/s?id=1722729268145517778 - *Nginx从安装到高可用，一篇搞定！*
 

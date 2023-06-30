@@ -77,6 +77,7 @@ nav i {
   }*/
   nav.app-nav li {
     pointer-events: none;
+    display: flex;
   }
   nav.app-nav li ul {
     max-height: calc(100vh - 251px);

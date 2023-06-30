@@ -186,7 +186,9 @@
             // 文件所在路径
             ' · 📂<abbr title="文件所在路径" data-codecopy="true">*' + decodeURIComponent(vm.route.file) + '*</abbr>',
             // 最近更新时间
-            ' · 🗓️<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>',
+            ' · 📆<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>',
+            // 文档模板
+            ' · 📃<a href="javascript:sweetalert2Iframe(\'home/document-template.md\')">Document Template</a>',
             '</header>\n\n'
           ].join('');
 
@@ -213,7 +215,8 @@
             '[Animate.css](https://animate.style/) · ',
             '[Element⁺](https://element-plus.gitee.io/zh-CN/) · ',
             '[SweetAlert2](https://sweetalert2.github.io/) · ',
-            '[PrismJS](开发框架/javascript-plugins.md#prismjs)([Website](https://prismjs.com/index.html))'
+            '[PrismJS](开发框架/javascript-plugins.md#prismjs)([Website](https://prismjs.com/index.html)) · ',
+            '[clipboard.js](https://clipboardjs.com/)'
           ].join('');
 
           var footer = [
@@ -241,28 +244,34 @@
         // 手机端顶部导航栏 :hover 触控处理
           var ele = document.querySelector("nav.app-nav");
 
-          setTimeout(function() {
-            // 初始化
-            togglePointerEvents(ele);
-          }, 100)
+          if (window.Docsify.util.isMobile) {
+            setTimeout(function() {
+              // 初始化
+              togglePointerEvents(ele);
+            }, 100)
 
-          document.querySelector("body").addEventListener("click", function(e) {
-            togglePointerEvents(ele);
-          }, true)
+            document.querySelector("body").addEventListener("click", function(e) {
+              togglePointerEvents(ele);
+            }, true)
 
-          // 切换 pointer-events 的值
-          function togglePointerEvents(ele) {
-            if (!this.$docsify.empty(ele)) {
-              if (window.getComputedStyle(ele).opacity == 1) {
-                document.querySelectorAll("nav.app-nav li").forEach(function(e) {
-                  e.style.pointerEvents = "auto";
-                })
-              } else {
-                document.querySelectorAll("nav.app-nav li").forEach(function(e) {
-                  e.style.pointerEvents = "none";
-                })
+            // 切换 pointer-events 的值
+            function togglePointerEvents(ele) {
+              if (!this.$docsify.empty(ele)) {
+                if (window.getComputedStyle(ele).opacity == 1) {
+                  document.querySelectorAll("nav.app-nav li").forEach(function(e) {
+                    e.style.pointerEvents = "auto";
+                  })
+                } else {
+                  document.querySelectorAll("nav.app-nav li").forEach(function(e) {
+                    e.style.pointerEvents = "none";
+                  })
+                }
               }
             }
+          } else {
+            document.querySelectorAll("nav.app-nav li").forEach(function(e) {
+              e.style.pointerEvents = "auto";
+            })
           }
 
           // 代码块行号
@@ -344,7 +353,7 @@
             e.currentTarget.setAttribute('class', 'tooltipped tooltipped-n tooltipped-no-delay');
             e.currentTarget.setAttribute('aria-label', 'Copy to clipboard');
           }
-        })
+        });
       }
     ],
     // 判断数据类型是否为空
@@ -387,8 +396,9 @@
       <li>
         <a class="dropdown-item" href="#/os/tools/opera">5. <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="Opera" width="16" height="16" style="vertical-align: sub;"> Opera Web Browser</a>
       </li>
+      <li><a class="dropdown-item" href="javascript:sweetalert2Iframe()">6. 📄 代码片段</a></li>
       <li class="dropdown-divider" role="separator"></li>
-      <li><a class="dropdown-item" href="https://wangdoc.com/" target="_blank">6. 网道 - 互联网开发文档</a></li>
+      <li><a class="dropdown-item" href="https://wangdoc.com/" target="_blank">7. 网道 - 互联网开发文档</a></li>
     </ul>
   </details>
   <button class="btn btn-outline btn-sm" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
@@ -588,7 +598,7 @@ function toggleFullScreen(e) {
     },
   )
   window.$docsify.toc = {
-    tocMaxLevel: 5,
+    tocMaxLevel: 6,
     target: 'h1, h2, h3, h4, h5, h6'
   }
 </script>
@@ -779,7 +789,7 @@ function sweetalert2Iframe(_url = "snippets/") {
     top: -150px;
   }
 </style>
-<script type="text/javascript">
+<script>
   (function () {
   var myPlugin = function (hook, vm) {
     // Invoked one time after rendering the initial page
@@ -798,7 +808,26 @@ function sweetalert2Iframe(_url = "snippets/") {
   $docsify = $docsify || {};
   $docsify.plugins = [].concat(myPlugin, $docsify.plugins || []);
 })();
-
 </script>
+<!-- 添加 Markdown 脚注 -->
+<script>
+  (function () {
+  var myPlugin = function (hook, vm) {
+    hook.beforeEach(function (html) {
+      if (/\[\^([A-Za-z0-9]+)\][^:]/.test(html)) {
+        html = html
+          .replace(/\[\^([A-Za-z0-9]+)\][^:]/gm, '<sup class="footnote-symbol" id="fn-$1">[\[$1]\](#fnref-$1)</sup>')
+          .replace(/\[\^([A-Za-z0-9]+)\]\: /gm, '<strong class="footnote-reference-symbol" id="fnref-$1">[\[$1\]](#fn-$1)</strong>:leftwards_arrow_with_hook: ');
+      }
+      return html;
+    });
+  };
+
+  // Add plugin to docsify's plugin array
+  $docsify = $docsify || {};
+  $docsify.plugins = [].concat(myPlugin, $docsify.plugins || []);
+})();
+</script>
+
 </body>
 </html>

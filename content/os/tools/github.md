@@ -42,8 +42,6 @@ https://github.com/Tencent - *Tencent · GitHub*
 
 ## 仓库
 
-https://github.com/Wei-Xia/most-frequent-technology-english-words - *程序员工作中常见的英语词汇* ![GitHub last commit](https://flat.badgen.net/github/last-commit/Wei-Xia/most-frequent-technology-english-words?icon=github&color=blue)
-
 https://github.com/markgoodyear/markgoodyear.github.io - *Source for my personal site.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/markgoodyear/markgoodyear.github.io?icon=github&color=blue)
 
 https://github.com/GitHubDaily/GitHubDaily - *坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.* ![GitHub last commit](https://img.shields.io/github/last-commit/GitHubDaily/GitHubDaily?color=blue&logo=github&style=flat-square)

@@ -5,3 +5,4 @@
   * [目录结构](home/toc.md)
   * [干货分享](home/good-share.md)
   * [文档模板](home/document-template.md)
+  * [中英译](home/chinese-english-translate.md)
