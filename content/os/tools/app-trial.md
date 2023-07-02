@@ -48,7 +48,7 @@ https://mp.weixin.qq.com/s/v5ejXKQbDTI6cbmSSYMyaw - *新APP原理篇（附视频
 
 https://github.com/localsend/localsend
 
-https://localsend.org/ - *LocalSend* ⇒ _via https://baijiahao.baidu.com/s?id=1757678693539809181&wfr=spider&for=pc&searchword=localsend - *三款传输工具，LocalSend、极连快传、互传软件体验*_
+https://localsend.org/ - *LocalSend* ⇒ _via https://baijiahao.baidu.com/s?id=1757678693539809181 - *三款传输工具，LocalSend、极连快传、互传软件体验*_
 
 https://f-droid.org/packages/org.localsend.localsend_app/ - *LocalSend | F-Droid - Free and Open Source Android App Repositor*
 

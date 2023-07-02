@@ -1,21 +1,28 @@
 ## 简介
 
-> <img src="https://git-scm.com/images/logo@2x.png" align="left" width="78" hspace="0" vspace="10" style="margin-right: 10px;margin-top:5px;" /> Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+> <img src="https://git-scm.com/images/logo@2x.png" align="left" width="78" hspace="0" vspace="0" style="margin-right: 10px;margin-top: 5px;" /> Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## 官方
 
-https://git-scm.com - *git 官网*
+Website: https://git-scm.com - *git*
 
-https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.*
+Docs: https://git-scm.com/doc - *Git - Documentation*
+
+GitHub: https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.*
+
+
+## 安装
+
+https://git-scm.com/downloads - *Git - Downloads*
 
 
 ## 教程
 
-1. https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
-2. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
+1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
 
-3. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
-4. https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
+2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
+
+3. https://www.atlassian.com/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
 
 
 ## 工具
@@ -74,6 +81,12 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 > 你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 `工作目录`，它持有实际文件；第二个是 `缓存区（Index）`，它像个缓存区域，临时保存你的改动；最后是 `HEAD`，指向你最近一次提交后的结果。
 
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
+
+## 快速入门
+
+1. https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
+
+2. https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/ - *GitHub Git 备忘单 - GitHub Cheatsheets*
 
 ## 基础命令
 
@@ -174,11 +187,11 @@ git config -e --global #针对系统上所有仓库
 设置提交代码时的用户信息
 
 ```bash
-git config --global user.name "runoob"  
+git config --global user.name "vc"
 ```
 
 ```bash
-git config --global user.email "test@runoob.com"
+git config --global user.email "caiyongwen@yeah.net"
 ```
 
 > --global: 去掉此参数只针对当前仓库有效

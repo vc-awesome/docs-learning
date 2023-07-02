@@ -21,7 +21,7 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 - 文档
 
 
-## 书写工具
+## 工具
 
 !> 📢 软件功能优先查看官方文档。
 
@@ -45,38 +45,7 @@ https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
 有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app-list.md#markdown-工具)”。
 
 
-## 布局样式
-
-实例一：
-
-<img src="https://f-droid.org/repo/com.nononsenseapps.feeder/en-US/icon_Ab31f6rFiG70NRqjyOH87znJd2y38yiEg2Tz_lY791w=.png" alt="package icon" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> An awesome Libre and Open Source RSS feed reader
-
-<br/>
-
-_📋复制模板 - 方角图片_
-
-``` markdown
-<img src="" alt="package icon" align="left" width="64" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;">
-```
-
-实例二：
-
-<img src="https://f-droid.org/repo/net.gsantner.markor/en-US/icon_jm7Yt2QTE4iuxQp_T98o-PSJ4m6GPzmawSrx99KYiE8=.png" alt="package icon" align="left" width="78" hspace="0" vspace="0">Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
-
-<br/>
-
-_📋复制模板 - 圆角图片_
-
-``` markdown
-<img src="" alt="package icon" align="left" width="78" hspace="0" vspace="0">
-```
-
-参考：
-1. https://github.com/gsantner/markor/blob/master/README.md
-2. https://github.com/p0deje/Maccy/blob/master/README.md
-
-
-## 参考
+## 教程
 
 指南：
 
@@ -1033,7 +1002,7 @@ $$
 <!-- tabs:end -->
 
 
-#### 内联公式
+内联公式：
 
 🪜 https://support.typora.io/Math/#inline-math - *Math and Academic Functions - Typora Support*
 

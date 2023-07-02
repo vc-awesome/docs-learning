@@ -187,8 +187,6 @@
             ' · 📂<abbr title="文件所在路径" data-codecopy="true">*' + decodeURIComponent(vm.route.file) + '*</abbr>',
             // 最近更新时间
             ' · 📆<time datetime=\"{docsify-updated}\">*Last modified: {docsify-updated}*</time>',
-            // 文档模板
-            ' · 📃<a href="javascript:sweetalert2Iframe(\'home/document-template.md\')">Document Template</a>',
             '</header>\n\n'
           ].join('');
 
@@ -375,6 +373,20 @@
 
 <!-- 右下悬浮按钮组 -->
 <div class="d-flex flex-column position-fixed right-2 bottom-2" id="right-bottom-float-btns" style="display: none!important;">
+  <details class="dropdown details-reset details-overlay d-inline-block bottom-2">
+      <summary class="btn btn-sm" aria-haspopup="true">
+      <i class="fa-regular fa-browsers" style="color: #0969da;opacity:.6;"></i>
+    </summary>
+
+    <ul class="dropdown-menu dropdown-menu-w">
+      <div class="dropdown-header" style="white-space: nowrap!important;">
+        Dialog 弹出框（最多可添加 7 列）
+      </div>
+      <li class="dropdown-divider" role="separator"></li>
+      <li><a class="dropdown-item" href="javascript:sweetalert2Iframe('home/document-template.md')">1. 📃 文档模板</a></li>
+      <li><a class="dropdown-item" href="javascript:sweetalert2Iframe()">2. 📄 代码片段</a></li>
+    </ul>
+  </details>
   <details class="dropdown details-reset details-overlay d-inline-block">
     <!-- <summary class="btn btn-sm" aria-haspopup="true" onmouseover="this.parentNode.setAttribute('open', 'true')"> -->
       <summary class="btn btn-sm" aria-haspopup="true">
@@ -387,16 +399,16 @@
         Dropdown header（最多可添加 7 列）
       </div>
       <li><a class="dropdown-item" href="https://primer.style/css/components/dropdown" target="_blank">1. Dropdown | Primer CSS</a></li>
+      <li><a class="dropdown-item" href="https://www.jsdelivr.com/" target="_blank">2. jsDelivr</a></li>
       <li class="dropdown-divider" role="separator"></li>
-      <li><a class="dropdown-item" href="https://wangchujiang.com/linux-command/" target="_blank">2. Linux 命令速查手册</a></li>
+      <li><a class="dropdown-item" href="https://wangchujiang.com/linux-command/" target="_blank">3. Linux 命令速查手册</a></li>
       <li class="dropdown-divider" role="separator"></li>
-      <li><a class="dropdown-item" href="https://fontawesome.com/v6/icons/" target="_blank">3. Icons Icon | Font Awesome</a></li>
-      <li><a class="dropdown-item" href="https://www.iconfont.cn/" target="_blank">4. iconfont-阿里巴巴矢量图标库</a></li>
+      <li><a class="dropdown-item" href="https://fontawesome.com/v6/icons/" target="_blank">4. Icons Icon | Font Awesome</a></li>
+      <li><a class="dropdown-item" href="https://www.iconfont.cn/" target="_blank">5. iconfont-阿里巴巴矢量图标库</a></li>
       <li class="dropdown-divider" role="separator"></li>
       <li>
-        <a class="dropdown-item" href="#/os/tools/opera">5. <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="Opera" width="16" height="16" style="vertical-align: sub;"> Opera Web Browser</a>
+        <a class="dropdown-item" href="#/os/tools/opera">6. <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-o.a069885fbe7c.svg" alt="Opera" width="16" height="16" style="vertical-align: sub;"> Opera Web Browser</a>
       </li>
-      <li><a class="dropdown-item" href="javascript:sweetalert2Iframe()">6. 📄 代码片段</a></li>
       <li class="dropdown-divider" role="separator"></li>
       <li><a class="dropdown-item" href="https://wangdoc.com/" target="_blank">7. 网道 - 互联网开发文档</a></li>
     </ul>

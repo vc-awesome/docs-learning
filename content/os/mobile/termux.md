@@ -18,6 +18,48 @@ GitHub：https://github.com/termux/termux-app - *Termux - a terminal emulator ap
 
 F-Droid：https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
 
+
+## Configuration
+
+https://wiki.termux.com/wiki/Terminal_Settings - *Terminal Settings - Termux Wiki*
+
+### 触摸键盘
+
+用法：
+
+https://wiki.termux.com/wiki/Touch_Keyboard - *Touch Keyboard - Termux Wiki*
+
+
+设置：
+
+https://wiki.termux.com/wiki/Touch_Keyboard#Extra_Keys_Row - *Touch Keyboard - Termux Wiki*
+
+1. 编辑配置文件
+
+    ```sh
+    vim ~/.termux/termux.properties
+    ```
+
+2. 在文末新增以下内容
+
+    ```markup
+    extra-keys = [ \
+     ['ESC','/','-','HOME','UP','END','PGUP','SHIFT'], \
+     
+     ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','KEYBOARD'] \
+    ]
+    ```
+
+3. 修改完重新加载配置
+
+    ```sh
+    termux-reload-settings
+    ```
+
+参考：
+
+https://www.xdbcb8.com/archives/958.html - *碎片化学习Python的又一神作：termux*
+
 ## Getting started
 
 https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
@@ -82,6 +124,8 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
 3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*。
 
 ----
+
+常用目录列表：
 
 ```sh
 cd $PREFIX
@@ -249,6 +293,12 @@ apt edit-sources
 
 更多命令，输入 > `apt help` 查看。
 
+#### termux-chroot
+
+```sh
+termux-chroot
+```
+
 ### 插件列表
 
 https://wiki.termux.com/wiki/Main_Page#Addons - *Termux Wiki*
@@ -341,7 +391,9 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
 
 ## Tool
 
-### Nano
+### 终端工具
+
+#### Nano
 
 搜索：
 
@@ -365,7 +417,40 @@ pkg uninstall nano
 1. https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
 2. https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
 
-### Node.js
+#### Vim
+
+安装：
+
+```sh
+pkg install vim
+```
+
+卸载：
+
+```sh
+pkg uninstall vim
+```
+
+#### Tree
+
+官方：
+
+http://mama.indstate.edu/users/ice/tree/ - *The Tree Command for Linux Homepage*
+
+安装：
+
+```sh
+pkg install tree
+```
+
+卸载：
+
+```sh
+pkg uninstall tree
+```
+
+
+#### Node.js
 
 搜索：
 
@@ -385,7 +470,7 @@ pkg install nodejs-lts
 pkg uninstall nodejs-lts
 ```
 
-### Git
+#### Git
 
 搜索：
 
@@ -409,7 +494,7 @@ pkg uninstall git
 
 https://zhuanlan.zhihu.com/p/619764281 - *42号笔记：Android上使用Termux的git同步Obsidian - 知乎*
 
-### Openssh
+#### Openssh
 
 安装：
 
@@ -423,7 +508,7 @@ pkg install openssh
 pkg uninstall openssh
 ```
 
-### Xclip
+#### Xclip
 
 ⚠️ 按下面顺序安装，否则无法安装。
 
@@ -440,6 +525,72 @@ pkg install xclip
 ```
 
 !> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
+
+
+#### GitUI
+
+简介：
+
+> blazing fast terminal-ui for git written in rust（译文：用 rust 编写的 git 快速终端用户界面）
+
+官方：
+
+https://extrawurst.itch.io/gitui - *GitUI by extrawurst*
+
+https://github.com/extrawurst/gitui - *GitHub - extrawurst/gitui: Blazing 💥 fast terminal-ui for git written in rust 🦀*
+
+安装：
+
+```sh
+pkg install gitui
+```
+
+卸载：
+
+```sh
+pkg uninstall gitui
+```
+
+用法：
+
+方式一：安装完后，在仓库根目录执行下列命令进入应用
+
+```sh
+cd ~/storage/shared/Documents/markor/GitHub/docs-learning/
+```
+
+```sh
+gitui
+```
+
+方式二：添加 [Termux:Widget](os/mobile/termux.md#termuxwidget) 脚本
+
+1. 新建脚本文件
+    ```sh
+    cd ~/.shortcuts && vim run-gitui.sh
+    ```
+2. 输入以下脚本文件内容
+    ```sh
+    #!/data/data/com.termux/files/usr/bin/bash
+    
+    cd ~/storage/shared/Documents/markor/GitHub/docs-learning/ && gitui
+    ```
+
+
+### 应用工具
+
+#### Hacker's Keyboard
+
+https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Hacker's Keyboard (official)*
+
+设置：
+
+键盘模式（portrait），类似于电脑键盘的模式 👇
+
+1. 打开应用设置「SETTINGS」；
+2. 进入「Keyboard view settings」 > 「Keyboard mode, portrait」；
+3. 选择「Full 5-row layout」。
+
 
 ## FAQ
 
@@ -611,11 +762,11 @@ pkg install xclip
 
 ### 参考博文
 
-1. https://zhuanlan.zhihu.com/p/95865982 - *极致安卓之—Termux安装完整版Linux - 知乎*
+1. https://blog.csdn.net/xiao_yi_xiao/article/details/120470295 - *Termux详细教程！欧晨eli的博客-CSDN博客termux* [原文](https://www.sqlsec.com/2018/05/termux.html)
 
-2. https://blog.csdn.net/xiao_yi_xiao/article/details/120470295 - *Termux详细教程！欧晨eli的博客-CSDN博客termux*
+2. https://zhuanlan.zhihu.com/p/95865982 - *极致安卓之—Termux安装完整版Linux - 知乎*
 
-3. http://zxlwpq.com/huodong/31018.html - *Termux 高级终端安装使用配置教程(建议PC)*
+3. ~~http://zxlwpq.com/huodong/31018.html - *Termux 高级终端安装使用配置教程(建议PC)*~~
 
 4. https://zhuanlan.zhihu.com/p/40740388 - *要啥自行车之Termux:将我们的安卓手机打造成全能的服务器 - 知乎*
 
@@ -629,4 +780,4 @@ pkg install xclip
 
 9. https://p3terx.com/archives/termux-tutorial-1.html - *Termux 使用教程 #1 - Android 手机安装 Linux - P3TERX ZONE*
 
-10. https://p3terx.com/archives/termux-tutorial-2.html - *Termux 使用教程 #2 - 打造手机上的最强终端 - P3TERX ZONE*
+    1. https://p3terx.com/archives/termux-tutorial-2.html - *Termux 使用教程 #2 - 打造手机上的最强终端 - P3TERX ZONE*

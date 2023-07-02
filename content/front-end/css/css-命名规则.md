@@ -958,6 +958,12 @@ https://v3.bootcss.com/css/#grid - *Bootstrap v3*
 - 禁止文字换行
   - -text-nowrap
 
+    ```css
+    .text-nowrap {
+        white-space: nowrap!important;
+    }
+    ```
+
 
 ### Typography 文字
 

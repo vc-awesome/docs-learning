@@ -17,7 +17,7 @@
 - https://data.newrank.cn/m/s.html?s=NykqOiw2LjJJPw - *阿虚同学-号内搜*
 
 
-#### 更多...
+#### 更多
 
 1. https://www.jianshu.com/p/b32229d6c43c - *最好用的Windows/Mac软件下载网站都在这了！*
 
@@ -121,11 +121,6 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 1. https://www.sordum.org/ - *Simplify Your computer Usage*
 
-### 开源软件 🔥
-
-#### Windows
-
-https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 ### 绿色软件 🔥
 
@@ -150,6 +145,7 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 #### macOS
 
 - https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)*
+
     - 有关更多详细信息，请参阅“[Mac > homebrew](os/mac/homebrew.md)”。
 
 
@@ -165,7 +161,7 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 https://www.microsoft.com/zh-cn/store - *Windows 应用 - Microsoft 应用商店*
 
 <div class="flash mt-3 flash-warn">
-  ⚠️ 下载应用需要 Windows 系统预先安装 Microsoft Store
+  ⚠️ 下载应用需要 Windows 系统预先安装 Microsoft Store 应用程序。
 </div>
 
 实例：   https://apps.microsoft.com/store/detail/bitwarden/9PJSDV0VPK04 - *Bitwarden - Microsoft Store 应用程序*

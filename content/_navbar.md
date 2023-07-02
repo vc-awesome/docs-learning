@@ -9,13 +9,17 @@
     - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/linux/linux%20指令)
     - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/mac/homebrew.md)
     - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/termux.md)
+    - [<i class="fa-duotone fa-toolbox fa-fw"></i> Vim](os/linux/vim.md)
     - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
+    - [<i class="fa-brands fa-bootstrap"></i> Bootstrap](开发框架/README.md#bootstrap-🔥)
+    - [<i class="fa-regular fa-circle-info fa-fw"></i> 版本号](home/semver.md)
     - <hr />
     - [<i class="fa-duotone fa-list-tree fa-fw"></i> TOC](home/toc.md)
     - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](home/emoji.md)
     - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
     - [<i class="fa-duotone fa-retweet fa-fw"></i> Share](home/good-share.md "干货分享")
     - [<i class="fa-regular fa-language fa-fw"></i> 中英译](home/chinese-english-translate.md)
+    - [<i class="fa-regular fa-laptop-mobile fa-fw"></i> 设备传输](os/tools/app-trial.md#传输工具)
 - Daily use
 - [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
@@ -47,7 +51,7 @@
     - [<i class="fa-duotone fa-compass-drafting fa-fw"></i> 产品设计](front-end/design/README.md)
     - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-CDNHub"></use></svg> CDN](front-end/cdn.md)
-- [Back-end](back-end/README.md)
+- **Back-end**
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-php1"></use></svg> PHP](back-end/php/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-thinkphp"></use></svg> ThinkPHP](back-end/thinkphp/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-composer"></use></svg> Composer](back-end/composer/README.md)
@@ -57,7 +61,7 @@
     - [<i class="icon octicon-file docker-icon dark-blue fa-fw"></i> Docker](back-end/docker.md "Docker")
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-travis"></use></svg> Travis-CI](back-end/travis-ci.md "Travis Ci")
-- [Database](database/README.md)
+- **Database**
     - [<i class="icon octicon-file mysql-icon dark-blue fa-fw"></i> MySQL](database/mysql/README.md)
     - [<i class="icon octicon-file redis-icon medium-red fa-fw"></i> Redis](database/redis/README.md)
     - [<i class="icon octicon-file mongodb-icon dark-green fa-fw"></i> MongoDB](database/mongodb.md)

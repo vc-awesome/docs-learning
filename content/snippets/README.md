@@ -56,7 +56,7 @@
 ```md
 > <img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />
 ```
-*👆 > \<img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> [Markdown > 布局样式](os/tools/markdown.md#布局样式)*
+*👆 > \<img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />*
 
 ```uri
 view-source:

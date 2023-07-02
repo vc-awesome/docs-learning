@@ -1,21 +1,24 @@
 ## 搜索
 
-https://www.runningcheese.com/extensions - *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
-- 支持注册登录
+1. https://www.runningcheese.com/extensions - *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
 
-https://ldqk.xyz/1775 - *高效上网——Chrome/Edge浏览器优秀扩展插件推荐*
+    - 支持注册登录
 
-----
+2. https://ldqk.xyz/1775 - *高效上网——Chrome/Edge浏览器优秀扩展插件推荐*
 
-https://mp.weixin.qq.com/s/74mW44aBySJ9VW1_A7j5mg - *前端请装上这个 Chrome 插件*  
+---
+
+1. https://mp.weixin.qq.com/s/74mW44aBySJ9VW1_A7j5mg - *前端请装上这个 Chrome 插件*
+
+2. 
 https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工具 - Omni*
 
 
 ### GitHub Topics
 
-https://github.com/topics/chrome-extension
+1. https://github.com/topics/chrome-extension
 
-https://github.com/topics/browser-extension
+2. https://github.com/topics/browser-extension
 
 
 
@@ -23,11 +26,11 @@ https://github.com/topics/browser-extension
 
 ### 扩展商店
 
-https://addons.mozilla.org/zh-CN/firefox/extensions/ - _扩展 – Firefox 附加组件（zh-CN）_
+1. https://addons.mozilla.org/zh-CN/firefox/extensions/ - _扩展 – Firefox 附加组件（zh-CN）_
 
-https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN - _Microsoft Edge 加载项_
+2. https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN - _Microsoft Edge 加载项_
 
-https://chrome.google.com/webstore/ - *Chrome 应用商店*
+3. https://chrome.google.com/webstore/ - *Chrome 应用商店*
 
 
 
@@ -437,7 +440,9 @@ https://chrome.google.com/webstore/ - *Chrome 应用商店*
 
 https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collection of awesome browser extensions for GitHub.* [Website](https://stefanbuck.com/awesome-browser-extensions-for-github)
 
-------
+---
+
+扩展程序列表：
 
 1. [Refined GitHub](https://github.com/refined-github/refined-github) - *:octocat: Browser extension that simplifies the GitHub interface and adds useful features*
     - https://www.crxsoso.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf - *Refined GitHub | Chrome扩展 - Crx搜搜*
@@ -463,7 +468,7 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
 9. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
     - https://www.crxsoso.com/webstore/detail/ffjjnphohkfckeplcjflmgneebafggej - *GitHub加速 | Chrome扩展 - Crx搜搜*
-    - 仅支持下载、克隆源码加速，不支持页面、图片加速
+    - 💡 仅支持下载、克隆源码加速，不支持页面、图片加速
 
 10. https://github.com/conwnet/github1s - *GitHub - conwnet/github1s: One second to read GitHub code with VS Code.* ( _**via** https://zhuanlan.zhihu.com/p/350615234 - *人生第一个扩展——Github1s - 知乎*_ )
 
@@ -500,11 +505,17 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
 #### Tampermonkey
 
-*The world's most popular userscript manager.*
+- 简介
 
-> ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)  
-<i class="fa fa-laptop"></i> https://www.tampermonkey.net/ - *首页 | Tampermonkey*  
-<i class="fa fa-github fa-lg"></i> https://github.com/derjanb - *derjanb (Jan Biniok) · GitHub*  
+    > *The world's most popular userscript manager.*
+    
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
+
+- 官方
+
+    Website: https://www.tampermonkey.net/ - *首页 | Tampermonkey*  
+    
+     GitHub: https://github.com/derjanb - *derjanb (Jan Biniok) · GitHub*  
 
 - 安装
 
@@ -513,10 +524,15 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
     - https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo
 
 - 脚本下载
+
     - https://greasyfork.org/zh-CN - _Greasy Fork - 安全、实用的用户脚本大全_
+    
     - https://www.baiduyun.wiki/ - _油小猴_
+    
       - https://www.youxiaohou.com/tool/install-darkmode.html - *夜间模式助手 | 油小猴*
+      
       - https://www.youxiaohou.com/tool/install-instantpage.html - *网页加速器 | 油小猴*
+      
       - https://www.youxiaohou.com/tool/install-translate.html - *超级翻译助手 | 油小猴*
     
 - 好用的脚本列表
@@ -532,9 +548,6 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
         3. [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
 
         4. [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
-
-    - [下载器](#tampermonkey-download ':id=tampermonkey-download')
-        - https://www.baiduyun.wiki/ - *油小猴*
 
     - [网页限制解除](https://greasyfork.org/zh-CN/scripts/14146-%E7%BD%91%E9%A1%B5%E9%99%90%E5%88%B6%E8%A7%A3%E9%99%A4 "通杀大部分网站，可以解除禁止复制、剪切、选择文本、右键菜单的限制。")
 

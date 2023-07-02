@@ -7,10 +7,12 @@ https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 
 ### 行操作
 
-- `Ctrl + a`：移到行首。
-- `Ctrl + e`：移到行尾。
-- `Ctrl + d`：删除光标位置的字符（delete）。
-- `Ctrl + w`：删除光标前面的单词。
+- <kbd>Ctrl</kbd> + <kbd>a</kbd>：移到行首。
+- <kbd>Ctrl</kbd> + <kbd>e</kbd>：移到行尾。
+- <kbd>Ctrl</kbd> + <kbd>d</kbd>：删除光标位置的字符（delete）。
+- <kbd>Ctrl</kbd> + <kbd>w</kbd>：删除光标前面的单词。
+- <kbd>Ctrl</kbd> + <kbd>k</kbd>：剪切光标位置到行尾的文本。
+- <kbd>Ctrl</kbd> + <kbd>u</kbd>：剪切光标位置到行首的文本。
 
 更多操作方式请参见：https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道*
 

@@ -513,7 +513,9 @@ window.$docsify.plugins.push(
 
 1. https://www.rollupjs.com/ - *简介 | rollup.js 中文文档 | rollup.js中文网*
 
-2. https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
+2. https://adguard.com/kb/zh-CN/general/ad-filtering/create-own-filters/ - *How to create your own ad filters | AdGuard Knowledge Base*
+
+3. https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
 
 ##### 复制代码至剪贴板
 
