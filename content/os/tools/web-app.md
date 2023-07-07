@@ -2,15 +2,26 @@
 
 1. ~~http://www.ofmonkey.com/ - _开发者工具/Json格式化/px转rem/编码/解码/二进制 - 程序员在线工具_~~
 
-2. https://c.runoob.com/ - *菜鸟工具 - 不止于工具*
-    - 常用工具
-        - [图片转 BASE64 编码](https://c.runoob.com/front-end/59/)（*注：在手机上使用时，复制大图片转换后的代码，文字内容会出现不能全部复制的问题，这是由于手机系统剪贴板有字数限制。建议使用“帮小忙”工具箱 - “base64编码”进行转换。*）
+2. https://tool.browser.qq.com/ - *帮小忙 - 腾讯QQ浏览器工具箱平台*
 
-3. https://tool.browser.qq.com/ - *帮小忙 - 腾讯QQ浏览器工具箱平台*
     - [开发工具](https://tool.browser.qq.com/category/develop)
+
         - [base64编码](https://tool.browser.qq.com/base64.html)（图片 转 DataURL）（*注：使用小米 MIUI 14 手机，在“搜狗输入法小米版”复制转换后的代码会有字数限制，这时可切换“讯飞输入法小米版”，复制转换后的代码没有字数限制。*）
 
-4. https://tools.miku.ac/ - *MikuTools - 一个轻量的工具集合*
+3. https://tools.miku.ac/ - *MikuTools - 一个轻量的工具集合*
+
+### 菜鸟工具
+
+https://c.runoob.com/ - *菜鸟工具 - 不止于工具*
+
+- 常用工具
+
+    - [图片转 BASE64 编码](https://c.runoob.com/front-end/59/)（*注：在手机上使用时，复制大图片转换后的代码，文字内容会出现不能全部复制的问题，这是由于手机系统剪贴板有字数限制。建议使用“帮小忙”工具箱 - “base64编码”进行转换。*）
+
+- https://c.runoob.com/imglibs/ - *图库&颜色 | 菜鸟工具*
+
+    - https://worldvectorlogo.com/ - *Worldvectorlogo: Brand logos free to download*
+
 
 ## 图像
 
@@ -21,6 +32,10 @@ https://tinypng.com/ - _TinyPNG – Compress WebP, PNG and JPEG images intellige
 ### 图片搜索
 
 https://icons8.com/ - _Free Icons, Clipart Illustrations, Photos, and Music_
+
+### Favicon
+
+https://realfavicongenerator.net/ - *Favicon Generator for perfect icons on all browsers*
 
 ### SVG
 

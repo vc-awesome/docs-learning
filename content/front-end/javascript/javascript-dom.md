@@ -2,6 +2,8 @@
 
 > 当网页被加载时，浏览器会创建页面的文档对象模型（Document Object Model）。
 
+## 教程
+
 https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model - *文档对象模型 (DOM) - Web API 接口参考 | MDN*
@@ -262,6 +264,8 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#options - *EventTarget.addEventListener() - Web API 接口参考 | MDN*
 
+- https://developer.mozilla.org/zh-CN/docs/Web/API/Event - *Event - Web API 接口参考 | MDN*
+
 https://www.runoob.com/js/js-htmldom-eventlistener.html - _JavaScript HTML DOM EventListener | 菜鸟教程_
 
 语法：  
@@ -275,6 +279,10 @@ element.removeEventListener(event, function, useCapture);
 ### DOMContentLoaded 事件
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document/DOMContentLoaded_event - *Document: DOMContentLoaded 事件 - Web API 接口参考 | MDN*
+
+### onhashchange 事件
+
+https://www.wenmayi.com/post/607.html - *用JS实现监听URL地址变化的教程 - 文蚂蚁*
 
 ## 监听 DOM 变化
 

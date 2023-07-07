@@ -1,3 +1,10 @@
+## 简介
+
+> <img src="https://raw.githubusercontent.com/github/explore/8eaa4711f3b6015070483ff1c3b707292304efe4/topics/chrome-extension/chrome-extension.png" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> Chrome extensions are add-ons for Chromium-based browsers, such as Google Chrome, which enable users to customize the Chrome browsing experience. Built using web technologies like HTML, CSS, and JavaScript, extensions make use of various APIs supported by the browser. Extensions are typically downloaded from online marketplaces, with the Chrome Web Store being the most widely used. Chrome extensions work on most Chromium browsers, not just Google Chrome developed by Google.（译文：Chrome 扩展程序是基于 Chromium 的浏览器（例如 Google Chrome）的附加组件，使用户能够自定义 Chrome 浏览体验。扩展使用 HTML、CSS 和 JavaScript 等 Web 技术构建，并利用浏览器支持的各种 API。扩展程序通常从在线市场下载，其中 Chrome 网上应用店使用最广泛。 Chrome 扩展程序适用于大多数 Chromium 浏览器，而不仅仅是 Google 开发的 Google Chrome。）
+> 
+> —— https://github.com/topics/chrome-extension - *chrome-extension · GitHub Topics*
+
+
 ## 搜索
 
 1. https://www.runningcheese.com/extensions - *浏览器必备，2022 年度最喜欢浏览器扩展 - 奔跑中的奶酪*
@@ -375,12 +382,17 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
     - 官网：https://translate.google.com/ - *Google 翻译*
 
     - 百度搜索：*谷歌翻译加速，谷歌翻译扩展无法使用*
-    - https://blog.csdn.net/m0_67402096/article/details/123323867 - *谷歌浏览器 无法翻译此网页的解决方法*
-    - https://zhuanlan.zhihu.com/p/286815739 - *「技巧」解决「Google 翻译」改版后，访问及翻译 速度很慢很迟钝的问题！ - 知乎*
+
+    - 参考：
+      1. https://blog.csdn.net/m0_67402096/article/details/123323867 - *谷歌浏览器 无法翻译此网页的解决方法*
+      2. https://zhuanlan.zhihu.com/p/286815739 - *「技巧」解决「Google 翻译」改版后，访问及翻译 速度很慢很迟钝的问题！ - 知乎*
+
     - 👏 https://hcfy.app/blog/2022/09/28/ggg - *谷歌翻译不能用的解决方案 | 划词翻译 (hcfy.app)*
         - 修改 hosts 文件（分 3 步操作）
             - [第一步：复制可用 IP](https://hcfy.app/blog/2022/09/28/ggg#%E7%AC%AC%E4%B8%80%E6%AD%A5%E5%A4%8D%E5%88%B6%E5%8F%AF%E7%94%A8-ip)
+            
             - [第二步：将 IP 写入 hosts 文件中](https://hcfy.app/blog/2022/09/28/ggg#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%B0%86-ip-%E5%86%99%E5%85%A5-hosts-%E6%96%87%E4%BB%B6%E4%B8%AD)
+            
             - [第三步：测试 IP 是否可用](https://hcfy.app/blog/2022/09/28/ggg#%E7%AC%AC%E4%B8%89%E6%AD%A5%E6%B5%8B%E8%AF%95-ip-%E6%98%AF%E5%90%A6%E5%8F%AF%E7%94%A8)
 
 

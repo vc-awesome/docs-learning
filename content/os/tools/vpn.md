@@ -1,76 +1,53 @@
+## Introduction
+
+> A virtual private network (VPN) extends a private network across a public network and enables users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network.（译文：虚拟专用网络 (VPN) 在公共网络上扩展专用网络，使用户能够跨共享或公共网络发送和接收数据，就好像他们的计算设备直接连接到专用网络一样。）
+>
+> —— https://github.com/topics/vpn - *vpn · GitHub Topics*
+
 ## Search
 
 
 ### GitHub
 
 1. GitHub 关键词搜索：[免费 ss](https://github.com/search?q=%E5%85%8D%E8%B4%B9%20ss)
-2. https://github.com/topics/vpn
 
-
-## Link
-
-https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台设备*
-
-https://github.com/Qv2ray - *Qv2ray Workgroup · GitHub*
-
-
-### Others
-
-https://www.zyskys.com/posts/60593.html - *手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等*
-
-https://www.itfanr.cc/2021/03/25/science-online-mac-client-v2rayu/ - *科学上网mac客户端V2rayU使用技巧*
-
-https://mahongfei.com/1736.html - *windows使用v2rayN详细使用教程*
-
-https://www.cnblogs.com/LyndonMario/p/9326176.html - *chrome神插件之：SwitchyOmega的安装设置*
-
-https://jonnyan404.github.io/post/v2rayn-de-pac-jian-dan-gui-ze/ - *v2rayN的pac简单规则*
-
-https://hostloc.com/thread-628208-1-1.html - *[Windows VPS] V2rayN的pac设置我一直没搞明白，如果你也不明白，进来看看*
-
-https://baiyunju.cc/7475 - *主流V2Ray客户端不再支持PAC代理模式，影响及应对*
-
-https://www.dqzboy.com/7510.html - *v2rayN 4.x版本如何设置PAC分流访问国内外网站*
+2. https://github.com/topics/vpn - *vpn · GitHub Topics*
 
 
 ## Book
 
-<i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
+1. <i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
+   
+   ![GitHub last commit](https://flat.badgen.net/github/last-commit/crifan/scientific_network_summary?icon=github&color=blue)
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/crifan/scientific_network_summary?icon=github&color=blue)
+2. <i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
+   
+   ![GitHub last commit](https://flat.badgen.net/github/last-commit/hoochanlon/w3-goto-world?icon=github&color=blue)
+   
+   - ✅ https://hoochanlon.github.io/fq-book - *《网络代理与VPN应用详解》（这本书能让你连接互联网）*
 
-<i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
+3. <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪 - *★覆盖全平台★完全免费★节点订阅★机场推荐★破解VPN软件分享★*
 
-- ✅ https://hoochanlon.github.io/fq-book - *《网络代理与VPN应用详解》（这本书能让你连接互联网）*
+   ![GitHub last commit](https://img.shields.io/github/last-commit/ZGQ-inc/overthefirewall?color=blue&logo=github&style=flat-square)
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/hoochanlon/w3-goto-world?icon=github&color=blue)
+4. <i class="fa fa-thumbs-o-up"></i>
+   https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙*
 
-<i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪 - *★覆盖全平台★完全免费★节点订阅★机场推荐★破解VPN软件分享★*
+   ![GitHub last commit](https://flat.badgen.net/github/last-commit/Alvin9999/new-pac?icon=github&color=blue)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/ZGQ-inc/overthefirewall?color=blue&logo=github&style=flat-square)
-
-<i class="fa fa-thumbs-o-up"></i>
-https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙*
-
-![GitHub last commit](https://flat.badgen.net/github/last-commit/Alvin9999/new-pac?icon=github&color=blue)
-
-https://github.com/Ibroad/overthefirewall - *★覆盖全平台★完全免费★节点订阅★机场推荐★〓v2ray/shadowsocks/clash〓*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/Ibroad/overthefirewall?color=blue&logo=github&style=flat-square)
-
-https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
-
-![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
+5. https://github.com/Ibroad/overthefirewall - *★覆盖全平台★完全免费★节点订阅★机场推荐★〓v2ray/shadowsocks/clash〓*
+   
+   ![GitHub last commit](https://img.shields.io/github/last-commit/Ibroad/overthefirewall?color=blue&logo=github&style=flat-square)
+   
+6. https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
+   
+   ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
 
 ## 订阅
 
-👍 https://github.com/freefq
-
-https://github.com/anaer/Sub - *自用clash订阅链接*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
-
 ### Free Account 🔥
+
+https://github.com/freefq - *freefq*
 
 - 导入
 
@@ -164,17 +141,35 @@ https://github.com/v2fly - *V2Fly · GitHub*
 
 https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0
 
+#### 参考
+
+1. https://www.zyskys.com/posts/60593.html - *手动设置V2Ray PAC代理模式访问P站、Telegram、Github等等*
+
+2. https://www.itfanr.cc/2021/03/25/science-online-mac-client-v2rayu/ - *科学上网mac客户端V2rayU使用技巧*
+
+3. https://mahongfei.com/1736.html - *windows使用v2rayN详细使用教程*
+
+4. https://jonnyan404.github.io/post/v2rayn-de-pac-jian-dan-gui-ze/ - *v2rayN的pac简单规则*
+
+5. https://hostloc.com/thread-628208-1-1.html - *[Windows VPS] V2rayN的pac设置我一直没搞明白，如果你也不明白，进来看看*
+
+6. https://baiyunju.cc/7475 - *主流V2Ray客户端不再支持PAC代理模式，影响及应对*
+
+7. https://www.dqzboy.com/7510.html - *v2rayN 4.x版本如何设置PAC分流访问国内外网站*
+
 
 ### Shadowsocks
 
-?> shadowsocks is a fast tunnel proxy that helps you bypass firewalls
+> shadowsocks is a fast tunnel proxy that helps you bypass firewalls
 
 <i class="fa fa-windows"></i>
 <i class="fa fa-apple"></i>
 <i class="fa fa-android"></i>
 https://github.com/shadowsocks /
 <i class="bi bi-ladder"></i>
-https://shadowsocks.org/
+https://shadowsocks.org/ - *Shadowsocks | A fast tunnel proxy that helps you bypass firewalls.*
+
+---
 
 <i class="fa fa-windows"></i>
 https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
@@ -182,27 +177,32 @@ https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
 ![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/ShadowsocksR-Windows?color=blue&logo=github&style=flat-square)
 
 
-
 ### Clash
 
-<i class="fa fa-windows"></i>
-<i class="fa fa-apple"></i>
-<i class="fa fa-linux"></i>
-https://github.com/Fndroid/clash_for_windows_pkg - *A Windows/macOS GUI based on Clash*
+#### 工具列表
 
-![GitHub last commit](https://img.shields.io/github/last-commit/Fndroid/clash_for_windows_pkg?color=blue&logo=github&style=flat-square)
+1. <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> https://github.com/Fndroid/clash_for_windows_pkg - *A Windows/macOS GUI based on Clash*
 
-<i class="fa fa-apple"></i>
-https://github.com/yichengchen/clashX
+   ![GitHub last commit](https://img.shields.io/github/last-commit/Fndroid/clash_for_windows_pkg?color=blue&logo=github&style=flat-square)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
+2. <i class="fa fa-apple"></i> https://github.com/yichengchen/clashX
+
+   ![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
+
+#### 订阅链接
+
+https://github.com/anaer/Sub - *自用clash订阅链接*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
 
 ### personalDNSfilter
 
-有关详细信息，请参阅“[personalDNSfilter](/os/mobile/?id=personaldnsfilter)”。
+有关详细信息，请参阅“[personalDNSfilter](/os/mobile/mobile-app-list.md#personaldnsfilter)”。
 
 
 ### Tor
+
+> 在线匿名 | 保护自己免受追踪和监视，突破网络审查。
 
 <i class="fa fa-search"></i> *torbrowser*
 
@@ -213,20 +213,23 @@ https://github.com/yichengchen/clashX
 <i class="bi bi-ladder"></i>
 https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
-<i class="fa fa-github"></i>
-https://github.com/TheTorProject/gettorbrowser
+下载：
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/TheTorProject/gettorbrowser?icon=github&color=blue)
+1. <i class="fa fa-github"></i> https://github.com/TheTorProject/gettorbrowser
 
-https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
+   ![GitHub last commit](https://flat.badgen.net/github/last-commit/TheTorProject/gettorbrowser?icon=github&color=blue)
 
-### More...
+2. https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
+
+### More
 
 1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
     - 支持 Windows, macOS
 
 2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*
     - 🪜
+3. https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台设备*
+4. https://github.com/Qv2ray - *Qv2ray Workgroup · GitHub*
 
 ## Web Proxy
 
@@ -257,7 +260,7 @@ https://getmoreprivacy.com/surfeasy/ - *SurfEasy VPN是否安全？（2023年完
 
 ### Development Tools
 
-https://github.com/EtherDream/jsproxy
+https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy based on ServiceWorker*
 
 ![](https://flat.badgen.net/github/last-commit/EtherDream/jsproxy?icon=github&color=blue)
 
@@ -268,26 +271,32 @@ https://github.com/EtherDream/jsproxy
 
 #### Google Helper
 
+> This is a browser plugin for developers, cross-border workers, and research institutes to secure and speed Internet surfing.
+
+Website:
+
 http://googlehelper.net/ - *Google Helper*
 
-- <div class="AvatarStack AvatarStack--three-plus">
+Support browsers: 
+
+<div class="AvatarStack AvatarStack--three-plus">
   <div
     class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1"
     aria-label="support chrome, firefox, edge, and purchases."
   >
-    <i<i class="fa fa-chrome"></i>
+    <i class="fa fa-chrome"></i>
     <i class="fa fa-firefox"></i>
     <i class="fa fa-edge"></i> 
     <i class="fa fa-shopping-cart"></i>
   </div>
-  </div>
+</div>
 
 
 
 
 #### Proxy SwitchyOmega 🔥
 
-?> 轻松快捷地管理和切换多个代理设置。
+> 轻松快捷地管理和切换多个代理设置。
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/FelisCatus/SwitchyOmega?icon=github&color=blue)
 
@@ -300,9 +309,15 @@ https://github.com/FelisCatus/SwitchyOmega
 <i class="fa fa-book"></i>
 https://github.com/FelisCatus/SwitchyOmega/wiki
 
-https://proxy-switchyomega.com - _非官网_
+---
 
+主页：
 
+1. https://proxy-switchyomega.com - *Proxy SwitchyOmega - 轻松快捷的管理和切换多个代理设置*（非官网）
+
+参考：
+
+1. https://www.cnblogs.com/LyndonMario/p/9326176.html - *chrome神插件之：SwitchyOmega的安装设置*
 
 
 ### Search engines 💪
@@ -313,33 +328,46 @@ https://proxy-switchyomega.com - _非官网_
 
 ### PAC
 
-?> *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
+> *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。
+> 
+> —— https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac
 
-https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
+1. https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/gfwlist/gfwlist?icon=github&color=blue)
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/gfwlist/gfwlist?icon=github&color=blue)
 
-https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday*
+2. https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
-
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
 
 ## Test URL
 
-https://telegram.org/ - *Telegram Messenger* 
+Google:
 
-https://www.google.com/ - *Google* 
+1. https://www.google.com/ - *Google* 
 
-https://www.google.com.hk/ - *Google* 
+2. https://www.google.com.hk/ - *Google*
 
-https://www.wikipedia.org/ - *Wikipedia* 
+3.  https://chrome.google.com/webstore/category/extensions - *Chrome 应用商店 - 扩展程序*
 
-https://typora.io/ - *Typora — a markdown editor, markdown reader.* 
+4. https://translate.googleapis.com/translate_a/element.js （可添加到快速链接导航栏）
 
-https://github.com/topics - *Topics on GitHub · GitHub*
+GitHub:
 
-https://gist.github.com/ - *Discover gists · GitHub*
+1. https://github.com/topics - *Topics on GitHub · GitHub*
 
-https://github.com/ - *GitHub: Let’s build from here · GitHub*
+2. https://gist.github.com/ - *Discover gists · GitHub*
 
-https://www.pixiv.net/ - _插画交流网站_
+3. https://github.com/ - *GitHub: Let’s build from here · GitHub*
+
+Other:
+
+1. https://telegram.org/ - *Telegram Messenger* 
+
+2. https://www.wikipedia.org/ - *Wikipedia* 
+
+3. https://typora.io/ - *Typora — a markdown editor, markdown reader.*
+
+4. https://www.pixiv.net/ - *插画交流网站*
+
+5. https://free-ss.site/ - *免费上网账号*（当开启了有效的 VPN 网络，页面中的账号列表数据为空）

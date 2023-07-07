@@ -47,6 +47,6 @@ stateDiagram
     4. VitePress + Algolia (Demo: https://ruanyf-weekly.vercel.app/)
 7. _专题文章_ >
     - [x] [广告过滤](topic/ad-filter.md) 
-    - [ ] [Google 翻译]()
+    - [x] [Google 翻译](topic/google-translate.md)
     - [x] [视频](topic/video.md)
     - [x] [体育](topic/sport.md)

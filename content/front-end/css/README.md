@@ -2,13 +2,13 @@
 
 > CSS (Cascading Style Sheets，层叠样式表），是一种用来为结构化文档（如 HTML 文档或 XML 应用）添加样式（字体、间距和颜色等）的计算机语言，CSS 文件扩展名为 `.css`。
 
-## 官方
-
-**菜鸟教程**：
+## 教程
 
 1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
 
 2. https://www.runoob.com/css3/css3-tutorial.html - *CSS3 教程*
+
+## 用法
 
 ### 盒模型
 

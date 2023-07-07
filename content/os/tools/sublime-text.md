@@ -101,7 +101,7 @@ brew install --cask sublime-text
 
 ## Package
 
-### 常用插件
+### 常用插件列表
 
 https://github.com/jaywcjlove/awesome-mac/blob/master/editor-plugin-zh.md#sublime-text-plugin - *awesome-mac/editor-plugin-zh.md at master · jaywcjlove/awesome-mac · GitHub*
 
@@ -118,6 +118,10 @@ https://jingyan.baidu.com/article/647f0115dacea63e2148a8ea.html - *【Sublime T
 https://github.com/victorporof/Sublime-HTMLPrettify - *HTML, CSS, JavaScript, JSON, React/JSX and Vue code formatter for Sublime Text 2 and 3 via node.js*
 
 https://jingyan.baidu.com/article/154b46312e3d3f28ca8f41e0.html - *sublime中如何格式化代码-百度经验*
+
+### Json Reindent（JSON 格式化）
+
+https://packagecontrol.io/packages/JSON%20Reindent - *JSON Reindent - Packages - Package Control*
 
 ### CSS
 
@@ -187,6 +191,24 @@ https://packagecontrol.io/packages/CSScomb - *CSScomb - Packages - Package Contr
 
 https://github.com/csscomb/csscomb.js/ - *GitHub - csscomb/csscomb.js: CSS coding style formatter*
 
-### Json Reindent（JSON 格式化）
+### Terminal（终端）
 
-https://packagecontrol.io/packages/JSON%20Reindent - *JSON Reindent - Packages - Package Control*
+#### Terminus
+
+Homepage: https://packagecontrol.io/packages/Terminus - *Terminus - Packages - Package Control*
+
+GitHub: https://github.com/randy3k/Terminus - *randy3k/Terminus: Bring a real terminal to Sublime Text*
+
+#### Terminal
+
+Homepage: https://packagecontrol.io/packages/Terminal - *Terminal - Packages - Package Control*
+
+GitHub: https://github.com/SublimeText/Terminal - *SublimeText/Terminal: Launch terminals from the current file or the root project folder*
+
+### Git
+
+#### GitGutter
+
+Homepage: https://packagecontrol.io/packages/GitGutter - *GitGutter - Packages - Package Control*
+
+GitHub: https://github.com/jisaacks/GitGutter - *jisaacks/GitGutter: A Sublime Text 2/3 plugin to see git diff in gutter*

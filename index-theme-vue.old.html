@@ -41,14 +41,14 @@
   <!-- ----------------------------------------------------------------- -->
   <link rel="stylesheet" href="_assets/css/custom.css">
   <link rel="stylesheet" href='_assets/css/vc-animation.css'>
-
+  
   <!-- 代码块行号 -->
   <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.css">
   <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
   <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/treeview/prism-treeview.css" data-noprefix="">
   <style>
     /*
-     * Fix line number in code block.
+     * Fix line number in code block. 
      * Change this overflow attr to <pre> not the <code>.
      */
     .markdown-section pre[data-lang] {
@@ -200,12 +200,10 @@
           }
 
           var sites = [
-            '<br>',
-            'More sites: ',
+            ' - More sites: ',
             '<a href=\"snippets.html\">Code Snippets</a> · ',
             '<a href=\"markdown-mermaid.html\">Mermaid</a> · ',
             '<a href=\"simple.html\">Simple</a> · ',
-            '<a href=\"index-theme-vue.old.html\">Old Version</a> · ',
             themeHtml
           ].join('');
 
@@ -220,24 +218,12 @@
             '[clipboard.js](https://clipboardjs.com/)'
           ].join('');
 
-          var socials = [
-            '\n\n',
-            '<div class="social-link">\n\n',
-            '[<i class="fa-regular fa-earth-americas"></i>](https://vc-awesome.github.io/docs-learning/)',
-            '[<i class="fab fa-github"></i>](https://github.com/vc-awesome/docs-learning)',
-            '[<i class="fab fa-mastodon"></i>](https://mastodon.social/@vc_torres)',
-            '</div>'
-          ].join('');
-
           var footer = [
             '<footer>',
+            '<span><img src="_media/octocat.png.webp" alt="octocat" width="20"/> <a href="https://github.com/vc-awesome/docs-learning" target="_blank">vc-awesome/docs-learning</a>(<a href="https://vc-awesome.github.io/docs-learning/" target="_blank">Website</a>) &copy;' + new Date().getFullYear() + '.</span>',
+            '<span>Proudly published with <i class="fa fa-github fa-lg"></i> <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>(<a href="https://docsify.js.org/#/" target="_blank">Website</a>) and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
             plugins,
             sites,
-            '<div class="social">',
-            '<span>&copy;' + new Date().getFullYear() + '.</span>',
-            '<span>Proudly published with <a href="https://github.com/docsifyjs/docsify" target="_blank">docsify</a>(<a href="https://docsify.js.org/#/" target="_blank">Website</a>) and <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> , CSS use <a href="https://primer.style/css/" target="_blank">Primer CSS</a>.</span>',
-            socials,
-            '</div>',
             '</footer>'
           ].join('');
 

@@ -693,6 +693,8 @@ https://post.smzdm.com/p/avx87xop/ - *用的最爽的Windows软件，每一个�
 
 1. [NetWorker Pro](https://www.imacso.com/networker-pro.html) - *NetWorker是一种轻量级且易于使用的工具，显示当前下载和上传速度或网络适配器的会话流量。 信息显示在菜单栏中的小视图中。*
 
+2. [CheatSheet](https://www.mediaatelier.com/CheatSheet/) - *Just hold the ⌘-Key a bit longer to get a list of all active shortcuts of the current application*
+
 ## 系统备份
 
 1. https://www.abackup.com/ - *傲梅电脑数据备份软件包括傲梅轻松备份、傲梅企业备份网络版和备份一体机，轻松为您做系统备份、数据备份。*
@@ -941,9 +943,12 @@ https://www.v1tx.com/post/best-email-client/ - *10款好用的邮件客户端推
 ## 社交工具
 
 参考（滑动至页面底部查看）：
+
 1. https://bitwarden.com/ - *Bitwarden Open Source Password Manager | Bitwarden*
+
 2. https://chocolatey.org/ - *Chocolatey Software | Chocolatey - The package manager for Windows*
-3. https://joplinapp.org/ - *Joplin*
+
+3. https://joplinapp.org/ - *Joplin*（推荐）
 
 工具列表：
 

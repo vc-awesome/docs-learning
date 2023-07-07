@@ -11,14 +11,16 @@
   * [Extensions Trial](os/tools/browser-extensions-trial.md)
 * **Daily**
   * [Bitwarden](os/tools/bitwarden.md)
-  * [Hosts](os/tools/hosts.md "Hosts")
   * [Markdown](os/tools/markdown.md)
   * [Docsify](os/tools/docsify.md)
-  * [科学上网](os/tools/vpn.md "科学上网")
   * [RSS](os/tools/rss.md)
   * [剪贴板](os/tools/clipboard.md)
   * [多媒体](os/tools/multimedia.md)
   * [文件同步](os/tools/file-sync.md)
+* **网络工具**
+  * [VPN](os/tools/vpn.md "科学上网")
+  * [DNS](essential/dns.md)
+  * [Hosts](os/tools/hosts.md "Hosts")
 * **开发工具**
   * [GitHub](os/tools/github.md)
   * [Git](os/tools/git.md)

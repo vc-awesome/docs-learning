@@ -19,11 +19,11 @@
         - [工具](front-end/node.js/nodejs-modules.md) >>> [Browsersync](front-end/node.js/npm.md#browser-sync) + [rollup.js](front-end/node.js/nodejs-modules#rollupjs)
     - [浏览器开发者工具](os/tools/browser.md#开发者工具) + [浏览器页面加载过程](front-end/README.md#浏览器加载过程)👏
 4. _Web 服务器_ > [Apache](back-end/apache.md) + [Nginx](back-end/nginx.md) + [Docker](back-end/docker.md) + [服务器](essential/hosting.md)
-5. _网络_ > [HTTP(S)](essential/http.md) + [CORS（跨域）](essential/http.md#跨域) + [DNS](essential/dns.md) + [Hosts](os/tools/hosts.md) + [VPN](os/tools/vpn.md) + [IP](essential/ip.md)
+5. _网络_ > [HTTP(S)](essential/http.md) + [CORS（跨域）](essential/cross-domain.md) + [DNS](essential/dns.md) + [Hosts](os/tools/hosts.md) + [VPN](os/tools/vpn.md) + [IP](essential/ip.md)
     - _加速工具_ >> [Mirror](home/README.md#镜像站) + [CDN](front-end/cdn.md)
 6. _Version Control_ > [Git](os/tools/git.md) + [GitHub](os/tools/github.md)（[加速工具](os/tools/github.md#工具)）
 7. _[操作系统](os/README.md)_ > [Windows](os/windows/README.md) + [Linux](os/linux/README.md) + [macOS](os/mac/README.md) + [Mobile](os/mobile/README.md) + [快捷键](os/README.md#快捷键)
-    - 🧨 *[应用 Apps](os/tools/README.md)* >> [搜索](os/tools/search.md) + [应用列表](os/tools/app-list.md)（[试用列表](os/tools/trial.md)） + [Web 应用列表](os/tools/online.md) + [Web 浏览器扩展列表](os/tools/browser-extensions.md)（[试用列表](os/tools/browser-extensions-trial.md)） + [手机应用列表](os/mobile/mobile-app-list.md)
+    - 🧨 *[应用 Apps](os/tools/README.md)* >> [搜索](os/tools/search.md) + [应用列表](os/tools/app-list.md)（[试用列表](os/tools/app-trial.md)） + [Web 应用列表](os/tools/web-app.md) + [Web 浏览器扩展列表](os/tools/browser-extensions.md)（[试用列表](os/tools/browser-extensions-trial.md)） + [手机应用列表](os/mobile/mobile-app-list.md)
     - 📦 *常用工具* >> [Sublime Text](os/tools/sublime-text.md)
     - 🌐 *[浏览器](os/tools/browser.md)* >> [移动端浏览器](os/mobile/browser.md) + [浏览器扩展](os/tools/browser-extensions.md)（[Tampermonkey](os/tools/browser-extensions#tampermonkey)）
 8. _Android Apps_ > [手机应用商店](os/mobile/app-store.md) + [Termux](os/mobile/termux.md)（[Browsersync](os/mobile/termux.md#%e5%a6%82%e4%bd%95%e5%ae%89%e8%a3%85-nodejs-%e5%92%8c-browsersync-%ef%bc%9f)👏） + [Markor](os/mobile/mobile-app-list.md#markor) + [Acode](os/mobile/mobile-app-list.md#acode) + [MGit](os/mobile/mgit.md) + [MIUI](os/mobile/mi.md)

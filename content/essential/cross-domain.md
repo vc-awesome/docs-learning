@@ -1,8 +1,18 @@
+## Introduction
+
+> **跨源资源共享**（[CORS](https://developer.mozilla.org/zh-CN/docs/Glossary/CORS)，或通俗地译为跨域资源共享）是一种基于 [HTTP](https://developer.mozilla.org/zh-CN/docs/Glossary/HTTP) 头的机制，该机制通过允许服务器标示除了它自己以外的其他[源](https://developer.mozilla.org/zh-CN/docs/Glossary/Origin)（域、协议或端口），使得浏览器允许这些源访问加载自己的资源。跨源资源共享还通过一种机制来检查服务器是否会允许要发送的真实请求，该机制通过浏览器发起一个到服务器托管的跨源资源的“预检”请求。在预检中，浏览器发送的头中标示有 HTTP 方法和真实请求中会用到的头。
+>
+> —— https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS - *跨源资源共享（CORS） - HTTP | MDN*
+
+## Tutorials
+
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CORS - *跨源资源共享（CORS）*
+
+https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy - *浏览器的同源策略*
+
 ## Link
 
 👍 https://github.com/campcc/blog/issues/15 - *可能是最好的跨域解决方案了*
-
-https://developer.mozilla.org/zh-CN/docs/Web/Security/Same-origin_policy - *浏览器的同源策略*
 
 ### cookie 跨域
 
@@ -46,16 +56,6 @@ https://www.cnblogs.com/mmykdbc/p/8024105.html - *PHP后台代码解决跨域问
 
 
 ### **thinkphp**
-
-**项目**
-
-- 猎鹰
-
-- swarm
-
- 
-
-------
 
 **tp3.2.3**
 
@@ -131,29 +131,29 @@ add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent
 
 ------
 
-方式一
+方式一：
 
 ![Cross Domain](_images/cross-domain-1.png)
 
 
 
-方式二
+方式二：
 
 ![Cross Domain](_images/cross-domain-2.png)
 
 ------
 
-参考链接 👇
+参考链接：
 
-https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=81405 - *nginx反向代理允许跨域应该怎么设置*
+1. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=81405 - *nginx反向代理允许跨域应该怎么设置*
 
 
 
 ### **chrome**
 
-1. 修改谷歌浏览器的配置
+1. 修改谷歌浏览器的配置；
 
-2. 浏览器输入 url：`chrome://flags/#schemeful-same-site` 
+2. 浏览器输入 URL：`chrome://flags/#schemeful-same-site` ；
 
 3. 将 *default* 改为 *disabled* 即可。
 
@@ -171,17 +171,13 @@ https://blog.csdn.net/qq_40504777/article/details/118676848 - *http和https跨�
 
 ## Tool
 
-?> 跨域请求调试工具
+> 跨域请求调试工具
 
 ### 浏览器扩展
 
 https://mp.weixin.qq.com/s/JJgFvz5cUkFrLfqGPfHOgw - *跨域了？装个插件就够了！*
 
 ### 浏览器 DevTools-Console
-
-👍 http://www.04007.cn/article/799.html - *跨域调试 - 浏览器随意打开一个网页 console中输入以下代码调试（注：http或https要一致）*
-
-https://www.runoob.com/ajax/ajax-tutorial.html - *AJAX 教程 | 菜鸟教程*
 
 ```js
 var xhr = new XMLHttpRequest();
@@ -201,16 +197,19 @@ xhr.onload = function(e) {
   console.log(xhr.responseText);
 
 }
-
 ```
 
+参考：
 
+1. 👍 http://www.04007.cn/article/799.html - *跨域调试 - 浏览器随意打开一个网页 console中输入以下代码调试（注：http或https要一致）*
+
+2. https://www.runoob.com/ajax/ajax-tutorial.html - *AJAX 教程 | 菜鸟教程*
 
 ## FAQs
 
 ### 本地开发调试出现无法跨域的问题
 
-- 检查电脑或浏览器是否开启了 **VPN**
+- 检查电脑或浏览器是否开启了 **VPN** 。
 
-- 使用浏览器无痕窗口打开
+- 使用浏览器“无痕窗口”开发调试。
 

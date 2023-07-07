@@ -1,6 +1,8 @@
-## 官方
+## 简介
 
-> 探索 Apple 的创新世界，选购各式 iPhone、iPad、Apple Watch 和 Mac，浏览各类配件、娱乐产品，并获得相关产品的专家服务支持。
+> <img src="https://cdn.worldvectorlogo.com/logos/apple-11.svg" alt="package icon" loading="lazy" decoding="async" align="left" width="78" hspace="10" vspace="0" />探索 Apple 的创新世界，选购各式 iPhone、iPad、Apple Watch 和 Mac，浏览各类配件、娱乐产品，并获得相关产品的专家服务支持。
+
+## 官方
 
 https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 

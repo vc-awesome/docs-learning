@@ -1,4 +1,8 @@
-?> hosts 管理工具
+## Introduction
+
+> hosts 管理工具
+
+## Search
 
 https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
 
@@ -64,7 +68,7 @@ https://github.com/oldj/SwitchHosts/releases
 2. [personalDNSfilter](os/mobile/mobile-app-list.md#personaldnsfilter)
 3. [AdAway](os/mobile/mobile-app-list.md#adaway)
 
-## Rules（来源）
+## Rules（订阅源）
 
 ### Google
 
@@ -83,15 +87,25 @@ https://github.com/oldj/SwitchHosts/releases
 
 ### GitHub
 
-https://raw.hellogithub.com/hosts ⇒ _via https://github.com/521xueweihan/GitHub520_ ![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+#### 521xueweihan/GitHub520
+
+![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+
+GitHub: https://github.com/521xueweihan/GitHub520 - *521xueweihan/GitHub520: :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+
+远程 URL：`https://raw.hellogithub.com/hosts`
 
 ### 广告拦截
 
 > 广告过滤（拦截）
 
-- https://github.com/privacy-protection-tools/anti-AD ![](https://flat.badgen.net/github/last-commit/privacy-protection-tools/anti-AD?icon=github&color=blue)
+- https://github.com/privacy-protection-tools/anti-AD - *privacy-protection-tools/anti-AD: 致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式*
+  
+  ![](https://flat.badgen.net/github/last-commit/privacy-protection-tools/anti-AD?icon=github&color=blue)
 
-- https://github.com/gorhill/uBlock ![](https://flat.badgen.net/github/last-commit/gorhill/uBlock?icon=github&color=blue)
+- https://github.com/gorhill/uBlock - *gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.*
+  
+  ![](https://flat.badgen.net/github/last-commit/gorhill/uBlock?icon=github&color=blue)
 
 
 ## Browser addons

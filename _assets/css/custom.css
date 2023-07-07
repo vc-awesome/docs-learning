@@ -168,7 +168,7 @@ hr {
 }
 
 /* 外链添加 FontIcon */
-:not(header a)[target=_blank]:after {
+:not(header a):not(footer .social-link a)[target=_blank]:after {
   /*font-family: 'remixicon' !important; font-style: normal; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; content: "\ecae";*/
   display: inline-block;
   padding-left: 3px;
@@ -282,9 +282,20 @@ u {
   word-break: break-all!important;
   word-wrap: break-word!important;
 }
+
 /* Table */
 .markdown-section td,
 .markdown-section th,
 .markdown-section td code {
   white-space: nowrap!important;
+}
+
+/* Footer */
+.social a {
+/*  color: #0969da;*/
+opacity: .8;
+}
+.social i {
+  margin-right: 10px;
+  font-size: 1.4rem;
 }

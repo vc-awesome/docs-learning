@@ -55,7 +55,7 @@ https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命�
 
 https://wangchujiang.com/linux-command/c/help.html - *help 命令，Linux help 命令详解：该命令是bash内建命令，用于显示bash内建命令的帮助信息。 - Linux 命令搜索引擎*该命令是bash内建命令，用于显示bash内建命令的帮助信息。
 
-`info` - *Linux下info格式的帮助指令*
+`info` - *Linux下 info 格式的帮助指令*
 
 参考：
 
@@ -65,7 +65,11 @@ https://blog.csdn.net/Zhi_osX/article/details/80146259 - *linux命令-查看命�
 
 https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜鸟教程*
 
+`ls -l` - *查看文件权限*
+
 `chmod` - *控制用户对文件的权限的命令*
+
+`chmod +x `<文件名> - *给指点文件增加可执行权限*
 
 ### 文件基本属性
 
@@ -82,6 +86,8 @@ https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基�
 
 `ls -a` - *显示所有文件（包含隐藏文件）*
 
+`ls -R` - *递归显示目录中的所有文件和子目录*
+
 https://www.runoob.com/linux/linux-comm-ls.html - *Linux ls命令 | 菜鸟教程*
 
 ```sh
@@ -94,8 +100,9 @@ https://www.runoob.com/linux/linux-comm-tree.html - *Linux tree命令 | 菜鸟�
 
 [cd](https://www.runoob.com/linux/linux-comm-cd.html) - _切换用户当前工作目录_
 
-文件及目录以 `.` 开头的为隐藏文件或目录  
-`cd ~` - _`~`表示根目录，目录位于 `/root`_
+文件及目录以 `.` 开头的为隐藏文件或目录
+
+`cd ~` - _**~** 表示根目录，目录位于 **/root**_
 
 
 ### 查看路径

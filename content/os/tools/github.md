@@ -127,9 +127,11 @@ https://docs.github.com/zh/communities/documenting-your-project-with-wikis/about
 
 文档：https://docs.github.com/zh/pages - *GitHub Pages 文档 - GitHub Docs*
 
-- [搭建一个免费的，无限流量的Blog----githubPages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+参考：
 
-- [hexo你的博客](http://ibruce.info/2013/11/22/hexo-your-blog/)
+1. [搭建一个免费的，无限流量的Blog----githubPages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+
+2. [hexo你的博客](http://ibruce.info/2013/11/22/hexo-your-blog/)
 
 
 
@@ -425,15 +427,32 @@ https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你�
 
 #### jsDelivr
 
+Website:
+
 https://www.jsdelivr.com/?docs=gh - *jsDelivr - A free, fast, and reliable CDN for JS and open source*
 
-1️⃣ https://www.cnblogs.com/yunweizhijun/p/14620107.html - *使用github版本库做图床(jsdelivr方案 / cdn 免费加速)*
+用法：
 
-https://www.bilibili.com/read/cv13363398 - *使用Github/jsdelivr加速做远程图床教程*
+将 **GitHub** 平台上的链接 ` https://raw.githubusercontent.com/master/` 替换成 `https://cdn.jsdelivr.net/gh/{仓库作者}/{仓库名称}/` 。
 
-https://juejin.cn/post/6844904095807979534 - *使用 jsDelivr CDN 加速 Github 仓库的图片，以作为博客的图床*
+实例：
 
-https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr CDN 对 Github 图床进行加速，带给你如丝滑般的图片体验！*
+| 序号 | 链接平台 | 显示图片                                                     | 显示结果         |
+| ---- | -------- | ------------------------------------------------------------ | ---------------- |
+| 1    | GitHub   | ![github](https://raw.githubusercontent.com/master/runtime/vimlogo.gif) | 加载慢或加载失败 |
+| 2    | jsDelivr | ![jsdelivr](https://cdn.jsdelivr.net/gh/vim/vim/runtime/vimlogo.gif) | 加载快           |
+| 3    | GitHub   | https://github.com/jquery/jquery/                            | 加载慢或加载失败 |
+| 4    | jsDelivr | https://cdn.jsdelivr.net/gh/jquery/jquery/                   | 加载快           |
+
+参考：
+
+1. https://www.cnblogs.com/yunweizhijun/p/14620107.html - *使用github版本库做图床(jsdelivr方案 / cdn 免费加速)*
+2. https://www.bilibili.com/read/cv13363398 - *使用Github/jsdelivr加速做远程图床教程*
+
+3. https://juejin.cn/post/6844904095807979534 - *使用 jsDelivr CDN 加速 Github 仓库的图片，以作为博客的图床*
+
+4. https://blog.csdn.net/DreamHome_S/article/details/105957616 - *使用 jsDelivr CDN 对 Github 图床进行加速，带给你如丝滑般的图片体验！*
+
 
 #### Hosts
 

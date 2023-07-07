@@ -4,6 +4,11 @@
 插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)&nbsp;&nbsp;</i></div>
 
 ```md
+> <img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />
+```
+*👆 > \<img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />*
+
+```md
 支持 Windows, macOS, Linux, Android, iOS, Web, 微信小程序, 浏览器扩展, 代码部署
 ```
 *👆 支持 Windows, macOS, Linux, Android, iOS, Web, 微信小程序, 浏览器扩展, 代码部署*
@@ -52,11 +57,6 @@
 !> ~~没玩起来😶。~~
 ```
 !> ~~没玩起来😶。~~
-
-```md
-> <img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />
-```
-*👆 > \<img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />*
 
 ```uri
 view-source:

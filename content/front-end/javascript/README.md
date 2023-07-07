@@ -1,4 +1,12 @@
-## 官方
+## 简介
+
+> JavaScript 是一种轻量级的脚本语言。所谓“脚本语言”（script language），指的是它不具备开发操作系统的能力，而是只用来编写控制其他大型应用程序（比如浏览器）的“脚本”。
+>
+> JavaScript 也是一种嵌入式（embedded）语言。它本身提供的核心语法不算很多，只能用来做一些数学和逻辑运算。JavaScript 本身不提供任何与 I/O（输入/输出）相关的 API，都要靠宿主环境（host）提供，所以 JavaScript 只合适嵌入更大型的应用程序环境，去调用宿主环境提供的底层 API。
+>
+> —— https://wangdoc.com/javascript/basic/introduction - *导论 - JavaScript 教程 - 网道*
+
+## 教程
 
 1. https://www.runoob.com/js/js-tutorial.html - _JavaScript 教程 | 菜鸟教程_
 
@@ -12,25 +20,9 @@
 
 - 服务器编程：_Node.js_
 
-## 历史版本
-
-### ECMAScript5
-
-https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道*
-
-
-### ECMAScript6(ES2015)
-
-https://www.babeljs.cn/docs/learn - *学习 ES2015 · Babel 中文文档 | Babel中文网*
-
-有关详细信息，请参阅“[ECMAScript6](front-end/javascript/javascript-es6.md) ”。
-
-
 ## 索引
 
 https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机制详解：再谈Event Loop*
-
-https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html - *JavaScript Source Map 详解*
 
 - 异步编程
   - <https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html> - *Javascript异步编程的4种方法*
@@ -92,15 +84,11 @@ https://www.runoob.com/w3cnote/detect-empty-javascript-object.html - *如何判�
 
 https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
 
-
 ### 进阶
 
-#### webpack
+## JavaScript Source Map 用法
 
-https://webpack.js.org/ - *webpack*
-
-https://www.webpackjs.com/ - _webpack 中文文档 | webpack 中文网_
-
+https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html - *JavaScript Source Map 详解*
 
 ## JavaScript 参考手册
 
