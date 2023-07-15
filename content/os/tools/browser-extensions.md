@@ -258,6 +258,8 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
 
 2. ✔️[CopyTabTitleUrl](https://www.crxsoso.com/webstore/detail/lmgbdjfoaihhgdphombpgjpaohjfeapp ':id=copy-tab-title-url') - *Copy the title and URL to the clipboard.*
 
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lmgbdjfoaihhgdphombpgjpaohjfeapp) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lmgbdjfoaihhgdphombpgjpaohjfeapp?style=social)
+
     - https://github.com/k08045kk/CopyTabTitleUrl
 
     - 手机浏览器可用
@@ -306,15 +308,15 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
         
             由于上面的操作设置了“Extended mode”，这里直接从第 4 步开始设置：
         
-            4. 在“Format”-“format5:”中输入：`${selectedText}`；
+            1. 在“Format”-“format5:”中输入：`${selectedText}`；
         
-            5. 勾选“Context menu”-“All context menus”；
+            2. 勾选“Context menu”-“All context menus”；
         
-            6. 勾选“Other”-“Edit the context menu title”，然后将“Context menu”-“Menu item”中的`format5`改成`selectedText`并勾选（更改后方便识别）；
+            3. 勾选“Other”-“Edit the context menu title”，然后将“Context menu”-“Menu item”中的`format5`改成`selectedText`并勾选（更改后方便识别）；
         
-            7. 打开一个页面 https://wiki.termux.com/wiki/Package_Management ，在页面中选中一段文本后鼠标单击右键：*打开上下文菜单 > CopyTabTitleUrl > 单击“selectedText”*；
+            4. 打开一个页面 https://wiki.termux.com/wiki/Package_Management ，在页面中选中一段文本后鼠标单击右键：*打开上下文菜单 > CopyTabTitleUrl > 单击“selectedText”*；
         
-            8. 使用上述的操作复制的文本是纯文本格式，如果使用浏览器（Chrome Browser）右键复制的文本内容则是网页格式：
+            5. 使用上述的操作复制的文本是纯文本格式，如果使用浏览器（Chrome Browser）右键复制的文本内容则是网页格式：
         
                测试：比如在上一步打开的网页中，找一个表格并选中表格中的链接文本，对比两种右键复制如下：
         
@@ -343,13 +345,17 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
     - _**via** https://www.zhihu.com/tardis/landing/m/360/art/342236056 - *效率工具：如何快速复制页面标题和链接？*_
 
 5. <mark>[拷贝猫](https://www.crxsoso.com/webstore/detail/jdjbiojkklnaeoanimopafmnmhldejbg ":id=copycat")</mark> - *为网页提供前所未有的强大复制功能。*
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jdjbiojkklnaeoanimopafmnmhldejbg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jdjbiojkklnaeoanimopafmnmhldejbg?style=social)
+    
     - https://github.com/BlackGlory/copycat - *GitHub - BlackGlory/copycat: 🌳 Copy content from web powerful than ever before.*
     -  复制图片为 Data URL
-
 
 ### 复制图片链接
 
 - <mark>[Copy Image URL](https://www.crxsoso.com/webstore/detail/okellkdngnddldceghgglinloadinfgg ":id=copy-image-url")</mark> - *此扩展程序允许您从 Google 图片搜索结果中复制图片源 URL*
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/okellkdngnddldceghgglinloadinfgg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/okellkdngnddldceghgglinloadinfgg?style=social)
 
 ### 复制代码
 
@@ -364,13 +370,18 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
 ### 音视频播放
 
 - [视频文件播放器](https://www.crxsoso.com/webstore/detail/kfcfjmdnmmokdhndbpfcachlkliggggc) - *用于播放本地文件的视频播放器。*
+
 - [MediaPlayer - Video and Audio Player](https://www.crxsoso.com/webstore/detail/mgmhnaapafpejpkhdhijgkljhpcpecpj) - *一个建立在video.js项目之上的强大媒体播放器，支持HSL、速度控制和播放列表。*
+
 - [Video Speed Controller](https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk) - _Video Speed Controller Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts_
 
 
-### TOC
+### Table of Contents
 
 - [Smart TOC](https://www.crxsoso.com/webstore/detail/lifgeihcfpkmmlfjbailfpfhbahhibba) - _显示任何网站的目录，使阅读和浏览长篇文章、文档和在线书籍更加容易。_
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lifgeihcfpkmmlfjbailfpfhbahhibba) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lifgeihcfpkmmlfjbailfpfhbahhibba?style=social)
+    
     > 狐猴手机浏览器需要开启“桌面模式”，否则提示“Can not locate article/headings”。
 
 ### 翻译
@@ -457,6 +468,8 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 扩展程序列表：
 
 1. [Refined GitHub](https://github.com/refined-github/refined-github) - *:octocat: Browser extension that simplifies the GitHub interface and adds useful features*
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hlepfoohegkhhmjieoechaddaejaokhf) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/hlepfoohegkhhmjieoechaddaejaokhf?style=social)
     - https://www.crxsoso.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf - *Refined GitHub | Chrome扩展 - Crx搜搜*
 
 2. [OctoLinker](https://github.com/OctoLinker/OctoLinker) - *GitHub - OctoLinker/OctoLinker: OctoLinker — Links together, what belongs together*
@@ -537,6 +550,8 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
 - 脚本下载
 
+    - https://github.com/topics/userscript - *userscript · GitHub Topics · GitHub*
+
     - https://greasyfork.org/zh-CN - _Greasy Fork - 安全、实用的用户脚本大全_
     
     - https://www.baiduyun.wiki/ - _油小猴_
@@ -616,6 +631,8 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
   
 3. ✔️[视频下载器 - CoCoCut](https://www.crxsoso.com/webstore/detail/gddbgllpilhpnjpkdbopahnpealaklle) - _Chrome专业视频下载器和音乐下载器,可以 在线下载视频、音乐。免费、安全、简单易 用。_
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gddbgllpilhpnjpkdbopahnpealaklle) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gddbgllpilhpnjpkdbopahnpealaklle?style=social)
 
 ### 书签同步
 

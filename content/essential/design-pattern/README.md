@@ -4,7 +4,7 @@ https://www.runoob.com/design-pattern/design-pattern-tutorial.html - *设计模�
 
 ---
 
-- [单例模式](/设计模式/单例模式.md) （数据库操作使用）
+- [单例模式](essential/design-pattern/单例模式.md) （数据库操作使用）
 
 - 工厂模式
 

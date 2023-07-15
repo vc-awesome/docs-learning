@@ -842,7 +842,7 @@ JS 插件：
 
 #### **Rendered**
 
-_序列图_ （依赖 [js-sequence-diagrams](开发框架/javascript-plugins.md#流程图) 插件）
+_序列图_ （依赖 [js-sequence-diagrams](framework/javascript-plugins.md#流程图) 插件）
 
 ```sequence
 Alice->Bob: Hello Bob, how are you?

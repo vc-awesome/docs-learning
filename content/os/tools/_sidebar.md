@@ -1,7 +1,7 @@
 * [Tools](os/tools/)
 * [Search](os/tools/search.md)
 * **应用列表**
-  * [Trial](os/tools/app-trial.md)
+  * [Trial Tools](os/tools/app-trial.md)
   * [PC Tools](os/tools/app-list.md)
   * [Web Tools](os/tools/web-app.md "在线工具")
 * **浏览器**

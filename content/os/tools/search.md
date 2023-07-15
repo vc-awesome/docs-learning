@@ -121,6 +121,11 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 1. https://www.sordum.org/ - *Simplify Your computer Usage*
 
+### 破解软件 🚫
+
+1. https://www.yxssp.com/ - *异星软件空间 | 感受不一样的精彩体验！*
+
+2. https://www.lan-sha.com/ - *蓝鲨 - 让您在互联网的海洋里自由的遨游！*
 
 ### 绿色软件 🔥
 
@@ -156,38 +161,4 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 ### 应用商店
 
-#### Windows: Microsoft Store
-
-https://www.microsoft.com/zh-cn/store - *Windows 应用 - Microsoft 应用商店*
-
-<div class="flash mt-3 flash-warn">
-  ⚠️ 下载应用需要 Windows 系统预先安装 Microsoft Store 应用程序。
-</div>
-
-实例：   https://apps.microsoft.com/store/detail/bitwarden/9PJSDV0VPK04 - *Bitwarden - Microsoft Store 应用程序*
-- https://zhuanlan.zhihu.com/p/491624008 - *手动安装 Windows 应用商店*
-- https://store.rg-adguard.net/ - *下载 Windows 应用商店的安装包*
-
-
-
-#### Windows: 腾讯电脑管家
-
-> 有关详细信息，请参阅“[腾讯电脑管家](https://guanjia.qq.com/) > 软件管理”。
-
-
-
-#### macOS: App Store
-
-> 有关详细信息，请参阅“[App Store](/os/mobile/app-store.md#app-store)”。
-
-
-
-#### Android: Google Play Store
-
-> 有关详细信息，请参阅“[Google Play Store](/os/mobile/app-store.md#google-play-store)”。
-
-
-
-#### Android: F-Droid
-
-> 有关详细信息，请参阅“[F-Droid](/os/mobile/app-store.md#f-droid)”。
+> 有关详细信息，请参阅“[应用商店](os/app-store.md)”。

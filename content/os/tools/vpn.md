@@ -115,6 +115,9 @@ https://github.com/v2ray - *Project V · GitHub*
     - https://www.v2fly.org/config/routing.html - *Routing 路由 | V2Fly.org*
 
 2. https://github.com/ToutyRater/v2ray-guide
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/ToutyRater/v2ray-guide?icon=github&color=blue)
+
     - https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
 
 
@@ -183,22 +186,39 @@ https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
 
 1. <i class="fa fa-windows"></i> <i class="fa fa-apple"></i> <i class="fa fa-linux"></i> https://github.com/Fndroid/clash_for_windows_pkg - *A Windows/macOS GUI based on Clash*
 
-   ![GitHub last commit](https://img.shields.io/github/last-commit/Fndroid/clash_for_windows_pkg?color=blue&logo=github&style=flat-square)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Fndroid/clash_for_windows_pkg?color=blue&logo=github&style=flat-square)
 
-2. <i class="fa fa-apple"></i> https://github.com/yichengchen/clashX
+2. <i class="fa fa-apple"></i> https://github.com/yichengchen/clashX - *GitHub - yichengchen/clashX*
 
-   ![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github&style=flat-square)
 
-#### 订阅链接
+3. <i class="fab fa-android"></i> https://github.com/Kr328/ClashForAndroid - *GitHub - Kr328/ClashForAndroid: A rule-based tunnel for Android.*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Kr328/ClashForAndroid?color=blue&logo=github&style=flat-square)
+
+#### 订阅链接（含订阅转换工具）
 
 https://github.com/anaer/Sub - *自用clash订阅链接*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
 
+订阅链接列表：
+
+1. https://proxypool.link/clash - *Free Proxies*
+
+    - 在手机应用「Clash for Android」中填写配置信息
+
+        名称：`https://proxypool.link/`
+
+        URL： `https://proxypool.link/clash/proxies?type=vmess&c=US&speed=0,20`
+
+订阅转换工具：
+
+1. https://suburl.v1.mk/ - *在线订阅转换工具*
+
 ### personalDNSfilter
 
 有关详细信息，请参阅“[personalDNSfilter](/os/mobile/mobile-app-list.md#personaldnsfilter)”。
-
 
 ### Tor
 
@@ -224,6 +244,9 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 ### More
 
 1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoshoudian/xiazai?icon=github&color=blue)
+
     - 支持 Windows, macOS
 
 2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*

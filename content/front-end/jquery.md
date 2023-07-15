@@ -12,7 +12,7 @@ GitHub: https://github.com/jquery - *jQuery*
 
 https://www.runoob.com/jquery/jquery-tutorial.html - *jQuery 教程 | 菜鸟教程*
 
-有关详细信息，请参阅“[jQuery](开发框架/README.md#jqueryjs)”。
+有关详细信息，请参阅“[jQuery](framework/README.md#jqueryjs)”。
 
 1. https://www.ruanyifeng.com/blog/2011/07/jquery_fundamentals.html - *jQuery设计思想*
 

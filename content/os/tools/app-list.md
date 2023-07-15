@@ -305,7 +305,11 @@
 
 ## 账号安全
 
+https://zhuanlan.zhihu.com/p/63942946 - *启用两步验证让你的账户更安全 - 知乎*
 
+1. [Authy](https://authy.com/) - *Two-factor authentication (2FA) adds an additional layer of protection beyond passwords. Download our free app today and follow our easy to use guides to protect your accounts and personal information.*
+
+    - 支持 Windows, macOS, Linux, Android, iOS, 代码部署
 
 ## 虚拟机
 
@@ -541,6 +545,8 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
 ## 下载工具
 
 > 可搭配 [Tampermonkey](os/tools/browser-extensions#tampermonkey-download) 使用
+> 
+> 大部分下载工具含有内置的 Web 浏览器
 
 1. ✅ [迅雷](https://www.xunlei.com/) - *迅雷-全球共享计算与区块链创领者*
     - 支持 Windows, macOS, Android, iOS
@@ -558,16 +564,16 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
 
     - 开源软件（[GitHub](https://github.com/TachibanaGeneralLaboratories/download-navi)）
 
-5. [1DM+: Browser & Downloader](https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus) - *快速视频下载器、电影下载器、Torrent 下载器和 Adblock 浏览器*
+5. [1DM+: Browser & Downloader](https://play.google.com/store/apps/details?id=idm.internet.download.manager.plus) - *快速视频下载器、电影下载器、Torrent 下载器和 Adblock 浏览器* [破解版](https://www.yxssp.com/23740.html)
 
     - 支持 Android
 
     - 付费应用
 
     - 使用过的版本信息（推荐）：
-        - 应用名称：IDM+
+        - 应用名称：`IDM+`
         - 应用版本：12.3
-        - 应用包名：idm.internet.download.manager.plus
+        - 应用包名：`idm.internet.download.manager.plus`
 
 
 ## 设计工具
@@ -596,7 +602,7 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
 1. ✅ [飞鸽传书](http://www.ipmsg.org.cn/) - *飞鸽传书官方网站-飞鸽传书2022 飞鸽传书2022(IP Messenger) 飞鸽传书2022绿色版企业即时通讯下载*
     - 支持 Windows, macOS, Linux, Android, iOS
     - 可用网络：同一“Wi-Fi”，同一“个人热点”
-    
+
 2. [BeeBEEP](https://www.beebeep.net/) - *BeeBEEP - Free Office Messenger - Official Website*
     - 支持 Windows, macOS, Linux
 
@@ -604,6 +610,21 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
     - 支持 Windows, macOS, Linux, Android, iOS
     - 开源软件（[GitHub](https://github.com/staltz/manyverse/)）
     - 可用网络：同一“Wi-Fi”，同一“个人热点”
+
+
+### 跨端传输
+
+1. [KDE Connect](https://kdeconnect.kde.org/) - *KDE Connect: A project that enables all your devices to communicate with each other.（KDE Connect 可以整合您的智能手机和电脑）*
+
+    - 支持 Windows, macOS, Linux, Android([F-Droid](https://f-droid.org/packages/org.kde.kdeconnect_tp/)), iOS
+
+    - 开源免费
+
+2. [Snapdrop & PairDrop for Android](https://github.com/fm-sys/snapdrop-android) - *Android client for local file sharing via https://snapdrop.net/ and https://pairdrop.net*
+
+    - 支持 Windows, macOS, Linux, Android([F-Droid](https://f-droid.org/packages/com.fmsys.snapdrop/)), iOS, Web, 浏览器扩展
+
+    - 开源免费
 
 ## 音/视频工具
 
@@ -804,11 +825,11 @@ https://post.smzdm.com/p/avx87xop/ - *用的最爽的Windows软件，每一个�
 
    - 部分功能收费
 
-5. ✅ [FolderSync](https://www.tacit.dk/ ':id=folder-sync') - *Tacit Dynamics | Developer of FolderSync for Android* _（via [Apps|TeraCLOUD](https://teracloud.jp/en/clients.html)）_
+5. ✅ [FolderSync](https://www.tacit.dk/foldersync/ ':id=folder-sync') - *Tacit Dynamics | Developer of FolderSync for Android* _（via [Apps|TeraCLOUD](https://teracloud.jp/en/clients.html)）_
 
-   - 支持 Android(Google Play)
+   - 支持 Android([Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite))
 
-   - 部分功能收费
+   - FolderSync Pro 为收费版本（[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full) ，[破解版](https://www.yxssp.com/34858.html)）
 
      <details>
      <summary><i style="color:red">SEE MORE >></i></summary>

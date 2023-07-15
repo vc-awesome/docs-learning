@@ -46,10 +46,23 @@
 
         // 
         url: "https://element.eleme.cn/",
+        
+        // 生成
+        ext: {
+          id: "lmgbdjfoaihhgdphombpgjpaohjfeapp",
+          alert: {
+            title: "https://img.shields.io/badge/preview-some%20parameters%20missing-lightgray",
+            type: "success",
+          },
+          image: {
+            src: "https://img.shields.io/badge/preview-some%20parameters%20missing-lightgray",
+          }
+        },
       }
     },
     created: function() {
       this.onSubmit();
+      this.onSubmitExt();
     },
     methods: {
       handleClick() {
@@ -114,6 +127,21 @@
             alert('Can not copy')
             console.log(e)
           })
+        } else if (command == "copyExtUrl") {
+          _that.$copyText(_that.ext.image.src).then(function (e) {
+            // _that.$message({message: 'URL Copied', type: 'success'});
+          }, function (e) {
+            alert('Can not copy')
+            console.log(e)
+          })
+        } else if (command == "copyExtMd") {
+          const text = `![Chrome Web Store](${_that.ext.image.src}) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/${_that.ext.id}?style=social)`;
+          _that.$copyText(text).then(function (e) {
+            // _that.$message({message: 'URL Copied', type: 'success'});
+          }, function (e) {
+            alert('Can not copy')
+            console.log(e)
+          })
         }
         _that.command = command;
         _that.is_tooltip = true;
@@ -148,6 +176,20 @@
           // console.log(_that)
           //console.log(err)
           //console.log(err.message)
+        }
+      },
+      onSubmitExt() {
+        const _that = this;
+        try {
+          _that.ext.image.src = _that.ext.alert.title = "https://img.shields.io/chrome-web-store/v/" + _that.ext.id;
+          _that.ext.alert.type = "success";
+          _that.dropdown.disabled = false;
+        }
+        catch(err) {
+          _that.ext.alert.type = "error";
+          _that.ext.alert.title = err.message;
+          _that.ext.image.src = "https://img.shields.io/badge/preview-some%20parameters%20missing-lightgray";
+          _that.dropdown.disabled = true;
         }
       },
       async getClipboardText() {
@@ -185,6 +227,24 @@
         }
         this.url = textPlain;
         console.log(url);
+        return { textHtml, textPlain };
+      },
+      async getClipboardTextExt() {
+        const clipboardItems = await window.navigator.clipboard.read()
+        let textHtml, textPlain
+        for (const clipboardItem of clipboardItems) {
+          for (const type of clipboardItem.types) {
+            const item = await clipboardItem.getType(type)
+            if (item && item.type === 'text/html') {
+              textHtml = await item.text()
+            }
+            if (item && item.type === 'text/plain') {
+              textPlain = await item.text()
+            }
+          }
+        }
+        this.ext.id = textPlain;
+        this.onSubmitExt();
         return { textHtml, textPlain };
       },
     }
@@ -299,12 +359,47 @@
     </p> -->
   </output>
 
-参考链接
+参考链接：
 
 1. https://docsify.js.org/#/zh-cn/vue - *兼容 Vue*
 2. https://docsify.js.org/#/vue - *Vue compatibility*
 3. https://element.eleme.cn/#/zh-CN - *Element - 网站快速成型工具*
 4. https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
+
+
+## 生成 Chrome Web Store 徽章
+
+<output data-lang="output">
+    <el-input v-model="ext.id" placeholder="请输入内容" clearable autocomplete="on" size="medium" @clear="getClipboardTextExt">
+      <i class="fa-regular fa-puzzle-piece el-input__icon" slot="prefix"></i>
+      <el-button slot="append" icon="el-icon-search" type="primary" @click="onSubmitExt"></el-button>
+    </el-input>
+    <br/>
+    <br/>
+    <el-alert
+      :title="ext.id"
+      type="info"
+      :closable="false"
+      show-icon>
+    </el-alert>
+    <br/>
+    <div style="box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 12px 0px;">
+      <el-alert :title="ext.alert.title" :type="ext.alert.type" :closable="false" show-icon></el-alert>
+      <el-row type="flex" justify="space-between">
+        <el-col :span="6">
+        </el-col>
+        <el-col :span="18" style="text-align: right;" v-if="!dropdown.disabled">
+          <el-image :src="ext.image.src"></el-image>
+          <br/>
+          <el-button-group style="vertical-align: inherit;">
+            <el-button type="success" :icon="command=='c' ? button_icon.copied : button_icon.uncopy" size="mini" plain @click="handleCommand('copyExtUrl')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';">URL</el-button>
+            <el-button type="primary" :icon="command=='a' ? button_icon.copied : button_icon.uncopy" size="mini" plain @click="handleCommand('copyExtMd')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';">MD</el-button>
+          </el-button-group>
+        </el-col>
+      </el-row>
+    </div>
+  </output>
+
 
 
 ## 输入 URL 获取页面标题

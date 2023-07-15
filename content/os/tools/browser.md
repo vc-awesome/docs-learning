@@ -101,6 +101,19 @@ chrome://flags/
 
 3. https://blog.csdn.net/zhaojunjie_dream/article/details/80021064 - *如何通过Chrome打断点的方法调试代码*
 
+---
+created: 2023-07-08T10:41:56
+source: https://www.coder.work/article/7755331
+author: 
+---
+
+Chrome 浏览器禁止 http 自动转成 https
+
+1.  打开 Chrome 浏览器，在地址栏中输入 `chrome://net-internals/#hsts`
+
+2.  在页面中查找 `Delete domain security policies`，在 `Domain` 的输入框中输入域名，并点击 `Delete` 删除
+
+3.  可以在 `Query Expect-CT domain` 中测试是否删除成功
 
 
 ## 书签

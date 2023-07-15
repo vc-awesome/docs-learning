@@ -222,6 +222,8 @@ VPN:
 
 ### SmartDNS
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/pymumu/smartdns?icon=github&color=blue)
+
 Website: https://pymumu.github.io/smartdns/ - *SmartDNS*
 
 GitHub: https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*

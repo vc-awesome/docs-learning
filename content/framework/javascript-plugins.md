@@ -342,6 +342,13 @@ PowerShell - `powershell`
 <script src="//unpkg.com/prismjs@latest/components/prism-powershell.min.js"></script>
 ```
 
+正则表达式 - `regex`
+
+```html
+<script src="//unpkg.com/prismjs@latest/components/prism-regex.min.js"></script>
+```
+
+
 </details>
 
 

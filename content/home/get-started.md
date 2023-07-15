@@ -2,21 +2,22 @@
 
 - [ ] [markdown yaml front matter](os/tools/markdown)
 - [ ] [github](os/tools/github)
-  - [ ] [github awesome 系列](os/tools/github?id=awesome)
+  - [ ] [github awesome 系列](os/tools/github.md#awesome-lists)
 - [ ] API
   - [ ] [YApi](os/tools/yapi)
   - [ ] 开放 API 授权
-  - [ ] [身份认证](/essential/identity.md)
+  - [ ] [身份认证](essential/identity.md)
 - [ ] JavaScript
-- [ ] [ThinkPHP](/back-end/thinkphp/)
-- [ ] [MySQL](/database/mysql/)
-- [ ] [开发框架](/开发框架/)
-- [ ] [BlockChain](/blockchain/)
+- [ ] [ThinkPHP](back-end/thinkphp/)
+- [ ] [MySQL](database/mysql/)
+- [ ] [开发框架](framework/)
+- [ ] [BlockChain](blockchain/)
 - [ ] 镜像
 - [ ] OS
   - [ ] 电脑系统安装
-  - [ ] tools > hosts.md > 修改 hosts 文件
-  - [ ] [os/tools/trial.md](os/tools/trial.md)
+  - [ ] [os](os/README.md) / [tools](os/tools/README.md)
+      - [ ] [hosts.md](os/tools/hosts.md) > 修改 hosts 文件
+      - [ ] [app-trial.md](os/tools/app-trial.md)
 - [x] 提交代码至远程仓库
 
 

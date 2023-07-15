@@ -1,19 +1,17 @@
-> 工具试用列表
+> 包含支持 Windows, macOS, Linux, Android, iOS 等操作系统的工具试用列表。
 
 ## 未分类
+
+
+## 系统工具
 
 ### Smart-AutoClicker
 
 https://github.com/Nain57/Smart-AutoClicker - *GitHub - Nain57/Smart-AutoClicker: An open-source auto clicker on images for Android*
 
-### HexViewer
-
-https://f-droid.org/packages/fr.ralala.hexviewer/ - *HexViewer | F-Droid - Free and Open Source Android App Repository*
-
 ### Auto Auto-Rotate
 
 https://f-droid.org/packages/com.jarsilio.android.autoautorotate/ - *Auto Auto-Rotate | F-Droid - Free and Open Source Android App Repository*
-
 
 ## 跳过开屏广告
 
@@ -23,11 +21,15 @@ https://github.com/zfdang/Android-Touch-Helper - *GitHub - zfdang/Android-Touch-
 
 ### 李跳跳
 
-https://mp.weixin.qq.com/s/v5ejXKQbDTI6cbmSSYMyaw - *新APP原理篇（附视频演示）。*
-
 如何获取下载地址：
 1. 关注微信公众号“大小姐李跳跳”；
 2. 公众号发送消息“任意内容”。
+
+应用列表：
+
+1. https://juejin.cn/post/6938590373740544007 - *李跳跳进阶指南 - 掘金*
+
+2. 真实好友：https://mp.weixin.qq.com/s/v5ejXKQbDTI6cbmSSYMyaw - *新APP原理篇（附视频演示）。*
 
 ----
 
@@ -55,28 +57,6 @@ https://f-droid.org/packages/org.localsend.localsend_app/ - *LocalSend | F-Droid
 
 ## URL
 
-### URLCheck
-
-> 在打开网址之前，允许您分析（或共享）它们。
-
-https://f-droid.org/packages/com.trianguloy.urlchecker/ - *URLCheck | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*
-
----
-
-常见问题解答：
-
-> 应用版本：2.11
-
-问题：
-
-当出现这样的情况：点击其他应用中的 URL 链接，通过“Opera”浏览器无法打开。
-
-解答：
-
-可使用方法：*复制 URL 链接 > 下拉“控制中心” > 点击磁贴“检查剪贴板中的链接” > 按正常操作重新执行一遍*。
-
 
 ## 开发工具
 
@@ -94,10 +74,12 @@ https://github.com/s-yoshiki/DevToysWeb - *GitHub - s-yoshiki/DevToysWeb: DevToy
 
 ### Dev Tools
 
-
 https://davidsimak.dev/projects/dev-tools - *Dev Tools | David Šimák - A self-taught JAVA/Kotlin developer*
 - https://dev-tools.davidsimak.dev/ - *Dev Tools | Free online tools for developers*
 
+### HexViewer
+
+https://f-droid.org/packages/fr.ralala.hexviewer/ - *HexViewer | F-Droid - Free and Open Source Android App Repository*
 
 ## 绘图软件
 
@@ -131,27 +113,22 @@ https://zhuanlan.zhihu.com/p/91344875?utm_id=0 - *评测了10款画流程图软�
 
 ##  网络工具
 
+tcpdump
+
 ### 防火墙工具
 
 https://emanuele-f.github.io/PCAPdroid/faq.html
 
 ## 网络抓包
 
-### PCAPdroid（免 Root）
+## NetGuard
 
+![f-droid](https://badgen.net/f-droid/v/eu.faircode.netguard)
+![GitHub last commit](https://img.shields.io/github/last-commit/M66B/NetGuard?color=blue&logo=github&style=flat-square)
 
-https://github.com/emanuele-f/PCAPdroid - *emanuele-f/PCAPdroid: No-root network monitor, firewall and PCAP dumper for Android*
+https://apt.izzysoft.de/fdroid/index/apk/eu.faircode.netguard - *NetGuard - IzzyOnDroid F-Droid Repository* [破解版](https://www.yxssp.com/26940.html)
 
-🏷️ *应用内包含付费功能*
-
-https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
-
-相关工具：
-
-1. https://github.com/mitmproxy/mitmproxy - *mitmproxy/mitmproxy: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.*
-2. https://github.com/M66B/NetGuard - *GitHub - M66B/NetGuard: A simple way to block access to the internet per app*
-3. https://github.com/Genymobile/gnirehtet - *GitHub - Genymobile/gnirehtet: Gnirehtet provides reverse tethering for Android*
-4. https://github.com/emanuele-f/zdtun - *GitHub - emanuele-f/zdtun: Zero Dep Tunnel: VPN library without dependencies*
+https://github.com/M66B/NetGuard - *GitHub - M66B/NetGuard: A simple way to block access to the internet per app*
 
 
 ### Wireshark
@@ -200,6 +177,10 @@ https://www.screentogif.com/ - *ScreenToGif - Record your screen, edit and save 
 
 
 ## 文件管理
+
+有些文件管理应用会内置图片查看器、音乐播放器、视频播放器、文本编辑器等，比如文件管理应用“[Solid Explorer]()”。
+
+如何知道文件管理应用含有哪些内置工具？可通过应用“[Activity Manager]()”查看。
 
 
 ## 文本编辑器（笔记软件）

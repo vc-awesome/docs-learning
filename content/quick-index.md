@@ -28,7 +28,7 @@ stateDiagram
 👏[不知道如何获取新技术？](home/book) 还可以按 📖[技术体系](tech-stack/README)进行学习。
 </div></div>
 
-1. *学习* > [书籍](home/book.md) + [站长](home/good-share.md) + [前端](front-end/#学习资源)
+1. *学习* > [书籍](home/book.md) + [前端](front-end/#学习资源)
 2. _Shell_ >
     - [Windows cmd /*.bat](os/windows/README.md#windows-bat-脚本)
     - [Windows powershell /*.ps1](os/windows/README.md#windows-powershell)
@@ -37,8 +37,8 @@ stateDiagram
     - _命令_ >>
         - [Windows](os/windows/windows-cli.md)
         - [Linux](os/linux/linux%20指令.md)
-3. _模板_ > [文档模板](home/document-template.md) + [官网模板](开发框架/official-website.md) + [后台管理模板](开发框架/后台模板/README.md)
-4. _文档网站生成_ > [Docsify](os/tools/docsify.md) + [文档网站生成器](开发框架/README.md#文档网站生成器)
+3. _模板_ > [文档模板](home/document-template.md) + [官网模板](framework/official-website.md) + [后台管理模板](framework/后台模板/README.md)
+4. _文档网站生成_ > [Docsify](os/tools/docsify.md) + [文档网站生成器](framework/README.md#文档网站生成器)
 5. _大厂_ > [Microsoft]() + [Apple Inc.]() + [Google Inc.](os/tools/google.md)
 6. _站点搭建、部署_ > 
     1. [服务器](essential/hosting.md) - *可购买服务器*

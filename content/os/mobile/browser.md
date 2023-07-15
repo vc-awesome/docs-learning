@@ -1,11 +1,10 @@
 ## 模板
 
-> Open-Source
-
 Website：
 
 GitHub：
 
+- [ ] 开源
 - [ ] 屏蔽广告
 - [ ] 扩展程序
 - [ ] 翻译
@@ -29,12 +28,11 @@ _注：屏幕截图教程用 https://github.com/docsifyjs/docsify 页面操作�
 _📋复制模板_
 
 ``` markdown
-> Open-Source
-
 Website：
 
 GitHub：
 
+- [ ] 开源
 - [ ] 屏蔽广告
 - [ ] 扩展程序
 - [ ] 翻译
@@ -58,12 +56,11 @@ GitHub：
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.kiwibrowser.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
-> Open-Source
-
 https://kiwibrowser.com/ - *Home - Kiwi Browser*
 
 https://github.com/kiwibrowser - *kiwibrowser (Kiwi Browser) · GitHub*
 
+- [x] 开源
 - [x] 屏蔽广告
 - [x] 扩展程序
 - [x] 翻译
@@ -76,6 +73,7 @@ https://github.com/kiwibrowser - *kiwibrowser (Kiwi Browser) · GitHub*
 
 https://browser.yandex.com/ - *Download Yandex Browser*
 
+- [ ] 开源
 - [x] 屏蔽广告
 - [x] 扩展程序
 - [x] 翻译
@@ -88,12 +86,11 @@ https://browser.yandex.com/ - *Download Yandex Browser*
 ![GitHub last commit](https://badgen.net/github/last-commit/tuyafeng/Via?icon=github&color=blue)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dmark.via%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
-> Open-Source
-
 https://viayoo.com/zh-cn/ - *Via浏览器官网 - 崇尚速度与简约的手机浏览器，Via唯一官方网站*
 
 https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository is set for localization.*
 
+- [x] 开源
 - [x] 屏蔽广告
     - 可自定义规则
 - [ ] 扩展程序
@@ -117,6 +114,7 @@ https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository 
 
 https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
 
+- [ ] 开源
 - [x] 屏蔽广告
 - [ ] 扩展程序
 - [x] 多语言
@@ -142,14 +140,18 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 
 🧱 https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
 
+- [ ] 开源
 - [x] 隐私保护
     - [x] 无历史记录
 - [x] 🪜
 
 ## Firefox
 
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.mozilla.firefox%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
 https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快速 | 官方最新下载*
 
+- [ ] 开源
 - [x] 扩展程序
   - [x] 屏蔽广告
   - [x] 隐私保护
@@ -158,9 +160,11 @@ https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快�
 
 ## Chrome
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.android.chrome%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 
+- [ ] 开源
 - [x] 同步
 - [x] 🪜
 
@@ -168,6 +172,7 @@ https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 
 https://browser.qq.com/ - *QQ浏览器官网_手机浏览器_电脑浏览器_*
 
+- [ ] 开源
 - 工具
   - [x] 资源嗅探
   - [x] 网页翻译
@@ -176,6 +181,7 @@ https://browser.qq.com/ - *QQ浏览器官网_手机浏览器_电脑浏览器_*
 
 http://app.xiaomi.com/detail/105559 - *小米浏览器-保护隐私安全上网*
 
+- [ ] 开源
 - [x] 资源嗅探
 
 
@@ -186,7 +192,6 @@ http://app.xiaomi.com/detail/105559 - *小米浏览器-保护隐私安全上网*
 ![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.kiwibrowser.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
-
 🧱 https://freebrowser.org/ - *免费下载自由浏览 app，了解墙外最新资讯*
 
 https://github.com/greatfire/wiki
@@ -195,12 +200,13 @@ https://github.com/greatfire/wiki
 
 https://lemurbrowser.com/app/zh/ - *狐猴浏览器*
 
+- [ ] 开源
 - [ ] 屏蔽广告
 - [x] 扩展程序
 - [x] 多语言
 - [x] 翻译
 - [ ] 🪜
-- [ ] 同步
+- [x] 同步
 - [ ] 隐私保护
 - [ ] 资源嗅探
 - [x] 夜间模式
@@ -240,7 +246,27 @@ https://lemurbrowser.com/app/zh/ - *狐猴浏览器*
 
 - 新增Qwant、Brave、StartPage、Fsou搜索引擎
 
+## Edge
 
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.microsoft.emmx%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+Website：https://www.microsoft.com/zh-cn/edge?form=MA13FJ - *了解 Microsoft Edge*
+
+- [ ] 开源
+- [x] 屏蔽广告
+- [ ] 扩展程序
+- [x] 翻译
+- [ ] 🪜 - _科学上网_
+- [x] 同步 - _登录账户后使用此功能_
+- [x] 隐私保护
+- [ ] 资源嗅探
+- [x] 夜间模式
+- [x] 页内查找
+- [ ] 添加到主屏幕
+- [ ] 设置 - 应用布局
+- [ ] 设置 - 语言
+- [ ] 全屏浏览
+- [ ] 屏幕旋转
 
 ## FAQ
 

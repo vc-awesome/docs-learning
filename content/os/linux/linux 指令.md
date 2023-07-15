@@ -53,7 +53,7 @@ https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命�
 
 `help` - *该命令是bash内建命令，用于显示bash内建命令的帮助信息。*
 
-https://wangchujiang.com/linux-command/c/help.html - *help 命令，Linux help 命令详解：该命令是bash内建命令，用于显示bash内建命令的帮助信息。 - Linux 命令搜索引擎*该命令是bash内建命令，用于显示bash内建命令的帮助信息。
+https://wangchujiang.com/linux-command/c/help.html - *help 命令，Linux help 命令详解：该命令是bash内建命令，用于显示bash内建命令的帮助信息。 - Linux 命令搜索引擎*
 
 `info` - *Linux下 info 格式的帮助指令*
 
@@ -61,7 +61,9 @@ https://wangchujiang.com/linux-command/c/help.html - *help 命令，Linux help �
 
 https://blog.csdn.net/Zhi_osX/article/details/80146259 - *linux命令-查看命令帮助文档_Zhi_osX的博客-CSDN博客*
 
-### 文件权限管理
+### 文件管理
+
+#### 文件权限管理
 
 https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜鸟教程*
 
@@ -71,12 +73,12 @@ https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜�
 
 `chmod +x `<文件名> - *给指点文件增加可执行权限*
 
-### 文件基本属性
+#### 文件基本属性
 
 https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基本属性 | 菜鸟教程*
 
 
-### 查看当前目录
+#### 查看当前目录
 
 查看目录下面有多少文件以及文件的名字
 
@@ -96,7 +98,7 @@ tree
 https://www.runoob.com/linux/linux-comm-tree.html - *Linux tree命令 | 菜鸟教程*
 
 
-### 切换目录
+#### 切换目录
 
 [cd](https://www.runoob.com/linux/linux-comm-cd.html) - _切换用户当前工作目录_
 
@@ -105,7 +107,7 @@ https://www.runoob.com/linux/linux-comm-tree.html - *Linux tree命令 | 菜鸟�
 `cd ~` - _**~** 表示根目录，目录位于 **/root**_
 
 
-### 查看路径
+#### 查看路径
 
 [pwd](https://www.runoob.com/linux/linux-comm-pwd.html) - *显示当前工作目录的绝对路径*
 
@@ -122,33 +124,33 @@ whereis node
 [which](https://www.runoob.com/linux/linux-comm-which.html) - _查找并显示给定命令的绝对路径_
 
 
-### 创建目录
+#### 创建目录
 
 `mkdir [目录名]`
 
 
-### 删除目录
+#### 删除目录
 
 `rm -r [目录名]`
 
 
-### 创建文件
+#### 创建文件
 
 `touch [文件名]`
 
 
-### 删除文件
+#### 删除文件
 
 `rm [文件名]`
 
 
-### 修改文件名
+#### 修改文件名
 
 https://www.runoob.com/linux/linux-comm-mv.html - *Linux mv 命令 | 菜鸟教程*
 
 `mv [源文件名] [目标文件名]`
 
-### 文本搜索
+#### 文本搜索
 
 https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep 命令详解：强大的文本搜索工具 - Linux 命令搜索引擎*
 
@@ -157,29 +159,29 @@ https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep �
 实例：`history | grep git` - *搜索命令行历史记录中 输入过 `git` 命令的记录*
 
 
-### 编辑文件
+#### 编辑文件
 
 `vim [文件名]`
 
 
-### 文件写入
+#### 文件写入
 
 `echo 'runoob.com' > test.txt`
 
 
-### 查看文件内容
+#### 查看文件内容
 
 https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教程*
 
 `cat [文件名] `
 
 
-### 查看文件指定行
+#### 查看文件指定行
 
 `head -3 [文件名]`
 
 
-### 查看文件属性
+#### 查看文件属性
 
 ```sh
 ls -l
@@ -197,7 +199,7 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 2.  https://blog.csdn.net/p309654858/article/details/127765811 - *Linux如何查看文件的属性_linux查看文件属性_music score的博客-CSDN博客*
 
 
-### 复制文件或文件夹
+#### 复制文件或文件夹
 
 `cp [选项] [源文件或目录] [目标文件或目录]`
 
@@ -266,6 +268,86 @@ https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜�
 #### 退出登录
 
 `exit`
+
+
+### 网络通讯
+
+#### ping
+
+简介：
+
+用于检测主机。
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-ping.html - *Linux ping 命令 | 菜鸟教程*
+
+示例：
+
+`ping www.runoob.com` - *ping <主机名称>*
+
+`ping 120.240.82.52` - *ping <IP 地址>*
+
+#### ifconfig
+
+简介：
+
+用于显示或设置网络设备。
+
+ 用法：
+ 
+ https://www.runoob.com/linux/linux-comm-ifconfig.html - *Linux ifconfig命令 | 菜鸟教程* 
+
+示例：
+
+`ifconfig`
+
+#### whois
+
+简介：
+
+用于查找并显示用户信息。
+ 
+用法：
+
+https://www.runoob.com/linux/linux-comm-whois.html - *Linux whois命令 | 菜鸟教程*
+  
+示例：
+
+`whois root` - *查找 root 用户信息*
+
+`whois github.com` - *查询域名信息*
+
+#### nslookup
+
+简介：
+
+查询域名 DNS 信息的工具。
+
+用法：
+
+https://wangchujiang.com/linux-command/c/nslookup.html - *nslookup 命令，Linux nslookup 命令详解：查询域名DNS信息的工具 - Linux 命令搜索引擎*
+
+示例：
+
+`nslookup`
+
+`nslookup github.com`
+
+#### dig
+
+简介：
+
+域名查询工具。
+
+用法：
+
+https://wangchujiang.com/linux-command/c/dig.html - *dig 命令，Linux dig 命令详解：域名查询工具 - Linux 命令搜索引擎*
+
+示例：
+
+`dig github.com`
+
 
 ### 清屏
 

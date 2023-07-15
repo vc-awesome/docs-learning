@@ -28,14 +28,18 @@ http://nginx.org/en/download.html - *nginx: download*
 
 ### 内网穿透
 
+## 工具
+
+https://wangchujiang.com/nginx-editor/ - *nginx online editor*
+
 ## 参考
 
-https://baijiahao.baidu.com/s?id=1722729268145517778 - *Nginx从安装到高可用，一篇搞定！*
+1. https://baijiahao.baidu.com/s?id=1722729268145517778 - *Nginx从安装到高可用，一篇搞定！*
 
-https://zhuanlan.zhihu.com/p/34943332 - *8分钟带你深入浅出搞懂Nginx*
+2. https://zhuanlan.zhihu.com/p/34943332 - *8分钟带你深入浅出搞懂Nginx*
 
-https://www.runoob.com/linux/nginx-install-setup.html - *Nginx 安装配置 | 菜鸟教程*
+3. https://www.runoob.com/linux/nginx-install-setup.html - *Nginx 安装配置 | 菜鸟教程*
 
-https://juejin.cn/post/6844904129987526663 - *连前端都看得懂的《Nginx 入门指南》*
+4. https://juejin.cn/post/6844904129987526663 - *连前端都看得懂的《Nginx 入门指南》*
 
-https://juejin.cn/post/6844904135951646733 - *推荐 | 如何用Nginx来助力前端开发*
+5. https://juejin.cn/post/6844904135951646733 - *推荐 | 如何用Nginx来助力前端开发*

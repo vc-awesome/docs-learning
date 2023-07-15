@@ -10,6 +10,8 @@ https://docsify.js.org/ - *A magical documentation generator.*
 
 https://github.com/docsifyjs/docsify/ - *GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.*
 
+https://cli.docsifyjs.org/#/ - *docsify-cli - A magical documentation generator.*
+
 ## Usage
 
 ### 文档助手
@@ -153,15 +155,15 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 
 ## Technologies
 
-- [vue-clipboard2](开发框架/javascript-plugins.md#vue-clipboard2)
+- [vue-clipboard2](framework/javascript-plugins.md#vue-clipboard2)
     ``` html
     <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
     ```
-- [Primer CSS](开发框架/README.md#primer-css)
+- [Primer CSS](framework/README.md#primer-css)
     ``` html
     <link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
     ```
-- [Vue.js](开发框架/README.md#vuejs)
+- [Vue.js](framework/README.md#vuejs)
 - [Element UI](%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/README.md#element-ui-%f0%9f%94%a5) 🔥
     ``` html
     <!-- 引入样式 -->
@@ -383,7 +385,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 https://docsify.js.org/#/language-highlight - *Language highlighting*
 
-有关详细信息，请参阅“[PrismJS](开发框架/javascript-plugins.md#prismjs)”。
+有关详细信息，请参阅“[PrismJS](framework/javascript-plugins.md#prismjs)”。
 
 
 ##### 代码行号

@@ -5,6 +5,9 @@
 
 > <img src="https://f-droid.org/repo/com.looker.droidify/en-US/icon_lApsnfhrMqGkCaW-IdnYwx86CUjdTutncPvXPJythaM=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> Material-ify with Droid-ify. A quick material F-Droid client.
 
+![f-droid](https://badgen.net/f-droid/v/com.looker.droidify)
+![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github&style=flat-square)
+
 ------
 
 https://f-droid.org/packages/com.looker.droidify/ - *Droid-ify | F-Droid - Free and Open Source Android App Repository*
@@ -18,6 +21,9 @@ https://github.com/Iamlooker/Droid-ify - *GitHub - Iamlooker/Droid-ify: F-Droid 
 
 > <img src="https://f-droid.org/repo/io.github.muntashirakon.AppManager/en-US/icon_Jc_KAiIUxfeHFgZFDxqLREjmodCzjXpuT8I-W_wGTew=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> A full-featured open source package manager for android.
 
+![f-droid](https://badgen.net/f-droid/v/io.github.muntashirakon.AppManager)
+![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github&style=flat-square)
+
 ------
 
 https://f-droid.org/packages/io.github.muntashirakon.AppManager/ - *App Manager - Android package manager | F-Droid - Free and Open Source Android App Repository*
@@ -30,6 +36,9 @@ https://github.com/MuntashirAkon/AppManager - *GitHub - MuntashirAkon/AppManager
 ### 质感文件（Material Files）
 
 > <img src="https://f-droid.org/repo/me.zhanghai.android.files/en-US/icon_BFY8kIAZkrB0kKwXt1uVDgghMociormUlcOIedEh2mA=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 开源的 Material Design 文件管理器
+
+![f-droid](https://badgen.net/f-droid/v/me.zhanghai.android.files)
+![GitHub last commit](https://img.shields.io/github/last-commit/zhanghai/MaterialFiles?color=blue&logo=github&style=flat-square)
 
 ------
 
@@ -277,11 +286,11 @@ FAQ
 
 https://f-droid.org/packages/org.itxtech.daedalus/ - *Daedalus | F-Droid - Free and Open Source Android App Repository*
 
-<i class="fa fa-laptop"></i> https://itxtech.org/
+<i class="fa fa-laptop"></i> https://itxtech.org/ - *Homepage | iTX Technologies*
 
-<i class="fa fa-github fa-lg"></i> https://github.com/iTXTech/Daedalus
+<i class="fa fa-github fa-lg"></i> https://github.com/iTXTech/Daedalus - *GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver.*
 
-<i class="fa fa-android"></i> https://github.com/iTXTech/Daedalus/releases
+<i class="fa fa-android"></i> https://github.com/iTXTech/Daedalus/releases - *Releases · iTXTech/Daedalus*
 
 
 ## Hosts
@@ -289,6 +298,9 @@ https://f-droid.org/packages/org.itxtech.daedalus/ - *Daedalus | F-Droid - Free 
 ### AdAway
 
 > <img src="https://f-droid.org/repo/org.adaway/en-US/icon_tKwcVT8aMbx2qao_fv-a4V5Epua_g0FOYWilovP7yjk=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 一款面向安卓设备的自由和开源的广告拦截应用。
+
+![f-droid](https://badgen.net/f-droid/v/org.adaway)
+![GitHub last commit](https://img.shields.io/github/last-commit/AdAway/AdAway?color=blue&logo=github&style=flat-square)
 
 ------
 
@@ -336,6 +348,42 @@ https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
 
 4. 勾选“Apply redirected hosts”
 
+## 网络工具
+
+### PCAPdroid
+
+> PCAPdroid is an open source network capture and monitoring tool which works without root privileges. （译文：PCAPdroid 是一款开源网络捕获和监控工具，无需 root 权限即可运行。）
+
+![f-droid](https://badgen.net/f-droid/v/com.emanuelef.remote_capture)
+![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/PCAPdroid?color=blue&logo=github&style=flat-square)
+![](https://badgen.net/badge/💰/应用内包含付费功能/grey)
+
+https://github.com/emanuele-f/PCAPdroid - *emanuele-f/PCAPdroid: No-root network monitor, firewall and PCAP dumper for Android*
+
+https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
+
+用法：
+
+- TLS 解密
+
+    官方教程：https://emanuele-f.github.io/PCAPdroid/tls_decryption - *3.1 Introduction | PCAPdroid*
+    
+    基本操作步骤，按文档教程操作：
+    
+    1. 初始设置（[参照内容](https://emanuele-f.github.io/PCAPdroid/tls_decryption#32-initial-setup)）
+    2. 解密（[参照内容](https://emanuele-f.github.io/PCAPdroid/tls_decryption#33-decrypting)）
+
+相关工具：
+
+1. https://github.com/mitmproxy/mitmproxy - *mitmproxy/mitmproxy: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.*
+2. https://github.com/M66B/NetGuard - *GitHub - M66B/NetGuard: A simple way to block access to the internet per app*
+3. https://github.com/Genymobile/gnirehtet - *GitHub - Genymobile/gnirehtet: Gnirehtet provides reverse tethering for Android*
+4. https://github.com/emanuele-f/zdtun - *GitHub - emanuele-f/zdtun: Zero Dep Tunnel: VPN library without dependencies*
+
+相关术语：
+
+1. SNI（Server Name Information，服务器名称信息）
+
 ## RSS
 
 ### Feeder
@@ -365,6 +413,48 @@ https://f-droid.org/packages/me.ash.reader/ - *Read You | F-Droid - Free and Ope
 
 https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS reader presented in Material You style.*
 
+## URLCheck
+
+> 在打开网址之前，允许您分析（或共享）它们。
+
+![f-droid](https://badgen.net/f-droid/v/com.trianguloy.urlchecker)
+![GitHub last commit](https://flat.badgen.net/github/last-commit/TrianguloY/UrlChecker?icon=github&color=blue)
+
+https://f-droid.org/packages/com.trianguloy.urlchecker/ - *URLCheck | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*
+
+---
+
+常见问题解答：
+
+> 应用版本：2.11
+
+问题：
+
+当出现这样的情况：点击其他应用中的 URL 链接，通过“Opera”浏览器无法打开。
+
+分析：
+
+“浏览器”在手机中设置了“应用双开”，才会导致上述问题。
+
+解答：
+
+方式一：关闭“应用双开”功能。
+
+方式二：兼容“应用双开”，可使用下列操作步骤：*复制 URL 链接 > 下拉“控制中心” > 点击磁贴“检查剪贴板中的链接” > 按正常操作重新执行一遍*。
+
+## Markdownr
+
+> Converts an URL to markdown and share it
+
+![f-droid](https://badgen.net/f-droid/v/com.sanzoghenzo.markdownr)
+![GitHub last commit](https://flat.badgen.net/github/last-commit/sanzoghenzo/markdownr?icon=github&color=blue)
+
+https://f-droid.org/zh_Hans/packages/com.sanzoghenzo.markdownr/ - *Markdownr | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Android app that converts an URL to markdown, and lets you share it to your favorite notes app.*
+
 ## Image Resizer
 
 > <img src="https://f-droid.org/repo/ru.tech.imageresizershrinker/en-US/icon_-9n8vowl_QLljJDENvZaSlNplpt8PF-LrCkGnGshnUg=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> ImageResizer is a simple image resizer with width/height selection, EXIF redacting, quality and output image type picking, telegram sticker pattern and output image size prediction.
@@ -391,6 +481,9 @@ https://f-droid.org/packages/ru.tech.imageresizershrinker/ - *Image Resizer | F-
 ### CPU Info
 
 > <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> 查看有关设备硬件和软件的信息
+
+![f-droid](https://badgen.net/f-droid/v/com.kgurgul.cpuinfo)
+![GitHub last commit](https://img.shields.io/github/last-commit/kamgurgul/cpu-info?color=blue&logo=github&style=flat-square)
 
 ------
 

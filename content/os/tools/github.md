@@ -104,6 +104,12 @@ https://blog.csdn.net/tuna_lxg/article/details/27660611 - *庄表伟：谈谈大
 
 https://blog.csdn.net/wang975380547/article/details/78095299 - *GitHub的各标签的功能说明以及使用方法*
 
+### GitHub Rank
+
+https://wangchujiang.com/github-rank/ - *GitHub Users Global Ranking.*
+
+https://www.githubs.cn/top - *GitHub 排行榜 Top 200，热门开源项目推荐 - GitHub中文社区*
+
 ### GitHub Topics
 
 https://github.com/topics - *Topics on GitHub · GitHub*
@@ -233,24 +239,33 @@ GitHub：https://github.com/badges/shields
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
 ```
 
-[![F-Droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker?label=F-Droid%20version)](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.trianguloy.urlchecker.yml) _via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
+![F-Droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker?label=F-Droid%20version)
+
+_via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
 ```markdown
-[![F-Droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker?label=F-Droid%20version)](https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.trianguloy.urlchecker.yml)
+![F-Droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker?label=F-Droid%20version)
 ```
 
-[![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.trianguloy.urlchecker%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)](https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker) _via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.trianguloy.urlchecker%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+  _via https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*_
+
+Website: https://play.cuzi.workers.dev/
+
+GitHub: https://github.com/cvzi/play
+
 ```markdown
-[![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.trianguloy.urlchecker%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)](https://play.google.com/store/apps/details?id=com.trianguloy.urlchecker)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.trianguloy.urlchecker%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 ```
 
-[![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
+![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)
 ```markdown
-[![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)](https://discord.gg/HjJCwm5)
+![chat on Discord](https://img.shields.io/discord/308323056592486420?logo=discord)
 ```
 
-[![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
+![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)
 ```markdown
-[![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=shields_io)
+![follow on Twitter](https://img.shields.io/twitter/follow/shields_io?style=social&logo=twitter)
 ```
 
 ![](https://img.shields.io/static/v1?labelColor=56595b&color=97db99&logo=google-play&logoColor=ffffff&label=google%20play&style=for-the-badge&message=get)

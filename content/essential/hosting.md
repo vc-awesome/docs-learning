@@ -18,6 +18,8 @@ https://www.cloudflare-cn.com/ - *Cloudflare 中国官网 | 智能化云服务�
 
 https://github.com/XIU2/CloudflareSpeedTest - *GitHub - XIU2/CloudflareSpeedTest: 🌩「自选优选 IP」测试 Cloudflare CDN 延迟和速度，获取最快 IP (IPv4 / IPv6)！另外也支持其他 CDN / 网站 IP ~*
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/XIU2/CloudflareSpeedTest?icon=github&color=blue)
+
 ### VPS
 
 

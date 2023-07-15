@@ -11,9 +11,9 @@
 2. *服务端* > [PHP](back-end/php/README.md) ( [Composer](back-end/composer/README.md) - [ThinkPHP](back-end/thinkphp/README.md) ) + [Apache](back-end/apache.md) + [MySQL](database/mysql/README.md) + [Redis](database/redis/README.md) + [Nginx](back-end/nginx.md) + [宝塔](os/tools/bt.md)
 3. _[前端](front-end/README.md)_ >
     - [HTML](front-end/html/README.md)
-    - [CSS](front-end/css/README.md) >> [命名规则](front-end/css/css-命名规则.md) + [框架](开发框架/README.md#css-框架)
-    - [JavaScript](front-end/javascript/README.md) >> [框架](开发框架/README.md#javascript-框架) + 🧩 [插件](开发框架/javascript-plugins.md)
-    - [jQuery](front-end/jquery.md) >> 🧩 [插件](开发框架/README.md#jQueryjs)
+    - [CSS](front-end/css/README.md) >> [命名规则](front-end/css/css-命名规则.md) + [框架](framework/README.md#css-框架)
+    - [JavaScript](front-end/javascript/README.md) >> [框架](framework/README.md#javascript-框架) + 🧩 [插件](framework/javascript-plugins.md)
+    - [jQuery](front-end/jquery.md) >> 🧩 [插件](framework/README.md#jQueryjs)
     - [Node.js](front-end/node.js/README.md) >>
         - <i class="fab fa-npm fa-lg medium-red"></i> [NPM](front-end/node.js/npm.md)
         - [工具](front-end/node.js/nodejs-modules.md) >>> [Browsersync](front-end/node.js/npm.md#browser-sync) + [rollup.js](front-end/node.js/nodejs-modules#rollupjs)

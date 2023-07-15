@@ -5,19 +5,15 @@
 
 ## 官方
 
-官方站点：https://www.php.net/ - *PHP: Hypertext Preprocessor*
+主页：https://www.php.net/ - *PHP: Hypertext Preprocessor*
 
-官方手册：https://www.php.net/manual/zh/index.php - *PHP: PHP 手册 - Manual*
+手册：https://www.php.net/manual/zh/index.php - *PHP: PHP 手册 - Manual*
 
 GitHub：https://github.com/php/ - *php.net · GitHub*
 
----
-
-菜鸟教程：https://www.runoob.com/php/php-tutorial.html - *PHP 教程 | 菜鸟教程*
-
 ### 版本
 
-PHP版本支持时间表：https://www.php.net/supported-versions.php - *PHP: Supported Versions*
+PHP 版本支持时间表：https://www.php.net/supported-versions.php - *PHP: Supported Versions*
 
 ### 解析器
 
@@ -30,6 +26,11 @@ PHP版本支持时间表：https://www.php.net/supported-versions.php - *PHP: Su
 https://www.cnblogs.com/phpper/p/7191089.html - *PHP中获取当前页面的URL信息*
 
 https://www.jb51.net/article/117265.htm - *利用PHP获取访客IP、地区位置、浏览器及来源页面等信息*
+
+
+## 教程
+
+菜鸟教程：https://www.runoob.com/php/php-tutorial.html - *PHP 教程 | 菜鸟教程*
 
 
 ## 安装

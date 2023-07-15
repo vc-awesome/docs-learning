@@ -134,9 +134,9 @@ _1. https://emojipedia.org/ - 📙 Emojipedia — 😃 Home of Emoji Meanings �
 
 1. ~~[Markor](tools/app-list.md#markor) + [Syncthing](tools/app-list.md#syncthing) + [Termux](/os/mobile/app-termux) + [FolerSync](tools/app-list.md#folder-sync)~~
 
-2. [personalDNSfilter](/os/mobile/README.md#personaldnsfilter) + [Opera](/os/mobile/browser#opera-%e2%9c%85)
+2. [personalDNSfilter](/os/mobile/mobile-app-list.md#personaldnsfilter) + [Opera](/os/mobile/browser.md#opera-%e2%9c%85)
 
-3. [MGit](os/mobile/mgit.md) + [Markor](tools/app-list.md#markor) + [Termux](os/mobile/app-termux) + [Acode](os/mobile/README.md#acode)
+3. [MGit](os/mobile/mgit.md) + [Markor](os/tools/app-list.md#markor) + [Termux](os/mobile/termux.md) + [Acode](os/mobile/mobile-app-list.md#acode) + [Markdownr](os/mobile/mobile-app-list.md#markdownr) + [UrlCheck](os/mobile/mobile-app-list.md#urlcheck)
 
 
 ## 下载指南

@@ -8,6 +8,9 @@ https://developer.android.google.cn/ - *Android 开发者  |  Android Develope
 
 https://fonts.google.com/ - *Browse Fonts - Google Fonts*
 
+https://www.chromium.org/ - *Home*
+
+
 ## 常见问题
 
 ### 账号被停用

@@ -69,6 +69,8 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 5. [Bitbucket](https://www.atlassian.com/zh/software/bitbucket) - *用于团队的 Atlassian Bitbucket Git 代码管理工具 | Atlassian*
 
+6. [腾讯云 CODING DevOps](https://coding.net/) - *DevOps_DevOps 解决方案_一站式 DevOps_开发者工具 | 腾讯云 CODING DevOps*
+
 ## 工作流程
 
 1. 克隆 Git 资源作为工作目录。
@@ -76,17 +78,26 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 3. 如果其他人修改了，你可以更新资源。
 4. 在提交前查看修改。
 5. 提交修改。
-6. 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交
+6. 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
 
-> 你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 `工作目录`，它持有实际文件；第二个是 `缓存区（Index）`，它像个缓存区域，临时保存你的改动；最后是 `HEAD`，指向你最近一次提交后的结果。
+> 你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 **工作目录**，它持有实际文件；第二个是 **缓存区（Index）**，它像个缓存区域，临时保存你的改动；最后是 **HEAD**，指向你最近一次提交后的结果。
 
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
+<small>*插图来源于：[git 使用简易指南](https://www.bootcss.com/p/git-guide/)*</small>
 
 ## 快速入门
 
 1. https://www.bootcss.com/p/git-guide/ - *git 使用简易指南*
 
 2. https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/ - *GitHub Git 备忘单 - GitHub Cheatsheets*
+
+---
+
+![](https://www.runoob.com/wp-content/uploads/2015/02/git-command.jpg)
+<small>*插图来源于：[Git 基本操作 | 菜鸟教程](https://www.runoob.com/git/git-basic-operations.html)*</small>
+
+![](https://www.runoob.com/wp-content/uploads/2015/02/1352126739_7909.jpg)
+<small>*插图来源于：[Git 工作区、暂存区和版本库 | 菜鸟教程](https://www.runoob.com/git/git-workspace-index-repo.html)*</small>
 
 ## 基础命令
 
@@ -96,12 +107,29 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 git --help
 ```
 
+```sh
+git -h
+```
+
+read about a specific subcommand or concept.（阅读特定的子命令或概念。）
+
+```sh
+git help <command>
+```
+
+```sh
+git help <concept>
+```
 
 
 ### 查看版本
 
 ```bash
 git --version
+```
+
+```bash
+git -v
 ```
 
 
@@ -250,8 +278,10 @@ git push -u origin master
 
 更新合并（已存在的 Git 仓库，执行此命令即可）
 
+*git remote 完成后拉取远程的文件操作*
+
 ```bash
-git pull origin master #git remote完成后拉取远程的文件操作
+git pull origin master
 ```
 
  
@@ -315,7 +345,7 @@ git pull origin master #git remote完成后拉取远程的文件操作
    实例：
 
    ```bash
-   `ssh-keygen -t rsa -C "caiyongwen@yeah.net"`
+   ssh-keygen -t rsa -C "caiyongwen@yeah.net"
    ```
 
 2. 获取 **SSH Key**
@@ -396,21 +426,41 @@ git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分�
 
 - pull 命令（方式一）
 
+  > 从远程获取代码并合并本地的版本
+
+  语法：
+  
   ```bash
-  git pull <远程主机名> <远程分支名>:<本地分支名> #从远程获取代码并合并本地的版本
-  例：git pull origin master #默认的远程主机名为origin，默认的本地分支名为master
+  git pull <远程主机名> <远程分支名>:<本地分支名>
   ```
+  
+  示例：
+  
+  ```bash
+  git pull origin master
+  ```
+  
+  *默认的远程主机名为 origin，默认的本地分支名为 master*
 
   ```bash
   git pull
   ```
 
 - 提取远程仓库（方式二）
-
+  
+  第 1 步：
+  
   ```bash
-  1. git fetch [alias] [branch] #中括号的内容可省略
-  2. git merge [alias]/[branch] #中括号的内容可省略
+  git fetch [alias] [branch] #中括号的内容可省略
   ```
+  
+  第 2 步：
+  
+  ```bash
+  git merge [alias]/[branch] #中括号的内容可省略
+  ```
+  
+  ---
   
   ```bash
   git fetch
@@ -458,9 +508,16 @@ git remote -v #查看别名的实际链接地址
 
 提取远程仓库
 
+第 1 步：
+
 ```bash
-1. git fetch [alias] [branch] #中括号的内容可省略
-2. git merge [alias]/[branch] #中括号的内容可省略
+git fetch [alias] [branch] #中括号的内容可省略
+```
+
+第 2 步：
+
+```bash
+git merge [alias]/[branch] #中括号的内容可省略
 ```
 
 推送到远程仓库
@@ -496,7 +553,6 @@ git remote set-url [sortname] [url] #例：git remote set-url origin http://137.
 ### 分支 - *branch*
 
 ```bash
-
 git branch #查看所有分支
 
 git branch (branchname) #创建分支
@@ -532,20 +588,69 @@ git show v1.0 #查看指定版本所修改的内容
 
 ### 文件差异 - *diff*
 
+尚未缓存的改动（没有 git add 的文件）
+
 ```bash
-$ git diff [file] #尚未缓存的改动（没有git add的文件）
-
-$ git diff --cached [file] #查看已缓存的改动（git add的文件）
-
-$ git diff --staged [file] #查看已缓存的改动（git add的文件）
-
-$ git diff HEAD [file] #查看已缓存的与未缓存的所有改动
-
-$ git diff --stat #显示摘要而非整个 diff
-
-$ git diff [first-branch]...[second-branch] #显示两次提交之间的差异（first-branch相当于commit-id）
+git diff [file]
 ```
 
+查看已缓存的改动（git add 的文件）
+
+```bash
+git diff --cached [file]
+```
+
+查看已缓存的改动（git add 的文件）
+
+```bash
+git diff --staged [file]
+```
+
+查看已缓存的与未缓存的所有改动
+
+```bash
+git diff HEAD [file]
+```
+
+显示摘要而非整个 diff
+
+```bash
+git diff --stat
+```
+
+显示两次提交之间的差异（first-branch 相当于 commit-id）
+
+```bash
+git diff [first-branch]...[second-branch]
+```
+
+查看本地和远程文件之间的差异
+
+方式一（按下列步骤执行）：
+
+第 1 步
+
+```bash
+git fetch origin master
+```
+
+第 2 步
+
+```bash
+git diff master origin/master
+```
+
+方式二：
+
+```bash
+git diff <masterbranch> <remotebranch>
+```
+
+以上参考：
+
+https://www.coder.work/article/7752449 - *git - 如何在 Git 中显示本地和远程文件之间的差异？ - IT工具网*
+
+- https://stackoverflow.com/questions/46786070/how-do-i-show-differences-between-local-and-remote-files-in-git - *How do I show differences between local and remote files in Git? - Stack Overflow*
 
 
 ### 回退版本 - *reset*
@@ -626,7 +731,7 @@ git mv <source> <destination> #在工作区和暂存区中进行移动或重命�
 
 ### 解决合并冲突 - *checkout*
 
- - 编辑冲突文件后重新提交
+> 编辑冲突文件后重新提交
 
 ```bash
 git reset HEAD #暂存区的目录树会被重写，被 master 分支指向的目录树所替换，但是工作区不受影响
@@ -638,6 +743,7 @@ git rm --cached <file> #直接从暂存区删除文件，工作区则不做出�
 
 ```bash
 git checkout .或者git checkout -- <file> #会用暂存区全部或指定的文件替换工作区的文件。这个操作很危险，会清除工作区中未添加到暂存区的改动
+
 
 # checkout所有文件
 git checkout .
@@ -680,7 +786,7 @@ git status -s #简短格式查看文件修改状态
 
 
 
-[Git基础-查看当前文件状态、跟踪新文件、暂存文件、忽略文件、提交更新、移除文件、移动文件](https://www.cnblogs.com/wangwenhui/p/10555261.html)
+参考： https://www.cnblogs.com/wangwenhui/p/10555261.html - *Git基础-查看当前文件状态、跟踪新文件、暂存文件、忽略文件、提交更新、移除文件、移动文件*
 
 #### 未跟踪 - *Untracked*
 
@@ -702,7 +808,7 @@ git status -s #简短格式查看文件修改状态
 
 #### 未暂存状态 - *not staged*
 
-> `not staged`  表示add过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思
+> `not staged`  表示 add 过的文件，即跟踪文件，再次修改没有 add，就是没有暂存的意思
 
 #### 暂存状态 - *Staged*
 
@@ -714,7 +820,7 @@ git status -s #简短格式查看文件修改状态
 > Git 状态 untracked 和 not staged 的区别
 >
 > 1. untrack 表示是新文件，没有被 add 过，是为跟踪的意思；
-> 2. not staged  表示 add 过的文件，即跟踪文件，再次修改没有add，就是没有暂存的意思。
+> 2. not staged  表示 add 过的文件，即跟踪文件，再次修改没有 add，就是没有暂存的意思。
 
 
 
@@ -722,11 +828,11 @@ git status -s #简短格式查看文件修改状态
 
 ### stash
 
+1. http://www.itfanr.cc/2022/07/08/git-stash/ - *git stash暂存区的使用 | IT范儿*
 
+2. https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
 
 ### rebase
-
-https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
 
 
 
@@ -866,17 +972,35 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 
 ## 常见问题
 
+### 查看某个文件的修改记录
+
+1. git log filename
+
+    可以看到 fileName 相关的 commit 记录
+
+2. git log -p filename
+
+    可以显示每次提交的 diff
+
+3. 查看某次提交中的某个文件变化，可以直接加上 fileName
+
+    git show 271622367a8934c8f046a0ccd51216c4e5f1d82d fileName
+
+4. 使用命令 git show 9ddc9dca00b --stat 查看详细更改文件列表
+
+参考：https://blog.csdn.net/sunxiaopengsun/article/details/129227548 - *git 查看某个文件的修改记录_git查看某个文件的修改记录_sunxiaopengsun的博客-CSDN博客*
+
 ### webhook
 
 - 在 Gitee 中实现
 
 - 在 GitLab 中实现
 
-- 使用 `crontab` 自动执行脚本 实现
+- 使用 `crontab` 自动执行脚本实现
 
 参考链接 👇
 
-1. https://segmentfault.com/a/1190000040540720?sort=votes - *PHP使用WebHook自动更新Git仓库部署*
+1. https://segmentfault.com/a/1190000040540720 - *PHP使用WebHook自动更新Git仓库部署*
 
 2. https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
 

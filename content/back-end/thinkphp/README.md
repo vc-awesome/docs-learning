@@ -1939,7 +1939,7 @@ function cut_out($str) {
 
 ## Composer
 
-[composer 类库](/开发框架/第三方类库)
+[composer 类库](framework/第三方类库)
 
 
 

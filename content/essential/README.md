@@ -17,6 +17,8 @@ http://c.biancheng.net/view/141.html - *进制是什么？*
 
 https://github.com/ipfs/ipfs - *GitHub - ipfs/ipfs: Peer-to-peer hypermedia protocol*
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/ipfs/ipfs?icon=github&color=blue)
+
 ## 内网穿透
 
 ### 参考

@@ -1,17 +1,17 @@
 - [Home](home/README.md)
     - **_常用文档_**
-    - [<i class="fa-duotone fa-book fa-fw"></i> 书籍](home/book.md)
+    - [<i class="fa-duotone fa-book fa-fw"></i> 学习资源](home/book.md)
     - [<i class="fa fa-warning medium-orange fa-fw"></i> 注意事项](home/README.md#warning)
     - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
-    - [<i class="fa-brands fa-bootstrap fa-fw"></i> Bootstrap](开发框架/README.md#bootstrap-🔥)
+    - [<i class="fa-brands fa-bootstrap fa-fw"></i> Bootstrap](framework/README.md#bootstrap-🔥)
     - [<i class="fa-regular fa-circle-info fa-fw"></i> 版本号](home/semver.md)
+    - [<i class="fa-duotone fa-book-font fa-fw"></i> Glossary](home/README.md#术语表)
     - [<i class="fa-duotone fa-message-code fa-fw"></i> 源码解读](home/code-analysis.md)
     - <hr />
     - [<i class="fa-duotone fa-list-tree fa-fw"></i> TOC](home/toc.md)
     - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](home/emoji.md)
     - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
-    - [<i class="fa-light fa-chart-network fa-fw"></i> DNS](essential/dns.md)
-    - [<i class="fa-duotone fa-retweet fa-fw"></i> Share](home/good-share.md "干货分享")
+    - [<i class="fa-regular fa-chart-network fa-fw"></i> DNS](essential/dns.md)
     - [<i class="fa-regular fa-language fa-fw"></i> 中英译](home/chinese-english-translate.md)
     - [<i class="fa-regular fa-laptop-mobile fa-fw"></i> 设备传输](os/tools/app-trial.md#传输工具)
 - Daily tools
@@ -26,10 +26,10 @@
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> Sublime Text](os/tools/sublime-text.md)
 - [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
-    - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
-    - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](设计模式/README.md)
+    - **_PROGRAM_**
     - [<i class="ri-key-2-line"></i> 加密](essential/crypto.md)
-    - [<i class="ri-book-3-line"></i> Glossary](home/README.md#术语表)
+    - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](essential/design-pattern/README.md)
+    - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
     - [<i class="ri-link"></i> cURL](essential/curl.md)
     - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
     - [<i class="ri-questionnaire-line"></i> API](essential/api.md)
@@ -62,6 +62,9 @@
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-thinkphp"></use></svg> ThinkPHP](back-end/thinkphp/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-composer"></use></svg> Composer](back-end/composer/README.md)
     - <hr />
+    - [<i class="fa-brands fa-golang fa-fw"></i> Go]()
+    - [<i class="fa-brands fa-python fa-fw"></i> Python]()
+    - <hr />
     - [<i class="icon octicon-file nginx-icon dark-green fa-fw"></i> Nginx](back-end/nginx.md)
     - [<i class="icon octicon-file apache-icon dark-pink fa-fw"></i> Apache](back-end/apache.md)
     - [<i class="icon octicon-file docker-icon dark-blue fa-fw"></i> Docker](back-end/docker.md "Docker")
@@ -78,11 +81,13 @@
   - [<i class="fa fa-linux fa-fw"></i> Linux](os/linux/README.md)
   - [<i class="fa fa-apple fa-fw"></i> Mac](os/mac/README.md)
   - [<i class="fal fa-mobile fa-fw"></i> Mobile](os/mobile/README.md)
+  - [<i class="fa-regular fa-bags-shopping fa-fw"></i> 应用商店](os/app-store.md)
   - <hr />
-  - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools"><i class="fa fa-wrench fa-fw"></i> TOOLS</i></strong>
+  - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools">TOOLS</i></strong>
   - [<i class="fa fa-plane medium-red"></i> &nbsp;Index](os/tools/README.md)
-  - [<i class="ri-test-tube-line medium-purple"></i> Trial](os/tools/app-trial.md)
   - [<i class="ri-search-line"></i> Search](os/tools/search.md)
+  - [<i class="ri-flask-line medium-green"></i> Trial Tools](os/tools/app-trial.md)
+  - <hr />
   - [<i class="ri-computer-line medium-purple"></i> Desktop Tools](os/tools/app-list.md)
     <!-- <i class="ri-apps-line medium-purple"></i> -->
   - [<i class="ri-smartphone-line"></i> Mobile Tools](os/mobile/mobile-app-list.md)
@@ -100,7 +105,7 @@
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-devops"></use></svg> Project DevOps](project/README.md)
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-stack"></use></svg> TechStack](tech-stack/README.md "技术栈")
-    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-kuangjia"></use></svg> 开发框架](开发框架/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-kuangjia"></use></svg> 开发框架](framework/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-gongneng"></use></svg> 功能列表](function-list/README.md)
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-aliyun"></use></svg> 阿里云](tech-stack/aliyun.md)

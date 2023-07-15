@@ -18,7 +18,14 @@
 
 `real name` 实名
 
+---
 
+https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历list吗？*
+
+- filter 过滤
+- map 映射
+- sorted 排序
+- collect 聚合
 
 ## 体彩
 
@@ -504,7 +511,76 @@
   
   https://jingyan.baidu.com/article/73c3ce2845a23ae50343d936.html - *如何使用notepad++查看和替换回车换行符-百度经验*
 
+## 小米手机系统
 
+1. `skip` 跳过
+2. `settings` 设置
+3. `wallpaper` 壁纸
+4. `album` 相册
+5. `gallery` 相册
+6. `app info` 应用信息
+7. `getapps` 应用商店
+8. `floating windows` 小窗应用
+9. 全部参数
+
+### 手机布局
+
+1. `status bar` 状态栏
+2. `control center` 控制中心
+3. `notifications` 通知
+4. `lock screen` 锁屏通知
+5. `floating` 悬浮通知
+6. `badges` 桌面角标
+
+### 应用商店
+
+1. `accept` 接受
+2. `deny` 拒绝
+3. `allow` 允许
+4. `sync` 同步
+5. `install` 安装
+6. `uninstall` 卸载
+7. `share` 分享
+8. `update` 更新
+9. `connecting pending` 等待中
+10. `holding` 等待安装
+11. `verifying` 验证中
+12. `installing` 安装中
+13. `resume` 重新开始；（中断后）继续
+14. `open` 打开
+15. `ignore this time` 忽略这次
+16. `always ignore` 总是忽略
+17. `Non-system app updates` 非系统 app 更新
+18. `System app updates` 系统 app 更新
+19. `ignored apps` 已忽略的 app 
+20. `update history` 更新历史 
+21. `All apps are up to date` 所有应用程序都是最新的
+
+## 时间日期
+
+1. `yesterday` 昨天
+2. `today` 今天
+3. `friday` 星期五
+4. `now` 现在
+
+## 天气
+
+https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *为啥30℃气温热成狗，30℃洗澡水冻成猴？*
+
+## GitHub
+
+1. `Home` 主页
+2. `My Work` 我的工作
+3. `Issues` 议题
+4. `Pull Requests` 拉取请求
+5. `Discussions` 讨论
+6. `Repositories` 仓库
+7. `Organizations` 组织
+8. `Favorites`
+9. `Shortcuts`
+10. `Notifications` 通知
+11. `Explore` 探索
+12. `Profile` 个人资料
 
 ## 参考
 

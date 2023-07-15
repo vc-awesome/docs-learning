@@ -27,3 +27,5 @@ https://mp.weixin.qq.com/s/KbUaXFWVIRAnK9MiYm27Qw - *[精选] php是如何实现
 https://www.ruanyifeng.com/blog/2017/11/2fa-tutorial.html - *双因素认证（2FA）教程 - 阮一峰的网络日志*
 
 https://github.com/ente-io/auth - *GitHub - ente-io/auth: Authenticator app for storing your 2FA secrets. Use https://web.ente.io/auth to view codes on desktop*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/ente-io/auth?icon=github&color=blue)

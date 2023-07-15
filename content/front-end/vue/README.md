@@ -1,6 +1,6 @@
 ## 官方
 
-[Vue.js](开发框架/README?id=vuejs)
+[Vue.js](framework/README.md#vuejs)
 
 ## 项目开发中遇到的问题
 
