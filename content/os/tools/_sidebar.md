@@ -31,6 +31,8 @@
   * [Postman](os/tools/postman.md)
   * [仿站工具](os/tools/webpage-downloader.md "仿站工具")
   * [Sublime Text](os/tools/sublime-text.md)
+  * [Navicat](os/tools/navicat.md)
+  * [phpMyAdmin](os/tools/phpmyadmin.md)
 
 - **自建工具**
   - [Badge](os/tools/custom-badge.md)

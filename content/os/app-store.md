@@ -72,7 +72,7 @@ Mirror：https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站
 存储库：
 
 1. https://apt.izzysoft.de/fdroid/ - *IzzyOnDroid F-Droid Repository*
-    ![](https://camo.githubusercontent.com/12ce53a3272a486325fcadce4fb282cf7287b24780a36d849a9243206b66cff6/68747470733a2f2f6769746c61622e636f6d2f497a7a794f6e44726f69642f7265706f2f2d2f7261772f6d61737465722f6173736574732f497a7a794f6e44726f69642e706e67)
+    ![Get it on IzzyOnDroid](https://camo.githubusercontent.com/12ce53a3272a486325fcadce4fb282cf7287b24780a36d849a9243206b66cff6/68747470733a2f2f6769746c61622e636f6d2f497a7a794f6e44726f69642f7265706f2f2d2f7261772f6d61737465722f6173736574732f497a7a794f6e44726f69642e706e67)
     <small>*插图来源于：[GitHub - thatsmanmeet/Clipboard-Cleaner](https://github.com/thatsmanmeet/clipboard-cleaner)*</small>
 
 2. https://guardianproject.info/fdroid/ - *Guardian Project Official App Repository*
@@ -115,7 +115,13 @@ https://m.app.mi.com/ - *小米应用商店*
 
 https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量安卓APP应用与游戏免费下载*
 
-- 支持下载“历史版本”
+- 查看历史版本：
+  - https://m.wandoujia.com/apps/280001/history - *豌豆荚老旧版本大全_所有历史官方版安装下载_豌豆荚*
+
+- ~~支持下载“历史版本”~~
+  - 更新日志
+    - 2022.07.21 - 已不支持下载历史版本
+
 
 ### 酷安
 

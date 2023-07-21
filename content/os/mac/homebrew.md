@@ -94,8 +94,12 @@ Website:
 
 已安装列表：
 
-- https://formulae.brew.sh/cask/visual-studio-code - *visual-studio-code — Homebrew Formulae*
-- https://formulae.brew.sh/cask/sublime-text - *sublime-text — Homebrew Formulae*
+1. https://formulae.brew.sh/cask/visual-studio-code - *visual-studio-code — Homebrew Formulae*
+2. https://formulae.brew.sh/cask/sublime-text - *sublime-text — Homebrew Formulae*
+3. https://formulae.brew.sh/cask/clashx - *clashx — Homebrew Formulae*
+4. https://formulae.brew.sh/cask/genymotion - *genymotion — Homebrew Formulae*
+5. https://formulae.brew.sh/cask/cheatsheet - *cheatsheet — Homebrew Formulae*
+6. https://formulae.brew.sh/cask/cyberduck - *cyberduck — Homebrew Formulae*
 
 ## 设置
 

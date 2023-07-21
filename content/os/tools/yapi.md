@@ -26,6 +26,38 @@ http://yapi.smart-xwork.cn/doc/devops/index.html - *⚠️ 推荐使用方式二
 
 https://www.cnblogs.com/1120lwk/p/14228385.html - *YApi搭建流程*
 
+## 快速入门
+
+### 数据导入
+
+官方文档：https://hellosean1025.github.io/yapi/documents/data.html
+
+Postman 数据导入
+
+1. postman 导出 collection 版本为 Collection v2
+2. 使用 postman-collection-transformer 工具将 collection v2 转换成 collection v1 版本
+   1. postman-collection-transformer
+      - 下载链接：https://www.npmjs.com/package/postman-collection-transformer
+   2. 命令行代码（使用 **Git Bash** 打开）
+
+      ```powershell
+      E:\> postman-collection-transformer convert \
+      
+      --input ./20220224_nimtech.postman_collection.json \
+      
+      --input-version 2.0.0 \
+      
+      --output ./20220224_nimtech.postman_collection_v1.0.0.json \
+      
+      --output-version 1.0.0 \
+      
+      --pretty --overwrite
+      ```
+
+3. 将转换后的文件 *./20220224_nimtech.postman_collection_v1.0.0.json* 导入至 *yapi* 接口管理平台
+
+### mock
+
 
 
 ## FAQ

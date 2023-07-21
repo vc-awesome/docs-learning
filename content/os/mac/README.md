@@ -190,6 +190,11 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 参考：https://baijiahao.baidu.com/s?id=1745189312105411581 - *Mac截图保存在哪里？*
 
+---
+
+长截图：
+
+- 借助三方工具「[iShot Pro 破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)」；如遇安装、开启问题，可查看网友评论的[解决办法](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html#comment-id-91592)。
 
 ### 开机启动项
 

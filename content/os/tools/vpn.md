@@ -179,8 +179,7 @@ https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/ShadowsocksR-Windows?color=blue&logo=github&style=flat-square)
 
-
-### Clash
+### Clash 🔥
 
 #### 工具列表
 
@@ -342,8 +341,7 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
 1. https://www.cnblogs.com/LyndonMario/p/9326176.html - *chrome神插件之：SwitchyOmega的安装设置*
 
-
-### Search engines 💪
+### Search engines
 
 ~~👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml~~
 
@@ -385,12 +383,16 @@ GitHub:
 
 Other:
 
-1. https://telegram.org/ - *Telegram Messenger* 
+1. https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
 
-2. https://www.wikipedia.org/ - *Wikipedia* 
+2. https://twitter.com/ - *Twitter -- 聚焦当下 / Twitter*
 
-3. https://typora.io/ - *Typora — a markdown editor, markdown reader.*
+3. https://telegram.org/ - *Telegram Messenger* 
 
-4. https://www.pixiv.net/ - *插画交流网站*
+4. https://www.wikipedia.org/ - *Wikipedia* 
 
-5. https://free-ss.site/ - *免费上网账号*（当开启了有效的 VPN 网络，页面中的账号列表数据为空）
+5. https://typora.io/ - *Typora — a markdown editor, markdown reader.*
+
+6. https://www.pixiv.net/ - *插画交流网站*
+
+7. https://free-ss.site/ - *免费上网账号*（当开启了有效的 VPN 网络，页面中的账号列表数据为空）

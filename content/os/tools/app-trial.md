@@ -1,5 +1,21 @@
 > 包含支持 Windows, macOS, Linux, Android, iOS 等操作系统的工具试用列表。
 
+## 模板
+
+[VSCode](https://code.visualstudio.com/) - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.*
+
+- 支持 Windows, macOS, Linux, [Web](https://vscode.dev/)
+
+- 开源软件（[GitHub](https://github.com/Microsoft/vscode/)）
+
+```md
+[]() - **
+
+- 支持 Windows, macOS, Linux, [Web]()
+
+- 开源软件（[GitHub]()）
+```
+
 ## 未分类
 
 
@@ -178,10 +194,9 @@ https://www.screentogif.com/ - *ScreenToGif - Record your screen, edit and save 
 
 ## 文件管理
 
-有些文件管理应用会内置图片查看器、音乐播放器、视频播放器、文本编辑器等，比如文件管理应用“[Solid Explorer]()”。
+有些文件管理应用会内置图片查看器、音乐播放器、视频播放器、文本编辑器等，比如文件管理应用“[Solid Explorer](https://neatbytes.com/solidexplorer/) - *Solid Explorer - a powerful Android file manager*（[破解版](https://www.yxssp.com/?s=Solid+Explorer)）”。
 
-如何知道文件管理应用含有哪些内置工具？可通过应用“[Activity Manager]()”查看。
-
+如何知道文件管理应用含有哪些内置工具？可通过应用“[Activity Manager](https://github.com/sdex/ActivityManager)”查看。
 
 ## 文本编辑器（笔记软件）
 
@@ -245,8 +260,16 @@ https://github.com/plateaukao/einkbro - *GitHub - plateaukao/einkbro: A small, f
 
 https://f-droid.org/packages/info.plateaukao.einkbro/ - *EinkBro | F-Droid - Free and Open Source Android App Repository*
 
-
 ## 实时流量监控（系统工具）
+
+### 跨平台
+
+1. [Sniffnet](https://www.sniffnet.net/) - *Whether you want to gather statistics, or you need to inspect more in depth what's going on in your network, Sniffnet will get you covered.*
+
+   - 支持 Windows, macOS, Linux
+
+
+   - 开源软件（[GitHub](https://github.com/GyulyVGC/sniffnet)）
 
 ### macOS
 

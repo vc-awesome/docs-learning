@@ -36,3 +36,26 @@ https://pkg.xyz/#how-to-install-composer - *Packagist / Composer 中国全量镜
 > The PHP Package Repository
 
 https://packagist.org/ - *Packagist*
+
+## 快速入门
+
+[“使用手册”文件夹](F:\√ 编程软件\Composer\使用手册)
+
+包含文件：
+
+1. Composer安装使用.docx
+2. Composer命令使用.docx
+
+ 
+
+via phpstorm
+
+version 2020.3
+
+https://www.jetbrains.com/help/phpstorm/2020.3/using-the-composer-dependency-manager.html
+
+
+
+version 2021.1
+
+https://www.jetbrains.com/help/phpstorm/2021.1/using-the-composer-dependency-manager.html

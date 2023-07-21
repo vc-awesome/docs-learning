@@ -253,9 +253,9 @@ FAQ：
 
 ----
 
-Website：https://vant-contrib.gitee.io/vant/
+Website：https://vant-contrib.gitee.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
 
-Website：https://youzan.github.io/vant/
+Website：https://youzan.github.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
 
 Website：https://youzan.github.io/vant-weapp/ （轻量、可靠的小程序 UI 组件库）
 
@@ -299,12 +299,11 @@ uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷�
 
 ----
 
-Website：https://www.uviewui.com/ :cn:
+Website：https://www.uviewui.com/ - *uView 2.0 - 全面兼容nvue的uni-app生态框架 - uni-app UI框架*
 
 GitHub：https://github.com/umicro/uView2.0
 
 有关详细信息，请参阅“[uView](/front-end/uniapp/uniapp%20+%20uview)”。
-
 
 ### jQuery.js
 

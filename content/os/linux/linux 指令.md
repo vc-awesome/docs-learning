@@ -269,6 +269,21 @@ https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜�
 
 `exit`
 
+#### 定时任务
+
+简介：
+
+用来定期执行程序的命令。
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-crontab.html - *Linux crontab 命令 | 菜鸟教程*
+
+示例：
+
+`* * * * /bin/ls` - *每一分钟执行一次 /bin/ls*
+
+`0 6-12/3 * 12 * /usr/bin/backup` - *在 12 月内, 每天的早上 6 点到 12 点，每隔 3 个小时 0 分钟执行一次 /usr/bin/backup*
 
 ### 网络通讯
 
@@ -295,7 +310,7 @@ https://www.runoob.com/linux/linux-comm-ping.html - *Linux ping 命令 | 菜鸟�
 用于显示或设置网络设备。
 
  用法：
- 
+
  https://www.runoob.com/linux/linux-comm-ifconfig.html - *Linux ifconfig命令 | 菜鸟教程* 
 
 示例：
@@ -307,11 +322,11 @@ https://www.runoob.com/linux/linux-comm-ping.html - *Linux ping 命令 | 菜鸟�
 简介：
 
 用于查找并显示用户信息。
- 
+
 用法：
 
 https://www.runoob.com/linux/linux-comm-whois.html - *Linux whois命令 | 菜鸟教程*
-  
+
 示例：
 
 `whois root` - *查找 root 用户信息*

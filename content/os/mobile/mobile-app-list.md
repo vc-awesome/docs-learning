@@ -14,7 +14,6 @@ https://f-droid.org/packages/com.looker.droidify/ - *Droid-ify | F-Droid - Free 
 
 https://github.com/Iamlooker/Droid-ify - *GitHub - Iamlooker/Droid-ify: F-Droid client with Material UI.*
 
-
 ## 应用管理
 
 ### App Manager

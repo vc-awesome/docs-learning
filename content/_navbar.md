@@ -84,7 +84,7 @@
   - [<i class="fa-regular fa-bags-shopping fa-fw"></i> 应用商店](os/app-store.md)
   - <hr />
   - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools">TOOLS</i></strong>
-  - [<i class="fa fa-plane medium-red"></i> &nbsp;Index](os/tools/README.md)
+  - [<i class="fa fa-plane medium-red"></i> &nbsp;Overview](os/tools/README.md)
   - [<i class="ri-search-line"></i> Search](os/tools/search.md)
   - [<i class="ri-flask-line medium-green"></i> Trial Tools](os/tools/app-trial.md)
   - <hr />

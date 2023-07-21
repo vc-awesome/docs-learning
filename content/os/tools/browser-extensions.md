@@ -400,6 +400,8 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
 
     - 👏 https://hcfy.app/blog/2022/09/28/ggg - *谷歌翻译不能用的解决方案 | 划词翻译 (hcfy.app)*
         - 修改 hosts 文件（分 3 步操作）
+            - [前提：自动化工具（获取可用 IP）](https://hcfy.app/blog/2022/09/28/ggg#自动化工具)
+            
             - [第一步：复制可用 IP](https://hcfy.app/blog/2022/09/28/ggg#%E7%AC%AC%E4%B8%80%E6%AD%A5%E5%A4%8D%E5%88%B6%E5%8F%AF%E7%94%A8-ip)
             
             - [第二步：将 IP 写入 hosts 文件中](https://hcfy.app/blog/2022/09/28/ggg#%E7%AC%AC%E4%BA%8C%E6%AD%A5%E5%B0%86-ip-%E5%86%99%E5%85%A5-hosts-%E6%96%87%E4%BB%B6%E4%B8%AD)

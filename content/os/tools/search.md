@@ -101,11 +101,7 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 #### macOS
 
 1. ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
-
 2. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
-
-3. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* （*via https://www.cnblogs.com/fdw630/p/16792457.html - macwk.com破产关站，真正原因！（免费的替代站） - FrankStan - 博客园*）
-
 
 ### 英文站
 
@@ -123,6 +119,12 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 ### 破解软件 🚫
 
+#### macOS
+
+1. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* （*via https://www.cnblogs.com/fdw630/p/16792457.html - macwk.com破产关站，真正原因！（免费的替代站） - FrankStan - 博客园*）
+
+#### Android
+
 1. https://www.yxssp.com/ - *异星软件空间 | 感受不一样的精彩体验！*
 
 2. https://www.lan-sha.com/ - *蓝鲨 - 让您在互联网的海洋里自由的遨游！*
@@ -131,7 +133,9 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 [我永远推荐你用绿色软件！](https://mp.weixin.qq.com/s?__biz=MzA5NjEwNjE0OQ==&mid=2247486715&idx=1&sn=6b916bf7f59006bdadbb3b6fffdd2f5b&chksm=90b46f31a7c3e6273213d36284ff8a3ce925215584b1428cebc612242b94ad46fe19952d7a38&scene=4&rd2werd=1#wechat_redirect) - *阿虚同学*
 
-?> 绿色软件的核心理念是**免安装、易卸载、无捆绑、无广告**。
+> 绿色软件的核心理念是**免安装、易卸载、无捆绑、无广告**。
+
+#### Windows
 
 - https://portableapps.com/zh-cn - *PortableApps*
 - https://www.liberkey.com/en.html - *LiberKey - Portable Applications*

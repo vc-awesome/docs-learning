@@ -97,3 +97,7 @@ https://www.uuidgenerator.net/ - *Online UUID Generator Tool*
 https://www.diffchecker.com/ - *Diffchecker - Compare text online to find the difference between two text files*
 
 - 可对比 Text、Images、PDF、 Excel、 Folders（Pro 版本）。
+
+## 网络工具
+
+### 网速测试
