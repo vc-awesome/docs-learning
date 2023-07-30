@@ -34,12 +34,15 @@
 
 ----
 
-_参考：_  
+_参考：_
+
 _1. https://bitwarden.com/download/ - *Install and Sync All of Your Devices | Bitwarden*_
 
-_2. https://github.com/vc-awesome/docs-learning/issues/4 - *Bitwarden · Issue #4 · vc-awesome/docs-learning · GitHub*_
+_2. https://1password.com/zh-cn - *1Password - 适用于家庭、企业、团队的密码管理器 | 1Password*_
 
-_3. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-mac/README.md at master · jaywcjlove/awesome-mac · GitHub*_
+_3. https://github.com/vc-awesome/docs-learning/issues/4 - *Bitwarden · Issue #4 · vc-awesome/docs-learning · GitHub*_
+
+_4. https://github.com/jaywcjlove/awesome-mac/blob/master/README.md - *awesome-mac/README.md at master · jaywcjlove/awesome-mac · GitHub*_
 
 
 ----

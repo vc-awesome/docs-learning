@@ -102,9 +102,10 @@ chrome://flags/
 3. https://blog.csdn.net/zhaojunjie_dream/article/details/80021064 - *如何通过Chrome打断点的方法调试代码*
 
 ---
-created: 2023-07-08T10:41:56
-source: https://www.coder.work/article/7755331
-author: 
+created: 2023-07-08T10:41:56  
+source: https://www.coder.work/article/7755331  
+author:
+
 ---
 
 Chrome 浏览器禁止 http 自动转成 https
@@ -146,28 +147,36 @@ https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试
 
 ## 搜索引擎
 
-https://www.baidu.com/ - *百度*
+国内：
 
-https://www.google.com/ - *谷歌*
+1. https://www.baidu.com/ - *百度*
 
-https://www.bing.com/ - *Microsoft Bing、必应*
+2. https://www.bing.com/ - *Microsoft Bing、必应*
 
-https://www.qwant.com - *Qwant - The search engine that respects your privacy*
+3. https://www.qwant.com/ - *Qwant - The search engine that respects your privacy*
 
-https://yandex.com/ - *Yandex*
+4. https://yandex.com/ - *Yandex*
 
-https://duckduckgo.com/ - *DuckDuckGo*
+国际：
 
-https://www.runoob.com/w3cnote/search-engines-usage-skills.html - *盘点全球搜索引擎及其使用技巧 | 菜鸟教程*
+1. https://www.google.com/ - *谷歌*
+
+2. https://duckduckgo.com/ - *DuckDuckGo*
+
+3. https://www.startpage.com/ - *Startpage - Private Search Engine. No Tracking. No Search History.*
+
+### 使用技巧
+
+1. https://www.runoob.com/w3cnote/search-engines-usage-skills.html - *盘点全球搜索引擎及其使用技巧 | 菜鸟教程*
 
 
 ### 如何快速切换搜索引擎
 
-http://www.360doc.com/content/20/1027/14/68850920_942627324.shtml - *Chrome浏览器如何添加自定义搜索引擎以及快速切换搜索引擎*
+1. http://www.360doc.com/content/20/1027/14/68850920_942627324.shtml - *Chrome浏览器如何添加自定义搜索引擎以及快速切换搜索引擎*
 
-https://blog.51cto.com/u_3826358/3832030 - *Chrome浏览器添加自定义搜索引擎-快速切换搜索引擎*
+2. https://blog.51cto.com/u_3826358/3832030 - *Chrome浏览器添加自定义搜索引擎-快速切换搜索引擎*
 
-https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索引擎*
+3. https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索引擎*
 
 
 ## 浏览器快捷键

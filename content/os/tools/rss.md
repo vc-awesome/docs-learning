@@ -1,36 +1,48 @@
+## Introduction
+
+> 简易信息聚合（也叫聚合内容）是一种基于XML的标准，在互联网上被广泛采用的内容包装和投递协议。RSS(Really Simple Syndication)是一种描述和同步网站内容的格式，是使用最广泛的XML应用。RSS搭建了信息迅速传播的一个技术平台，使得每个人都成为潜在的信息提供者。发布一个RSS文件后，这个RSS Feed中包含的信息就能直接被其他站点调用，而且由于这些数据都是标准的XML格式，所以也能在其他的终端和服务中使用，是一种描述和同步网站内容的格式。[1]RSS可以是以下三个解释的其中一个： Really Simple Syndication；RDF (Resource Description Framework) Site Summary； Rich Site Summary。但其实这三个解释都是指同一种Syndication的技术。
+> 
+> —— https://baike.baidu.com/item/rss/24470 - *rss_百度百科*
+
 ## Link
 
-https://zhuanlan.zhihu.com/p/349349861 - *知道RSS的人越少，我就越希望它能被人知道！*
+1. https://zhuanlan.zhihu.com/p/349349861 - *知道RSS的人越少，我就越希望它能被人知道！*
 
 ## Book
 
-https://www.zhihu.com/question/19580096 - *你必读的 RSS 订阅源有哪些？*
+1. https://www.zhihu.com/question/19580096 - *你必读的 RSS 订阅源有哪些？*
 
-https://www.jianshu.com/p/09facfd11756 - *如何对优质内容进行Rss订阅？*
+2. https://www.jianshu.com/p/09facfd11756 - *如何对优质内容进行Rss订阅？*
 
-https://zhuanlan.zhihu.com/p/100086971 - *RSS订阅傻瓜式教程*
+3. https://zhuanlan.zhihu.com/p/100086971 - *RSS订阅傻瓜式教程*
 
-https://www.bilibili.com/read/cv13362124 - *RSS 订阅源整理*
+4. https://www.bilibili.com/read/cv13362124 - *RSS 订阅源整理*
 
 
 ## 订阅源
 
-https://github.com/timqian/chinese-independent-blogs#博客列表 - *GitHub - timqian/chinese-independent-blogs: 中文独立博客列表*
+1. https://github.com/timqian/chinese-independent-blogs#博客列表 - *GitHub - timqian/chinese-independent-blogs: 中文独立博客列表*
+    
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/timqian/chinese-independent-blogs?icon=github&color=blue)
 
-https://rsshub.rssforever.com/ - *Welcome to RSSHub!*
+2. ~~https://rsshub.rssforever.com/ - *Welcome to RSSHub!*~~
 
-~~https://rsshub.app/~~
+3. ~~https://rsshub.app/ - *Welcome to RSSHub!*~~
 
 
 ## Tool
 
 ### Fluent Reader
 
-https://github.com/yang991178/fluent-reader - *Modern desktop RSS reader built with Electron, React, and Fluent UI*
+https://github.com/yang991178/fluent-reader/ - *Modern desktop RSS reader built with Electron, React, and Fluent UI*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/yang991178/fluent-reader?icon=github&color=blue)
 
 - 支持 Windows, macOS, Linux
 
-https://github.com/yang991178/fluent-reader-lite - *Simplistic mobile RSS client built with Flutter*
+https://github.com/yang991178/fluent-reader-lite/ - *Simplistic mobile RSS client built with Flutter*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/yang991178/fluent-reader-lite/?icon=github&color=blue)
 
 - 支持 iOS, Android
 
@@ -42,8 +54,9 @@ https://github.com/yang991178/fluent-reader-lite - *Simplistic mobile RSS clien
 
 ### Feeder 👍
 
-[Feeder](/os/mobile/?id=feeder)
-<i class="fa fa-android light-green"></i> - *An awesome Libre and Open Source RSS feed reader*
+[Feeder](os/mobile/mobile-app-list.md#feeder) - *An awesome Libre and Open Source RSS feed reader*
+
+- 支持 Android
 
 
 ### Feeds Pub
@@ -59,7 +72,7 @@ https://rss.rssforever.com/ - *登录 · FreshRSS* ⇒ *via [GitHub Proxy 代理
 
 🏷️ Web browser
 
-> Username : _vc_  
+> Username : _`vc`_  
 > Password : _ba***03_
 
 
@@ -69,9 +82,13 @@ https://rss.rssforever.com/ - *登录 · FreshRSS* ⇒ *via [GitHub Proxy 代理
 
 https://github.com/DIYgod/RSSHub-Radar - *🍰 Browser extension that simplifies finding and subscribing RSS and RSSHub*
 
-https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa
+![GitHub last commit](https://flat.badgen.net/github/last-commit/DIYgod/RSSHub-Radar?icon=github&color=blue)
 
-https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/ - *RSSHub Radar – 下载 🦊 Firefox 扩展（zh-CN）*
+安装：
+
+1. https://chrome.google.com/webstore/detail/kefjpfngnndepjbopdmoebkipbgkggaa
+
+2. https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/ - *RSSHub Radar – 下载 🦊 Firefox 扩展（zh-CN）*
 
 参考链接：
 
@@ -83,6 +100,8 @@ https://addons.mozilla.org/zh-CN/firefox/addon/rsshub-radar/ - *RSSHub Radar –
 
 https://nodetics.com/feedbro/ - *Feedbro - RSS Feed Reader with built-in Rule Engine*
 
-https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa
+安装：
 
-https://addons.mozilla.org/zh-CN/firefox/addon/feedbroreader/
+1. https://chrome.google.com/webstore/detail/feedbro/mefgmmbdailogpfhfblcnnjfmnpnmdfa
+
+2. https://addons.mozilla.org/zh-CN/firefox/addon/feedbroreader/ - *Feedbro – 下载 🦊 Firefox 扩展（zh-CN）*

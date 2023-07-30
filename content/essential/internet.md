@@ -69,18 +69,70 @@ https://baijiahao.baidu.com/s?id=1739517958748188465 - *什么是TCP？什么是
 
 ## 传输协议
 
+应用层：
 - HTTP
 - [SSL/TLS](essential/http.md#ssltls)
-- TCP/UDP
-- TCP/IP
-- Bittorrent
-- SMTP
-- FTP
 - DNS
+- FTP
+- SMTP
+- Bittorrent
+
+传输层：
+- TCP/UDP
+
+其他：
+- TCP/IP
 - ICMP
 
 
 MAC地址（Media Access Control Address）
+
+## 宽带速率
+
+计算方式：
+
+1Mbps 属于的是 3G 网速，1Mbps = 128kb/s，意思是 1M bit/s，而 1字节是 8bit，所以 1Mbps 换算成字节计算的理想通信速率是 0.125MB/s，也就是 128 KB/s。
+
+Mbps 是 Million bits per second 的缩写，Mbps = Mbit/s 即兆比特每秒，它的意思是时间内传输数据的平均比特数。
+
+换算单位关系为：
+
+1Kbps = 1024bps
+
+1Mbps = 1024 * 1024bps
+
+有时为了计算简单记作
+
+1Kbps = 1000bps
+
+1Mbps= 1000000bps
+
+> 在实际书写规范和应用中，大写 B 表示字节，小写 b 表示位，他们之间的换算关系为：1字节 = 8位，即 1Byte = 8bit，简写为 1B = 8b。
+> 
+> 示例：
+> 
+> 带宽为：1Mbps 时（运营商标称的带宽）
+> 
+> 网速为：1 * 1024 / 8 = 128KBps（手机状态栏显示的网速：128K/s）（实际上网时的下载速度）
+> 
+> 参考：
+> 1. https://baijiahao.baidu.com/s?id=1738193399054969334 - *一文读懂宽带、带宽、网速之间的区别与关系*
+> 2. https://m.sohu.com/a/518052884_121107021 - *带宽是什么？_手机搜狐网*
+
+参考：
+
+1. https://baijiahao.baidu.com/s?id=1726067004455310126 - *1mbps是多少网速能干什么*
+
+2. https://zhidao.baidu.com/question/249629492048758604/answer/4171572506.html - *1Mbps是多少兆的网络*
+
+3. https://product.pconline.com.cn/itbk/top/1901/12271445.html - *1mbps什么意思-太平洋IT百科手机版*
+
+4. https://baike.baidu.com/item/网络带宽/6120475 - *网络带宽_百度百科*
+
+5. https://itc.jnmc.edu.cn/2021/1020/c1949a124583/pagem.htm - *一文读懂内网、外网、宽带、带宽、流量、网速之间的区别与联系！*
+
+6. https://baijiahao.baidu.com/s?id=1761710048834795021 - *带宽与网速究竟有啥差别？其实是两个不同概念，很多人都分不清！*
+
 
 ## 术语表
 

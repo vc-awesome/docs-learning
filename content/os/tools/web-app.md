@@ -100,4 +100,12 @@ https://www.diffchecker.com/ - *Diffchecker - Compare text online to find the di
 
 ## 网络工具
 
+http://tool.zhiduopc.com/ - *站长工具_全球ping_路由检测_端口检测_MTR检测_劫持检测_GFW检测_ICP备案查询_SEO查询_IP地址查询_可用IP查询 - 智多站长工具*
+
 ### 网速测试
+
+https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确的测试自己的网速？ - 小辣椒高效Office 的回答 - 知乎*
+
+1. https://10000.gd.cn/html5-speedtest/#/ - *宽带测速平台*
+
+2. https://test.nju.edu.cn/ - *南大测速 NJU Test*

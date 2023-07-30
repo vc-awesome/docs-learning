@@ -119,3 +119,9 @@ https://github.com/markyun/My-blog - *马云云的Github博客，记录一些学
 https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
 
 https://github.com/ljianshu/Blog - *GitHub - ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者*
+
+# 微信公众号
+
+[码农老张](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxODQyNTU1MA==&scene=124#wechat_redirect)
+
+https://www.zyblog.com.cn/ - *ZyBlog码农老张*

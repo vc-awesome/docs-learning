@@ -1,8 +1,8 @@
-* [Tools](os/tools/)
+* [Overview](os/tools/)
 * [Search](os/tools/search.md)
 * **应用列表**
   * [Trial Tools](os/tools/app-trial.md)
-  * [PC Tools](os/tools/app-list.md)
+  * [Desktop Tools](os/tools/app-list.md)
   * [Web Tools](os/tools/web-app.md "在线工具")
 * **浏览器**
   * [Browser](os/tools/browser.md "浏览器")
@@ -33,7 +33,6 @@
   * [Sublime Text](os/tools/sublime-text.md)
   * [Navicat](os/tools/navicat.md)
   * [phpMyAdmin](os/tools/phpmyadmin.md)
-
 - **自建工具**
   - [Badge](os/tools/custom-badge.md)
   - [Search](os/tools/custom-search.md)

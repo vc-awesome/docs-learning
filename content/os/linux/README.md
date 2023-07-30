@@ -25,7 +25,7 @@ https://www.linux.org/pages/download/ - *Download Linux | Linux.org*
 
 ## 教程
 
-菜鸟教程：https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
+https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
 
 ## 入门指南
 
@@ -34,6 +34,8 @@ https://www.linux.org/pages/download/ - *Download Linux | Linux.org*
 https://www.runoob.com/linux/linux-system-contents.html - *Linux 系统目录结构 | 菜鸟教程*
 
 ## 系统
+
+http://mirrors.kernel.org/ - *mirrors.kernel.org*
 
 ### CentOS
 

@@ -203,6 +203,12 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 
 `cp [选项] [源文件或目录] [目标文件或目录]`
 
+#### sed
+
+https://wangchujiang.com/linux-command/c/sed.html - *sed 命令，Linux sed 命令详解：功能强大的流式文本编辑器 - Linux 命令搜索引擎*
+
+https://www.runoob.com/linux/linux-comm-sed.html - *Linux sed 命令 | 菜鸟教程*
+
 ### 系统管理
 
 #### 查看系统信息
@@ -224,6 +230,8 @@ https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教�
 - 查看环境变量
 
   `env` 或者 `printenv`
+  
+  https://wangchujiang.com/linux-command/c/env.html - *env 命令，Linux env 命令详解：显示系统中已存在的环境变量 - Linux 命令搜索引擎*
 
 - 设置环境变量
 
@@ -363,6 +371,10 @@ https://wangchujiang.com/linux-command/c/dig.html - *dig 命令，Linux dig 命�
 
 `dig github.com`
 
+参考：
+
+https://zhuanlan.zhihu.com/p/377555624 - *DNS解析-dig工具的使用*
+
 
 ### 清屏
 
@@ -377,3 +389,7 @@ https://wangchujiang.com/linux-command/c/dig.html - *dig 命令，Linux dig 命�
 2. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=10153 - *安装第三方PHP扩展示例 - Linux面板 - 宝塔面板论坛*
 
 3. https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程* （🫱 查看文档标题「CentOS 下源码安装 Node.js」下的内容）
+
+### 通过Shell脚本快速进入指定目录
+
+https://blog.csdn.net/han8040laixin/article/details/81268346 - *Linux下通过Shell脚本快速进入指定目录_shell脚本进入指定目录__来信的博客-CSDN博客*

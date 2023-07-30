@@ -35,15 +35,23 @@
 
 ## 浏览器加载过程
 
-https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
+1. https://web.dev/howbrowserswork/ - *How browsers work*
 
-https://juejin.cn/post/6844903815758479374 - *你不知道的浏览器页面渲染机制 - 掘金*
+2. https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work - *渲染页面：浏览器的工作原理 - Web 性能 | MDN*
 
-https://blog.csdn.net/Littlegirlha/article/details/128383854 - *浏览器加载网页的过程_小许还在编程的博客-CSDN博客*
+3. https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
 
-https://suanmei.github.io/2017/02/11/url2render-part1/ - *从输入url到浏览器显示页面，发生了什么？（网络通信篇） | 拾壹小筑*
+4. https://juejin.cn/post/6844903815758479374 - *你不知道的浏览器页面渲染机制 - 掘金*
 
-https://suanmei.github.io/2017/02/12/url2render-part2/ - *从输入url到浏览器显示页面，发生了什么？（浏览器渲染篇） | 拾壹小筑*
+5. https://blog.csdn.net/Littlegirlha/article/details/128383854 - *浏览器加载网页的过程_小许还在编程的博客-CSDN博客*
+
+---
+
+1. https://suanmei.github.io/2017/02/11/url2render-part1/ - *从输入url到浏览器显示页面，发生了什么？（网络通信篇） | 拾壹小筑*
+
+2. https://suanmei.github.io/2017/02/12/url2render-part2/ - *从输入url到浏览器显示页面，发生了什么？（浏览器渲染篇） | 拾壹小筑*
+
+---
 
 1. `document.addEventListener("DOMContentLoaded", function() {});`
 

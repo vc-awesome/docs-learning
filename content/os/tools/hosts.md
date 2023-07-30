@@ -36,6 +36,10 @@ https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
 #	::1             localhost
 ```
 
+## Tutorials
+
+https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHub*
+
 ## Link
 
 http://ddrfans.com/Html/1/301864.html - _hosts文件修改方法集合(附各种问题解决方法) | 更新日期：2023/1/14,DDR爱好者之家 - 无损音乐,高清电影,福利资源,技术教程,磁力下载,网盘云盘资源_
@@ -47,42 +51,52 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 ## Tool
 
-### SwitchHosts
+### 电脑端
 
-?> Switch hosts quickly!
+#### SwitchHosts
+
+> Switch hosts quickly!
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/oldj/SwitchHosts?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/oldj/SwitchHosts?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/oldj/SwitchHosts?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/oldj/SwitchHosts?style=social)
 
+---
+
 <i class="fa fa-laptop"></i> https://switchhosts.vercel.app/
 
 <i class="fa fa-github fa-lg"></i> https://github.com/oldj/SwitchHosts
 
-https://github.com/oldj/SwitchHosts/releases
+下载：https://github.com/oldj/SwitchHosts/releases
+
 - 支持 Windows, macOS, Linux
 
 
-### 手机应用
+### 手机端
 
 1. [Daedalus](os/mobile/mobile-app-list.md#daedalus)
+
 2. [personalDNSfilter](os/mobile/mobile-app-list.md#personaldnsfilter)
+
 3. [AdAway](os/mobile/mobile-app-list.md#adaway)
 
 ## Rules（订阅源）
 
-### Google
+### ~~Google~~
 
 搜索引擎、GitHub 搜索：_google host_
 
 - https://github.com/y1yang0/hosts
+
     ![](https://flat.badgen.net/github/last-commit/y1yang0/hosts?icon=github&color=blue)
 
 - https://github.com/googlehosts/hosts
+
     ![](https://flat.badgen.net/github/last-commit/googlehosts/hosts?icon=github&color=blue)
 
 - https://github.com/lennylxx/ipv6-hosts
+
     ![](https://img.shields.io/github/last-commit/lennylxx/ipv6-hosts?color=blue&logo=github&style=flat-square)
 
 - https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*
@@ -91,9 +105,11 @@ https://github.com/oldj/SwitchHosts/releases
 
 #### 521xueweihan/GitHub520
 
-![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github&style=flat-square) ![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+> :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
 
-GitHub: https://github.com/521xueweihan/GitHub520 - *521xueweihan/GitHub520: :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+![](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+
+GitHub: https://github.com/521xueweihan/GitHub520
 
 远程 URL：`https://raw.hellogithub.com/hosts`
 

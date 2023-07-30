@@ -32,6 +32,7 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 - mov
 - mkv
 - avi
+- ts
 
 ## 音频格式
 
@@ -47,6 +48,12 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 - svg
 - gif
 
+## 功能
+
+- 倍速播放
+- 长按倍速播放
+    - https://mp.weixin.qq.com/s/-ueYRz90Amwhmb1r7etCHg - *B站同款功能！这些特殊播放器，很难不爱上啊*
+- 视频书签
 
 ## 工具
 
@@ -81,3 +88,21 @@ http://www.kodiplayer.cn/plugins/ - *Kodi插件 - Kodi中文网*
 #### 皮肤
 
 http://www.kodiplayer.cn/skins/ - *Kodi皮肤 - Kodi中文网*
+
+### MPV
+
+#### 简介
+
+> mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
+
+#### 官方
+
+Website: https://mpv.io/ - *mpv.io*
+
+GitHub: https://github.com/mpv-player/mpv - *GitHub - mpv-player/mpv: 🎥 Command line video player*
+
+#### 安装
+
+https://mpv.io/installation/ - *mpv.io | Installation*
+
+https://github.com/mpv-android/mpv-android - *GitHub - mpv-android/mpv-android: #mpv-android @ libera.chat*

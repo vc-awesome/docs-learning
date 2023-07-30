@@ -5,7 +5,9 @@
 #### 阿虚同学
 
 - https://github.com/axutongxue/ - *axutongxue (阿虚同学) · GitHub*
+
 - https://axutongxue.com/ - *阿虚同学的储物间*
+
 - 分类目录
     - _04 电脑常用 / 05.浏览器_
     - _07 常用网站 / 05.优质软件下载站 / 只提供绿色软件_
@@ -13,8 +15,14 @@
     - _07 常用网站 / 06.国外破解软件下载站_
     - _07 常用网站 / 07.Mac破解软件下载站_
     - _07 常用网站 / 14.临时传文件_
+
 - https://mp.weixin.qq.com/s/AB20kTElh-o2o5B4m-M67Q - *《往期原创文章分类整理目录》*
+
 - https://data.newrank.cn/m/s.html?s=NykqOiw2LjJJPw - *阿虚同学-号内搜*
+
+- https://www.zhihu.com/people/Kyon945 - *阿虚同学 - 知乎*
+
+- 💡 在微信内置浏览器中打开文章链接，查看留言区更多优质解答内容。
 
 
 #### 更多
@@ -63,9 +71,9 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 #### Android
 
-https://github.com/search?o=desc&q=Awesome-android-app&s=stars&type=Repositories - *Search · Awesome-android-app · GitHub*
+1. https://github.com/search?o=desc&q=Awesome-android-app&s=stars&type=Repositories - *Search · Awesome-android-app · GitHub*
 
-https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Search · Android app · GitHub*
+2. https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Search · Android app · GitHub*
 
 
 ## 下载渠道
@@ -117,6 +125,44 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 1. https://www.sordum.org/ - *Simplify Your computer Usage*
 
+#### Android（含破解版）
+
+知乎搜索：*国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?*
+
+http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
+
+墙内：
+
+1. https://apkmod.cc/ - *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
+
+    - 含 Mod 破解版
+
+2. https://www.apkmirror.com/ - *APKMirror - Free APK Downloads - Free and safe Android APK downloads*
+
+    - 支持下载“历史版本”
+
+3. https://apkdone.com/ - *#1 The Best Downloader for MOD APK files - APKdone*
+
+    - 含 Mod 破解版
+
+4. https://www.gnradar.com/ - *GN Radar- Latest Mobiles, Android Applications and Stock Wallpapers*
+
+5. https://dlandroid.com/ - *Download Mod Apk Games & Apps Android | DlAndroid*
+
+6. https://www.happymod.ru/ - *HappyMod APK Download - Загрузите приложение HappyMod и миллионы Android Mod APK на Happymod.ru.*
+
+7. https://pdalife.to/ - *Приложения для Андроид и iOS - PDALIFE.to*
+
+墙外：
+
+1. https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* [配置 hosts](https://zhuanlan.zhihu.com/p/47225701)
+
+### 俄文站
+
+#### Windows
+
+1. https://lrepacks.net/ - *作者从 ELCHUPACABRA 重新打包 - REPACK 下载*
+
 ### 破解软件 🚫
 
 #### macOS
@@ -131,7 +177,7 @@ https://github.com/search?o=desc&q=Android+app&s=stars&type=Repositories - *Sear
 
 ### 绿色软件 🔥
 
-[我永远推荐你用绿色软件！](https://mp.weixin.qq.com/s?__biz=MzA5NjEwNjE0OQ==&mid=2247486715&idx=1&sn=6b916bf7f59006bdadbb3b6fffdd2f5b&chksm=90b46f31a7c3e6273213d36284ff8a3ce925215584b1428cebc612242b94ad46fe19952d7a38&scene=4&rd2werd=1#wechat_redirect) - *阿虚同学*
+[我永远推荐你用绿色软件！](https://mp.weixin.qq.com/s/O6SmradOaLQ9sgQUm-EkuA) - *阿虚同学*
 
 > 绿色软件的核心理念是**免安装、易卸载、无捆绑、无广告**。
 

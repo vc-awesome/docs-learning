@@ -1,27 +1,3 @@
-> 文档进阶之路：*记事本 > Word 文档 > Markdown > Docsify*
-
-<div class="flash-messages"><div class="flash">
-
-```mermaid
-stateDiagram
-    direction LR
-    
-    [*] --> 🛫┆🥳┆🛬
-    🛫┆🥳┆🛬 --> [*]    
-    
-    Browsers --> 有道云笔记
-    Browsers --> GitHub_Issue
-    Browsers --> Markor/Typora
-    
-    GitHub_Issue --> Markor/Typora
-    GitHub_Issue --> 有道云笔记
-
-    有道云笔记 --> Markor/Typora
-    Markor/Typora --> 有道云笔记
-    Markor/Typora --> GitHub
-```
-</div>
-<br/>
 <div class="flash-messages"><div class="flash">
 
 *技术可以学，难得的是如何找到好的学习资源。*

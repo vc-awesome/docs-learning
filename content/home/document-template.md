@@ -26,14 +26,16 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
   - 参考文献
 - `Index` - *索引*
 - `Keyword search` - *关键词搜索*
-- `Technologies` - *技术列表* *via https://github.com/gsantner/markor*
-- `Who uses` - *谁在使用* *via https://github.com/kucherenko/jscpd*
+- `Technologies` - *技术列表* *[via](https://github.com/gsantner/markor)*
+- `Who uses` - *谁在使用* *[via](https://github.com/kucherenko/jscpd)*
 - `Glossary` - *术语表*
 - `Tool` - *工具*
 
 </output>
 
 ## 参考
+
+🏆 https://sspai.com/post/68349 - *中文技术文档书写指东 - 少数派*
 
 <output data-lang="output">
 
@@ -133,18 +135,18 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
     ⵈ
     ```
     
-    角括号：`「」`
-    空心角括号：`『』`
-    方括号（英文）：`[]`
-    方括号（全角）：`［］`
-    书名号：`《》`
-    单书名号：`〈〉`
-    连字符：`-`
-    尖括号：`‹›`
-    尖括号（全角）：`＜＞`
-    尖括号（英文）：`<>`
-    省略号：`……`
-    省略号（英文）：`......`
+    - 角括号：`「」`
+    - 空心角括号：`『』`
+    - 方括号（英文）：`[]`
+    - 方括号（全角）：`［］`
+    - 书名号：`《》`
+    - 单书名号：`〈〉`
+    - 连字符：`-`
+    - 尖括号：`‹›`
+    - 尖括号（全角）：`＜＞`
+    - 尖括号（英文）：`<>`
+    - 省略号：`……`
+    - 省略号（英文）：`......`
     
 - FAQ
 
@@ -190,7 +192,7 @@ _编写 “工具使用文档” 模板，参考下列 ✍🏻_
 - 工具 `Tool`
 - 原理
 - 场景（使用场景） `Scene`
-- 前期准备 `Prepare`/Get ready
+- 前期准备 `Prepare` / `Get ready`
 - 利弊
 - 实例 `Example`
 - 最佳实践 `Recipes`
@@ -245,7 +247,15 @@ https://choosealicense.com/licenses/ - *Licenses | Choose a License*
 
 主页：https://creativecommons.org/ - *When we share, everyone wins - Creative Commons*
 
-示例：本页面使用 [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/) 授权
+示例：本页面使用 [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/) 授权。
+
+## 更新日志
+
+> Changelog
+
+参考：
+
+1. https://drip-table.jd.com/drip-table/changelog - *更新日志 Changelog*
 
 ## 常用模板
 

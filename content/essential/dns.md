@@ -4,7 +4,15 @@
 
 ## 教程
 
+https://ephen.me/2017/PublicDns_1/ - *使用公共 DNS 上网的弊端（一） | Ephen‘s Blog*
 
+https://ephen.me/2017/PublicDns_2/ - *使用公共 DNS 上网的弊端（二） | Ephen‘s Blog*
+
+https://selfboot.cn/2015/11/05/dns_theory/ - *从理论到实践，全方位认识DNS（理论篇） | Just For Fun*
+
+https://selfboot.cn/2015/11/14/dns_practice/ - *从理论到实践，全方位认识DNS（实践篇） | Just For Fun*
+
+https://blog.skk.moe/post/i-have-my-unique-dns-setup/ - *我有特别的 DNS 配置和使用技巧 | Sukka's Blog*
 
 ## DNS 域名商
 
@@ -26,7 +34,7 @@ https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - 
 | ---------- | --------------- | -------------- | ---------------------------------------------------------- | ---------------------------------------------------------- |
 | 1      | 谷歌       | `8.8.8.8`       | `8.8.4.4`      | [官方链接](https://developers.google.com/speed/public-dns) |
 | 2      | 百度       | `180.76.76.76`  |                |                                                            |
-| 3       | 114        | `114.114.114.114` |                |                                                            |
+| 3       | 114        | `114.114.114.114` | `114.114.115.115` | [官方链接](https://www.114dns.com/)                                                           |
 | 4      | 腾讯       | `119.29.29.29`  |                |                                                            |
 | 5    | 阿里     | `223.5.5.5`     | `223.6.6.6`    | [官方链接](https://www.alidns.com/)                        |
 | 6      | 微软       | `4.2.2.1`       | `4.2.2.2`      |                                                            |
@@ -51,8 +59,12 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS - *阿里公共DNS*
 dns.alidns.com
 ```
 
-```IPv4
+```IPv4（首选）
 223.5.5.5
+```
+
+```IPv4（备用）
+223.6.6.6
 ```
 
 ```DoH
@@ -61,8 +73,24 @@ https://dns.alidns.com/dns-query
 
 ### AdGuard 公共 DNS
 
+主页：
+
+🪜 https://adguard-dns.io/zh_cn/welcome.html - *AdGuard DNS — 拦截广告的 DNS 服务器*
+
+配置文档：
+
+https://adguard-dns.io/zh_cn/public-dns.html - *连接到公共 AdGuard DNS 服务器*
+
 ```uri
 dns.adguard-dns.com
+```
+
+```IPv4（首选）
+94.140.14.140
+```
+
+```IPv4（备用）
+94.140.14.141
 ```
 
 ```DoH
@@ -79,8 +107,12 @@ https://sdns.360.net/ - *360安全DNS*
 
 https://sdns.360.net/dnsPublic.html - *360安全DNS*
 
-```IPv4
+```IPv4（首选）
 101.226.4.6
+```
+
+```IPv4（备用）
+218.30.118.6
 ```
 
 ```DoH
@@ -182,7 +214,7 @@ GitHub: https://github.com/DNSCrypt/dnscrypt-proxy - *DNSCrypt/dnscrypt-proxy: d
 
 ### 终端工具
 
-- *`nslookup`* 命令
+[nslookup](os/linux/linux%20指令.md#nslookup) 命令
 
 ### AdGuard 🔥
 
@@ -229,8 +261,21 @@ Website: https://pymumu.github.io/smartdns/ - *SmartDNS*
 GitHub: https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*
 - 支持 Windows, Linux, macOS
 
+### 手机应用
+
+#### DnsChanger
+
+https://git.frostnerd.com/PublicAndroidApps/DnsChanger - *PublicAndroidApps / DnsChanger · GitLab*
+
 ## FAQ
 
 1. https://sspai.com/post/42125 - *网速变慢？你可能需要先设置好 DNS | 科普*
 
 ### 手机移动网络/WLAN网络如何查看 DNS 服务器地址
+
+> 手机品牌：`XIAOMI`  
+> 手机型号：`Redmi Note 11T Pro`  
+> 手机系统：`MIUI 14.0.3`
+
+操作步骤：打开 *应用 > 设置 > 双卡与移动网络 > （滑动至页面底部）高级设置 > （滑动至页面底部）*，就可以查看到 IP 地址和 DNS 服务器地址。
+

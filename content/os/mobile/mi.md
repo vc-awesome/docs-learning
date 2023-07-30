@@ -50,7 +50,7 @@ https://s.xiaomi.cn/c/8qK7lYlC - *🏷️ 小米社区*
 
     操作步骤：*使用 [区域截屏](#区域截屏) 功能截取需要提取的文字 > 点击底部“分享”按钮 > 选择可文字识别的应用 > 在文字识别应用中提取文字*
     
-    可选文字识别应用：*百度翻译、[Yander Browser](browser.md) - 智能摄像头（推荐）*
+    可选文字识别应用：*百度翻译、[Yander Browser](os/mobile/browser.md#yander-browser) - 智能摄像头（推荐）*
 
 ## 屏幕录制
 

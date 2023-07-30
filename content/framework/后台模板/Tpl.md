@@ -1,20 +1,23 @@
 ## 模板列表
 
-### UminiCMF
+### ~~UminiCMF~~
 
 > 基于 ThinkPHP 3.2.3
 > 开发秒级开发，部署简单，界面精简，轻松打造你的 cms。
 > 可以扩展开发 app 后台，网站后台，商城后台，以及各种管理系统。
 > 它不是内容管理系统，他是更高级开发内容管理系统的系统。（属于 cmf 框架）。
 
-后台测试  
-http://uminicmf.com/uminicmf3/system  
-test  test
+后台测试：
+http://uminicmf.com/uminicmf3/system
 
-Git 地址  
+测试账号：test
+
+测试密码：test
+
+Gitee 地址：
 https://gitee.com/duerhong/uminicmf3.0
 
-### hdcms
+### ~~hdcms~~
 
 > 基于 Laravel 框架的内容管理系统
 

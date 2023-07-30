@@ -1,3 +1,5 @@
+## 官方
+
 https://www.aliyun.com/ - *阿里云-为了无法计算的价值* 🏷️ _国内版_
 
 https://www.alibabacloud.com/ - *Alibaba Cloud: Cloud Computing Services*🏷️  _国际版_
@@ -71,11 +73,11 @@ https://developer.aliyun.com/article/708815 - *如何远程连接阿里云服务
 
 官方链接：https://www.aliyun.com/product/oss
 
-1. [对象存储OSS](https://help.aliyun.com/product/31815.html) - *对象存储 OSS*
-2. [设置跨域](https://blog.csdn.net/qq_41570658/article/details/106492447) - *阿里云OSS设置跨域访问*
-3. [域名配置及简单上传](https://blog.csdn.net/niaoer2010/article/details/89100017) - *阿里云OSS域名配置及简单上传*
-4. [OSS访问域名使用规则](https://help.aliyun.com/document_detail/31834.html) - *OSS访问域名使用规则*
-5. [如何获取阿里云oss所需的bucket和endpoint?](https://newsn.net/say/aliyun-oss-bucket-endpoint.html) - *如何获取阿里云oss所需的bucket和endpoint?*
+1. https://help.aliyun.com/product/31815.html - *对象存储 OSS*
+2. https://blog.csdn.net/qq_41570658/article/details/106492447 - *阿里云OSS设置跨域访问*
+3. https://blog.csdn.net/niaoer2010/article/details/89100017 - *阿里云OSS域名配置及简单上传*
+4. https://help.aliyun.com/document_detail/31834.html - *OSS访问域名使用规则*
+5. https://newsn.net/say/aliyun-oss-bucket-endpoint.html - *如何获取阿里云oss所需的bucket和endpoint?*
 
 ### 工具
 
@@ -121,7 +123,7 @@ $options = array(
 );
 ```
 
-https://help.aliyun.com/document_detail/88473.html
+https://help.aliyun.com/document_detail/88473.html - *Bucket ACL*
 
 ---
 
@@ -129,18 +131,18 @@ https://help.aliyun.com/document_detail/88473.html
 
 答：
 
-1. https://www.it610.com/article/1279371637401075712.htm
-2. https://blog.csdn.net/weixin_38106322/article/details/106873104
+1. ~~https://www.it610.com/article/1279371637401075712.htm~~
+2. https://blog.csdn.net/weixin_38106322/article/details/106873104 - *You have no right to access this object because of bucket acl._anonymous user has no right to access this bucket_绅士jiejie的博客-CSDN博客*
 
 
 
 OSS 跨域资源共享（CORS）出现报错的排查方法
 
-https://help.aliyun.com/document_detail/44199.html
+https://help.aliyun.com/document_detail/44199.html - *OSS跨域资源共享（CORS）错误排除*
 
 ### SDK 软件开发工具
 
-Github: https://github.com/aliyun/aliyun-oss-php-sdk - *Aliyun OSS SDK for PHP*
+GitHub: https://github.com/aliyun/aliyun-oss-php-sdk - *Aliyun OSS SDK for PHP*
 
 ### 已用功能
 
@@ -155,9 +157,9 @@ Github: https://github.com/aliyun/aliyun-oss-php-sdk - *Aliyun OSS SDK for PHP*
 
 ### 参考项目
 
-1. skybet
-2. 机器人
-3. 西游记
+1. ~~Skybet~~
+2. ~~机器人~~
+3. ~~西游记~~
 
 ### FAQs
 

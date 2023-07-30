@@ -163,6 +163,16 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
 
 2. https://www.zhihu.com/question/53546074/answer/2229754960 - *谷歌浏览器插件开发完毕打包如何打包成crx文件？ - 知乎*
 
+## 扩展备份
+
+https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用好浏览器必备，网上却几乎没有人提...*
+
+备份要点：
+
+1. 设置备份
+
+2. 数据备份
+
 ## 扩展列表
 
 ### 扩展管理
@@ -214,10 +224,15 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
 
 ### 二维码
 
-1. [草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg) - *草料二维码官方开发的免费工具插件，提供简单、专业、快捷的二维码生成和解码功能。*
+1. 推荐使用[FeHelper(前端助手)](#fehelper)扩展，这样可以少安装一个扩展程序。
+
+    - 使用方法：「FH应用市场」中安装「二维码/解码」功能，并将其「加入右键」。
+
+2. [草料二维码-快速生码和解码工具](https://chrome.google.com/webstore/detail/%E8%8D%89%E6%96%99%E4%BA%8C%E7%BB%B4%E7%A0%81-%E5%BF%AB%E9%80%9F%E7%94%9F%E7%A0%81%E5%92%8C%E8%A7%A3%E7%A0%81%E5%B7%A5%E5%85%B7/moombeodfomdpjnpocobemoiaemednkg) - *草料二维码官方开发的免费工具插件，提供简单、专业、快捷的二维码生成和解码功能。*
+
     - https://www.crxsoso.com/webstore/detail/moombeodfomdpjnpocobemoiaemednkg - *草料二维码-快速生码和解码工具 | Chrome扩展 - Crx搜搜*
 
-2. [二维码（生成及识别）](https://www.crxsoso.com/webstore/detail/hkojjajclkgeijhcmfjcjkddfjpaimek) - *将当前页面地址、选中的文本或链接等生成二维码，也可以识别网页中的二维码图片（支持识别中文）。*
+3. [二维码（生成及识别）](https://www.crxsoso.com/webstore/detail/hkojjajclkgeijhcmfjcjkddfjpaimek) - *将当前页面地址、选中的文本或链接等生成二维码，也可以识别网页中的二维码图片（支持识别中文）。*
 
 
 ### 鼠标手势
@@ -430,6 +445,15 @@ https://mp.weixin.qq.com/s/KS-fh60zqfR-6GCD5eGFaQ - *Chrome 超强生产力工�
 
 - ✔️[FeHelper(前端助手)](https://www.crxsoso.com/webstore/detail/pkgccpejnmalmdinmhkkfafefagiiiad ':id=fehelper') - *JSON自动格式化、手动格式化，支持排序、解码、下载等，更多功能可在配置页按需安装！*
 
+    常用功能：
+    
+    - JSON美化工具
+    - 信息编码转换
+    - 时间(戳)转换
+    - 代码美化工具
+    - 页面取色工具
+    - 二维码/解码
+
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
   ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
 
@@ -471,7 +495,9 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
 1. [Refined GitHub](https://github.com/refined-github/refined-github) - *:octocat: Browser extension that simplifies the GitHub interface and adds useful features*
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hlepfoohegkhhmjieoechaddaejaokhf) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/hlepfoohegkhhmjieoechaddaejaokhf?style=social)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hlepfoohegkhhmjieoechaddaejaokhf)
+    ![GitHub last commit](https://badgen.net/github/last-commit/refined-github/refined-github?icon=github&color=blue)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/hlepfoohegkhhmjieoechaddaejaokhf?style=social)
     - https://www.crxsoso.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf - *Refined GitHub | Chrome扩展 - Crx搜搜*
 
 2. [OctoLinker](https://github.com/OctoLinker/OctoLinker) - *GitHub - OctoLinker/OctoLinker: OctoLinker — Links together, what belongs together*
@@ -485,7 +511,15 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
 5. [Gitako - GitHub file tree](https://www.crxsoso.com/webstore/detail/giljefjcheohhamkjphiebfjnlphnokk) - *File tree for GitHub, and more than that.*
 
-6. [Enhanced GitHub](https://www.crxsoso.com/webstore/detail/anlikcnbgdeidpacdbdljnabclhahhmd) - *Display repo size, size of each file, download link and option to copy file contents*
+6. [Enhanced GitHub](https://github.com/softvar/enhanced-github) - *Display repo size, size of each file, download link and option to copy file contents*
+    
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/anlikcnbgdeidpacdbdljnabclhahhmd)
+    ![GitHub last commit](https://badgen.net/github/last-commit/softvar/enhanced-github?icon=github&color=blue)
+    - https://www.crxsoso.com/webstore/detail/anlikcnbgdeidpacdbdljnabclhahhmd - *Enhanced GitHub | Chrome扩展 - Crx搜搜*
+
+    - 💡 不支持图片、文件夹的大小显示
+    
+    - [测试](https://github.com/coco413/SecMind)
 
 7. [File Icons for GitHub and GitLab](https://github.com/homerchen19/github-file-icons) - _A Chrome Extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs._
     - https://www.crxsoso.com/webstore/detail/ficfmibkjjnpogdcfhfokmihanoldbfe - *File Icons for GitHub and GitLab | Chrome扩展 - Crx搜搜*
@@ -495,13 +529,14 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
 
 9. [GitHub加速](https://github.com/fhefh2015/Fast-GitHub) - _Github download speeds are generally slow in Asia, and with this plugin the download speeds will be insane!_
     - https://www.crxsoso.com/webstore/detail/ffjjnphohkfckeplcjflmgneebafggej - *GitHub加速 | Chrome扩展 - Crx搜搜*
+
     - 💡 仅支持下载、克隆源码加速，不支持页面、图片加速
 
 10. https://github.com/conwnet/github1s - *GitHub - conwnet/github1s: One second to read GitHub code with VS Code.* ( _**via** https://zhuanlan.zhihu.com/p/350615234 - *人生第一个扩展——Github1s - 知乎*_ )
 
 11. [GitHub File Icons](https://github.com/homerchen19/github-file-icons) - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.*
 
-     ![GitHub last commit](https://flat.badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
+     ![GitHub last commit](https://badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
 
      - https://www.crxsoso.com/webstore/detail/kkokonbjllgdmblmbichgkkikhlcnekp - *GitHub File Icons | Chrome扩展 - Crx搜搜*
 
@@ -645,7 +680,20 @@ https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collect
     - https://www.crxsoso.com/webstore/detail/iohcojnlgnfbmjfjfkbhahhmppcggdog - *EverSync - Sync bookmarks, backup favorites | Chrome扩展 - Crx搜搜*
 
 2. [xBrowserSync](https://github.com/xbrowsersync) - *xBrowserSync - Browser syncing as it should be: secure, anonymous and free!*
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lcbjdhceifofjlpecfpeimnnphbcjgnc?style=flat)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/xbrowsersync/app?color=blue&logo=github)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lcbjdhceifofjlpecfpeimnnphbcjgnc?style=social)
+
     - https://www.crxsoso.com/webstore/detail/lcbjdhceifofjlpecfpeimnnphbcjgnc - *xBrowserSync | Chrome扩展 - Crx搜搜*
+
+3. [BookmarkHub](https://github.com/dudor/BookmarkHub) - *BookmarkHub is a browser plug-in that can synchronize your bookmarks between different browsers.*
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fohimdklhhcpcnpmmichieidclgfdmol?style=flat)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dudor/BookmarkHub?color=blue&logo=github)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fohimdklhhcpcnpmmichieidclgfdmol?style=social)
+    
+    - https://www.crxsoso.com/webstore/detail/fohimdklhhcpcnpmmichieidclgfdmol - *BookmarkHub - 书签同步 | Chrome扩展 - Crx搜搜*
 
 ### 网络管理
 

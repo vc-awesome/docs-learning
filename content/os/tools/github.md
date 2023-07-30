@@ -26,19 +26,24 @@ https://www.githubs.cn/ - *GitHub中文社区 | GitHub中文网*
 
 ## 组织
 
-https://github.com/aliyun - *Alibaba Cloud · GitHub*
+国内：
 
-https://github.com/alibaba - *Alibaba · GitHub*
+1. https://github.com/aliyun - *Alibaba Cloud · GitHub*
 
-https://github.com/twbs - *Bootstrap · GitHub*
+2. https://github.com/alibaba - *Alibaba · GitHub*
 
-https://github.com/elemefe - *饿了么前端 · GitHub*
+3. https://github.com/elemefe - *饿了么前端 · GitHub*
 
-https://github.com/metafizzy - *Metafizzy · GitHub*  
+4. https://github.com/Tencent - *Tencent · GitHub*
+
+5. https://github.com/JDFED - *JD.com · GitHub*
+
+国际：
+
+1. https://github.com/twbs - *Bootstrap · GitHub*
+
+2. https://github.com/metafizzy - *Metafizzy · GitHub*  
 🏷️  _logo 可爱而关注_ ，_前端_
-
-https://github.com/Tencent - *Tencent · GitHub*
-
 
 ## 仓库
 
@@ -495,12 +500,15 @@ https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，�
 
 https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打不开怎么办？*
 
-在浏览器中设置安全 DNS（以 Chrome 浏览器为例）：
+方式一、在浏览器中设置安全 DNS（以 Chrome 浏览器为例）：
 
 1. 打开 Chrome 浏览器；
 2. 打开 *设置 > 隐私和安全 > 安全 > 高级 > 使用安全 DNS* 或者在地址栏输入： *`chrome://settings/security`* ；
 3. 开启 *使用安全 DNS*；
 4. 选择 *使用 OpenDNS* 或者 *使用 自定义*，然后填写 *DNS URL: `https://doh.360.cn/dns-query`* 。
 
+方式二、借助 [DNS 工具](essential/dns.md#工具)。
+
 ## FAQ
 
+暂无

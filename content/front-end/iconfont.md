@@ -274,6 +274,8 @@ https://fontawesome.com/versions - *Font Awesome*
 
 3. https://fontawesome.com/v6/icons/ - *Search Icons & Find the Perfect Design | Font Awesome*
 
+---
+
 用法 1：
 
 ```css
@@ -306,6 +308,12 @@ a[target=_blank]:after {
 ```html
 <i class="fab fa-font-awesome"></i>
 ```
+
+CDN:
+
+1. https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css
+
+2. https://lug.ustc.edu.cn/_extra/fontawesome/css/all.min.css
 
 ### Remix Icon 🥈
 

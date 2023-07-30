@@ -14,32 +14,27 @@
 2. https://github.com/topics/vpn - *vpn · GitHub Topics*
 
 
-## Book
+## Book 🔥
 
-1. <i class="fa fa-thumbs-o-up"></i> https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
+1. https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
    
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/crifan/scientific_network_summary?icon=github&color=blue)
 
-2. <i class="fa fa-thumbs-o-up"></i> https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
+2. https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
    
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/hoochanlon/w3-goto-world?icon=github&color=blue)
    
    - ✅ https://hoochanlon.github.io/fq-book - *《网络代理与VPN应用详解》（这本书能让你连接互联网）*
 
-3. <i class="fa fa-thumbs-o-up"></i> https://github.com/ZGQ-inc/overthefirewall 💪 - *★覆盖全平台★完全免费★节点订阅★机场推荐★破解VPN软件分享★*
+3. 👍 https://github.com/ZGQ-inc/overthefirewall - *:electron:覆盖全平台:electron:完全免费:electron:节点订阅:electron:机场推荐:electron:破解VPN软件分享:electron:*
 
    ![GitHub last commit](https://img.shields.io/github/last-commit/ZGQ-inc/overthefirewall?color=blue&logo=github&style=flat-square)
 
-4. <i class="fa fa-thumbs-o-up"></i>
-   https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙*
+4. https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙*
 
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/Alvin9999/new-pac?icon=github&color=blue)
 
-5. https://github.com/Ibroad/overthefirewall - *★覆盖全平台★完全免费★节点订阅★机场推荐★〓v2ray/shadowsocks/clash〓*
-   
-   ![GitHub last commit](https://img.shields.io/github/last-commit/Ibroad/overthefirewall?color=blue&logo=github&style=flat-square)
-   
-6. https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
+5. https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
    
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
 
@@ -47,11 +42,21 @@
 
 ### Free Account 🔥
 
-https://github.com/freefq - *freefq*
-
 - 导入
 
-    https://free-ss.site/ - *免费上网账号* 
+    https://free-ss.site/ - *免费上网账号*
+    
+    电脑、手机直连主站：
+    
+    通过[图片教程](https://free-ss.site/v/direct_access.png)的操作方法，在系统文件 _hosts_ 中新增下列行：
+    
+    ```md
+    104.18.18.18 free-ss.site
+    ```
+    
+    更多用法可参考：
+     1. https://cloud.tencent.com/developer/article/1600793 - *获取free-ss账号并导入SSR-腾讯云开发者社区-腾讯云*
+    ---
     
     https://github.com/free-ss/free-ss.site
     
@@ -61,13 +66,17 @@ https://github.com/freefq - *freefq*
 
 - 订阅
 
+    https://github.com/freefq - *freefq*
+    
     https://github.com/freefq/free
     
     ![](https://flat.badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
 
-    - 订阅地址1：`https://cdn.jsdelivr.net/gh/freefq/free/v2`
+    - 订阅地址 1：`https://cdn.jsdelivr.net/gh/freefq/free/v2`
 
-    - 订阅地址2：`https://raw.fastgit.org/freefq/free/master/v2`
+    - 订阅地址 2：`https://bulinkbulink.com/freefq/free/master/v2`
+
+    - ~~订阅地址 3：`https://raw.fastgit.org/freefq/free/master/v2`~~
 
 
 ## Tool

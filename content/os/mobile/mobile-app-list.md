@@ -179,6 +179,20 @@ https://f-droid.org/zh_Hans/packages/com.foxdebug.acode/ - *Acode | F-Droid - Fr
 - Fold all - *全部折叠*
 
 
+## 写作工具
+
+### Markdownr
+
+> Converts an URL to markdown and share it
+
+![f-droid](https://badgen.net/f-droid/v/com.sanzoghenzo.markdownr)
+![GitHub last commit](https://flat.badgen.net/github/last-commit/sanzoghenzo/markdownr?icon=github&color=blue)
+
+https://f-droid.org/zh_Hans/packages/com.sanzoghenzo.markdownr/ - *Markdownr | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Android app that converts an URL to markdown, and lets you share it to your favorite notes app.*
+
+
 ## DNS
 
 ### personalDNSfilter
@@ -412,7 +426,9 @@ https://f-droid.org/packages/me.ash.reader/ - *Read You | F-Droid - Free and Ope
 
 https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS reader presented in Material You style.*
 
-## URLCheck
+## 连接
+
+### URLCheck
 
 > 在打开网址之前，允许您分析（或共享）它们。
 
@@ -443,18 +459,9 @@ https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Andr
 
 方式二：兼容“应用双开”，可使用下列操作步骤：*复制 URL 链接 > 下拉“控制中心” > 点击磁贴“检查剪贴板中的链接” > 按正常操作重新执行一遍*。
 
-## Markdownr
+## 图像
 
-> Converts an URL to markdown and share it
-
-![f-droid](https://badgen.net/f-droid/v/com.sanzoghenzo.markdownr)
-![GitHub last commit](https://flat.badgen.net/github/last-commit/sanzoghenzo/markdownr?icon=github&color=blue)
-
-https://f-droid.org/zh_Hans/packages/com.sanzoghenzo.markdownr/ - *Markdownr | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Android app that converts an URL to markdown, and lets you share it to your favorite notes app.*
-
-## Image Resizer
+### Image Resizer
 
 > <img src="https://f-droid.org/repo/ru.tech.imageresizershrinker/en-US/icon_-9n8vowl_QLljJDENvZaSlNplpt8PF-LrCkGnGshnUg=.png" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> ImageResizer is a simple image resizer with width/height selection, EXIF redacting, quality and output image type picking, telegram sticker pattern and output image size prediction.
 

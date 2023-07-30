@@ -2,14 +2,14 @@
 
 ## 模板
 
-[VSCode](https://code.visualstudio.com/) - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.*
+[VSCode](https://code.visualstudio.com/) - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.* [破解版]()
 
 - 支持 Windows, macOS, Linux, [Web](https://vscode.dev/)
 
 - 开源软件（[GitHub](https://github.com/Microsoft/vscode/)）
 
 ```md
-[]() - **
+[]() - ** [破解版]()
 
 - 支持 Windows, macOS, Linux, [Web]()
 
@@ -121,11 +121,15 @@ https://github.com/jgraph/drawio-desktop - *GitHub - jgraph/drawio-desktop: Offi
 
 https://zhuanlan.zhihu.com/p/427358291 - *PlantUML画图软件简介 - 知乎*
 
-https://zhuanlan.zhihu.com/p/447317585?utm_id=0 - *免费强大的作图神器 diagrams - 知乎*
+https://zhuanlan.zhihu.com/p/447317585 - *免费强大的作图神器 diagrams - 知乎*
+
+#### swimlanes.io
+
+https://swimlanes.io/ - *Welcome to swimlanes.io*
 
 #### 更多
 
-https://zhuanlan.zhihu.com/p/91344875?utm_id=0 - *评测了10款画流程图软件，这4款最好用！（完全免费） - 知乎*
+https://zhuanlan.zhihu.com/p/91344875 - *评测了10款画流程图软件，这4款最好用！（完全免费） - 知乎*
 
 ##  网络工具
 
@@ -135,9 +139,40 @@ tcpdump
 
 https://emanuele-f.github.io/PCAPdroid/faq.html
 
+### 检测查询
+
+#### Ping Tool - DNS, Port Scanner
+
+https://play.google.com/store/apps/details?id=com.manageengine.pingapp
+
+#### Ping & Net
+
+https://play.google.com/store/apps/details?id=com.ulfdittmer.android.ping
+
+#### Network Utilities
+
+https://play.google.com/store/apps/details?id=com.myprog.netutils
+
+#### IP Tools: WiFi Analyzer
+
+https://play.google.com/store/apps/details?id=com.ddm.iptools
+
+[破解版](https://www.yxssp.com/25145.html)
+
+#### Vernet
+
+https://github.com/osociety/vernet - *GitHub - osociety/vernet: Vernet - Network Analyzer and Monitoring Tool*
+
+####  DNS Speed Test
+
+https://play.google.com/store/apps/details?id=com.catinthebox.dnsspeedtest
+
+[破解版](https://apkdone.com/dns-speed-test/)
+
+
 ## 网络抓包
 
-## NetGuard
+### NetGuard
 
 ![f-droid](https://badgen.net/f-droid/v/eu.faircode.netguard)
 ![GitHub last commit](https://img.shields.io/github/last-commit/M66B/NetGuard?color=blue&logo=github&style=flat-square)
@@ -167,6 +202,9 @@ https://github.com/avwo/whistle - *GitHub - avwo/whistle: HTTP, HTTP2, HTTPS, We
 
 https://github.com/JZ-Darkal/AndroidHttpCapture - *GitHub - JZ-Darkal/AndroidHttpCapture: AndroidHttpCapture网络诊断工具 是一款Android手机抓包软件 主要功能包括：手机端抓包、PING/DNS/TraceRoute诊断、抓包HAR数据上传分享。你也可以看成是Android版的"Fiddler" \(^o^)/~* ⇒ _https://zhuanlan.zhihu.com/p/35354632 - *无需PC/ROOT 纯安卓实现抓包查看坦白说 - 知乎*_
 
+### VNET
+
+https://www.vnet-tech.com/zh/ - *VNET-TECH – Android Packet Capture Tool*
 
 ## 下载器
 

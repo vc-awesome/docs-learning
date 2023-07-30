@@ -179,26 +179,21 @@
 
 1. [JMeter](https://jmeter.apache.org/ ':id=jmeter') - *It was originally designed for testing Web Applications but has since expanded to other test functions.*
 
-   - 支持 Windows
+    - 支持 Windows
 
-   - 开源软件（[GitHub](https://github.com/apache/jmeter)）
+    - 开源软件（[GitHub](https://github.com/apache/jmeter)）
 
-   <details>
-   <summary><i style="color:red">SEE MORE >></i></summary>
-   
-   - 主页：https://jmeter.apache.org/
-   
-   - GitHub：https://github.com/apache/jmeter
-   
-   - 参考链接
-     - https://github.com/apache/jmeter - *Jmeter压力测试工具安装及使用教程*
-     - ⭐ https://www.jianshu.com/p/5885f5a4f5e2 - *并发测试*
-     - https://blog.csdn.net/HelloApplication/article/details/123544301 - *（四）JMeter 定时器*
+    <details><summary><i style="color:red">SEE MORE >></i></summary>
 
-</details>
-
-
-
+        主页：https://jmeter.apache.org/
+    
+        GitHub：https://github.com/apache/jmeter/
+    
+        参考链接：
+        1. https://www.jianshu.com/p/5885f5a4f5e2 - *并发测试*
+        2. https://github.com/apache/jmeter - *Jmeter压力测试工具安装及使用教程*
+        3. https://blog.csdn.net/HelloApplication/article/details/123544301 - *（四）JMeter 定时器*l
+    </details>
 
 ### VCS 版本控制工具
 
@@ -252,7 +247,9 @@
 ### SSH 客户端
 
 1. [Termius](https://www.termius.com/) - *Termius - SSH platform for Mobile and Desktop*
+
     - 支持 Windows, macOS, Linux, Android, iOS
+
     - 含收费功能（应用内购买升级）
 
 ### FTP 客户端
@@ -304,12 +301,16 @@
 
 ### 服务器运维
 
-1. [AppNode](https://www.appnode.com/)
+1. [AppNode](https://www.appnode.com/) - *AppNode官网,LNMP,LAMP,Linux 服务器管理面板,可视化、简易高效、操作透明、高可扩展，SSL证书购买，COMODO，RapidSSL，Geotrust*
+
+    - 收费功能（Pro 版本，应用内购买升级）
 
 
 ## 账号安全
 
 https://zhuanlan.zhihu.com/p/63942946 - *启用两步验证让你的账户更安全 - 知乎*
+
+---
 
 1. [Authy](https://authy.com/) - *Two-factor authentication (2FA) adds an additional layer of protection beyond passwords. Download our free app today and follow our easy to use guides to protect your accounts and personal information.*
 
@@ -438,59 +439,71 @@ https://www.bilibili.com/read/cv9664325/ - *那些眼花缭乱……的写作软
 
 ## 效率工具
 
-1. ✅ [CLaunch](http://hp.vector.co.jp/authors/VA018351/en/claunch.html ':id=claunch')
-   <i class="fa fa-windows"></i> - *windows 任务栏工具*
-   
-2. [MouseGestureL.ahk](http://hp.vector.co.jp/authors/VA018351/en/mglahk.html) <i class="fa fa-windows"></i>  - *鼠标手势工具*
-   
-3. ✅ [Ditto](https://ditto-cp.sourceforge.io/ ':id=ditto')
-   <i class="fa fa-windows"></i> - *一个免费剪贴板增强工具。支持网络同步，记录分组，名称粘贴等多种功能。小巧却又强大易用。可以将剪贴板中，文字，图片， HTML，自定义格式粘贴。*
-   
-4. ✅ [SwitchHosts](/tools/hosts?id=SwitchHosts) <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> <i class="fa fa-apple"></i> - *Switch hosts quickly!*
+1. ✅ [CLaunch](http://hp.vector.co.jp/authors/VA018351/en/claunch.html ':id=claunch') - *windows 任务栏工具*
 
-5. ✅ [Easy Context Menu](https://www.sordum.org/7615/easy-context-menu-v1-6/) <i class="fa fa-windows"></i> - *一个右键菜单管理应用程序*
+    - 支持 Windows
+   
+2. [MouseGestureL.ahk](http://hp.vector.co.jp/authors/VA018351/en/mglahk.html) - *鼠标手势工具*
 
-6. ✅ [OpenArk](https://github.com/BlackINT3/OpenArk/) <i class="fa fa-windows"></i> - *OpenArk is an open source anti-rookit(ARK) tool for Windows.*
+    - 支持 Windows
+   
+3. ✅ [Ditto](https://ditto-cp.sourceforge.io/ ':id=ditto') - *一个免费剪贴板增强工具。支持网络同步，记录分组，名称粘贴等多种功能。小巧却又强大易用。可以将剪贴板中，文字，图片， HTML，自定义格式粘贴。*
 
-7. ✅ [miniserve](https://github.com/svenstaro/miniserve/releases) <i class="fa fa-windows"></i> <i class="fa fa-linux"></i> <i class="fa fa-apple"></i> - *🌟 For when you really just want to serve some files over HTTP right now!* ⇒*via [文件下载和上传功能服务器搭建配置](https://blog.csdn.net/weixin_42039699/article/details/118356050)*
+    - 支持 Windows
+
+4. ✅ [SwitchHosts](/tools/hosts?id=SwitchHosts) - *Switch hosts quickly!*
+
+    - 支持 Windows, macOS, Linux
+
+5. ✅ [Easy Context Menu](https://www.sordum.org/7615/easy-context-menu-v1-6/) - *一个右键菜单管理应用程序*
+
+    - 支持 Windows
+
+6. ✅ [OpenArk](https://github.com/BlackINT3/OpenArk/) - *OpenArk is an open source anti-rookit(ARK) tool for Windows.*
+
+    - 支持 Windows
+
+7. ✅ [miniserve](https://github.com/svenstaro/miniserve/releases) - *🌟 For when you really just want to serve some files over HTTP right now!* ⇒*via [文件下载和上传功能服务器搭建配置](https://blog.csdn.net/weixin_42039699/article/details/118356050)*
+
+    - 支持 Windows, macOS, Linux
+
+    - 开源软件（[GitHub](https://github.com/svenstaro/miniserve)）
 
     <details><summary><i style="color:red">SEE MORE >></i></summary>
 
-    **在 Windows 中使用**
+         **在 Windows 中使用**
     
-    方式一：Windows 系统工具 cmd 中执行下列命令（常规用法）
+        方式一：Windows 系统工具 cmd 中执行下列命令（常规用法）
     
-    ```powershell
-    # 进入程序存放目录，打开 cmd，然后执行
-    miniserve-v0.19.5-x86_64-pc-windows-msvc.exe -u -q
-    ```
-    方式二：让程序后台运行
-    1. 在同级目录新建 `miniserve.bat` 文件，复制一下内容
         ```powershell
-        @echo off
-        
-        REM powershell Start-Process -WindowStyle hidden -FilePath "miniserve-v0.19.5-x86_64-pc-windows-msvc.exe" -ArgumentList "-u -q"
-        REM powershell Get-Process | where {$_.processname -eq 'miniserve-v0.19.5-x86_64-pc-windows-msvc'} | Stop-Process -Force
-        
-        REM 查看进程是否存在，并不显示错误（2>nul）
-        powershell get-process -name miniserve-v0.19.5-x86_64-pc-windows-msvc 2>nul
-        if %errorlevel% == 0 (
-          REM 存在
-          REM powershell kill -processname miniserve-v0.19.5-x86_64-pc-windows-msvc
-        ) else (
-          REM 不存在
-          powershell Start-Process -WindowStyle hidden "miniserve-v0.19.5-x86_64-pc-windows-msvc.exe" -ArgumentList """-u -q"""
-        )
-        
-        REM 批处理中的变量一般需要用%来扩展,详见特殊符号一节
-        REM pause>nul
-        pause
-        REM exit
+        # 进入程序存放目录，打开 cmd，然后执行
+        miniserve-v0.19.5-x86_64-pc-windows-msvc.exe -u -q
         ```
-    2. 双击执行新建的文件，程序进入后台执行
-    
+        方式二：让程序后台运行
+        1. 在同级目录新建 `miniserve.bat` 文件，复制一下内容
+            ```powershell
+            @echo off
+            
+            REM powershell Start-Process -WindowStyle hidden -FilePath "miniserve-v0.19.5-x86_64-pc-windows-msvc.exe" -ArgumentList "-u -q"
+            REM powershell Get-Process | where {$_.processname -eq 'miniserve-v0.19.5-x86_64-pc-windows-msvc'} | Stop-Process -Force
+            
+            REM 查看进程是否存在，并不显示错误（2>nul）
+            powershell get-process -name miniserve-v0.19.5-x86_64-pc-windows-msvc 2>nul
+            if %errorlevel% == 0 (
+              REM 存在
+              REM powershell kill -processname miniserve-v0.19.5-x86_64-pc-windows-msvc
+            ) else (
+              REM 不存在
+              powershell Start-Process -WindowStyle hidden "miniserve-v0.19.5-x86_64-pc-windows-msvc.exe" -ArgumentList """-u -q"""
+            )
+            
+            REM 批处理中的变量一般需要用%来扩展,详见特殊符号一节
+            REM pause>nul
+            pause
+            REM exit
+            ```
+        2. 双击执行新建的文件，程序进入后台执行
     </details>
-
 
 ### 文档实时协作
 
@@ -501,16 +514,24 @@ https://www.bilibili.com/read/cv9664325/ - *那些眼花缭乱……的写作软
 
 ### 桌面便签
 
-1. ✅ [Microsoft Sticky Notes](https://apps.microsoft.com/store/detail/microsoft-sticky-notes/9NBLGGH4QGHW ':id=microsoft-sticky-notes') <i class="fa fa-windows"></i> - *Microsoft Sticky Notes - Microsoft Store 应用程序*
+1. ✅ [Microsoft Sticky Notes](https://apps.microsoft.com/store/detail/microsoft-sticky-notes/9NBLGGH4QGHW ':id=microsoft-sticky-notes') - *Microsoft Sticky Notes - Microsoft Store 应用程序*
+
+    - 支持 Windows
    
-2. ✅ [StickyNotes](https://github.com/li-zheng-hao/StickyNotes) <i class="fa fa-windows"></i> - *一个便捷的Windows桌面便利贴/A convenitent Windows Notes*
+2. ✅ [StickyNotes](https://github.com/li-zheng-hao/StickyNotes) - *一个便捷的Windows桌面便利贴/A convenitent Windows Notes*
+
+    - 支持 Windows
    
-3. ✅ [7 Sticky Notes](https://7-sticky-notes.en.softonic.com/) <i class="fa fa-windows"></i> - *A nifty tool that will help you remain organized*
+3. ✅ [7 Sticky Notes](https://7-sticky-notes.en.softonic.com/) - *A nifty tool that will help you remain organized*
+
+    - 支持 Windows
 
 
 ## 翻译工具
 
 https://www.zhihu.com/question/46825853/answer/2317552268 - *windows平台有哪些好用的屏幕取词翻译工具？ - 小林不加班 的回答 - 知乎*
+
+---
 
 1. ✅ [百度翻译](https://fanyi.baidu.com/home) - *百度翻译官网*
     - 支持 Windows, macOS, Android, iOS, Web, 浏览器扩展
@@ -526,20 +547,34 @@ https://www.zhihu.com/question/46825853/answer/2317552268 - *windows平台有哪
 
 https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win10的截图软件？*
 
-1. ✅
-   [Snipaste](https://zh.snipaste.com/index.html#)
-   <i class="fa fa-windows"></i> -
-   *Snipaste - 截图 + 贴图*
-   
-2. ✅ [qq截图独立版](https://www.isharepc.com/34098.html ':id=qq-screenshot') <i class="fa fa-windows"></i> - *QQ截图独立版，简单易用的经典截图工具*
+功能：
 
+1. 截长图
+2. 截动图
 
+---
+
+1. ✅ [Snipaste](https://zh.snipaste.com/index.html) - *Snipaste - 截图 + 贴图*
+
+    - 支持 Windows, macOS
+
+2. ✅ [QQ截图独立版](https://www.isharepc.com/34098.html ':id=qq-screenshot') - *QQ截图独立版，简单易用的经典截图工具*
+
+    - 支持 Windows
+
+3. [GIF Brewery by Gfycat](https://gfycat.com/gifbrewery) - *GIF Brewery gives you the power to create and edit GIFs and videos. It’s simple and powerful — download today from the App Store!*
+
+    - 支持 macOS
 
 ## 压缩工具
 
 <https://github.com/Awesome-Windows/Awesome/blob/master/README-cn.md#压缩>
 
+---
+
 1. [7-Zip](https://www.7-zip.org/ ':id=seven-zip') - *7-Zip 是一款拥有极高压缩比的开源压缩软件。*
+
+    - 支持 Windows, macOS, Linux
 
 2. [WinRAR](http://www.winrar.com.cn/) - *WinRAR - 压缩软件 老牌压缩软件知名产品  经典装机软件之一*
 
@@ -552,14 +587,20 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
 > 
 > 大部分下载工具含有内置的 Web 浏览器
 
+---
+
 1. ✅ [迅雷](https://www.xunlei.com/) - *迅雷-全球共享计算与区块链创领者*
+
     - 支持 Windows, macOS, Android, iOS
    
 2. ✅ [Internet Download Manager](https://www.internetdownloadmanager.com/) - *Internet Download Manager: The fastest download accelerator*
+
     - 支持 Windows, 浏览器扩展
+
     - 免费试用 30 天
 
 3. [Free Download Manager](https://www.freedownloadmanager.org/zh/) - *Free Download Manager - 從網路下載任何東西*
+
     - 支持 Windows, macOS, Linux, Android
 
 4. [Download Navi](https://github.com/TachibanaGeneralLaboratories/download-navi) - _GitHub - TachibanaGeneralLaboratories/download-navi: Free and Open Source software download manager_
@@ -582,21 +623,21 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
 
 ## 设计工具
 
-1. 
-   [Photoshop](https://www.adobe.com/products/photoshop.html) - *Official Adobe Photoshop | Photo and design software*
+1. [Photoshop](https://www.adobe.com/products/photoshop.html) - *Official Adobe Photoshop | Photo and design software*
+
     - 支持 Windows, macOS
-   
+
     - <details><summary><i style="color:red">SEE MORE >></i></summary>
 
      https://jingyan.baidu.com/article/da1091fbee2d3a427949d60f.html - *调整图层大小*
    
     操作 > 选中图层 > 快捷键 <kbd>ctrl</kbd> + <kbd>t</kbd>
-   </details>
+</details>
 
-1. [PxCook](https://www.fancynode.com.cn/pxcook) - *PxCook - 高效易用的自动标注工具,生成前端代码,设计研发协作利器*
+2. [PxCook](https://www.fancynode.com.cn/pxcook) - *PxCook - 高效易用的自动标注工具,生成前端代码,设计研发协作利器*
     - 支持 Windows, macOS
    
-2. ✅ [蓝湖](https://lanhuapp.com/ ':id=lanhu') - *高效的产品设计协作平台*
+3. ✅ [蓝湖](https://lanhuapp.com/ ':id=lanhu') - *高效的产品设计协作平台*
     - 支持 Android, iOS, Web
 
 ## 局域网工具
@@ -604,17 +645,22 @@ https://www.zhihu.com/question/40717394/answer/2588741947 - *有哪些适合Win1
 ### 即时通讯
 
 1. ✅ [飞鸽传书](http://www.ipmsg.org.cn/) - *飞鸽传书官方网站-飞鸽传书2022 飞鸽传书2022(IP Messenger) 飞鸽传书2022绿色版企业即时通讯下载*
+
     - 支持 Windows, macOS, Linux, Android, iOS
+
     - 可用网络：同一“Wi-Fi”，同一“个人热点”
 
 2. [BeeBEEP](https://www.beebeep.net/) - *BeeBEEP - Free Office Messenger - Official Website*
+
     - 支持 Windows, macOS, Linux
 
 3. [Manyverse](https://www.manyver.se/) - *Manyverse – a peer-to-peer social network*
-    - 支持 Windows, macOS, Linux, Android, iOS
-    - 开源软件（[GitHub](https://github.com/staltz/manyverse/)）
-    - 可用网络：同一“Wi-Fi”，同一“个人热点”
 
+    - 支持 Windows, macOS, Linux, Android, iOS
+
+    - 开源软件（[GitHub](https://github.com/staltz/manyverse/)）
+
+    - 可用网络：同一“Wi-Fi”，同一“个人热点”
 
 ### 跨端传输
 
@@ -997,6 +1043,7 @@ https://www.v1tx.com/post/best-email-client/ - *10款好用的邮件客户端推
            https://github.com/TheKinrar/instances - *GitHub - TheKinrar/instances: Mastodon instances list*
             1. https://mastodon.social/ - *The original server operated by the Mastodon gGmbH non-profit*
             2. https://fosstodon.org/ - *Fosstodon is an English speaking Mastodon instance that is open to anyone who is interested in technology; particularly free &amp; open source software.*
+            3. https://1password.social/ - *Welcome to 1password.social, the home on Mastodon for 1Password. We're building a safer, simpler digital future for everyone.*
 
         - Mastodon 应用：
           
@@ -1009,7 +1056,7 @@ https://www.v1tx.com/post/best-email-client/ - *10款好用的邮件客户端推
 
 1. [AdGuard](https://adguard.com/ ":id=adguard") - *AdGuard - 世界上最高级的广告拦截程序！*
 
-    - 支持 Windows, macOS, Linux, Android, iOS, 浏览器扩展
+    - 支持 Windows, macOS, Linux, Android [破解版](https://www.yxssp.com/25455.html), iOS, 浏览器扩展
 
     - 免费试用 7 天
 

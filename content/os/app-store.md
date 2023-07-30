@@ -34,22 +34,9 @@ https://play.google.com/store/apps/details?id=website.leifs.delta
 
 FAQ：
 
-Q：小米手机如何安装“Google Play商店”？  
+Q：小米手机如何安装“Google Play商店”？
+
 A：小米应用商店下载“[Google Play 商店](http://app.xiaomi.com/detail/191)”。
-
-APK Download：
-
-http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
-
-1. https://www.gnradar.com/ - *GN Radar- Latest Mobiles, Android Applications and Stock Wallpapers*
-
-2. https://apkmod.cc/ - *APKMod.cc – #APK Download #APK Mod #Paid Android Apps*
-    - 含 Mod 破解版
-
-3. https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* [配置 hosts](https://zhuanlan.zhihu.com/p/47225701)
-
-知乎搜索：*国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?*
-
 
 ### F-Droid
 
@@ -117,6 +104,7 @@ https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量
 
 - 查看历史版本：
   - https://m.wandoujia.com/apps/280001/history - *豌豆荚老旧版本大全_所有历史官方版安装下载_豌豆荚*
+  - https://mp.weixin.qq.com/s/bjUfDJUSNwBYvA_iKI40FQ - *互联网历史又被翘掉一块，写个脚本简单抢救一下...*
 
 - ~~支持下载“历史版本”~~
   - 更新日志

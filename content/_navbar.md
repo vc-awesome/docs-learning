@@ -10,7 +10,7 @@
     - <hr />
     - [<i class="fa-duotone fa-list-tree fa-fw"></i> TOC](home/toc.md)
     - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](home/emoji.md)
-    - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](home/README.md#镜像站)
+    - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](os/mirror.md)
     - [<i class="fa-regular fa-chart-network fa-fw"></i> DNS](essential/dns.md)
     - [<i class="fa-regular fa-language fa-fw"></i> 中英译](home/chinese-english-translate.md)
     - [<i class="fa-regular fa-laptop-mobile fa-fw"></i> 设备传输](os/tools/app-trial.md#传输工具)
@@ -86,6 +86,7 @@
   - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools">TOOLS</i></strong>
   - [<i class="fa fa-plane medium-red"></i> &nbsp;Overview](os/tools/README.md)
   - [<i class="ri-search-line"></i> Search](os/tools/search.md)
+  - <hr />
   - [<i class="ri-flask-line medium-green"></i> Trial Tools](os/tools/app-trial.md)
   - <hr />
   - [<i class="ri-computer-line medium-purple"></i> Desktop Tools](os/tools/app-list.md)

@@ -372,3 +372,17 @@ https://github.com/highlightjs/highlight.js - *GitHub - highlightjs/highlight.js
 ## NoSleep.js
 
 https://github.com/richtr/NoSleep.js - *GitHub - richtr/NoSleep.js: Prevent display sleep and enable wake lock in any Android or iOS web browser.*
+
+## drip-table
+
+https://github.com/JDFED/drip-table - *GitHub - JDFED/drip-table: A tiny and powerful enterprise-class solution for building lowcode tables. 轻量、强大的企业级表格可视化搭建解决方案。*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/JDFED/drip-table?icon=github&color=blue)
+
+## InstantSearch
+
+https://github.com/algolia/instantsearch - *GitHub - algolia/instantsearch: ⚡️ Libraries for building performant and instant search experiences with Algolia. Compatible with JavaScript, TypeScript, React and Vue.*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/algolia/instantsearch?icon=github&color=blue)
+
+https://cdn.jsdelivr.net/npm/instantsearch.js/ - *instantsearch.js CDN by jsDelivr - A free, fast, and reliable Open Source CDN*

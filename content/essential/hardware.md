@@ -16,6 +16,10 @@ https://zhuanlan.zhihu.com/p/444118258 - *Android设备的Architecture架构：a
 
 ## Storage
 
+1. https://zhuanlan.zhihu.com/p/260092339 - *KB/KiB,MB/MiB,GB/GiB，它们的区别 - 知乎*
+
+2. https://blog.csdn.net/qq_37037492/article/details/83821881 - *KiB、MiB与KB、MB的区别_Sun2Q的博客-CSDN博客*
+
 ## Screen
 
 ## PC（Personal Computer）

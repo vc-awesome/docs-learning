@@ -18,7 +18,9 @@ GitHub 关键词搜索：[ip](https://github.com/search?q=ip)
 
 5. https://www.netspotapp.com/cn/blog/ip-addresses/what-is-my-ip-address.html - *我的IP地址是什么？ — IP位置*
 
-6. https://github.com/mpolden/echoip - *GitHub - mpolden/echoip: IP address lookup service*
+6. https://ip.seveas.net/ - *IP address info*
+
+7. https://github.com/mpolden/echoip - *GitHub - mpolden/echoip: IP address lookup service*
 
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/mpolden/echoip?icon=github&color=blue)
 
@@ -26,7 +28,7 @@ GitHub 关键词搜索：[ip](https://github.com/search?q=ip)
 
    - https://ifconfig.co/ - *What is my IP address? — ifconfig.co*
 
-7. https://github.com/angryip/ipscan - *GitHub - angryip/ipscan: Angry IP Scanner - fast and friendly network scanner*
+8. https://github.com/angryip/ipscan - *GitHub - angryip/ipscan: Angry IP Scanner - fast and friendly network scanner*
 
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/angryip/ipscan?icon=github&color=blue)
 

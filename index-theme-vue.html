@@ -470,7 +470,77 @@
   <button class="toc-toggle btn btn-outline btn-sm">
     <span class="fas fa-stream"></span>
   </button>
-</div>
+</div><!-- 切换主题 -->
+<style type="text/css">
+  .theme-dark .page_toc div[class^="lv"].active a span,
+  .theme-dark .page_toc div[class^="lv"].active a:before {
+    color: var(--theme-color, #ea6f5a);
+  }
+  @media (max-width: 991px) {
+    .theme-dark .toc-nav .page_toc {
+      background-color: #3f3f3f;
+    }
+  }
+  .theme-dark .page_toc div[class^="lv"] a {
+    color: #c8c8c8;
+  }
+  .theme-dark .page_toc div[class^="lv"] a:hover span {
+    background: none;
+    color: #c8c8c8;
+  }
+  .theme-dark .content .markdown-section code {
+    border: 1px solid rgb(180 180 180 / 30%);
+  }
+  /*.theme-dark button {
+    background-color: transparent;
+    border-color: rgb(180 180 180 / 30%);
+    box-shadow: none;
+  }*/
+
+</style>
+<script>
+  (function () {
+    var themes = {
+      "meta": {
+          "path": "//unpkg.com/docsify@latest/themes/{id}.css",
+          "link": "index.html?theme={id}",
+          "exclusive": true
+      },
+      "vue": "Vue",
+      "dark": "Dark",
+    };
+    var current = (location.search.match(/theme=([\w-]+)/) || [])[1];
+    if (!(current in themes)) {
+      current = undefined;
+    }
+    if (current === undefined) {
+      var stored = localStorage.getItem('theme');
+
+      current = stored in themes ? stored : 'vue';
+    }
+    setTheme = function (id) {
+      var link = document.querySelectorAll('link[href*="themes/"]')[0];
+      var btn = document.querySelector('button[id^="theme="]');
+
+      let value = id == "vue" ? "dark" : "vue";
+      btn.setAttribute("onclick", "setTheme('"+ value + "')");
+      let iconClass = id == "vue" ? "fa-duotone fa-moon-stars" : "fa-regular fa-sun-bright";
+      btn.firstElementChild.setAttribute("class", iconClass);
+
+      const bodyEl = document.querySelector("body");
+      bodyEl.classList.remove("theme-" + value);
+      bodyEl.classList.add("theme-" + id);
+
+      // console.log(link, value)
+
+      link.href = themes.meta.path.replace(/\{id\}/g, id);
+      localStorage.setItem('theme', id);
+    };
+
+    setTheme(current);
+    // console.log(current);
+  })()
+</script>
 <!-- 切换全屏 -->
 <script>
 // 切换全屏
@@ -728,77 +798,6 @@ function sweetalert2Iframe(_url = "snippets/") {
 
 <script src="https://cdn.jsdelivr.net/npm/uri-js@4.4.1/dist/es5/uri.all.min.js"></script>
 
-<!-- 切换主题 -->
-<style type="text/css">
-  .theme-dark .page_toc div[class^="lv"].active a span,
-  .theme-dark .page_toc div[class^="lv"].active a:before {
-    color: var(--theme-color, #ea6f5a);
-  }
-  @media (max-width: 991px) {
-    .theme-dark .toc-nav .page_toc {
-      background-color: #3f3f3f;
-    }
-  }
-  .theme-dark .page_toc div[class^="lv"] a {
-    color: #c8c8c8;
-  }
-  .theme-dark .page_toc div[class^="lv"] a:hover span {
-    background: none;
-    color: #c8c8c8;
-  }
-  .theme-dark .content .markdown-section code {
-    border: 1px solid rgb(180 180 180 / 30%);
-  }
-  /*.theme-dark button {
-    background-color: transparent;
-    border-color: rgb(180 180 180 / 30%);
-    box-shadow: none;
-  }*/
-
-</style>
-<script>
-  (function () {
-    var themes = {
-      "meta": {
-          "path": "//unpkg.com/docsify@latest/themes/{id}.css",
-          "link": "index.html?theme={id}",
-          "exclusive": true
-      },
-      "vue": "Vue",
-      "dark": "Dark",
-    };
-    var current = (location.search.match(/theme=([\w-]+)/) || [])[1];
-    if (!(current in themes)) {
-      current = undefined;
-    }
-    if (current === undefined) {
-      var stored = localStorage.getItem('theme');
-
-      current = stored in themes ? stored : 'vue';
-    }
-    setTheme = function (id) {
-      var link = document.querySelectorAll('link[href*="themes/"]')[0];
-      var btn = document.querySelector('button[id^="theme="]');
-
-      let value = id == "vue" ? "dark" : "vue";
-      btn.setAttribute("onclick", "setTheme('"+ value + "')");
-      let iconClass = id == "vue" ? "fa-duotone fa-moon-stars" : "fa-regular fa-sun-bright";
-      btn.firstElementChild.setAttribute("class", iconClass);
-
-      const bodyEl = document.querySelector("body");
-      bodyEl.classList.remove("theme-" + value);
-      bodyEl.classList.add("theme-" + id);
-
-      // console.log(link, value)
-
-      link.href = themes.meta.path.replace(/\{id\}/g, id);
-      localStorage.setItem('theme', id);
-    };
-
-    setTheme(current);
-    // console.log(current);
-  })()
-</script>
 <!-- 显示/隐藏顶部导航栏 -->
 <style>
   nav {

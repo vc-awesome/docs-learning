@@ -34,11 +34,11 @@ http://www.menglei.net/3582/ - *FOLDERSYNC一款支持各大国外网盘同步�
 1. https://nextcloud.com/ - *Nextcloud - Online collaboration platform*
 
     - 支持 Windows, macOS, Linux, Android, iOS
-    
+
     - 开源软件（[GitHub](https://github.com/nextcloud)）
-    
+
     - 注册登录（开通会员解锁更多功能）
-    
+
 2. NAS
     - https://baike.baidu.com/item/NAS/3465615 - *NAS_百度百科*
     - https://www.synology.cn/zh-cn - *群晖科技 Synology Inc.*
@@ -50,7 +50,7 @@ https://jingyan.baidu.com/article/2f9b480d9d0f9e00cb6cc2c9.html - *如何挂载�
 
 https://blog.csdn.net/qq_40903527/article/details/127497825 - *将各种网盘挂载到本地，可以使用磁盘操作（建议收藏）_都是地址而已的博客-CSDN博客*
 
-https://baijiahao.baidu.com/s?id=1749059137522588033&searchword=%E7%BD%91%E7%9B%98%E6%8C%82%E8%BD%BD - *windows10系统下nextcloud服务的webdav网盘挂载方法*
+https://baijiahao.baidu.com/s?id=1749059137522588033 - *windows10系统下nextcloud服务的webdav网盘挂载方法*
 
 
 ## 常见问题
