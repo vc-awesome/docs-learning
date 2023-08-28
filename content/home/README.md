@@ -2,24 +2,27 @@
 
 > 开发规范（标准）Standard
 
-https://www.jb51.net/article/137783.htm - _JAVA开发中的一些规范讲解(阿里巴巴Java开发规范手册_
+1. https://www.jb51.net/article/137783.htm - _JAVA开发中的一些规范讲解(阿里巴巴Java开发规范手册_
 
-https://www.githubs.cn/collections/style-guide - *Github上编码规范开源项目推荐 - GitHub中文社区*
+2. https://www.githubs.cn/collections/style-guide - *Github上编码规范开源项目推荐 - GitHub中文社区*
 
-https://www.w3cschool.cn/wematy/ - *腾讯alloyteam团队前端代码规范_w3cschool*
+3. https://www.w3cschool.cn/wematy/ - *腾讯alloyteam团队前端代码规范_w3cschool*
 
-https://juejin.cn/post/6893891476913291278 - *推荐几个大厂的前端代码规范，学会了，你也能写出诗一样的代码！ - 掘金*
+4. https://juejin.cn/post/6893891476913291278 - *推荐几个大厂的前端代码规范，学会了，你也能写出诗一样的代码！ - 掘金*
+
 
 ### 代码规范
 
-https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格* 🇨🇳
+1. https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格*
 
-https://github.com/mdo/code-guide - *Standards for developing consistent, flexible, and sustainable HTML and CSS.* 🇺🇸 🇨🇳
+2. https://github.com/mdo/code-guide - *Standards for developing consistent, flexible, and sustainable HTML and CSS.*
 
+    ![GitHub last commit](https://badgen.net/github/last-commit/mdo/code-guide?icon=github&color=blue)
+
+3. http://zoomzhao.github.io/code-guide/ - *编码规范 by @mdo*
 
 
 ### 注释规范
-
 
 ``` css
 /* 多行
@@ -39,8 +42,6 @@ div {
 
 https://www.w3cschool.cn/wematy/wematy-qaru3bsh.html# - *CSS 注释规范_w3cschool*
 
-
-
 ``` js
 // 自定义内容 - start
 /**
@@ -58,15 +59,17 @@ https://www.w3cschool.cn/wematy/wematy-qaru3bsh.html# - *CSS 注释规范_w3csch
 ```
 
 
-
 ## 术语表
 
 1. https://developer.mozilla.org/zh-CN/docs/Glossary - *MDN Web 文档术语表：Web 相关术语的定义 | MDN*
+
 2. https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill - *Polyfill - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
 
     - https://www.jianshu.com/p/7562b8b589f3 - *Polyfill简介 - 编号哈哈哈 - 简书*
 
 3. https://docs.github.com/zh/get-started/quickstart/github-glossary - *GitHub 词汇表 - GitHub Docs*
+
+4. [NAS](https://baike.baidu.com/item/NAS/3465615)（Network Attached Storage，网络附属存储）
 
 
 ## Warning

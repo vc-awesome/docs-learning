@@ -7,19 +7,19 @@
 
   <!-- Using unpkg -->
   <!-- ----------------------------------------------------------------- -->
-  <!-- <link rel="stylesheet" href="//unpkg.com/@primer/css@latest/dist/primer.css" /> -->
-  <link href="//unpkg.com/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
-  <link rel="stylesheet" href="//unpkg.com/docsify@latest/themes/vue.css" title="vue"/>
-  <link rel="stylesheet" href="//unpkg.com/animate.css@4.1.1/animate.min.css">
+  <!-- <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/@primer/css@latest/dist/primer.css" /> -->
+  <link href="//fastly.jsdelivr.net/npm/@primer/css@^20.2.4/dist/primer.css" rel="stylesheet" />
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@latest/themes/vue.css" title="vue"/>
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css">
   <!-- 引入样式 -->
-  <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css">
 
   <!-- Font icon -->
-  <link rel="stylesheet" href="//unpkg.com/file-icons-js@latest/css/style.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/file-icons-js@latest/css/style.css">
   <link rel="stylesheet" href="//site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
-  <link rel="stylesheet" href="//unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//unpkg.com/bootstrap-icons@latest/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="//unpkg.com/remixicon@latest/fonts/remixicon.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/remixicon@latest/fonts/remixicon.css">
   <!-- iconfont -->
   <link rel="stylesheet" href="//at.alicdn.com/t/c/font_3152517_xp9a7u8p69.css">
   <script type="text/javascript" src="//at.alicdn.com/t/c/font_3152517_xp9a7u8p69.js"></script>
@@ -34,7 +34,7 @@
   <link rel="shortcut icon" href="_media/octocat.png.webp">
 
   <!-- Table of Contents -->
-  <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify-plugin-toc@latest/dist/light.css">
   <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
 
   <!-- Using Local -->
@@ -43,9 +43,9 @@
   <link rel="stylesheet" href='_assets/css/vc-animation.css'>
 
   <!-- 代码块行号 -->
-  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/line-numbers/prism-line-numbers.min.css">
-  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
-  <link rel="stylesheet" href="//unpkg.com/prismjs/plugins/treeview/prism-treeview.css" data-noprefix="">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/prismjs/plugins/line-numbers/prism-line-numbers.min.css">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/prismjs/plugins/show-invisibles/prism-show-invisibles.css" data-noprefix="">
+  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/prismjs/plugins/treeview/prism-treeview.css" data-noprefix="">
   <style>
     /*
      * Fix line number in code block.
@@ -226,6 +226,8 @@
             '[<i class="fa-regular fa-earth-americas"></i>](https://vc-awesome.github.io/docs-learning/)',
             '[<i class="fab fa-github"></i>](https://github.com/vc-awesome/docs-learning)',
             '[<i class="fab fa-mastodon"></i>](https://mastodon.social/@vc_torres)',
+            '[<i class="fa-brands fa-weibo"></i>](https://weibo.com/u/2684733573)',
+            '[<img src="https://cdn.jsdelivr.net/favicon.ico" style="width: 1.2rem" />](https://cdn.jsdelivr.net/gh/vc-awesome/docs-learning/)',
             '</div>'
           ].join('');
 
@@ -390,7 +392,8 @@
 <div class="d-flex flex-column position-fixed right-2 bottom-2" id="right-bottom-float-btns" style="display: none!important;">
   <details class="dropdown details-reset details-overlay d-inline-block bottom-2">
       <summary class="btn btn-sm" aria-haspopup="true">
-      <i class="fa-regular fa-browsers" style="color: #0969da;opacity:.6;"></i>
+        👏
+      <!--<i class="fa-regular fa-browsers" style="color: #0969da;opacity:.6;"></i>-->
     </summary>
 
     <ul class="dropdown-menu dropdown-menu-w">
@@ -400,14 +403,15 @@
       <li class="dropdown-divider" role="separator"></li>
       <li><a class="dropdown-item" href="javascript:sweetalert2Iframe('home/document-template.md')">1. 📃 文档模板</a></li>
       <li><a class="dropdown-item" href="javascript:sweetalert2Iframe()">2. 📄 代码片段</a></li>
+      <li><a class="dropdown-item" href="javascript:sweetalert2Iframe('os/tools/custom-badge.md')">3. <svg class="icon" aria-hidden="true" style="width: 18px;"><use xlink:href="#icon-badge"></use></svg> Badge</a></li>
       <li class="dropdown-divider" role="separator"></li>
-      <li><a class="dropdown-item" href="https://translate.googleapis.com/translate_a/element.js" target="_blank">3. 📶 VPN 测试</a></li>
+      <li><a class="dropdown-item" href="https://translate.googleapis.com/translate_a/element.js" target="_blank">4. 📶 VPN 测试</a></li>
     </ul>
   </details>
   <details class="dropdown details-reset details-overlay d-inline-block">
     <!-- <summary class="btn btn-sm" aria-haspopup="true" onmouseover="this.parentNode.setAttribute('open', 'true')"> -->
       <summary class="btn btn-sm" aria-haspopup="true">
-      🧊
+      🥰
       <!-- <div class="dropdown-caret"></div> -->
     </summary>
 
@@ -431,6 +435,10 @@
     </ul>
   </details>
   <button class="btn btn-outline btn-sm" onclick="sweetalert2Iframe('_portal.md')">🦣</button>
+  <button class="btn btn-outline btn-sm"
+  onclick="sweetalert2Iframe('./README.md')">🗺️</button>
+  <button class="btn btn-outline btn-sm"
+  onclick="location.href = '#/'">🚀</button>
    <!-- onmouseenter="sweetalert2Iframe('_portal.md')" -->
   <!-- 返回顶部 -->
   <button class="back-to-top-progress btn btn-link btn-sm color-fg-accent" aria-disabled="true">
@@ -502,7 +510,7 @@
   (function () {
     var themes = {
       "meta": {
-          "path": "//unpkg.com/docsify@latest/themes/{id}.css",
+          "path": "//fastly.jsdelivr.net/npm/docsify@latest/themes/{id}.css",
           "link": "index.html?theme={id}",
           "exclusive": true
       },
@@ -614,8 +622,8 @@ function toggleFullScreen(e) {
 </script>
 
 <!-- Mermaid -->
-<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
-<script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<link rel="stylesheet" href="//fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
+<script src="//fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <script>
   /**
    * @url https://docsify.js.org/#/markdown?id=supports-mermaid - *Markdown configuration*
@@ -706,45 +714,45 @@ function toggleFullScreen(e) {
 <script src="_assets/libs/back2top/js/anime.min.js"></script>
 <script src="_assets/js/back2top.js"></script>
 
-<!-- <script src="//unpkg.com/docsify@latest/lib/docsify.min.js"></script> -->
+<!-- <script src="//fastly.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script> -->
 <script src="_assets/libs/docsify.js"></script>
 
 <!-- 语法高亮 -->
-<script src="//unpkg.com/prismjs@latest/components/prism-bash.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-php.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-sql.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-markdown.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-uri.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-powershell.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-json.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-diff.min.js"></script>
-<script src="//unpkg.com/prismjs@latest/components/prism-regex.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-bash.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-php.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-sql.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-markdown.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-uri.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-powershell.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-json.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-diff.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-regex.min.js"></script>
 
 
 <!-- 全文搜索 -->
-<script src="//unpkg.com/docsify@latest/lib/plugins/search.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/docsify@latest/lib/plugins/search.min.js"></script>
 
 <!-- 图片缩放 -->
-<script src="//unpkg.com/docsify@latest/lib/plugins/zoom-image.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/docsify@latest/lib/plugins/zoom-image.min.js"></script>
 
 <!-- docsify-tabs (latest v1.x.x) -->
-<script src="//unpkg.com/docsify-tabs@latest/dist/docsify-tabs.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/docsify-tabs@latest/dist/docsify-tabs.min.js"></script>
 
 <!-- countable -->
-<script src="//unpkg.com/docsify-count@latest/dist/countable.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/docsify-count@latest/dist/countable.min.js"></script>
 
 <!-- ionicons -->
-<script type="module" src="//unpkg.com/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="//unpkg.com/ionicons@latest/dist/ionicons/ionicons.js"></script>
+<script type="module" src="//fastly.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="//fastly.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
 
 <!-- Latest -->
-<script src="//unpkg.com/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
 
 <!-- 引入组件库 -->
-<script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
-<script src="//unpkg.com/element-ui/lib/index.js"></script>
+<script src="//fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/element-ui/lib/index.js"></script>
 
-<script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
 
 <!-- Copy code -->
 <script src="_assets/libs/docsify-copy-code.js"></script>
@@ -752,9 +760,9 @@ function toggleFullScreen(e) {
 <script src="_assets/js/docsify-code-text-wrap.js"></script>
 
 <!-- LaTeX display engine -->
-<script src="//unpkg.com/mathjax@3/es5/tex-mml-chtml.js" defer async="true"></script>
+<script src="//fastly.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" defer async="true"></script>
 <!-- docsify-latex plugin -->
-<script src="//unpkg.com/docsify-latex@0/dist/docsify-latex.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/docsify-latex@0/dist/docsify-latex.min.js"></script>
 
 <!-- SweetAlert2 -->
 <style>
@@ -765,8 +773,11 @@ function toggleFullScreen(e) {
   .swal2-close:focus {
     box-shadow: none!important;
   }
+  div:where(.swal2-container) button:where(.swal2-close) {
+    justify-self: start;
+  }
 </style>
-<script src="//unpkg.com/sweetalert2@11/dist/sweetalert2.all.js"></script>
+<script src="//fastly.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.js"></script>
 <script>
 function sweetalert2(_filename = 'content/_portal.md') {
   var html;
@@ -781,22 +792,25 @@ function sweetalert2(_filename = 'content/_portal.md') {
     })
   })
 }
-function sweetalert2Iframe(_url = "snippets/") {
+function sweetalert2Iframe(_url = "snippets/", _path = "snippets.html") {
   Swal.fire({
     showConfirmButton: false,
     showCloseButton: true,
     focusConfirm: false,
-    html: '<iframe src="snippets.html#/' + _url + '" frameborder="0" style="width: 100%;height: calc( 100vh / 1.2 );"></iframe>',
+    html: '<iframe src="' + _path + '#/' + _url + '" frameborder="0" style="width: 100%;height: calc( 100vh / 1.2 );"></iframe>',
   })
+}
+function sweetalertClose() {
+  Swal.close();
 }
 </script>
 
-<script src="//unpkg.com/prismjs/plugins/show-invisibles/prism-show-invisibles.js"></script>
-<script src="//unpkg.com/prismjs/plugins/treeview/prism-treeview.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs/plugins/show-invisibles/prism-show-invisibles.js"></script>
+<script src="//fastly.jsdelivr.net/npm/prismjs/plugins/treeview/prism-treeview.js"></script>
 
-<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.min.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/uri-js@4.4.1/dist/es5/uri.all.min.js"></script>
+<script src="//fastly.jsdelivr.net/npm/uri-js@4.4.1/dist/es5/uri.all.min.js"></script>
 
 <!-- 显示/隐藏顶部导航栏 -->
 <style>

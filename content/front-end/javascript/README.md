@@ -36,7 +36,7 @@ https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机�
 
 https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
 
-> 变量命名：驼峰法*（camelCase）*
+> 变量命名：驼峰法 *（camelCase）*
 
 
 #### 对象
@@ -60,9 +60,9 @@ https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜�
 
     [JavaScript 和 HTML DOM 参考手册 | 菜鸟教程](https://www.runoob.com/jsref/jsref-tutorial.html)-“HTML DOM 元素对象参考手册”
 
-[element.innerHTML](https://www.runoob.com/jsref/prop-html-innerhtml.html) - *HTML DOM innerHTML 属性 | 菜鸟教程*
+    [element.innerHTML](https://www.runoob.com/jsref/prop-html-innerhtml.html) - *HTML DOM innerHTML 属性 | 菜鸟教程*
 
-[HTMLElement.innerText](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/innerText) - *HTMLElement.innerText - Web API 接口参考 | MDN*
+    [HTMLElement.innerText](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/innerText) - *HTMLElement.innerText - Web API 接口参考 | MDN*
 
 #### 数据类型
 
@@ -85,6 +85,25 @@ https://www.runoob.com/w3cnote/detect-empty-javascript-object.html - *如何判�
 https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
 
 ### 进阶
+
+## 标准库
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects - *JavaScript 标准内置对象 - JavaScript | MDN*
+
+
+### Number 对象
+
+1. https://wangdoc.com/javascript/stdlib/number - *Number 对象 - JavaScript 教程 - 网道*
+
+2. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Number - *Number - JavaScript | MDN*
+
+
+### String 对象
+
+1. https://wangdoc.com/javascript/stdlib/string - *String 对象 - JavaScript 教程 - 网道*
+
+2. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String - *String - JavaScript | MDN*
+
 
 ## JavaScript Source Map 用法
 

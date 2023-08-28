@@ -5,6 +5,7 @@
 
 https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及使用方法_
 
+
 ## Usage
 
 ### Size
@@ -23,6 +24,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 | Styled Icons    | <img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/> | `<img height="14" width="14" src="https://cdn.jsdelivr.net/npm/simple-icons@v6/icons/travisci.svg" class="img-icon"/>` |                                                              |
 
 </details>
+
 
 ### Color
 
@@ -48,6 +50,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 </details>
 
+
 ## Using
 
 ### Font Awesome
@@ -57,7 +60,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 | 图标                                         | 语境             | 代码                                         |
 | :-------------------------------------------- | :---------------- | :-------------------------------------------- |
-| <i class="fa fa-github fa-lg"></i>           | GitHub           | `<i class="fa fa-github fa-lg"></i>`         |
+| <i class="fa-brands fa-github fa-lg"></i>           | GitHub           | `<i class="fa-brands fa-github fa-lg"></i>`         |
 | <i class="fa fa-gitlab medium-orange"></i>   | GitLab           | `<i class="fa fa-gitlab medium-orange"></i>` |
 | <i class="fa fa-firefox fa-lg"></i>          | 浏览器           | `<i class="fa fa-firefox"></i>`              |
 | <i class="fa fa-chrome fa-lg"></i>           | 浏览器           | `<i class="fa fa-chrome"></i>`               |
@@ -99,6 +102,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 
 </details>
 
+
 ### Bootstrap Icons
 
 <details markdown='1'>
@@ -112,6 +116,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 | <i class="bi bi-hand-thumbs-up"></i> | 点赞      | `<i class="bi bi-hand-thumbs-up"></i>` |
 
 </details>
+
 
 ### Remix Icon
 
@@ -138,6 +143,7 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 | <i class="ri-open-source-fill medium-green"></i> | 开源（Open-Source） | `<i class="ri-open-source-fill medium-green"></i>` |
 
 </details>
+
 
 ### File Icons
 
@@ -167,20 +173,25 @@ https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及�
 </details>
 
 
+## Search
+
+<i class="fa-brands fa-github fa-lg"></i>
+<i class="fa fa-search"></i>
+
+1. https://github.com/topics/icons - *icons · GitHub Topics · GitHub*
+
+2. https://github.com/topics/icon-font - *icon-font · GitHub Topics · GitHub*
+
+
 ## Link
 
-<i class="fa fa-github fa-lg"></i> <i class="fa fa-search"></i> https://github.com/topics/icons - *icons · GitHub Topics · GitHub*
+1. https://juejin.cn/post/6844904150237478926 - *除了阿里的iconfont图标库，还有这10个开源SVG图标库*
 
-https://github.com/topics/icon-font - *icon-font · GitHub Topics · GitHub*
+2. https://bs4.dashgame.com/pages/extend.html - *Bootstrap4 中文文档*
 
-https://juejin.cn/post/6844904150237478926 - *除了阿里的iconfont图标库，还有这10个开源SVG图标库*
+3. https://www.cnblogs.com/sexintercourse/p/15945269.html - *最佳Icon图标库推荐，收藏等于学会*
 
-https://bs4.dashgame.com/pages/extend.html - *Bootstrap4 中文文档*
-
-https://www.cnblogs.com/sexintercourse/p/15945269.html - *最佳Icon图标库推荐，收藏等于学会*
-
-https://zhuanlan.zhihu.com/p/473946284 - *推荐 5 个优秀的 Javascript 图标库 - 知乎*
-
+4. https://zhuanlan.zhihu.com/p/473946284 - *推荐 5 个优秀的 Javascript 图标库 - 知乎*
 
 
 ## Tool
@@ -193,16 +204,14 @@ https://github.com/ecomfe/fonteditor :cn: - *在线字体编辑器*
 https://www.high-logic.com/font-editor/fontcreator :us: - *FontCreator for Windows - the most popular font editor*
 
 
-
 ### 在线 Icon 搜索
 
 https://www.flaticon.com/ :us: - *Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS*
 
 https://icons8.com :us: :cn: - *Free Icons, Clipart Illustrations, Photos, and Music*
 
-- <i class="fa fa-github fa-lg"></i>
+- <i class="fa-brands fa-github fa-lg"></i>
   https://github.com/icons8
-
 
 
 ### Iconfont
@@ -233,6 +242,7 @@ iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提�
 7. 在「我的项目」页面可以进一步的编辑图标、删除图标等操作；
 8. 项目准备完毕后，具体如何使用，官方「[使用帮助](https://www.iconfont.cn/help/detail?helptype=code)」文档有详细说明。
 
+
 ## Library
 
 ### Font Awesome 🥇
@@ -243,10 +253,9 @@ iconfont-国内功能很强大且图标内容很丰富的矢量图标库，提�
 
 <i class="fa fa-laptop"></i> https://fontawesome.com/
 
-<i class="fa fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/FortAwesome/Font-Awesome
 
 ----
-
 
 中文手册：
 
@@ -281,8 +290,8 @@ https://fontawesome.com/versions - *Font Awesome*
 ```css
 @font-face {
   font-family:'FontAwesome';
-  src:url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
-  src:url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('//unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+  src:url('https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0');
+  src:url('https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('https://unpkg.com/font-awesome@4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
   font-weight:normal;
   font-style:normal
 }
@@ -301,12 +310,20 @@ a[target=_blank]:after {
 
 用法 2：
 
+V6.4.0
+
 ```html
-<link rel="stylesheet" href="//site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
 ```
 
 ```html
 <i class="fab fa-font-awesome"></i>
+```
+
+V4.7.0
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
 ```
 
 CDN:
@@ -314,6 +331,7 @@ CDN:
 1. https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css
 
 2. https://lug.ustc.edu.cn/_extra/fontawesome/css/all.min.css
+
 
 ### Remix Icon 🥈
 
@@ -323,7 +341,8 @@ CDN:
 
 <i class="fa fa-laptop"></i> https://remixicon.com/ - *Remix Icon - Open source icon library*
 
-<i class="fa fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/Remix-Design/remixicon
+
 
 ### Ionicons 🥉
 
@@ -333,7 +352,7 @@ CDN:
 
 <i class="fa fa-laptop"></i> https://ionic.io/ionicons
 
-<i class="fa fa-github fa-lg"></i> https://github.com/ionic-team/ionicons
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/ionic-team/ionicons
 
 <i class="ri-soundcloud-line"></i>
 https://unpkg.com/ionicons/
@@ -343,6 +362,7 @@ https://unpkg.com/ionicons/
 <script type="module" src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="//unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 ```
+
 
 ### Foundation Icon Fonts
 
@@ -354,6 +374,7 @@ https://unpkg.com/ionicons/
 
 <i class="ri-soundcloud-line"></i> https://unpkg.com/foundation-icons/
 
+
 ### Bootstrap Icons
 
 ?> Official open source SVG icon library for Bootstrap.<br><i class="fa fa-language dark-yellow"></i> Bootstrap 的官方开源 SVG 图标库。
@@ -362,8 +383,7 @@ https://unpkg.com/ionicons/
 
 <i class="fa fa-laptop"></i> https://icons.getbootstrap.com/
 
-<i class="fa fa-github fa-lg"></i> https://github.com/twbs/icons
-
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/twbs/icons
 
 
 ### File Icons
@@ -372,7 +392,7 @@ https://unpkg.com/ionicons/
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/file-icons/atom?icon=github&color=blue)
 
-<i class="fa fa-github fa-lg"></i>
+<i class="fa-brands fa-github fa-lg"></i>
 https://github.com/file-icons/atom ⇒ *Via https://github.com/homerchen19/github-file-icons - *谷歌扩展程序**
 
 <span class="icon octicon-file npm-icon medium-red"></span>
@@ -380,6 +400,7 @@ https://www.jsdelivr.com/package/npm/file-icons-js
 
 <span class="icon octicon-file css3-icon medium-blue"></span>
 https://cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css
+
 
 ### Styled Icons 🔥
 
@@ -389,7 +410,8 @@ https://cdn.jsdelivr.net/npm/file-icons-js@1.1.0/css/style.css
 
 <i class="fa fa-laptop"></i> https://styled-icons.dev/
 
-<i class="fa fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/styled-icons/styled-icons
+
 
 ### React Icons
 
@@ -401,8 +423,9 @@ svg react icons of popular icon packs
 <i class="fa fa-laptop"></i>
 https://react-icons.github.io/react-icons/
 
-<i class="fa fa-github fa-lg"></i>
+<i class="fa-brands fa-github fa-lg"></i>
 https://github.com/react-icons/react-icons
+
 
 ### Octicons (For Github)
 
@@ -415,9 +438,10 @@ https://github.com/react-icons/react-icons
 
 <i class="fa fa-laptop"></i> https://primer.style/octicons/
 
-<i class="fa fa-github fa-lg"></i> https://github.com/primer/octicons
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/primer/octicons
 
 <i class="ri-soundcloud-line"></i> https://www.bootcdn.cn/octicons/
+
 
 ### Material Design Icons
 
@@ -427,26 +451,36 @@ https://github.com/react-icons/react-icons
 
 !> 🪜 **Google** 产品
 
-<i class="fa fa-github fa-lg"></i> https://github.com/google/material-design-icons - *GitHub - google/material-design-icons: Material Design icons by Google*
+<i class="fa-brands fa-github fa-lg"></i> https://github.com/google/material-design-icons - *GitHub - google/material-design-icons: Material Design icons by Google*
 
 <i class="fa fa-book"></i> 
 
-1. http://google.github.io/material-design-icons/ - *Material 图标指南  |  Google Fonts  |  Google for Developers*（遇到站点无法打开，可使用国内站点：https://developers.google.cn/fonts/docs/material_icons?hl=zh-cn ）
+1. http://google.github.io/material-design-icons/ - *Material 图标指南  |  Google Fonts  |  Google for Developers*
+
+    - 如果遇到站点无法打开，可使用国内站点：https://developers.google.cn/fonts/docs/material_icons
 
 2. https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts*
 
 <i class="ri-soundcloud-line"></i>
 
 1. https://www.bootcdn.cn/material-design-icons/
+
 2. https://unpkg.com/material-design-icons/
 
+---
+
+引用：
 
 ```html
-<link rel="stylesheet" href="//unpkg.com/material-design-icons@3.0.1/iconfont/material-icons.css">
-<!-- 或 -->
-<!--  <link rel="stylesheet" href="//fonts.loli.net/css?family=Material+Icons">-->
-<!-- 或 -->
-<!--  <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+<link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
+```html
+<link href="//unpkg.com/material-design-icons@3.0.1/iconfont/material-icons.css" rel="stylesheet">
+```
+
+```html
+<link href="//fonts.loli.net/css?family=Material+Icons" rel="stylesheet">
 ```
 
 用法：
@@ -480,37 +514,45 @@ a[target=_blank]:after {
 
 参考：
 
-~~https://gooyuit.blog.csdn.net/article/details/80407804 - *Google发布750个Material design icons 图标大全使用*~~
-
+1. ~~https://gooyuit.blog.csdn.net/article/details/80407804 - *Google发布750个Material design icons 图标大全使用*~~
 
 
 ### Glyphicons®
 
 ?> Visual language that everybody understands.<br><i class="fa fa-language dark-yellow"></i> 每个人都能理解的视觉语言。
 
-
-
 <i class="fa fa-laptop"></i>  <i class="fa fa-shopping-cart"></i> https://glyphicons.com/ :us:
-
 
 
 ### vscode-icons
 
 ?> Icons for Visual Studio Code
 
-<i class="fa fa-github fa-lg"></i>
+<i class="fa-brands fa-github fa-lg"></i>
 https://github.com/vscode-icons/vscode-icons
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/vscode-icons/vscode-icons?icon=github&color=blue)
 
-<i class="fa fa-github fa-lg"></i>
+<i class="fa-brands fa-github fa-lg"></i>
 https://github.com/microsoft/vscode-codicons
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/vscode-codicons?color=blue&logo=github&style=flat-square)
 
+
 ### More
 
-1. https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN* ![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
-2. https://github.com/tabler/tabler-icons - *tabler/tabler-icons: A set of over 4000 free MIT-licensed high-quality SVG icons for you to use in your web projects.*
-3. https://github.com/Templarian/MaterialDesign - *GitHub - Templarian/MaterialDesign: ✒7000+ Material Design Icons from the Community*
-4. https://github.com/jaywcjlove/icongo - *GitHub - jaywcjlove/icongo: Search SVG Icons. Easily include popular icons in your React projects and provide an easy tool to convert SVG into React components. @icongo*
+1. https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN* [Website](https://evil-icons.io/)
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
+
+2. https://github.com/tabler/tabler-icons - *tabler/tabler-icons: A set of over 4000 free MIT-licensed high-quality SVG icons for you to use in your web projects.* [Website](https://tabler-icons.io/)
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/tabler/tabler-icons?icon=github&color=blue)
+
+3. https://github.com/Templarian/MaterialDesign - *GitHub - Templarian/MaterialDesign: ✒7000+ Material Design Icons from the Community* [Website](https://materialdesignicons.com/)
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/Templarian/MaterialDesign?icon=github&color=blue)
+
+4. https://github.com/jaywcjlove/icongo - *GitHub - jaywcjlove/icongo: Search SVG Icons. Easily include popular icons in your React projects and provide an easy tool to convert SVG into React components. @icongo* [Website](https://icongo.github.io/)
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/jaywcjlove/icongo?icon=github&color=blue)

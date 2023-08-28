@@ -1,4 +1,3 @@
-
 ## 安全
 
 > 百度关键词搜索：[Web 安全与认证授权](https://www.baidu.com/s?word=Web%20安全与认证授权)
@@ -21,3 +20,4 @@
 
 https://www.daniao.org/tag/列表程序 - *列表程序 - 大鸟博客*
 
+使用 vercel 部署并且绑定自定义域名

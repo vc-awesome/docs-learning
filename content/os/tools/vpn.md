@@ -4,7 +4,13 @@
 >
 > —— https://github.com/topics/vpn - *vpn · GitHub Topics*
 
+
 ## Search
+
+搜索关键词：
+
+1. proxy
+2. vpn
 
 
 ### GitHub
@@ -34,53 +40,61 @@
 
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/Alvin9999/new-pac?icon=github&color=blue)
 
-5. https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*
+5. ~~https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*~~
    
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
 
-## 订阅
 
-### Free Account 🔥
+## Free Account 🔥
 
-- 导入
+### 导入的方式
 
-    https://free-ss.site/ - *免费上网账号*
-    
-    电脑、手机直连主站：
-    
-    通过[图片教程](https://free-ss.site/v/direct_access.png)的操作方法，在系统文件 _hosts_ 中新增下列行：
-    
-    ```md
-    104.18.18.18 free-ss.site
-    ```
-    
-    更多用法可参考：
-     1. https://cloud.tencent.com/developer/article/1600793 - *获取free-ss账号并导入SSR-腾讯云开发者社区-腾讯云*
-    ---
-    
-    https://github.com/free-ss/free-ss.site
-    
-    ![](https://flat.badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
-    > 偶尔有连接不上的情况，过几个小时重新连接大概率可使用。
+主页：
+
+https://free-ss.site/ - *免费上网账号*
+
+GitHub：
+
+https://github.com/free-ss/free-ss.site
+
+![](https://flat.badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
+
+常见问题：
+
+> 导入免费账号成功后，如果遇到连接失败，待站点更新账号（大概几个小时后），重新获取免费账号并导入（新的账号大概率可使用）。
+
+当站点主页无法访问，可用下面的方法使电脑、手机直连主站：
+
+通过 [图片教程](https://free-ss.site/v/direct_access.png) 的操作方法，在系统文件 「**hosts**」 中新增下列行
+
+```md
+104.18.18.18 free-ss.site
+```
+
+更多用法可参考：
+ 1. https://cloud.tencent.com/developer/article/1600793 - *获取free-ss账号并导入SSR-腾讯云开发者社区-腾讯云*
 
 
-- 订阅
+### 订阅的方式
 
-    https://github.com/freefq - *freefq*
-    
-    https://github.com/freefq/free
-    
-    ![](https://flat.badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
+https://github.com/freefq - *freefq*
 
-    - 订阅地址 1：`https://cdn.jsdelivr.net/gh/freefq/free/v2`
+https://github.com/freefq/free
 
-    - 订阅地址 2：`https://bulinkbulink.com/freefq/free/master/v2`
+![](https://flat.badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
 
-    - ~~订阅地址 3：`https://raw.fastgit.org/freefq/free/master/v2`~~
+订阅地址：
+
+1. `https://cdn.jsdelivr.net/gh/freefq/free/v2`
+
+2. `https://fastly.jsdelivr.net/gh/freefq/free/v2`
+
+3. `https://bulinkbulink.com/freefq/free/master/v2`
+
+4. ~~`https://raw.fastgit.org/freefq/free/master/v2`~~
 
 
 ## Tool
-
 
 ### V2Ray 🔥
 
@@ -99,28 +113,37 @@ https://github.com/v2ray - *Project V · GitHub*
 2. https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, support Xray core and v2fly core and others*
 
     ![GitHub last commit](https://flat.badgen.net/github/last-commit/2dust/v2rayN?icon=github&color=blue)
-    - 支持 Windows
 
+    - 支持 Windows
 
 3. https://github.com/2dust/v2rayNG - *GitHub - 2dust/v2rayNG: A V2Ray client for Android, support Xray core and v2fly core*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayNG?color=blue&logo=github&style=flat-square)
-    - 支持 Android
-    - <details><summary><i style="color:red">SEE MORE >></i></summary>
 
-    「路由设置」 > 域名解析策略：
-        - AsIs：只使用域名进行路由选择，默认值；
-        - IPIfNonMatch：当域名没有匹配任何基于域名的规则时，将域名解析成 IP（A 记录或 AAAA 记录），进行基于 IP 规则的匹配；
-            - 当一个域名有多个 IP 地址时，会尝试匹配所有的 IP 地址，直到其中一个与某个 IP 规则匹配为止；
-            - 解析后的 IP 仅在路由选择时起作用，转发的数据包中依然使用原始域名。
-        - IPOnDemand：当匹配时碰到任何基于 IP 的规则，立即将域名解析为 IP 进行匹配。
+    - 支持 Android
+
+    - <details><summary><i style="color:red">SEE MORE >></i></summary>
     
-    有关详细信息，请参阅“[Routing 路由 | V2Fly.org](https://www.v2fly.org/config/routing.html)”。
-</details>
+    
+        「路由设置」 > 域名解析策略：
+        
+        - AsIs：只使用域名进行路由选择，默认值；
+        
+        - IPIfNonMatch：当域名没有匹配任何基于域名的规则时，将域名解析成 IP（A 记录或 AAAA 记录），进行基于 IP 规则的匹配；
+        
+            - 当一个域名有多个 IP 地址时，会尝试匹配所有的 IP 地址，直到其中一个与某个 IP 规则匹配为止；
+        
+            - 解析后的 IP 仅在路由选择时起作用，转发的数据包中依然使用原始域名。
+        
+        - IPOnDemand：当匹配时碰到任何基于 IP 的规则，立即将域名解析为 IP 进行匹配。
+        
+        有关详细信息，请参阅“[Routing 路由 | V2Fly.org](https://www.v2fly.org/config/routing.html)”。
+    </details>
 
 文档：
 
 1. https://www.v2ray.com/ - *Project V · Project V 官方网站* 🪜
+
     - https://www.v2fly.org/config/routing.html - *Routing 路由 | V2Fly.org*
 
 2. https://github.com/ToutyRater/v2ray-guide
@@ -136,22 +159,25 @@ https://github.com/v2ray - *Project V · GitHub*
 
 https://github.com/v2fly - *V2Fly · GitHub*
 
-
 文档：
 
 1. https://github.com/v2fly/v2fly-github-io
    
     ![](https://flat.badgen.net/github/last-commit/v2fly/v2fly-github-io?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+
     - https://www.v2fly.org 🪜
 
 2. https://github.com/v2fly/v2ray-step-by-step
 
     ![](https://flat.badgen.net/github/last-commit/v2fly/v2ray-step-by-step?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+
     - https://guide.v2fly.org 🪜
+
 
 #### DNS
 
-https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0
+1. https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0
+
 
 #### 参考
 
@@ -174,12 +200,23 @@ https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环�
 
 > shadowsocks is a fast tunnel proxy that helps you bypass firewalls
 
-<i class="fa fa-windows"></i>
-<i class="fa fa-apple"></i>
-<i class="fa fa-android"></i>
-https://github.com/shadowsocks /
-<i class="bi bi-ladder"></i>
+https://github.com/shadowsocks - *shadowsocks · GitHub*
+
 https://shadowsocks.org/ - *Shadowsocks | A fast tunnel proxy that helps you bypass firewalls.*
+
+---
+
+<i class="fa fa-windows"></i> https://github.com/shadowsocks/shadowsocks-windows - *GitHub - shadowsocks/shadowsocks-windows: A C# port of shadowsocks*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/shadowsocks-windows?color=blue&logo=github&style=flat-square)
+
+<i class="fa fa-apple"></i> https://github.com/shadowsocks/ShadowsocksX-NG - *GitHub - shadowsocks/ShadowsocksX-NG: Next Generation of ShadowsocksX*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/shadowsocks/ShadowsocksX-NG?color=blue&logo=github&style=flat-square)
+
+<i class="fa fa-android"></i> https://github.com/shadowsocks/shadowsocks-android - *GitHub - shadowsocks/shadowsocks-android: A shadowsocks client for Android*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/shadowsocks/shadowsocks-android?color=blue&logo=github&style=flat-square)
 
 ---
 
@@ -187,6 +224,7 @@ https://shadowsocks.org/ - *Shadowsocks | A fast tunnel proxy that helps you byp
 https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/ShadowsocksR-Windows?color=blue&logo=github&style=flat-square)
+
 
 ### Clash 🔥
 
@@ -204,11 +242,20 @@ https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Kr328/ClashForAndroid?color=blue&logo=github&style=flat-square)
 
+
 #### 订阅链接（含订阅转换工具）
 
 https://github.com/anaer/Sub - *自用clash订阅链接*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/anaer/Sub?color=blue&logo=github&style=flat-square)
+
+订阅转换：
+
+- 可使用订阅转换工具，将 `https://cdn.jsdelivr.net/gh/anaer/Sub@main/clash.yaml` 转换成手机应用「Clash for Android」的订阅链接
+
+    名称：`https://github.com/anaer/Sub/`
+
+    URL： `https://v1.mk/101IOrE`
 
 订阅链接列表：
 
@@ -220,19 +267,44 @@ https://github.com/anaer/Sub - *自用clash订阅链接*
 
         URL： `https://proxypool.link/clash/proxies?type=vmess&c=US&speed=0,20`
 
+2. https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy#subscription-links - *GitHub - WilliamStar007/ClashX-V2Ray-TopFreeProxy: Top free VPN (ClashX & V2Ray proxy) with subscription links. [免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray 教程]*
+
+    - 在手机应用「Clash for Android」中填写配置信息
+
+        名称：`https://sub.nicevpn.top/`
+
+        URL： `https://sub.nicevpn.top/Clash.yaml`
+
 订阅转换工具：
 
 1. https://suburl.v1.mk/ - *在线订阅转换工具*
 
-### personalDNSfilter
+    **Clash** 订阅转换成 **V2Ray** 订阅的短链接：`https://v1.mk/DjxcWzQ`
 
-有关详细信息，请参阅“[personalDNSfilter](/os/mobile/mobile-app-list.md#personaldnsfilter)”。
 
-### Tor
+### NekoBox
+
+https://matsuridayo.github.io/ - *MatsuriDayo*
+
+---
+
+https://github.com/MatsuriDayo/NekoBoxForAndroid - *GitHub - MatsuriDayo/NekoBoxForAndroid: NekoBox for Android / sing-box / universal proxy toolchain for Android*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/MatsuriDayo/NekoBoxForAndroid?color=blue&logo=github&style=flat-square)
+
+https://apt.izzysoft.de/fdroid/index/apk/moe.nb4a - *NekoBox - IzzyOnDroid F-Droid Repository*
+
+
+### SagerNet
+
+https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universal proxy toolchain for Android*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/SagerNet/SagerNet?icon=github&color=blue)
+
+
+### Tor Browser
 
 > 在线匿名 | 保护自己免受追踪和监视，突破网络审查。
-
-<i class="fa fa-search"></i> *torbrowser*
 
 <i class="fa fa-windows"></i>
 <i class="fa fa-apple"></i>
@@ -243,62 +315,14 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 下载：
 
-1. <i class="fa fa-github"></i> https://github.com/TheTorProject/gettorbrowser
+1. https://github.com/TheTorProject/gettorbrowser
 
    ![GitHub last commit](https://flat.badgen.net/github/last-commit/TheTorProject/gettorbrowser?icon=github&color=blue)
 
 2. https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
 
-### More
 
-1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
-
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoshoudian/xiazai?icon=github&color=blue)
-
-    - 支持 Windows, macOS
-
-2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship*
-    - 🪜
-3. https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台设备*
-4. https://github.com/Qv2ray - *Qv2ray Workgroup · GitHub*
-
-## Web Proxy
-
-### Free Proxy Sites
-
-https://privacysavvy.com/security/safe-browsing/best-free-proxy-sites/ - *31 Best Free Proxy Sites to Surf Anonymously Online in 2023 - PrivacySavvy*
-
-----
-
-`https://free-ss.site/` 👈 点击复制
-
-1. ✅ https://proxysite.page/en/proxy-site *（无法正确复制链接地址）*
-2. ☑️ https://proxyium.com/ - *Free web proxy - browse fast & anonymously*
-
-   Alternative web-proxies:
-
-   - https://bypasszone.net/ - *Bypasszone | Your Free Web Proxy for Anonymity* （打开网页速度更快）
-3. ✅ https://proxy-123.com/
-4. ✅ https://www.croxyproxy.com/ 🪜
-5. ✅ https://www.croxyproxy.net/ 🪜
-6. ✅ https://www.blockaway.net/ 🪜
-7. ☑️ ~~https://oracleusa.ml/-----https://free-ss.site/ - *免费上网账号*~~
-
-### In-App Purchases
-
-https://getmoreprivacy.com/surfeasy/ - *SurfEasy VPN是否安全？（2023年完整评测） | GetMorePrivacy.com*
-
-
-### Development Tools
-
-https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy based on ServiceWorker*
-
-![](https://flat.badgen.net/github/last-commit/EtherDream/jsproxy?icon=github&color=blue)
-
-
-## Browser
-
-### Addons / Extensions
+### Browser Extensions
 
 #### Google Helper
 
@@ -321,8 +345,6 @@ Support browsers:
     <i class="fa fa-shopping-cart"></i>
   </div>
 </div>
-
-
 
 
 #### Proxy SwitchyOmega 🔥
@@ -350,9 +372,67 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
 1. https://www.cnblogs.com/LyndonMario/p/9326176.html - *chrome神插件之：SwitchyOmega的安装设置*
 
-### Search engines
+
+### More
+
+1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/xiaoshoudian/xiazai?icon=github&color=blue)
+
+    - 支持 Windows, macOS
+
+2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship* 🪜
+
+3. https://www.mozilla.org/zh-CN/products/vpn/ - *Mozilla VPN：保护您的整台设备*
+
+4. https://github.com/Qv2ray - *Qv2ray Workgroup · GitHub*
+
+
+## Web Proxy
+
+### Free Proxy Sites
+
+https://privacysavvy.com/security/safe-browsing/best-free-proxy-sites/ - *31 Best Free Proxy Sites to Surf Anonymously Online in 2023 - PrivacySavvy*
+
+---
+
+测试 URL：`https://free-ss.site/` 👈 点击复制
+
+1. ✅ https://proxysite.page/en/proxy-site *（无法正确复制链接地址）*
+
+2. ☑️ https://proxyium.com/ - *Free web proxy - browse fast & anonymously*
+
+   Alternative web-proxies:
+
+   - https://bypasszone.net/ - *Bypasszone | Your Free Web Proxy for Anonymity* （打开网页速度更快）
+
+3. ✅ https://proxy-123.com/
+
+4. ✅ https://www.croxyproxy.com/ 🪜
+
+5. ✅ https://www.croxyproxy.net/ 🪜
+
+6. ✅ https://www.blockaway.net/ 🪜
+
+7. ☑️ ~~https://oracleusa.ml/-----https://free-ss.site/ - *免费上网账号*~~
+
+
+### In-App Purchases
+
+https://getmoreprivacy.com/surfeasy/ - *SurfEasy VPN是否安全？（2023年完整评测） | GetMorePrivacy.com*
+
+
+### ~~Search engines~~
 
 ~~👉 https://oracleusa.ml/ 👈 via https://zgq-inc.github.io/overthefirewall/#Oracleusa_ml~~
+
+
+### Development Tools
+
+https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy based on ServiceWorker*
+
+![](https://flat.badgen.net/github/last-commit/EtherDream/jsproxy?icon=github&color=blue)
+
 
 ## Glossary
 
@@ -370,7 +450,12 @@ https://github.com/FelisCatus/SwitchyOmega/wiki
 
     ![GitHub last commit](https://flat.badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
 
+
 ## Test URL
+
+墙内：
+
+1. https://www.baidu.com/ - *百度一下*
 
 Google:
 

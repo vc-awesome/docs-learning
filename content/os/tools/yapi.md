@@ -1,30 +1,38 @@
 ![YApi](http://yapi.smart-xwork.cn/doc/ydoc/images/dogbg@1x.png)
 
+## 简介
 
+> YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台
 
-?> YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台
 
 ## 官方
 
-GitHub：https://github.com/YMFE/yapi/
+GitHub：
 
-主页：http://yapi.smart-xwork.cn/
+1. https://github.com/YMFE/yapi/
 
-文档：  
-🐇 http://yapi.smart-xwork.cn/doc/index.html    
-🐢 https://hellosean1025.github.io/yapi/index.html
+主页：
+
+1. http://yapi.smart-xwork.cn/
+
+文档：
+
+1. 🐇 http://yapi.smart-xwork.cn/doc/index.html
+2. 🐢 https://hellosean1025.github.io/yapi/index.html
 
 
+## 安装
 
-## 部署
+### 部署
 
 http://yapi.smart-xwork.cn/doc/devops/index.html - *⚠️ 推荐使用方式二安装，方式一无法安装*
 
-<https://github.com/YMFE/yapi#内网部署>
+https://github.com/YMFE/yapi#内网部署
 
-## 链接
+参考：
 
-https://www.cnblogs.com/1120lwk/p/14228385.html - *YApi搭建流程*
+1. https://www.cnblogs.com/1120lwk/p/14228385.html - *YApi搭建流程*
+
 
 ## 快速入门
 
@@ -56,18 +64,22 @@ Postman 数据导入
 
 3. 将转换后的文件 *./20220224_nimtech.postman_collection_v1.0.0.json* 导入至 *yapi* 接口管理平台
 
+
 ### mock
 
 
 
 ## FAQ
 
-1. YApi-v1.9.2部署失败 *（Accessing non-existent property 'count' of module exports inside circular dependency）* 的解决方案  
-   <https://www.cnblogs.com/KingJames/p/14341095.html>
+1. YApi-v1.9.2部署失败 *（Accessing non-existent property 'count' of module exports inside circular dependency）* 的解决方案
+   
+    https://www.cnblogs.com/KingJames/p/14341095.html
 
-2. 安装yapi出现问题解决方式  
-   <https://blog.csdn.net/qq_44837971/article/details/112566053>
+2. 安装yapi出现问题解决方式
+   
+    https://blog.csdn.net/qq_44837971/article/details/112566053
 
-3. *node.js UnhandledPromiseRejectionWarning* 报错原因解决  
-   https://blog.csdn.net/qq_41329287/article/details/114984567
+3. *node.js UnhandledPromiseRejectionWarning* 报错原因解决
+
+    https://blog.csdn.net/qq_41329287/article/details/114984567
 

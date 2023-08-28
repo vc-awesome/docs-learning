@@ -19,9 +19,9 @@ GitHub：
 - [ ] 设置 - 语言
 - [ ] 全屏浏览
 - [ ] 屏幕旋转
+- [ ] 导入/导出书签（仅支持 html 格式）
 
 _注：屏幕截图教程用 https://github.com/docsifyjs/docsify 页面操作、录制。_
-
 
 ----
 
@@ -47,8 +47,8 @@ GitHub：
 - [ ] 设置 - 语言
 - [ ] 全屏浏览
 - [ ] 屏幕旋转
+- [ ] 导入/导出书签（仅支持 html 格式）
 ```
-
 
 
 ## Kiwi Browser 
@@ -66,6 +66,7 @@ https://github.com/kiwibrowser - *kiwibrowser (Kiwi Browser) · GitHub*
 - [x] 翻译
 - [x] 多语言
 
+
 ## Yander Browser
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
@@ -80,6 +81,7 @@ https://browser.yandex.com/ - *Download Yandex Browser*
 - [x] 科学上网
 - [x] 同步
 
+
 ## Via ✅
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
@@ -92,12 +94,12 @@ https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository 
 
 - [x] 开源
 - [x] 屏蔽广告
-    - 可自定义规则
+    - [x] 可自定义规则
 - [ ] 扩展程序
 - [x] 多语言
 - [ ] 🪜
 - [x] 同步
-- 工具
+- [x] 工具
   - [x] 资源嗅探
   - [x] 自定脚本
   - [x] 翻译网页
@@ -106,6 +108,8 @@ https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository 
 - [x] 夜间模式
 - [ ] 添加到主屏幕
 - [x] 设置 - 应用布局
+- [x] 导入/导出书签（仅支持 html 格式）
+
 
 ## Opera ✅
 
@@ -132,6 +136,7 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 
 搭建🪜，请参阅“[浏览器配置 DNS](essential/dns.md#浏览器配置-dns)”。
 
+
 ## DuckDuckGo
 
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
@@ -144,6 +149,7 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 - [x] 隐私保护
     - [x] 无历史记录
 - [x] 🪜
+
 
 ## Firefox
 
@@ -158,6 +164,7 @@ https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快�
 - [x] 同步
 - [x] 隐私保护
 
+
 ## Chrome
 ![](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.android.chrome%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
@@ -168,14 +175,19 @@ https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 - [x] 同步
 - [x] 🪜
 
+
 ## QQ浏览器 ✅
 
 https://browser.qq.com/ - *QQ浏览器官网_手机浏览器_电脑浏览器_*
 
 - [ ] 开源
-- 工具
+- [x] 同步
+- [x] 工具
   - [x] 资源嗅探
   - [x] 网页翻译
+  - [x] 朗读网页
+  - [x] 定时刷新
+
 
 ## 小米浏览器
 
@@ -196,6 +208,7 @@ http://app.xiaomi.com/detail/105559 - *小米浏览器-保护隐私安全上网*
 
 https://github.com/greatfire/wiki
 
+
 ## 狐猴浏览器 ✅
 
 https://lemurbrowser.com/app/zh/ - *狐猴浏览器*
@@ -213,6 +226,8 @@ https://lemurbrowser.com/app/zh/ - *狐猴浏览器*
 - [x] 页内查找
 - [x] 添加到主屏幕
 - [ ] 设置 - 应用布局
+- [x] 窗口管理
+- [x] 导入/导出书签（仅支持 html 格式）
 
 ----
 
@@ -246,11 +261,12 @@ https://lemurbrowser.com/app/zh/ - *狐猴浏览器*
 
 - 新增Qwant、Brave、StartPage、Fsou搜索引擎
 
+
 ## Edge
 
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.microsoft.emmx%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
-Website：https://www.microsoft.com/zh-cn/edge?form=MA13FJ - *了解 Microsoft Edge*
+Website：https://www.microsoft.com/zh-cn/edge - *了解 Microsoft Edge*
 
 - [ ] 开源
 - [x] 屏蔽广告
@@ -268,33 +284,36 @@ Website：https://www.microsoft.com/zh-cn/edge?form=MA13FJ - *了解 Microsoft E
 - [ ] 全屏浏览
 - [ ] 屏幕旋转
 
+
 ## FAQ
 
 ### 如何清除浏览器“自动填充表单数据”？
 
-> Opera
+> 在 Opera 中使用
 
 `清除全部` *设置 > 隐私 > 清除数据… > 自动填充表单数据*
 
-`清除单个` *选中表单中一条数据，长按2秒后弹出确认框清除*  
+`清除单个` *选中表单中一条数据，长按2秒后弹出确认框清除*
+
 实践网站：
+
 1. https://github.com/
 2. https://www.ruanyifeng.com/blog/ - 实践前设置为“桌面模式”
 
 参考：
 
-https://jingyan.baidu.com/article/642c9d34c281a2254a46f7d9.html - *手机浏览器怎么清除表单数据-百度经验*
+1. https://jingyan.baidu.com/article/642c9d34c281a2254a46f7d9.html - *手机浏览器怎么清除表单数据-百度经验*
+
 
 ### 如何复制标签页标题文字？
 
-> Opera
+> 在 Opera 中使用
 
 将当前标签页“添加到书签”，进入“创建新书签”表单页面，页面中“名称”输入框内容（即页面标题），然后在输入框内点击“全选”-“复制”。
 
-> Via
+> 在 Via 中使用
 
 1. 点击
     ![via-android-tabs-01](_images/via-android-tabs-01.jpg)
 2. 长按复制
     ![via-android-tabs-02](_images/via-android-tabs-02.jpg)
-

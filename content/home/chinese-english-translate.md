@@ -2,15 +2,9 @@
 
 > 专术 = 专业术语
 
-
-
 `access denied` 拒绝访问
 
-
-
-执行
-
-
+`execute` 执行
 
 `avatar preview` 头像预览
 
@@ -27,12 +21,12 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 - sorted 排序
 - collect 聚合
 
+
 ## 体彩
 
 1. `betting` 投注;打赌;打牌;下注;押宝
 2. `odds` (事物发生的)可能性，概率，几率，机会;不利条件;掣肘的事情;逆境;投注赔率
 3. `lottery` 彩票
-
 
 
 ## OTC
@@ -46,7 +40,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 7. `mobile` 手机号
 8. `order sn` 订单号
 9. `order no` 订单号
-
 
 
 ## 电商
@@ -73,12 +66,8 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
     2. 待发货
     3. 待收货
     4. 待评论
-
-
 19. `return` 退货
 20. `refund` 退款
-
-
 
 参考：
 
@@ -86,10 +75,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 2. https://www.amazon.com/ - *Amazon.com. Spend less. Smile more.*
 
 
-
 ## 金融
-
-4 种挂单交易的讲解 > http://blog.sina.com.cn/s/blog_666a7c730101a9q7.html - *4种挂单交易的讲解_simon_新浪博客*
 
 1. `buy limit` 限价买进
 2. `sell limit` 限价卖出
@@ -98,6 +84,9 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 5. `hedge` 对冲
 6. `fund` 基金
 
+参考：
+
+1. http://blog.sina.com.cn/s/blog_666a7c730101a9q7.html - *4种挂单交易的讲解_simon_新浪博客*
 
 
 ## 名词
@@ -106,7 +95,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 2. `withdrawal` 提现
 3. `traffic` 流量
 4. `scope` 范围
-
 
 
 ## 动词
@@ -419,12 +407,10 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 133. `announce` v.宣布;宣告(决定、计划等);(尤指通过广播)通知;声称;宣称
 
 
-
 ## 层级
 
 1. `main` adj.主要的;最重要的
 2. `secondary` adj.次要的;从属的;辅助的;间接引发的;继发性的;次生的;中等教育的;中学的
-
 
 
 ## 时间
@@ -435,7 +421,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 4. `end time format` 格式化结束时间戳（输出格式：2022-7-11 20:00:00）
 
 
-
 ## 空间
 
 1. `quota` n.定额;配额;限额;指标;定量;(候选人当选所需的)规定票数，最低票数
@@ -443,12 +428,10 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
    via https://everhelper.me/client/ （登录后的 settings 中）
 
 
-
 ## 身份
 
 1. `Authorization` n.批准;授权;批准书;授权书
 2. `Authentication` n.身份验证;认证；鉴定
-
 
 
 ## 图表
@@ -459,29 +442,23 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 4. `Area`
 
 
-
 ## 审核
 
 1. `success` 成功
-2. * `failure` 失败
-3. * `refuse` 拒绝
-4. * `pass` 通过
+2. `failure` 失败
+3. `refuse` 拒绝
+4. `pass` 通过
 5. `approved` v.赞成;同意;批准，通过(计划、要求等);认可;核准
 6. `fail` 失败
 7. `finish` 完成
-8. * `complete` 完成
+8. `complete` 完成
 9. 待审核
 10. 同步区块中
 11. 提现成功
 12. 提现驳回
 
 
-
 ## 单位
-
-数量单位 英文字符1 > [link](https://qb.zuoyebang.com/xfe-question/question/7e58dc921d8c5df0d63cc61df8d61f2d.html)
-
-数量单位 英文字符2 > [link](https://qb.zuoyebang.com/xfe-question/question/b40440e99814c856b9060bf573908bc9.html)
 
 1. `Ten` 十
 2. `Hundred` 百
@@ -489,6 +466,10 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 4. `Million` 百万
 5. `Billion` 十亿
 
+参考：
+
+1. https://qb.zuoyebang.com/xfe-question/question/7e58dc921d8c5df0d63cc61df8d61f2d.html - *数量单位 英文字符十百千万十万百万千万亿十亿英文字符示例B是单词billion的缩写，1B＝10亿M是单词million的缩写，1M＝100万并非 计算机容量换算_作业帮*
+2. https://qb.zuoyebang.com/xfe-question/question/b40440e99814c856b9060bf573908bc9.html - *英语里面的万,十万,百万,千万,亿,十亿,百亿,千亿.英语里没有“万”这个数量单位 所以用ten thousand（10千）表示“万”那么后来的十万,百万,千万,亿,十亿,百亿,千亿.怎么表示?_作业帮*
 
 
 ## 语言翻译「PHP ⇋ JS」
@@ -509,7 +490,8 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
   
   参考：
   
-  https://jingyan.baidu.com/article/73c3ce2845a23ae50343d936.html - *如何使用notepad++查看和替换回车换行符-百度经验*
+  1. https://jingyan.baidu.com/article/73c3ce2845a23ae50343d936.html - *如何使用notepad++查看和替换回车换行符-百度经验*
+
 
 ## 小米手机系统
 
@@ -523,6 +505,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 8. `floating windows` 小窗应用
 9. 全部参数
 
+
 ### 手机布局
 
 1. `status bar` 状态栏
@@ -531,6 +514,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 4. `lock screen` 锁屏通知
 5. `floating` 悬浮通知
 6. `badges` 桌面角标
+
 
 ### 应用商店
 
@@ -556,6 +540,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 20. `update history` 更新历史 
 21. `All apps are up to date` 所有应用程序都是最新的
 
+
 ## 时间日期
 
 1. `yesterday` 昨天
@@ -563,9 +548,33 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 3. `friday` 星期五
 4. `now` 现在
 
+
+### 月份
+
+1. `January` - `Jan.` 一月
+2. `February` - `Feb.` 二月
+3. `March` - `Mar.` 三月
+4. `April` - `Apr.` 四月
+5. `May` - `May` 五月
+6. `June` - `Jun.` 六月
+7. `July` - `Jul.` 七月
+8. `August` - `Aug.` 八月
+9. `September` - `Sep.` 九月
+10. `October` - `Oct.` 十月
+11. `November` - `Nov.` 十一月
+12. `December` - `Dec.` 十二月
+
+很明显，12个月的英文缩写为其单词的前三个字母加上“.”。但要注意五月是May，本身就只有三个字母，所以不用加点表缩写。
+
+参考：
+
+1. http://m.gaosan.com/gaokao/537440.html - *1-12月份的英语_高三网*
+
+
 ## 天气
 
 https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *为啥30℃气温热成狗，30℃洗澡水冻成猴？*
+
 
 ## GitHub
 
@@ -581,6 +590,7 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
 10. `Notifications` 通知
 11. `Explore` 探索
 12. `Profile` 个人资料
+
 
 ## 参考
 

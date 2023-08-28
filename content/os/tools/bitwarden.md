@@ -29,11 +29,17 @@ https://bitwarden.com/download/ - *Install and Sync All of Your Devices | Bitwar
 https://bitwarden.com/help/ - *Help Center | Bitwarden*
 
 - Get Started with Mobile Apps
+
   - Auto-fill
+
     - [Auto-fill Logins on Android](https://bitwarden.com/help/auto-fill-android/)
+
     - [Using URIs](https://bitwarden.com/help/uri-match-detection/)
+
     - [Troubleshooting Android Auto-fill](https://bitwarden.com/help/auto-fill-android-troubleshooting/)
+
     - [Auto-fill FAQs](https://bitwarden.com/help/autofill-faqs/)
+
     - 实践操作
 
         设备信息
@@ -44,7 +50,7 @@ https://bitwarden.com/help/ - *Help Center | Bitwarden*
         应用信息
         > 应用版本：2023.3.2
         
-        - 在Web Browser 中使用
+        - 在 Web Browser 中使用
         - 在“应用”中使用
         - 在“应用”-“内置浏览器”中使用
 
@@ -55,6 +61,8 @@ https://baiyunju.cc/tag/bitwarden-jiaocheng - _Bitwarden教程-『白云居』_
 
 
 ## FAQ
+
+暂无
 
 
 [OSS Icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg "Open Source Software"

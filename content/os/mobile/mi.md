@@ -1,4 +1,5 @@
->  玩转小米手机；尝试着长按有惊喜！
+>  玩转小米手机；尝试长按有惊喜！
+
 
 ## 官方网址
 
@@ -10,11 +11,19 @@ https://dev.mi.com/ - *小米开放平台*
 ## 小米笔记
 
 https://s.xiaomi.cn/c/8qK7lYlC - *🏷️ 小米社区*
+
 - https://s.xiaomi.cn/c/H3wMf2jB - *【必看公告】笔记（便签）使用指南&常见问题合集*
+
 
 ## 提取文字
 
-百度关键字搜索：[小米截图识别文字](https://www.baidu.com/s?word=小米截图识别文字)
+百度关键字搜索：
+
+1. [小米截图识别文字](https://www.baidu.com/s?word=小米截图识别文字)
+2. [提取文字 APP](https://www.baidu.com/s?word=提取文字APP)
+3. [OCR](https://www.baidu.com/s?word=ocr)
+
+以下 6 种操作方式：
 
 1. 小爱翻译
 
@@ -50,7 +59,13 @@ https://s.xiaomi.cn/c/8qK7lYlC - *🏷️ 小米社区*
 
     操作步骤：*使用 [区域截屏](#区域截屏) 功能截取需要提取的文字 > 点击底部“分享”按钮 > 选择可文字识别的应用 > 在文字识别应用中提取文字*
     
-    可选文字识别应用：*百度翻译、[Yander Browser](os/mobile/browser.md#yander-browser) - 智能摄像头（推荐）*
+    可选文字识别应用：
+
+    1. *[OCR](https://www.f-droid.org/packages/io.github.subhamtyagi.ocr/)（推荐）*
+    2. *夸克 - 提取文字*
+    3. *百度翻译*
+    4. *[Yander Browser](os/mobile/browser.md#yander-browser) - 智能摄像头*
+
 
 ## 屏幕录制
 
@@ -64,25 +79,30 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 2. 打开方式二：_全局侧边栏 > 视频工具箱 > 录屏（需“自定义设置”中的应用）_
 3. 打开方式三：_小爱语音 > 屏幕录制_
 
+
 ## 应用分类管理
 
 > MIUI 14
 
 操作步骤：_应用 > 设置 > 屏幕时间管理 > 看板 > 下滑-“查看更多应用数据” > 右上角 ![分类管理图标][image-category-list] > 分类管理_
 
+
 ## 设置默认应用
 
 操作步骤：_应用 > 设置 > 应用设置 > 应用管理 > 右上角 ⋮ > 默认应用设置_
 
+
 ## 悬浮球
 
 设置操作：*应用 > 设置 > 更多设置 > 悬浮球*
+
 
 ## 区域截屏
 
 设置操作：_应用 > 设置 > 更多设置 > 快捷手势 > 区域截屏_
 
 使用操作：_“三指长按”手机屏幕_
+
 
 ## 全局侧边栏
 
@@ -94,6 +114,7 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 
 设置操作：_应用 > 设置 > 更多设置 > 特色功能-自由窗口_
 
+
 ## 添加到主屏幕
 
 各 APP、小程序、浏览器等，如果支持此功能均可操作。
@@ -103,6 +124,7 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 ![opera-android-add-to-home-screen](_images/opera-android-add-to-home-screen.jpg)
 
 参考：https://mip.680.com/jingxuangl/info-337716.html - *小米手机微信创建桌面快捷方式的权限在哪里-时间财富网*
+
 
 ## 隐私空间
 
@@ -114,11 +136,13 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 - 私密文件夹
     - 打开操作：打开 *系统应用 > 文件管理*，切换到“最近”或“手机”标签页，在屏幕上方 1/3 处长按屏幕往下拉动，直至出现“松开进入隐私空间”提示，松开后输入隐私密码进入私密文件夹。
 
+
 ## 专注模式
 
 > MIUI 14
 
 设置操作：_应用 > 设置 > 屏幕时间管理 > 专注模式_
+
 
 ## 网络助手
 
@@ -142,17 +166,21 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 
 使用操作：*应用 > 小爱语音 > 右上角“我的” > 蓝牙设备 > 连接指定设备后可查看电池电量、产品说明书*
 
+
 ## 小米相机
 
 - 动态图片
+
 
 ## 文件管理
 
 使用操作：*应用 > QQ浏览器 > 底部导航栏-“文件”*
 
+
 ## 查看图片
 
 在 *系统应用 > 小米相册（版本：3.5.2.9）* 中查看图片比 *系统应用 > 文件管理（版本：4.4.7.6）* 中查看更清晰，图片放大后也更高清。
+
 
 ## 视频播放
 
@@ -160,9 +188,11 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 
 - 使用操作方式二：*系统应用 > 文件管理 > 找到视频文件点击播放*
 
+
 ## 更换手机
 
 使用操作：*应用 > 小米换机*
+
 
 ## 清理存储空间
 
@@ -170,34 +200,48 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 
 使用操作：*系统应用 > 文件管理 > 右上角 ⋮ > 存储空间*
 
+
 ## 常见问题解答
 
 https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小程序添加到桌面后桌面上找不到小程序图标 - 腾讯客服*
 
-> **来源**：任意微信小程序“添加到桌面”操作弹窗提示。
-
 <div class="border border-dashed p-2 m-2">
-如何将微信公众号文章链接复制成自定义格式？</div>
 
-- 将链接 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 」 复制成 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA - *明黄的 iPhone 14 亮出来，接春天。*」 的格式。
+**来源**：任意微信小程序“添加到桌面”操作弹窗提示。
+</div>
+
+
+### 如何将微信公众号文章链接复制成自定义格式？
+
+> 将链接 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 」 复制成 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA - *明黄的 iPhone 14 亮出来，接春天。*」 的格式。
+
+操作步骤：
+
 1. 打开应用 *[微信](http://app.xiaomi.com/detail/1122) > 复制链接*；
 2. 使用（小米手机）系统悬浮窗工具打开应用 *[Simple Clipboard Editor](https://play.google.com/store/apps/details?id=com.trianguloy.clipboardeditor) > 点击分享图标（Share：在 Yandex Browser 浏览器中打开）*；
 3. 分享成功后会自动跳转至浏览器，并新建新标签页打开链接 *[Yandex Browser](https://play.google.com/store/apps/details?id=com.yandex.browser) > 扩展插件：[CopyTabTitleUrl](https://chrome.google.com/webstore/detail/copytabtitleurl/lmgbdjfoaihhgdphombpgjpaohjfeapp) > format*。
    > https://www.cccitu.com/982.html - *手机浏览器 Yandex 安装 Chrome 扩展插件 - CCCiTU - 玩机大学*
 
-<div class="border border-dashed p-2 m-2">如何将微信公众号文章长链接转换成短链接再复制？</div>
 
-- 将链接¹ https://mp.weixin.qq.com/s?__biz=MzIwOTA2MzYwNA==&mid=2247514218&idx=1&sn=0f3a174deb53be7b962facbfda66fedd 转换成链接² https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 。
+### 如何将微信公众号文章长链接转换成短链接再复制？
+
+> 将链接¹ https://mp.weixin.qq.com/s?__biz=MzIwOTA2MzYwNA==&mid=2247514218&idx=1&sn=0f3a174deb53be7b962facbfda66fedd 转换成链接² https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 。
+
+操作步骤：
 
 1. 使用 QQ 浏览器 *打开链接¹ > 分享至微信“朋友圈”*；
 2. 跳转至 *微信“朋友圈”编辑页面后，点击链接¹*（通过微信内置浏览器访问链接）；
 3. 微信内置浏览器打开网页后，点击页面右上角 *“ⵈ” > 复制链接* （复制的链接即链接²）。
 
-<div class="border border-dashed p-2 m-2">如何将微信好友发的“支付宝收款码图片”在支付宝中打开？</div>
+
+### 如何将微信好友发的“支付宝收款码图片”在支付宝中打开？
+
+操作步骤：
 
 1. 打开二维码图片，点击屏幕右下角 *“ⵈ” > 识别图中二维码*；
 2. 复制识别的二维码链接，在浏览器地址栏粘贴进行访问；
 3. 浏览器访问成功后，会提示是否跳转至支付宝 App，选择跳转即可操作转账。
+
 
 ### 如何关闭后台运行中的应用
 
@@ -205,9 +249,11 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 
 添加桌面快捷方式：*应用 > 设置 > 安全 > 下滑至底部 - “手机管家” > 右上角图标 ![设置图标][image-settings] > 常用功能快捷方式 > 开启“省电优化”*
 
+
 ### 如何查看“深圳地铁”各站点首班以及末班发车时间
 
 操作步骤：_应用 > 微信 > 小程序-“乘车码” > 选择“地铁”标签页-“地铁图” > 点击查询的“站点” - 弹出的菜单中选择“站点详情”（即可查看此站点的首班车及末班车到站时间）_
+
 
 ### 如何播放 m3u8 格式视频文件
 

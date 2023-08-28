@@ -14,11 +14,29 @@ Website: https://www.alfredapp.com/ - *Alfred - Productivity App for macOS*
 
 ## 快速入门
 
-### Clipboard History
+### Features
+
+https://www.alfredapp.com/help/features/ - *Features - Alfred Help and Support*
+
+#### Clipboard History
 
 https://www.alfredapp.com/help/features/clipboard/ - *Clipboard History - Alfred Help and Support*
 
-### Alfred Workflows
+设置 Viewer Hotkey 为：<kbd>⌥</kbd> + <kbd>⌘ </kbd> + <kbd>C</kbd>
+
+#### Snippets
+
+https://www.alfredapp.com/help/features/snippets/ - *Snippets and Text Expansion - Alfred Help and Support*
+
+设置 Viewer Hotkey 为：<kbd>⇧</kbd> + <kbd>⌘</kbd> + <kbd>␣</kbd>
+
+collections:
+
+1. https://www.alfredapp.com/help/features/snippets/collections/ - *Snippet Collections - Alfred Help and Support*
+
+2. https://www.alfredapp.com/extras/snippets/ - *Snippets - Alfred*
+
+### Workflows
 
 https://www.alfredapp.com/workflows/ - *Alfred Workflows - Extend Alfred and Boost Your Productivity*
 

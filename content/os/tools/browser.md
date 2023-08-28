@@ -1,8 +1,16 @@
+## 简介
+
+> 浏览器是用来检索、展示以及传递Web信息资源的应用程序。Web信息资源由统一资源标识符( Uniform Resource Identifier，URI)所标记，它是一张网页、一张图片、一段视频或者任何在Web上所呈现的内容。使用者可以借助超级链接( Hyperlinks)，通过浏览器浏览互相关联的信息[1]。
+> 
+> —— https://baike.baidu.com/item/浏览器/213911 - *浏览器_百度百科*
+
+
 ## 链接
 
 https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法*
 
 https://www.baiduyun.wiki/ - _油小猴_
+
 
 ## 图标
 
@@ -25,31 +33,34 @@ https://www.youxiaohou.com/tool/crxsoso.html - *Crx搜搜-一个牛X的扩展商
 
 ## 分类
 
+序号  | 图标  | 名称  | 国家
+---|---|---|---
+1  | <i class="fa fa-qq"></i>  | QQBrowser  | 🇨🇳
+2  | <i class="fa fa-firefox"></i>  | Firefox  | 🇺🇸
+3  | <i class="fa fa-edge"></i>  | Microsoft Edge  | 🇺🇸
+4  | <i class="fa fa-opera"></i>  | Opera  | 🇳🇴
+5  | <i class="fa-brands fa-yandex-international"></i>  | Yandex  | 🇷🇺
+6  | <i class="fa fa-chrome"></i>  | Chrome  | 🇺🇸
+
 https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
 
-- <i class="fa fa-qq"></i> QQBrowser 🇨🇳
+- QQBrowser
 
   https://browser.qq.com/
 
   - *支持网页版微信*
 
-
-
-- <i class="fa fa-firefox"></i> Firefox 🇺🇸
+- Firefox
   
   http://www.firefox.com.cn/
 
-
-
-- <i class="fa fa-edge"></i> Microsoft Edge 🇺🇸
+- Microsoft Edge
 
   https://www.microsoft.com/zh-cn/edge
 
   - *重复书签会自动剔除*
 
-
-
-- <i class="fa fa-opera"></i> Opera :norway:
+- Opera
 
   https://www.opera.com/zh-cn
 
@@ -57,19 +68,16 @@ https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油
   
   !> 有关详细信息，请参阅“[Opera](os/tools/opera.md)”。
 
-
-
-- <i class="fa-brands fa-yandex-international"></i> Yandex :ru:
+- Yandex
 
   https://browser.yandex.com/
 
-### Chrome
 
-<i class="fa fa-chrome"></i> 🇺🇸
+### Chrome
 
 https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
 
-**命令**
+命令：
 
 ```sh
 chrome://chrome-urls/
@@ -87,13 +95,15 @@ chrome://apps/
 chrome://flags/
 ```
 
-
 参考：
+
 1. https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
 
 2. https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
 
-**参考链接**
+---
+
+参考：
 
 1. https://jingyan.baidu.com/album/b2c186c822546ac46ef6ff04.html - *google浏览器怎么删除指定cookie数据*
 
@@ -126,6 +136,7 @@ https://juejin.cn/post/6909814992120315911 - *困扰我多年的“跨浏览器�
 https://www.zhihu.com/question/20434889/answer/1035109307 - *chrome浏览器书签为什么不能同步？*
 
 https://www.howtogeek.com/423917/how-to-get-the-most-out-of-the-chrome-bookmarks-bar/ - *How to Get the Most Out of the Chrome Bookmarks Bar*
+
 
 ### Bookmarklet
 
@@ -165,6 +176,7 @@ https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试
 
 3. https://www.startpage.com/ - *Startpage - Private Search Engine. No Tracking. No Search History.*
 
+
 ### 使用技巧
 
 1. https://www.runoob.com/w3cnote/search-engines-usage-skills.html - *盘点全球搜索引擎及其使用技巧 | 菜鸟教程*
@@ -191,19 +203,23 @@ https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试
 
   - 长按 <kbd>Ctrl</kbd> + 短按 <kbd>F5</kbd>
 
-
 - 横向滚动
+
   - 长按 <kbd>Shift</kbd> + 上下滑动鼠标滚轮（To scroll a file horizontally, turn the mouse wheel while keeping <kbd>Shift</kbd> pressed.）
 
-- 打开新的窗口
 
-  <kbd>Ctrl</kbd> + <kbd>N</kbd>
+### 窗口
 
-- 打开新的无痕式窗口
+1. 打开新的窗口
 
-  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>
+    <kbd>Ctrl</kbd> + <kbd>N</kbd>
 
-- “标签页”操作
+2. 打开新的无痕式窗口
+
+    <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>N</kbd>
+
+
+### 标签页
 
   1. 打开新的标签页
 
@@ -248,15 +264,15 @@ https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试
      当打开一堆选项卡并想把这些页面都保存起来以供之后使用，按 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd>。这样就可以将所有打开的选项卡保存到一个文件夹中，方便以后访问。要恢复它们，只需右键单击书签内的文件夹，选择“打开所有新窗口”。
 
 
+### 链接
 
-- 在新标签页打开链接
-  - 长按 <kbd>Ctrl</kbd> + 鼠标左击链接
+1. 在新标签页打开链接
 
+    长按 <kbd>Ctrl</kbd> + 鼠标左击链接
 
+2. 下载链接目标
 
-- 下载链接目标
-  - 长按 <kbd>Alt</kbd> + 鼠标左击链接
-
+    长按 <kbd>Alt</kbd> + 鼠标左击链接
 
 
 ## 开发者工具
@@ -266,6 +282,7 @@ https://developer.mozilla.org/zh-CN/docs/Web#开发者工具文档 - *Web 开发
 https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
 
 https://baijiahao.baidu.com/s?id=1699345724372278183 - *JavaScript 开发者需要了解的15个 DevTools 技巧*
+
 
 ### Element
 
@@ -313,8 +330,11 @@ https://baijiahao.baidu.com/s?id=1699345724372278183 - *JavaScript 开发者需�
 
 ### Console
 
+
 ### Sources
 
+
 ### Network
+
 
 ### Application

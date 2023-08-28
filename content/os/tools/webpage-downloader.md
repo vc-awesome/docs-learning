@@ -1,34 +1,40 @@
 ## 关键词搜索
 
+百度搜索词：
 
-百度搜索词：[下载网页模板软件](https://www.baidu.com/s?word=下载网页模板软件)、[仿站工具](https://www.baidu.com/s?word=仿站工具)、[仿站软件](https://www.baidu.com/s?word=仿站软件)
+1. [下载网页模板软件](https://www.baidu.com/s?word=下载网页模板软件)
+2. [仿站工具](https://www.baidu.com/s?word=仿站工具)
+3. [仿站软件](https://www.baidu.com/s?word=仿站软件)
+
 
 ## 分类
 
 - 针对单页面
 - 针对整站
 
+
 ## 安装包
 
-- Teleport Ultra
+1. Teleport Ultra
 
     http://www.tenmax.com/teleport/ultra/download.htm/
 
-- Teleport Pro（ _电脑管家 / 收费_ ）
+2. Teleport Pro（ _电脑管家 / 收费_ ）
 
-- 👍 小飞兔（ _收费功能更完善_ ）
+3. 👍 小飞兔（ _收费功能更完善_ ）
 
     https://www.xftsoft.com/
 
     https://smalltool.github.io/
 
-- Offline Explorer（ _电脑管家/收费_ ）
+4. Offline Explorer（ _电脑管家/收费_ ）
 
     https://metaproducts.com/
 
-- WebZip
+5. WebZip
 
     https://www.onlinedown.net/soft/19648.htm
+
 
 ## 浏览器扩展程序
 
@@ -42,20 +48,22 @@
 
     via https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法 - 掘金*
 
+
 ## 在线工具
 
-https://bazhan.wang/ 🇨🇳 - *在线扒站工具-在线扒站官网网页源码打包下载手机扒站_仿站工具*
+1. https://bazhan.wang/ - *在线扒站工具-在线扒站官网网页源码打包下载手机扒站_仿站工具*
+
 
 ## 参考链接
 
 https://blog.csdn.net/weixin_42514606/article/details/88431772 - *扒站工具推荐*
 
-- 如何优雅的扒网站
+如何优雅的扒网站
 
-    https://www.cnblogs.com/zuoshoupai/p/8276741.html - *如何优雅的扒网站——工具篇*
+1. https://www.cnblogs.com/zuoshoupai/p/8276741.html - *如何优雅的扒网站——工具篇*
 
-    https://www.cnblogs.com/zuoshoupai/p/9221285.html - *如何优雅的扒站——抓包篇*
+2. https://www.cnblogs.com/zuoshoupai/p/9221285.html - *如何优雅的扒站——抓包篇*
 
-    https://www.cnblogs.com/zuoshoupai/p/6985834.html - *如何优雅的仿站Step One——扒网站篇*
+3. https://www.cnblogs.com/zuoshoupai/p/6985834.html - *如何优雅的仿站Step One——扒网站篇*
 
-    https://blog.51cto.com/lxw1844912514/3073591 - *4种常用扒站工具（webzip、ha_TeleportPro、Offline Explorer、wget）*
+4. https://blog.51cto.com/lxw1844912514/3073591 - *4种常用扒站工具（webzip、ha_TeleportPro、Offline Explorer、wget）*

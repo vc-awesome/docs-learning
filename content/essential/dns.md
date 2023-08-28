@@ -2,6 +2,7 @@
 
 > DNS（Domain Name System）域名系统，简单点来说，就是当我们在浏览器输入一个网址，需要有一台DNS服务器帮我们解析成IP地址，我们才能打开这个网站。那么，DNS服务器解析的速度快慢，直接影响到我们访问网站的快慢。
 
+
 ## 教程
 
 https://ephen.me/2017/PublicDns_1/ - *使用公共 DNS 上网的弊端（一） | Ephen‘s Blog*
@@ -14,15 +15,18 @@ https://selfboot.cn/2015/11/14/dns_practice/ - *从理论到实践，全方位�
 
 https://blog.skk.moe/post/i-have-my-unique-dns-setup/ - *我有特别的 DNS 配置和使用技巧 | Sukka's Blog*
 
+
 ## DNS 域名商
 
 1. https://www.namesilo.com/ - *Cheap Domain Names & Web Hosting Starting at $0.99! | NameSilo*
 
 2. https://www.cloudflare-cn.com/ - *Cloudflare 中国官网 | 智能化云服务平台 | 免费CDN安全防护 | Cloudflare*
 
+
 ### 配置域名 CNAME
 
 https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - *如何配置域名的 CNAME - 七牛开发者中心*
+
 
 ## 公共 DNS
 
@@ -44,6 +48,7 @@ https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - 
 | 10 | 联通的DNS  | `211.95.1.97`   |                |                                                            |
 
 Via http://tools.jb51.net/table/public_dns - *公共DNS说明表*
+
 
 ### 阿里公共 DNS
 
@@ -71,6 +76,7 @@ dns.alidns.com
 https://dns.alidns.com/dns-query
 ```
 
+
 ### AdGuard 公共 DNS
 
 主页：
@@ -97,6 +103,7 @@ dns.adguard-dns.com
 https://94.140.14.140/dns-query
 ```
 
+
 ### 360 安全 DNS
 
 主页：
@@ -119,19 +126,42 @@ https://sdns.360.net/dnsPublic.html - *360安全DNS*
 https://doh.360.cn
 ```
 
+
 ### DNSPod Public DNS（腾讯云）
 
 主页：
 
 https://www.dnspod.cn/Products/publicdns - *DNSPod Public DNS（腾讯云）*
 
+
+### TUNA DNS666 域名查询服务
+
+主页：
+
+https://tuna.moe/help/dns/ - *TUNA DNS666 域名查询服务 | 清华大学 TUNA 协会*
+
+IPv4：
+
+```md
+101.6.6.6
+```
+
+IPv6：
+
+```md
+2001:da8::666
+```
+
+
 ### DNS 加密协议
 
 https://adguard-dns.io/kb/zh-CN/public-dns/overview/ - *概览 | AdGuard DNS Knowledge Base*
+
 - DNSCrypt（开源的加密协议）
 - DNS-over-HTTPS (DoH)
 - DNS-over-TLS (DoT)
 - DNS-over-QUIC
+
 
 ## 配置 DNS
 
@@ -146,7 +176,6 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
 > ⚠️ Opera 手机浏览器配置安全 DNS（ AdGuard 公共 DNS：`https://94.140.14.140/dns-query`），直接翻墙！
 
 
-
 ### 手机配置私人 DNS
 
 配置步骤：
@@ -156,6 +185,7 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
     ```uri
     dot.360.cn
     ```
+
 2. [清除 Android 设备的 DNS 缓存](https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache/#android%E5%AE%89%E5%8D%93)
 
     1. 最简单的方法：打开和关闭飞行模式。
@@ -174,13 +204,21 @@ http://www.dayanzai.me/flush-dns.html - *刷新 DNS：如何清除 DNS 缓存*
 
 ## 工具
 
+https://mp.weixin.qq.com/s/Ch4JISwgS7rgDQXQT9De8g - *网页打开慢／图片刷不出来？多半是DNS出了问题*
+
+- https://flowus.cn/share/f3496c9b-54de-4242-9f07-c18913b71a68 - *网络修复／DNS修改*
+
+
 ### 在线工具
 
 1. https://nstool.netease.com/ - *网易DNS检测工具*
+
 2. https://uutool.cn/nslookup/ - *在线nslookup域名解析查询工具 - UU在线工具*
 
 3. https://cloud.baidu.com/product/bcd/mobile/#/ - *bcd-applet*
+
 4. https://tool.chinaz.com/dns/ - *DNS查询*
+
 5. https://ntool.chinaz.com/dnsce/ - *DNS污染检测*
 
 6. https://tool.chinaz.com/nslookup/ - *nslookup查询*
@@ -191,6 +229,7 @@ http://www.dayanzai.me/flush-dns.html - *刷新 DNS：如何清除 DNS 缓存*
 DNS Benchmark（电脑管家）
 
 Website: https://www.grc.com/dns/benchmark.htm - *GRC's | DNS Nameserver Performance Benchmark*
+
 
 ### 加密工具
 
@@ -204,6 +243,7 @@ GitHub: https://github.com/bitbeans/SimpleDnsCrypt - *bitbeans/SimpleDnsCrypt: A
 
 参考：https://zhuanlan.zhihu.com/p/89837660 - *使用Simple DNSCrypt/DNSoverHTTPS？ - 知乎*
 
+
 #### dnscrypt-proxy
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/DNSCrypt/dnscrypt-proxy?color=blue&logo=github&style=flat-square)
@@ -212,9 +252,11 @@ Website: https://dnscrypt.info/ - *DNSCrypt version 2 - Official Project Home Pa
 
 GitHub: https://github.com/DNSCrypt/dnscrypt-proxy - *DNSCrypt/dnscrypt-proxy: dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.*
 
+
 ### 终端工具
 
 [nslookup](os/linux/linux%20指令.md#nslookup) 命令
+
 
 ### AdGuard 🔥
 
@@ -236,6 +278,7 @@ VPN:
 
 1. 🪜 https://adguard-vpn.com/zh_cn/welcome.html - *AdGuard VPN 保护你的隐私与安全*
 
+
 ### DNSMasq
 
 🏷️ _Linux 工具_
@@ -252,6 +295,7 @@ VPN:
 4. https://www.cnblogs.com/sunsky303/p/9238669.html - *dnsmasq详解&手册 - sunsky303 - 博客园*
 5. https://blog.51cto.com/longlei/2065967 - _dnsmasq详解及配置_51CTO博客_dnsmasq配置_
 
+
 ### SmartDNS
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/pymumu/smartdns?icon=github&color=blue)
@@ -259,7 +303,9 @@ VPN:
 Website: https://pymumu.github.io/smartdns/ - *SmartDNS*
 
 GitHub: https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*
+
 - 支持 Windows, Linux, macOS
+
 
 ### 手机应用
 
@@ -267,9 +313,16 @@ GitHub: https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local 
 
 https://git.frostnerd.com/PublicAndroidApps/DnsChanger - *PublicAndroidApps / DnsChanger · GitLab*
 
+
+#### personalDNSfilter
+
+有关详细信息，请参阅“[personalDNSfilter](/os/mobile/mobile-app-list.md#personaldnsfilter)”。
+
+
 ## FAQ
 
 1. https://sspai.com/post/42125 - *网速变慢？你可能需要先设置好 DNS | 科普*
+
 
 ### 手机移动网络/WLAN网络如何查看 DNS 服务器地址
 
@@ -278,4 +331,3 @@ https://git.frostnerd.com/PublicAndroidApps/DnsChanger - *PublicAndroidApps / Dn
 > 手机系统：`MIUI 14.0.3`
 
 操作步骤：打开 *应用 > 设置 > 双卡与移动网络 > （滑动至页面底部）高级设置 > （滑动至页面底部）*，就可以查看到 IP 地址和 DNS 服务器地址。
-

@@ -4,11 +4,10 @@
 > 
 > —— http://m.ddrfans.com/3g/1/301864.html - *hosts文件修改方法集合(附各种问题解决方法) - DDR爱好者之家 更新日期：2023/7/10*
 
+
 ## Search
 
 https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
-
-
 
 > Windows 10 hosts 文件初始内容
 
@@ -36,17 +35,21 @@ https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
 #	::1             localhost
 ```
 
+
 ## Tutorials
 
 https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHub*
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/VeleSila/yhosts?icon=github&color=blue)
+
+
 ## Link
 
-http://ddrfans.com/Html/1/301864.html - _hosts文件修改方法集合(附各种问题解决方法) | 更新日期：2023/1/14,DDR爱好者之家 - 无损音乐,高清电影,福利资源,技术教程,磁力下载,网盘云盘资源_
+1. http://ddrfans.com/Html/1/301864.html - _hosts文件修改方法集合(附各种问题解决方法) | 更新日期：2023/1/14,DDR爱好者之家 - 无损音乐,高清电影,福利资源,技术教程,磁力下载,网盘云盘资源_
 
-https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 款小工具推荐给你*
+2. https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 款小工具推荐给你*
 
-~~https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*~~
+3. ~~https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*~~
 
 
 ## Tool
@@ -81,6 +84,7 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 3. [AdAway](os/mobile/mobile-app-list.md#adaway)
 
+
 ## Rules（订阅源）
 
 ### ~~Google~~
@@ -101,6 +105,7 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 
 - https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*
 
+
 ### GitHub
 
 #### 521xueweihan/GitHub520
@@ -112,6 +117,7 @@ https://sspai.com/post/43248 - *在 Windows 上如何管理 Hosts？这里有 3 
 GitHub: https://github.com/521xueweihan/GitHub520
 
 远程 URL：`https://raw.hellogithub.com/hosts`
+
 
 ### 广告拦截
 
@@ -132,6 +138,7 @@ GitHub: https://github.com/521xueweihan/GitHub520
 ## 刷新本地 DNS
 
 修改了 hosts 文件后不需要重启电脑，直接在本地刷新 dns 的缓存即可生效：
+
 
 ### Windows
 
@@ -158,7 +165,7 @@ GitHub: https://github.com/521xueweihan/GitHub520
 
 [essential/dns.md#手机配置私人 DNS](essential/dns.md#手机配置私人-DNS)
 
+
 ## 修改 hosts 文件
 
 ### macOS
-

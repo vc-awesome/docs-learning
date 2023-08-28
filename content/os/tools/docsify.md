@@ -1,6 +1,6 @@
 ## Introduction
 
-?> 🃏 A magical documentation site generator.<br><i class="fa fa-language dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
+> 🃏 A magical documentation site generator.<br><i class="fa fa-language dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github) ![GitHub Release Date](https://img.shields.io/github/release-date/docsifyjs/docsify?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social) ![npm](https://img.shields.io/npm/v/docsify?logo=npm&style=social)
 
@@ -11,6 +11,17 @@ https://docsify.js.org/ - *A magical documentation generator.*
 https://github.com/docsifyjs/docsify/ - *GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.*
 
 https://cli.docsifyjs.org/#/ - *docsify-cli - A magical documentation generator.*
+
+https://www.jsdelivr.com/package/npm/docsify - *docsify CDN by jsDelivr - A CDN for npm and GitHub*
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.min.css">
+```
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+```
+
 
 ## Usage
 
@@ -41,6 +52,7 @@ https://cli.docsifyjs.org/#/ - *docsify-cli - A magical documentation generator.
 渲染效果：
 
 !> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
+
 
 ### 解析 Markdown 内容
 
@@ -78,6 +90,7 @@ window.$docsify.plugins.push(
 )
 </script>
 ```
+
 
 ### 开发插件
 
@@ -137,6 +150,7 @@ https://docsify.js.org/#/write-a-plugin - *Write a Plugin*
 
 执行顺序：*init > mounted > beforeEach > afterEach > doneEach > ready*
 
+
 ## Links
 
 https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
@@ -153,22 +167,34 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 +-- index.html
 ```
 
+
 ## Technologies
 
 - [vue-clipboard2](framework/javascript-plugins.md#vue-clipboard2)
+
     ``` html
     <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
     ```
+
 - [Primer CSS](framework/README.md#primer-css)
+
     ``` html
     <link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
     ```
+
 - [Vue.js](framework/README.md#vuejs)
+
+    ```html
+    <script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
+    ```
+
 - [Element UI](%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/README.md#element-ui-%f0%9f%94%a5) 🔥
+
     ``` html
     <!-- 引入样式 -->
     <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
     ```
+
     ``` html
     <!-- 引入组件库 -->
     <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
@@ -183,6 +209,7 @@ https://github.com/docsifyjs/awesome-docsify - *💖 A curated list of awesome t
 https://docsify.js.org/#/awesome - *Awesome docsify*
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
+
 
 ### Showcase
 
@@ -201,7 +228,6 @@ https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
 https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
 
 https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
-
 
 看至：`gitmoji-changelog`
 
@@ -227,7 +253,6 @@ body.sticky nav.app-nav {
 ```
 
 
-
 ##### 自定义滚动条
 
 ```css
@@ -243,7 +268,6 @@ body.sticky nav.app-nav {
 }
 /* 滚动条样式 end */
 ```
-
 
 
 ##### ~~自定义侧边栏~~
@@ -268,6 +292,7 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 }
 ```
 
+
 ##### 响应式布局
 
 ```css
@@ -281,9 +306,14 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 #### 回到顶部
 
 - Plugin
+
   - https://gitee.com/zhengxiangqi/docsify-scroll-to-top - *docsify-scroll-to-top: 基于Docsify的页面滚动回顶部的插件*
+  - https://github.com/Sumsung524/docsify-backTop - *GitHub - Sumsung524/docsify-backTop: A docsify plugin that goes back to the top of docs.[docsify回到顶部插件，兼容所有页面]* [via](https://www.bilibili.com/read/mobile?id=18461086)
+
 - Showcase
+
     - https://www.itfanr.cc/ - *IT范儿*
+
         - https://theme-next.org/ - *Home Page | Theme-Next*
 
         <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary>
@@ -367,17 +397,23 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 #### 添加页脚
 
 - Plugin
+
   - <https://docsify.js.org/#/zh-cn/write-a-plugin?id=例子>
+
 
 #### 全文搜索
 
 - Plugin
+
   - <https://docsify.js.org/#/zh-cn/plugins?id=全文搜索-search>
+
 
 #### 字数统计
 
 - Plugin
+
   - <https://docsify.js.org/#/zh-cn/plugins?id=字数统计>
+
 
 #### 代码块
 
@@ -509,6 +545,7 @@ window.$docsify.plugins.push(
 
 2. https://stackoverflow.com/questions/59508413/static-html-generation-with-prismjs-how-to-enable-line-numbers/64089448#64089448 - *node.js - Static html generation with prismjs - how to enable line-numbers? - Stack Overflow*
 
+
 ##### 代码块折行
 
 参考：
@@ -519,6 +556,7 @@ window.$docsify.plugins.push(
 
 3. https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
 
+
 ##### 复制代码至剪贴板
 
 - 添加代码行数
@@ -526,7 +564,6 @@ window.$docsify.plugins.push(
 - 参考：https://blog.csdn.net/xixihahalelehehe/article/details/125120709 - *gtibook 插件 代码块_gitbook 代码_ghostwritten的博客-CSDN博客*
 
 ----
-
 
 样式修改参考：https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
 
@@ -591,9 +628,7 @@ body .docsify-copy-code-button {
 </div>
 </details>
 
-
 ----
-
 
 - Plugin
     - <https://docsify.js.org/#/zh-cn/plugins?id=复制到剪贴板>
@@ -650,7 +685,8 @@ https://prismjs.com/plugins/treeview/ - *Treeview ▲ Prism plugins*
 ```html
 <script src="https://prismjs.com/plugins/treeview/prism-treeview.js"></script>
 ```
-第三步：将
+
+第三步：将下面代码块内容复制到所需的 Markdown 文件中
 
 ```treeview
 root_folder/
@@ -665,6 +701,7 @@ root_folder/
 |   └── presentation.ppt
 └── etc.
 ```
+
 ⚠️注意：如果文件类型是目录，则需要在文件名最后加上 `/`；比如：`root_folder` 加了 `/` 后（`root_folder/`），文件名前面显示的是文件夹图标，没有加 `/`，文件名前面显示的是文件图标。
 
 
@@ -687,24 +724,29 @@ root_folder/
 
   - https://xflihaibo.github.io/
 
+
 #### ~~评分~~
 
 - Showcase
+
   - https://lhammer.cn/You-need-to-know-css/#/
 
 
 #### ~~鼠标点击特效~~
 
 - Showcase
+
   - https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
+
 
 #### 目录 TOC
 
 -  Plugin
 
     - 👍 https://github.com/justintien/docsify-plugin-toc - *page's ToC (Table of Content) for docsify.*
-    
+
     未使用
+
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
     ``` html
@@ -729,7 +771,7 @@ root_folder/
     ```
     </div>
     </details>
-    
+
     方式一
 
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
@@ -769,7 +811,7 @@ root_folder/
     
     ```
     </div>
-</details>
+    </details>
 
     方式二（推荐）
 
@@ -869,8 +911,7 @@ root_folder/
         <span class="toggle-line toggle-line-last"></span>
     </div>
     ```
-    
-    
+
     ``` html
     <!-- Table of Contents -->
     <script>
@@ -929,10 +970,10 @@ root_folder/
     <script src="_assets/libs/docsify-plugin-toc.js"></script>
     ```
     </div>
-</details>
+    </details>
 
     - https://github.com/mrpotatoes/docsify-toc - *GitHub - mrpotatoes/docsify-toc: docsify-toc*
-    
+
         <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
         ``` css
@@ -1070,10 +1111,13 @@ root_folder/
         </details>
 
 - Showcase
+
   - 👍 https://tainacan.github.io/tainacan-wiki/
+
     - 👍 https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
 - TOC 添加“代码缩进参考线”
+
   1. 方式一、通过应用工具 **PhpStorm** 设置查看效果
      - 操作方法：*菜单栏 > preferences...（设置）> 编辑器 > 常规 > 外观：勾选选项“显示缩进参考线”*。
      - 参考文档：https://blog.csdn.net/weixin_41981080/article/details/82659022 - *PhpStorm代码编辑区竖线的用途
@@ -1083,18 +1127,19 @@ root_folder/
   
      - https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/ - *Install Redis on macOS | Redis*
 
+
 #### 目录结构
 
 - Showcase
+
   - https://xflihaibo.github.io/docs/#/standard/standard - *书写规范 - 幸福拾荒者*
+
 
 #### Flexible Alerts 🎁
 
 - Plugin
 
   - https://github.com/fzankl/docsify-plugin-flexible-alerts - *docsify plugin to convert blockquotes into beautiful and configurable alerts using preconfigured or own styles and alert types.*
-
-    
 
     > [!NOTE]
     > An alert of type 'note' using global style 'callout'.
@@ -1103,8 +1148,6 @@ root_folder/
     > [!NOTE]
     > An alert of type 'note' using global style 'callout'.
     ```
-    
-    
     
     > [!TIP]
     > An alert of type 'tip' using global style 'callout'.
@@ -1115,8 +1158,6 @@ root_folder/
     'callout'.
     ```
     
-    
-    
     > [!WARNING]
     > An alert of type 'warning' using global style 'callout'.
     
@@ -1125,8 +1166,6 @@ root_folder/
     > An alert of type 'warning' using global style 'callout'.
     ```
     
-    
-    
     > [!ATTENTION]
     > An alert of type 'attention' using global style 'callout'.
     
@@ -1134,13 +1173,13 @@ root_folder/
     > [!ATTENTION]
     > An alert of type 'attention' using global style 'callout'.
     ```
-    
-    
+
 
 #### Page title 🎁
 
 - Plugin
     - https://github.com/Sujaykumarh/docsify-plugin-title - *🔌 Docsify plugin customize page title*
+
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
     
     ``` html
@@ -1159,15 +1198,17 @@ root_folder/
     </details>
 
 
-
 #### ~~分享~~
 
 - Showcase
+
   - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
+
 
 #### ~~Emoji~~
 
 - Plugin
+
     - https://github.com/TaQini/docsify-twemoji - *parse all emoji in style of twitter emoji for docsify*
 
     ``` html
@@ -1182,8 +1223,6 @@ root_folder/
   - https://github.com/jhildenbiddle/docsify-tabs - *GitHub - jhildenbiddle/docsify-tabs: A docsify.js plugin for rendering tabbed content from markdown*
 
   - https://jhildenbiddle.github.io/docsify-themeable/#/markdown
-
-    
 
     ```markdown
     <!-- tabs:start -->
@@ -1203,10 +1242,13 @@ root_folder/
     <!-- tabs:end -->
     ```
 
+
 #### ~~Accordion（手风琴） 🎁~~
 
 - Plugin
+
   - https://github.com/isaozler/docsify-accordion - *Accordion plugin for docsify*
+
 
 #### ~~网页调试~~
 
@@ -1225,6 +1267,7 @@ root_folder/
 </script>
 ```
 
+
 #### 数学公式 LaTeX
 
 有关详细信息，请参阅“[Markdown > 数学公式](os/tools/markdown.md#数学公式)”。
@@ -1237,6 +1280,7 @@ https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docs
 <!--  docsify-latex plugin -->
 <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 ```
+
 
 #### 图表 Diagrams
 
@@ -1262,23 +1306,29 @@ https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A 
 
 https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Mermaid插件支持_mermaid 插件_Willin Wang的博客-CSDN博客*
 
+
 #### 脚注
 
 https://github.com/sy-records/docsify-footnotes/ - *sy-records/docsify-footnotes: A plugin that supports the use of footnotes in docsify. :leftwards_arrow_with_hook:*
 
 查看渲染效果：[Markdown > 脚注](os/tools/markdown.md#脚注) 。
 
+
 ### Themes
 
 https://docsify.js.org/#/themes - *Themes*
 
+
 #### ~~切换主题（白天 / 夜间模式切换）~~
 
 - Showcase
+
   - https://bytesfly.github.io/island/#/ - *侠客岛*
 
 - Plugin
+
   - 👍 https://jhildenbiddle.github.io/docsify-themeable/#/themes?id=defaults - *docsify-themeable - A delightfully simple theme system for docsify.js* [GitHub](https://github.com/jhildenbiddle/docsify-themeable)
+
   - https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode - *docsify-plugin/packages/docsify-dark-mode at master · Plugin-contrib/docsify-plugin · GitHub*
 
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
@@ -1326,4 +1376,3 @@ https://docsify.js.org/#/themes - *Themes*
     
     </div>
     </details>
-

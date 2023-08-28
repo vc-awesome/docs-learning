@@ -14,8 +14,8 @@
         - [Windows](os/windows/windows-cli.md)
         - [Linux](os/linux/linux%20指令.md)
 3. _模板_ > [文档模板](home/document-template.md) + [官网模板](framework/official-website.md) + [后台管理模板](framework/后台模板/README.md)
-4. _文档网站生成_ > [Docsify](os/tools/docsify.md) + [文档网站生成器](framework/README.md#文档网站生成器)
-5. _大厂_ > [Microsoft]() + [Apple Inc.]() + [Google Inc.](os/tools/google.md)
+4. _文档网站生成_ > [docsify](os/tools/docsify.md) + [文档网站生成器](framework/README.md#文档网站生成器)
+5. _大厂_ > [Microsoft](os/windows/README.md) + [Apple Inc.](os/mac/README.md) + [Google Inc.](tech-stack/google.md)
 6. _站点搭建、部署_ > 
     1. [服务器](essential/hosting.md) - *可购买服务器*
     2. [部署](project/README.md#部署) - *可购买服务器*

@@ -1,27 +1,24 @@
 ## 后台二开
 
-- SWARM *
-- 5G 探索 *
-- 猎鹰
-- 财务系统（权限管理功能）- _使用猎鹰源码二开_ *
-- 财务系统（后台操作日志）
+- ~~SWARM *~~
+- ~~5G 探索 *~~
+- ~~猎鹰~~
+- ~~财务系统（权限管理功能）- _使用猎鹰源码二开_ *~~
+- ~~财务系统（后台操作日志）~~
 
-----
+---
 
-
-- TRC_USDT / 猎鹰
-- ETC_USDT / 猎鹰
-- ETH / 奈特
-- TRC_LOH / LOH
-- TRC_USDT 批量提币 / 财务系统
-
+- ~~TRC_USDT / 猎鹰~~
+- ~~ETC_USDT / 猎鹰~~
+- ~~ETH / 奈特~~
+- ~~TRC_LOH / LOH~~
+- ~~TRC_USDT 批量提币 / 财务系统~~
 
 Web 页面类型
 
 - 单页版（SPA）
 
-- iframe版（iframe）即多标签页版（muiltTab）
-
+- iframe 版（iframe）即多标签页版（muiltTab）
 
 后台模板选型
 
@@ -36,20 +33,17 @@ Web 页面类型
   - 批量操作
 
 
-
 ## 后台布局
 
 ### Xenon + Bootstrap
 
 官方网址：https://themes.laborator.co/xenon/
 
-布局参考：
-
-\- ShopXO https://ask.shopxo.net/article/4
+布局参考：https://ask.shopxo.net/article/4
 
 ---
 
-Xenon 表单验证的使用方式
+Xenon 表单验证的使用方式：
 
 1. 引入两个文件
 
@@ -68,31 +62,29 @@ Xenon 表单验证的使用方式
    <!-- class 里面必须要填写 validate -->
    ```
 
-`equalTo: "你的输入不相同"` 此验证方式多用于验证确认密码
+3. 用法
 
-用法：在 input 标签中添加 `data-validate="equalTo[#field-2]"` 其中 field-2 是上一个 input 标签属性id的值
+    `equalTo: "你的输入不相同"` 此验证方式多用于验证确认密码
 
-例如：
+    在 input 标签中添加 `data-validate="equalTo[#field-2]"` 其中 field-2 是上一个 input 标签属性 id 的值
 
-```html
-<input type="password"
-name="login_password_confirm"
-    class="form-control"
-    data-validate="equalTo[#field-2]"
-    placeholder="确认登录密码"
-    value=""
-    id="field-3">
-```
+    例如：
+
+    ```html
+    <input type="password"
+    name="login_password_confirm"
+        class="form-control"
+        data-validate="equalTo[#field-2]"
+        placeholder="确认登录密码"
+        value=""
+        id="field-3">
+    ```
 
 ---
 
-参考项目
+参考项目：SWARM
 
-- 项目 swarm
-
- 
-
-一级菜单排序（升序排列）
+一级菜单排序（升序排列）：
 
 - 会员管理
 - 充值管理
@@ -105,9 +97,10 @@ name="login_password_confirm"
 - 信息中心
 - 网站配置
 
+
 ### EleAdmin + Layui
 
-源码位置：[source](√ 开发框架/web框架/√ EleAdmin)
+源码位置：~~[source](√ 开发框架/web框架/√ EleAdmin)~~
 
 官方网址：https://eleadmin.com/
 
@@ -139,49 +132,59 @@ name="login_password_confirm"
 
 ![](_images/eleadmin-layui-05.png)
 
+
 ## 工作台（展示页/首页）
 
 > 依据UI，需求文档中的内容酌情添加
 
- 
-
 总xx量或累计xx量 + 今日xx量 （常规组合）
 
- 
+1. 总用户量
 
-总用户量 `user_count`
+    命名格式：`user_count`
 
-今日用户量 `today_user_count`
+2. 今日用户量
 
+    命名格式：`today_user_count`
 
+3. 各用户等级的数量
 
-各用户等级的数量 `user_vip_count`
+    命名格式：`user_vip_count`
 
-1级用户的数量 `user_vip1_count`
+4. 1级用户的数量
 
-2级用户的数量 `user_vip2_count`
+    命名格式：`user_vip1_count`
 
+5. 2级用户的数量
 
+    命名格式：`user_vip2_count`
 
-各钱包总金额 `<钱包名>_sum`
+6. 各钱包总金额
 
-- 现有<钱包名>
+    命名格式：`<钱包名>_sum`
 
+    - 现有<钱包名>
 
+7. 累计收益
 
-累计收益 `income_sum`
+    命名格式：`income_sum`
 
-今日收益 `today_income_sum`
+8. 今日收益
 
+    命名格式：`today_income_sum`
 
+9. 各钱包累计提现
 
-各钱包累计提现 `withdrawal_<钱包名_>sum`
+    命名格式：`withdrawal_<钱包名_>sum`
 
-各钱包今日提现 `today_withdrawal_<钱包名_>sum`
+10. 各钱包今日提现
 
+    命名格式：`today_withdrawal_<钱包名_>sum`
 
+11. 待审核的数量
 
-待审核的数量 `pending_<数据表>_count`
+    命名格式：`pending_<数据表>_count`
+
 
 ## 会员管理
 
@@ -197,23 +200,13 @@ Member/user
 - /member/tree (data table page) 推荐网图
 - /member/team (data table page) 团队列表
 
-
-
-
-
 - /member/machineAdd + machine_add.html
 - /member/machineEdit + machine_edit.html
 - /member/machineStatus
 
-
-
-
-
 - Member-list.html 会员列表
 - Member-form.html 编辑会员
 - Member-new.html 新增会员
-
- 
 
 后台表格数据（红色字体为基础数据）
 
@@ -230,9 +223,8 @@ Member/user
 - `注册时间`
 
 - `操作`
-  - `钱包`
 
- 
+  - `钱包`
 
 表数据
 
@@ -274,21 +266,23 @@ Member/user
 
 - 操作
 
+
 ## 充值管理
 
 Recharge
 
 - 后台充值
+
   - 新增充值
+
   - 充值列表
 
 - 会员充值
 
- 
 
 ## 价格管理
 
-[项目：猎鹰]
+参考项目：猎鹰
 
 Price
 
@@ -298,11 +292,10 @@ Price
 
   index.html
 
- 
 
 ## 配套管理
 
-[项目：猎鹰]
+参考项目：猎鹰
 
 Package
 
@@ -310,7 +303,6 @@ Package
 - edit.html
 - index.html
 
- 
 
 ## 收益管理
 
@@ -321,11 +313,9 @@ Reward
 - reward-config.html 收益设置
 
 
-
 ## 结算管理
 
 Settlement
-
 
 
 ## 管理员管理
@@ -336,12 +326,10 @@ Admin
 - admin-form.html 编辑管理员
 
 
-
 ## 菜单规则
 
 参考：https://demo.fastadmin.net/admin.php/auth/rule
 
- 
 
 ## 订单管理
 
@@ -349,7 +337,6 @@ Order
 
 - order-list.html 订单列表
 
- 
 
 ## 网站设置
 
@@ -361,43 +348,29 @@ Config
 
   parameter.html
 
- 
-
 - 短信平台
 
   sms()
 
   sms.html
 
- 
-
 - 提现配置
-
- 
 
 - App 更新
 
   app()
 
- 
-
 - 回收站
 
   recycle()
-
- 
 
 - 清除缓存
 
   clear()
 
- 
-
 - 数据备份
 
   backups()
-
- 
 
 - 钱包配置
 
@@ -415,30 +388,25 @@ Config
   - 兑换 exchange
 
 
-
 ## 财务中心
 
 Finance
 
- 
 
 ## 商城管理
 
 Mall/shop
 
- 
 
 ## 提现管理
 
 Withdrawal/extract
 
- 
 
 ## 充值管理
 
 Recharge
 
- 
 
 ## 信息中心
 
@@ -447,25 +415,19 @@ Info
 - News 新闻管理
 - Adv 轮播图管理
 
- 
 
 ## 广告管理
 
 Adv
 
- 
 
 ## Form/表单
 
- 
 
 ## Table/表格
 
-form搜索
+form 搜索
 
-placeholder值
+- placeholder 值
 
-= 请输入搜索内容
-
-= 
-
+    - = 请输入搜索内容

@@ -2,24 +2,27 @@
 
 > 宝塔，让运维简单高效。面板支持Linux与Windows系统。一键配置：LAMP/LNMP、网站、数据库、FTP、SSL，通过Web端轻松管理服务器。
 
+
 ## 官方
 
-GitHub：https://github.com/aaPanel
+GitHub：https://github.com/aaPanel - *aaPanel (bt.cn) · GitHub*
+
 
 ### 中文版
 
-主页：https://www.bt.cn/
+主页：
+
+1. https://www.bt.cn/ - *宝塔面板 - 简单好用的Linux/Windows服务器运维管理面板*
 
 安装：
+
 1. https://www.bt.cn/new/download.html - *宝塔面板下载，免费全能的服务器运维软件*
 2. https://www.bt.cn/bbs/thread-19376-1-1.html - *宝塔Linux面板安装教程 - 2022年7月14日更新 - 7.9.3正式版 - Linux面板 - 宝塔面板论坛*
 
 
 ### 国际版
 
-主页：  
-<i class="bi bi-ladder"></i> https://www.aapanel.com/ *国内网络无法访问*  
-https://www.aapanel.com/feature.html
+主页：https://www.aapanel.com/ *国内网络无法访问* （ https://www.aapanel.com/feature.html ）
 
 文档：https://doc.aapanel.com/web/
 
@@ -30,9 +33,106 @@ https://www.aapanel.com/feature.html
 安装：https://www.aapanel.com/new/download.html
 
 
-## 终端命令
+## 教程
+
+1. https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些宝塔技术分享！*
+
+
+## 链接
+
+1. https://www.php.cn/blog/detail/23119.html - *宝塔面板 – 修改默认端口以及一些常用端口的安全设置*
+
+2. https://yangmao.info/225285.html - *新版宝塔面板降级并解除强制绑定手机号码-羊毛之家*
+
+3. https://www.bt.cn/bbs/thread-50002-1-1.html - *挂载磁盘教程 - Linux面板 - 宝塔面板论坛*
+
+4. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=38655&extra=page=11&filter=typeid&typeid=10 - *宝塔面板目录结构简单讲解和简单错误排查 - Linux面板 - 宝塔面板论坛*
+
+5. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=52183&extra=page=9&filter=typeid&typeid=10 - *Thinkphp项目 安全配置加固 - Linux面板 - 宝塔面板论坛*
+   
+6. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=61891&extra=page=8&filter=typeid&typeid=10 - *【实战教程】家用电脑虚拟机安装centos8使用宝塔面板 - Linux面板 - 宝塔面板论坛*
+   
+7. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=50150&extra=page=7&filter=typeid&typeid=10 - *【系统防火墙】使用教程 - Linux面板 - 宝塔面板论坛*
+   
+8. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=66183&extra=page=7&filter=typeid&typeid=10 - *面板设置消息通道配置之邮箱配置教程 - Linux面板 - 宝塔面板论坛*
+   
+9.  https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=64723&extra=page=7&filter=typeid&typeid=10 - *宝塔系统加固之三个常见问题教程 - Linux面板 - 宝塔面板论坛*
+    
+10. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=69797&extra=page=6&filter=typeid&typeid=10 - *【教程贴】通过Nginx配置一个简单的下载站 - Linux面板 - 宝塔面板论坛*
+    
+11. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=48577&extra=page=6&filter=typeid&typeid=10 - *宝塔安全建站指南 - 你不得不看的面板安全设置 - Linux面板 - 宝塔面板论坛*
+    
+12. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=3117&extra=page=6&filter=typeid&typeid=10 - *【良哥运维干货】Liunx面板如何设置能充分利用服务器性能 - Linux面板 - 宝塔面板论坛*
+    
+13. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=4693&extra=page=6&filter=typeid&typeid=10 - *nginx环境下禁止ip访问（防恶意解析）教程 - Linux面板 - 宝塔面板论坛*
+    
+14. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=40037&extra=page=5&filter=typeid&typeid=10 - *宝塔面板放行端口 - Linux面板 - 宝塔面板论坛*
+    
+15. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=43588&extra=page=4&filter=typeid&typeid=10 - *反向代理（Nginx版本） - Linux面板 - 宝塔面板论坛*
+    
+16. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=2897&extra=page=4&filter=typeid&typeid=10 - *阿里云ECS无法打开面板的解决方法—阿里云安全组放行教程 - Linux面板 - 宝塔面板论坛*
+    
+17. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=63199&extra=page=2&filter=typeid&typeid=10 - *大炮分享不可不学的网络命令 - Linux面板 - 宝塔面板论坛*
+    
+18. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=13074&extra=page=2&filter=typeid&typeid=10 - *宝塔负载均衡使用教程 - Linux面板 - 宝塔面板论坛*
+    
+19. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=34116&extra=page=10&filter=typeid&typeid=10 - *【最新版】负载均衡教程 - Linux面板 - 宝塔面板论坛*
+
+
+## 入门指南
+
+### 终端命令
 
 https://www.bt.cn/btcode.html - *宝塔linux面板命令大全 - 宝塔面板*
+
+
+### 面板 API
+
+官方：
+
+1. https://www.bt.cn/bbs/thread-20376-1-1.html - *API接口使用教程 - 第三方应用 - 宝塔面板论坛*
+
+参考：
+
+1. https://www.daniao.org/4296.html - *宝塔面板API接口抓取教程-宝塔接口配置文件 - 大鸟博客*
+
+2. https://blog.szhcloud.cn/blog/2020/10/23/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFapi-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/ - *宝塔面板API 使用指南 - 寰智博客*
+
+3. https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量导入新服务器的宝塔-杂草猿工记-个人博客-韦炳生博客-技术分享*
+
+
+### SSL
+
+> 免费
+
+1. 宝塔官网注册账号
+2. 指定域名申请 SSL
+3. 部署
+4. 开启强制 HTTPS
+5. 防火墙或者安全组放行 443 端口
+
+
+参考：
+
+1. https://developer.aliyun.com/article/705391 - *宝塔配置ssl证书-阿里云开发者社区*
+
+
+### FTP
+
+> 宝塔 Linux，FTP 端口：21，主动模式可连接；修改 FTP 端口为非 21，主动模式无法连接，被动模式需放行 FTP 被动端口 39000-40000 才可连接。
+
+1. https://www.idcnote.com/bt/14.html - *宝塔面板FTP端口设置教程 (图文)*
+
+2. https://vpsvt.com/reed/443.html - *宝塔 pure-ftpd 如何开启被动模式(PASV)连接*
+
+3. https://www.php.cn/topic/bt/482698.html - *五、宝塔面板 FTP 安装与使用教程（图文步骤）*
+
+4. https://www.cnblogs.com/pxjbk/articles/10046960.html - *宝塔面板的ftp无法使用解决*
+
+5. https://hsk.oray.com/news/8547.html - *被动模式下ftp设置端口范围有哪些？花生壳搭建ftp的步骤有哪些？*
+
+6. https://blog.csdn.net/qq_22656871/article/details/109356147 - *VsFtpd指定被动端口范围教程*
+
 
 ## 部署🔥
 
@@ -85,6 +185,23 @@ v6.2
 
 v1.0
 
+---
+
+Website：
+
+1. https://www.pureftpd.org/project/pure-ftpd/ - *Pure-FTPd :: Pure-FTPd*
+
+GitHub：
+
+1. https://github.com/jedisct1/pure-ftpd/ - *GitHub - jedisct1/pure-ftpd: Pure FTP server*
+
+   ![GitHub last commit](https://flat.badgen.net/github/last-commit/jedisct1/pure-ftpd?icon=github&color=blue)
+
+参考：
+
+1. https://blog.csdn.net/renfeigui0/article/details/100163336 - *Linux安装配置FTP(pure-ftpd)*
+
+
 #### Linux Tools（如有需要）
 
 v1.7
@@ -105,9 +222,9 @@ v1.7
 
 参考：
 
-http://www.tdaidc.com/help/article/704.html - *宝塔LINUX控制面板如何修改服务器的root的密码？*
+1. http://www.tdaidc.com/help/article/704.html - *宝塔LINUX控制面板如何修改服务器的root的密码？*
 
-http://xkzzz.com/post/40375.html - *宝塔面板如何修改root密码,ssh端口号,封ip,开放端口_侠客网*
+2. http://xkzzz.com/post/40375.html - *宝塔面板如何修改root密码,ssh端口号,封ip,开放端口_侠客网*
 
 #### 放行端口，组策略问题
 
@@ -231,120 +348,11 @@ http://xkzzz.com/post/40375.html - *宝塔面板如何修改root密码,ssh端口
 #### 项目所需定时任务
 
 
+## 常见问题
 
-[挂载磁盘](https://www.bt.cn/bbs/thread-50002-1-1.html)
-
-[宝塔目录结构](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=38655&extra=page%3D11%26filter%3Dtypeid%26typeid%3D10)
-
-[负载均衡教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=34116&extra=page%3D10%26filter%3Dtypeid%26typeid%3D10)
-
-[宝塔负载均衡使用教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=13074&extra=page%3D2%26filter%3Dtypeid%26typeid%3D10)
-
-[Thinkphp项目 安全配置加固](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=52183&extra=page%3D9%26filter%3Dtypeid%26typeid%3D10)
-
-[家用电脑虚拟机安装centos8使用宝塔面板](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=61891&extra=page%3D8%26filter%3Dtypeid%26typeid%3D10)
-
-[【系统防火墙】使用教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=50150&extra=page%3D7%26filter%3Dtypeid%26typeid%3D10)
-
-[面板设置消息通道配置之邮箱配置教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=66183&extra=page%3D7%26filter%3Dtypeid%26typeid%3D10)
-
-[宝塔系统加固之三个常见问题教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=64723&extra=page%3D7%26filter%3Dtypeid%26typeid%3D10)
-
-[通过Nginx配置一个简单的下载站](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=69797&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
-
-[宝塔安全建站指南 - 你不得不看的面板安全设置](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=48577&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
-
-[Liunx面板如何设置能充分利用服务器性能](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=3117&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
-
-[nginx环境下禁止ip访问（防恶意解析）教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=4693&extra=page%3D6%26filter%3Dtypeid%26typeid%3D10)
-
-[宝塔面板放行端口](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=40037&extra=page%3D5%26filter%3Dtypeid%26typeid%3D10)
-
-[反向代理（Nginx版本）](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=43588&extra=page%3D4%26filter%3Dtypeid%26typeid%3D10)
-
-[阿里云ECS无法打开面板的解决方法—阿里云安全组放行教程](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=2897&extra=page%3D4%26filter%3Dtypeid%26typeid%3D10)
-
-[大炮分享不可不学的网络命令](https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=63199&extra=page%3D2%26filter%3Dtypeid%26typeid%3D10)
-
-## 面板API
-
-官方：https://www.bt.cn/bbs/thread-20376-1-1.html - *API接口使用教程 - 第三方应用 - 宝塔面板论坛*
-
-参考：
-
-1. https://www.daniao.org/4296.html - *宝塔面板API接口抓取教程-宝塔接口配置文件 - 大鸟博客*
-
-2. https://blog.szhcloud.cn/blog/2020/10/23/%E5%AE%9D%E5%A1%94%E9%9D%A2%E6%9D%BFapi-%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/ - *宝塔面板API 使用指南 - 寰智博客*
-
-3. https://blog.alipay168.cn/index/detail/item/680.html - *宝塔定时任务批量导入新服务器的宝塔-杂草猿工记-个人博客-韦炳生博客-技术分享*
-
-
-
-## SSL
-
-> 免费
-
-1. 宝塔官网注册账号
-2. 指定域名申请 SSL
-3. 部署
-4. 开启强制 HTTPS
-5. 防火墙或者安全组放行 443 端口
-
-
-
-**参考链接**
-
-<https://developer.aliyun.com/article/705391>
-
-
-
-## FTP
-
-> 宝塔 Linux，FTP 端口：21，主动模式可连接；修改 FTP 端口为非 21，主动模式无法连接，被动模式需放行 FTP 被动端口 39000-40000 才可连接。
-
-1️⃣ 宝塔面板FTP端口设置教程 (图文) https://www.idcnote.com/bt/14.html
-
-2️⃣ 宝塔 pure-ftpd 如何开启被动模式(PASV)连接 https://vpsvt.com/reed/443.html
-
-五、宝塔面板 FTP 安装与使用教程（图文步骤） https://www.php.cn/topic/bt/482698.html
-
-宝塔面板的ftp无法使用解决 https://www.cnblogs.com/pxjbk/articles/10046960.html
-
-被动模式下ftp设置端口范围有哪些？花生壳搭建ftp的步骤有哪些？ https://hsk.oray.com/news/8547.html
-
-VsFtpd指定被动端口范围教程 https://blog.csdn.net/qq_22656871/article/details/109356147
-
-
-
-### 「tool」pure-ftpd
-
-<i class="fa fa-github fa-lg"></i> https://github.com/jedisct1/pure-ftpd/
-
-参考链接 👇
-
-Linux安装配置FTP(pure-ftpd) https://blog.csdn.net/renfeigui0/article/details/100163336
-
-
-
-## Link
-
-https://www.php.cn/blog/detail/23119.html - *宝塔面板 – 修改默认端口以及一些常用端口的安全设置*
-
-https://yangmao.info/225285.html - *新版宝塔面板降级并解除强制绑定手机号码-羊毛之家*
-
-
-### 站长教程
-
-https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些宝塔技术分享！*
-
-
-## FAQ
-
-### Linux 宝塔面板无法连接phpmyadmin
+### Linux 宝塔面板无法连接 phpmyadmin
 
 推荐使用 `phpmyadmin` 4.4版本，4.4 版本可直接访问（无需登录）
-
-
 
 解决方式：
 
@@ -363,7 +371,6 @@ https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些�
    2. 访问的端口应该为安全组中已放行的端口范围
 
       ![img](./_images/bt-图片3.png) 
-
 
 
 ### composer update topthink/framework报错
@@ -397,10 +404,7 @@ https://www.daniao.org/btpanel/ - *宝塔linux面板使用教程，以及一些�
 > 
 > A：屏蔽宝塔强制绑定手机号
 
-https://www.zouht.com/2906.html - *宝塔面板 7.9.2 降级 7.7.0 方法 – 颢天*（亲测有效）
-https://www.bilibili.com/read/mobile?id=17006523
-
-https://www.huhexian.com/47380.html - *宝塔面板降级7.7低版本关闭强制绑定手机账号 | 青山绿水*
+操作步骤：
 
 1. 打开系统终端
 2. `wget https://github.com/wei/baota/releases/download/7.7.0/LinuxPanel-7.7.0.zip` - *下载 7.7.0 版本*
@@ -410,6 +414,15 @@ https://www.huhexian.com/47380.html - *宝塔面板降级7.7低版本关闭强�
 6. `sed -i "s|bind_user == 'True'|bind_user == 'XXXX'|" /www/server/panel/BTPanel/static/js/index.js` - *屏蔽强制绑定手机号*
 7. `rm -f /www/server/panel/data/bind.pl` - *删除强制绑定手机 js 文件*
 
-### 宝塔远程下载功能 解决服务器下载文件的繁琐步骤
+参考：
+
+1. https://www.zouht.com/2906.html - *宝塔面板 7.9.2 降级 7.7.0 方法 – 颢天*（亲测有效）
+
+   - https://www.bilibili.com/read/cv17006523 - *宝塔面板 7.9.2 降级 7.7.0 方法 - 哔哩哔哩*
+
+2. https://www.huhexian.com/47380.html - *宝塔面板降级7.7低版本关闭强制绑定手机账号 | 青山绿水*
+
+
+### 宝塔远程下载功能（解决服务器下载文件的繁琐步骤）
 
 https://www.zhujibiji.com/2018/06/bt-panel-remote-download-function/

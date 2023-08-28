@@ -65,6 +65,26 @@
 </details>
 ```
 
+> 💡 内容前后必须各无缩进的空出一行，否则内容的样式无法呈现。
+
+✅ 前后无缩进空出一行的效果：
+
+- <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
+
+    - 无序列表内容
+    - 无序列表内容
+    - 无序列表内容
+
+    </details>
+
+❎ 前后没有空出一行的效果：
+
+- <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
+    - 无序列表内容
+    - 无序列表内容
+    - 无序列表内容
+    </details>
+
 ```html
 <!--
 
@@ -82,4 +102,8 @@ view-source:
 
 ```html
 <kbd></kbd>
+```
+
+```md
+**主标题** ｜副标题
 ```

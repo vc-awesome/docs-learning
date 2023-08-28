@@ -1,0 +1,122 @@
+- [Quick 🥰](/)
+    - [snippets <font color="red">ᴴᴼᵀ</font>](snippets/README.md)
+    - [badge](snippets/badge.md)
+    - [portal <font color="red">ᴴᴼᵀ</font>](_portal.md)
+    - [Document Template <font color="red">ᴴᴼᵀ</font>](home/document-template.md)
+    - [﹊ _Web Tools](https://wangchujiang.com/tools/)
+    - [docsify](os/tools/docsify.md)
+    - [﹊ _docsify](https://docsify.js.org/)
+    - <hr />
+    - <a href="index-theme-vue.html" target="_blank">Latest Version</a>
+    - <a href="simple.html">Simple Version</a>
+- [Home](home/README.md)
+    - **_常用文档_**
+    - [学习资源](home/book.md)
+    - [注意事项](home/README.md#warning)
+    - [Icon font](front-end/iconfont.md)
+    - [Bootstrap](framework/README.md#bootstrap-🔥)
+    - [版本号](home/semver.md)
+    - [Glossary](home/README.md#术语表)
+    - [源码解读](home/code-analysis.md)
+    - <hr />
+    - [TOC](home/toc.md)
+    - [Emoji](home/emoji.md)
+    - [Mirror](os/mirror.md)
+    - [中英译](home/chinese-english-translate.md)
+    - [设备传输](os/tools/app-list.md#跨端传输)
+- Daily tools
+    - [GitHub](os/tools/github.md)
+    - [Git](os/tools/git.md)
+    - [Markdown](os/tools/markdown.md)
+    - <hr />
+    - [Command](os/linux/linux%20指令)
+    - [Homebrew](os/mac/homebrew.md)
+    - [﹊ _Homebrew Formulae](https://formulae.brew.sh/)
+    - [Termux](os/mobile/termux.md)
+    - [Vim](os/linux/vim.md)
+    - [VS Code](os/tools/visual-studio-code.md)
+    - [Sublime Text](os/tools/sublime-text.md)
+- [Essentials](essential/README.md)
+    - [硬件设备](essential/hardware.md)
+    - **_PROGRAM_**
+    - [加密](essential/crypto.md)
+    - [设计模式](essential/design-pattern/README.md)
+    - [身份认证](essential/identity.md)
+    - [cURL](essential/curl.md)
+    - [正则表达式](essential/pcre.md)
+    - [API](essential/api.md)
+    - **_NETWORK_**
+    - [Internet](essential/internet.md)
+    - [Server](essential/hosting.md)
+    - [HTTP](essential/http.md)
+    - [Hosts](os/tools/hosts.md)
+    - [DNS](essential/dns.md)
+    - [VPN](os/tools/vpn.md)
+    - [IP](essential/ip.md)
+- [Front-end](front-end/README.md)
+    - [HTML](front-end/html/README.md)
+    - [CSS](front-end/css/README.md)
+    - [JavaScript](front-end/javascript/README.md)
+    - <hr />
+    - [jQuery](front-end/jquery.md)
+    - [Node.js](front-end/node.js/README.md)
+    - [NPM](front-end/node.js/npm.md)
+    - [Vue.js](front-end/vue/README.md)
+    - <hr />
+    - [uni-app](front-end/uniapp/README.md)
+    - [Android](front-end/android.md)
+    - <hr />
+    - [产品设计](front-end/design/README.md)
+    - [Icon font](front-end/iconfont.md)
+    - [CDN](front-end/cdn.md)
+- [Back-end](back-end/README.md)
+    - [PHP](back-end/php/README.md)
+    - [ThinkPHP](back-end/thinkphp/README.md)
+    - [Composer](back-end/composer/README.md)
+    - <hr />
+    - [Go]()
+    - [Python]()
+    - <hr />
+    - [Nginx](back-end/nginx.md)
+    - [Apache](back-end/apache.md)
+    - [Docker](back-end/docker.md)
+    - <hr />
+    - [Travis-CI](back-end/travis-ci.md)
+- Database
+    - [MySQL](database/mysql/README.md)
+    - [Redis](database/redis/README.md)
+    - [MongoDB](database/mongodb.md)
+- [OS <font color="red">ᴴᴼᵀ</font>](os/README.md)
+  - [Windows](os/windows/README.md)
+  - [Linux](os/linux/README.md)
+  - [Mac](os/mac/README.md)
+  - [Mobile](os/mobile/README.md)
+  - [应用商店](os/app-store.md)
+  - <hr />
+  - **_TOOLS_**
+  - [Overview](os/tools/README.md)
+  - [Search](os/tools/search.md)
+  - <hr />
+  - [Desktop Tools](os/tools/app-list.md)
+  - [Mobile Tools](os/mobile/mobile-app-list.md)
+  - [Web Tools](os/tools/web-app.md)
+  - <hr />
+  - [Browser](os/tools/browser.md)
+  - [Extensions](os/tools/browser-extensions)
+  - [Tampermonkey](os/tools/tampermonkey.md)
+  - <hr />
+  - [Badge](os/tools/custom-badge.md)
+  - [Search](os/tools/custom-search.md)
+- More
+    - [BlockChain](blockchain/README.md)
+    - [Project DevOps](project/README.md)
+    - <hr />
+    - [TechStack](tech-stack/README.md)
+    - [开发框架](framework/README.md)
+    - [功能列表](function-list/README.md)
+    - <hr />
+    - [阿里云](tech-stack/aliyun.md)
+    - [微信](tech-stack/weixin.md)
+    - [Google](tech-stack/google.md)
+
+[svg-icon-home]: https://icongo.github.io/icons/ir/home-alt-slim-horiz.svg

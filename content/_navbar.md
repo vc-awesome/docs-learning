@@ -13,7 +13,7 @@
     - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](os/mirror.md)
     - [<i class="fa-regular fa-chart-network fa-fw"></i> DNS](essential/dns.md)
     - [<i class="fa-regular fa-language fa-fw"></i> 中英译](home/chinese-english-translate.md)
-    - [<i class="fa-regular fa-laptop-mobile fa-fw"></i> 设备传输](os/tools/app-trial.md#传输工具)
+    - [<i class="fa-regular fa-laptop-mobile fa-fw"></i> 设备传输](os/tools/app-list.md#跨端传输)
 - Daily tools
     - [<i class="fab fa-github fa-fw"></i> GitHub](os/tools/github.md)
     - [<i class="fa-brands fa-git-alt fa-fw" style="color: #f64d27;"></i> Git](os/tools/git.md)
@@ -23,6 +23,7 @@
     - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/mac/homebrew.md)
     - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/termux.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> Vim](os/linux/vim.md)
+    - [<i class="fa-duotone fa-toolbox fa-fw"></i> VS Code](os/tools/visual-studio-code.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> Sublime Text](os/tools/sublime-text.md)
 - [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
@@ -76,7 +77,6 @@
     - [<i class="icon octicon-file mongodb-icon dark-green fa-fw"></i> MongoDB](database/mongodb.md)
     <!--- [<span class="animate__animated animate__heartBeat animate__infinite animate__slow" style="display: inline-block;">🔥 OS</span>](os/README.md)-->
 - [🔥 OS</span>](os/README.md)
-
   - [<i class="fa fa-windows fa-fw"></i> Windows](os/windows/README.md)
   - [<i class="fa fa-linux fa-fw"></i> Linux](os/linux/README.md)
   - [<i class="fa fa-apple fa-fw"></i> Mac](os/mac/README.md)
@@ -87,8 +87,6 @@
   - [<i class="fa fa-plane medium-red"></i> &nbsp;Overview](os/tools/README.md)
   - [<i class="ri-search-line"></i> Search](os/tools/search.md)
   - <hr />
-  - [<i class="ri-flask-line medium-green"></i> Trial Tools](os/tools/app-trial.md)
-  - <hr />
   - [<i class="ri-computer-line medium-purple"></i> Desktop Tools](os/tools/app-list.md)
     <!-- <i class="ri-apps-line medium-purple"></i> -->
   - [<i class="ri-smartphone-line"></i> Mobile Tools](os/mobile/mobile-app-list.md)
@@ -97,8 +95,8 @@
   - [<i class="ri-magic-line dark-yellow"></i> Extranet](os/tools/vpn.md)
   - [<i class="ri-earth-line medium-green"></i> Browser](os/tools/browser.md "浏览器")
   - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](os/tools/browser-extensions)
-  - [<i class="iconfont icon-tampermonkey" style="font-size: 13px;opacity: .9;"></i> Tampermonkey](os/tools/browser-extensions.md#tampermonkey)
-  - <hr /> 
+  - [<i class="iconfont icon-tampermonkey" style="font-size: 13px;opacity: .9;"></i> Tampermonkey](os/tools/tampermonkey.md)
+  - <hr />
   - [<svg class="icon" aria-hidden="true" style="width: 14px;"><use xlink:href="#icon-badge"></use></svg> Badge](os/tools/custom-badge.md)
   - [<ion-icon name="search-outline"></ion-icon> Search](os/tools/custom-search.md)
 - More
@@ -111,4 +109,4 @@
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-aliyun"></use></svg> 阿里云](tech-stack/aliyun.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-weixin1"></use></svg> 微信](tech-stack/weixin.md)
-    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-google"></use></svg> Google](os/tools/google.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-google"></use></svg> Google](tech-stack/google.md)

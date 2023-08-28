@@ -2,9 +2,12 @@
 
 > <img src="https://cdn.worldvectorlogo.com/logos/apple-11.svg" alt="package icon" loading="lazy" decoding="async" align="left" width="78" hspace="10" vspace="0" />探索 Apple 的创新世界，选购各式 iPhone、iPad、Apple Watch 和 Mac，浏览各类配件、娱乐产品，并获得相关产品的专家服务支持。
 
+
 ## 官方
 
-https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
+主页：https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
+
+🔥 使用手册：https://support.apple.com/zh-cn/guide/mac-help/welcome/mac - *macOS 使用手册 - 官方 Apple 支持 (中国)*
 
 
 ### 使用技巧
@@ -51,7 +54,6 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 - `/usr/local/sbin`： 存放超级用户才能使用的第三方软件,如 nginx
 
 
-
 ### 触控板
 
 - 触控板单指点击为单击功能
@@ -59,6 +61,7 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 - 触控板双指点击为鼠标右键功能
 
 - 更多功能可打开 *系统设置 > （左边列表最底下）触控板* 查看教程。
+
 
 ### 应用程序
 
@@ -170,6 +173,7 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 更多有关详细信息，请参阅“[浏览器快捷键](os/tools/browser.md#浏览器快捷键)”。
 
+
 ### 卸载软件
 
 - Mac 如何彻底移除应用程序？
@@ -180,15 +184,22 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
   https://jingyan.baidu.com/article/59703552b380b08fc00740b9.html - *Mac系统如何卸载/删除软件？-百度经验*
 
+
 ### 截屏
+
+快捷键：
 
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>3</kbd> - *截取全屏*
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>4</kbd> - *选择性截取，可自定义截屏、可截取全屏、可截取活动窗口、可识别文字、可选取坐标点*（常用）
 - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>5</kbd> - *截屏和录制选项*
 
-打开 *系统设置 >（左边列表最底下）键盘 > 键盘快捷键...* ，单击左侧列表的“截屏”选项，可查看具体的快捷键使用说明。
+查看快捷键使用说明：
 
-参考：https://baijiahao.baidu.com/s?id=1745189312105411581 - *Mac截图保存在哪里？*
+- 打开 *系统设置 >（左边列表最底下）键盘 > 键盘快捷键...* ，单击左侧列表的“截屏”选项，可查看具体的快捷键使用说明。
+
+参考：
+
+1. https://baijiahao.baidu.com/s?id=1745189312105411581 - *Mac截图保存在哪里？*
 
 ---
 
@@ -196,17 +207,42 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 - 借助三方工具「[iShot Pro 破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)」；如遇安装、开启问题，可查看网友评论的[解决办法](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html#comment-id-91592)。
 
+
 ### 开机启动项
 
-Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自动执行命令行*
+操作步骤：
 
-1. 打开 *系统偏好设置 > 用户与群组 > 登录项*；
+1. 打开 *系统偏好设置 > 用户与群组 > 登录项* ；
 2. 添加完然后重启电脑。
+
+参考：
+
+1. Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自动执行命令行*
 
 > 系统版本：*macOS Ventura 13.3.1* 中设置
 
-1. 打开 *系统设置 > 通用 > 登录项*；
+操作步骤：
+
+1. 打开 *系统设置 > 通用 > 登录项* ；
 2. 添加完然后重启电脑。
+
+
+### 查看网络活动
+
+使用系统工具「[活动监视器](#活动监视器)」。
+
+
+### 远程连接
+
+使用系统工具「[终端](https://support.apple.com/zh-cn/guide/terminal/trml1018/mac)」。
+
+
+## 工具
+
+### 活动监视器
+
+https://support.apple.com/zh-cn/guide/activity-monitor/welcome/mac - *适用于 Mac 的活动监视器使用手册 - 官方 Apple 支持 (中国)*
+
 
 ## 常见问题
 
@@ -218,6 +254,7 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
 ### 如何在访达中查看当前路径
 
 在“访达”窗口右下方的底部导航栏中，选中指定的文件目录，然后鼠标右键单击，选择：*将“共享”拷贝为路径名称*。
+
 
 ### 如何在指定文件夹中打开终端
 
@@ -232,6 +269,11 @@ Https://blog.csdn.net/lxf_no1/article/details/109616763 - *Mac OS开机启动自
 方式三（当前文件夹及上层文件夹打开终端）：
 1. 打开 *访达 > （选择需要打开的文件夹，比如：“用户”文件夹）用户*；
 2. 在访达窗口右下方的底部导航栏中，选中指定的文件夹，鼠标右键单击，选择：*在终端打开*，或者选择：*> 服务 > 新建位于文件夹位置的终端窗口*。
+
+
+### 如何批量修改文件名
+
+http://www.taodudu.cc/news/show-1162355.html?action=onClick - *一分钟学会在Mac中如何将文件批量重命名*
 
 
 ### 解压 rar 文件
@@ -279,6 +321,7 @@ https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,z
    ```
 
 4. https://blog.csdn.net/weixin_44722978/article/details/123347801 - *网上下载软件，macOS无法验证此App不包含恶意软件。*
+
 
 ### 应用窗口置顶
 

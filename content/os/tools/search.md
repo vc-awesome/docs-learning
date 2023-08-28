@@ -36,12 +36,13 @@
     👍
 
 4. 酷软清单
+
     1. https://www.coolist.net/
     2. https://www.kancloud.cn/appexplore/coolist-windows/1466990
 
 5. 乐软博客
-    1. https://www.isharepc.com/
 
+    1. https://www.isharepc.com/
 
 
 ### GitHub Awesome
@@ -50,21 +51,29 @@
 
 1. https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*
 
+
 #### macOS
 
 1. https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.* [中文文档](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 
 2. https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
 
+
 #### Android
 
 1. https://github.com/Psyhackological/AAA - *GitHub - Psyhackological/AAA: Awesome Android Apps - get the Android you deserve.*
+
+
+#### iOS
+
+1. https://github.com/dkhamsing/open-source-ios-apps - *GitHub - dkhamsing/open-source-ios-apps: :iphone: Collaborative List of Open-Source iOS Apps*
+
 
 ### GitHub Topics
 
 #### Windows
 
-https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
+1. https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 
 ### GitHub Search
@@ -85,7 +94,7 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 - 操作系统，应用商店下载
 
 
-### 中文站
+### 中文站（含破解版）
 
 #### Windows/macOS/iOS/Android
 
@@ -95,7 +104,10 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 #### Windows/macOS
 
 1. https://ldqk.xyz/ - *首页懒得勤快的博客互联网分享精神*
+
     - https://github.com/ldqk/Masuit.MyBlogs - *基于C#/.NET6的 masuit.org个人博客站项目源码，[https://masuit.org](https://masuit.org/) ，供参考、学习、引用、非商业性质的部署。*
+
+2. https://www.freedownloadmanager.org/zh/ - *Free Download Manager - 從網路下載任何東西*
 
 
 #### Windows
@@ -106,10 +118,17 @@ https://github.com/topics/windows-10 - *windows-10 · GitHub Topics · GitHub*
 
 3. ~~https://winwk.com/ - *WinWk - 精品windows软件下载*~~
 
+
+#### Windows/Android
+
+1. https://www.ghxi.com/ - *果核剥壳 - 互联网的净土*
+
+
 #### macOS
 
-1. ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
-2. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
+1. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！*
+2. ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
+
 
 ### 英文站
 
@@ -167,7 +186,8 @@ http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk
 
 #### macOS
 
-1. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* （*via https://www.cnblogs.com/fdw630/p/16792457.html - macwk.com破产关站，真正原因！（免费的替代站） - FrankStan - 博客园*）
+1. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS*  
+    \> *via https://www.cnblogs.com/fdw630/p/16792457.html - macwk.com破产关站，真正原因！（免费的替代站） - FrankStan - 博客园*
 
 #### Android
 
@@ -181,32 +201,38 @@ http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk
 
 > 绿色软件的核心理念是**免安装、易卸载、无捆绑、无广告**。
 
+
 #### Windows
 
-- https://portableapps.com/zh-cn - *PortableApps*
-- https://www.liberkey.com/en.html - *LiberKey - Portable Applications*
-- https://www.rjno1.com/ - *软件No1 – 绿色软件 – 绿色便携软件下载*
+1. https://portableapps.com/zh-cn - *PortableApps*
+
+2. https://www.liberkey.com/en.html - *LiberKey - Portable Applications*
+
+3. https://www.rjno1.com/ - *软件No1 – 绿色软件 – 绿色便携软件下载*
+
 
 ### 命令行
 
 
 #### Windows
 
-- https://scoop.sh - *A command-line installer for Windows*
+1. https://scoop.sh - *A command-line installer for Windows*
 
-- https://chocolatey.org - *Chocolatey Software | Chocolatey - The package manager for Windows*
+2. https://chocolatey.org - *Chocolatey Software | Chocolatey - The package manager for Windows*
+
     - https://www.jianshu.com/p/f6c4d261f356 - *chocolatey介绍与使用 - 简书*
+
 
 #### macOS
 
-- https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)*
+1. https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)*
 
-    - 有关更多详细信息，请参阅“[Mac > homebrew](os/mac/homebrew.md)”。
+    - 有关更多详细信息，请参阅“[Mac > Homebrew](os/mac/homebrew.md)”。
 
 
 #### Linux
 
-- https://snapcraft.io/ - *Snapcraft - Snaps are universal Linux packages*
+1. https://snapcraft.io/ - *Snapcraft - Snaps are universal Linux packages*
 
 
 ### 应用商店

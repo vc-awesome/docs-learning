@@ -34,10 +34,12 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 - avi
 - ts
 
+
 ## 音频格式
 
 - mp3
 - aac
+
 
 ## 图片格式
 
@@ -48,12 +50,15 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 - svg
 - gif
 
+
 ## 功能
 
 - 倍速播放
 - 长按倍速播放
+
     - https://mp.weixin.qq.com/s/-ueYRz90Amwhmb1r7etCHg - *B站同款功能！这些特殊播放器，很难不爱上啊*
 - 视频书签
+
 
 ## 工具
 
@@ -63,6 +68,7 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 
 > Kodi is a free media player that is designed to look great on your big screen TV but is just as at home on a small screen.
 
+
 #### 官方
 
 Website: 
@@ -71,23 +77,30 @@ Website:
 
 2. http://www.kodiplayer.cn/ - *Kodi中文网 - Kodi官网 Kodi下载 Kodi插件 皮肤 教程*
 
-GitHub: https://github.com/xbmc - *Team Kodi · GitHub*
+GitHub: 
+
+1. https://github.com/xbmc - *Team Kodi · GitHub*
+
 
 #### 安装
 
 https://kodi.tv/download/ - *Download | Kodi*
 
+
 #### 设置
 
 设置中文语言：https://www.zhihu.com/tardis/bd/art/469759517 - *玩转「KODI」篇一：初始配置、电影刮削和无损音轨直通*
+
 
 #### 插件
 
 http://www.kodiplayer.cn/plugins/ - *Kodi插件 - Kodi中文网*
 
+
 #### 皮肤
 
 http://www.kodiplayer.cn/skins/ - *Kodi皮肤 - Kodi中文网*
+
 
 ### MPV
 
@@ -95,14 +108,19 @@ http://www.kodiplayer.cn/skins/ - *Kodi皮肤 - Kodi中文网*
 
 > mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
 
+
 #### 官方
 
 Website: https://mpv.io/ - *mpv.io*
 
 GitHub: https://github.com/mpv-player/mpv - *GitHub - mpv-player/mpv: 🎥 Command line video player*
 
+
 #### 安装
 
 https://mpv.io/installation/ - *mpv.io | Installation*
 
 https://github.com/mpv-android/mpv-android - *GitHub - mpv-android/mpv-android: #mpv-android @ libera.chat*
+
+
+支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=is.xyz.mpv), [F-Droid]()）

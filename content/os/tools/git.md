@@ -71,6 +71,9 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 6. [腾讯云 CODING DevOps](https://coding.net/) - *DevOps_DevOps 解决方案_一站式 DevOps_开发者工具 | 腾讯云 CODING DevOps*
 
+7. [GitCode](https://gitcode.net/) - *GitCode——开源代码托管平台，独立第三方开源社区，Git/Github/Gitlab*
+
+
 ## 工作流程
 
 1. 克隆 Git 资源作为工作目录。

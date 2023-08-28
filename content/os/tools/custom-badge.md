@@ -286,10 +286,10 @@
       </el-form-item>
     </el-form> -->
     <el-input v-model="message" placeholder="请输入内容" clearable autocomplete="on" size="medium" @clear="getClipboardText">
-      <i class="fa fa-github fa-lg el-input__icon" slot="prefix"></i>
+      <i class="fa-brands fa-github fa-lg el-input__icon" slot="prefix"></i>
       <div slot="prepend">
         <el-button-group>
-          <el-button type="info" :icon="command=='b' ? button_icon.copied : button_icon.uncopy" plain @click="handleCommand('b')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';"></el-button><i class="fa fa-github el-input__icon" slot="prefix"></i>
+          <el-button type="info" :icon="command=='b' ? button_icon.copied : button_icon.uncopy" plain @click="handleCommand('b')" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';"></el-button><i class="fa-brands fa-github el-input__icon" slot="prefix"></i>
         </el-button-group>
       </div>
       <el-button slot="append" icon="el-icon-search" type="primary" @click="onSubmit"></el-button>
@@ -409,7 +409,7 @@
     <el-input v-model="url" placeholder="请输入内容" clearable autocomplete="on" size="medium" @clear="getClipboardText2">
       <div slot="prepend">
         <el-button-group>
-          <el-button type="info" :icon="command=='d' ? button_icon.copied : button_icon.uncopy" plain @click="handleCommand('d', 'view-source:' + url)" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';"></el-button><i class="fa fa-github el-input__icon" slot="prefix"></i>
+          <el-button type="info" :icon="command=='d' ? button_icon.copied : button_icon.uncopy" plain @click="handleCommand('d', 'view-source:' + url)" :class="is_tooltip ? tooltip_class : ''" aria-label="Copied!" @mouseleave.native="is_tooltip = false;command='';"></el-button><i class="fa-brands fa-github el-input__icon" slot="prefix"></i>
         </el-button-group>
       </div>
       <!-- <el-button slot="append" icon="el-icon-search" type="primary" @click="onSubmit2"></el-button> -->

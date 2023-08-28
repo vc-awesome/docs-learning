@@ -1,28 +1,29 @@
 ## 网上搜索
 
-关键词搜索
+关键词搜索：
 
-1. 百度关键词搜索：[后台模板](https://www.baidu.com/s?word=后台模板)
-2. 百度关键词搜索：[官网模板](https://www.baidu.com/s?word=官网模板)
-3. 百度关键词搜索：[插件](https://www.baidu.com/s?word=插件)
+1. [后台模板](https://www.baidu.com/s?word=后台模板)
+2. [官网模板](https://www.baidu.com/s?word=官网模板)
+3. [插件](https://www.baidu.com/s?word=插件)
 
-综合搜索
+综合搜索：
 
 1. http://www.bootstrapmb.com/ - *Bootstrap模板_响应式网站模板 - Bootstrap模板库*
 2. https://www.bootcss.com/ - *Bootstrap中文网*
 3. https://www.jq22.com/ - *jQuery插件库-收集最全最新最好的jQuery插件*
 
+
 ## 组合使用 🔥
 
 1. [Vue.js](#vuejs) + [Element UI](#element-ui-%f0%9f%94%a5)
-2. [ThinkPHP](#thinkphp-%f0%9f%94%a5) + [Workerman](#workerman)
+2. [ThinkPHP](#thinkphp-%f0%9f%94%a5) + [workerman](#workerman)
+
 
 ## Web 框架
 
 ### Bootstrap 🔥
 
-?> The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.  
-<i class="bi bi-translate dark-yellow"></i> 最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。
+> The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web. （译文：最流行的 HTML、CSS 和 JavaScript 框架，用于在 Web 上开发响应式、移动优先的项目。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/twbs/bootstrap?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/twbs/bootstrap?logo=github)
@@ -32,23 +33,28 @@
 
 ----
 
-Website：http://www.bootcss.com/ :cn:
+Website：
 
-Website：https://getbootstrap.com/ :us:
+1. http://www.bootcss.com/
 
-Document：https://v5.bootcss.com :cn:
+2. https://getbootstrap.com/
 
-Document：https://v4.bootcss.com :cn:
+Document：
 
-Document：https://v3.bootcss.com :cn: <i class="con octicon-file tag-icon"></i>[<small>定制</small>](https://v3.bootcss.com/customize/)
+1. https://v5.bootcss.com
 
-GitHub：https://github.com/twbs/bootstrap
+2. https://v4.bootcss.com
 
+3. https://v3.bootcss.com <i class="con octicon-file tag-icon"></i>[<small>定制</small>](https://v3.bootcss.com/customize/)
+
+GitHub：
+
+1. https://github.com/twbs/bootstrap
 
 
 ### Foundation
 
-?> The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.
+> The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/foundation/foundation-sites?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/foundation/foundation-sites?logo=github)
@@ -64,9 +70,10 @@ GitHub：https://github.com/foundation/foundation-sites
 
 菜鸟教程：https://www.runoob.com/foundation/foundation-tutorial.html
 
-### Layui ✨
 
-?> 采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写形式，极低门槛，拿来即用。
+### Layui
+
+> 采用自身模块规范编写的前端 UI 框架，遵循原生 HTML/CSS/JS 的书写形式，极低门槛，拿来即用。
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/layui/layui?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/layui/layui?logo=github)
@@ -78,16 +85,14 @@ GitHub：https://github.com/foundation/foundation-sites
 
 Website：https://www.layuion.com/
 
-Gitee：https://gitee.com/sentsin/layui
-
 GitHub：https://github.com/sentsin/layui
 
+Gitee：https://gitee.com/sentsin/layui
 
 
-### Amaze UI 🗃️
+### Amaze UI
 
-?> Amaze UI, a mobile-first and modular front-end framework.  
-<i class="bi bi-translate dark-yellow"></i> Amaze UI，一个移动优先的模块化前端框架。
+> Amaze UI, a mobile-first and modular front-end framework. （译文：Amaze UI，一个移动优先的模块化前端框架。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/amazeui/amazeui?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/amazeui/amazeui?logo=github)
@@ -102,11 +107,9 @@ Website：http://amazeui.shopxo.net/
 GitHub：https://github.com/amazeui/amazeui
 
 
-
 ### Ionic
 
-?> A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript.  
-<i class="bi bi-translate dark-yellow"></i> 一个强大的跨平台 UI 工具包，用于使用 HTML、CSS 和 JavaScript 构建原生质量的 iOS、Android 和渐进式 Web 应用程序。
+> A powerful cross-platform UI toolkit for building native-quality iOS, Android, and Progressive Web Apps with HTML, CSS, and JavaScript. （译文：一个强大的跨平台 UI 工具包，用于使用 HTML、CSS 和 JavaScript 构建原生质量的 iOS、Android 和渐进式 Web 应用程序。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/ionic-team/ionic-framework?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/ionic-team/ionic-framework?logo=github)
@@ -116,17 +119,24 @@ GitHub：https://github.com/amazeui/amazeui
 
 ----
 
-Website：https://ionic.io/
+Website：
 
-Website：https://ionicframework.com/
+1. https://ionic.io/
 
-GitHub：https://github.com/ionic-team/ionic-framework
+2. https://ionicframework.com/
 
-菜鸟教程：https://www.runoob.com/ionic/ionic-tutorial.html
+GitHub：
+
+1. https://github.com/ionic-team/ionic-framework
+
+菜鸟教程：
+
+1. https://www.runoob.com/ionic/ionic-tutorial.html
+
 
 ### Semantic UI
 
-?> Semantic is a UI component framework based around useful principles from natural language.
+> Semantic is a UI component framework based around useful principles from natural language.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/semantic-org/semantic-ui?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/semantic-org/semantic-ui?logo=github)
@@ -136,26 +146,42 @@ GitHub：https://github.com/ionic-team/ionic-framework
 
 ----
 
-Website：https://semantic-ui.com/ :cn:
+Website：https://semantic-ui.com/
 
 GitHub：https://github.com/semantic-org/semantic-ui
+
 
 ## CSS 框架
 
 ### Tailwind CSS
 
-https://www.tailwindcss.cn/ :cn: *Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。*
+> Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。
 
-- https://github.com/tailwindlabs/tailwindcss :uk: - _A utility-first CSS framework for rapid UI development._
+![GitHub last commit](https://flat.badgen.net/github/last-commit/tailwindlabs/tailwindcss?icon=github&color=blue)
+
+---
+
+Website：https://www.tailwindcss.cn/ - *Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。*
+
+GitHub：https://github.com/tailwindlabs/tailwindcss - _A utility-first CSS framework for rapid UI development._
 
 
 ### Pure.css
 
-https://github.com/pure-css/pure/ :uk: *A set of small, responsive CSS modules that you can use in every web project.*
+> Pure is a ridiculously tiny CSS library you can use to start any web project.
 
-### Primer CSS
+![GitHub last commit](https://flat.badgen.net/github/last-commit/pure-css/pure/?icon=github&color=blue)
 
-?> The CSS design system that powers GitHub
+---
+
+Wesite：https://purecss.io/ - *Pure*
+
+GitHub：https://github.com/pure-css/pure/ - *A set of small, responsive CSS modules that you can use in every web project.*
+
+
+### Primer CSS 🔥
+
+> The CSS design system that powers GitHub
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/primer/css?color=blue&logo=github&style=flat-square)
 
@@ -165,13 +191,14 @@ Website：https://primer.style/css
 
 GitHub：https://github.com/primer/css
 
-BootCDN：https://www.bootcdn.cn/Primer/
+CDN：https://www.bootcdn.cn/Primer/
+
 
 ### Open Props
 
-?> CSS custom properties to help accelerate adaptive and consistent design.
+> CSS custom properties to help accelerate adaptive and consistent design.
 
-> 一个CSS变量的库，提供大量有用的预置值
+💡 一个CSS变量的库，提供大量有用的预置值
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/argyleink/open-props?color=blue&logo=github&style=flat-square)
 
@@ -186,31 +213,40 @@ GitHub：https://github.com/argyleink/open-props
 
 ### Vue.js
 
-?> 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.  
-<i class="bi bi-translate dark-yellow"></i>  
-🖖 Vue.js是一个渐进的、可逐步采用的JavaScript框架，用于在web上构建UI。
+> 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web. （译文：🖖 Vue.js是一个渐进的、可逐步采用的JavaScript框架，用于在web上构建UI。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/vuejs/vue?color=blue&logo=github&style=flat-square)
 
 ----
 
-Website：https://cn.vuejs.org/ 🇨🇳
+Website：
 
-Website：https://vuejs.org/ 🇺🇸
+1. https://cn.vuejs.org/
 
-GitHub：https://github.com/vuejs/vue
+2. https://vuejs.org/
 
-Awesome：https://github.com/vuejs/awesome-vue
+GitHub：
 
-菜鸟教程：  
-1️⃣ https://www.runoob.com/vue2/vue-tutorial.html  
-2️⃣ https://www.runoob.com/vue3/vue3-tutorial.html
+1. https://github.com/vuejs/vue
+
+Awesome：
+
+1. https://github.com/vuejs/awesome-vue
+
+菜鸟教程：
+
+1. https://www.runoob.com/vue2/vue-tutorial.html
+
+2. https://www.runoob.com/vue3/vue3-tutorial.html
+
+CDN：
+
+1. https://www.jsdelivr.com/package/npm/vue - *vue CDN by jsDelivr - A CDN for npm and GitHub*
 
 
 #### BootstrapVue
 
-?> BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.  
-<i class="bi bi-translate dark-yellow"></i> BootstrapVue 为 Vue.js 提供了最全面的 Bootstrap v4 实现之一。具有广泛和自动化的 WAI-ARIA 可访问性标记。
+> BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup. （译文：BootstrapVue 为 Vue.js 提供了最全面的 Bootstrap v4 实现之一。具有广泛和自动化的 WAI-ARIA 可访问性标记。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/bootstrap-vue/bootstrap-vue?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?logo=github)
@@ -227,46 +263,53 @@ GitHub：https://github.com/bootstrap-vue/bootstrap-vue
 
 #### Element UI 🔥
 
-?> A Vue.js 2.0 UI Toolkit for Web.  
-<i class="bi bi-translate dark-yellow"></i> 用于 Web 的 Vue.js 2.0 UI 工具包。
+> A Vue.js 2.0 UI Toolkit for Web. （译文：用于 Web 的 Vue.js 2.0 UI 工具包。）
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/ElemeFE/element?icon=github&color=blue)
 
 ----
 
-Website：https://element.eleme.io/
+Website：
 
-Website :cn:：https://element.eleme.cn/
+1. https://element.eleme.io/
 
-GitHub：https://github.com/ElemeFE/element
+2. https://element.eleme.cn/
+
+GitHub：
+
+1. https://github.com/ElemeFE/element
 
 FAQ：
 
 1. https://blog.csdn.net/qq_27674439/article/details/111315917 - *el-button组件里hover事件不生效_一晌贪欢i的博客-CSDN博客_el-button hover*
 
+
 #### Vant 🔥
 
-?> Lightweight Mobile UI Components built on Vue.  
-<i class="bi bi-translate dark-yellow"></i> 基于 Vue 构建的轻量级移动 UI 组件。
+> Lightweight Mobile UI Components built on Vue. （译文：基于 Vue 构建的轻量级移动 UI 组件。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/youzan/vant?color=blue&logo=github&style=flat-square)
 
 ----
 
-Website：https://vant-contrib.gitee.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
+Website：
 
-Website：https://youzan.github.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
+1. https://vant-contrib.gitee.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
 
-Website：https://youzan.github.io/vant-weapp/ （轻量、可靠的小程序 UI 组件库）
+2. https://youzan.github.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
 
-GitHub：https://github.com/youzan/vant
+3. https://youzan.github.io/vant-weapp/ （轻量、可靠的小程序 UI 组件库）
 
+GitHub：
+
+1. https://github.com/youzan/vant
 
 
 #### Vux
 
-?>
-Mobile UI Components based on Vue & WeUI
+> Mobile UI Components based on Vue & WeUI
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/airyland/vux?icon=github&color=blue)
 
 ----
 
@@ -277,23 +320,22 @@ GitHub：https://github.com/airyland/vux
 
 #### uni-app 🔥
 
-?>
-uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
+> uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/dcloudio/uni-app?icon=github&color=blue)
 
 ----
 
-Website：https://uniapp.dcloud.io/ :cn:
+Website：https://uniapp.dcloud.io/
 
 GitHub：https://github.com/dcloudio/uni-app
 
 有关详细信息，请参阅“[uni-app](/front-end/uniapp/)”。
 
+
 ##### uView
 
-?>
-uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
+> uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
 
@@ -305,9 +347,10 @@ GitHub：https://github.com/umicro/uView2.0
 
 有关详细信息，请参阅“[uView](/front-end/uniapp/uniapp%20+%20uview)”。
 
+
 ### jQuery.js
 
-?> jQuery JavaScript Library
+> jQuery JavaScript Library
 
 ![](https://img.shields.io/github/last-commit/jquery/jquery?color=blue&logo=github&style=flat-square)
 
@@ -317,13 +360,14 @@ Website：https://jquery.com/
 
 GitHub：https://github.com/jquery/jquery
 
-BootCDN：https://www.bootcdn.cn/jquery/ - *jquery (v3.6.3) - jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。它提供的 API 易于使用且兼容众多浏览器，这让诸如 HTML 文档遍历和操作、事件处理、动画和 Ajax 操作更加简单。 | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
+CDN：https://www.bootcdn.cn/jquery/ - *jquery (v3.6.3) - jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。它提供的 API 易于使用且兼容众多浏览器，这让诸如 HTML 文档遍历和操作、事件处理、动画和 Ajax 操作更加简单。 | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
 
 
 #### jQuery.Marquee
 
-?>
-jQuery plugin to scroll the text like the old traditional marquee
+> jQuery plugin to scroll the text like the old traditional marquee
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/aamirafridi/jQuery.Marquee?icon=github&color=blue)
 
 ----
 
@@ -331,27 +375,54 @@ Website：http://aamirafridi.com/jquery/jquery-marquee-plugin
 
 GitHub：https://github.com/aamirafridi/jQuery.Marquee
 
-BootCDN：https://www.bootcdn.cn/jQuery.Marquee/
+CDN：https://www.bootcdn.cn/jQuery.Marquee/
 
 
 ### React.js
 
-https://reactjs.bootcss.com :cn: *用于构建用户界面的 JavaScript 框架*
+> React 是用于构建用户界面的 JavaScript 工具库
 
-https://segmentfault.com/a/1190000023608841 :cn: *思否开源项目推介丨UUI：功能优先的通用 UI 组件库*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/facebook/react?icon=github&color=blue)
+
+---
+
+Website：
+
+1. https://reactjs.bootcss.com - *用于构建用户界面的 JavaScript 框架*
+
+2. https://react.dev/ - *React*
+
+GitHub：
+
+1. https://github.com/facebook/react - *GitHub - facebook/react: The library for web and native user interfaces*
+
+2. https://github.com/reactjs/react.dev - *GitHub - reactjs/react.dev: The React documentation website*
+
+参考：
+
+1. https://segmentfault.com/a/1190000023608841 - *思否开源项目推介丨UUI：功能优先的通用 UI 组件库*
+
 
 #### Next.js
 
-https://www.nextjs.cn :cn: *Next.js 是一个轻量级的 React 服务端渲染应用框架。*
+> Next.js 支持规模化的生产级 React 应用程序。大量世界领先的公司都在使用 Next.js 来构建静态和动态网站及 web 应用。
 
-https://github.com/vercel/next.js :us: *The React Framework*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/vercel/next.js?icon=github&color=blue)
 
+---
+
+Wesite：https://www.nextjs.cn - *Next.js 是一个轻量级的 React 服务端渲染应用框架。*
+
+GitHub：https://github.com/vercel/next.js - *The React Framework*
 
 
 ### Egg.js
 
-?> 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa.  
-<i class="bi bi-translate dark-yellow"></i> 为企业级框架和应用而生。  
+> 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa. （译文：为企业级框架和应用而生。）
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/eggjs/egg?icon=github&color=blue)
+
+---
 
 !> 阿里项目
 
@@ -379,21 +450,26 @@ GitHub：https://github.com/eggjs/egg
 有关详细信息，请参阅“[ThinkPHP](/back-end/thinkphp/)”。
 
 
-### Workerman
+### workerman
 
-?>
-An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols. PHP>=5.3.
+> An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols. PHP>=5.3.
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/walkor/workerman?icon=github&color=blue)
+
+---
 
 Website：https://www.workerman.net/
 
 GitHub：https://github.com/walkor/workerman
 
 
-
 ### Swoole ✨
 
-?>
-🚀 Coroutine-based concurrency library for PHP
+> 🚀 Coroutine-based concurrency library for PHP
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/swoole/swoole-src?icon=github&color=blue)
+
+---
 
 Website：https://www.swoole.com/
 
@@ -402,8 +478,15 @@ GitHub：https://github.com/swoole/swoole-src
 
 ### Symfony
 
+> Symfony is a set of reusable PHP components and a PHP framework to build web applications, APIs, microservices and web services.
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/symfony/symfony?icon=github&color=blue)
+
+---
+
 Website：https://symfony.com/ - _Symfony, High Performance PHP Framework for Web Development_
 
+GitHub：https://github.com/symfony/symfony
 
 
 ## APP 开发
@@ -431,7 +514,6 @@ https://dcloud.io/index.html - _DCloud - HBuilder、HBuilderX、uni-app、uniapp
 8. 案例
 
 
-
 #### APICloud
 
 https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低代码开发平台_
@@ -453,7 +535,6 @@ https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低�
 8. 案例
 
 
-
 ### 功能列表
 
 1. 上拉加载
@@ -470,6 +551,7 @@ https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低�
 ## 项目分类
 
 有关详细信息，请参阅“[项目分类](project/category.md)”。
+
 
 ### 文档网站生成器
 

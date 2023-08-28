@@ -2,15 +2,25 @@
 
 > <img src="https://www.sublimehq.com/images/sublime_text.png" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
 
+
 ## Official website
 
 Website: https://www.sublimetext.com/ - *Sublime Text - Text Editing, Done Right*
 
 Docs: https://www.sublimetext.com/support - *Support - Sublime Text*
 
+
+## Tutorials
+
+1. https://segmentfault.com/a/1190000000505218 - *sublime-text - 12个不可不知的Sublime Text应用技巧和诀窍 - SegmentFault 行业快讯 - SegmentFault 思否*
+
+2. https://zhuanlan.zhihu.com/p/110874318 - *Sublime Text 3 快捷键 - 知乎*
+
+
 ## Installation
 
 https://www.sublimetext.com/download - *Download - Sublime Text*
+
 
 ### macOS
 
@@ -22,19 +32,26 @@ https://formulae.brew.sh/cask/sublime-text - *sublime-text — Homebrew Formulae
 brew install --cask sublime-text
 ```
 
+
 ## Configuration
 
 ### 自动换行
 
-中文：*菜单栏 > 视图 > 选择 - 自动换行*
+操作步骤：
 
-英文：*Menu > View > Select - Word Wrap*
+1. 中文：*菜单栏 > 视图 > 选择 - 自动换行*
+
+2. 英文：*Menu > View > Select - Word Wrap*
 
 
 ### 显示空格与Tab
 
+操作步骤：
+
 1. 打开 *菜单栏 > 设置*；
+
 2. 选中编辑器左侧文件，打开 *菜单栏 > 查找...* ，查找 “draw_white_space”；
+
 3. 将查找到的整行文字内容 `"draw_white_space": ["selection"],` 修改成 `"draw_white_space": "all",`，复制到右侧的文件中（下图是设置成`"draw_white_space": "all",`的效果）；
 
    ![sublime-text-setting-01](_images/sublime-text-setting-01.png)
@@ -44,6 +61,7 @@ brew install --cask sublime-text
    ![sublime-text-setting-02](_images/sublime-text-setting-02.png)
 
 参考：
+
 1. https://www.zhihu.com/question/37372260 - *sublime Text 选中一段文字之后空格符显示点是什么情况? - 知乎*
 2. https://www.cnblogs.com/sea-stream/p/10732909.html - *sublime text 3 显示空格和Tab - anobscureretreat - 博客园*
 3. https://blog.csdn.net/sinat_34719507/article/details/53585594 - *Sublime Text 3打开界面如何设置缩进形式？设置缩进为直线而非小圆点！空格space改为标签Tab缩进?_sublime缩进线_唐娜玛丽的博客-CSDN博客*
@@ -53,50 +71,87 @@ brew install --cask sublime-text
 
 ### 搜索插件
 
+操作步骤：
+
 1. *菜单栏 > 首选项 > Package Control*；
+
 2. 选择 **Package Control:** Discover Packages；
+
 3. 跳转至网页浏览器，同时在网页浏览器上打开网址：https://packagecontrol.io/ - *Package Control - the Sublime Text package manager*。
 
 
 ### 安装插件
 
+操作步骤：
+
 1. *菜单栏 > 首选项 > Package Control*；
+
 2. 选择 **Package Control:** Install Package；
+
 3. 等待当前窗口左下角“Loading repositories”进程加载完毕后，会在当前窗口的中上方弹出输入框；
+
 4. 在输入框中输入：`JSON Reindent`（这里以 [JSON Reindent](#Json-Reindent（JSON-格式化）) 实例操作，注意：当已安装列表中存在此插件时，输入框是搜索不到当前插件的）；
+
 5. 上下方向键选择搜索到的 `JSON Reindent` 插件，并按回车键安装；
+
 6. 等待当前窗口左下角“Installing package JSON Reindent”进程加载完毕；
+
 7. 安装成功。
 
 
 ### 卸载插件
 
+操作步骤：
+
 1. *菜单栏 > 首选项 > Package Control*；
+
 2. 选择 **Package Control:** Remove Package；
+
 3. 在当前窗口中上方会弹出的已安装插件列表，选择需卸载的插件（这里以 [JSON Reindent](#Json-Reindent（JSON-格式化）) 实例操作）；
+
 4. 等待当前窗口左下角“Removing package JSON Reindent”进程加载完毕；
+
 5. 卸载成功。
 
 
 ### 升级指定插件
 
+操作步骤：
+
 1. *菜单栏 > 首选项 > Package Control*；
+
 2. 选择 **Package Control:** Upgrade Package；
+
 3. 升级成功。
+
 
 ### 升级全部插件
 
+操作步骤：
+
 1. *菜单栏 > 首选项 > Package Control*；
+
 2. 选择 **Package Control:** Upgrade/Overview All Packages；
+
 3. 等待当前窗口左下角提示进程加载完毕；
+
 4. 升级成功。
 
 
 ### 查看已安装插件
 
+操作步骤：
+
 1. *菜单栏 > 首选项 > Package Control*；
+
 2. 选择 **Package Control:** List Packages；
+
 3. 当前窗口中上方会弹出已安装插件列表。
+
+
+## Usage
+
+按住 <kbd>command</kbd> + 鼠标点击其它标签页，sublime text 右侧会新建一个窗口，可以方便的进行两个文件的对比。
 
 
 ## Package
@@ -110,18 +165,32 @@ https://github.com/jaywcjlove/awesome-mac/blob/master/editor-plugin-zh.md#sublim
 
 https://github.com/rexdf/ChineseLocalization - *Localization for Sublime Text, support 简体中文 繁体中文 日本語 Chinese Japanese German Russian Spanish Armenian Swedish and French*
 
-https://jingyan.baidu.com/article/647f0115dacea63e2148a8ea.html - *【Sublime Text】怎样进行汉化-百度经验*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/rexdf/ChineseLocalization?icon=github&color=blue)
+
+参考：
+
+1. https://jingyan.baidu.com/article/647f0115dacea63e2148a8ea.html - *【Sublime Text】怎样进行汉化-百度经验*
 
 
 ### Sublime-HTMLPrettify（代码格式化）
 
 https://github.com/victorporof/Sublime-HTMLPrettify - *HTML, CSS, JavaScript, JSON, React/JSX and Vue code formatter for Sublime Text 2 and 3 via node.js*
 
-https://jingyan.baidu.com/article/154b46312e3d3f28ca8f41e0.html - *sublime中如何格式化代码-百度经验*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/victorporof/Sublime-HTMLPrettify?icon=github&color=blue)
+
+参考：
+
+1. https://jingyan.baidu.com/article/154b46312e3d3f28ca8f41e0.html - *sublime中如何格式化代码-百度经验*
+
 
 ### Json Reindent（JSON 格式化）
 
 https://packagecontrol.io/packages/JSON%20Reindent - *JSON Reindent - Packages - Package Control*
+
+https://github.com/ThomasKliszowski/json_reindent - *GitHub - ThomasKliszowski/json_reindent: Sublime Text 2/3 Plugin - JSON Reindent: reindent file or selection*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/ThomasKliszowski/json_reindent?icon=github&color=blue)
+
 
 ### CSS
 
@@ -129,7 +198,11 @@ https://packagecontrol.io/packages/JSON%20Reindent - *JSON Reindent - Packages -
 
 https://github.com/sindresorhus/sublime-autoprefixer - *GitHub - sindresorhus/sublime-autoprefixer: Sublime plugin to prefix your CSS*
 
-https://blog.csdn.net/weixin_30832351/article/details/98560819 - *Sublime Text 插件 autoprefixer_weixin_30832351的博客-CSDN博客*
+![GitHub last commit](https://flat.badgen.net/github/last-commit/sindresorhus/sublime-autoprefixer?icon=github&color=blue)
+
+参考：
+
+1. https://blog.csdn.net/weixin_30832351/article/details/98560819 - *Sublime Text 插件 autoprefixer_weixin_30832351的博客-CSDN博客*
 
 有关详细信息，请参阅“[Node.js > Autoprefixer](front-end/node.js/README.md#autoprefixer)”。
 
@@ -185,11 +258,15 @@ https://blog.csdn.net/weixin_30832351/article/details/98560819 - *Sublime Text �
       - https://www.cnblogs.com/weizaiyes/p/6064569.html - *Sublime Text3中Autoprefixer失效解决方法 - WWSASUKE - 博客园*
       - http://www.zlprogram.com/Show/14/14203.shtml - *sublime安装插件autoprefixer--Java,.Net,Python,Javascript,Vue,数据库程序教程*
 
+
 #### CSScomb（CSS样式格式化）
 
 https://packagecontrol.io/packages/CSScomb - *CSScomb - Packages - Package Control*
 
 https://github.com/csscomb/csscomb.js/ - *GitHub - csscomb/csscomb.js: CSS coding style formatter*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/csscomb/csscomb.js/?icon=github&color=blue)
+
 
 ### Terminal（终端）
 
@@ -199,11 +276,17 @@ Homepage: https://packagecontrol.io/packages/Terminus - *Terminus - Packages - P
 
 GitHub: https://github.com/randy3k/Terminus - *randy3k/Terminus: Bring a real terminal to Sublime Text*
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/randy3k/Terminus?icon=github&color=blue)
+
+
 #### Terminal
 
 Homepage: https://packagecontrol.io/packages/Terminal - *Terminal - Packages - Package Control*
 
 GitHub: https://github.com/SublimeText/Terminal - *SublimeText/Terminal: Launch terminals from the current file or the root project folder*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/SublimeText/Terminal?icon=github&color=blue)
+
 
 ### Git
 
@@ -212,3 +295,5 @@ GitHub: https://github.com/SublimeText/Terminal - *SublimeText/Terminal: Launch 
 Homepage: https://packagecontrol.io/packages/GitGutter - *GitGutter - Packages - Package Control*
 
 GitHub: https://github.com/jisaacks/GitGutter - *jisaacks/GitGutter: A Sublime Text 2/3 plugin to see git diff in gutter*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/jisaacks/GitGutter?icon=github&color=blue)

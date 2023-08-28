@@ -1,7 +1,6 @@
-
 ## 简介
 
-> <img src="https://github.githubassets.com/pinned-octocat.svg" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.
+> <img src="https://css.kgithub.com/pinned-octocat.svg" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.
 
 
 ## 官方
@@ -17,11 +16,9 @@ Octodex： https://octodex.github.com/ - *GitHub Octodex*
 Security Bug Bounty：https://bounty.github.com/ - *GitHub Security - GitHub Bug Bounty*
 
 
-
 ## 社区
 
 https://www.githubs.cn/ - *GitHub中文社区 | GitHub中文网*
-
 
 
 ## 组织
@@ -42,20 +39,26 @@ https://www.githubs.cn/ - *GitHub中文社区 | GitHub中文网*
 
 1. https://github.com/twbs - *Bootstrap · GitHub*
 
-2. https://github.com/metafizzy - *Metafizzy · GitHub*  
-🏷️  _logo 可爱而关注_ ，_前端_
+2. https://github.com/metafizzy - *Metafizzy · GitHub*
+
+    🏷️  _logo 可爱而关注_ ，_前端_
+
 
 ## 仓库
 
-https://github.com/markgoodyear/markgoodyear.github.io - *Source for my personal site.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/markgoodyear/markgoodyear.github.io?icon=github&color=blue)
+1. https://github.com/markgoodyear/markgoodyear.github.io - *Source for my personal site.*
 
-https://github.com/GitHubDaily/GitHubDaily - *坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.* ![GitHub last commit](https://img.shields.io/github/last-commit/GitHubDaily/GitHubDaily?color=blue&logo=github&style=flat-square)
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/markgoodyear/markgoodyear.github.io?icon=github&color=blue)
+
+2. https://github.com/GitHubDaily/GitHubDaily - *坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/GitHubDaily/GitHubDaily?color=blue&logo=github&style=flat-square)
 
 
 ### Awesome Lists
 
 
-?> 😎 Awesome lists about all kinds of interesting topics.  
+> 😎 Awesome lists about all kinds of interesting topics.  
 <i class="bi bi-translate dark-yellow"></i>  
 😎 关于各种有趣主题的精彩列表。
 
@@ -74,21 +77,36 @@ https://www.trackawesomelist.com - *Track Awesome List - Track your Favorite Git
 
 列表：
 
-1. https://github.com/chaozh/awesome-blockchain-cn - *GitHub - chaozh/awesome-blockchain-cn: 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料* ![GitHub last commit](https://flat.badgen.net/github/last-commit/chaozh/awesome-blockchain-cn?icon=github&color=blue)
+1. https://github.com/chaozh/awesome-blockchain-cn - *GitHub - chaozh/awesome-blockchain-cn: 收集所有区块链(BlockChain)技术开发相关资料，包括Fabric和Ethereum开发资料*
 
-2. https://github.com/ziadoz/awesome-php - *GitHub - ziadoz/awesome-php: A curated list of amazingly awesome PHP libraries, resources and shiny things.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/ziadoz/awesome-php?icon=github&color=blue)
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/chaozh/awesome-blockchain-cn?icon=github&color=blue)
 
-3. https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-cheat-sheet: A list of cool features of Git and GitHub.* ![GitHub last commit](https://flat.badgen.net/github/last-commit/tiimgreen/github-cheat-sheet?icon=github&color=blue)
+2. https://github.com/ziadoz/awesome-php - *GitHub - ziadoz/awesome-php: A curated list of amazingly awesome PHP libraries, resources and shiny things.*
 
-4. https://github.com/AllThingsSmitty/css-protips - *GitHub - AllThingsSmitty/css-protips: ⚡️ A collection of tips to help take your CSS skills pro 🦾* ![GitHub last commit](https://flat.badgen.net/github/last-commit/AllThingsSmitty/css-protips?icon=github&color=blue) 
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/ziadoz/awesome-php?icon=github&color=blue)
 
-5. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)* ![GitHub last commit](https://flat.badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
+3. https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-cheat-sheet: A list of cool features of Git and GitHub.*
 
-6. https://github.com/xingshaocheng/architect-awesome - *后端架构师技术图谱* ![GitHub last commit](https://flat.badgen.net/github/last-commit/xingshaocheng/architect-awesome?icon=github&color=blue)
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/tiimgreen/github-cheat-sheet?icon=github&color=blue)
 
-7. https://github.com/jondot/awesome-weekly - *An "awesome" type curated list of quality weekly subscription newsletters from the software world* ![GitHub last commit](https://flat.badgen.net/github/last-commit/jondot/awesome-weekly?icon=github&color=blue)
+4. https://github.com/AllThingsSmitty/css-protips - *GitHub - AllThingsSmitty/css-protips: ⚡️ A collection of tips to help take your CSS skills pro 🦾*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/AllThingsSmitty/css-protips?icon=github&color=blue) 
+
+5. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
+
+6. https://github.com/xingshaocheng/architect-awesome - *后端架构师技术图谱*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/xingshaocheng/architect-awesome?icon=github&color=blue)
+
+7. https://github.com/jondot/awesome-weekly - *An "awesome" type curated list of quality weekly subscription newsletters from the software world*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/jondot/awesome-weekly?icon=github&color=blue)
 
 ---
+
 参考链接 👇
 
 1. https://zhuanlan.zhihu.com/p/144053402 - *Awesome系列：Github中不能错过的巨人肩膀*
@@ -100,7 +118,6 @@ https://www.trackawesomelist.com - *Track Awesome List - Track your Favorite Git
 4. https://zhuanlan.zhihu.com/p/89873800 - *GitHub 上的 Awesome 系列（资源大全系列）*
 
 
-
 ## 功能
 
 👍 https://github.com/AntBranch/awesome-github - *A curated list of awesome GitHub guides, articles, sites, tools, projects and resources. 收集这个列表，只是为了更好地使用GitHub,欢迎提交pr和issue。*
@@ -109,15 +126,18 @@ https://blog.csdn.net/tuna_lxg/article/details/27660611 - *庄表伟：谈谈大
 
 https://blog.csdn.net/wang975380547/article/details/78095299 - *GitHub的各标签的功能说明以及使用方法*
 
+
 ### GitHub Rank
 
 https://wangchujiang.com/github-rank/ - *GitHub Users Global Ranking.*
 
 https://www.githubs.cn/top - *GitHub 排行榜 Top 200，热门开源项目推荐 - GitHub中文社区*
 
+
 ### GitHub Topics
 
 https://github.com/topics - *Topics on GitHub · GitHub*
+
 
 ### GitHub Issues
 
@@ -125,12 +145,17 @@ https://docs.github.com/zh/issues - *GitHub 问题 - GitHub Docs*
 
 https://docs.github.com/zh/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository - *为仓库配置议题模板 - GitHub Docs*
 
-> 创建议题模板参考*（进入页面后，点击“New issue”按钮即可查看议题模板）*：https://github.com/maks/MGit/issues - *Issues · maks/MGit · GitHub*  
-https://github.com/gsantner/markor/issues - *Issues · gsantner/markor · GitHub*
+> 创建议题模板参考 *（进入页面后，点击“New issue”按钮即可查看议题模板）*
+> 
+> 示例：
+> 1. https://github.com/maks/MGit/issues - *Issues · maks/MGit · GitHub*
+> 2. https://github.com/gsantner/markor/issues - *Issues · gsantner/markor · GitHub*
+
 
 ### GitHub Wiki
 
 https://docs.github.com/zh/communities/documenting-your-project-with-wikis/about-wikis - *关于 wikis - GitHub Docs*
+
 
 ### GitHub Pages
 
@@ -145,32 +170,37 @@ https://docs.github.com/zh/communities/documenting-your-project-with-wikis/about
 2. [hexo你的博客](http://ibruce.info/2013/11/22/hexo-your-blog/)
 
 
-
 ### GitHub Action
 
 https://github.com/Yikun/hub-mirror-action - *一个Github Action，用于在Github和Gitee之间同步代码。Action for mirroring repos between Hubs (like Github and Gitee).*
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/Yikun/hub-mirror-action?icon=github&color=blue)
 
 http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
 
 
 ### GitHub Gist
 
-?> Instantly share code, notes, and snippets.  
+> Instantly share code, notes, and snippets.  
 <i class="bi bi-translate dark-yellow"></i> 即时共享代码、注释和片段。
 
-官网：https://gist.github.com/ 🪜
+官网：
 
-**客户端工具：**
+1. https://gist.github.com/ 🪜
+
+工具：
 
 1. https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
 
-**FAQ：**
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/hackjutsu/Lepton?icon=github&color=blue)
+
+FAQ：
 
 1. https://www.jianshu.com/p/82ee14139048 - *github,gist.github 打不开*
-2. https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
-3. https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
 
+2. https://segmentfault.com/a/1190000009224437 - *积水成渊：用github gist收藏你的代码片段*
+
+3. https://www.zhihu.com/question/21343711/answer/32023379 - *如何看待 Github Gist 这个服务，怎样更好的利用？*
 
 
 ### Gitee
@@ -207,8 +237,9 @@ https://tholman.com/github-corners/ - *GitHub Corners*
 https://github.blog/2008-12-19-github-ribbons/
 
 
-
 ### 徽章 *badge*
+
+> 徽章有不同的分类,不管是哪种分类,在线徽章最为简单便捷,下面就简单介绍下提供在线生成徽章的网站.
 
 [GitHub项目主要依赖的图标展示](https://juejin.cn/post/6844904114711691272)
 
@@ -218,19 +249,20 @@ https://github.blog/2008-12-19-github-ribbons/
 
 [GitHub项目徽标](https://blog.csdn.net/yinchuan_111/article/details/102224456)
 
-玩转 Github 徽章 https://cloud.tencent.com/developer/article/1194958
+https://cloud.tencent.com/developer/article/1194958 - *玩转 Github 徽章-腾讯云开发者社区-腾讯云*
 
-徽章有不同的分类,不管是哪种分类,在线徽章最为简单便捷,下面就简单介绍下提供在线生成徽章的网站.
+https://github.com/boennemann/badges - *GitHub - boennemann/badges: :flower_playing_cards: Readme Badges – Gotta catch 'em all*
 
-https://github.com/boennemann/badges
-
+![GitHub last commit](https://flat.badgen.net/github/last-commit/boennemann/badges?icon=github&color=blue)
 
 
 #### Shields ✅
 
-?> Shields.io: Quality metadata badges for open source projects
+> Shields.io: Quality metadata badges for open source projects
 
-> 可以设计自己的徽章
+![GitHub last commit](https://flat.badgen.net/github/last-commit/badges/shields?icon=github&color=blue)
+
+!> 可以设计自己的徽章
 
 主页：https://shields.io/
 
@@ -283,13 +315,20 @@ GitHub: https://github.com/cvzi/play
 ![](https://img.shields.io/static/v1?labelColor=56595b&color=f9de81&logo=f-droid&logoColor=ffffff&label=f-droid&style=for-the-badge&message=get)
 ```
 
+[![](https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=)](https://greasyfork.org/zh-CN/users/457025-x-i-u)
+```markdown
+[![](https://img.shields.io/static/v1?label=%20&message=GreasyFork&style=flat-square&labelColor=7B0000&color=960000&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc/goBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN+ce+5c4LMUgDmANYBnrnV+plBSi+FwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs+z+czO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw+HA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o+/7Hy0gD8KatOd5vN/v1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl+m/6/wDuWAjtPfsQuwAAAAASUVORK5CYII=)](https://greasyfork.org/zh-CN/users/457025-x-i-u)
+```
+
+via https://github.com/XIU2/UserScript - *GitHub - XIU2/UserScript: 🐵 自用的一些乱七八糟 油猴脚本~*
+
 </div>
 </details>
 
 
 #### Badgen ✅
 
-?> Fast badge generating service
+> Fast badge generating service
 
 主页：https://badgen.net/ - *Badgen - Fast badge generating service*
 
@@ -329,12 +368,11 @@ GitHub: https://github.com/cvzi/play
 </details>
 
 
-
 #### Fury
 
-?> Version Badge for npm, RubyGems, PyPI, Bower and other packages
+> Version Badge for npm, RubyGems, PyPI, Bower and other packages
 
-> 语言扩展包的版本
+!> 语言扩展包的版本
 
 主页：https://badge.fury.io/
 
@@ -361,7 +399,7 @@ GitHub: https://github.com/cvzi/play
 
 https://github.com/badges/stability-badges - *GitHub - badges/stability-badges: A set of SVG badges to mark your modules with the Node stability index*
 
-
+![GitHub last commit](https://flat.badgen.net/github/last-commit/badges/stability-badges?icon=github&color=blue)
 
 版本稳定性 👇
 
@@ -395,7 +433,6 @@ https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE - *mitmproxy/LICENSE at
 [![forthebadge](https://forthebadge.com/images/badges/contains-cat-gifs.svg)](http://forthebadge.com)
 
 
-
 ## 工具
 
 ### 官方工具
@@ -403,6 +440,8 @@ https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE - *mitmproxy/LICENSE at
 #### GitHub Desktop
 
 https://github.com/desktop/desktop - *GitHub - desktop/desktop: Focus on what matters instead of fighting with Git.*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/desktop/desktop?icon=github&color=blue)
 
 https://desktop.github.com/ - *GitHub Desktop | Simple collaboration from your desktop*
 
@@ -417,33 +456,53 @@ https://github.com/mobile - *GitHub Mobile · GitHub*
 
 https://docs.github.com/zh/get-started/using-github/github-mobile - *GitHub Mobile - GitHub Docs*
 
+
 #### GitHub CLI
 
 https://github.com/cli/cli - *GitHub - cli/cli: GitHub’s official command line tool*
+
+![GitHub last commit](https://flat.badgen.net/github/last-commit/cli/cli?icon=github&color=blue)
 
 https://cli.github.com/ - *GitHub CLI | Take GitHub to the command line*
 
 https://docs.github.com/zh/github-cli - *GitHub CLI - GitHub Docs*
 
-### 浏览器扩展程序
 
-https://github.com/topics/github-extension - *github-extension · GitHub Topics · GitHub*
+### 浏览器扩展程序
 
 - 有关详细信息，请参阅“[浏览器扩展程序 - GitHub](os/tools/browser-extensions.md#github)”。
 
 - 有关详细信息，请参阅“[浏览器扩展程序 - Tampermonkey](os/tools/browser-extensions.md#tampermonkey-github)”。
 
+
 ### 访问加速
 
-1️⃣ https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw - *上万良心软件都在GitHub，你却还卡在无法访问？*  
-https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你却还卡在无法访问？*
+#### 客户端工具
 
-- UsbEAm Hosts Editor（WIN） https://www.dogfight360.com/blog/475/
-- steamcommunity 302（WIN） https://www.dogfight360.com/blog/686/
-- FastGithub（WIN／Mac／Linux） https://github.com/dotnetcore/FastGithub
-- Steam++（WIN／Mac／Linux／Android／iOS） https://steampp.net/
+1. https://mp.weixin.qq.com/s/C5XUgzL3_KGIga2X-LHJuw - *上万良心软件都在GitHub，你却还卡在无法访问？*
 
-2️⃣ https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg - *这里有超1亿个开源项目，结果你说它访问慢不好用？*
+    \> 备用链接：https://zhuanlan.zhihu.com/p/364453651 - *上万良心软件都在GitHub，你却还卡在无法访问？*
+
+    工具列表：
+    
+    1. [UsbEAm Hosts Editor](https://www.dogfight360.com/blog/475/) - *UsbEAm Hosts Editor [多平台hosts修改] V3.63 – Dogfight360*
+    
+        - 支持 Windows
+        
+    2. [steamcommunity 302](https://www.dogfight360.com/blog/686/) - *steamcommunity 302 Ver.12.1.26 – Dogfight360*
+    
+        - 支持 Windows
+        
+    3. [FastGithub](https://github.com/dotnetcore/FastGithub) - *GitHub - dotnetcore/FastGithub: github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题*
+    
+        - 支持 Windows, macOS, Linux
+        
+    4. [Steam++](https://steampp.net/) - *Watt Toolkit - 瓦特工具箱(Steam++官网)*
+    
+        - 支持 Windows, macOS, Linux, Android, iOS
+
+2. https://mp.weixin.qq.com/s/ZHZT5qPT13aTQeyHk-ozKg - *这里有超1亿个开源项目，结果你说它访问慢不好用？*
+
 
 #### jsDelivr
 
@@ -467,6 +526,7 @@ https://www.jsdelivr.com/?docs=gh - *jsDelivr - A free, fast, and reliable CDN f
 参考：
 
 1. https://www.cnblogs.com/yunweizhijun/p/14620107.html - *使用github版本库做图床(jsdelivr方案 / cdn 免费加速)*
+
 2. https://www.bilibili.com/read/cv13363398 - *使用Github/jsdelivr加速做远程图床教程*
 
 3. https://juejin.cn/post/6844904095807979534 - *使用 jsDelivr CDN 加速 Github 仓库的图片，以作为博客的图床*
@@ -476,25 +536,35 @@ https://www.jsdelivr.com/?docs=gh - *jsDelivr - A free, fast, and reliable CDN f
 
 #### Hosts
 
-https://github.com/521xueweihan/GitHub520/ - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
+1. https://github.com/521xueweihan/GitHub520/ - *😘 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
 
-```label
-HelloGitHub
-```
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/521xueweihan/GitHub520/?icon=github&color=blue)
 
-```uri
-https://raw.hellogithub.com/hosts
-```
+    ```label
+    HelloGitHub
+    ```
 
-https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
+    ```uri
+    https://raw.hellogithub.com/hosts
+    ```
 
-*👏 与 [Tools - Hosts](os/tools/hosts.md) 组合使用*
+2. https://github.com/ineo6/hosts/ - *GitHub最新hosts。解决GitHub图片无法显示，加速GitHub网页浏览。*
+
+    ![GitHub last commit](https://flat.badgen.net/github/last-commit/ineo6/hosts/?icon=github&color=blue)
+
+3. *👏 与 [Tools - Hosts](os/tools/hosts.md) 组合使用*
+
 
 #### 镜像站
 
-有关详细信息，请参阅“[镜像](home/README.md#镜像站)”。
+有关详细信息，请参阅“[镜像](os/mirror.md#github)”。
 
-https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
+参考：
+
+1. https://www.cnblogs.com/jsfh/p/14509629.html - *github加速（国内镜像，加速下载）*
+
+2. https://www.frytea.com/archives/504/ - *无需代理直接加速各种 GitHub 资源拉取 | 国内镜像赋能 | 助力开发 | Frytea*
+
 
 #### DNS
 
@@ -508,6 +578,7 @@ https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打�
 4. 选择 *使用 OpenDNS* 或者 *使用 自定义*，然后填写 *DNS URL: `https://doh.360.cn/dns-query`* 。
 
 方式二、借助 [DNS 工具](essential/dns.md#工具)。
+
 
 ## FAQ
 

@@ -2,6 +2,7 @@
 
 > PHP IDE（Integrated Development Environment，集成开发环境）。
 
+
 ## 官方
 
 官网：
@@ -23,9 +24,11 @@ https://github.com/JetBrains/ - *JetBrains · GitHub*
 https://www.jetbrains.com/phpstorm/download/other.html - *Other Versions - PhpStorm*
 -  https://blog.csdn.net/qq_29752857/article/details/107050967 - *JetBrains下载历史版本(IDEA、PyCharm、WebStorm、PhpStorm等)*
 
+
 ## 版本
 
 PhpStorm 2021.1.4 x64（当前使用）
+
 
 ## 注册/激活码
 
@@ -49,7 +52,7 @@ PhpStorm 2021.1.4 x64（当前使用）
    
    http://soft-hub.cn/ - *IDEA激活码-WebStorm激活码-PhpStorm激活码-IDEA主题样式-SoftHub*
 
-------
+---
 
 👍 https://zhile.io/ - *知了 – 朝闻道，夕可眠矣。* `可查看下列两篇文章`
 
@@ -58,13 +61,13 @@ PhpStorm 2021.1.4 x64（当前使用）
 
 http://idea.lanyus.com/ - *IntelliJ IDEA 注册码* `暂停提供`
 
-------
+---
 
 **2020/01/07**
 
 👍 https://www.php.cn/tool/phpstorm/408348.html - *正版phpstorm免费激活步骤（图文详解）-phpstorm-PHP中文网* 「暂停提供（评论区有最新有效注册码）」
 
-------
+---
 
 **2020/05/28**
 
@@ -78,17 +81,18 @@ https://www.0daydown.com/tag/phpstorm - *PhpStorm | 下载,Download*
 
 ~~http://soft-hub.cn/article/ll2d7f50fa62eb45f0171c5321f9fc926f.zip~~ *查看下载文件创建日期判断是否暂停提供 -适用于最新版本（2020版）*
 
-------
+---
 
 **2020/09/25**
 
 [Jetbrains2020全系列补丁ZhilePatch jetbrains-agent.jar v3.2.0 绿色版](https://www.jb51.net/softs/672190.html#downintro2 "下载安装包进行破解（破解包：jetbrains_agent_jb51.rar）")
 
-------
+---
 
 **2020/12/17**
 
 ~~https://tangyulu.com/~~ *最新注册码有效连接*
+
 
 ## 常用操作
 
@@ -106,7 +110,6 @@ https://www.0daydown.com/tag/phpstorm - *PhpStorm | 下载,Download*
 
    <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>/</kbd>
 
-
 4. 跳至页首
 
    <kbd>Ctrl</kbd> + <kbd>Home</kbd>
@@ -119,12 +122,12 @@ https://www.0daydown.com/tag/phpstorm - *PhpStorm | 下载,Download*
 
    Ctrl + E
 
+
 ## 操作设置
 
 操作事件
 
 操作描述
-
 
 1. 设置字体大小
 
@@ -143,6 +146,7 @@ https://www.0daydown.com/tag/phpstorm - *PhpStorm | 下载,Download*
    * 在代码显示的参数名上方右键点击会出现两个选项，选择第二个 Disable 就可以关闭了
 
     参考：https://www.wenjiangs.com/article/phpstorm-parameter-name-hints.html - *PhpStorm 取消函数参数提示 Parameter Name Hints - 文章教程 - 文江博客*
+
 
 ## 断点调试
 
@@ -209,7 +213,6 @@ xdebug.idekey = PHPSTORM
 ![](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216101002847-1777096143.png)
 
 
-
 ### 三、设置PhpStorm
 
 1.	`File->Settings`	页面
@@ -239,7 +242,6 @@ xdebug.idekey = PHPSTORM
    ![](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216103541425-1992117242.png)
 
 
-
 ### 四、开始设置断点调试
 
 1.	设置断点
@@ -252,6 +254,7 @@ xdebug.idekey = PHPSTORM
    ![](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216104106988-674553758.png)
 
 参考文档：
+
 1. [https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html](https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html) - *phpstorm设置断点调试 - shen1hua - 博客园*
 2. [https://blog.csdn.net/ty_hf/article/details/50768702](https://blog.csdn.net/ty_hf/article/details/50768702) - *phpstorm+Xdebug断点调试PHP_phpstorm + xdebug断点_时而宁靜的博客-CSDN博客*
 
@@ -260,6 +263,7 @@ xdebug.idekey = PHPSTORM
 
 https://www.cnblogs.com/jingmin/p/6329556.html
 
+
 ## FTP
 
 1. https://blog.csdn.net/qq_35616854/article/details/77877493 - *PhpStorm中如何使用FTP功能 详细操作方法*
@@ -267,6 +271,7 @@ https://www.cnblogs.com/jingmin/p/6329556.html
 2. https://www.php.cn/tool/phpstorm/464585.html - *详解 PHPStorm 配置 FTP*
 
 3. https://blog.csdn.net/blog_phpxz/article/details/80103257 - *phpstorm 配置ftp， 自动更新同步代码 （亲测完美）*
+
 
 ## 插件
 
@@ -277,28 +282,33 @@ https://www.cnblogs.com/jingmin/p/6329556.html
    百度搜索关键字：`ide eval reset`、`IDEA安装插件无限试用`
 
 2. Translation（翻译插件）
+
    1. https://yiiguxing.github.io/TranslationPlugin/index.html
    2. https://plugins.jetbrains.com/plugin/8579-translation
 
 3. Git
 
    1. git 项目，VSCode 显示不同颜色块的含义
+
       - https://www.cnblogs.com/soyxiaobi/p/9708518.html
 
    2. PhpStorm 中实现 git rebase -i 合并多次提交功能
+
       - https://www.cnblogs.com/woods1815/p/12382853.html
 
 4. Chinese (Simplified) Language Pack / 中文语言包
 
-   https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----/ 
+    - https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----/ 
 
 5. http 客户端
+
    1. https://www.evget.com/article/2022/3/30/44406.html - *PHP集成开发环境PhpStorm使用教程（一）：HTTP 请求语法概述*
    2. https://www.evget.com/serializedetail/970 - *PHP集成开发环境PhpStorm使用教程（二）：HTTP 请求语法*
    3. https://www.evget.com/article/2022/3/3/44193.html - *PHP集成开发环境PhpStorm中的HTTP客户端概述*
    4. https://cloud.tencent.com/developer/article/1765132 - *张嘴吃安利之 PhpStorm 中的 HTTP 客户端*
    5. https://blog.jetbrains.com/zh-hans/2020/03/06/phpstorm-client/ - *PhpStorm 中的 HTTP 客户端概述*
    6. https://www.jetbrains.com/help/phpstorm/http-client-in-product-code-editor.html - *HTTP Client*
+
 
 ## FAQ
 

@@ -1,28 +1,36 @@
+## 书籍
 
-## 书栈网
+1. https://www.bookstack.cn/ - *书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！*
 
-https://www.bookstack.cn/ - *书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！*
+    - https://github.com/TruthHun/BookStack - *GitHub - TruthHun/BookStack: BookStack，基于MinDoc，使用Beego开发的在线文档管理系统，功能类似Gitbook和看云。*
 
-## GitHub
+        ![GitHub last commit](https://badgen.net/github/last-commit/TruthHun/BookStack?icon=github&color=blue)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/TruthHun/BookStack?style=social)
 
-https://github.com/justjavac/free-programming-books-zh_CN - *免费的编程中文书籍索引*
+2. https://github.com/justjavac/free-programming-books-zh_CN - *免费的编程中文书籍索引*
 
-![GitHub last commit](https://img.shields.io/github/last-commit/justjavac/free-programming-books-zh_CN?color=blue&logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/free-programming-books-zh_CN?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/justjavac/free-programming-books-zh_CN?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/free-programming-books-zh_CN?style=social)
+
+3. https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
+
 
 ## 博客
 
 ### 阮一峰的网络日志
 
 http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志*
+
 - https://www.ruanyifeng.com/blog/javascript/ - *分类：JavaScript - 阮一峰的网络日志*
 - https://www.ruanyifeng.com/blog/developer/ - *分类：开发者手册 - 阮一峰的网络日志*
 - https://www.ruanyifeng.com/blog/computer/ - *分类：理解计算机 - 阮一峰的网络日志*
 - https://www.ruanyifeng.com/blog/industry/ - *分类：计算机行业历史 - 阮一峰的网络日志*
 
+
 ### 运维
 
-https://u.sb/ - *烧饼博客*
+1. https://u.sb/ - *烧饼博客*
+
 
 ### 网络安全
 
@@ -32,14 +40,19 @@ https://u.sb/ - *烧饼博客*
 
 2. https://blog.csdn.net/qq_44879989/article/details/127343567 - *使用Termux安装黑客工具箱---Lazymux_termux黑客_BinaryMoon的博客-CSDN博客*
 
+
 ### 更多
 
 1. https://zhiyou.smzdm.com/member/6946935780/ - *略懂的大龙猫的个人主页| 什么值得买*
 
 2. https://blackglory.me/ - *BlackGlory and his digital garden*
+
     - _**via** https://www.crxsoso.com/webstore/detail/jdjbiojkklnaeoanimopafmnmhldejbg - *拷贝猫 | Chrome扩展 - Crx搜搜*_
 
 3. https://github.com/Zeb-D/my-review - *GitHub - Zeb-D/my-review: IT Learn Experience: db:mysql hbase redis,deeplearn go ,java:jvm spring,k8s,manage*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/Zeb-D/my-review?icon=github&color=blue)
+
 
 ## 分类
 
@@ -65,6 +78,7 @@ https://u.sb/ - *烧饼博客*
 
 - http://phpversions.info/ - *PHP Versions*
 
+
 ### 前端
 
 #### MDN Web Docs
@@ -76,10 +90,13 @@ https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
 #### 网道 - 互联网开发文档
 
-<https://github.com/wangdoc>（<https://wangdoc.com/>）
+https://github.com/wangdoc - *wangdoc · GitHub*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/wangdoc/website?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/website?icon=github&color=blue)
 
+https://wangdoc.com/ - *网道 - 互联网开发文档*
+
+阅读：
 
 序号  | 书名  | 阅读进度
 :---|:---|:---
@@ -90,38 +107,43 @@ https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
 #### 更多
 
-https://www.bootcss.com/ - *Bootstrap中文网*
-- [PostCSS]()
-- [Browsersync]()
-- [SemVer]()
-- [Bootstrap 编码规范]()
-- [Git Guide]()
-- [Prettier]()
-- [Axios]()
-- [Bootstrap 官网]()
-- [Rollup]()
-- [gulp.js]()
-- [Axios]()
-- [Node.js]()
-- [Grunt]()
+1. https://www.bootcss.com/ - *Bootstrap中文网*
 
-----
+    1. [PostCSS]()
+    2. [Browsersync]()
+    3. [SemVer]()
+    4. [Bootstrap 编码规范]()
+    5. [Git Guide]()
+    6. [Prettier]()
+    7. [Axios]()
+    8. [Bootstrap 官网]()
+    9. [Rollup]()
+    10. [gulp.js]()
+    11. [Axios]()
+    12. [Node.js]()
+    13. [Grunt]()
 
-https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*  
-![](https://flat.badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
+---
 
-https://github.com/paddingme/Front-end-Web-Development-Interview-Question - *前端开发面试题大收集，前端面试集锦 ❤️*  
-![](https://flat.badgen.net/github/last-commit/paddingme/Front-end-Web-Development-Interview-Question?icon=github&color=blue)
+1. https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*
 
-https://github.com/markyun/My-blog - *马云云的Github博客，记录一些学习的片段。*  
-![](https://flat.badgen.net/github/last-commit/markyun/My-blog?icon=github&color=blue)
+    ![](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
 
-https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
+2. https://github.com/paddingme/Front-end-Web-Development-Interview-Question - *前端开发面试题大收集，前端面试集锦 ❤️*
 
-https://github.com/ljianshu/Blog - *GitHub - ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者*
+    ![](https://badgen.net/github/last-commit/paddingme/Front-end-Web-Development-Interview-Question?icon=github&color=blue)
 
-# 微信公众号
+3. https://github.com/markyun/My-blog - *马云云的Github博客，记录一些学习的片段。*
 
-[码农老张](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxODQyNTU1MA==&scene=124#wechat_redirect)
+    ![](https://badgen.net/github/last-commit/markyun/My-blog?icon=github&color=blue)
 
-https://www.zyblog.com.cn/ - *ZyBlog码农老张*
+4. https://github.com/ljianshu/Blog - *GitHub - ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/ljianshu/Blog?icon=github&color=blue)
+
+
+## 微信公众号
+
+1. [码农老张](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxODQyNTU1MA==&scene=124#wechat_redirect)
+
+    - https://www.zyblog.com.cn/ - *ZyBlog码农老张*

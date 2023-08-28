@@ -15,6 +15,8 @@ Docs: https://www.vim.org/docs.php - *Vim documentation : vim online*
 
 GitHub: https://github.com/vim/vim - *GitHub - vim/vim: The official Vim repository*
 
+![GitHub last commit](https://flat.badgen.net/github/last-commit/vim/vim?icon=github&color=blue)
+
 
 ## 安装
 
@@ -23,7 +25,7 @@ https://www.vim.org/download.php - *download : vim online*
 
 ## 教程
 
-**菜鸟教程**：https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
+https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
 
 
 ## 用法
@@ -39,6 +41,7 @@ https://www.vim.org/download.php - *download : vim online*
 1. `i` 切换到输入模式，以输入字符。
 2. `x` 删除当前光标所在处的字符。
 3. `:` 切换到底线命令模式，以在最底一行输入命令。
+
 
 ### 输入模式
 

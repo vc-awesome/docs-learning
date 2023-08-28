@@ -53,14 +53,14 @@ root_folder
 ```md
 root_folder/
 ├── a first folder/
-|   ├── holidays.mov
-|   ├── javascript-file.js
-|   └── some_picture.jpg
+│   ├── holidays.mov
+│   ├── javascript-file.js
+│   └── some_picture.jpg
 ├── documents/
-|   ├── spreadsheet.xls
-|   ├── manual.pdf
-|   ├── document.docx
-|   └── presentation.ppt
+│   ├── spreadsheet.xls
+│   ├── manual.pdf
+│   ├── document.docx
+│   └── presentation.ppt
 └── etc.
 ```
 

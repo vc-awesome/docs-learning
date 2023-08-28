@@ -1,8 +1,16 @@
 ## 网上搜索
 
-https://builtwith.com/top-sites - *BuiltWith Top Ranked Sites*
+综合搜索：
 
-- https://trends.builtwith.com/media/VideoJS - *VideoJS Usage Statistics*
+1. https://builtwith.com/top-sites - *BuiltWith Top Ranked Sites*
+
+    - https://trends.builtwith.com/media/VideoJS - *VideoJS Usage Statistics*
+
+搜索要点：
+
+1. 功能
+2. 编程语言（纯 JavaScript）
+3. 浏览器兼容性
 
 ## 剪贴板
 

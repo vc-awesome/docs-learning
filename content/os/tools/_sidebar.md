@@ -1,18 +1,17 @@
-* [Overview](os/tools/)
+* [Overview](os/tools/README.md)
 * [Search](os/tools/search.md)
 * **应用列表**
-  * [Trial Tools](os/tools/app-trial.md)
   * [Desktop Tools](os/tools/app-list.md)
   * [Web Tools](os/tools/web-app.md "在线工具")
 * **浏览器**
   * [Browser](os/tools/browser.md "浏览器")
   * [Opera](os/tools/opera.md)
   * [Extensions](os/tools/browser-extensions.md "浏览器扩展程序")
-  * [Extensions Trial](os/tools/browser-extensions-trial.md)
+  * [Tampermonkey](os/tools/tampermonkey.md)
 * **Daily**
   * [Bitwarden](os/tools/bitwarden.md)
   * [Markdown](os/tools/markdown.md)
-  * [Docsify](os/tools/docsify.md)
+  * [docsify](os/tools/docsify.md)
   * [RSS](os/tools/rss.md)
   * [剪贴板](os/tools/clipboard.md)
   * [多媒体](os/tools/multimedia.md)
@@ -30,9 +29,10 @@
   * [PhpStudy](os/tools/phpstudy.md)
   * [Postman](os/tools/postman.md)
   * [仿站工具](os/tools/webpage-downloader.md "仿站工具")
+  * [VS Code](os/tools/visual-studio-code.md)
   * [Sublime Text](os/tools/sublime-text.md)
   * [Navicat](os/tools/navicat.md)
   * [phpMyAdmin](os/tools/phpmyadmin.md)
-- **自建工具**
-  - [Badge](os/tools/custom-badge.md)
-  - [Search](os/tools/custom-search.md)
+* **自建工具**
+  * [Badge](os/tools/custom-badge.md)
+  * [Search](os/tools/custom-search.md)
