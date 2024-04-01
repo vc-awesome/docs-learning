@@ -1,3 +1,5 @@
+# Vim
+
 ## 简介
 
 > <img src="https://cdn.jsdelivr.net/gh/vim/vim/runtime/vimlogo.gif" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.
@@ -15,7 +17,8 @@ Docs: https://www.vim.org/docs.php - *Vim documentation : vim online*
 
 GitHub: https://github.com/vim/vim - *GitHub - vim/vim: The official Vim repository*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/vim/vim?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/vim/vim?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/vim/vim?style=social)
 
 
 ## 安装
@@ -34,7 +37,7 @@ https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
 
 进入命令模式：
 
-*`vim ` [文件名]*
+`vim [文件名]`
 
 常用命令：
 
@@ -45,20 +48,14 @@ https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
 
 ### 输入模式
 
-进入输入模式：
+进入输入模式：`i`
 
-*`i`*
-
-退出输入模式，切换到命令模式：
-
-*`ESC`*
+退出输入模式，切换到命令模式：`ESC`
 
 
 ### 底线命令模式
 
-进入底线命令模式： 
-
-*`:`*
+进入底线命令模式： `:`
 
  ID | Command  | Description
 ---|---|---

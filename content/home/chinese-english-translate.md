@@ -1,3 +1,5 @@
+# 中英译
+
 ## 简介
 
 > 专术 = 专业术语
@@ -12,6 +14,8 @@
 
 `real name` 实名
 
+`cheat sheet` 速查表 [via](https://www.markdown.xyz/cheat-sheet/)
+
 ---
 
 https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历list吗？*
@@ -21,13 +25,44 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 - sorted 排序
 - collect 聚合
 
+## 分类
+
+1. `unsorted` 未分类的
+2. `multi-platform` 多平台的
+3. `cross-platform` 跨平台的 [via](https://www.wireguard.com/xplatform/)
+4. `category` `categories` 类别
+5. `uncategorized` 未分类
+
+## 文件
+
+> `multi` 是 `multiple` 的缩写，意思是多个的，多种的
+
+1. `multifile` 多文件
+2. `multimedia` 多媒体
+3. `folder` 文件夹
+4. `file` 文件
+5. `archive` 档案
+6. `thumb`（`thumbnails`） 略缩图、预览图
+7. `audio` 声音、音频
+8. `image` 图像
+9. `img_cache` 缓存的图像
+10. `avatar` 头像
+11. `apk`
+12. `ipa`
+
+## 文档
+
+https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到日常使用 - 知乎*
+
+## 网络
+
+1. `traffic` 流量
 
 ## 体彩
 
 1. `betting` 投注;打赌;打牌;下注;押宝
 2. `odds` (事物发生的)可能性，概率，几率，机会;不利条件;掣肘的事情;逆境;投注赔率
 3. `lottery` 彩票
-
 
 ## OTC
 
@@ -40,7 +75,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 7. `mobile` 手机号
 8. `order sn` 订单号
 9. `order no` 订单号
-
 
 ## 电商
 
@@ -74,7 +108,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 1. https://fanyi-app.baidu.com/static/passage/2022-06/2022-06-24/003/index.html - *网购常见词：包邮、好评、退货，用英语怎么说？*
 2. https://www.amazon.com/ - *Amazon.com. Spend less. Smile more.*
 
-
 ## 金融
 
 1. `buy limit` 限价买进
@@ -88,14 +121,11 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
 1. http://blog.sina.com.cn/s/blog_666a7c730101a9q7.html - *4种挂单交易的讲解_simon_新浪博客*
 
-
 ## 名词
 
 1. `canceller` 取消者
 2. `withdrawal` 提现
-3. `traffic` 流量
-4. `scope` 范围
-
+3. `scope` 范围
 
 ## 动词
 
@@ -177,22 +207,14 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
 ---
 
-45. `temp` 临时
-46. `temporary` adj.短暂的;暂时的;临时的 n.临时工;临时雇员
-47. `sticker` 粘贴标签、贴纸
-48. `statistics` 统计
-49. `thumb`（`thumbnails`） 略缩图、预览图
-50. `audio` 声音、音频
-51. `file` 文件
-52. `image`
-53. `img_cache`
-54. `data`
-55. `avatar`
-56. `apk`
-57. `ipa`
-58. `digits` 数字
-59. `faqs` 解答
-60. `notice` / `announcement` 公告
+1. `temp` 临时
+2. `temporary` adj.短暂的;暂时的;临时的 n.临时工;临时雇员
+3. `sticker` 粘贴标签、贴纸
+4. `statistics` 统计
+5. `data`
+6. `digits` 数字
+7. `faqs` 解答
+8. `notice` / `announcement` 公告
 
 ---
 
@@ -214,6 +236,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 ---
 
 66. `approved` 审核通过
+67. `unapproved` 未审核通过
 
 ---
 
@@ -232,12 +255,8 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
 ---
 
-73. `rent` v.租用，租借(房屋、土地、机器等);出租;将…租给;(短期)租用，租借
-74. `rerent` 续租（语义单词仅程序开发使用,英文词库无此单词）
-
----
-
-75. `multi file` 多文件 （`multi` 是 `Multimedia` 的缩写）
+1. `rent` v.租用，租借(房屋、土地、机器等);出租;将…租给;(短期)租用，租借
+2. `rerent` 续租（语义单词仅程序开发使用,英文词库无此单词）
 
 ---
 
@@ -285,23 +304,11 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
 ---
 
-93. `unsorted` 未分类
+93. `trash` 垃圾
 
 ---
 
-94. `trash` 垃圾
-
----
-
-95. `launch` 发动;发射;展开
-
----
-
-96. `archive` 档案
-
----
-
-97. `folder` 文件夹
+1. `launch` 发动;发射;展开
 
 ---
 
@@ -396,22 +403,16 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
 129. `sign in` 登录 （到旅馆或俱乐部）签到，登记
 130. `sign up` 注册
-131. `sign out` 签名离开
-
----
-
-132. `sign in`/`sign out` 签到/签退
+131. `sign out` 签名离开；签退
 
 ---
 
 133. `announce` v.宣布;宣告(决定、计划等);(尤指通过广播)通知;声称;宣称
 
-
 ## 层级
 
 1. `main` adj.主要的;最重要的
 2. `secondary` adj.次要的;从属的;辅助的;间接引发的;继发性的;次生的;中等教育的;中学的
-
 
 ## 时间
 
@@ -419,7 +420,31 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 2. `end time` 结束时间戳
 3. `start time format` 格式化开始时间戳（输出格式：2022-7-11 20:00:00）
 4. `end time format` 格式化结束时间戳（输出格式：2022-7-11 20:00:00）
+5. `yesterday` 昨天
+6. `today` 今天
+7. `friday` 星期五
+8. `now` 现在
 
+月份
+
+1. `January` - `Jan.` 一月
+2. `February` - `Feb.` 二月
+3. `March` - `Mar.` 三月
+4. `April` - `Apr.` 四月
+5. `May` - `May` 五月
+6. `June` - `Jun.` 六月
+7. `July` - `Jul.` 七月
+8. `August` - `Aug.` 八月
+9. `September` - `Sep.` 九月
+10. `October` - `Oct.` 十月
+11. `November` - `Nov.` 十一月
+12. `December` - `Dec.` 十二月
+
+💡 很明显，12个月的英文缩写为其单词的前三个字母加上 “.” 。但要注意五月是 May，本身就只有三个字母，所以不用加点表缩写。
+
+参考：
+
+1. http://m.gaosan.com/gaokao/537440.html - *1-12月份的英语_高三网*
 
 ## 空间
 
@@ -427,12 +452,14 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
    via https://everhelper.me/client/ （登录后的 settings 中）
 
+## 天气
+
+https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *为啥30℃气温热成狗，30℃洗澡水冻成猴？*
 
 ## 身份
 
 1. `Authorization` n.批准;授权;批准书;授权书
 2. `Authentication` n.身份验证;认证；鉴定
-
 
 ## 图表
 
@@ -440,7 +467,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 2. `Bar`
 3. `Pie`
 4. `Area`
-
 
 ## 审核
 
@@ -457,7 +483,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 11. 提现成功
 12. 提现驳回
 
-
 ## 单位
 
 1. `Ten` 十
@@ -471,8 +496,9 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 1. https://qb.zuoyebang.com/xfe-question/question/7e58dc921d8c5df0d63cc61df8d61f2d.html - *数量单位 英文字符十百千万十万百万千万亿十亿英文字符示例B是单词billion的缩写，1B＝10亿M是单词million的缩写，1M＝100万并非 计算机容量换算_作业帮*
 2. https://qb.zuoyebang.com/xfe-question/question/b40440e99814c856b9060bf573908bc9.html - *英语里面的万,十万,百万,千万,亿,十亿,百亿,千亿.英语里没有“万”这个数量单位 所以用ten thousand（10千）表示“万”那么后来的十万,百万,千万,亿,十亿,百亿,千亿.怎么表示?_作业帮*
 
+## 翻译
 
-## 语言翻译「PHP ⇋ JS」
+「PHP ⇋ JS」
 
 - 语言翻译（在线谷歌翻译）
 
@@ -480,20 +506,19 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 
 - JavaScript 格式语言翻译（使用工具 Notepad++）
 
-  1. 去除制表符 `\t`
+  1. 去除制表符 `\t` ；
 
-  2. `{\r\n`  替换成  `{\r\n"xxxxx`
+  2. `{\r\n` 替换成 `{\r\n"xxxxx` ；
 
-  3. `,\r\n`  替换成  `,\r\n"xxxxx`
+  3. `,\r\n` 替换成 `,\r\n"xxxxx` ；
 
-  4. `:`	      替换成  `"=>` 
+  4. `:` 替换成 `"=>` 。
   
   参考：
   
   1. https://jingyan.baidu.com/article/73c3ce2845a23ae50343d936.html - *如何使用notepad++查看和替换回车换行符-百度经验*
 
-
-## 小米手机系统
+## MIUI
 
 1. `skip` 跳过
 2. `settings` 设置
@@ -505,8 +530,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 8. `floating windows` 小窗应用
 9. 全部参数
 
-
-### 手机布局
+手机布局
 
 1. `status bar` 状态栏
 2. `control center` 控制中心
@@ -515,8 +539,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 5. `floating` 悬浮通知
 6. `badges` 桌面角标
 
-
-### 应用商店
+应用商店
 
 1. `accept` 接受
 2. `deny` 拒绝
@@ -540,42 +563,6 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 20. `update history` 更新历史 
 21. `All apps are up to date` 所有应用程序都是最新的
 
-
-## 时间日期
-
-1. `yesterday` 昨天
-2. `today` 今天
-3. `friday` 星期五
-4. `now` 现在
-
-
-### 月份
-
-1. `January` - `Jan.` 一月
-2. `February` - `Feb.` 二月
-3. `March` - `Mar.` 三月
-4. `April` - `Apr.` 四月
-5. `May` - `May` 五月
-6. `June` - `Jun.` 六月
-7. `July` - `Jul.` 七月
-8. `August` - `Aug.` 八月
-9. `September` - `Sep.` 九月
-10. `October` - `Oct.` 十月
-11. `November` - `Nov.` 十一月
-12. `December` - `Dec.` 十二月
-
-很明显，12个月的英文缩写为其单词的前三个字母加上“.”。但要注意五月是May，本身就只有三个字母，所以不用加点表缩写。
-
-参考：
-
-1. http://m.gaosan.com/gaokao/537440.html - *1-12月份的英语_高三网*
-
-
-## 天气
-
-https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *为啥30℃气温热成狗，30℃洗澡水冻成猴？*
-
-
 ## GitHub
 
 1. `Home` 主页
@@ -591,13 +578,11 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
 11. `Explore` 探索
 12. `Profile` 个人资料
 
-
 ## 参考
 
-- Wei-Xia/most-frequent-technology-english-words
+1. [程序员英语词汇宝典](https://learn-english.dev/) - *程序员工作中常见的英语词汇* [GitHub](https://github.com/Wei-Xia/most-frequent-technology-english-words)
 
-  ![GitHub last commit](https://flat.badgen.net/github/last-commit/Wei-Xia/most-frequent-technology-english-words?icon=github&color=blue)
+    ![GitHub last commit](https://badgen.net/github/last-commit/Wei-Xia/most-frequent-technology-english-words?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words?style=social)
 
-  GitHub: https://github.com/Wei-Xia/most-frequent-technology-english-words - *Wei-Xia/most-frequent-technology-english-words: 程序员工作中常见的英语词汇*
-
-  Website: https://learn-english.dev/ - *程序员英语词汇宝典*
+2. https://mp.weixin.qq.com/s/cI_5vOeeDPRDIax7176jRw - *每个程序员必须掌握的常用英语词汇*

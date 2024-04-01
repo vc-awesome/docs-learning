@@ -1,3 +1,5 @@
+# 软件版本
+
 ## 简介
 
 使用 NPM 下载和发布代码时都会接触到版本号。NPM 使用语义版本号来管理代码，这里简单介绍一下。
@@ -11,7 +13,9 @@
 
 NPM 支持的所有版本号范围指定方式可以查看官方文档。
 
+## 用法
 
+1. https://stylelint.io/about/semantic-versioning - *Semantic versioning | Stylelint*
 
 ## 版本
 
@@ -32,17 +36,14 @@ NPM 支持的所有版本号范围指定方式可以查看官方文档。
 | 13   | **upgrade**      | 升级版                                                       |
 | 14   | **preview**       | 预览版
 
-
-
 ## 参考
 
-👍 https://semver.org/lang/zh-CN/ - *语义化版本 2.0.0*
+1. 👍 https://semver.org/lang/zh-CN/ - *语义化版本 2.0.0*
 
-https://blog.csdn.net/qq_36761831/article/details/83188138 - *软件的Alpha、Beta、GM、OEM、LTS等版本的含义*
+2. https://blog.csdn.net/qq_36761831/article/details/83188138 - *软件的Alpha、Beta、GM、OEM、LTS等版本的含义*
 
-👍 https://baike.baidu.com/item/beta/640969 - *beta （英语单词）*
+3. 👍 https://baike.baidu.com/item/beta/640969 - *beta （英语单词）*
 
-https://cloud.tencent.com/developer/article/1341130 - *语义版本号（Semantic Versioning）*
+4. https://cloud.tencent.com/developer/article/1341130 - *语义版本号（Semantic Versioning）*
 
-https://cloud.tencent.com/developer/article/1178050 - *版本号命名指南*
-
+5. https://cloud.tencent.com/developer/article/1178050 - *版本号命名指南*

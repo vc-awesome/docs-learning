@@ -1,6 +1,14 @@
-https://github.com/coco413 - *coco413 (Coco413) · GitHub*
+# Security
 
-https://www.coco413.com/navi.html - *导航 - Coco413's Blog-唯有梦想与好姑娘不可辜负*
+1. https://github.com/coco413 - *coco413 (Coco413) · GitHub*
+
+    - https://github.com/coco413/SecNavi - *GitHub - coco413/SecNavi: 安全导航* [Website](https://www.coco413.com/navi.html)
+
+        ![GitHub last commit](https://badgen.net/github/last-commit/coco413/SecNavi?icon=github&color=blue)
+
+2. https://github.com/Tencent/secguide - *GitHub - Tencent/secguide: 面向开发人员梳理的代码安全指南*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/Tencent/secguide?icon=github&color=blue)
 
 ## 安全措施
 
@@ -8,3 +16,7 @@ https://www.coco413.com/navi.html - *导航 - Coco413's Blog-唯有梦想与好�
 
 - 多账户
 - 两步登录
+
+## 法律
+
+https://mp.weixin.qq.com/s/tlhUMrIIHA8l7Nk9xGDKiw - *只因写了一段爬虫，公司200多人被抓！*

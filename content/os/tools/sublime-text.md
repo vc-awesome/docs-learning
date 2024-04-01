@@ -1,3 +1,5 @@
+# Sublime Text
+
 ## Introduction
 
 > <img src="https://www.sublimehq.com/images/sublime_text.png" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
@@ -156,6 +158,12 @@ brew install --cask sublime-text
 
 ## Package
 
+https://packagecontrol.io/browse - *Browse - Package Control*
+
+参考：
+
+https://www.yii666.com/article/318953.html - *Sublime Text各种插件使用方法_小戴BOTAOY演示博客*
+
 ### 常用插件列表
 
 https://github.com/jaywcjlove/awesome-mac/blob/master/editor-plugin-zh.md#sublime-text-plugin - *awesome-mac/editor-plugin-zh.md at master · jaywcjlove/awesome-mac · GitHub*
@@ -165,7 +173,7 @@ https://github.com/jaywcjlove/awesome-mac/blob/master/editor-plugin-zh.md#sublim
 
 https://github.com/rexdf/ChineseLocalization - *Localization for Sublime Text, support 简体中文 繁体中文 日本語 Chinese Japanese German Russian Spanish Armenian Swedish and French*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/rexdf/ChineseLocalization?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/rexdf/ChineseLocalization?icon=github&color=blue)
 
 参考：
 
@@ -176,7 +184,7 @@ https://github.com/rexdf/ChineseLocalization - *Localization for Sublime Text, s
 
 https://github.com/victorporof/Sublime-HTMLPrettify - *HTML, CSS, JavaScript, JSON, React/JSX and Vue code formatter for Sublime Text 2 and 3 via node.js*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/victorporof/Sublime-HTMLPrettify?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/victorporof/Sublime-HTMLPrettify?icon=github&color=blue)
 
 参考：
 
@@ -189,7 +197,16 @@ https://packagecontrol.io/packages/JSON%20Reindent - *JSON Reindent - Packages -
 
 https://github.com/ThomasKliszowski/json_reindent - *GitHub - ThomasKliszowski/json_reindent: Sublime Text 2/3 Plugin - JSON Reindent: reindent file or selection*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/ThomasKliszowski/json_reindent?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/ThomasKliszowski/json_reindent?icon=github&color=blue)
+
+
+### DocBlockr（文档块注释）
+
+https://packagecontrol.io/packages/DocBlockr - *DocBlockr - Packages - Package Control* [via](https://github.com/jaywcjlove/awesome-mac/blob/master/editor-plugin-zh.md#sublime-text-plugin)
+
+https://github.com/spadgos/sublime-jsdocs - *GitHub - spadgos/sublime-jsdocs: Simplifies writing DocBlock comments in Javascript, PHP, CoffeeScript, Actionscript, C & C++*
+
+![GitHub last commit](https://badgen.net/github/last-commit/spadgos/sublime-jsdocs?icon=github&color=blue)
 
 
 ### CSS
@@ -198,25 +215,27 @@ https://github.com/ThomasKliszowski/json_reindent - *GitHub - ThomasKliszowski/j
 
 https://github.com/sindresorhus/sublime-autoprefixer - *GitHub - sindresorhus/sublime-autoprefixer: Sublime plugin to prefix your CSS*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/sindresorhus/sublime-autoprefixer?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/sindresorhus/sublime-autoprefixer?icon=github&color=blue)
 
 参考：
 
 1. https://blog.csdn.net/weixin_30832351/article/details/98560819 - *Sublime Text 插件 autoprefixer_weixin_30832351的博客-CSDN博客*
 
-有关详细信息，请参阅“[Node.js > Autoprefixer](front-end/node.js/README.md#autoprefixer)”。
+有关详细信息，请参阅“[Node.js > Autoprefixer](front-end/node.js/npm.md#autoprefixer)”。
 
 ----
 
 安装和使用步骤：
 
-1. 下载 Node.js 版本：15.14.0（最新版无法在 Autoprefixer v1.1.0 中使用，[参考自](https://github.com/sindresorhus/sublime-autoprefixer/issues/88)）；
+1. 下载 Node.js 版本：15.14.0（最新版的 Node.js 无法在 Sublime Text Autoprefixer v1.1.0 中使用，[参考自](https://github.com/sindresorhus/sublime-autoprefixer/issues/88)）；
 
-2. 下载 Autoprefixer 版本：v1.1.0（最新版）；
+2. 下载 Sublime Text Autoprefixer 版本：v1.1.0（最新版）；
+
+   - 安装位置：打开「访达」目录 `/Users/caiyongwen/Library/Application Support/Sublime Text/Packages/Autoprefixer`
 
 3. On macOS you need to make sure it's in `/usr/local/bin` or symlink it there.
 
-   1. 打开「访达」目录 */Users/caiyongwen/Library/Application Support/Sublime Text/Packages/Autoprefixer* ，打开「终端」查找 node 二进制文件的安装位置
+   1. 打开「终端」查找 node 二进制文件的安装位置
 
        ```sh
        whereis node
@@ -265,7 +284,7 @@ https://packagecontrol.io/packages/CSScomb - *CSScomb - Packages - Package Contr
 
 https://github.com/csscomb/csscomb.js/ - *GitHub - csscomb/csscomb.js: CSS coding style formatter*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/csscomb/csscomb.js/?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/csscomb/csscomb.js/?icon=github&color=blue)
 
 
 ### Terminal（终端）
@@ -276,7 +295,7 @@ Homepage: https://packagecontrol.io/packages/Terminus - *Terminus - Packages - P
 
 GitHub: https://github.com/randy3k/Terminus - *randy3k/Terminus: Bring a real terminal to Sublime Text*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/randy3k/Terminus?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/randy3k/Terminus?icon=github&color=blue)
 
 
 #### Terminal
@@ -285,7 +304,7 @@ Homepage: https://packagecontrol.io/packages/Terminal - *Terminal - Packages - P
 
 GitHub: https://github.com/SublimeText/Terminal - *SublimeText/Terminal: Launch terminals from the current file or the root project folder*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/SublimeText/Terminal?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/SublimeText/Terminal?icon=github&color=blue)
 
 
 ### Git
@@ -296,4 +315,4 @@ Homepage: https://packagecontrol.io/packages/GitGutter - *GitGutter - Packages -
 
 GitHub: https://github.com/jisaacks/GitGutter - *jisaacks/GitGutter: A Sublime Text 2/3 plugin to see git diff in gutter*
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/jisaacks/GitGutter?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/jisaacks/GitGutter?icon=github&color=blue)

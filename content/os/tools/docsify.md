@@ -1,10 +1,16 @@
+# docsify
+
 ## Introduction
 
 > 🃏 A magical documentation site generator.<br><i class="fa fa-language dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
 
-![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github) ![GitHub Release Date](https://img.shields.io/github/release-date/docsifyjs/docsify?logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social) ![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social) ![npm](https://img.shields.io/npm/v/docsify?logo=npm&style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/docsifyjs/docsify?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/docsifyjs/docsify?logo=github)
+![npm](https://img.shields.io/npm/v/docsify?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social)
 
-----
+## Official
 
 https://docsify.js.org/ - *A magical documentation generator.*
 
@@ -21,7 +27,6 @@ https://www.jsdelivr.com/package/npm/docsify - *docsify CDN by jsDelivr - A CDN 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
 ```
-
 
 ## Usage
 
@@ -52,7 +57,6 @@ https://www.jsdelivr.com/package/npm/docsify - *docsify CDN by jsDelivr - A CDN 
 渲染效果：
 
 !> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
-
 
 ### 解析 Markdown 内容
 
@@ -90,7 +94,6 @@ window.$docsify.plugins.push(
 )
 </script>
 ```
-
 
 ### 开发插件
 
@@ -148,13 +151,18 @@ https://docsify.js.org/#/write-a-plugin - *Write a Plugin*
 })();
 ```
 
-执行顺序：*init > mounted > beforeEach > afterEach > doneEach > ready*
+执行顺序：
 
+1. init
+2. mounted
+3. beforeEach
+4. afterEach
+5. doneEach
+6. ready
 
 ## Links
 
-https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
-
+https://cloud.tencent.com/developer/article/1005968 - *Docsify 深入源码*
 
 ## Directory Structure
 
@@ -167,40 +175,46 @@ https://cloud.tencent.com/developer/article/1005968 - _Docsify 深入源码_
 +-- index.html
 ```
 
-
 ## Technologies
 
-- [vue-clipboard2](framework/javascript-plugins.md#vue-clipboard2)
+### vue-clipboard2
 
-    ``` html
-    <script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
-    ```
+[vue-clipboard2](framework/javascript-plugins.md#vue-clipboard2)
 
-- [Primer CSS](framework/README.md#primer-css)
+``` html
+<script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
+```
 
-    ``` html
-    <link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
-    ```
+### Primer CSS
 
-- [Vue.js](framework/README.md#vuejs)
+[Primer CSS](framework/README.md#primer-css-🔥)
 
-    ```html
-    <script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
-    ```
+``` html
+<link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
+```
 
-- [Element UI](%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/README.md#element-ui-%f0%9f%94%a5) 🔥
+### Vue.js
 
-    ``` html
-    <!-- 引入样式 -->
-    <link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
-    ```
+[Vue.js](framework/README.md#vuejs)
 
-    ``` html
-    <!-- 引入组件库 -->
-    <script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
-    <script src="//unpkg.com/element-ui/lib/index.js"></script>
-    ```
+```html
+<script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
+```
 
+### Element UI
+
+[Element UI](%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/README.md#element-ui-%f0%9f%94%a5) 🔥
+
+``` html
+<!-- 引入样式 -->
+<link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
+```
+
+``` html
+<!-- 引入组件库 -->
+<script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+<script src="//unpkg.com/element-ui/lib/index.js"></script>
+```
 
 ## Awesome
 
@@ -210,27 +224,25 @@ https://docsify.js.org/#/awesome - *Awesome docsify*
 
 ![GitHub last commit](https://flat.badgen.net/github/last-commit/docsifyjs/awesome-docsify?icon=github&color=blue)
 
-
 ### Showcase
 
-👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
+1. 👍 https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
 
-~~http://note.taqini.space/~~
+2. ~~http://note.taqini.space/~~
 
-https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
+3. https://xflihaibo.github.io/docs/#/ - *幸福拾荒者*
 
-https://bytesfly.github.io/island/#/ - *侠客岛*
+4. https://bytesfly.github.io/island/#/ - *侠客岛*
 
-~~https://docs.saasify.sh/#/~~
+5. ~~https://docs.saasify.sh/#/~~
 
-https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
+6. https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
 
-https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
+7. https://lhammer.cn/You-need-to-know-css/#/ - *CSS Tricks*
 
-https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
+8. https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*
 
 看至：`gitmoji-changelog`
-
 
 ### Plugins
 
@@ -252,7 +264,6 @@ body.sticky nav.app-nav {
 }
 ```
 
-
 ##### 自定义滚动条
 
 ```css
@@ -269,10 +280,9 @@ body.sticky nav.app-nav {
 /* 滚动条样式 end */
 ```
 
-
 ##### ~~自定义侧边栏~~
 
-_via https://vueblocks.github.io/ve-charts/#/ - *Ve-Charts - ECharts 4.x for Vue.js 2.x.*_
+*via https://vueblocks.github.io/ve-charts/#/ - Ve-Charts - ECharts 4.x for Vue.js 2.x.*
 
 ```css
 /* 自定义侧边栏 */
@@ -292,7 +302,6 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 }
 ```
 
-
 ##### 响应式布局
 
 ```css
@@ -301,7 +310,6 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
   /* Write your css code... */
 }
 ```
-
 
 #### 回到顶部
 
@@ -312,15 +320,15 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
 - Showcase
 
-    - https://www.itfanr.cc/ - *IT范儿*
+  - https://www.itfanr.cc/ - *IT范儿*
 
-        - https://theme-next.org/ - *Home Page | Theme-Next*
+    - https://theme-next.org/ - *Home Page | Theme-Next*
 
-        <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary>
+      <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary>
         <div class="border p-3 mt-2">
 
-        _注：_ 放在 *\<div id="app">\</div>* 标签后
-        
+        *注：* 放在 *\<div id="app">\</div>* 标签后
+
         ``` html
         <!-- 返回顶部 -->
         <script id="hexo-configurations">
@@ -353,9 +361,9 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
           <span>0%</span>
         </div>
         ```
-        
-        _注：_ 放在 *\</body>* 标签前
-        
+
+        *注：* 放在 *\</body>* 标签前
+
         ``` html
         <!-- 返回顶部 -->
         <script>
@@ -390,9 +398,9 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
         <script src="_assets/libs/back2top/js/next-boot.js"></script>
         <script src="_assets/libs/back2top/js/muse.js"></script>
         ```
+
         </div>
         </details>
-
 
 #### 添加页脚
 
@@ -400,20 +408,17 @@ aside.sidebar ul.app-sub-sidebar li.active > a:before {
 
   - <https://docsify.js.org/#/zh-cn/write-a-plugin?id=例子>
 
-
 #### 全文搜索
 
 - Plugin
 
   - <https://docsify.js.org/#/zh-cn/plugins?id=全文搜索-search>
 
-
 #### 字数统计
 
 - Plugin
 
   - <https://docsify.js.org/#/zh-cn/plugins?id=字数统计>
-
 
 #### 代码块
 
@@ -423,18 +428,20 @@ https://docsify.js.org/#/language-highlight - *Language highlighting*
 
 有关详细信息，请参阅“[PrismJS](framework/javascript-plugins.md#prismjs)”。
 
-
-##### 代码行号
+##### 代码块行号
 
 https://prismjs.com/plugins/line-numbers/ - *Line Numbers ▲ Prism plugins*
 
 https://www.bootcdn.cn/prism/ - *prism (v9000.0.1) - Lightweight, robust, elegant syntax highlighting. A spin-off project from Dabblet. | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
 
-方式一：
+方式一（<a href="index-theme-vue.html" target="_blank">index-theme-vue.html</a>）：
 
 ```html
 <!-- 代码块行号 -->
-<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css"
+/>
 <style>
   /*
    * Fix line number in code block. 
@@ -449,11 +456,12 @@ https://www.bootcdn.cn/prism/ - *prism (v9000.0.1) - Lightweight, robust, elegan
   }
   .line-numbers .line-numbers-rows {
     left: -1px;
-    border-right : 1px solid #fff;
+    border-right: 1px solid #fff;
     /* Fix paddings to align with code.*/
     padding: 1.25rem 0; /* Same as code block */
   }
 </style>
+
 ```
 
 ```html
@@ -495,11 +503,14 @@ window.$docsify.plugins.push(
 </script>
 ```
 
-方式二：
+方式二（<a href="simple.html" target="_blank">simple.html</a>）：
 
 ```html
 <!-- 代码块行号 -->
-<link rel="stylesheet" href="//cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css">
+<link
+  rel="stylesheet"
+  href="//cdn.bootcdn.net/ajax/libs/prism/9000.0.1/plugins/line-numbers/prism-line-numbers.css"
+/>
 <style>
   /*
    * Fix line number in code block. 
@@ -514,39 +525,72 @@ window.$docsify.plugins.push(
   }
   .line-numbers .line-numbers-rows {
     left: -1px;
-    border-right : 1px solid #fff;
+    border-right: 1px solid #fff;
     /* Fix paddings to align with code.*/
     padding: 1.25rem 0; /* Same as code block */
   }
 </style>
+
 ```
 
 ```html
 <!-- 代码块行号 -->
 <script>
-window.$docsify.plugins.push(
-  function (hook, vm) {
+  // 代码块换行
+  window.$docsify.markdown = {
+    renderer: {
+      // Change code block rendering. Add line-numbers class.
+      code: function (code, lang) {
+        let codeElement = document.createElement("code");
+        codeElement.textContent = code;
+        codeElement.setAttribute("class", "language-" + lang);
+        // 代码块换行：<pre></pre> 添加 style="white-space: pre-wrap"
+        return (
+          '<pre data-lang="' +
+          lang +
+          '" class="line-numbers" style="white-space: pre-wrap">' +
+          codeElement.outerHTML +
+          "</pre>"
+        );
+      }
+    }
+  };
+  window.$docsify.plugins.push(function (hook, vm) {
     hook.doneEach(function (html) {
       Prism.highlightAll();
-    })
-  }
-)
+    });
+  });
 </script>
 <script src="https://prismjs.com/plugins/line-numbers/prism-line-numbers.js"></script>
+
 ```
 
+`<body></body>` 添加 class
+
 ```html
-给 <body></body> 添加 class="line-numbers"
+class="line-numbers"
 ```
 
 参考：
 
-1. https://segmentfault.com/a/1190000009122617 - *代码高亮 - 漂亮的代码语法高亮插件Prism.js简单使用文档 - 严颖专栏 - SegmentFault 思否*
+1. https://eslint.org/ - *Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter*
 
-2. https://stackoverflow.com/questions/59508413/static-html-generation-with-prismjs-how-to-enable-line-numbers/64089448#64089448 - *node.js - Static html generation with prismjs - how to enable line-numbers? - Stack Overflow*
+2. https://segmentfault.com/a/1190000009122617 - *代码高亮 - 漂亮的代码语法高亮插件Prism.js简单使用文档 - 严颖专栏 - SegmentFault 思否*
 
+3. https://stackoverflow.com/questions/59508413/static-html-generation-with-prismjs-how-to-enable-line-numbers/64089448#64089448 - *node.js - Static html generation with prismjs - how to enable line-numbers? - Stack Overflow*
 
-##### 代码块折行
+##### 代码块换行
+
+```css
+/* 代码块换行 */
+pre > code {
+  /* 保留空白符序列，但是正常地进行换行。 */
+  white-space: pre-wrap !important;
+  overflow-wrap: anywhere !important;
+  /* 允许在单词内换行。 */
+  word-break: break-all !important;
+}
+```
 
 参考：
 
@@ -556,14 +600,13 @@ window.$docsify.plugins.push(
 
 3. https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLCollection/length - *HTMLCollection.length - Web API 接口参考 | MDN*
 
-
 ##### 复制代码至剪贴板
 
 - 添加代码行数
 - 添加类似 GitHub 复制代码块的效果
 - 参考：https://blog.csdn.net/xixihahalelehehe/article/details/125120709 - *gtibook 插件 代码块_gitbook 代码_ghostwritten的博客-CSDN博客*
 
-----
+---
 
 样式修改参考：https://tainacan.github.io/tainacan-wiki/#/ - *Tainacan Wiki*
 
@@ -625,15 +668,16 @@ body .docsify-copy-code-button {
 }
 </style>
 ```
+
 </div>
 </details>
 
-----
+---
 
 - Plugin
-    - <https://docsify.js.org/#/zh-cn/plugins?id=复制到剪贴板>
+  - <https://docsify.js.org/#/zh-cn/plugins?id=复制到剪贴板>
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-    
+
     ``` html
     <!-- docsify-copy-code -->
     <script>
@@ -647,11 +691,11 @@ body .docsify-copy-code-button {
     <!-- <script src="//unpkg.com/docsify-copy-code@latest/dist/docsify-copy-code.min.js"></script> -->
     <script src="_assets/libs/docsify-copy-code.js"></script>
     ```
+
     </div>
     </details>
 
 <br>
-
 
 ##### 显示隐藏的字符
 
@@ -668,7 +712,6 @@ https://prismjs.com/plugins/show-invisibles/ - *Show Invisibles ▲ Prism plugin
 ```html
 <script src="https://prismjs.com/plugins/show-invisibles/prism-show-invisibles.js"></script>
 ```
-
 
 ##### 显示文件系统树结构
 
@@ -704,7 +747,6 @@ root_folder/
 
 ⚠️注意：如果文件类型是目录，则需要在文件名最后加上 `/`；比如：`root_folder` 加了 `/` 后（`root_folder/`），文件名前面显示的是文件夹图标，没有加 `/`，文件名前面显示的是文件图标。
 
-
 #### ~~评论系统~~
 
 - Plugin
@@ -713,17 +755,15 @@ root_folder/
 
   - gitalk https://docsify.js.org/#/zh-cn/plugins?id=gitalk
 
-
 #### 当前文档最近修改 / 更新时间
 
 - Showcase
 
   - https://tainacan.github.io/
 
-  - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
+    - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
   - https://xflihaibo.github.io/
-
 
 #### ~~评分~~
 
@@ -731,250 +771,247 @@ root_folder/
 
   - https://lhammer.cn/You-need-to-know-css/#/
 
-
 #### ~~鼠标点击特效~~
 
 - Showcase
 
   - https://notebook.js.org/#/ - *ETS' NoteBook - By Mr.Wu - 微信公众号：码客趣分享 🌹*
 
-
 #### 目录 TOC
 
--  Plugin
+Plugin
 
-    - 👍 https://github.com/justintien/docsify-plugin-toc - *page's ToC (Table of Content) for docsify.*
+- 👍 https://github.com/justintien/docsify-plugin-toc - *page's ToC (Table of Content) for docsify.*
 
-    未使用
+    用法：
 
-    <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+    1. <details class="details-reset"><summary class="btn">方式一 - 复制代码（未使用） <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
-    ``` html
-    <script>
-      var count = 0;
-      var outTime = 1; //分钟
-      var el = document.querySelector('.toc-nav-hover')
-    
-      function go() {
-        count++;
-        if (count == outTime * 5) {
-          // alert('您长时间未操作页面');
-    
-          document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', el)
-    
-          count = 0;
-          // 此处处理后续操作
-        }
-      }
-      window.setInterval(go, 1000);
-    </script>
-    ```
-    </div>
-    </details>
-
-    方式一
-
-    <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-
-    ``` html
-    <div class="toc-toggle" style="min-width: 50px;">📚🔻</div>
-    <!-- Table of Contents -->
-    <script>
-      let ObjStatus = document.querySelector('.toc-toggle')
-      document.addEventListener('click', (e) => {
-        let t = document.querySelector('.toc-nav') // 最外层元素
-        if (!e.path.includes(ObjStatus)) {
-          if (!e.path.includes(t)) {
-            document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t));
-            document.querySelector('.toc-toggle').innerText = "📚🔻";
-            // ObjStatus.innerHTML = '事件触发情况：触发'
-          } else {
-            // ObjStatus.innerHTML = '事件触发情况：未触发'
+        ``` html
+        <script>
+          var count = 0;
+          var outTime = 1; //分钟
+          var el = document.querySelector('.toc-nav-hover')
+        
+          function go() {
+            count++;
+            if (count == outTime * 5) {
+              // alert('您长时间未操作页面');
+        
+              document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', el)
+        
+              count = 0;
+              // 此处处理后续操作
+            }
           }
-        }
-      })
-      document.querySelector('.toc-toggle').addEventListener('click', (e) => {
-        if (!document.querySelector('.toc-nav-hover')) {
-          document.querySelector('.toc-toggle').innerText = "📖🔺";
-        } else {
-          document.querySelector('.toc-toggle').innerText = "📚🔻";
-        }
-        document.querySelector('.toc-nav').classList.toggle('toc-nav-hover');
-      });
-      
-      window.$docsify.toc = {
-        tocMaxLevel: 5,
-        target: 'h1, h2, h3, h4, h5, h6'
-      }
-    </script>
-    <script src="//unpkg.com/docsify-plugin-toc@latest/dist/docsify-plugin-toc.min.js"></script>
-    
-    ```
-    </div>
-    </details>
+          window.setInterval(go, 1000);
+        </script>
+        ```
 
-    方式二（推荐）
+        </div>
+        </details>
 
-    <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+    2. <details class="details-reset"><summary class="btn">方式二 - 复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
-    ``` html
-    <!-- Table of Contents -->
-    <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
-    <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
-    <style>
-      /* TOC */
-      .toc-toggle.toc-toggle-on {
-        bottom: 13px;
-      }
-      .toc-toggle .toggle-line {
-        background: #fff;
-        display: inline-block;
-        height: 2px;
-        left: 0;
-        position: relative;
-        top: 0;
-        transition: all 0.4s;
-        vertical-align: top;
-        width: 100%;
-      }
-      .toc-toggle .toggle-line:not(:first-child) {
-        margin-top: 3px;
-      }
-      .toc-toggle.toggle-arrow .toggle-line-first {
-        top: 2px;
-        transform: rotate(-45deg);
-        width: 50%;
-      }
-      .toc-toggle.toggle-arrow .toggle-line-middle {
-        width: 90%;
-      }
-      .toc-toggle.toggle-arrow .toggle-line-last {
-        top: -2px;
-        transform: rotate(45deg);
-        width: 50%;
-      }
-      .toc-toggle.toggle-close .toggle-line-first {
-        top: 5px;
-        transform: rotate(-45deg);
-      }
-      .toc-toggle.toggle-close .toggle-line-middle {
-        opacity: 0;
-      }
-      .toc-toggle.toggle-close .toggle-line-last {
-        top: -5px;
-        transform: rotate(45deg);
-      }
-      .toc-sidebar-toggle {
-        background: #222;
-        /*bottom: 45px;*/
-        cursor: pointer;
-        height: 24px;
-        left: auto;
-        /*right: 30px;*/
-        padding: 5px;
-        position: fixed;
-        width: 24px;
-        z-index: 1300;
-        line-height: 0;
-        text-align: left;
-      }
-      .toc-sidebar-toggle:hover .toggle-line {
-        background: #87daff;
-      }
-      /* New add */
-      .flisxm {
-        inset: 0px;
-        position: fixed;
-        display: none;
-        background-color: rgba(0,0, 0, 0.5);
-      }
-      .flisxm-show {
-        display: block;
-      }
-      .toc-sidebar-toggle {
-        background: #fff;
-        color: #87daff;
-      }
-      .toc-toggle .toggle-line {
-        background: #87daff;
-      }
-      .toc-toggle.btn {
-        white-space: normal;
-      }
-      .toc-sidebar-toggle {
-        width: 28px;
-      }
-    </style>
-    <div class="toc-toggle toc-sidebar-toggle">
-        <span class="toggle-line toggle-line-first"></span>
-        <span class="toggle-line toggle-line-middle"></span>
-        <span class="toggle-line toggle-line-last"></span>
-    </div>
-    ```
-
-    ``` html
-    <!-- Table of Contents -->
-    <script>
-      window.$docsify.plugins.push(// 
-        function(hook, vm) {
-          hook.doneEach(function() {
-            setTimeout(function(){
-              document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
-              
-              var para = document.createElement("div");
-              para.setAttribute("class", "flisxm");
-              document.querySelector(".toc-nav").appendChild(para);
-              
-              // 选择需要观察变动的节点
-              const targetNode = document.querySelector('.toc-nav');
-          
-              // 观察器的配置（需要观察什么变动）
-              const config = { attributes: true, childList: true, subtree: true };
-          
-              // 当观察到变动时执行的回调函数
-              const callback = function(mutationsList, observer) {
-              // Use traditional 'for loops' for IE 11
-              for(let mutation of mutationsList) {
-                if (mutation.type === 'childList') {
-                    console.log('A child node has been added or removed.');
-                }
-                else if (mutation.type === 'attributes') {
-                //console.log(document.querySelector('body').classList.toggle('toc-body', true))
-                console.log(document.querySelector('.toc-nav-hover'))
-                   if (document.querySelector('.toc-nav-hover')) {
-                      console.log("TOC 开启");
-                      document.querySelector('body').classList.toggle('toc-body', true);
-                      document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
-                      document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
-                      document.querySelector('.app-nav').style.display = "none";
-                    } else {
-                      console.log("TOC 关闭");
-                      document.querySelector('body').classList.toggle('toc-body', false);
-                      document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
-                      document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
-                      document.querySelector('.app-nav').style.display = "block";
-                    }
-                    console.log('The ' + mutation.attributeName + ' attribute was modified.');
-                }
+        ``` html
+        <div class="toc-toggle" style="min-width: 50px;">📚🔻</div>
+        <!-- Table of Contents -->
+        <script>
+          let ObjStatus = document.querySelector('.toc-toggle')
+          document.addEventListener('click', (e) => {
+            let t = document.querySelector('.toc-nav') // 最外层元素
+            if (!e.path.includes(ObjStatus)) {
+              if (!e.path.includes(t)) {
+                document.querySelector('.toc-nav').classList.toggle('toc-nav-hover', e.path.includes(t));
+                document.querySelector('.toc-toggle').innerText = "📚🔻";
+                // ObjStatus.innerHTML = '事件触发情况：触发'
+              } else {
+                // ObjStatus.innerHTML = '事件触发情况：未触发'
               }
-            }, 1);
+            }
+          })
+          document.querySelector('.toc-toggle').addEventListener('click', (e) => {
+            if (!document.querySelector('.toc-nav-hover')) {
+              document.querySelector('.toc-toggle').innerText = "📖🔺";
+            } else {
+              document.querySelector('.toc-toggle').innerText = "📚🔻";
+            }
+            document.querySelector('.toc-nav').classList.toggle('toc-nav-hover');
           });
-        },
-      )
-      
-      window.$docsify.toc = {
-        tocMaxLevel: 5,
-        target: 'h1, h2, h3, h4, h5, h6'
-      }
-    </script>
-    <script src="_assets/libs/docsify-plugin-toc.js"></script>
-    ```
-    </div>
-    </details>
+          
+          window.$docsify.toc = {
+            tocMaxLevel: 5,
+            target: 'h1, h2, h3, h4, h5, h6'
+          }
+        </script>
+        <script src="//unpkg.com/docsify-plugin-toc@latest/dist/docsify-plugin-toc.min.js"></script>
+        
+        ```
 
-    - https://github.com/mrpotatoes/docsify-toc - *GitHub - mrpotatoes/docsify-toc: docsify-toc*
+        </div>
+        </details>
 
-        <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+    3. <details class="details-reset"><summary class="btn">方式三 - 复制代码（推荐） <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
+
+        ``` html
+        <!-- Table of Contents -->
+        <link rel="stylesheet" href="//unpkg.com/docsify-plugin-toc@latest/dist/light.css">
+        <link rel="stylesheet" href="_assets/css/custom-docsify-plugin-toc.css">
+        <style>
+          /* TOC */
+          .toc-toggle.toc-toggle-on {
+            bottom: 13px;
+          }
+          .toc-toggle .toggle-line {
+            background: #fff;
+            display: inline-block;
+            height: 2px;
+            left: 0;
+            position: relative;
+            top: 0;
+            transition: all 0.4s;
+            vertical-align: top;
+            width: 100%;
+          }
+          .toc-toggle .toggle-line:not(:first-child) {
+            margin-top: 3px;
+          }
+          .toc-toggle.toggle-arrow .toggle-line-first {
+            top: 2px;
+            transform: rotate(-45deg);
+            width: 50%;
+          }
+          .toc-toggle.toggle-arrow .toggle-line-middle {
+            width: 90%;
+          }
+          .toc-toggle.toggle-arrow .toggle-line-last {
+            top: -2px;
+            transform: rotate(45deg);
+            width: 50%;
+          }
+          .toc-toggle.toggle-close .toggle-line-first {
+            top: 5px;
+            transform: rotate(-45deg);
+          }
+          .toc-toggle.toggle-close .toggle-line-middle {
+            opacity: 0;
+          }
+          .toc-toggle.toggle-close .toggle-line-last {
+            top: -5px;
+            transform: rotate(45deg);
+          }
+          .toc-sidebar-toggle {
+            background: #222;
+            /*bottom: 45px;*/
+            cursor: pointer;
+            height: 24px;
+            left: auto;
+            /*right: 30px;*/
+            padding: 5px;
+            position: fixed;
+            width: 24px;
+            z-index: 1300;
+            line-height: 0;
+            text-align: left;
+          }
+          .toc-sidebar-toggle:hover .toggle-line {
+            background: #87daff;
+          }
+          /* New add */
+          .flisxm {
+            inset: 0px;
+            position: fixed;
+            display: none;
+            background-color: rgba(0,0, 0, 0.5);
+          }
+          .flisxm-show {
+            display: block;
+          }
+          .toc-sidebar-toggle {
+            background: #fff;
+            color: #87daff;
+          }
+          .toc-toggle .toggle-line {
+            background: #87daff;
+          }
+          .toc-toggle.btn {
+            white-space: normal;
+          }
+          .toc-sidebar-toggle {
+            width: 28px;
+          }
+        </style>
+        <div class="toc-toggle toc-sidebar-toggle">
+            <span class="toggle-line toggle-line-first"></span>
+            <span class="toggle-line toggle-line-middle"></span>
+            <span class="toggle-line toggle-line-last"></span>
+        </div>
+        ```
+
+        ``` html
+        <!-- Table of Contents -->
+        <script>
+          window.$docsify.plugins.push(// 
+            function(hook, vm) {
+              hook.doneEach(function() {
+                setTimeout(function(){
+                  document.querySelector('.toc-toggle').classList.toggle('toc-toggle-on', document.getElementsByClassName('lv2').length);
+                  
+                  var para = document.createElement("div");
+                  para.setAttribute("class", "flisxm");
+                  document.querySelector(".toc-nav").appendChild(para);
+                  
+                  // 选择需要观察变动的节点
+                  const targetNode = document.querySelector('.toc-nav');
+              
+                  // 观察器的配置（需要观察什么变动）
+                  const config = { attributes: true, childList: true, subtree: true };
+              
+                  // 当观察到变动时执行的回调函数
+                  const callback = function(mutationsList, observer) {
+                  // Use traditional 'for loops' for IE 11
+                  for(let mutation of mutationsList) {
+                    if (mutation.type === 'childList') {
+                        console.log('A child node has been added or removed.');
+                    }
+                    else if (mutation.type === 'attributes') {
+                    //console.log(document.querySelector('body').classList.toggle('toc-body', true))
+                    console.log(document.querySelector('.toc-nav-hover'))
+                       if (document.querySelector('.toc-nav-hover')) {
+                          console.log("TOC 开启");
+                          document.querySelector('body').classList.toggle('toc-body', true);
+                          document.querySelector('.flisxm').classList.toggle('flisxm-show', true);
+                          document.querySelector('.toc-toggle').classList.toggle('toggle-close', true);
+                          document.querySelector('.app-nav').style.display = "none";
+                        } else {
+                          console.log("TOC 关闭");
+                          document.querySelector('body').classList.toggle('toc-body', false);
+                          document.querySelector('.flisxm').classList.toggle('flisxm-show', false);
+                          document.querySelector('.toc-toggle').classList.toggle('toggle-close', false);
+                          document.querySelector('.app-nav').style.display = "block";
+                        }
+                        console.log('The ' + mutation.attributeName + ' attribute was modified.');
+                    }
+                  }
+                }, 1);
+              });
+            },
+          )
+          
+          window.$docsify.toc = {
+            tocMaxLevel: 5,
+            target: 'h1, h2, h3, h4, h5, h6'
+          }
+        </script>
+        <script src="_assets/libs/docsify-plugin-toc.js"></script>
+        ```
+
+        </div>
+        </details>
+
+- https://github.com/mrpotatoes/docsify-toc - *GitHub - mrpotatoes/docsify-toc: docsify-toc*
+
+    1. <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
 
         ``` css
         /**
@@ -1106,34 +1143,40 @@ root_folder/
             border-radius: 2em!important;
         }
         ```
-        
+
         </div>
         </details>
 
-- Showcase
+Showcase
 
-  - 👍 https://tainacan.github.io/tainacan-wiki/
+- 👍 https://tainacan.github.io/tainacan-wiki/
 
-    - 👍 https://github.com/tainacan/tainacan-wiki/blob/master/index.html
+  - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
-- TOC 添加“代码缩进参考线”
+##### 代码缩进参考线
 
-  1. 方式一、通过应用工具 **PhpStorm** 设置查看效果
-     - 操作方法：*菜单栏 > preferences...（设置）> 编辑器 > 常规 > 外观：勾选选项“显示缩进参考线”*。
-     - 参考文档：https://blog.csdn.net/weixin_41981080/article/details/82659022 - *PhpStorm代码编辑区竖线的用途
-       blogs.com/zqifa/p/12651446.html - phpstorm 代码编辑区去掉、设置灰色竖线 打印分割线设置*
-  
-  2. 方式二、借鉴已实现功能的站点
-  
-     - https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/ - *Install Redis on macOS | Redis*
+> TOC 添加“代码缩进参考线”
 
+1. 方式一、通过应用工具 [PhpStorm](os/tools/phpstorm.md) 设置查看效果
+
+    - 操作方法：*菜单栏 > preferences...（设置）> 编辑器 > 常规 > 外观：勾选选项“显示缩进参考线”*。
+
+    - 参考文档：
+
+        1. https://blog.csdn.net/weixin_41981080/article/details/82659022 - *PhpStorm代码编辑区竖线的用途*
+        2. https://www.cnblogs.com/zqifa/p/12651446.html - *phpstorm 代码编辑区去掉、设置灰色竖线 打印分割线设置 - zqifa - 博客园*
+
+2. 方式二、借鉴已实现功能的站点
+
+    - 参考：
+
+         1. https://redis.io/docs/getting-started/installation/install-redis-on-mac-os/ - *Install Redis on macOS | Redis*
 
 #### 目录结构
 
 - Showcase
 
   - https://xflihaibo.github.io/docs/#/standard/standard - *书写规范 - 幸福拾荒者*
-
 
 #### Flexible Alerts 🎁
 
@@ -1143,45 +1186,45 @@ root_folder/
 
     > [!NOTE]
     > An alert of type 'note' using global style 'callout'.
-    
+
     ```markdown
     > [!NOTE]
     > An alert of type 'note' using global style 'callout'.
     ```
-    
+
     > [!TIP]
     > An alert of type 'tip' using global style 'callout'.
-    
+
     ```markdown
     > [!TIP]
     > An alert of type 'tip' using global style 
     'callout'.
     ```
-    
+
     > [!WARNING]
     > An alert of type 'warning' using global style 'callout'.
-    
+
     ```markdown
     > [!WARNING]
     > An alert of type 'warning' using global style 'callout'.
-    ```
-    
-    > [!ATTENTION]
-    > An alert of type 'attention' using global style 'callout'.
-    
-    ```markdown
-    > [!ATTENTION]
-    > An alert of type 'attention' using global style 'callout'.
     ```
 
+    > [!ATTENTION]
+    > An alert of type 'attention' using global style 'callout'.
+
+    ```markdown
+    > [!ATTENTION]
+    > An alert of type 'attention' using global style 'callout'.
+    ```
 
 #### Page title 🎁
 
 - Plugin
-    - https://github.com/Sujaykumarh/docsify-plugin-title - *🔌 Docsify plugin customize page title*
+
+  - https://github.com/Sujaykumarh/docsify-plugin-title - *🔌 Docsify plugin customize page title*
 
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-    
+
     ``` html
     <!-- 自定义页面标题 -->
     <script>
@@ -1194,9 +1237,9 @@ root_folder/
     </script>
     <script src="//cdn.jsdelivr.net/npm/@sujaykumarh/docsify-plugin-title@1.x/dist/plugin.min.js"></script>
     ```
+
     </div>
     </details>
-
 
 #### ~~分享~~
 
@@ -1204,17 +1247,15 @@ root_folder/
 
   - https://github.com/tainacan/tainacan-wiki/blob/master/index.html
 
-
 #### ~~Emoji~~
 
 - Plugin
 
-    - https://github.com/TaQini/docsify-twemoji - *parse all emoji in style of twitter emoji for docsify*
+  - https://github.com/TaQini/docsify-twemoji - *parse all emoji in style of twitter emoji for docsify*
 
     ``` html
     <script src="//unpkg.com/docsify@latest/lib/plugins/emoji.min.js"></script><!--emoji-->
     ```
-
 
 #### Tabs（标签页）
 
@@ -1242,13 +1283,11 @@ root_folder/
     <!-- tabs:end -->
     ```
 
-
 #### ~~Accordion（手风琴） 🎁~~
 
 - Plugin
 
   - https://github.com/isaozler/docsify-accordion - *Accordion plugin for docsify*
-
 
 #### ~~网页调试~~
 
@@ -1267,7 +1306,6 @@ root_folder/
 </script>
 ```
 
-
 #### 数学公式 LaTeX
 
 有关详细信息，请参阅“[Markdown > 数学公式](os/tools/markdown.md#数学公式)”。
@@ -1280,7 +1318,6 @@ https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docs
 <!--  docsify-latex plugin -->
 <script src="//cdn.jsdelivr.net/npm/docsify-latex@0"></script>
 ```
-
 
 #### 图表 Diagrams
 
@@ -1306,18 +1343,15 @@ https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A 
 
 https://blog.csdn.net/jslygwx/article/details/125868321 - *Docsify画图建模Mermaid插件支持_mermaid 插件_Willin Wang的博客-CSDN博客*
 
-
 #### 脚注
 
 https://github.com/sy-records/docsify-footnotes/ - *sy-records/docsify-footnotes: A plugin that supports the use of footnotes in docsify. :leftwards_arrow_with_hook:*
 
 查看渲染效果：[Markdown > 脚注](os/tools/markdown.md#脚注) 。
 
-
 ### Themes
 
 https://docsify.js.org/#/themes - *Themes*
-
 
 #### ~~切换主题（白天 / 夜间模式切换）~~
 
@@ -1332,7 +1366,7 @@ https://docsify.js.org/#/themes - *Themes*
   - https://github.com/Plugin-contrib/docsify-plugin/tree/master/packages/docsify-dark-mode - *docsify-plugin/packages/docsify-dark-mode at master · Plugin-contrib/docsify-plugin · GitHub*
 
     <details class="details-reset"><summary class="btn">复制代码 <span class="dropdown-caret"></summary><div class="border p-3 mt-2">
-    
+
     ```html
     <!-- 切换主题 -->
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"/>
@@ -1351,7 +1385,7 @@ https://docsify.js.org/#/themes - *Themes*
     }
     </style>
     ```
-    
+
     ```html
     <!-- 切换主题 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
@@ -1373,6 +1407,6 @@ https://docsify.js.org/#/themes - *Themes*
       // ...
     </script>
     ```
-    
+
     </div>
     </details>

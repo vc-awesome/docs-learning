@@ -1,3 +1,5 @@
+# Opera
+
 ## Introduction
 
 > <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-and-name.46b042c664d0.png" alt="package icon" loading="lazy" decoding="async" align="left" width="88" hspace="10" vspace="0" />Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
@@ -22,7 +24,11 @@ https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linu
 
 1. https://www.opera.com/zh-cn/download/mobile-versions - *Mobile Browser | Download for Phone & Tablet | Opera | Opera*
 
-!> 有关详细信息，请参阅“[Mobile Opera](os/mobile/browser.md#opera-✅)”。
+Opera Beta 版本：
+
+1. [谷歌应用商店](https://play.google.com/store/apps/details?id=com.opera.browser.beta)
+
+!> 有关详细信息，请参阅“[Mobile Opera](os/mobile/mobile-browser.md#opera-✅)”。
 
 ## Getting started
 
@@ -34,7 +40,7 @@ https://help.opera.com/en/mobile/android/#QRcodeSync - *Frequently asked questio
 
 https://help.opera.com/en/latest/features/#sync - *Features - Opera Help*
 
-https://help.opera.com/en/faq/ - *FAQ - Opera Help* 👉 快捷键 <kbd>command（⌘）</kbd> + <kbd>F</kbd> ，在页面中搜索 “sync”
+https://help.opera.com/en/faq/ - *FAQ - Opera Help* 👉 快捷键 <kbd>command（⌘）</kbd> + <kbd>F</kbd> ，在页面中搜索 “`sync`”
 
 ### Flow
 
@@ -64,7 +70,7 @@ https://forums.opera.com/topic/30366/how-can-i-re-enable-a-blacklisted-extension
 
 https://www.opera.com/zh-cn/help - *使用浏览器遇到问题？我们可以帮助您！ | 帮助与常见问题 | Opera*
 
-### 桌面浏览器
+### 桌面版浏览器
 
 https://help.opera.com/en/latest/ - *How can we help you? - Opera Help*
 
@@ -77,6 +83,12 @@ https://help.opera.com/zh-cn/mobile/android/ - *Page not found - Opera Help*
 https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Opera for Android - Opera Help*
 
 ## Changelog
+
+- https://www.opera.com/zh-cn/ofa/upgraded-79 - *更新完成！*
+
+- https://www.opera.com/zh-cn/ofa/upgraded-78 - *更新完成！*
+
+- https://www.opera.com/zh-cn/ofa/upgraded-77 - *更新完成！*
 
 - https://www.opera.com/zh-cn/ofa/upgraded-76 - *更新完成！*
 
@@ -91,3 +103,6 @@ https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Oper
 ## FAQ
 
 https://blog.csdn.net/schumyxp/article/details/124481601 - *Opera无法打开网页的解决办法_opera打不开网页一直转_schumyxp的博客-CSDN博客*
+
+### 安卓版设置「科学上网」
+

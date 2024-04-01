@@ -1,4 +1,4 @@
-_注：_
+*注：*
 
 *1. 使用 [Github Pages](https://pages.github.com/) + [Docsify](https://github.com/docsifyjs/docsify/) 部署网站，在编辑文件时（**本地部署的测试环境可能不受影响**），链接的文件名必须和实际文件名的大小写一致。*
 
@@ -7,33 +7,35 @@ _注：_
 ✅ `[Apps](/tools/README.md)`  
 ❌ `[Apps](/tools/readme.md)`*
 
-_测试：  
+*测试：  
 ✅ https://docsify.js.org/#/README.md  
-❌ https://docsify.js.org/#/readme.md_
+❌ https://docsify.js.org/#/readme.md*
 
 *2. Markdown `展开/收起` 功能*
 
-_可参考：[Markdown in html tag](https://docsify.js.org/#/helpers?id=markdown-in-html-tag)_
+*可参考：[Markdown in html tag](https://docsify.js.org/#/helpers?id=markdown-in-html-tag)*
 
-_> 第 1 种_
+*> 第 1 种：*
 
 <details><summary><i style="color:red">展开/收起</i></summary>
 
 - 主页：https://atom.io/
 
 - GitHub：https://github.com/atom/atom
+
 </details>
 
-_> 第二种_
+*> 第二种：*
 
 - :P
 
 - <details><summary><i style="color:red">SEE MORE >></i></summary>
 
-    https://blog.csdn.net/gufenchen/article/details/90895856 - _常用的几款抓包工具_
+    https://blog.csdn.net/gufenchen/article/details/90895856 - *常用的几款抓包工具*
+
 </details>
 
-_> 第三种_
+*> 第三种：*
 
 1. :)
     <details><summary><i style="color:red">展开/收起</i></summary>
@@ -41,12 +43,12 @@ _> 第三种_
     1. 主页：https://atom.io/
 
     2. GitHub：https://github.com/atom/atom
+
 </details>
 
+*> 第四种（复杂）：*
 
-_> 第四种（复杂）_
-
-> _先编辑成第一种方式，再一步一步进行缩进操作_
+> *先编辑成第一种方式，再一步一步进行缩进操作*
 
 1. ✅ [miniserve](https://github.com/svenstaro/miniserve/releases) - *🌟 For when you really just want to serve some files over HTTP right now!* *（via [文件下载和上传功能服务器搭建配置](https://blog.csdn.net/weixin_42039699/article/details/118356050)）*
 
@@ -60,8 +62,10 @@ _> 第四种（复杂）_
     # 进入程序存放目录，打开 cmd，然后执行
     miniserve-v0.19.5-x86_64-pc-windows-msvc.exe -u -q
     ```
+
     方式二：让程序后台运行
     1. 在同级目录新建 `miniserve.bat` 文件，复制一下内容
+
         ```powershell
         @echo off
 
@@ -83,8 +87,7 @@ _> 第四种（复杂）_
         pause
         REM exit
         ```
+
     2. 双击执行新建的文件，程序进入后台执行
 
 </details>
-
-

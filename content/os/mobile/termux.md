@@ -1,16 +1,26 @@
+# Termux
+
 ## Introduction
 
-
 > <img src="https://f-droid.org/repo/com.termux/en-US/icon_7jMZ7XD80oeucmGEaTwktIRZexLtGWvJfKdVD6Wu2SI=.png" alt="f-droid Icon" loading="lazy" decoding="async" align="left" width="78" hspace="10" vspace="0"> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager.
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-app?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/termux/termux-app?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-app?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-app?style=social)
 
 
 ## Official
 
-Website：https://termux.dev/ - *Termux | The main termux site and help pages.*
+Website：https://termux.dev/ - *Termux | The main termux site and help pages.* [GitHub](https://github.com/termux/termux.github.io)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux.github.io?color=blue&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux.github.io?style=social)
 
 Wiki：https://wiki.termux.com/wiki/ - *Termux Wiki*
 
 GitHub：https://github.com/termux - *Android terminal emulator and Linux environment.*
+
 
 ## Install
 
@@ -18,17 +28,24 @@ GitHub：https://github.com/termux/termux-app - *Termux - a terminal emulator ap
 
 F-Droid：https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
 
+![f-droid](https://badgen.net/f-droid/v/com.termux)
+
+
+## Tutorial
+
+https://geekdaxue.co/read/termux-doc-zh/Base-Termux.md - *$HOME 变量 - 《Termux 中文文档-帮助手册-教程》 - 极客文档*
+
 
 ## Configuration
 
 https://wiki.termux.com/wiki/Terminal_Settings - *Terminal Settings - Termux Wiki*
+
 
 ### 触摸键盘
 
 用法：
 
 https://wiki.termux.com/wiki/Touch_Keyboard - *Touch Keyboard - Termux Wiki*
-
 
 设置：
 
@@ -58,18 +75,47 @@ https://wiki.termux.com/wiki/Touch_Keyboard#Extra_Keys_Row - *Touch Keyboard - T
 
 参考：
 
-https://www.xdbcb8.com/archives/958.html - *碎片化学习Python的又一神作：termux*
+1. https://www.xdbcb8.com/archives/958.html - *碎片化学习Python的又一神作：termux*
+
 
 ## Getting started
 
 https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
 
-### 镜像源
+
+### 包管理
+
+> Termux uses apt and dpkg for package management, similar to Ubuntu or Debian.
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-packages?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-packages?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-packages?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-packages?style=social)
+
+官方：
+
+https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux Wiki*
+
+https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A package build system for Termux.*
+
+
+#### 镜像源
+
+官方镜像源：
+
+https://wiki.termux.com/wiki/Package_Management#Official_repositories - *Package Management - Termux Wiki*
+
+https://packages.termux.dev/apt/termux-main/ - *Index of /apt/termux-main/*
 
 开源镜像源：
 
 1. https://mirrors.tuna.tsinghua.edu.cn/help/termux/ - *termux | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
+
+    https://mirrors.tuna.tsinghua.edu.cn/termux/ - *Index of /termux/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
+
 2. https://mirrors.ustc.edu.cn/help/termux.html - *Termux 源使用帮助 — USTC Mirror Help 文档*
+
+    https://mirrors.ustc.edu.cn/termux/ - *Index of /termux/*
 
 更换镜像源：
 
@@ -85,7 +131,6 @@ https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门�
     1. `vim /data/data/com.termux/files/usr/etc/apt/sources.list`（或者 `apt edit-sources` ）
     2. 将 sources.list 文件的内容，替换成 `deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main`
 
-
 - 方式三：`sed` 命令更换
 
   ```sh
@@ -95,20 +140,194 @@ https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门�
 
   注：Termux 会自动将环境变量 `$PREFIX` 设定为 `/data/data/com.termux/files/usr`
 
-官方镜像源：
 
-_via https://wiki.termux.com/wiki/Package_Management#Official_repositories - *Package Management - Termux Wiki*_
+#### pkg
 
-```  sh
-termux-change-repo
+*显示命令帮助*
+
+```sh
+pkg help
+```
+
+```sh
+pkg
+```
+
+*Search package by query, for example by name or description part.*
+
+```sh
+pkg search <query>
+```
+
+*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
+
+```sh
+pkg upgrade
+```
+
+*Update apt databases from configured repositories.*
+
+```sh
+pkg update
+```
+
+*Installing a new package. - 安装新的软件包。* （如果软件包已安装，再次执行此命令，升级当前包到最新版本。）
+
+```sh
+pkg install <packages>
+```
+
+*Re-install specified package. - 重新安装指定的软件包。*
+
+```sh
+pkg reinstall <packages>
+```
+
+*Uninstall specified packages. Configuration files will be left intact. - 卸载指定的软件包。配置文件将保持不变。*
+
+```sh
+pkg uninstall <packages>
+```
+
+*List installed packages. - 列出已安装的软件包。*
+
+```sh
+pkg list-installed
+```
+
+*List all available packages. - 列出所有可用的软件包。*
+
+```sh
+pkg list-all
+```
+
+*Show information about specific package. - 显示有关特定包的信息。*
+
+```sh
+pkg show <packages>
+```
+
+*Show all files installed by packages. - 显示包安装的所有文件。*
+
+```sh
+pkg files <packages>
+```
+
+```sh
+pkg f <packages>
 ```
 
 
-### 常用目录
+#### apt
 
-由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 /, /usr 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 ~ ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
+*显示命令帮助*
 
-如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 ~ 目录下会生成 storage 的文件链接，其中可以访问 downloads、dcim、music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
+```sh
+apt help
+```
+
+```sh
+apt
+```
+
+*list packages based on package names*
+
+```sh
+apt list
+```
+
+*列出可升级的软件包*
+
+```sh
+apt list --upgradable
+```
+
+*search in package descriptions*
+
+```sh
+apt search
+```
+
+*show package details*
+
+```sh
+apt show
+```
+
+*install packages*
+
+```sh
+apt install
+```
+
+*reinstall packages*
+
+```sh
+apt reinstall
+```
+
+*remove packages*
+
+```sh
+apt remove
+```
+
+*update list of available packages*
+
+```sh
+apt update
+```
+
+*automatically remove all unused packages*
+
+```sh
+apt autoremove
+```
+
+*edit the source information file*
+
+```sh
+apt edit-sources
+```
+
+更多命令，输入 > `apt help` 查看。
+
+
+### 目录结构
+
+#### $HOME
+
+> /data/data/com.termux/files/home
+
+`.bashrc` - 用户的 Bash 配置文件
+
+https://zhuanlan.zhihu.com/p/405174594 - *Linux文件 profile、bashrc、bash_profile区别 - 知乎*
+
+https://blog.csdn.net/eleanoryss/article/details/70207767 - *linux下.bashrc文件修改和生效_bashrc生效-CSDN博客*
+
+https://www.sysgeek.cn/bashrc/#google_vignette - *bashrc 配置文件自定义指南，如何添加别名、使用函数等*
+
+https://blog.csdn.net/u010167269/article/details/52612260 - *Linux 中 bashrc 中的 rc 是什么意思_bashrc全名-CSDN博客*
+
+`.bash_history`
+
+#### $PREFIX
+
+> /data/data/com.termux/files/usr
+
+#### $SHELL
+
+> /data/data/com.termux/files/usr/bin/bash
+
+#### $PATH
+
+> /data/data/com.termux/files/usr/bin
+
+#### 常用目录
+
+由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 `/`, `/usr` 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 `~` ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
+
+如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 `~` 目录下会生成 storage 的文件链接，其中可以访问 downloads、dcim、music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
 
 更多关于 Termux 文件系统的介绍可以在[此处](https://wiki.termux.com/wiki/Internal_and_external_storage)了解。
 
@@ -119,6 +338,7 @@ termux-change-repo
 https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_file_manager - *Internal and external storage - Termux Wiki*
 
 操作步骤：
+
 1. 打开手机应用 [质感文件](os/mobile/mobile-app-list.md#质感文件（Material-Files）)；
 2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
 3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*。
@@ -168,130 +388,31 @@ cd ~/storage/downloads
 
 ### 常用命令
 
-https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux Wiki*
+https://www.darkhackerworld.com/2020/07/termux-commands-list.html - *Termux Commands List - Go From Basic to Advanced in 2024*
 
-#### pkg
+#### am
 
-```sh
-pkg help
+> Activity manager (activity) commands provided by the com.termux app. These are similar to commands provided by the Android platform with the /system/bin/am command.
+
+https://github.com/termux/TermuxAm - *GitHub - termux/TermuxAm: Android Oreo-compatible am command reimplementation.*
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/TermuxAm?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/TermuxAm?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/TermuxAm?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/TermuxAm?style=social)
+
+用法：
+
+https://wiki.termux.com/wiki/Internal_and_external_storage - *内部和外部存储 - Termux Wiki --- Internal and external storage - Termux Wiki*
+
+To send an Intent to open the application information screen on an Android device, you can use the following command in Termux:
+
+```bash
+am start -a android.settings.APPLICATION_DETAILS_SETTINGS -d package:your_package_name
 ```
 
-```
-pkg
-```
+Replace `your_package_name` with the package name of the application for which you want to view the application information. This command will open the application details screen for the specified app on your Android device.
 
-注：*显示命令帮助*
-
-```sh
-pkg search <query>
-```
-
-注：*Search package by query, for example by name or description part.*
-
-```sh
-pkg upgrade
-```
-注：*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
-
-```sh
-pkg install package-name
-```
-
-注：*Installing a new package. - 安装新的软件包。*（如果软件包已安装，再次执行此命令，升级当前包到最新版本。）
-
-```sh
-pkg reinstall <package>
-```
-
-注：*Re-install specified package. - 重新安装指定的软件包。*
-
-```sh
-pkg uninstall
-```
-
-```sh
-pkg uninstall [package name]
-```
-注：*Uninstall specified packages. Configuration files will be left intact. - 卸载指定的软件包。配置文件将保持不变。*
-
-```sh
-pkg list-installed
-```
-注：*List installed packages. - 列出已安装的软件包。*
-
-```sh
-pkg list-all
-```
-
-注：*List all available packages. - 列出所有可用的软件包。*
-
-```sh
-pkg show <package>
-```
-
-注：*Show information about specific package. - 显示有关特定包的信息。*
-
-#### apt
-
-```sh
-apt help
-```
-
-```sh
-apt
-```
-
-注：*显示命令帮助*
-
-```sh
-apt list
-```
-
-\# 列出可升级的软件包
-
-```sh
-apt list --upgradable
-```
-
-注：*list packages based on package names*
-
-```sh
-apt search
-```
-
-注：*search in package descriptions*
-
-```sh
-apt install
-```
-
-注：*install packages*
-
-```sh
-apt reinstall
-```
-
-注：*reinstall packages*
-
-```sh
-apt remove
-```
-
-注：*remove packages*
-
-```sh
-apt update
-```
-
-注：*update list of available packages*
-
-```sh
-apt edit-sources
-```
-
-注：*edit the source information file*
-
-更多命令，输入 > `apt help` 查看。
 
 #### termux-chroot
 
@@ -299,50 +420,241 @@ apt edit-sources
 termux-chroot
 ```
 
+
+#### termux-services
+
+简介：
+
+> Scripts to handle services in termux. Contribute to termux/termux-services development by creating an account on GitHub.
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-services?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-services?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-services?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-services?style=social)
+
+官方：
+
+https://github.com/termux/termux-services - *termux/termux-services: Scripts to handle services in termux.*
+
+https://wiki.termux.com/wiki/Termux-services - *Termux-services - Termux Wiki*
+
+安装：
+
+```sh
+pkg install termux-services
+```
+
+用法：
+
+*步骤 1 - 自启动脚本创建*
+
+```sh
+mkdir -p $PREFIX/var/service/run_browser_sync
+```
+
+```sh
+vim $PREFIX/var/service/run_browser_sync/run
+```
+
+```sh
+#!/data/data/com.termux/files/usr/bin/bash
+cd ~/storage/shared/Documents/markor/gh/docs-learning/ && browser-sync start --server --files "**/**.*"
+```
+
+```sh
+chmod +x $PREFIX/var/service/run_browser_sync/run
+```
+
+*步骤 2 - 配置服务的输出日志*
+
+```sh
+mkdir -p $PREFIX/var/service/run_browser_sync/log
+```
+
+```sh
+vim $PREFIX/var/service/run_browser_sync/log/run
+```
+
+```sh
+#!/data/data/com.termux/files/usr/bin/sh
+svlogger="/data/data/com.termux/files/usr/share/termux-services/svlogger"
+exec "${svlogger}" "$@"
+```
+
+```sh
+chmod +x $PREFIX/var/service/run_browser_sync/log/run
+```
+
+*步骤 3 - 自启动服务测试*
+
+
+```sh
+termux-setup-storage
+```
+
+```sh
+sv-enable run_browser_sync
+```
+
+```sh
+tail -f $PREFIX/var/log/sv/run_browser_sync/current
+```
+
+参考：
+
+1. https://blog.csdn.net/YiBYiH/article/details/127294017 - *Termux设置——服务自启动_termux-services-CSDN博客*
+
+
+#### termux-tools
+
+> Scripts and small programs that are packaged into termux's termux-tools package
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-tools?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-tools?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-tools?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-tools?style=social)
+
+官方：
+
+https://github.com/termux/termux-tools - *GitHub - termux/termux-tools: Scripts and small programs that are packaged into termux's termux-tools package*
+
+显示包安装的所有文件：
+
+```sh
+pkg f termux-tools
+```
+
+
+##### logcat
+
+> 系统内置
+
+```sh
+logcat -h
+```
+
+
+##### termux-change-repo
+
+```sh
+termux-change-repo
+```
+
+
+##### termux-fix-shebang
+
+https://wiki.termux.com/wiki/Termux-fix-shebang - *Termux-fix-shebang - Termux Wiki*
+
+```sh
+termux-fix-shebang
+```
+
+
+##### termux-info
+
+```sh
+termux-info
+```
+
+
+##### termux-setup-storage
+
+```sh
+termux-setup-storage
+```
+
+
 ### 插件列表
 
-https://wiki.termux.com/wiki/Main_Page#Addons - *Termux Wiki*
+1. https://wiki.termux.com/wiki/Main_Page#Addons - *Termux Wiki*
 
-<https://zsxwz.com/2019/06/22/termux几个插件使用/> - *termux几个插件使用 – 姿势小王子*
+2. <https://zsxwz.com/2019/06/22/termux几个插件使用/> - *termux几个插件使用 – 姿势小王子*
+
 
 #### Termux:API
+
+简介：
+
+> Termux add-on app which exposes device functionality as API to command line programs.
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-api?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-api?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-api?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-api?style=social)
+
+官方：
+
 https://wiki.termux.com/wiki/Termux:API - *Termux:API - Termux Wiki*
+
+https://github.com/termux/termux-api - *termux/termux-api: Termux add-on app which exposes device functionality as API to command line programs.*
+
+安装：
+
+https://f-droid.org/en/packages/com.termux.api
+
 ``` sh
 pkg install termux-api
 ```
 
-Download：https://f-droid.org/en/packages/com.termux.api
+卸载：
+
+```sh
+pkg uninstall termux-api
+```
+
+API 实现：
+
+!> 没玩起来😶。
+
 
 #### Termux:Widget
 
-!> ~~没有玩成功。~~
+简介：
+
+> Termux add-on app which adds shortcuts to commands on the home screen.
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-widget?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-widget?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-widget?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-widget?style=social)
 
 Wiki：
+
 1. https://wiki.termux.com/index.php?title=Termux:Widget&oldid=6237 - *Termux:Widget - Termux Wiki*  
 2. https://wiki.termux.com/wiki/Termux:Widget - *Termux:Widget - Termux Wiki*
 
-GitHub：https://github.com/termux/termux-widget - *GitHub - termux/termux-widget: Termux add-on app which adds shortcuts to commands on the home screen.*
+GitHub：
 
-Download：https://f-droid.org/en/packages/com.termux.widget
+1. https://github.com/termux/termux-widget - *GitHub - termux/termux-widget: Termux add-on app which adds shortcuts to commands on the home screen.*
 
-Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget) 🪜
+Download：
 
-**实践操作**：
+1. https://f-droid.org/en/packages/com.termux.widget
+
+Search：
+
+1. [termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget) 🪜
+
+实践操作：
 
 1. Termux 指定该目录用于存放显示在桌面的脚本
+
     ``` sh
     termux-chroot
     ```
+    
     ``` sh
     mkdir -p ~/.shortcuts/
     ```
     
 2. */bin/browser_sync* 实际上是 js 脚本文件，需要修复 shebang（[如何查看是否为 js 脚本文件？](#how-to-see-if-it-is-a-js-script-file) 、 [解决脚本 shebang 问题](https://du33169.tech/linux/TermuxConfiguration.html#%E8%A7%A3%E5%86%B3%E8%84%9A%E6%9C%ACshebang%E9%97%AE%E9%A2%98)）
+   
     ``` sh
     termux-fix-shebang $PREFIX/bin/broswer-sync
     ```
     
 3. 进入目录并创建脚本文件
+
     ``` sh
     cd ~/.shortcuts
     ```
@@ -360,12 +672,14 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
     ```
     
 4. 给予可执行权限
+
     ``` sh
     chmod +x run-browser-sync.sh
     ```
 
 - FAQ：
-    1. <p id="how-to-see-if-it-is-a-js-script-file">如何查看是否为 js 脚本文件？</p>
+ 
+   1. <p id="how-to-see-if-it-is-a-js-script-file">如何查看是否为 js 脚本文件？</p>
     
         ``` sh
         cat $PREFIX/bin/browser-sync
@@ -382,16 +696,117 @@ Search：[termux:Widget at DuckDuckGo](https://duckduckgo.com/?q=termux%3AWidget
         注：执行的结果中包含 *browser-sync -> ../lib/node_modules/browser-sync/dist/bin.js* 表示为 js 脚本。
     
 - 参考：
-    https://blog.csdn.net/qq_36821517/article/details/127836409 - *Termux执行shell脚本报错：cannot execute: required file not found_cannot execute shell_我好高冷的博客-CSDN博客*
-    
-    https://zhuanlan.zhihu.com/p/399098337?utm_id=0 - *只需一部安卓手机，让全功能VSCode登陆iPad - 知乎*
-    - 原文：https://du33169.tech/notes/installCode-serverOnTermux.html - *Termux+Code-Server实现随身全功能VSCode | 岚*
-        - https://du33169.tech/linux/TermuxConfiguration.html - *Termux安装配置与使用 | 岚*
+
+    1. https://blog.csdn.net/qq_36821517/article/details/127836409 - *Termux执行shell脚本报错：cannot execute: required file not found_cannot execute shell_我好高冷的博客-CSDN博客*
+
+    2. https://zhuanlan.zhihu.com/p/399098337 - *只需一部安卓手机，让全功能VSCode登陆iPad - 知乎*
+
+        - 原文：
+
+            1. https://du33169.tech/notes/installCode-serverOnTermux.html - *Termux+Code-Server实现随身全功能VSCode | 岚*
+
+            2. https://du33169.tech/linux/TermuxConfiguration.html - *Termux安装配置与使用 | 岚*
+
+
+#### Termux:Tasker
+
+简介：
+
+> Termux add-on app for integration with Tasker. Contribute to termux/termux-tasker development by creating an account on GitHub.
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-tasker?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-tasker?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-tasker?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-tasker?style=social)
+
+官方：
+
+https://wiki.termux.com/wiki/Termux - *Termux:Tasker - Termux Wiki*
+
+https://github.com/termux/termux-tasker - *termux/termux-tasker: Termux add-on app for integration with Tasker.*
+
+安装：
+
+https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Free and Open Source Android App Repository*
+
+
+#### Termux:Boot
+
+简介：
+
+> Termux add-on app allowing programs to be run at boot. - termux/termux-boot
+
+![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-boot?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-boot?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-boot?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-boot?style=social)
+
+官方：
+
+https://wiki.termux.com/wiki/Termux - *Termux:Boot - Termux Wiki*
+
+https://github.com/termux/termux-boot - *termux/termux-boot: Termux add-on app allowing programs to be run at boot.*
+
+安装：
+
+https://f-droid.org/packages/com.termux.boot/ - *Termux:Boot | F-Droid - Free and Open Source Android App Repository*
 
 
 ## Tool
 
 ### 终端工具
+
+#### apache2
+
+查看：
+
+```sh
+pkg show apache2
+```
+
+安装：
+
+```sh
+pkg install apache2
+```
+
+卸载：
+
+```sh
+pkg uninstall apache2
+```
+
+用法：
+
+```sh
+httpd
+```
+
+有关详细用法，请参阅本文“[如何将 Apache 的网站默认路径，修改为手机本地存储？](#%e5%a6%82%e4%bd%95%e5%b0%86-apache-%e7%9a%84%e7%bd%91%e7%ab%99%e9%bb%98%e8%ae%a4%e8%b7%af%e5%be%84%ef%bc%8c%e4%bf%ae%e6%94%b9%e4%b8%ba%e6%89%8b%e6%9c%ba%e6%9c%ac%e5%9c%b0%e5%ad%98%e5%82%a8%ef%bc%9f)”。
+
+
+#### proot
+
+https://wiki.termux.com/wiki/Differences_from_Linux - *Differences from Linux - Termux Wiki*
+
+查看：
+
+```sh
+pkg show proot
+```
+
+安装：
+
+```sh
+pkg install proot -y
+```
+
+卸载：
+
+```sh
+pkg uninstall proot
+```
+
 
 #### Nano
 
@@ -414,8 +829,10 @@ pkg uninstall nano
 ```
 
 参考：
+
 1. https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
 2. https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
+
 
 #### Vim
 
@@ -430,6 +847,7 @@ pkg install vim
 ```sh
 pkg uninstall vim
 ```
+
 
 #### Tree
 
@@ -448,6 +866,10 @@ pkg install tree
 ```sh
 pkg uninstall tree
 ```
+
+用法：
+
+https://wangchujiang.com/linux-command/c/tree.html - *tree 命令，Linux tree 命令详解：树状图列出目录的内容 - Linux 命令搜索引擎*
 
 
 #### Node.js
@@ -469,6 +891,7 @@ pkg install nodejs-lts
 ```sh
 pkg uninstall nodejs-lts
 ```
+
 
 #### Git
 
@@ -494,6 +917,7 @@ pkg uninstall git
 
 https://zhuanlan.zhihu.com/p/619764281 - *42号笔记：Android上使用Termux的git同步Obsidian - 知乎*
 
+
 #### Openssh
 
 安装：
@@ -507,6 +931,7 @@ pkg install openssh
 ```sh
 pkg uninstall openssh
 ```
+
 
 #### Xclip
 
@@ -526,12 +951,23 @@ pkg install xclip
 
 !> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
 
+卸载：
+
+```sh
+pkg uninstall xclip
+```
+
 
 #### GitUI
 
 简介：
 
 > blazing fast terminal-ui for git written in rust（译文：用 rust 编写的 git 快速终端用户界面）
+
+![GitHub last commit](https://badgen.net/github/last-commit/extrawurst/gitui?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/extrawurst/gitui?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/extrawurst/gitui?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/extrawurst/gitui?style=social)
 
 官方：
 
@@ -566,15 +1002,155 @@ gitui
 方式二：添加 [Termux:Widget](os/mobile/termux.md#termuxwidget) 脚本
 
 1. 新建脚本文件
+
     ```sh
     cd ~/.shortcuts && vim run-gitui.sh
     ```
+
 2. 输入以下脚本文件内容
+
     ```sh
     #!/data/data/com.termux/files/usr/bin/bash
     
     cd ~/storage/shared/Documents/markor/GitHub/docs-learning/ && gitui
     ```
+
+#### miniserve
+
+官方：
+
+https://github.com/svenstaro/miniserve?tab=readme-ov-file - *GitHub - svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!*
+
+查看：
+
+```sh
+pkg show miniserve
+```
+
+安装：
+
+```sh
+pkg install miniserve
+```
+
+卸载：
+
+```sh
+pkg uninstall miniserve
+```
+
+
+#### aria2
+
+简介：
+
+> aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
+
+![GitHub last commit](https://badgen.net/github/last-commit/aria2/aria2?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/aria2/aria2?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/aria2/aria2?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/aria2/aria2?style=social)
+
+官方：
+
+https://aria2.github.io/ - *aria2*
+
+https://github.com/aria2/aria2 - *GitHub - aria2/aria2: aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.*
+
+安装：
+
+```sh
+pkg install aria2
+```
+
+卸载：
+
+```sh
+pkg uninstall aria2
+```
+
+用法：
+
+```sh
+aria2c -v
+```
+
+```sh
+aria2c -h
+```
+
+
+#### dnsutils
+
+官方：
+
+https://www.isc.org/bind/ - *BIND 9 - ISC*
+
+查看：
+
+```bash
+pkg show dnsutils
+```
+
+安装：
+
+```bash
+pkg install dnsutils
+```
+
+卸载：
+
+```bash
+pkg uninstall dnsutils
+```
+
+
+### Shells
+
+https://wiki.termux.com/wiki/Shells - *Shells - Termux Wiki*
+
+
+#### Bash
+
+https://wiki.termux.com/wiki/Shells#BASH - *Shells - Termux Wiki*
+
+查看：
+
+```sh
+pkg show bash
+```
+
+
+#### Zsh
+
+简介：
+
+> Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh.
+
+官方：
+
+https://wiki.termux.com/wiki/Shells#ZSH - *Shells - Termux Wiki*
+
+安装：
+
+```sh
+pkg install zsh
+```
+
+插件：
+
+https://wiki.termux.com/wiki/ZSH - *ZSH - Termux Wiki*
+
+1. Oh-My-ZSH
+
+    https://github.com/ohmyzsh/ohmyzsh - *GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,200+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.*
+    
+    ![GitHub last commit](https://badgen.net/github/last-commit/ohmyzsh/ohmyzsh?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social)
+
+参考：
+
+1. https://du33169.tech/posts/linux/zshconfiguration/ - *Zsh配置与美化 - Lando's Blog*
 
 
 ### 应用工具
@@ -582,6 +1158,11 @@ gitui
 #### Hacker's Keyboard
 
 https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Hacker's Keyboard (official)*
+
+![GitHub last commit](https://badgen.net/github/last-commit/klausw/hackerskeyboard?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/klausw/hackerskeyboard?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/klausw/hackerskeyboard?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/klausw/hackerskeyboard?style=social)
 
 设置：
 
@@ -596,9 +1177,10 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
 
 ### 如何将 Apache 的网站默认路径，修改为手机本地存储？
 
+操作步骤：
+
 1. 开启“访问本机存储”，请参阅“[手机电脑互传文件](https://blog.csdn.net/xiao_qi_tong/article/details/122628099)”
 
-   
     ```sh
     termux-setup-storage
     ```
@@ -657,8 +1239,8 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
     修改为
     
     ```sh
-    DocumentRoot "/home/storage/shared/documents/markor/github/docs-learning"
-    <Directory "/home/storage/shared/documents/markor/github/docs-learning">
+    DocumentRoot "/data/data/com.termux/files/home/storage/shared/documents/markor/github/docs-learning"
+    <Directory "/data/data/com.termux/files/home/storage/shared/documents/markor/github/docs-learning">
     ```
     
     > 快捷修改：
@@ -667,14 +1249,14 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
     >
     >
     > ```sh
-    > :%s/"\/data\/data\/com.termux\/files\/usr\/share\/apache2\/default-site\/htdocs"/"\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"/
+    > :%s/"\/data\/data\/com.termux\/files\/usr\/share\/apache2\/default-site\/htdocs"/"\/data\/data\/com.termux/files\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"/
     > ```
     >
     > 在 vim 中字符串搜索
     >
     >
     > ```sh
-    > /"\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"
+    > /"\/data\/data\/com.termux/files\/home\/storage\/shared\/documents\/markor\/github\/docs-learning"
     > ```
 
 6. 重启 Apache
@@ -684,25 +1266,29 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
     ```
 
 7. 配置完上述操作重启应用
+
     1.  打开 “Termux”，按顺序执行下列 2 条命令
     
-     ```sh
-     termux-chroot
-     ```
+         ```sh
+         termux-chroot
+         ```
     
-     ```sh
-     apachectl restart
-     ```
+         ```sh
+         apachectl restart
+         ```
     
-    1. 打开 “网页浏览器”，输入网址：http://127.0.0.1:8080 ，能访问网页说明配置成功。
+    2. 打开 “网页浏览器”，输入网址：http://127.0.0.1:8080 ，能访问网页说明配置成功。
+
 
 ### 如何安装 Node.js 和 Browsersync ？
 
-> 一行命令快捷访问 👏
-> ``` sh
-> cd ~/storage/shared/Documents/markor/GitHub/docs-learning/ &&  browser-sync start --server --files "**/**.*"
-> ```
+一行命令快捷访问：👏
 
+``` sh
+cd ~/storage/shared/Documents/markor/GitHub/docs-learning/ && browser-sync start --server --files "**/**.*"
+```
+
+操作步骤：
 
 1. ```sh
     pkg install node-lts
@@ -710,9 +1296,9 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
 2. ```sh
     pkg upgrade
     ```
-    （如果第 1 步命令执行报错🐞，执行此步进行更新）
+    👆（如果第 1 步命令执行报错🐞，执行此步进行更新）
 3. ```sh
-    node V
+    node -v
     ```
 4. ```sh
     npm -v
@@ -733,14 +1319,16 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
 9. ```sh
     browser-sync start --server --files "**/**.*"
     ```
-- 参考：
-    1. https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t77 - *Termux详细教程！_欧晨eli的博客-CSDN博客*
-    2. https://blog.csdn.net/Ximerr/article/details/123503443 - *安卓手机安装 nodejs 时提示cannot link executable “node“ library libcrypto.so.3 问题解决_身价五毛的博客-CSDN博客*
+
+参考：
+
+1. https://blog.csdn.net/xiao_yi_xiao/article/details/120470295#t77 - *Termux详细教程！_欧晨eli的博客-CSDN博客*
+2. https://blog.csdn.net/Ximerr/article/details/123503443 - *安卓手机安装 nodejs 时提示cannot link executable “node“ library libcrypto.so.3 问题解决_身价五毛的博客-CSDN博客*
 
 
 ### 如何在 vim 中搜索字符并上下查找？
 
-> 以上述为例
+操作步骤：
 
 1.  打开 vim
 
@@ -757,6 +1345,51 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
 3.  键盘按下回车键
 
 4. 如需 “查找下一个”，按 <kbd>n</kbd> 键；“查找上一个”：按 <kbd>N</kbd> 键
+
+
+### Termux permission denied
+
+这个错误通常出现在Termux环境中，是因为Android系统的安全机制限制了Termux对存储目录的访问。为了解决这个问题，可以尝试以下几种方法：
+
+1. **使用Termux内部存储**: 将需要操作的文件移动到Termux的内部存储目录，比如`/data/data/com.termux/files/home/`目录下，而不是尝试访问外部存储空间。这样可以避免Android系统的权限限制。
+
+2. **重新设置存储权限**: 在Termux中，您可以使用命令`termux-setup-storage`来请求对存储的访问权限，执行这个命令后会在Termux中创建一个软链接`/sdcard`指向外部存储，之后应该可以正常访问存储空间。
+
+3. **修改应用权限**: 在Android系统的设置中，找到Termux应用，尝试修改应用的存储权限，允许其访问外部存储空间。
+
+4. **使用root权限**: 如果您的设备已经获取root权限，可以尝试在root权限下执行操作，这样可以规避Android系统对存储访问的限制。
+
+请注意，对于某些操作可能需要root权限或者绕过Android系统的安全机制，这些行为可能会影响设备的安全性，请谨慎操作。如果您对Termux和Android存储权限不熟悉，建议提前备份重要数据并寻求专业人士的帮助。希望这些方法能帮助您解决问题！如果您有其他问题，我将很乐意继续帮助您。
+
+参考：
+
+1. https://cn.bing.com/search?q=termux%20permission%20denied - *termux permission denied, symlink '../jshint/bin/jshint' -> '/storage/emulated/0/Documents/markor/gh/md-file-tree/node_modules/.bin/jshint' - 搜索*
+
+2. https://cloud.tencent.com/developer/ask/sof/832900 - *Termux - npm错误！错误: EPERM:不允许操作-腾讯云开发者社区-腾讯云*
+
+3. https://blog.csdn.net/wlsdx/article/details/108207308 - *Termux permission denied-CSDN博客*
+
+4. https://unix.stackexchange.com/questions/731882/termux-bash-permission-denied - *files - Termux Bash: ./ Permission Denied - Unix & Linux Stack Exchange*
+
+
+### termux ln: failed to create symbolic link '../indexs.js': Permission denied
+
+这个错误是由于在Termux环境中缺少对存储空间的访问权限导致的。您可以尝试以下步骤来解决这个问题：
+
+1. **使用Termux内部存储**: 将需要操作的文件移动到Termux的内部存储目录，比如`/data/data/com.termux/files/home/`目录下，而不是在外部存储空间进行操作。
+
+2. **使用符号链接(symlink)命令**: 在Termux中使用`ln -s`命令时，尝试直接在Termux内部存储路径操作，例如：
+   ```
+   ln -s /data/data/com.termux/files/home/indexs.js /data/data/com.termux/files/home/destination_folder/indexs.js
+   ```
+   这样可以避免权限限制。
+
+3. **使用termux-setup-storage命令**: 在Termux中执行`termux-setup-storage`命令，请求对存储的访问权限，这将创建一个软链接到外部存储，使您可以访问外部存储空间。
+
+4. **尝试授予更多权限**: 尝试在Android系统设置中，为Termux应用授予更多的存储和文件访问权限，以便Termux可以在外部存储空间创建符号链接。
+
+请注意，某些操作可能需要root权限或绕过Android系统的安全机制，这可能会对设备的安全性造成风险。如果您对Termux和Android权限不够了解，建议提前备份数据并寻求专业建议。希望这些方法能帮助您解决问题！如果您有其他问题，我将很乐意继续帮助您。
+
 
 ## Reference
 
@@ -781,3 +1414,5 @@ https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Ha
 9. https://p3terx.com/archives/termux-tutorial-1.html - *Termux 使用教程 #1 - Android 手机安装 Linux - P3TERX ZONE*
 
     1. https://p3terx.com/archives/termux-tutorial-2.html - *Termux 使用教程 #2 - 打造手机上的最强终端 - P3TERX ZONE*
+
+10. https://www.ngui.cc/article/show-846681.html - *Termux 教程|完整的 termux 命令*

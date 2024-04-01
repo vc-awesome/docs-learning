@@ -1,7 +1,11 @@
+# 代码片段
+
 <div style="position: relative;min-height: 35px;background: rgb(190 179 255) url(../_media/../_media/glossary-hero.png) top/cover no-repeat;box-shadow: rgba(140, 149, 159, 0.15) 0px 3px 6px 0px;margin-bottom: 35px;">
 <i style="position: absolute;right: 0;bottom: -25px;font-size: xx-small;">
 
 插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)&nbsp;&nbsp;</i></div>
+
+## 图片来源
 
 中文版
 
@@ -15,75 +19,7 @@
 <small>*Picture source: []()*</small>
 ```
 
----
-
-```md
-> <img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />
-```
-*👆 > \<img src="" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" />*
-
----
-
-```md
-支持 Windows, macOS, Linux, Android([Google Play](), [F-Droid]()), iOS, Web, 微信小程序, 浏览器扩展, 代码部署
-```
-*👆 支持 Windows, macOS, Linux, Android([Google Play](), [F-Droid]()), iOS, Web, 微信小程序, 浏览器扩展, 代码部署*
-
----
-
-```md
-开源软件（[GitHub]()）
-```
-
-```md
-付费应用
-```
-
-```md
-免费试用 ? 天
-```
-
-```md
-免费功能（Lite 版本）
-```
-
-```md
-收费功能（Pro 版本，应用内购买升级）
-```
-
-```md
-注册登录（开通会员解锁更多功能）
-```
-
-```md
-有关详细信息，请参阅“”。
-```
-
-```html
-<details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
-
-</details>
-```
-
-> 💡 内容前后必须各无缩进的空出一行，否则内容的样式无法呈现。
-
-✅ 前后无缩进空出一行的效果：
-
-- <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
-
-    - 无序列表内容
-    - 无序列表内容
-    - 无序列表内容
-
-    </details>
-
-❎ 前后没有空出一行的效果：
-
-- <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
-    - 无序列表内容
-    - 无序列表内容
-    - 无序列表内容
-    </details>
+## 注释
 
 ```html
 <!--
@@ -91,10 +27,46 @@
 -->
 ```
 
+## 搜索替换
+
+### 文件内容替换（正则）
+
+将链接格式：
+
+`[📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍](https://emojipedia.org/)`
+
+替换为：
+
+`https://emojipedia.org/ - *📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍*`
+
+操作步骤（macOS）：
+
+1. 打开应用程序 [Visual Studio Code](os/tools/visual-studio-code.md) ；
+2. 使用键盘快捷键 <kbd>⌥</kbd> + <kbd>⌘</kbd> + <kbd>F</kbd> 打开「替换功能」；
+3. 在查找内容中输入：`\[([^\]]+)\]\(([^\(]+)\)`，查找方式选择：使用正则表达式；
+4. 在替换内容中输入：`$2 - *$1*`；
+5. 点击回车键 <kbd>Enter</kbd>（ 即键盘按键 <kbd>↵</kbd> ）进行逐个替换。
+
+中文与英文之间添加空格：
+
+- 查找内容
+
+    ```regex
+    ([\w`]+(?=[\x{4e00}-\x{9fa5}]+)|[\x{4e00}-\x{9fa5}]+(?=[\w`]+))
+    ```
+
+- 替换内容 `$1 `
+
+## 其它
+
 ```md
 !> ~~没玩起来😶。~~
 ```
 !> ~~没玩起来😶。~~
+
+```md
+!> 待添加
+```
 
 ```uri
 view-source:
@@ -106,4 +78,8 @@ view-source:
 
 ```md
 **主标题** ｜副标题
+```
+
+```markdown
+${url} - *${title}*${enter}${enter}![GitHub last commit](https://badgen.net/github/last-commit${pathname}?icon=github&color=blue)${enter}![GitHub Repo stars](https://img.shields.io/github/stars${pathname}?style=social)
 ```

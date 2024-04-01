@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, minimal-ui"
+    />
+    <style type="text/css">
+      html,
+      body {
+        padding: 4px 8px 4px 8px;
+        font-family: 'sans-serif-regular';
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'sans-serif-condensed';
+      }
+      a {
+        color: #388e3c;
+        text-decoration: underline;
+      }
+      img {
+        height: auto;
+        max-width: 100%;
+        max-height: 90vh;
+        margin: auto;
+      }
+      html,
+      body {
+        color: #ffffff;
+        background-color: #303030;
+      }
+      a:visited {
+        color: #dddddd;
+      }
+      blockquote {
+        color: #cccccc;
+      }
+    </style>
+    <style>
+      video,
+      img {
+        max-width: 100%;
+      }
+      pre {
+        max-width: 100%;
+        overflow: auto;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid white;
+        border-collapse: collapse;
+        border-spacing: 0;
+        padding: 6px;
+      }
+      .floatl {
+        float: left;
+      }
+      .clear {
+        clear: both;
+      }
+      button:hover,
+      button:active {
+        filter: invert(1);
+      }
+      button {
+        display: inline-block;
+        box-sizing: border-box;
+        border: none;
+        border-radius: 4px;
+        padding: 0 16px;
+        min-width: 64px;
+        height: 36px;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 36px;
+        overflow: hidden;
+        outline: none;
+        vertical-align: middle;
+        text-align: center;
+        text-overflow: ellipsis;
+        text-transform: uppercase;
+        box-shadow:
+          0 3px 1px -2px rgba(0, 0, 0, 0.2),
+          0 2px 2px 0 rgba(0, 0, 0, 0.14),
+          0 1px 5px 0 rgba(0, 0, 0, 0.12);
+        margin: 4px 4px 8px 0px;
+      }
+      .emojibtn,
+      .fa {
+        font-size: 250%;
+        background: transparent;
+        padding: 0px;
+        min-width: 0px;
+      }
+      .sticky {
+        position: sticky;
+        display: inline-block;
+        border: 0px solid white;
+      }
+      body {
+        margin: 0;
+        padding: 2.5vw;
+      }
+      .header_no_underline {
+        text-decoration: none;
+        color: white;
+      }
+      h1 < a.header_no_underline {
+        border-bottom: 2px solid #eaecef;
+      }
+      h1,
+      h2 {
+        border-bottom: 2px solid #eaecef;
+      }
+      blockquote {
+        padding: 0px 14px;
+        border-left: 3.5px solid #dddddd;
+        margin: 4px 0;
+      }
+      .video-container > p {
+        margin: 0;
+      }
+      .task-list-item {
+        list-style-type: none;
+        text-indent: -1.4em;
+      }
+      li.task-list-item > pre,
+      li.task-list-item > ul > li {
+        text-indent: 0pt;
+      }
+      p > a {
+        word-break: break-all;
+      }
+      .markor-table-of-contents {
+        border: 1px solid white;
+        border-radius: 2px;
+      }
+      .markor-table-of-contents > h1 {
+        padding-left: 14px;
+        margin-bottom: -8px;
+        border-bottom: 1px solid white;
+      }
+      .markor-table-of-contents-list li {
+        margin-left: -12px;
+      }
+      .markor-table-of-contents-list a {
+        text-decoration: none;
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/prismjs/themes/prism.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/prismjs/prism.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js"
+    ></script>
+
+    <style>
+      html,
+      body {
+        /*font-family: sans-serif-condensed;*/
+        /*font-size: 80%;*/
+      }
+    </style>
+
+    <script type="text/javascript">
+      function onPageLoaded() {
+        /*if ('format-markdown fileext-md' == 'MarkdownTextConverter') {
+ window.scrollTo(0,document.body.scrollHeight);
+}*/
+      }
+    </script>
+    <script>
+      function onPageLoaded_markor_private() {
+        onPageLoaded();
+      }
+    </script>
+  </head>
+  <body
+    class="format-markdown fileext-md"
+    onload="onPageLoaded_markor_private();"
+  >
+    <!-- USER DOCUMENT CONTENT -->
+
+    <link
+      rel="stylesheet"
+      href="sspai-custom.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../markor-custom.css"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="/_assets/libs/fontawesome/releases/v6.5.1/css/all.css"
+    />
+    <!--复制代码块-->
+    <link
+      href="https://cdn.jsdelivr.net/gh/vc-awesome/docs-learning@master/_assets/clipboard-code-block.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://clipboardjs.com/dist/clipboard.min.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/gh/vc-awesome/docs-learning@master/_assets/clipboard-code-block.js"
+      defer
+    ></script>
+    <script
+      src="../clipboard-code.js"
+      defer
+    ></script>
+    <script
+      src="https://cdn.bootcdn.net/ajax/libs/jquery/2.2.4/jquery.min.js"
+      defer
+    ></script>
+    <script
+      src="../anime.min.js"
+      defer
+    ></script>
+    <script
+      src="../markor-back2top.js"
+      defer
+    ></script>
+    <div class="markor-table-of-contents toc">
+      <h1>目录</h1>
+      <ul class="markor-table-of-contents-list">
+        <li>
+          <a href="#mgit">MGit</a>
+          <ul>
+            <li><a href="#简介">简介</a></li>
+            <li><a href="#官方">官方</a></li>
+            <li><a href="#安装">安装</a></li>
+            <li><a href="#快速入门">快速入门</a></li>
+            <li><a href="#注意事项">注意事项</a></li>
+            <li><a href="#常见问题解答">常见问题解答</a></li>
+            <ul>
+              <li><a href="#目录结构">目录结构</a></li>
+              <li><a href="#平台架构">平台架构</a></li>
+              <li><a href="#公共-dns">公共 DNS</a></li>
+              <li><a href="#示意2">示意2</a></li>
+              <li>
+                <a href="#示意2">如何将微信公众号文章链接复制成自定义格式？</a>
+              </li>
+            </ul>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <h1 id="mgit">
+      <a
+        href="#mgit"
+        class="header_no_underline"
+        >MGit</a
+      >
+    </h1>
+
+    <p>
+      <img
+        src="https://developer.android.google.cn/static/images/design/ui/mobile/passkeys_header.png?hl=zh-cn"
+        alt=""
+      />
+    </p>
+    <p>
+      <small
+        ><em
+          >插图来源于：<a
+            href="https://developer.android.google.cn/design/ui/mobile/guides/patterns/passkeys?hl=zh-cn"
+            >Android Developers</a
+          ></em
+        ></small
+      >
+    </p>
+    <h2 id="简介">
+      <a
+        href="#简介"
+        class="header_no_underline"
+        >简介</a
+      >
+    </h2>
+    <blockquote>
+      <p>An open source Android Git client.</p>
+    </blockquote>
+    <p>
+      <img
+        src="https://badgen.net/github/last-commit/maks/MGit?icon=github&amp;color=blue"
+        alt="GitHub last commit"
+      />
+      <img
+        src="https://img.shields.io/github/release-date/maks/MGit?logo=github"
+        alt="GitHub Release Date"
+      />
+      <img
+        src="https://img.shields.io/github/v/release/maks/MGit?logo=github"
+        alt="GitHub release (latest SemVer)"
+      />
+      <img
+        src="https://img.shields.io/github/stars/maks/MGit?style=social"
+        alt="GitHub Repo stars"
+      />
+    </p>
+    <h2 id="官方">
+      <a
+        href="#官方"
+        class="header_no_underline"
+        >官方</a
+      >
+    </h2>
+    <p>
+      Website:
+      <a href="https://manichord.com/projects/mgit.html"
+        >https://manichord.com/projects/mgit.html</a
+      >
+      - <em>MGit</em>
+    </p>
+    <h2 id="安装">
+      <a
+        href="#安装"
+        class="header_no_underline"
+        >安装</a
+      >
+    </h2>
+    <p>
+      <a href="https://github.com/maks/MGit">https://github.com/maks/MGit</a> -
+      <em>GitHub - maks/MGit: A Git client for Android.</em>
+    </p>
+    <p>
+      <a href="https://f-droid.org/packages/com.manichord.mgit"
+        >https://f-droid.org/packages/com.manichord.mgit</a
+      >
+      - <em>MGit | F-Droid - Free and Open Source Android App Repository</em>
+    </p>
+    <h2 id="快速入门">
+      <a
+        href="#快速入门"
+        class="header_no_underline"
+        >快速入门</a
+      >
+    </h2>
+    <ol>
+      <li>
+        <p>打开 MGit 生成秘钥</p>
+        <p>操作步骤：<em>打开设置 &gt; （安全）SSH Keys &gt; 新增</em></p>
+        <p>
+          新建文件名：当前手机设备名称（例如：
+          <em><code>Redmi Note 11T Pro</code></em> ）
+        </p>
+      </li>
+      <li>
+        <p>打开 MGit 设置 “repos 的根存储位置”</p>
+        <p>操作步骤：<em>打开设置 &gt; （通用）repos 的根存储位置</em></p>
+        <pre><code class="language-sh">/storage/emulated/0/Documents/markor/GitHub
+</code></pre>
+      </li>
+      <li>
+        <p>打开 MGit Git 配置</p>
+        <p>操作步骤：<em>打开设置 &gt; Git 配置</em></p>
+        <p>
+          用户名： <em><code>vc</code></em
+          ><br />
+          用户邮箱： <em><code>caiyongwen@yeah.net</code></em>
+        </p>
+      </li>
+      <li>
+        <p>打开 GitHub 添加 SSH Keys</p>
+        <p>
+          操作步骤：<em
+            >前往
+            <a href="https://github.com/settings/keys">SSH and GPG keys</a>
+            添加</em
+          >
+        </p>
+        <p>
+          Title：<em>当前手机设备名称</em><br />
+          Key：<em>复制第 1 步生成的秘钥</em>
+        </p>
+      </li>
+      <li>
+        <p>打开 MGit 克隆仓库</p>
+        <p>
+          远程地址：
+          <em><code>git@github.com:vc-awesome/docs-learning.git</code></em
+          ><br />
+          本地路径： <em><code>docs-learning</code></em>
+        </p>
+      </li>
+      <li>
+        <p>修改文件后，打开 MGit 提交、推送</p>
+        <ol>
+          <li>
+            <p><em>点击进入需操作的仓库</em> ；</p>
+          </li>
+          <li>
+            <p>第一项为“文件”标签页，可点击文件进行查看、编辑操作；</p>
+          </li>
+          <li>
+            <p>
+              <em>屏幕从右向左滑</em>
+              ，第二项为“提交”标签页，可点击查看历史提交的详细记录及修改内容；
+            </p>
+          </li>
+          <li>
+            <p>
+              <em>屏幕继续从右向左滑</em>
+              ，第三项为“状态”标签页，可查看当前已修改文件的修改内容（文件差异）；
+            </p>
+          </li>
+          <li>
+            <p>
+              确定文件无异后，点击右上角的操作按钮，选择
+              <em>暂存所有 &gt; 提交 &gt; 推送</em> 这 3
+              步操作，将文件推送至远程仓库。
+            </p>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <h2 id="注意事项">
+      <a
+        href="#注意事项"
+        class="header_no_underline"
+        >注意事项</a
+      >
+    </h2>
+    <blockquote>
+      <p>
+        在最新代码未提交至远程仓库前，千万不要点击删除操作，由于点击删除按钮，不会提示“是否确定删除？”，而是直接删除所选文件或文件夹，导致辛苦编辑的内容无法找回。
+      </p>
+    </blockquote>
+    <h2 id="常见问题解答">
+      <a
+        href="#常见问题解答"
+        class="header_no_underline"
+        >常见问题解答</a
+      >
+    </h2>
+    <p>暂无</p>
+    <hr />
+    <p>DNS：</p>
+    <ul>
+      <li class="task-list-item">
+        <input
+          type="checkbox"
+          class="task-list-item-checkbox"
+          checked="checked"
+          disabled="disabled"
+          readonly="readonly"
+        />&nbsp;<a
+          href="https://adguard-dns.io/kb/zh-CN/general/dns-providers/#cfiec-public-dns"
+          >CFIEC Public DNS</a
+        >
+      </li>
+      <li class="task-list-item">
+        <input
+          type="checkbox"
+          class="task-list-item-checkbox"
+          checked="checked"
+          disabled="disabled"
+          readonly="readonly"
+        />&nbsp;<a href="https://dns.decloudus.com/dns-query">DeCloudUs DNS</a>
+      </li>
+      <li class="task-list-item">
+        <input
+          type="checkbox"
+          class="task-list-item-checkbox"
+          checked="checked"
+          disabled="disabled"
+          readonly="readonly"
+        />&nbsp;<a
+          href="https://adguard-dns.io/kb/zh-CN/general/dns-providers/#pumplex-%E6%9C%8D%E5%8A%A1%E5%99%A8"
+          >PumpleX 服务器</a
+        >
+      </li>
+      <li class="task-list-item">
+        <input
+          type="checkbox"
+          class="task-list-item-checkbox"
+          checked="checked"
+          disabled="disabled"
+          readonly="readonly"
+        />&nbsp;<a
+          href="https://adguard-dns.io/kb/zh-CN/general/dns-providers/#dns-forge"
+          >DNS Forge</a
+        >
+      </li>
+      <li class="task-list-item">
+        <input
+          type="checkbox"
+          class="task-list-item-checkbox"
+          checked="checked"
+          disabled="disabled"
+          readonly="readonly"
+        />&nbsp;<a
+          href="https://adguard-dns.io/kb/zh-CN/general/dns-providers/#rethinkdns"
+          >RethinkDNS</a
+        >
+      </li>
+      <li class="task-list-item">
+        <input
+          type="checkbox"
+          class="task-list-item-checkbox"
+          checked="checked"
+          disabled="disabled"
+          readonly="readonly"
+        />&nbsp;<a
+          href="https://adguard-dns.io/kb/zh-CN/general/dns-providers/#mullvad"
+          >Mullvad</a
+        >
+      </li>
+    </ul>
+    <h3 id="目录结构">
+      <a
+        href="#目录结构"
+        class="header_no_underline"
+        >目录结构</a
+      >
+    </h3>
+    <output data-lang="output">
+      <ul>
+        <li><code>Introduction</code> - <em>简介</em></li>
+        <li><code>Getting started</code> - <em>入门指南</em></li>
+        <li><code>Installation</code> - <em>安装</em></li>
+        <li><code>Configuration</code> - <em>设置</em></li>
+        <li><code>Usage</code> - <em>用法</em></li>
+        <li><code>Advanced Usage</code> - <em>高级用法</em></li>
+        <li><code>FAQ</code> - <em>常见问题解答</em></li>
+        <li><code>Reference</code> - <em>参考</em></li>
+      </ul>
+    </output>
+    <h3 id="平台架构">
+      <a
+        href="#平台架构"
+        class="header_no_underline"
+        >平台架构</a
+      >
+    </h3>
+    <table>
+      <thead>
+        <tr>
+          <th>支持的平台</th>
+          <th>CPU 架构</th>
+          <th>平台架构</th>
+          <th>处理器体系结构</th>
+          <th>芯片</th>
+          <th>支持的主流设备</th>
+          <th>操作系统兼容性</th>
+          <th>安装包名称</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Windows (x86)</td>
+          <td>X86 架构</td>
+          <td>32-bit</td>
+          <td>x86, x86_x32</td>
+          <td>Intel, AMD</td>
+          <td>主要是PC端,像移动智能设备端较少</td>
+          <td>Windows / Linux</td>
+          <td>PowerShell-7.3.4-win-x86.zip</td>
+        </tr>
+        <tr>
+          <td>Windows (x64)</td>
+          <td>X86 架构</td>
+          <td>64-bit</td>
+          <td>x64(x86-64/AMD64)</td>
+          <td>Intel, AMD</td>
+          <td>_</td>
+          <td>_</td>
+          <td>PowerShell-7.3.4-win-x64.zip</td>
+        </tr>
+        <tr>
+          <td>macOS</td>
+          <td>X86 架构</td>
+          <td>64-bit</td>
+          <td>x64(x86-64)</td>
+          <td>Intel</td>
+          <td>_</td>
+          <td>_</td>
+          <td>powershell-7.3.4-osx-x64.tar.gz</td>
+        </tr>
+        <tr>
+          <td>macOS</td>
+          <td>ARM 架构</td>
+          <td>64-bit</td>
+          <td>arm64</td>
+          <td>Apple Silicon (M1)</td>
+          <td>
+            主要是嵌入式设备、智能手机、平板电脑、智能穿戴和物联网设备,
+            PC端也逐步开始占领市场
+          </td>
+          <td>Linux / Mac / Android</td>
+          <td>powershell-7.3.4-osx-arm64.tar.gz</td>
+        </tr>
+        <tr>
+          <td>-</td>
+          <td>ARM 架构</td>
+          <td>32-bit</td>
+          <td>armv7, armv7s</td>
+          <td>-</td>
+          <td>_</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="公共-dns">
+      <a
+        href="#公共-dns"
+        class="header_no_underline"
+        >公共 DNS</a
+      >
+    </h3>
+    <table>
+      <thead>
+        <tr>
+          <th>序号</th>
+          <th>服务商</th>
+          <th>DNS-1</th>
+          <th>DNS-2</th>
+          <th>地址</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>谷歌</td>
+          <td><code>8.8.8.8</code></td>
+          <td><code>8.8.4.4</code></td>
+          <td>
+            <a href="https://developers.google.com/speed/public-dns"
+              >官方链接</a
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>百度</td>
+          <td><code>180.76.76.76</code></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>114</td>
+          <td><code>114.114.114.114</code></td>
+          <td><code>114.114.115.115</code></td>
+          <td><a href="https://www.114dns.com/">官方链接</a></td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>腾讯</td>
+          <td><code>119.29.29.29</code></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>阿里</td>
+          <td><code>223.5.5.5</code></td>
+          <td><code>223.6.6.6</code></td>
+          <td><a href="https://www.alidns.com/">官方链接</a></td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>微软</td>
+          <td><code>4.2.2.1</code></td>
+          <td><code>4.2.2.2</code></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Cloudflare</td>
+          <td><code>1.1.1.1</code></td>
+          <td><code>1.0.0.1</code></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>电信 DNS</td>
+          <td><code>202.103.44.150</code></td>
+          <td><code>202.103.0.68</code></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>移动 DNS</td>
+          <td><code>211.137.58.20</code></td>
+          <td><code>211.137.64.163</code></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>联通 DNS</td>
+          <td><code>211.95.1.97</code></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 id="示意2">
+      <a
+        href="#示意2"
+        class="header_no_underline"
+        >示意2</a
+      >
+    </h3>
+    <p>图标：</p>
+    <img
+      alt="Get it from Microsoft"
+      src="https://steampp.net/ApplicationMarket/microsoft_Store.svg"
+      height="65"
+    />
+    <img
+      alt="Download on the App Store"
+      src="https://steampp.net/ApplicationMarket/app_store.svg"
+      height="60"
+    />
+    <p>参考：</p>
+    <ol>
+      <li>
+        <a href="https://steampp.net/">https://steampp.net/</a> -
+        <em>Watt Toolkit - 瓦特工具箱(Steam++官网)</em>
+      </li>
+    </ol>
+    <img
+      src="https://lug.ustc.edu.cn/static/USTC_logo.svg"
+      style="
+        position: fixed;
+        bottom: -320px;
+        left: -200px;
+        opacity: 0.1;
+        z-index: -100;
+      "
+    />
+
+    <!-- USER DOCUMENT CONTENT END -->
+  </body>
+</html>

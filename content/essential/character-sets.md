@@ -1,3 +1,5 @@
+# 字符编码
+
 ## 简介
 
 > **字符集**是一种让计算机知道如何识别 [Character](https://developer.mozilla.org/zh-CN/docs/Glossary/Character) 的编码系统，这些字符包括字母、数字、标点符号和空白字符。
@@ -8,12 +10,13 @@
 >
 > —— https://developer.mozilla.org/zh-CN/docs/Glossary/Character_set - *Character set - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
 
-
 ## 教程
 
-1. https://www.runoob.com/tags/ref-charactersets.html - *HTML 字符集 | 菜鸟教程*
+1. https://wangdoc.com/html/encode - *HTML 字符编码 - HTML 教程 - 网道*
 
-2. https://www.runoob.com/charsets/html-charsets.html - *HTML 字符集 | 菜鸟教程*
+2. https://www.runoob.com/tags/ref-charactersets.html - *HTML 字符集 | 菜鸟教程*
+
+3. https://www.runoob.com/charsets/html-charsets.html - *HTML 字符集 | 菜鸟教程*
 
 ## 分类
 
@@ -50,6 +53,10 @@
 > 网络上最常见的 Unicode 字符编码是[UTF-8](https://developer.mozilla.org/zh-CN/docs/Glossary/UTF-8)。还存在一些其他编码，如 UTF-16 或过时的 UCS-2，但推荐使用 UTF-8。
 >
 > —— https://developer.mozilla.org/zh-CN/docs/Glossary/Unicode - *Unicode - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
+
+参考：
+
+1. https://www.ruanyifeng.com/blog/2014/12/unicode.html - *Unicode与JavaScript详解 - 阮一峰的网络日志*
 
 #### UTF-8 ✅
 
@@ -90,7 +97,6 @@ https://www.runoob.com/charsets/emoji-skin-tones.html  - *Emoji 肤色 | 菜鸟�
 
 &#129409;&#127998; 中等深肤色
 
-
 用法：
 
 ```html
@@ -121,10 +127,11 @@ https://www.runoob.com/charsets/emoji-skin-tones.html  - *Emoji 肤色 | 菜鸟�
 
 &#9757;&#127995; 浅肤色
 
-
 #### UTF-16
 
-## HTML 符号实体
+## 用法
+
+### HTML 符号实体
 
 1. https://www.runoob.com/html/html-entities.html - *HTML 字符实体 | 菜鸟教程*
 
@@ -136,22 +143,23 @@ https://www.runoob.com/charsets/emoji-skin-tones.html  - *Emoji 肤色 | 菜鸟�
 
 | 序号 | 字符  | 实体编号（十进制）*HTML CODE*  | 实体编码（十六进制）*HEX CODE* | 实体名称 *HTML ENTITY*  | 字符描述 | 备注
 |---|---|---|---|---|---|---|
-| 1 | ` ` | `&#160;` | `&#xA0;` | `&nbsp;` | 非间断空格（non-breaking space）|
+| 1 | 空格 | `&#160;` | `&#xA0;` | `&nbsp;` | 非间断空格（non-breaking space）| [via](https://www.runoob.com/tags/html-ascii.html)
 | 2 | w | `&#119;` | `&#x2F;` | N/A | 小写字母 w | [via](https://www.runoob.com/tags/html-ascii.html)
 | 3 | / | `&#47;` | `&#x2F;` | `&sol;` | 斜杠 | [via](https://www.runoob.com/tags/html-ascii.html)
 | 4 | . | `&#46;` | `&#x2E;` | `&period;` | 句号（英文） | [via](https://www.runoob.com/tags/html-ascii.html)
 
-
-## 用法
-
-### 在 HTML 文件中使用
+#### 在 HTML 文件中使用
 
 | 方式一（直接复制） | 方式二（十进制）      | 方式三（十六进制）    |
 | ------------------ | --------------------- | --------------------- |
 | `❤`                  | &#10084; `&#10084;`   | &#x2764; `&#x2764;`   |
 | `🦁`                  | &#129409; `&#129409;` | &#x1F981; `&#x1F981;` |
 
-### 在 CSS 文件中使用
+参考：
+
+1. https://tool.oschina.net/commons?type=2 - *HTML 转义字符对照表*
+
+#### 在 CSS 文件中使用
 
 在 [CSS content 属性 | 菜鸟教程](https://www.runoob.com/cssref/pr-gen-content.html) 中使用
 
@@ -171,7 +179,15 @@ a:after {
 
 2. https://www.runoob.com/charsets/ref-emoji.html - *Emoji 参考手册 | 菜鸟教程*
 
-### HTML 特殊字符编码对照表
+#### 在 JS 中使用
+
+将单引号 `&#x27;` 替换成 `'`
+
+```js
+"Node.js® is a JavaScript runtime built on Chrome&#x27;s V8 JavaScript engine.".replace(/&#x27;/gim, "'")
+```
+
+#### HTML 特殊字符编码对照表
 
 1. https://www.toptal.com/designers/htmlarrows/ - *HTML Symbols, Entities, Characters and Codes — HTML Arrows*
 
@@ -180,3 +196,15 @@ a:after {
 3. https://www.cnblogs.com/grootbaby/p/13827869.html - *HTML特殊字符编码对照表 —— （一） - 格鲁特baby - 博客园*
 
 4. https://www.cnblogs.com/grootbaby/p/13827868.html - *HTML特殊字符编码对照表 —— （二） - 格鲁特baby - 博客园*
+
+### 文本编码
+
+https://support.microsoft.com/zh-cn/office/在打开和保存文件时选择文本编码-60d59c21-88b5-4006-831c-d536d42fd861 - *在打开和保存文件时选择文本编码 - Microsoft 支持*
+
+参考：
+
+1. https://segmentfault.com/a/1190000007073776 - *linux（Mac）下查看文件编码及修改编码 - hello, world - SegmentFault 思否*
+
+2. https://blog.csdn.net/SimonSucks/article/details/106112069 - *Linux查看文件编码格式_linux 查看文件编码格式-CSDN博客*
+
+3. https://jingyan.baidu.com/article/375c8e198ce21564f3a22934.html - *win10怎么查看文本文件编码格式-百度经验*

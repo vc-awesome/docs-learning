@@ -1,4 +1,6 @@
-## 关键词搜索
+# 仿站工具
+
+## 搜索
 
 百度搜索词：
 
@@ -13,52 +15,42 @@
 - 针对整站
 
 
-## 安装包
+## 安装
 
-1. Teleport Ultra
+1. 👍 小飞兔（ _收费功能更完善_ ）
 
-    http://www.tenmax.com/teleport/ultra/download.htm/
+    - https://www.xftsoft.com/ - *【小飞兔下载 V21.5】 - 小飞兔软件*
 
-2. Teleport Pro（ _电脑管家 / 收费_ ）
+    - https://smalltool.github.io/ - *【下载工具】仿站小工具 v11.1 | 仿站工具*
 
-3. 👍 小飞兔（ _收费功能更完善_ ）
+2. [Teleport Ultra](http://www.tenmax.com/teleport/ultra/download.htm/)
 
-    https://www.xftsoft.com/
+3. Teleport Pro（ _电脑管家 / 收费_ ）
 
-    https://smalltool.github.io/
+4. [Offline Explorer](https://metaproducts.com/)（ _电脑管家/收费_ ）
 
-4. Offline Explorer（ _电脑管家/收费_ ）
-
-    https://metaproducts.com/
-
-5. WebZip
-
-    https://www.onlinedown.net/soft/19648.htm
+5. [WebZip](https://www.onlinedown.net/soft/19648.htm)
 
 
-## 浏览器扩展程序
+## 浏览器扩展
 
-- Save All Resources
+- Save All Resources [Chrome](https://www.crxsoso.com/webstore/detail/abpdnfjocnmdomablahdcfnoggeeiedb)
 
-     https://github.com/up209d/ResourcesSaverExt - *GitHub - up209d/ResourcesSaverExt: Chrome Extension for one click downloading all resources files and keeping folder structures.*
-     
-     ![GitHub last commit](https://flat.badgen.net/github/last-commit/up209d/ResourcesSaverExt?icon=github&color=blue)
+     - https://github.com/up209d/ResourcesSaverExt - *GitHub - up209d/ResourcesSaverExt: Chrome Extension for one click downloading all resources files and keeping folder structures.*
 
-    https://www.crxsoso.com/webstore/detail/abpdnfjocnmdomablahdcfnoggeeiedb
+         ![GitHub last commit](https://badgen.net/github/last-commit/up209d/ResourcesSaverExt?icon=github&color=blue)
+         ![GitHub Repo stars](https://img.shields.io/github/stars/up209d/ResourcesSaverExt?style=social)
 
-    via https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法 - 掘金*
+    - via https://juejin.cn/post/6844904079903195150#heading-19 - *提升 Chrome 使用效率的 30个快捷键、16个扩展插件与 11个前端调试方法 - 掘金*
 
 
 ## 在线工具
 
-1. https://bazhan.wang/ - *在线扒站工具-在线扒站官网网页源码打包下载手机扒站_仿站工具*
+1. https://bazhan.wang/ - *在线扒站工具-在线扒站官网_网页源码打包下载_手机扒站_仿站工具*
 
+2. https://wget.fit/ - *在线仿站工具-Wget.Fit*
 
-## 参考链接
-
-https://blog.csdn.net/weixin_42514606/article/details/88431772 - *扒站工具推荐*
-
-如何优雅的扒网站
+如何优雅的扒网站：
 
 1. https://www.cnblogs.com/zuoshoupai/p/8276741.html - *如何优雅的扒网站——工具篇*
 

@@ -1,2 +1,5 @@
 * [代码片段](snippets/README.md)
+* [应用模板](snippets/app-list-template)
 * [角标](snippets/badge.md)
+* [CSS](snippets/css.md)
+* [JavaScript](snippets/javascript.md)

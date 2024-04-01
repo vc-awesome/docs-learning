@@ -1,7 +1,7 @@
 root = true
 
 [*]
-max_line_length = 100
+# max_line_length = 100
 end_of_line = lf
 indent_style = space
 charset = utf-8
@@ -12,7 +12,8 @@ insert_final_newline = true
 indent_size = 2
 
 [*.html]
-indent_size = 4
+# indent_size = 4
+indent_size = 2
 
 [*.{js,json}]
 indent_size = 2
@@ -43,4 +44,4 @@ indent_style = tab
 
 [*.md]
 trim_trailing_whitespace = false
-indent_style = tab
+indent_style = space

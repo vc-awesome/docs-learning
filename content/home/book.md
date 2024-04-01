@@ -1,3 +1,8 @@
+# 学习资源
+
+![](https://usercontent.githubfast.com/camo/d069971a0af4d9e393066dc77ced000cff23a1f6bbfbb9e7704a870192a926ca/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f66726565636f646563616d702f776964652d736f6369616c2d62616e6e65722e706e67)
+<small>*Picture source: [GitHub](https://github.com/freeCodeCamp)*</small>
+
 ## 书籍
 
 1. https://www.bookstack.cn/ - *书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！*
@@ -12,14 +17,31 @@
     ![GitHub last commit](https://img.shields.io/github/last-commit/justjavac/free-programming-books-zh_CN?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/free-programming-books-zh_CN?style=social)
 
-3. https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
+3. https://github.com/ruanyf/free-books - *GitHub - ruanyf/free-books: 互联网上的免费书籍*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/free-books?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/free-books?style=social)    
+
+4. https://www.kancloud.cn/special - *专题 · 看云*
+
+5. https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
 
 
 ## 博客
 
 ### 阮一峰的网络日志
 
-http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志*
+http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志* [GitHub](https://github.com/ruanyf)
+
+https://github.com/ruanyf/weekly - *GitHub - ruanyf/weekly: 科技爱好者周刊，每周五发布*
+
+![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/weekly?icon=github&color=blue)
+
+https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal articles*
+
+![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/articles?icon=github&color=blue)
+
+分类：
 
 - https://www.ruanyifeng.com/blog/javascript/ - *分类：JavaScript - 阮一峰的网络日志*
 - https://www.ruanyifeng.com/blog/developer/ - *分类：开发者手册 - 阮一峰的网络日志*
@@ -81,20 +103,25 @@ http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志*
 
 ### 前端
 
+https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程师培训材料*
+
+![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/jstraining?icon=github&color=blue)
+
 #### MDN Web Docs
 
 > **MDN Web Docs**（旧称Mozilla Developer Network、Mozilla Developer Center，简称MDN）是一个汇集众多Mozilla基金会产品和网络技术开发文档的**免费网站**。
 
+![GitHub last commit](https://badgen.net/github/last-commit/mdn/content?icon=github&color=blue)
+
 https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
+https://github.com/mdn/ - *MDN Web Docs · GitHub*
 
 #### 网道 - 互联网开发文档
 
-https://github.com/wangdoc - *wangdoc · GitHub*
+ [网道 - 互联网开发文档](https://wangdoc.com/) - *网道（WangDoc.com）是一个文档网站，提供互联网开发文档，正在建设中。* [GitHub](https://github.com/wangdoc)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/website?icon=github&color=blue)
-
-https://wangdoc.com/ - *网道 - 互联网开发文档*
 
 阅读：
 
@@ -103,6 +130,21 @@ https://wangdoc.com/ - *网道 - 互联网开发文档*
 1  | [HTML 教程](https://www.wangdoc.com/html/)  | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
 2  | [JavaScript 教程（*ES5*）](https://www.wangdoc.com/javascript/)  | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
 3  | [ES6 教程](https://www.wangdoc.com/es6/)  | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+4  | 更多教程访问 [wangdoc · GitHub](https://github.com/wangdoc)  | 
+
+
+#### The Modern JavaScript Tutorial
+
+[现代 JavaScript 教程](https://zh.javascript.info/) - *现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。* [GitHub](https://github.com/javascript-tutorial/en.javascript.info)
+
+![GitHub last commit](https://badgen.net/github/last-commit/javascript-tutorial/en.javascript.info?icon=github&color=blue)
+
+
+#### 冴羽的博客
+
+1. https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*
+
+    ![](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
 
 
 #### 更多
@@ -125,19 +167,15 @@ https://wangdoc.com/ - *网道 - 互联网开发文档*
 
 ---
 
-1. https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*
-
-    ![](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
-
-2. https://github.com/paddingme/Front-end-Web-Development-Interview-Question - *前端开发面试题大收集，前端面试集锦 ❤️*
+1. https://github.com/paddingme/Front-end-Web-Development-Interview-Question - *前端开发面试题大收集，前端面试集锦 ❤️*
 
     ![](https://badgen.net/github/last-commit/paddingme/Front-end-Web-Development-Interview-Question?icon=github&color=blue)
 
-3. https://github.com/markyun/My-blog - *马云云的Github博客，记录一些学习的片段。*
+2. https://github.com/markyun/My-blog - *马云云的Github博客，记录一些学习的片段。*
 
     ![](https://badgen.net/github/last-commit/markyun/My-blog?icon=github&color=blue)
 
-4. https://github.com/ljianshu/Blog - *GitHub - ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者*
+3. https://github.com/ljianshu/Blog - *GitHub - ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/ljianshu/Blog?icon=github&color=blue)
 

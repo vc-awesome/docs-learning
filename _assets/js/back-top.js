@@ -1,4 +1,4 @@
-/*!
+/**
  * docsify-backTop
  * v2.1.1
  * Forked from https://github.com/Sumsung524/docsify-backTop

@@ -1,3 +1,5 @@
 * [技术栈](/tech-stack/)
 * [微信](tech-stack/weixin.md)
-* [阿里云](tech-stack/aliyun.md) 
+* [支付宝](tech-stack/alipay.md)
+* [阿里云](tech-stack/aliyun.md)
+* [Google](tech-stack/google.md)

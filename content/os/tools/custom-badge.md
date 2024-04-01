@@ -69,10 +69,10 @@
         const _that = this;
         _that.$copyText(_that.image.src).then(function (e) {
           _that.$message({message: 'URL Copied', type: 'success'});
-          console.log(e)
+          // console.log(e)
         }, function (e) {
           alert('Can not copy')
-          console.log(e)
+          // console.log(e)
         })
       },
       handleCommand(command, url = '') {
@@ -81,58 +81,58 @@
           const text = "![GitHub last commit](" + _that.image.src_1 + ")";
           _that.$copyText(text).then(function (e) {
             // _that.$message({message: 'Markdown Copied', type: 'success'});
-            console.log(e)
+            // console.log(e)
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "aa") {
           const text = "![GitHub last commit](" + _that.image.src_2 + ")";
           _that.$copyText(text).then(function (e) {
             // _that.$message({message: 'Markdown Copied', type: 'success'});
-            console.log(e)
+            // console.log(e)
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "b") {
           _that.$copyText(_that.message).then(function (e) {
             // _that.$message({message: 'GitHub Copied', type: 'success'});
-            console.log(e)
+            // console.log(e)
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "c") {
           _that.$copyText(_that.image.src_1).then(function (e) {
             // _that.$message({message: 'URL Copied', type: 'success'});
-            console.log(e)
+            // console.log(e)
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "cc") {
           _that.$copyText(_that.image.src_2).then(function (e) {
             // _that.$message({message: 'URL Copied', type: 'success'});
-            console.log(e)
+            // console.log(e)
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "d") {
           _that.$copyText(url).then(function (e) {
             // _that.$message({message: 'URL Copied', type: 'success'});
-            console.log(e)
+            // console.log(e)
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "copyExtUrl") {
           _that.$copyText(_that.ext.image.src).then(function (e) {
             // _that.$message({message: 'URL Copied', type: 'success'});
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         } else if (command == "copyExtMd") {
           const text = `![Chrome Web Store](${_that.ext.image.src}) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/${_that.ext.id}?style=social)`;
@@ -140,7 +140,7 @@
             // _that.$message({message: 'URL Copied', type: 'success'});
           }, function (e) {
             alert('Can not copy')
-            console.log(e)
+            // console.log(e)
           })
         }
         _that.command = command;
@@ -163,7 +163,7 @@
           _that.alert.type_1 = "success";
           _that.alert.type_2 = "warning";
           _that.dropdown.disabled = false;
-          console.log(url);
+          // console.log(url);
           // console.log('submit!');
         }
         catch(err) {
@@ -207,7 +207,7 @@
           }
         }
         this.message = textPlain;
-        console.log(textPlain)
+        // console.log(textPlain)
         this.onSubmit();
         return { textHtml, textPlain }
       },
@@ -226,7 +226,7 @@
           }
         }
         this.url = textPlain;
-        console.log(url);
+        // console.log(url);
         return { textHtml, textPlain };
       },
       async getClipboardTextExt() {
@@ -365,6 +365,17 @@
 2. https://docsify.js.org/#/vue - *Vue compatibility*
 3. https://element.eleme.cn/#/zh-CN - *Element - 网站快速成型工具*
 4. https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
+5. https://badgen.net/ - *badgen.net*
+
+使用的技术：
+
+1. _assets/clipboard-code-block.css
+    - https://clipboardjs.com/bower_components/primer-css/css/primer.css 中的 `tooltipped`
+2. https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css
+3. https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css
+4. https://fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js
+5. https://fastly.jsdelivr.net/npm/element-ui/lib/index.js
+6. https://fastly.jsdelivr.net/npm/vue-clipboard2@latest/dist/vue-clipboard.min.js
 
 
 ## 生成 Chrome Web Store 徽章

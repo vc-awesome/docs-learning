@@ -1,4 +1,6 @@
 - [广告过滤](topic/ad-filter.md)
 - [视频](topic/video.md)
 - [体育](topic/sport.md)
-- [Google 翻译](topic/google-translate.md)
+- [翻译](topic/translate.md)
+- [调试](topic/debug.md)
+- [搜索技巧](topic/search-skill.md)

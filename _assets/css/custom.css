@@ -105,7 +105,7 @@ nav i {
 }
 /* 列表中间间隔线 -end */
 
-/* 滚动条样式 start */
+/* 滚动条样式 -start */
 ::-webkit-scrollbar {
   width: 4px;
   height: 4px;
@@ -117,7 +117,7 @@ nav i {
   background: rgba(136,136,136,0.4);
   border-radius: 2em;
 }
-/* 滚动条样式 end */
+/* 滚动条样式 -end */
 
 /* Font icon */
 .mysql-icon:before {
@@ -180,6 +180,7 @@ hr {
   content: "\f08e";
   vertical-align: text-bottom;
 }
+
 /* 代码 */
 /*@font-face {
   font-family: 'Material Icons';
@@ -249,10 +250,10 @@ code:not([class*=lang-]):not([class*=language-]):after {
   /*padding: 0.75rem;*/
   padding: 1.25rem;
 }
-.content .markdown-section pre>code {
+.content .markdown-section pre > code {
   color: inherit;
   background: inherit;
-  boder: inherit;
+  border: inherit;
   border-radius: inherit;
   margin: 0;
 }

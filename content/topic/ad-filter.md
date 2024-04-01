@@ -1,14 +1,18 @@
+# 广告
+
 ## 工具
 
 ### 在安卓应用中使用
 
 工具列表（推荐按序号顺序使用）：
+
 1. [AdGuard](os/tools/app-list.md#adguard)
 2. [AdAway](os/mobile/mobile-app-list.md#adaway)
 3. [personalDNSfilter](os/mobile/mobile-app-list.md#personalDNSfilter)
 4. [Daedalus](os/mobile/mobile-app-list.md#daedalus)
 
-配置 hosts 来源
+配置 hosts 来源：
+
 1. 有关“配置 hosts 来源”的详细信息，请参阅“[Hosts - Rules（来源）](os/tools/hosts.md#rules（来源）)”；
 2. 配置完 hosts 来源后，刷新本地缓存的有关详细信息，请参阅“[Hosts - 刷新本地 DNS-Android](os/tools/hosts.md#android)”。
 

@@ -1,8 +1,14 @@
-> MySQL 管理工具
+# Navicat
 
-~~扩展目录：[√ 编程软件/Navicat](√ 编程软件/Navicat)~~
+## 简介
 
-破解教程可查看 QQ 浏览器 mysql 书签夹
+> 强大的数据库管理和设计工具，支持 Win、macOS 和 linux。直观的 GUI 让用户简单地管理 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库。
+>
+> <cite>—— [Navicat 中国 | 支持 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库管理](https://www.navicat.com.cn/)</cite>
+
+## 官网
+
+https://www.navicat.com.cn/ - *Navicat 中国 | 支持 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库管理*
 
 ## 快速入门
 
@@ -14,17 +20,13 @@
 
 例子：
 
-`20210607_panda -正式环境`
+1. `20210607_panda -正式环境`
 
-`20210607_panda -测试环境`
-
-
+2. `20210607_panda -测试环境`
 
 ### MySQL 指定用户访问指定数据库
 
-https://www.cnblogs.com/wenxinphp/p/9876949.html
-
-用户
+用户：
 
 1. develop /用于存放开发的项目
 
@@ -42,11 +44,15 @@ https://www.cnblogs.com/wenxinphp/p/9876949.html
 
    密码：`root`
 
+参考：
+
+1. https://www.cnblogs.com/wenxinphp/p/9876949.html - *MYSQL指定用户访问指定数据库 - (BACH) - 博客园*
+
 ### 导入 SQL 大文件
 
 不勾选“在每个运行中运行多重查询”**（验证可用）**
 
-![](/Users/caiyongwen/docs-learning/content/os/tools/_images/navicat-import-01.png)
+![](./_images/navicat-import-01.png)
 
 参考链接：
 

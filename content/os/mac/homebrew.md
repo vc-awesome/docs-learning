@@ -1,16 +1,23 @@
+# Homebrew
+
 ## 简介
 
 > <img src="https://brew.sh/assets/img/homebrew.svg" alt="package icon" align="left" width="28" hspace="10" vspace="0"> The missing package manager for macOS (or Linux). Homebrew is the easiest and most flexible way to install the UNIX tools Apple didn´t include with macOS. It can also install software not packaged for your Linux distribution without requiring **sudo**.
 
+![GitHub last commit](https://img.shields.io/github/last-commit/Homebrew/brew?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Homebrew/brew?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Homebrew/brew?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Homebrew/brew?style=social)
+
 ## 官方
 
-GitHub: 
+GitHub:
 
 - https://github.com/Homebrew - *Homebrew · GitHub*
 
-Website: 
+Website:
 
-1. https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)* 
+1. https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)*
 
 2. https://brew.sh/index_zh-cn - *macOS（或 Linux）缺失的软件包的管理器 — Homebrew*
 
@@ -54,7 +61,11 @@ https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux - *Ins
 
   `brew --version`
 
-`brew update`
+- Fetch the newest version of Homebrew and all formulae from GitHub using git(1) and perform any necessary migrations.
+
+    `brew update`
+    
+    https://docs.brew.sh/Manpage#update-options - *brew(1) – The Missing Package Manager for macOS (or Linux) — Homebrew Documentation*
 
 `brew upgrade` [FORMULA|CASK...]
 
@@ -82,6 +93,9 @@ https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux - *Ins
 
 https://github.com/Homebrew/homebrew-cask - *Homebrew/homebrew-cask: 🍻 A CLI workflow for the administration of macOS applications distributed as binaries*
 
+![GitHub last commit](https://badgen.net/github/last-commit/Homebrew/homebrew-cask?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/Homebrew/homebrew-cask?style=social)
+
 - 用法：https://github.com/Homebrew/homebrew-cask/blob/master/USAGE.md - *homebrew-cask/USAGE.md at master · Homebrew/homebrew-cask · GitHub*
 
 ### 安装软件
@@ -107,9 +121,9 @@ Website:
 
 https://blog.csdn.net/H_WeiC/article/details/107857302 - *Homebrew更换国内镜像源（中科大、阿里、清华）*
 
-- https://mirrors.ustc.edu.cn/ - *USTC Open Source Software Mirror* [使用帮助](https://mirrors.ustc.edu.cn/help/brew.git.html)
-- https://mirrors.aliyun.com/homebrew/ - *homebrew安装包下载_开源镜像站-阿里云*
-- https://mirrors.tuna.tsinghua.edu.cn/ - *清华大学开源软件镜像站 | Tsinghua Open Source Mirror* [使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
+1. https://mirrors.ustc.edu.cn/ - *USTC Open Source Software Mirror* [使用帮助](https://mirrors.ustc.edu.cn/help/brew.git.html)
+2. https://mirrors.aliyun.com/homebrew/ - *homebrew安装包下载_开源镜像站-阿里云* [使用帮助](https://developer.aliyun.com/mirror/homebrew/)
+3. https://mirrors.tuna.tsinghua.edu.cn/ - *清华大学开源软件镜像站 | Tsinghua Open Source Mirror* [使用帮助](https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/)
 
 #### 查看 brew.git 当前源
 
@@ -127,45 +141,45 @@ cd "$(brew --repo homebrew/core)" && git remote -v
 
 1. 替换 brew.git:
 
-```sh
-cd "$(brew --repo)" && git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
-```
+    ```sh
+    cd "$(brew --repo)" && git remote set-url origin https://mirrors.aliyun.com/homebrew/brew.git
+    ```
 
 2. 替换 homebrew-core.git:
 
-```sh
-cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core" && git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
-```
+    ```sh
+    cd "$(brew --repo)/Library/Taps/homebrew/homebrew-core" && git remote set-url origin https://mirrors.aliyun.com/homebrew/homebrew-core.git
+    ```
 
 3. zsh 替换 homebrew-bottles 镜像，Mac OS 在 10.15 系统开始，默认的 shell 都换成了 zsh
 
-```sh
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.zshrc
-```
+    ```sh
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.zshrc
+    ```
 
 4. 修改使其立即生效
 
-```sh
-source ~/.zshrc
-```
+    ```sh
+    source ~/.zshrc
+    ```
 
 5. bash 替换 homebrew-bottles 镜像
 
-```sh
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile
-```
+    ```sh
+    echo 'export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles' >> ~/.bash_profile
+    ```
 
 6. 修改使其立即生效
 
-```sh
-source ~/.bash_profile
-```
+    ```sh
+    source ~/.bash_profile
+    ```
 
 7. 刷新源
 
-```sh
-brew update
-```
+    ```sh
+    brew update
+    ```
 
 ## 工具
 
@@ -173,7 +187,14 @@ brew update
 
 !> 2023/06/24 ，停更（latest version: 1.3.0）。
 
+![GitHub last commit](https://badgen.net/github/last-commit/brunophilipe/Cakebrew?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/brunophilipe/Cakebrew?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/brunophilipe/Cakebrew?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/brunophilipe/Cakebrew?style=social)
+
 https://formulae.brew.sh/cask/cakebrew - *cakebrew — Homebrew Formulae*
+
+https://github.com/brunophilipe/Cakebrew - *brunophilipe/Cakebrew: Manage your Homebrew formulas with style using Cakebrew.*
 
 参考：
 

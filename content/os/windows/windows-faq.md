@@ -1,4 +1,6 @@
-## 如何查看电脑端口号
+# 常见问题
+
+## 如何查看电脑端口号？
 
 方式一：
 
@@ -23,23 +25,25 @@
 3. https://jingyan.baidu.com/article/67508eb48f8436dccb1ce471.html - *怎么样建一个 `.` 开头的文件夹*
 
 
-## 如何通过局域网共享文件夹
+## 如何通过局域网共享文件夹？
 
 https://jingyan.baidu.com/article/ca2d939d2cc7acaa6c31cee1.html - *如何通过局域网共享文件夹*
 
 
-## Win10 添加开机启动项
+## Windows 10 添加开机启动项
 
-1. 按下 `win + R` 快捷键，打开运行窗口，输入 `shell:startup`，点击确定
-2. 打开启动文件夹，最后把想要添加的启动项快捷方式直接拖进这个文件夹
-3. 然后就可以看到我们将 `qq` 设置为启动项了。
+操作步骤：
+
+1. 按下 <kbd>windows</kbd> + <kbd>R</kbd> 快捷键，打开运行窗口，输入 `shell:startup`，点击确定；
+2. 打开启动文件夹，最后把想要添加的启动项快捷方式直接拖进这个文件夹；
+3. 然后就可以看到我们将 `QQ` 设置为启动项了；
 4. 我们还可以进入任务管理器中看看我们有没有添加成功。
 
 参考：
 1. https://product.pconline.com.cn/itbk/software/dnyw/1435/14351335.html - *win10开机启动项怎么添加的步骤教程*
 
 
-## Win10 如何关闭屏幕
+## Windows 10 如何关闭屏幕？
 
 https://www.zhihu.com/question/53739927 - *Win10的笔记本如何关闭屏幕？*
 
@@ -58,7 +62,11 @@ https://www.zhihu.com/question/53739927 - *Win10的笔记本如何关闭屏幕�
     http://zhidao.baidu.com/question/1835047153816954540/answer/3764697145 - *win10电脑每次唤醒屏幕都需要密码怎么弄*
 
 
-## 如何在Windows 10 中合并分区？
+## Windows 10+ 开启剪贴板
+
+https://support.microsoft.com/zh-cn/windows/剪贴板windows-c436501e-985d-1c8d-97ea-fe46ddf338c6 - *剪贴板Windows - Microsoft 支持*
+
+## 如何在 Windows 10 中合并分区？
 
 https://www.disktool.cn/jiaocheng/merge-partitions.html - *(免费)如何在Windows 10 中合并分区？*
 
@@ -66,4 +74,3 @@ https://www.disktool.cn/jiaocheng/merge-partitions.html - *(免费)如何在Wind
 ## 怎么分配空闲空间给其他分区？
 
 https://www.disktool.cn/jiaocheng/allocate-free-space.html - *怎么分配空闲空间给其他分区？*
-

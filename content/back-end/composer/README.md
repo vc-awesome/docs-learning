@@ -1,15 +1,26 @@
+# Composer
+
 ## 简介
 
 > <img src="https://camo.githubusercontent.com/9f549df9473b6abc13a0a81d0a91ae56a8d85d641ab271c25b21af450d058e44/68747470733a2f2f676574636f6d706f7365722e6f72672f696d672f6c6f676f2d636f6d706f7365722d7472616e73706172656e742e706e67" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> 是 PHP 用来管理依赖（dependency）关系的工具。你可以在自己的项目中声明所依赖的外部工具库（libraries），Composer 会帮你安装这些依赖的库文件。
+>
+> <cite>—— [Composer中文网 / Packagist中国全量镜像](https://www.phpcomposer.com/)</cite>
+
+
+![GitHub last commit](https://badgen.net/github/last-commit/composer/composer?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/composer/composer?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/composer/composer?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/composer?style=social)
 
 ## 官方
 
 Website: 
 
 1. https://getcomposer.org/ - *Composer* （官网）
+
 2. https://www.phpcomposer.com/ - *Composer 中文网 / Packagist 中国全量镜像*
 
-2. http://composer.p2hp.com/ - *Composer中文网*
+3. http://composer.p2hp.com/ - *Composer中文网*
 
 GitHub: 
 
@@ -43,19 +54,15 @@ https://packagist.org/ - *Packagist*
 
 包含文件：
 
-1. Composer安装使用.docx
-2. Composer命令使用.docx
+1. Composer 安装使用.docx
+2. Composer 命令使用.docx
 
- 
+> Via PhpStorm
 
-via phpstorm
-
-version 2020.3
+v2020.3
 
 https://www.jetbrains.com/help/phpstorm/2020.3/using-the-composer-dependency-manager.html
 
-
-
-version 2021.1
+v2021.1
 
 https://www.jetbrains.com/help/phpstorm/2021.1/using-the-composer-dependency-manager.html

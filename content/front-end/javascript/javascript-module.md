@@ -1,3 +1,20 @@
+# 模块化编程
+
+<https://v2.cn.vuejs.org/v2/guide/installation.html#对不同构建版本的解释> - _安装 — Vue.js_
+
+- https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/ - *vue CDN by jsDelivr - A free, fast, and reliable Open Source CDN*
+
+https://cn.vuejs.org/guide/quick-start.html - *快速上手 | Vue.js*
+
+- https://github.com/vuejs/core/tree/main/packages/vue#which-dist-file-to-use - *core/packages/vue at main · vuejs/core · GitHub*
+
+- https://cdn.jsdelivr.net/npm/vue@3.3.4/dist/ - *vue CDN by jsDelivr - A free, fast, and reliable Open Source CDN*
+
+---
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules - *JavaScript 模块 - JavaScript | MDN*
+
+
 ## ES Module
 
 > EcmaScript Module
@@ -7,10 +24,16 @@
 
 ## UMD
 
+> UMD (Universal Module Definition) 通用模块定义规范
+
 https://github.com/umdjs/umd - _UMD (Universal Module Definition) patterns for JavaScript modules that work everywhere._
+
+![GitHub last commit](https://badgen.net/github/last-commit/umdjs/umd?icon=github&color=blue)
 
 
 ## CommonJS
+
+> Welcome to CommonJS, a group with a goal of building up the JavaScript ecosystem for web servers, desktop and command line apps and in the browser.
 
 http://javascript.ruanyifeng.com/nodejs/module.html#toc0 - _CommonJS规范 -- JavaScript 标准参考教程（alpha）_
 
@@ -19,12 +42,20 @@ https://wiki.commonjs.org/wiki/Modules/1.1 - _Modules/1.1 - CommonJS Spec Wiki_
 
 ## CMD
 
-https://www.zhangxinxu.com/sp/seajs/ - *SeaJS - A Module Loader for the Web*
+> CMD (Common Module Definition) 公共模块定义规范
+
+[Sea.js - A Module Loader for the Web](https://seajs.github.io/seajs/docs/) - *Sea.js is a module loader for the web. It is designed to change the way that you organize JavaScript. With Sea.js, it is pleasure to build scalable web applications.* [GitHub](https://github.com/seajs/seajs) [参考-01](https://www.zhangxinxu.com/sp/seajs/)
+
+![GitHub last commit](https://badgen.net/github/last-commit/seajs/seajs?icon=github&color=blue)
 
 
 ## AMD
 
-https://requirejs.org/ - *RequireJS*
+> AMD (Asynchronous Module Definition) 异步模块定义规范
+
+[RequireJS](https://requirejs.org/) - *RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.*  [GitHub](https://github.com/requirejs/requirejs)
+
+![GitHub last commit](https://badgen.net/github/last-commit/requirejs/requirejs?icon=github&color=blue)
 
 
 ## 参考
@@ -38,4 +69,4 @@ https://requirejs.org/ - *RequireJS*
 
 1. https://www.freesion.com/article/87991328477/ - *node.js npm和包 + 搭建Http服务器 + i5ting_toc(将md文件转化为html文件) - 灰信网（软件开发博客聚合）*
 2. https://blog.csdn.net/a562550212/article/details/95751478 - _JS模块介绍_鬼谷中妖的博客-CSDN博客_js模块_
-3. <https://v2.cn.vuejs.org/v2/guide/installation.html#对不同构建版本的解释> - _安装 — Vue.js_
+

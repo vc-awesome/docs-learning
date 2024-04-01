@@ -1,26 +1,31 @@
+# Composer 安装包
+
 ## mrclay/minify
 
-?> Minify是一个用于JS和CSS资源的HTTP服务器。它压缩和组合文件，并提供适当的头，允许有条件的GET或long-Expires。
+> Minify 是一个用于 JS 和 CSS 资源的 HTTP 服务器。它压缩和组合文件，并提供适当的头，允许有条件的 GET 或 long-Expires。
 
-<i class="fa fa-github fa-lg"></i> https://github.com/mrclay/minify
+![GitHub last commit](https://badgen.net/github/last-commit/mrclay/minify?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/mrclay/minify?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mrclay/minify?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/mrclay/minify?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/mrclay/minify
+https://github.com/mrclay/minify - *GitHub - mrclay/minify: Combines. minifies, and serves CSS or Javascript files*
 
-[How to minify php page html output?](https://stackoverflow.com/questions/6225351/how-to-minify-php-page-html-output)
+https://packagist.org/packages/mrclay/minify - *mrclay/minify - Packagist*
+
+---
+
+Via [How to minify php page html output?](https://stackoverflow.com/questions/6225351/how-to-minify-php-page-html-output)
 
 第一次接触时间：2019/03/21
 
 
+常见问题：
 
-### FAQ
-
-在 *github* 获取到代码包，解压文件包后使用cli进入目录，需要运行`composer install --no-dev`，否者会报错。
-
+在 *GitHub* 获取到代码包，解压文件包后使用 CLI 进入目录，需要运行 `composer install --no-dev` ，否者会报错。
 
 
-### 参考
-
-百度搜索：PHP 的 Minify
+参考：
 
 - http://www.chinaz.com/web/2011/0511/179286.shtml - *使用Minify来优化网站性能*
 - http://www.hehaibao.com/php-minify-composer-js-css/ - *php Minify合并多个js,css文件*
@@ -30,41 +35,56 @@
 - http://www.thinkphp.cn/topic/21084.html - *ThinkPHP整合minify*
 
 
-
 ## workerman/workerman
 
-?> Workerman 是一个异步事件驱动的 PHP 框架，具有高性能，用于构建快速且可扩展的网络应用程序。 Workerman 支持 HTTP、Websocket、SSL 等自定义协议。 Workerman 支持事件扩展
+> Workerman 是一个异步事件驱动的 PHP 框架，具有高性能，用于构建快速且可扩展的网络应用程序。 Workerman 支持 HTTP、Websocket、SSL 等自定义协议。Workerman 支持事件扩展
 
-<i class="fa fa-github fa-lg"></i> https://github.com/walkor/Workerman
+![GitHub last commit](https://badgen.net/github/last-commit/walkor/Workerman?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/walkor/Workerman?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/walkor/Workerman?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/walkor/Workerman?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/workerman/workerman
+https://github.com/walkor/Workerman - *GitHub - walkor/workerman: An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols.*
+
+https://packagist.org/packages/workerman/workerman - *workerman/workerman - Packagist*
+
+---
 
 [thinkphp3.2整合workerman 多入口模式（windows）](https://www.cnblogs.com/limonyun/p/8878710.html)
 
 
-
 ## endroid/qr-code
 
-?> 二维码生成类库
+> 二维码生成类库
 
-<i class="fa fa-github fa-lg"></i> https://github.com/endroid/qr-code
+![GitHub last commit](https://badgen.net/github/last-commit/endroid/qr-code?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/endroid/qr-code?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/endroid/qr-code?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/endroid/qr-code?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/endroid/qr-code
+https://github.com/endroid/qr-code
+
+https://packagist.org/packages/endroid/qr-code
 
 
+## phpoffice/phpspreadsheet  <font color="red"><sup><small>v1.71.1</small></sup></font>
 
-## phpoffice/phpspreadsheet *1.71.1*
-
-?> A pure PHP library for reading and writing spreadsheet files  
+> A pure PHP library for reading and writing spreadsheet files  
 <i class="bi bi-translate dark-yellow"></i> 用于读取和写入电子表格文件的纯PHP库
 
-<i class="fa fa-github fa-lg"></i> https://github.com/PHPOffice/PhpSpreadsheet
+![GitHub last commit](https://badgen.net/github/last-commit/PHPOffice/PhpSpreadsheet?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/PHPOffice/PhpSpreadsheet?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/PHPOffice/PhpSpreadsheet?logo=github)
+![GitHub Repo
+stars](https://img.shields.io/github/stars/PHPOffice/PhpSpreadsheet?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/phpoffice/phpspreadsheet
+https://github.com/PHPOffice/PhpSpreadsheet
 
-<i class="fa fa-book"></i> https://phpspreadsheet.readthedocs.io/
+https://packagist.org/packages/phpoffice/phpspreadsheet
 
+https://phpspreadsheet.readthedocs.io/
 
+---
 
 设置表头
 
@@ -83,62 +103,78 @@
 保存到服务器
 
 
-
-## ~~phpoffice/phpexcel 1.8.2~~
+## ~~phpoffice/phpexcel  <font color="red"><sup><small>v1.8.2</small></sup></font>~~
 
 !> This package is **abandoned** and no longer maintained. The author suggests using the [phpoffice/phpspreadsheet](https://packagist.org/packages/phpoffice/phpspreadsheet) package instead.<br>这个包被**放弃**，不再维护。作者建议使用[phpoffice/phpspreadsheet](https://packagist.org/packages/phpoffice/phpspreadsheet)包来代替。
 
-<i class="fa fa-github fa-lg"></i> https://github.com/PHPOffice/PHPExcel
+![GitHub last commit](https://badgen.net/github/last-commit/PHPOffice/PHPExcel?icon=github&color=blue)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/PHPOffice/PHPExcel?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/PHPOffice/PHPExcel?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/phpoffice/phpexcel
+https://github.com/PHPOffice/PHPExcel
 
-[利用PHPExcel 实现excel数据的导入导出（源码实现）](https://www.cnblogs.com/cyfblogs/p/10115541.html)
+https://packagist.org/packages/phpoffice/phpexcel
 
-[PHPExcel 中文使用手册详解](https://blog.csdn.net/chenlix/article/details/82853698)
+---
 
+- [利用PHPExcel 实现excel数据的导入导出（源码实现）](https://www.cnblogs.com/cyfblogs/p/10115541.html)
+
+- [PHPExcel 中文使用手册详解](https://blog.csdn.net/chenlix/article/details/82853698)
 
 
 ## topthink/think-queue
 
-?> ThinkPHP6 队列包
+> ThinkPHP6 队列包
 
-<i class="fa fa-github fa-lg"></i> https://github.com/top-think/think-queue
+![GitHub last commit](https://badgen.net/github/last-commit/top-think/think-queue?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/top-think/think-queue?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think-queue?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think-queue?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/topthink/think-queue
+https://github.com/top-think/think-queue
 
-### FAQ
+https://packagist.org/packages/topthink/think-queue
 
-消息队列扩展插件 think-queue3.0 在Thinkphp6.0 redis windows server 2008 宝塔面板中使用cmd命令行执行“监听并执行队列消息”时出现redis扩展未安装的问题
+---
 
-- 安装了2个及以上的php版本，而环境变量中设置的另一个php版本未安装redis扩展导致异常发生
+常见问题：
 
-- 使用php -version 检查当前cli模式中的php版本
+消息队列扩展插件 think-queue3.0 在 Thinkphp6.0 redis windows server 2008 宝塔面板中使用 cmd 命令行执行“监听并执行队列消息”时出现 redis 扩展未安装的问题
 
-- 如当前cli模式的php版本未安装redis扩展，安装redis扩展
+- 安装了 2 个及以上的 php 版本，而环境变量中设置的另一个 php 版本未安装 redis 扩展导致异常发生；
 
-- 如当前cli模式的php版本不是当前项目的php版本，环境变量切换至当前项目的php版本
+- 使用 `php -version` 检查当前 cli 模式中的 php 版本；
 
-### 参考
+- 如当前 cli 模式的 php 版本未安装 redis 扩展，安装 redis 扩展；
 
-[thinkphp Redis问题](https://segmentfault.com/q/1010000015308180)
+- 如当前 cli 模式的 php 版本不是当前项目的 php 版本，环境变量切换至当前项目的 php 版本。
 
-[使用redis队列，总是提示redis模块没有安装](https://www.thinkphp.cn/topic/57717.html)
 
-[分明我的php已经装了redis扩展，为何程序还是报未安装呢](https://www.imooc.com/qadetail/276873?t=446643)
+参考：
 
+- [thinkphp Redis问题](https://segmentfault.com/q/1010000015308180)
+
+- [使用redis队列，总是提示redis模块没有安装](https://www.thinkphp.cn/topic/57717.html)
+
+- [分明我的php已经装了redis扩展，为何程序还是报未安装呢](https://www.imooc.com/qadetail/276873?t=446643)
 
 
 ## zewail/think-api
 
-?> 帮助 thinkphp 5 开发者快速、轻松的构建Api🎉🎉🎉
+> 帮助 thinkphp 5 开发者快速、轻松的构建 Api 🎉🎉🎉
 
-<i class="fa fa-github fa-lg"></i> https://github.com/czewail/think-api
+![GitHub last commit](https://badgen.net/github/last-commit/czewail/think-api?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/czewail/think-api?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/czewail/think-api?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/czewail/think-api?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/zewail/think-api
+https://github.com/czewail/think-api
 
+https://packagist.org/packages/zewail/think-api
 
+---
 
-### http响应
+HTTP 响应
 
 ```php
 return ApiResponse::success('Success', 200);
@@ -160,9 +196,9 @@ $users = User::paginate(10);
 return ApiResponse::paginator($users);
 ```
 
-### JWT
+JWT
 
-创建token
+创建 token
 
 ```php
 # 方式一
@@ -181,14 +217,20 @@ $token = JWT::encode($payload);
 ```
 
 
-
 ## hashids/hashids
 
-?> 从数字生成简短、唯一、非连续的 ID（如 YouTube 和 Bitly）
+> 从数字生成简短、唯一、非连续的 ID（如 YouTube 和 Bitly）
 
-<i class="fa fa-github fa-lg"></i> https://github.com/vinkla/hashids
+![GitHub last commit](https://badgen.net/github/last-commit/vinkla/hashids?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/vinkla/hashids?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinkla/hashids?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vinkla/hashids?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/hashids/hashids
+https://github.com/vinkla/hashids
+
+https://packagist.org/packages/hashids/hashids
+
+---
 
 ```php
 /**
@@ -207,8 +249,6 @@ function encode_invite_code($member_id)
     return $hashids->encode($member_id);
 }
 ```
-
-
 
 ```php
 /**
@@ -229,15 +269,21 @@ function decode_invite_code($invite_code)
 ```
 
 
+## phpmailer/phpmailer  <font color="red"><sup><small>v6.5.1</small></sup></font>
 
-## phpmailer/phpmailer *6.5.1*
-
-?> PHPMailer is a full-featured email creation and transfer class for PHP.  
+> PHPMailer is a full-featured email creation and transfer class for PHP.  
 <i class="bi bi-translate dark-yellow"></i> PHPMailer是一个全功能的PHP电子邮件创建和传输类。
 
-<i class="fa fa-github fa-lg"></i> https://github.com/PHPMailer/PHPMailer
+![GitHub last commit](https://badgen.net/github/last-commit/PHPMailer/PHPMailer?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/PHPMailer/PHPMailer?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/PHPMailer/PHPMailer?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/PHPMailer/PHPMailer?style=social)
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> https://packagist.org/packages/phpmailer/phpmailer
+https://github.com/PHPMailer/PHPMailer
+
+https://packagist.org/packages/phpmailer/phpmailer
+
+---
 
 ```php
 /**
@@ -294,4 +340,3 @@ protected function sendGmail($to_email, $message)
     }
 }
 ```
-

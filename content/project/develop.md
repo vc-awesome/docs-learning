@@ -1,3 +1,5 @@
+# 项目开发与部署
+
 ## 部署
 
 ### 伪静态
@@ -8,7 +10,7 @@
 
 文件名：`nginx.htaccess`
 
-文件描述：Nginx用户配置文件
+文件描述：Nginx 用户配置文件
 
 ```nginx
 location / {
@@ -18,13 +20,11 @@ location / {
 }
 ```
 
-
-
 #### **Apache**
 
 文件名：`.htaccess`
 
-文件描述：Apache用户配置文件（伪静态）
+文件描述：Apache 用户配置文件（伪静态）
 
 ```bash
 <IfModule mod_rewrite.c>
@@ -37,39 +37,29 @@ location / {
 </IfModule>
 ```
 
-
-
 <!-- tabs:end -->
 
-### PHP版本
+### PHP 版本
 
 - 7.2
 - 7.3 ✔️
 - 7.4 🐞
 
-
-
-### PHP扩展
+### PHP 扩展
 
 - gmp
 - scrypt
 - redis
 
-
-
-### MySQL版本
+### MySQL 版本
 
 - 5.7.32
 
-
-
 ### 文件上传
 
-Linux系统设置项目根目录`public`文件夹权限为`757`或`777`
+Linux 系统设置项目根目录 `public` 文件夹权限为 `757` 或 `777`
 
-Linux系统设置项目根目录`runtime`文件夹权限为`757`或`777`
-
-
+Linux 系统设置项目根目录 `runtime` 文件夹权限为 `757` 或 `777`
 
 ### 账号密码
 
@@ -81,25 +71,23 @@ Linux系统设置项目根目录`runtime`文件夹权限为`757`或`777`
 
 链接：`http://5gadmin.tikwaipro.com/xpigaeecdateasdtdgrryrxdgw.html`
 
-账号：steam-administrator
+账号：`steam-administrator`
 
-密码：ssa,2021.01#14
+密码：`ssa,2021.01#14`
 
-短信验证码：210114
+短信验证码：`210114`
 
 ##### **测试**
 
 链接：`http://5g.test/admin/index/login`
 
-账号：admin
+账号：`admin`
 
-密码：12345678
+密码：`12345678`
 
-短信验证码：210114
+短信验证码：`210114`
 
 <!-- tabs:end -->
-
-
 
 #### 前端接口
 
@@ -107,36 +95,32 @@ Linux系统设置项目根目录`runtime`文件夹权限为`757`或`777`
 
 ##### **正式**
 
-api `http://5gapi.tikwaipro.com/`
-
-
+`http://5gapi.tikwaipro.com/`
 
 ##### **测试**
 
-api-ip `http://192.168.2.7/`
+IP 方式：`http://192.168.2.7/`
 
-api-domain `http://5g.test/`
+Domain 方式：`http://5g.test/`
 
 <!-- tabs:end -->
-
-
 
 ### 宝塔
 
 #### 软件
 
-- Supervisor管理器 2.2
-
-
+- Supervisor 管理器 `2.2`
 
 ### 定时任务
 
 <!-- tabs:start -->
 
-#### **Shell脚本**
+#### **Shell 脚本**
 
-任务名称：`<项目名> - [<控制器名> -] 发放静态收益`  
-执行周期：每天`00`时`01`分  
+任务名称：`<项目名> - [<控制器名> -] 发放静态收益`
+
+执行周期：每天 `00` 时 `01` 分
+
 脚本内容：
 
 ```bash
@@ -144,60 +128,47 @@ cd /home/wwwroot/falcon
 php think release static
 ```
 
+#### **访问 URL**
 
+任务名称：`<项目名> - [<控制器名> -] 签到挖矿`
 
-任务名称：`<项目名> - [<控制器名> -] 发放动态收益`  
-执行周期：每天`00`时`05`分  
-脚本内容：
+执行周期：每隔 `1` 分钟执行
 
-```bash
-cd /home/wwwroot/falcon
-php think release countMemberYesterdayBonus
-```
-
-
-
-#### **访问URL**
-
-任务名称：`<项目名> - [<控制器名> -] 签到挖矿`  
-执行周期：每隔`1`分钟执行  
-URL地址：`http://taskakq122.dstnetwork.top/income/static`
+URL 地址：`http://taskakq122.dstnetwork.top/income/static`
 
 <!-- tabs:end -->
 
+#### **数据库备份**
 
+### 常见问题
 
-### FAQ
+#### 项目部署至宝塔面板报错 Warning: require(): open_basedir...
 
-#### 项目部署至宝塔面板报错Warning: require(): open_basedir...
+原因：
 
-部署时宝塔默认设置了目录防跨域攻击(open_basedir)
+1. 部署时，宝塔默认设置了目录防跨域攻击（open_basedir）
 
-在根目录找到user.ini文件
+操作步骤：
 
-文件描述：PHP用户配置文件（防跨站）
+1. 在根目录找到 `user.ini` 文件
 
-1. `open_basedir=/home/wwwroot/www.thinkphp.cn/public/:/tmp/:/proc/`去掉 `public` 修改为`open_basedir=/home/wwwroot/www.thinkphp.cn/:/tmp/:/proc/`
+    文件描述：PHP 用户配置文件（防跨站）
 
-   
+2. 将 `open_basedir=/home/wwwroot/www.thinkphp.cn/public/:/tmp/:/proc/` 去掉 `public` 修改为：`open_basedir=/home/wwwroot/www.thinkphp.cn/:/tmp/:/proc/`
 
-2. 重启web服务器
+3. 重启 Web 服务器
 
+参考链接：
 
+1. <https://www.cnblogs.com/kinwing/p/11105010.html> - *open_basedir restriction in effect,解决php引入文件权限问题 解决方法 - KinwingHU - 博客园*
 
-> **参考链接**
+2. <https://blog.csdn.net/qq_42249896/article/details/87108146> - *宝塔部署项目报Warning: require(): open_basedir restriction in effect的解决方案-CSDN博客*
 
-<https://www.cnblogs.com/kinwing/p/11105010.html>
+#### Thinkphp5 项目部署至 linux 服务器出现模板不存在的错误
 
-<https://blog.csdn.net/qq_42249896/article/details/87108146>
+本地 *Windows* 系统开发没有任何问题
 
-
-
-#### Thinkphp5项目部署至linux服务器出现模板不存在的错误
-
-本地*Windows*系统开发没有任何问题
-
-*Windows*不区分文件的大小写，*linux*区分文件的大小写
+*Windows* 不区分文件的大小写，*Linux* 区分文件的大小写
 
 将所有渲染出来的模板文件名及文件夹改成小写
 
@@ -205,31 +176,27 @@ URL地址：`http://taskakq122.dstnetwork.top/income/static`
 
 **正常**：  `$this->fetch("me");$this->view("me");{extend name="user:me"}`
 
+参考链接：
 
-
-> **参考链接**
-
-<https://blog.csdn.net/example440982/article/details/71218986>
-
-
+1. <https://blog.csdn.net/example440982/article/details/71218986> - *thinkphp5踩坑之部署到服务器模板不存在-CSDN博客*
 
 #### No input file specified
 
-Linux系统拷贝下来的Thinkphp5源码报 `No input file specified.` 错误
+Linux 系统拷贝下来的 ThinkPHP5 源码报 `No input file specified.` 错误
 
-删除访问目录`public`下的 `.user.ini` 文件
-
-
+删除访问目录 `public` 下的 `.user.ini` 文件
 
 ## 开发
 
+### 需求文档
+
 ### 进度
 
-> `√` 已完成
->
-> `...` 部分未完成
->
-> 未完成
+`√` 已完成
+
+`...` 部分未完成
+
+未完成
 
 <!-- tabs:start -->
 
@@ -242,8 +209,6 @@ Linux系统拷贝下来的Thinkphp5源码报 `No input file specified.` 错误
   - [x] 短信验证码接入
 - [x] 发送短信
 
-
-
 #### **会员模块**
 
 - [x] 修改登录密码
@@ -252,55 +217,50 @@ Linux系统拷贝下来的Thinkphp5源码报 `No input file specified.` 错误
 
 <!-- tabs:end -->
 
-### composer
-
-`composer require simplito/elliptic-php` 1.0.7
-
-`composer require kornrunner/keccak` 
-
-
-
-### UI设计
-
-UI = `用户界面`
+### UI 设计
 
 [蓝湖](https://lanhuapp.com/web/#/item/project/stage?pid=b94c273a-9cb6-4258-bf2c-1e99fb0ab2a0 )
 
+### API 文档
 
+URI：[ShowDoc](https://www.showdoc.com.cn/1223970633701498?page_id=6166293618111531 "steam")
 
-### API文档
+访问密码：`123456`
 
-uri：[ShowDoc](https://www.showdoc.com.cn/1223970633701498?page_id=6166293618111531 "steam")
+### Composer
 
-访问密码：123456
+1. `composer require simplito/elliptic-php` 1.0.7
 
+2. `composer require kornrunner/keccak`
 
-
-### git 仓库
+### Git 仓库
 
 `git@code.aliyun.com:caiyongwen_09/Steam.git`
 
-
-
 ### 需求更新
 
-> steam业绩修改，页面修改，钱包名字改一下名字（USDT钱包，S钱包，T钱包，F钱包）充提接口改为TRC20，明天早上打包测试
+1. Steam 业绩修改，页面修改，钱包名字改一下名字（USDT钱包，S钱包，T钱包，F钱包）充提接口改为TRC20，明天早上打包测试。
 
-steam业绩方式更改
+2. Steam 业绩方式更改
 
-> `分配大中小区 > 伞下`
+    `分配大中小区 > 伞下`
 
-钱包名字更改
+3. 钱包名字更改
 
->`USDT > USDT [ev_price_i_info]`  
->`猎鹰钱包 > S钱包 [ev_price_c_info]`  
->`TT钱包 > T钱包 [ev_price_f_info]`  
->`TR钱包 > F钱包 [ev_price_b_info]`
+    `USDT > USDT [ev_price_i_info]`
+    
+    `猎鹰钱包 > S钱包 [ev_price_c_info]`
+    
+    `TT钱包 > T钱包 [ev_price_f_info]`
+    
+    `TR钱包 > F钱包 [ev_price_b_info]`
 
-充提接口更改
+4. 充提接口更改
 
-> `ERC20_USDT > TRC20_USDT`
->
-> `TRC20`：波场  
-> `ERC20`：以太坊
+    `ERC20_USDT > TRC20_USDT`
 
+    `TRC20`：波场
+    
+    `ERC20`：以太坊
+
+### 版本更新日志

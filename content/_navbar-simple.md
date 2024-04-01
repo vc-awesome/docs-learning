@@ -1,104 +1,121 @@
-- [Quick 🥰](/)
-    - [snippets <font color="red">ᴴᴼᵀ</font>](snippets/README.md)
-    - [badge](snippets/badge.md)
-    - [portal <font color="red">ᴴᴼᵀ</font>](_portal.md)
-    - [Document Template <font color="red">ᴴᴼᵀ</font>](home/document-template.md)
-    - [﹊ _Web Tools](https://wangchujiang.com/tools/)
-    - [docsify](os/tools/docsify.md)
-    - [﹊ _docsify](https://docsify.js.org/)
-    - <hr />
-    - <a href="index-theme-vue.html" target="_blank">Latest Version</a>
-    - <a href="simple.html">Simple Version</a>
-- [Home](home/README.md)
-    - **_常用文档_**
-    - [学习资源](home/book.md)
-    - [注意事项](home/README.md#warning)
-    - [Icon font](front-end/iconfont.md)
-    - [Bootstrap](framework/README.md#bootstrap-🔥)
-    - [版本号](home/semver.md)
-    - [Glossary](home/README.md#术语表)
-    - [源码解读](home/code-analysis.md)
-    - <hr />
-    - [TOC](home/toc.md)
-    - [Emoji](home/emoji.md)
-    - [Mirror](os/mirror.md)
-    - [中英译](home/chinese-english-translate.md)
-    - [设备传输](os/tools/app-list.md#跨端传输)
-- Daily tools
-    - [GitHub](os/tools/github.md)
-    - [Git](os/tools/git.md)
-    - [Markdown](os/tools/markdown.md)
-    - <hr />
-    - [Command](os/linux/linux%20指令)
-    - [Homebrew](os/mac/homebrew.md)
-    - [﹊ _Homebrew Formulae](https://formulae.brew.sh/)
-    - [Termux](os/mobile/termux.md)
-    - [Vim](os/linux/vim.md)
-    - [VS Code](os/tools/visual-studio-code.md)
-    - [Sublime Text](os/tools/sublime-text.md)
-- [Essentials](essential/README.md)
-    - [硬件设备](essential/hardware.md)
-    - **_PROGRAM_**
-    - [加密](essential/crypto.md)
-    - [设计模式](essential/design-pattern/README.md)
-    - [身份认证](essential/identity.md)
-    - [cURL](essential/curl.md)
-    - [正则表达式](essential/pcre.md)
-    - [API](essential/api.md)
-    - **_NETWORK_**
-    - [Internet](essential/internet.md)
-    - [Server](essential/hosting.md)
-    - [HTTP](essential/http.md)
-    - [Hosts](os/tools/hosts.md)
-    - [DNS](essential/dns.md)
-    - [VPN](os/tools/vpn.md)
-    - [IP](essential/ip.md)
-- [Front-end](front-end/README.md)
-    - [HTML](front-end/html/README.md)
-    - [CSS](front-end/css/README.md)
-    - [JavaScript](front-end/javascript/README.md)
-    - <hr />
-    - [jQuery](front-end/jquery.md)
-    - [Node.js](front-end/node.js/README.md)
-    - [NPM](front-end/node.js/npm.md)
-    - [Vue.js](front-end/vue/README.md)
-    - <hr />
-    - [uni-app](front-end/uniapp/README.md)
-    - [Android](front-end/android.md)
-    - <hr />
-    - [产品设计](front-end/design/README.md)
-    - [Icon font](front-end/iconfont.md)
-    - [CDN](front-end/cdn.md)
-- [Back-end](back-end/README.md)
-    - [PHP](back-end/php/README.md)
-    - [ThinkPHP](back-end/thinkphp/README.md)
-    - [Composer](back-end/composer/README.md)
-    - <hr />
-    - [Go]()
-    - [Python]()
-    - <hr />
-    - [Nginx](back-end/nginx.md)
-    - [Apache](back-end/apache.md)
-    - [Docker](back-end/docker.md)
-    - <hr />
-    - [Travis-CI](back-end/travis-ci.md)
-- Database
-    - [MySQL](database/mysql/README.md)
-    - [Redis](database/redis/README.md)
-    - [MongoDB](database/mongodb.md)
+- [QUICK <sup>🥰</sup>](/)
+  - [Todo List <font color="red">ᵀᴼᴾ</font>](todo.md)
+  - [_portal](_portal.md)
+  - [Table of Content](dir-tree.md)
+  - <hr />
+  - [Document Template <font color="red">ᴴᴼᵀ</font>](home/document-template.md)
+  - [snippets <font color="red">ᴴᴼᵀ</font>](snippets/README.md)
+  - [\- app list template](snippets/app-list-template.md)
+  - [\- badge](snippets/badge.md)
+  - [&nbsp;&nbsp;\- 徽章](snippets/badge.md#徽章)
+  - [Internet Speed Test](https://speed.cloudflare.com/)
+  - <hr />
+  - <a href="index-theme-vue.html" target="_blank">Latest Version</a>
+  - <a href="https://vc-awesome.github.io/docs-learning/" target="_blank">Simple Version <font color="red"><sup>gh-pages</sup></font></a>
+- [HOME](home/README.md)
+  <!-- - **_常用文档_** -->
+  - [学习资源 <font color="red">ᴴᴼᵀ</font>](home/book.md)
+  - [搜索技巧](home/search-skill.md)
+  - <hr />
+  - [源码分析](home/code-analysis.md)
+  - [注意事项](home/warning.md)
+  - [版本号](home/semver.md)
+  - [术语表/词汇表](home/glossary.md)
+  - [中英译](home/chinese-english-translate.md)
+  - <hr />
+  - [目录结构 <font color="red">ᴴᴼᵀ</font>](home/toc.md)
+  - [Emoji](home/emoji.md)
+- DAILY TOOL
+  - [AI <font color="red">ᴴᴼᵀ</font>](os/tools/ai.md)
+  - [Shortcut Key](os/README.md#快捷键)
+  - [GitHub](os/tools/github.md)
+  - [Git](os/tools/git.md)
+  - [Markdown](os/tools/markdown.md)
+  - [CLI - Linux](os/linux/linux-command.md)
+  - [Termux](os/mobile/termux.md)
+  - <hr />
+  - [Alfred <font color="red">ᴴᴼᵀ</font>](os/mac/alfred.md)
+  - [Homebrew](os/mac/homebrew.md)
+  - [<font color="var(--theme-color, #42b983);">**_>_**</font> _Formulae](https://formulae.brew.sh/)
+  - [Visual Studio Code <font color="red">ᴴᴼᵀ</font>](os/tools/visual-studio-code.md)
+  - [Sublime Text](os/tools/sublime-text.md)
+  - [PhpStorm](os/tools/phpstorm.md)
+  - [Vim](os/linux/vim.md)
+  - <hr />
+  - [Mirror](os/mirror.md)
+- [ESSENTIAL](essential/README.md)
+  - [硬件设备](essential/hardware.md)
+  - **_PROGRAM_**
+  - [编码通用 <font color="red">ᴴᴼᵀ</font>](essential/code-common.md)
+  - [编码规范 <font color="red">ᴴᴼᵀ</font>](essential/code-guide.md)
+  - [命名规则 <font color="red">ᴴᴼᵀ</font>](essential/code-naming-rule.md)
+  - [加密](essential/crypto.md)
+  - [设计模式](essential/design-pattern/README.md)
+  - [身份认证](essential/identity.md)
+  - [cURL](essential/curl.md)
+  - [URL](essential/url.md)
+  - [正则表达式](essential/regex.md)
+  - [API](essential/api.md)
+  - **_NETWORK_**
+  - [Internet](essential/network/internet.md)
+  - [Server](essential/hosting.md)
+  - [HTTP](essential/network/http.md)
+  - [Hosts](os/tools/hosts.md)
+  - [DNS](essential/network/dns.md)
+  - [VPN](os/tools/vpn.md)
+  - [IP](essential/network/ip.md)
+- [FRONT-END](front-end/README.md)
+  - [HTML](front-end/html/README.md)
+  - [CSS](front-end/css/README.md)
+  - [┕ CSS 手册](front-end/css/css-naming-rule.md)
+  - [JavaScript](front-end/javascript/README.md)
+  - [┝ DOM](front-end/javascript/javascript-dom.md)
+  - [┕ BOM](front-end/javascript/javascript-bom.md)
+  - [TypeScript 🚧]()
+  - [JSON](front-end/README.md#json)
+  - <hr />
+  - [jQuery <font color="red"><sup><small>v3.7.1</small></sup></font>](front-end/jquery.md)
+  - [┕ 插件](front-end/jquery.md#插件)
+  - [Node.js <font color="red"><sup><small>v21.0.0</small></sup></font>](front-end/node.js/README.md)
+  - [┝ NPM](front-end/node.js/npm.md)
+  - [┕ Modules](front-end/node.js/nodejs-modules)
+  - [Vue.js <font color="red"><sup><small>v3.3.4</small></sup></font>](front-end/vue/README.md)
+  - <hr />
+  - [uni-app <font color="red">ᵛᵘᵉ</font>](front-end/uniapp/README.md)
+  - [Android](front-end/android.md)
+  - <hr />
+  - [产品设计](front-end/design/README.md)
+  - [Icon font](front-end/iconfont.md)
+  - [CDN](front-end/cdn.md)
+- [BACK-END](back-end/README.md)
+  - [PHP <font color="red"><sup><small>v8.2.11</small></sup></font>](back-end/php/README.md)
+  - [ThinkPHP <font color="red"><sup><small>v8.0.0</small></sup></font>](back-end/thinkphp/README.md)
+  - [Composer <font color="red"><sup><small>v2.6.5</small></sup></font>](back-end/composer/README.md)
+  - <hr />
+  - [Go 🚧]()
+  - [Python 🚧]()
+  - <hr />
+  - [Nginx](back-end/nginx.md)
+  - [Apache](back-end/apache.md)
+  - <hr />
+  - [Docker](back-end/docker.md)
+  - [Travis-CI](back-end/travis-ci.md)
+- [DATABASE](database/README.md)
+  - [MySQL](database/mysql/README.md)
+  - [Redis](database/redis/README.md)
+  - [MongoDB](database/mongodb.md)
 - [OS <font color="red">ᴴᴼᵀ</font>](os/README.md)
   - [Windows](os/windows/README.md)
   - [Linux](os/linux/README.md)
   - [Mac](os/mac/README.md)
   - [Mobile](os/mobile/README.md)
-  - [应用商店](os/app-store.md)
   - <hr />
   - **_TOOLS_**
   - [Overview](os/tools/README.md)
   - [Search](os/tools/search.md)
   - <hr />
   - [Desktop Tools](os/tools/app-list.md)
-  - [Mobile Tools](os/mobile/mobile-app-list.md)
+  - [Mobile Tools](os/mobile/app-list.md)
   - [Web Tools](os/tools/web-app.md)
   - <hr />
   - [Browser](os/tools/browser.md)
@@ -107,16 +124,24 @@
   - <hr />
   - [Badge](os/tools/custom-badge.md)
   - [Search](os/tools/custom-search.md)
-- More
-    - [BlockChain](blockchain/README.md)
-    - [Project DevOps](project/README.md)
-    - <hr />
-    - [TechStack](tech-stack/README.md)
-    - [开发框架](framework/README.md)
-    - [功能列表](function-list/README.md)
-    - <hr />
-    - [阿里云](tech-stack/aliyun.md)
-    - [微信](tech-stack/weixin.md)
-    - [Google](tech-stack/google.md)
+- MORE
+  - [BlockChain](project/blockchain/README.md)
+  - [Project DevOps](project/README.md)
+  - <hr />
+  - [TechStack](tech-stack/README.md)
+  - [开发框架 <font color="red">ᴴᴼᵀ</font>](project/framework/README.md)
+  - [\- JavaScript 插件](project/framework/javascript-plugins.md)
+  - [&nbsp;&nbsp;\- RequireJS <font color="red"><sup><small>v2.3.6</small></sup></font>](project/framework/javascript-plugins.md#requirejs)
+  - [\- Bootstrap <font color="red"><sup><small>v5.3.2</small></sup></font>](project/framework/README.md#bootstrap-🔥)
+  - [\- Amaze UI <font color="red"><sup><small>v2.7.2</small></sup></font>](project/framework/README.md#amaze-ui)
+  - [\- Vant <font color="red"><sup><small>v4.7.2 , vue</small></sup></font>](project/framework/README.md#vant-🔥)
+  - [\- Element UI <font color="red"><sup><small>v2.4.1 , vue</small></sup></font>](project/framework/README.md#element-ui-🔥)
+  - [\- Layui <font color="red"><sup><small>v2.8.17</small></sup></font>](project/framework/README.md#layui)
+  - [功能和优化](project/function-list/README.md)
+  - <hr />
+  - [阿里云](tech-stack/aliyun.md)
+  - [微信](tech-stack/weixin.md)
+  - [Google](tech-stack/google.md)
+---
 
 [svg-icon-home]: https://icongo.github.io/icons/ir/home-alt-slim-horiz.svg

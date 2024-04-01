@@ -1,0 +1,42 @@
+# scope: markdown
+snippet gha
+	![GitHub last commit](https://badgen.net/github/last-commit/${1}?icon=github&color=blue)
+	![GitHub Release Date](https://img.shields.io/github/release-date/${1}?logo=github)
+	![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/${1}?display_date=published_at&logo=github)
+	![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/${1}?logo=github)
+	![GitHub tag (with filter)](https://img.shields.io/github/v/tag/${1}?logo=github&color=blue)
+	![npm](https://img.shields.io/npm/v/?logo=npm)
+	![GitHub Repo stars](https://img.shields.io/github/stars/${1:${SELECTED_TEXT}}?style=social)
+
+snippet intro
+	## 简介
+	
+	> 
+	>
+	> <cite>—— </cite>
+
+snippet ghlc
+	![GitHub last commit](https://badgen.net/github/last-commit/${1}?icon=github&color=blue)
+
+snippet test
+regex /a/for/
+	${1:/a/dd/g}EventListener
+
+snippet rp
+#regex /^/=+/=*//
+	
+	
+	${1:[Tor Bridges – Telegram](https://t.me/s/tor_bridges )}${0}
+	${1/\[([^\]]+)\]\(([^\(]+)\)/${2} - *${1}*/g}
+	
+
+snippet ===
+regex /^/=+/=*//
+	${PREV_LINE/./=/g}
+	
+	${0}
+
+snippet st
+	(function(${1}) {
+		${0:${SELECTED_TEXT:/* code */}}
+	}(${1}));

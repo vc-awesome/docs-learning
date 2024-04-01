@@ -1,0 +1,81 @@
+/* 外链图标 -start */
+
+:not(header a):not(footer .social-link a)[target="_blank"]::after {
+  display: inline-block;
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+
+  /* font-size: inherit; */
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\f08e";
+
+  /* vertical-align: middle; */
+}
+
+/* 外链图标 -end */
+
+/* Word break -start */
+
+a {
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+}
+
+/* Word break -end */
+
+/* 滚动条样式 -start */
+
+::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, .4);
+  border-radius: 2em;
+}
+
+/* 滚动条样式 -end */
+
+hr {
+  /* margin: 1rem 0;
+  color: inherit; */
+  border: 0;
+
+  /* border-top: 1px solid;
+  opacity: .25; */
+
+  /* custom */
+  border-top: 1px solid rgba(128, 128, 128, .25);
+}
+
+/* Firefox：nav 导航栏，有垂直滚动条时，防止内容溢出导致横向滚动
+   参考：https://v2.vuejs.org/
+*/
+
+/* .app-nav li:hover ul {
+  scrollbar-width: none;
+} */
+
+.app-nav li ul li {
+  margin: 8px 0;
+}
+
+.app-nav li ul a,
+.app-nav li ul li > strong {
+  padding: 0 24px 0 20px;
+}
+
+/* 覆写侧边栏按钮的样式，使其在整个屏幕边缘可点击 */
+body:not(.close) .sidebar-toggle {
+  z-index: 11;
+  top: 0;
+  bottom: 0;
+}
+
+body:not(.close) .sidebar-toggle-button {
+  position: absolute;
+  bottom: 10px;
+}

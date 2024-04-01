@@ -1,15 +1,20 @@
+# DOM
+
 ## 简介
 
 > 当网页被加载时，浏览器会创建页面的文档对象模型（Document Object Model）。
 
 ## 教程
 
-https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
+1. https://wangdoc.com/javascript/dom/ - *DOM - JavaScript 教程 - 网道*
 
-https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model - *文档对象模型 (DOM) - Web API 接口参考 | MDN*
+2. https://www.runoob.com/js/js-htmldom.html - *JavaScript HTML DOM | 菜鸟教程*
 
-## 查找 HTML 元素
+3. https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model - *文档对象模型 (DOM) - Web API 接口参考 | MDN*
 
+## 用法
+
+### 查找 HTML 元素
 
 ```javascript
 document.getElementById();
@@ -27,14 +32,13 @@ document.getElementsByClassName();
 document.querySelector();
 ```
 
-## 改变 HTML
+### 改变 HTML
 
 - 改变 HTML 输出流
   
   ```javascript
   document.write();
   ```
-
 
 - 改变 HTML 内容
   
@@ -44,7 +48,6 @@ document.querySelector();
   document.getElementById(id).innerHTML = 新的 HTML
   ```
 
-
 - 改变 HTML 属性
   
   语法：
@@ -53,14 +56,13 @@ document.querySelector();
   document.getElementById(id).attribute = 新属性值
   ```
 
-  
   实例：
 
   ```javascript
   document.getElementById("image").src = "landscape.jpg";`
   ```
 
-## 获取 CSS
+### 获取 CSS
 
 语法：
 
@@ -84,16 +86,14 @@ demo.color
 1. https://m.jb51.net/article/89961.htm - *原生js获取元素样式的简单方法_javascript技巧_脚本之家*
 2. https://www.baidu.com/s?word=Js查看元素样式 - *Js查看元素样式 - 百度*
 
+### 改变 CSS
 
-
-## 改变 CSS
-
-### 通过 style 属性改变
+#### 通过 style 属性改变
 
 https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 菜鸟教程*
 
 - 改变 HTML 样式
-  
+
   语法：
 
   ```javascript
@@ -105,7 +105,7 @@ https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 
   ```javascript
   document.getElementById("p2").style.color = "blue";
   ```
-  
+
 - 移除样式
 
   语法：
@@ -120,7 +120,7 @@ https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 
   document.getElementsByTagName("H1")[0].removeAttribute("style");
   ```
 
-### 通过 class 属性改变
+#### 通过 class 属性改变
 
 https://www.runoob.com/jsref/prop-element-classList.html - *HTML DOM classList 属性 | 菜鸟教程*
 
@@ -141,16 +141,28 @@ https://www.runoob.com/jsref/prop-element-classList.html - *HTML DOM classList �
   ```javascript
   document.querySelector('body').classList.toggle('close');
   ```
+
   *👆 给 body 标签新增 close 类。*
 
 ⚠️ 具体用法点击上方链接进入页面查看。
 
+### 获取元素内容
 
-## 创建 HTML 元素
+```javascript
+document.getElementById(id).innerHTML;
+```
+
+```javascript
+document.getElementById("intro").childNodes[0].nodeValue;
+```
+
+### 获取元素宽高
+
+### 创建 HTML 元素
 
 https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素 (节点)*
 
-- 创建新的 HTML 元素 (节点) - appendChild()
+- 创建新的 HTML 元素 (节点) - `appendChild()`
 
   ```javascript
   var para = document.createElement("p");
@@ -160,7 +172,7 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
   element.appendChild(para);
   ```
 
-- 创建新的 HTML 元素 (节点)
+- 创建新的 HTML 元素 (节点) [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Node/insertBefore)
 
   ```javascript
   element.insertBefore();
@@ -172,39 +184,43 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
   element.removeChild(element);
   ```
 
-- 替换 HTML 元素 - replaceChild()
+- 替换 HTML 元素 - `replaceChild()`
 
   ```javascript
   element.replaceChild(new_element, old_element);
   ```
 
-## HTML DOM 事件
+### HTML DOM 事件
 
-- HTML 事件属性
+https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events - *事件介绍 - 学习 Web 开发 | MDN*
 
-  ```html
-  <button onclick="this.innerHTML='Ooops!'">点击</button>
-  ```
+- 3 种方式
 
-- 使用 HTML DOM 来分配事件
+  - 方式 1 ：HTML 事件属性
 
-  ```javascript
-  <script>
-    document.getElementById("myBtn").onclick = function(){
-      displayDate();
-    };
-  </script>
-  ```
+    ```html
+    <button onclick="this.innerHTML='Ooops!'">点击</button>
+    ```
 
-- 使用 [EventListener](#EventListener) 来监听事件
+    - 方式 2 ：使用 HTML DOM 来分配事件
 
-  ```js
-  <script>
-    document.getElementById("myBtn").addEventListener("click", function(){
-      displayDate();
-    });
-  </script>
-  ```
+      ```javascript
+      <script>
+        document.getElementById("myBtn").onclick = function(){
+          displayDate();
+        };
+      </script>
+      ```
+
+    - 方式 3 ：使用 [EventListener](#EventListener) 来监听事件
+
+      ```js
+      <script>
+        document.getElementById("myBtn").addEventListener("click", function(){
+          displayDate();
+        });
+      </script>
+      ```
 
 - 事件
 
@@ -258,9 +274,11 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
 
     \> 以上代码会执行一次（执行最新添加的 someOtherFunction 点击事件）。
 
-### 事件委托？
+#### 事件委托
 
-## EventListener
+https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events#事件委托 - *事件介绍 - 学习 Web 开发 | MDN*
+
+### EventListener
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#options - *EventTarget.addEventListener() - Web API 接口参考 | MDN*
 
@@ -268,28 +286,29 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#op
 
 https://www.runoob.com/js/js-htmldom-eventlistener.html - _JavaScript HTML DOM EventListener | 菜鸟教程_
 
-语法：  
+语法：
+
 ```javascript
 element.addEventListener(event, function, useCapture);
 ```
+
 ```javascript
 element.removeEventListener(event, function, useCapture);
 ```
 
-### DOMContentLoaded 事件
+#### DOMContentLoaded 事件
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document/DOMContentLoaded_event - *Document: DOMContentLoaded 事件 - Web API 接口参考 | MDN*
 
-### onhashchange 事件
+#### onhashchange 事件
 
 https://www.wenmayi.com/post/607.html - *用JS实现监听URL地址变化的教程 - 文蚂蚁*
 
-## 监听 DOM 变化
+### 监听 DOM 变化
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver - *MutationObserver - Web API 接口参考 | MDN*
 
 https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的MutationObserver - 个人文章 - SegmentFault 思否*
-
 
 ## 对象
 
@@ -300,11 +319,20 @@ https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的Mut
 https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 | 菜鸟教程*
 
 常用方法：
-1. [document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html) - 向文档添加句柄
-2. [document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html) - 返回文档中匹配指定的CSS选择器的第一元素（[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector)）
-3. [document.querySelectorAll()](https://www.runoob.com/jsref/met-document-queryselectorall.html) - document.querySelectorAll() 是 HTML5中引入的新方法，返回文档中匹配的CSS选择器的所有元素节点列表
 
-### 元素对象
+1. [document.getElementById(\)](https://www.runoob.com/jsref/met-document-getelementbyid.html) - *getElementById () 方法可返回对拥有指定 ID 的第一个对象的引用*
+
+2. [document.addEventListener(\)](https://www.runoob.com/jsref/met-document-addeventlistener.html) - *向文档添加句柄*
+
+3. [document.querySelector(\)](https://www.runoob.com/jsref/met-document-queryselector.html) - *返回文档中匹配指定的CSS选择器的第一元素* [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector)
+
+4. [Element.querySelector()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/querySelector) - *返回与指定的选择器组匹配的元素的后代的第一个元素。*
+
+5. [document.querySelectorAll()](https://www.runoob.com/jsref/met-document-queryselectorall.html) - *document.querySelectorAll() 是 HTML5中引入的新方法，返回文档中匹配的CSS选择器的所有元素节点列表* [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelectorAll)
+
+6. [Element.querySelectorAll()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/querySelectorAll) - *返回一个 non-live 的 [NodeList](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/NodeList), 它包含所有元素的非活动节点，该元素来自与其匹配指定的 CSS 选择器组的元素。(基础元素本身不包括，即使它匹配。)*
+
+### 元素（Element）对象
 
 https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象 | 菜鸟教程*
 
@@ -352,17 +380,22 @@ https://www.runoob.com/jsref/dom-htmlcollection.html - *DOM HTMLCollection | 菜
 
 https://www.runoob.com/js/js-htmldom-nodelist.html - *JavaScript HTML DOM 节点列表 | 菜鸟教程*
 
+## 优化
+
+https://wangdoc.com/javascript/bom/engine#加载使用的协议 - *浏览器环境概述 - JavaScript 教程 - 网道*
+
 ## Form 对象
 
-https://www.runoob.com/jsref/dom-obj-form.html - *HTML DOM Form 对象 | 菜鸟教程*
+1. https://wangdoc.com/javascript/elements/form - *<form> 元素 - JavaScript 教程 -
+网道*
+
+2. https://www.runoob.com/jsref/dom-obj-form.html - *HTML DOM Form 对象 | 菜鸟教程*
 
 表单 `enctype` 属性：
 
 1. 默认属性：`application/x-www-form-urlencoded`，只处理表单域中的value属性值，采用这种编码的方式的表单会将表单域的值处理成 url 编码方式
 2. `multipart/form-data`，这种编码方式的表单会以二进制流的方法来处理表单数据。这种编码方式会将文件域指定文件的内容也封装到请求参数里
 3. `text/plain`，这种方式主要适用于直接通过表单发送邮件的方式
-
-
 
 ### FormData 对象
 

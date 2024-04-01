@@ -1,3 +1,4 @@
+# Markdown
 
 ## 简介
 
@@ -6,10 +7,9 @@ Markdown 语言在 2004 由约翰·格鲁伯（英语：[John Gruber](https://da
 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。  
 Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
-
 ## 使用场景
 
-*Markdown* 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。
+**Markdown** 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。
 
 - 静态网站
 - 文件资料
@@ -20,30 +20,67 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 - 协作
 - 文档
 
-
 ## 工具
 
-!> 📢 软件功能优先查看官方文档。
+> 📢 软件功能优先查看官方文档。
 
-https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
+1. https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
+
+2. https://github.com/topics/markdown-editor - *markdown-editor · GitHub Topics · GitHub*
 
 在线编辑器：
 
-1. ~~[MdEditor](http://www.mdeditor.com/)~~
+1. [Dillinger](https://dillinger.io/) - *Online Markdown Editor - Dillinger, the Last Markdown Editor ever.*
 
-2. [Dillinger](https://dillinger.io/) - *Online Markdown Editor - Dillinger, the Last Markdown Editor ever.*
+2. [StackEdit](https://stackedit.io/app) - *StackEdit* [GitHub](https://github.com/benweet/stackedit)
 
-3. [StackEdit](https://stackedit.io/app) - *StackEdit*
+    ![GitHub last commit](https://badgen.net/github/last-commit/benweet/stackedit?icon=github&color=blue)
 
+3. [markdown-it demo](https://markdown-it.github.io/) - *markdown-it demo* [GitHub](https://github.com/markdown-it/markdown-it)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/markdown-it/markdown-it?icon=github&color=blue)
+
+4. [Editor.md](http://editor.md.ipandao.com/) - *Editor.md - 开源在线 Markdown 编辑器* [GitHub](https://github.com/pandao/editor.md)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/pandao/editor.md?icon=github&color=blue)
+
+5. https://github.com/Tencent/cherry-markdown - *GitHub - Tencent/cherry-markdown: ✨ A Markdown Editor*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/Tencent/cherry-markdown?icon=github&color=blue)
+
+6. ~~[MdEditor](http://www.mdeditor.com/)~~
 
 应用编辑器：
 
-1. [Typora](os/tools/app-list#markdown-Typora)
+1. [Typora](os/tools/app-list#markdown-Typora) （桌面客户端）
 
-2. [Markor](os/mobile/README.md#markor)
+2. [Markor](os/mobile/mobile-app-list.md#markor) （移动客户端）
 
 有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app-list.md#markdown-工具)”。
 
+规范：
+
+1. https://commonmark.org/ - *CommonMark* [GitHub Org](https://github.com/commonmark)
+
+2. https://github.com/markdown-it/markdown-it - *GitHub - markdown-it/markdown-it: Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/markdown-it/markdown-it?icon=github&color=blue)
+
+## 主题
+
+1. https://sspai.com/post/43873 - *简单又好看，你的 Markdown 文稿也能加上个性化主题 - 少数派*
+
+2. https://theme.typora.io/ - *Themes Gallery — Typora* [中文](https://theme.typoraio.cn/)
+
+3. https://sspai.com/post/59450 - *如何自定义你的 typora 主题，以少数派为例 - 少数派*
+
+    - https://github.com/sheilaCat/typora-theme-css - *GitHub - sheilaCat/typora-theme-css*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/sheilaCat/typora-theme-css?icon=github&color=blue)
+
+4. https://zhuanlan.zhihu.com/p/361486179 - *Typora打造最适合编程笔记的精美主题（浅色版和修改后的深色版），可自行修改喜欢的样式。 - 知乎*
+
+5. https://zhuanlan.zhihu.com/p/133863913 - *一份精美的Typora主题 - 知乎*
 
 ## 教程
 
@@ -52,9 +89,8 @@ https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
 1. https://www.markdownguide.org/ - *Markdown 指南*
 2. https://www.markdown.xyz/ - *Markdown 指南中文版*
 3. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
+    ![GitHub last commit](https://badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
 4. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
-
-----
 
 博文：
 
@@ -62,7 +98,6 @@ https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
 2. https://www.jianshu.com/p/49dd84559d3b - *Markdown 语法 with Typora*
 3. https://www.jianshu.com/p/b30955885e6d - *Typora Markdown 手册*
 4. https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
-
 
 ## 基本语法
 
@@ -72,26 +107,23 @@ https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
 
 #### **空格**
 
-在输入连续的空格后，Typora 会在编辑器视图里为你保留这些空格，但当你打印或导出时，这些空格会被省略成一个。 
+在输入连续的空格后，Typora 会在编辑器视图里为你保留这些空格，但当你打印或导出时，这些空格会被省略成一个。
+
 你可以在源代码模式下，为每个空格前加一个 `\` 转义符，或者直接使用 HTML 风格的 `&nbsp;` 来保持连续的空格。
-
-
 
 #### **软换行**
 
-<kbd>Shift</kbd> + <kbd>Enter</kbd>
+用法：使用键盘快捷键 <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
-需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
+需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。
 
-
+在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
 
 #### **硬换行**
 
-<kbd>空格</kbd> + <kbd>空格</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
+用法：使用键盘快捷键 <kbd>空格</kbd> + <kbd>空格</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
 你可以通过 `空格 + 空格 + Shift + Enter` 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
-
-
 
 #### **换段**
 
@@ -99,14 +131,15 @@ https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
 
   你可以通过 `Enter` 完成一次换段。Typora 会自动帮你完成两次 `Shift + Enter` 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
 
-- 换段 连续两次 <kbd>Shift</kbd> + <kbd>Enter</kbd> 
+- 换段
+
+  连续两次 <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
 <!-- tabs:end -->
 
-**Windows 风格（CR+LF）与 Unix 风格（CR）的换行符：**CR 表示回车 `\r` ，即回到一行的开头，而 LF 表示换行 `\n` ，即另起一行。 
-所以 Windows 风格的换行符本质是「回车 + 换行」，而 Unix 风格的换行符是「换行」。这也是为什么 Unix / Mac 系统下的文件，如果在 Windows 系统直接打开会全部在同一行内。 你可以在 `文件 - 偏好设置 - 编辑器 - 默认换行符` 中对此进行切换。
+**Windows 风格（CR+LF）与 Unix 风格（CR）的换行符：**
 
-
+因为 CR 表示回车 `\r` ，即回到一行的开头，而 LF 表示换行 `\n` ，即另起一行，所以 Windows 风格的换行符本质是「回车 + 换行」，而 Unix 风格的换行符是「换行」。这也是为什么 Unix / Mac 系统下的文件，在 Windows 系统直接打开会全部在同一行内。 你可以在 Typora 的 `文件 - 偏好设置 - 编辑器 - 默认换行符` 设置中对此进行切换。
 
 ### 链接
 
@@ -116,13 +149,9 @@ https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
 
 My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
-
-
 #### 添加标题
 
 [Duck Duck Go](https://duckduckgo.com  "The best search engine for privacy")
-
-
 
 #### 网址和电子邮件地址
 
@@ -130,18 +159,14 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 <fake@example.com>
 
-
-
 #### 引用式链接
 
 [John Gruber][df1]
 
 [JavaScript Location 对象][JavaScript Location 对象]
 
-[JavaScript Location 对象]: https://www.runoob.com/jsref/met-loc-reload.html	"Location reload()方法"
-[df1]: http://daringfireball.net/projects/markdown	"Hobbit lifestyles"
-
-
+[JavaScript Location 对象]: https://www.runoob.com/jsref/met-loc-reload.html "Location reload()方法"
+[df1]: http://daringfireball.net/projects/markdown "Hobbit lifestyles"
 
 #### **Markdown**
 
@@ -165,8 +190,6 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 <!-- tabs:end -->
 
-
-
 ### 图片
 
 <!-- tabs:start -->
@@ -189,12 +212,12 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
     <figcaption>A single track trail outside of Albuquerque, New Mexico.</figcaption>
 </figure>
 
-
 图片说明参考：https://www.markdownguide.org/hacks/#image-captions
 
 #### 引用式图片
 
 目前已知 3 种引用方式：
+
 - 方式 1、本地路径：`*.jpeg`
 - 方式 2、URL：`https://*`
 - 方式 3、图片 Base64 编码：`data:URL`
@@ -259,8 +282,6 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 <!-- tabs:end -->
 
-
-
 ### 段落元素
 
 <!-- tabs:start -->
@@ -271,21 +292,13 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 <strong>标签</strong>
 
-
-
 *斜体*
 
 _this text is surrounded by literal asterisks_
 
-
-
 ~~删除线~~
 
-
-
 <u>下划线</u>
-
-
 
 #### **Markdown**
 
@@ -305,19 +318,17 @@ _this text is surrounded by literal asterisks_
 
 <!-- tabs:end -->
 
-
-
 #### 代码 / 代码块
 
 <!-- tabs:start -->
 
 ##### **Rendered**
 
-*代码*
+*代码：*
 
 Use the `printf()` function.
 
-*代码块*
+*代码块：*
 
 ```
 {
@@ -327,9 +338,7 @@ Use the `printf()` function.
 }
 ```
 
-
-
-*语法高亮*
+*语法高亮：*
 
 ```json
 {
@@ -358,17 +367,17 @@ Add as many paragraphs as you like.
 + https://clients2.google.com/service/update2/crx?response=redirect&x=id%3Diheapfheanfjcemgneblljhaebonakbg%26uc&prodversion=32
 ```
 
-注：*可在工具 Typora 或者 [GitHub](https://github.com/jaywcjlove/oscnews/blob/e06905d5e134c5665ab76f866eba3abccc2029ce/README.md?plain=1#L81C1-L84C4) 中查看上面代码块不一样的渲染效果*。
+扩展：*可在工具 Typora 或者 [GitHub](https://github.com/jaywcjlove/oscnews/blob/e06905d5e134c5665ab76f866eba3abccc2029ce/README.md?plain=1#L81C1-L84C4) 中查看上面代码块（diff）不一样的渲染效果*。
 
 ##### **Markdown**
 
-*代码*
+*代码：*
 
 ```markdown
 Use the `printf()` function.
 ```
 
-*代码块*
+*代码块：*
 
 ````markdown
 ```
@@ -380,9 +389,7 @@ Use the `printf()` function.
 ```
 ````
 
-
-
-*语法高亮*
+*语法高亮：*
 
 > - 语法语言  
 >   命令行语言：`sh`、`shell`、`bash`、`powershell`
@@ -397,11 +404,7 @@ Use the `printf()` function.
 ```
 ~~~
 
-
-
 <!-- tabs:end -->
-
-
 
 #### HTML 标签
 
@@ -411,50 +414,32 @@ Use the `printf()` function.
 
 <code style="color: #c7254e;">`underline`</code>
 
-
-
 <span style="color:red">This text is red.</span>
-
-
 
 <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>
 
-
-
-*键盘*
+*键盘：*
 
 <kbd>Ctrl</kbd> + <kbd>F9</kbd>
 
-
-
 HTML entities like &reg; &#182;
-
-
 
 <details>
  <summary>I have keys but no locks. I have space but no room. You can enter but can't leave. What am I?</summary>
  A keyboard.
 </details>
 
-
-
 <details>
 <summary><span style="color:red">Click to Expand ~</span></summary>
 Color is red.
 </details>
 
+*iframe：*
 
-
-*iframe*
-
-<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
-
-
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='https://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-
 
 ##### **Markdown**
 
@@ -462,13 +447,9 @@ Color is red.
 <code style="color: #c7254e;">`underline`</code>
 ```
 
-
-
 ```markdown
 <span style="color:red">This text is red.</span>
 ```
-
-
 
 ```html
 <style>
@@ -478,27 +459,19 @@ Color is red.
 </style>
 ```
 
-
-
 ```markdown
 <ruby> 漢 <rt> ㄏㄢˋ </rt> </ruby>
 ```
 
-
-
-*键盘*
+*键盘：*
 
 ```markdown
 <kbd>Ctrl</kbd> + <kbd>F9</kbd>
 ```
 
-
-
 ```markdown
 HTML entities like &reg; &#182;
 ```
-
-
 
 ```html
 <details>
@@ -507,15 +480,11 @@ HTML entities like &reg; &#182;
 </details>
 ```
 
-
-
-*iframe*
+*iframe：*
 
 ```html
-<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='http://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
+<iframe height='265' scrolling='no' title='Fancy Animated SVG Menu' src='https://codepen.io/jeangontijo/embed/OxVywj/?height=265&theme-id=0&default-tab=css,result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
 ```
-
-
 
 ```html
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote>
@@ -524,41 +493,33 @@ HTML entities like &reg; &#182;
 
 <!-- tabs:end -->
 
-
-
 ### 列表
 
 <!-- tabs:start -->
 
 #### **Rendered**
 
-*有序列表*
+*有序列表：*
 
 1. 序号1
 2. 序号2
 3. 序号3
 
-
-
-*无序列表*
+*无序列表：*
 
 - 序号1
 - 序号2
 - 序号3
 
-
-
-*任务列表*
+*任务列表：*
 
 - [x] 任务1
 - [ ] 任务2
 - [ ] 任务3
-
-
 
 #### **Markdown**
 
-*有序列表*
+*有序列表：*
 
 ```markdown
 1. 序号1
@@ -566,9 +527,7 @@ HTML entities like &reg; &#182;
 3. 序号3
 ```
 
-
-
-*无序列表*
+*无序列表：*
 
 ```markdown
 - 序号1
@@ -576,9 +535,7 @@ HTML entities like &reg; &#182;
 - 序号3
 ```
 
-
-
-*任务列表*
+*任务列表：*
 
 ```markdown
 - [x] 任务1
@@ -586,11 +543,7 @@ HTML entities like &reg; &#182;
 - [ ] 任务3
 ```
 
-
-
 <!-- tabs:end -->
-
-
 
 ### 水平分隔线
 
@@ -604,8 +557,6 @@ HTML entities like &reg; &#182;
 
 ___
 
-
-
 #### **Markdown**
 
 ```markdown
@@ -616,11 +567,7 @@ ___
 ___
 ```
 
-
-
 <!-- tabs:end -->
-
-
 
 ### 转义字符
 
@@ -646,20 +593,18 @@ ___
 
 > *TOC* 是 *Table of Contents* 的缩写
 
-
-
 <!-- tabs:start -->
 
 #### **Rendered**
 
-下列的*渲染效果*仅在`Typora`编辑器可见
+下列的 *渲染效果* 在 `Typora` 编辑器可见（注：去掉中括号 `[]` 内的反引号 ` 查看效果）。
 
-[TOC]
+[`TOC]
 
 #### **Markdown**
 
 ```markdown
-[TOC]
+[`TOC]
 ```
 
 <!-- tabs:end -->
@@ -675,14 +620,12 @@ ___
 | Header    | Title       |
 | Paragraph | Text        |
 
-*对齐*
+*对齐：*
 
 | Syntax    | Description |   Test Text |
 | :-------- | :---------: | ----------: |
 | Header    |    Title    | Here's this |
 | Paragraph |    Text     |    And more |
-
-
 
 #### **Markdown**
 
@@ -693,7 +636,7 @@ ___
 | Paragraph   | Text        |
 ```
 
-*对齐*
+*对齐：*
 
 ```markdown
 | Syntax      | Description | Test Text     |
@@ -710,7 +653,7 @@ ___
 
 #### **Rendered**
 
-*复制并粘贴表情符号*
+*复制并粘贴表情符号：*
 
 [emojipedia](https://emojipedia.org/ "简单地从 Emojipedia 等来源复制表情符号，然后将其粘贴到文档中。")
 
@@ -718,7 +661,7 @@ ___
 
 🎅🐶
 
-*使用表情符号的简码*
+*使用表情符号的简码：*
 
 [表情符号简码列表](https://gist.github.com/rxaviers/7360908 "请记住，表情符号的简码随着 Markdown 应用程序的不同而不同。")
 
@@ -730,13 +673,13 @@ That is so funny! :joy:
 
 #### **Markdown**
 
-*复制并粘贴表情符号*
+*复制并粘贴表情符号：*
 
 ```markdown
 🎅🐶
 ```
 
-*使用表情符号的简码*
+*使用表情符号的简码：*
 
 ```markdown
 Gone camping! :tent: Be back soon.
@@ -748,8 +691,6 @@ That is so funny! :joy:
 
 <!-- tabs:end -->
 
-
-
 ### 高亮
 
 <!-- tabs:start -->
@@ -759,7 +700,6 @@ That is so funny! :joy:
 ==highlight==
 
 I need to highlight these <mark>very important words</mark>.
-
 
 #### **Markdown**
 
@@ -778,7 +718,6 @@ I need to highlight these <mark>very important words</mark>.
 #### **Rendered**
 
 Here's a simple footnote,[^1] and here's a longer one.[^bignote]
-
 
 [^1]: This is the first footnote.
 
@@ -821,7 +760,7 @@ X<sup>2</sup>
 
 ### 下标
 
-> 需开启`Typora`工具的「下标」设置 *文件 > 偏好设置 > Markdown > Markdown扩展语法*，设置完后重启工具
+> 需开启 `Typora` 工具的「下标」设置 *文件 > 偏好设置 > Markdown > Markdown扩展语法*，设置完后重启工具
 
 <!-- tabs:start -->
 
@@ -839,27 +778,25 @@ H~2~O, X~long\ text~
 H<sub>2</sub>O
 ```
 
-
-
 <!-- tabs:end -->
-
-
 
 ### 图表
 
 > Diagrams
 
 🪜 http://support.Typora.io/Draw-Diagrams-With-Markdown/ - *Draw Diagrams With Markdown - Typora Support*
-- Sequence Diagrams - _序列图_
-- Flowcharts - _流程图_
-- Gantt Charts - _甘特图_
-- Class Diagrams - _类图_
-- State Diagrams - _状态图_
-- Pie Charts - _饼图_
-- Requirement Diagram - _需求图_
+
+- Sequence Diagrams - *序列图*
+- Flowcharts - *流程图*
+- Gantt Charts - *甘特图*
+- Class Diagrams - *类图*
+- State Diagrams - *状态图*
+- Pie Charts - *饼图*
+- Requirement Diagram - *需求图*
 - 更多查阅上述链接
 
 JS 插件：
+
 1. https://github.com/mermaid-js/mermaid - *GitHub - mermaid-js/mermaid: Generation of diagrams like flowcharts or sequence diagrams from text in a similar manner as markdown*
 2. https://github.com/Leward/mermaid-docsify - *GitHub - Leward/mermaid-docsify: A plugin to render mermaid diagrams in docsify*
 
@@ -867,7 +804,7 @@ JS 插件：
 
 #### **Rendered**
 
-_序列图_ （依赖 [js-sequence-diagrams](framework/javascript-plugins.md#流程图) 插件）
+*序列图* （依赖 [js-sequence-diagrams](framework/javascript-plugins.md#流程图) 插件）
 
 ```sequence
 Alice->Bob: Hello Bob, how are you?
@@ -875,11 +812,10 @@ Note right of Bob: Bob thinks
 Bob-->Alice: I am good thanks!
 ```
 
-<details class="details-reset"><summary class="btn">依赖 Mermaid 插件 <span class="dropdown-caret"></summary>
+<details class="details-reset"><summary class="btn">依赖 Mermaid 插件 <span class="dropdown-caret"></span></summary>
 <div class="border p-3 mt-2">
 
-
-_序列图_
+*序列图：*
 
 ```mermaid
 %% Example of sequence diagram
@@ -895,7 +831,7 @@ _序列图_
     end
 ```
 
-_流程图_
+*流程图：*
 
 ```mermaid
 graph LR
@@ -905,7 +841,7 @@ A[Hard edge] -->B(Round edge)
     C -->|Two| E[Result two]
 ```
 
-_甘特图_
+*甘特图：*
 
 ```mermaid
 %% Example with selection of syntaxes
@@ -938,7 +874,7 @@ _甘特图_
         Add another diagram to demo page    : 48h
 ```
 
-_类图_
+*类图：*
 
 ```mermaid
 classDiagram
@@ -964,7 +900,7 @@ classDiagram
       }
 ```
 
-_状态图_
+*状态图：*
 
 ```mermaid
 stateDiagram
@@ -982,7 +918,7 @@ stateDiagram
 
 #### **Markdown**
 
-_时序图_
+*时序图*
 
 ~~~markdown
 ```sequence
@@ -992,11 +928,7 @@ Bob-->Alice: I am good thanks!
 ```
 ~~~
 
-
-
 <!-- tabs:end -->
-
-
 
 ### 数学公式
 
@@ -1005,8 +937,8 @@ Bob-->Alice: I am good thanks!
 🪜 https://support.typora.io/Math/ - *Math and Academic Functions - Typora Support*
 
 JS 插件：
-1. https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docsify.js plugin for typesetting LaTeX with display engines from markdown.*
 
+1. https://github.com/scruel/docsify-latex - *GitHub - scruel/docsify-latex: A docsify.js plugin for typesetting LaTeX with display engines from markdown.*
 
 <!-- tabs:start -->
 
@@ -1026,37 +958,33 @@ $$
 
 <!-- tabs:end -->
 
-
 内联公式：
 
 🪜 https://support.typora.io/Math/#inline-math - *Math and Academic Functions - Typora Support*
 
+### 链接
 
-### 自动将 URL 转换为链接
+#### 自动将 URL 转换为链接
 
 许多 Markdown 解析器会自动将 URL 转换为链接。这意味着，即使你没有 [使用中括号](https://www.markdown.xyz/basic-syntax/#links)，如果你输入 <http://www.example.com/>，你的 Markdown 解析器也会自动将其转换为链接。
 
-### 禁止自动将 URL 转换为链接
+#### 禁止自动将 URL 转换为链接
 
 如果你不希望自动将 URL 转换为链接，则可以通过反引号 将 URL 表示为代码 。
 
 <!-- tabs:start -->
 
-#### **Rendered**
+##### **Rendered**
 
 `http://www.example.com`
 
-#### **Markdown**
+##### **Markdown**
 
-```
+```markdown
 `http://www.example.com`
 ```
-
-
 
 <!-- tabs:end -->
-
-
 
 ### 自定义标题的 ID
 
@@ -1069,8 +997,6 @@ $$
 [Heading IDs](#使用场景)
 
 [Heading IDs](https://www.markdown.xyz/extended-syntax#heading-ids)
-
-
 
 #### **Markdown**
 
@@ -1087,8 +1013,6 @@ $$
 ```
 
 <!-- tabs:end -->
-
-
 
 ### 定义列表
 
@@ -1115,8 +1039,6 @@ Second Term
 <dd>This is another definition of the second term.</dd>
 </dl>
 
-
-
 #### **Markdown**
 
 ```markdown
@@ -1138,8 +1060,6 @@ Second Term
 
 <!-- tabs:end -->
 
-
-
 ### YAML Front Matter
 
 <!-- tabs:start -->
@@ -1157,9 +1077,7 @@ subject: Tutorial
 
 #### **Markdown**
 
-
 > YAML Front Matter 的用法与 Hexo 、Jekyll 有关？
-
 
 ```yaml
 ---
@@ -1171,10 +1089,9 @@ keywords: [Pandoc, Tutorial, Export]
 ---
 ```
 
-
 <!-- tabs:end -->
 
-🪜 [_YAML Front Matter_ 用法](https://support.Typora.io/YAML/)
+🪜 [*YAML Front Matter* 用法](https://support.Typora.io/YAML/)
 
 ```yaml
 title: Typora
@@ -1184,4 +1101,4 @@ title: Typora
 Typora-root-url: image
 ```
 
-🪜 [_Typora-root-url_ 用法](https://support.Typora.io/Markdown-Reference/#images)
+🪜 [*Typora-root-url* 用法](https://support.Typora.io/Markdown-Reference/#images)

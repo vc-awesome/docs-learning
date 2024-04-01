@@ -3,6 +3,8 @@
 * [Browser BOM](front-end/javascript/javascript-bom.md)
 * [模块化编程](front-end/javascript/javascript-module.md)
 * [Ajax](front-end/javascript/ajax.md)
+* [常见问题](front-end/javascript/javascript-faq.md)
 * **版本**
 * [ES5(ECMAScript5)](front-end/javascript/javascript-es5.md)
-* [ES6(ECMAScript6)](front-end/javascript/javascript-es6.md)
+* [ES6(ECMAScript6 / ECMAScript 2015)](front-end/javascript/javascript-es6.md)
+* [ES2018(ECMAScript 2018)]()

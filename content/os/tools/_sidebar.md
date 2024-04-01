@@ -8,10 +8,11 @@
   * [Opera](os/tools/opera.md)
   * [Extensions](os/tools/browser-extensions.md "浏览器扩展程序")
   * [Tampermonkey](os/tools/tampermonkey.md)
-* **Daily**
+* **常用工具**
   * [Bitwarden](os/tools/bitwarden.md)
   * [Markdown](os/tools/markdown.md)
   * [docsify](os/tools/docsify.md)
+  * [WPS](os/tools/wps.md)
   * [RSS](os/tools/rss.md)
   * [剪贴板](os/tools/clipboard.md)
   * [多媒体](os/tools/multimedia.md)
@@ -19,20 +20,20 @@
 * **网络工具**
   * [VPN](os/tools/vpn.md "科学上网")
   * [DNS](essential/dns.md)
-  * [Hosts](os/tools/hosts.md "Hosts")
+  * [Hosts](os/tools/hosts.md)
 * **开发工具**
   * [GitHub](os/tools/github.md)
   * [Git](os/tools/git.md)
-  * [宝塔](os/tools/bt.md "宝塔")
+  * [宝塔](os/tools/bt.md)
   * [YApi](os/tools/yapi.md "API 文档工具 - YApi")
   * [PhpStorm](os/tools/phpstorm.md "JetBrains系列编辑器 - Phpstorm")
   * [PhpStudy](os/tools/phpstudy.md)
   * [Postman](os/tools/postman.md)
-  * [仿站工具](os/tools/webpage-downloader.md "仿站工具")
   * [VS Code](os/tools/visual-studio-code.md)
   * [Sublime Text](os/tools/sublime-text.md)
   * [Navicat](os/tools/navicat.md)
   * [phpMyAdmin](os/tools/phpmyadmin.md)
+  * [仿站工具](os/tools/webpage-downloader.md)
 * **自建工具**
   * [Badge](os/tools/custom-badge.md)
   * [Search](os/tools/custom-search.md)

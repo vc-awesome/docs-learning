@@ -1,7 +1,6 @@
 * [Front End](front-end/)
-* [产品设计](front-end/design/README.md)
+* [设计](front-end/design/README.md)
 * [图标字体](front-end/iconfont.md)
 * [jQuery](front-end/jquery.md)
 * [Android](front-end/android.md)
-* [URL Scheme](front-end/url-scheme.md)
 * [CDN](front-end/cdn.md)

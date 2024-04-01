@@ -1,0 +1,79 @@
+a,
+em,
+u {
+  word-break: break-word;
+  word-wrap: break-word;
+}
+code {
+  padding: 0.2em 0.4em;
+  margin: 0;
+
+  /* font-size: 85%; */
+  word-wrap: break-word;
+  white-space: break-spaces;
+  background-color: rgba(175, 184, 193, 0.2);
+  border-radius: 6px;
+}
+
+/* 代码块换行 */
+pre > code {
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
+  white-space: pre-wrap !important;
+}
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  margin-bottom: 3px;
+  font-size: 12px !important;
+  line-height: 12px;
+  color: #1f2328;
+  vertical-align: middle;
+  background-color: #f6f8fa;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 rgba(175, 184, 193, 0.2);
+}
+
+/* 外链添加 FontIcon */
+a[href^="http"]:after {
+  display: inline-block;
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-indent: 0;
+  content: "\f08e";
+}
+
+/* 响应式表格 */
+table {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  border: 0;
+}
+table code {
+  word-wrap: unset;
+  white-space: unset;
+}
+
+img {
+  height: revert-layer;
+}
+
+em {
+  color: #7f8c8d;
+}
+
+ul.markor-table-of-contents-list {
+  padding-right: 30px;
+}
+
+p > img[alt=illustration] {
+  margin-top: 20px;
+}

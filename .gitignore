@@ -5,7 +5,9 @@
 /node_modules
 /.stignore
 #/package.json
-#/package-lock.json
+/package-lock.json
 .DS_Store
 /.obsidian
 /.trash
+_assets/libs/fontawesome/
+demo/

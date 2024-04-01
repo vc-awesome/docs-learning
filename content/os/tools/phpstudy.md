@@ -1,12 +1,20 @@
-## 官方
+# phpstudy
 
-> PHP 服务器组件
+## 简介
+
+> phpStudy官网2019正式推出phpStudy V8.0版本PHP集成环境，支持Windows与Linux系统，支持WEB面板操作管理，一键网站开发环境搭建配置，另经典版本phpStudy2016/2018/JspStudy环境套件同步更新中，欢迎网站开发者或运维下载使用！
+>
+> <cite>—— [phpStudy(小皮面板) - 让天下没有难配的服务器环境！](https://m.xp.cn/)</cite>
+
+![Static Badge](https://img.shields.io/badge/Tags-PHP 服务器组件-8A2BE2)
+
+## 官方
 
 https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器环境！*
 
+## 用法
 
-
-## 伪静态
+### 伪静态
 
 - Apache
 
@@ -28,8 +36,6 @@ https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器
   </IfModule>
   ```
 
-  
-
 - Nginx
 
   `nginx.htaccess` 文件名
@@ -42,10 +48,8 @@ https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器
       }
   }
   ```
-  
-  
 
-## 反向代理
+### 反向代理
 
 - 在 nginx 服务器中使用
 
@@ -58,7 +62,7 @@ https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器
   
   参考：https://www.csdn.net/tags/NtTaggysMzA0NDEtYmxvZwO0O0OO0O0O.html - *phpstudy 反向代理 - CSDN*
 
-## Redis
+### Redis
 
 1. php 添加 redis 扩展
 
@@ -66,9 +70,7 @@ https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器
 
    程序位置：`D:\phpstudy_pro\Extensions\redis3.0.504\redis-server.exe`
 
-
-
-## 安装 php 扩展
+### 安装 php 扩展
 
 1. 前往 <http://pecl.php.net> 下载需要的扩展（版本可选择最新 stable 稳定版）
 
@@ -76,19 +78,15 @@ https://www.xp.cn/ - *小皮面板(phpstudy) - 让天下没有难配的服务器
 
    ![phpstudy-图片1.png](./_images/phpstudy-图片1.png)
 
-   
-
    **如何选取扩展包**
 
    - 输入命令 `php -i` 或者 `php -r "phpinfo();"`
 
      ![](./_images/phpstudy-图片2.png)
 
-     
-
      参考：[使用 php 命令行工具查看架构及是否支持线程安全](https://blog.csdn.net/hfut_wowo/article/details/88169634)
 
-## 参考链接
+## 参考
 
 1. https://www.php.cn/xiazai/gongju/1480 - *VC10 64位_phpstudy集成安装环境运行库-php中文网工具下载*
 

@@ -1,22 +1,38 @@
+# Emoji
+
 ## Introduction
 
 > Emoji 是来自 UTF-8 字符集的字符: 😄 😍 💗。
 表情符号（英语：emoji，日语：絵文字／えもじ emoji），是使用在网页和聊天中的形意符号，最初是日本在无线通信中所使用的视觉情感符号（图画文字）。表情意指面部表情，图标则是图形标志的意思，可用来代表多种表情，如笑脸表示笑、蛋糕表示食物等。 Emoji 看起来像一张图片或图标，其实不是。
 `Emoji` 实际上是 UTF-8 (Unicode) 字符集上的字符。
 UTF-8 几乎涵盖了世界上所有的字符和符号。
-
+>
+> —— https://www.runoob.com/tags/html-emoji.html - *HTML Emoji | 菜鸟教程*
 
 ## Link
 
-1. https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
+1. https://www.ruanyifeng.com/blog/2017/04/emoji.html - *Emoji 简介 - 阮一峰的网络日志*
 
-2. https://www.cnblogs.com/takeurhand/p/6940135.html - *github emoji 表情列表 - CaiYongji - 博客园*
+2. https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
 
-3. https://gitmoji.dev/ - *gitmoji | An emoji guide for your commit messages* [GitHub](https://github.com/carloscuesta/gitmoji)
+3. https://www.runoob.com/tags/html-emoji.html - *HTML Emoji | 菜鸟教程*
+
+4. https://www.cnblogs.com/takeurhand/p/6940135.html - *github emoji 表情列表 - CaiYongji - 博客园*
+
+5. https://gitmoji.dev/ - *gitmoji | An emoji guide for your commit messages* [GitHub](https://github.com/carloscuesta/gitmoji)
 
     ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
     ![GitHub last commit](https://flat.badgen.net/github/last-commit/carloscuesta/gitmoji?icon=github&color=blue)
 
+## Usage
+
+### Emoji Kitchen
+
+https://emojikitchen.dev/ - *Emoji Kitchen* [GitHub](https://github.com/xsalazar/emoji-kitchen) 「Emoji 组合使用」
+
+![GitHub last commit](https://badgen.net/github/last-commit/xsalazar/emoji-kitchen?icon=github&color=blue)
+
+https://emojipedia.org/emoji-kitchen - *Emoji Kitchen*
 
 ## Frequent use
 
@@ -27,7 +43,6 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 ---
 
 _> 参考 `GitHub` 的项目 `README.md`_
-
 
 ### Symbols
 
@@ -47,7 +62,6 @@ _> 参考 `GitHub` 的项目 `README.md`_
 | `9️⃣` | :keycap_digit_nine: | `:keycap_digit_nine:` | [Keycap Digit Nine](https://emojipedia.org/keycap-digit-nine/) | 排序 |
 | `🔟` | :keycap_10: | `:keycap_10:` | [Keycap: 10](https://emojipedia.org/keycap-10/) | 排序 |
 
-
 ### Smileys
 
 | Emoji | 效果 | 简码 | 描述 | 用途/使用场景 |
@@ -56,7 +70,6 @@ _> 参考 `GitHub` 的项目 `README.md`_
 | 😊 | :blush: | `:blush:` | [Smiling Face with Smiling Eyes](https://emojipedia.org/smiling-face-with-smiling-eyes/) |  |
 | 😂 | :joy: | `:joy:` | [Face with Tears of Joy](https://emojipedia.org/face-with-tears-of-joy/) |  |
 | 🥰 | :smiling_face_with_three_hearts: | `:smiling_face_with_three_hearts:` | [Smiling Face with Hearts](https://emojipedia.org/smiling-face-with-hearts) |  |
-
 
 ### People
 
@@ -72,7 +85,6 @@ _> 参考 `GitHub` 的项目 `README.md`_
 | ✍️ | :writing_hand: | `:writing_hand:` | [Writing Hand](https://emojipedia.org/writing-hand/) | 编辑中 |
 | 🤝 | :handshake: | `:handshake:` | [Handshake](https://emojipedia.org/handshake/) | 中英译 |
 | 👐 | :open_hands: | `:open_hands:` | [Open Hands](https://emojipedia.org/open-hands/) | 分享 |
-
 
 ### Other
 

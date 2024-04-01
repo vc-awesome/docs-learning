@@ -1,71 +1,304 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="//fastly.jsdelivr.net/npm/docsify@latest/themes/vue.css" title="vue"/>
-  <!-- Shortcut icon-->
-  <link rel="shortcut icon" href="https://github.githubassets.com/images/icons/emoji/unicode/1f44f.png?v8.png">
-</head>
-<body>
-<div id="app"></div>
+  <head>
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge,chrome=1"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1"
+    />
+    <meta charset="UTF-8" />
+    <title>doc-learning</title>
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify@latest/themes/vue.css"
+      title="vue"
+    />
+    <!-- Shortcut icon-->
+    <link
+      rel="shortcut icon"
+      href="_media/1f44f.png"
+    />
+    <!-- Load extra script -->
+    <link
+      rel="preload"
+      href="_assets/js/load-extra-script.js"
+      as="script"
+    />
+    <script
+      src="_assets/js/load-extra-script.js"
+    ></script>
+    <style>
+      /* .content {
+        padding-right: 250px;
+      } */
 
-<script>
+      /* .toc-nav {
+        position: fixed;
+        top: 90px;
+        right: 3%;
+        bottom: 15px;
+        left: auto;
+        z-index: 999;
+        width: 250px;
+        max-height: 100%;
+        margin-right: 20px;
+        overflow-y: auto;
+        line-height: 1.6;
+        border-right: 0;
+      } */
 
-  window.$docsify = {
-    // 定制侧边栏
-    loadSidebar: true,
-    // 定制导航栏
-    loadNavbar: "_navbar-simple.md",
-    mergeNavbar: true,
-
-    auto2top: true, // 切换页面后是否自动跳转到页面顶部。
-
-    // 禁用 emoji 解析
-    noEmoji: false,
-
-    // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
-    basePath: "content/",
-    homepage: "README.md",
-
-    // Add table of contents (TOC) in custom sidebar.
-    subMaxLevel: 6, // 最大 6 级，默认 0 级
-  }
-</script>
-
-<script src="//fastly.jsdelivr.net/npm/docsify@latest/lib/docsify.min.js"></script>
-<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-bash.min.js"></script>
-<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-php.min.js"></script>
-<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-sql.min.js"></script>
-<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-markdown.min.js"></script>
-<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-uri.min.js"></script>
-<script src="//fastly.jsdelivr.net/npm/prismjs@latest/components/prism-powershell.min.js"></script>
-
-<script src="_assets/libs/docsify-copy-code.js"></script>
-<script src="_assets/js/back-top.js"></script>
-
-<script>
-  function loadjscssfile(filename, filetype){
-      if (filetype=="js"){ //if filename is a external JavaScript file
-          var fileref=document.createElement('script')
-          fileref.setAttribute("type","text/javascript")
-          fileref.setAttribute("src", filename)
+      .toc-nav-container {
+        left: -300px;
       }
-      else if (filetype=="css"){ //if filename is an external CSS file
-          var fileref=document.createElement("link")
-          fileref.setAttribute("rel", "stylesheet")
-          fileref.setAttribute("type", "text/css")
-          fileref.setAttribute("href", filename)
-      }
-      if (typeof fileref!="undefined")
-          document.getElementsByTagName("head")[0].appendChild(fileref)
-  }
 
-  loadjscssfile("https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css", "css");
-  loadjscssfile("https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css", "css");
-  loadjscssfile("https://fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js", "js");
-  loadjscssfile("https://fastly.jsdelivr.net/npm/element-ui/lib/index.js", "js");
-</script>
-</body>
+      .toc-nav-title {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        margin-bottom: 8px;
+        font-weight: 600;
+      }
+
+      .toc-nav-list {
+        position: relative;
+        left: 0;
+        padding-left: 15px !important;
+        margin: 10px 0 !important;
+        font-size: 1em;
+        border-left: 1px solid rgba(0, 0, 0, 0.07);
+      }
+
+      @media (max-width: 1299px) {
+        .toc-nav {
+          position: relative;
+          z-index: 99;
+        }
+
+        .toc-nav-container {
+          position: fixed;
+          top: 0;
+          right: -300px;
+          bottom: 0;
+          left: auto;
+          z-index: 1;
+          width: 300px;
+          min-height: 100%;
+          padding: 15px 10px 15px 20px !important;
+          overflow-y: auto;
+          line-height: 1.6;
+          background-color: #fff;
+          border-right: 0;
+          transition: transform 250ms ease-out;
+        }
+
+        .toc-nav-mask {
+          position: fixed;
+          inset: 0;
+          display: none;
+          background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .toc-nav.active .toc-nav-container {
+          transform: translateX(-300px);
+        }
+
+        .toc-nav.active .toc-nav-mask {
+          display: block;
+          animation-name: fade-in;
+          animation-duration: 0.4s;
+          animation-timing-function: ease-in-out;
+        }
+      }
+    </style>
+    <!-- 代码块行号 -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.css"
+    />
+    <style>
+      /*
+       * Fix line number in code block.
+       * Change this overflow attr to <pre> not the <code>.
+       */
+      .markdown-section pre[data-lang] {
+        padding: 0 0.4rem;
+        overflow: auto !important;
+      }
+      .markdown-section pre[data-lang] code {
+        /* overflow: visible; */
+        padding: 1.25rem 3.25rem;
+      }
+      .line-numbers .line-numbers-rows {
+        left: -1px;
+
+        /* Fix paddings to align with code. */
+        padding: 1.25rem 0; /* Same as code block */
+        border-right: 1px solid #fff;
+      }
+    </style>
+  </head>
+  <body class="line-numbers">
+    <div id="app"></div>
+
+    <script>
+      window.$docsify = {
+        // 设置路由别名
+        alias: {
+          '/.*/_navbar-simple.md': '/_navbar-simple.md',
+        },
+        // 定制侧边栏
+        loadSidebar: true,
+        // 定制导航栏
+        loadNavbar: '_navbar-simple.md',
+        mergeNavbar: true,
+        // 切换页面后是否自动跳转到页面顶部
+        auto2top: true,
+        // 禁用 emoji 解析
+        noEmoji: false,
+        // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
+        basePath: 'content/',
+        homepage: 'README.md',
+        // Add table of contents (TOC) in custom sidebar.
+        subMaxLevel: 6, // 最大 6 级，默认 0 级
+        // 全文搜索
+        search: {
+          // 搜索标题的最大层级, 1 - 6
+          depth: 6,
+          // 是否隐藏其他侧边栏内容
+          hideOtherSidebarContent: true,
+        },
+        // 自定义插件
+        plugins: [
+          (hook, vm) => {
+            window.console.log({ _that: this, hook, vm });
+          },
+        ],
+      };
+    </script>
+
+    <script src="//cdn.jsdelivr.net/combine/npm/docsify@latest/lib/docsify.min.js,npm/docsify@latest/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/combine/npm/prismjs@latest/components/prism-php.min.js,npm/prismjs@latest/components/prism-bash.min.js,npm/prismjs@latest/components/prism-sql.min.js,npm/prismjs@latest/components/prism-json.min.js,npm/prismjs@latest/components/prism-markdown.min.js,npm/prismjs@latest/components/prism-uri.min.js,npm/prismjs@latest/components/prism-powershell.min.js,npm/prismjs@latest/components/prism-regex.min.js,npm/prismjs@latest/components/prism-diff.min.js"></script>
+
+    <!-- 返回顶部 -->
+    <script src="_assets/js/simple-back2top.js"></script>
+
+    <!--复制代码块-->
+    <script src="_assets/libs/docsify-copy-code.js"></script>
+
+    <!--复制代码-->
+    <script src="_assets/js/docsify-copy-code.js"></script>
+
+    <!-- 代码块行号 -->
+    <script>
+      /* window.$docsify.markdown = {
+        renderer: {
+          // Change code block rendering. Add line-numbers class.
+          code: function (code, lang) {
+            let cc = document.createElement("code");
+            cc.textContent = code;
+            cc.setAttribute("class", "language-" + lang);
+            // 代码块换行：<pre></pre> 添加 style="white-space: pre-wrap"
+            return (
+              '<pre data-lang="' +
+              lang +
+              '" class="line-numbers" style="white-space: pre-wrap">' +
+              cc.outerHTML +
+              "</pre>"
+            );
+          }
+        }
+      }; */
+      window.$docsify.plugins.push((hook, vm) => {
+        hook.doneEach((html) => {
+          Prism.highlightAll();
+          // console.log({ hook, vm, html });
+        });
+      });
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.js"></script>
+
+    <!-- Table of Contents -->
+    <script>
+      const tree = (
+        toc,
+        tpl = /* html */ '<ul class="toc-nav-list">{inner}</ul>',
+      ) => {
+        if (!toc || !toc.length) {
+          return '';
+        }
+
+        let innerHTML = '';
+        toc.forEach((node) => {
+          const title = node.title.replace(/(<([^>]+)>)/g, '');
+          innerHTML += /* html */ `<li><a class="section-link" href="${node.slug}" title="${title}">${node.title}</a></li>`;
+          if (node.children) {
+            innerHTML += tree(node.children, tpl);
+          }
+        });
+        return tpl.replace('{inner}', innerHTML);
+      };
+      window.$docsify.plugins.push((hook, vm) => {
+        // console.log(tree(vm.compiler.cacheTree[vm.route.path]));
+        // Invoked on each page load after new HTML has been appended to the DOM
+        hook.doneEach(() => {
+          // console.log(vm.compiler.cacheTree[vm.route.path]);
+          // console.log(tree(vm.compiler.cacheTree[vm.route.path]));
+          // console.log(vm.route);
+
+          const urlHash = window.location.hash.replace('#', '');
+          const treeList = tree(vm.compiler.cacheTree[urlHash]);
+          // debugger;
+          const content = window.Docsify.dom.find('main');
+          if (content) {
+            let nav = Docsify.dom.find('.toc-nav');
+            if (Docsify.dom.find('.toc-nav') === null) {
+              nav = window.Docsify.dom.create('aside', '');
+            }
+            // Docsify.dom.toggleClass(nav, 'add', 'sidebar');
+            Docsify.dom.toggleClass(nav, 'add', 'toc-nav');
+
+            console.log({
+              treeList,
+              treeHtml: `<div class="toc-nav-container sidebar"><div class="toc-nav-title">On This Page</div>${treeList}</div><div class="toc-nav-mask"></div>`,
+            });
+
+            if (treeList) {
+              nav.innerHTML = `<div class="toc-nav-container sidebar"><div class="toc-nav-title">On This Page</div>${treeList}</div><div class="toc-nav-mask"></div>`;
+              setTimeout(() => {
+                Docsify.dom.find('.toc-toggle').style.visibility = 'visible';
+                Docsify.dom
+                  .find('.toc-toggle')
+                  .addEventListener('click', () => {
+                    Docsify.dom.toggleClass(nav, 'add', 'active');
+                  });
+                Docsify.dom
+                  .find('.toc-nav-mask')
+                  .addEventListener('click', () => {
+                    // 关闭目录
+                    Docsify.dom.toggleClass(nav, 'remove', 'active');
+                  });
+              }, 0);
+            } else {
+              setTimeout(() => {
+                Docsify.dom.find('.toc-toggle').style.visibility = 'hidden';
+              }, 0);
+            }
+            window.Docsify.dom.appendTo(content, nav);
+          }
+        });
+      });
+    </script>
+    <img
+      src="https://lug.ustc.edu.cn/static/USTC_logo.svg"
+      style="
+        position: fixed;
+        bottom: -320px;
+        left: -200px;
+        opacity: 0.1;
+        z-index: -100;
+      "
+    />
+  </body>
 </html>

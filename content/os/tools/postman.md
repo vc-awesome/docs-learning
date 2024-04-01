@@ -1,3 +1,11 @@
+# Postman
+
+## 简介
+
+> Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.
+>
+> <cite>—— [Postman API Platform | Sign Up for Free](https://www.postman.com/)</cite>
+
 ## 官方
 
 https://www.postman.com/ - *Postman API Platform | Sign Up for Free*
@@ -6,7 +14,7 @@ https://www.postman.com/ - *Postman API Platform | Sign Up for Free*
 
 https://www.postman.com/downloads/ - *Download Postman | Get Started for Free*
 
-## 入门指南
+## 用法
 
 ### Environments
 
@@ -48,27 +56,27 @@ https://www.postman.com/downloads/ - *Download Postman | Get Started for Free*
 
   - host 主机
 
-    variable: host
+    variable: `host`
 
-    initial value: http://20210518-current.develop
+    initial value: `http://20210518-current.develop`
 
-    current value: http://20210518-current.develop
+    current value: `http://20210518-current.develop`
 
   - host_<环境>
 
     例如：`host_test`,`host_task`,`host_api`
 
-  - host_task
+      - host_task
 
-    variable: host_task
+        variable: `host_task`
 
-    initial value: http://task.20210518-current.develop
+        initial value: `http://task.20210518-current.develop`
 
-    current value: http://task.20210518-current.develop
+        current value: `http://task.20210518-current.develop`
 
   - login_token
 
-    variable: login_token
+    variable: `login_token`
 
     initial value: 
 
@@ -76,14 +84,15 @@ https://www.postman.com/downloads/ - *Download Postman | Get Started for Free*
 
   - form_token
 
-    variable: form_token
+    variable: `form_token`
 
     initial value: 
 
     current value: 
 
 - 使用变量
-  - 在需要用的地方使用：`{{变量名}}`
+
+    - 在需要用的地方使用：`{{变量名}}`
 
 ### Pre-request Script 请求前脚本
 
@@ -92,8 +101,6 @@ https://www.postman.com/downloads/ - *Download Postman | Get Started for Free*
 > 1）在发送请求以前，编写 Pre-Request-Script，为请求参数进行加密处理、参数化等。api
 >
 > 2）接收到请求响应后，编写 Tests-Script，制定响应断言、处理返回的数据等。app 
-
-
 
 ```js
 const echoGetRequest = {
@@ -145,8 +152,6 @@ response.text();
 response.json();
 ```
 
- 
-
 ```js
 tokenUrl
 
@@ -157,13 +162,9 @@ client_credentials_url
 access_token
 ```
 
-
-
 获取请求参数的变量值
 
 https://www.zhihu.com/question/455217937/answer/1842612861
-
-
 
 ```js
 // json序列化为string
@@ -202,14 +203,14 @@ Params
 
 | Key           | Value |
 | ------------- | ----- |
-| currency_id[] | 1     |
-| currency_id[] | 2     |
+| `currency_id[]` | 1     |
+| `currency_id[]` | 2     |
 
 后端接收到的就是 `payment` 的数组形式
 
+参考：
 
-
-参考链接：https://www.cnblogs.com/dee0912/p/4136381.html
+1. https://www.cnblogs.com/dee0912/p/4136381.html
 
 ### body 设置提交数据
 
@@ -217,24 +218,24 @@ Params
 
 1. **form-data** 方式
 
-   设置格式
-
-   | Key       | Value |
-   | --------- | ----- |
-   | payment[] | 1     |
-   | payment[] | 2     |
-   | payment[] | 3     |
-
-​		
-
-​		后端接收到的就是 `payment` 的数组形式
-
-​		参考链接：https://blog.csdn.net/u014001964/article/details/88807609/
-
+    设置格式
+    
+    | Key       | Value |
+    | --------- | ----- |
+    | `payment[]` | 1     |
+    | `payment[]` | 2     |
+    | `payment[]` | 3     |
+    
+    后端接收到的就是 `payment` 的数组形式
+    
+    参考：
+    
+    1. https://blog.csdn.net/u014001964/article/details/88807609/
+    
 2. **raw** 方式
 
-   设置格式
-
+    设置格式
+    
     ```js
     {
       "unit_price": "",
@@ -246,23 +247,27 @@ Params
       ]
     }
     ```
-
-​		下拉选择 JSON 方式
-
-​		后端接收到的就是 `payment` 的数组形式
-
-​		参考链接：https://blog.csdn.net/lhq186/article/details/97033786
-
+    
+    下拉选择 JSON 方式
+    
+    后端接收到的就是 `payment` 的数组形式
+    
+    参考：
+    
+    1. https://blog.csdn.net/lhq186/article/details/97033786
+    
 ### post 请求上传文件
 
-参考链接：https://blog.csdn.net/maowendi/article/details/80537304
+参考：
+
+1. https://blog.csdn.net/maowendi/article/details/80537304
 
 ### 引入外部 js 文件
 
 ### Runner
 
-runer 是串行执行，不是并发执行
+- runer 是串行执行，不是并发执行
 
-串行（迭代）执行，等上一个请求执行完才会接着执行下一个请求
+- 串行（迭代）执行，等上一个请求执行完才会接着执行下一个请求
 
-Postman 暂时没有并发测试功能
+- Postman 暂时没有并发测试功能（2023-11-28）

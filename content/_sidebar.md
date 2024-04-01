@@ -1,2 +1,3 @@
-- [Homepage](/ "首页导航")
-- [Quick Index](quick-index.md "快速索引")
+- [Homepage](/README.md "首页导航")
+- [Quick Index](index.md "快速索引")
+- [Table of Content](dir-tree.md)

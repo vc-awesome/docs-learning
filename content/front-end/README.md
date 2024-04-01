@@ -1,30 +1,52 @@
+# 前端
+
+> 网页编程采用的是 HTML + CSS + JS 组合。
+>
+> - HTML 是用来描述当前这个页面的结构。
+>
+> - CSS 用来描述页面的样式。
+>
+> - JS 通常是用来处理这个页面和用户的交互。
+
 ## 发展路程
 
 > 前端发展路程 Roadmap
-
 
 ## 学习路线
 
 > 学习路线 Learning route
 
+1. [HTML](front-end/html/README.md)
+2. [CSS](front-end/css/README.md)
+3. [JavaScript](front-end/javascript/README.md)
+
 ## 学习资源
 
 > Learning resource
 
+https://github.com/FrontEndGitHub/FrontEndGitHub - *GitHub - FrontEndGitHub/FrontEndGitHub: :octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）*
+
+https://github.com/o2team - *AOTU Labs · GitHub*
+
+  1. https://github.com/o2team/guide - *GitHub - o2team/guide: O2前端规范文档*
+
+  2. https://github.com/o2team/H5Skills - *GitHub - o2team/H5Skills: 移动端开发技巧集合*
+
 ### 优质框架
 
 [Bootstrap 中文网](https://www.bootcss.com/)
+
 - [所有版本](https://v4.bootcss.com/docs/versions/)
 - [v5 中文文档](https://v5.bootcss.com/docs/getting-started/introduction/)
 - [v4 中文文档](https://v4.bootcss.com/docs/getting-started/introduction/)
 
-----
+---
 
 [Bootstrap 官方网址](https://getbootstrap.com/)
+
 - [所有版本](https://getbootstrap.com/docs/versions/)
 - [v5 英文文档](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
 - [v4 英文文档](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-
 
 ## 页面布局
 
@@ -32,18 +54,23 @@
 
 有关详细信息，请参阅“[CSS 布局](/front-end/css/css-命名规则.md#layout-布局)”。
 
-
 ## 浏览器加载过程
 
-1. https://web.dev/howbrowserswork/ - *How browsers work*
+1. https://wangdoc.com/javascript/bom/engine#navbar - *浏览器环境概述 - JavaScript 教程 -网道*
 
-2. https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work - *渲染页面：浏览器的工作原理 - Web 性能 | MDN*
+2. https://github.com/vasanthk/how-web-works - *GitHub - vasanthk/how-web-works: What happens behind the scenes when we type www.google.com in a browser?*
 
-3. https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
+3. https://github.com/alex/what-happens-when - *GitHub - alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"*
 
-4. https://juejin.cn/post/6844903815758479374 - *你不知道的浏览器页面渲染机制 - 掘金*
+4. https://web.dev/howbrowserswork/ - *How browsers work*
 
-5. https://blog.csdn.net/Littlegirlha/article/details/128383854 - *浏览器加载网页的过程_小许还在编程的博客-CSDN博客*
+5. https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work - *渲染页面：浏览器的工作原理 - Web 性能 | MDN*
+
+6. https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
+
+7. https://juejin.cn/post/6844903815758479374 - *你不知道的浏览器页面渲染机制 - 掘金*
+
+8. https://blog.csdn.net/Littlegirlha/article/details/128383854 - *浏览器加载网页的过程_小许还在编程的博客-CSDN博客*
 
 ---
 
@@ -53,19 +80,30 @@
 
 ---
 
+https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机制详解：再谈Event Loop*
+
+- 异步编程
+  - <https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html> - *Javascript异步编程的4种方法*
+  - https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html - *JavaScript与有限状态机*
+
+---
+
+执行顺序：*1 > 2*
+
 1. `document.addEventListener("DOMContentLoaded", function() {});`
 
 2. `window.addEventListener("load", function() {});`
-
-执行顺序：*1 > 2*
 
 ## 浏览器兼容性
 
 https://caniuse.com/ - *Can I use... Support tables for HTML5, CSS3, etc*
 
+## 参考
 
-## 链接
+1. https://zhuanlan.zhihu.com/p/148313476 - *19个前端开发人员的救生工具*
 
-https://zhuanlan.zhihu.com/p/148313476 - *19个前端开发人员的救生工具*
+2. https://zhuanlan.zhihu.com/p/159659392 - *9个不错的前端开源项目*
 
-https://zhuanlan.zhihu.com/p/159659392 - *9个不错的前端开源项目*
+## 常见问题
+
+暂无

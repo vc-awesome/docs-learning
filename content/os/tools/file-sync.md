@@ -1,3 +1,5 @@
+# 文件同步
+
 ## WebDAV
 
 1. https://baijiahao.baidu.com/s?id=1666954457030652604 - *WebDAV是什么，有哪些支持webdav的网盘和工具？*
@@ -5,7 +7,7 @@
 2. https://baijiahao.baidu.com/s?id=1716111755399982472 - *含WebDAV 文件管理类工具汇总*
 
 
-## 文件同步工具
+## 同步工具
 
 1. http://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的局域网文件夹同步工具_
 
@@ -31,7 +33,7 @@ http://www.menglei.net/3582/ - *FOLDERSYNC一款支持各大国外网盘同步�
 
 ## 自建网盘
 
-> 自建“私有云”
+> 自建“私有云”。
 
 1. https://nextcloud.com/ - *The most popular self-hosted collaboration solution for tens of millions of users at thousands of organizations across the globe*
 

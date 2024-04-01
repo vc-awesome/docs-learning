@@ -1,3 +1,5 @@
+# Authorization
+
 ## OAuth2.0
 
 ### Introduction
@@ -6,23 +8,34 @@
 
 ### Official website
 
-Website: 
+Website:
 
-- https://oauth.net/2/ - *OAuth 2.0 — OAuth*
+1. https://oauth.net/2/ - *OAuth 2.0 — OAuth*
 
-Composer: 
-- https://packagist.org/packages/league/oauth2-server - *league/oauth2-server - Packagist*
+Composer:
+1. https://packagist.org/packages/league/oauth2-server - *league/oauth2-server - Packagist*
 
-----
+参考：
 
-https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html - *理解OAuth 2.0 - 阮一峰的网络日志*
+1. https://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html - *理解OAuth 2.0 - 阮一峰的网络日志*
 
-
-## JWT
+## JWT (Json Web Token)
 
 https://mp.weixin.qq.com/s/KbUaXFWVIRAnK9MiYm27Qw - *[精选] php是如何实现JWT(json web token)鉴权的呢？ 看实例详解*
 
-## 2FA
+## SSO (Single Sign On)
+
+> SSO（ Single Sign On ），即单点登录，是一种控制多个相关但彼此独立的系统的访问权限，拥有这一权限的用户可以使用单一的 ID 和密码访问某个或多个系统从而避免使用不同的用户名或密码，或者通过某种配置无缝地登录每个系统。
+
+参考：
+
+1. https://www.php.cn/faq/389528.html - *PHP 单点登录 SSO 实现方法 - php 教程 - PHP 中文网*
+
+2. https://www.cnblogs.com/it-abel/p/9612143.html - *SSO 单点登录总结（PHP） - itabel - 博客园*
+
+3. https://segmentfault.com/u/xinliangcoder - *新亮 - SegmentFault 思否*
+
+## 2FA (Two-factor authentication)
 
 https://www.ruanyifeng.com/blog/2017/11/2fa-tutorial.html - *双因素认证（2FA）教程 - 阮一峰的网络日志*
 

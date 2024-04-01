@@ -1,38 +1,158 @@
-## 官方
+# ThinkPHP
+
+## 简介
 
 > <img src="https://box.kancloud.cn/2015-12-12_566b6a10506a4.png" alt="package icon" loading="lazy" decoding="async" align="left" height="38" hspace="10" vspace="0" /> ThinkPHP 是一个免费开源的，快速、简单的面向对象的 轻量级PHP开发框架 ，创立于2006年初，遵循Apache2开源协议发布，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。ThinkPHP从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。并且拥有众多的原创功能和特性，在社区团队的积极参与下，在易用性、扩展性和性能方面不断优化和改进，已经成长为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
 
-主页：https://www.thinkphp.cn/ - *ThinkPHP框架 | 中文最佳实践PHP开源框架,专注WEB应用快速开发8年！*
+## 官方
 
-GitHub：https://github.com/top-think - *ThinkPHP · GitHub*
+主页：
 
-开发手册：  
-https://www.kancloud.cn/manual/thinkphp5_1/ - *ThinkPHP5.1完全开发手册 · 看云*  
-https://www.kancloud.cn/manual/thinkphp6_0/ - *ThinkPHP6.0完全开发手册 · 看云*
+1. https://www.thinkphp.cn/ - *ThinkPHP框架 | 中文最佳实践PHP开源框架,专注WEB应用快速开发8年！*
 
+GitHub：
 
+1. https://github.com/top-think - *ThinkPHP · GitHub*
+
+开发手册：
+
+1. https://www.kancloud.cn/manual/thinkphp - *ThinkPHP3.2.3完全开发手册 · 看云*
+
+2. https://www.kancloud.cn/manual/thinkphp5_1/ - *ThinkPHP5.1完全开发手册 · 看云*
+
+3. https://www.kancloud.cn/manual/thinkphp6_0/ - *ThinkPHP6.0完全开发手册 · 看云*
 
 ## 开发规范
 
-*thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/353949  
-*thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037482
+*thinkphp5.1*
 
+https://www.kancloud.cn/manual/thinkphp5_1/353949  
 
+*thinkphp6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037482
 
 ## 目录结构
 
 *thinkphp5*
 
-扩展类库存放目录 `extend`
+`extend`：扩展类库存放目录
 
-第三方类库（Composer）存放目录 `vendor`
+`vendor`：第三方类库（Composer）存放目录
 
+## 路由
 
+*ThinkPHP 5*
+
+1. 路由模式/普通模式
+
+    ~~~uri
+    # http://主机名/主入口文件/模块/控制器/成员方法/参数/参数值/
+
+    http://serverName/index.php/module/controller/action/param/value/...
+    ~~~
+
+2. 注册路由规则
+
+    > 注册多个路由规则后，系统会依次遍历注册过的满足请求类型的路由规则，一旦匹配到正确的路由规则后则开始调用控制器的操作方法，后续规则就不再检测。
+
+    1. 系统提供了为不同的请求类型定义路由规则的简化方法
+
+        ~~~php
+        Route::get('new/:id','News/read'); 	 // 定义GET请求路由规则
+        Route::post('new/:id','News/update');   // 定义POST请求路由规则
+        Route::put('new/:id','News/update');    // 定义PUT请求路由规则
+        Route::delete('new/:id','News/delete'); // 定义DELETE请求路由规则
+        Route::any('new/:id','News/read');      // 所有请求都支持的路由规则
+        ~~~
+
+    2. 如果要定义get和post请求支持的路由规则
+
+        ~~~php
+        Route::rule('new/:id','News/read','GET|POST');
+        ~~~
+
+    3. 我们也可以批量注册路由规则，例如：
+
+        ~~~php
+        Route::rule(['new/:id'=>'News/read','blog/:name'=>'Blog/detail']);
+        Route::get(['new/:id'=>'News/read','blog/:name'=>'Blog/detail']);
+        Route::post(['new/:id'=>'News/update','blog/:name'=>'Blog/detail']);
+        ~~~
+
+3. 隐藏入口文件 public/index.php
+
+    1. `httpd.conf` 配置文件中加载了`mod_rewrite.so` 模块（去掉井号）
+
+        `#LoadModule rewrite_module modules/mod_rewrite.so`
+
+    2. AllowOverride None 将 None 改为 All
+
+        ```apache
+        <Directory "E:/webs.com/demo.com">
+        Options Indexes FollowSymLinks
+        AllowOverride all
+        ErrorDocument 404 /404.html
+        </Directory>
+        ```
+
+   3. 把下面的内容保存为 .htaccess 文件放到应用入口文件的同级目录下 
+
+        ```apache
+        <IfModule mod_rewrite.c>
+        Options +FollowSymlinks -Multiviews
+        RewriteEngine On
+        
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+        </IfModule>
+        ```
+
+参考文献：
+
+1. https://www.cnblogs.com/fangyinghua/p/7436203.html （内附IIS / Nginx服务器中如何配置隐藏入口文件）
+
+### RESTful API
+
+*ThinkPHP 5.x*
+
+RESTful API 请求的相应操作：
+
+| 标识 | 请求类型 | 相应操作 | 幂等 |
+| --- | --- | --- | --- |
+| 1 | post | 增加 | 否 |
+| 2 | delete | 删除 | 否 |
+| 3 | put | 修改 | 否 |
+| 4 | get | 查找 | 幂等 |
+
+RESTful API 路由规则：
+
+| 标识 | 请求类型| 生成路由规则 | 对应操作方法(默认) |
+| --- | --- | --- | --- |
+| index  | GET  | v1/blog          |index  |
+| create | GET    | v1/blog/create   |create |
+| save   | POST   | v1/blog          |save   |
+| read   | GET    | v1/blog/:id      |read   |
+| edit   | GET    | v1/blog/:id/edit |edit   |
+| update | PUT    | v1/blog/:id      |update |
+| delete | DELETE | v1/blog/:id      |delete |
+
+参考文献：
+
+1. [RESTful API 设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
+
+2. [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
 ## 时间查询
 
-*thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/354029  
-*thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037565
+*thinkphp5.1*
+
+https://www.kancloud.cn/manual/thinkphp5_1/354029  
+
+*thinkphp6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037565
 
 ```php
 // 查询今天的数据
@@ -47,14 +167,43 @@ whereDay('create_time', '2018-06-01') // thinkphp6.0
 whereTime('create_time', '>=', '2022-01-01')
 ```
 
-
-
 ## 分页查询
 
-*thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/354120  
-*thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037638
+*thinkphp3.2.3*
 
+https://www.kancloud.cn/manual/thinkphp/1742 （全局搜索：`分页`）
 
+方式一：
+
+```php
+$Article = M('Article');
+$Article->limit('0,10')->select(); // 查询第一页数据
+$Article->limit('10,10')->select(); // 查询第二页数据
+```
+
+或者
+
+```php
+$Article = M('Article');
+$num = (I('param.page', 1) - 1) * 10;
+$Article->limit($num. ',10')->select(); // 查询第N页数据
+```
+
+方式二：
+
+```php
+$Article = M('Article');
+$Article->page('1,10')->select(); // 查询第一页数据
+$Article->page('2,10')->select(); // 查询第二页数据
+```
+
+*thinkphp5.1*
+
+https://www.kancloud.cn/manual/thinkphp5_1/354120
+
+*thinkphp6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037638
 
 ```php
 $r = db("user")->paginate(3, false);
@@ -68,19 +217,19 @@ $r->currentPage();
 $r->listRows();
 ```
 
+*参考*
 
-
-*参考链接*  
 [thinkphp5使用paginate查询分页数据如何获取总记录数](https://www.cnblogs.com/joeblackzqq/p/11509145.html)
-
-
 
 ## 事务操作
 
-*thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/354035  
-*thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037573
+*thinkphp5.1*
 
+https://www.kancloud.cn/manual/thinkphp5_1/354035  
 
+*thinkphp6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037573
 
 数据库事务操作在`foreach`等循环中使用`continue`一定要提交或回滚
 
@@ -163,8 +312,6 @@ public function test()
 }
 ```
 
-
-
 ## 多语言
 
 > 在模板中输出语言变量（lang_var）
@@ -188,8 +335,6 @@ public function test()
 *thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037637  
 *thinkphp6.0（验证器）* https://www.kancloud.cn/manual/thinkphp6_0/1037626
 
-
-
 👍 验证器可这样用
 
 ```php
@@ -204,8 +349,6 @@ if (true !== $validate_result) {
     exception($validate_result);
 }
 ```
-
-
 
 变量传入支持
 
@@ -227,8 +370,6 @@ lang('file_format',['format' => 'jpeg,png,gif,jpg','size' => '2MB'])
 lang('file_format',['jpeg,png,gif,jpg','2MB'])
 ```
 
-
-
 ## 应用模块
 
 !> 尽量使用公共的方法，操作、修改方便
@@ -248,14 +389,11 @@ lang('file_format',['jpeg,png,gif,jpg','2MB'])
 - 验证层 - _validate_  
     - 存放表单数据等验证信息
 
-
 ### 后台应用 admin
 
 *thinkphp5.1*
 
 `html`文件存放目录：application/admin/view/
-
-
 
 ### 前台应用 home
 
@@ -267,11 +405,7 @@ lang('file_format',['jpeg,png,gif,jpg','2MB'])
 
 模板继承：application/home/view/default/public/base.html
 
-
-
 ### 默认应用 index
-
-
 
 ### 接口应用 api
 
@@ -282,8 +416,6 @@ v2
 ...
 
 v(n)
-
-
 
 ### 公共应用 common
 
@@ -298,11 +430,7 @@ model
 
 validate
 
- 
-
 ### 消息队列应用 queue
-
-
 
 ### 定时任务应用 task/cron/crontab
 
@@ -319,13 +447,9 @@ Reward.php/`Income.php` 奖励发放
 9. group() 拼团奖励
 10. grade()/vip() 等级奖励
 
- 
-
 Achievement.php 业绩统计
 
 1. run()
-
- 
 
 Upgrade.php/`Grade.php` 等级升级/`改变等级（包含升降级）`
 
@@ -338,48 +462,32 @@ Upgrade.php/`Grade.php` 等级升级/`改变等级（包含升降级）`
 5. upgrade() 升级
 6. downgrade() 降级
 
- 
-
 Group.php 拼团
 
 1. prize() 开奖
 
- 
-
 Repair.php 数据修复
-
- 
 
 Check.php 数据检测
 
- 
-
 Power.php 算力
-
- 
 
 Market.php 火币行情接口  
 参考项目：`猎鹰`、`swarm`
 
 1. tickers()
 
-
-
 ### 测试应用 test
-
-
 
 ## 控制器
 
-### 基类
+### 基础类
 
 Base.php
 
-Base添加前缀增加文件的辨识度，如：ApiBase.php / AdminBase.php
+Base 添加前缀增加文件的辨识度，如：`ApiBase.php` / `AdminBase.php`
 
-
-
-### 登录/注册类
+### 登录 / 注册类
 
 Login.php
 
@@ -399,21 +507,15 @@ thinkphp3.2
 <img src="{:U('/Home/Login/verify', array('random' => time()))}" alt="captcha" onclick="this.src='{:U(\'/Home/Login/verify\')}?'+Math.random();">
 ```
 
-
-
 thinkphp5.0
 
 ```html
 <img src="{:url('/home/login/captcha', ['random' => time()])}" alt="captcha" onclick="this.src='{:url(\'/home/login/captcha\')}?'+Math.random();">
 ```
 
-
-
 `sendSms()` 发送短信
 
 短信验证码倒计时
-
- 
 
 验证码 verification codes
 
@@ -427,13 +529,9 @@ thinkphp5.0
 
 【SKY】您的验证码是{:code}，有效期5分钟，请在页面中提交验证码完成验证。
 
- 
-
 `sendEmail()` 发送邮件
 
 邮箱验证码倒计时
-
- 
 
 文案参考个人邮箱（caiyongwen@yeah.net）中的文件夹分类 > 邮箱验证
 
@@ -443,15 +541,11 @@ thinkphp5.0
 
 邮件内容：你本次注册的验证码为：194559，请在5分钟之内使用它！
 
- 
-
 验证邮箱文案：
 
 邮件标题：<项目名>新用户激活
 
 邮件文案：感谢您注册EasyWeb网站，请点击此激活链接激活您的账户：https://eleadmin.com/account/active/ea04fc42e4b843e899d3d242f0285fad，如果无法验证，请复制链接使用浏览器打开。
-
- 
 
 `verifyEmail()` 验证邮箱
 
@@ -490,8 +584,6 @@ public function download()
 }
 ```
 
- 
-
 thinkphp 3.2 `参考项目vcf`
 
 ```php
@@ -505,15 +597,11 @@ public function downloadApk()
 }
 ```
 
-
-
 `agreement()` 注册协议
 
 `app()` 获取APP信息
 
 `createAccount()` 创建账户
-
-
 
 ### 会员账户类
 
@@ -540,16 +628,12 @@ public function downloadApk()
 1. teamInfo() 会员团队基本信息
 2. teamlist() 会员团队详细信息（分页）
 
- 
-
 修改密码
 
 1. type 类型 1登录密码 2安全密码
 2. old_password 旧密码
 3. new_password 新密码
 4. new_password_confirm 确认新密码
-
- 
 
 ### 资产钱包类
 
@@ -588,16 +672,12 @@ public function downloadApk()
 
  \- 谷歌验证
 
-
-
 ### 新闻消息类
 
 News.php
 
 1. message() 消息列表
 2. detail() 消息详情
-
- 
 
 新闻|资讯分类
 
@@ -620,25 +700,17 @@ News.php
 17. 使用条款 terms
 18. 其他 other
 
-
-
 ### 订单类
 
 Order.php
-
- 
 
 ### 商品类
 
 Goods.php
 
- 
-
-### 展示+索引类
+### 展示 + 索引类
 
 Index.php
-
- 
 
 ### 短信类
 
@@ -647,13 +719,9 @@ application/common/controller
 1. SmsMeilian.php
 2. SmsBao.php
 
-
-
 ### 文章类
 
 Article.php
-
-
 
 ### 上传类
 
@@ -662,15 +730,11 @@ Upload.php
 1. image()
 2. file()
 
-
-
 上传图片资源 `png,jpeg,jpg,gif`
 
 ```php
 public function image(){}
 ```
-
-
 
 tp5.1
 
@@ -680,8 +744,6 @@ $info = $file->validate([
     'ext'  => 'jpg,png,gif'
 ])->move('./uploads');
 ```
-
-
 
 这里验证的文件大小`size`是`25678B`（字节byte）
 
@@ -697,10 +759,6 @@ $info = $file->validate([
 
 选中图片文件右键查看属性中的大小、占用空间
 
- 
-
-
-
 ## 数据库
 
 ### 聚合查询
@@ -713,8 +771,6 @@ $sums = Db::name('user')
     ->select();
 ```
 
-
-
 ```php
 // 当条件不存在时，返回结果的是0.0
 $all_pool = Db::name('user')
@@ -722,7 +778,31 @@ $all_pool = Db::name('user')
     ->sum('pool');
 ```
 
+### 新增
 
+*thinkphp3.2.3*
+
+```php
+$User = M("User"); // 实例化User对象
+$data['name'] = 'ThinkPHP';
+$data['email'] = 'ThinkPHP@gmail.com';
+$res = $User->add($data);
+if ($res === false) {
+  // 建议使用 === false 判断
+}
+```
+
+`$res` 返回值：true | false [参考](https://blog.csdn.net/qq_27930635/article/details/78853908)
+
+```php
+$User = M("User"); // 实例化User对象
+$data['name'] = 'ThinkPHP';
+$data['email'] = 'ThinkPHP@gmail.com';
+$res = $User->add($data);
+echo M()->getLastInsID(); // 获取插入行的主键 id
+```
+
+👆 上面内容[参考](https://blog.csdn.net/SuLinXin/article/details/80515071)
 
 ### 更新
 
@@ -750,11 +830,36 @@ $result = Db::name('user')
 
 上述 `update` 方法返回影响数据的条数，没修改任何数据返回 0
 
+### 事务
 
+*thinkphp3.2.3*
+
+https://www.kancloud.cn/manual/thinkphp/1854 - *数据库驱动 · ThinkPHP3.2.3完全开发手册 · 看云*
+
+### SQL 调试
+
+*thinkphp3.2.3*
+
+1. https://www.kancloud.cn/manual/thinkphp/1833 - *模型调试 · ThinkPHP3.2.3完全开发手册 · 看云*
+
+2. https://www.kancloud.cn/manual/thinkphp/1753 - *fetchSql · ThinkPHP3.2.3完全开发手册 · 看云*
+
+3. https://www.kancloud.cn/manual/thinkphp/1760 - *数据写入 · ThinkPHP3.2.3完全开发手册 · 看云*
+
+参考：
+
+1. https://blog.csdn.net/weixin_41619791/article/details/103087432#sql_15 - *ThinkPHP3.2学习笔记4——实用项_tp3.2 fetchsql 开关_Lynx256的博客-CSDN博客*
+
+使用方式 1：👍
+
+```php
+$data=M('User')->select();
+echo M('User')->_sql();
+```
 
 ## 模型
 
-### action命名
+### action 命名
 
 - `get + model_name` 获取单条数据
 
@@ -767,8 +872,6 @@ $result = Db::name('user')
 - `checkIsExist` 检查是否存在
 
 - `getExchangeRate` 获取兑换比率
-
-
 
 ### 获取单条数据
 
@@ -795,8 +898,6 @@ public static function getUser($where, $field = '*', $is_valid = true)
 }
 ```
 
-
-
 ### 更新单条数据
 
 `update + 模型名`
@@ -810,8 +911,6 @@ public static function updateWallet($data, $where, $field = true)
     return (new self())->allowField($field)->save($data, $where);
 }
 ```
-
-
 
 ### 检查是否存在
 
@@ -827,8 +926,6 @@ public static function checkIsExist($field, $value)
     return empty($uid) ? false : true;
 }
 ```
-
-
 
 ### 获取兑换比率
 
@@ -852,8 +949,6 @@ public static function getExchangeRate($from_currency_id = null, $to_currency_id
     return bcdiv($list[$from_currency_id], $list[$to_currency_id], 4);
 }
 ```
-
-
 
 ### 获取多条数据
 
@@ -897,8 +992,6 @@ public static function allUser($where, $field = '*', $page = ['current_page'=>1,
 }
 ```
 
-
-
 ### 添加单条数据
 
 `add + 模型名`
@@ -912,8 +1005,6 @@ public static function addUser($data)
     return self::create($data, true);
 }
 ```
-
- 
 
 ### 添加多条数据
 
@@ -929,19 +1020,13 @@ public static function addAllWallet($data)
 }
 ```
 
-
-
 ### 分层
 
 逻辑层/服务层/事件层
 
- 
-
 修改器
 
 自动时间戳
-
- 
 
 ### 数据完成
 
@@ -955,8 +1040,6 @@ public function setPidAttr($value, $data)
     return empty($pid) ? 0 : $pid;
 }
 ```
-
-
 
 ### 模型关联
 
@@ -975,8 +1058,6 @@ public function user()
     ]);
 }
 ```
-
-
 
 ### 获取器
 
@@ -997,8 +1078,6 @@ public function getStatusTextAttr($value, $data)
 }
 ```
 
-
-
 读取数据时如何追加？
 
 https://www.kancloud.cn/manual/thinkphp6_0/1037591
@@ -1011,8 +1090,6 @@ $list = User::where('status', 1)
     ->page($page, 15)
     ->select();
 ```
-
-
 
 ### 搜索器
 
@@ -1028,8 +1105,6 @@ public function searchUserIdAttr($query, $value, $data)
     $query->where('user_id', $value);
 }
 ```
-
-
 
 ## 验证
 
@@ -1069,9 +1144,7 @@ if (true !== $validate_result) {
 }
 ```
 
-
-
-### FAQs
+### 常见问题
 
 验证场景 `append` 追加的错误信息不能与 `protected $rule = [];` 中的一致，否则会跳过验证
 
@@ -1133,8 +1206,6 @@ public function sceneUserWithdraw()
 
   `'require|email|unique:user',`
 
-   
-
   `$regexp = "^([_a-z0-9-]+)(\.[_a-z0-9-]+)*@([a-z0-9-]+)(\.[a-z0-9-]+)*(\.[a-z]{2,4})$";`
 
 - 登录密码 password
@@ -1144,8 +1215,6 @@ public function sceneUserWithdraw()
   `'require|min:8|confirm',`
 
   error_message：登录密码不一致
-
-  
 
   'password_require' => '请输入登录密码',
 
@@ -1160,8 +1229,6 @@ public function sceneUserWithdraw()
   `'require|min:6|confirm|length:6',`
 
   error_message：支付密码不一致
-
-  
 
   'payment_password_require' => '请输入安全密码',
 
@@ -1219,13 +1286,9 @@ public function sceneUserWithdraw()
 
   `'bank_name' => 'require',`
 
-  
-
   'bank_name_require' => '请输入开户行',
 
   'bank_name_require' => 'Please enter the bank',
-
-   
 
 - 身份证号码
 
@@ -1245,8 +1308,6 @@ public function sceneUserWithdraw()
 !is_numeric($post_data['price']) || false !== strpos($post_data['price'], '.')
 ```
 
- 
-
 #### 数量
 
 ```php
@@ -1256,15 +1317,11 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
 }
 ```
 
- 
-
 规则
 
 `'money' => 'require|float|>:0',`
 
 `'money' => 'require|number|>:0', // 一定要带上 >:0，因为 number 包含0`
-
- 
 
 错误信息
 
@@ -1273,8 +1330,6 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
 填写正确的数量
 
 最低出售数量5枚
-
- 
 
 #### 数量倍数
 
@@ -1289,8 +1344,7 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
         return '数量必须为'. $limit. '的倍数';
     }
     ```
-  
-  
+
   - 方式二（推荐）
   
     ```php
@@ -1301,15 +1355,10 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
         return '数量必须为'. $limit. '的倍数';
     }
     ```
-  
-
- 
 
 - 错误信息
 
   数量为`$limit`的倍数起售
-
- 
 
 - 测试
   - ✔️$post_data[‘to_amount’] = 100 // 正确（测试结果：pass）
@@ -1317,8 +1366,6 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
   - ✔️$post_data[‘to_amount’] = 0 // 错误（测试结果：pass）
   - ✔️$post_data[‘to_amount’] = -10 // 错误（测试结果：pass）
   - ✔️$post_data[‘to_amount’] = -100 // 错误（测试结果：pass）
-
- 
 
 - 多语言
 
@@ -1334,31 +1381,23 @@ if (!preg_match('/^[0-9]+(.[0-9]{1,4})?$/', $data['money']) || !($data['money'] 
 
     lang('数量为的倍数', [$limit])
 
-
-
 #### 价格
 
-规则
+规则：
 
-'price' => 'require|float|>:0',
+- `'price' => 'require|float|>:0',`
 
- 
+错误信息：
 
-错误信息
+- 填写大于0的价格
 
-填写大于0的价格
+- 填写正确的价格
 
-填写正确的价格
-
-最低出售价格5
-
- 
+- 最低出售价格5
 
 #### 钱包地址
 
 ##### ETH / BSC钱包地址
-
- 
 
 // ETH钱包地址 `0x258F9769Edd6957d1c1Cd25F265e9FDEDD0C00FC`
 
@@ -1374,19 +1413,13 @@ if (!preg_match('/^0[x|X][0-9a-zA-Z]{40}$/', $param_data['to_address'])) {
 }
 ```
 
- 
-
 - 方式 2（不够严谨）
-
- 
 
 ```php
 if (stripos($data['address'], '0x') !== 0 || strlen($data['address']) != 42) {
     exception(lang('address_format_error'));
 }
 ```
-
- 
 
 测试
 
@@ -1402,9 +1435,7 @@ if (stripos($data['address'], '0x') !== 0 || strlen($data['address']) != 42) {
 
 ❌$data['address'] = '0x67712e1b7225ffad4d8281c3fbbe3372f7baca7-'; // 正确（测试结果：fail）
 
- 
-
-##### TRX钱包地址
+##### TRX 钱包地址
 
 // TRX钱包地址 `TBF6qH2i9L7DWst5hrTShzrVGKvQ8qZ2xf`
 
@@ -1418,8 +1449,6 @@ if (!preg_match('/^[t|T][0-9a-zA-Z]{33}$/', $param_data['to_address'])) {
 }
 ```
 
- 
-
 - 方式 2
 
 ```php
@@ -1427,8 +1456,6 @@ if (!preg_match('/^[t|T][0-9a-zA-Z]{33}$/', $param_data['to_address'])) {
     exception('TRON地址格式有误');
 }
 ```
-
- 
 
 - 方式 3
 
@@ -1438,13 +1465,9 @@ if (stripos($data['withdrawal_address'], 'T') !== 0 && strlen($data['withdrawal_
 }
 ```
 
- 
-
 #### 时间验证
 
 验证某个字段的值是否为指定格式的日期
-
- 
 
 格式
 
@@ -1468,8 +1491,6 @@ if (stripos($data['withdrawal_address'], 'T') !== 0 && strlen($data['withdrawal_
 10:00 ~ 11:00:00
 ```
 
- 
-
 #### 手机号或者邮箱
 
 #### 错误信息
@@ -1477,8 +1498,6 @@ if (stripos($data['withdrawal_address'], 'T') !== 0 && strlen($data['withdrawal_
 - 当请求数据错误时提示：
 
   请求参数异常 `param_error`
-
- 
 
 - 当请求数据缺少时提示：
 
@@ -1497,37 +1516,25 @@ if (stripos($data['withdrawal_address'], 'T') !== 0 && strlen($data['withdrawal_
   }
   ```
 
-  
-
 - 当请求用户数据为空时提示：
 
    无效的用户 `invalid_user`
-
-  
 
 - 当请求数据不等于某值或不在某范围内时提示：
 
   无效的参数 `invalid_param`
 
-  
-
 - 当请求数据查库为空时提示：
 
   请求数据有误 `request_data_error`
-
-
 
 - 当更新数据前已更新时提示：
 
   此等级不可重复标记
 
-  
-
 - 当更新条件错误时显示：
 
   数据（更新）异常 `update_error`
-
-
 
 #### 自定义验证
 
@@ -1542,8 +1549,6 @@ tp5.1官方手册地址：[验证 -> 验证器 -> 自定义验证规则](https:/
 `checkWalletMoney()` // 验证钱包余额
 
 `checkSmsCaptcha()` // 验证短信验证码
-
- 
 
 例 🌰：
 
@@ -1561,8 +1566,6 @@ protected function checkUserIsExist($value, $rules, $data)
     return $is_exist ? true : '推荐人不存在';
 }
 ```
-
- 
 
 ```php
 namespace app\index\validate;
@@ -1589,8 +1592,6 @@ class User extends Validate
 
 注：上面的`thinkphp`对应的是下面的`$rule`参数
 
- 
-
 #### 验证场景
 
 注释格式
@@ -1601,8 +1602,6 @@ class User extends Validate
  * @return User
  */
 ```
-
- 
 
 `adminCreate()` 管理员添加
 
@@ -1616,8 +1615,6 @@ class User extends Validate
 
 `userTransfer()` 用户划转
 
-
-
 个人惯用
 
 ```php
@@ -1627,11 +1624,9 @@ if (true !== $result) {
 }
 ```
 
- 
+#### 表单令牌
 
-#### **表单令牌**
-
-Tp6
+ThinkPHP 6
 
 `<input type="hidden" name="__token__" value="{$token}" />`
 
@@ -1641,11 +1636,7 @@ Tp6
 
 模板中使用`{$token}`，需要整个页面刷新后才会生成新的 **token**，使用 **ajax** 局部刷新只会生成同一个 **token**
 
-
-
 可尝试把 **token** 验证放到新增、更新数据之前验证
-
-
 
 ```php
 // 验证数据
@@ -1663,8 +1654,6 @@ if (true !== $validate_result) {
     exception($validate_result);
 }
 ```
-
-
 
 ## Common.php
 
@@ -1729,16 +1718,12 @@ if (true !== $validate_result) {
    }
    ```
 
-   
-
 2. 在需要记录错误日志的位置添加如下代码
 
    ```php
    custom_log($e->getFile() .'----'. $e->getLine() .'---'. $e->getMessage());
    trace($e->getFile() .'----'. $e->getLine() .'---'. $e->getMessage(), 'error');
    ```
-
-
 
 ### 自动生成文件版本号
 
@@ -1758,8 +1743,6 @@ function auto_version($file_name)
     return $file_name . '?v=' . $ver;
 }
 ```
-
-
 
 ### 获取数值所属区间
 
@@ -1786,8 +1769,6 @@ public static function getNumRange(float $number, array $rangeArray, string $def
 }
 ```
 
-
-
 ### 获取日期范围
 
 ```php
@@ -1812,8 +1793,6 @@ private static function getDateRange($time = '', $format = 'Y-m-d', $day = 7, $i
     return $date;
 }
 ```
-
-
 
 ### 生成随机字符串
 
@@ -1849,8 +1828,6 @@ return $res;
 }
 ```
 
-
-
 ### 生成随机小数
 
 ```php
@@ -1864,8 +1841,6 @@ function randFloat($min=0, $max=1){
   return $min + mt_rand()/mt_getrandmax() * ($max-$min);
 }
 ```
-
-
 
 ### 隐藏中间的值（例：134****1234）
 
@@ -1894,20 +1869,20 @@ function mb_substr_replace($string, $replace = null, $offset = 2, $length = -2)
 }
 ```
 
-
-
-### 保留小数点后4位
+### 保留小数点后 4 位
 
 ```php
 //保留小数点后4位
 function digits($num) {
-	return substr(sprintf("%.6f", $num), 0, -2);
+    return substr(sprintf("%.6f", $num), 0, -2);
 }
 ```
 
+参考：
 
+1. https://www.cnblogs.com/zouzhe0/p/6197594.html - *PHP 保留两位小数的几种方法 - 桔子木木 - 博客园*
 
-### 截取字符串前25个字符后面的用...代替
+### 截取字符串前 25 个字符后面的用...代替
 
 ```php
 //富文本操作
@@ -1926,8 +1901,6 @@ function cut_out($str) {
 }
 ```
 
-
-
 ## 注意⚠️
 
 1. 后台建议不要用模型的模型关联功能进行搜索查询数据
@@ -1935,15 +1908,11 @@ function cut_out($str) {
    例：  
    `user_machine`表中没有`mobile`字段，而`UserMachine`模型关联了`user`表的`mobile`字段，现在想通过`mobile`字段查找`user_machine`表中该会员的数据，模型关联查询暂没发现如何实现
 
-   
-
 ## Composer
 
-[composer 类库](framework/第三方类库)
+[composer 类库](back-end/composer/composer-pkgs.md)
 
-
-
-## FAQ
+## 常见问题
 
 ### 如何将 composer 类库下载放置 extend 中使用
 
@@ -1983,11 +1952,9 @@ function cut_out($str) {
   
   ```
 
-
-
 ### 源码中如何快速定位 thinkphp 版本?
 
-1. 打开项目根目录，找到 composer.json 文件并打开查看 topthink/framework 的值就是框架版本
+1. 打开项目根目录，找到 `composer.json` 文件并打开查看 `topthink/framework` 的值就是框架版本
 
    ![](_images/thinkphp-图片1.png)
 
@@ -1997,18 +1964,16 @@ function cut_out($str) {
 
 ### tp6 获取请求的模块名、类名和方法名
 
-参考链接：https://blog.csdn.net/haibo0668/article/details/117604658
-
-
-
 获取请求模块名：`$module = app('http')->getName();`
+
+参考链接：
+
+1. https://blog.csdn.net/haibo0668/article/details/117604658
 
 ### 使用 try catch 异常处理
 
 ![](_images/thinkphp-图片2.png)
 
-
 ## 更多
 
-[cmd 下运行 thinkphp （主要用于定时任务.bat）](http://www.thinkphp.cn/code/1517.html)
-
+1. [cmd 下运行 thinkphp （主要用于定时任务.bat）](http://www.thinkphp.cn/code/1517.html)

@@ -1,30 +1,33 @@
-## IPTV
+# 多媒体
 
-简介：
+## 音频
 
-> IPTV（Internet Protocol television，互联网协议电视）
+### 音频格式
 
-官方：
+- mp3
+- aac
 
-https://github.com/iptv-org - *iptv-org · GitHub*
+## 图像
 
-- https://github.com/iptv-org/iptv - *GitHub - iptv-org/iptv: Collection of publicly available IPTV channels from all over the world*
-- https://github.com/iptv-org/awesome-iptv - *GitHub - iptv-org/awesome-iptv: A curated list of resources related to IPTV*
-- https://github.com/iptv-org/iptv-org.github.io - *GitHub - iptv-org/iptv-org.github.io*
-    - https://iptv-org.github.io/ - *iptv-org*
+### 图片格式
 
-直播源：
+- jpg
+- jpeg
+- png
+- webp
+- svg
+- gif
 
-1. https://github.com/EvilCult/iptv-m3u-maker - *GitHub - EvilCult/iptv-m3u-maker: IPTV 国内+国外 电视台直播源m3u文件, 收集&汇总&本地源脚本*
+### 工具
 
-2. https://github.com/youshandefeiyang/IPTV - *GitHub - youshandefeiyang/IPTV: 肥羊的4K/8K超高清IPTV直播源&&直播代码仓库*
+1. https://github.com/ImageMagick/ImageMagick - *GitHub - ImageMagick/ImageMagick: 🧙‍♂️ ImageMagick 7*
 
-参考：
+    ![GitHub last commit](https://badgen.net/github/last-commit/ImageMagick/ImageMagick?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ImageMagick/ImageMagick?style=social)
 
-https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全球 IPTV直播源 m3u直播源 - 优质盒子*
+## 视频
 
-
-## 视频格式
+### 视频格式
 
 - m3u8
 - m3u
@@ -34,24 +37,7 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 - avi
 - ts
 
-
-## 音频格式
-
-- mp3
-- aac
-
-
-## 图片格式
-
-- jpg
-- jpeg
-- png
-- webp
-- svg
-- gif
-
-
-## 功能
+### 功能
 
 - 倍速播放
 - 长按倍速播放
@@ -62,12 +48,52 @@ https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全�
 
 ## 工具
 
+### IPTV
+
+#### 简介
+
+> IPTV（Internet Protocol television，互联网协议电视）
+
+#### 官方
+
+https://github.com/iptv-org - *iptv-org · GitHub*
+
+- https://github.com/iptv-org/iptv - *GitHub - iptv-org/iptv: Collection of publicly available IPTV channels from all over the world*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/iptv-org/iptv?icon=github&color=blue)
+
+- https://github.com/iptv-org/awesome-iptv - *GitHub - iptv-org/awesome-iptv: A curated list of resources related to IPTV*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/iptv-org/awesome-iptv?icon=github&color=blue)
+
+- https://github.com/iptv-org/iptv-org.github.io - *GitHub - iptv-org/iptv-org.github.io*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/iptv-org/iptv-org.github.io?icon=github&color=blue)
+
+    - https://iptv-org.github.io/ - *iptv-org*
+
+#### 直播源
+
+1. https://github.com/EvilCult/iptv-m3u-maker - *GitHub - EvilCult/iptv-m3u-maker: IPTV 国内+国外 电视台直播源m3u文件, 收集&汇总&本地源脚本*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/EvilCult/iptv-m3u-maker?icon=github&color=blue)
+
+2. https://github.com/youshandefeiyang/IPTV - *GitHub - youshandefeiyang/IPTV: 肥羊的4K/8K超高清IPTV直播源&&直播代码仓库*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/youshandefeiyang/IPTV?icon=github&color=blue)
+
+#### 参考
+
+1. https://uzbox.com/tech/iptv.html - *IPTV 直播源 亲测有效，2023精选全球 IPTV直播源 m3u直播源 - 优质盒子*
+
 ### Kodi
 
 #### 简介
 
 > Kodi is a free media player that is designed to look great on your big screen TV but is just as at home on a small screen.
 
+![GitHub last commit](https://badgen.net/github/last-commit/xbmc/xbmc?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/xbmc/xbmc?style=social)
 
 #### 官方
 
@@ -107,6 +133,9 @@ http://www.kodiplayer.cn/skins/ - *Kodi皮肤 - Kodi中文网*
 #### 简介
 
 > mpv is a free (as in freedom) media player for the command line. It supports a wide variety of media file formats, audio and video codecs, and subtitle types.
+
+![GitHub last commit](https://badgen.net/github/last-commit/mpv-player/mpv?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/mpv-player/mpv?style=social)
 
 
 #### 官方
