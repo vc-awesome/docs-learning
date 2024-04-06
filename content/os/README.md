@@ -4,6 +4,23 @@
 
 https://www.gnu.org/ - *GNU 操作系统和自由软件运动*
 
+## DOS
+
+简介
+
+> [磁盘操作系统](https://baike.baidu.com/item/磁盘操作系统/3793138?fromModule=lemma_inlink)（Disk Operating System），是早期[个人计算机](https://baike.baidu.com/item/个人计算机/3731770?fromModule=lemma_inlink)上的一类[操作系统](https://baike.baidu.com/item/操作系统/192?fromModule=lemma_inlink)。
+>
+> <cite>—— [DOS_百度百科](https://baike.baidu.com/item/DOS/32025)</cite>
+
+教程
+
+1. https://www.w3cschool.cn/dosmlxxsc1/ - *DOS 命令学习手册_w3cschool*
+
+命令
+
+1. <https://baike.baidu.com/item/DOS命令> - *DOS命令_百度百科*
+2. https://dandelioncloud.cn/article/details/1469136116061413378 - *windows中dos命令汇总及获取管理员权限-蒲公英云*
+
 ## FreeBSD
 
 https://www.freebsd.org/ - *The FreeBSD Project*
@@ -35,19 +52,3 @@ https://man.openbsd.org/ - *OpenBSD manual pages*
 > <cite>-- [命令行界面_百度百科](https://baike.baidu.com/item/%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2/9910197)</cite>
 
 https://github.com/topics/cli - *cli · GitHub Topics · GitHub*
-
-## DOS
-
-### 简介
-
-> [磁盘操作系统](https://baike.baidu.com/item/磁盘操作系统/3793138?fromModule=lemma_inlink)（Disk Operating System），是早期[个人计算机](https://baike.baidu.com/item/个人计算机/3731770?fromModule=lemma_inlink)上的一类[操作系统](https://baike.baidu.com/item/操作系统/192?fromModule=lemma_inlink)。
->
-> <cite>—— [DOS_百度百科](https://baike.baidu.com/item/DOS/32025)</cite>
-
-### 教程
-
-1. https://www.w3cschool.cn/dosmlxxsc1/ - *DOS 命令学习手册_w3cschool*
-
-### 命令
-
-<https://baike.baidu.com/item/DOS命令> - *DOS命令_百度百科*

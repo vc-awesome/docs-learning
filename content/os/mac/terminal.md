@@ -10,6 +10,8 @@ https://support.apple.com/zh-cn/guide/terminal/welcome/mac - *适用于 Mac 的�
 
 ## 入门指南
 
+https://github.com/0nn0/terminal-mac-cheatsheet - *GitHub - 0nn0/terminal-mac-cheatsheet: List of my most used commands and shortcuts in the terminal for Mac*
+
 ### 键盘快捷键
 
 https://support.apple.com/zh-cn/guide/terminal/trmlshtcts/mac - *Mac 上“终端”中的键盘快捷键 - 官方 Apple 支持 (中国)*

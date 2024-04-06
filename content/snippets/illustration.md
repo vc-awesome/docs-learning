@@ -19,3 +19,7 @@
 ![illustration](https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/illustrations/blocks/topPeekI.png)
 
 <small>*插图来源于：[Your connected workspace for wiki, docs & projects | Notion](https://www.notion.so/)*</small>
+
+![illustration](https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg)
+
+<small>*插图来源于：[An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)*</small>

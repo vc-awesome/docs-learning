@@ -56,6 +56,10 @@ bash --version
 echo $BASH_VERSION
 ```
 
+参考：
+
+1. https://blog.csdn.net/chenweiaiyanyan/article/details/44835407 - *bash下. : () {} [] [[]] (())的解释_.() { . | . & } .-CSDN博客*
+
 ### Zsh
 
 #### 简介
@@ -83,3 +87,8 @@ https://du33169.tech/posts/linux/zshconfiguration/ - *Zsh配置与美化 - Lando
 
 ### PoweShell
 
+## 常见问题
+
+### 交互式非登录shell
+
+<https://cn.bing.com/search?q=交互式非登录shell> - *交互式非登录shell - 搜索*

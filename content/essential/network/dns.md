@@ -7,11 +7,13 @@
 
 ## 教程
 
-1. https://ephen.me/2017/PublicDns_1/ - *使用公共 DNS 上网的弊端（一） | Ephen‘s Blog*
-2. https://ephen.me/2017/PublicDns_2/ - *使用公共 DNS 上网的弊端（二） | Ephen‘s Blog*
-3. https://selfboot.cn/2015/11/05/dns_theory/ - *从理论到实践，全方位认识DNS（理论篇） | Just For Fun*
-4. https://selfboot.cn/2015/11/14/dns_practice/ - *从理论到实践，全方位认识DNS（实践篇） | Just For Fun*
-5. https://blog.skk.moe/post/i-have-my-unique-dns-setup/ - *我有特别的 DNS 配置和使用技巧 | Sukka's Blog*
+1. http://www.ruanyifeng.com/blog/2022/08/dns-query.html - *DNS 查询原理详解 - 阮一峰的网络日志*
+2. https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts - *An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean*
+3. https://ephen.me/2017/PublicDns_1/ - *使用公共 DNS 上网的弊端（一） | Ephen‘s Blog*
+4. https://ephen.me/2017/PublicDns_2/ - *使用公共 DNS 上网的弊端（二） | Ephen‘s Blog*
+5. https://selfboot.cn/2015/11/05/dns_theory/ - *从理论到实践，全方位认识DNS（理论篇） | Just For Fun*
+6. https://selfboot.cn/2015/11/14/dns_practice/ - *从理论到实践，全方位认识DNS（实践篇） | Just For Fun*
+7. https://blog.skk.moe/post/i-have-my-unique-dns-setup/ - *我有特别的 DNS 配置和使用技巧 | Sukka's Blog*
 
 
 ## DNS 域名商

@@ -1,9 +1,5 @@
 # 📂 __content__
 
-![illustration](https://developer.android.google.cn/static/images/design/ui/mobile/passkeys_header.png?hl=zh-cn)
-
-<small>*插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/patterns/passkeys?hl=zh-cn)*</small>
-
 1. 📄 [\_navbar\-simple.md](_navbar-simple.md)
 2. 📄 [\_navbar.md](_navbar.md)
 3. 📄 [\_portal.md](_portal.md)
@@ -258,10 +254,10 @@
 ### 📂 __windows__
 
 1. 📄 [\_sidebar.md](os/windows/_sidebar.md)
-2. 📄 [README.md](os/windows/README.md)
-3. 📄 [windows\-cli.md](os/windows/windows-cli.md)
-4. 📄 [windows\-cmd.md](os/windows/windows-cmd.md)
-5. 📄 [windows\-faq.md](os/windows/windows-faq.md)
+2. 📄 [cmd.md](os/windows/cmd.md)
+3. 📄 [command.md](os/windows/command.md)
+4. 📄 [faq.md](os/windows/faq.md)
+5. 📄 [README.md](os/windows/README.md)
 
 ## 📂 __project__
 

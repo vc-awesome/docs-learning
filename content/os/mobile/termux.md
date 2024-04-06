@@ -299,15 +299,24 @@ apt edit-sources
 
 > /data/data/com.termux/files/home
 
-`.bashrc` - 用户的 Bash 配置文件
+`.bashrc` - 用户的 Bash 配置文件（其中 rc 是 run commands 的意思）
 
-https://zhuanlan.zhihu.com/p/405174594 - *Linux文件 profile、bashrc、bash_profile区别 - 知乎*
+文件位置：`/data/data/com.termux/files/home/.bashrc` 或 `~/.bashrc`
 
-https://blog.csdn.net/eleanoryss/article/details/70207767 - *linux下.bashrc文件修改和生效_bashrc生效-CSDN博客*
+读取方式：每次打开新的终端时，都要被读取。
 
-https://www.sysgeek.cn/bashrc/#google_vignette - *bashrc 配置文件自定义指南，如何添加别名、使用函数等*
+`.bash_profile`
 
-https://blog.csdn.net/u010167269/article/details/52612260 - *Linux 中 bashrc 中的 rc 是什么意思_bashrc全名-CSDN博客*
+文件位置：`/data/data/com.termux/files/home/.bash_profile` 或 `~/.bash_profile`
+
+读取方式：只在会话开始时被读取一次。
+
+参考：
+
+1. https://zhuanlan.zhihu.com/p/405174594 - *Linux文件 profile、bashrc、bash_profile区别 - 知乎*
+2. https://blog.csdn.net/eleanoryss/article/details/70207767 - *linux下.bashrc文件修改和生效_bashrc生效-CSDN博客*
+3. https://www.sysgeek.cn/bashrc/#google_vignette - *bashrc 配置文件自定义指南，如何添加别名、使用函数等*
+4. https://blog.csdn.net/u010167269/article/details/52612260 - *Linux 中 bashrc 中的 rc 是什么意思_bashrc全名-CSDN博客*
 
 `.bash_history`
 
@@ -660,7 +669,7 @@ Search：
     ```
     
     ``` sh
-    nano run-browser-sync.sh
+    vim run-browser-sync.sh
     ```
     
     输入以下运行 browser-sync 的脚本内容
@@ -1102,6 +1111,50 @@ pkg install dnsutils
 
 ```bash
 pkg uninstall dnsutils
+```
+
+
+#### fdupes
+
+简介：
+
+> FDUPES is a program for identifying or deleting duplicate files residing within specified directories. - adrianlopezroche/fdupes
+
+![GitHub last commit](https://badgen.net/github/last-commit/adrianlopezroche/fdupes?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/adrianlopezroche/fdupes?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/adrianlopezroche/fdupes?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/adrianlopezroche/fdupes?style=social)
+
+官方：
+
+https://github.com/adrianlopezroche/fdupes - *GitHub - adrianlopezroche/fdupes: FDUPES is a program for identifying or deleting duplicate files residing within specified directories.*
+
+查看：
+
+```bash
+pkg show fdupes
+```
+
+安装：
+
+```bash
+pkg install fdupes
+```
+
+卸载：
+
+```bash
+pkg uninstall fdupes
+```
+
+用法：
+
+```bash
+fdupes --help
+```
+
+```bash
+fdupes -r ./
 ```
 
 

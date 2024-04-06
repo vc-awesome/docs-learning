@@ -57,6 +57,16 @@
 
 - 替换内容 `$1 `
 
+添加标签 `<kbd></kbd>`
+
+- 查找内容
+
+```regex
+(\b([a-zA-Z]|Ctrl|Alt|Del|ESC|Break|PrintScr|Pause|F([1-9]|[1][0-2]))\b)
+```
+
+- 替换内容 `<kbd>$1</kbd>`
+
 ## 其它
 
 ```md

@@ -3,6 +3,8 @@
 ## 简介
 
 > <img src="https://git-scm.com/images/logo@2x.png" align="left" width="78" hspace="0" vspace="0" style="margin-right: 10px;margin-top: 5px;" /> Git is a [free and open source](https://git-scm.com/about/free-and-open-source) distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+>
+> <cite>—— [Git](https://git-scm.com/)</cite>
 
 ![GitHub last commit](https://badgen.net/github/last-commit/git/git?icon=github&color=blue)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/git/git?logo=github&color=blue)
@@ -10,7 +12,7 @@
 
 ## 官方
 
-Website: https://git-scm.com - *git*
+Website: https://git-scm.com - *Git*
 
 Docs: https://git-scm.com/doc - *Git - Documentation*
 
@@ -20,25 +22,13 @@ GitHub: https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror -
 
 https://git-scm.com/downloads - *Git - Downloads*
 
-## 教程
-
-1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
-
-2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
-
-3. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
-
-## 工具
-
-### 图形界面工具
+图形界面工具
 
 https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
-1. ✅ [Sourcetree](https://www.sourcetreeapp.com/) <i id="sourcetree"></i> - *Sourcetree | Free Git GUI for Mac and Windows*
+1. ✅ [Sourcetree](https://www.sourcetreeapp.com/) <i id="sourcetree"></i> - *Sourcetree | Free Git GUI for Mac and Windows* [使用教程](https://www.runoob.com/git/source-tree-intro.html)
 
-   - [Sourcetree 使用教程](https://www.runoob.com/git/source-tree-intro.html)
-
-   - 支持 Windows, MacOS
+   - 支持 Windows, macOS
 
    - 免费
 
@@ -52,15 +42,15 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 2. ✅ [GitHub Desktop](https://desktop.github.com/) <i id="github-desktop"></i> - *GitHub Desktop | Simple collaboration from your desktop*
 
-   - 支持 Windows, macOS, [GitHub](https://github.com/desktop/desktop)
+   - 支持 Windows, macOS
 
-   - 开源免费
+   - [开源免费](https://github.com/desktop/desktop)
 
 3. [Tower](https://www.git-tower.com/) - *The most powerful Git client for Mac and Windows | Tower Git Client*
 
    - 支持 Windows, macOS
 
-### 命令行界面工具
+命令行界面工具
 
 1. [GitUI by extrawurst](https://extrawurst.itch.io/gitui) - *blazing fast terminal-ui for git written in rust*
 
@@ -68,21 +58,26 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
    - [开源免费](https://github.com/extrawurst/gitui)
 
-### 代码托管平台
+代码托管平台
 
 1. [GitHub](/tools/github) - *GitHub: Where the world builds software · GitHub*
-
 2. [Gitee](https://gitee.com/) - *Gitee - 基于 Git 的代码托管和研发协作平台*
-
 3. [阿里云云效 Codeup](https://codeup.aliyun.com/) - *云效 Codeup · 企业级代码管理平台* [旧版](https://code.aliyun.com/)
-
 4. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
-
 5. [Bitbucket](https://www.atlassian.com/zh/software/bitbucket) - *用于团队的 Atlassian Bitbucket Git 代码管理工具 | Atlassian*
-
 6. [腾讯云 CODING DevOps](https://coding.net/) - *DevOps_DevOps 解决方案_一站式 DevOps_开发者工具 | 腾讯云 CODING DevOps*
-
 7. [GitCode](https://gitcode.net/) - *GitCode——开源代码托管平台，独立第三方开源社区，Git/Github/Gitlab*
+
+在线学习工具
+
+1. https://learngitbranching.js.org/?locale=zh_CN - *Learn Git Branching*
+
+## 教程
+
+1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
+2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
+3. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
+4. https://git-scm.com/book/zh/ - *Git - Book*
 
 ## 快速入门
 
@@ -123,80 +118,18 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 5. 提交修改。
 6. 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
 
-> 你的本地仓库由 git 维护的三棵“树”组成。第一个是你的 **工作目录**，它持有实际文件；第二个是 **缓存区（Index）**，它像个缓存区域，临时保存你的改动；最后是 **HEAD**，指向你最近一次提交后的结果。
+你的本地仓库由 git 维护的三棵“树”组成。
+
+- 第一个是你的 **工作目录**，它持有实际文件；
+- 第二个是 **缓存区（Index）**，它像个缓存区域，临时保存你的改动；
+- 最后是 **HEAD**，指向你最近一次提交后的结果。
 
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
 <small>*插图来源于：[git 使用简易指南](https://www.bootcss.com/p/git-guide/)*</small>
 
-## 基础命令
+## 基础操作
 
-### 查看帮助
-
-```sh
-git --help
-```
-
-```sh
-git -h
-```
-
-read about a specific subcommand or concept.（阅读特定的子命令或概念。）
-
-```sh
-git help <command>
-```
-
-```sh
-git help <concept>
-```
-
-### 查看版本
-
-```bash
-git --version
-```
-
-```bash
-git -v
-```
-
-### 配置 - *config*
-
-查看当前仓库配置信息
-
-```bash
-git config --list
-```
-
-查看全局仓库配置信息
-
-```sh
-git config --list --global
-```
-
-### 克隆 - *clone*
-
-克隆指定版本
-
-```sh
-git clone -b v1.2.0 --depth=1 https://ghproxy.com/https://github.com/zenorocha/codecopy.git codecopy
-```
-
-参考：http://www.360doc.com/content/22/0801/15/7579570_1042203637.shtml - *Git 克隆指定版本...*
-
-克隆方式（HTTPS）：
-
-```bash
-git clone https://github.com/zenorocha/codecopy.git
-```
-
-克隆方式（SSH）：
-
-```bash
-git clone git@github.com:zenorocha/codecopy.git
-```
-
-### 创建仓库 🔥
+### 创建仓库
 
 初始化 `git` 仓库（在指定系统文件夹下执行）
 
@@ -210,7 +143,7 @@ git init
 git clone <repo> <directory> # repo: git仓库，directory: 本地目录
 ```
 
-查看在你上次提交之后是否有修改  
+查看在你上次提交之后是否有修改
 
 ```bash
 git status
@@ -246,7 +179,7 @@ git config --global user.name "vc"
 git config --global user.email "caiyongwen@yeah.net"
 ```
 
-> --global: 去掉此参数只针对当前仓库有效
+注：去掉 `--global` 参数只针对当前仓库有效。
 
 将仓库添加至安全目录（可选操作）
 
@@ -254,57 +187,69 @@ git config --global user.email "caiyongwen@yeah.net"
 git config --global --add safe.directory /storage/emulated/0/Documents/markor/GitHub/vc-awesome
 ```
 
-注：部分设备（例：**Termux** ）未执行此命令，会提示错误：“必须执行此命令”；在提示的内容中复制命令执行即可。
-
-实例
-
-```bash
-git init
-
-git remote add [shortname] [url]
-
-git fetch origin master
-
-git merge origin master
-```
+注：部分设备（例：**Termux** ）未执行此命令，会提示错误：“必须执行此命令”（在提示的内容中复制命令执行即可）。
 
 #### 创建新仓库
 
-> via 阿里云代码仓库
+- 方式一（via 阿里云代码仓库）
 
-```bash
-git clone git@137.220.33.223:p/sky.git
-cd sky
-touch README.md
-git add README.md
-git commit -m "add README"
-git push -u origin master
-```
+    ```bash
+    git clone git@github.com:vc-awesome/docs-learning.git
+    
+    cd sky
+    
+    touch README.md
+    
+    git add README.md
+    
+    git commit -m "add README"
+    
+    git push -u origin master
+    ```
+
+- 方式二
+
+    ```bash
+    git init
+    
+    git remote add [shortname] [url]
+    
+    git fetch origin master
+    
+    git merge origin master
+    ```
 
 #### 已存在的文件夹
 
 > via 阿里云代码仓库
 
-推送改动
+推送改动：
 
 ```bash
 cd existing_folder
+
 git init
-git remote add origin git@code.aliyun.com:torres/swarm.git
+
+git remote add origin git@github.com:vc-awesome/docs-learning.git
+
 git add .
+
 git commit -m 
+
 git push -u origin master
 ```
 
-更新合并（已存在的 Git 仓库，执行此命令即可）
+更新合并：
 
-git remote 完成后拉取远程的文件操作
+已存在的 Git 仓库，执行下面的命令即可（此命令在 `git remote` 完成后，拉取远程的文件至本地仓库）
 
 ```bash
 git pull origin master
 ```
 
-### 提交至远程仓库 🔥
+### 提交至远程仓库
+
+操作步骤（共 4 步）：
 
 1. 查看仓库当前的状态，显示有变更的文件
 
@@ -349,6 +294,8 @@ git pull origin master
 #### 配置验证信息 - *ssh*
 
 > 由于你的本地 Git 仓库和 GitHub 仓库之间的传输是通过 SSH 加密的，所以我们需要配置验证信息。
+
+操作步骤（共 5 步）：
 
 1. 生成 **SSH Key**
 
@@ -420,9 +367,115 @@ git pull origin master
 
 1. https://www.runoob.com/w3cnote/git-guide.html - *Github 简明教程 | 菜鸟教程*
 
+## 基础命令
+
+### 路径规范 - *pathspec*
+
+https://git-scm.com/docs/gitglossary/zh_HANS-CN#gitglossary-aiddefpathspecapathspec - *Git - gitglossary Documentation*
+
+### 目录树对象 - *tree-ish*
+
+https://git-scm.com/docs/gitglossary/zh_HANS-CN#gitglossary-aiddeftree-ishatree-ishalsotreeish - *Git - gitglossary Documentation*
+
+### 查看帮助 - *help*
+
+> [git-help](https://git-scm.com/docs/git-help/zh_HANS-CN) - 显示有关git的帮助信息
+
+```sh
+git --help
+```
+
+```sh
+git -h
+```
+
+read about a specific subcommand or concept.（阅读特定的子命令或概念。）
+
+```sh
+git help <command>
+```
+
+```sh
+git help <concept>
+```
+
+```bash
+git <verb> --help
+```
+
+```bash
+man git-<verb>
+```
+
+参考：
+
+1. <https://git-scm.com/book/zh/v2/起步-获取帮助> - *Git - 获取帮助*
+
+### 查看版本 - *version*
+
+> [git](https://git-scm.com/docs/git/zh_HANS-CN) - 简单的内容追踪系统
+
+```bash
+git --version
+```
+
+```bash
+git -v
+```
+
+### 配置 - *config*
+
+> [git-config](https://git-scm.com/docs/git-config/zh_HANS-CN) - 获取和设置仓库或全局选项
+
+查看当前仓库配置信息
+
+```bash
+git config --list
+```
+
+查看全局仓库配置信息
+
+```sh
+git config --list --global
+```
+
+### 克隆 - *clone*
+
+克隆本地仓库
+
+```bash
+git clone /path/to/repository
+```
+
+克隆远端服务器仓库
+
+```bash
+git clone username@host:/path/to/repository
+```
+
+克隆指定版本
+
+```sh
+git clone -b v1.2.0 --depth=1 https://github.com/zenorocha/codecopy.git codecopy
+```
+
+参考：http://www.360doc.com/content/22/0801/15/7579570_1042203637.shtml - *Git 克隆指定版本...*
+
+克隆方式（HTTPS）：
+
+```bash
+git clone https://github.com/zenorocha/codecopy.git
+```
+
+克隆方式（SSH）：
+
+```bash
+git clone git@github.com:zenorocha/codecopy.git
+```
+
 ### 添加 - *add*
 
-https://git-scm.com/docs/git-add/zh_HANS-CN - *Git - git-add Documentation*
+> [git-add](https://git-scm.com/docs/git-add/zh_HANS-CN) - 添加内容到索引
 
 ### 推送改动 - *push*
 
@@ -467,46 +520,18 @@ git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分�
   ```bash
   git merge [alias]/[branch] #中括号的内容可省略
   ```
-  
-  ---
-  
-  ```bash
-  git fetch
-  ```
-  
-  ```bash
-  git merge
-  ```
 
-### 查看提交历史 - *log*（本地仓库）
+### 远程 - *remote*
 
-```bash
-git log
-
-git log --oneline #简洁模式
-
-git log --pretty=oneline #简洁模式，显示完整的commit_id
-
-git log --graph #查看分支、合并，拓扑图展示
-
-git log --reverse #逆向显示所有日志
-
-git log --authoer=caiyongwen #查看指定用户提交历史
-
-git log -5 #显示5条提交历史
-
-git log --decorate #查看标签
-```
-
-### 远程操作 - *remote*
-
-https://www.runoob.com/git/git-remote.html - *git remote 命令 | 菜鸟教程*
+> [git-remote](https://git-scm.com/docs/git-remote/zh_HANS-CN) - 管理一组追踪的仓库
 
 查看远程仓库
 
 ```bash
 git remote
+```
 
+```bash
 git remote -v #查看别名的实际链接地址
 ```
 
@@ -533,7 +558,7 @@ git push [alias] [branch]
 添加远程仓库
 
 ```bash
-git remote add [shortname] [url]
+git remote add <shortname> <url>
 ```
 
 例：`git remote add origin git@github.com:vc-awesome/docs-learning.git`
@@ -541,51 +566,144 @@ git remote add [shortname] [url]
 删除远程仓库
 
 ```bash
-git remote rm [alias]
+git remote rm <alias>
+```
 
-git remote show [remote] #显示某个远程仓库的信息
+显示某个远程仓库的信息
 
-git remote rename <old_name> <new_name> #修改远程仓库名
+```bash
+git remote show <remote>
+```
+
+修改远程仓库名
+
+```bash
+git remote rename <old_name> <new_name>
 ```
 
 更换远程仓库
 
 ```bash
-git remote set-url [sortname] [url]
+git remote set-url <sortname> <url>
 ```
 
 例：`git remote set-url origin http://137.220.33.223:6099/p/bitex.git`
 
-### 分支 - *branch*
+参考：
+
+1. https://www.runoob.com/git/git-remote.html - *git remote 命令 | 菜鸟教程*
+
+### 状态 - *status*
+
+> [git-status](https://git-scm.com/docs/git-status/zh_HANS-CN) - 显示工作树状态
+
+显示工作树状态：
 
 ```bash
-git branch #查看所有分支
-
-git branch (branchname) #创建分支
-
-git checkout (branchname) #切换分支
-
-git checkout -b (branchname) #创建新分支并立即切换到该分支下
-
-git branch -d (branchname) #删除分支
-
-git merge (branch) #分支合并 [合并完记得删除分支]
+git status
 ```
 
-### 标签 - *tag*
+简短格式查看文件修改状态：
 
 ```bash
-git tag #查看所有标签
+git status -s
+```
 
-git tag -a v1.0 #-a创建一个带注解的标签，会记录标签什么时候打的，谁打的
+参考： 
 
-git tag -a v0.9 85fc7e7 #追加标签
+1. https://www.cnblogs.com/wangwenhui/p/10555261.html - *Git基础-查看当前文件状态、跟踪新文件、暂存文件、忽略文件、提交更新、移除文件、移动文件*
 
-git tag -a <tagname> -m "runoob.com标签" #指定标签信息
+#### 未跟踪 - *untracked*
 
-git tag -d v1.1 #删除标签
+> *工作区状态*
 
-git show v1.0 #查看指定版本所修改的内容
+`untracked` 表示是新文件，没有被 `git add` 过，是未跟踪的意思；此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；可通过执行 `git add` 命令将文件状态更改为 Staged 。
+
+#### 未暂存 - *not staged*
+
+> *执行 git add 命令后，又更改了文件内容的状态*
+
+`not staged`  表示 `git add` 过的文件（即跟踪文件），再次修改了文件但是没有执行 `git add` 命令，就是未暂存的意思。
+
+#### 已暂存 - *staged*
+
+> *执行 git add 命令后的状态*
+
+这种类型的文件有 2 个去处：
+
+1. 执行 `git commit` 命令则将修改同步到库中，这时库中的文件和本地文件又变为一致，文件为 unmodify 状态。
+2. 执行 `git reset HEAD filename` 命令取消暂存，文件状态变为 modified 。
+
+#### 未修改 - *unmodify*
+
+> *执行 git commit 命令后的状态*
+
+文件已经入库但未修改，即版本库中的文件快照内容与文件夹中完全一致。
+
+这种类型的文件有 2 个去处：
+
+1. 修改文件内容，更改为 modified 状态；
+2. 使用 `git rm` 移出版本库，更改为 untracked 状态。
+
+#### 已修改 - *modified*
+
+> *针对 unmodified 进行操作*
+
+文件已修改，仅仅是修改，并没有进行其他的操作。
+
+这种类型的文件也有 2 个去处：
+
+1. 使用 `git add` 更改为暂存 staged 状态；
+2. 使用 `git checkout` （从库中取出文件，覆盖当前修改），丢弃已修改的文件，返回到 unmodify 状态。
+
+### 查看提交历史 - *log*
+
+本地仓库
+
+```bash
+git log
+```
+
+简洁模式
+
+```bash
+git log --oneline
+```
+
+简洁模式，显示完整的 commit_id
+
+```bash
+git log --pretty=oneline
+```
+
+查看分支、合并，拓扑图展示
+
+```bash
+git log --graph
+```
+
+逆向显示所有日志
+
+```bash
+git log --reverse
+```
+
+查看指定用户提交历史
+
+```bash
+git log --authoer=caiyongwen
+```
+
+显示 5 条提交历史
+
+```bash
+git log -5
+```
+
+查看标签
+
+```bash
+git log --decorate
 ```
 
 ### 文件差异 - *diff*
@@ -596,13 +714,11 @@ git show v1.0 #查看指定版本所修改的内容
 git diff [file]
 ```
 
-查看已缓存的改动（git add 的文件）
+查看已缓存的改动（已经 git add 的文件）
 
 ```bash
 git diff --cached [file]
 ```
-
-查看已缓存的改动（git add 的文件）
 
 ```bash
 git diff --staged [file]
@@ -654,87 +770,122 @@ https://www.coder.work/article/7752449 - *git - 如何在 Git 中显示本地和
 
 - https://stackoverflow.com/questions/46786070/how-do-i-show-differences-between-local-and-remote-files-in-git - *How do I show differences between local and remote files in Git? - Stack Overflow*
 
-### 回退版本 - *reset*
+### 显示 - *show*
 
-> git reset 命令用于回退版本，可以指定退回某一次提交的版本
+> [git-show](https://git-scm.com/docs/git-show/zh_HANS-CN) - 显示各种类型的对象
 
-语法：
+查看某个提交，指定文件的具体内容
 
 ```bash
-git reset [--soft | --mixed | --hard] [HEAD] #[--soft | --mixed | --hard]为可选参数
-
---mixed 为默认，可以不用带该参数，用于重置暂存区的文件与上一次的提交(commit)保持一致，工作区文件内容保持不变
-
---soft 用于回退到某个版本
-
---hard 撤销工作区中所有未提交的修改内容，将暂存区与工作区都回到上一次版本，并删除之前的所有信息提交 `谨慎使用，它会删除回退点之前的所有信息`
+git show <commit_id>:<filename>
 ```
 
-**HEAD说明：**
-
-- *HEAD* 表示当前版本
-- *HEAD^* 上一个版本
-- *HEAD^^* 上上一个版本
-- *HEAD\^^^* 上上上一个版本
-- 以此类推...
-
-👇 或者使用 **~数字** 的方式表示
-
-- *HEAD~0* 表示当前版本
-- *HEAD~1* 上一个版本
-- *HEAD^2* 上上一个版本
-- *HEAD^3* 上上上一个版本
-- 以此类推...
-
-实例：
+显示 `Documentation/README` 文件的内容，因为它们在分支 `next` 的最后 10 次提交中是当前的。
 
 ```bash
-git reset HEAD^ #回退所有内容到上一个版本
-
-git reset HEAD^ hello.php #回退 hello.php 文件的版本到上一个版本
-
-git reset 052e #回退到指定版本 052e
-
-git reset HEAD~3 #回退上上上一个版本
-
-git reset --hard origin/master #将本地的状态回退到和远程的一样
+git show next~10:Documentation/README
 ```
 
-### 删除 - *rm*
+### 分支 - *branch*
 
-> 删除文件后，目录为空时提交远程仓库会自动删除空目录
+查看本地所有分支
 
 ```bash
-git rm <file> #将文件从暂存区和工作区中删除
-
-git rm -f <file> #强行从暂存区和工作区中删除修改后的 runoob.txt 文件，-f 强制执行
-
-git rm --cached <file> #把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除
-
-git rm -r * #进入某个目录中，执行此语句，会删除该目录下的所有文件和子目录，-r 递归执行
+git branch
 ```
 
-### 移动/重命名 - *mv*
+查看远程所有分支
 
 ```bash
-git mv [file] [newfile] #移动或重命名一个文件、目录或软连接
+git branch -r
+```
+查看本地和远程所有分支
 
-git mv -f [file] [newfile] #新文件名已经存在，但还是要重命名它
+```bash
+git branch -a
+```
 
-git mv <source> <destination> #在工作区和暂存区中进行移动或重命名。若 <destination> 不为一个目录名，则执行重命名。如果为一个目录名，则执行移动
+拉取分支
+
+```bash
+git checkout -b (branchname) origin/远程分支名
+```
+
+创建分支
+
+```bash
+git branch (branchname) 
+```
+
+切换分支
+
+```bash
+git checkout (branchname)
+```
+
+创建新分支并立即切换到该分支下
+
+```bash
+git checkout -b (branchname)
+```
+
+删除分支
+
+```bash
+git branch -d (branchname)
+```
+
+分支合并 [合并完记得删除分支]
+
+```bash
+git merge (branch)
+```
+
+参考：
+
+1. https://www.runoob.com/git/git-branch.html - *Git 分支管理 | 菜鸟教程*
+
+### 标签 - *tag*
+
+查看所有标签
+
+```bash
+git tag
+```
+
+`-a` 创建一个带注解的标签，会记录标签什么时候打的，谁打的
+
+```bash
+git tag -a v1.0
+```
+
+追加标签
+
+```bash
+git tag -a v0.9 85fc7e7
+```
+
+指定标签信息
+
+```bash
+git tag -a <tagname> -m "runoob.com标签"
+```
+
+删除标签
+
+```bash
+git tag -d v1.1
+```
+
+查看指定版本所修改的内容
+
+```bash
+git show v1.0
 ```
 
 ### 解决合并冲突 - *checkout*
 
-> 编辑冲突文件后重新提交
-
-```bash
-git reset HEAD #暂存区的目录树会被重写，被 master 分支指向的目录树所替换，但是工作区不受影响
-```
-
-```bash
-git rm --cached <file> #直接从暂存区删除文件，工作区则不做出改变
-```
+> [git-checkout](https://git-scm.com/docs/git-checkout/zh_HANS-CN) - 切换分支或恢复工作目录树文件
 
 ```bash
 git checkout . 或者 git checkout -- <file> #会用暂存区全部或指定的文件替换工作区的文件。这个操作很危险，会清除工作区中未添加到暂存区的改动
@@ -771,77 +922,253 @@ git checkout HEAD <file> #有操作提示
 
 ### 恢复 - *restore*
 
-```bash
-git restore <file> #恢复未提交已改动的文件
+> [git-restore](https://git-scm.com/docs/git-restore/zh_HANS-CN) - 恢复工作树文件
 
+```bash
+git restore <file> #恢复已改动但未提交的文件
+```
+
+```bash
 git restore --staged <file> #恢复暂存状态的文件
 ```
 
-### 状态 - *status*
+参考：
 
-显示工作树状态：
+1. https://www.runoob.com/git/git-restore.html - *git restore 命令 | 菜鸟教程*
+
+### 重置 - *reset*
+
+> [git-reset](https://git-scm.com/docs/git-reset/zh_HANS-CN) - 重置当前HEAD到指定的状态
+
+`git reset` 命令用于回退版本，可以指定退回某一次提交的版本。
+
+语法：
 
 ```bash
-git status
+git reset [--soft | --mixed | --hard] [HEAD]
 ```
 
-简短格式查看文件修改状态：
+`--mixed` 为默认，可以不用带该参数，用于重置暂存区的文件与上一次的提交（commit）保持一致，工作区文件内容保持不变。
+
+`--soft` 完全不碰索引文件或工作树（但将头部重置为`<commit>`，就像所有模式一样）。这使你的所有更改的文件都是 "待提交的更改"，正如`git status`所说的。
+
+`--hard` 撤销工作区中所有未提交的修改内容，将暂存区与工作区都回到上一次版本，并删除之前的所有信息提交（`谨慎使用，它会删除回退点之前的所有信息`）。
+
+**HEAD 说明：**
+
+- `HEAD` 当前版本
+- `HEAD^` 上一个版本
+- `HEAD^^` 上上一个版本
+- `HEAD^^^` 上上上一个版本
+- 以此类推...
+
+👇 或者使用 **~数字** 的方式
+
+- `HEAD~0` 当前版本
+- `HEAD~1` 上一个版本
+- `HEAD^2` 上上一个版本
+- `HEAD^3` 上上上一个版本
+- 以此类推...
+
+实例：
+
+暂存区的目录树会被重写，被 master 分支指向的目录树所替换，但是工作区不受影响
 
 ```bash
-git status -s
+git reset HEAD
 ```
 
-参考： https://www.cnblogs.com/wangwenhui/p/10555261.html - *Git基础-查看当前文件状态、跟踪新文件、暂存文件、忽略文件、提交更新、移除文件、移动文件*
+回退所有内容到上一个版本
 
-#### 未跟踪 - *Untracked*
+```bash
+git reset HEAD^
+```
 
-> *工作区状态*
+回退 hello.php 文件到上一个版本
 
-未跟踪，此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；通过 `git add`  状态变为 *Staged*。
+```bash
+git reset HEAD^ hello.php
+```
 
-#### 未修改 - *Unmodify*
+回退到指定版本 052e
 
-> *使用 commit 命令后的状态*
+```bash
+git reset 052e
+```
 
-文件已经入库、未修改，即版本库中的文件快照内容与文件夹中完全一致。这种类型的文件有两种去处，如果它被修改，而变为 *Modified*。 如果使用 `git rm` 移出版本库, 则成为 *Untracked* 文件。
+回退到上上上一个版本
 
-#### 已修改 - *Modified*
+```bash
+git reset HEAD~3
+```
 
-> *针对 unmodified 进行操作*
+将本地的状态回退到和远程的一样
 
-文件已修改，仅仅是修改，并没有进行其他的操作。这个文件也有两个去处，通过 `git add` 可进入暂存 *staged* 状态，使用 `git checkout` 则丢弃修改过，返回到 *unmodify* 状态，这个 `git checkout` 即从库中取出文件，覆盖当前修改。
+```bash
+git reset --hard origin/master
+```
 
-#### 未暂存状态 - *not staged*
+### 移动与重命名 - *mv*
 
-> `not staged`  表示 add 过的文件，即跟踪文件，再次修改没有 add，就是没有暂存的意思
+```bash
+git mv [file] [newfile] #移动或重命名一个文件、目录或软连接
 
-#### 暂存状态 - *Staged*
+git mv -f [file] [newfile] #新文件名已经存在，但还是要重命名它
 
-> *add 命令状态*
+git mv <source> <destination> #在工作区和暂存区中进行移动或重命名。若 <destination> 不为一个目录名，则执行重命名。如果为一个目录名，则执行移动
+```
 
-暂存状态。执行 `git commit` 则将修改同步到库中，这时库中的文件和本地文件又变为一致，文件为 *Unmodify* 状态。
-执行 `git reset HEAD filename` 取消暂存，文件状态为 *Modified*。
+### 删除 - *rm*
 
-> Git 状态 untracked 和 not staged 的区别
->
-> 1. untrack 表示是新文件，没有被 add 过，是为跟踪的意思；
-> 2. not staged  表示 add 过的文件，即跟踪文件，再次修改没有 add，就是没有暂存的意思。
+> 删除文件后，目录为空时提交远程仓库会自动删除空目录
+
+将文件从暂存区和工作区中删除
+
+```bash
+git rm <file>
+```
+
+强行从暂存区和工作区中删除修改后的 runoob.txt 文件，`-f` 强制执行
+
+```bash
+git rm -f <file>
+```
+
+把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除
+
+```bash
+git rm --cached <file>
+```
+
+进入某个目录中，执行此语句，会删除该目录下的所有文件和子目录，`-r` 递归执行
+
+```bash
+git rm -r *
+```
 
 ## 进阶命令
 
-### stash
+### 暂存 - *stash*
+
+创建暂存
+
+```bash
+git stash
+```
+
+```bash
+git stash save "暂存注释"
+```
+
+```bash
+git stash -a
+```
+
+```bash
+git stash save -a "暂存注释"
+```
+
+列出暂存区所有列表记录
+
+```bash
+git stash list
+```
+
+查看暂存修改
+
+```bash
+git stash show
+```
+
+```bash
+git stash show stash@{index}
+```
+
+查看某个暂存具体改动了文件中的哪些内容
+
+```bash
+git stash show -p
+```
+
+```bash
+git stash show stash@{index} -p
+```
+
+apply 应用暂存（做完了临时修改，想要恢复应用某个暂存）
+
+```bash
+git stash apply
+```
+
+```bash
+git stash apply stash@{index}
+```
+
+pop 应用并删除（pop 命令会恢复相应的暂存记录后，从列表中删除该记录）
+
+```bash
+git stash pop
+```
+
+```bash
+git stash pop stash@{index}
+```
+
+删除某一个修改暂存
+
+```bash
+git stash drop stash@{0}
+```
+
+清空所有的暂存记
+
+```bash
+git stash clear
+```
+
+参考：
 
 1. http://www.itfanr.cc/2022/07/08/git-stash/ - *git stash暂存区的使用 | IT范儿*
-
 2. https://www.cnblogs.com/zndxall/p/9586088.html - *git stash 用法总结和注意点*
 
-### rebase
+### 变基 - *rebase*
+
+> [git-rebase](https://git-scm.com/docs/git-rebase/zh_HANS-CN) - 在另一个基础提示之上重新应用提交内容
+
+参考：
+
+1. https://waynerv.com/posts/git-rebase-intro/ - *git rebase 用法详解与工作原理 | Shall We Code?*
+2. https://blog.csdn.net/weixin_42310154/article/details/119004977 - *git rebase详解（图解+最简单示例，一次就懂）-CSDN博客*
+3. https://www.liaoxuefeng.com/wiki/896043488029600/1216289527823648 - *Rebase - 廖雪峰的官方网站*
+4. https://zhuanlan.zhihu.com/p/271677627 - *详解git rebase，让你走上git大神之路 - 知乎*
+5. <https://git-scm.com/book/zh/v2/Git-分支-变基> - *Git - 变基*
+
+### 重引用日志 - *reflog*
+
+> [git-reflog](https://git-scm.com/docs/git-reflog/zh_HANS-CN) - 管理重引用日志信息
+
+```bash
+git reflog
+```
+
+### 列出树对象 - *ls-tree*
+
+> [git-ls-tree](https://git-scm.com/docs/git-ls-tree/zh_HANS-CN) - 列出树对象的内容
+
+```bash
+git ls-tree <tree-ish>
+```
+
+实例：`git ls-tree HEAD`
 
 ## 文件
 
 ### .gitignore
 
 https://github.com/github/gitignore - *GitHub - github/gitignore: A collection of useful .gitignore templates*
+
+![GitHub last commit](https://badgen.net/github/last-commit/github/gitignore?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/github/gitignore?style=social)
 
 https://www.jianshu.com/p/e5b13480479b - *git如何忽略已经提交的文件 (.gitignore文件无效) - 简书*
 
@@ -852,14 +1179,19 @@ https://www.jianshu.com/p/e5b13480479b - *git如何忽略已经提交的文件 (
 ```bash
 #忽略跟踪
 git update-index --assume-unchanged /path/to/file #这个命令来将已经track的文件标记一下, 使其不出现在更新列表中(git status不会列出标记过的文件), 其实这是治标不治本的做法. 这样做, 只在你的项目中生效. 如果是一个团队, 其他开发人员也需要这么做. 而且这个命令只对文件有效. 
+
 #恢复跟踪
 git update-index --no-assume-unchanged /path/to/file
+
 #查看状态
 git status
+
 #查看忽略列表
 git ls-files -v | grep '^h\ '
+
 #提取文件路径
 git ls-files -v | grep '^h\ ' | awk '{print $2}'
+
 #所有被忽略的文件，取消忽略的方法
 git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assume-unchanged
 ```
@@ -868,6 +1200,7 @@ git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assu
 
 ```bash
 git rm -r --cached <file> #把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除
+
 git add .
 
 git commit
@@ -883,9 +1216,7 @@ git push
 
 #### 基础操作
 
-> 如果文件已经存在于远程仓库中，是无法通过 `.gitignore` 文件来忽略的！
->
-> 使用下面的命令，重新忽略，[参考](https://github.com/o2team/H5Skills/issues/50)
+如果文件已经存在于远程仓库中，是无法通过 `.gitignore` 文件来忽略的！使用下面的命令，重新忽略，[参考](https://github.com/o2team/H5Skills/issues/50)
 
 ```bash
 git rm --cached <file> #把文件从暂存区域移除，但仍然希望保留在当前工作目录中，换句话说，仅是从跟踪清单中删除
@@ -901,7 +1232,7 @@ git push
 /mtk/do.c #过滤某个具体文件
 ```
 
-> 以上规则意思是：被过滤掉的文件就不会出现在你的 GitHub 仓库中了，当然本地仓库中还有，只是 push 的时候不会上传。
+*以上规则意思是：被过滤掉的文件就不会出现在你的 GitHub 仓库中了，当然本地仓库中还有，只是 push 的时候不会上传。*
 
 ```bash
 !src/ #不过滤该文件夹
@@ -909,21 +1240,17 @@ git push
 !/mtk/do.c #不过滤该文件
 ```
 
-> 以上规则意思是：指定要将哪些文件添加到版本管理中。
+*以上规则意思是：指定要将哪些文件添加到版本管理中。*
 
 #### 配置语法
 
-以斜杠 `/` 开头表示目录
+- 斜杠 `/` 开头表示目录
+- 星号 `*` 通配多个字符
+- 问号 `?` 通配单个字符
+- 方括号 `[]` 包含单个字符的匹配列表
+- 叹号 `!` 表示不忽略（跟踪）匹配到的文件或目录
 
-以星号 `*` 通配多个字符
-
-以问号 `?` 通配单个字符
-
-以方括号 `[]` 包含单个字符的匹配列表
-
-以叹号 `!` 表示不忽略（跟踪）匹配到的文件或目录
-
-> 注：此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效。
+*注：此外，git 对于 .ignore 配置文件是按行从上到下进行规则匹配的，意味着如果前面的规则匹配的范围更大，则后面的规则将不会生效。*
 
 #### 示例说明
 
@@ -949,9 +1276,7 @@ git push
 参考：
 
 1. https://www.jianshu.com/p/699ed86028c2 - *.gitignore - 简书*
-
 2. https://www.liaoxuefeng.com/wiki/896043488029600/900004590234208 - *忽略特殊文件 - 廖雪峰的官方网站*
-
 3. https://www.cnblogs.com/yulinlewis/p/10231035.html - *Git - .gitignore文件的用法 - 雨临Lewis - 博客园*
 
 ### .gitattributes
@@ -961,10 +1286,10 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 ![GitHub last commit](https://badgen.net/github/last-commit/alexkaratarakis/gitattributes?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/alexkaratarakis/gitattributes?style=social)
 
+参考：
+
 1. https://www.bookstack.cn/read/git-doc-zh/docs-39.md - *gitattributes - 《Git 中文参考》 - 书栈网 · BookStack*
-
 2. https://baijiahao.baidu.com/s?id=1658545315960482338 - *请把 .gitattributes 加到你的 Git 仓库中*
-
 3. https://www.cnblogs.com/friedCoder/p/12467515.html - *.gitattributes - friedCoder - 博客园*
 
 ## 常见问题
@@ -973,7 +1298,7 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 
 用法：
 
-1. 可以看到 fileName 相关的 commit 记录
+1. 可以看到 filename 相关的 commit 记录
 
     `git log [filename]`
 
@@ -981,17 +1306,45 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 
     `git log -p [filename]`
 
-3. 查看某次提交中的某个文件变化，可以直接加上 fileName
+3. 查看某次提交中的某个文件变化，可以直接加上 filename
 
-    `git show 271622367a8934c8f046a0ccd51216c4e5f1d82d [fileName]`
+    `git show <commit_id> [filename]`
 
 4. 查看详细更改文件列表
 
-    `git show 9ddc9dca00b --stat`
+    `git show <commit_id> --stat`
 
 参考：
 
 1. https://blog.csdn.net/sunxiaopengsun/article/details/129227548 - *git 查看某个文件的修改记录_git查看某个文件的修改记录_sunxiaopengsun的博客-CSDN博客*
+
+### 查看某个提交的所有文件
+
+查看某个提交的所有文件，仅包含改动的文件
+
+```bash
+git log --name-only
+```
+
+```bash
+git diff HEAD~1 HEAD --name-only
+```
+
+```bash
+git show <commit_id> --name-only
+```
+
+查看某个提交的所有文件，包含未改动的文件
+
+```bash
+git ls-tree --name-only <commit_id>
+```
+
+查看某个提交，指定文件的具体内容
+
+```bash
+git show <commit_id>:<filename>
+```
 
 ### webhook
 
@@ -1006,17 +1359,7 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 1. https://segmentfault.com/a/1190000040540720 - *PHP使用WebHook自动更新Git仓库部署*
 2. https://blog.csdn.net/weixin_36851500/article/details/104011450 - *Github的WebHooks实现生产环境代码自动更新*
 
-### 放弃修改，强制覆盖本地代码
-
-```bash
-git reset --hard origin/master
-```
-
-参考：
-
-1. https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
-
-### 放弃本地文件修改 🔥
+### 放弃本地文件修改
 
 有三种场景：
 
@@ -1044,16 +1387,29 @@ git reset --hard origin/master
    
    - 回退到指定版本 `git reset --hard <commit id>`（使用 `git log` 命令查看 git 提交历史和 commit id）
    
+   - 放弃修改，强制覆盖本地代码 `git reset --hard origin/master`
+   
 参考：
 
 1. https://www.jianshu.com/p/c0f7e4ac14c7 - *git 放弃本地文件修改*
+2. https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
 
-### 从远端获取某个文件 🔥
+### 从远端获取某个文件
+
+第 1 步：
 
 ```bash
 git fetch
-git checkout origin/master -- path/folder/filename #获取某个文件
-git checkout origin/master -- path/folder #获取某个目录
+```
+
+第 2 步：
+
+```bash
+git checkout origin/master -- <path/folder/filename> #获取某个文件
+```
+
+```bash
+git checkout origin/master -- <path/folder> #获取某个目录
 ```
 
 参考：
@@ -1065,11 +1421,11 @@ git checkout origin/master -- path/folder #获取某个目录
 1. `--force`
 
    ```bash
-   git reset --soft commit id
-   git push origin master --force #强制提交当前版本号，以达到撤销版本号的目的.必须添加参数 force 进行强制提交，否则会提交失败,报错原因：本地项目版本号低于远端仓库版本号（注意:这种强制提交的方法只有 owner 的时候可以用）
+   git reset --soft <commit_id>
+   git push origin master --force # 强制提交当前版本号，以达到撤销版本号的目的；必须添加参数 force 进行强制提交，否则会提交失败，报错原因：本地项目版本号低于远端仓库版本号（注意：这种强制提交的方法只有 owner 的时候可以用）。
    ```
 
-### 合并多个提交
+### commit 合并多个提交
 
 1. https://www.cnblogs.com/tocy/p/git-rebase-merge-commit.html - *git合并多个提交*
 2. https://www.jianshu.com/p/964de879904a - *「Git」合并多个 Commit*
@@ -1093,9 +1449,29 @@ GitHub: https://github.com/carloscuesta/gitmoji
 
 ### commit 提交规范
 
-1. https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
-2. https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
+工具：
+
+1. https://marketplace.visualstudio.com/items?itemName=redjue.git-commit-plugin - *git-commit-plugin - Visual Studio Marketplace*
+
+参考：
+
+1. http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
+2. https://ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
+3. https://www.conventionalcommits.org/zh-hans/v1.0.0/ - *约定式提交*
+4. https://juejin.cn/post/6844903793033756680 - *超详细的Git提交规范引入指南 - 掘金*
+5. https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
+6. https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
 
 ### 在本地局域网中的两台电脑间同步代码
 
 1. https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*
+
+### 如何缩小 GitHub 仓库大小
+
+参考：
+
+1. https://geek-docs.com/git/git-questions/697_git_reduce_git_repository_size.html - *Git 减小git仓库大小|极客教程*
+2. https://zhuanlan.zhihu.com/p/621302815 - *被吐槽 GitHub仓 库太大，直接 600M 瘦身到 6M，这下舒服了 - 知乎*
+3. <https://help.gitee.com/repository/base/仓库体积过大，如何减小/> - *仓库体积过大，如何减小 | Gitee 产品文档*
+4. http://localhost:4000/posts/linux-reduce-repo-size-through-git-folder/ - *如何清理 .git 文件夹来减小 github 仓库大小 | SIRLIS*
+5. https://shenxianpeng.github.io/2020/03/maintaining-git-repository/ - *如何给你的 Git 仓库“瘦身” | Peter Shen*

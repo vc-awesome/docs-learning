@@ -135,6 +135,13 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 
     - 可对比 Text、Images、PDF、 Excel、 Folders（Pro 版本）。
 
+2. https://plagiarismdetector.net/text-compare - *Text Compare - Find Difference Between Two Text Files Online*
+3. https://www.rephrase.info/text-compare - *Text Compare (Compare Text Online)*
+4. https://countwordsfree.com/comparetexts - *Compare text online - Show Text Difference*
+5. https://globalvision.co/tools/compare-text/ - *Free Online Text Compare Tool - CompareText - GlobalVision*
+6. https://www.textcompare.org/ - *Online Text Compare Tool*
+7. https://app.copyleaks.com/text-compare - *Text Compare - Compare Two+ Documents Online | Diff Tool | Copyleaks*
+
 ## OCR
 
 1. https://web.baimiaoapp.com/ - *图片转文字在线 - 图片文字提取 - 网页OCR文字识别 - 白描网页版*

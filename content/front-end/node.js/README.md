@@ -222,7 +222,7 @@ https://mirrors.ustc.edu.cn/help/node.html - *Node 源使用帮助 — USTC Mirr
 
 - 列出远程服务器上 Node 所有可用版本
 
-  - 在 Linux / MacOS 平台中使用
+  - 在 Linux / macOS 平台中使用
 
     `nvm ls-remote`
 

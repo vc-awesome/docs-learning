@@ -386,6 +386,16 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 
 有关详细信息，请参阅“[腾讯电脑管家](https://guanjia.qq.com/) > [软件管理](https://pc.qq.com/)”。
 
+#### 联想应用商店
+
+> <img src="https://lestore.lenovo.com/static/media/logo.d020a7b9.svg" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 0px;">
+>
+> 联想应用商店为广大用户提供一站式的软件、游戏的极速下载,所有软件都通过人工亲测,安全无忧。
+
+官网：
+
+1. https://lestore.lenovo.com/ - *联想应用商店*
+
 ### macOS/iOS
 
 #### App Store

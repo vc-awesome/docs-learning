@@ -101,6 +101,22 @@ https://github.com/wangdoc/bash-tutorial/blob/master/docs%2Farchives%2Fredirecti
 
     - 开源软件（[GitHub](https://github.com/SimonSchubert/LinuxCommandLibrary)）
 
+6. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
+
+## 语法格式
+
+http://docopt.org/ - *docopt—language for description of command-line interfaces* [GitHub Repo](https://github.com/docopt/docopt)
+
+![GitHub last commit](https://badgen.net/github/last-commit/docopt/docopt?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/docopt/docopt?style=social)
+
+参考：
+
+1. https://blog.csdn.net/wq6ylg08/article/details/88919530 - *Linux命令行帮助文档命令语法公式格式详解和Git命令语法格式解读（最详细解释，关键词:Ubuntu,Terminal,终端,Gtibash,Git,Github,系统,实战,操作,理解）_<command> [inputfile] [outputfile] [<switches>...]-CSDN博客*
+2. https://blog.csdn.net/weixin_42683556/article/details/115725069 - *命令行帮助文档语法格式详解*
+3. https://blog.csdn.net/u013867301/article/details/103513379 - *命令行格式*
+4. https://www.cnblogs.com/haoyufang/p/11762583.html - *linux命令语法格式 - 昊宇方 - 博客园*
+
 ## 常用命令
 
 > 以下的命令可以点击对应的链接，进入网页查看使用实例。
@@ -114,6 +130,12 @@ https://github.com/wangdoc/bash-tutorial/blob/master/docs%2Farchives%2Fredirecti
 - `man` - *查看Linux中的指令帮助*
 
     https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命令详解：查看Linux中的指令帮助 - Linux 命令搜索引擎*
+    
+    https://wangchujiang.com/linux-command/c/apropos.html - *apropos 命令，Linux apropos 命令详解：在 whatis 数据库中查找字符串 - Linux 命令搜索引擎*
+    
+    https://www.runoob.com/linux/linux-comm-man.html - *Linux man 命令 | 菜鸟教程*
+    
+    https://www.cnblogs.com/kelamoyujuzhen/p/9807468.html - *【问题】man命令打开的手册上链接怎么展开？ - 克拉默与矩阵 - 博客园*
 
 - `help` - *该命令是bash内建命令，用于显示bash内建命令的帮助信息。*
 
@@ -217,6 +239,22 @@ https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜�
 
 https://tldr.inbrowser.app/pages.zh/common/tree - *tree | tldr InBrowser.App*
 
+#### 查看文件大小
+
+简介：
+
+`du` 英文全拼：disk usage，用于显示目录或文件的大小。
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-du.html - *Linux du 命令 | 菜鸟教程*
+
+示例：
+
+`du -ach --max-depth=1`
+
+参考：
+
 #### 切换目录
 
 文件及目录以 `.` 开头的为隐藏文件或目录
@@ -281,7 +319,7 @@ https://www.runoob.com/linux/linux-comm-rm.html - *Linux rm 命令 | 菜鸟教�
 
 https://www.runoob.com/linux/linux-comm-rm.html - *Linux rm 命令 | 菜鸟教程*
 
-#### 对比文件
+#### 对比文件或目录
 
 `diff [文件或目录1] [文件或目录2]`
 
@@ -386,7 +424,7 @@ https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教
 1. https://www.linuxprobe.com/linux-properties-permissions.html - *Linux文件之属性与权限详解 | 《Linux就该这么学》*
 2.  https://blog.csdn.net/p309654858/article/details/127765811 - *Linux如何查看文件的属性_linux查看文件属性_music score的博客-CSDN博客*
 
-#### 复制文件或文件夹
+#### 复制文件或目录
 
 `cp [选项] [源文件或目录] [目标文件或目录]`
 
@@ -601,6 +639,8 @@ https://wangchujiang.com/linux-command/c/dig.html - *dig 命令，Linux dig 命�
 
 https://zhuanlan.zhihu.com/p/377555624 - *DNS解析-dig工具的使用*
 
+https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/ - *Dig Command in Linux (DNS Lookup) | Linuxize*
+
 #### telnet
 
 简介：
@@ -620,6 +660,24 @@ https://tldr.inbrowser.app/pages/common/telnet - *telnet | tldr InBrowser.App*
 参考：
 
 https://www.easyswoole.com/QuickStart/problem.html - *easyswoole 常见问题*
+
+#### traceroute
+
+简介：
+
+显示数据包到主机间的路径。
+
+用法：
+
+http://www.runoob.com/linux/linux-comm-traceroute.html - *Linux traceroute命令 | 菜鸟教程*
+
+示例：
+
+`traceroute www.google.com`
+
+参考：
+
+https://www.cisco.com/c/zh_cn/support/docs/ip/ip-routed-protocols/22826-traceroute.html - *使用操作系统的 traceroute 命令 - Cisco*
 
 ### 清屏
 
@@ -644,3 +702,10 @@ https://blog.csdn.net/han8040laixin/article/details/81268346 - *Linux下通过Sh
 <https://wangdoc.com/bash/script#配置项参数终止符---> - *Bash 脚本入门 - Bash 脚本教程 - 网道*
 
 https://www.cnblogs.com/codeking100/p/10306028.html - *mv,rm等命令出现unrecognized option提示的解决方法 - leo21sun - 博客园*
+
+### 如何使变量加入全局
+
+操作步骤：
+
+1. 将 `export PATH=$PATH:/some/directory` 追加到 `.bashrc` 文件中
+2. 执行 `source ~/.bashrc` 或者 `. ~/.bashrc` 命令立刻加载修改后的设置，使之生效

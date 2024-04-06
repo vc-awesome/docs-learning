@@ -129,6 +129,14 @@ chrome://chrome-urls/
 ```
 
 ```sh
+chrome://version/
+```
+
+```sh
+chrome://about/
+```
+
+```sh
 chrome://extensions/
 ```
 

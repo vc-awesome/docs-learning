@@ -19,8 +19,8 @@
 Wesite:
 
 1. https://www.linux.org/ - *Linux.org*
-
 2. https://www.kernel.org/ - *The Linux Kernel Archives*
+3. https://www.kernel.org/doc/html/latest/ - *The Linux Kernel documentation — The Linux Kernel documentation*
 
 GitHub:
 
@@ -34,6 +34,8 @@ http://mirrors.kernel.org/ - *mirrors.kernel.org*
 
 ### CentOS
 
+https://www.centos.org/ - *The CentOS Project*
+
 https://mirrors.aliyun.com/centos/ - *阿里云开源镜像站资源目录*
 
 https://developer.aliyun.com/mirror/centos/ - *centos镜像-centos下载地址-centos安装教程-阿里巴巴开源镜像站*
@@ -42,19 +44,36 @@ https://www.cnblogs.com/boonya/p/7373395.html - *List of CentOS Mirrors - boonya
 
 ### Ubuntu
 
+https://wiki.ubuntu.com.cn/UbuntuManual - *UbuntuManual - Ubuntu中文*
+
 ### Debian
 
 ### Fedora
 
+### Arch
+
+https://archlinux.org/ - *Arch Linux*
+
 ## 教程
 
 https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
+
+https://linux.vbird.org/ - *鳥哥私房菜 - 鳥哥的首頁*
 
 ## 入门指南
 
 ### 目录结构
 
 https://www.runoob.com/linux/linux-system-contents.html - *Linux 系统目录结构 | 菜鸟教程*
+
+### man pages
+
+https://www.man7.org/linux/man-pages/ - *Linux man pages online*
+
+https://wiki.archlinux.org/title/Man_page - *man page - ArchWiki*
+
+👏 https://wiki.archlinux.org/title/Man_page#Online_man_pages - *6Online man pages*
+
 
 ## 工具
 

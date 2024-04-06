@@ -1403,6 +1403,8 @@ https://post.smzdm.com/p/avx87xop/ - *用的最爽的Windows软件，每一个�
 
     - 支持 macOS
 
+### 文件查重工具
+
 ### 云（盘）存储
 
 1. ✅ [百度网盘](https://pan.baidu.com/) - *百度网盘-免费云盘丨文件共享软件丨超大容量丨存储安全*

@@ -8,8 +8,9 @@
 
 ## 教程
 
-1. https://www.runoob.com/regexp/regexp-tutorial.html - *正则表达式 – 教程 | 菜鸟教程*（包含在线工具）
-2. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
+1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions - *正则表达式 - JavaScript | MDN*
+2. https://www.runoob.com/regexp/regexp-tutorial.html - *正则表达式 – 教程 | 菜鸟教程*（包含在线工具）
+3. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
 
 ## 快速入门
 
@@ -43,6 +44,10 @@
 
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 – 语法 | 菜鸟教程*
 
+### 量词
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - *Quantifier: *, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN*
+
 ### 修饰符
 
 | 序号 | 修饰符 | 含义 | 描述 |
@@ -54,13 +59,20 @@
 
 详见：https://www.runoob.com/regexp/regexp-flags.html - *正则表达式 – 修饰符（标记） | 菜鸟教程*
 
-### ?=、?<=、?!、?<! 的使用区别
+### 捕获组
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group - *Capturing group: (...) - JavaScript | MDN*
+
+
+### 断言
+
+#### ?=、?<=、?!、?<! 的使用区别
 
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 - 语法*
 
 ### 反向引用 \num
 
-正则表达式反向引用 \1 \2 类型的用途
+正则表达式反向引用 `\1` `\2` 类型的用途
 
 匹配连续的字符内容，匹配连续 4 个 0 `/(\d)\1{3}/`
 
@@ -144,9 +156,10 @@ https://www.cnblogs.com/blogforly/p/5644049.html - *PHP手机号码正则表达�
 /^[\x{4e00}-\x{9fa5}]{2,6}$/u
 ```
 
-https://www.cnblogs.com/diguaer/p/5609938.html - *PHP判断是否都是中文 - diguaer - 博客园*
+参考：
 
-https://blog.csdn.net/weixin_41120504/article/details/79710221 - *PHP用户名中文汉字正则验证_php 正则禁止中文_weixin影子的博客-CSDN博客*
+1. https://www.cnblogs.com/diguaer/p/5609938.html - *PHP判断是否都是中文 - diguaer - 博客园*
+2. https://blog.csdn.net/weixin_41120504/article/details/79710221 - *PHP用户名中文汉字正则验证_php 正则禁止中文_weixin影子的博客-CSDN博客*
 
 
 ### 中文标点符号
@@ -205,6 +218,22 @@ https://www.cnblogs.com/chenjiacheng/p/6522598.html - *php正则表达式验证�
 ```
 
 
+### 只匹配空格，不匹配换行
+
+```regex
+/\x20/
+```
+
+```regex
+/(?:[^\S\n])+/
+```
+
+参考：
+
+1. https://blog.csdn.net/jsjcmq/article/details/111935641 - *正则表达式：只匹配空格，不匹配换行等其余空白字符_正则匹配空格但是不匹配换行-CSDN博客*
+2. https://deepinout.com/python/python-qa/t_how-to-match-whitespace-but-not-newlines-using-python-regular-expressions.html - *如何使用Python正则表达式匹配空格但不匹配换行符？|极客笔记*
+
+
 ### 查看更多
 
 https://c.runoob.com/front-end/854/#about - *正则表达式在线测试 | 菜鸟工具*
@@ -219,7 +248,6 @@ https://c.runoob.com/front-end/854/#about - *正则表达式在线测试 | 菜�
 教程：
 
 1. PHP 手册：https://www.php.net/manual/zh/book.pcre.php
-
 2. 菜鸟教程：https://www.runoob.com/php/php-pcre.html
 
 函数：
@@ -241,11 +269,8 @@ https://c.runoob.com/front-end/854/#about - *正则表达式在线测试 | 菜�
 参考：
 
 1. https://blog.csdn.net/fujiafeihudui/article/details/39402007 - *php 正则表达式中的#号* 
-
 2. https://blog.csdn.net/qq_46456049/article/details/108589822 - *php(正则匹配)*
-
 3. https://www.cnblogs.com/liliuguang/p/10411396.html - *php中正则表达式详解*
-
 4. http://c.biancheng.net/view/7569.html - *PHP正则表达式，看这一篇就够了*
 
 
@@ -276,12 +301,11 @@ document.write(uPattern.test("runoob123")); // 输出：true
 ## 工具
 
 1. https://toolwa.com/regex/ - *正则表达式在线测试 - 工具哇 - 在线工具大全*
-
 2. https://regex101.com/ - *regex101: build, test, and debug regex*
+3. https://www.lddgo.net/string/text-replace - *在线文本替换工具*
 
 
 ## 参考
 
 1. https://zhidao.baidu.com/question/1827099541890203308.html - *正则表达式中的.*和.*?的区别是什么?_百度知道*
-
 2. https://www.jianshu.com/p/ff05d467e145 - *正则表达式如何匹配多行的所有任意字符 - 简书*
