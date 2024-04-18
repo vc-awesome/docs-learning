@@ -87,15 +87,14 @@
 5. 📄 [code\-common.md](essential/code-common.md)
 6. 📄 [code\-guide.md](essential/code-guide.md)
 7. 📄 [code\-naming\-rule.md](essential/code-naming-rule.md)
-8. 📄 [cross\-domain.md](essential/cross-domain.md)
-9. 📄 [crypto.md](essential/crypto.md)
-10. 📄 [curl.md](essential/curl.md)
-11. 📄 [hardware.md](essential/hardware.md)
-12. 📄 [hosting.md](essential/hosting.md)
-13. 📄 [identity.md](essential/identity.md)
-14. 📄 [README.md](essential/README.md)
-15. 📄 [regex.md](essential/regex.md)
-16. 📄 [url.md](essential/url.md)
+8. 📄 [crypto.md](essential/crypto.md)
+9. 📄 [curl.md](essential/curl.md)
+10. 📄 [hardware.md](essential/hardware.md)
+11. 📄 [hosting.md](essential/hosting.md)
+12. 📄 [identity.md](essential/identity.md)
+13. 📄 [README.md](essential/README.md)
+14. 📄 [regex.md](essential/regex.md)
+15. 📄 [url.md](essential/url.md)
 
 ### 📂 __design\-pattern__
 
@@ -106,23 +105,28 @@
 ### 📂 __network__
 
 1. 📄 [\_sidebar.md](essential/network/_sidebar.md)
-2. 📄 [dns.md](essential/network/dns.md)
-3. 📄 [hosts.md](essential/network/hosts.md)
-4. 📄 [http.md](essential/network/http.md)
-5. 📄 [internet.md](essential/network/internet.md)
-6. 📄 [ip.md](essential/network/ip.md)
-7. 📄 [README.md](essential/network/README.md)
-8. 📄 [vpn.md](essential/network/vpn.md)
+2. 📄 [cross\-domain.md](essential/network/cross-domain.md)
+3. 📄 [dns.md](essential/network/dns.md)
+4. 📄 [hosts.md](essential/network/hosts.md)
+5. 📄 [http.md](essential/network/http.md)
+6. 📄 [internet.md](essential/network/internet.md)
+7. 📄 [ip.md](essential/network/ip.md)
+8. 📄 [README.md](essential/network/README.md)
+9. 📄 [vpn.md](essential/network/vpn.md)
 
 ## 📂 __front\-end__
 
 1. 📄 [\_sidebar.md](front-end/_sidebar.md)
 2. 📄 [ajax.md](front-end/ajax.md)
-3. 📄 [android.md](front-end/android.md)
-4. 📄 [cdn.md](front-end/cdn.md)
-5. 📄 [iconfont.md](front-end/iconfont.md)
-6. 📄 [jquery.md](front-end/jquery.md)
-7. 📄 [README.md](front-end/README.md)
+3. 📄 [cdn.md](front-end/cdn.md)
+4. 📄 [iconfont.md](front-end/iconfont.md)
+5. 📄 [jquery.md](front-end/jquery.md)
+6. 📄 [README.md](front-end/README.md)
+
+### 📂 __android__
+
+1. 📄 [adb.md](front-end/android/adb.md)
+2. 📄 [README.md](front-end/android/README.md)
 
 ### 📂 __css__
 
@@ -182,10 +186,9 @@
 6. 📄 [emoji.md](home/emoji.md)
 7. 📄 [getting\-started.md](home/getting-started.md)
 8. 📄 [glossary.md](home/glossary.md)
-9. 📄 [README.md](home/README.md)
-10. 📄 [security.md](home/security.md)
+9. 📄 [markdown.md](home/markdown.md)
+10. 📄 [README.md](home/README.md)
 11. 📄 [semver.md](home/semver.md)
-12. 📄 [warning.md](home/warning.md)
 
 ## 📂 __os__
 
@@ -241,24 +244,23 @@
 15. 📄 [git.md](os/tools/git.md)
 16. 📄 [github.md](os/tools/github.md)
 17. 📄 [lanhu.md](os/tools/lanhu.md)
-18. 📄 [markdown.md](os/tools/markdown.md)
-19. 📄 [multimedia.md](os/tools/multimedia.md)
-20. 📄 [navicat.md](os/tools/navicat.md)
-21. 📄 [opera.md](os/tools/opera.md)
-22. 📄 [phpmyadmin.md](os/tools/phpmyadmin.md)
-23. 📄 [phpstorm.md](os/tools/phpstorm.md)
-24. 📄 [phpstudy.md](os/tools/phpstudy.md)
-25. 📄 [postman.md](os/tools/postman.md)
-26. 📄 [README.md](os/tools/README.md)
-27. 📄 [rss.md](os/tools/rss.md)
-28. 📄 [search.md](os/tools/search.md)
-29. 📄 [sublime\-text.md](os/tools/sublime-text.md)
-30. 📄 [tampermonkey.md](os/tools/tampermonkey.md)
-31. 📄 [visual\-studio\-code.md](os/tools/visual-studio-code.md)
-32. 📄 [web\-app.md](os/tools/web-app.md)
-33. 📄 [webpage\-downloader.md](os/tools/webpage-downloader.md)
-34. 📄 [wps.md](os/tools/wps.md)
-35. 📄 [yapi.md](os/tools/yapi.md)
+18. 📄 [multimedia.md](os/tools/multimedia.md)
+19. 📄 [navicat.md](os/tools/navicat.md)
+20. 📄 [opera.md](os/tools/opera.md)
+21. 📄 [phpmyadmin.md](os/tools/phpmyadmin.md)
+22. 📄 [phpstorm.md](os/tools/phpstorm.md)
+23. 📄 [phpstudy.md](os/tools/phpstudy.md)
+24. 📄 [postman.md](os/tools/postman.md)
+25. 📄 [README.md](os/tools/README.md)
+26. 📄 [rss.md](os/tools/rss.md)
+27. 📄 [search.md](os/tools/search.md)
+28. 📄 [sublime\-text.md](os/tools/sublime-text.md)
+29. 📄 [tampermonkey.md](os/tools/tampermonkey.md)
+30. 📄 [visual\-studio\-code.md](os/tools/visual-studio-code.md)
+31. 📄 [web\-app.md](os/tools/web-app.md)
+32. 📄 [webpage\-downloader.md](os/tools/webpage-downloader.md)
+33. 📄 [wps.md](os/tools/wps.md)
+34. 📄 [yapi.md](os/tools/yapi.md)
 
 ### 📂 __windows__
 
@@ -273,9 +275,13 @@
 1. 📄 [\_sidebar.md](project/_sidebar.md)
 2. 📄 [bounty.md](project/bounty.md)
 3. 📄 [category.md](project/category.md)
-4. 📄 [develop.md](project/develop.md)
-5. 📄 [faq.md](project/faq.md)
-6. 📄 [README.md](project/README.md)
+4. 📄 [deploy.md](project/deploy.md)
+5. 📄 [develop.md](project/develop.md)
+6. 📄 [faq.md](project/faq.md)
+7. 📄 [optimization.md](project/optimization.md)
+8. 📄 [README.md](project/README.md)
+9. 📄 [security.md](project/security.md)
+10. 📄 [warning.md](project/warning.md)
 
 ### 📂 __blockchain__
 
@@ -341,9 +347,10 @@
 ### 📂 __acode__
 
 1. 📄 [css.snippets](snippets/acode/css.snippets)
-2. 📄 [html.snippets](snippets/acode/html.snippets)
-3. 📄 [markdown.snippets](snippets/acode/markdown.snippets)
-4. 📄 [markdown.snippets.txt](snippets/acode/markdown.snippets.txt)
+2. 📄 [custom.snippets](snippets/acode/custom.snippets)
+3. 📄 [html.snippets](snippets/acode/html.snippets)
+4. 📄 [javascript.snippets](snippets/acode/javascript.snippets)
+5. 📄 [markdown.snippets](snippets/acode/markdown.snippets)
 
 ## 📂 __tech\-stack__
 
@@ -354,13 +361,14 @@
 5. 📄 [README.md](tech-stack/README.md)
 6. 📄 [weixin.md](tech-stack/weixin.md)
 
-## 📂 __topic__
+## 📂 __topics__
 
-1. 📄 [\_sidebar.md](topic/_sidebar.md)
-2. 📄 [ad\-filter.md](topic/ad-filter.md)
-3. 📄 [debug.md](topic/debug.md)
-4. 📄 [search\-skill.md](topic/search-skill.md)
-5. 📄 [sport.md](topic/sport.md)
-6. 📄 [translate.md](topic/translate.md)
-7. 📄 [video.md](topic/video.md)
+1. 📄 [\_sidebar.md](topics/_sidebar.md)
+2. 📄 [ad\-filter.md](topics/ad-filter.md)
+3. 📄 [debug.md](topics/debug.md)
+4. 📄 [input\-method.md](topics/input-method.md)
+5. 📄 [search\-skill.md](topics/search-skill.md)
+6. 📄 [sport.md](topics/sport.md)
+7. 📄 [translate.md](topics/translate.md)
+8. 📄 [video.md](topics/video.md)
 

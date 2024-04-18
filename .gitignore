@@ -1,13 +1,23 @@
+# PhpStorm
 /.idea
-/.stfolder
+
+# Syncthing
 /.stversions
-/.vscode
-/node_modules
 /.stignore
-#/package.json
+/.stfolder
+
+# Visual Studio Code
+/.vscode
+
+# Node
+/node_modules
 /package-lock.json
+
+# macOS
 .DS_Store
+
+# Obsidian
 /.obsidian
 /.trash
-_assets/libs/fontawesome/
-demo/
+
+/_assets/libs/fontawesome/

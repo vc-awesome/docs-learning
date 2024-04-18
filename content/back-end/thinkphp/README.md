@@ -4,37 +4,62 @@
 
 > <img src="https://box.kancloud.cn/2015-12-12_566b6a10506a4.png" alt="package icon" loading="lazy" decoding="async" align="left" height="38" hspace="10" vspace="0" /> ThinkPHP 是一个免费开源的，快速、简单的面向对象的 轻量级PHP开发框架 ，创立于2006年初，遵循Apache2开源协议发布，是为了敏捷WEB应用开发和简化企业应用开发而诞生的。ThinkPHP从诞生以来一直秉承简洁实用的设计原则，在保持出色的性能和至简的代码的同时，也注重易用性。并且拥有众多的原创功能和特性，在社区团队的积极参与下，在易用性、扩展性和性能方面不断优化和改进，已经成长为国内最领先和最具影响力的WEB应用开发框架，众多的典型案例确保可以稳定用于商业以及门户级的开发。
 
+![GitHub last commit](https://img.shields.io/github/last-commit/top-think/think?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/top-think/think?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think?style=social)
+
 ## 官方
 
 主页：
 
 1. https://www.thinkphp.cn/ - *ThinkPHP框架 | 中文最佳实践PHP开源框架,专注WEB应用快速开发8年！*
+2. https://www.thinkphp.cn/doc - *文档中心 · ThinkPHP*
 
 GitHub：
 
 1. https://github.com/top-think - *ThinkPHP · GitHub*
+2. https://github.com/top-think/think - *GitHub - top-think/think: ThinkPHP Framework ——十年匠心的高性能PHP框架*
 
-开发手册：
+### 8.0
+
+1. https://doc.thinkphp.cn/v8_0/preface.html - *序言 - ThinkPHP官方手册*
+
+### 6.0
+
+1. https://www.kancloud.cn/manual/thinkphp6_0/ - *ThinkPHP6.0完全开发手册 · 看云*
+
+### 5.1
+
+1. https://www.kancloud.cn/manual/thinkphp5_1/ - *ThinkPHP5.1完全开发手册 · 看云*
+
+### 5.0
+
+1. https://www.kancloud.cn/manual/thinkphp5/ - *ThinkPHP5.0完全开发手册 · 看云*
+
+### 3.2
 
 1. https://www.kancloud.cn/manual/thinkphp - *ThinkPHP3.2.3完全开发手册 · 看云*
 
-2. https://www.kancloud.cn/manual/thinkphp5_1/ - *ThinkPHP5.1完全开发手册 · 看云*
+## 安装
 
-3. https://www.kancloud.cn/manual/thinkphp6_0/ - *ThinkPHP6.0完全开发手册 · 看云*
+https://doc.thinkphp.cn/v8_0/setup.html - *安装 - ThinkPHP官方手册*
 
 ## 开发规范
 
-*thinkphp5.1*
+👏 https://mp.weixin.qq.com/s/yG7JcPcKNZ9MpO8hpaIxrg - *ThinkPHP开发指北*
 
-https://www.kancloud.cn/manual/thinkphp5_1/353949  
+*ThinkPHP6.0*
 
-*thinkphp6.0*
+https://www.kancloud.cn/manual/thinkphp6_0/1037482 - *开发规范 · ThinkPHP6.0完全开发手册 · 看云*
 
-https://www.kancloud.cn/manual/thinkphp6_0/1037482
+*ThinkPHP5.1*
+
+https://www.kancloud.cn/manual/thinkphp5_1/353949 - *开发规范 · ThinkPHP5.1完全开发手册 · 看云*
 
 ## 目录结构
 
-*thinkphp5*
+*ThinkPHP5*
 
 `extend`：扩展类库存放目录
 
@@ -42,7 +67,7 @@ https://www.kancloud.cn/manual/thinkphp6_0/1037482
 
 ## 路由
 
-*ThinkPHP 5*
+*ThinkPHP5*
 
 1. 路由模式/普通模式
 
@@ -144,174 +169,6 @@ RESTful API 路由规则：
 
 2. [理解OAuth 2.0](http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html)
 
-## 时间查询
-
-*thinkphp5.1*
-
-https://www.kancloud.cn/manual/thinkphp5_1/354029  
-
-*thinkphp6.0*
-
-https://www.kancloud.cn/manual/thinkphp6_0/1037565
-
-```php
-// 查询今天的数据
-whereTime('create_time', 'today')
-whereDay('create_time') // thinkphp6.0
-// 查询某天的数据
-// 查询“2018-06-01”的数据
-whereDay('create_time', '2018-06-01') // thinkphp6.0
-// 查询大于某个时间
-// SELECT * FROM `base_user` WHERE  `create_time` >= 1643385600
-// 1643385600 = 2022-01-29 00:00:00
-whereTime('create_time', '>=', '2022-01-01')
-```
-
-## 分页查询
-
-*thinkphp3.2.3*
-
-https://www.kancloud.cn/manual/thinkphp/1742 （全局搜索：`分页`）
-
-方式一：
-
-```php
-$Article = M('Article');
-$Article->limit('0,10')->select(); // 查询第一页数据
-$Article->limit('10,10')->select(); // 查询第二页数据
-```
-
-或者
-
-```php
-$Article = M('Article');
-$num = (I('param.page', 1) - 1) * 10;
-$Article->limit($num. ',10')->select(); // 查询第N页数据
-```
-
-方式二：
-
-```php
-$Article = M('Article');
-$Article->page('1,10')->select(); // 查询第一页数据
-$Article->page('2,10')->select(); // 查询第二页数据
-```
-
-*thinkphp5.1*
-
-https://www.kancloud.cn/manual/thinkphp5_1/354120
-
-*thinkphp6.0*
-
-https://www.kancloud.cn/manual/thinkphp6_0/1037638
-
-```php
-$r = db("user")->paginate(3, false);
-// 获取总记录数 
-$r->total();
-// 获取记录列表
-$r->items();
-// 获取当前页码
-$r->currentPage();
-// 获取每页记录数
-$r->listRows();
-```
-
-*参考*
-
-[thinkphp5使用paginate查询分页数据如何获取总记录数](https://www.cnblogs.com/joeblackzqq/p/11509145.html)
-
-## 事务操作
-
-*thinkphp5.1*
-
-https://www.kancloud.cn/manual/thinkphp5_1/354035  
-
-*thinkphp6.0*
-
-https://www.kancloud.cn/manual/thinkphp6_0/1037573
-
-数据库事务操作在`foreach`等循环中使用`continue`一定要提交或回滚
-
-例：
-
-```php
-foreach ($user_machine_list as $index => $item) {
-    \think\Db::startTrans();
-    try {
-        if ($item['times'] >= $item['duration']) {
-            \think\Db::commit();
-            continue;
-        }
-        \think\Db::commit();
-    } catch (\Exception $e) {
-        \think\Db::rollback();
-        throw $e;
-    }
-}
-```
-
-以下为错误示例，不能将 `\think\Db::startTrans();` 放至循环体外
-
-```php
-\think\Db::startTrans();
-foreach ($user_machine_list as $index => $item) {
-    try {
-        if ($item['times'] >= $item['duration']) {
-            \think\Db::commit();
-            continue;
-        }
-        \think\Db::commit();
-    } catch (\Exception $e) {
-        \think\Db::rollback();
-        throw $e;
-    }
-}
-```
-
-测试用例
-
-```php
-// 项目NEB
-public function test()
-{
-    $lists = Db::name('stats_user_log')
-        ->select();
-    if (empty($lists) || $lists->isEmpty()) {
-        return 'end';
-    }
-    foreach ($lists as $vo) {
-        Db::startTrans();
-        try {
-            $update_ret = Db::name('stats_user_log')
-                ->where('id', $vo['id'])
-                ->where('stats_time', $vo['stats_time'])
-                ->update(['stats_time' => time()]);
-            // 限制每秒执行一次
-            if (!$update_ret) {
-                Db::commit(); // 更新失败表示已更新,抛出异常防止重复执行
-                continue;
-            }
-
-            // 判断数字奇数还是偶数
-            if ($vo['id'] % 2 == 0) {
-                // 偶数
-                dump($vo['id'].'偶数');
-            } else {
-                // 奇数
-                exception('奇数');
-            }
-
-            Db::commit();
-        } catch (\Exception $e) {
-            Db::rollback();
-            dump($e->getMessage());
-        }
-    }
-    return '';
-}
-```
-
 ## 多语言
 
 > 在模板中输出语言变量（lang_var）
@@ -330,10 +187,10 @@ public function test()
 >
 >      支持英文变量，例如：`{:lang('theme')}`
 
-*thinkphp5.1* https://www.kancloud.cn/manual/thinkphp5_1/354119  
-*thinkphp5.1（验证器）* https://www.kancloud.cn/manual/thinkphp5_1/354103  
-*thinkphp6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037637  
-*thinkphp6.0（验证器）* https://www.kancloud.cn/manual/thinkphp6_0/1037626
+*ThinkPHP5.1* https://www.kancloud.cn/manual/thinkphp5_1/354119  
+*ThinkPHP5.1（验证器）* https://www.kancloud.cn/manual/thinkphp5_1/354103  
+*ThinkPHP6.0* https://www.kancloud.cn/manual/thinkphp6_0/1037637  
+*ThinkPHP6.0（验证器）* https://www.kancloud.cn/manual/thinkphp6_0/1037626
 
 👍 验证器可这样用
 
@@ -391,13 +248,13 @@ lang('file_format',['jpeg,png,gif,jpg','2MB'])
 
 ### 后台应用 admin
 
-*thinkphp5.1*
+*ThinkPHP5.1*
 
 `html`文件存放目录：application/admin/view/
 
 ### 前台应用 home
 
-*thinkphp5.1*
+*ThinkPHP5.1*
 
 `html`文件存放目录：application/home/view/default
 
@@ -501,13 +358,13 @@ Login.php
 
 `captcha()` 图形验证码
 
-thinkphp3.2
+ThinkPHP3.2
 
 ```html
 <img src="{:U('/Home/Login/verify', array('random' => time()))}" alt="captcha" onclick="this.src='{:U(\'/Home/Login/verify\')}?'+Math.random();">
 ```
 
-thinkphp5.0
+ThinkPHP5.0
 
 ```html
 <img src="{:url('/home/login/captcha', ['random' => time()])}" alt="captcha" onclick="this.src='{:url(\'/home/login/captcha\')}?'+Math.random();">
@@ -555,7 +412,7 @@ thinkphp5.0
 
 `download()` APP下载
 
-thinkphp3.2
+ThinkPHP3.2
 
 ```php
 public function download()
@@ -584,7 +441,7 @@ public function download()
 }
 ```
 
-thinkphp 3.2 `参考项目vcf`
+ThinkPHP 3.2 `参考项目vcf`
 
 ```php
 /**
@@ -780,7 +637,7 @@ $all_pool = Db::name('user')
 
 ### 新增
 
-*thinkphp3.2.3*
+*ThinkPHP3.2.3*
 
 ```php
 $User = M("User"); // 实例化User对象
@@ -830,15 +687,9 @@ $result = Db::name('user')
 
 上述 `update` 方法返回影响数据的条数，没修改任何数据返回 0
 
-### 事务
-
-*thinkphp3.2.3*
-
-https://www.kancloud.cn/manual/thinkphp/1854 - *数据库驱动 · ThinkPHP3.2.3完全开发手册 · 看云*
-
 ### SQL 调试
 
-*thinkphp3.2.3*
+*ThinkPHP3.2.3*
 
 1. https://www.kancloud.cn/manual/thinkphp/1833 - *模型调试 · ThinkPHP3.2.3完全开发手册 · 看云*
 
@@ -855,6 +706,178 @@ https://www.kancloud.cn/manual/thinkphp/1854 - *数据库驱动 · ThinkPHP3.2.3
 ```php
 $data=M('User')->select();
 echo M('User')->_sql();
+```
+
+### 时间查询
+
+*ThinkPHP5.1*
+
+https://www.kancloud.cn/manual/thinkphp5_1/354029
+
+*ThinkPHP6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037565
+
+```php
+// 查询今天的数据
+whereTime('create_time', 'today')
+whereDay('create_time') // thinkphp6.0
+// 查询某天的数据
+// 查询“2018-06-01”的数据
+whereDay('create_time', '2018-06-01') // thinkphp6.0
+// 查询大于某个时间
+// SELECT * FROM `base_user` WHERE  `create_time` >= 1643385600
+// 1643385600 = 2022-01-29 00:00:00
+whereTime('create_time', '>=', '2022-01-01')
+```
+
+### 分页查询
+
+*ThinkPHP3.2.3*
+
+https://www.kancloud.cn/manual/thinkphp/1742 （全局搜索：`分页`）
+
+方式一：
+
+```php
+$Article = M('Article');
+$Article->limit('0,10')->select(); // 查询第一页数据
+$Article->limit('10,10')->select(); // 查询第二页数据
+```
+
+或者
+
+```php
+$Article = M('Article');
+$num = (I('param.page', 1) - 1) * 10;
+$Article->limit($num. ',10')->select(); // 查询第N页数据
+```
+
+方式二：
+
+```php
+$Article = M('Article');
+$Article->page('1,10')->select(); // 查询第一页数据
+$Article->page('2,10')->select(); // 查询第二页数据
+```
+
+*ThinkPHP5.1*
+
+https://www.kancloud.cn/manual/thinkphp5_1/354120
+
+*ThinkPHP6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037638
+
+```php
+$r = db("user")->paginate(3, false);
+// 获取总记录数 
+$r->total();
+// 获取记录列表
+$r->items();
+// 获取当前页码
+$r->currentPage();
+// 获取每页记录数
+$r->listRows();
+```
+
+*参考*
+
+[thinkphp5使用paginate查询分页数据如何获取总记录数](https://www.cnblogs.com/joeblackzqq/p/11509145.html)
+
+### 事务操作
+
+*ThinkPHP3.2.3*
+
+https://www.kancloud.cn/manual/thinkphp/1854 - *数据库驱动 · ThinkPHP3.2.3完全开发手册 · 看云*
+
+*ThinkPHP5.1*
+
+https://www.kancloud.cn/manual/thinkphp5_1/354035
+
+*ThinkPHP6.0*
+
+https://www.kancloud.cn/manual/thinkphp6_0/1037573
+
+数据库事务操作在`foreach`等循环中使用`continue`一定要提交或回滚
+
+例：
+
+```php
+foreach ($user_machine_list as $index => $item) {
+    \think\Db::startTrans();
+    try {
+        if ($item['times'] >= $item['duration']) {
+            \think\Db::commit();
+            continue;
+        }
+        \think\Db::commit();
+    } catch (\Exception $e) {
+        \think\Db::rollback();
+        throw $e;
+    }
+}
+```
+
+以下为错误示例，不能将 `\think\Db::startTrans();` 放至循环体外
+
+```php
+\think\Db::startTrans();
+foreach ($user_machine_list as $index => $item) {
+    try {
+        if ($item['times'] >= $item['duration']) {
+            \think\Db::commit();
+            continue;
+        }
+        \think\Db::commit();
+    } catch (\Exception $e) {
+        \think\Db::rollback();
+        throw $e;
+    }
+}
+```
+
+测试用例
+
+```php
+// 项目NEB
+public function test()
+{
+    $lists = Db::name('stats_user_log')
+        ->select();
+    if (empty($lists) || $lists->isEmpty()) {
+        return 'end';
+    }
+    foreach ($lists as $vo) {
+        Db::startTrans();
+        try {
+            $update_ret = Db::name('stats_user_log')
+                ->where('id', $vo['id'])
+                ->where('stats_time', $vo['stats_time'])
+                ->update(['stats_time' => time()]);
+            // 限制每秒执行一次
+            if (!$update_ret) {
+                Db::commit(); // 更新失败表示已更新,抛出异常防止重复执行
+                continue;
+            }
+
+            // 判断数字奇数还是偶数
+            if ($vo['id'] % 2 == 0) {
+                // 偶数
+                dump($vo['id'].'偶数');
+            } else {
+                // 奇数
+                exception('奇数');
+            }
+
+            Db::commit();
+        } catch (\Exception $e) {
+            Db::rollback();
+            dump($e->getMessage());
+        }
+    }
+    return '';
+}
 ```
 
 ## 模型
@@ -1908,10 +1931,6 @@ function cut_out($str) {
    例：  
    `user_machine`表中没有`mobile`字段，而`UserMachine`模型关联了`user`表的`mobile`字段，现在想通过`mobile`字段查找`user_machine`表中该会员的数据，模型关联查询暂没发现如何实现
 
-## Composer
-
-[composer 类库](back-end/composer/composer-pkgs.md)
-
 ## 常见问题
 
 ### 如何将 composer 类库下载放置 extend 中使用
@@ -1974,6 +1993,6 @@ function cut_out($str) {
 
 ![](_images/thinkphp-图片2.png)
 
-## 更多
+### cmd 下运行 thinkphp
 
 1. [cmd 下运行 thinkphp （主要用于定时任务.bat）](http://www.thinkphp.cn/code/1517.html)

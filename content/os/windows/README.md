@@ -1,6 +1,6 @@
 # Windows
 
-![](https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-Laptop-5-accessories-with-emoji-icons-FY24BTS:VP2-859x540)
+![illustration](https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-Laptop-5-accessories-with-emoji-icons-FY24BTS:VP2-859x540)
 
 <small>*插图来源于：[Microsoft - 云、计算机、应用和游戏](https://www.microsoft.com/zh-cn/)*</small>
 
@@ -22,7 +22,7 @@ Download：https://www.microsoft.com/zh-cn/download
 
 GitHub：https://github.com/microsoft - *Microsoft · GitHub*
 
-## 系统
+## 安装
 
 https://www.microsoft.com/zh-cn/software-download - *软件下载*
 
@@ -32,7 +32,7 @@ https://support.microsoft.com/zh-cn/windows - *Windows 帮助和学习*
 - 专业版 Professional
 - 企业版 Enterprise
 
-### 安装
+安装工具：
 
 https://www.laomaotao.net/ - *老毛桃 winpe,u 盘启动盘制作工具，u 盘重装系统，老毛桃 winpe 下载*
 
@@ -86,148 +86,25 @@ https://www.maxiaobang.com/12017.html - *教你在微软官网不限速下载Win
 
 - 复制下载链接，打开迅雷下载即可加速
 
-## Help
+## 设置
 
-https://www.winhelponline.com/ - *Winhelponline » Windows Help, How-Tos, and Tech Reviews*
+### 字体
 
-https://www.thewindowsclub.com/ - *Windows 11/10 Tips, Tricks, Help, Support, Downloads, Features*
-
-## 运行
-
-https://baike.baidu.com/item/%E8%BF%90%E8%A1%8C/13132909 - *运行（Windows组成部分）_百度百科*
-
-### 命令符
-
-1. `msinfo32` - 查看 Microsoft 系统信息
-
-2. `msconfig` - 查看系统配置
-
-3. `winver` - 查看系统版本
-
-4. `regedit` - 打开注册表编辑器
-
-5. `shell:startup` - 打开系统启动文件夹
-
-    1. `shell:<指定文件夹名称>` - 打开指定文件夹（ps：无法打开系统 Windows 下的任何文件夹）
-
-### 系统文件夹
-
-1. 命令：`%windir%` 或者 `%SystemRoot%`
-
-  说明：系统所在目录
-
-  对应路径：`C:\WINDOWS`
-
-1. 命令：`%systemroot%\system32`
-
-  说明：打开 system32 系统文件夹
-
-  对应路径：`C:\WINDOWS\system32`
-
-## bat 脚本
-
-### 教程
-
-1. https://www.w3cschool.cn/pclrmsc/ - *批处理入门手册_w3cschool*
-
-2. https://www.bookstack.cn/books/zhaoqingqing-bat - *《Windows 批处理(bat)语法大全》 - 书栈网 · BookStack*
-
-3. https://wsgzao.github.io/post/windows-batch/ - *Windows批处理(cmd/bat)常用命令小结 | HelloDog*
-
-4. https://blog.csdn.net/csfchh/article/details/106795352 - *bat脚本：快速入门_bat代码教学-CSDN博客*
-
-5. https://www.zhihu.com/question/34941855 - *“批处理从入门到精通”，我都应该看些什么书籍？ - 知乎*
+打开本机（电脑） `控制面板\所有控制面板项\字体` 查看字体
 
 参考：
 
-1. https://baike.baidu.com/item/bat/365230 - *bat （批处理文件类型）*
+1. <https://support.microsoft.com/zh-cn/windows/如何在-windows-中安装或删除字体-f12d0657-2fc8-7613-c76f-88d043b334b8/> - *如何在Windows中安装或删除字体*
 
-2. <https://www.jianshu.com/p/024de46ef9c4/> - *BAT命令大全*
+2. https://jingyan.baidu.com/article/22fe7ced0085677103617f01.html - *Win10中怎么添加泰语补充字体*
 
-3. https://blog.csdn.net/qq_26226375/article/details/122882619/ - *windows bat脚本学习一（基础指令）*
+### 开发环境
 
-4. https://zhuanlan.zhihu.com/p/446337414 - *.bat批处理命令常用操作大全 - 知乎*
+https://docs.microsoft.com/zh-cn/windows/dev-environment/ - *在 Windows 上设置开发环境 | Microsoft Docs*
 
-5. https://blog.csdn.net/qq_40127119/article/details/109744085/ - *bat脚本，判断一个进程是否存在，持续检测某进程是否存在。*
+## 用法
 
-6. https://blog.csdn.net/weixin_30805181/article/details/113560534/ - *cmd执行bat结果不回显_批处理中屏蔽错误信息 nul 2>nul 的用法 (cmd>nul空格2>nul)*
-
-7. https://blog.csdn.net/qq_43331089/article/details/124223804 - *【精选】bat 脚本中 For /f 中的 Delims 和 Tokens 总结_bat for tokens_伐尘的博客 - CSDN 博客*
-
-### 常见问题
-
-- `.bat` 批处理文件，运行时一直重复执行第一条命令
-
-  1. 自己的脚本文件名称不能与 `cmd` 系统命令重复
-
-     https://blog.csdn.net/fanticool/article/details/120759782 - *为什么.bat脚本不断重复执行同一命令*
-
-     http://t.zoukankan.com/glory-yl-p-14665886.html - *shutdown.bat 批处理文件，运行时一直重复执行第一条命令*
-
-  2. 编写 `.bat` 脚本时，文件的内容，不能调用自身
-
-     举例：假如我们写了个脚本，并命名为 `self.bat`，然后脚本内容又包含了 `self *` 指令，那么双击执行该脚本时，将会不断显示该命令，而没有执行一次该脚本即等待退出。因此，我们需要保证自己的脚本文件名称不能与自身名称一样。
-
-     https://jingyan.baidu.com/article/3a2f7c2ec7bbfb26afd61112.html - *bat程序连续执行不能退出关闭及其妙用*
-
-## PowerShell
-
-> PowerShell for every system!
-
-![GitHub last commit](https://badgen.net/github/last-commit/PowerShell/PowerShell?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social)
-
-https://github.com/PowerShell/PowerShell/ - *PowerShell for every system!*
-
-https://docs.microsoft.com/zh-cn/powershell/ - *PowerShell 文档 - PowerShell | Microsoft Docs*
-
-https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Shell_百度百科*
-
-一些实例：
-
-- 定时任务，支持秒级
-
-    1. 新建 `cron.ps1` 脚本文件，复制以下内容
-
-       ```powershell
-       #此例子为每5分钟一次的定时任务，通过设置$step和$add可以实现延时执行任务。
-       function waitsec {
-           $step = 300 #设置间隔
-           $add = 0 #设置延时
-           $t = (get-date)
-           $step-(($t.Hour*3600 + $t.Minute * 60 + $t.Second) % $step) + $add
-       }
-       
-       write-host "running...... please wait" (waitsec)"S" 
-       Start-Sleep -s (waitsec)
-       while(1) {
-           #执行代码
-           get-date
-           curl -uri 'http://192.168.31.105:8081/api/news/lists' -body 'type=2' -method 'POST'
-           #……
-           Start-Sleep -s (waitsec)
-       }
-       
-       ```
-
-    2. 打开 `powershell`，执行下列链接中的命令
-         http://www.xitongcheng.com/jiaocheng/win10_article_60003.html - *win10用powershell执行ps1文件的方法图文教程*
-
-参考：
-
-1. https://www.aspirantzhang.com/learning/powershell-script-code.html - *PowerShell脚本(.ps1) 实用代码*
-
-2. https://blog.csdn.net/qq_43711892/article/details/124503002/ - *PowerShell让系统可以执行.ps1文件*
-
-3. https://blog.csdn.net/WPwalter/article/details/107034692/ - *在 PowerShell 里根据进程名杀掉进程*
-
-4. https://www.5axxw.com/questions/content/7v4hz8/ - *当进程不存在时，如何使用powershell杀死进程而不出错*
-
-5. https://blog.csdn.net/cumai3211/article/details/109042866/ - *powershell进程_应用程序无响应？ 这是使用PowerShell杀死进程的方法*
-
-6. https://www.it1352.com/2340975.html - *使用 bat 启动 Powershell 脚本*
-
-## 快捷键
+### 快捷键
 
 - 快速显示桌面
 
@@ -259,31 +136,34 @@ https://baike.baidu.com/item/Windows%20Power%20Shell/693789/ - *Windows Power Sh
 
   [教你使用windows10系统windows+x快捷键-百度经验 (baidu.com)](https://jingyan.baidu.com/article/eb9f7b6d77e3be869264e849.html)
 
-## 字体
+### 开机启动项
 
-打开本机（电脑） `控制面板\所有控制面板项\字体` 查看字体
+![Alt text](_images/windows-usage.png)
 
-参考：
+3 种方式：
 
-1. <https://support.microsoft.com/zh-cn/windows/如何在-windows-中安装或删除字体-f12d0657-2fc8-7613-c76f-88d043b334b8/> - *如何在Windows中安装或删除字体*
+1. 利用系统配置功能实现
+   1. 开始 <kbd>win</kbd> + <kbd>R</kbd> 运行 `msconfig` 回车
 
-2. https://jingyan.baidu.com/article/22fe7ced0085677103617f01.html - *Win10中怎么添加泰语补充字体*
+2. 利用注册表功能实现
 
-## 开发环境
+   1. 开始 <kbd>win</kbd> + <kbd>R</kbd> 运行 `regedit` 回车
 
-https://docs.microsoft.com/zh-cn/windows/dev-environment/ - *在 Windows 上设置开发环境 | Microsoft Docs*
+   2. 选择进入到目录 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunHKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run`
 
-## Hyper-v
+   3. 进入所示位置，保留最基本的启动项目，如输入法，系统驱动等；其它多余的项目进行删除。
 
-https://baijiahao.baidu.com/s?id=1682327494844437724/ - *Windows虚拟机Hyper-v的安装及使用教程*
+3. 利用 QQ 电脑管家设置来实现
 
-## 模拟 Linux 环境
+   1. 电脑加速模块的开机启动项
 
-### WSL(Windows Subsystem for Linux)
+### 模拟 Linux 环境
+
+#### WSL(Windows Subsystem for Linux)
 
 https://docs.microsoft.com/zh-cn/windows/wsl/ - *适用于 Linux 的 Windows 子系统文档 | Microsoft Docs*
 
-### Cygwin
+#### Cygwin
 
 http://www.cygwin.com/ - *Cygwin*
 
@@ -305,34 +185,59 @@ http://www.cygwin.com/ - *Cygwin*
 
 5. https://www.cnblogs.com/toughhou/p/4113685.html - *Cygwin下软件安装 - apt-cyg*
 
-## UWP
+### UWP
+
+> 借助通用 Windows 平台 (UWP)，可以生成适用于任何 Windows 设备（电脑、Xbox One、HoloLens 等等）的应用，然后将这些应用发布到 Store。
+> 
+> UWP stands for Universal Windows Platform.
 
 https://learn.microsoft.com/zh-cn/windows/uwp/ - *UWP 文档 - UWP 应用开发人员 | Microsoft Learn*
 
-## 用法
+## 工具
 
-![Alt text](_images/windows-usage.png)
+### 运行
 
-### 开机启动项
+https://baike.baidu.com/item/%E8%BF%90%E8%A1%8C/13132909 - *运行（Windows组成部分）_百度百科*
 
-3 种方式：
+#### 命令符
 
-1. 利用系统配置功能实现
-   1. 开始 <kbd>win</kbd> + <kbd>R</kbd> 运行 `msconfig` 回车
+1. `msinfo32` - 查看 Microsoft 系统信息
 
-2. 利用注册表功能实现
+2. `msconfig` - 查看系统配置
 
-   1. 开始 <kbd>win</kbd> + <kbd>R</kbd> 运行 `regedit` 回车
+3. `winver` - 查看系统版本
 
-   2. 选择进入到目录 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunHKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Run`
+4. `regedit` - 打开注册表编辑器
 
-   3. 进入所示位置，保留最基本的启动项目，如输入法，系统驱动等；其它多余的项目进行删除。
+5. `shell:startup` - 打开系统启动文件夹
 
-3. 利用 QQ 电脑管家设置来实现
+    1. `shell:<指定文件夹名称>` - 打开指定文件夹（ps：无法打开系统 Windows 下的任何文件夹）
 
-   1. 电脑加速模块的开机启动项
+#### 系统文件夹
 
-### 如何显示文件扩展名
+1. 命令：`%windir%` 或者 `%SystemRoot%`
+
+    说明：系统所在目录
+
+    对应路径：`C:\WINDOWS`
+
+2. 命令：`%systemroot%\system32`
+
+    说明：打开 system32 系统文件夹
+
+    对应路径：`C:\WINDOWS\system32`
+
+### Hyper-v 虚拟机
+
+https://baijiahao.baidu.com/s?id=1682327494844437724/ - *Windows虚拟机Hyper-v的安装及使用教程*
+
+## 常见问题解答
+
+1. https://www.winhelponline.com/ - *Winhelponline » Windows Help, How-Tos, and Tech Reviews*
+
+2. https://www.thewindowsclub.com/ - *Windows 11/10 Tips, Tricks, Help, Support, Downloads, Features*
+
+### 如何显示文件扩展名？
 
 打开文件夹在菜单栏中的「查看」设置「文件扩展名」选中。
 

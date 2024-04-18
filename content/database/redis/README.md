@@ -21,6 +21,8 @@ GitHub：
 
 ## 安装
 
+暂无
+
 ## 命令行
 
 cmd 切换至 redis 所在目录
@@ -69,13 +71,20 @@ https://www.php.cn/php-ask-479206.html - *php redis怎么安装*
 
 `predis/predis`
 
-<span class="icon octicon-file composer-icon medium-yellow "></span> <https://packagist.org/packages/predis/predis>
+<span class="icon octicon-file composer-icon medium-yellow "></span>
+https://packagist.org/packages/predis/predis - *predis/predis - Packagist*
 
 ### GitHub
 
 `phpredis/phpredis`
 
-<span class="icon octicon-file github-icon "></span> <https://github.com/phpredis/phpredis>
+<span class="icon octicon-file github-icon "></span>
+https://github.com/phpredis/phpredis - *GitHub - phpredis/phpredis: A PHP extension for Redis*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/phpredis/phpredis?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/phpredis/phpredis?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phpredis/phpredis?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/phpredis/phpredis?style=social)
 
 ## 集群
 

@@ -7,14 +7,21 @@
 ![f-droid](https://badgen.net/f-droid/v/com.foxdebug.acode)
 ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/Acode?color=blue&logo=github)
 ![Platforms](https://img.shields.io/badge/platforms-Android-blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deadlyjack/Acode?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deadlyjack/Acode?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/deadlyjack/Acode?style=social)
 
 ## 官方
-
-https://f-droid.org/packages/com.foxdebug.acode/ - *Acode | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/deadlyjack/Acode - *GitHub - deadlyjack/Acode: Acode - powerful text/code editor for android*
 
 https://acode.app/ - *Acode - Code editor for android*
+
+## 安装
+
+https://f-droid.org/packages/com.foxdebug.acode/ - *Acode | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/deadlyjack/Acode/releases - *Releases · deadlyjack/Acode · GitHub*
 
 ## 设置
 
@@ -35,9 +42,11 @@ https://acode.app/ - *Acode - Code editor for android*
 
 https://acode.app/plugins - *Acode - Code editor for android*
 
+https://acode.app/plugin-docs - *Acode - Code editor for android*
+
 1. https://github.com/deadlyjack/acode-plugin-prettier - *GitHub - deadlyjack/acode-plugin-prettier: Code formatter plugin for Acode editor for Android*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/deadlyjack/acode-plugin-prettier?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/acode-plugin-prettier?color=blue&logo=github)
     
     设置：
     
@@ -88,11 +97,11 @@ https://acode.app/plugins - *Acode - Code editor for android*
 
 2. https://github.com/deadlyjack/acode-plugin-snippets - *GitHub - deadlyjack/acode-plugin-snippets: Acode snippets plugin* [Website](https://acode.app/plugin/acode.plugin.snippets)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/deadlyjack/acode-plugin-snippets?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/acode-plugin-snippets?color=blue&logo=github)
 
 3. https://github.com/bajrangCoder/MarkdownCompiler - *GitHub - bajrangCoder/MarkdownCompiler: A markdown compiler & styler plugin for acode*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/bajrangCoder/MarkdownCompiler?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/bajrangCoder/MarkdownCompiler?color=blue&logo=github)
 
 4. https://github.com/7HR4IZ3/acode-plugin-workspace - *GitHub - 7HR4IZ3/acode-plugin-workspace: Workspace management plugin for github*
 
@@ -100,7 +109,7 @@ https://acode.app/plugins - *Acode - Code editor for android*
 
 ## 常见问题
 
-以下链接 1 和 链接 2 在 Acode v1.9.0(936) 和 Markor 有差异：
+以下链接 1 和 链接 2 在 Acode v1.9.0(936) 和 Markor v2.11.1(148) 有差异：
 
 1. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship* 🪜
 2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship* 🪜

@@ -5,7 +5,7 @@
 > <img src="https://labs.mysql.com/common/logos/mysql-logo.svg?v2" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> RDBMS（Relational Database Management System，关系数据库管理系统）
 > MySQL是一种关系数据库管理系统，关系数据库将数据保存在不同的表中，而不是将所有数据放在一个大仓库内，这样就增加了速度并提高了灵活性。
 
-![GitHub last commit](https://badgen.net/github/last-commit/mysql/mysql-server?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/mysql/mysql-server?color=blue&logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/mysql/mysql-server?logo=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mysql/mysql-server?style=social)
 
@@ -13,7 +13,7 @@
 
 主页：https://www.mysql.com/cn/ - *MySQL*
 
-文档：https://dev.mysql.com/doc/ - *MySQL :: MySQL Documentation* [中文](https://mysql.net.cn/)
+文档：https://dev.mysql.com/doc/ - *MySQL :: MySQL Documentation* [中文站点](https://mysql.net.cn/)
 
 GitHub：https://github.com/mysql - *MySQL · GitHub*
 
@@ -28,6 +28,18 @@ GitHub：https://github.com/mysql - *MySQL · GitHub*
 4. https://www.liaoxuefeng.com/wiki/1177760294764384 - *SQL教程 - 廖雪峰的官方网站*
 
 5. http://mysql.taobao.org/monthly/ - *数据库内核月报* （阿里教程）
+
+## 安装
+
+1. https://www.runoob.com/mysql/mysql-install.html - *MySQL 安装 | 菜鸟教程*
+
+### 版本
+
+- `5.7.26`（本地开发使用版本）
+
+- `5.7.38-log`（生产环境使用版本）
+
+- `5.7.34-log`（生产环境使用版本）
 
 ## 规约
 
@@ -54,14 +66,6 @@ https://www.jb51.net/article/137783.htm#_label2 - *JAVA开发中的一些规范�
 正例：如果 where a=? and b=? ，a 列的几乎接近于唯一值，那么只需要单建 idx_a 索引即可。说明：存在非等号和等号混合判断条件时，在建索引时，请把等号条件的列前置。如：where a>? and b=? 那么即使 a 的区分度更高，也必须把b放在索引的最前列。
 
 【推荐】in 操作能避免则避免，若实在避免不了，需要仔细评估 in 后边的集合元素数量，控制在 1000 个之内。
-
-## 版本
-
-- `5.7.26`（本地开发使用版本）
-
-- `5.7.38-log`（生产环境使用版本）
-
-- `5.7.34-log`（生产环境使用版本）
 
 ## 执行流程
 
@@ -126,9 +130,9 @@ TODO :
 - 查看表结构
 
   ```sql
-  mysql> DESCRIBE `表名`;
+  DESCRIBE `表名`;
   
-  mysql> EXPLAIN `表名`;
+  EXPLAIN `表名`;
   ```
 
 - 查询服务器版本信息

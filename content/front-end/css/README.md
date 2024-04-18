@@ -20,6 +20,10 @@ https://www.w3.org/Style/CSS/Overview.en.html - *Cascading Style Sheets*
 
 ## 用法
 
+### 变量
+
+https://www.ruanyifeng.com/blog/2017/05/css-variables.html - *CSS 变量教程 - 阮一峰的网络日志*
+
 ### 属性
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/Value_definition_syntax - *CSS 属性值定义语法 - CSS：层叠样式表 | MDN*
@@ -34,6 +38,11 @@ https://www.runoob.com/cssref/css-functions.html - *CSS 函数 | 菜鸟教程*
 2. [calc()](https://www.runoob.com/cssref/func-calc.html) - *允许计算 CSS 的属性值，比如动态计算长度值。*
 3. [attr()](https://www.runoob.com/cssref/func-attr.html) - *返回选择元素的属性值。*
 4. [env()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/env)
+
+### 字体
+
+1. https://www.runoob.com/css/css-font.html - *CSS Fonts(字体) | 菜鸟教程*
+2. https://www.runoob.com/css3/css3-fonts.html - *CSS3 字体 | 菜鸟教程*
 
 ### 文本
 
@@ -53,20 +62,70 @@ https://www.runoob.com/cssref/css-functions.html - *CSS 函数 | 菜鸟教程*
 
     - [word-wrap](https://www.runoob.com/cssref/css3-pr-word-wrap.html) - *允许对长的不可分割的单词进行分割并换行到下一行。*
 
+### 颜色
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_colors - *CSS Color - CSS：层叠样式表 | MDN*
+
 ### 盒模型
 
 1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model - *CSS 基础框盒模型介绍 - CSS：层叠样式表 | MDN*
 
 2. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model - *盒模型 - 学习 Web 开发 | MDN*
 
-3. https://css-tricks.com/box-sizing/ - *Box Sizing | CSS-Tricks - CSS-Tricks*
+#### box-sizing
+
+1. https://css-tricks.com/box-sizing/ - *Box Sizing | CSS-Tricks - CSS-Tricks*
+
+#### 外边距重叠
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing - *掌握外边距折叠 - CSS：层叠样式表 | MDN*
+
+> 上下两个块元素
+
+☑️ 情形一
+
+上一个块元素设置样式：`margin-bottom: 10px;`
+
+下一个块元素设置样式：`margin-top: 10px;`
+
+结果：**上下块元素之间的补白为 10px**
+
+☑️ 情形二
+
+上一个块元素设置样式：`margin-bottom: 10px;`
+
+下一个块元素设置样式：`padding-top: 10px;`
+
+结果：**上下块元素之间的补白为 20px**
+
+☑️ 情形三
+
+上一个块元素设置样式：`padding-bottom: 10px;`
+
+下一个块元素设置样式：`padding-top: 10px;`
+
+结果：**上下块元素之间的补白为 20px**
+
+☑️ 情形四
+
+上一个块元素设置样式：`padding-bottom: 10px;`
+
+下一个块元素设置样式：`margin-top: 10px;`
+
+结果：**上下块元素之间的补白为 20px**
 
 ### 选择器
 
 https://www.runoob.com/cssref/css-selectors.html - *CSS 选择器 | 菜鸟教程*
 
+#### 优先级
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity - *优先级 - CSS：层叠样式表 | MDN*
+
+#### :not()
+
 - https://www.runoob.com/cssref/sel-not.html - *CSS3 :not 选择器 | 菜鸟教程*
-- https://developer.mozilla.org/zh-CN/docs/Web/CSS/ - *:not() - CSS：层叠样式表 | MDN*
+- https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not - *:not() - CSS：层叠样式表 | MDN*
 
   ```css
   :not(header a)[target=_blank]:after {
@@ -146,7 +205,11 @@ https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout - *CSS 布局 - �
 
 1. https://juejin.cn/post/6844903814361776135 - *CSS之宽高比例布局 - 掘金*
 
-### z-index
+### 层叠上下文
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context - *层叠上下文 - CSS：层叠样式表 | MDN*
+
+#### z-index
 
 参考：
 
@@ -190,6 +253,49 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/line-height - *line-height - CS
 3. https://segmentfault.com/a/1190000014936270 - *深入理解css之line-height - 有赞美业前端团队 - SegmentFault 思否*
 4. https://blog.csdn.net/apple_51491580/article/details/113737855 - *height和line-height的区别（简单易懂）_line-height和height的区别-CSDN博客*
 5. https://zhuanlan.zhihu.com/p/64851039 - *css : line-height的定义和经典使用 - 知乎*
+
+### pointer-events
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/pointer-events - *pointer-events - CSS：层叠样式表 | MDN*
+
+参考：
+
+1. https://css-tricks.com/pointer-events-current-nav/ - *Pointer Events & Disabling Current Page Links | CSS-Tricks - CSS-Tricks*
+2. https://www.cnblogs.com/ygunoil/p/12765420.html - *纯CSS属性pointer-events：none解决滚动穿透、事件穿透问题 - ygunoil - 博客园*
+
+### 单位
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/length#rem - *\<length> - CSS：层叠样式表 | MDN*
+2. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Values_and_units - *CSS 的值与单位 - 学习 Web 开发 | MDN*
+3. https://mp.weixin.qq.com/s/C1pyp2IRhGu_yjtNJEieRA - *针对尺寸单位，为什么不应该使用 px 作为尺寸单位？以及最佳实践！*
+
+单位转换工具：
+
+1. 待添加
+
+---
+
+https://www.runoob.com/cssref/css-units.html - *CSS 单位 | 菜鸟教程*
+
+英寸 1in = 96px = 2.54cm
+
+像素 1px = 0.0104166666666667in = 0.0264583333333333cm
+
+#### em
+
+`em` 它是描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位。一般浏览器字体大小默认为 16px，则 2em = 32px
+
+#### rem
+
+`rem` 是根 em（root em）的缩写，rem 作用于非根元素时，相对于根元素字体大小；rem 作用于根元素字体大小时，相对于其出初始字体大小
+
+#### vw
+
+`vw` viewpoint width，视窗宽度，1vw = 视窗宽度的 1%
+
+#### vh
+
+`vh` viewpoint height，视窗高度，1vh = 视窗高度的 1%
 
 ## 预处理器
 
@@ -347,6 +453,10 @@ animations* [GitHub User](https://github.com/Afif13/)
 
 1. https://www.css-generators.com/ - *CSS Generators: Your CSS code with less
 effort*
+
+## ~~常见问题~~
+
+暂无
 
 ## 参考
 

@@ -13,6 +13,7 @@
         transform: translate(0,0);
     }
 }
+
 @-webkit-keyframes im_icon {
     0% {
         opacity: 0.8;
@@ -27,6 +28,7 @@
         transform: translate(0,0);
     }
 }
+
 .im {
     margin-top: -4px;
     margin-left: 10px;

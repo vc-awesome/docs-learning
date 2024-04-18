@@ -13,7 +13,8 @@
 
 2. https://github.com/yosriady/awesome-api-devtools - *GitHub - yosriady/awesome-api-devtools: A collection of useful resources for building RESTful HTTP+JSON APIs.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/yosriady/awesome-api-devtools?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/yosriady/awesome-api-devtools?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/yosriady/awesome-api-devtools?style=social)
 
 3. https://www.kancloud.cn/special/api - *API设计指南 - 专题 · 看云*
 
@@ -22,7 +23,7 @@
 
 开发前考虑
 
-- 表单令牌（不支持cookie无法使用）
+- 表单令牌（不支持 cookie 无法使用）
 - API 请求数据的规范
 - API 返回数据的规范
 
@@ -93,6 +94,9 @@ API 安全
 3. API 接口加密策略
 4. PHP 接口签名验证
 
+### 预备知识
+
+#### HTTP
 
 ### 设计规范
 
@@ -119,57 +123,64 @@ API 安全
 
     - https://github.com/godruoyi/restful-api-specification - *GitHub - godruoyi/restful-api-specification: RESTful API Design Specification*
 
+        ![GitHub last commit](https://img.shields.io/github/last-commit/godruoyi/restful-api-specification?color=blue&logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/godruoyi/restful-api-specification?style=social)
+
 2. https://www.kancloud.cn/momingsixiali/thinkphp-resturl-api/664273 - *PHP实战: 使用thinkphp5制作restful api · thinkphp-resturl-api · 看云*
 
 3. http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html - *RESTful API 最佳实践 - 阮一峰的网络日志*
 
 4. http://www.ruanyifeng.com/blog/2014/05/restful_api.html - *RESTful API 设计指南 - 阮一峰的网络日志*
 
-5. https://segmentfault.com/a/1190000019818569
+5. https://segmentfault.com/a/1190000019818569 - *url - RESTful API风格 - 前后端的那点小事 - SegmentFault 思否*
 
-6. https://blog.csdn.net/shangrila_kun/article/details/89026968
+6. https://blog.csdn.net/shangrila_kun/article/details/89026968 - *REST服务和RESTful API是什么_api、rest服务-CSDN博客*
 
-7. https://blog.csdn.net/laotianv5/article/details/81634997
+7. https://blog.csdn.net/laotianv5/article/details/81634997 - *什么是Restful API？_rsetfulapi-CSDN博客*
 
-8. https://www.cnblogs.com/liwenzhou/p/9338256.html
+8. https://www.cnblogs.com/liwenzhou/p/9338256.html - *RESTful API介绍 - Q1mi - 博客园*
 
-9. https://baijiahao.baidu.com/s?id=1634470186508003064
+9. https://baijiahao.baidu.com/s?id=1634470186508003064 - *RESTful风格/RESTful Api/RESTful 架构？*
 
-10. https://www.runoob.com/w3cnote/restful-architecture.html
+10. https://www.runoob.com/w3cnote/restful-architecture.html - *RESTful 架构详解 | 菜鸟教程*
 
 11.  https://gitee.com/liushoukun/restfulapi-tp5 - *liushoukun/restfulapi-tp5*
 
-12.  https://www.cnblogs.com/haima/p/9486733.html
+12. https://www.cnblogs.com/haima/p/9486733.html - *thinkphp5开发restful-api接口 学习笔记一 - HaimaBlog - 博客园*
 
-13.  http://www.thinkphp.cn/extend/782.html
+13. https://www.thinkphp.cn/extend/782.html - *ThinkPHP-RESTful API - ThinkPHP框架*
 
-14. https://www.jianshu.com/p/5ada97c547b7
+14. https://www.jianshu.com/p/5ada97c547b7 - *使用开放API获取网站数据——以豆瓣为例 - Yangjialin - 简书*
 
-15. https://www.douban.com/group/topic/123746666/
+15. https://www.douban.com/group/topic/123746666/ - *REST服务和RESTful API是什么_api、rest服务-CSDN博客*
 
 16. https://douban-api-docs.zce.me/book.html
 
 17. https://www.runoob.com/http/http-tutorial.html - *HTTP 教程 | 菜鸟教程*
 
-18. https://www.jianshu.com/p/b82f8a07db22
+18. https://github.com/Leslin/thinkphp5-restfulapi - *GitHub - Leslin/thinkphp5-restfulapi: restful-api 风格接口 APP 接口 APP 接口权限 oauth2.0 接口版本管理 接口鉴权*
 
-19. https://github.com/Leslin/thinkphp5-restfulapi - *GitHub - Leslin/thinkphp5-restfulapi: restful-api 风格接口 APP 接口 APP 接口权限 oauth2.0 接口版本管理 接口鉴权*
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Leslin/thinkphp5-restfulapi?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Leslin/thinkphp5-restfulapi?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Leslin/thinkphp5-restfulapi?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Leslin/thinkphp5-restfulapi?style=social)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/Leslin/thinkphp5-restfulapi?icon=github&color=blue)
+19. https://github.com/dotku/thinkphp-restful-api - *GitHub - dotku/thinkphp-restful-api: 还没有空去研究 ThinkPHP 5，自己写了一个基于 ThinkPHP 3.2 的 API*
 
-20. https://github.com/dotku/thinkphp-restful-api - *GitHub - dotku/thinkphp-restful-api: 还没有空去研究 ThinkPHP 5，自己写了一个基于 ThinkPHP 3.2 的 API*
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dotku/thinkphp-restful-api?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/dotku/thinkphp-restful-api?style=social)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/dotku/thinkphp-restful-api?icon=github&color=blue)
+20. https://github.com/crifan/http_restful_api - *GitHub - crifan/http_restful_api: 整理 HTTP 后台端的 RESTful API 方面的知识*
 
-21. https://github.com/crifan/http_restful_api - *GitHub - crifan/http_restful_api: 整理 HTTP 后台端的 RESTful API 方面的知识*
+    ![GitHub last commit](https://img.shields.io/github/last-commit/crifan/http_restful_api?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/crifan/http_restful_api?style=social)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/crifan/http_restful_api?icon=github&color=blue)
+21. https://docs.microsoft.com/zh-cn/onedrive/developer/rest-api/ - *通过 Microsoft Graph API 访问 OneDrive 和 SharePoint - OneDrive dev center | Microsoft Docs*
 
-22. https://docs.microsoft.com/zh-cn/onedrive/developer/rest-api/ - *通过 Microsoft Graph API 访问 OneDrive 和 SharePoint - OneDrive dev center | Microsoft Docs*
+22. https://github.com/microsoft/api-guidelines - *GitHub - microsoft/api-guidelines: Microsoft REST API Guidelines*
 
-23. https://github.com/microsoft/api-guidelines - *GitHub - microsoft/api-guidelines: Microsoft REST API Guidelines*
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/microsoft/api-guidelines?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/api-guidelines?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/api-guidelines?style=social)
 
 #### OpenAPI
 
@@ -196,25 +207,33 @@ API 安全
 
 #### RPC API
 
+暂无
+
+
 #### GraphQL
 
 > A query language for your API — GraphQL provides a complete description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 
-https://graphql.org/ - *GraphQL | A query language for your API* [中文](https://graphql.bootcss.com/) [GitHub](https://github.com/graphql)
+https://graphql.org/ - *GraphQL | A query language for your API* [中文站点](https://graphql.bootcss.com/) [GitHub Org](https://github.com/graphql)
 
 ## 用法
+
+### 身份认证 & Auth 鉴权指南
+
+https://apifox.com/help/auth/api-key - *什么是 API Key | Apifox 帮助文档*
+
+#### API Key
+#### Bearer Token
+#### JWT
+#### Basic Auth
+#### Digest Auth
+#### OAuth 2.0
 
 ### 文档书写
 
 参考：
 
 > Postman > My Workspace > Collections > Template （完善中）
-> 
-> 猎鹰 API 文档 > [link](https://www.showdoc.com.cn/1123481952970320/5763763483847876) （密码：123456）
-> 
-> YApi > 项目sky
-> 
-> YApi > 项目kla
 
 分类:
 
@@ -273,7 +292,7 @@ https://graphql.org/ - *GraphQL | A query language for your API* [中文](https:
 
 参考：
 
-- https://juejin.cn/post/6844903625030909960
+- https://juejin.cn/post/6844903625030909960 - *RESETful API 设计规范 - 掘金*
 - 项目猎鹰
 - 项目swarm
 
@@ -447,31 +466,31 @@ json响应格式
 
 - 查询所有
 
-    http://thinkphp5-1.com/api/v1/member/index
+    `/api/v1/member/index`
 
     状态码：200
 
 - 新增
 
-    http://thinkphp5-1.com/api/v1/member/save
+    `/api/v1/member/save`
 
     状态码：200
 
 - 查询
 
-    http://thinkphp5-1.com/api/v1/member/read
+    `/api/v1/member/read`
 
     状态码：200
 
 - 修改
 
-    http://thinkphp5-1.com/api/v1/member/update
+    `/api/v1/member/update`
 
     状态码：201
 
 - 删除
 
-    http://thinkphp5-1.com/api/v1/member/delete
+    `/api/v1/member/delete`
 
     状态码：204
 
@@ -480,7 +499,7 @@ json响应格式
 
 > JavaScript library of crypto standards. Contribute to brix/crypto-js development by creating an account on GitHub.
 
-![GitHub last commit](https://badgen.net/github/last-commit/brix/crypto-js?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/brix/crypto-js?color=blue&logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/brix/crypto-js?logo=github&color=blue)
 ![npm](https://img.shields.io/npm/v/crypto-js?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/brix/crypto-js?style=social)
@@ -546,6 +565,11 @@ console.log('[Pre]OpenAccountApi.getUserToken _pre_sign='+_pre_sign+',_sign=' + 
 3. https://blog.csdn.net/dengjiexian123/article/details/53313913 - *php中使用hash_hmac函数实现HMAC-SHA1签名算法的来龙去脉*
 
 
+### 重复请求
+
+1. https://mp.weixin.qq.com/s/tSrmb6B2ZOrgE2Ix_YYGtg - *几行代码，优雅的避免接口重复请求！同事都说好！*
+
+
 ## 工具
 
 1. https://www.jianshu.com/p/d7b13670e0eb - *API文档管理工具 / 接口文档*
@@ -560,6 +584,9 @@ console.log('[Pre]OpenAccountApi.getUserToken _pre_sign='+_pre_sign+',_sign=' + 
 https://github.com/YMFE/yapi - *YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台. Contribute to YMFE/yapi development by creating an account on GitHub.*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/YMFE/yapi?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/YMFE/yapi?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/YMFE/yapi?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/YMFE/yapi?style=social)
 
 
 ### Postman
@@ -587,7 +614,10 @@ https://www.apizza.net/ - *apizza - 极客专属的 api 管理工具*
 
 https://github.com/Tencent/APIJSON - *🏆 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构。 🏆 A JSON Transmission Protocol and an ORM Library 🚀 provides APIs and Docs without writing any code.*
 
-![GitHub last commit](https://badgen.net/github/last-commit/Tencent/APIJSON?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Tencent/APIJSON?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Tencent/APIJSON?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tencent/APIJSON?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/APIJSON?style=social)
 
 
 ### docway
@@ -599,6 +629,9 @@ http://www.docway.net - *小幺鸡在线接口文档管理工具*
 
 https://swagger.io - *API Documentation & Design Tools for Teams | Swagger*
 
+https://swagger.io/docs/ - *Swagger Documentation*
+
+https://github.com/swagger-api - *Swagger · GitHub*
 
 ### Apipost
 
@@ -612,6 +645,8 @@ https://www.apipost.cn/ - *Apipost-API 文档、设计、调试、自动化测�
 ### Apifox
 
 https://apifox.com/ - *Apifox - API 文档、调试、Mock、测试一体化协作平台 - 接口文档工具，接口自动化测试工具，接口Mock工具，API文档工具，API Mock工具，API自动化测试工具*
+
+https://apifox.com/help/ - *Apifox 快速入门 | Apifox 帮助文档*
 
 参考：
 

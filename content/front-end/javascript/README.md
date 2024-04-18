@@ -12,9 +12,17 @@
 
 1. https://www.runoob.com/js/js-tutorial.html - *JavaScript 教程 | 菜鸟教程*
 
-2. https://www.wangdoc.com/javascript/ - *JavaScript 教程 - 网道*
+2. https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/javascript-tutorial)
 
-3. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript - *JavaScript - 学习 Web 开发 | MDN*
+    ![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/javascript-tutorial?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/javascript-tutorial?style=social)
+
+3. https://wangdoc.com/es6/ - *ES6 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/es6-tutorial)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/es6-tutorial?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/es6-tutorial?style=social)
+
+4. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript - *JavaScript - 学习 Web 开发 | MDN*
 
 ## 运行环境
 
@@ -32,8 +40,6 @@
 
 2. https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
 
----
-
 变量命名（驼峰法）：
 
 *camelCase*，例：`firstName`
@@ -50,6 +56,36 @@
 
 *UPPERCASE*，例：`PI`
 
+##### 区块
+
+JavaScript 使用大括号，将多个相关的语句组合在一起，称为“区块”（block）。
+
+```javascript
+{
+  var a = 1;
+}
+
+a // 1
+```
+
+参考：
+
+1. <https://wangdoc.com/javascript/basic/grammar#区块> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
+
+##### 语句
+
+<https://wangdoc.com/javascript/basic/grammar#语句> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
+
+###### 表达式
+
+暂无
+
+##### 圆括号
+
+圆括号（parentheses）在 JavaScript 中有两种作用，一种表示函数的调用，另一种表示表达式的组合（grouping）。
+
+<https://wangdoc.com/javascript/features/style#圆括号> - *编程风格 - JavaScript 教程 - 网道*
+
 #### 调试
 
 https://wangdoc.com/javascript/features/console - *console 对象与控制台 - JavaScript
@@ -61,13 +97,23 @@ https://wangdoc.com/javascript/features/console - *console 对象与控制台 - 
 
 #### 变量
 
-var
+<https://wangdoc.com/javascript/basic/grammar#变量> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
 
-let
+- 声明变量
 
-const
+    - var
+    - let
+    - const
+
+- 赋值
+
+##### 全局变量
+
+暂无
 
 ##### 变量提升
+
+https://www.runoob.com/js/js-hoisting.html - *JavaScript 声明提升 | 菜鸟教程*
 
 #### 数据类型
 
@@ -75,15 +121,21 @@ https://www.runoob.com/js/js-datatypes.html - *JavaScript 数据类型 | 菜鸟�
 
 - 整型
 
-- 浮点型
-
 - 字符串
 
 - 布尔型
 
-##### 数组
+##### 数值
 
-https://www.runoob.com/js/js-obj-array.html - *JavaScript Array（数组）对象 | 菜鸟教程*
+暂无
+
+###### 浮点型
+
+https://www.runoob.com/w3cnote/010203.html - *0.1 + 0.2 不等于 0.3 ？这是为什么？一篇讲清楚！！！ | 菜鸟教程*
+
+##### 字符串
+
+暂无
 
 ##### 对象
 
@@ -112,7 +164,11 @@ https://wangdoc.com/javascript/types/object - *对象 - JavaScript 教程 - 网�
 
     [HTMLElement.innerText](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/innerText) - *HTMLElement.innerText - Web API 接口参考 | MDN*
 
-##### 函数
+###### 数组
+
+https://www.runoob.com/js/js-obj-array.html - *JavaScript Array（数组）对象 | 菜鸟教程*
+
+###### 函数
 
 https://wangdoc.com/javascript/types/function - *函数 - JavaScript 教程 - 网道*
 
@@ -137,16 +193,105 @@ https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScrip
     ![GitHub last commit](https://badgen.net/github/last-commit/chaijs/type-detect?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/chaijs/type-detect?style=social)
 
-#### 回调函数
+#### 运算符
+
+1. https://wangdoc.com/javascript/operators/ - *运算符 - JavaScript 教程 - 网道*
+2. https://wangdoc.com/es6/operator - *运算符的扩展 - ES6 教程 - 网道*
+
+#### 函数
+
+JS 设置一个变量为函数名称，然后执行这个变量会执行函数
+
+```javascript
+// 定义一个函数
+function sayHello() {
+  console.log("Hello, world!");
+}
+  
+// 定义一个变量，并将函数的引用赋值给它
+var myFunction = sayHello;
+  
+// 通过变量来调用函数
+myFunction(); // 输出: Hello, world!
+```
+
+```javascript
+function fn1() {
+  console.log(123)
+}
+
+function fn2() {
+  console.log(456)
+}
+
+function fn3() {
+  console.log(789)
+}
+
+let a = {
+  fn1,
+  fn2,
+  fn3
+}
+
+let index = 1
+let fnName = 'fn' + index
+
+a[fnName]() 
+// 最终输出123
+```
+
+参考：
+
+1. https://blog.csdn.net/WanweI897/article/details/124397923 - *js用变量保存函数名，并使用该变量调用函数的方式_js中变量怎么存一个function-CSDN博客*
+2. https://www.delftstack.com/zh/howto/javascript/javascript-call-function-by-name/ - *在 JavaScript 中按名称调用函数 | D栈 - Delft Stack*
+
+##### 立即调用的函数表达式（IIFE）
+
+```javascript
+(function () { /* code */ }());
+// 或者
+(function () { /* code */ })();
+```
+
+##### 匿名函数
+
+```javascript
+var print = function (s) {
+  console.log(s);
+};
+
+print(1); // 1
+print.name; // print
+```
+
+##### 具名函数
+
+```javascript
+var print = function x() {
+  console.log(typeof x);
+};
+
+x
+// ReferenceError: x is not defined
+
+print()
+// function
+
+print.name; // x
+```
+
+##### 回调函数
 
 1. 前奏
 
     代码 demo
 
     ```javascript
-    function say (value) {
-        alert(value);
+    function say(value) {
+      alert(value);
     }
+    
     alert(say);
     alert(say('hi js.'));
     ```
@@ -154,52 +299,57 @@ https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScrip
     运行总结
 
     > 只写变量名 say 返回的将会是 say 方法本身，以字符串的形式表现出来。
-    而在变量名后加 `()` 如 `say()` 返回的就会使say方法调用后的结果，这里是弹出value的值。
+    而在变量名后加 `()` 如 `say()` 返回的就会使 say 方法调用后的结果，这里是弹出 value 的值。
 
 2. js 中函数可以作为参数传递
 
     第一段代码
 
     ```javascript
-    function say (value) {
-        alert(value);
+    function say(value) {
+      alert(value);
     }
-    function execute (someFunction, value) {
-        someFunction(value);
+    
+    function execute(someFunction, value) {
+      someFunction(value);
     }
+    
     execute(say, 'hi js.');
     ```
 
     第二段代码
 
     ```javascript
-    function execute (someFunction, value) {
-        someFunction(value);
+    function execute(someFunction, value) {
+      someFunction(value);
     }
-    execute(function(value){alert(value);}, 'hi js.');
+    
+    execute(function (value) {
+      alert(value);
+    }, 'hi js.');
     ```
 
-    > 第一段代码是将say方法作为参数传递给execute方法 
-    第二段代码则是直接将匿名函数作为参数传递给execute方法
+    > 第一段代码是将 say 方法作为参数传递给 execute 方法 
+    第二段代码则是直接将匿名函数作为参数传递给 execute 方法
 
     实际上
 
     ```javascript
-    function say (value) {
-        alert(value);
+    function say(value) {
+      alert(value);
     }
 
-    // 注意看下面,直接写say方法的方法名与下面的匿名函数可以认为是一个东西
+    // 注意看下面,直接写 say 方法的方法名与下面的匿名函数可以认为是一个东西
 
     // 这样再看上面两段代码是不是对函数可以作为参数传递就更加清晰了
     say;
 
     function (value) {
-        alert(value);
+      alert(value);
     }
     ```
 
-    > 这里的say或者匿名函数就被称为回调函数。
+    > 这里的 say 或者匿名函数就被称为回调函数。
 
 3. 回调函数易混淆点——传参
 
@@ -219,14 +369,46 @@ https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScrip
 
 参考文档：
 
-1. https://blog.csdn.net/baidu_32262373/article/details/54969696
-2. http://www.jb51.net/article/59447.htm
+1. https://blog.csdn.net/baidu_32262373/article/details/54969696 - *js 彻底理解回调函数_js中的回调函数-CSDN博客*
+2. http://www.jb51.net/article/59447.htm - *js的回调函数详解_javascript技巧_脚本之家*
+
+##### 闭包
+
+<https://wangdoc.com/javascript/types/function#闭包> - *函数 - JavaScript 教程 - 网道*
 
 #### return
 
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/return - *return - JavaScript | MDN*
 
+#### 异步操作
+
+https://wangdoc.com/javascript/async/general - *异步操作概述 - JavaScript 教程 - 网道*
+
+##### 定时器
+
+https://wangdoc.com/javascript/async/timer - *定时器 - JavaScript 教程 - 网道*
+
+##### Promise 对象
+
+https://wangdoc.com/javascript/async/promise#promiseprototypethen - *Promise 对象 - JavaScript 教程 - 网道*
+
 ### 进阶
+
+#### 面向对象
+
+构造函数
+
+- 为了与普通函数区别，构造函数名字的第一个字母通常大写。
+
+```javascript
+var Vehicle = function () {
+  this.price = 1000;
+};
+
+var v = new Vehicle();
+v.price // 1000
+```
+
 
 #### this
 
@@ -254,8 +436,6 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/ret
 
 1. https://wangdoc.com/javascript/stdlib/array - *Array 对象 - JavaScript 教程 - 网道*
 
-`sort()` - sort() 方法就地对数组的元素进行排序，并返回对相同数组的引用。默认排序是将元素转换为字符串，然后按照它们的 UTF-16 码元值升序排序。 [Array.prototype.sort() - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
-
 ### Number 对象
 
 1. https://wangdoc.com/javascript/stdlib/number - *Number 对象 - JavaScript 教程 - 网道*
@@ -267,6 +447,10 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/ret
 1. https://wangdoc.com/javascript/stdlib/string - *String 对象 - JavaScript 教程 - 网道*
 
 2. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String - *String - JavaScript | MDN*
+
+### JSON 对象
+
+https://wangdoc.com/javascript/stdlib/json - *JSON 对象 - JavaScript 教程 - 网道*
 
 ## Source Map 用法
 

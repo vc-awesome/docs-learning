@@ -1,6 +1,6 @@
 # Mac
 
-![](https://www.apple.com.cn/app-store/images/overview/hero__fpyktigxzia2_small_2x.jpg)
+![illustration](https://www.apple.com.cn/app-store/images/overview/hero__fpyktigxzia2_small_2x.jpg)
 
 <small>*插图来源于：[App Store - Apple (中国大陆)](https://www.apple.com.cn/app-store/)*</small>
 
@@ -14,15 +14,27 @@
 
 手册：https://support.apple.com/zh-cn/guide/mac-help/welcome/mac - *macOS 使用手册 - 官方 Apple 支持 (中国)*
 
+### 支持社区
+
+https://discussionschinese.apple.com/welcome - *官方 Apple 支持社区*
+
 ### 使用技巧
 
 \> 打开 *访达 > 菜单栏 > 帮助 > macOS 帮助或者 Mac 使用技巧*（根据当前使用的电脑设备来打开指定版本的使用手册）。
 
 https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 使用手册 - 官方 Apple 支持 (中国)*
 
+### 键盘快捷键
+
+https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
+
+### 鼠标快捷键
+
+https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键点按 - 官方 Apple 支持 (中国)*
+
 ## 教程
 
-### 社区
+### 第三方社区
 
 1. https://www.applex.net/ - *极限苹果-Mac论坛-提供Mac软件和macOS苹果系统镜像下载*
 
@@ -34,11 +46,23 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 https://github.com/topics/macos - *macos · GitHub Topics · GitHub*
 
+## 设置
+
+### 控制中心
+
+https://support.apple.com/zh-cn/guide/mac-help/mchlad96d366/14.0/mac/14.3.1 - *在 Mac 上更改“控制中心”设置 - 官方 Apple 支持 (中国)*
+
+### 网络设置
+
+https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *Mac 上的“网络”设置 - 官方 Apple 支持 (中国)*
+
 ## 用法
 
 > Mac 使用教程
 
 ### 基础操作
+
+暂无
 
 ### 目录结构
 
@@ -107,9 +131,9 @@ https://github.com/topics/macos - *macos · GitHub Topics · GitHub*
 - <kbd>option</kbd> + <kbd>backspace</kbd>：删除光标之前的一个单词（英文有效）
 - <kbd>fn</kbd> + <kbd>option</kbd> + <kbd>backspace</kbd>：删除光标之后的一个单词
 
-### 文件操作
+### 文件/目录操作
 
-- 移动文件
+- 移动文件/目录
 
   操作步骤：
 
@@ -123,30 +147,30 @@ https://github.com/topics/macos - *macos · GitHub Topics · GitHub*
   3. https://jingyan.baidu.com/article/0f5fb099540ff56d8234ea43.html - *苹果电脑文件的移动/复制怎么操作-百度经验*
   4. https://www.yundongfang.com/Yun64905.html - *在 Mac 上移动文件和文件夹的 3 种方法-云东方*
 
-- 删除文件
+- 删除文件/目录
 
   - <kbd>command</kbd> + <kbd>backspace</kbd> - *删除当前文件*
 
-- 新建文件
+- 新建文件/目录
 
   - https://sspai.com/post/41867 - *4 种方法，让你在 macOS 上快速新建 txt 文本文件 - 少数派*
   - https://blog.csdn.net/liaowenxiong/article/details/119148200 - *MacOS 下如何创建文本文件_macos新建文件_liaowenxiong的博客-CSDN博客*
   - https://www.jianshu.com/p/fadb08f64771 - *mac系统如何新建文件 - 简书*
   - https://support.apple.com/zh-cn/guide/mac-help/mh26885/mac - *在 Mac 上以文件夹形式整理文件 - 官方 Apple 支持 (中国)*
 
-- 复制文件绝对路径
+- 复制文件/目录绝对路径
 
   - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>C</kbd>
 
-### 隐藏文件
+### 隐藏文件/目录
 
-- 查看隐藏的文件
+- 查看隐藏的文件/目录
 
-  - <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>.</kbd> 可以显示隐藏文件、文件夹，再按一次，恢复隐藏。
+  - <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>.</kbd> 可以显示隐藏文件、文件夹，再按一次，恢复隐藏。
 
-  - `Finder` 下使用 <kbd>Command</kbd> + <kbd>Shift</kbd> + <kbd>G</kbd> 可以前往任何文件夹，包括隐藏文件夹。
+  - `Finder` 下使用 <kbd>command</kbd> + <kbd>shift</kbd> + <kbd>G</kbd> 可以前往任何文件夹，包括隐藏文件夹。
 
-- 隐藏文件、文件夹
+- 隐藏文件/目录
 
   - 打开终端执行下面命
 
@@ -278,7 +302,13 @@ https://support.apple.com/zh-cn/guide/mac-help/mh36834/mac - *在 Mac 上设置 
 
 ### Safari 浏览器
 
-https://support.apple.com/zh-cn/guide/safari/welcome/17.0/mac/14.0 - *适用于 Mac 的 Safari 浏览器使用手册 - 官方 Apple 支持 (中国)*
+https://www.apple.com.cn/safari/ - *Safari 浏览器 - Apple (中国大陆)*
+
+https://support.apple.com/zh-cn/safari - *Safari 浏览器 - 官方 Apple 支持*
+
+https://support.apple.com/zh-cn/guide/safari/welcome/mac - *适用于 Mac 的 Safari 浏览器使用手册 - 官方 Apple 支持 (中国)*
+
+- 支持 macOS（系统内置）, iOS（[App Store](https://apps.apple.com/cn/app/safari/id1146562112)）
 
 ### 文本编辑
 
@@ -292,9 +322,10 @@ https://support.apple.com/zh-cn/guide/notes/welcome/mac - *适用于 Mac 的备�
 
 https://support.apple.com/zh-cn/guide/stickies/welcome/mac - *适用于 Mac 的便笺使用手册 - 官方 Apple 支持 (中国)*
 
-### 截屏
+### 截屏和录屏
 
-https://support.apple.com/zh-cn/guide/mac-help/mh26782/14.0/mac/14.0 - *在 Mac 上截屏或录屏 - 官方 Apple 支持 (中国)*
+1. https://support.apple.com/zh-cn/guide/mac-help/mh26782/14.0/mac/14.0 - *在 Mac 上截屏或录屏 - 官方 Apple 支持 (中国)*
+2. https://support.apple.com/zh-cn/102618 - *如何录屏 - 官方 Apple 支持 (中国)*
 
 快捷键：
 
@@ -315,6 +346,12 @@ https://support.apple.com/zh-cn/guide/mac-help/mh26782/14.0/mac/14.0 - *在 Mac 
 长截图：
 
 - 借助三方工具「[iShot Pro 破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)」；如遇安装、开启问题，可查看网友评论的[解决办法](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html#comment-id-91592)。
+
+### 快捷指令
+
+> 快捷指令是一种可让你使用 App 完成一个或多个任务的快捷方式。“快捷指令” App 可让你创建包含多个步骤的快捷指令。例如，你可以构建一个“冲浪时间”快捷指令来获取冲浪报道、提供预计到达海滩的时间以及播放冲浪音乐播放列表。
+
+https://support.apple.com/zh-cn/guide/shortcuts-mac/welcome/7.0/mac - *适用于 Mac 的《快捷指令使用手册》 - 官方 Apple 支持 (中国)*
 
 ## 常见问题
 
@@ -360,16 +397,16 @@ https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,z
    https://jingyan.baidu.com/article/b87fe19e6dc68a1319356823.html - *mac提示无法验证开发者怎么办-百度经验*
 
    操作步骤：
-   1. 打开`系统偏好设置`
-   2. 点击`安全性与隐私`进入
-   3. 点击`通用`进入
-   4. 点击`左下角锁`并输入用户密码进行解锁
-   5. 找到并勾选 `App Store 和被认可的开发者`即可
+   1. 打开`系统偏好设置`；
+   2. 点击`安全性与隐私`进入；
+   3. 点击`通用`进入；
+   4. 点击`左下角锁`并输入用户密码进行解锁；
+   5. 找到并勾选 `App Store 和被认可的开发者`。
 
    > 系统版本：*macOS Ventura 13.1.1* 中设置
-   1. 在“程序坞”中找到并打开应用“系统设置”
-   2. 点击左边列表“隐私与安全性”
-   3. 点击右边列表“安全性”-“App Store 和被认可的开发者”，开启授权
+   1. 在“程序坞”中找到并打开应用“系统设置”；
+   2. 点击左边列表“隐私与安全性”；
+   3. 点击右边列表“安全性”-“App Store 和被认可的开发者”，开启授权。
 
 2. 如何安装 Rosetta
 
@@ -423,8 +460,6 @@ https://www.zhihu.com/question/369340415/answer/2571072461 - *Mac中怎么让一
 
 1. 打开 *系统设置 > 网络 > 防火墙 > 选项...* ；
 2. 添加 > 选择 `/usr/libexec/nsurlsessiond`。
-
----
 
 为什么要关闭：
 

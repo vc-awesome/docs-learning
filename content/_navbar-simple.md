@@ -5,9 +5,6 @@
   - <hr />
   - [Document Template <font color="red">ᴴᴼᵀ</font>](home/document-template.md)
   - [snippets <font color="red">ᴴᴼᵀ</font>](snippets/README.md)
-  - [\- app list template](snippets/app-list-template.md)
-  - [\- badge](snippets/badge.md)
-  - [&nbsp;&nbsp;\- 徽章](snippets/badge.md#徽章)
   - [Internet Speed Test](https://speed.cloudflare.com/)
   - <hr />
   - <a href="index-theme-vue.html" target="_blank">Latest Version</a>
@@ -15,23 +12,22 @@
 - [HOME](home/README.md)
   <!-- - **_常用文档_** -->
   - [学习资源 <font color="red">ᴴᴼᵀ</font>](home/book.md)
-  - [搜索技巧](home/search-skill.md)
+  - [搜索技巧](topics/search-skill.md)
   - <hr />
-  - [源码分析](home/code-analysis.md)
-  - [注意事项](home/warning.md)
+  - [注意事项](project/warning.md)
   - [版本号](home/semver.md)
   - [术语表/词汇表](home/glossary.md)
   - [中英译](home/chinese-english-translate.md)
   - <hr />
-  - [目录结构 <font color="red">ᴴᴼᵀ</font>](home/toc.md)
+  - [目录结构 <font color="red">ᴴᴼᵀ</font>](home/directory-structure.md)
   - [Emoji](home/emoji.md)
 - DAILY TOOL
-  - [AI <font color="red">ᴴᴼᵀ</font>](os/tools/ai.md)
+  - [AI <font color="red">ᴴᴼᵀ</font>](os/tools/topics/ai.md)
   - [Shortcut Key](os/README.md#快捷键)
   - [GitHub](os/tools/github.md)
   - [Git](os/tools/git.md)
-  - [Markdown](os/tools/markdown.md)
-  - [CLI - Linux](os/linux/linux-command.md)
+  - [Markdown](home/markdown.md)
+  - [CLI - Linux](os/linux/command.md)
   - [Termux](os/mobile/termux.md)
   - <hr />
   - [Alfred <font color="red">ᴴᴼᵀ</font>](os/mac/alfred.md)
@@ -60,9 +56,9 @@
   - [Internet](essential/network/internet.md)
   - [Server](essential/hosting.md)
   - [HTTP](essential/network/http.md)
-  - [Hosts](os/tools/hosts.md)
+  - [Hosts](essential/network/hosts.md)
   - [DNS](essential/network/dns.md)
-  - [VPN](os/tools/vpn.md)
+  - [VPN](essential/network/vpn.md)
   - [IP](essential/network/ip.md)
 - [FRONT-END](front-end/README.md)
   - [HTML](front-end/html/README.md)
@@ -82,7 +78,7 @@
   - [Vue.js <font color="red"><sup><small>v3.3.4</small></sup></font>](front-end/vue/README.md)
   - <hr />
   - [uni-app <font color="red">ᵛᵘᵉ</font>](front-end/uniapp/README.md)
-  - [Android](front-end/android.md)
+  - [Android](front-end/android/README.md)
   - <hr />
   - [产品设计](front-end/design/README.md)
   - [Icon font](front-end/iconfont.md)
@@ -92,6 +88,7 @@
   - [ThinkPHP <font color="red"><sup><small>v8.0.0</small></sup></font>](back-end/thinkphp/README.md)
   - [Composer <font color="red"><sup><small>v2.6.5</small></sup></font>](back-end/composer/README.md)
   - <hr />
+  - [Java](back-end/java.md)
   - [Go 🚧]()
   - [Python 🚧]()
   - <hr />
@@ -118,18 +115,17 @@
   - [Mobile Tools](os/mobile/app-list.md)
   - [Web Tools](os/tools/web-app.md)
   - <hr />
-  - [Browser](os/tools/browser.md)
-  - [Extensions](os/tools/browser-extensions)
+  - [Browser](os/tools/topics/browser.md)
+  - [Extensions](os/tools/topics/browser-extensions.md)
   - [Tampermonkey](os/tools/tampermonkey.md)
   - <hr />
   - [Badge](os/tools/custom-badge.md)
   - [Search](os/tools/custom-search.md)
 - MORE
   - [BlockChain](project/blockchain/README.md)
-  - [Project DevOps](project/README.md)
   - <hr />
-  - [TechStack](tech-stack/README.md)
-  - [开发框架 <font color="red">ᴴᴼᵀ</font>](project/framework/README.md)
+  - [Project DevOps](project/README.md)
+  - [Project 开发框架 <font color="red">ᴴᴼᵀ</font>](project/framework/README.md)
   - [\- JavaScript 插件](project/framework/javascript-plugins.md)
   - [&nbsp;&nbsp;\- RequireJS <font color="red"><sup><small>v2.3.6</small></sup></font>](project/framework/javascript-plugins.md#requirejs)
   - [\- Bootstrap <font color="red"><sup><small>v5.3.2</small></sup></font>](project/framework/README.md#bootstrap-🔥)
@@ -137,8 +133,9 @@
   - [\- Vant <font color="red"><sup><small>v4.7.2 , vue</small></sup></font>](project/framework/README.md#vant-🔥)
   - [\- Element UI <font color="red"><sup><small>v2.4.1 , vue</small></sup></font>](project/framework/README.md#element-ui-🔥)
   - [\- Layui <font color="red"><sup><small>v2.8.17</small></sup></font>](project/framework/README.md#layui)
-  - [功能和优化](project/function-list/README.md)
+  - [Project 功能](project/function-list/README.md)
   - <hr />
+  - [TechStack](tech-stack/README.md)
   - [阿里云](tech-stack/aliyun.md)
   - [微信](tech-stack/weixin.md)
   - [Google](tech-stack/google.md)

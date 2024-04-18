@@ -1,5 +1,7 @@
 # 前端
 
+## 简介
+
 > 网页编程采用的是 HTML + CSS + JS 组合。
 >
 > - HTML 是用来描述当前这个页面的结构。
@@ -66,8 +68,12 @@ https://github.com/o2team - *AOTU Labs · GitHub*
 ## 浏览器加载过程
 
 1. https://wangdoc.com/javascript/bom/engine - *浏览器环境概述 - JavaScript 教程 -网道*
-2. https://github.com/vasanthk/how-web-works - *GitHub - vasanthk/how-web-works: What happens behind the scenes when we type www.google.com in a browser?*
-3. https://github.com/alex/what-happens-when - *GitHub - alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"*
+2. https://github.com/vasanthk/how-web-works - *GitHub - vasanthk/how-web-works: What happens behind the scenes when we type www.google.com in a browser?*  
+    ![GitHub last commit](https://badgen.net/github/last-commit/vasanthk/how-web-works?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/vasanthk/how-web-works?style=social)
+3. https://github.com/alex/what-happens-when - *GitHub - alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"*  
+    ![GitHub last commit](https://badgen.net/github/last-commit/alex/what-happens-when?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/alex/what-happens-when?style=social)
 4. https://web.dev/howbrowserswork/ - *How browsers work*
 5. https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work - *渲染页面：浏览器的工作原理 - Web 性能 | MDN*
 6. https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
@@ -87,16 +93,26 @@ https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机�
   - <https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html> - *Javascript异步编程的4种方法*
   - https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html - *JavaScript与有限状态机*
 
----
+### 执行顺序
 
-执行顺序：*1 > 2*
+执行顺序：*1 > 2 > 3*
 
 1. `document.addEventListener("DOMContentLoaded", function() {});`
-2. `window.addEventListener("load", function() {});`
+2. `document.addEventListener("readystatechange", function() {});`
+3. `window.addEventListener("load", function() {});`
+
+参考：
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/API/Document/DOMContentLoaded_event - *Document：DOMContentLoaded 事件 - Web API | MDN*
 
 ## 浏览器兼容性
 
-https://caniuse.com/ - *Can I use... Support tables for HTML5, CSS3, etc*
+https://caniuse.com/ - *Can I use... Support tables for HTML5, CSS3, etc* [GitHub Repo](https://github.com/fyrd/caniuse)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/fyrd/caniuse?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/fyrd/caniuse?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/fyrd/caniuse?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/fyrd/caniuse?style=social)
 
 ## 常见问题
 

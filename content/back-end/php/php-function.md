@@ -1,6 +1,49 @@
 # 函数
 
-## 变量处理函数
+## 教程
+
+1. https://www.runoob.com/php/php-functions.html - *PHP 函数 | 菜鸟教程*
+2. https://www.php.net/manual/zh/language.functions.php - *PHP: 函数 - Manual*
+
+## 入门指南
+
+### 用户自定义函数
+
+#### 递归函数
+
+https://www.php.net/manual/zh/functions.user-defined.php - *PHP: 用户自定义函数 - Manual*
+
+```php
+<?php
+function recursion($a)
+{
+    if ($a < 20) {
+        echo "$a\n";
+        recursion($a + 1);
+    }
+}
+?>
+```
+
+### 函数的参数
+
+https://www.php.net/manual/zh/functions.arguments.php - *PHP: 函数的参数 - Manual*
+
+### 返回值
+
+### 可变函数
+
+### 匿名函数（闭包函数）
+
+https://www.php.net/manual/zh/functions.anonymous.php - *PHP: 匿名函数 - Manual*
+
+### 箭头函数
+
+### 内部（内置）函数
+
+https://www.php.net/manual/zh/functions.internal.php - *PHP: 内部（内置）函数 - Manual*
+
+#### 变量处理函数
 
 https://www.php.net/manual/zh/book.var.php - *PHP: Variable handling - Manual*
 
@@ -12,46 +55,41 @@ https://www.runoob.com/php/php-variable-handling-functions.html - *PHP 可用的
 - `var_dump`
 - `var_export`
 
-## 打印函数
+#### 打印函数
 
 - `echo`
 - `print_r`
 - `var_dump`
 
-## 数组函数
+#### 数组函数
 
 - 循环遍历
 
     `array_map`
-    
+
     > 两个一维数组组合成二维数组
-    
+
     ```php
     <?php
-    	$a1 = array("Dog","Cat");
-    	$a2 = array("Puppy","Kitten");
-    	print_r(array_map(null,$a1,$a2));
+        $a1 = array("Dog","Cat");
+        $a2 = array("Puppy","Kitten");
+        print_r(array_map(null,$a1,$a2));
     ?>
     ```
-    
+
     `array_walk`
-    
+
     `array_walk_recursive`
 
 - 排序
 
     `array_multisort` - 对多个数组或多维数组进行排序。
-    
+
     `array_column` - 返回数组中指定的一列
 
     `array_intersect` - 计算数组的交集
 
-## 类型运算符 instanceof
-
-`instanceof` - *用于确定一个 PHP 变量是否属于某一类 class*
-
-https://www.php.net/manual/zh/language.operators.type.php - *PHP: 类型 - Manual*
-## 时间和时间函数
+#### 时间和时间函数
 
 https://www.php.net/manual/zh/book.datetime.php - *PHP: 日期/时间 - Manual* 
 
@@ -65,7 +103,7 @@ $today_begin = date('Y-m-d H:i:s', strtotime(date("Y-m-d"))); //开始时间
 $today_end = date('Y-m-d H:i:s', strtotime(date("Y-m-d")) + 24*60*60); //结束时间
 ```
 
-## 常用函数
+#### 常用函数
 
 - `strtotime()` - 日期转换成时间戳
 - `realpath`
@@ -89,13 +127,19 @@ $today_end = date('Y-m-d H:i:s', strtotime(date("Y-m-d")) + 24*60*60); //结束�
 - `ip2long`
 - `compact`
 
-## 类
+##### 类
 
 - `stdClass` 实例化为对象
 - `get_object_vars()`
 
-## 关键字
+##### 关键字
 
 - `final`
 - `traits`
 - `insteadof`
+
+##### 类型运算符 instanceof
+
+`instanceof` - *用于确定一个 PHP 变量是否属于某一类 class*
+
+https://www.php.net/manual/zh/language.operators.type.php - *PHP: 类型 - Manual*

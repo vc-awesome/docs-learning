@@ -4,7 +4,7 @@
 
 > <img src="https://cdn-production-opera-website.operacdn.com/staticfiles/assets/images/logo/logo-and-name.46b042c664d0.png" alt="package icon" loading="lazy" decoding="async" align="left" width="88" hspace="10" vspace="0" />Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
 
-## Official website
+## Official
 
 https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
 
@@ -12,35 +12,54 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 
 https://www.opera.com/zh-cn/download - *Download the Opera Browser for Computer, Phone, Tablet | Opera*
 
-### Desktop
+### Desktop Client
 
 https://www.opera.com/zh-cn/browsers - *Browsers for every device | Opera Web Browsers | Opera*
 
-### Mobile
+1. Opera
+    1. Windows
+    2. Linux
+    3. macOS
+2. Opera beta
+    1. Windows
+    2. Linux
+    3. macOS
+3. Opera developer
+    1. Windows
+    2. Linux
+    3. macOS
+
+### Mobile Client
 
 https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linux, Android, iOS | Opera*
+
+1. Opera
+    1. Android：https://play.google.com/store/apps/details?id=com.opera.browser - *Opera 浏览器：快速又安全*
+    2. iOS
+2. Opera beta
+    1. Android：https://play.google.com/store/apps/details?id=com.opera.browser.beta - *Opera 浏览器 beta 版*
+3. Opera Mini
+    1. Android：https://play.google.com/store/apps/details?id=com.opera.mini.native - *Opera Mini - 极速浏览器*
+4. Opera Mini beta
+    1. Android：https://play.google.com/store/apps/details?id=com.opera.mini.native.beta - *Opera Mini beta 版网页浏览器*
 
 历史版本及其他架构版本：
 
 1. https://www.opera.com/zh-cn/download/mobile-versions - *Mobile Browser | Download for Phone & Tablet | Opera | Opera*
 
-Opera Beta 版本：
-
-1. [谷歌应用商店](https://play.google.com/store/apps/details?id=com.opera.browser.beta)
-
-!> 有关详细信息，请参阅“[Mobile Opera](os/mobile/mobile-browser.md#opera-✅)”。
+有关详细信息，请参阅“[Mobile Opera](os/mobile/mobile-browser.md#opera-✅)”。
 
 ## Getting started
 
 ### Sync
 
-https://www.opera.com/features/sync - *Sync browsing data in the Opera browser | Opera Browser*
+1. https://www.opera.com/features/sync - *Sync browsing data in the Opera browser | Opera Browser*
 
-https://help.opera.com/en/mobile/android/#QRcodeSync - *Frequently asked questions for Opera for Android - Opera Help*
+2. https://help.opera.com/en/mobile/android/#QRcodeSync - *Frequently asked questions for Opera for Android - Opera Help*
 
-https://help.opera.com/en/latest/features/#sync - *Features - Opera Help*
+3. https://help.opera.com/en/latest/features/#sync - *Features - Opera Help*
 
-https://help.opera.com/en/faq/ - *FAQ - Opera Help* 👉 快捷键 <kbd>command（⌘）</kbd> + <kbd>F</kbd> ，在页面中搜索 “`sync`”
+4. https://help.opera.com/en/faq/ - *FAQ - Opera Help* 👉 快捷键 <kbd>command（⌘）</kbd> + <kbd>F</kbd> ，在页面中搜索 “`sync`”
 
 ### Flow
 
@@ -66,6 +85,59 @@ https://addons.opera.com/zh-cn/ - *Opera 插件* 「 ⚠️ VPN 必须开启全�
 
 https://forums.opera.com/topic/30366/how-can-i-re-enable-a-blacklisted-extension - *How can I re-enable a blacklisted extension? | Opera forums*
 
+## Usage
+
+### 快捷命令 URL
+
+搜索词：`List of Opera URLs`
+
+您可能在寻找 Opera 浏览器的 URL 列表，这些 URL 可以让您访问不同的设置和功能。以下是一些常见的 Opera 浏览器 URL：
+
+1. **opera://about/** - 显示关于 Opera 的版本和授权信息。
+2. **opera://extensions/** - 管理安装的扩展和应用程序。
+3. **opera://settings/** - 打开浏览器设置页面。
+4. **opera://bookmarks/** - 查看和管理书签。
+5. **opera://history/** - 查看浏览历史记录。
+6. **opera://flags/** - 访问实验性功能和设置。
+7. **opera://downloads/** - 查看和管理下载文件。
+8. **opera://components** - Displays related components and checks for updates.
+9. **opera://crashes** - Enables or disables crash reporting.
+10. **opera://accessibility** - Shows accessibility-related settings.
+
+这些 URL 可以直接在 Opera 的地址栏中输入访问。
+
+```bash
+opera://version/
+```
+
+```bash
+opera://about/
+```
+
+```bash
+opera://extensions/
+```
+
+```bash
+opera://flags/
+```
+
+```bash
+opera://settings/
+```
+
+```bash
+opera://bookmarks/
+```
+
+```bash
+opera://history/
+```
+
+```bash
+opera://downloads/
+```
+
 ## Help
 
 https://www.opera.com/zh-cn/help - *使用浏览器遇到问题？我们可以帮助您！ | 帮助与常见问题 | Opera*
@@ -83,6 +155,8 @@ https://help.opera.com/zh-cn/mobile/android/ - *Page not found - Opera Help*
 https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Opera for Android - Opera Help*
 
 ## Changelog
+
+- https://www.opera.com/zh-cn/ofa/upgraded-83 - *更新完成！*
 
 - https://www.opera.com/zh-cn/ofa/upgraded-79 - *更新完成！*
 
@@ -106,3 +180,9 @@ https://blog.csdn.net/schumyxp/article/details/124481601 - *Opera无法打开网
 
 ### 安卓版设置「科学上网」
 
+设置（步骤）：
+
+1. 打开"设置 - 隐私和安全 - DNS 供应商"；
+2. 点击开启"使用安全 DNS"后，在 DNS 供应商选项中选择"自定义"并输入 DNS 服务器地址："`https://94.140.14.140/dns-query`"；
+3. 返回"设置"页，点击开启"节省流量"；
+4. 重启浏览器，在地址栏输入测试站点："`https://telegram.org/`"，能打开网页表示设置成功。

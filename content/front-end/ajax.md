@@ -14,6 +14,8 @@
 
 ### jQuery
 
+https://www.runoob.com/jquery/jquery-ajax-intro.html - *jQuery AJAX 简介 | 菜鸟教程*
+
 ```javascript
 $.ajax({
     url: "http://www.test.com",    //请求的url地址

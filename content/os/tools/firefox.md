@@ -12,22 +12,78 @@
 
 ## 安装
 
-1. Dev：https://www.mozilla.org/zh-CN/firefox/developer/ - *Firefox 开发者版*
-2. Beta：https://www.mozilla.org/zh-CN/firefox/channel/desktop/#beta - *下载和测试 Firefox 桌面版、Android 版和 iOS 版的早期版本。*
-3. Nightly：https://www.mozilla.org/zh-CN/firefox/channel/desktop/#nightly - *下载和测试 Firefox 桌面版、Android 版和 iOS 版的早期版本。*
+https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release - *下载 Firefox 浏览器，这里有简体中文及其他 90 多种语言版本供您选择*
+
+### 桌面端
+
+1. Beta：https://www.mozilla.org/zh-CN/firefox/channel/desktop/#beta - *下载和测试 Firefox 桌面版、Android 版和 iOS 版的早期版本。*
+2. Nightly：https://www.mozilla.org/zh-CN/firefox/channel/desktop/#nightly - *下载和测试 Firefox 桌面版、Android 版和 iOS 版的早期版本。*
+3. Dev：https://www.mozilla.org/zh-CN/firefox/developer/ - *Firefox 开发者版*
+    - macOS（直接下载链接）：https://download.mozilla.org/?product=firefox-devedition-latest-ssl&os=osx
+
+### 移动端
+
+**mozilla.org：**
+
+1. Firefox
+    1. Android：https://www.mozilla.org/zh-CN/firefox/browsers/mobile/android/ - *Android 版 Firefox 浏览器 - Mozilla*
+    2. iOS：https://www.mozilla.org/zh-CN/firefox/browsers/mobile/ios/ - *适用于 iOS（iPhone 和 iPad）的 Firefox 浏览器 - Mozilla*
+2. Firefox Beta
+   1. Android：https://www.mozilla.org/zh-CN/firefox/channel/android/ - *体验预览版 Android 浏览器中的新功能 | Firefox*
+3. Firefox Nightly
+   1. Android：https://www.mozilla.org/zh-CN/firefox/channel/android/ - *体验预览版 Android 浏览器中的新功能 | Firefox*
+
+**firefox.com.cn：**
+
+<https://www.firefox.com.cn/browsers/mobile/> - *Firefox 移动浏览器将您的隐私放在首位*
+- Android: https://www.firefox.com.cn/browsers/mobile/android/ - *Android 版 Firefox 浏览器*
+- iOS: https://www.firefox.com.cn/browsers/mobile/ios/ - *适用于 iOS（iPhone 和 iPad）的 Firefox 浏览器*
 
 ## 设置
 
+### 常规
+
+```uri
+about:preferences#general
+```
+
+浏览：
+
+- [x] 总是为链接添加下划线
+
+### 搜索
+
+```uri
+about:preferences#search
+```
+
+### 同步
+
+```uri
+about:preferences#sync
+```
+
+### 无图模式
+
+https://blog.csdn.net/weixin_44545251/article/details/122617515 - *火狐浏览器设置无图模式_permissions.default.image-CSDN博客*
 
 ## 用法
 
 ### 地址栏搜索
 
-<https://support.mozilla.org/zh-CN/kb/自动补齐——从地址栏搜索书签、历史和标签页> - *自动补齐——从地址栏搜索书签、历史和标签页 | Firefox 帮助*
+1. <https://support.mozilla.org/zh-CN/kb/搜索栏#firefox:mac> - *什么是搜索栏 | Firefox 帮助*
+2. <https://support.mozilla.org/zh-CN/kb/自动补齐——从地址栏搜索书签、历史和标签页#firefox:mac> - *自动补齐——从地址栏搜索书签、历史和标签页 | Firefox 帮助*
+3. <https://support.mozilla.org/zh-CN/kb/search-suggestions-firefox> - *Firefox 搜索建议 | Firefox 帮助*
 
-<https://support.mozilla.org/zh-CN/kb/搜索栏> - *什么是搜索栏 | Firefox 帮助*
+#### 搜索书签
 
-<https://support.mozilla.org/zh-CN/kb/search-suggestions-firefox> - *Firefox 搜索建议 | Firefox 帮助*
+操作步骤：
+
+1. 点击地址栏或按下 <kbd>command</kbd> + <kbd>L</kbd> 按键定位光标到地址栏。如果你刚刚打开 Firefox、新标签页活新窗口，光标就在地址栏。
+2. 在地址栏输入：<kbd>*</kbd> + <kbd>␣</kbd> + 搜索关键字
+3. 按 <kbd>回车</kbd> 键，或者点击地址栏右边的箭头。（按下 <kbd>command</kbd> + <kbd>return</kbd> 按键，在新前台标签页打开选中的书签。按下 <kbd>command</kbd> + 鼠标点击选中的书签，在当前标签页右边打开新前台标签页。）
+
+#### 搜索标签页
 
 <https://support.mozilla.org/zh-CN/kb/搜索标签页> - *搜索标签页 | Firefox 帮助*
 
@@ -35,16 +91,22 @@
 
 #### 键盘快捷键
 
-https://support.mozilla.org/zh-CN/kb/键盘快捷键 - *键盘快捷键 | Firefox 帮助*
+https://support.mozilla.org/zh-CN/kb/键盘快捷键#firefox:mac - *键盘快捷键 | Firefox 帮助*
+
+开发者快捷键：https://firefox-source-docs.mozilla.org/devtools-user/keyboard_shortcuts/index.html - *All keyboard shortcuts — Firefox Source Docs documentation*
 
 #### 鼠标快捷键
 
-https://support.mozilla.org/zh-CN/kb/鼠标快捷键 - *鼠标快捷键 | Firefox 帮助*
+https://support.mozilla.org/zh-CN/kb/鼠标快捷键#firefox:mac - *鼠标快捷键 | Firefox 帮助*
 
 ### 快捷命令 URL
 
 ```bash
 about:about
+```
+
+```bash
+about:config
 ```
 
 1. https://kb.mozillazine.org/About_protocol_links - *About protocol links - MozillaZine Knowledge Base*
@@ -68,3 +130,4 @@ about:about
 
 ## 参考
 
+暂无

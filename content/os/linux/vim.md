@@ -8,6 +8,11 @@
 > 
 > Despite what the above comic suggests, Vim can be configured to work in a very simple (Notepad-like) way, called evim or Easy Vim.
 
+![GitHub last commit](https://img.shields.io/github/last-commit/vim/vim?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vim/vim?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vim/vim?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vim/vim?style=social)
+
 
 ## 官方
 
@@ -17,18 +22,14 @@ Docs: https://www.vim.org/docs.php - *Vim documentation : vim online*
 
 GitHub: https://github.com/vim/vim - *GitHub - vim/vim: The official Vim repository*
 
-![GitHub last commit](https://badgen.net/github/last-commit/vim/vim?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/vim/vim?style=social)
+## 教程
+
+https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
 
 
 ## 安装
 
 https://www.vim.org/download.php - *download : vim online*
-
-
-## 教程
-
-https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
 
 
 ## 用法

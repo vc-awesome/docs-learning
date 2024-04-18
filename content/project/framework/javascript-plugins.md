@@ -18,13 +18,13 @@
 
 ## 剪贴板
 
-1. [clipboard.js](https://clipboardjs.com/) - *✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋* [GitHub](https://github.com/zenorocha/clipboard.js) [BootCDN](https://www.bootcdn.cn/clipboard.js/)
+1. [clipboard.js](https://clipboardjs.com/) - *✂️ Modern copy to clipboard. No Flash. Just 3kb gzipped 📋* [GitHub Repo](https://github.com/zenorocha/clipboard.js) [BootCDN](https://www.bootcdn.cn/clipboard.js/)
 
     ![](https://badgen.net/github/last-commit/zenorocha/clipboard.js?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/zenorocha/clipboard.js?style=social)
     ![npm](https://img.shields.io/npm/v/clipboard.js?logo=npm)
 
-2. [vue-clipboard2](https://vue-clipboard2.inndy.tw/) - *A simple vue2 binding to clipboard.js* [GitHub](https://github.com/Inndy/vue-clipboard2) [BootCDN](https://www.bootcdn.cn/vue-clipboard2/) [FAQ-01](https://blog.csdn.net/qq_37600506/article/details/122220627)
+2. [vue-clipboard2](https://vue-clipboard2.inndy.tw/) - *A simple vue2 binding to clipboard.js* [GitHub Repo](https://github.com/Inndy/vue-clipboard2) [BootCDN](https://www.bootcdn.cn/vue-clipboard2/) [FAQ-01](https://blog.csdn.net/qq_37600506/article/details/122220627)
 
     ![](https://badgen.net/github/last-commit/Inndy/vue-clipboard2?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Inndy/vue-clipboard2?style=social)
@@ -32,13 +32,13 @@
 
 ## 数学库
 
-1. [bignumber.js](https://mikemcl.github.io/bignumber.js/) - *A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic* [GitHub](https://github.com/MikeMcl/bignumber.js) [BootCDN](https://www.bootcdn.cn/bignumber.js/)
+1. [bignumber.js](https://mikemcl.github.io/bignumber.js/) - *A JavaScript library for arbitrary-precision decimal and non-decimal arithmetic* [GitHub Repo](https://github.com/MikeMcl/bignumber.js) [BootCDN](https://www.bootcdn.cn/bignumber.js/)
 
     ![](https://badgen.net/github/last-commit/MikeMcl/bignumber.js?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/MikeMcl/bignumber.js?style=social)
     ![npm](https://img.shields.io/npm/v/bignumber.js?logo=npm)
 
-2. [math.js](https://mathjs.org/) - *Math.js is an extensive math library for JavaScript and Node.js. It features big numbers, complex numbers, matrices, units, and a flexible expression parser.* [GitHub](https://github.com/josdejong/mathjs)
+2. [math.js](https://mathjs.org/) - *Math.js is an extensive math library for JavaScript and Node.js. It features big numbers, complex numbers, matrices, units, and a flexible expression parser.* [GitHub Repo](https://github.com/josdejong/mathjs)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/josdejong/mathjs?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/josdejong/mathjs?style=social)
@@ -46,12 +46,12 @@
 
 ## HTTP Client
 
-1. [Axios](https://axios-http.com/) - *Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.* [GitHub](https://github.com/axios/axios)
+1. [Axios](https://axios-http.com/) - *Axios is a simple promise based HTTP client for the browser and node.js. Axios provides a simple to use library in a small package with a very extensible interface.* [GitHub Repo](https://github.com/axios/axios)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/axios/axios?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/axios/axios?style=social)
 
-2. `ajax-hook` - *ajax-hook是用于拦截浏览器 XMLHttpRequest 对象的轻量库，它可以在 XMLHttpRequest 对象发起请求之前、收到响应内容之后以及发生错误时获得处理权，通过它你可以提前对请求、响应以及错误进行一些预处理。Ajax-hook具有很好的兼容性，可以在任何支持ES5的浏览器上运行，因为它并不依赖 ES6 特性。* [GitHub](https://github.com/wendux/Ajax-hook)
+2. `ajax-hook` - *ajax-hook是用于拦截浏览器 XMLHttpRequest 对象的轻量库，它可以在 XMLHttpRequest 对象发起请求之前、收到响应内容之后以及发生错误时获得处理权，通过它你可以提前对请求、响应以及错误进行一些预处理。Ajax-hook具有很好的兼容性，可以在任何支持ES5的浏览器上运行，因为它并不依赖 ES6 特性。* [GitHub Repo](https://github.com/wendux/Ajax-hook)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/wendux/Ajax-hook?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wendux/Ajax-hook?style=social)
@@ -59,7 +59,7 @@
 ## Table of Contents
 
 1. [Tocbot](https://tscanlin.github.io/tocbot/) - *Tocbot - Generate a table of
-contents based on the heading structure of an html document* [GitHub](https://github.com/tscanlin/tocbot)
+contents based on the heading structure of an html document* [GitHub Repo](https://github.com/tscanlin/tocbot)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/tscanlin/tocbot?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/tscanlin/tocbot?style=social)
@@ -76,7 +76,7 @@ contents based on the heading structure of an html document* [GitHub](https://gi
     ![GitHub last commit](https://badgen.net/github/last-commit/liriliri/eruda?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/liriliri/eruda?style=social)
 
-3. [Inspect with Chii](https://chii.liriliri.io/) - *Remote debugging tool* [GitHub](https://github.com/liriliri/chii)
+3. [Inspect with Chii](https://chii.liriliri.io/) - *Remote debugging tool* [GitHub Repo](https://github.com/liriliri/chii)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/liriliri/chii?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/liriliri/chii?style=social)
@@ -117,9 +117,14 @@ contents based on the heading structure of an html document* [GitHub](https://gi
     ![GitHub last commit](https://badgen.net/github/last-commit/iamkun/dayjs?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/iamkun/dayjs?style=social)
 
+2. [Moment.js](https://momentjs.com/) - *Parse, validate, manipulate, and display dates and times in JavaScript.* [GitHub Repo](https://github.com/moment/moment/) [中文站点](https://momentjs.bootcss.com/)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/moment/moment?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/moment/moment?style=social)
+
 ## 触控
 
-1. [Hammer.js](http://hammerjs.github.io/) - *A javascript library for multi-touch gestures :// You can touch this* [GitHub](https://github.com/hammerjs/hammer.js)
+1. [Hammer.js](http://hammerjs.github.io/) - *A javascript library for multi-touch gestures :// You can touch this* [GitHub Repo](https://github.com/hammerjs/hammer.js)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/hammerjs/hammer.js?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/hammerjs/hammer.js?style=social)
@@ -168,14 +173,14 @@ contents based on the heading structure of an html document* [GitHub](https://gi
     ![GitHub last commit](https://badgen.net/github/last-commit/bilibili/flv.js?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/bilibili/flv.js?style=social)
 
-5. [Tiny Player / Tiny Player](https://tiny-player.vercel.app/ ) - *🎬 Tiny Player 是一个轻量、可扩展的视频播放器，支持常见格式与 m3u8 等流式播放。* [GitHub](https://github.com/wangrongding/tiny-player)
+5. [Tiny Player / Tiny Player](https://tiny-player.vercel.app/ ) - *🎬 Tiny Player 是一个轻量、可扩展的视频播放器，支持常见格式与 m3u8 等流式播放。* [GitHub Repo](https://github.com/wangrongding/tiny-player)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/wangrongding/tiny-player?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wangrongding/tiny-player?style=social)
 
 6. [Spark](https://holaspark.com/ ) - *Improve your visitors user experience while improving monetization*
 
-7. [西瓜播放器](https://h5player.bytedance.com/) - *一款带解析器、节省流量的HTML5视频播放器* [GitHub](https://github.com/bytedance/xgplayer)
+7. [西瓜播放器](https://h5player.bytedance.com/) - *一款带解析器、节省流量的HTML5视频播放器* [GitHub Repo](https://github.com/bytedance/xgplayer)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/bytedance/xgplayer?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/xgplayer?style=social)
@@ -206,7 +211,7 @@ contents based on the heading structure of an html document* [GitHub](https://gi
 
 https://trends.builtwith.com/javascript/slider - *Slider Usage Distribution in the Top 1 Million Sites*
 
-1. [Swiper - The Most Modern Mobile Touch Slider](https://swiperjs.com/) - *Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.* [中文-1](https://www.swiperjs.net/) [中文-2](https://www.swiper.com.cn/) [GitHub](https://github.com/nolimits4web/swiper) [CDN: BootCDN](https://www.bootcdn.cn/Swiper/) [CDN: jsDelivr](https://cdn.jsdelivr.net/npm/swiper/) [codesandbox 打开慢](https://juejin.cn/post/6844904150891757575)
+1. [Swiper - The Most Modern Mobile Touch Slider](https://swiperjs.com/) - *Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.* [中文站点-1](https://www.swiperjs.net/) [中文站点-2](https://www.swiper.com.cn/) [GitHub Repo](https://github.com/nolimits4web/swiper) [CDN: BootCDN](https://www.bootcdn.cn/Swiper/) [CDN: jsDelivr](https://cdn.jsdelivr.net/npm/swiper/) [codesandbox 打开慢](https://juejin.cn/post/6844904150891757575)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/nolimits4web/swiper?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/nolimits4web/swiper?style=social)
@@ -245,7 +250,7 @@ https://trends.builtwith.com/javascript/compatibility - *Compatibility Usage Dis
 
 ## 模块化
 
-1. [RequireJS](https://requirejs.org/) - *RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.*  [GitHub](https://github.com/requirejs/requirejs) [CDN: BootCDN](https://www.bootcdn.cn/require.js/)
+1. [RequireJS](https://requirejs.org/) - *RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.*  [GitHub Repo](https://github.com/requirejs/requirejs) [CDN: BootCDN](https://www.bootcdn.cn/require.js/)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/requirejs/requirejs?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/requirejs/requirejs?style=social)
@@ -273,12 +278,12 @@ https://trends.builtwith.com/javascript/compatibility - *Compatibility Usage Dis
 
 ## 工具库
 
-1. [Lodash](https://lodash.com/) - *A JavaScript utility library delivering consistency, modularity, performance, & extras.（Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。）* [GitHub Repo](https://github.com/lodash/lodash) [中文](https://www.lodashjs.com/)
+1. [Lodash](https://lodash.com/) - *A JavaScript utility library delivering consistency, modularity, performance, & extras.（Lodash 是一个一致性、模块化、高性能的 JavaScript 实用工具库。）* [GitHub Repo](https://github.com/lodash/lodash) [中文站点](https://www.lodashjs.com/)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/lodash/lodash?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/lodash/lodash?style=social)
 
-2. [Underscore.js](https://underscorejs.org/) - *Underscore 一个 JavaScript 实用库，提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。它是这个问题的答案：“如果我在一个空白的 HTML 页面前坐下， 并希望立即开始工作， 我需要什么？“...它弥补了部分 jQuery 没有实现的功能,同时又是 Backbone.js 必不可少的部分。* [GitHub Repo](https://github.com/jashkenas/underscore) [中文](https://www.underscorejs.cn/)
+2. [Underscore.js](https://underscorejs.org/) - *Underscore 一个 JavaScript 实用库，提供了一整套函数式编程的实用功能，但是没有扩展任何 JavaScript 内置对象。它是这个问题的答案：“如果我在一个空白的 HTML 页面前坐下， 并希望立即开始工作， 我需要什么？“...它弥补了部分 jQuery 没有实现的功能,同时又是 Backbone.js 必不可少的部分。* [GitHub Repo](https://github.com/jashkenas/underscore) [中文站点](https://www.underscorejs.cn/)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/jashkenas/underscore?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/jashkenas/underscore?style=social)
@@ -302,7 +307,7 @@ https://trends.builtwith.com/javascript/compatibility - *Compatibility Usage Dis
     ![GitHub last commit](https://badgen.net/github/last-commit/zloirock/core-js?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/zloirock/core-js?style=social)
 
-5. [Licia: Useful Utility Collection with Zero Dependencies:)](https://licia.liriliri.io/) - *GitHub - liriliri/licia: Useful utility collection with zero dependenciesGitHub - liriliri/licia: Useful utility collection with zero dependencies* [GitHub](https://github.com/liriliri/licia)
+5. [Licia: Useful Utility Collection with Zero Dependencies:)](https://licia.liriliri.io/) - *GitHub - liriliri/licia: Useful utility collection with zero dependenciesGitHub - liriliri/licia: Useful utility collection with zero dependencies* [GitHub Repo](https://github.com/liriliri/licia)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/liriliri/licia?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/liriliri/licia?style=social)
@@ -314,7 +319,7 @@ https://trends.builtwith.com/javascript/compatibility - *Compatibility Usage Dis
     ![GitHub last commit](https://badgen.net/github/last-commit/fancyapps/ui?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/fancyapps/ui?style=social)
 
-2. [luna](https://luna.liriliri.io/) - *GitHub - liriliri/luna: UI library* [GitHub](https://github.com/liriliri/luna)
+2. [luna](https://luna.liriliri.io/) - *GitHub - liriliri/luna: UI library* [GitHub Repo](https://github.com/liriliri/luna)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/liriliri/luna?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/liriliri/luna?style=social)
@@ -465,6 +470,10 @@ https://trends.builtwith.com/javascript/charting - *Charting Usage Distribution 
     ![GitHub last commit](https://badgen.net/github/last-commit/JDFED/drip-table?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/JDFED/drip-table?style=social)
 
+## 树形控件
+
+暂无
+
 ## 搜索
 
 1. https://github.com/algolia/instantsearch - *GitHub - algolia/instantsearch: ⚡️ Libraries for building performant and instant search experiences with Algolia. Compatible with JavaScript, TypeScript, React and Vue.*
@@ -485,7 +494,7 @@ https://github.com/richtr/NoSleep.js - *GitHub - richtr/NoSleep.js: Prevent disp
 
 ### Mobile Select
 
-[Mobile Select](https://onlyhom.github.io/mobile-select/demo.html) - *A multi-function mobile phone scrolling selector, support single to multi-select, support multi-level cascade, provide callback function, provide update function redraw, relocation function, compatible pc drag and so on.* [GitHub](https://github.com/onlyhom/mobile-select) [CDN: jsDelivr](https://cdn.jsdelivr.net/npm/mobile-select/) [参考-01](https://juejin.cn/post/6916778371166765063)
+[Mobile Select](https://onlyhom.github.io/mobile-select/demo.html) - *A multi-function mobile phone scrolling selector, support single to multi-select, support multi-level cascade, provide callback function, provide update function redraw, relocation function, compatible pc drag and so on.* [GitHub Repo](https://github.com/onlyhom/mobile-select) [CDN: jsDelivr](https://cdn.jsdelivr.net/npm/mobile-select/) [参考-01](https://juejin.cn/post/6916778371166765063)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/onlyhom/mobile-select?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/onlyhom/mobile-select?style=social)
@@ -506,7 +515,7 @@ https://github.com/mrdoob/three.js - *JavaScript 3D Library.*
 
 ### Tether.js
 
-[Tether](https://tetherjs.dev/) - *A client-side library to make absolutely positioned elements attach to elements in the page efficiently.* [GitHub](https://github.com/shipshapecode/tether)
+[Tether](https://tetherjs.dev/) - *A client-side library to make absolutely positioned elements attach to elements in the page efficiently.* [GitHub Repo](https://github.com/shipshapecode/tether)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/shipshapecode/tether?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/shipshapecode/tether?style=social)

@@ -10,6 +10,8 @@
 
 4. https://minimals.cc/ - *Minimal: The starting point for your next project*
 
+5. https://mp.weixin.qq.com/s/4nQ0yO6VYIsaFUI8UbvwQA - *开源、强大、炫酷，一行代码即可生成强大的后台管理系统！*
+
 ## 模板列表
 
 ### ~~UminiCMF~~

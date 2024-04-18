@@ -22,7 +22,7 @@ https://plus.wps.cn/blog/digitalworkskill - *金山数字办公技巧 – WPS + 
 
 https://platform.wps.cn/ - *WPS Office - 支持多人在线编辑多种文档格式_WPS 官方网站*
 
-## 用法
+## 入门指南
 
 ### Word 文字
 

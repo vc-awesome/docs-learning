@@ -44,16 +44,25 @@ https://github.com/bitwarden - *Bitwarden · GitHub*
 
 https://bitwarden.com/download/ - *Install and Sync All of Your Devices | Bitwarden*
 
-- [x] Web
-- [x] Command line
-- [x] Mobile
-  - [x] Android
-  - [x] iOS
-- [x] Web Browser
-- [x] Desktop
+- [x] Desktop Applications
   - [x] Windows
   - [x] macOS
   - [x] Linux
+- [x] Mobile Applications
+  - [x] Android
+  - [x] iOS
+- [x] Web Browser Extensions
+    - [x] Google Chrome
+    - [x] Mozilla Firefox
+    - [x] Microsoft Edge
+    - [x] Opera
+    - [x] Safari
+- [x] Web Application
+- [x] Command Line Interface
+
+## Usage
+
+暂无
 
 ## Help
 
@@ -85,7 +94,7 @@ https://bitwarden.com/help/ - *Help Center | Bitwarden*
         - 在“应用”中使用
         - 在“应用”-“内置浏览器”中使用
 
-## Third Party Help
+### Third-party Help
 
 1. https://baiyunju.cc/tag/bitwarden-jiaocheng - *Bitwarden教程-『白云居』*
 2. https://client.sspai.com/post/79183 - *受够了密码数据泄漏事件？用 Bitwarden 做自己的安全负责人 - 少数派*

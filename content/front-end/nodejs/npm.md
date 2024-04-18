@@ -34,13 +34,96 @@ Docs：
 
 1. 按组织搜索：https://www.npmjs.com/search?q=@dcloudio - *@dcloudio - npm search*
 
-2. 按关键字搜索：https://www.npmjs.com/search?q=keywords:uni-app - *keywords:uni-app - npm search*
+2. 按关键字搜索：https://www.npmjs.com/search?q=keywords:uni-app - *keywords\:uni-app - npm search*
 
 非官方：
 
 1. https://www.npmjs.cn/ - *npm 中文文档 | npm 中文网*
 
 2. https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程*
+
+
+## 设置
+
+### 镜像源
+
+#### npmmirror 镜像站（原淘宝 npm）
+
+官方：https://npmmirror.com/ - *npmmirror 镜像站*
+
+---
+
+使用淘宝 NPM 镜像命令：
+
+- 安装 cnpm 命令行工具
+
+  `npm install -g cnpm --registry=https://registry.npmmirror.com`
+
+  - 使用 cnpm 命令安装模块
+
+    `cnpm install [Module Name]`
+
+  - 参考
+
+    https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
+
+
+#### 中科大镜像站
+
+官方：https://mirrors.ustc.edu.cn/help/npm.html - *NPM 反向代理使用帮助 — USTC Mirror Help 文档*
+
+
+#### 镜像源管理工具（nrm）
+
+> `nrm` can help you easy and fast switch between different npm registries, now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`.
+
+![GitHub last commit](https://badgen.net/github/last-commit/Pana/nrm?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Pana/nrm?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Pana/nrm?logo=github)
+![npm](https://img.shields.io/npm/v/nrm?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/Pana/nrm?style=social)
+
+---
+
+- 官方
+
+  https://www.npmjs.com/package/nrm - *nrm - npm*
+  
+  https://github.com/Pana/nrm - *GitHub - Pana/nrm: NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao*
+
+- 安装
+
+  `npm install -g nrm`
+
+- 显示当前可使用的镜像源列表
+
+  `nrm ls`
+
+- Show current registry name or URL
+
+  `nrm current`
+
+- 切换为淘宝镜像源
+
+  `nrm use taobao`
+
+- display help for command
+
+  `nrm -h` 或者 `nrm --help`
+
+- output the version number
+
+  `nrm -V` 或者 `nrm --version`
+
+- Open the homepage of registry with optional browser
+
+  `nrm home <name> [browser]`
+
+  实例：`nrm home taobao`
+
+- 参考
+
+  1. https://www.cnblogs.com/seeding/p/15219113.html - *NPM镜像源查看和切换*
 
 
 ## 命令行
@@ -247,88 +330,12 @@ https://docs.npmjs.com/cli/commands/npm-pack - *npm-pack | npm Docs*
 npm pack
 ```
 
-## 镜像源
-
-### npmmirror 镜像站（原淘宝 npm）
-
-官方：https://npmmirror.com/ - *npmmirror 镜像站*
-
----
-
-使用淘宝 NPM 镜像命令：
-
-- 安装 cnpm 命令行工具
-
-  `npm install -g cnpm --registry=https://registry.npmmirror.com`
-
-  - 使用 cnpm 命令安装模块
-
-    `cnpm install [Module Name]`
-
-  - 参考
-
-    https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
-
-
-### 中科大镜像站
-
-官方：https://mirrors.ustc.edu.cn/help/npm.html - *NPM 反向代理使用帮助 — USTC Mirror Help 文档*
-
-
-### 镜像源管理工具（nrm）
-
-> `nrm` can help you easy and fast switch between different npm registries, now include: `npm`, `cnpm`, `taobao`, `nj(nodejitsu)`.
-
-![GitHub last commit](https://badgen.net/github/last-commit/Pana/nrm?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/nrm?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/Pana/nrm?style=social)
-
----
-
-- 官方
-
-  https://www.npmjs.com/package/nrm - *nrm - npm*
-
-- 安装
-
-  `npm install -g nrm`
-
-- 显示当前可使用的镜像源列表
-
-  `nrm ls`
-
-- Show current registry name or URL
-
-  `nrm current`
-
-- 切换为淘宝镜像源
-
-  `nrm use taobao`
-
-- display help for command
-
-  `nrm -h` 或者 `nrm --help`
-
-- output the version number
-
-  `nrm -V` 或者 `nrm --version`
-
-- Open the homepage of registry with optional browser
-
-  `nrm home <name> [browser]`
-
-  实例：`nrm home taobao`
-
-- 参考
-
-  1. https://www.cnblogs.com/seeding/p/15219113.html - *NPM镜像源查看和切换*
-
 
 ## 模块
 
 ### cnpm
 
-> cnpm: npm client for China mirror of npm. Contribute to cnpm/cnpm development by creating an account on GitHub.
+> npm client for China mirror of npm.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/cnpm/cnpm?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/cnpm/cnpm?display_date=published_at&logo=github)
@@ -493,27 +500,31 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 
 ### PostCSS
 
+> Transform CSS with the power of JavaScript. Auto-prefixing, future CSS syntaxes, modules, linting and more are possible with hundreds of PostCSS plugins.
+
 ![GitHub last commit](https://badgen.net/github/last-commit/postcss/postcss?icon=github&color=blue)
 ![npm](https://img.shields.io/npm/v/postcss?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/postcss/postcss?style=social)
 
 ---
 
-GitHub：https://github.com/postcss/postcss - *GitHub - postcss/postcss: Transforming styles with JS plugins*
+https://github.com/postcss/postcss - *GitHub - postcss/postcss: Transforming styles with JS plugins*
 
-Website：https://postcss.org/ - *PostCSS - a tool for transforming CSS with JavaScript* [中文](https://www.postcss.com.cn/)
+https://postcss.org/ - *PostCSS - a tool for transforming CSS with JavaScript* [中文](https://www.postcss.com.cn/)
 
-Docs：https://postcss.org/docs/ - *PostCSS Documentation*
+https://postcss.org/docs/ - *PostCSS Documentation*
 
 Plugins：
 
-1. [PostCSS Plugins](https://postcss.org/docs/postcss-plugins)
+1. <https://postcss.org/docs/postcss-plugins> - *PostCSS Plugins*
 
-2. [PostCSS.parts | A searchable catalog of PostCSS plugins](https://www.postcss.parts/)
+2. <https://www.postcss.parts/> - *PostCSS.parts | A searchable catalog of PostCSS plugins*
 
 3. https://github.com/ota-meshi/stylelint-config-html - *GitHub - ota-meshi/stylelint-config-html: The shareable HTML config for Stylelint.*
 
 #### Autoprefixer
+
+> Transform CSS with the power of JavaScript. Auto-prefixing, future CSS syntaxes, modules, linting and more are possible with hundreds of PostCSS plugins.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/postcss/autoprefixer?icon=github&color=blue)
 ![npm](https://img.shields.io/npm/v/autoprefixer?logo=npm)
@@ -599,13 +610,13 @@ https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-c
 
 3 种运行方式：
 
-- 方式1：进入安装目录，打开命令行工具 `Git Bash`（Windows 系统），直接执行
+- 方式 1：进入安装目录，打开命令行工具 `Git Bash`（Windows 系统），直接执行
   
     `./node_modules/.bin/<packageName>`
 
-- 方式2：进入安装目录，新建 `index.js` 文件
+- 方式 2：进入安装目录，新建 `index.js` 文件
 
-  ```js
+  ```javascript
   // index.js
   var webpack = require('webpack');
   webpack();
@@ -613,10 +624,7 @@ https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-c
 
   然后执行 `node index.js`
 
-- 方式3：进入安装目录，打开命令行工具，直接执行 [参考](https://blog.csdn.net/u013791936/article/details/121834826)
-
-  `npx <packageName>`
-
+- 方式 3：进入安装目录，打开命令行工具，直接执行 `npx <packageName>` （[参考](https://blog.csdn.net/u013791936/article/details/121834826)）
 
 参考：
 

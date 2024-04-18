@@ -8,13 +8,15 @@
 
 https://weixin.qq.com/ - *微信，是一个生活方式*
 
-https://open.weixin.qq.com/ - *微信开放平台*
-
 https://mp.weixin.qq.com/ - *微信公众平台*
+
+## 开放平台
+
+https://open.weixin.qq.com/ - *微信开放平台*
 
 https://developers.weixin.qq.com/doc/ - *开放平台支持接入如下类型的第三方应用： | 微信开放文档*
 
-## 小程序
+### 小程序
 
 https://developers.weixin.qq.com/miniprogram/dev/framework/ - *微信开放文档*
 
@@ -23,11 +25,18 @@ https://github.com/justjavac/awesome-wechat-weapp - *GitHub - justjavac/awesome-
 ![GitHub last commit](https://badgen.net/github/last-commit/justjavac/awesome-wechat-weapp?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/awesome-wechat-weapp?style=social)
 
-### 开发者工具
+#### 教程
+
+1. https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-one.html - *微信小程序入门教程之一：初次上手 - 阮一峰的网络日志*
+2. https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-two.html - *微信小程序入门教程之二：页面样式 - 阮一峰的网络日志*
+3. https://www.ruanyifeng.com/blog/2020/10/wechat-miniprogram-tutorial-part-three.html - *微信小程序入门教程之三：脚本编程 - 阮一峰的网络日志*
+4. https://www.ruanyifeng.com/blog/2020/11/wechat-miniprogram-tutorial-part-four.html - *微信小程序入门教程之四：API 使用 - 阮一峰的网络日志*
+
+#### 开发者工具
 
 https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html - *微信开放文档*
 
-## FAQ
+## 常见问题解答
 
 ### 如何在网页中打开微信小程序
 

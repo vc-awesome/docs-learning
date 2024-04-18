@@ -10,9 +10,65 @@ https://baike.baidu.com/item/静态变量/10997955 - *静态变量_百度百科*
 
 加了 static 的类型限制之后，就相当于全局变量，函数调用完了之后，修改过的 f 的值仍然是有效的。
 
+### 变量作用域
+
+- 局部作用域（local）
+- 全局作用域（global）
+- 静态作用域（static）
+- 参数作用域（parameter）
+
+## 常量
+
+## 数据类型
+
+### 字符串
+
+暂无
+
+### 整型
+
+暂无
+
+### 浮点型
+
+暂无
+
+### 布尔型
+
+暂无
+
+### 数组
+
+暂无
+
+### 对象
+
+暂无
+
 ## 注释
 
+单行注释
+
+多行注释
+
+文档注释
+
+参考：
+
+1. https://www.jjblogs.com/post/1176400 - *掌握最佳的代码注释实践 - 极简博客*
+2. https://docs.pingcode.com/ask/219524.html - *如何写出优秀的代码注释 – PingCode*
+3. https://docs.pingcode.com/ask/253876.html - *如何写出优秀的代码注释 – PingCode*
+4. https://xie.infoq.cn/article/e63006982583ad91b69c8fdd1 - *如何正确编写代码注释：简易指南_程序员_Liam_InfoQ写作社区*
+5. https://blog.csdn.net/Sheng_zhenzhen/article/details/136999743 - *vscode代码注释和文件头部注释_vscode注释-CSDN博客*
+6. https://docs.pingcode.com/ask/ask-ask/220466.html - *如何优雅的给代码写英文注释 – PingCode*
+
+## 运算符
+
+暂无
+
 ## 函数
+
+https://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html - *函数式编程入门教程 - 阮一峰的网络日志*
 
 ### JavaScript
 
@@ -20,11 +76,23 @@ https://developer.mozilla.org/zh-CN/docs/Glossary/Function - *Function（函数�
 
 https://developer.mozilla.org/zh-CN/docs/Glossary/IIFE - *IIFE（立即调用函数表达式） - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
 
-## 数组
+### PHP
+
+https://www.runoob.com/php/php-functions.html - *PHP 函数 | 菜鸟教程*
+
+## 面向对象
+
+### PHP
+
+https://www.runoob.com/php/php-oop.html - *PHP 面向对象 | 菜鸟教程*
 
 ## 条件语句
 
+暂无
+
 ## 循环语句
+
+暂无
 
 ## JSON
 
@@ -34,4 +102,12 @@ https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/JSON - *使用
 
 ## 异常处理
 
+暂无
+
 ## 类
+
+暂无
+
+## 执行顺序
+
+暂无

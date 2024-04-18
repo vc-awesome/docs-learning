@@ -2,46 +2,6 @@
 
 ## 包管理工具
 
-### Yarn
-
-#### yarn 简介
-
-> <img src="https://avatars.githubusercontent.com/u/22247014?s=200&v=4" alt="package icon" align="bottom" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> Fast, reliable, and secure dependency management for JavaScript. - Yarn
-
-![GitHub last commit](https://badgen.net/github/last-commit/yarnpkg/berry?icon=github&color=blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/yarnpkg/berry?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yarnpkg/berry?logo=github)
-![npm](https://img.shields.io/npm/v/yarn?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/yarnpkg/berry?style=social)
-
-#### yarn 官方
-
-GitHub: https://github.com/yarnpkg - *Yarn*
-
-Website: https://yarnpkg.com/ - *Home | Yarn - Package Manager*
-
-----
-
-https://yarn.bootcss.com/ - *Yarn 中文文档*
-
-#### yarn 安装
-
-`npm install -g yarn`
-
-#### yarn 命令行
-
-- output usage information
-
-  `yarn -h` 或者 `yarn --help`
-
-- output the version number
-
-  `yarn -v` 或者 `yarn --version`
-
-- 安装模块
-
-  `yarn install`
-
 ## 打包工具
 
 https://www.ruanyifeng.com/blog/2014/09/package-management.html - *前端模块管理器简介 - 阮一峰的网络日志*
@@ -51,6 +11,8 @@ https://www.ruanyifeng.com/blog/2014/09/package-management.html - *前端模块�
 > webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/webpack/webpack?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/webpack/webpack?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/webpack/webpack?logo=github)
 ![npm](https://img.shields.io/npm/v/webpack?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/webpack/webpack?style=social)
 
@@ -58,7 +20,7 @@ https://www.ruanyifeng.com/blog/2014/09/package-management.html - *前端模块�
 
 https://github.com/webpack/webpack
 
-https://webpack.js.org/ - *webpack* [中文](https://www.webpackjs.com/)
+https://webpack.js.org/ - *webpack* [中文站点](https://www.webpackjs.com/)
 
 https://www.runoob.com/w3cnote/webpack-tutorial.html - *Webpack 入门教程 | 菜鸟教程*
 
@@ -67,6 +29,8 @@ https://www.runoob.com/w3cnote/webpack-tutorial.html - *Webpack 入门教程 | �
 > compile JS code
 
 ![GitHub last commit](https://badgen.net/github/last-commit/rollup/rollup?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/rollup/rollup?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/rollup/rollup?logo=github)
 ![npm](https://img.shields.io/npm/v/rollup?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/rollup/rollup?style=social)
 
@@ -74,7 +38,7 @@ https://www.runoob.com/w3cnote/webpack-tutorial.html - *Webpack 入门教程 | �
 
 https://github.com/rollup/rollup - *rollup/rollup: Next-generation ES module bundler*
 
-https://rollupjs.org/ - *Rollup | Rollup* [中文-1](https://cn.rollupjs.org/) [中文-2](https://www.rollupjs.com/)
+https://rollupjs.org/ - *Rollup | Rollup* [中文站点-1](https://cn.rollupjs.org/) [中文站点-2](https://www.rollupjs.com/)
 
 http://www.ruanyifeng.com/blog/2022/05/rollup.html - *打包工具 rollup.js 入门教程 - 阮一峰的网络日志*
 
@@ -125,7 +89,7 @@ https://gulpjs.com/ - *gulp.js*
 
 https://github.com/gruntjs/grunt - *GitHub - gruntjs/grunt: Grunt: The JavaScript Task Runner*
 
-https://gruntjs.com/ - *Grunt: The JavaScript Task Runner* [中文](https://www.gruntjs.cn/)
+https://gruntjs.com/ - *Grunt: The JavaScript Task Runner* [中文站点](https://www.gruntjs.cn/)
 
 ## 浏览器兼容性
 
@@ -143,7 +107,7 @@ https://github.com/browserslist/browserslist - *GitHub - browserslist/browsersli
 
 https://browsersl.ist/ - *Browserslist*
 
-## 代码规范
+## 代码规范检测（Linter）
 
 ### HTMLHint
 
@@ -194,7 +158,7 @@ https://stylelint.io/ - *Home | Stylelint*
 
 https://github.com/eslint/eslint - *GitHub - eslint/eslint: Find and fix problems in your JavaScript code.*
 
-https://eslint.org/ - *Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter* [中文](https://zh-hans.eslint.org/)
+https://eslint.org/ - *Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter* [中文站点](https://zh-hans.eslint.org/)
 
 配置：
 
@@ -262,4 +226,14 @@ Markdown/CommonMark files.*
 
 https://github.com/prettier/prettier - *GitHub - prettier/prettier: Prettier is an opinionated code formatter.*
 
-https://prettier.io/ - *Prettier · Opinionated Code Formatter*
+https://prettier.io/ - *Prettier · Opinionated Code Formatter* [中文站点](https://www.prettier.cn/)
+
+## 其它
+
+https://github.com/mrmlnc/fast-glob - *GitHub - mrmlnc/fast-glob: :rocket: It's a very fast and efficient glob library for Node.js*\
+\> _via https://www.prettier.cn/docs//install.html - *Install · Prettier 中文网*_
+
+![GitHub last commit](https://img.shields.io/github/last-commit/mrmlnc/fast-glob?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/mrmlnc/fast-glob?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mrmlnc/fast-glob?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/mrmlnc/fast-glob?style=social)

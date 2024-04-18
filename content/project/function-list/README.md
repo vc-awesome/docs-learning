@@ -1,5 +1,9 @@
 # 功能列表
 
+![illustration](https://ts1.cn.mm.bing.net/th/id/R-C.b28b87dbc8812622736aac73cf37539c?rik=BIGaw6uE0D9qXA&riu=http%3a%2f%2fwww.zaosin.com%2fueditor%2fphp%2fupload%2fimage%2f20200213%2f1581559968819970.jpg&ehk=Ll4hVfVB6CMopeYY%2fgk8may7wNMNHibyK9PJ02KzwmE%3d&risl=&pid=ImgRaw&r=0)
+
+<small>*插图来源于：[溯源系统的各项功能介绍](http://www.zaosin.com/info/3946.html)*</small>
+
 ## 服务端
 
 ### 局域网搭建文件下载和上传功能服务器
@@ -102,6 +106,8 @@ https://mp.weixin.qq.com/s/FgRXYeq7gFcm4XTXU5lSHA - *高性能负载均衡架构
 
 #### 图形验证
 
+暂无
+
 #### 谷歌验证器
 
 https://zhuanlan.zhihu.com/p/137451265 - *php实现google验证器*
@@ -112,7 +118,33 @@ https://www.jianshu.com/p/e0cf4dd70873 - *谷歌验证器如何安装使用*
 
 https://developers.google.com/recaptcha
 
-### 二维码
+### 登录
+
+https://uniapp.dcloud.net.cn/api/plugins/login.html - *uni.login(OBJECT) | uni-app官网*
+
+https://mp.weixin.qq.com/s/VVyVQJM_qmziX0PX_CytMA - *【Redis应用】基于Redis实现短信登录*
+
+https://mp.weixin.qq.com/s/0_ws5p8isjzzVYbNCvPVIg - *token是什么? 无感刷新token技术让项目安全性与体验性完美平衡*
+
+https://mp.weixin.qq.com/s/Y5MWj66Ujc3Jj7UKoa7VNw - *揭秘Cookie、Session、JWT之间的关系*
+
+#### 手机号码
+
+暂无
+
+#### 微信授权
+
+暂无
+
+#### 账号密码
+
+暂无
+
+#### 扫码登录
+
+暂无
+
+### 生成二维码
 
 参考：
 
@@ -120,7 +152,7 @@ https://developers.google.com/recaptcha
 
 2. https://blog.csdn.net/sinat_35861727/article/details/73862991 - *使用 phpqrcode 生成二维码 - CSDN 博客*
 
-### 无限极分类
+### 无限级分类
 
 参考：
 
@@ -168,17 +200,59 @@ https://developers.google.com/recaptcha
 
 1. https://lug.ustc.edu.cn/ - *LUG @ USTC - LUG @ USTC*
 
-### 使用 CSS 渐变替换共用背景图
+#### 使用 CSS 渐变替换共用背景图
+
+暂无
 
 ### 切换主题
 
+方式一：
+
 ```css
-// css
 @media (prefers-color-scheme: light) {
   :root{--变量1: 色值1;--变量2: 色值2; ……}
 }
 @media (prefers-color-scheme: dark) {
   :root{--变量1: 色值3; --变量2: 色值4; ……}
+}
+```
+
+方式二：
+
+```javascript
+/**
+ * 加载 js 或 css
+ * @param {*} filename
+ * @param {*} filetype
+ */
+function loadjscssfile(filename, filetype) {
+  if (filetype == 'js') {
+    // if filename is a external JavaScript file
+    var fileref = document.createElement('script');
+    fileref.setAttribute('type', 'text/javascript');
+    fileref.setAttribute('src', filename);
+  } else if (filetype == 'css') {
+    // if filename is an external CSS file
+    var fileref = document.createElement('link');
+    fileref.setAttribute('rel', 'stylesheet');
+    fileref.setAttribute('type', 'text/css');
+    fileref.setAttribute('href', filename);
+  }
+  if (typeof fileref != 'undefined') {
+    document.getElementsByTagName('head')[0].appendChild(fileref);
+  }
+}
+/* 切换主题 */
+const mediaQueryListDark = window.matchMedia('(prefers-color-scheme: dark)');
+if (mediaQueryListDark.matches) {
+  // 系统当前是暗色(dark)主题
+  loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/dark.css', 'css');
+}
+
+const mediaQueryListLight = window.matchMedia('(prefers-color-scheme: light)');
+if (mediaQueryListLight.matches) {
+  // 系统当前是亮色(light)主题
+  loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/vue.css', 'css');
 }
 ```
 
@@ -188,6 +262,10 @@ https://developers.google.com/recaptcha
 2. https://segmentfault.com/a/1190000041985635 - *关于前端主题切换的思考和现代前端样式的解决方案落地 - 个人文章 - SegmentFault 思否*
 3. https://zhuanlan.zhihu.com/p/460111867 - *WEB前端跟随系统亮暗主题 - 知乎*
 4. https://zhuanlan.zhihu.com/p/143279853 - *Web界面深色模式和主题化开发 - 知乎*
+
+### 深色模式
+
+暂无
 
 ### 点击按钮横向滚动
 
@@ -204,13 +282,34 @@ https://developers.google.com/recaptcha
 参考：
 
 1. https://lrepacks.net/ - *Авторские репаки от ELCHUPACABRA - REPACK скачать*
+2. https://segmentfault.com/a/1190000041750000 - *javascript - 这几种方法帮你快速实现回到页面顶部 - 个人文章 - SegmentFault 思否*
+3. https://www.cnblogs.com/mq0036/p/17662834.html - *基于JS实现回到页面顶部的五种写法(从实现到增强) - jack_Meng - 博客园*
+4. https://www.runoob.com/w3cnote/js-to-top.html - *JavaScript 返回顶部实例 | 菜鸟教程*
 
 ### 复制代码（块）
 
 https://github.com/Martinomagnifico/reveal.js-copycode - *GitHub - Martinomagnifico/reveal.js-copycode: A simple plugin that automatically shows a 'copy' button in code blocks in Reveal.js*
 
 ![GitHub last commit](https://badgen.net/github/last-commit/Martinomagnifico/reveal.js-copycode?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Martinomagnifico/reveal.js-copycode?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Martinomagnifico/reveal.js-copycode?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Martinomagnifico/reveal.js-copycode?style=social)
+
+### 并发
+
+https://mp.weixin.qq.com/s/QZ4z_I5Gl6FNz6jcyGkknA - *得物面试：10wqps高并发，如何防止重复下单？*
+
+https://mp.weixin.qq.com/s/7-F_t4TDbGlFbL7AmQuP6g - *美团面试：10wqps高并发，如何防止重复下单？*
+
+https://mp.weixin.qq.com/s/JE1c2fTcHQ4U5OaWWgkBqA - *高并发解决方案详解(8大主流架构方案)*
+
+https://mp.weixin.qq.com/s/zCbRiA6c9phXs5BJ-hqTfQ - *秒杀系统的设计*
+
+https://mp.weixin.qq.com/s/PhiGAQXJe-c60GHKypgIyw - *电商设计订单超时未支付关闭的方案整理*
+
+### 幂等
+
+https://mp.weixin.qq.com/s/gR2y6lF5TJqBQs2eaWRqrg - *幂等设计的8种实现方式*
 
 ### 生成订单号
 
@@ -253,12 +352,6 @@ public function makeOrderSn($pay_id) {
 
 https://mp.weixin.qq.com/s/1hBmfI47ptZgw7KNb97T8A - *使用 react-pdf 打造在线简历生成器*
 
-#### URL 转 Markdown
-
-<https://cn.bing.com/search?q=url+转+markdown> - *url 转 markdown - 搜索*
-
-https://www.appinn.com/webpage-to-markdown/ - *3 个工具，将网页转换为 Markdown：安卓、Edge、Chrome、Firefox、Obsidian、Safari - 小众软件*
-
 #### 目录结构转为 Markdown
 
 搜索关键词：`file tree md`
@@ -286,80 +379,19 @@ https://www.appinn.com/webpage-to-markdown/ - *3 个工具，将网页转换为 
     ![npm](https://img.shields.io/npm/v/md-file-tree?logo=npm)
     ![GitHub Repo stars](https://img.shields.io/github/stars/michalbe/md-file-tree?style=social)
 
-## 优化
+### 文件上传
 
-### 压缩图片
+https://mp.weixin.qq.com/s/0bFd6xs16Kajg853TOObAA - *大文件切片上传，全网最简单的实现没有之一*
 
-https://tinypng.com/ - *TinyPNG – Compress WebP, PNG and JPEG images
-intelligently*
+https://mp.weixin.qq.com/s/9LSNHkAMG_hd8VSi79LZrA - *面试官：为什么网盘上传多个视频文件不能一起上传，80%人回答不清楚！*
 
-### 合并文件
+### 消息推送
 
-https://www.npmjs.com/package/concat - *concat - npm*
+https://mp.weixin.qq.com/s/Z5g3mlZGeTqHdK0jKBGf-g - *整理常见的实时消息推送方案*
 
-```sh
-concat ./clipboard-code-block.css ./clipboard-code-block.js \
-       -o clipboard-merge.js
-```
+### 限流
 
-### 压缩 HTML
-
-### 压缩 CSS
-
-https://www.npmjs.com/package/clean-css - *clean-css - npm*
-
-- https://github.com/clean-css/clean-css-cli - *GitHub -
-clean-css/clean-css-cli: The command line interface to clean-css CSS optimizer*
-
-```sh
-cleancss clipboard-code-block.css \
-         -o clipboard-code-block.min.css
-```
-
-合并多个文件并压缩：
-
-```sh
-cleancss one.css two.css three.css \
-         -o merged.min.css
-```
-
-### 压缩 JS
-
-https://www.npmjs.com/package/uglify-js - *uglify-js - npm* [GitHub](https://github.com/mishoo/UglifyJS)
-
-```sh
-uglifyjs clipboard-code-block.js \
-         -o clipboard-code-block.min.js -c -m
-```
-
-合并多个文件并压缩：
-
-```sh
-uglifyjs js/file1.js js/file2.js \
-         -o foo.min.js -c -m
-```
-
-在线工具：
-
-1. https://www.filesmerge.com/zh/merge-javascript-files - *合并 JS -- 在线文件合并器 (Free & Secure)*
-2. http://tool.uis.cc/jsmin/ - *uis.cc - js 在线压缩*
-3. https://skalman.github.io/UglifyJS-online/ - *UglifyJS 3: Online JavaScript minifier*
-4. http://cdn.uglifyjs.net/ - *JS Minify and Beautify - Online*
-
-参考：
-
-1. https://segmentfault.com/a/1190000008995453 - *UglifyJS 中文文档 - 前端流浪者 - SegmentFault 思否*
-2. https://juejin.cn/post/7036169445550587940 - *解读uglifyJS ——Javascript代码压缩 - 掘金*
-3. https://blog.csdn.net/foupwang/article/details/102927763 - *前端打包工具 UglifyJS 使用入门 - CSDN 博客*
-
-### 懒加载
-
-https://developer.mozilla.org/zh-CN/docs/Web/Performance/Lazy_loading - *懒加载 - Web 性能 | MDN*
-
-https://github.com/tuupola/lazyload/ - *GitHub - tuupola/lazyload: Vanilla
-JavaScript plugin for lazyloading images*
-
-![GitHub last commit](https://badgen.net/github/last-commit/tuupola/lazyload?icon=github&color=blue)
+https://mp.weixin.qq.com/s/NHZ7CmnHspChjh7orBfPqA - *就这么几个限流算法，总是记了又忘。。。*
 
 ## 演示
 
@@ -374,7 +406,10 @@ JavaScript 源码解读
 
 ### jperasmus/docsify-copy-code
 
-https://github.com/jperasmus/docsify-copy-code
+<https://github.com/jperasmus/docsify-copy-code> - *GitHub - jperasmus/docsify-copy-code: A docsify plugin that copies Markdown code block to your clipboard*
+
+![GitHub last commit](https://badgen.net/github/last-commit/jperasmus/docsify-copy-code?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/jperasmus/docsify-copy-code?style=social)
 
 - https://unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.js （文件内容中出现的 `1e3` 表示 1×10^3 = 1000）
 

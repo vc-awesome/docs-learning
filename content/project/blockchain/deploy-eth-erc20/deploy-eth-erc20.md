@@ -1,3 +1,5 @@
+# 部署 ERC20
+
 ## 数据表
 
 ### 新建数据表
@@ -36,8 +38,6 @@ CREATE TABLE `ev_money_in` (
 ) ENGINE=InnoDB AUTO_INCREMENT=68 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC
 ```
 
-
-
 #### prefix_nonce
 
 ```sql
@@ -49,8 +49,6 @@ CREATE TABLE `ev_nonce` (
 ) ENGINE=MyISAM AUTO_INCREMENT=138 DEFAULT CHARSET=utf8mb4
 ```
 
-
-
 ### 用户表 *prefix_member* 添加字段
 
 ```sql
@@ -59,8 +57,6 @@ CREATE TABLE `ev_nonce` (
 `private_key` varchar(255) DEFAULT NULL,
 `eth_pwd` char(6) DEFAULT NULL,
 ```
-
-
 
 ### 配置表 *prefix_config* 添加数据
 
@@ -74,8 +70,6 @@ if (!empty($val['blockNumber'])) {
     Db::name('config')->where('code', 'block_number')->update(['value' => $val['blockNumber']]);
 }
 ```
-
-
 
 ## 配置项
 
@@ -100,8 +94,6 @@ return [
 ];
 ```
 
-
-
 ## composer package
 
 > `composer require simplito/elliptic-php` 1.0.6  
@@ -111,4 +103,3 @@ return [
 > `composer require guzzlehttp/guzzle` 6.5.5  
 > `composer require kornrunner/keccak` 1.0.3  
 > `composer require phpseclib/phpseclib` 2.0.3
-

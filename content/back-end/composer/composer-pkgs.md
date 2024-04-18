@@ -4,7 +4,7 @@
 
 > Minify 是一个用于 JS 和 CSS 资源的 HTTP 服务器。它压缩和组合文件，并提供适当的头，允许有条件的 GET 或 long-Expires。
 
-![GitHub last commit](https://badgen.net/github/last-commit/mrclay/minify?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/mrclay/minify?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/mrclay/minify?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mrclay/minify?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mrclay/minify?style=social)
@@ -39,7 +39,7 @@ Via [How to minify php page html output?](https://stackoverflow.com/questions/62
 
 > Workerman 是一个异步事件驱动的 PHP 框架，具有高性能，用于构建快速且可扩展的网络应用程序。 Workerman 支持 HTTP、Websocket、SSL 等自定义协议。Workerman 支持事件扩展
 
-![GitHub last commit](https://badgen.net/github/last-commit/walkor/Workerman?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/walkor/Workerman?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/walkor/Workerman?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/walkor/Workerman?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/walkor/Workerman?style=social)
@@ -57,7 +57,7 @@ https://packagist.org/packages/workerman/workerman - *workerman/workerman - Pack
 
 > 二维码生成类库
 
-![GitHub last commit](https://badgen.net/github/last-commit/endroid/qr-code?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/endroid/qr-code?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/endroid/qr-code?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/endroid/qr-code?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/endroid/qr-code?style=social)
@@ -72,7 +72,7 @@ https://packagist.org/packages/endroid/qr-code
 > A pure PHP library for reading and writing spreadsheet files  
 <i class="bi bi-translate dark-yellow"></i> 用于读取和写入电子表格文件的纯PHP库
 
-![GitHub last commit](https://badgen.net/github/last-commit/PHPOffice/PhpSpreadsheet?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/PHPOffice/PhpSpreadsheet?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/PHPOffice/PhpSpreadsheet?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/PHPOffice/PhpSpreadsheet?logo=github)
 ![GitHub Repo
@@ -107,7 +107,7 @@ https://phpspreadsheet.readthedocs.io/
 
 !> This package is **abandoned** and no longer maintained. The author suggests using the [phpoffice/phpspreadsheet](https://packagist.org/packages/phpoffice/phpspreadsheet) package instead.<br>这个包被**放弃**，不再维护。作者建议使用[phpoffice/phpspreadsheet](https://packagist.org/packages/phpoffice/phpspreadsheet)包来代替。
 
-![GitHub last commit](https://badgen.net/github/last-commit/PHPOffice/PHPExcel?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/PHPOffice/PHPExcel?color=blue&logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/PHPOffice/PHPExcel?logo=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/PHPOffice/PHPExcel?style=social)
 
@@ -126,7 +126,7 @@ https://packagist.org/packages/phpoffice/phpexcel
 
 > ThinkPHP6 队列包
 
-![GitHub last commit](https://badgen.net/github/last-commit/top-think/think-queue?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/top-think/think-queue?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/top-think/think-queue?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think-queue?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think-queue?style=social)
@@ -163,7 +163,7 @@ https://packagist.org/packages/topthink/think-queue
 
 > 帮助 thinkphp 5 开发者快速、轻松的构建 Api 🎉🎉🎉
 
-![GitHub last commit](https://badgen.net/github/last-commit/czewail/think-api?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/czewail/think-api?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/czewail/think-api?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/czewail/think-api?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/czewail/think-api?style=social)
@@ -221,7 +221,7 @@ $token = JWT::encode($payload);
 
 > 从数字生成简短、唯一、非连续的 ID（如 YouTube 和 Bitly）
 
-![GitHub last commit](https://badgen.net/github/last-commit/vinkla/hashids?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/vinkla/hashids?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/vinkla/hashids?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vinkla/hashids?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/vinkla/hashids?style=social)
@@ -274,7 +274,7 @@ function decode_invite_code($invite_code)
 > PHPMailer is a full-featured email creation and transfer class for PHP.  
 <i class="bi bi-translate dark-yellow"></i> PHPMailer是一个全功能的PHP电子邮件创建和传输类。
 
-![GitHub last commit](https://badgen.net/github/last-commit/PHPMailer/PHPMailer?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/PHPMailer/PHPMailer?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/PHPMailer/PHPMailer?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/PHPMailer/PHPMailer?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/PHPMailer/PHPMailer?style=social)

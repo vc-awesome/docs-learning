@@ -6,13 +6,19 @@
 >
 > <cite>—— [framework · GitHub Topics · GitHub](https://github.com/topics/framework)</cite>
 
----
+
+## 快速入门
 
 什么叫框架？什么叫库？什么叫插件？
 
 - 「框架」实现了语言的绝大部分功能
 
 - 「库」仅实现了某一方面的功能，或者是语言未实现功能的扩展
+
+---
+
+- 组件
+- API
 
 
 ## 搜索
@@ -30,6 +36,8 @@
 3. https://www.jq22.com/ - *jQuery插件库-收集最全最新最好的jQuery插件* 「👉注册登录」
 4. https://libraries.io/ - *Libraries.io - The Open Source Discovery Service* 「👉注册登录」
 5. https://www.libhunt.com/ - *LibHunt - Trending open-source projects and their alternatives*
+6. <https://mp.weixin.qq.com/s/yskeNyNyBgw6AG9HlteSMQ> - *前端接私活利器 !推荐!!*
+7. https://mp.weixin.qq.com/s/rjkwqpSt021XkFQPpYz_Xg - *太爽了！这12个前端库，帮我在工作中赢得了不少摸鱼时间！！*
 
 
 ## 组合使用 🔥
@@ -61,15 +69,15 @@ Website：
 
 Document：
 
-1. https://v5.bootcss.com [英文](https://getbootstrap.com/)
+1. https://v5.bootcss.com [英文站点](https://getbootstrap.com/)
 
-2. https://v4.bootcss.com [英文](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
+2. https://v4.bootcss.com [英文站点](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
 
-3. https://v3.bootcss.com [英文](https://getbootstrap.com/docs/3.4/) [定制](https://v3.bootcss.com/customize/)
+3. https://v3.bootcss.com [英文站点](https://getbootstrap.com/docs/3.4/) [定制](https://v3.bootcss.com/customize/)
 
 GitHub：
 
-1. https://github.com/twbs/bootstrap
+1. https://github.com/twbs/bootstrap - *GitHub - twbs/bootstrap: The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.*
 
 2. https://github.com/topics/bootstrap - *bootstrap · GitHub Topics · GitHub*
 
@@ -197,32 +205,47 @@ Website：https://www.h-ui.net/ - *H-ui 前端框架 v4.0 - H-ui 前端框架官
 > Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。
 
 ![GitHub last commit](https://badgen.net/github/last-commit/tailwindlabs/tailwindcss?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/tailwindlabs/tailwindcss?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tailwindlabs/tailwindcss?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/tailwindlabs/tailwindcss?style=social)
 
 ---
 
-Website：https://tailwindcss.com - *Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。* [GitHub](https://github.com/tailwindlabs/tailwindcss.com) [中文](https://www.tailwindcss.cn/)
+Website：
 
-GitHub：https://github.com/tailwindlabs/tailwindcss - _A utility-first CSS framework for rapid UI development._
+1. https://tailwindcss.com - *Tailwind CSS 是一个用于快速UI开发的实用工具集 CSS 框架。与 Bootstrap 、Foundation 不同，Tailwind CSS 没有内置的 UI 组件。完全需要开发者根据自身情况来定制设计。*
+2. https://www.tailwindcss.cn/ - *Tailwind CSS - 只需书写 HTML 代码，无需书写 CSS，即可快速构建美观的网站。 | TailwindCSS中文文档 | TailwindCSS中文网*
+
+GitHub：
+
+1. https://github.com/tailwindlabs/tailwindcss - _A utility-first CSS framework for rapid UI development._
+2. https://github.com/tailwindlabs/tailwindcss.com - *GitHub - tailwindlabs/tailwindcss.com: The Tailwind CSS documentation website.*
 
 
 ### Pure.css
 
 > Pure is a ridiculously tiny CSS library you can use to start any web project.
 
-![GitHub last commit](https://badgen.net/github/last-commit/pure-css/pure/?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/pure-css/pure?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/pure-css/pure?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/pure-css/pure?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/pure-css/pure?style=social)
 
 ---
 
 Wesite：https://purecss.io/ - *Pure*
 
-GitHub：https://github.com/pure-css/pure/ - *A set of small, responsive CSS modules that you can use in every web project.*
+GitHub：https://github.com/pure-css/pure - *A set of small, responsive CSS modules that you can use in every web project.*
 
 
 ### Primer CSS 🔥
 
 > The CSS design system that powers GitHub
 
-![GitHub last commit](https://img.shields.io/github/last-commit/primer/css?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/css?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/primer/css?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/primer/css?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/primer/css?style=social)
 
 ----
 
@@ -249,7 +272,10 @@ CDN：
 
 💡 一个CSS变量的库，提供大量有用的预置值
 
-![GitHub last commit](https://img.shields.io/github/last-commit/argyleink/open-props?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/argyleink/open-props?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/argyleink/open-props?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/argyleink/open-props?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/argyleink/open-props?style=social)
 
 ----
 
@@ -266,6 +292,9 @@ GitHub：https://github.com/argyleink/open-props
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/vuejs/vue?color=blue&logo=github)
 ![npm](https://img.shields.io/npm/v/vue?logo=npm)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vuejs/vue?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vuejs/vue?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vuejs/vue?style=social)
 
 ----
 
@@ -321,8 +350,10 @@ GitHub：https://github.com/bootstrap-vue/bootstrap-vue
 
 > A Vue.js 2.0 UI Toolkit for Web. （译文：用于 Web 的 Vue.js 2.0 UI 工具包。）
 
-![GitHub last commit](https://badgen.net/github/last-commit/ElemeFE/element?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/element-plus?logo=npm)
+![GitHub last commit](https://img.shields.io/github/last-commit/element-plus/element-plus?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/element-plus/element-plus?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/element-plus/element-plus?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/element-plus/element-plus?style=social)
 
 ----
 
@@ -348,7 +379,10 @@ CDN：
 > Lightweight Mobile UI Components built on Vue. （译文：基于 Vue 构建的轻量级移动 UI 组件。）
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/youzan/vant?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/youzan/vant?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/youzan/vant?logo=github)
 ![npm](https://img.shields.io/npm/v/vant?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/youzan/vant?style=social)
 
 ---
 
@@ -381,7 +415,10 @@ CDN：
 
 > Mobile UI Components based on Vue & WeUI
 
-![GitHub last commit](https://badgen.net/github/last-commit/airyland/vux?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/airyland/vux?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/airyland/vux?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/airyland/vux?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/airyland/vux?style=social)
 
 ----
 
@@ -394,7 +431,10 @@ GitHub：https://github.com/airyland/vux
 
 > uni-app 是使用 Vue 语法开发小程序、H5、App的统一框架
 
-![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/uni-app?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/uni-app?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/uni-app?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/uni-app?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/uni-app?style=social)
 
 ----
 
@@ -409,7 +449,10 @@ GitHub：https://github.com/dcloudio/uni-app
 
 > uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
-![GitHub last commit](https://badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/umicro/uView2.0?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/umicro/uView2.0?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/umicro/uView2.0?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/umicro/uView2.0?style=social)
 
 ---
 
@@ -424,11 +467,14 @@ GitHub：https://github.com/umicro/uView2.0
 
 > Build your next Vue.js application with confidence using Nuxt. An open source framework under MIT license that makes web development simple and powerful.
 
-![GitHub last commit](https://badgen.net/github/last-commit/nuxt/nuxt?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/nuxt/nuxt?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/nuxt/nuxt?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/nuxt/nuxt?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/nuxt/nuxt?style=social)
 
 ---
 
-Website：https://nuxt.com/ - *Nuxt: The Intuitive Web Framework* [中文](https://nuxt.com.cn/)
+Website：https://nuxt.com/ - *Nuxt: The Intuitive Web Framework* [中文站点](https://nuxt.com.cn/)
 
 GitHub：https://github.com/nuxt/nuxt
 
@@ -437,7 +483,10 @@ GitHub：https://github.com/nuxt/nuxt
 
 > jQuery JavaScript Library
 
-![](https://img.shields.io/github/last-commit/jquery/jquery?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/jquery/jquery?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jquery/jquery?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jquery/jquery?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/jquery/jquery?style=social)
 
 ---
 
@@ -455,16 +504,19 @@ CDN：
 
 1. https://www.bootcdn.cn/jquery/ - *jquery (v3.6.3) - jQuery 是一个高效、精简并且功能丰富的 JavaScript 工具库。它提供的 API 易于使用且兼容众多浏览器，这让诸如 HTML 文档遍历和操作、事件处理、动画和 Ajax 操作更加简单。 | BootCDN - Bootstrap 中文网开源项目免费 CDN 加速服务*
 
-2. https://unpkg.com/jquery/
+2. https://unpkg.com/jquery/ - *UNPKG - jquery*
 
-3. https://cdn.jsdelivr.net/npm/jquery/
+3. https://cdn.jsdelivr.net/npm/jquery/ - *jquery CDN by jsDelivr - A free, fast, and reliable Open Source CDN*
 
 
 ### React.js
 
 > React 是用于构建用户界面的 JavaScript 工具库
 
-![GitHub last commit](https://badgen.net/github/last-commit/facebook/react?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/facebook/react?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/facebook/react?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/facebook/react?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/facebook/react?style=social)
 
 ---
 
@@ -489,7 +541,10 @@ GitHub：
 
 > Next.js 支持规模化的生产级 React 应用程序。大量世界领先的公司都在使用 Next.js 来构建静态和动态网站及 web 应用。
 
-![GitHub last commit](https://badgen.net/github/last-commit/vercel/next.js?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/vercel/next.js?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vercel/next.js?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vercel/next.js?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vercel/next.js?style=social)
 
 ---
 
@@ -502,7 +557,10 @@ GitHub：https://github.com/vercel/next.js - *The React Framework*
 
 > 🥚 Born to build better enterprise frameworks and apps with Node.js & Koa. （译文：为企业级框架和应用而生。）
 
-![GitHub last commit](https://badgen.net/github/last-commit/eggjs/egg?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/eggjs/egg?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/eggjs/egg?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/eggjs/egg?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/eggjs/egg?style=social)
 
 ---
 
@@ -514,6 +572,21 @@ GitHub：https://github.com/eggjs/egg
 
 首次接触 At *2022/03/18* via https://oldj.net/article/2019/10/03/the-history-of-this-blog-2019/
 
+
+## 微信小程序
+
+### Vant Weapp
+
+> 轻量、可靠的小程序 UI 组件库
+
+![GitHub last commit](https://img.shields.io/github/last-commit/youzan/vant-weapp?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/youzan/vant-weapp?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/youzan/vant-weapp?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/youzan/vant-weapp?style=social)
+
+https://github.com/youzan/vant-weapp - *GitHub - youzan/vant-weapp: 轻量、可靠的小程序 UI 组件库*
+
+https://vant.pro/vant-weapp/ - *介绍 - Vant Weapp*
 
 ## PHP 框架
 
@@ -527,9 +600,7 @@ GitHub：https://github.com/eggjs/egg
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/top-think/think?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/top-think/think?style=social)
 
-----
-
-有关详细信息，请参阅“[ThinkPHP](/back-end/thinkphp/)”。
+有关详细信息，请参阅“[ThinkPHP](/back-end/thinkphp/README.md)”。
 
 
 ### workerman
@@ -537,8 +608,9 @@ GitHub：https://github.com/eggjs/egg
 > An asynchronous event driven PHP socket framework. Supports HTTP, Websocket, SSL and other custom protocols. PHP>=5.3.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/walkor/workerman?icon=github&color=blue)
-
----
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/walkor/workerman?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/walkor/workerman?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/walkor/workerman?style=social)
 
 Website：https://www.workerman.net/
 
@@ -550,8 +622,9 @@ GitHub：https://github.com/walkor/workerman
 > 🚀 Coroutine-based concurrency library for PHP
 
 ![GitHub last commit](https://badgen.net/github/last-commit/swoole/swoole-src?icon=github&color=blue)
-
----
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/swoole/swoole-src?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/swoole/swoole-src?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/swoole/swoole-src?style=social)
 
 Website：https://www.swoole.com/
 
@@ -563,12 +636,43 @@ GitHub：https://github.com/swoole/swoole-src
 > Symfony is a set of reusable PHP components and a PHP framework to build web applications, APIs, microservices and web services.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/symfony/symfony?icon=github&color=blue)
-
----
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/symfony/symfony?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/symfony/symfony?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/symfony/symfony?style=social)
 
 Website：https://symfony.com/ - _Symfony, High Performance PHP Framework for Web Development_
 
 GitHub：https://github.com/symfony/symfony
+
+
+### Laravel
+
+> Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.
+
+![GitHub last commit](https://badgen.net/github/last-commit/laravel/laravel?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/laravel/laravel?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/laravel/laravel?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/laravel/laravel?style=social)
+
+https://laravel.com/ - *Laravel - The PHP Framework For Web Artisans*
+
+https://github.com/laravel/laravel - *GitHub - laravel/laravel: Laravel is a web application framework with expressive, elegant syntax. We’ve already laid the foundation for your next big idea — freeing you to create without sweating the small things.*
+
+
+## 模板引擎
+
+### Handlebars
+
+> Handlebars 是一个书写高效率、语义化的模板引擎，与 Mustache 模板兼容。
+
+![GitHub last commit](https://badgen.net/github/last-commit/handlebars-lang/handlebars.js?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/handlebars-lang/handlebars.js?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/handlebars-lang/handlebars.js?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/handlebars-lang/handlebars.js?style=social)
+
+https://handlebarsjs.com/zh/ - *Handlebars*
+
+https://github.com/handlebars-lang/handlebars.js - *GitHub - handlebars-lang/handlebars.js: Minimal templating on steroids.*
 
 
 ## APP 开发

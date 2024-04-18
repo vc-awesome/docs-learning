@@ -9,6 +9,7 @@
 ## 教程
 
 1. https://wangdoc.com/html/url - *URL 简介 - HTML 教程 - 网道*
+2. https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL - *什么是 URL？ - 学习 Web 开发 | MDN*
 
 ## 用法
 
@@ -87,6 +88,8 @@
 4. [Google Play](market://webstoreredirect) 🚧 - `market://webstoreredirect`
 
 5. ~~[豌豆荚](wdj://outside/links/) 🚀 - `wdj://outside/links/`~~
+6. https://70apps.com/blog/web/2021/10/21/Chinese_Android_Market_Schema.html#: - *国内厂商应用商店跳转链接*
+7. https://ask.dcloud.net.cn/m/article/39960 - *常见的应用商店 scheme 地址 - DCloud问答*
 
 参考：
 
@@ -109,6 +112,21 @@
 
 https://opendocs.alipay.com/support/01rb18 - *小程序scheme链接介绍 - 支付宝文档中心*
 
+1. https://sspai.com/post/68497 - *支付宝、云闪付小程序一键直达：URL Scheme 跳转扩展用法 - 少数派*
+2. https://sspai.com/post/66334 - *URL Scheme 查询指南 - 少数派*
+3. https://blog.csdn.net/weixin_48141487/article/details/134224372 - *支付宝 URL Scheme全网最全，startActivity地址更新中-CSDN博客*
+4. https://cloud.tencent.com/developer/article/2317297 - *微信、支付宝等软件常用功能的的URL schemes整理总汇-腾讯云开发者社区-腾讯云*
+
+#### 淘宝
+
+```uri
+taobao://
+```
+
+[淘宝首页](taobao://m.taobao.com) - taobao://m.taobao.com
+
+[淘宝芭芭农场](taobao://market.m.taobao.com/app/starlink/wakeup-transit/pages/download?star_id=4354&slk_force_set_request=true&bc_fl_src=zfb_myxc2bbnc&sceneCodeAlipay=antruralism_taobao_taobaobabafarm0530&userToken=yxg3xgDreLtnLoDWZT4VrQ9p0AWjUKqdxgDxxoGAEXKyb7ggOmOQ4NK4EwnxxoazTusQgAP3NoxcUUgzxgZxcuuVxgM1nnxgc9YGP4Ob73klkg38xgppfoxkx)
+
 #### Google Play Store
 
 1. 打开应用「Google Play Store」
@@ -125,7 +143,7 @@ https://opendocs.alipay.com/support/01rb18 - *小程序scheme链接介绍 - 支�
 
 https://developer.android.com/distribute/marketing-tools/linking-to-google-play?hl=zh-cn - *链接到 Google Play  |  Android Developers*
 
-### 小米应用商店
+#### 小米应用商店
 
 1. 打开应用「小米应用商店」
 
@@ -141,6 +159,8 @@ https://developer.android.com/distribute/marketing-tools/linking-to-google-play?
 
 https://stackoverflow.com/questions/63208565/whats-xiaomi-mi-store-apps-page-intent - *android - What's Xiaomi Mi Store app's page intent? - Stack Overflow*
 
+[微信](market://details?id=cn.wps.moffice_eng)
+
 ### PHP
 
 1. http://www.jb51.net/article/57550.htm - *php 中获取主机名、协议及 IP 地址的方法_php 技巧_脚本之家*
@@ -148,9 +168,31 @@ https://stackoverflow.com/questions/63208565/whats-xiaomi-mi-store-apps-page-int
 ### JavaScript
 
 1. https://developer.mozilla.org/zh-CN/docs/Web/API/URL - *URL - Web API 接口参考 | MDN*
+2. https://kilianvalkhof.com/2024/javascript/the-problem-with-new-url-and-how-url-parse-fixes-that/ - *The problem with new URL(), and how URL.parse() fixes that | Kilian Valkhof*
 
 ### URL 编/解码
 
 1. <https://wangdoc.com/javascript/bom/location#url-的编码和解码> - *Location 对象，URL 对象，URLSearchParams 对象 - JavaScript 教程 - 网道*
 
 2. https://www.runoob.com/tags/html-urlencode.html - *HTML URL 编码参考手册 | 菜鸟教程*
+
+### Firefox 浏览器打开本地文件
+
+假设 macOS 电脑桌面上有张图片，图片所在路径：`/Users/caiyongwen/Desktop/v2-db92f653a2ec17ea3ff309d6d56e8507.gif`
+
+1. 打开 Firefox 浏览器；
+2. 地址栏中输入：`file:///Users/caiyongwen/Desktop/v2-db92f653a2ec17ea3ff309d6d56e8507.gif`；
+3. 按下键盘回车键。
+
+## 工具
+
+### 解析工具
+
+https://github.com/ada-url/ada - *GitHub - ada-url/ada: WHATWG-compliant and fast URL parser written in modern C++*
+
+## 常见问题
+
+### 如何在 JavaScript 中验证 URL
+
+https://www.freecodecamp.org/chinese/news/how-to-validate-urls-in-javascript/ - *如何在 JavaScript 中验证 URL*
+

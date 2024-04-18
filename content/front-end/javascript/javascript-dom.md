@@ -28,6 +28,8 @@ document.getElementsByTagName();
 document.getElementsByClassName();
 ```
 
+#### querySelector()
+
 ```javascript
 document.querySelector();
 ```
@@ -110,13 +112,13 @@ https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 
 
   语法：
 
-  ```js
+  ```javascript
   element.removeAttribute(attributename)
   ```
 
   实例：
 
-  ```js
+  ```javascript
   document.getElementsByTagName("H1")[0].removeAttribute("style");
   ```
 
@@ -214,7 +216,7 @@ https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events
 
     - 方式 3 ：使用 [EventListener](#EventListener) 来监听事件
 
-      ```js
+      ```javascript
       <script>
         document.getElementById("myBtn").addEventListener("click", function(){
           displayDate();
@@ -242,7 +244,7 @@ https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events
 
     实例：
 
-    ```js
+    ```javascript
     var x = document.getElementById("myBtn");
     x.addEventListener("click", myFunction);
     x.addEventListener("click", someOtherFunction);
@@ -260,7 +262,7 @@ https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events
 
     实例：
 
-    ```js
+    ```javascript
     var x = document.getElementById("myBtn");
     x.onclick = myFunction;
     x.onclick = someOtherFunction;
@@ -403,7 +405,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/FormData/Using_FormData_Objects
 
 用一些键值对来模拟一系列表单空间：即把 form 中所有表单元素的 name 与 value 组装成一个 queryString
 
-```js
+```javascript
 let formData = new FormData();  // 实例
 formData.append('user', 'ccc');  // 新增
 formData.get('user');  // 获取
@@ -412,7 +414,7 @@ formData.append('user');  // 删除
 
 使用 `FormData` 对象发送文件
 
-```js
+```javascript
 var file = document.querySelector('[type=file]');
 
 // 通过FormData将文件转成二进制数据

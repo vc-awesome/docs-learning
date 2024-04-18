@@ -16,6 +16,29 @@
 
 /* 外链图标 -end */
 
+/* 标题添加字体图标 -start */
+
+h1:hover a:after,
+h2:hover a:after,
+h3:hover a:after,
+h4:hover a:after,
+h5:hover a:after,
+h6:hover a:after {
+  display: inline-block;
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: medium;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-indent: 5px;
+  content: '\f0c1';
+  color: #34495e;
+  opacity: 0.8;
+}
+
+/* 标题添加字体图标 -end */
+
 /* Word break -start */
 
 a {
@@ -69,6 +92,7 @@ hr {
 }
 
 /* 覆写侧边栏按钮的样式，使其在整个屏幕边缘可点击 */
+
 body:not(.close) .sidebar-toggle {
   z-index: 11;
   top: 0;

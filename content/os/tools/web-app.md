@@ -7,12 +7,13 @@
     - [开发工具](https://tool.browser.qq.com/category/develop)
 
 2. https://tools.miku.ac/ - *MikuTools - 一个轻量的工具集合*
-
 3. https://toolwa.com/ - *工具哇 - 在线工具大全*
+4. https://wangchujiang.com/tools/ - *Home - Web Tools*
+5. ~~http://www.ofmonkey.com/ - _开发者工具/Json格式化/px转rem/编码/解码/二进制 - 程序员在线工具_~~
 
-4. ~~http://www.ofmonkey.com/ - _开发者工具/Json格式化/px转rem/编码/解码/二进制 - 程序员在线工具_~~
+### 站长工具
 
-5. https://wangchujiang.com/tools/ - *Home - Web Tools*
+1. http://tool.zhiduopc.com/ - *站长工具_全球ping_路由检测_端口检测_MTR检测_劫持检测_GFW检测_ICP备案查询_SEO查询_IP地址查询_可用IP查询 - 智多站长工具*
 
 ### 菜鸟工具
 
@@ -45,6 +46,7 @@ https://c.runoob.com/ - *菜鸟工具 - 不止于工具*
 1. https://lzltool.cn/Tools/UrlParse - *URL分析器-URL Query String—LZL在线工具*
 
 2. https://tool.browser.qq.com/urlencode.html - *url编解码-帮小忙，工具箱平台*
+    - 示例：`document:///content://org.gnu.emacs/tree/%252Fdata%252Fuser%252F0%252Forg.gnu.emacs%252Ffiles?/`（需要解码两次才可以得到最终结果）
 
 3. https://c.runoob.com/front-end/695/ - *URL 编码/解码 | 菜鸟工具*
 
@@ -54,7 +56,7 @@ https://c.runoob.com/ - *菜鸟工具 - 不止于工具*
 
 ### HTTP
 
-百度搜索：`网站模拟数据测试工具`
+搜索：`网站模拟数据测试工具`
 
 1. https://www.sojson.com/httpRequest/ - *在线 HTTP 接口测试 - HTTP GET/POST 模拟请求测试工具 —SO JSON 在线工具*
 
@@ -100,12 +102,12 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 
 ## 音/视频播放器
 
-1. http://hunlongyu.gitee.io/zy-player-web/ - *ZY Player Web*
+1. [ZY Player Web](http://hunlongyu.gitee.io/zy-player-web/) - *▶️ 跨平台浏览器端视频资源播放器. 简洁免费. 🎞 ZY Player 浏览器端。* [GitHub Repo](https://github.com/Hunlongyu/ZY-Player-Web)
 
-    - https://github.com/Hunlongyu/ZY-Player-Web - *GitHub - Hunlongyu/ZY-Player-Web: ▶️ 跨平台浏览器端视频资源播放器. 简洁免费. 🎞 ZY Player 浏览器端。*
-
-        ![GitHub last commit](https://badgen.net/github/last-commit/Hunlongyu/ZY-Player-Web?icon=github&color=blue)
-        ![GitHub Repo stars](https://img.shields.io/github/stars/Hunlongyu/ZY-Player-Web?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Hunlongyu/ZY-Player-Web?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Hunlongyu/ZY-Player-Web?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Hunlongyu/ZY-Player-Web?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Hunlongyu/ZY-Player-Web?style=social)
 
 2. https://www.m3u8hls.com/ - *M3U8 Online Media Player*
 
@@ -125,11 +127,14 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 
 3. https://crowdin.com/ - *Localization Management Platform for agile teams | Crowdin*
 
-## 文件转换
+## 文件管理
+
+### 文件转换
 
 1. https://convertio.co/zh/ - *Convertio — 文件转换器*
+2. https://github.com/asadm/markdowndown - *Convert any webpage to a clean markdown w/ images downloaded.*
 
-## 文件对比
+### 文件对比
 
 1. https://www.diffchecker.com/ - *Diffchecker - Compare text online to find the difference between two text files*
 
@@ -141,6 +146,13 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 5. https://globalvision.co/tools/compare-text/ - *Free Online Text Compare Tool - CompareText - GlobalVision*
 6. https://www.textcompare.org/ - *Online Text Compare Tool*
 7. https://app.copyleaks.com/text-compare - *Text Compare - Compare Two+ Documents Online | Diff Tool | Copyleaks*
+
+## 文本工具
+
+### 去除空格
+
+1. [文本去除空格在线工具(ESJSON在线工具)](http://www.esjson.com/delSpace.html)
+2. [在线免费去除文本中的空白字符（极简方便）](https://tools360.net/zh/remove-whitespace)
 
 ## OCR
 
@@ -164,7 +176,13 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 
 1. http://tool.zhiduopc.com/ - *站长工具_全球ping_路由检测_端口检测_MTR检测_劫持检测_GFW检测_ICP备案查询_SEO查询_IP地址查询_可用IP查询 - 智多站长工具*
 
-### 网速测试
+### 测试网站速度
+
+https://www.cloudflare-cn.com/learning/performance/test-the-speed-of-a-website/ - *如何测试网站速度。 | Cloudflare*
+
+1. https://developers.cloudflare.com/fundamentals/basic-tasks/test-speed/ - *Test speed · Cloudflare Fundamentals docs*
+
+### 测试网络速度
 
 https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确的测试自己的网速？ - 小辣椒高效Office 的回答 - 知乎*
 
@@ -172,10 +190,51 @@ https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确�
 
 1. https://10000.gd.cn/html5-speedtest/#/ - *宽带测速平台*
 
-2. https://test.nju.edu.cn/ - *南大测速 NJU Test*
+2. https://librespeed.org/ - *LibreSpeed - Speed Test* [GitHub Repo](https://github.com/librespeed/speedtest)
 
-3. https://speed.cloudflare.com/ - *Internet Speed Test - Measure Network Performance | Cloudflare*
+    ![GitHub last commit](https://img.shields.io/github/last-commit/librespeed/speedtest?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/librespeed/speedtest?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/librespeed/speedtest?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/librespeed/speedtest?style=social)
+
+3. https://test.nju.edu.cn/ - *南大测速 NJU Test*
+
+4. https://speed.cloudflare.com/ - *Internet Speed Test - Measure Network Performance | Cloudflare*
+
+5. https://www.speedtest.net/ - *speedtest.net*
+
+6. https://www.speedtest.cn/ - *测速网 - 专业测网速, 网速测试, 宽带提速, 游戏测速, 直播测速, 5G测速, 物联网监测,Wi-Fi 7,Wi-Fi 6,FTTR - SpeedTest.cn*
 
 ## 尺子
 
 1. https://ruler.codethoi.com/mobile/zh-CN/index.html - *手机上的尺子在线*
+
+## 代码格式化
+
+### HTML
+
+暂无
+
+### CSS
+
+暂无
+
+### JavaScript
+
+暂无
+
+### SQL
+
+暂无
+
+### JSON
+
+暂无
+
+### Markdown
+
+暂无
+
+## 地图工具
+
+1. https://jingweidu.bmcx.com/ - *经纬度查询 - 坐标拾取系统*

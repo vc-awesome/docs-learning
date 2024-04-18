@@ -1,15 +1,12 @@
+# 部署 Ethereum
+
 Linux 系统下稳定，Windows 系统下异常
 
 ## php 安装 scrypt 扩展
 
-[pecl][pecl]
+[pecl][[pecl](https://pecl.php.net/package/scrypt)]
 
-[宝塔][bt]
-
-[pecl]: https://pecl.php.net/package/scrypt
-[bt]: https://www.bt.cn/bbs/forum.php?mod=viewthread&amp;tid=10153
-
-
+[宝塔][https://www.bt.cn/bbs/forum.php?mod=viewthread&amp;tid=10153]
 
 ## 数据表
 
@@ -50,8 +47,6 @@ CREATE TABLE `ev_money_in_eth`  (
 ) ENGINE = InnoDB AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = DYNAMIC;
 ```
 
-
-
 ### ev_money_in_eth_check
 
 ```sql
@@ -64,9 +59,7 @@ CREATE TABLE `ev_money_in_eth_check`  (
 ) ENGINE = MyISAM AUTO_INCREMENT = 1 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 ```
 
-
-
-## 用户表 *ev_member* 添加字段
+### 用户表 *ev_member* 添加字段
 
 ```sql
 `eth_address` varchar(100) DEFAULT NULL COMMENT '以太坊地址', // 添加为索引
@@ -79,8 +72,6 @@ CREATE TABLE `ev_money_in_eth_check`  (
 // 创建`ETH`地址
 file_get_contents('http://45.195.146.155:866/index/index/ethAddress/userid/'. $user['id']);
 ```
-
-
 
 ## 配置项
 
@@ -147,8 +138,6 @@ $money_in_insert_data = [
 $rs[] = M('MoneyInEth')->data($money_in_insert_data)->add();
 ```
 
-
-
 ## 测试
 
 > 5G 探索
@@ -164,8 +153,6 @@ return [
     'boss_address' => 'TKk1vmxtW5hQo6xc2oL4z7vmwj2aLyFBnW', // 归集地址
 ];
 ```
-
-
 
 ## composer package
 
@@ -183,4 +170,3 @@ return [
 // 每笔订单需要 55 个波场
 $fee = (count($lists) * 5) + 50;
 ```
-

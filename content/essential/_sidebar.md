@@ -2,8 +2,6 @@
 * [硬件设备](essential/hardware.md)
 * **PROGRAM**
 * [编码通用](essential/code-common.md)
-* [编码规范](essential/code-guide.md)
-* [命名规则](essential/code-naming-rule.md)
 * [字符集](essential/character-sets.md)
 * [身份认证](essential/identity.md)
 * [加密](essential/crypto.md)
@@ -15,7 +13,10 @@
 * **NETWORK**
 * [Internet](essential/network/internet.md)
 * [HTTP(S)](essential/network/http.md)
-* [跨域](essential/cross-domain.md)
+* [跨域](essential/network/cross-domain.md)
 * [DNS](essential/network/dns.md)
 * [IP](essential/network/ip.md)
 * [服务器](essential/hosting.md)
+* **风格指南**
+* [编码规范](essential/style-guide/code-guide.md)
+* [命名规则](essential/style-guide/code-naming-rule.md)

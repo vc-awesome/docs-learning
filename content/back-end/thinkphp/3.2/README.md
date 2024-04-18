@@ -4,8 +4,6 @@
 
 https://www.kancloud.cn/manual/thinkphp - *ThinkPHP3.2.3完全开发手册 · 看云*
 
----
-
 官方文档看至：[控制器->空控制器](https://www.kancloud.cn/manual/thinkphp/1724)
 
 > 类私有属性、方法命名方式：_parseType，通常下划线开头的方法属于私有方法；

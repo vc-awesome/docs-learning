@@ -33,7 +33,7 @@ GitHub：https://github.com/docker - *Docker helps developers bring their ideas 
 
 ### Windows
 
-1. 👍 安装教程：https://www.runoob.com/docker/windows-docker-install.html - *Windows Docker 安装 | 菜鸟教程*
+1. https://www.runoob.com/docker/windows-docker-install.html - *Windows Docker 安装 | 菜鸟教程*
 
 
 #### Desktop for Windows 版本
@@ -61,7 +61,7 @@ GitHub：https://github.com/docker - *Docker helps developers bring their ideas 
 
 1. https://juejin.cn/post/6875942368214777863 - *低版本 win 10 安装 Docker 的那些坑*
 
-2. https://blog.csdn.net/weixin_44818729/article/details/105747134 - *在DockerToolbox安装docker - Windows 10 各种坑 (吐血超全总结))*
+2. https://blog.csdn.net/weixin_44818729/article/details/105747134 - *在DockerToolbox安装docker - Windows 10 各种坑 (吐血超全总结)*
 
 3. http://blog.baibaota.com/959.html - *win7下安装docker和Docker Toolbox并进行国内加速*
 
@@ -72,52 +72,57 @@ GitHub：https://github.com/docker - *Docker helps developers bring their ideas 
 
 > 低版本 windows 系统使用此方式安装，适用 windows 7 / windows 8
 
-https://docs.docker.com/toolbox/ - *Docker Desktop | Docker Documentation*
+1. https://docs.docker.com/toolbox/ - *Docker Desktop | Docker Documentation*
 
-http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/ - *docker-toolbox-windows-docker-toolbox安装包下载_开源镜像站-阿里云*
+2. http://mirrors.aliyun.com/docker-toolbox/windows/docker-toolbox/ - *docker-toolbox-windows-docker-toolbox安装包下载_开源镜像站-阿里云*
 
-daocloud：https://get.daocloud.io/toolbox/ - *Index of Docker Toolbox*
+3. daocloud：https://get.daocloud.io/toolbox/ - *Index of Docker Toolbox*
 
 
 ### Linux
 
-官方：https://docs.docker.com/engine/install/ - *Install Docker Engine | Docker Documentation*
+1. https://docs.docker.com/engine/install/ - *Install Docker Engine | Docker Documentation*
 
 
 ### macOS
 
-https://docs.docker.com/desktop/mac/install/ - *Install Docker Desktop on Mac | Docker Documentation*
+1. https://docs.docker.com/desktop/mac/install/ - *Install Docker Desktop on Mac | Docker Documentation*
 
-https://www.runoob.com/docker/macos-docker-install.html - *MacOS Docker 安装 | 菜鸟教程*
+2. https://www.runoob.com/docker/macos-docker-install.html - *MacOS Docker 安装 | 菜鸟教程*
+
+3. https://formulae.brew.sh/cask/docker - *docker — Homebrew Formulae*
 
 
-## 镜像加速
+## 快速入门
+
+### 镜像加速
+
+https://www.runoob.com/docker/docker-mirror-acceleration.html - *Docker 镜像加速 | 菜鸟教程*
 
 > 以下内容来源于：https://www.runoob.com/docker/docker-resources.html - *Docker 镜像加速 | 菜鸟教程*
 
-1. 阿里云的加速器：https://help.aliyun.com/document_detail/60750.html
+1. 阿里云的加速器：~~https://help.aliyun.com/document_detail/60750.html~~
+2. 网易加速器：~~http://hub-mirror.c.163.com~~
+3. 官方中国加速器：~~https://registry.docker-cn.com~~
+4. ustc 的镜像：~~https://docker.mirrors.ustc.edu.cn~~
+5. daocloud：~~<https://www.daocloud.io/mirror#accelerator-doc>（需注册后使用）~~
 
-2. 网易加速器：http://hub-mirror.c.163.com
-
-3. 官方中国加速器：https://registry.docker-cn.com
-
-4. ustc 的镜像：https://docker.mirrors.ustc.edu.cn
-
-5. daocloud：<https://www.daocloud.io/mirror#accelerator-doc>（需注册后使用）
-
----
+其它镜像：
 
 1. https://dockerproxy.com/ - *Docker Proxy 镜像加速*
+2. https://dockerhub.icu/ - *DockerHub容器镜像库|应用容器化* [via](https://blog.csdn.net/clearloe/article/details/139711335)
+3. https://github.com/DaoCloud/public-image-mirror - *GitHub - DaoCloud/public-image-mirror: 很多镜像都在国外。比如 gcr 。国内下载很慢，需要加速。致力于提供连接全世界的稳定可靠安全的容器镜像服务。* _via https://cloud.tencent.com/developer/article/2434428 - *国内无法拉取Docker镜像了？这些方法拯救你的Docker-腾讯云开发者社区-腾讯云*_
+4. https://github.com/gebangfeng/docker-mirror - *GitHub - gebangfeng/docker-mirror: 整理各大docker,容器镜像仓库的国内镜像源*
 
 
-## Hub（仓库）
+### Hub（仓库）
 
 > Docker 的官方仓库 Docker Hub 是最重要、最常用的 image 仓库。
 
 dockerhub：https://hub.docker.com/search?q=
 
 
-## FAQs
+## 常见问题
 
 docker ⇣
 

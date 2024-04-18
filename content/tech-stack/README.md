@@ -2,26 +2,26 @@
 
 ## 技术导航
 
-1. https://andreasbm.github.io/web-skills/ - _Web Skills_ [GitHub](https://github.com/andreasbm/web-skills)
+1. https://andreasbm.github.io/web-skills/ - _Web Skills_ [GitHub Repo](https://github.com/andreasbm/web-skills)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/andreasbm/web-skills?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/andreasbm/web-skills?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/andreasbm/web-skills?style=social)
 
 2. https://blog.csdn.net/weixin_41105030/article/details/89145407 - *PHPStorm、PHP、web开发网络概念（HTTP）_前端薛之谦...的博客-CSDN博客*
 
-3. https://wangchujiang.com/dev-site/ - *技术文档导航 - Dev Site* [GitHub](https://github.com/jaywcjlove/dev-site)
+3. https://wangchujiang.com/dev-site/ - *技术文档导航 - Dev Site* [GitHub Repo](https://github.com/jaywcjlove/dev-site)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/jaywcjlove/dev-site?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/dev-site?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/dev-site?style=social)
 
 4. https://github.com/taojintianxia/github-bookmark - *GitHub - taojintianxia/github-bookmark: 收集了Github上的优秀工具,框架,知识合集*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/taojintianxia/github-bookmark?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/taojintianxia/github-bookmark?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/taojintianxia/github-bookmark?style=social)
 
 5. https://github.com/PanJiaChen/awesome-bookmarks - *GitHub - PanJiaChen/awesome-bookmarks: :sparkling_heart: A curated list of awesome things*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/PanJiaChen/awesome-bookmarks?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/PanJiaChen/awesome-bookmarks?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/PanJiaChen/awesome-bookmarks?style=social)
 
 ## 知识体系
@@ -33,18 +33,16 @@
 - 计算机网络知识
 - 计算机软件知识
 
----
-
-- JavaScript 基础
-- CSS 基础
 - HTML 基础
+- CSS 基础
+- JavaScript 基础
 - PHP 基础
+    - Composer 基础
 - MySQL 基础
 - Apache 基础
 - Nginx 基础
 - HTTP 基础
     - payload（有效载荷）
-- Composer 基础
 - Git
 - Windows CMD / DOS
     - 教程1 https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands - *Windows 命令 | Microsoft Learn*
@@ -66,32 +64,38 @@
     - 微信小程序
     - 微信支付
 - 支付宝开发
+    - 支付宝小程序
     - 支付宝支付
 - OAuth
 - JSX
-- Vite
-    - 下一代前端开发与构建工具
-    - https://vitejs.cn/ - *Home | Vite中文网*
+- 地图
+    - https://lbs.qq.com/ - *腾讯位置服务 - 立足生态，连接未来*
 
 ## 操作系统
 
 - Windows
 - Linux
 - macOS
+- Android
 
 ## 编程语言
 
+- Java
+- Bash
+- Markdown
+
 ### Web 前端
 
+- [Node.js](https://www.nodeapp.cn/) - *Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。Node.js 的包管理器 npm，是全球最大的开源库生态系统。*
+    - [gulp.js](https://www.gulpjs.com.cn/) - *Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发过程中自动执行常见任务。Gulp.js 是基于 Node.js 构建的，利用 Node.js 流的威力，你可以快速构建项目并减少频繁的 IO 操作。Gulp.js 源文件和你用来定义任务的 Gulp 文件都是通过 JavaScript（或者 CoffeeScript ）源码来实现的。*
+    - [webpack.js](https://www.webpackjs.com/) - *webpack 是一个模块打包器。它的主要目标是将 JavaScript 文件打包在一起，打包后的文件用于在浏览器中使用，但它也能够胜任转换、打包或包裹任何资源。*
+    - [npm.js](https://www.npmjs.com.cn/) - *npm 是 JavaScript 世界的包管理工具，并且是 Node.js 平台的默认包管理工具。通过 npm 可以安装、共享、分发代码，管理项目依赖关系。*
+    - [rollup.js](https://www.rollupjs.com/guide/zh) - *Rollup 是一个用于 JavaScript 的模块打包工具，它将小的代码片段编译成更大、更复杂的代码，例如库或应用程序。它使用 JavaScript 的 ES6 版本中包含的新标准化代码模块格式，而不是以前的 CommonJS 和 AMD 等特殊解决方案。*
+- [Vue.js](https://cn.vuejs.org/) - *Vue.js - 渐进式的 JavaScript 框架*
+    - [Vite](https://vitejs.cn/) - *下一代前端开发与构建工具*
 - React.js
-- Node.js https://www.nodeapp.cn/
-    - gulp.js https://www.gulpjs.com.cn/
-    - webpack.js https://www.webpackjs.com/
-    - npm.js https://www.npmjs.com.cn/
-    - rollup.js https://www.rollupjs.com/guide/zh
-- Vue.js https://cn.vuejs.org/
-- jQuery https://www.jquery123.com/
-- LESS http://www.bootcss.com/p/lesscss/
+- [jQuery](https://www.jquery123.com/) - *jQuery：用更少的代码完成更多工作！jQuery 是一个最流行的 JavaScript 工具库。*
+- [LESS](http://www.bootcss.com/p/lesscss/)
 - SCSS
 
 #### UI 框架
@@ -130,7 +134,7 @@
 - Nginx
 - Tengine
 - OpenResty （结合编程语言 Lua 使用）
-- IIS 7.5
+- IIS
 - [Vercel](https://vercel.com/ "前端部署") - *Vercel: Develop. Preview. Ship. For the best frontend teams*
 
 #### 应用容器引擎
@@ -144,8 +148,7 @@
 
 ### 全文搜索引擎
 
-- Sphinx
-    - http://sphinxsearch.com/ - *Sphinx | Open Source Search Engine*
+- [Sphinx](http://sphinxsearch.com/) - *Sphinx | Open Source Search Engine*
 
 ### 开放平台
 

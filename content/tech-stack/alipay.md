@@ -11,22 +11,38 @@
 
 https://www.alipay.com/ - *支付宝*
 
-https://open.alipay.com/ - *支付宝开放平台*
-
 ## 安装
 
+暂无
 
 ## 入门指南
 
+暂无
 
 ## 快速入门
 
+暂无
 
 ## 设置
 
+暂无
+
+## 开放平台
+
+> 支付宝开放平台基于支付宝的海量用户，将强大的支付、营销、数据能力，通过接口等形式开放给第三方合作伙伴，帮助第三方合作伙伴创建更具竞争力的应用
+
+https://open.alipay.com/ - *支付宝开放平台*
+
+### 小程序
+
+https://open.alipay.com/portal/forum/post/17101017 - *【经验分享】如何获取任意小程序appId及页面路径 - 社区 - 开放平台*
+
+https://open.alipay.com/portal/forum/post/61901024 - *如何获取别人开发的支付宝小程序的appId - 社区 - 开放平台*
 
 ## 常见问题解答
 
+暂无
 
 ## 参考
 
+暂无

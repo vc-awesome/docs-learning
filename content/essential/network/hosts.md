@@ -10,11 +10,12 @@
 
 https://github.com/topics/hosts - *hosts · GitHub Topics · GitHub*
 
-## Tutorials
+## Tutorial
 
 https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHub*
 
-![GitHub last commit](https://badgen.net/github/last-commit/VeleSila/yhosts?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/VeleSila/yhosts?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/VeleSila/yhosts?style=social)
 
 ## Configuration
 
@@ -76,21 +77,28 @@ https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHu
 3. [Daedalus](os/mobile/app-list.md#daedalus)
 4. ✅ [Virtual Hosts]() - *hosts for android,implement by vpn mode,supports wildcard DNS records - x-falcon/Virtual-Hosts*
 
+    ![GitHub last commit](https://img.shields.io/github/last-commit/x-falcon/Virtual-Hosts?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/x-falcon/Virtual-Hosts?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/x-falcon/Virtual-Hosts?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/x-falcon/Virtual-Hosts?style=social)
+
     - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.github.xfalcon.vhosts), [F-Droid](https://f-droid.org/packages/com.github.xfalcon.vhosts)）
 
-    - 开源软件（[GitHub](https://github.com/x-falcon/Virtual-Hosts)）
+    - 开源软件（[GitHub Repo](https://github.com/x-falcon/Virtual-Hosts)）
 
 用法：
 
 - AdAway：配置本地 hosts 规则和远端 github hosts 规则
 - Daedalus：配置本地 hosts 规则和远端 github hosts 规则（软件版本：？，启动 DNS 功能后使用一两分钟，应用出现奔溃问题）
-- Virtual Hosts：置本地 hosts 规则和远端 github hosts 规则（软件版本：？，开启 DNS 每次只能使用一条规则）
+- Virtual Hosts：置本地 hosts 规则和远端 github hosts 规则（软件版本：2.2.2，开启 DNS 每次只能使用一条规则）
 - personalDNSfilter：无法配置本地 hosts，但可以在 *高级设置 > 配置其他主机* 添加规则；配置远端 github hosts 规则时，只能拦截不能重定向规则
 - AdGuard：无法配置格式为 `127.0.0.1 www.baidu.com` 的本地 hosts 规则和远端 hosts 规则
 
-以上应用配置完远端 hosts 规则，需清除设备 DNS 缓存（手机端使用“开启/关闭飞行模式”的方式清除 DNS 缓存）。
+以上应用配置完远端 hosts 规则，需清除设备的 DNS 缓存（手机端使用“开启/关闭飞行模式”的方式清除 DNS 缓存）。
 
-### Browser addons
+### 浏览器扩展
+
+暂无
 
 ## Rules（订阅源）
 
@@ -100,17 +108,19 @@ https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHu
 
 1. https://github.com/googlehosts/hosts - *googlehosts/hosts: 镜像：https://scaffrey.coding.net/p/hosts/git / https://git.qvq.network/googlehosts/hosts*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/googlehosts/hosts?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/googlehosts/hosts?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/googlehosts/hosts?style=social)
 
 2. https://github.com/lennylxx/ipv6-hosts - *lennylxx/ipv6-hosts: Fork of https://code.google.com/archive/p/ipv6-hosts/, focusing on automation*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/lennylxx/ipv6-hosts?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/lennylxx/ipv6-hosts?style=social)
 
 3. https://cloud.tencent.com/developer/article/1932239 - *Google hosts - 简单介绍与使用方法*
 
 4. ~~https://github.com/y1yang0/hosts~~
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/y1yang0/hosts?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/y1yang0/hosts?color=blue&logo=github)
 
 ### GitHub
 
@@ -118,7 +128,7 @@ https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHu
 
 > :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
 
-![GitHub last commit](https://badgen.net/github/last-commit/521xueweihan/GitHub520?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/521xueweihan/GitHub520?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/521xueweihan/GitHub520?style=social)
 
 https://github.com/521xueweihan/GitHub520 - *GitHub - 521xueweihan/GitHub520: :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）*
@@ -131,7 +141,7 @@ https://github.com/521xueweihan/GitHub520 - *GitHub - 521xueweihan/GitHub520: :k
 
 > 解决 GitHub 图片无法显示，加速 GitHub 网页浏览。
 
-![GitHub last commit](https://badgen.net/github/last-commit/ineo6/hosts?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/ineo6/hosts?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ineo6/hosts?style=social)
 
 https://github.com/ineo6/hosts - *GitHub - ineo6/hosts: GitHub 最新 hosts。解决 GitHub 图片无法显示，加速 GitHub 网页浏览。*
@@ -144,16 +154,16 @@ https://github.com/ineo6/hosts - *GitHub - ineo6/hosts: GitHub 最新 hosts。�
 
 ### 广告拦截
 
-> 广告过滤（拦截）
+> 广告过滤（拦截）规则
 
 1. https://github.com/privacy-protection-tools/anti-AD - *privacy-protection-tools/anti-AD: 致力于成为中文区命中率最高的广告过滤列表，实现精确的广告屏蔽和隐私保护。anti-AD现已支持AdGuardHome，dnsmasq， Surge，Pi-Hole，smartdns等网络组件。完全兼容常见的广告过滤工具所支持的各种广告过滤列表格式*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/privacy-protection-tools/anti-AD?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/privacy-protection-tools/anti-AD?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/privacy-protection-tools/anti-AD?style=social)
 
 2. https://github.com/gorhill/uBlock - *gorhill/uBlock: uBlock Origin - An efficient blocker for Chromium and Firefox. Fast and lean.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/gorhill/uBlock?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/gorhill/uBlock?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/gorhill/uBlock?style=social)
 
 3. https://github.com/StevenBlack/hosts - *StevenBlack/hosts: 🔒 Consolidating and extending hosts files from several well-curated sources. Optionally pick extensions for porn, social media, and other categories.*
@@ -161,11 +171,13 @@ https://github.com/ineo6/hosts - *GitHub - ineo6/hosts: GitHub 最新 hosts。�
     ![GitHub last commit](https://img.shields.io/github/last-commit/StevenBlack/hosts?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/StevenBlack/hosts?style=social)
 
-## 刷新本地 DNS
+## Usage
 
-修改了 hosts 文件后不需要重启电脑，直接在本地刷新 dns 的缓存即可生效：
+### 刷新本地 DNS 缓存
 
-### Windows
+修改了 hosts 文件后不需要重启电脑，直接在本地刷新 DNS 的缓存即可生效：
+
+#### Windows
 
 操作步骤：
 
@@ -181,11 +193,11 @@ https://github.com/ineo6/hosts - *GitHub - ineo6/hosts: GitHub 最新 hosts。�
 
 3. 接下来你会看到 `已成功刷新 DNS 解析缓存` 。
 
-### macOS
+#### macOS
 
 操作步骤：
 
-1. 打开终端工具
+1. 打开「终端」工具
 
 2. 输入
 
@@ -193,23 +205,27 @@ https://github.com/ineo6/hosts - *GitHub - ineo6/hosts: GitHub 最新 hosts。�
     sudo killall -HUP mDNSResponder
     ```
 
-### Android
+#### Android
 
-[Essential > network > dns.md#手机配置私人 DNS](essential/network/dns.md#手机配置私人-DNS)
+[清除 Android 设备的 DNS 缓存](https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache/#android%E5%AE%89%E5%8D%93)
 
-## 修改 hosts 文件
+1. 最简单的方法：打开和关闭飞行模式。
+
+### 修改 hosts 文件
 
 http://ddrfans.com/Html/1/301864.html - *hosts文件修改方法集合(附各种问题解决方法) | 更新日期：2023/11/11,DDR爱好者之家*
 
-### macOS
+#### macOS
 
-「访达」查找文件所在位置：
+操作步骤：
 
-- `/etc/hosts`
+1. 「访达」查找到文件所在位置：`/etc/hosts`
 
-「终端」设置 hosts 写入权限：
+2. 「终端」设置 hosts 写入权限：`sudo chmod -R 777 /etc/hosts`
 
-- `sudo chmod -R 777 /etc/hosts`
+3. 「终端」编辑 hosts 内容：`vim /etc/hosts`
+
+4. 「终端」刷新本地 DNS 缓存：`sudo killall -HUP mDNSResponder`
 
 ## Reference
 

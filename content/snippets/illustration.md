@@ -3,16 +3,24 @@
 中文版：
 
 ```markdown
+![illustration]()
+
 <small>*插图来源于：[]()*</small>
 ```
 
 英文版：
 
 ```markdown
+![illustration]()
+
 <small>*Picture source: []()*</small>
 ```
 
 ## 插图列表
+
+![illustration](../../_media/glossary-hero.png)
+
+<small>*插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)*</small>
 
 ![illustration](https://developer.android.google.cn/static/images/design/ui/mobile/color-hero.png?hl=zh-cn)
 
@@ -37,3 +45,11 @@
 ![illustration](https://www.digitalocean.com/_next/static/media/intro-to-cloud.d49bc5f7.jpeg)
 
 <small>*插图来源于：[An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)*</small>
+
+![illustration](../../_media/725a2733193942518c254a7eb15e61feeb01fde0e2b051a9168e9c080263d2c6.jpg)
+
+<small>*插图来源于：[Quizizz | Free Online Quizzes, Lessons, Activities and Homework](https://quizizz.com/?lng=zh-CN)*</small>
+
+![illustration](https://www.apple.com/v/app-store/b/images/overview/hero__fpyktigxzia2_small_2x.jpg)
+
+<small>*插图来源于：[App Store - Apple](https://www.apple.com/app-store/)*</small>

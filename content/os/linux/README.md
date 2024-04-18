@@ -26,6 +26,14 @@ GitHub:
 
 1. https://github.com/torvalds/linux - *GitHub - torvalds/linux: Linux kernel source tree*
 
+## 教程
+
+https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
+
+https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
+
+https://linux.vbird.org/ - *鳥哥私房菜 - 鳥哥的首頁*
+
 ## 安装
 
 https://www.linux.org/pages/download/ - *Download Linux | Linux.org*
@@ -48,17 +56,15 @@ https://wiki.ubuntu.com.cn/UbuntuManual - *UbuntuManual - Ubuntu中文*
 
 ### Debian
 
+暂无
+
 ### Fedora
+
+暂无
 
 ### Arch
 
 https://archlinux.org/ - *Arch Linux*
-
-## 教程
-
-https://www.runoob.com/linux/linux-tutorial.html - *Linux 教程 | 菜鸟教程*
-
-https://linux.vbird.org/ - *鳥哥私房菜 - 鳥哥的首頁*
 
 ## 入门指南
 
@@ -74,8 +80,12 @@ https://wiki.archlinux.org/title/Man_page - *man page - ArchWiki*
 
 👏 https://wiki.archlinux.org/title/Man_page#Online_man_pages - *6Online man pages*
 
-
 ## 工具
+
+### 包管理器
+
+1. https://www.cnblogs.com/fungitive/p/9136254.html - *linux软件安装之详解apt、yum、dnf 和 pkg包安装 - 菲宇 - 博客园*
+2. https://cn.linux-console.net/?p=12011 - *如何列出 Linux 上已安装的软件包*
 
 ### SSH
 

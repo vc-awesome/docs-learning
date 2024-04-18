@@ -72,20 +72,18 @@
 
 ## 徽章
 
-https://shields.io/ - *Shields.io | Shields.io*
+https://dev.to/envoy_/150-badges-for-github-pnk - *📛 Awesome Badges - DEV Community* [GitHub Repo](https://github.com/Envoy-VC/awesome-badges)
 
-https://badgen.net/ - *badgen.net*
-
-https://dev.to/envoy_/150-badges-for-github-pnk - *📛 Awesome Badges - DEV Community* [GitHub](https://github.com/Envoy-VC/awesome-badges)
-
-![GitHub last commit](https://badgen.net/github/last-commit/Envoy-VC/awesome-badges?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Envoy-VC/awesome-badges?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Envoy-VC/awesome-badges?style=social)
 
 ---
 
-https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstrap-vue: BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.*
+以下 Demo 均以 "https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstrap-vue: BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.*" 为例制作。
 
 ### Badgen
+
+https://badgen.net/ - *badgen.net*
 
 1. ![GitHub last commit](https://badgen.net/github/last-commit/bootstrap-vue/bootstrap-vue?icon=github&color=blue)
 
@@ -104,6 +102,8 @@ https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstr
     Demo：https://badgen.net/f-droid/v/org.fdroid.fdroid
 
 ### Shields
+
+https://shields.io/ - *Shields.io | Shields.io*
 
 1. ![GitHub last commit](https://img.shields.io/github/last-commit/bootstrap-vue/bootstrap-vue?logo=github&color=blue)
 
@@ -179,11 +179,10 @@ https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstr
 
 10. ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
 
-
     ```markdown
     ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
     ```
-    
+
     Demo：https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue
     
     参考：https://github.com/espanso/espanso/blob/dev/README.md - *espanso/README.md at dev · espanso/espanso · GitHub*

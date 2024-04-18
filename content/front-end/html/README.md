@@ -97,21 +97,18 @@ https://www.runoob.com/html/html-head.html - *HTML 头部 | 菜鸟教程*
 
 #### \<meta>
 
-1. https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta - *<meta>：元数据元素 - HTML（超文本标记语言） | MDN*
+1. https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta - *\<meta>：元数据元素 - HTML（超文本标记语言） | MDN*
 
 2. https://www.runoob.com/w3cnote/meta.html - *常用meta整理*
 
 3. http://fex.baidu.com/blog/2014/10/html-head-tags/ - *HTML head 头标签*
+    1. https://fex-team.github.io/blog/2014/10/html-head-tags// - *HTML head 头标签 - FEX*
 
-4. https://github.com/audreyfeldroy/favicon-cheat-sheet - *Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.)*
-
-----
+##### charset
 
 ```html
 <meta charset="utf-8" />
 ```
-
-----
 
 ```html
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, minimal-ui">
@@ -125,6 +122,10 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTML/Viewport_meta_tag - *viewport 
 
 https://www.runoob.com/tags/tag-link.html - *HTML \<link>标签 | 菜鸟教程*
 
+```html
+<link rel="stylesheet" type="text/css" href="theme.css">
+```
+
 https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/link - *\<link>：外部资源链接元素 - HTML（超文本标记语言） | MDN*
 
 ```html
@@ -133,13 +134,18 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/link - *\<link>：外�
 
 参考：https://developer.mozilla.org/zh-CN/docs/Web/Manifest - *Web App Manifest | MDN*
 
+1. https://github.com/audreyfeldroy/favicon-cheat-sheet - *Obsessive cheat sheet to favicon sizes/types. Please contribute! (Note: this may be in flux as I learn new things about favicon best practices.)*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/audreyfeldroy/favicon-cheat-sheet?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/audreyfeldroy/favicon-cheat-sheet?style=social)
+
 #### \<script>
 
 https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script#attributes - *\<script>：脚本元素 - HTML（超文本标记语言） | MDN*
 
 ##### integrity
 
-```javascript
+```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js" integrity="sha512-UXumZrZNiOwnTcZSHLOfcTs0aos2MzBWHXOHOuB0J/R44QB0dwY5JgfbvljXcklVf65Gc4El6RjZ+lnwd2az2g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 ```
 
@@ -153,7 +159,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script#attributes - *\
 
 ##### async
 
-```javascript
+```html
 <script src="js/require.js" defer async="true" ></script>
 ```
 
@@ -244,6 +250,10 @@ https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | �
 
 实例参考：https://www.markdownguide.org/hacks/#image-captions - *Hacks | Markdown Guide*
 
+### \<a>
+
+https://wangdoc.com/html/a - *\<a> - HTML 教程 - 网道*
+
 ### \<video>
 
 教程：
@@ -264,11 +274,16 @@ https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | �
 
 1. [解决 H5 页面 video 在 ios 上播放视频时会默认全屏显示](https://juejin.cn/post/7018153006935834631)
 
-  https://githubfast.com/fregante/iphone-inline-video - *GitHub - fregante/iphone-inline-video: 📱 Make videos playable inline on the iPhone (prevents automatic fullscreen)*
+    https://github.com/fregante/iphone-inline-video - *GitHub - fregante/iphone-inline-video: 📱 Make videos playable inline on the iPhone (prevents automatic fullscreen)*
 
-  ```html
-  <video webkit-playsinline="true" playsinline="true"></video>
-  ```
+    ![GitHub last commit](https://badgen.net/github/last-commit/fregante/iphone-inline-video?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/fregante/iphone-inline-video?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/fregante/iphone-inline-video?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/fregante/iphone-inline-video?style=social)
+
+    ```html
+    <video webkit-playsinline="true" playsinline="true"></video>
+    ```
 
 参考：
 

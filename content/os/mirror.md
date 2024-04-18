@@ -58,7 +58,8 @@
 
     - https://github.com/fastgitorg/document - *GitHub - FastGitORG/document: 📄 FastGit Document*
 
-        ![GitHub last commit](https://badgen.net/github/last-commit/fastgitorg/document?icon=github&color=blue)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/fastgitorg/document?logo=github&color=blue)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/fastgitorg/document?style=social)
 
     - https://doc.fastgit.org/ - *FastGit UK Document*
 
@@ -66,7 +67,7 @@
 
 2. https://github.com/kgithub666/kgithub - *GitHub - kgithub666/kgithub*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/kgithub666/kgithub?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/kgithub666/kgithub?logo=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/kgithub666/kgithub?style=social)
 
     官方：

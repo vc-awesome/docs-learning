@@ -37,3 +37,10 @@ stateDiagram
 工具：
 
 1. https://www.huluer.com/ - *π-Disk 派盘 ® – 知识管理专家*
+
+### 提问的智慧
+
+https://mp.weixin.qq.com/s/q461so9lWk4FKJGZ-p7Vcg - *​提问的智慧-中国版*
+
+- http://www.catb.org/~esr/faqs/smart-questions.html - *How To Ask Questions The Smart Way*
+- https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way - *GitHub - ryanhanwu/How-To-Ask-Questions-The-Smart-Way: 本文原文由知名 Hacker Eric S. Raymond 所撰寫，教你如何正確的提出技術問題並獲得你滿意的答案。*

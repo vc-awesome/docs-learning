@@ -12,17 +12,21 @@
 
 ## 官方
 
+https://vant.pro/vant/#/zh-CN - *Vant 4 - 轻量、可定制的移动端组件库*
+
 https://vant-ui.github.io/vant/#/zh-CN - *Vant 4 - 轻量、可定制的移动端组件库*
 
 https://github.com/youzan/vant - *GitHub - youzan/vant: A lightweight, customizable Vue UI library for mobile web apps.*
 
-https://vant-contrib.gitee.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*
+~~https://vant-contrib.gitee.io/vant/ - *Vant 4 - 轻量、可定制的移动端组件库*~~
 
 https://gitee.com/vant-contrib/vant - *vant: 轻量、可定制的移动端 Vue 组件库。反馈 issue 请异步 GitHub 仓库：https://github.com/youzan/vant/issues*
 
 ## 版本
 
 ### 4.x
+
+暂无
 
 ### 3.x
 
@@ -37,6 +41,14 @@ https://vant-ui.github.io/vant/v2/#/zh-CN/ - *Vant 2 - 轻量、可靠的移动�
 https://vant-ui.github.io/vant/#/zh-CN/quickstart - *快速上手 - Vant 4*
 
 ### 通过 npm 安装
+
+```bash
+# Vue 3 项目，安装最新版 Vant
+npm i vant
+
+# Vue 2 项目，安装 Vant 2
+npm i vant@latest-v2
+```
 
 ### 通过 CDN 安装
 
@@ -182,7 +194,7 @@ https://vant-contrib.gitee.io/vant/#/zh-CN/number-keyboard - *NumberKeyboard 数
 // 通过 CDN 引入时不会自动注册 Lazyload 组件
 // 可以通过下面的方式手动注册
 
-Vue.use(vant.Lazyload); // Vue.use(vant.Lazyload);需要放在new Vue({});前面
+Vue.use(vant.Lazyload); // 需要放在 new Vue({}); 前面
 ```
 
 参考：

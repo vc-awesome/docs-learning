@@ -1,9 +1,14 @@
 # Flex
 
+## 简介
+
+> Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型提供最大的灵活性。
+
 ## 教程
 
 1. http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html - _Flex 布局教程：语法篇_
 2. https://www.ruanyifeng.com/blog/2015/07/flex-examples.html - _Flex 布局教程：实例篇_
+3. https://www.ruanyifeng.com/blog/2018/10/flexbox-form.html - *Flexbox 布局的最简单表单 - 阮一峰的网络日志*
 
 ## 属性
 

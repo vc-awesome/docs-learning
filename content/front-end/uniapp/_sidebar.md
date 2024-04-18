@@ -1,5 +1,5 @@
 * [uni-app](front-end/uniapp/)
-* [Tutorial](front-end/uniapp/uniapp.md "uniapp教程")
+* [Tutorial](front-end/uniapp/tutorial.md "uniapp教程")
 * **工具**
 * [HBuilder X](front-end/uniapp/hbuilderx.md)
 * **插件**

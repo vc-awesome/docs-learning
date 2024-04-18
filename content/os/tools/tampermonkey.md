@@ -38,11 +38,9 @@ GitHub:
 
 2. https://addons.opera.com/en/extensions/details/tampermonkey-beta/ - *Tampermonkey extension - Opera add-ons* （⚠️ VPN 必须开启全局模式）
 
----
+3. 🚫 https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo - *篡改猴 | Chrome扩展 - Crx搜搜*
 
-1. 🚫 https://www.crxsoso.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo - *篡改猴 | Chrome扩展 - Crx搜搜*
-
-2. ✅ https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf - *篡改猴测试版 | Chrome扩展 - Crx搜搜*
+4. ✅ https://www.crxsoso.com/webstore/detail/gcalenpjmijncebpfijmoaglllgpjagf - *篡改猴测试版 | Chrome扩展 - Crx搜搜*
 
 ## 脚本
 
@@ -57,9 +55,9 @@ GitHub:
     ![GitHub last commit](https://badgen.net/github/last-commit/awesome-scripts/awesome-userscripts?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/awesome-scripts/awesome-userscripts?style=social)
 
-4. https://greasyfork.org/zh-CN - _Greasy Fork - 安全、实用的用户脚本大全_
+4. https://greasyfork.org/zh-CN - *Greasy Fork - 安全、实用的用户脚本大全*
 
-5. https://www.baiduyun.wiki/ - _油小猴_
+5. https://www.baiduyun.wiki/ - *油小猴*
 
     1. https://www.youxiaohou.com/tool/install-darkmode.html - *夜间模式助手 | 油小猴*
 
@@ -103,24 +101,26 @@ https://github.com/Mottie/GitHub-userscripts - *GitHub - Mottie/GitHub-userscrip
 
 > 加速脚本仅支持打开网页后，下载文件资源加速。
 
-1. [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD)
+1. [Github 增强 - 高速下载](https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD) - *高速下载 Git Clone/SSH、Release、Raw、Code(ZIP) 等文件 (公益加速)、项目列表单文件快捷下载 (☁)、添加 git clone 命令*
 
     ![Greasy Fork Version](https://img.shields.io/greasyfork/v/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc%2FgoBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN%2Bce%2B5c4LMUgDmANYBnrnV%2BplBSi%2BFwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs%2Bz%2BczO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw%2BHA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o%2B%2F7Hy0gD8KatOd5vN%2Fv1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl%2Bm%2F6%2FwDuWAjtPfsQuwAAAAASUVORK5CYII%3D&labelColor=7b0000&color=960000)
 
 
-2. [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD)
+2. [FastGithub 镜像加速访问、克隆和下载](https://greasyfork.org/zh-CN/scripts/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD) - *镜像访问GitHub,极速Clone、Release/Raw/Zip加速；十几个站点可供选择；前往项目Github仓库查看免费搭建Github镜像站点方法*
 
     ![Greasy Fork Version](https://img.shields.io/greasyfork/v/397419-fastgithub-%E9%95%9C%E5%83%8F%E5%8A%A0%E9%80%9F%E8%AE%BF%E9%97%AE-%E5%85%8B%E9%9A%86%E5%92%8C%E4%B8%8B%E8%BD%BD?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc%2FgoBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN%2Bce%2B5c4LMUgDmANYBnrnV%2BplBSi%2BFwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs%2Bz%2BczO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw%2BHA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o%2B%2F7Hy0gD8KatOd5vN%2Fv1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl%2Bm%2F6%2FwDuWAjtPfsQuwAAAAASUVORK5CYII%3D&labelColor=7b0000&color=960000)
 
-3. [github release 加速下载](https://greasyfork.org/zh-CN/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD)
+3. [github release 加速下载](https://greasyfork.org/zh-CN/scripts/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD) - *github release speedup downloader 给release添加 一个按钮 使用cf代理加速下载*
 
     ![Greasy Fork Version](https://img.shields.io/greasyfork/v/405033-github-release-%E5%8A%A0%E9%80%9F%E4%B8%8B%E8%BD%BD?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc%2FgoBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN%2Bce%2B5c4LMUgDmANYBnrnV%2BplBSi%2BFwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs%2Bz%2BczO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw%2BHA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o%2B%2F7Hy0gD8KatOd5vN%2Fv1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl%2Bm%2F6%2FwDuWAjtPfsQuwAAAAASUVORK5CYII%3D&labelColor=7b0000&color=960000)
 
-4. [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization)
+4. [GitHub汉化插件](https://greasyfork.org/zh-CN/scripts/407485-github-internationalization) - *GitHub汉化插件，包含人机翻译*
 
     ![Greasy Fork Version](https://img.shields.io/greasyfork/v/407485-github-internationalization?logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8%2F9hAAAABmJLR0QA%2FwD%2FAP%2BgvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3ggEBCQHM3fXsAAAAVdJREFUOMudkz2qwkAUhc%2FgoBaGJBgUtBCZyj0ILkpwAW7Bws4yO3AHLiCtEFD8KVREkoiFxZzX5A2KGfN4F04zMN%2Bce%2B5c4LMUgDmANYBnrnV%2BplBSi%2BFwyHq9TgA2LQpvCiEiABwMBtzv95RSfoNEHy8DYBzHrNVqVEr9BWKcqNFoxF6vx3a7zc1mYyC73a4MogBg7vs%2Bz%2BczO50OW60Wt9stK5UKp9Mpj8cjq9WqDTBHnjAdxzGQZrPJw%2BHA31oulzbAWgLoA0CWZVBKIY5jzGYzdLtdE9DlcrFNrY98zobqOA6TJKHW2jg4nU5sNBpFDp6mhVe5rsvVasUwDHm9Xqm15u12o%2B%2F7Hy0gD8KatOd5vN%2Fv1FozTVN6nkchxFuI6hsAAIMg4OPxMJCXdtTbR7JJCMEgCJhlGUlyPB4XfumozInrupxMJpRSRtZlKoNYl%2Bm%2F6%2FwDuWAjtPfsQuwAAAAASUVORK5CYII%3D&labelColor=7b0000&color=960000)
 
 ### 备份
+
+暂无
 
 ## 用法
 

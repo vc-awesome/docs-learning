@@ -10,8 +10,9 @@
 
 1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions - *正则表达式 - JavaScript | MDN*
 2. https://www.runoob.com/regexp/regexp-tutorial.html - *正则表达式 – 教程 | 菜鸟教程*（包含在线工具）
-3. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
-4. https://www.regular-expressions.info/ - *Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns*
+3. https://wangdoc.com/javascript/stdlib/regexp - *RegExp 对象 - JavaScript 教程 - 网道*
+4. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
+5. https://www.regular-expressions.info/ - *Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns*
 
 ## 快速入门
 
@@ -47,7 +48,7 @@
 
 ### 量词
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - *Quantifier: *, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN*
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - *Quantifier: \*, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN*
 
 ### 修饰符
 
@@ -60,6 +61,14 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 详见：https://www.runoob.com/regexp/regexp-flags.html - *正则表达式 – 修饰符（标记） | 菜鸟教程*
 
+### 元字符
+
+| 字符 | 描述 |
+| --- | --- |
+| x\|y | 匹配 x 或 y。例如，'z|food' 能匹配 "z" 或 "food"。'(z|f)ood' 则匹配 "zood" 或 "food"。 |
+
+详见：https://www.runoob.com/regexp/regexp-metachar.html - *正则表达式 – 元字符 | 菜鸟教程*
+
 ### 捕获组
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group - *Capturing group: (...) - JavaScript | MDN*
@@ -71,7 +80,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 - 语法*
 
-### 反向引用 \num
+### 反向引用 `\num`
 
 正则表达式反向引用 `\1` `\2` 类型的用途
 
@@ -218,6 +227,11 @@ https://www.cnblogs.com/chenjiacheng/p/6522598.html - *php正则表达式验证�
 /[a-zA-z]+://[^\s]*/
 ```
 
+参考：
+
+1. https://www.freecodecamp.org/news/how-to-write-a-regular-expression-for-a-url/ - *URL RegEx Pattern – How to Write a Regular Expression for a URL*
+2. https://blog.walterlv.com/post/match-web-url-using-regex.html - *使用正则表达式尽可能准确匹配域名/网址 - walterlv*
+3. https://blog.csdn.net/weixin_44311458/article/details/106586501 - *正则匹表达式 — 匹配URL地址+常用正则整理（建议收藏，比较全）_正则表达式匹配url-CSDN博客*
 
 ### 只匹配空格，不匹配换行
 
@@ -234,6 +248,10 @@ https://www.cnblogs.com/chenjiacheng/p/6522598.html - *php正则表达式验证�
 1. https://blog.csdn.net/jsjcmq/article/details/111935641 - *正则表达式：只匹配空格，不匹配换行等其余空白字符_正则匹配空格但是不匹配换行-CSDN博客*
 2. https://deepinout.com/python/python-qa/t_how-to-match-whitespace-but-not-newlines-using-python-regular-expressions.html - *如何使用Python正则表达式匹配空格但不匹配换行符？|极客笔记*
 
+
+### 匹配 HTML 标签及内容
+
+https://www.runoob.com/regexp/regexp-example.html - *正则表达式 – 示例 | 菜鸟教程*
 
 ### 查看更多
 
@@ -301,9 +319,12 @@ document.write(uPattern.test("runoob123")); // 输出：true
 
 ## 工具
 
-1. https://toolwa.com/regex/ - *正则表达式在线测试 - 工具哇 - 在线工具大全*
-2. https://regex101.com/ - *regex101: build, test, and debug regex*
-3. https://www.lddgo.net/string/text-replace - *在线文本替换工具*
+### Web
+
+1. https://regex101.com/ - *regex101: build, test, and debug regex*
+2. https://ihateregex.io/ - *i Hate Regex - The Regex Cheat Sheet* [GitHub Repo](https://github.com/geongeorge/i-hate-regex)
+3. https://toolwa.com/regex/ - *正则表达式在线测试 - 工具哇 - 在线工具大全*
+4. https://www.lddgo.net/string/text-replace - *在线文本替换工具*
 
 
 ## 参考

@@ -6,7 +6,7 @@
 
 <small>*Picture source: [Google](https://www.google.com/)*</small></div>
 
-## Quick start
+## 快速入门
 
 编写文档的对象：
 
@@ -21,48 +21,63 @@
     2. 无序列表
     3. 有序列表
 
-Markdown 文档规范：
+### Markdown 文档规范
 
 1. [markdownlint](front-end/node.js/nodejs-modules.md#markdownlint)
     1. [Markdown linting and style checking for Visual Studio Code](os/tools/visual-studio-code.md#markdownlint)
 
+### OrgMode 文档规范
+
 *编写 “工具使用文档” 模板，参考下列 ✍🏻：*
 
-### 目录结构
+### 目录
 
 <output data-lang="output">
 
-- `Introduction` - *`简介`* [#📖](#introduction)
+`Table of Contents` - *`目录`*
+
+- `Introduction` - *`简介`*（[#📖](#introduction)）
 - `Features` - *`特色功能`*
-- `Official website` - *`官网`* [#📖](#official)
+- `Official Website` - *`官网`*（[#📖](#official)）
 - `Tutorial` - *`教程`*
+  - `Official` - *`官方教程`*
+  - `Third-party` - *`第三方教程`*
   - `Community` - *`社区`*
-- `Getting started` - *`入门指南`* [#📖](#getting-started)
-  - `Requirements` - *`要求`* [Via](https://github.com/google/benchmark#requirements)
-  - `Table of Contents` - *`目录结构`* [#📖](directory-structure.md)
-- `Quick start` - *`快速入门`*
-- `Installation` - *`安装`* [#📖](#installation)
-  - `Desktop client` - *`桌面端`*
-  - `Mobile client` - *`移动端`*
-- `Configuration` - *`设置`* [#📖](#configuration)
-- `Usage` - *`用法`* [#📖](#usage)
-- `Advanced usage` - *`高级用法`*
+- `Getting Started` - *`入门指南`*（[#📖](#getting-started)）
+  - `Requirements` - *`要求`*（[Via](https://github.com/google/benchmark#requirements)）
+  - `Prerequisites` - *`先决条件`*（[Via](https://github.com/doomemacs/doomemacs)）
+  - `Table of Contents` - *`目录结构`*（[#📖](directory-structure.md)）
+  - `Short Table of Contents` - *`简短目录`*（[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
+  - `Prerequisites` - *`预备知识`*（[Via](https://cn.vuejs.org/guide/introduction.html)）
+  - `User Interface` - *`用户界面`*（[Via](https://code.visualstudio.com/docs/getstarted/userinterface)）
+- `Quick Start` - *`快速入门`*
+- `Installation` - *`安装`*（[#📖](#installation)）
+  - `Desktop Client` - *`桌面端`*
+  - `Mobile Client` - *`移动端`*
+- `Configuration` - *`配置`*（[#📖](#configuration)）
+- `Setup` - *`设置`*（[Via](https://github.com/dimitri/el-get)）
+  - `Basic Setup`
+- `Usage` - *`用法`*（[#📖](#usage)）
+  - `Basic Usage` - *`基础用法`*（[Via](https://github.com/dimitri/el-get)）
+    - `Shortcut Key` - *`快捷键`*
+  - `Advanced Usage` - *`高级用法`*
 - `Help` / `Support` - *`帮助与支持`*
-- `Changelog` - *`版本说明`* [#📖](#changelog)
-- `FAQ` - *`常见问题解答`* [#📖](#faq)
-- `Reference` - *`参考`* [#📖](#reference)
+- `Changelog` - *`版本说明`*（[#📖](#changelog)）
+- `FAQ` - *`常见问题解答`*（[#📖](#faq)）
+- `Troubleshooting` - *`故障排除`*（[Via](https://github.com/dimitri/el-get)）
+- `Reference` - *`参考`*（[#📖](#reference)）
   - `Blog` - *`参考博文`*
   - `Material` - *`参考资料`*
   - `Literature` - *`参考文献`*
-- `Related link` - *`相关链接`*
+- `Related Link` - *`相关链接`*
 - `Index` - *`索引`*
-- `Keyword search` - *`关键词搜索`*
-- `Technologies` - *`技术列表`* *[via](https://github.com/gsantner/markor)*
-- `Who uses` - *`谁在使用`* *[via](https://github.com/kucherenko/jscpd)*
+- `Technologies` - *`技术列表`*（[Via](https://github.com/gsantner/markor)）
+- `Who Uses` - *`谁在使用`*（[Via](https://github.com/kucherenko/jscpd)）
 - `Glossary` - *`术语表`*
-- `Tool` - *`工具`*
+- `Tools` - *`工具`*
 - `Resource` - *`资源`*
-- `License` - *`开源许可证`* [#📖](#license)
+  - `Keyword Search` - *`关键词搜索`*
+- `License` - *`开源许可证`*（[#📖](#license)）
 
 </output>
 
@@ -70,35 +85,48 @@ Markdown 文档规范：
 
 <output data-lang="output">
 
-[ 目录 ] `Table of Contents` / `TOC`
+目录 `Table of Contents` / `TOC`
 
 - 简介 / 描述 / 概述 `Overview` / `Intro`
 - 官方 `Official`
   - 主页 `Home page`
   - 官网 / 官方网站 `Website` / `Official site`
   - 文档 / 手册 / 文档中心 / Wiki `Docs` / `Manual` / `Documentation center` / `Wiki`
-  - 论坛 `Forum` / `bbs`
+  - 论坛 / 社区 `Forum` / `BBS` / `Community`
   - GitHub `GitHub`
-- 链接 `Link`
+- 教程 `Tutorial`
   - 官方文档 `Docs`
   - 菜鸟教程 `Runoob tutorial`
 - 下载安装 `Install`
-  - Web CDN
-  - 下载 Zip `Download`
   - Windows / Linux / Mac
     - 历史版本
+  - Web CDN
 - 基础用法 `Usage`
   - 快捷键 `Shortcut key`
 - 进阶用法 `Advanced usage`
 - 如何使用 `How to use`
 - 使用小技巧 `Skill`
 - 词汇表 `Glossary`
-- 搜索 `Search`
-  - 关键字 `Keyword`
+- 资源 `Resource`
+  - 搜索 `Search`
+    - 关键字 `Keyword`
 - 常见问题解答 `FAQ`
 - 参考链接 `Reference`
 
 </output>
+
+#### 企业
+
+- Product
+    - Download the app
+    - Support Center
+        - Manuals
+- Company
+    - About
+    - Blog
+- Social
+    - GitHub
+    - YouTube
 
 #### 实践
 
@@ -108,10 +136,10 @@ Markdown 文档规范：
 - 工具 `Tool`
 - 原理
 - 场景（使用场景） `Scene`
-- 前期准备 `Prepare` / `Get ready`
+- 前期准备 `Prepare` / `Get Ready`
 - 利弊
 - 实例 `Example`
-- 最佳实践 `Recipes`
+- 最佳实践 `Best Practices`
 - 问题 / 解决方法 `FAQs`
 - 总结 `Summary`
 - 参考[资料] `References`
@@ -122,7 +150,9 @@ Markdown 文档规范：
 
 </output>
 
-#### 应用 README.md
+#### 自述文件
+
+文件名：`README.md`
 
 <output data-lang="output">
 
@@ -141,7 +171,7 @@ Markdown 文档规范：
 4. https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 5. https://www.markdownguide.org/ - *Markdown Guide*
   6. https://www.markdown.xyz/ - *Markdown 指南中文版 | Markdown中文网*
-7. https://www.wikipedia.org/wiki/Polyfill_(programming) 🪜
+7. https://www.wikipedia.org/wiki/Polyfill_(programming) - *Polyfill - Wikipedia* 🪜
 
 ### 标点符号
 
@@ -172,10 +202,34 @@ FAQ：
 参考：
 
 1. https://www.jiuwa.net/fuhao/agg/52/ - *三点符号 三个点的特殊符号图案大全-九蛙特殊符号*
+2. https://www.ruanyifeng.com/blog/2007/07/english_punctuation.html - *标点符号的英语名称 - 阮一峰的网络日志*
 
 </output>
 
-### 如何快速上手 App ？
+### 键盘符号
+
+<output data-lang="output">
+
+Mac 符号列表：
+
+- command（或 Cmd）：<kbd>⌘</kbd> `⌘`
+- shift：<kbd>⇧</kbd> `⇧`
+- option（或 Alt）：<kbd>⌥</kbd> `⌥`
+- control（或 Ctrl）：<kbd>⌃</kbd> `⌃`
+- 空格（或 Space）：<kbd>␣</kbd> `␣`
+- 回车（或 Return）：<kbd>↵</kbd> `↵`
+- Down Arrow
+- Up Arrow
+
+参考：
+
+1. https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
+2. https://sspai.com/post/36203# - *一日一技 | 在 Mac 上输入 ⌘、⌥、⇧、⌃、⎋ 等特殊字符 - 少数派*
+3. https://www.sysgeek.cn/macos-keyboard-symbols/ - *新手不再抓瞎，macOS键盘符号释义汇总 - 系统极客*
+
+</output>
+
+### 如何快速上手 App
 
 <output data-lang="output">
 
@@ -214,7 +268,20 @@ https://sspai.com/post/68349 - *中文技术文档书写指东 - 少数派*
 
 <output data-lang="output">
 
+> 中文技术文档的写作规范
+
+![GitHub last commit](https://img.shields.io/github/last-commit/ruanyf/document-style-guide?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ruanyf/document-style-guide?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ruanyf/document-style-guide?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/document-style-guide?style=social)
+
 https://github.com/ruanyf/document-style-guide - *GitHub - ruanyf/document-style-guide: 中文技术文档的写作规范*
+
+https://www.ruanyifeng.com/blog/2016/10/document_style_guide.html - *中文技术文档的写作规范 - 阮一峰的网络日志*
+
+https://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html - *为什么文件名要小写？ - 阮一峰的网络日志*
+
+目录：
 
 1. [标题](https://github.com/ruanyf/document-style-guide/blob/master/docs/title.md)
 2. [文本](https://github.com/ruanyf/document-style-guide/blob/master/docs/text.md)
@@ -229,42 +296,14 @@ https://github.com/ruanyf/document-style-guide - *GitHub - ruanyf/document-style
 
 ### 阿里云产品文档
 
+暂无
+
 ### Vue.js
 
 官方文档：http://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](https://cn.vuejs.org/v2/guide/syntax.html)
 
-## 常用模板（英文）
+## 常用工具模板（英文）
 
-``` markdown
-
-# 
-
-
-## Introduction
-
-  
-## Official
-
-
-## Installation
-
-
-## Getting started
-
-
-## Quick start
-
-
-## Configuration
-
-
-## FAQ
-
-
-## Reference
-
-
-```
 
 ### Introduction
 
@@ -325,9 +364,21 @@ https://github.com/ruanyf/document-style-guide - *GitHub - ruanyf/document-style
 
 GitHub：
 
-### Getting started
+### Getting Started
+
+#### Table of Contents
+
+#### Shortcut Key
+
+#### User Interface
+
+#### Plugins
 
 ### Installation
+
+#### Desktop Client
+
+#### Mobile Client
 
 ### Configuration
 
@@ -335,10 +386,25 @@ GitHub：
 
 ### Changelog
 
+https://github.com/devgianlu/DNSHero/blob/HEAD/CHANGELOG.md - *DNSHero/CHANGELOG.md at ec31f9ebcb478d13965742dd49af0042656c67da · devgianlu/DNSHero · GitHub*
+
+- https://keepachangelog.com/zh-CN/1.1.0/ - *如何维护更新日志*
+- https://semver.org/lang/zh-CN/ - *语义化版本 2.0.0 | Semantic Versioning*
+
+示例：
+
 2023.11.28 `v2.4.3`
 
 - 🆕 Added
 - 🐞 Bug fixes
+
+实例：
+
+GitHub
+11 MB·更新日期：1月18日
+- The delete branch button presents a confirmation dialog before deleting the branch.
+- A timeline event about making a pull request as draft renders the correct icon.
+We now display the actual README file name in user's profile READMEs, instead of README.md.
 
 参考：
 
@@ -346,6 +412,16 @@ GitHub：
 2. https://github.com/keymapperorg/KeyMapper/blob/HEAD/CHANGELOG.md - *KeyMapper/CHANGELOG.md at 81a438acd753178169f15cf2c05d4e0a4fc2890f · keymapperorg/KeyMapper · GitHub*
 
 ### FAQ
+
+常见问题的解决方案以及讨论，通过以下渠道获取：
+
+- 官方
+- （第三方）社区
+
+例如：
+
+1. https://support.mozilla.org/en-US/ - *Mozilla Support*
+    1. https://support.mozilla.org/en-US/products/firefox/basic-browsing-firefox#search - *Basic browsing | Firefox Help*
 
 ### Reference
 
@@ -381,8 +457,6 @@ GitHub：
 
 http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html - *如何选择开源许可证？*
 
----
-
 - https://opensource.org/licenses/ - *Licenses – Open Source Initiative*
 
     1. [1-clause BSD License](https://opensource.org/license/bsd-1-clause/)
@@ -407,38 +481,8 @@ http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html
 
     - 示例：本页面使用 [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/) 授权。
 
-## 常用模板（中文）
+## 常用工具模板（中文）
 
-``` markdown
-
-# 
-
-
-## 简介
-
-
-## 官方
-
-
-## 安装
-
-
-## 入门指南
-
-
-## 快速入门
-
-
-## 设置
-
-
-## 常见问题解答
-
-
-## 参考
-
-
-```
 
 ### 简介
 
@@ -446,13 +490,10 @@ http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html
 ### 官方
 
 
-### 安装
-
-
 ### 入门指南
 
 
-### 快速入门
+### 安装
 
 
 ### 设置
@@ -468,3 +509,6 @@ http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html
 
 
 ### 参考
+
+
+### 许可证

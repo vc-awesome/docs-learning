@@ -87,6 +87,8 @@ https://du33169.tech/posts/linux/zshconfiguration/ - *Zsh配置与美化 - Lando
 
 ### PoweShell
 
+暂无
+
 ## 常见问题
 
 ### 交互式非登录shell

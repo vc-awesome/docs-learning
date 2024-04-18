@@ -20,6 +20,14 @@ Website: https://www.alfredapp.com/ - *Alfred - Productivity App for macOS*
 
 https://www.alfredapp.com/help/features/ - *Features - Alfred Help and Support*
 
+#### File Search
+
+https://www.alfredapp.com/help/features/file-search/ - *File Search - Alfred Help and Support*
+
+#### Web Search
+
+https://www.alfredapp.com/help/features/web-search/ - *Web Search, Custom Search & URLs/History - Alfred Help and Support*
+
 #### Clipboard History
 
 https://www.alfredapp.com/help/features/clipboard/ - *Clipboard History - Alfred Help and Support*
@@ -71,10 +79,9 @@ https://alfred.app/ - *Alfred Gallery*
 扩展列表：
 
 1. https://alfred.app/workflows/alfredapp/dynamic-file-search/ - *Alfred Gallery • Workflows • Dynamic File Search*
-
 2. https://alfred.app/workflows/alanhe/about-mac/ - *Alfred Gallery • Workflows • About Mac*
-
 3. https://alfred.app/workflows/zbrl/template-file/ - *Alfred Gallery • Workflows • Template File*
+4. https://alfred.app/workflows/vitor/coffee-coffee/ - *Alfred Gallery • Workflows • Coffee Coffee*
 
 #### Packal
 

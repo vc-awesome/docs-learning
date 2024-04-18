@@ -19,7 +19,6 @@
 文档：
 
 1. http://nginx.org/en/docs/ - *nginx documentation*
-
 2. https://www.nginx.cn/doc/ - *Nginx中文文档*
 
 GitHub：
@@ -28,17 +27,33 @@ GitHub：
 
 ## 安装
 
-http://nginx.org/en/download.html - *nginx: download*
+1. http://nginx.org/en/download.html - *nginx: download*
 
 ## 用法
 
 ### 正向代理
 
+暂无
+
 ### 反向代理
+
+暂无
 
 ### 负载均衡
 
+暂无
+
 ### 内网穿透
+
+暂无
+
+### 日志管理
+
+1. <https://mp.weixin.qq.com/s/q6jjpCLo-YqwgOXftw_1EQ> - *轻松学会Nginx访问日志分析，提升网站运营效率！*
+
+### 启用 HSTS
+
+1. https://cloud.tencent.com/developer/article/2301990 - *如何在 Nginx 中启用 HSTS？-腾讯云开发者社区-腾讯云*
 
 ## 工具
 
@@ -47,11 +62,9 @@ http://nginx.org/en/download.html - *nginx: download*
 ## 参考
 
 1. https://baijiahao.baidu.com/s?id=1722729268145517778 - *Nginx从安装到高可用，一篇搞定！*
-
 2. https://zhuanlan.zhihu.com/p/34943332 - *8分钟带你深入浅出搞懂Nginx*
-
 3. https://www.runoob.com/linux/nginx-install-setup.html - *Nginx 安装配置 | 菜鸟教程*
-
 4. https://juejin.cn/post/6844904129987526663 - *连前端都看得懂的《Nginx 入门指南》*
-
 5. https://juejin.cn/post/6844904135951646733 - *推荐 | 如何用Nginx来助力前端开发*
+6. https://mp.weixin.qq.com/s/JgGuhM8bRWwEYiYmwXeTAw - *(三)Nginx一网打尽：动静分离、压缩、缓存、黑白名单、跨域、高可用、性能优化...想要的这都有！*
+7. https://mp.weixin.qq.com/s/ll6KS9fW9O_PZYmRHwuDnA - *作为前端开发，感受下 nginx 带来的魅力！*

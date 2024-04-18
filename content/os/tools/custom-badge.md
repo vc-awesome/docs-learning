@@ -372,10 +372,25 @@
 1. _assets/clipboard-code-block.css
     - https://clipboardjs.com/bower_components/primer-css/css/primer.css 中的 `tooltipped`
 2. https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css
+    ```html
+    <link rel="stylesheet" type="text/css" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    ```
 3. https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css
+    ```html
+    <link rel="stylesheet" type="text/css" href="https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css">
+    ```
 4. https://fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js
+    ```html
+    <script src="https://fastly.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+    ```
 5. https://fastly.jsdelivr.net/npm/element-ui/lib/index.js
+    ```html
+    <script src="https://fastly.jsdelivr.net/npm/element-ui/lib/index.js"></script>
+    ```
 6. https://fastly.jsdelivr.net/npm/vue-clipboard2@latest/dist/vue-clipboard.min.js
+    ```html
+    <script src="https://fastly.jsdelivr.net/npm/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
+    ```
 
 
 ## 生成 Chrome Web Store 徽章

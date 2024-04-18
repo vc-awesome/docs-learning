@@ -9,6 +9,10 @@ https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道* [GitHub Repo](https://g
 
 1. https://wangdoc.com/bash/grammar - *Bash 的基本语法 - Bash 脚本教程 - 网道*
 
+### 模式扩展
+
+https://wangdoc.com/bash/expansion - *Bash 的模式扩展 - Bash 脚本教程 - 网道*
+
 ### 操作历史
 
 https://wangdoc.com/bash/history - *操作历史 - Bash 脚本教程 - 网道*
@@ -19,7 +23,9 @@ https://wangdoc.com/bash/history - *操作历史 - Bash 脚本教程 - 网道*
 
 <kbd>Alt</kbd> + <kbd>></kbd>：显示最后一个命令，即当前的命令。
 
-### 行操作
+<kbd>Alt</kbd> + <kbd>r</kbd>：清空行（如果命令是从历史列表中复制的，则会恢复到原始命令）。
+
+### 行操作（快捷键）
 
 光标移动：
 
@@ -47,7 +53,10 @@ https://wangdoc.com/bash/history - *操作历史 - Bash 脚本教程 - 网道*
 
 <kbd>Ctrl</kbd> + <kbd>l</kbd> 快捷键可以清除屏幕，即将当前行移到屏幕的第一行，与 `clear` 命令作用相同。
 
-更多操作方式，请参见：https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道*
+更多操作方式，请参见：
+
+1. https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道*
+2. https://gnu-linux.readthedocs.io/zh/latest/Chapter05/00_shortcuts.html - *Shell 快捷键 — Linux latest 文档*
 
 ### 重定向
 
@@ -63,7 +72,7 @@ https://github.com/wangdoc/bash-tutorial/blob/master/docs%2Farchives%2Fredirecti
 
 ## 命令手册和工具
 
-1. https://tldr.sh/ - *tldr pages* [GitHub](https://github.com/tldr-pages/tldr) [F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/) [Web](https://tldr.inbrowser.app/)
+1. https://tldr.sh/ - *tldr pages* [GitHub Repo](https://github.com/tldr-pages/tldr) [F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/) [Web](https://tldr.inbrowser.app/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/tldr-pages/tldr?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=social)
@@ -76,27 +85,29 @@ https://github.com/wangdoc/bash-tutorial/blob/master/docs%2Farchives%2Fredirecti
 
 2. https://linuxize.com/ - *Linux Tips, Tricks and Tutorials | Linuxize*
 
-3. https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
+3. https://www.baeldung.com/linux/ - *Baeldung on Linux*
 
-4. https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linux Linux命令搜索引擎 命令详解：最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎*
+4. https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
+
+5. https://wangchujiang.com/linux-command/ - *Linux命令搜索引擎 命令，Linux Linux命令搜索引擎 命令详解：最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎*
 
    - https://github.com/jaywcjlove/linux-command - *GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux*
    
        ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/linux-command?color=blue&logo=github)
        ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/linux-command?style=social)
 
-5. ✅ [Linux Command Library](https://linuxcommandlibrary.com/) - *Handy cheat sheets with linux tips and terminal basics about System control, Users, Files, Package managers, Video and Audio, Hacking tools, Terminal games and many more categories.*
+6. ✅ [Linux Command Library](https://linuxcommandlibrary.com/) - *Handy cheat sheets with linux tips and terminal basics about System control, Users, Files, Package managers, Video and Audio, Hacking tools, Terminal games and many more categories.*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/SimonSchubert/LinuxCommandLibrary?icon=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SimonSchubert/LinuxCommandLibrary?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SimonSchubert/LinuxCommandLibrary?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/SimonSchubert/LinuxCommandLibrary?style=social)
 
-    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.inspiredandroid.linuxcommandbibliotheca), [F-Droid](https://f-droid.org/packages/com.inspiredandroid.linuxcommandbibliotheca)）, Web
+    - 支持 Android（[GitHub Releases](https://github.com/SimonSchubert/LinuxCommandLibrary/releases), [Google Play](https://play.google.com/store/apps/details?id=com.inspiredandroid.linuxcommandbibliotheca), [F-Droid](https://f-droid.org/packages/com.inspiredandroid.linuxcommandbibliotheca)）, Web
 
-    - 开源软件（[GitHub](https://github.com/SimonSchubert/LinuxCommandLibrary)）
+    - 开源软件（[GitHub Repo](https://github.com/SimonSchubert/LinuxCommandLibrary)）
 
-6. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
+7. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
 
 ## 语法格式
 
@@ -714,6 +725,8 @@ https://tldr.inbrowser.app/pages/common/telnet - *telnet | tldr InBrowser.App*
 参考：
 
 https://www.easyswoole.com/QuickStart/problem.html - *easyswoole 常见问题*
+
+http://note.iawen.com/note/tools/telnet - *使用 telnet 来调试网络问题 - Iawen's Blog - 我喜欢这样自由的随手涂鸦, 因为我喜欢风......*
 
 #### traceroute
 

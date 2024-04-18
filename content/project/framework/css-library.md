@@ -4,7 +4,7 @@
 
 https://github.com/animate-css/animate.css - *🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.*
 
-![GitHub last commit](https://badgen.net/github/last-commit/animate-css/animate.css?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/animate-css/animate.css?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/animate-css/animate.css?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/animate-css/animate.css?logo=github)
 ![npm](https://img.shields.io/npm/v/animate.css?logo=npm)
@@ -28,5 +28,7 @@ https://github.com/animate-css/animate.css - *🍿 A cross-browser library of CS
 
 https://github.com/tobiasahlin/SpinKit - *GitHub - tobiasahlin/SpinKit: A collection of loading indicators animated with CSS*
 
-![GitHub last commit](https://badgen.net/github/last-commit/tobiasahlin/SpinKit?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/tobiasahlin/SpinKit?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/tobiasahlin/SpinKit?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tobiasahlin/SpinKit?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/tobiasahlin/SpinKit?style=social)

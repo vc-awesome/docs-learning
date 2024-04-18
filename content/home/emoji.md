@@ -7,36 +7,34 @@
 `Emoji` 实际上是 UTF-8 (Unicode) 字符集上的字符。
 UTF-8 几乎涵盖了世界上所有的字符和符号。
 >
-> —— https://www.runoob.com/tags/html-emoji.html - *HTML Emoji | 菜鸟教程*
+> —— <cite>[HTML Emoji | 菜鸟教程](https://www.runoob.com/tags/html-emoji.html)</cite>
 
 ## Link
 
 1. https://www.ruanyifeng.com/blog/2017/04/emoji.html - *Emoji 简介 - 阮一峰的网络日志*
 
-2. https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
+2. https://www.webfx.com/tools/emoji-cheat-sheet/ - *🎁 Emoji cheat sheet for GitHub, Basecamp, Slack & more*
 
 3. https://www.runoob.com/tags/html-emoji.html - *HTML Emoji | 菜鸟教程*
 
 4. https://www.cnblogs.com/takeurhand/p/6940135.html - *github emoji 表情列表 - CaiYongji - 博客园*
 
-5. https://gitmoji.dev/ - *gitmoji | An emoji guide for your commit messages* [GitHub](https://github.com/carloscuesta/gitmoji)
-
-    ![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/carloscuesta/gitmoji?icon=github&color=blue)
-
 ## Usage
 
 ### Emoji Kitchen
 
-https://emojikitchen.dev/ - *Emoji Kitchen* [GitHub](https://github.com/xsalazar/emoji-kitchen) 「Emoji 组合使用」
+https://emojikitchen.dev/ - *Emoji Kitchen* [GitHub Repo](https://github.com/xsalazar/emoji-kitchen) 「Emoji 组合使用」
 
-![GitHub last commit](https://badgen.net/github/last-commit/xsalazar/emoji-kitchen?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/xsalazar/emoji-kitchen?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/xsalazar/emoji-kitchen?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/xsalazar/emoji-kitchen?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/xsalazar/emoji-kitchen?style=social)
 
 https://emojipedia.org/emoji-kitchen - *Emoji Kitchen*
 
 ## Frequent use
 
-1. https://emojipedia.org/ - *📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍* [中文](https://emojipedia.org/zh)
+1. https://emojipedia.org/ - *📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍* [中文站点](https://emojipedia.org/zh)
 
 2. https://www.emojiall.com/zh-hans - *Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站*
 

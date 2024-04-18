@@ -1,6 +1,6 @@
 # 工具
 
-![](https://www.apple.com/v/app-store/b/images/overview/hero__fpyktigxzia2_small_2x.jpg)
+![illustration](https://www.apple.com/v/app-store/b/images/overview/hero__fpyktigxzia2_small_2x.jpg)
 
 <small>*插图来源于：[App Store - Apple](https://www.apple.com/app-store/)*</small>
 
@@ -553,7 +553,7 @@ x86_64（64 位处理器）
 
 ---
 
-- 开源应用
+- 开源应用（[GitHub](https://github.com/), [GitLab](https://about.gitlab.com/), [Self-hosting](https://github.com/awesome-selfhosted/awesome-selfhosted)）
 - 完全开源
 - 部分开源
 - 闭源应用
@@ -597,9 +597,45 @@ x86_64（64 位处理器）
 - CLI（*Command-line Interface*，命令行界面）
 
 
+### 按版本分类
+
+- 稳定版（Stable Build）
+- 预发布版（RC Build）
+- 开发版（Nightly Build）
+
+参考：
+
+1. https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html - *微信开发者工具下载地址与更新日志*
+
+
 ## 软件卸载
 
 https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA - *最后教一次：完美解决电脑上的流氓软件* 🏷️ *阿虚同学*
+
+
+## 软件检测
+
+[Accrescent | Home](https://accrescent.app/) - *Accrescent is an Android app store focused on security, privacy, and usability.*
+
+- 开源软件（[GitHub Repo](https://github.com/soupslurpr/AppVerifier)）
+
+![GitHub last commit](https://img.shields.io/github/last-commit/soupslurpr/AppVerifier?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/soupslurpr/AppVerifier?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/soupslurpr/AppVerifier?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/soupslurpr/AppVerifier?style=social)
+
+[VirusTotal](https://www.virustotal.com/) - *VirusTotal*\
+\> _via https://xz.aliyun.com/t/14250?time__1311=GqAxuDcDRD9D27DlxGoSDyA0titqw4HvpD - *VirusTotal食用指南（非付费项目） - 先知社区*_
+
+### 隐私
+
+https://exodus-privacy.eu.org/en/ - *Exodus Privacy*
+
+- https://reports.exodus-privacy.eu.org/en/ - *εxodus*
+
+- 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=org.eu.exodus_privacy.exodusprivacy), [F-Droid](https://f-droid.org/packages/org.eu.exodus_privacy.exodusprivacy/)）, [Web](https://reports.exodus-privacy.eu.org/)
+
+- 开源软件（[GitHub Org](https://github.com/Exodus-Privacy)）
 
 
 ## 常见问题

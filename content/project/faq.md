@@ -2,8 +2,7 @@
 
 > 项目开发中遇到的问题
 
-
-## 书写格式
+书写格式：
 
 > 格式参考最新内容
 
@@ -40,35 +39,6 @@ https://www.runoob.com/tags/att-a-href.html - *HTML \<a\> href 属性 | 菜鸟�
 参考：
 
 https://blog.csdn.net/weixin_30407613/article/details/94806135 - *mkdir(): Permission denied_weixin_30407613的博客-CSDN博客*
-
-
-## JavaScript 字符串替换
-
-单个字符替换
-
-``` js
-str.replace("需要替换的字符串","新替换的字符串");
-```
-
-全部字符替换
-
-> `g` 表示全局替换，`i` 表示忽略大小写，下列写法中函数第一个参数不必加引号，加引号表示替换第 1 个字符
-
-✔️正确
-
-```js
-str.replace(/需要替换的字符串/g, "新替换的字符串");
-```
-
-❌错误
-```js
-str.replace("/需要替换的字符串/g", "新替换的字符串");
-```
-
-参考：
-
-1. https://www.runoob.com/jsref/jsref-replace.html - _JavaScript replace() 方法 | 菜鸟教程_
-2. https://www.cnblogs.com/cblogs/p/9293522.html - _js中字符串全部替换 - 胡海超的博客 - 博客园_
 
 
 ## PHP 正则表达式

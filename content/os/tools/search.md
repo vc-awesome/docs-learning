@@ -1,6 +1,6 @@
 # 应用搜索
 
-![](https://www.apple.com/v/app-store/b/images/overview/hero__fpyktigxzia2_small_2x.jpg)
+![illustration](https://www.apple.com/v/app-store/b/images/overview/hero__fpyktigxzia2_small_2x.jpg)
 
 <small>*插图来源于：[App Store - Apple](https://www.apple.com/app-store/)*</small>
 
@@ -31,26 +31,34 @@
 
 - 💡 在微信内置浏览器中打开文章链接，查看留言区更多优质解答内容。
 
+#### 小众软件
+
+https://www.appinn.com/ - *小众软件 - 分享免费、小巧、实用、有趣、绿色的软件*
+
+- 支持搜索 Windows, macOS, Linux, Android, iOS, Chrome, Web 平台的工具
+
 #### 更多
 
 1. https://www.jianshu.com/p/b32229d6c43c - *最好用的Windows/Mac软件下载网站都在这了！*
 
 2. https://www.zhihu.com/question/26891149 - *有哪些值得推荐的下载软件的网站？*
 
-3. https://mrhelloworld.com/categories/分享/
+3. https://mp.weixin.qq.com/s/FqxX9s6DHy3boeBONt156g - *程序员 macOS 有哪些必装软件？*
 
-    👍
+4. https://mrhelloworld.com/categories/分享/ - *分享 - 分类 - 哈喽沃德先生*
 
-4. 酷软清单
+5. 酷软清单
 
-    1. https://www.coolist.net/
-    2. https://www.kancloud.cn/appexplore/coolist-windows/1466990
+    - 支持搜索 Windows 平台的工具
 
-5. 乐软博客
+    1. https://www.coolist.net/ - *酷软清单*
+    2. https://www.kancloud.cn/appexplore/coolist-windows/1466990 -*阅读指南 · 酷软清单Windows篇 · 看云*
 
-    1. https://www.isharepc.com/
+6. 乐软博客
 
-6. https://www.ababtools.com/ - *ABABTOOLS——发现有趣、有用的东西*
+    1. https://www.isharepc.com/ - *乐软博客*
+
+7. https://www.ababtools.com/ - *ABABTOOLS——发现有趣、有用的东西*
 
 ### GitHub
 
@@ -60,7 +68,8 @@ Awesome:
 
 1. https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/Awesome-Windows/Awesome?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Awesome-Windows/Awesome?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome?style=social)
 
 Topics:
 
@@ -73,18 +82,44 @@ Awesome:
 1. https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.* [中文文档](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/jaywcjlove/awesome-mac?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=social)
 
 2. https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/iCHAIT/awesome-macOS?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/iCHAIT/awesome-macOS?style=social)
+
+3. https://github.com/serhii-londar/open-source-mac-os-apps - *GitHub - serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/serhii-londar/open-source-mac-os-apps?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/serhii-londar/open-source-mac-os-apps?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/serhii-londar/open-source-mac-os-apps?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/serhii-londar/open-source-mac-os-apps?style=social)
 
 #### Android
 
 Awesome:
 
-1. https://github.com/Psyhackological/AAA - *GitHub - Psyhackological/AAA: Awesome Android Apps - get the Android you deserve.*
+1. https://github.com/xlucn/oh-my-foss-android - *GitHub - xlucn/oh-my-foss-android: 个人收集的实用、良心开源安卓软件*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/xlucn/oh-my-foss-android?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/xlucn/oh-my-foss-android?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/xlucn/oh-my-foss-android?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/xlucn/oh-my-foss-android?style=social)
+
+2. https://github.com/Psyhackological/AAA - *GitHub - Psyhackological/AAA: Awesome Android Apps - get the Android you deserve.*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/Psyhackological/AAA?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Psyhackological/AAA?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Psyhackological/AAA?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Psyhackological/AAA?style=social)
+
+3. https://github.com/ImranR98/apps.obtainium.imranr.dev - *GitHub - ImranR98/apps.obtainium.imranr.dev: Collection of suggested apps for Obtainium.* [Website](https://apps.obtainium.imranr.dev/)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/ImranR98/apps.obtainium.imranr.dev?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/apps.obtainium.imranr.dev?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/apps.obtainium.imranr.dev?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ImranR98/apps.obtainium.imranr.dev?style=social)
 
 Search:
 
@@ -99,6 +134,14 @@ Awesome:
 1. https://github.com/dkhamsing/open-source-ios-apps - *GitHub - dkhamsing/open-source-ios-apps: :iphone: Collaborative List of Open-Source iOS Apps*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/dkhamsing/open-source-ios-apps?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/dkhamsing/open-source-ios-apps?style=social)
+
+#### Self-hosting
+
+https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers* [Website](https://awesome-selfhosted.net/)
+
+![GitHub last commit](https://badgen.net/github/last-commit/awesome-selfhosted/awesome-selfhosted?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/awesome-selfhosted/awesome-selfhosted?style=social)
 
 ## 下载渠道
 
@@ -130,6 +173,7 @@ Awesome:
     - https://github.com/ldqk/Masuit.MyBlogs - *基于C#/.NET6的 masuit.org个人博客站项目源码，[https://masuit.org](https://masuit.org/) ，供参考、学习、引用、非商业性质的部署。*
 
         ![GitHub last commit](https://badgen.net/github/last-commit/ldqk/Masuit.MyBlogs?icon=github&color=blue)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/ldqk/Masuit.MyBlogs?style=social)
 
 2. https://www.freedownloadmanager.org/zh/ - *Free Download Manager - 從網路下載任何東西*
 
@@ -138,6 +182,8 @@ Awesome:
 1. https://www.ghxi.com/ - *果核剥壳 - 互联网的净土* `破解`
 
 2. http://www.dayanzai.me/ - *大眼仔旭 - 专注视频剪辑、解压、录屏、思维导图等办公资源分享* `破解`
+
+3. https://www.softonic.cn/ - *应用新闻和评论、最佳软件下载量和发现 - Softonic*
 
 #### Windows
 
@@ -149,9 +195,13 @@ Awesome:
 
 #### macOS
 
-1. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* `🔮 破解` [via](https://www.cnblogs.com/fdw630/p/16792457.html)
+1. https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS* `🔮 破解`
 
-2. https://xclient.info/ - *精品MAC应用分享* [via](https://blog.csdn.net/qq_36303853/article/details/129399310)
+    - 如果站点页面打开缓慢，可以使用广告拦截工具 “[AdGuard](adguard.md)” 拦截 Google Translater 请求（AdGuard 过滤规则：`||translate.google.com^`）。
+    - 锁定的应用需要注册登录后才可以访问，例如：[Скачать CleanMyMac X 4.15.3 на Мак с ключом активации (Crack) бесплатно и без регистрации | Не требуется | macOS Big Sur](https://appstorrent.ru/6-cleanmymac.html)。
+
+2. https://xclient.info/ - *精品MAC应用分享*\
+    \> _via https://blog.csdn.net/qq_36303853/article/details/129399310 - *Mac免费软件下载网站推荐（最全免费，替代MacWk）_mac软件下载网站推荐-CSDN博客*_
 
 3. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！* `破解`
 
@@ -169,7 +219,11 @@ Awesome:
 
 7. https://www.macupdate.com/ - *MacUpdate | Download Best Mac Software | 30,000+ Free Apps*
 
-8. ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
+8. https://macked.app/ - *MacKed - 专注于mac软件分享与下载* `破解`
+
+    - 浏览器使用扩展 [Replace Google CDN](https://www.crxsoso.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice)，可以增加站点的访问速度。
+
+9.  ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
 
 #### Android
 
@@ -219,7 +273,8 @@ https://www.lan-sha.com/ - *蓝鲨 - 让您在互联网的海洋里自由的遨�
 
 #### macOS
 
-https://rutracker.org/ - *RuTracker.org* [via](https://extfans.com/) `🔮`
+https://rutracker.org/ - *RuTracker.org*\
+\> _via https://extfans.com/ - *扩展迷*_ `🔮`
 
 ~~https://s1.byrutor.com/ - *Игры от R.G. Механики | Скачать RePack от Механиков* `破解, Game, 俄语`~~
 
@@ -294,7 +349,7 @@ Emojj  | 含义
 
 > 使用终端安装。[^refer]
 
-https://repology.org/ - *Repology* [GitHub](https://github.com/repology)
+https://repology.org/ - *Repology* [GitHub Repo](https://github.com/repology)
 
 #### Windows
 
@@ -308,20 +363,45 @@ https://repology.org/ - *Repology* [GitHub](https://github.com/repology)
 
     - https://github.com/microsoft/winget-cli - *GitHub - microsoft/winget-cli: WinGet is the Windows Package Manager. This project includes a CLI (Command Line Interface), PowerShell modules, and a COM (Component Object Model) API (Application Programming Interface).*
 
+        ![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/winget-cli?logo=github&color=blue)
+        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/microsoft/winget-cli?display_date=published_at&logo=github)
+        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/microsoft/winget-cli?logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/winget-cli?style=social)
+
 #### macOS
 
 1. https://brew.sh/ - *Homebrew — The Missing Package Manager for macOS (or Linux)*
 
-    有关更多详细信息，请参阅“[Mac > Homebrew](os/mac/homebrew.md)”。
+    - https://formulae.brew.sh/ - *Homebrew Formulae*
+
+    - 有关更多详细信息，请参阅“[Mac > Homebrew](os/mac/homebrew.md)”。
+
+2. [The MacPorts Project -- Home](https://www.macports.org/) - *The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac OS X operating system.*
+
+    - https://github.com/macports/ - *MacPorts · GitHub*
+
+3. https://mirrors.tuna.tsinghua.edu.cn/help/nix/ - *nix | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
 
 #### Linux
 
 1. https://snapcraft.io/ - *Snapcraft - Snaps are universal Linux packages*
 2. https://flathub.org/ - *Flathub - Apps for Linux*
+3. https://assassinate-you.net/tags/appimagelauncher/ - *AppImageLauncher - TheAssassin's blog* [GitHub Repo](https://github.com/TheAssassin/AppImageLauncher)\
+    \> _via https://todoist.com/zh-CN/help/articles/install-todoist-for-linux-KgKaJa6H#h_01HC1J8QVX0S9QT6NEX1Y94NEN - *在Linux上安装Todoist*_
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/TheAssassin/AppImageLauncher?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TheAssassin/AppImageLauncher?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TheAssassin/AppImageLauncher?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/TheAssassin/AppImageLauncher?style=social)
 
 #### Android（Termux）
 
 https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A package build system for Termux.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-packages?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-packages?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-packages?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-packages?style=social)
 
 ## 应用商店
 
@@ -412,16 +492,36 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 
 1. https://www.apple.com.cn/app-store/ - *App Store - Apple (中国大陆)*
 
-2. https://www.apple.com/app-store/ - *App Store - Apple*
+2. https://www.apple.com.cn/apps/ - *Apple 打造的 App - Apple (中国大陆)*
+
+3. https://apps.apple.com/cn/charts/iphone - *App Store 中的 iPhone 排行榜 - Apple（CN）*
+
+4. https://www.apple.com/app-store/ - *App Store - Apple*
+
+5. https://www.apple.com/apps/ - *Apps by Apple - Apple*
+
+6. https://apps.apple.com/us/charts/iphone - *iPhone Top Charts on the App Store - Apple*
 
 实例：
 
 1. https://apps.apple.com/us/story/id1533325663 - *5 Winning Tips for Among Us! : App Store Story* > https://apps.apple.com/us/app/among-us/id1351168404 - *Among Us! on the App Store*
-2. https://apps.apple.com/us/app/apple-store/id375380948 - *‎Apple Store on the App Store*
+2. https://apps.apple.com/us/app/apple-store/id375380948 - *Apple Store on the App Store* > https://apps.apple.com/cn/developer/apple/id284417353 - *App Store 中“Apple”开发的 App*
 
 下载安装包：
 
 1. https://decrypt.day/ - *Decrypt IPA Store*
+
+常见问题：
+
+- 当（[大陆](https://www.apple.com.cn/)）中文站点无法打开网页时，可[切换地区](https://www.apple.com/choose-country-region/)至（[香港](https://www.apple.com/hk/)）中文站点或者（[新加坡](https://www.apple.com/sg/)）中文站点。
+
+    - 例如：
+
+        1. https://apps.apple.com/cn/app/google-authenticator/id388497605（❌ 无法访问）
+
+        2. https://apps.apple.com/hk/app/google-authenticator/id388497605（✅ 可以访问）
+
+        3. https://apps.apple.com/sg/app/google-authenticator/id388497605（✅ 可以访问）
 
 ### Android
 
@@ -462,13 +562,13 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 
 ---
 
-Website: 
+官网：
 
 1. https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository* 🚫
 
 2. https://fdroid.gitlab.io/fdroid-website/ - *F-Droid - Free and Open Source Android App Repository*
 
-Installation: 
+安装：
 
 1. https://f-droid.org/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* 🚫
 
@@ -490,78 +590,6 @@ GitHub:
 
 2. https://github.com/f-droid/fdroid-website - *GitHub - f-droid/fdroid-website: mirror of https://gitlab.com/fdroid/fdroid-website*
 
-存储库：
-
-1. https://f-droid.org/repo/ - *F-Droid*
-
-    ```uri
-    https://f-droid.org/repo?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
-    ```
-
-2. https://f-droid.org/archive/ - *F-Droid Archive*
-
-    ```uri
-    https://f-droid.org/archive?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
-    ```
-
-3. https://apt.izzysoft.de/fdroid/ - *IzzyOnDroid F-Droid Repository* [IzzyOnDroid / repo · GitLab](https://gitlab.com/IzzyOnDroid/repo)
-    
-    ```uri
-    https://apt.izzysoft.de/fdroid/repo?fingerprint=3BF0D6ABFEAE2F401707B6D966BE743BF0EEE49C2561B9BA39073711F628937A
-    ```
-
-4. https://guardianproject.info/fdroid/ - *Guardian Project Official App Repository*
-
-    Main 仓库：
-    
-    ```uri
-    https://guardianproject.info/fdroid/repo?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135
-    ```
-
-    Archive 仓库：
-
-    ```uri
-    https://guardianproject.info/fdroid/archive?fingerprint=b7c2eefd8dac7806af67dfcd92eb18126bc08312a7f2d6f3862e46013c7a6135
-    ```
-
-Mirror：
-
-1. https://mirrors.cernet.edu.cn/list/fdroid - *校园网联合镜像站* [F-Droid 软件仓库镜像使用帮助 - MirrorZ Help](https://help.mirrors.cernet.edu.cn/fdroid/)
-
-    - https://help.mirrors.cernet.edu.cn/fdroid/?mirror=ISRC-ISCAS - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
-    - https://help.mirrors.cernet.edu.cn/fdroid/?mirror=TUNA - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
-
-2. https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
-
-    Main 仓库：
-    
-    ```uri
-    https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
-    ```
-
-    Archive 仓库：
-
-    ```uri
-    https://mirrors.tuna.tsinghua.edu.cn/fdroid/archive?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
-    ```
-
-常见问题：
-
-1. 如何查看应用所属“分类”？（按照下面的步骤操作）
-
-    1. 打开应用网页：https://f-droid.org/packages/com.dede.android_eggs/ ；
-
-    2. 大概在网页中间部分找到“构建元数据”链接：https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.dede.android_eggs.yml ；
-
-    3. 在元数据文件 *com.dede.android_eggs.yml > Categories* 中的描述，即当前应用的所属“分类”（一个应用可能有包含多个分类的情况）。
-
-2. 如何通过镜像站下载应用安装包？（按照下面的步骤操作）
-    
-    1. 打开应用网页：https://fdroid.gitlab.io/fdroid-website/en/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* ；
-    2. 找到最新版本的下载链接（`Download APK`）：https://f-droid.org/repo/org.fdroid.fdroid_1019051.apk ；
-    3. 将链接中的 `org.fdroid.fdroid_1019051.apk` 粘贴至 `https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/` 的尾部；
-    4. 打开浏览器并访问镜像站的下载链接：https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid_1019051.apk 。
-
 #### Amazon Appstore
 
 > <img src="https://m.media-amazon.com/images/G/01/blp/icons/appstore_logo_blue._CB609628326_.png" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
@@ -575,6 +603,10 @@ Mirror：
 下载：
 
 1. https://www.amazon.com/gp/mas/get/android - *The Amazon App*
+
+实例：
+
+1. https://www.amazon.com/K-9-Dog-Walkers-Mail/dp/B004JK61K0/ - *K-9 Mail - App on Amazon Appstore*
 
 #### 小米应用商店
 
@@ -599,6 +631,12 @@ Mirror：
 官网：
 
 1. https://sj.qq.com/ - *应用宝官网-全网最新最热手机应用游戏下载*
+
+#### 华为应用市场
+
+官网：
+
+1. https://appgallery.huawei.com/ - *应用市场*
 
 #### 豌豆荚
 

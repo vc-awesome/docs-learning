@@ -4,24 +4,30 @@
 
 > 参考大平台的 UI 设计
 
-1. https://ant.design/index-cn - *Ant Design* [国内镜像](https://ant-design.antgroup.com/index-cn/) `React`
+1. https://ant.design/index-cn - *Ant Design* [国内镜像](https://ant-design.antgroup.com/index-cn/)
+    - `React`
 
-2. https://xiaomi.github.io/hiui/ - *HiUI* [GitHub](https://github.com/XiaoMi/hiui) `React`
+2. https://xiaomi.github.io/hiui/ - *HiUI* [GitHub Repo](https://github.com/XiaoMi/hiui)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/XiaoMi/hiui?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/XiaoMi/hiui?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/XiaoMi/hiui?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/XiaoMi/hiui?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/XiaoMi/hiui?style=social)
+    
+    - `React`
 
-3. https://vant-contrib.gitee.io/vant/#/zh-CN - *Vant 4 - 轻量、可定制的移动端组件库* `Vue 3`
+3. https://vant-contrib.gitee.io/vant/#/zh-CN - *Vant 4 - 轻量、可定制的移动端组件库*
+    - `Vue 3`
 
-4. https://element.eleme.io/#/zh-CN - *Element* `Vue 2`
+4. https://element.eleme.io/#/zh-CN - *Element*
+    - `Vue 2`
 
-5. https://www.uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架* `uni-app`
+5. https://www.uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+    - `uni-app`
 
-6. https://dev.dcloud.net.cn/mui/ - *MUI* [GitHub](https://github.com/dcloudio/mui)
+6. https://dev.dcloud.net.cn/mui/ - *MUI* [GitHub Repo](https://github.com/dcloudio/mui)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/mui?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/mui?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/mui?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/mui?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/mui?style=social)
@@ -56,14 +62,14 @@
 
     2. https://github.com/necolas/normalize.css - *normalize.css*
 
-        ![GitHub last commit](https://badgen.net/github/last-commit/necolas/normalize.css?icon=github&color=blue)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/necolas/normalize.css?color=blue&logo=github)
         ![GitHub Repo stars](https://img.shields.io/github/stars/necolas/normalize.css?style=social)
 
 ### Bootstrap
 
 https://getbootstrap.com/ - *Bootstrap · The most popular HTML, CSS, and JS library in the world.*
 
-![GitHub last commit](https://badgen.net/github/last-commit/twbs/bootstrap?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/twbs/bootstrap?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/twbs/bootstrap?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/twbs/bootstrap?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/twbs/bootstrap?style=social)
@@ -79,6 +85,13 @@ https://www.bootcss.com/ - *Bootstrap中文网*
 
 ### Amaze UI
 
+https://github.com/amazeui/amazeui/ - *Amaze UI, a mobile-first and modular front-end framework.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/amazeui/amazeui?logo=github)
+![GitHub repo size](https://img.shields.io/github/repo-size/amazeui/amazeui?logo=github)
+![npm](https://img.shields.io/npm/v/amazeui?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/amazeui/amazeui?style=social)
+
 https://amazeui.shopxo.net/ - *Amaze UI | 中国首个开源 HTML5 跨屏前端框架*
 
 - https://amazeui.shopxo.net/css/ - *CSS | Amaze UI*
@@ -90,9 +103,16 @@ https://amazeui.shopxo.net/ - *Amaze UI | 中国首个开源 HTML5 跨屏前端�
 
 ## 开发前看
 
+// TODO: 完善内容
+
 ### HTML / CSS 规范
 
 http://amazeui.shopxo.net/getting-started/html-css/ - *开始使用 - Html-css | Amaze UI*
+
+- https://github.com/CloudDeepTeam/amazeui/blob/amazeui-last/docs/styleguide/html-css-guide.md - *amazeui/docs/styleguide/html-css-guide.md at amazeui-last · CloudDeepTeam/amazeui · GitHub*
+
+
+#### CSS
 
 模块状态：`{命名空间}-{模块名}-{状态描述}`
 
@@ -141,8 +161,10 @@ Amaze UI 中有两个表示状态的 class：
 }
 ```
 
+http://amazeui.shopxo.net/css/ - *CSS | Amaze UI*
 
-### Class 命名说明
+
+##### Class 命名说明
 
 http://amazeui.shopxo.net/css/#class-ming-ming-shuo-ming - *CSS | Amaze UI*
 
@@ -163,16 +185,16 @@ http://amazeui.shopxo.net/css/#class-ming-ming-shuo-ming - *CSS | Amaze UI*
 
 ### BEM 命名规范
 
-https://getbem.com/ - *BEM — Block Element Modifier*
+[BEM — Block Element Modifier](https://getbem.com/) - *BEM — Block Element Modifier is a methodology, that helps you to achieve reusable components and code sharing in the front-end.* [GitHub Repo](https://github.com/getbem/getbem.github.io)
 
-> **获取来源**：https://element-plus.gitee.io/zh-CN/guide/theming.html - *主题 | Element Plus*
+![GitHub last commit](https://img.shields.io/github/last-commit/getbem/getbem.github.io?color=blue&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/getbem/getbem.github.io?style=social)
 
-https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
+## Layout - *布局*
 
+https://www.ruanyifeng.com/blog/2020/08/five-css-layouts-in-one-line.html - *只要一行代码，实现五种 CSS 经典布局 - 阮一峰的网络日志*
 
-## Layout 布局
-
-### Container 布局容器
+### Container *布局容器*
 
 > From [Bootstrap v5](https://v5.bootcss.com/docs/layout/containers/)
 
@@ -234,6 +256,14 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 }
 ```
 
+```html
+<!-- 外层块需配合 cf（清除浮动）使用 -->
+<div class="cf">
+  <div class="fl">块元素 fl（左浮动）</div>
+  <div class="fr">块元素 fr（右浮动）</div>
+</div>
+```
+
 `.prev` 前一个
 
 `.next` 下一个
@@ -285,10 +315,13 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 `.top` `.right` `.center` `.bottom` `.left`
 
 
-### Flex 布局
+### Flex *弹性布局*
 
+有关详细信息，请参阅“[Flex](flex.md)”。
 
-### Grid 栅格布局
+### Grid *网格布局*
+
+https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html - *CSS Grid 网格布局教程 - 阮一峰的网络日志*
 
 > From [Amaze UI](http://amazeui.shopxo.net/css/grid/)
 
@@ -330,15 +363,16 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 </div>
 ```
 
-### ~~Position 布局~~
+### Position *定位布局*
+
+https://www.ruanyifeng.com/blog/2019/11/css-position.html - *CSS 定位详解 - 阮一峰的网络日志*
+
+### ~~Table *表格布局*~~
 
 
-### ~~Table 布局~~
+## Helpers - *工具*
 
-
-## Helpers 工具
-
-### Color 颜色
+### Color *颜色*
 
 - 字体色
 
@@ -376,7 +410,7 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
   - -primary-light 变浅颜色 <span style="color: #ecf5ff">#ecf5ff</span>
 
 
-### Border 边框
+### Border *边框*
 
 > From Bootstrap https://v5.bootcss.com/docs/utilities/borders/
 
@@ -501,7 +535,7 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 ```
 
 
-### Text 文本
+### Text *文本*
 
 > From Bootstrap https://v5.bootcss.com/docs/utilities/text/
 
@@ -605,7 +639,7 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
     ```
 
 
-### Typography 文字
+### Typography *文字*
 
 > From [MUI](https://www.dcloud.io/hellomui/examples/typography.html)
 
@@ -651,7 +685,7 @@ h6 {
 ```
 
 
-### Background 背景
+### Background *背景*
 
 - 水平或垂直平铺（设置背景图像是否及如何重复）
 
@@ -729,6 +763,10 @@ h6 {
       left: 0;
       z-index: -1;
   }
+  -bg-i-page-container img {
+      width: 100%;
+      height: 100%;
+  }
   ```
 
   例子：
@@ -755,7 +793,7 @@ h6 {
   - 浅色 light
 
 
-### Horizontal Rules 水平线
+### Horizontal Rules *水平线*
 
 > From [Bootstrap v5](https://v5.bootcss.com/docs/5.3/content/reboot/#horizontal-rules)
 
@@ -770,7 +808,7 @@ hr {
 ```
 
 
-### Vertical Rule 垂直线
+### Vertical Rule *垂直线*
 
 > From [Bootstrap v5](https://v5.bootcss.com/docs/5.3/helpers/vertical-rule)
 
@@ -786,7 +824,7 @@ hr {
 ```
 
 
-## Components 组件
+## Components - *组件*
 
 ### Jumbotron 巨幕
 
@@ -1538,135 +1576,6 @@ list-main 列表主体内容
 
 ### Button 按钮
 
-> From [Amaze UI](https://amazeui.shopxo.net/css/button/)
-
-> From [Bootstrap v5](https://v5.bootcss.com/docs/components/buttons/)
-
-普通按钮
-
-`-btn-default`	默认样式
-
-`-btn-primary`	主色样式
-
-`-btn-secondary`	浅主色样式
-
-`-btn-success`
-
-`-btn-warning`
-
-`-btn-danger`
-
-`-btn-link`
-
-`-btn-info` --from bootstrap
-
-按钮尺寸
-
-```css
--btn-xl {
-    font-size: 20px;
-}
--btn-lg {
-    font-size: 18px;
-}
--btn-default {
-    font-size: 16px;
-}
--btn-sm {
-    font-size: 14px;
-}
--btn-xs {
-    font-size: 12px;
-}
-```
-
-
-圆角按钮
-
--radius
-
-```css
-.ev-btn.ev-radius {
-    border-radius: 2px; /* 按钮的弧度 */
-}
-```
-
-椭圆形按钮
-
--round
-
-```css
-.ev-btn.ev-round {
-    border-radius: 1000px; /* 按钮的弧度 */
-}
-```
-
--btn-block 块级显示
-
-图标按钮
-
-有底色按钮（实心按钮）
-
--btn
-
-无底色按钮（空心按钮）
-
-```css
--btn-outlined {
-    background-color: transparent;
-}
--btn-outlined.-btn-primary {
-    color: #30d0a1;
-}
-```
-
-图片按钮
-
-正常尺寸
-
-```css
--btn-i-primary {
-    background: url(../Images/index_btn2.png) repeat center;
-    background-size: 100% 100%;
-}
-```
-
-最大尺寸（100% 尺寸）
-
-```css
--btn-i-primary-xl {
-    
-}
-```
-
-按钮组
-
--btn-toolbar
-
-\>
-
--btn-group
-
-按钮组大小
-
--btn-group-lg
-
--btn-group-sm
-
--btn-group-xs
-
-垂直排列
-
--btn-group-stacked
-
-自适应宽度
-
--btn-group-justify
-
-\>
-
--btn etc
-
 ### Avatar 头像
 
 #### Shape 形状
@@ -1704,7 +1613,7 @@ list-main 列表主体内容
 ```
 
 
-## Utilities 辅助类
+## Utilities - *辅助类*
 
 ### Spacing 内外边距
 
@@ -1920,7 +1829,7 @@ list-main 列表主体内容
 ```
 
 
-## Templates 模板
+## Templates - *模板*
 
 ### NavBar 顶部导航栏
 
@@ -2046,9 +1955,7 @@ html 标签
 ```css
 .ev-profile {
     display: flex;
-    display: -webkit-flex;
     align-items: center;
-    -webkit-align-items: center;
     padding: 40px 20px 70px;
     margin-left: -1rem;
     margin-right: -1rem;
@@ -2542,40 +2449,6 @@ html 标签
 -record-dec 支出
 
 
-## 单位
-
-1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/length#rem - *\<length> - CSS：层叠样式表 | MDN*
-2. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Values_and_units - *CSS 的值与单位 - 学习 Web 开发 | MDN*
-
-单位转换工具：
-
-1. 待添加
-
----
-
-https://www.runoob.com/cssref/css-units.html - *CSS 单位 | 菜鸟教程*
-
-英寸 1in = 96px = 2.54cm
-
-像素 1px = 0.0104166666666667in = 0.0264583333333333cm
-
-### em
-
-`em` 它是描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位。一般浏览器字体大小默认为 16px，则 2em = 32px
-
-### rem
-
-`rem` 是根 em（root em）的缩写，rem 作用于非根元素时，相对于根元素字体大小；rem 作用于根元素字体大小时，相对于其出初始字体大小
-
-### vw
-
-`vw` viewpoint width，视窗宽度，1vw = 视窗宽度的 1%
-
-### vh
-
-`vh` viewpoint height，视窗高度，1vh = 视窗高度的 1%
-
-
 ## 重写规则
 
 `-{}-primary` 主样式
@@ -2846,7 +2719,7 @@ margin: 0 auto;
 ```
 
 
-### 占位符 placeholder 文本样式
+### input 占位符 placeholder 文本样式
 
 Input placeholder 属性样式设置
 
@@ -2947,7 +2820,7 @@ https://www.cnblogs.com/hcxwd/p/9232936.html - *css3 placeholder字体颜色大�
 ![transform-after](./_images/transform-after.png)
 
 
-### p 标签文本内容不自动换行解决方法
+### 文本内容不自动换行
 
 > 使用链接中的内容样式
 
@@ -3090,3 +2963,15 @@ scrollbar-color: unset;
 ### 动态计算元素长度值 calc
 
 https://www.runoob.com/cssref/func-calc.html - *CSS calc() 函数 | 菜鸟教程*
+
+### 制作半圆
+
+参考：
+
+1. https://segmentfault.com/q/1010000012984003 - *javascript - CSS半圆边框样式求指教，不用图片实现 - SegmentFault 思否*
+2. https://segmentfault.com/q/1010000006991206 - *html - 怎么实现css画半圆边框 - SegmentFault 思否*
+3. https://segmentfault.com/q/1010000004194648 - *前端 - css如何画一个半圆？ - SegmentFault 思否*
+4. https://blog.csdn.net/a1056244734/article/details/120266485 - *如何使用纯 CSS（border-radius 和 clip）属性画出半圆_css半圆边框-CSDN博客*
+5. https://www.cnblogs.com/zml-mary/p/7279807.html - *CSS3【border-radius】制作半圆 - Mary哎呀小龙 - 博客园*
+6. https://blog.csdn.net/qq_16714671/article/details/122414343 - *利用border-radius制作圆形、圆角矩形、半圆_borderradius圆形-CSDN博客*
+7. https://www.cnblogs.com/zhp404/articles/4310605.html - *css3 border-radius制作半圆---上下左右半圆 - 鬼鬼丫404 - 博客园*

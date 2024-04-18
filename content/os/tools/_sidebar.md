@@ -3,24 +3,27 @@
 * **应用列表**
   * [Desktop Tools](os/tools/app-list.md)
   * [Web Tools](os/tools/web-app.md "在线工具")
+  * [CLI Tools](os/tools/cli-app.md)
 * **浏览器**
-  * [Browser](os/tools/browser.md "浏览器")
+  * [Browser](os/tools/topics/browser.md "浏览器")
+  * [Chrome](os/tools/chrome.md)
+  * [Firefox](os/tools/firefox.md)
   * [Opera](os/tools/opera.md)
   * [Extensions](os/tools/browser-extensions.md "浏览器扩展程序")
   * [Tampermonkey](os/tools/tampermonkey.md)
 * **常用工具**
   * [Bitwarden](os/tools/bitwarden.md)
-  * [Markdown](os/tools/markdown.md)
   * [docsify](os/tools/docsify.md)
   * [WPS](os/tools/wps.md)
-  * [RSS](os/tools/rss.md)
+  * [RSS](os/tools/topics/rss.md)
   * [剪贴板](os/tools/clipboard.md)
   * [多媒体](os/tools/multimedia.md)
   * [文件同步](os/tools/file-sync.md)
 * **网络工具**
-  * [VPN](os/tools/vpn.md "科学上网")
+  * [VPN](essential/vpn.md "科学上网")
   * [DNS](essential/dns.md)
-  * [Hosts](os/tools/hosts.md)
+  * [Hosts](essential/hosts.md)
+  * [AdGuard](os/tools/adguard.md)
 * **开发工具**
   * [GitHub](os/tools/github.md)
   * [Git](os/tools/git.md)

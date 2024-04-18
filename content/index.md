@@ -1,25 +1,49 @@
+# Quick Index
+
 <div class="flash-messages"><div class="flash">
 
 *技术可以学，难得的是如何找到好的学习资源。*
 👏[不知道如何获取新技术？](home/book.md) ，还可以按 📖[技术体系](tech-stack/README.md) 进行学习。
 </div></div>
 
+## 风格指南🎨
+
+> 兵马未动，粮草先行。
+
+- [code-guide](essential/code-guide.md)
+- [code-naming-rule](essential/code-naming-rule.md)
+- [document-template](home/document-template.md)
+- [directory-structure](home/directory-structure.md)
+
 ## 学习
 
 - [书籍](home/book.md)
-- [前端](front-end/#学习资源)
+- [前端](front-end/README.md#学习资源)
 
-## Shell
+## CLI（即 Shell）
 
-- [Windows cmd /*.bat](os/windows/README.md#bat-脚本)
-- [Windows powershell /*.ps1](os/windows/README.md#powershell)
-- [Linux Shell /*.sh](os/linux/linux-shell.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
-- [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash) - *命令行工具*
+### 工具
+
+- [Windows cmd](os/windows/cmd.md)
+- [Linux Shell 环境](os/linux/shell.md)
+    - [Bash]()
+    - [powershell](os/tools/powershell.md)
+    - [Zsh]()
+- [macOS terminal](os/mac/terminal.md)
+- [Android termux](os/mobile/termux.md)
+- [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
 
 ### 命令
 
-- [Windows](os/windows/windows-cli.md)
-- [Linux](os/linux/linux-command.md)
+- [Windows](os/windows/command.md)
+- [macOS](os/mac/terminal.md)
+- [Linux](os/linux/command.md)
+
+### 脚本
+
+- [Windows *.bat](os/windows/batch.md)
+- [Windows *.ps1](os/tools/powershell.md)
+- [Linux *.sh](os/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
 
 ## 模板
 
@@ -38,13 +62,23 @@
 
 ## 专题文章
 
-- [广告过滤](topic/ad-filter.md)
-- [翻译](topic/translate.md)
-- [视频](topic/video.md)
-- [体育](topic/sport.md)
+- [广告过滤](topics/ad-filter.md)
+- [翻译](topics/translate.md)
+- [视频](topics/video.md)
+- [输入法](topics/input-method.md)
+- [搜索技巧](topics/search-skill.md)
+- [调试](topics/debug.md)
+- [剪贴板](topics/clipboard.md)
+- [文件转换](topics/file-convert.md)
+- [文件对比](topics/file-diff.md)
+- [文件同步](topics/file-sync.md)
+- [文件传输](topics/file-transfer.md)
+- [快捷键](topics/shortcuts.md)
+- [单位](topics/unit.md)
 
 ## 大厂
 
 - [Microsoft](os/windows/README.md)
 - [Apple Inc.](os/mac/README.md)
 - [Google Inc.](tech-stack/google.md)
+- [Adobe: Creative, marketing and document management solutions](https://www.adobe.com/) - *Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.*

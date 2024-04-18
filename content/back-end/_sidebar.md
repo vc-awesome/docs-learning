@@ -3,3 +3,5 @@
 * [Nginx](back-end/nginx.md)
 * [Docker](back-end/docker.md)
 * [Travis-CI](back-end/travis-ci.md)
+* [Laravel](back-end/laravel.md)
+* [Java](back-end/java.md)

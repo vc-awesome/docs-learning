@@ -12,7 +12,7 @@
 
 ## Official
 
-Website：https://termux.dev/ - *Termux | The main termux site and help pages.* [GitHub](https://github.com/termux/termux.github.io)
+Website：https://termux.dev/ - *Termux | The main termux site and help pages.* [GitHub Repo](https://github.com/termux/termux.github.io)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux.github.io?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux.github.io?style=social)
@@ -217,6 +217,10 @@ pkg files <packages>
 pkg f <packages>
 ```
 
+参考：
+
+1. https://zhuanlan.zhihu.com/p/659595231 - *Termux中的pkg命令常见问题解答 - 知乎*
+
 
 #### apt
 
@@ -295,6 +299,8 @@ apt edit-sources
 
 ### 目录结构
 
+https://github.com/termux/termux-packages/wiki/Termux-file-system-layout#packages-installation-root - *Termux file system layout · termux/termux-packages Wiki · GitHub*
+
 #### $HOME
 
 > /data/data/com.termux/files/home
@@ -340,9 +346,9 @@ echo $HISTFILE
 
 #### 常用目录
 
-由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 `/`, `/usr` 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 `~` ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
+由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 `/`、`/usr` 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 `~` ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
 
-如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 `~` 目录下会生成 storage 的文件链接，其中可以访问 downloads、dcim、music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
+如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 `~` 目录下会生成 storage 的文件链接，其中可以访问 Downloads、DCIM、Music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
 
 更多关于 Termux 文件系统的介绍可以在[此处](https://wiki.termux.com/wiki/Internal_and_external_storage)了解。
 
@@ -386,19 +392,19 @@ cd ~/storage/shared/Documents/markor/GitHub/
 ```sh
 cd ~/storage/shared/
 ```
-\* *指向手机路径 /storage/emulated/0*
+\* *指向手机路径 /storage/emulated/0/*
 
 ```sh
-cd ~/storage/shared/Download
+cd ~/storage/shared/Download/
 ```
 
 或
 
 ```sh
-cd ~/storage/downloads
+cd ~/storage/downloads/
 ```
 
-\* *指向手机路径 /storage/emulated/0/Download*
+\* *指向手机路径 /storage/emulated/0/Download/*
 
 
 ### 常用命令
@@ -769,6 +775,10 @@ https://f-droid.org/packages/com.termux.boot/ - *Termux:Boot | F-Droid - Free an
 
 ## Tool
 
+![Repository status](https://repology.org/badge/repository-big/termux.svg)
+
+https://repology.org/repository/termux - *Termux repository information - Repology*
+
 ### 终端工具
 
 #### apache2
@@ -933,46 +943,6 @@ pkg uninstall git
 https://zhuanlan.zhihu.com/p/619764281 - *42号笔记：Android上使用Termux的git同步Obsidian - 知乎*
 
 
-#### Openssh
-
-安装：
-
-```sh
-pkg install openssh
-```
-
-卸载：
-
-```sh
-pkg uninstall openssh
-```
-
-
-#### Xclip
-
-⚠️ 按下面顺序安装，否则无法安装。
-
-先安装：
-
-```sh
-pkg install x11-repo
-```
-
-再安装：
-
-```sh
-pkg install xclip
-```
-
-!> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
-
-卸载：
-
-```sh
-pkg uninstall xclip
-```
-
-
 #### GitUI
 
 简介：
@@ -1030,11 +1000,52 @@ gitui
     cd ~/storage/shared/Documents/markor/GitHub/docs-learning/ && gitui
     ```
 
+
+#### Openssh
+
+安装：
+
+```sh
+pkg install openssh
+```
+
+卸载：
+
+```sh
+pkg uninstall openssh
+```
+
+
+#### Xclip
+
+⚠️ 按下面顺序安装，否则无法安装。
+
+先安装：
+
+```sh
+pkg install x11-repo
+```
+
+再安装：
+
+```sh
+pkg install xclip
+```
+
+!> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
+
+卸载：
+
+```sh
+pkg uninstall xclip
+```
+
+
 #### miniserve
 
 官方：
 
-https://github.com/svenstaro/miniserve?tab=readme-ov-file - *GitHub - svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!*
+https://github.com/svenstaro/miniserve - *GitHub - svenstaro/miniserve: 🌟 For when you really just want to serve some files over HTTP right now!*
 
 查看：
 
@@ -1163,6 +1174,51 @@ fdupes --help
 fdupes -r ./
 ```
 
+#### colordiff
+
+简介：
+
+> The Perl script colordiff is a wrapper for 'diff' and produces the same output but with pretty 'syntax' highlighting. Colour schemes can be customized.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/daveewart/colordiff?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/daveewart/colordiff?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/daveewart/colordiff?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/daveewart/colordiff?style=social)
+
+官方：
+
+https://www.colordiff.org/ - *colordiff*
+
+https://github.com/daveewart/colordiff - *GitHub - daveewart/colordiff: Primary development for colordiff*
+
+查看：
+
+```bash
+pkg show colordiff
+```
+
+安装：
+
+```bash
+pkg install colordiff
+```
+
+卸载：
+
+```bash
+pkg uninstall colordiff
+```
+
+用法：
+
+```bash
+colordiff --help
+```
+
+```bash
+man colordiff
+```
+
 
 ### Shells
 
@@ -1218,7 +1274,7 @@ https://wiki.termux.com/wiki/ZSH - *ZSH - Termux Wiki*
 
 https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Hacker's Keyboard (official)*
 
-![GitHub last commit](https://badgen.net/github/last-commit/klausw/hackerskeyboard?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/klausw/hackerskeyboard?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/klausw/hackerskeyboard?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/klausw/hackerskeyboard?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/klausw/hackerskeyboard?style=social)

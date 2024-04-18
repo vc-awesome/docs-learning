@@ -26,7 +26,7 @@ https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands
 1. https://docs.microsoft.com/zh-CN/windows-server/administration/windows-commands/command-line-syntax-key - *命令行语法项 | Microsoft Docs*
 2. https://jingyan.baidu.com/article/48206aeaabc850606ad6b3d6.html - *如何在电脑中查看命令行语法表示法？*
 
-## 命令行
+## 键盘命令
 
 - DOS 级别的特殊键盘命令
 
@@ -123,9 +123,9 @@ https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands
 
 - `shutdown`
 
- 让你一次关闭或重启一台本地或远程计算机。
+    让你一次关闭或重启一台本地或远程计算机。
  
- https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/shutdown - *shutdown | Microsoft Learn*
+    https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/shutdown - *shutdown | Microsoft Learn*
 
 ### 文件管理
 

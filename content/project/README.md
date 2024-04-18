@@ -1,8 +1,8 @@
 # 项目
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pUm6Hxkd434wqEQPXicYgeicvxMJicFdSXPfC9icficgKdCvouibVYo1exCRwbnicgzF03H0sTd9bY1uzjevrotKKJ83A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![illustration](https://mmbiz.qpic.cn/mmbiz_png/pUm6Hxkd434wqEQPXicYgeicvxMJicFdSXPfC9icficgKdCvouibVYo1exCRwbnicgzF03H0sTd9bY1uzjevrotKKJ83A/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
-![](https://mmbiz.qpic.cn/mmbiz_png/pUm6Hxkd434wqEQPXicYgeicvxMJicFdSXPyHvXhibIs9tRcA4Mr8xT5wnMQJT1hlUgic2FBJ9BZuzofyjszkrUQMTg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+![illustration](https://mmbiz.qpic.cn/mmbiz_png/pUm6Hxkd434wqEQPXicYgeicvxMJicFdSXPyHvXhibIs9tRcA4Mr8xT5wnMQJT1hlUgic2FBJ9BZuzofyjszkrUQMTg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
 
 <small>*插图来源于：[一文看懂DevOps，再不懂来打我](https://mp.weixin.qq.com/s/rKssu46Cemwn2EqmJkkM2Q)*</small>
 
@@ -45,8 +45,20 @@ https://mp.weixin.qq.com/s/rKssu46Cemwn2EqmJkkM2Q - *一文看懂DevOps，再不
 
 ## 测试
 
+暂无
+
 ## 部署
 
 https://www.daniao.org/tag/列表程序 - *列表程序 - 大鸟博客*
 
+https://mp.weixin.qq.com/s/jjW2aIi_KUusQdc9uLnUGg - *写个简单的项目自动部署脚本*
+
 使用 vercel 部署并且绑定自定义域名
+
+## CI/CD
+
+暂无
+
+## 资源
+
+https://docs.pingcode.com/ - *PingCode – 新一代智能化研发管理工具*

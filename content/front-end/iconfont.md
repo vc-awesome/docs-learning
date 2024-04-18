@@ -283,18 +283,28 @@ https://fontawesome.dashgame.com#fixed-width
 
 ### 字体编辑器
 
-1. https://github.com/ecomfe/fonteditor - *在线字体编辑器* [Web](https://kekee000.github.io/fonteditor/)
+1. [FontEditor](https://kekee000.github.io/fonteditor/) - *在线字体编辑器* 
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/ecomfe/fonteditor?icon=github&color=blue)
+    - 支持 [Web](https://kekee000.github.io/fonteditor/)
 
-2. https://www.high-logic.com/font-editor/fontcreator - *FontCreator for Windows - the most popular font editor*
+    - 开源软件（[GitHub Repo](https://github.com/ecomfe/fonteditor)）
 
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ecomfe/fonteditor?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ecomfe/fonteditor?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ecomfe/fonteditor?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ecomfe/fonteditor?style=social)
+
+2. [FontCreator is the most popular font editor for Windows](https://www.high-logic.com/font-editor/fontcreator) - *A professional font editor is the first step to becoming a successful font designer. Use FontCreator to make amazing new fonts and edit existing fonts.*
+
+    - 支持 Windows
+
+    - 免费试用 30 天
 
 ### 在线 Icon 搜索
 
 1. https://www.flaticon.com/ - *Vector Icons and Stickers - PNG, SVG, EPS, PSD and CSS*
 
-2. https://icons8.com/ - *Free Icons, Clipart Illustrations, Photos, and Music* [GitHub](https://github.com/icons8)
+2. https://icons8.com/ - *Free Icons, Clipart Illustrations, Photos, and Music* [GitHub Org](https://github.com/icons8)
 
 
 ### Iconfont
@@ -425,15 +435,20 @@ CDN:
 
 1. https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css
 
-2. https://lug.ustc.edu.cn/_extra/fontawesome/css/all.min.css
+2. https://site-assets.fontawesome.com/releases/v6.5.2/css/all.css
 
-3. https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.min.css
+3. https://lug.ustc.edu.cn/_extra/fontawesome/css/all.min.css
+
+4. https://cdn.bootcdn.net/ajax/libs/font-awesome/6.4.2/css/all.min.css
 
 ### Remix Icon 🥈
 
 > Open source neutral style icon system.<br><i class="fa fa-language dark-yellow"></i> 开源中性风格图标系统。
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/Remix-Design/remixicon?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Remix-Design/remixicon?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Remix-Design/remixicon?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Remix-Design/remixicon?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Remix-Design/remixicon?style=social)
 
 <i class="fa fa-laptop"></i> https://remixicon.com/ - *Remix Icon - Open source icon library*
 
@@ -444,7 +459,10 @@ CDN:
 
 > Premium hand-crafted icons built by Ionic, for Ionic apps and web apps everywhere 🌎
 
-![GitHub last commit](https://img.shields.io/github/last-commit/ionic-team/ionicons?color=blue&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/ionic-team/ionicons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ionic-team/ionicons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ionic-team/ionicons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/ionic-team/ionicons?style=social)
 
 <i class="fa fa-laptop fa-fw"></i> https://ionic.io/ionicons
 
@@ -475,7 +493,10 @@ https://unpkg.com/ionicons/
 
 > Official open source SVG icon library for Bootstrap.<br><i class="fa fa-language dark-yellow"></i> Bootstrap 的官方开源 SVG 图标库。
 
-![GitHub last commit](https://img.shields.io/github/last-commit/twbs/icons?color=blue&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/twbs/icons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/twbs/icons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/twbs/icons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/twbs/icons?style=social)
 
 <i class="fa fa-laptop"></i> https://icons.getbootstrap.com/
 
@@ -486,7 +507,10 @@ https://unpkg.com/ionicons/
 
 > High-quality vector icons for Atom and VSCode, with thousands of supported filetypes and growing.<br><i class="fa fa-language dark-yellow"></i> Atom和VSCode的高质量矢量图标，支持数千种文件类型，并且不断增长。
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/file-icons/atom?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/homerchen19/github-file-icons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/homerchen19/github-file-icons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/homerchen19/github-file-icons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/homerchen19/github-file-icons?style=social)
 
 <i class="fa-brands fa-github fa-lg"></i>
 https://github.com/file-icons/atom ⇒ *Via https://github.com/homerchen19/github-file-icons - *谷歌扩展程序**
@@ -503,7 +527,10 @@ https://github.com/file-icons/atom ⇒ *Via https://github.com/homerchen19/githu
 
 > 💅 Popular icon packs like Font Awesome, Material Design, and Octicons, available as React Styled Components.<br><i class="fa fa-language dark-yellow"></i> 💅 流行的图标包，如Font Awesome、Material Design和Octicons，可作为React样式的组件提供。
 
-![GitHub last commit](https://img.shields.io/github/last-commit/styled-icons/styled-icons?color=blue&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/styled-icons/styled-icons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/styled-icons/styled-icons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/styled-icons/styled-icons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/styled-icons/styled-icons?style=social)
 
 <i class="fa fa-laptop"></i> https://styled-icons.dev/
 
@@ -514,7 +541,10 @@ https://github.com/file-icons/atom ⇒ *Via https://github.com/homerchen19/githu
 
 > svg react icons of popular icon packs.
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/react-icons/react-icons?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/react-icons/react-icons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/react-icons/react-icons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/react-icons/react-icons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/react-icons/react-icons?style=social)
 
 <i class="fa fa-laptop"></i>
 https://react-icons.github.io/react-icons/
@@ -528,7 +558,10 @@ https://github.com/react-icons/react-icons
 > A scalable set of icons handcrafted with <3 by GitHub.  
 <i class="bi bi-translate dark-yellow"></i> GitHub 使用 <3 手工制作的一组可扩展图标。
 
-![GitHub last commit](https://img.shields.io/github/last-commit/primer/octicons?color=blue&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/octicons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/primer/octicons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/primer/octicons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/primer/octicons?style=social)
 
 !> **GitHub** 官网 **Icons**
 
@@ -543,7 +576,10 @@ https://github.com/react-icons/react-icons
 
 > Material Design icons by Google.<br><i class="bi bi-translate dark-yellow"></i> Google 的 Material Design 图标。
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/google/material-design-icons?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/google/material-design-icons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/google/material-design-icons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/google/material-design-icons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/google/material-design-icons?style=social)
 
 !> 🪜 **Google** 产品
 
@@ -627,38 +663,62 @@ a[target=_blank]:after {
 <i class="fa-brands fa-github fa-lg"></i>
 https://github.com/vscode-icons/vscode-icons
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/vscode-icons/vscode-icons?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/vscode-icons/vscode-icons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vscode-icons/vscode-icons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vscode-icons/vscode-icons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vscode-icons/vscode-icons?style=social)
 
 <i class="fa-brands fa-github fa-lg"></i>
 https://github.com/microsoft/vscode-codicons
 
-![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/vscode-codicons?color=blue&logo=github&style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/vscode-codicons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/microsoft/vscode-codicons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/microsoft/vscode-codicons?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/vscode-codicons?style=social)
 
 
 ### More
 
 1. https://github.com/evil-icons/evil-icons - *Simple and clean SVG icon pack with the code to support Rails, Sprockets, Node.js, Gulp, Grunt and CDN* [Website](https://evil-icons.io/)
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/evil-icons/evil-icons?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/evil-icons/evil-icons?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/evil-icons/evil-icons?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/evil-icons/evil-icons?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/evil-icons/evil-icons?style=social)
 
 2. https://github.com/tabler/tabler-icons - *tabler/tabler-icons: A set of over 4000 free MIT-licensed high-quality SVG icons for you to use in your web projects.* [Website](https://tabler-icons.io/)
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/tabler/tabler-icons?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/tabler/tabler-icons?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/tabler/tabler-icons?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tabler/tabler-icons?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/tabler/tabler-icons?style=social)
 
 3. https://github.com/Templarian/MaterialDesign - *GitHub - Templarian/MaterialDesign: ✒7000+ Material Design Icons from the Community* [Website](https://materialdesignicons.com/)
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/Templarian/MaterialDesign?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Templarian/MaterialDesign?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Templarian/MaterialDesign?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Templarian/MaterialDesign?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Templarian/MaterialDesign?style=social)
 
 4. https://github.com/jaywcjlove/icongo - *GitHub - jaywcjlove/icongo: Search SVG Icons. Easily include popular icons in your React projects and provide an easy tool to convert SVG into React components. @icongo* [Website](https://icongo.github.io/)
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/jaywcjlove/icongo?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/icongo?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jaywcjlove/icongo?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jaywcjlove/icongo?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/icongo?style=social)
 
 5. https://yesicon.app/ - *Yesicon - 精选全球高品质、开源、免费的矢量图标库*
 
 6. https://github.com/devicons/devicon - *devicons/devicon: Set of icons representing programming languages, designing & development tools* [Website](https://devicon.dev/)
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/devicons/devicon?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/devicons/devicon?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/devicons/devicon?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/devicons/devicon?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/devicons/devicon?style=social)
 
 7. https://github.com/simple-icons/simple-icons - *GitHub - simple-icons/simple-icons: SVG icons for popular brands* [Website](https://simpleicons.org/)
 
-    ![GitHub last commit](https://flat.badgen.net/github/last-commit/simple-icons/simple-icons?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/simple-icons/simple-icons?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/simple-icons/simple-icons?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/simple-icons/simple-icons?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/simple-icons/simple-icons?style=social)

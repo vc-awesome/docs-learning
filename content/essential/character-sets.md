@@ -8,7 +8,7 @@
 >
 > 如果一个字符集使用不正确 (例如，对于以 Big5 编码的文章使用 Unicode)，你可能会看到全是乱码，这被称为 [Mojibake](https://zh.wikipedia.org/wiki/Mojibake).
 >
-> —— https://developer.mozilla.org/zh-CN/docs/Glossary/Character_set - *Character set - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
+> ——  <cite>[Character set - MDN Web 文档术语表：Web 相关术语的定义 | MDN](https://developer.mozilla.org/zh-CN/docs/Glossary/Character_set)</cite>
 
 ## 教程
 

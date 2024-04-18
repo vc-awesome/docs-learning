@@ -60,7 +60,7 @@ root_folder/
 
 有关详细信息，请参阅“[Treeview ▲ Prism plugins](https://prismjs.com/plugins/treeview/)”。
 
-## 项目
+### 项目
 
 扩展目录：*H:\√ 123456\╰ 公司项目\!! 统一格式文件分类*
 
@@ -71,8 +71,8 @@ root_folder/
 
 <年月日>_<项目名>[_<主次 main|new|old>]/
 ├─ API/
-├─ APP 封装/
-│  ├─ 图标，启动图/
+├─ APP封装/
+│  ├─ 图标和启动图/
 │  │   ├─ 启动页.png
 │  │   ├─ Android/
 │  │   │  └─ 图标.png
@@ -88,22 +88,22 @@ root_folder/
 │  └─ 测试安装包/
 ├─ UI/ #蓝湖
 │  ├─ PSD/
-│  ├─ PxCook 软件/
+│  ├─ PxCook软件/
 │  ├─ 补充图/
 │  ├─ 更新/
 │  │   ├─ 第1更（年月日）/
 │  │   ├─ ……
 │  │   └─ 第N更（年月日）/
-│  ├─ 其它（banner,logo...）/
+│  ├─ 其它/ #banner, logo...
 │  ├─ 切图/
 │  ├─ 效果图/
 │  └─ 字体库/
-├─ SSL 证书/
+├─ SSL证书/
 ├─ 更新记录/
 │  ├─ 版本更新（年月日）.txt
 │  └─ 版本更新具体操作（年月日）.txt
 ├─ 海报/
-│  ├─ 第一期（包含图片、文案）/
+│  ├─ 第1期/ #包含图片、文案
 │  ├─ ……
 │  └─ 第N期/
 ├─ 活动/
@@ -116,26 +116,26 @@ root_folder/
 │  ├─ 前端页面/
 │  │   ├─ 商品图片/
 │  │   ├─ 首页轮播图/
-│  │   │   └─ 第 1 版（版本迭代/文件夹）/
-│  │   └─ xxx_web.rar（项目前端源码）
+│  │   │   └─ 第1版/ #版本迭代文件夹
+│  │   └─ xxx_web.rar #项目前端源码
 │  ├─ 数据库设计/
-│  ├─ 系统 logo/
+│  ├─ 系统logo/
 │  ├─ 系统优化/
 │  ├─ 需求分析/
 │  └─ 多语言翻译|中英译文/
 ├─ 视频/
 ├─ 数据库备份/ ---------*
-│   # 命名格式(有数据)：数据库名称_年月日_时分秒.sql
-│   # 命名格式(无数据)：数据库名称_年月日_时分秒_nodata.sql
+│   #命名格式(有数据)：数据库名称_年月日_时分秒.sql
+│   #命名格式(无数据)：数据库名称_年月日_时分秒_nodata.sql
 ├─ 数据表/
 ├─ 系统源码/ #命名格式：项目名称_年月日_时分秒.rar ---------*
-│  ├─ 本地（含源码和 sql）/
+│  ├─ 本地/ #含源码和 sql
 │  ├─ 前端/
 │  │   ├─ h5/
 │  │   └─ uniapp/
 │  ├─ 后端/
 │  │   └─ thinkphp/
-│  │       ├─ cron.txt # 定时任务
+│  │       ├─ cron.txt #定时任务
 │  │       └─ ...
 │  ├─ 前后端/
 │  │   └─ thinkphp/
@@ -155,70 +155,72 @@ root_folder/
 │  │   ├─ xxx「原文档」.docx
 │  │   └─ 需求文档.docx
 │  └─ * 年月日_项目名_模板.docx
-├─ ⭐ 线上最新备份/（备份内容：代码、数据库、定时任务）
+├─ 线上最新备份/ #备份内容：代码、数据库、定时任务
 ├─ 账号密码/
-├─ 范例 --todo.txt
-├─ 范例 --时间轴.txt ---------*
-├─ 范例 --网站网址.txt ---------*
-├─ 范例 --项目部署.md ---------*
-├─ 范例 --项目域名.md ---------*
-├─ 范例 --账号密码.txt ---------*
-└─ 范例 --以下项目资料 --<项目名称>.txt
+├─ 范例--todo.txt
+├─ 范例--时间轴.txt ---------*
+├─ 范例--网站网址.txt ---------*
+├─ 范例--项目部署.md ---------*
+├─ 范例--项目域名.md ---------*
+├─ 范例--账号密码.txt ---------*
+└─ 范例--以下项目资料--<项目名称>.txt
 ```
 
-## 前端
+### 前端
 
-### 自整理
+#### 自整理
 
 > 自定义目录结构
 
 ```tree
 myproject/
-+-- build/
-+-- dist/
-+-- docs/
-+-- demo/
-+-- src/
-+-- pages/
-│  +-- login/
-+-- static/
-│  +-- css/
-│      +-- custom.css //自定义样式
-│      +-- main.css //主样式
-│      +-- style.css //全局样式
-│      +-- fonts.css //字体样式
-│      +-- modal.css
-│      +-- index.css
-│      +-- default.css
-│  +-- font/
-│  +-- images/
-│  +-- img/
-│  +-- js/
-│      +-- data.js //中英文数据
-│      +-- main.js
-│      +-- website.js
-│      +-- app.js
-│  +-- media/
-│  +-- pdf/
-│  +-- picture/
-│  +-- videos/
-│  +-- libs/ //扩展库
-│      +-- bootstrap/
-│          +-- css/
-│          +-- js/
-+-- 404.html
-+-- index.html
+├─ build/
+├─ dist/
+├─ docs/
+├─ demo/
+├─ src/
+├─ pages/
+│  └─ login/
+├─ static/
+│  ├─ css/
+│      ├─ custom.css #自定义样式
+│      ├─ main.css #主样式
+│      ├─ style.css #全局样式
+│      ├─ fonts.css #字体样式
+│      ├─ modal.css
+│      ├─ index.css
+│      └─ default.css
+│  ├─ font/
+│  ├─ images/
+│  ├─ plugins/
+│  ├─ themes/
+│  ├─ js/
+│      ├─ data.js #中英文数据
+│      ├─ main.js
+│      ├─ website.js
+│      └─ app.js
+│  ├─ media/
+│  ├─ pdf/
+│  ├─ picture/
+│  ├─ videos/
+│  └─ libs/ #扩展库
+│      └─ bootstrap/
+│          ├─ css/
+│          └─ js/
+├─ 404.html
+└─ index.html
 ```
 
 参考：
 
 1. https://gamium.world/ - *gamium.world*
 2. https://unpkg.com/fontawesome-free/ - *UNPKG - fontawesome-free*
+3. https://github.com/fex-team/styleguide/blob/master/project.md - *styleguide/project.md at master · fex-team/styleguide · GitHub*
 
-### Web
+#### Web
 
 ```tree
-# 每个页面对应一个css文件，例如：blog 页面文件夹下有 index.html 和 blog.css
+// 每个页面对应一个 css 文件，例如：blog 页面的文件夹下有 index.html 和 blog.css
 assets/
 ├─ dist/ #构建目录
 │  ├─ css/
@@ -236,12 +238,12 @@ assets/
 
 1. https://getbootstrap.com/docs/5.1/getting-started/contents/ - *Contents · Bootstrap v5.1* [中文](https://v5.bootcss.com/docs/getting-started/contents)
 
-### uni-app
+#### uni-app
 
 ```tree
-# 含带 * 号表示官方说明
+// 含 * 号表示官方说明
 project/ #目录结构
-├─ common/ # 外部引入的 css 及 js 文件存放目录
+├─ common/ #外部引入的 css 及 js 文件存放目录
 │  ├─ locales/ #语言包
 │  │  ├─ my.js #马来语
 │  │  ├─ en.js #英文
@@ -306,7 +308,11 @@ project/ #目录结构
 └─ uni.scss
 ```
 
-### 工程化
+参考：
+
+1. https://uniapp.dcloud.net.cn/tutorial/project.html - *工程简介 | uni-app官网*
+
+#### 工程化
 
 https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-workflow: A web developer workflow used by WeChat team based on Gulp, with cross-platform supported and solutions prepared.*
 
@@ -315,9 +321,9 @@ https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-wor
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tencent/tmt-workflow?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/tmt-workflow?style=social)
 
-## 后端
+### 后端
 
-### ThinkPHP
+#### ThinkPHP
 
 > ThinkPHP 资源存放：
 >
@@ -333,35 +339,35 @@ public/static/home/default/
 ├─ fonts/
 ├─ images|imgs/
 │  ├─ icon/
-│  │  ├─ icon-home.png 未选中
-│  │  ├─ icon-home-o.png 选中
-│  │  ├─ icon-home-dark.png 深色图标
-│  │  ├─ icon-home-light.png 浅色图标
-│  │  ├─ icon-home-line.png 线性图标
-│  │  ├─ icon-home-fill.png 填充图标 --from uView 的 icon 组件
+│  │  ├─ icon-home.png #未选中
+│  │  ├─ icon-home-o.png #选中
+│  │  ├─ icon-home-dark.png #深色图标
+│  │  ├─ icon-home-light.png #浅色图标
+│  │  ├─ icon-home-line.png #线性图标
+│  │  ├─ icon-home-fill.png #填充图标 --from uView 的 icon 组件
 │  │  └─ icon-upload.png
 │  ├─ background|bg/
 │  │    └─ bg-i-share.png
 │  ├─ banner/
-│  │  └─ banner-radius.png 圆角轮播图
-│  │    ├─ banner-square.png 方形轮播图
-│  │    ├─ banner-round-a.png 圆形轮播图
-│  │    ├─ banner-round-b.png 圆形轮播图
-│  │    └─ banner-round-c.png 圆形轮播图
+│  │  └─ banner-radius.png #圆角轮播图
+│  │    ├─ banner-square.png #方形轮播图
+│  │    ├─ banner-round-a.png #圆形轮播图
+│  │    ├─ banner-round-b.png #圆形轮播图
+│  │    └─ banner-round-c.png #圆形轮播图
 │  ├─ logo/
 │  │    ├─ logo.png
-│  │    └─ logo-text.png 文字 logo
-│  ├─ adv/ 广告图
-│  ├─ tmp/ 临时图片，例如后台可更改的产品图片
+│  │    └─ logo-text.png #文字 logo
+│  ├─ adv/ #广告图
+│  ├─ tmp/ #临时图片，例如后台可更改的产品图片
 │  │    └─ qrcode.png
-│  ├─ avatar/ 头像
-│  └─ empty/ 内容为空 --from uView 的 Empty 组件
-│       └─ empty-message.png 消息列表为空
-├─ lib|libs/ 用 lib 或者用 libs，加 s 表示复数
+│  ├─ avatar/ #头像
+│  └─ empty/ #内容为空 --from uView 的 Empty 组件
+│       └─ empty-message.png #消息列表为空
+├─ lib|libs/ #用 lib 或者用 libs，加 s 表示复数
 ├─ pdf/
 ├─ plug-ins|plugins/
-├─ uploads/ 前后台上传的资源
-└─ utils/ 工具集 （百度翻译：工具类；效用；实用工具；实用菜单）
+├─ uploads/ #前后台上传的资源
+└─ utils/ #工具集（百度翻译：工具类；效用；实用工具；实用菜单）
 ```
 
 小提示:

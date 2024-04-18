@@ -1,3 +1,5 @@
+# 部署 TRON
+
 Linux 系统下稳定，Windows 系统下异常
 
 ## 最近使用的项目
@@ -6,8 +8,6 @@ Linux 系统下稳定，Windows 系统下异常
 
 1. 猎鹰
 2. swarm
-
-
 
 ## 数据表
 
@@ -48,9 +48,7 @@ CREATE TABLE `ev_money_in_tron` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC
 ```
 
-
-
-## 用户表 *ev_member* 添加字段
+### 用户表 *ev_member* 添加字段
 
 ```sql
 `address` varchar(50) DEFAULT NULL, // 添加为索引
@@ -58,16 +56,12 @@ CREATE TABLE `ev_money_in_tron` (
 `tron_private_key` varchar(300) DEFAULT NULL,
 ```
 
-
-
 ```php
 // 创建`TRC20`地址
 file_get_contents('http://45.195.146.155:866/index/index/tronAddress/userid/'. $user['id']);
 ```
 
-
-
-## 配置表 *ev_config* 添加数据
+### 配置表 *ev_config* 添加数据
 
 > `code` 值：`block_timestamp`  
 > `value` 值：当前时间戳后多加 3 个 0（表示毫秒时间戳）  
@@ -100,8 +94,6 @@ CREATE TABLE `ev_config` (
 ) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8 COMMENT='收益配置表'
 ```
 
-
-
 ## 配置项
 
 > 文件名：`config\tron.php`
@@ -122,8 +114,6 @@ return [
     'boss_address' => '', // 归集地址
 ];
 ```
-
-
 
 ## 计划任务
 
@@ -147,8 +137,6 @@ return [
 > 执行周期：每 `01` 分钟  
 > URL 地址：`http://5gapi.tikwaipro.com/tron/tasktron/transfer`
 
-
-
 ## 执行流程
 
 > 充值流程
@@ -164,8 +152,6 @@ return [
 1. 后台审核走链
 2. 转账 `transfer`
 3. 检测是否转账到账 `checkReceipt`
-
-
 
 ## 测试
 
@@ -183,8 +169,6 @@ return [
 ];
 ```
 
-
-
 ## composer package
 
 > `composer require simplito/elliptic-php` 1.0.6  
@@ -195,12 +179,9 @@ return [
 > `composer require kornrunner/keccak` 1.0.3  
 > `composer require phpseclib/phpseclib` 2.0.3
 
-
-
 ## 手续费问题
 
 ```php
 // 每笔订单需要55个波场
 $fee = (count($lists) * 5) + 50;
 ```
-

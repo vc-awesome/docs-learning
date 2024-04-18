@@ -4,6 +4,22 @@
 
 > CDN 的全称是 Content Delivery Network，即[内容分发网络](https://baike.baidu.com/item/内容分发网络/4034265)。CDN 是构建在现有网络基础之上的智能虚拟网络，依靠部署在各地的边缘服务器，通过中心平台的负载均衡、内容分发、调度等功能模块，使用户就近获取所需内容，降低网络拥塞，提高用户访问应速度和命中率。CDN 的关键技术主要有内容存储和分发技术。
 
+CDN 是内容交付网络的缩写。 它是一个由服务器和数据中心组成的地理分布网络，这些服务器和数据中心协同工作，根据用户的地理位置向其传送互联网内容，如网页、图像、视频和其他媒体。 使用 CDN 的主要目的包括提高网站性能、减少延迟、提高可靠性和安全性。
+
+CDN 的主要特点和优势包括
+
+1. **缓存**： CDN 在距离最终用户较近的边缘服务器上缓存内容，从而减少源服务器的负载并加快内容交付。
+
+2. **负载平衡**： CDN 将进入的流量分配给多个服务器，以优化资源利用率并提高可扩展性。
+
+3. **提高性能**： 通过从更靠近用户的服务器提供内容，CDN 减少了延迟，提高了响应时间，从而加快了页面加载时间，改善了用户体验。
+
+4. **全球覆盖**： 内容分发网络遍布全球，可以快速、可靠地向全球用户分发内容。
+
+5. **安全性**： 许多 CDN 提供 DDoS 保护、SSL/TLS 加密和网络应用程序防火墙（WAF）功能等安全功能，以防范各种网络威胁。
+
+流行的 CDN 提供商包括 Cloudflare、Akamai、Amazon CloudFront 和 Fastly 等。 它们被网站、应用程序和服务广泛使用，以优化内容分发并为最终用户提高性能。
+
 
 ## Tool
 
@@ -26,7 +42,9 @@ https://www.bootcdn.cn/prism/
 
 > Simple. Fast. Reliable. Content delivery at its finest. cdnjs is a free and open-source CDN service trusted by over 12.5% of all websites, serving over 200 billion requests each month, powered by Cloudflare. We make it faster and easier to load library files on your websites.
 
-![GitHub last commit](https://badgen.net/github/last-commit/cdnjs/cdnjs?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/cdnjs/cdnjs?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/cdnjs/cdnjs?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cdnjs/cdnjs?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/cdnjs/cdnjs?style=social)
 
 Website: https://cdnjs.com/ - *cdnjs - The #1 free and open source CDN built to make life easier for developers*
@@ -42,11 +60,33 @@ https://cdnjs.com/libraries/animate.css - *animate.css - Libraries - cdnjs - The
 - https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css
 
 
+### Statically
+
+> The CDN for developers.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/staticallyio/statically?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/staticallyio/statically?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/staticallyio/statically?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/staticallyio/statically?style=social)
+
+https://statically.io/ - *The CDN for Static Files on GitHub, GitLab, and Bitbucket - Statically*
+
+https://github.com/staticallyio/statically - *GitHub - staticallyio/statically: The CDN for developers.*
+
+用法：
+
+1. https://gitlab.com/vc-awesome/floccus-bookmarks/main/fontawesome/releases/v6.5.1/css/all.css 转换为 https://fastly.statically.io/gl/vc-awesome/floccus-bookmarks/main/fontawesome/releases/v6.5.1/css/all.min.css
+
+2. https://github.com/vc-awesome/docs-learning/master/_media/1686699383997.png 转换为 https://fastly.statically.io/gh/vc-awesome/docs-learning/master/_media/1686699383997.png
+
+
 ### ~~UNPKG~~
 
 > unpkg is a fast, global content delivery network for everything on npm.
 
-![GitHub last commit](https://badgen.net/github/last-commit/mjackson/unpkg?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/mjackson/unpkg?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/mjackson/unpkg?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/mjackson/unpkg?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/mjackson/unpkg?style=social)
 
 Website: https://unpkg.com/ - *UNPKG*
@@ -84,7 +124,9 @@ https://unpkg.com/animate.css/
 
 > Optimized for JS and ESM delivery from npm and GitHub. Works with all web formats. Serving more than 150 billion requests per month.
 
-![GitHub last commit](https://badgen.net/github/last-commit/jsdelivr/jsdelivr?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/jsdelivr/jsdelivr?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jsdelivr/jsdelivr?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jsdelivr/jsdelivr?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jsdelivr/jsdelivr?style=social)
 
 Website: https://www.jsdelivr.com/ - *jsDelivr - A free, fast, and reliable CDN for open source*
@@ -134,7 +176,14 @@ https://loli.net/ - *SM.MS - Free Images Hosting*
 
 ### More
 
-1. http://staticfile.org/ - *Staticfile CDN*
+1. http://staticfile.org/ - *Staticfile CDN* [新域名](https://www.staticfile.net/)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/staticfile/static?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/staticfile/static?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/staticfile/static?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/staticfile/static?style=social)
+
+    - [GitHub Repo](https://github.com/staticfile/static)
 
 2. https://cdn.baomitu.com - *360 前端静态资源托管库*
 

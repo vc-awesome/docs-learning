@@ -4,24 +4,30 @@
 
 > uView UI，是 uni-app 生态最优秀的 UI 框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
+## 官方
+
+### 版本
+
+#### 2.x
+
+https://uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+
+演示：https://v2-h5.uviewui.com/ - *uView UI*
+
+源码：https://github.com/umicro/uView2.0 - *umicro/uView2.0: uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水*
+
 ![GitHub last commit](https://badgen.net/github/last-commit/umicro/uView2.0?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/umicro/uView2.0?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/umicro/uView2.0?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/umicro/uView2.0?style=social)
 
-## 官方
+👏 https://www.kancloud.cn/uview/uview-ui_v2 - *uView-UI v2.x常见问题整理 · 看云*
 
-https://uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+#### 1.x
 
-https://github.com/umicro/uView2.0 - *umicro/uView2.0: uView UI，是全面兼容nvue的uni-app生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水*
+https://v1.uviewui.com/ - *uView - 多平台快速开发的UI框架 - uni-app UI框架*
 
-https://ext.dcloud.net.cn/plugin?id=1593 - *uView2.0重磅发布，利剑出鞘，一统江湖 - DCloud 插件市场*
-
-## 版本
-
-### 1.x
-
-https://v1.uviewui.com/ - *uView - 多平台快速开发的UI框架 - uni-app UI框架* 
+https://v1-h5.uviewui.com/ - *uView UI*
 
 https://github.com/umicro/uView - *GitHub - umicro/uView: uView UI，是uni-app生态最优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水*
 
@@ -30,11 +36,13 @@ https://github.com/umicro/uView - *GitHub - umicro/uView: uView UI，是uni-app�
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/umicro/uView?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/umicro/uView?style=social)
 
-### 2.x
-
 ## 安装
 
 https://uviewui.com/components/install.html - *安装 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+- https://ext.dcloud.net.cn/plugin?id=1593 - *uView2.0重磅发布，利剑出鞘，一统江湖 - DCloud 插件市场*
+
+https://v1.uviewui.com/components/install.html - *安装 | uView - 多平台快速开发的UI框架 - uni-app UI框架*
+- https://ext.dcloud.net.cn/plugin?id=6682 - *uView - DCloud 插件市场*
 
 ## 用法
 
@@ -80,7 +88,7 @@ https://uviewui.com/components/install.html - *安装 | uView 2.0 - 全面兼容
 
 #### 内外边距
 
-#### flex布局
+#### Flex 布局
 
 ### 常用组件
 
@@ -180,11 +188,16 @@ https://uviewui.com/components/install.html - *安装 | uView 2.0 - 全面兼容
 
 #### Gap 间隔槽
 
-## 遇到的问题
+## 常见问题
 
-问题：当使用`模板->页面->订单列表` + `组件->导航组件->Navbar自定义导航栏`，出现模板中的`tabs标签`组件无法固定，会随着滚动条滚动
+问题：
 
-解决：使用`uni-app`的条件编译 解决各端差异的方式
+当使用 `模板 -> 页面 -> 订单列表` + `组件 -> 导航组件 -> Navbar 自定义导航栏`，出现模板中的 `tabs 标签` 组件无法固定，会随着滚动条滚动。
+
+解决：
+
+
+使用 `uni-app` 的条件编译，解决各端差异的方式。
 
 实例：
 

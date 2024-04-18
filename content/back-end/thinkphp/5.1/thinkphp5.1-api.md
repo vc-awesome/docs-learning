@@ -1,3 +1,5 @@
+# ThinkPHP 5.1 API
+
 | 错误码              | 错误解释                           |
 | ------------------- | ---------------------------------- |
 | 200 OK              | 请求成功                           |
@@ -7,21 +9,20 @@
 
 1. 数据不存在、为空返回 `404`
 
-   > `HTTP Status Code 404`
+    > `HTTP Status Code 404`
 
-```php
-if ($list->isEmpty()) {
-	// 数据为空返回404
-    return ApiResponse::NotFound();
-}
-```
+    ```php
+    if ($list->isEmpty()) {
+        // 数据为空返回 404
+        return ApiResponse::NotFound();
+    }
+   ```
 
 2. 请求失败、无效的请求返回 `400`
 
-   > `HTTP Status Code 400`
+    > `HTTP Status Code 400`
 
-```php
-// 请求失败
-return ApiResponse::BadRequest();
-```
-
+    ```php
+    // 请求失败
+    return ApiResponse::BadRequest();
+    ```

@@ -17,20 +17,22 @@ Website：
 
 GitHub：
 
-1. https://github.com/kiwibrowser/src.next - *GitHub - kiwibrowser/src.next: Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium*
+1. 👏 https://github.com/kiwibrowser/src.next - *GitHub - kiwibrowser/src.next: Source-code for Kiwi Next, a Kiwi Browser auto-rebased with latest Chromium*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/kiwibrowser/src.next?icon=github&color=blue)
     ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/kiwibrowser/src.next?logo=github&color=blue)
+    ![GitHub Release - Include prereleases](https://img.shields.io/github/v/release/kiwibrowser/src.next?include_prereleases&logo=github&label=latest%20release)
 
 2. https://github.com/kiwibrowser/src - *GitHub - kiwibrowser/src: Source-code used in Kiwi Browser for Android*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/kiwibrowser/src?icon=github&color=blue)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kiwibrowser/src?logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kiwibrowser/src?logo=github&include_prereleases)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kiwibrowser/src?display_date=published_at&logo=github)
 
 Download：
 
-1. https://play.google.com/store/apps/details?id=com.kiwibrowser.browser - *Kiwi Browser - Fast & Quiet - Google Play 上的应用*
+1. https://github.com/kiwibrowser/src.next/releases - *Releases · kiwibrowser/src.next*
+2. https://play.google.com/store/apps/details?id=com.kiwibrowser.browser - *Kiwi Browser - Fast & Quiet - Google Play 上的应用*
 
 功能：
 
@@ -314,6 +316,20 @@ Website：
 
 - [ ] 开源
 - [x] 资源嗅探
+
+## 扩展程序/脚本
+
+### Kiwi Browser
+
+### Yandex Browser
+
+### Mozilla Firefox
+
+### Microsoft Edge
+
+### 狐猴浏览器
+
+### Via
 
 ## FAQ
 

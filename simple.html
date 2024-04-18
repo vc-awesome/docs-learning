@@ -11,11 +11,6 @@
     />
     <meta charset="UTF-8" />
     <title>doc-learning</title>
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/docsify@latest/themes/vue.css"
-      title="vue"
-    />
     <!-- Shortcut icon-->
     <link
       rel="shortcut icon"
@@ -27,9 +22,7 @@
       href="_assets/js/load-extra-script.js"
       as="script"
     />
-    <script
-      src="_assets/js/load-extra-script.js"
-    ></script>
+    <script src="_assets/js/load-extra-script.js"></script>
     <style>
       /* .content {
         padding-right: 250px;
@@ -50,8 +43,21 @@
         border-right: 0;
       } */
 
+      :root {
+        --border-color: rgba(0, 0, 0, 0.07);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --border-color: rgba(255, 255, 255, 0.07);
+        }
+      }
+
       .toc-nav-container {
         left: -300px;
+      }
+      
+      .toc-nav-container a {
+        text-decoration: underline !important;
       }
 
       .toc-nav-title {
@@ -67,7 +73,7 @@
         padding-left: 15px !important;
         margin: 10px 0 !important;
         font-size: 1em;
-        border-left: 1px solid rgba(0, 0, 0, 0.07);
+        border-left: 1px solid var(--border-color);
       }
 
       @media (max-width: 1299px) {
@@ -88,7 +94,7 @@
           padding: 15px 10px 15px 20px !important;
           overflow-y: auto;
           line-height: 1.6;
-          background-color: #fff;
+          /*background-color: #fff;*/
           border-right: 0;
           transition: transform 250ms ease-out;
         }
@@ -115,7 +121,7 @@
     <!-- 代码块行号 -->
     <link
       rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.css"
+      href="//fastly.jsdelivr.net/npm/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.css"
     />
     <style>
       /*
@@ -178,8 +184,8 @@
       };
     </script>
 
-    <script src="//cdn.jsdelivr.net/combine/npm/docsify@latest/lib/docsify.min.js,npm/docsify@latest/lib/plugins/search.min.js"></script>
-    <script src="//cdn.jsdelivr.net/combine/npm/prismjs@latest/components/prism-php.min.js,npm/prismjs@latest/components/prism-bash.min.js,npm/prismjs@latest/components/prism-sql.min.js,npm/prismjs@latest/components/prism-json.min.js,npm/prismjs@latest/components/prism-markdown.min.js,npm/prismjs@latest/components/prism-uri.min.js,npm/prismjs@latest/components/prism-powershell.min.js,npm/prismjs@latest/components/prism-regex.min.js,npm/prismjs@latest/components/prism-diff.min.js"></script>
+    <script src="//fastly.jsdelivr.net/combine/npm/docsify@latest/lib/docsify.min.js,npm/docsify@latest/lib/plugins/search.min.js,npm/vue@2/dist/vue.min.js,npm/element-ui/lib/index.min.js,npm/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
+    <script src="//fastly.jsdelivr.net/combine/npm/prismjs@latest/components/prism-php.min.js,npm/prismjs@latest/components/prism-bash.min.js,npm/prismjs@latest/components/prism-sql.min.js,npm/prismjs@latest/components/prism-json.min.js,npm/prismjs@latest/components/prism-markdown.min.js,npm/prismjs@latest/components/prism-uri.min.js,npm/prismjs@latest/components/prism-powershell.min.js,npm/prismjs@latest/components/prism-regex.min.js,npm/prismjs@latest/components/prism-diff.min.js"></script>
 
     <!-- 返回顶部 -->
     <script src="_assets/js/simple-back2top.js"></script>
@@ -211,13 +217,13 @@
         }
       }; */
       window.$docsify.plugins.push((hook, vm) => {
-        hook.doneEach((html) => {
+        hook.doneEach(html => {
           Prism.highlightAll();
           // console.log({ hook, vm, html });
         });
       });
     </script>
-    <script src="//cdn.jsdelivr.net/npm/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="//fastly.jsdelivr.net/npm/prismjs@latest/plugins/line-numbers/prism-line-numbers.min.js"></script>
 
     <!-- Table of Contents -->
     <script>
@@ -230,7 +236,7 @@
         }
 
         let innerHTML = '';
-        toc.forEach((node) => {
+        toc.forEach(node => {
           const title = node.title.replace(/(<([^>]+)>)/g, '');
           innerHTML += /* html */ `<li><a class="section-link" href="${node.slug}" title="${title}">${node.title}</a></li>`;
           if (node.children) {

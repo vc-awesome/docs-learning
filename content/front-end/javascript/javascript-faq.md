@@ -10,6 +10,8 @@ $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
 
 ## jquery 手册事件处理 on、bind
 
+暂无
+
 ## jquery 获取清空 input 值的几种方法
 
 ```javascript
@@ -67,7 +69,7 @@ window.onload = function() {
 }; 
 ```
 
-这段代码会在整个页面的 document 全部加载完成以后执行。不幸的这种方式不仅要求页面的 DOM tree 全部加载完成，而且要求所有的外部图片和资源全部加载完成。更不幸的是，如果外部资源，例如图片需要很长时间来加载，那么这个js效果就会让用户感觉失效了。
+这段代码会在整个页面的 document 全部加载完成以后执行。这种方式不仅要求页面的 DOM tree 全部加载完成，而且要求所有的外部图片和资源全部加载完成。如果外部资源，例如图片需要很长时间来加载，那么这个 js 效果就会让用户感觉失效了。
 
 但是用 jquery 的方法：
 
@@ -78,7 +80,7 @@ $(document).ready(function() {
 }); 
 ```
 
-就仅仅只需要加载所有的DOM结构，在浏览器把所有的HTML放入DOM tree之前就执行js效果。包括在加载外部图片和资源之前。
+就仅仅只需要加载所有的 DOM 结构，在浏览器把所有的 HTML 放入 DOM tree 之前就执行 js 效果。包括在加载外部图片和资源之前。
 
 还有一种简写的方式：
 
@@ -151,7 +153,7 @@ window.onload = function(){
 >
 >    window.onload 无
 >
->    $(document).ready() 可简写为 ()
+>    `$(document).ready()` 可简写为 `$()`
 >
 > Tip ：jQuery 中真正与 window.onload 完全等价的是 $(window).load() 方法
 
@@ -223,22 +225,6 @@ obj = jQuery.parseJSON(jsonString);
 
 // JS 对象 —> JSON 字符串：
 json_str = JSON.stringify(obj);
-```
-
-## js 字符串全部替换
-
-https://www.cnblogs.com/cblogs/p/9293522.html - *js中字符串全部替换 - HaydenChao - 博客园*
-
-语法
-
-```javascript
-str.replace(/需要替换的字符串/g，"新字符串");
-```
-
-实例
-
-```javascript
-"yyyy-MM-dd-hh-mm-ss".replace(/-/g,"/") // 结果："yyyy/MM/dd/hh/mm/ss"
 ```
 
 ## js 跳转至页面底部
@@ -382,10 +368,6 @@ function isEmpty(obj) {
 ## js 判断空值、NULL、undefined的方法
 
 参考：https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
-
-## 前端知识点：防抖节流
-
-~~https://www.javascriptcn.com/read-91316.html~~
 
 ## 重绘 、回流
 
@@ -571,6 +553,8 @@ event.preventDefault(); // 如果 <a> 定义了 target="_blank“ 需要这句�
 
 ## js 数学运算
 
+暂无
+
 ## js 动态加载 script 文件
 
 1. https://wangdoc.com/javascript/bom/engine#加载使用的协议 - *浏览器环境概述 - JavaScript 教程 - 网道*
@@ -582,3 +566,7 @@ event.preventDefault(); // 如果 <a> 定义了 target="_blank“ 需要这句�
 ## jq、js 中判断 checkbox 是否选中
 
 1. https://www.cnblogs.com/daicunya/p/6926289.html - *jq、js 中判断 checkbox 是否选中 - daicunya - 博客园*
+
+## jQuery 判断是否移动端访问
+
+1. https://www.runoob.com/w3cnote/jquery-detect-a-mobile-device-using-jquery.html - *jQuery 判断是否移动端访问 | 菜鸟教程*

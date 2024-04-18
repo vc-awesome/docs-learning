@@ -1,4 +1,6 @@
 * [Windows](/os/windows/)
 * [CMD](/os/windows/windows-cmd.md "windows 命令提示符")
 * [CLI](/os/windows/windows-cli.md "windows 命令行工具")
+* [DOS](os/windows/dos.md)
+* [批处理](os/windows/batch.md)
 * [FAQ](/os/windows/windows-faq.md "windows FAQ")

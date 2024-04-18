@@ -4,20 +4,11 @@
 
 > Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库
 
-![GitHub last commit](https://badgen.net/github/last-commit/ElemeFE/element?icon=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ElemeFE/element?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ElemeFE/element?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/ElemeFE/element?style=social)
-
 ## 官方
 
-https://element.eleme.cn/#/zh-CN - *Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库*
+### 版本
 
-https://github.com/ElemeFE/element - *GitHub - ElemeFE/element: A Vue.js 2.0 UI Toolkit for Web*
-
-## 版本
-
-### 3.x
+#### 3.x
 
 https://element-plus.org/zh-CN/ - *一个 Vue 3 UI 框架 | Element Plus*
 
@@ -30,11 +21,26 @@ https://github.com/element-plus/element-plus - *GitHub - element-plus/element-pl
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/element-plus/element-plus?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/element-plus/element-plus?style=social)
 
-### 2.x
+#### 2.x
+
+https://element.eleme.cn/#/zh-CN - *Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库*
+
+https://github.com/ElemeFE/element - *GitHub - ElemeFE/element: A Vue.js 2.0 UI Toolkit for Web*
+
+![GitHub last commit](https://badgen.net/github/last-commit/ElemeFE/element?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ElemeFE/element?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ElemeFE/element?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/ElemeFE/element?style=social)
 
 ## 安装
 
+https://element-plus.org/zh-CN/guide/installation.html - *安装 | Element Plus*
+
+https://element.eleme.cn/#/zh-CN/component/installation - *组件 | Element*
+
 ## 用法
+
+暂无
 
 ## 常见问题
 

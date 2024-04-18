@@ -1,18 +1,14 @@
+# ThinkPHP 5.1 CURD
+
 > CURD：增删改查
 
-##  新增
+## 新增
 
 - 数据库
 
-  
-
 - 模型
 
-  
-
 ## 更新
-
-
 
 ## 查询
 
@@ -51,7 +47,7 @@
 
 ```php
 where([
-	'name' => '',
+    'name' => '',
     'status' => 1
 ])
 ```
@@ -60,7 +56,7 @@ where([
 
 ```php
 where([
-	['name', '=', ''],
+    ['name', '=', ''],
     ['status', '=', 1]
 ])
 
@@ -79,8 +75,6 @@ where($map)
 // SQL语句
 SELECT * FROM `ev_member` WHERE  ( type=1 AND status=1 )
 ```
-
-------
 
 ```php
 // 数组条件
@@ -116,8 +110,6 @@ SELECT * FROM `ev_member` WHERE  `type` = 1  AND `status` = 1
 #### 条件查询
 
 ## 删除
-
-
 
 ## 模型
 

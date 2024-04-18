@@ -69,7 +69,7 @@
     // document.querySelector('body').insertBefore(element, document.querySelector('body').firstChild);
     // console.log(document.querySelector('body').firstChild)
 
-    document.querySelector('body').firstChild.insertAdjacentHTML("beforebegin", "<div id=\"right-bottom-float-btns\"><!-- 返回顶部 --><button class=\"back-to-top-progress\">0%</button><button class=\"back-to-top\"><span class=\"fas fa-angle-up\"></span></button><button class=\"back-to-top\" id=\"back2bottom\"><span class=\"fas fa-angle-down\"></span></button><button onclick=\"location.reload();\"><span class=\"fas fa-redo-alt\"></span></button><button onclick=\"location.href = '#/'\"><span class=\"far fa-house-blank\"></span></button><!--Table of Contents--><button class=\"toc-toggle\"><span class=\"fas fa-stream\"></span></button></div>");
+    document.querySelector('body').firstElementChild.insertAdjacentHTML("beforebegin", "<div id=\"right-bottom-float-btns\"><!-- 返回顶部 --><button class=\"back-to-top-progress\">0%</button><button class=\"back-to-top\"><span class=\"fas fa-angle-up\"></span></button><button class=\"back-to-top\" id=\"back2bottom\"><span class=\"fas fa-angle-down\"></span></button><button onclick=\"location.reload();\"><span class=\"fas fa-redo-alt\"></span></button><button onclick=\"location.href = '#/README'\"><span class=\"far fa-house-blank\"></span></button><!--Table of Contents--><button class=\"toc-toggle\"><span class=\"fas fa-stream\"></span></button></div>");
 
     var THRESHOLD = 0;
     // For init back to top in sidebar if page was scrolled after page refresh.

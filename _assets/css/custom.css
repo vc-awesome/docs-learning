@@ -181,6 +181,24 @@ hr {
   vertical-align: text-bottom;
 }
 
+/* 标题添加字体图标 */
+h1:after,
+h2:after,
+h3:after,
+h4:after,
+h5:after,
+h6:after {
+  display: inline-block;
+  padding-left: 3px;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-indent: 0;
+  content: '\f0c1';
+}
+
 /* 代码 */
 /*@font-face {
   font-family: 'Material Icons';

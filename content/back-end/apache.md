@@ -18,15 +18,19 @@ Website: https://httpd.apache.org/ - *Welcome! - The Apache HTTP Server Project*
 
 ### Windows
 
+暂无
+
 ### macOS
 
 系统自带
 
 ### Linux
 
+暂无
+
 ### Termux
 
-```sh
+```bash
 pkg install apache2
 ```
 
@@ -36,37 +40,37 @@ pkg install apache2
 
 ## 用法
 
+### 命令
+
 https://wangchujiang.com/linux-command/c/apachectl.html - *apachectl 命令，Linux apachectl 命令详解：Apache服务器前端控制工具 - Linux 命令搜索引擎*
 
 list available command line options (this page)
 
-```sh
+```bash
 apachectl -h
 ```
 
 show version number
 
-```sh
+```bash
 apachectl -v
 ```
 
 show compile settings
 
-```sh
+```bash
 apachectl -V
 ```
 
-----
-
-```sh
+```bash
 apachectl start
 ```
 
-```sh
+```bash
 apachectl restart
 ```
 
-```sh
+```bash
 apachectl stop
 ```
 
