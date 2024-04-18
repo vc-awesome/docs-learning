@@ -20,7 +20,7 @@
 3. https://github.com/ruanyf/free-books - *GitHub - ruanyf/free-books: 互联网上的免费书籍*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/free-books?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/free-books?style=social)    
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/free-books?style=social)
 
 4. https://www.kancloud.cn/special - *专题 · 看云*
 
@@ -36,10 +36,12 @@ http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志* [GitHub](https://gi
 https://github.com/ruanyf/weekly - *GitHub - ruanyf/weekly: 科技爱好者周刊，每周五发布*
 
 ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/weekly?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/weekly?style=social)
 
 https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal articles*
 
 ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/articles?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/articles?style=social)
 
 分类：
 
@@ -74,6 +76,7 @@ https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal article
 3. https://github.com/Zeb-D/my-review - *GitHub - Zeb-D/my-review: IT Learn Experience: db:mysql hbase redis,deeplearn go ,java:jvm spring,k8s,manage*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/Zeb-D/my-review?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Zeb-D/my-review?style=social)
 
 
 ## 分类
@@ -89,6 +92,7 @@ https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal article
   https://github.com/codeguy/php-the-right-way
 
   ![](https://img.shields.io/github/last-commit/codeguy/php-the-right-way?logo=github&color=blue)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/codeguy/php-the-right-way?style=social)
   
   https://learnku.com/docs/php-the-right-way/PHP8.0 - *《PHP 之道（PHP The Right Way 中文版）》 | PHP 技术论坛*
   
@@ -97,6 +101,7 @@ https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal article
 - https://github.com/smknstd/modern-php-cheatsheet - *Cheatsheet for some PHP knowledge you will frequently encounter in modern projects.*
 
   ![](https://img.shields.io/github/last-commit/smknstd/modern-php-cheatsheet?logo=github&color=blue)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/smknstd/modern-php-cheatsheet?style=social)
 
 - http://phpversions.info/ - *PHP Versions*
 
@@ -106,12 +111,14 @@ https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal article
 https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程师培训材料*
 
 ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/jstraining?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/jstraining?style=social)
 
 #### MDN Web Docs
 
 > **MDN Web Docs**（旧称Mozilla Developer Network、Mozilla Developer Center，简称MDN）是一个汇集众多Mozilla基金会产品和网络技术开发文档的**免费网站**。
 
 ![GitHub last commit](https://badgen.net/github/last-commit/mdn/content?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/mdn/content?style=social)
 
 https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
@@ -122,6 +129,7 @@ https://github.com/mdn/ - *MDN Web Docs · GitHub*
  [网道 - 互联网开发文档](https://wangdoc.com/) - *网道（WangDoc.com）是一个文档网站，提供互联网开发文档，正在建设中。* [GitHub](https://github.com/wangdoc)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/website?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc?style=social)
 
 阅读：
 
@@ -138,6 +146,7 @@ https://github.com/mdn/ - *MDN Web Docs · GitHub*
 [现代 JavaScript 教程](https://zh.javascript.info/) - *现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。* [GitHub](https://github.com/javascript-tutorial/en.javascript.info)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/javascript-tutorial/en.javascript.info?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/javascript-tutorial/en.javascript.info?style=social)
 
 
 #### 冴羽的博客
@@ -145,6 +154,7 @@ https://github.com/mdn/ - *MDN Web Docs · GitHub*
 1. https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*
 
     ![](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/mqyqingfeng/Blog?style=social)
 
 
 #### 更多
@@ -170,14 +180,17 @@ https://github.com/mdn/ - *MDN Web Docs · GitHub*
 1. https://github.com/paddingme/Front-end-Web-Development-Interview-Question - *前端开发面试题大收集，前端面试集锦 ❤️*
 
     ![](https://badgen.net/github/last-commit/paddingme/Front-end-Web-Development-Interview-Question?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/paddingme/Front-end-Web-Development-Interview-Question?style=social)
 
 2. https://github.com/markyun/My-blog - *马云云的Github博客，记录一些学习的片段。*
 
     ![](https://badgen.net/github/last-commit/markyun/My-blog?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/markyun/My-blog?style=social)
 
 3. https://github.com/ljianshu/Blog - *GitHub - ljianshu/Blog: 关注基础知识，打造优质前端博客，公众号[前端工匠]的作者*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/ljianshu/Blog?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ljianshu/Blog?style=social)
 
 
 ## 微信公众号

@@ -5,7 +5,7 @@
 > <img src="https://www.sublimehq.com/images/sublime_text.png" alt="package icon" loading="lazy" decoding="async" align="left" width="58" hspace="10" vspace="0" /> Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.
 
 
-## Official website
+## Official
 
 Website: https://www.sublimetext.com/ - *Sublime Text - Text Editing, Done Right*
 
@@ -153,7 +153,9 @@ brew install --cask sublime-text
 
 ## Usage
 
-按住 <kbd>command</kbd> + 鼠标点击其它标签页，sublime text 右侧会新建一个窗口，可以方便的进行两个文件的对比。
+### 快捷键
+
+按住 <kbd>command</kbd> + 鼠标点击其它标签页，Sublime Text 编辑器右侧会新建一个窗口，方便的进行两个文件的对比。
 
 
 ## Package

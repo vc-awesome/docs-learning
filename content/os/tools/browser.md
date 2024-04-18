@@ -70,6 +70,18 @@ https://www.microsoft.com/zh-cn/edge - *了解 Microsoft Edge*
 
 - *支持多账户登录*
 
+快捷命令 URL:
+
+https://zhuanlan.zhihu.com/p/417171273 - *可能是最全的 edge://flags*
+
+```bash
+edge://about/
+```
+
+```bash
+edge://flags/
+```
+
 ### Opera
 
 官网：
@@ -85,35 +97,14 @@ https://www.microsoft.com/zh-cn/edge - *了解 Microsoft Edge*
 官网：
 
 1. https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快速 | 官方最新下载*
-
 2. https://www.mozilla.org/zh-CN/firefox/new/ - *下载由 Mozilla 开发的桌面版 Firefox*
-
-版本：
-
-1. Dev：https://www.mozilla.org/zh-CN/firefox/developer/ - *Firefox 开发者版*
-
-2. Beta：https://www.mozilla.org/zh-CN/firefox/channel/desktop/#beta - *下载和测试 Firefox 桌面版、Android 版和 iOS 版的早期版本。*
-
-3. Nightly：https://www.mozilla.org/zh-CN/firefox/channel/desktop/#nightly - *下载和测试 Firefox 桌面版、Android 版和 iOS 版的早期版本。*
-
-用法：
-
-1. 如何复制链接文字（[参考](https://www.appinn.com/select-like-a-boss/)）：
-
-    - 方式 1 ：按住键盘 <kbd>option</kbd> 按键，鼠标左键长按左右选择链接文字；
-    - 方式 2 ：下载浏览器扩展 「Select like a Boss」 [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/select-like-a-boss/) [Chrome](https://www.crxsoso.com/webstore/detail/mbnnmpmcijodolgeejegcijdamonganh)。
-
-2. 如何新建标签页打开链接：
-
-    - 方式 1 ：在链接上鼠标右键单击，点击 “新建标签页打开链接”；
-    - 方式 2 ：在链接上鼠标左键长按，上下拖拉链接，然后松开鼠标左键。
+3. https://support.mozilla.org/zh-CN/ - *Mozilla 技术支持*
 
 ### Chrome
 
 官网：
 
 1. https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
-
 2. https://www.google.cn/chrome/ - *Google Chrome 网络浏览器*
 
 安装：
@@ -122,38 +113,42 @@ https://www.microsoft.com/zh-cn/edge - *了解 Microsoft Edge*
 2. Beta：https://www.google.cn/intl/zh-CN/chrome/beta/ - *试用 Google Chrome Beta 版的新功能 - Google Chrome*
 3. Canary：https://www.google.cn/intl/zh-CN/chrome/canary/ - *开发者专用的 Chrome Canary 版功能 - Google Chrome* [macOS Download dmg (direct downloads)](https://dl.google.com/chrome/mac/universal/canary/googlechromecanary.dmg)
 
-命令：
+快捷命令 URL：
 
-```sh
+```bash
 chrome://chrome-urls/
 ```
 
-```sh
+```bash
 chrome://version/
 ```
 
-```sh
+```bash
 chrome://about/
 ```
 
-```sh
+```bash
 chrome://extensions/
 ```
 
-```sh
+```bash
 chrome://apps/
 ```
 
-```sh
+```bash
 chrome://flags/
 ```
 
-```sh
+```bash
 chrome://inspect/
 ```
 
 1. https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
 2. https://www.cnblogs.com/hanggegege/p/6241367.html - *chrome:// 的秘密！！一些有用的命令！*
+3. https://www.cnblogs.com/ChandlerVer5/p/chrome_URLs.html - *那些你不知道的chrome URLs - 爱好和平的阿道夫 - 博客园*
+4. https://sspai.com/post/43853 - *这 15 条实用命令，帮你打开 Chrome 浏览器的隐藏功能 - 少数派*
+5. https://www.webnots.com/useful-chrome-url-commands - *Top 10 Chrome URL Command Line Shortcuts (Full List Included) – WebNots*
+6. https://www.dignited.com/46301/top-google-chrome-url-command-shortcuts-you-should-know/ - *Top Google Chrome URL Command Shortcuts you should know - Dignited*
 
 参考：
 
@@ -177,7 +172,7 @@ Android 内置浏览器
 
 ### 比较浏览器
 
-https://www.mozilla.org/zh-CN/firefox/browsers/compare/ - *七款最佳浏览器同台对比*
+https://www.mozilla.org/zh-CN/firefox/browsers/compare/ - *六款最佳浏览器同台对比*
 
 https://www.mozilla.org/zh-CN/firefox/browsers/mobile/compare/ - *五款最佳移动浏览器同台对比*
 
@@ -310,7 +305,7 @@ https://sspai.com/post/70017 - *实现不同浏览器间书签同步，你可试
 
 3. https://zhuanlan.zhihu.com/p/57247050 - *如何在浏览器中快速切换搜索引擎*
 
-## 浏览器快捷键
+## 快捷键
 
 https://support.mozilla.org/zh-CN/kb/键盘快捷键 - *键盘快捷键 | Firefox 帮助*
 
@@ -436,7 +431,7 @@ https://en.m.wikipedia.org/wiki/Comparison_of_web_browsers - *Comparison of web 
 
 https://juejin.cn/post/7344258231231103015 - *浏览器内核小知识 - 掘金*
 
-https://zhuanlan.zhihu.com/p/374672785 - **
+https://zhuanlan.zhihu.com/p/374672785 - *浏览器内核发展编年史 - 知乎*
 
 https://www.huhst.edu.cn/__local/7/AB/3B/AE1EB3695CF9E69020881F367E2_A17A69F4_1D78D.htm - *浏览器_百度百科*
 

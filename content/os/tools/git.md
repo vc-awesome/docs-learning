@@ -77,7 +77,9 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
 2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
 3. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
-4. https://git-scm.com/book/zh/ - *Git - Book*
+4. https://git-scm.com/docs - *Git - Reference*
+5. https://git-scm.com/book/zh/ - *Git - Book*
+6. https://github.com/wangdoc/git-tutorial - *GitHub - wangdoc/git-tutorial: Git 教程*
 
 ## 快速入门
 
@@ -196,7 +198,7 @@ git config --global --add safe.directory /storage/emulated/0/Documents/markor/Gi
     ```bash
     git clone git@github.com:vc-awesome/docs-learning.git
     
-    cd sky
+    cd docs-learning
     
     touch README.md
     
@@ -223,15 +225,17 @@ git config --global --add safe.directory /storage/emulated/0/Documents/markor/Gi
 
 > via 阿里云代码仓库
 
-推送改动：
-
 ```bash
 cd existing_folder
 
 git init
 
 git remote add origin git@github.com:vc-awesome/docs-learning.git
+```
 
+推送改动：
+
+```bash
 git add .
 
 git commit -m 
@@ -241,7 +245,7 @@ git push -u origin master
 
 更新合并：
 
-已存在的 Git 仓库，执行下面的命令即可（此命令在 `git remote` 完成后，拉取远程的文件至本地仓库）
+已存在的 Git 仓库，执行下面的命令即可（在 `git remote` 完成后执行，可拉取远程文件至本地仓库）
 
 ```bash
 git pull origin master
@@ -381,30 +385,40 @@ https://git-scm.com/docs/gitglossary/zh_HANS-CN#gitglossary-aiddeftree-ishatree-
 
 > [git-help](https://git-scm.com/docs/git-help/zh_HANS-CN) - 显示有关git的帮助信息
 
-```sh
+```bash
 git --help
 ```
 
-```sh
+```bash
 git -h
+```
+
+```bash
+git help
 ```
 
 read about a specific subcommand or concept.（阅读特定的子命令或概念。）
 
-```sh
+```bash
 git help <command>
 ```
 
-```sh
+```bash
 git help <concept>
+```
+
+```bash
+man git-<verb>
 ```
 
 ```bash
 git <verb> --help
 ```
 
+如果你不需要全面的手册，只需要可用选项的快速参考，那么可以用 `-h` 选项获得更简明的 "help'' 输出
+
 ```bash
-man git-<verb>
+git <verb> -h
 ```
 
 参考：
@@ -435,11 +449,13 @@ git config --list
 
 查看全局仓库配置信息
 
-```sh
+```bash
 git config --list --global
 ```
 
 ### 克隆 - *clone*
+
+> [git-clone](https://git-scm.com/docs/git-clone/zh_HANS-CN) - 将存储库克隆到新目录
 
 克隆本地仓库
 
@@ -455,7 +471,7 @@ git clone username@host:/path/to/repository
 
 克隆指定版本
 
-```sh
+```bash
 git clone -b v1.2.0 --depth=1 https://github.com/zenorocha/codecopy.git codecopy
 ```
 
@@ -478,6 +494,8 @@ git clone git@github.com:zenorocha/codecopy.git
 > [git-add](https://git-scm.com/docs/git-add/zh_HANS-CN) - 添加内容到索引
 
 ### 推送改动 - *push*
+
+> [git-push](https://git-scm.com/docs/git-push/zh_HANS-CN) - 与相关对象一起更新远程分支引用
 
 ```bash
 git push <远程主机名> <本地分支名>:<远程分支名> #将本地的分支版本上传到远程并合并
@@ -658,6 +676,8 @@ git status -s
 
 ### 查看提交历史 - *log*
 
+> [git-log](https://git-scm.com/docs/git-log/zh_HANS-CN) - 显示提交日志
+
 本地仓库
 
 ```bash
@@ -691,7 +711,7 @@ git log --reverse
 查看指定用户提交历史
 
 ```bash
-git log --authoer=caiyongwen
+git log --author=caiyongwen
 ```
 
 显示 5 条提交历史
@@ -708,13 +728,15 @@ git log --decorate
 
 ### 文件差异 - *diff*
 
-尚未缓存的改动（没有 git add 的文件）
+> [git-diff](https://git-scm.com/docs/git-diff/zh_HANS-CN) - 显示提交和工作区等变化
+
+尚未缓存的改动（没有 git add 的文件），显示暂存区和工作区的差异
 
 ```bash
 git diff [file]
 ```
 
-查看已缓存的改动（已经 git add 的文件）
+查看已缓存的改动（已经 git add 的文件），显示暂存区和上一次提交(commit)的差异
 
 ```bash
 git diff --cached [file]
@@ -769,6 +791,13 @@ git diff <masterbranch> <remotebranch>
 https://www.coder.work/article/7752449 - *git - 如何在 Git 中显示本地和远程文件之间的差异？ - IT工具网*
 
 - https://stackoverflow.com/questions/46786070/how-do-i-show-differences-between-local-and-remote-files-in-git - *How do I show differences between local and remote files in Git? - Stack Overflow*
+
+参考：
+
+1. https://www.runoob.com/git/git-diff.html - *git diff 命令 | 菜鸟教程*
+2. https://www.freecodecamp.org/chinese/news/git-diff-command/ - *Git diff 命令——如何比较你的代码中的变化*
+3. https://zhuanlan.zhihu.com/p/496890237 - *【git】git diff怎么用？用完怎么看？ - 知乎*
+4. https://zhuanlan.zhihu.com/p/61056144 - *Git 仓库下如何通过 diff 功能进行差异比对 - 知乎*
 
 ### 显示 - *show*
 
@@ -1442,6 +1471,16 @@ git checkout origin/master -- <path/folder> #获取某个目录
 Website: https://gitmoji.dev/
 
 GitHub: https://github.com/carloscuesta/gitmoji
+
+工具：
+
+https://github.com/carloscuesta/gitmoji-cli - *GitHub - carloscuesta/gitmoji-cli: A gitmoji interactive command line tool for using emojis on commits. 💻*
+
+![GitHub last commit](https://badgen.net/github/last-commit/carloscuesta/gitmoji-cli?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/carloscuesta/gitmoji-cli?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/carloscuesta/gitmoji-cli?logo=github)
+![npm](https://img.shields.io/npm/v/gitmoji-cli?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/carloscuesta/gitmoji-cli?style=social)
 
 参考：
 

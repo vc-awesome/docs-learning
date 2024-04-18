@@ -367,10 +367,10 @@ Platform architecture:
 
 支持的平台 | CPU 架构  | 平台架构 | 处理器体系结构   |  芯片 | 支持的主流设备 | 操作系统兼容性 | 安装包名称
 ---|---|---|---|---|---|---|---
-Windows (x86) | X86 架构  | 32-bit | x86, x86_x32   |  Intel, AMD | 主要是PC端,像移动智能设备端较少 | Windows / Linux | PowerShell-7.3.4-win-x86.zip
+Windows (x86) | X86 架构  | 32-bit | x86, x86_x32   |  Intel, AMD | 主要是 PC 端，像移动智能设备端较少。 | Windows / Linux | PowerShell-7.3.4-win-x86.zip
 Windows (x64) | X86 架构  | 64-bit | x64(x86-64/AMD64)  |  Intel, AMD | \- | \- |  PowerShell-7.3.4-win-x64.zip
 macOS | X86 架构  | 64-bit | x64(x86-64)  |  Intel | \- | \- | powershell-7.3.4-osx-x64.tar.gz
-macOS | ARM 架构  | 64-bit | arm64   |  Apple Silicon (M1) | 主要是嵌入式设备、智能手机、平板电脑、智能穿戴和物联网设备, PC端也逐步开始占领市场 | Linux / Mac / Android | powershell-7.3.4-osx-arm64.tar.gz
+macOS | ARM 架构  | 64-bit | arm64   |  Apple Silicon (M1) | 主要是嵌入式设备、智能手机、平板电脑、智能穿戴和物联网设备，PC端也逐步开始占领市场。 | Linux / Mac / Android | powershell-7.3.4-osx-arm64.tar.gz
 \-  | ARM 架构  | 32-bit  | armv7, armv7s   |  \- |  \- |  \- |  \-
 
 💡 *x86 是指 32 位处理器、x64 是指 64 位处理器，因为 x64 指令是在 x86 指令集上扩展出来的，所以 x86 编译出来的程序可以在 64 位处理器上运行，反过来就不行。*
@@ -540,7 +540,9 @@ x86_64（64 位处理器）
 \-  | Linux  | <img alt="Get it on Linux" width="134px" src="https://joplinapp.org/images/BadgeLinux.png"> | \-
 移动应用程序 - Mobile applications  | Android  | <img alt="Get it on Google Play"  width="134px" src="https://joplinapp.org/images/BadgeAndroid.png"> | <img alt="Direct APK Download" width="134px" src="https://tachibanagenerallaboratories.github.io/images/badges/Direct%20Download/direct-apk-download.png">
 \-  | iOS  | <img alt="Get it on the App Store" src="https://joplinapp.org/images/BadgeIOS.png" width="134px"> | \-
-终端应用程序 - Terminal application  | macOS, Linux, or Windows (via WSL)  | \- |  \-
+终端应用程序 - Terminal application  | Windows (via WSL)  | \- |  \-
+\-  | macOS | \- |  \-
+\-  | Linux  | \- |  \-
 
 参考：https://joplinapp.org/help/#desktop-applications - *Joplin - an open source note taking and to-do application with synchronisation capabilities*
 
@@ -558,8 +560,8 @@ x86_64（64 位处理器）
 - 完全免费
 - 付费应用
 - 免费试用 ? 天（过了试用期需购买激活）
-- 免费功能（Lite 版本，一些基础功能免费）
-- 收费功能（Pro 版本，需应用内购买升级）
+- 免费使用（例如：Lite 版本，基础功能免费使用）
+- 付费使用（例如：Pro 版本，增强功能需应用内购买升级）
     - via https://emanuele-f.github.io/PCAPdroid/paid_features - *PCAPdroid | User Guide*
 - 完整版（Full 版本）
 

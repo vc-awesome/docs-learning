@@ -177,6 +177,17 @@ https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstr
 
     Demo：https://img.shields.io/badge/Tags-DeFi-8A2BE2
 
+10. ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
+
+
+    ```markdown
+    ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
+    ```
+    
+    Demo：https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue
+    
+    参考：https://github.com/espanso/espanso/blob/dev/README.md - *espanso/README.md at dev · espanso/espanso · GitHub*
+
 ---
 
 ```markdown

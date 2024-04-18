@@ -59,6 +59,16 @@ https://wangdoc.com/javascript/features/console - *console 对象与控制台 - 
 
 `debugger;`
 
+#### 变量
+
+var
+
+let
+
+const
+
+##### 变量提升
+
 #### 数据类型
 
 https://www.runoob.com/js/js-datatypes.html - *JavaScript 数据类型 | 菜鸟教程*
@@ -276,12 +286,11 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/ret
 <a href="javascript:alert('Warning!!!')">点我!</a>
 ```
 
-1. https://wangdoc.com/javascript/bom/engine#url-协议 - *浏览器环境概述 - JavaScript 教程 -
-网道*
+参考：
 
-1. https://www.runoob.com/js/js-void.html - *javascript:void(0) 含义 | 菜鸟教程*
-
-2. https://www.ruanyifeng.com/blog/2011/06/a_guide_for_writing_bookmarklet.html - *Bookmarklet编写指南 - 阮一峰的网络日志*
+1. https://wangdoc.com/javascript/bom/engine#url-协议 - *浏览器环境概述 - JavaScript 教程 -网道*
+2. https://www.runoob.com/js/js-void.html - *javascript:void(0) 含义 | 菜鸟教程*
+3. https://www.ruanyifeng.com/blog/2011/06/a_guide_for_writing_bookmarklet.html - *Bookmarklet编写指南 - 阮一峰的网络日志*
 
 ## 参考手册
 

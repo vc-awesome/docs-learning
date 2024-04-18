@@ -14,7 +14,7 @@
 
 1. https://www.jetbrains.com/help/phpstorm/2020.3/getting-started.html - *Getting started | PhpStorm*
 
-2. https://www.jetbrains.com/help/phpstorm/2021.2/quick-start-guide-phpstorm.html
+2. https://www.jetbrains.com/help/phpstorm/2021.2/quick-start-guide-phpstorm.html - *Quick Start Guide | PhpStorm*
 
 GitHub：
 
@@ -170,23 +170,23 @@ https://www.jetbrains.com/help/phpstorm/phpdoc-comments.html - *PHPDoc comments 
 
 ### 断点调试
 
-1. 检查xdebug（在WAMP服务器php.ini中检查，并把[xdebug]中的off设置改为on，php.ini文件中的xdebug默认是关闭的）
-2. 右上角 edit config 弹出的窗口中到左上角的绿色“+”号中添加PHP Web Application接口并进行配置
+1. 检查 xdebug（在 WAMP 服务器 php.ini 中检查，并把[xdebug]中的 off 设置改为 on，php.ini 文件中的 xdebug 默认是关闭的）
+2. 右上角 edit config 弹出的窗口中到左上角的绿色“+”号中添加PHP Web Application 接口并进行配置
 3. PHP web Application
-4. 添加server  域名HOST 端口
-5. 指明具体的调试脚本URL
-6. 指明浏览器Browser
-7. 检查xdebug是否开启 on
+4. 添加 server  域名 HOST 端口
+5. 指明具体的调试脚本 URL
+6. 指明浏览器 Browser
+7. 检查 xdebug 是否开启 on
 
-#### 一、软件环境
+一、软件环境
 
 > - 运行环境：WAMP
-> - PhpStorm版本：2017.2.4
+> - PhpStorm 版本：2017.2.4
 > - PHP Version：5.5.12
 > - xdebug版本：php_xdebug-2.2.5-5.5-vc11.dll
-> - ps : php版本和xdebug版本一定要相对应
+> - ps : php 版本和 xdebug 版本一定要相对应
 
-#### 二、配置php.ini文件
+二、配置 php.ini 文件
 
 默认配置
 
@@ -224,23 +224,23 @@ xdebug.show_local_vars=0
 xdebug.idekey = PHPSTORM
 ```
 
-> 修改后重启WAMP的所有服务
-> 在浏览器地址栏通过phpinfo查看配置后的信息，出现如下配置则代表修改成功
+> 修改后重启 WAMP 的所有服务
+> 在浏览器地址栏通过 phpinfo 查看配置后的信息，出现如下配置则代表修改成功
 
 ![image](https://i.imgur.com/zNTKvcJ.png)
 ![image](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216101002847-1777096143.png)
 
-#### 三、设置PhpStorm
+三、设置 PhpStorm
 
 1. `File->Settings` 页面
    ![image](https://i.imgur.com/doc67cW.png)
 
-2. `PHP->Server` 页面
-   新建一个
-   `name为localhost` [可自定义]
-   `Host为www.study.com` [WAMP中可用的域名]
-   `Port:80`
-   `Debugger:Xdebug`
+2. `PHP->Server` 页面\
+   新建一个\
+   `name 为 localhost` [可自定义]\
+   `Host 为 www.study.com` [WAMP中可用的域名]\
+   `Port:80`\
+   `Debugger:Xdebug`\
    ![image](https://i.imgur.com/ui95DUx.png)
 
 3. `PHP->Debug` 页面
@@ -251,19 +251,19 @@ xdebug.idekey = PHPSTORM
    配置如下
    ![image](https://i.imgur.com/CyYUXps.png)
 
-5. 配置PHP Web Application
+5. 配置 PHP Web Application
    ![image](https://i.imgur.com/bTmshyK.png)
    ![image](https://i.imgur.com/caybPLD.png)
 
-6. 在chome上安装扩展，下载JetBrains IDE Support扩展，安装
+6. 在 Chome 上安装扩展，下载 JetBrains IDE Support 扩展，安装
    ![image](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216103541425-1992117242.png)
 
-#### 四、开始设置断点调试
+四、开始设置断点调试
 
 1. 设置断点
    ![image](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216103836941-721787820.png)
 
-2. 设置好断点后点击右上角绿色的小虫子按钮，PhpStorm中会出现
+2. 设置好断点后点击右上角绿色的小虫子按钮，PhpStorm 中会出现
    ![image](https://images2015.cnblogs.com/blog/1103562/201702/1103562-20170216103953144-381520101.png)
 
 3. 如果没有出现断点调试信息，看是否打开了监听选项
@@ -274,9 +274,9 @@ xdebug.idekey = PHPSTORM
 1. [https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html](https://www.cnblogs.com/shiwaitaoyuan/p/6404604.html) - *phpstorm设置断点调试 - shen1hua - 博客园*
 2. [https://blog.csdn.net/ty_hf/article/details/50768702](https://blog.csdn.net/ty_hf/article/details/50768702) - *phpstorm+Xdebug断点调试PHP_phpstorm + xdebug断点_时而宁靜的博客-CSDN博客*
 
-### 使用SVN
+### 使用 SVN
 
-https://www.cnblogs.com/jingmin/p/6329556.html
+https://www.cnblogs.com/jingmin/p/6329556.html - *在phpstorm中svn的使用 - 小king哥 - 博客园*
 
 ### FTP
 
@@ -286,37 +286,43 @@ https://www.cnblogs.com/jingmin/p/6329556.html
 
 3. https://blog.csdn.net/blog_phpxz/article/details/80103257 - *phpstorm 配置ftp， 自动更新同步代码 （亲测完美）*
 
+### TODO comments
+
+https://www.jetbrains.com/help/phpstorm/using-todo.html - *TODO comments | PhpStorm Documentation*
+
 ## 插件
 
 > 官方插件市场（搜索插件）：https://plugins.jetbrains.com
 
-1. IDE Eval Reset（JetBrains全家桶无限试用）
+### IDE Eval Reset
 
-   百度搜索关键字：`ide eval reset`、`IDEA安装插件无限试用`
+JetBrains 全家桶无限试用。
 
-   https://zhile.io/2020/11/18/jetbrains-eval-reset-deprecated.html - *Jetbrains系列产品重置试用方法[归档] – 知了*
+百度搜索关键字：`ide eval reset`、`IDEA安装插件无限试用`
 
-2. Translation（翻译插件）
+   https://zhile.io/2020/11/18/jetbrains-e``val-reset-deprecated.html - *Jetbrains系列产品重置试用方法[归档] – 知了*
 
-   1. https://yiiguxing.github.io/TranslationPlugin/index.html
+### Translation（翻译插件）
 
-   2. https://plugins.jetbrains.com/plugin/8579-translation - *Translation - IntelliJ IDEs Plugin | Marketplace*
+1. https://yiiguxing.github.io/TranslationPlugin/index.html - *TranslationPlugin ❤️ Yii.Guxing*
 
-3. Git
+2. https://plugins.jetbrains.com/plugin/8579-translation - *Translation - IntelliJ IDEs Plugin | Marketplace*
 
-   1. git 项目，VSCode 显示不同颜色块的含义
+### Git
 
-      - https://www.cnblogs.com/soyxiaobi/p/9708518.html
+1. git 项目，VSCode 显示不同颜色块的含义
 
-   2. PhpStorm 中实现 git rebase -i 合并多次提交功能
+    - https://www.cnblogs.com/soyxiaobi/p/9708518.html
+
+   - PhpStorm 中实现 `git rebase -i` 合并多次提交功能
 
       - https://www.cnblogs.com/woods1815/p/12382853.html
 
-4. Chinese (Simplified) Language Pack / 中文语言包
+### Chinese (Simplifuied) Language Pack / 中文语言包
 
-    - https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----/ - *Chinese (Simplified) Language Pack / 中文语言包 - IntelliJ IDEs Plugin | Marketplace*
+- https://plugins.jetbrains.com/plugin/13710-chinese-simplified-language-pack----/ - *Chinese (Simplified) Language Pack / 中文语言包 - IntelliJ IDEs Plugin | Marketplace*
 
-5. http 客户端
+3. HTTP 客户端
 
    1. https://www.evget.com/article/2022/3/30/44406.html - *PHP集成开发环境PhpStorm使用教程（一）：HTTP 请求语法概述*
 

@@ -91,6 +91,7 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 3. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
     ![GitHub last commit](https://badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
 4. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
+5. https://developer.mozilla.org/zh-CN/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN - *如何使用 Markdown 来撰写文档 - MDN Web 文档项目 | MDN*
 
 博文：
 

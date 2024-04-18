@@ -580,7 +580,7 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
 
 ## 参考
 
-1. [程序员英语词汇宝典](https://learn-english.dev/) - *程序员工作中常见的英语词汇* [GitHub](https://github.com/Wei-Xia/most-frequent-technology-english-words)
+1. [程序员英语词汇宝典](https://learn-english.dev/) - *程序员工作中常见的英语词汇* [GitHub Repo](https://github.com/Wei-Xia/most-frequent-technology-english-words)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/Wei-Xia/most-frequent-technology-english-words?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words?style=social)

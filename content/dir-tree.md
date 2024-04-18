@@ -117,17 +117,20 @@
 ## 📂 __front\-end__
 
 1. 📄 [\_sidebar.md](front-end/_sidebar.md)
-2. 📄 [android.md](front-end/android.md)
-3. 📄 [cdn.md](front-end/cdn.md)
-4. 📄 [iconfont.md](front-end/iconfont.md)
-5. 📄 [jquery.md](front-end/jquery.md)
-6. 📄 [README.md](front-end/README.md)
+2. 📄 [ajax.md](front-end/ajax.md)
+3. 📄 [android.md](front-end/android.md)
+4. 📄 [cdn.md](front-end/cdn.md)
+5. 📄 [iconfont.md](front-end/iconfont.md)
+6. 📄 [jquery.md](front-end/jquery.md)
+7. 📄 [README.md](front-end/README.md)
 
 ### 📂 __css__
 
 1. 📄 [\_sidebar.md](front-end/css/_sidebar.md)
 2. 📄 [css\-naming\-rule.md](front-end/css/css-naming-rule.md)
-3. 📄 [README.md](front-end/css/README.md)
+3. 📄 [flex.md](front-end/css/flex.md)
+4. 📄 [README.md](front-end/css/README.md)
+5. 📄 [sass.md](front-end/css/sass.md)
 
 ### 📂 __html__
 
@@ -137,35 +140,37 @@
 ### 📂 __javascript__
 
 1. 📄 [\_sidebar.md](front-end/javascript/_sidebar.md)
-2. 📄 [ajax.md](front-end/javascript/ajax.md)
-3. 📄 [javascript\-bom.md](front-end/javascript/javascript-bom.md)
-4. 📄 [javascript\-dom.md](front-end/javascript/javascript-dom.md)
-5. 📄 [javascript\-es5.md](front-end/javascript/javascript-es5.md)
-6. 📄 [javascript\-es6.md](front-end/javascript/javascript-es6.md)
-7. 📄 [javascript\-faq.md](front-end/javascript/javascript-faq.md)
-8. 📄 [javascript\-module.md](front-end/javascript/javascript-module.md)
-9. 📄 [README.md](front-end/javascript/README.md)
+2. 📄 [javascript\-bom.md](front-end/javascript/javascript-bom.md)
+3. 📄 [javascript\-dom.md](front-end/javascript/javascript-dom.md)
+4. 📄 [javascript\-es5.md](front-end/javascript/javascript-es5.md)
+5. 📄 [javascript\-es6.md](front-end/javascript/javascript-es6.md)
+6. 📄 [javascript\-faq.md](front-end/javascript/javascript-faq.md)
+7. 📄 [javascript\-module.md](front-end/javascript/javascript-module.md)
+8. 📄 [README.md](front-end/javascript/README.md)
 
-### 📂 __node.js__
+### 📂 __nodejs__
 
-1. 📄 [\_sidebar.md](front-end/node.js/_sidebar.md)
-2. 📄 [modules.md](front-end/node.js/modules.md)
-3. 📄 [npm.md](front-end/node.js/npm.md)
-4. 📄 [README.md](front-end/node.js/README.md)
+1. 📄 [\_sidebar.md](front-end/nodejs/_sidebar.md)
+2. 📄 [modules.md](front-end/nodejs/modules.md)
+3. 📄 [npm.md](front-end/nodejs/npm.md)
+4. 📄 [README.md](front-end/nodejs/README.md)
 
 ### 📂 __uniapp__
 
 1. 📄 [\_sidebar.md](front-end/uniapp/_sidebar.md)
 2. 📄 [colorui.md](front-end/uniapp/colorui.md)
-3. 📄 [luch\-request.md](front-end/uniapp/luch-request.md)
-4. 📄 [README.md](front-end/uniapp/README.md)
-5. 📄 [uniapp.md](front-end/uniapp/uniapp.md)
-6. 📄 [uview.md](front-end/uniapp/uview.md)
+3. 📄 [hbuilderx.md](front-end/uniapp/hbuilderx.md)
+4. 📄 [luch\-request.md](front-end/uniapp/luch-request.md)
+5. 📄 [README.md](front-end/uniapp/README.md)
+6. 📄 [uniapp.md](front-end/uniapp/uniapp.md)
+7. 📄 [uview.md](front-end/uniapp/uview.md)
 
 ### 📂 __vue__
 
 1. 📄 [\_sidebar.md](front-end/vue/_sidebar.md)
-2. 📄 [README.md](front-end/vue/README.md)
+2. 📄 [element.md](front-end/vue/element.md)
+3. 📄 [README.md](front-end/vue/README.md)
+4. 📄 [vant.md](front-end/vue/vant.md)
 
 ## 📂 __home__
 
@@ -208,12 +213,14 @@
 ### 📂 __mobile__
 
 1. 📄 [\_sidebar.md](os/mobile/_sidebar.md)
-2. 📄 [app\-list.md](os/mobile/app-list.md)
-3. 📄 [browser.md](os/mobile/browser.md)
-4. 📄 [mgit.md](os/mobile/mgit.md)
-5. 📄 [miui.md](os/mobile/miui.md)
-6. 📄 [README.md](os/mobile/README.md)
-7. 📄 [termux.md](os/mobile/termux.md)
+2. 📄 [acode.md](os/mobile/acode.md)
+3. 📄 [app\-list.md](os/mobile/app-list.md)
+4. 📄 [browser.md](os/mobile/browser.md)
+5. 📄 [markor.md](os/mobile/markor.md)
+6. 📄 [mgit.md](os/mobile/mgit.md)
+7. 📄 [miui.md](os/mobile/miui.md)
+8. 📄 [README.md](os/mobile/README.md)
+9. 📄 [termux.md](os/mobile/termux.md)
 
 ### 📂 __tools__
 
@@ -230,26 +237,28 @@
 11. 📄 [docsify.md](os/tools/docsify.md)
 12. 📄 [file\-sync.md](os/tools/file-sync.md)
 13. 📄 [file\-transfer.md](os/tools/file-transfer.md)
-14. 📄 [git.md](os/tools/git.md)
-15. 📄 [github.md](os/tools/github.md)
-16. 📄 [markdown.md](os/tools/markdown.md)
-17. 📄 [multimedia.md](os/tools/multimedia.md)
-18. 📄 [navicat.md](os/tools/navicat.md)
-19. 📄 [opera.md](os/tools/opera.md)
-20. 📄 [phpmyadmin.md](os/tools/phpmyadmin.md)
-21. 📄 [phpstorm.md](os/tools/phpstorm.md)
-22. 📄 [phpstudy.md](os/tools/phpstudy.md)
-23. 📄 [postman.md](os/tools/postman.md)
-24. 📄 [README.md](os/tools/README.md)
-25. 📄 [rss.md](os/tools/rss.md)
-26. 📄 [search.md](os/tools/search.md)
-27. 📄 [sublime\-text.md](os/tools/sublime-text.md)
-28. 📄 [tampermonkey.md](os/tools/tampermonkey.md)
-29. 📄 [visual\-studio\-code.md](os/tools/visual-studio-code.md)
-30. 📄 [web\-app.md](os/tools/web-app.md)
-31. 📄 [webpage\-downloader.md](os/tools/webpage-downloader.md)
-32. 📄 [wps.md](os/tools/wps.md)
-33. 📄 [yapi.md](os/tools/yapi.md)
+14. 📄 [firefox.md](os/tools/firefox.md)
+15. 📄 [git.md](os/tools/git.md)
+16. 📄 [github.md](os/tools/github.md)
+17. 📄 [lanhu.md](os/tools/lanhu.md)
+18. 📄 [markdown.md](os/tools/markdown.md)
+19. 📄 [multimedia.md](os/tools/multimedia.md)
+20. 📄 [navicat.md](os/tools/navicat.md)
+21. 📄 [opera.md](os/tools/opera.md)
+22. 📄 [phpmyadmin.md](os/tools/phpmyadmin.md)
+23. 📄 [phpstorm.md](os/tools/phpstorm.md)
+24. 📄 [phpstudy.md](os/tools/phpstudy.md)
+25. 📄 [postman.md](os/tools/postman.md)
+26. 📄 [README.md](os/tools/README.md)
+27. 📄 [rss.md](os/tools/rss.md)
+28. 📄 [search.md](os/tools/search.md)
+29. 📄 [sublime\-text.md](os/tools/sublime-text.md)
+30. 📄 [tampermonkey.md](os/tools/tampermonkey.md)
+31. 📄 [visual\-studio\-code.md](os/tools/visual-studio-code.md)
+32. 📄 [web\-app.md](os/tools/web-app.md)
+33. 📄 [webpage\-downloader.md](os/tools/webpage-downloader.md)
+34. 📄 [wps.md](os/tools/wps.md)
+35. 📄 [yapi.md](os/tools/yapi.md)
 
 ### 📂 __windows__
 
@@ -323,13 +332,18 @@
 2. 📄 [app\-list\-template.md](snippets/app-list-template.md)
 3. 📄 [badge.md](snippets/badge.md)
 4. 📄 [css.md](snippets/css.md)
-5. 📄 [illustration.md](snippets/illustration.md)
-6. 📄 [javascript.md](snippets/javascript.md)
-7. 📄 [README.md](snippets/README.md)
+5. 📄 [html.md](snippets/html.md)
+6. 📄 [illustration.md](snippets/illustration.md)
+7. 📄 [javascript.md](snippets/javascript.md)
+8. 📄 [README.md](snippets/README.md)
+9. 📄 [regex.md](snippets/regex.md)
 
 ### 📂 __acode__
 
-1. 📄 [markdown.snippets](snippets/acode/markdown.snippets)
+1. 📄 [css.snippets](snippets/acode/css.snippets)
+2. 📄 [html.snippets](snippets/acode/html.snippets)
+3. 📄 [markdown.snippets](snippets/acode/markdown.snippets)
+4. 📄 [markdown.snippets.txt](snippets/acode/markdown.snippets.txt)
 
 ## 📂 __tech\-stack__
 

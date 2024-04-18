@@ -1,5 +1,19 @@
 # 插图
 
+中文版：
+
+```markdown
+<small>*插图来源于：[]()*</small>
+```
+
+英文版：
+
+```markdown
+<small>*Picture source: []()*</small>
+```
+
+## 插图列表
+
 ![illustration](https://developer.android.google.cn/static/images/design/ui/mobile/color-hero.png?hl=zh-cn)
 
 <small>*插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/styles/color?hl=zh-cn)*</small>

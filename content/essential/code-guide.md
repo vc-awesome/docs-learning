@@ -12,18 +12,19 @@
 
 ## 代码规范
 
-1. https://github.com/mdo/code-guide - *Standards for developing consistent, flexible, and sustainable HTML and CSS.* [中文-1](https://codeguide.bootcss.com/) [中文-2](http://zoomzhao.github.io/code-guide/)
+1. https://github.com/fex-team/styleguide - *GitHub - fex-team/styleguide: 文档与源码编写风格*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/fex-team/styleguide?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/fex-team/styleguide?style=social)
+
+### HTML 和 CSS
+
+1. [Code Guide by @mdo](https://codeguide.co/) - *Standards for developing consistent, flexible, and sustainable HTML and CSS.* [GitHub Repo](https://github.com/mdo/code-guide) [中文-1](https://codeguide.bootcss.com/) [中文-2](http://zoomzhao.github.io/code-guide/)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/mdo/code-guide?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/mdo/code-guide?style=social)
 
-2. https://github.com/fex-team/styleguide - *GitHub - fex-team/styleguide: 文档与源码编写风格*
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/fex-team/styleguide?icon=github&color=blue)
-
-### HTML
-
-### CSS
+CSS：
 
 1. https://github.com/airbnb/css - *GitHub - airbnb/css: A mostly reasonable approach to CSS and Sass.*
 
@@ -82,7 +83,7 @@ div {
  */
 ```
 
-👆 上述参考：https://www.w3cschool.cn/wematy/wematy-qaru3bsh.html# - *CSS 注释规范_w3cschool*
+👆 上述参考：https://www.w3cschool.cn/wematy/wematy-qaru3bsh.html - *CSS 注释规范_w3cschool*
 
 ``` js
 // 自定义内容 - start

@@ -335,7 +335,7 @@ https://trends.builtwith.com/javascript/compatibility - *Compatibility Usage Dis
 
 ## 代码高亮
 
-1. https://github.com/PrismJS/prism - *Lightweight, robust, elegant syntax highlighting.*
+1. [Prism](https://prismjs.com/index.html) - *Lightweight, robust, elegant syntax highlighting.* [GitHub Repo](https://github.com/PrismJS/prism)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/PrismJS/prism?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/PrismJS/prism?style=social)
@@ -421,10 +421,12 @@ https://trends.builtwith.com/javascript/compatibility - *Compatibility Usage Dis
     
     </details>
 
-2. https://github.com/highlightjs/highlight.js - *GitHub - highlightjs/highlight.js: JavaScript syntax highlighter with language auto-detection and zero dependencies.*
+2. [highlight.js](https://highlightjs.org/) - *JavaScript syntax highlighter with language auto-detection and zero dependencies.* [GitHub Repo](https://github.com/highlightjs/highlight.js)
 
     ![GitHub last commit](https://badgen.net/github/last-commit/highlightjs/highlight.js?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/highlightjs/highlight.js?style=social)
+
+[yy](file:////storage/emulated/0/Documents/markor/gh/docs-learning/demo/lib/prism-autoloader.js)
 
 ## 流程图
 

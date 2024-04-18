@@ -1,6 +1,6 @@
 # _portal
 
-![](../_media/725a2733193942518c254a7eb15e61feeb01fde0e2b051a9168e9c080263d2c6.jpg)
+![illustration](../_media/725a2733193942518c254a7eb15e61feeb01fde0e2b051a9168e9c080263d2c6.jpg)
 
 <small>*插图来源于：[Quzizz](https://quizizz.com/?lng=zh-CN)*</small>
 

@@ -71,5 +71,4 @@ sudo chmod -R 777 <要授权的文件目录路径>
 参考：
 
 1. http://events.jianshu.io/p/05d0cc696314 - *【AppleScript】关于Mac如何使用shell关闭某个应用窗口 - 天下林子 - 简书*
-
 2. https://blog.csdn.net/chenzenan/article/details/108647659 - *mac无提示关闭终端窗口命令_chenzenan的博客-CSDN博客_mac关闭终端窗口命令*

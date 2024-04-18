@@ -39,7 +39,10 @@ GitHub：
 
 > 一个静态博客写作客户端
 
-![GitHub last commit](https://flat.badgen.net/github/last-commit/getgridea/gridea?icon=github&color=blue)
+![GitHub last commit](https://badgen.net/github/last-commit/getgridea/gridea?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/getgridea/gridea?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/getgridea/gridea?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/getgridea/gridea?style=social)
 
 官网：
 

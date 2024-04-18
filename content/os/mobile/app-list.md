@@ -8,6 +8,9 @@
 
 ![f-droid](https://badgen.net/f-droid/v/com.elasticrock.keepscreenon)
 ![GitHub last commit](https://badgen.net/github/last-commit/elastic-rock/KeepScreenOn?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/elastic-rock/KeepScreenOn?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/elastic-rock/KeepScreenOn?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/elastic-rock/KeepScreenOn?style=social)
 
 ---
 
@@ -23,6 +26,9 @@ https://github.com/elastic-rock/KeepScreenOn - *GitHub - elastic-rock/KeepScreen
 
 ![f-droid](https://badgen.net/f-droid/v/com.looker.droidify)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Iamlooker/Droid-ify?style=social)
 
 ---
 
@@ -38,6 +44,9 @@ https://github.com/Iamlooker/Droid-ify - *GitHub - Iamlooker/Droid-ify: F-Droid 
 
 ![f-droid](https://badgen.net/f-droid/v/io.github.muntashirakon.AppManager)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/MuntashirAkon/AppManager?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MuntashirAkon/AppManager?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/MuntashirAkon/AppManager?style=social)
 
 ---
 
@@ -52,6 +61,9 @@ https://github.com/MuntashirAkon/AppManager - *GitHub - MuntashirAkon/AppManager
 
 ![f-droid](https://badgen.net/f-droid/v/com.activitymanager)
 ![GitHub last commit](https://badgen.net/github/last-commit/sdex/ActivityManager?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/sdex/ActivityManager?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sdex/ActivityManager?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/sdex/ActivityManager?style=social)
 
 ---
 
@@ -66,6 +78,9 @@ https://github.com/sdex/ActivityManager - *GitHub - sdex/ActivityManager: Launch
 
 ![f-droid](https://badgen.net/f-droid/v/com.smartpack.packagemanager)
 ![GitHub last commit](https://badgen.net/github/last-commit/SmartPack/PackageManager?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SmartPack/PackageManager?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SmartPack/PackageManager?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/SmartPack/PackageManager?style=social)
 
 ---
 
@@ -84,17 +99,16 @@ A：可通过应用“[Activity Manager](os/mobile/mobile-app-list.md#activity-m
 
 ### 质感文件（Material Files）
 
-> 开源的 Material Design 文件管理器
+> 免费开源的 Material Design 文件管理器
 
 ![f-droid](https://badgen.net/f-droid/v/me.zhanghai.android.files)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zhanghai/MaterialFiles?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/zhanghai/MaterialFiles?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/zhanghai/MaterialFiles?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/zhanghai/MaterialFiles?style=social)
+![Platforms](https://img.shields.io/badge/platforms-Android-blue)
 
 ---
-
-支持的平台：Android
 
 https://f-droid.org/packages/me.zhanghai.android.files/ - *Material Files | F-Droid - Free and Open Source Android App Repository*
 
@@ -123,203 +137,15 @@ https://github.com/zhanghai/MaterialFiles - *GitHub - zhanghai/MaterialFiles: Ma
 
 ![f-droid](https://badgen.net/f-droid/v/net.gsantner.markor)
 ![GitHub last commit](https://badgen.net/github/last-commit/gsantner/markor?icon=github&color=blue)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/docsifyjs/docsify?logo=github&style=social)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/gsantner/markor?style=social)
 
 ---
-
-支持的平台：Android
 
 https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/gsantner/markor - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
-
----
-
-设置：
-
-1. ActionButton 长按下面的图标按钮触发功能
-
-    - 行内代码：代码块
-    - 打开链接：搜索文档
-    - 特殊按键：切换至文首/文末
-    - 上移一行：快速定位光标至可视区域
-    - 下移一行：快速定位光标至可视区域
-    - 插入链接：在文件管理器中选择一张图片并插入
-    - 插入图片：开启拍照并插入拍好的照片
-    - Audio：开启录音（此功能异常）
-
-2. ActionButton 操作顺序
-
-    - _设置 >（格式）Markdown > （ActionButton）操作顺序_
-
-3. ActionButton 水平间距
-
-    - _设置 > 其它 > （编辑器）ActionButton 间距_
-
-4. 备份设置
-
-    - _设置 > 其它 > （Backup）备份设置 > 导出设置到 JSON 文件_
-
-5. 启用数学公式渲染（ _默认不开启_ ）
-
-    - _设置 > （格式）Markdown > （查看模式）启用数学公式渲染_
-
-6. 多窗口
-
-    - _设置 > 通用 > （Features）多窗口_
-
-7. 关闭滑动以更改模式
-
-    - *设置 > 查看模式 > 滑动以更改模式*
-
-8. 文件描述格式
-
-    - *设置 > 其它 > （文件浏览器）文件描述格式*
-
-    - 设置成：`FS yyyy/MM/dd aahh:mm`
-
-    - 显示效果：**30KB 2020/04/02 上午10:30**
-
-9. 基本颜色方案
-
-    - ⚙️ *设置 > 其他 > （编辑器）基本颜色方案*
-
-    - 选择「预设值」
-
-        1. Gruvbox
-
-10. 查看模式
-
-    1. 在“查看模式”下，`<a></a>` 标签内的文本内容不自动换行，导致查看完整页面需要左右滑动的处理方式如下：
-
-        - *设置 > 查看模式 > （Inject）Inject -> Head*
-        
-        - 在 `<style></style>` 标签内添加样式 ↓
-        
-            ```css
-              a,
-              em,
-              u {
-                word-break: break-word;
-                word-wrap: break-word;
-              }
-            ```
-
-    2. 在“查看模式”下，设置 `<code></code>` 标签内容的样式：
-
-        - *设置 > 查看模式 > （Inject）Inject -> Head*
-        
-        - 在 `<style></style>` 标签内添加样式 ↓
-            
-            ```css
-              code {
-                padding: .2em .4em;
-                margin: 0;
-                font-size: 85%;
-                white-space: break-spaces;
-                word-wrap: break-word;
-                background-color: rgba(175,184,193,.2);
-                border-radius: 6px;
-              }
-            ```
-            
-        参考：https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites （在网页浏览器的“手机模式”下，查看效果更佳。）
-
-    3. 在“查看模式”下，设置 `<kbd></kbd>` 标签内容的样式：
-
-        - *设置 > 查看模式 > （Inject）Inject -> Head*
-        
-        - 在 `<style></style>` 标签内添加样式 ↓
-        
-            ```css
-              kbd {
-                border: solid 1px #ccc;
-                border-radius: 3px;
-                display: inline-block;
-                font-size: 12px !important;
-                line-height: 12px;
-                margin-bottom: 3px;
-                padding: 3px 5px;
-                vertical-align: middle;
-                color: #1F2328;
-                background-color: #f6f8fa;
-                box-shadow: inset 0 -1px 0 rgba(175,184,193,.2);
-              }
-            ```
-
-    4. 在“查看模式”下，设置自定义的主题样式：
-
-        [下载主题](os/tools/markdown.md#主题)：
-        
-        1. [少数派经典主题](https://sspai.com/post/43873)
-
-    5. 以上 4 条设置合并
-        
-        - *设置 > 查看模式 > （Inject）Inject -> body*
-        
-        - 注入下列内容 ↓
-        
-            ```html
-            <link
-              rel="stylesheet"
-              href="file:////storage/emulated/0/Documents/markor/gh/docs-learning/content/os/mobile/_files/markor/markor-custom.css"
-            />
-            <!--Theme-->
-            <link
-              rel="stylesheet"
-              href="file:////storage/emulated/0/Documents/markor/gh/docs-learning/content/os/mobile/_files/markor/theme/sspai.css"
-            />
-            <!--Font Awesome-->
-            <link
-              rel="stylesheet"
-              href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
-            />
-            <link
-              rel="stylesheet"
-              href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css"
-            />
-            <!--复制代码块-->
-            <link
-              href="file:////storage/emulated/0/Documents/markor/gh/docs-learning/_assets/clipboard-code-block.css"
-              rel="stylesheet"
-            />
-            <script
-              src="https://clipboardjs.com/dist/clipboard.min.js"
-              defer
-            ></script>
-            <script
-              src="file:////storage/emulated/0/Documents/markor/gh/docs-learning/_assets/clipboard-code-block.js"
-              defer
-            ></script>
-            
-            ```
-
-    6. 在“查看模式”下，添加背景图标签内容：
-
-        - *设置 > 查看模式 > （Inject）Inject -> body*
-        
-        - 在 `</body>` 标签添加内容 ↓
-
-            ```html
-            <img
-              src="https://lug.ustc.edu.cn/static/USTC_logo.svg"
-              style="
-                position: fixed;
-                bottom: -320px;
-                left: -200px;
-                opacity: 0.1;
-                z-index: -100;
-              "
-            />
-            
-            ```
-            
-            参考：https://lug.ustc.edu.cn/ - *中国科学技术大学 Linux 用户协会*
-
-同步：
-
-1. https://github.com/gsantner/markor/discussions/1381 - *Filemanager & sync client support (cannot open file from other app) · gsantner/markor · Discussion #1381 · GitHub*
-
 
 ### Acode
 
@@ -327,6 +153,9 @@ https://github.com/gsantner/markor - *GitHub - gsantner/markor: Text editor - No
 
 ![f-droid](https://badgen.net/f-droid/v/com.foxdebug.acode)
 ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/Acode?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deadlyjack/Acode?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deadlyjack/Acode?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/deadlyjack/Acode?style=social)
 
 ---
 
@@ -336,65 +165,6 @@ https://github.com/deadlyjack/Acode - *GitHub - deadlyjack/Acode: Acode - powerf
 
 https://acode.app/ - *Acode - Code editor for android*
 
----
-
-以下链接 1 和 链接 2 在 Acode v1.9.0(936) 和 Markor 有差异：
-
-1. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship* 🪜
-2. https://www.bypasscensorship.org/zh-hans/ - *BypassCensorship* 🪜
-
-底部 ActionButton ：
-
-> 点击底部操作按钮“ⵈ”，打开命令模式。
-
-- Toggle block comment - *切换块注释*
-- Toggle comment - *切换注释*
-- Remove line - *删除行*
-- Find - *查找* <kbd>Ctrl</kbd> + <kbd>F</kbd>
-- Select line to start - *选择一行到行首*
-- Select line to end - *选择一行到行尾*
-- Fold all - *全部折叠*
-- Go to line... - *跳转行...* <kbd>Ctrl</kbd> + <kbd>G</kbd>
-
-插件：
-
-1. https://github.com/deadlyjack/acode-plugin-prettier - *GitHub - deadlyjack/acode-plugin-prettier: Code formatter plugin for Acode editor for Android*
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/deadlyjack/acode-plugin-prettier?icon=github&color=blue)
-    
-    设置：
-    
-    1. Arrow Parens（箭头括号）：avoid
-    2. Bracket Same Line（托架同线）：不勾选
-    3. Bracket Spacing（支架间距）：勾选
-    4. Embedded Language Formatting（嵌入式语言格式）：auto
-    5. End Of Line（行结束）：lf
-    6. HTML Whitespace Sensitivity（空格敏感度）：css
-    7. Insert Pragma（插入杂注）：不勾选
-    8. JSX Single Quote（单引号）：不勾选
-    9. Open logs page on error（打开日志页出错）：勾选
-    10. Print Width（打印宽度）：80
-    11. Prose Wrap（散文包装）：preserve
-    12. Quote Props（引用道具）：as-needed
-    13. Range End（射程）：Infinity
-    14. Range Start（靶场起始）：0
-    15. Require Pragma（需要杂注）：不勾选
-    16. Semicolons（分号）：勾选
-    17. Single Attribute Per Line（每行单个属性）：勾选
-    18. Single Quote（单引号）：勾选
-    19. Tab Width（标签宽度）：2
-    20. Trailing Comma（拖尾逗号）：all
-    21. Use Tabs（使用标签）：不勾选
-    22. Vue Indent Script And Style（缩进脚本和样式）：不勾选
-
-2. https://github.com/deadlyjack/acode-plugin-snippets - *GitHub - deadlyjack/acode-plugin-snippets: Acode snippets plugin* [Website](https://acode.app/plugin/acode.plugin.snippets)
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/deadlyjack/acode-plugin-snippets?icon=github&color=blue)
-
-3. https://github.com/bajrangCoder/MarkdownCompiler - *GitHub - bajrangCoder/MarkdownCompiler: A markdown compiler & styler plugin for acode*
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/bajrangCoder/MarkdownCompiler?icon=github&color=blue)
-
 ## 写作工具
 
 ### Markdownr
@@ -403,6 +173,9 @@ https://acode.app/ - *Acode - Code editor for android*
 
 ![f-droid](https://badgen.net/f-droid/v/com.sanzoghenzo.markdownr)
 ![GitHub last commit](https://badgen.net/github/last-commit/sanzoghenzo/markdownr?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/sanzoghenzo/markdownr?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sanzoghenzo/markdownr?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/sanzoghenzo/markdownr?style=social)
 
 ---
 
@@ -418,6 +191,9 @@ https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Andr
 
 ![f-droid](https://badgen.net/f-droid/v/dnsfilter.android)
 ![GitHub last commit](https://badgen.net/github/last-commit/IngoZenz/personaldnsfilter?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IngoZenz/personaldnsfilter?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/IngoZenz/personaldnsfilter?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/IngoZenz/personaldnsfilter?style=social)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Ddnsfilter.android%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 
 ---
@@ -540,6 +316,9 @@ https://itxtech.org/ - *Homepage | iTX Technologies*
 
 ![f-droid](https://badgen.net/f-droid/v/org.adaway)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AdAway/AdAway?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/AdAway/AdAway?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AdAway/AdAway?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/AdAway/AdAway?style=social)
 
 ---
 
@@ -596,6 +375,9 @@ https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
 
 ![f-droid](https://badgen.net/f-droid/v/com.emanuelef.remote_capture)
 ![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/PCAPdroid?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/emanuele-f/PCAPdroid?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/emanuele-f/PCAPdroid?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/PCAPdroid?style=social)
 ![](https://badgen.net/badge/💰/应用内包含付费功能/grey)
 
 ---
@@ -650,11 +432,12 @@ https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
 
 ![f-droid](https://badgen.net/f-droid/v/com.nononsenseapps.feeder)
 ![GitHub last commit](https://img.shields.io/github/last-commit/spacecowboy/Feeder?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/spacecowboy/Feeder?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/spacecowboy/Feeder?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/spacecowboy/Feeder?style=social)
 ![GitLab last commit](https://img.shields.io/gitlab/last-commit/spacecowboy%2FFeeder?logo=gitlab)
 
 ---
-
-支持的平台：Android
 
 https://f-droid.org/packages/com.nononsenseapps.feeder/ - *Feeder | F-Droid - Free and Open Source Android App Repository*
 
@@ -669,6 +452,9 @@ https://github.com/spacecowboy/Feeder - *GitHub - spacecowboy/Feeder: Android RS
 
 ![f-droid](https://badgen.net/f-droid/v/me.ash.reader)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Ashinch/ReadYou?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Ashinch/ReadYou?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Ashinch/ReadYou?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Ashinch/ReadYou?style=social)
 
 ---
 
@@ -684,6 +470,9 @@ https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS r
 
 ![f-droid](https://badgen.net/f-droid/v/com.trianguloy.urlchecker)
 ![GitHub last commit](https://badgen.net/github/last-commit/TrianguloY/UrlChecker?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TrianguloY/UrlChecker?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TrianguloY/UrlChecker?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/TrianguloY/UrlChecker?style=social)
 
 ---
 
@@ -745,6 +534,9 @@ https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Andr
 
 ![f-droid](https://badgen.net/f-droid/v/ru.tech.imageresizershrinker)
 ![GitHub last commit](https://img.shields.io/github/last-commit/T8RIN/ImageResizer?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/T8RIN/ImageResizer?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/T8RIN/ImageResizer?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/T8RIN/ImageResizer?style=social)
 
 ---
 
@@ -771,6 +563,9 @@ https://github.com/T8RIN/ImageResizer - *GitHub - T8RIN/ImageResizer: Powerful i
 
 ![f-droid](https://badgen.net/f-droid/v/com.kgurgul.cpuinfo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kamgurgul/cpu-info?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kamgurgul/cpu-info?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kamgurgul/cpu-info?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/kamgurgul/cpu-info?style=social)
 
 ---
 

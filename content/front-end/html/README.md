@@ -62,6 +62,8 @@ https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bo
 <td></td>
 <a></a>
 <img>
+<input>
+<svg>
 ```
 
 #### 内联文本元素

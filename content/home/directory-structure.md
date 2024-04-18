@@ -369,7 +369,7 @@ public/static/home/default/
 1. *uploads* 文件夹占用空间大，建议存放至 *public* 目录下，方便其它文件夹的转移；
 2. 如果为了安全考虑，可把 *uploads* 文件夹放到站点的根目录。
 
-## 目录
+## 文档目录
 
 有 2 种叫法：
 
@@ -436,11 +436,74 @@ public/static/home/default/
 
 - 章节序号效果：https://wiki.qemu.org/Hosts/W32 - *Hosts/W32 - QEMU*
 
+```css
+h1 { counter-reset: h2counter; }
+h2 { counter-reset: h3counter; }
+h3 { counter-reset: h4counter; }
+h4 { counter-reset: h5counter; }
+h5 { counter-reset: h6counter; }
+h6 { }
+h2:before {
+  counter-increment: h2counter;
+  content: counter(h2counter) ".\0000a0\0000a0";
+}
+h3:before {
+  counter-increment: h3counter;
+  content: counter(h2counter) "."
+            counter(h3counter) ".\0000a0\0000a0";
+}
+h4:before {
+  counter-increment: h4counter;
+  content: counter(h2counter) "."
+            counter(h3counter) "."
+            counter(h4counter) ".\0000a0\0000a0";
+}
+h5:before {
+  counter-increment: h5counter;
+  content: counter(h2counter) "."
+            counter(h3counter) "."
+            counter(h4counter) "."
+            counter(h5counter) ".\0000a0\0000a0";
+}
+h6:before {
+  counter-increment: h6counter;
+  content: counter(h2counter) "."
+            counter(h3counter) "."
+            counter(h4counter) "."
+            counter(h5counter) "."
+            counter(h6counter) ".\0000a0\0000a0";
+}
+```
+
+```css
+ol {
+    counter-reset: section;
+    list-style-type: none;
+}
+
+li:before {
+    counter-increment: section;
+    content: counters(section, ".") ". ";
+}
+```
+
+<https://cn.bing.com/search?q=html+如何给h1添加序号> - *html 如何给h1添加序号 - 搜索*
+
+1. https://yanwei.github.io/misc/markdown-auto-number-title.html - *MarkDown标题自动添加编号 | yanwei.github.io*
+2. https://zhuanlan.zhihu.com/p/256940869 - *纯css实现markdown标题自动编号 - 知乎*
+3. https://blog.csdn.net/weixin_39620273/article/details/118292324 - *html如何生成多个序号,CSS实现章节添加自增序号的方法-CSDN博客*
+4. https://diralpo.github.io/posts/2020/12a828b8/index.html - *css实现标题自动编号 | Diralpo的个人博客*
+
+<https://cn.bing.com/search?q=css+嵌套列表添加序号> - *css 嵌套列表添加序号 - 搜索*
+
+1. https://www.coder.work/article/319305 - *HTML/CSS 多级嵌套列表编号 - IT工具网*
+
 ## 工具
 
 1. https://github.com/ekalinin/github-markdown-toc - *GitHub - ekalinin/github-markdown-toc: Easy TOC creation for GitHub README.md*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/ekalinin/github-markdown-toc?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ekalinin/github-markdown-toc?style=social)
 
 ## 参考
 

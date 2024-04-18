@@ -68,6 +68,7 @@ GitHub：
 https://github.com/free-ss/free-ss.site
 
 ![GitHub last commit](https://badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/free-ss/free-ss.site?style=social)
 
 常见问题：
 
@@ -189,6 +190,9 @@ GitHub*
     ![GitHub Repo stars](https://img.shields.io/github/stars/proxifly/free-proxy-list?style=social)
 
 3. https://github.com/TheSpeedX/PROXY-List - *GitHub - TheSpeedX/PROXY-List: Get PROXY List that gets updated everyday*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/TheSpeedX/PROXY-List?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/TheSpeedX/PROXY-List?style=social)
 
 ### Purchases
 

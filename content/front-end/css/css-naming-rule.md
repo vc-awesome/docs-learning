@@ -9,16 +9,22 @@
 2. https://xiaomi.github.io/hiui/ - *HiUI* [GitHub](https://github.com/XiaoMi/hiui) `React`
 
     ![GitHub last commit](https://badgen.net/github/last-commit/XiaoMi/hiui?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/XiaoMi/hiui?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/XiaoMi/hiui?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/XiaoMi/hiui?style=social)
 
 3. https://vant-contrib.gitee.io/vant/#/zh-CN - *Vant 4 - 轻量、可定制的移动端组件库* `Vue 3`
 
 4. https://element.eleme.io/#/zh-CN - *Element* `Vue 2`
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/mui?icon=github&color=blue)
-
 5. https://www.uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架* `uni-app`
 
 6. https://dev.dcloud.net.cn/mui/ - *MUI* [GitHub](https://github.com/dcloudio/mui)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/mui?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/mui?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/mui?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/mui?style=social)
 
 7. ~~http://www.hcoder.net/hui - *Hui*~~
 
@@ -51,11 +57,16 @@
     2. https://github.com/necolas/normalize.css - *normalize.css*
 
         ![GitHub last commit](https://badgen.net/github/last-commit/necolas/normalize.css?icon=github&color=blue)
-
+        ![GitHub Repo stars](https://img.shields.io/github/stars/necolas/normalize.css?style=social)
 
 ### Bootstrap
 
 https://getbootstrap.com/ - *Bootstrap · The most popular HTML, CSS, and JS library in the world.*
+
+![GitHub last commit](https://badgen.net/github/last-commit/twbs/bootstrap?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/twbs/bootstrap?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/twbs/bootstrap?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/twbs/bootstrap?style=social)
 
 https://www.bootcss.com/ - *Bootstrap中文网*
 
@@ -152,6 +163,8 @@ http://amazeui.shopxo.net/css/#class-ming-ming-shuo-ming - *CSS | Amaze UI*
 
 ### BEM 命名规范
 
+https://getbem.com/ - *BEM — Block Element Modifier*
+
 > **获取来源**：https://element-plus.gitee.io/zh-CN/guide/theming.html - *主题 | Element Plus*
 
 https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
@@ -189,7 +202,7 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
     - `.aside` 侧边栏容器
     - `.main` 主要区域容器
     - `.footer` 底栏容器
-    - `.item `子元素
+    - `.item` 子元素
     - `.topmenu` 顶部菜单
     - `.sidemenu` 侧边菜单
 
@@ -208,21 +221,22 @@ https://juejin.cn/post/6844903672162304013 - *CSS — BEM 命名规范 - 掘金*
 - `.cf` 或 `.clearfix`
 
 ```css
-am-cf:after,.am-cf:before {
+.am-cf:after,
+.am-cf:before {
   content: " ";
   display: table;
 }
 ```
-
-`.prev` 前一个
-
-`.next` 下一个
 
 ```css
 .am-cf:after {
   clear: both
 }
 ```
+
+`.prev` 前一个
+
+`.next` 下一个
 
 `.active`
 
@@ -234,7 +248,7 @@ am-cf:after,.am-cf:before {
 
 `.col` 列 - _via Bootstrap_
 
-`.cell`
+`.cell` 单元格
 
 `.text` 文本内容
 
@@ -273,360 +287,6 @@ am-cf:after,.am-cf:before {
 
 ### Flex 布局
 
-教程：
-
-1. http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html - _Flex 布局教程：语法篇_
-
-2. https://www.ruanyifeng.com/blog/2015/07/flex-examples.html - _Flex 布局教程：实例篇_
-
-<details>
-
-`justify-content` 属性定义了项目在主轴上的对齐方式。
-
-`align-items` 属性定义项目在交叉轴上如何对齐。
-
-`align-content` 属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。
-
-`flex-wrap` 一条轴线排不下，换行
-
-`flex-flow` flex-direction 属性和 flex-wrap 属性的简写形式，默认值为 row nowrap
-
-`justify-content` 定义了项目在主轴(横轴)上的对齐方式
-
-```css
--flex-container {
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
-}
-
--flex-item {
-    flex: 1;
-    -webkit-flex: 1;
-    -webkit-box-flex: 1;
-}
-```
-
-> From HUI
-
-- -flex
-
-> From [Bootstrap v5](https://v5.bootcss.com/docs/utilities/flex/)
-
-- container
-    - row
-    - row-cols-1
-    - row-cols-2
-    - row-cols-3
-    - row-cols-4
-    - row-cols-5
-    - row-cols-6
-    - align-items-start
-    - align-items-center
-    - align-items-end
-    - justify-content-start
-    - justify-content-center
-    - justify-content-end
-    - justify-content-around
-    - justify-content-between
-    - no-gutters
-        - col
-        - col-auto
-        - col-1
-        - col-2
-        - col-3
-        - col-4
-        - col-5
-        - col-6
-        - col-7
-        - col-8
-        - col-9
-        - col-10
-        - col-11
-        - col-12
-    - align-self-start
-    - align-self-center
-    - align-self-end
-
-```css
-container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-row-cols-1>* {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-row-cols-2>* {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
-}
-row-cols-3>* {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
-}
-row-cols-4>* {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%;
-}
-row-cols-5>* {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%
-}
-row-cols-6>* {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%
-}
-.align-items-start {
-    -ms-flex-align: start!important;
-    align-items: flex-start!important;
-}
-.align-items-center {
-    -ms-flex-align: center!important;
-    align-items: center!important;
-}
-.align-items-end {
-    -ms-flex-align: end!important;
-    align-items: flex-end!important;
-}
-.justify-content-start {
-    -ms-flex-pack: start!important;
-    justify-content: flex-start!important;
-}
-.justify-content-center {
-    -ms-flex-pack: center!important;
-    justify-content: center!important;
-}
-.justify-content-end {
-    -ms-flex-pack: end!important;
-    justify-content: flex-end!important;
-}
-.justify-content-around {
-    -ms-flex-pack: distribute!important;
-    justify-content: space-around!important;
-}
-.justify-content-between {
-    -ms-flex-pack: justify!important;
-    justify-content: space-between!important;
-}
-.no-gutters {
-    margin-right: 0;
-    margin-left: 0;
-}
-```
-
-```css
-.col {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    -ms-flex-preferred-size: 0;
-    flex-basis: 0;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    min-width: 0;
-    max-width: 100%;
-}
-col-auto {
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: 100%
-}
-.col-1 {
-    -ms-flex: 0 0 8.333333%;
-    flex: 0 0 8.333333%;
-    max-width: 8.333333%
-}
-.col-2 {
-    -ms-flex: 0 0 16.666667%;
-    flex: 0 0 16.666667%;
-    max-width: 16.666667%
-}
-.col-3 {
-    -ms-flex: 0 0 25%;
-    flex: 0 0 25%;
-    max-width: 25%
-}
-.col-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%
-}
-.col-5 {
-    -ms-flex: 0 0 41.666667%;
-    flex: 0 0 41.666667%;
-    max-width: 41.666667%
-}
-.col-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%
-}
-.col-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%
-}
-.col-8 {
-    -ms-flex: 0 0 66.666667%;
-    flex: 0 0 66.666667%;
-    max-width: 66.666667%
-}
-.col-9 {
-    -ms-flex: 0 0 75%;
-    flex: 0 0 75%;
-    max-width: 75%
-}
-.col-10 {
-    -ms-flex: 0 0 83.333333%;
-    flex: 0 0 83.333333%;
-    max-width: 83.333333%
-}
-.col-11 {
-    -ms-flex: 0 0 91.666667%;
-    flex: 0 0 91.666667%;
-    max-width: 91.666667%
-}
-.col-12 {
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%
-}
-```
-
----
-
-> 排序
-
-order-first
-
-order-last
-
-order-1
-
-order-2
-
-order-3
-
-order-4
-
-order-5
-
-order-6
-
-order-7
-
-order-8
-
-order-9
-
-order-10
-
-order-11
-
-order-12
-
-```css
-.order-first {
-    -ms-flex-order: -1;
-    order: -1
-}
-.order-last {
-    -ms-flex-order: 13;
-    order: 13
-}
-.order-0 {
-    -ms-flex-order: 0;
-    order: 0
-}
-.order-1 {
-    -ms-flex-order: 1;
-    order: 1
-}
-.order-2 {
-    -ms-flex-order: 2;
-    order: 2
-}
-.order-3 {
-    -ms-flex-order: 3;
-    order: 3
-}
-.order-4 {
-    -ms-flex-order: 4;
-    order: 4
-}
-.order-5 {
-    -ms-flex-order: 5;
-    order: 5
-}
-.order-6 {
-    -ms-flex-order: 6;
-    order: 6
-}
-.order-7 {
-    -ms-flex-order: 7;
-    order: 7
-}
-.order-8 {
-    -ms-flex-order: 8;
-    order: 8
-}
-.order-9 {
-    -ms-flex-order: 9;
-    order: 9
-}
-.order-10 {
-    -ms-flex-order: 10;
-    order: 10
-}
-.order-11 {
-    -ms-flex-order: 11;
-    order: 11
-}
-.order-12 {
-    -ms-flex-order: 12;
-    order: 12
-}
-```
-
-```css
-.align-self-start {
-    -ms-flex-item-align: start!important;
-    align-self: flex-start!important;
-}
-.align-self-center {
-    -ms-flex-item-align: center!important;
-    align-self: center!important;
-}
-.align-self-end {
-    -ms-flex-item-align: end!important;
-    align-self: flex-end!important;
-}
-```
-
-</details>
 
 ### Grid 栅格布局
 
@@ -993,7 +653,7 @@ h6 {
 
 ### Background 背景
 
-- 水平或垂直平铺(设置背景图像是否及如何重复)
+- 水平或垂直平铺（设置背景图像是否及如何重复）
 
   - `background-repeat: no-repeat;`
 
@@ -2884,8 +2544,7 @@ html 标签
 
 ## 单位
 
-1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/length#rem - *<length> - CSS：层叠样式表 | MDN*
-
+1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/length#rem - *\<length> - CSS：层叠样式表 | MDN*
 2. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/Values_and_units - *CSS 的值与单位 - 学习 Web 开发 | MDN*
 
 单位转换工具：
@@ -2900,13 +2559,21 @@ https://www.runoob.com/cssref/css-units.html - *CSS 单位 | 菜鸟教程*
 
 像素 1px = 0.0104166666666667in = 0.0264583333333333cm
 
-em 它是描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位。一般浏览器字体大小默认为 16px，则 2em == 32px
+### em
 
-rem 是根 em（root em）的缩写，rem 作用于非根元素时，相对于根元素字体大小；rem 作用于根元素字体大小时，相对于其出初始字体大小
+`em` 它是描述相对于应用在当前元素的字体尺寸，所以它也是相对长度单位。一般浏览器字体大小默认为 16px，则 2em = 32px
 
-vw viewpoint width，视窗宽度，1vw = 视窗宽度的 1%
+### rem
 
-vh viewpoint height，视窗高度，1vh = 视窗高度的 1%
+`rem` 是根 em（root em）的缩写，rem 作用于非根元素时，相对于根元素字体大小；rem 作用于根元素字体大小时，相对于其出初始字体大小
+
+### vw
+
+`vw` viewpoint width，视窗宽度，1vw = 视窗宽度的 1%
+
+### vh
+
+`vh` viewpoint height，视窗高度，1vh = 视窗高度的 1%
 
 
 ## 重写规则
@@ -2934,17 +2601,11 @@ Series 系列
 ### 居中布局
 
 1. https://juejin.cn/post/6844903742198956040 - *CSS之居中布局 - 掘金*
-
 2. https://www.w3school.com.cn/css/css_align.asp - *CSS 布局 - 水平和垂直对齐*
-
 3. https://zhuanlan.zhihu.com/p/417449752 - *实现HTML元素垂直居中的六种方法 - 知乎*
-
 4. https://zhuanlan.zhihu.com/p/263417006 - *CSS垂直居中的七个方法 - 知乎*
-
 5. https://www.cnblogs.com/SallyShan/p/11480685.html - *html,将元素水平，垂直居中的四种方式 - shansally - 博客园*
-
 6. https://blog.csdn.net/qq_31674679/article/details/81502033 - *HTML 水平居中 垂直居中 垂直水平居中的几种实现方式_Peace_day的博客-CSDN博客*
-
 7. https://juejin.cn/post/6994718555925119012 - *css 水平居中（8种方法）、垂直居中（8种方法） - 掘金*
 
 

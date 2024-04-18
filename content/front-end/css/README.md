@@ -4,6 +4,10 @@
 
 > CSS（Cascading Style Sheets，层叠样式表），是一种用来为结构化文档（如 HTML 文档或 XML 应用）添加样式（字体、间距和颜色等）的计算机语言，CSS 文件扩展名为 `.css`。
 
+## 官方
+
+https://www.w3.org/Style/CSS/Overview.en.html - *Cascading Style Sheets*
+
 ## 教程
 
 1. https://www.runoob.com/css/css-tutorial.html - *CSS 教程*
@@ -84,7 +88,7 @@ https://www.runoob.com/cssref/css-selectors.html - *CSS 选择器 | 菜鸟教程
   }
   ```
 
-### 伪类 / 伪元素
+### 伪类和伪元素
 
 教程：
 
@@ -165,7 +169,29 @@ fixed 在苹果手机 ios 不生效_前端 ios 上子设置 zinde 无法覆盖 -
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform - *transform - CSS：层叠样式表 | MDN*
 
-## 语法
+### display
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/display - *display - CSS：层叠样式表 | MDN*
+
+#### 块元素
+
+#### 内联元素
+
+display 属性值为 inline、inline-block、inline-table
+
+### line-height
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/line-height - *line-height - CSS：层叠样式表 | MDN*
+
+参考：
+
+1. https://zhuanlan.zhihu.com/p/352965852 - *熬夜整理了一万多字的line-height总结,你还看不懂那我真的要跪了! - 知乎*
+2. https://zhuanlan.zhihu.com/p/25808995 - *深入理解 CSS：字体度量、line-height 和 vertical-align - 知乎*
+3. https://segmentfault.com/a/1190000014936270 - *深入理解css之line-height - 有赞美业前端团队 - SegmentFault 思否*
+4. https://blog.csdn.net/apple_51491580/article/details/113737855 - *height和line-height的区别（简单易懂）_line-height和height的区别-CSDN博客*
+5. https://zhuanlan.zhihu.com/p/64851039 - *css : line-height的定义和经典使用 - 知乎*
+
+## 预处理器
 
 ### Sass
 
@@ -190,9 +216,7 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 ## 工具
 
 - https://www.postcss.com.cn - *PostCSS 利用 JavaScript 的强大编程能力对 CSS 代码进行转换。数以百计的 PostCSS 插件可以用来为 CSS 属性添加特定于浏览器厂商的前缀、支持未来 CSS 语法、模块化、代码检测等。*
-
 - https://stylelint.bootcss.com - *Stylelint 是一个强大、先进的 CSS 代码检查器（linter），可以帮助你规避 CSS 代码中的错误并保持一致的编码风格。*
-
 - https://www.purgecss.cn/ - *PurgeCSS 是一个用来删除未使用的 CSS 代码的工具，能够减小 CSS 文件的体积。例如可以用来减小 Bootstrap 等前端框架的文件体积，提升加载速度。*
 
 ## 功能
@@ -200,29 +224,19 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 ### Animation
 
 1. https://animate.style/ - *Animate.css | A cross-browser library of CSS animations.*
-
 2. http://anijs.github.io/ - *AniJS, A Library to Raise your Web Design without Coding*
-
 3. https://www.minimamente.com/project/magic/ - *Magic Animations CSS3*
-
 4. https://animejs.com/ - *anime.js • JavaScript animation engine*
-
 5. https://github.com/vace/css3-animation-generator - *chrome plugin css3 animation generator*
-
 6. https://css3gen.com/wp-content/cache/all/css3-animation/index.html - *CSS3 Animation Generator - CSS3gen*
 
 #### 搜索
 
 1. http://t.zoukankan.com/i7758-p-5226394.html - *11款CSS3动画工具的开发 - 走看看*
-
 2. https://wanghi.cn/202003/24716.html - *值得你收藏的10个CSS3动画工具菜鸟教程网_动画小白攻略 - 王海*
-
 3. https://www.php.cn/css-tutorial-381741.html - *用CSS3做动画效果用什么工具-css教程-PHP中文网*
-
 4. https://blog.csdn.net/cune1359/article/details/106848015 - *css3动画工具_您应该收藏的10个CSS3动画工具_cune1359的博客-CSDN博客*
-
 5. https://www.yisu.com/zixun/642979.html - *CSS3的动画工具有哪些 - web开发 - 亿速云*
-
 6. https://blog.csdn.net/qq_38110572/article/details/113944689 - *十个CSS3动画工具，你必须收藏！_Leeeeeer的博客-CSDN博客_css 动画设计器*
 
 #### 示例
@@ -325,7 +339,7 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 ### Loader
 
 1. https://css-loaders.com/ - *CSS Loaders: A collection of more than 500 loading
-animations* [GitHub](https://github.com/Afif13/)
+animations* [GitHub User](https://github.com/Afif13/)
 
 2. https://juejin.cn/post/7037036742985121800 - *纯css实现117个Loading效果（上） - 掘金*
 
@@ -337,7 +351,5 @@ effort*
 ## 参考
 
 1. https://mp.weixin.qq.com/s/YpMjQrFTYwwTQJcWAqKwRA - *CSS 中流与宽高之间是如何相互影响的？*
-
 2. https://1linelayouts.glitch.me/ - *一行 CSS 布局* 🪜
-
 3. https://juejin.cn/post/6861501624993447950 - *CSS八种让人眼前一亮的HOVER效果 - 掘金*

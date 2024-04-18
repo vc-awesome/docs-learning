@@ -320,6 +320,12 @@ apt edit-sources
 
 `.bash_history`
 
+```bash
+echo $HISTFILE
+```
+
+`.bash_logout`
+
 #### $PREFIX
 
 > /data/data/com.termux/files/usr

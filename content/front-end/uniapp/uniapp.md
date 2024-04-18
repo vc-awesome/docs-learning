@@ -1,4 +1,6 @@
-# 教程
+# uni-app 教程
+
+https://uniapp.dcloud.net.cn/ - *uni-app官网*
 
 ## 开发指南
 
@@ -21,7 +23,7 @@
 
 <https://uniapp.dcloud.net.cn/tutorial/project.html#目录结构>
 
-## dcloud插件市场
+## 插件
 
 https://ext.dcloud.net.cn/ - *DCloud 插件市场*
 
@@ -31,7 +33,7 @@ https://ext.dcloud.net.cn/ - *DCloud 插件市场*
 
 https://ext.dcloud.net.cn/plugin?id=239 - *ColorUI-UniApp - DCloud 插件市场*
 
-#### uViewUI
+#### uView
 
 官网：https://www.uviewui.com/ - *uView 2.0 - 全面兼容nvue的uni-app生态框架 - uni-app UI框架*
 
@@ -82,7 +84,9 @@ ID  | 插件名  | 插件市场链接
 
    - 安装包位置：*E:/project-uniapp/nait/unpackage/release/apk/__UNI__0436D07_20210302183824.apk*
 
-## 调试
+## 运行和调试
+
+https://uniapp.dcloud.net.cn/tutorial/run-and-debug.html - *uni-app官网*
 
 ### 真机调试
 
@@ -109,17 +113,68 @@ ID  | 插件名  | 插件市场链接
 2. 开启模拟器“开发者选项”，打开开发者选项的USB调试功能
 3. 配置完成后，如无法连接或启动，重启hbuilderx或模拟器
 
+### 微信小程序
+
+1. https://blog.csdn.net/qq_40860800/article/details/122821965 - *uni-app创建并运行微信小程序项目_怎么运行微信小程序项目,项目是已完成的-CSDN博客*
+2. https://zhuanlan.zhihu.com/p/481333920 - *用uniapp运行到微信小程序!!!!!!!!! - 知乎*
+3. https://blog.csdn.net/qq_42022466/article/details/106983008 - *Mac下 Hbuilder X使用uni-app创建微信小程序_hbuilderx uniapp微信小程序教程 mac-CSDN博客*
+
+## 全局文件
+
+### pages.json
+
+https://uniapp.dcloud.net.cn/collocation/pages.html - *pages.json 页面路由 | uni-app官网*
+
+#### 自定义导航栏
+
+https://uniapp.dcloud.net.cn/collocation/pages.html#customnav - *pages.json 页面路由 | uni-app官网*
+
 ## 生命周期
 
 ### 应用生命周期
 
 ### 页面生命周期
 
+https://uniapp.dcloud.net.cn/tutorial/page.html#lifecycle - *页面 | uni-app官网*
+
 ### 组件生命周期
+
+https://uniapp.dcloud.net.cn/tutorial/page.html#componentlifecycle - *页面 | uni-app官网*
+
+## 标签 vs 组件
+
+`<view></view>`
+
+`<block></block>`
+
+`<text></text>`
+
+`<button></button>`
+
+`<image></image>`
+
+### 与 html 标签对比
+
+| uniapp    | html                 |
+| --------- | -------------------- |
+| view      | div / ul / li        |
+| image     | img                  |
+| text      | span / font          |
+| navigator | a                    |
+| picker    | select               |
+| page      | body                 |
+| ?         | list / ul / ol / li  |
+| ?         | table / th / tr / td |
+| button    | button               |
+| iframe    | web-view             |
+| template  | ?                    |
+| block     | ?                    |
+
+> \* text标签设置内外补白无效
 
 ## 样式
 
-style 的 scoped 属性
+`<style></style>` 的 `scoped` 属性
 
 css 预处理器 sass/scss、less、stylus
 
@@ -143,7 +198,7 @@ placeholder-class="cl"
 placeholder-style="color:#fff"
 ```
 
-https://www.uviewui.com/components/feature.html#%E6%A0%B7%E5%BC%8F%E8%A6%86%E7%9B%96%E5%85%BC%E5%AE%B9%E6%80%A7 - *样式覆盖兼容性*
+<https://www.uviewui.com/components/feature.html#样式覆盖兼容性> - *注意事项 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
 
 ```vue
 <template>
@@ -165,42 +220,11 @@ fl
 
 fr
 
-块元素fl（左浮动）、fr（右浮动）外层块需配合cf（清除浮动）使用
-
-## 路由与页面跳转
-
-方式一：组件 [官方文档与本标题对应]
-
-方式二：api [官方文档与本标题对应]
-
-`methods` 方法定义：`toRecharge` , `toWithdrawal`
-
-### 参数传递?
-
-问：类似 `<a href="http://www.test.com?param=test">链接至新页面</a>` 如何传递?
-
-答：`?ref=recharge`(推荐) 类似与 `?type=recharge`
-
-## 与html标签对比
-
-| uniapp    | html                 |
-| --------- | -------------------- |
-| view      | div / ul / li        |
-| image     | img                  |
-| text      | span / font          |
-| navigator | a                    |
-| picker    | select               |
-| page      | body                 |
-| ?         | list / ul / ol / li  |
-| ?         | table / th / tr / td |
-| button    | button               |
-| iframe    | web-view             |
-| template  | ?                    |
-| block     | ?                    |
-
-> \* text标签设置内外补白无效
+块元素 fl（左浮动）、fr（右浮动）外层块需配合 cf（清除浮动）使用
 
 ## 组件
+
+https://uniapp.dcloud.net.cn/component/ - *组件使用的入门教程 | uni-app官网*
 
 - 组件是视图层的基本组成单元。
 - 组件是一个单独且可复用的功能模块的封装。
@@ -208,37 +232,60 @@ fr
   - 根节点为 `<template>`，这个 `<template>` 下只能且必须有一个根 `<view>` 组件。这是[vue单文件组件规范](https://cn.vuejs.org/v2/guide/single-file-components.html)。
   - 一个组件的 data 选项必须是一个函数。
 
-## Vue教程
+### 路由与页面跳转
 
-https://uniapp.dcloud.net.cn/tutorial/vue-basics.html - *介绍 | uni-app官网*
+方式一：组件 [官方文档与本标题对应]
 
-### Vuex
+https://uniapp.dcloud.net.cn/component/navigator.html - *navigator | uni-app官网*
 
-## 条件编译 解决各端差异
+方式二：API [官方文档与本标题对应]
 
-https://uniapp.dcloud.net.cn/tutorial/platform.html - *跨端兼容 | uni-app官网*
+https://uniapp.dcloud.net.cn/api/router.html - *uni.navigateTo(OBJECT) | uni-app官网*
 
-## 组件webview
+`methods` 方法定义：`toRecharge` , `toWithdrawal`
+
+#### 参数传递?
+
+问：类似 `<a href="http://www.test.com?param=test">链接至新页面</a>` 如何传递?
+
+答：`?ref=recharge`(推荐) 类似与 `?type=recharge`
+
+### web-view
 
 https://uniapp.dcloud.net.cn/component/web-view.html - *web-view | uni-app官网*
 
 参考：
 
 1. https://ask.dcloud.net.cn/question/66374 - *【报Bug】uni-app 自定义导航条被web-view页面覆盖了*
-
 2. https://ask.dcloud.net.cn/article/35083 - *在web-view加载的本地及远程HTML中调用uni的API及网页和vue页面通讯*
-
 3. https://zhuanlan.zhihu.com/p/158242148 - *uni-app WebView 组件通信*
-
 4. https://www.jianshu.com/p/adc72eae0593 - *如何在uni-app正确使用web-view*
-
 5. https://ask.dcloud.net.cn/question/120263 - *uniapp webview能操作里面页面的样式吗？*
-
 6. https://ask.dcloud.net.cn/question/62239 - *uni-app中，webview组件无法设置样式问题，都会遇到的问题，大家来看看。*
+
+## Vue 语法
+
+### Vue2
+
+https://uniapp.dcloud.net.cn/tutorial/vue-basics.html - *介绍 | uni-app官网*
+
+#### Vuex
+
+https://uniapp.dcloud.net.cn/tutorial/vue-vuex.html - *状态管理Vuex | uni-app官网*
+
+### Vue3
+
+https://uniapp.dcloud.net.cn/tutorial/vue3-basics.html - *介绍 | uni-app官网*
+
+## 条件编译（解决各端差异）
+
+https://uniapp.dcloud.net.cn/tutorial/platform.html - *跨端兼容 | uni-app官网*
+
+https://uniapp.dcloud.net.cn/tutorial/compiler.html - *什么是编译器 | uni-app官网*
 
 ## 常见问题
 
-### margin padding组合使用问题
+### margin padding 组合使用问题
 
 > 上下两个块元素
 
@@ -278,13 +325,13 @@ https://uniapp.dcloud.net.cn/component/web-view.html - *web-view | uni-app官网
 
 > 在 onLoad 里得到，onLoad 的参数是其他页面打开当前页面所传递的数据
 
-https://uniapp.dcloud.net.cn/tutorial/vue-api.html#_1-%E5%A6%82%E4%BD%95%E8%8E%B7%E5%8F%96%E4%B8%8A%E4%B8%AA%E9%A1%B5%E9%9D%A2%E4%BC%A0%E9%80%92%E7%9A%84%E6%95%B0%E6%8D%AE - *全局配置 | uni-app官网*
+<https://uniapp.dcloud.net.cn/tutorial/vue-api.html#_1-如何获取上个页面传递的数据> - *全局配置 | uni-app官网*
 
-:+1: https://uniapp.dcloud.net.cn/tutorial/page.html#%E9%A1%B5%E9%9D%A2%E9%80%9A%E8%AE%AF - *页面简介 | uni-app官网*
+:+1: <https://uniapp.dcloud.net.cn/tutorial/page.html#页面通讯> - *页面 | uni-app官网*
 
 ### 如何设置全局的数据和全局的方法
 
-https://uniapp.dcloud.net.cn/tutorial/vue-api.html#_2-%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%85%A8%E5%B1%80%E7%9A%84%E6%95%B0%E6%8D%AE%E5%92%8C%E5%85%A8%E5%B1%80%E7%9A%84%E6%96%B9%E6%B3%95 - *全局配置 | uni-app官网*
+<https://uniapp.dcloud.net.cn/tutorial/vue-api.html#_2-如何设置全局的数据和全局的方法> - *全局配置 | uni-app官网*
 
 ### 🔥 当前页面如何绑定传参 [v-for]
 
@@ -292,7 +339,7 @@ https://ask.dcloud.net.cn/m/article/35705 - *uni-app中在同一个页面使用�
 
 https://blog.csdn.net/CUFEECR/article/details/111240593 - *uni-app入门教程（3）数据绑定、样式绑定和事件处理_cutercorley的博客-CSDN博客*
 
-### html标签的默认样式
+### html 标签的默认样式
 
 https://ask.dcloud.net.cn/m/article/13327 - *HTML的各个标签的默认样式 - DCloud问答*
 
@@ -300,7 +347,7 @@ https://ask.dcloud.net.cn/m/article/13327 - *HTML的各个标签的默认样式 
 
 在插件市场 URL 的最后添加 `&update_log`，例：https://ext.dcloud.net.cn/plugin?id=1593 => https://ext.dcloud.net.cn/plugin?id=1593&update_log 。
 
-### 如何取消@click事件
+### 如何取消 @click 事件
 
 ```js
  @click="item.is_can_cancel?'':toBuy(item.id)"

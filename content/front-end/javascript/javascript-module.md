@@ -17,7 +17,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules - *JavaScr
 
 ## ES Module
 
-> EcmaScript Module
+> ECMAScript Module
 
 <https://es6.ruanyifeng.com/#docs/module#概述> - *Module 的语法 - ECMAScript 6入门*
 
@@ -29,6 +29,9 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Modules - *JavaScr
 https://github.com/umdjs/umd - _UMD (Universal Module Definition) patterns for JavaScript modules that work everywhere._
 
 ![GitHub last commit](https://badgen.net/github/last-commit/umdjs/umd?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/umdjs/umd?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/umdjs/umd?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/umdjs/umd?style=social)
 
 
 ## CommonJS
@@ -44,18 +47,22 @@ https://wiki.commonjs.org/wiki/Modules/1.1 - _Modules/1.1 - CommonJS Spec Wiki_
 
 > CMD (Common Module Definition) 公共模块定义规范
 
-[Sea.js - A Module Loader for the Web](https://seajs.github.io/seajs/docs/) - *Sea.js is a module loader for the web. It is designed to change the way that you organize JavaScript. With Sea.js, it is pleasure to build scalable web applications.* [GitHub](https://github.com/seajs/seajs) [参考-01](https://www.zhangxinxu.com/sp/seajs/)
+[Sea.js - A Module Loader for the Web](https://seajs.github.io/seajs/docs/) - *Sea.js is a module loader for the web. It is designed to change the way that you organize JavaScript. With Sea.js, it is pleasure to build scalable web applications.* [GitHub Repo](https://github.com/seajs/seajs) [参考-01](https://www.zhangxinxu.com/sp/seajs/)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/seajs/seajs?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/seajs/seajs?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/seajs/seajs?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/seajs/seajs?style=social)
 
 
 ## AMD
 
 > AMD (Asynchronous Module Definition) 异步模块定义规范
 
-[RequireJS](https://requirejs.org/) - *RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.*  [GitHub](https://github.com/requirejs/requirejs)
+[RequireJS](https://requirejs.org/) - *RequireJS is a JavaScript file and module loader. It is optimized for in-browser use, but it can be used in other JavaScript environments, like Rhino and Node. Using a modular script loader like RequireJS will improve the speed and quality of your code.*  [GitHub Repo](https://github.com/requirejs/requirejs)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/requirejs/requirejs?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/requirejs/requirejs?style=social)
 
 
 ## 参考

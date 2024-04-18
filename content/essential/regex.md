@@ -11,6 +11,7 @@
 1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions - *正则表达式 - JavaScript | MDN*
 2. https://www.runoob.com/regexp/regexp-tutorial.html - *正则表达式 – 教程 | 菜鸟教程*（包含在线工具）
 3. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
+4. https://www.regular-expressions.info/ - *Regular-Expressions.info - Regex Tutorial, Examples and Reference - Regexp Patterns*
 
 ## 快速入门
 

@@ -12,12 +12,20 @@ https://open.weixin.qq.com/ - *微信开放平台*
 
 https://mp.weixin.qq.com/ - *微信公众平台*
 
+https://developers.weixin.qq.com/doc/ - *开放平台支持接入如下类型的第三方应用： | 微信开放文档*
+
 ## 小程序
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/ - *微信开放文档*
 
 https://github.com/justjavac/awesome-wechat-weapp - *GitHub - justjavac/awesome-wechat-weapp: 微信小程序开发资源汇总 :100:*
 
 ![GitHub last commit](https://badgen.net/github/last-commit/justjavac/awesome-wechat-weapp?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/awesome-wechat-weapp?style=social)
+
+### 开发者工具
+
+https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html - *微信开放文档*
 
 ## FAQ
 

@@ -17,9 +17,26 @@ https://github.com/umicro/uView2.0 - *umicro/uView2.0: uView UI，是全面兼�
 
 https://ext.dcloud.net.cn/plugin?id=1593 - *uView2.0重磅发布，利剑出鞘，一统江湖 - DCloud 插件市场*
 
-## 用法
+## 版本
 
-项目：swarm
+### 1.x
+
+https://v1.uviewui.com/ - *uView - 多平台快速开发的UI框架 - uni-app UI框架* 
+
+https://github.com/umicro/uView - *GitHub - umicro/uView: uView UI，是uni-app生态最优秀的UI框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水*
+
+![GitHub last commit](https://badgen.net/github/last-commit/umicro/uView?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/umicro/uView?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/umicro/uView?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/umicro/uView?style=social)
+
+### 2.x
+
+## 安装
+
+https://uviewui.com/components/install.html - *安装 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+
+## 用法
 
 ### 内置样式
 
@@ -109,7 +126,7 @@ https://ext.dcloud.net.cn/plugin?id=1593 - *uView2.0重磅发布，利剑出鞘�
 
 代码示例
 
-```js
+```html
 <template>
   <view>
     <u-navbar title="收益记录"></u-navbar>

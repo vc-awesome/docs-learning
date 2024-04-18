@@ -97,7 +97,7 @@ https://code.visualstudio.com/docs/getstarted/settings#_settings-editor - *Visua
 
 ## Usage
 
-### 键盘快捷键
+### 快捷键
 
 打开键盘快捷方式：
 

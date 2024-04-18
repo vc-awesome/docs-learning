@@ -79,27 +79,27 @@ PRIMARY KEY ( `id` )
 | 15   | 会员邮箱                                                     | `member_email`                                         | varchar(50)  |                               |
 | 16   | 手机号码                                                     | `member_mobile`                                        | varchar(11)  |                               |
 
-member_addtime [int(11)] 会员注册时间
+`member_addtime` [int(11)] 会员注册时间
 
-telephone|phone_number 电话|电话号码
+`telephone` | `phone_number` 电话|电话号码
 
-member_sex|member_gender [tinyint 1 || enum] 会员性别（0-保密，1-男，2-女）
+`member_sex` | `member_gender` [tinyint 1 || enum] 会员性别（0-保密，1-男，2-女）
 
-member_birthday [int(11) NULL] 会员生日
+`member_birthday` [int(11) NULL] 会员生日
 
-member_area_info [varchar(255) NULL] 会员所在地区内容
+`member_area_info` [varchar(255) NULL] 会员所在地区内容
 
-is_merchant 是否商户
+`is_merchant` 是否商户
 
-collection_qrcode 收款二维码
+`collection_qrcode` 收款二维码
 
-personal_number 个人编号
+`personal_number` 个人编号
 
-team_number 团队编号
+`team_number` 团队编号
 
-company_id 公司id
+`company_id` 公司id
 
-company_name 公司名称
+`company_name` 公司名称
 
 `create_channel` varchar(10) NOT NULL DEFAULT 'user' COMMENT '注册渠道，user-用户，admin-后台，import-导入'
 
@@ -159,49 +159,49 @@ company_name 公司名称
 
 `path` [text] 上下级关系
 
-all_floor/floor_all 所有层
+`all_floor`/`floor_all` 所有层
 
-first_floor/floor1 第一层
+`first_floor`/`floor1` 第一层
 
-second_floor/floor2 第二层
+`second_floor`/`floor2` 第二层
 
-third_floor/floor3 第三层
+`third_floor`/`floor3` 第三层
 
-three_tier_team/floor_team3 第一层至第三层
+`three_tier_team`/`floor_team3` 第一层至第三层
 
-team_floor/floor_team 团队层
+`team_floor`/`floor_team` 团队层
 
-first_floor_level_one_number/floor1_level1_people 直推认证会员人数
+`first_floor_level_one_number`/`floor1_level1_people` 直推认证会员人数
 
-first_floor_level_two_number/floor1_level2_people 直推vip会员人数
+`first_floor_level_two_number`/`floor1_level2_people` 直推vip会员人数
 
-first_floor_level_three_number/floor1_level3_people 直推尊享会员人数
+`first_floor_level_three_number`/`floor1_level3_people` 直推尊享会员人数
 
-first_floor_agent_one_number/floor1_agent1_people 直推初级代理商人数
+`first_floor_agent_one_number`/`floor1_agent1_people` 直推初级代理商人数
 
-first_floor_agent_two_number/floor1_agent2_people 直推高级代理商人数
+`first_floor_agent_two_number`/`floor1_agent2_people` 直推高级代理商人数
 
-first_floor_agent_three_number/floor1_agent3_people 直推尊享代理商人数
+`first_floor_agent_three_number`/`floor1_agent3_people` 直推尊享代理商人数
 
-member_initial_inviter_id [int(11) unsigned NULL] 初始的邀请人id
+`member_initial_inviter_id` [int(11) unsigned NULL] 初始的邀请人id
 
-member_initial_parents_inviter_id [text NULL] 初始的所有上级的id
+`member_initial_parents_inviter_id` [text NULL] 初始的所有上级的id
 
-member_inviter_id [int(11)] 邀请人id
+`member_inviter_id` [int(11)] 邀请人id
 
-referrer_id 推荐人id
+`referrer_id` 推荐人id
 
-member_parents_inviter_id [text] 会员所有上级邀请人的id集合（parents命名参考jQuery）
+`member_parents_inviter_id` [text] 会员所有上级邀请人的id集合（parents命名参考jQuery）
 
-member_childrens_id [text] 会员所有下级的id集合
+`member_childrens_id` [text] 会员所有下级的id集合
 
-inviter 邀请者;招待者
+`inviter` 邀请者;招待者
 
-invitee 受邀者;被邀请人
+`invitee` 受邀者;被邀请人
 
-inviter_code /invitation_code 邀请码
+`inviter_code` /`invitation_code` 邀请码
 
-inviter_mobile /invitation_mobile 邀请人手机号
+`inviter_mobile` /`invitation_mobile` 邀请人手机号
 
 ### 等级
 

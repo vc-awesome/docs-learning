@@ -24,13 +24,22 @@
 
 > Learning resource
 
-https://github.com/FrontEndGitHub/FrontEndGitHub - *GitHub - FrontEndGitHub/FrontEndGitHub: :octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）*
+https://github.com/FrontEndGitHub/FrontEndGitHub - *:octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）*
+
+![GitHub last commit](https://badgen.net/github/last-commit/FrontEndGitHub/FrontEndGitHub?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/FrontEndGitHub/FrontEndGitHub?style=social)
 
 https://github.com/o2team - *AOTU Labs · GitHub*
 
-  1. https://github.com/o2team/guide - *GitHub - o2team/guide: O2前端规范文档*
+1. https://github.com/o2team/guide - *GitHub - o2team/guide: O2前端规范文档*
+  
+    ![GitHub last commit](https://badgen.net/github/last-commit/o2team/guide?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/guide?style=social)
 
-  2. https://github.com/o2team/H5Skills - *GitHub - o2team/H5Skills: 移动端开发技巧集合*
+2. https://github.com/o2team/H5Skills - *GitHub - o2team/H5Skills: 移动端开发技巧集合*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/o2team/H5Skills?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/H5Skills?style=social)
 
 ### 优质框架
 
@@ -56,26 +65,18 @@ https://github.com/o2team - *AOTU Labs · GitHub*
 
 ## 浏览器加载过程
 
-1. https://wangdoc.com/javascript/bom/engine#navbar - *浏览器环境概述 - JavaScript 教程 -网道*
-
+1. https://wangdoc.com/javascript/bom/engine - *浏览器环境概述 - JavaScript 教程 -网道*
 2. https://github.com/vasanthk/how-web-works - *GitHub - vasanthk/how-web-works: What happens behind the scenes when we type www.google.com in a browser?*
-
 3. https://github.com/alex/what-happens-when - *GitHub - alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"*
-
 4. https://web.dev/howbrowserswork/ - *How browsers work*
-
 5. https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work - *渲染页面：浏览器的工作原理 - Web 性能 | MDN*
-
 6. https://blog.csdn.net/gaofan_long/article/details/113861096 - *浏览器加载过程_gaofan_long的博客-CSDN博客*
-
 7. https://juejin.cn/post/6844903815758479374 - *你不知道的浏览器页面渲染机制 - 掘金*
-
 8. https://blog.csdn.net/Littlegirlha/article/details/128383854 - *浏览器加载网页的过程_小许还在编程的博客-CSDN博客*
 
 ---
 
 1. https://suanmei.github.io/2017/02/11/url2render-part1/ - *从输入url到浏览器显示页面，发生了什么？（网络通信篇） | 拾壹小筑*
-
 2. https://suanmei.github.io/2017/02/12/url2render-part2/ - *从输入url到浏览器显示页面，发生了什么？（浏览器渲染篇） | 拾壹小筑*
 
 ---
@@ -91,19 +92,17 @@ https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机�
 执行顺序：*1 > 2*
 
 1. `document.addEventListener("DOMContentLoaded", function() {});`
-
 2. `window.addEventListener("load", function() {});`
 
 ## 浏览器兼容性
 
 https://caniuse.com/ - *Can I use... Support tables for HTML5, CSS3, etc*
 
-## 参考
-
-1. https://zhuanlan.zhihu.com/p/148313476 - *19个前端开发人员的救生工具*
-
-2. https://zhuanlan.zhihu.com/p/159659392 - *9个不错的前端开源项目*
-
 ## 常见问题
 
 暂无
+
+## 参考
+
+1. https://zhuanlan.zhihu.com/p/148313476 - *19个前端开发人员的救生工具*
+2. https://zhuanlan.zhihu.com/p/159659392 - *9个不错的前端开源项目*

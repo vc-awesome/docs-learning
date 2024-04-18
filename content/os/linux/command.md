@@ -2,11 +2,22 @@
 
 ## 使用教程
 
-https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
+https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道* [GitHub Repo](https://github.com/wangdoc/bash-tutorial)
+
+![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/bash-tutorial?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/bash-tutorial?style=social)
 
 1. https://wangdoc.com/bash/grammar - *Bash 的基本语法 - Bash 脚本教程 - 网道*
 
-2. https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道*
+### 操作历史
+
+https://wangdoc.com/bash/history - *操作历史 - Bash 脚本教程 - 网道*
+
+<kbd>Ctrl</kbd> + <kbd>r</kbd>：搜索操作历史，选择以前执行过的命令。
+
+<kbd>Alt</kbd> + <kbd>\<</kbd>：显示第一个命令。
+
+<kbd>Alt</kbd> + <kbd>></kbd>：显示最后一个命令，即当前的命令。
 
 ### 行操作
 
@@ -49,22 +60,6 @@ https://github.com/wangdoc/bash-tutorial/blob/master/docs%2Farchives%2Fredirecti
 1. https://zhuanlan.zhihu.com/p/47765176 - *如何理解Linux shell中的“2>&1” - 知乎*
 2. https://www.cnblogs.com/bluestorm/p/10754821.html - *Linux 重定向 2>&1 ， 1>&2 - petercao - 博客园*
 3. https://blog.csdn.net/zhaominpro/article/details/82630528 - *Linux shell中2>&1的含义解释 （全网最全，看完就懂）-CSDN博客*
-
-## 问题搜索
-
-1. [linux两条命令一起执行 - 百度](https://www.baidu.com/s?wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C)
-
-   选项一：分号（`;`）运算符（推荐使用选项二、三）
-
-   例：`ls ; pwd ; whoami`
-
-   选项二：逻辑与运算符（`&&`）
-
-   例：`mkdir MyFolder && cd MyFolder`
-
-   选项三：逻辑或运算符（`||`）
-
-   例：`[ -d ~/MyFolder ] || mkdir ~/MyFolder`
 
 ## 命令手册和工具
 
@@ -123,19 +118,25 @@ http://docopt.org/ - *docopt—language for description of command-line interfac
 
 ### 查看命令帮助文档
 
-4 种方式：
+6 种方式：
 
 - `<command> --help` - *显示当前指令帮助*
 
 - `man` - *查看Linux中的指令帮助*
 
+    `man -a man`
+
     https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命令详解：查看Linux中的指令帮助 - Linux 命令搜索引擎*
-    
-    https://wangchujiang.com/linux-command/c/apropos.html - *apropos 命令，Linux apropos 命令详解：在 whatis 数据库中查找字符串 - Linux 命令搜索引擎*
     
     https://www.runoob.com/linux/linux-comm-man.html - *Linux man 命令 | 菜鸟教程*
     
     https://www.cnblogs.com/kelamoyujuzhen/p/9807468.html - *【问题】man命令打开的手册上链接怎么展开？ - 克拉默与矩阵 - 博客园*
+
+- `apropos` - *在 whatis 数据库中查找字符串*
+    
+    `man -a apropos`
+    
+    https://wangchujiang.com/linux-command/c/apropos.html - *apropos 命令，Linux apropos 命令详解：在 whatis 数据库中查找字符串 - Linux 命令搜索引擎*
 
 - `help` - *该命令是bash内建命令，用于显示bash内建命令的帮助信息。*
 
@@ -145,17 +146,68 @@ http://docopt.org/ - *docopt—language for description of command-line interfac
 
     https://wangchujiang.com/linux-command/c/info.html - *info 命令，Linux info 命令详解：Linux下info格式的帮助指令 - Linux 命令搜索引擎*
 
+- `locate` - *找符合条件的文档，他会去保存文档和目录名称的数据库内，查找合乎范本样式条件的文档或目录*
+
+    https://www.runoob.com/linux/linux-comm-locate.html - *Linux locate命令 | 菜鸟教程*
+
 参考：
 
 1. https://blog.csdn.net/Zhi_osX/article/details/80146259 - *linux命令-查看命令帮助文档_Zhi_osX的博客-CSDN博客*
 
-### 查看命令的来源
+### 查看命令
 
-`type` - *显示指定命令的类型*
+- `type` - *显示指定命令的类型*
 
-<https://wangdoc.com/bash/grammar#type-命令> - *Bash 的基本语法 - Bash 脚本教程 - 网道*
+    `type --help`
+    
+    `type -t ` - *根据name的类型返回一个单词（别名，关键字，函数，内建，文件），否则返回空值。*
+    
+    `type -p ` - *显示要执行的磁盘文件的名称*
+    
+    `type -a ` - *显示包含指定可执行文件的所有位置*
 
-https://wangchujiang.com/linux-command/c/type.html - *type 命令，Linux type 命令详解：显示指定命令的类型。 - Linux 命令搜索引擎*
+    <https://wangdoc.com/bash/grammar#type-命令> - *Bash 的基本语法 - Bash 脚本教程 - 网道*
+
+    https://wangchujiang.com/linux-command/c/type.html - *type 命令，Linux type 命令详解：显示指定命令的类型。 - Linux 命令搜索引擎*
+    
+    https://linuxhandbook.com/type-command/ - *Use Type Command in Linux to Get More Info About Commands*
+    
+    https://www.baeldung.com/linux/hash-command - *The Linux hash Command | Baeldung on Linux*
+
+- `help` - *该命令是bash内建命令，用于显示bash内建命令的帮助信息*
+
+    `help --help`
+
+- `compgen` - *用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令*
+
+    `compgen --help`
+
+    `compgen -c` - *显示所有可以执行的命令*
+    
+    `compgen -b` -*列出所有内置命令*
+
+    `compgen -a` - *列出所有别名*
+
+    `compgen -k` - *列出所有 shell 的保留关键字*
+
+    `compgen -A function` - *列出所有可以运行的函数*
+
+    https://tldr.inbrowser.app/pages.zh/common/compgen - *compgen | tldr InBrowser.App*
+
+- `command` - *调用并执行指定的命令*
+
+    `command --help`
+
+    https://tldr.inbrowser.app/pages.zh/common/command - *command | tldr InBrowser.App*
+
+    https://wangchujiang.com/linux-command/c/command.html - *command 命令，Linux command 命令详解：调用并执行指定的命令 - Linux 命令搜索引擎*
+
+参考：
+
+1. https://blog.csdn.net/weixin_39768645/article/details/110813072 - *linux查看系统_如何查看Linux系统上所有可以执行的命令和数量-CSDN博客*
+2. https://blog.csdn.net/qq_18846849/article/details/130291960 - *【Linux】怎么在linux中列出可以使用的命令_linux查看可用命令-CSDN博客*
+3. https://zhuanlan.zhihu.com/p/33833752 - *如何列出所有的 Bash Shell 内置命令 - 知乎*
+4. https://www.linuxcool.com/compgen - *compgen命令 – 列出所有Linux命令 – Linux命令大全(手册)*
 
 ### 文件管理
 
@@ -218,6 +270,8 @@ https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜�
     https://wangchujiang.com/linux-command/c/ls.html - *ls 命令，Linux ls 命令详解：显示目录内容列表 - Linux 命令搜索引擎*
 
     https://www.runoob.com/linux/linux-comm-ls.html - *Linux ls命令 | 菜鸟教程*
+
+    https://zhuanlan.zhihu.com/p/635083904 - *Linux中的20个基本“ls”命令示例 - 知乎*
 
 - `tree` - 树状图列出目录的内容
 
@@ -709,3 +763,33 @@ https://www.cnblogs.com/codeking100/p/10306028.html - *mv,rm等命令出现unrec
 
 1. 将 `export PATH=$PATH:/some/directory` 追加到 `.bashrc` 文件中
 2. 执行 `source ~/.bashrc` 或者 `. ~/.bashrc` 命令立刻加载修改后的设置，使之生效
+
+参考：
+
+1. https://blog.csdn.net/Mint6/article/details/124156340 - *macos设置环境变量path详解_macos 环境变量-CSDN博客*
+2. https://www.cnblogs.com/pansidong/p/15055345.html - *Mac 解决每次新建终端 都要重新运行 source ~/.bash_profile问题 - 盘思动 - 博客园*
+
+### /dev/null
+
+1. https://man7.org/linux/man-pages/man4/zero.4.html - *null(4) - Linux manual page*
+2. https://zhuanlan.zhihu.com/p/618530460 - *Linux 中的 /dev/null 是什么？有什么隐藏的作用？ - 知乎*
+3. https://www.cnblogs.com/wanng/p/shell-dev-null.html - *shell脚本中 /dev/null 的用途 - Linux开发那些事儿 - 博客园*
+4. https://www.cnblogs.com/ultranms/p/9353157.html - *linux下详解shell中>/dev/null 2>&1 - 哪是什么大佬 - 博客园*
+5. https://zhuanlan.zhihu.com/p/50879912 - *Linux中/dev/null和/dev/zero两个文件的作用和区别 - 知乎*
+6. https://cn.linux-console.net/?p=15788 - *2>/dev/null 到底是做什么的？*
+
+### 两条命令一起执行
+
+[linux两条命令一起执行 - 百度](https://www.baidu.com/s?wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C)
+
+选项一：分号（`;`）运算符（推荐使用选项二、三）
+
+例：`ls ; pwd ; whoami`
+
+选项二：逻辑与运算符（`&&`）
+
+例：`mkdir MyFolder && cd MyFolder`
+
+选项三：逻辑或运算符（`||`）
+
+例：`[ -d ~/MyFolder ] || mkdir ~/MyFolder`

@@ -2,7 +2,7 @@
 
 ## jquery 多个选择器绑定同一个事件
 
-```js
+```javascript
 $(".saleinfo-list-title, #productIntroduce, .arrow").click(function() {
     // 处理过程
 });
@@ -20,7 +20,9 @@ $("#id").val("");
 $("input").attr("value",""); 
 ```
 
-## jquery 加载页面的方法(页面加载完成就执行),建议大家看下 windows.onload 与 $(document).ready之 间的区别
+## jquery 加载页面的方法
+
+页面加载完成就执行，建议大家看下 `windows.onload` 与 `$(document).ready` 之间的区别
 
 HTML：
 
@@ -33,7 +35,7 @@ HTML：
 
 JavaScript：
 
-```js
+```javascript
 $(function(){
     $("#a").click(function(){
         //adding your code here
@@ -41,7 +43,7 @@ $(function(){
 });
 ```
 
-```js
+```javascript
 $(document).ready(function(){
     $("#a").click(function(){
         //adding your code here
@@ -49,7 +51,7 @@ $(document).ready(function(){
 });
 ```
 
-```js
+```javascript
 window.onload = function(){
     $("#a").click(function(){
         //adding your code here
@@ -59,7 +61,7 @@ window.onload = function(){
 
 一般的加载页面时调用 js 方法如下：
 
-```js
+```javascript
 window.onload = function() { 
     $("table tr:nth-child(even)").addClass("even"); //这个是jquery代码
 }; 
@@ -69,7 +71,7 @@ window.onload = function() {
 
 但是用 jquery 的方法：
 
-```js
+```javascript
 $(document).ready(function() {
     // 任何需要执行的js特效
     $("table tr:nth-child(even)").addClass("even"); 
@@ -93,7 +95,7 @@ $(function(){}); //页面加载时自动调用
 $(window).load(funtion(){}); //页面加载完之后自动加载，用处吧，就是比如我们页面某些元素是在页面加载时从同台获取数据，并拼接显示出来；但是同时又在页面加载好之后马上使用到这个元素此时就可以结合这两个函数时候，不然单单调用 $(function(){}); 经常会出现 undefined。
 ```
 
-```js
+```javascript
 // 语法 1
 $(function() {
     // 任何需要执行的js特效
@@ -117,7 +119,7 @@ window.onload = function(){
 
 Demo
 
-```js
+```javascript
 $(function(){
     //('页面加载中...');
     //DOM tree已经渲染完成
@@ -155,7 +157,7 @@ window.onload = function(){
 
 ## jquery on 绑定未来元素
 
-```js
+```javascript
 $('.cla').on('click',function(){
     alert('aa');
 });
@@ -163,7 +165,7 @@ $('.cla').on('click',function(){
 
 发现以上写法不能将事件绑定到动态创建的对象上，更改后的写法为
 
-```js
+```javascript
 $(document).on('click','.cla',function(){
     alert('aa');
 });
@@ -211,7 +213,7 @@ var jsonString = '{"name":"xiao","age":12}';
 
 类型转换：
 
-```js
+```javascript
 // JSON 字符串—> JS 对象：
 obj = JSON.parse(jsonString);
 obj = jQuery.parseJSON(jsonString);
@@ -249,7 +251,7 @@ https://blog.csdn.net/weixin_43708754/article/details/103123272 - *HTML进入页
 >
 > 当 div 层有滚动层，跳转至底部会没反应，需要在滚动层设定高度值
 
-```js
+```javascript
 $(function() {
     window.scrollTo(0, document.body.scrollHeight);
 })
@@ -369,7 +371,7 @@ https://www.cnblogs.com/DL-CODER/p/16601933.html - *JS 全屏与退出全屏 - D
 
 ## js 判断对象是否为空
 
-```js
+```javascript
 function isEmpty(obj) {
     return Object.keys(obj).length === 0;
 }

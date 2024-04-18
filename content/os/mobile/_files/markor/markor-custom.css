@@ -36,7 +36,7 @@ kbd {
 }
 
 /* 外链添加 FontIcon */
-a[href^="http"]:after {
+a[href^='http']:after {
   display: inline-block;
   padding-left: 3px;
   font: normal normal normal 14px/1 FontAwesome;
@@ -45,7 +45,7 @@ a[href^="http"]:after {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-indent: 0;
-  content: "\f08e";
+  content: '\f08e';
 }
 
 /* 响应式表格 */
@@ -74,6 +74,58 @@ ul.markor-table-of-contents-list {
   padding-right: 30px;
 }
 
-p > img[alt=illustration] {
+p > img[alt='illustration'] {
   margin-top: 20px;
+}
+
+/* 标题自动编号 */
+h1 {
+  counter-reset: h2counter;
+}
+h2 {
+  counter-reset: h3counter;
+}
+h3 {
+  counter-reset: h4counter;
+}
+h4 {
+  counter-reset: h5counter;
+}
+h5 {
+  counter-reset: h6counter;
+}
+h6 {
+}
+h2:before {
+  counter-increment: h2counter;
+  content: counter(h2counter) '.\0000a0\0000a0';
+}
+h3:before {
+  counter-increment: h3counter;
+  content: counter(h2counter) '.' counter(h3counter) '.\0000a0\0000a0';
+}
+h4:before {
+  counter-increment: h4counter;
+  content: counter(h2counter) '.' counter(h3counter) '.' counter(h4counter)
+    '.\0000a0\0000a0';
+}
+h5:before {
+  counter-increment: h5counter;
+  content: counter(h2counter) '.' counter(h3counter) '.' counter(h4counter) '.'
+    counter(h5counter) '.\0000a0\0000a0';
+}
+h6:before {
+  counter-increment: h6counter;
+  content: counter(h2counter) '.' counter(h3counter) '.' counter(h4counter) '.'
+    counter(h5counter) '.' counter(h6counter) '.\0000a0\0000a0';
+}
+
+.markor-table-of-contents-list ul {
+  counter-reset: section;
+  list-style-type: none;
+}
+
+.markor-table-of-contents-list ul li:before {
+  counter-increment: section;
+  content: counters(section, '.') '.\0000a0';
 }

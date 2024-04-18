@@ -64,7 +64,7 @@ server {
 
 1. https://blog.csdn.net/qq_37429313/article/details/113386866 - *内网穿透教程__WILLPOWER_的博客-CSDN博客_路由器内网穿透*
 
-2. https://baike.baidu.com/item/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/8597835 - *内网穿透_百度百科*
+2. <https://baike.baidu.com/item/内网穿透/8597835> - *内网穿透_百度百科*
 
 3. https://blog.csdn.net/weixin_42063820/article/details/124563983 - *实现内网穿透_scanner小霸王的博客-CSDN博客_内网透传*
 
@@ -104,9 +104,9 @@ https://mp.weixin.qq.com/s/FgRXYeq7gFcm4XTXU5lSHA - *高性能负载均衡架构
 
 #### 谷歌验证器
 
-https://zhuanlan.zhihu.com/p/137451265 - *php实现google验证器*
+https://zhuanlan.zhihu.com/p/137451265 - *php实现google验证器*
 
-https://www.jianshu.com/p/e0cf4dd70873 - *谷歌验证器如何安装使用*
+https://www.jianshu.com/p/e0cf4dd70873 - *谷歌验证器如何安装使用*
 
 #### 谷歌图形验证
 
@@ -139,6 +139,35 @@ https://developers.google.com/recaptcha
 1. 页面进度条
 2. ajax 进度条
 
+### 背景图
+
+```diff
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+  </head>
+  <body>
++    <img
++      src="https://lug.ustc.edu.cn/static/USTC_logo.svg"
++      style="
++        position: fixed;
++        bottom: -320px;
++        left: -200px;
++        opacity: 0.1;
++        z-index: -100;
++      "
++    />
+  </body>
+</html>
+```
+
+参考：
+
+1. https://lug.ustc.edu.cn/ - *LUG @ USTC - LUG @ USTC*
+
 ### 使用 CSS 渐变替换共用背景图
 
 ### 切换主题
@@ -170,7 +199,7 @@ https://developers.google.com/recaptcha
 
 ### 返回页面顶部、底部及上下翻页
 
-[demo](os/mobile/_files/markor/theme/demo.html)
+[Demo](os/mobile/_files/markor/theme/demo.html)
 
 参考：
 
@@ -226,7 +255,7 @@ https://mp.weixin.qq.com/s/1hBmfI47ptZgw7KNb97T8A - *使用 react-pdf 打造在�
 
 #### URL 转 Markdown
 
-https://cn.bing.com/search?q=url+%E8%BD%AC+markdown - *url 转 markdown - 搜索*
+<https://cn.bing.com/search?q=url+转+markdown> - *url 转 markdown - 搜索*
 
 https://www.appinn.com/webpage-to-markdown/ - *3 个工具，将网页转换为 Markdown：安卓、Edge、Chrome、Firefox、Obsidian、Safari - 小众软件*
 
@@ -341,14 +370,13 @@ target="_blank">markor-theme-demo</a>
 
 ## 源码分析
 
-*JavaScript* 源码解读
+JavaScript 源码解读
 
 ### jperasmus/docsify-copy-code
 
 https://github.com/jperasmus/docsify-copy-code
 
-- https://unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.js  
-  文件内容中出现的 `1e3` 表示 1×10^3 = 1000
+- https://unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.js （文件内容中出现的 `1e3` 表示 1×10^3 = 1000）
 
 ### &#119;ww.itfanr.cc
 

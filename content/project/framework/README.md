@@ -342,10 +342,6 @@ CDN：
 
 1. https://cdn.jsdelivr.net/npm/element-plus/ - [jsDelivr](https://www.jsdelivr.com/package/npm/element-plus)
 
-FAQ：
-
-1. https://blog.csdn.net/qq_27674439/article/details/111315917 - *el-button组件里hover事件不生效_一晌贪欢i的博客-CSDN博客_el-button hover*
-
 
 #### Vant 🔥
 

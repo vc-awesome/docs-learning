@@ -1634,3 +1634,15 @@ https://post.smzdm.com/p/avx87xop/ - *用的最爽的Windows软件，每一个�
         - https://blog.csdn.net/ftn13/article/details/133839739 - *VNC的安装&使用-CSDN博客*
 
     </details>
+
+3. ✅ [Deskreen](https://deskreen.com/lang-zh_CN) - *Turn any device into a secondary screen for your computer*
+
+    - 支持 Windows, macOS, Linux
+
+    - 开源软件（[GitHub](https://github.com/pavlobu/deskreen)）
+
+4. ✅ [RustDesk](https://rustdesk.com/) - *RustDesk is a full-featured open source remote control alternative for self-hosting and security with minimal configuration.*
+
+    - 支持 Windows, macOS, Linux, Android, Web
+
+    - 开源软件（[GitHub](https://github.com/rustdesk/rustdesk)）
