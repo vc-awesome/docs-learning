@@ -207,7 +207,11 @@ API 安全
 
 #### RPC API
 
-暂无
+https://help.aliyun.com/zh/sdk/product-overview/v3-request-structure-and-signature - *自研请求体和签名机制_阿里云SDK(Alibaba Cloud SDK)-阿里云帮助中心*
+
+参考：
+
+1. https://help.aliyun.com/zh/ram/developer-reference/api-ram-2015-05-01-overview - *RAM有哪些API接口_访问控制(RAM)-阿里云帮助中心*
 
 
 #### GraphQL
@@ -568,6 +572,11 @@ console.log('[Pre]OpenAccountApi.getUserToken _pre_sign='+_pre_sign+',_sign=' + 
 ### 重复请求
 
 1. https://mp.weixin.qq.com/s/tSrmb6B2ZOrgE2Ix_YYGtg - *几行代码，优雅的避免接口重复请求！同事都说好！*
+
+
+### 限流
+
+1. https://mp.weixin.qq.com/s/6SuxWd340IXSvU-dI0aKsQ - *对API进行限流的，用PHP你如何做 ？*
 
 
 ## 工具

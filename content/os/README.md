@@ -17,7 +17,7 @@ Unix 操作系统本身并没有一个官方的官网，因为 Unix 是一种操
 
 ### BSD
 
-> BSD (Berkeley Software Distribution) refers to a family of Unix-like operating systems derived from the Unix Research Version 6 (V6 Unix) developed at Bell Labs in the late 1970s. BSD originated from the Unix source code that was freely distributed by the University of California, Berkeley. Over time, BSD has evolved into several different branches, each with its own characteristics and features. Some popular BSD variants include FreeBSD, NetBSD, OpenBSD, and DragonFly BSD. These operating systems are known for their stability, performance, and focus on code quality and simplicity.
+> BSD (Berkeley Software Distribution) refers to a family of Unix-like operating systems derived from the Unix Research Version 6 (V6 Unix) developed at Bell Labs in the late 1970s. BSD originated from the Unix source code that was freely distributed by the University of California, Berkeley. Over time, BSD has evolved into several different branches, each with its own characteristics and features. Some popular BSD variants include FreeBSD, NetBSD, OpenBSD, and DragonFly BSD. These operating systems are known for their stability, performance, and focus on code quality and simplicity. - *BSD（Berkeley Software Distribution，伯克利软件发行版）是指类似于 Unix 的操作系统系列，源自 20 世纪 70 年代末贝尔实验室开发的 Unix 研究版本 6（V6 Unix）。 BSD 源自加州大学伯克利分校免费发布的 Unix 源代码。 随着时间的推移，BSD 已经发展成几个不同的分支，每个分支都有自己的特点和功能。 一些流行的 BSD 变种包括 FreeBSD、NetBSD、OpenBSD 和 DragonFly BSD。 这些操作系统以其稳定性、性能以及注重代码质量和简洁性而著称。*
 
 #### FreeBSD
 
@@ -31,7 +31,11 @@ https://www.openbsd.org/ - *OpenBSD*
 
 https://man.openbsd.org/ - *OpenBSD manual pages*
 
-### GNU
+## GNU
+
+![illustration](https://www.gnu.org/graphics/fs-gang.png)
+
+<small>*插图来源于：[软件 - GNU 工程 - 自由软件基金会](https://www.gnu.org/software/)*</small>
 
 > GNU 操作系统是一个自由软件项目，旨在创建一个完全自由的类 Unix 操作系统。GNU 是 “GNU's Not Unix” 的递归缩写，这个项目始于 1983 年由理查德・斯托曼（Richard Stallman）发起。GNU 项目的目标是提供一个完全自由的操作系统，其中所有的软件都是自由软件，用户可以自由地运行、复制、分发、研究、修改和改进。
 > 
@@ -39,19 +43,45 @@ https://man.openbsd.org/ - *OpenBSD manual pages*
 
 https://www.gnu.org/ - *GNU 操作系统和自由软件运动*
 
-#### 软件
+https://developer.aliyun.com/mirror/GNU - *GNU镜像_GNU下载地址_GNU安装教程-阿里巴巴开源镜像站*
+
+### GNOME
+
+https://www.gnome.org/ - *GNOME – Simple, beautiful, elegant.*
+
+### FSD
+
+https://directory.fsf.org/wiki/Main_Page - *Free Software Directory*
+
+### 软件
 
 https://www.gnu.org/software/ - *软件 - GNU 工程 - 自由软件基金会*
 
-##### Bash
+#### Bash
+
+https://www.gnu.org/software/bash/ - *Bash - GNU Project - Free Software Foundation*
 
 https://www.gnu.org/software/bash/manual/bash.html - *Bash Reference Manual*
 
-##### Make
+#### Coreutils
+
+https://www.gnu.org/software/coreutils/ - *Coreutils - GNU core utilities*
+
+#### Emacs
+
+https://www.gnu.org/software/emacs/ - *GNU Emacs - GNU Project*
+
+#### Make
 
 https://www.gnu.org/software/make/manual/make.html - *GNU make*
 
+#### Readline
+
+https://www.gnu.org/software/readline/ - *The GNU Readline Library*
+
 ## CLI
+
+### 简介
 
 > **命令行界面**（英语：**command-line interface**，缩写：**CLI**）是在得到普及之前使用最为广泛的用户界面，它通常不支持鼠标，用户通过键盘输入指令，计算机接收到指令后，予以执行。也有人称之为**字符用户界面**（CUI）。
 >
@@ -71,4 +101,56 @@ CLI 是命令行界面（Command Line Interface）的缩写。 它是一种基�
 
 CLI 界面的例子包括 Windows 的命令提示符、macOS 和 Linux 的终端，以及各种 shell 环境，如 Bash、PowerShell 和 Zsh。
 
-https://github.com/topics/cli - *cli · GitHub Topics · GitHub*
+### 语法格式
+
+命令行语法格式通常包括以下几个部分：
+
+1. **命令名**：表示要执行的操作或程序的名称。
+2. **选项（Options）**：通常以一个或两个破折号（`-` 或 `--`）开头，用于修改命令的行为。例如，`-h` 或 `--help`。
+3. **参数（Arguments）**：命令执行所需的附加信息，通常是文件名、目录路径等。
+
+一般格式：
+
+```bash
+command [options] [arguments]
+```
+
+示例：
+
+1. **列出当前目录下的所有文件和文件夹**
+
+   ```bash
+   ls -l
+   ```
+   - `ls` 是命令名，用于列出目录内容。
+   - `-l` 是选项，用于显示详细信息。
+
+2. **查找文件中的文本**
+
+   ```bash
+   grep 'pattern' filename
+   ```
+   - `grep` 是命令名，用于搜索文本。
+   - `'pattern'` 是参数，表示要搜索的文本模式。
+   - `filename` 是参数，表示要搜索的文件名。
+
+3. **复制文件**
+
+   ```bash
+   cp source_file destination_file
+   ```
+   - `cp` 是命令名，用于复制文件。
+   - `source_file` 是参数，表示源文件。
+   - `destination_file` 是参数，表示目标文件。
+
+选项的常见形式：
+
+- **短选项**：以单个破折号（`-`）加一个字母表示，例如 `-a`。
+- **长选项**：以两个破折号（`--`）加一个单词表示，例如 `--all`。
+
+参数的类型：
+
+- **必选参数**：命令执行所必需的参数。
+- **可选参数**：命令执行时可有可无的参数。
+
+通过了解和使用这些语法规则，用户可以更加高效地利用命令行工具执行各种操作。

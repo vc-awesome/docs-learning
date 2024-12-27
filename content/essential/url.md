@@ -15,6 +15,20 @@
 
 ### URL Scheme
 
+#### macOS
+
+https://stackoverflow.com/questions/471581/how-to-map-a-custom-protocol-to-an-application-on-the-mac - *macos - How to map a custom protocol to an application on the Mac? - Stack Overflow*
+
+https://www.jianshu.com/p/7fceeee80366 - *Mac os URL Schemes 浏览器启动本地app - 尤樊容 - 简书*
+
+VSCode 编辑 Info.plist 文件
+
+- https://worktile.com/kb/ask/551282.html - *如何用vscode改plist • Worktile社区*
+
+AI 搜索：`macos 如何使用 Platypus 创建 url scheme`
+
+#### Android
+
 如何使用安卓手机获取 URL Scheme，按下面步骤获取：
 
 1. 下载并安装手机应用「[Activity Manager](https://www.f-droid.org/packages/com.activitymanager/)」；
@@ -108,7 +122,13 @@
 13. https://www.telerik.com/blogs/how-to-use-custom-url-schemes - *How to Use Custom URL Schemes*
 14. https://developer.android.com/training/app-links/deep-linking?hl=zh-cn - *创建指向应用内容的深层链接  |  Android 开发者  |  Android Developers*
 
-#### 支付宝
+##### 支付宝
+
+格式：
+
+```uri
+alipays://platformapi/startapp?appId=[appId]&page=[page]&query=[query]
+```
 
 https://opendocs.alipay.com/support/01rb18 - *小程序scheme链接介绍 - 支付宝文档中心*
 
@@ -117,17 +137,20 @@ https://opendocs.alipay.com/support/01rb18 - *小程序scheme链接介绍 - 支�
 3. https://blog.csdn.net/weixin_48141487/article/details/134224372 - *支付宝 URL Scheme全网最全，startActivity地址更新中-CSDN博客*
 4. https://cloud.tencent.com/developer/article/2317297 - *微信、支付宝等软件常用功能的的URL schemes整理总汇-腾讯云开发者社区-腾讯云*
 
-#### 淘宝
+##### 淘宝
+
+格式：
 
 ```uri
 taobao://
 ```
 
-[淘宝首页](taobao://m.taobao.com) - taobao://m.taobao.com
+示例：
 
-[淘宝芭芭农场](taobao://market.m.taobao.com/app/starlink/wakeup-transit/pages/download?star_id=4354&slk_force_set_request=true&bc_fl_src=zfb_myxc2bbnc&sceneCodeAlipay=antruralism_taobao_taobaobabafarm0530&userToken=yxg3xgDreLtnLoDWZT4VrQ9p0AWjUKqdxgDxxoGAEXKyb7ggOmOQ4NK4EwnxxoazTusQgAP3NoxcUUgzxgZxcuuVxgM1nnxgc9YGP4Ob73klkg38xgppfoxkx)
+1. [淘宝首页](taobao://m.taobao.com)
+2. [淘宝芭芭农场](taobao://market.m.taobao.com/app/starlink/wakeup-transit/pages/download?star_id=4354&slk_force_set_request=true&bc_fl_src=zfb_myxc2bbnc&sceneCodeAlipay=antruralism_taobao_taobaobabafarm0530&userToken=yxg3xgDreLtnLoDWZT4VrQ9p0AWjUKqdxgDxxoGAEXKyb7ggOmOQ4NK4EwnxxoazTusQgAP3NoxcUUgzxgZxcuuVxgM1nnxgc9YGP4Ob73klkg38xgppfoxkx)
 
-#### Google Play Store
+##### Google Play Store
 
 1. 打开应用「Google Play Store」
 
@@ -143,7 +166,7 @@ taobao://
 
 https://developer.android.com/distribute/marketing-tools/linking-to-google-play?hl=zh-cn - *链接到 Google Play  |  Android Developers*
 
-#### 小米应用商店
+##### 小米应用商店
 
 1. 打开应用「小米应用商店」
 
@@ -158,8 +181,6 @@ https://developer.android.com/distribute/marketing-tools/linking-to-google-play?
     ```
 
 https://stackoverflow.com/questions/63208565/whats-xiaomi-mi-store-apps-page-intent - *android - What's Xiaomi Mi Store app's page intent? - Stack Overflow*
-
-[微信](market://details?id=cn.wps.moffice_eng)
 
 ### PHP
 

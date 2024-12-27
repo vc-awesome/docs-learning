@@ -4,7 +4,7 @@
 
 > <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="10" vspace="0"> An open source Android Git client.
 
-![GitHub last commit](https://badgen.net/github/last-commit/maks/MGit?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/maks/MGit?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/maks/MGit?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/maks/MGit?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/maks/MGit?style=social)
@@ -17,7 +17,11 @@ Website: https://manichord.com/projects/mgit.html - *MGit*
 
 https://github.com/maks/MGit - *GitHub - maks/MGit: A Git client for Android.*
 
+https://github.com/maks/MGit/releases - *Releases · maks/MGit · GitHub*
+
 https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Open Source Android App Repository*
+
+https://play.google.com/store/apps/details?id=com.manichord.mgit - *MGit - Google Play 上的应用*
 
 ## 快速入门
 

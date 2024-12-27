@@ -51,6 +51,15 @@ https://github.com/prettier/prettier-vscode - *GitHub - prettier/prettier-vscode
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/prettier/prettier-vscode?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/prettier/prettier-vscode?style=social)
 
+#### Vim
+
+https://github.com/prettier/vim-prettier - *GitHub - prettier/vim-prettier: A Vim plugin for Prettier*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/prettier/vim-prettier?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/prettier/vim-prettier?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/prettier/vim-prettier?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/prettier/vim-prettier?style=social)
+
 ## 快速入门
 
 暂无

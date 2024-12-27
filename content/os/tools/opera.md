@@ -156,7 +156,17 @@ https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Oper
 
 ## Changelog
 
+- https://www.opera.com/zh-cn/ofa/upgraded-86 - *更新完成！*
+
+- https://www.opera.com/zh-cn/ofa/upgraded-85 - *更新完成！*
+
 - https://www.opera.com/zh-cn/ofa/upgraded-83 - *更新完成！*
+
+- https://www.opera.com/zh-cn/ofa/upgraded-82 - *更新完成！*
+
+- https://www.opera.com/zh-cn/ofa/upgraded-81 - *更新完成！*
+
+- https://www.opera.com/zh-cn/ofa/upgraded-80 - *更新完成！*
 
 - https://www.opera.com/zh-cn/ofa/upgraded-79 - *更新完成！*
 
@@ -176,13 +186,19 @@ https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Oper
 
 ## FAQ
 
+### 桌面版浏览器无法打开网页
+
 https://blog.csdn.net/schumyxp/article/details/124481601 - *Opera无法打开网页的解决办法_opera打不开网页一直转_schumyxp的博客-CSDN博客*
 
-### 安卓版设置「科学上网」
+### 安卓版浏览器设置"科学上网"
 
 设置（步骤）：
 
-1. 打开"设置 - 隐私和安全 - DNS 供应商"；
-2. 点击开启"使用安全 DNS"后，在 DNS 供应商选项中选择"自定义"并输入 DNS 服务器地址："`https://94.140.14.140/dns-query`"；
+1. 打开浏览器"设置 - 隐私和安全 - DNS 供应商"；
+2. 点击开启"使用安全 DNS"后，在"DNS 供应商"选项中：
+    - 选择"自定义"并输入 [DNS 服务器地址](https://adguard-dns.io/kb/zh-CN/general/dns-providers/)：
+        - `https://94.140.14.140/dns-query`；
+        - `https://0ms.dev/dns-query`；
+    - 或者直接选择"Cloudflare"；
 3. 返回"设置"页，点击开启"节省流量"；
 4. 重启浏览器，在地址栏输入测试站点："`https://telegram.org/`"，能打开网页表示设置成功。

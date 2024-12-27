@@ -64,7 +64,7 @@ https://www.trackawesomelist.com - *Track Awesome List - Track your Favorite Git
 
 9. https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers*
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/awesome-selfhosted/awesome-selfhosted?logo=github&color=blue)
+    ![GitHub last commit](https://badgen.net/github/last-commit/awesome-selfhosted/awesome-selfhosted?icon=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/awesome-selfhosted/awesome-selfhosted?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/awesome-selfhosted/awesome-selfhosted?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/awesome-selfhosted/awesome-selfhosted?style=social)

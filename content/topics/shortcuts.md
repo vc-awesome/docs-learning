@@ -5,6 +5,7 @@
 - [Web 浏览器快捷键](os/tools/browser.md#快捷键)
   - Mozilla Firefox: [键盘快捷键 | Firefox 帮助](https://support.mozilla.org/zh-CN/kb/%E9%94%AE%E7%9B%98%E5%BF%AB%E6%8D%B7%E9%94%AE)
   - Microsoft Edge: [Microsoft Edge 中的键盘快捷方式 - Microsoft 支持](https://support.microsoft.com/zh-cn/microsoft-edge/microsoft-edge-中的键盘快捷方式-50d3edab-30d9-c7e4-21ce-37fe2713cfad)
+  - Opera: [Shortcuts - Opera Help](https://help.opera.com/en/latest/shortcuts/#keyboardShortcuts)
 
 - [macOS 快捷键](os/mac/README.md#tutorial)
     - https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
@@ -72,7 +73,7 @@
 向上滚动框
 
 <kbd>Shift</kbd> + <kbd>Space</kbd> or <kbd>Page Up</kbd>
- 
+
 <kbd>Shift</kbd> + <kbd>Space</kbd> or <kbd>Fn</kbd> + <kbd>Up Arrow</kbd>
 
 定位到页面底部

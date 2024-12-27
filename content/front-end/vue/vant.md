@@ -22,17 +22,15 @@ https://github.com/youzan/vant - *GitHub - youzan/vant: A lightweight, customiza
 
 https://gitee.com/vant-contrib/vant - *vant: 轻量、可定制的移动端 Vue 组件库。反馈 issue 请异步 GitHub 仓库：https://github.com/youzan/vant/issues*
 
-## 版本
-
-### 4.x
+### v4.x
 
 暂无
 
-### 3.x
+### v3.x
 
 https://vant-ui.github.io/vant/v3/#/zh-CN - *Vant 3 - 轻量、可靠的移动端组件库*
 
-### 2.x
+### v2.x
 
 https://vant-ui.github.io/vant/v2/#/zh-CN/ - *Vant 2 - 轻量、可靠的移动端组件库*
 
@@ -42,11 +40,15 @@ https://vant-ui.github.io/vant/#/zh-CN/quickstart - *快速上手 - Vant 4*
 
 ### 通过 npm 安装
 
-```bash
-# Vue 3 项目，安装最新版 Vant
-npm i vant
+Vue 3 项目，安装最新版 Vant
 
-# Vue 2 项目，安装 Vant 2
+```bash
+npm i vant
+```
+
+Vue 2 项目，安装最新版 Vant 2
+
+```bash
 npm i vant@latest-v2
 ```
 
@@ -112,7 +114,7 @@ Vue 3 + Vant 3
 </html>
 ```
 
-上述参考：
+参考：
 
 1. https://zhuanlan.zhihu.com/p/347971064 - *每天学一点vue3（一）CDN方式的安装以及简单使用 - 知乎*
 2. https://zhuanlan.zhihu.com/p/340309839 - *vue3.0中使用vant最新版本 - 知乎*
@@ -122,6 +124,8 @@ Vue 3 + Vant 3
 https://vant-contrib.gitee.io/vant/#/zh-CN/advanced-usage#di-bu-an-quan-qu-gua-pei - *进阶用法 - Vant 4*
 
 https://vant-contrib.gitee.io/vant/#/zh-CN/number-keyboard - *NumberKeyboard 数字键盘 - Vant 4*
+
+示例：
 
 ```html
 <!doctype html>
@@ -188,7 +192,7 @@ https://vant-contrib.gitee.io/vant/#/zh-CN/number-keyboard - *NumberKeyboard 数
 
 ## 常见问题
 
-### Vue 2 使用 `CDN` 方式引入 `Vant 2`，无法使用图片懒加载
+### Vue 2 通过 `CDN` 方式引入 `Vant 2`，无法使用图片懒加载
 
 ```javascript
 // 通过 CDN 引入时不会自动注册 Lazyload 组件

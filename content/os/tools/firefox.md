@@ -12,7 +12,7 @@
 
 ## 安装
 
-https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release - *下载 Firefox 浏览器，这里有简体中文及其他 90 多种语言版本供您选择*
+https://www.mozilla.org/zh-CN/firefox/all/ - *下载 Firefox 浏览器，这里有简体中文及其他 90 多种语言版本供您选择*
 
 ### 桌面端
 
@@ -23,6 +23,12 @@ https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release - *下载 Fir
 
 ### 移动端
 
+**应用商店：**
+
+1. https://play.google.com/store/apps/dev?id=7083182635971239206 - *Android Apps by Mozilla on Google Play*
+
+2. https://apps.apple.com/us/developer/mozilla/id380366936 - *Mozilla Apps on the App Store*
+
 **mozilla.org：**
 
 1. Firefox
@@ -32,11 +38,15 @@ https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release - *下载 Fir
    1. Android：https://www.mozilla.org/zh-CN/firefox/channel/android/ - *体验预览版 Android 浏览器中的新功能 | Firefox*
 3. Firefox Nightly
    1. Android：https://www.mozilla.org/zh-CN/firefox/channel/android/ - *体验预览版 Android 浏览器中的新功能 | Firefox*
+4. Firefox Focus
+    https://www.mozilla.org/zh-CN/firefox/browsers/mobile/focus/ - *Firefox Focus：隐私浏览器*
+    1. Android：https://play.google.com/store/apps/details?id=org.mozilla.focus - *Firefox Focus: No Fuss Browser - Apps on Google Play*
+    2. iOS：https://apps.apple.com/us/app/firefox-focus-privacy-browser/id1055677337 - *Firefox Focus: Privacy browser on the App Store*
 
 **firefox.com.cn：**
 
 <https://www.firefox.com.cn/browsers/mobile/> - *Firefox 移动浏览器将您的隐私放在首位*
-- Android: https://www.firefox.com.cn/browsers/mobile/android/ - *Android 版 Firefox 浏览器*
+- Android: ~~https://www.firefox.com.cn/browsers/mobile/android/ - *Android 版 Firefox 浏览器*~~
 - iOS: https://www.firefox.com.cn/browsers/mobile/ios/ - *适用于 iOS（iPhone 和 iPad）的 Firefox 浏览器*
 
 ## 设置
@@ -65,7 +75,15 @@ about:preferences#sync
 
 ### 无图模式
 
-https://blog.csdn.net/weixin_44545251/article/details/122617515 - *火狐浏览器设置无图模式_permissions.default.image-CSDN博客*
+操作步骤：
+
+1. 打开火狐浏览器，在地址栏输入 `about:config`，然后回车；
+2. 在出来的页面中搜索： `permissions.default.image`；
+3. 把 `permissions.default.image` 设成 2 保存。
+
+参考：
+
+1. https://blog.csdn.net/weixin_44545251/article/details/122617515 - *火狐浏览器设置无图模式_permissions.default.image-CSDN博客*
 
 ## 用法
 
@@ -81,7 +99,7 @@ https://blog.csdn.net/weixin_44545251/article/details/122617515 - *火狐浏览�
 
 1. 点击地址栏或按下 <kbd>command</kbd> + <kbd>L</kbd> 按键定位光标到地址栏。如果你刚刚打开 Firefox、新标签页活新窗口，光标就在地址栏。
 2. 在地址栏输入：<kbd>*</kbd> + <kbd>␣</kbd> + 搜索关键字
-3. 按 <kbd>回车</kbd> 键，或者点击地址栏右边的箭头。（按下 <kbd>command</kbd> + <kbd>return</kbd> 按键，在新前台标签页打开选中的书签。按下 <kbd>command</kbd> + 鼠标点击选中的书签，在当前标签页右边打开新前台标签页。）
+3. 按 <kbd>return</kbd> 键，或者点击地址栏右边的箭头。（按下 <kbd>command</kbd> + <kbd>return</kbd> 按键，在新前台标签页打开选中的书签。按下 <kbd>command</kbd> + 鼠标点击选中的书签，在当前标签页右边打开新前台标签页。）
 
 #### 搜索标签页
 
@@ -109,8 +127,17 @@ about:about
 about:config
 ```
 
+参考：
+
+
 1. https://kb.mozillazine.org/About_protocol_links - *About protocol links - MozillaZine Knowledge Base*
 2. https://www.webnots.com/list-of-firefox-about-pages/ - *List of Firefox about: Pages – WebNots*
+
+### 扩展程序
+
+https://addons.mozilla.org/zh-CN/firefox/ - *Firefox 附加组件（zh-CN）*
+
+https://addons.mozilla.org/zh-CN/android/ - *适用于 Android 的 Firefox 附加组件（zh-CN）*
 
 ## 常见问题解答
 

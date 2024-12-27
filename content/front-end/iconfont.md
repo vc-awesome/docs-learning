@@ -341,6 +341,13 @@ https://fontawesome.dashgame.com#fixed-width
 1. https://www.365jz.com/article/24512 - _什么是Iconfont？Iconfont的好处及使用方法_
 
 
+### 图标集
+
+> 189 icon sets with 240k+ icons, search across icon sets in multiple languages, rich filtering by type and style, quick customization of icon colors, sizes and code styles, one-click copy and download for developers and designers
+
+https://yesicon.app/ - *Yesicon - 精选全球高品质、开源、免费的矢量图标库*
+
+
 ## Library
 
 > 《图标字体库》，部分 Web UI 框架会自带图标库。
@@ -707,16 +714,14 @@ https://github.com/microsoft/vscode-codicons
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jaywcjlove/icongo?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/icongo?style=social)
 
-5. https://yesicon.app/ - *Yesicon - 精选全球高品质、开源、免费的矢量图标库*
-
-6. https://github.com/devicons/devicon - *devicons/devicon: Set of icons representing programming languages, designing & development tools* [Website](https://devicon.dev/)
+5. https://github.com/devicons/devicon - *devicons/devicon: Set of icons representing programming languages, designing & development tools* [Website](https://devicon.dev/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/devicons/devicon?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/devicons/devicon?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/devicons/devicon?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/devicons/devicon?style=social)
 
-7. https://github.com/simple-icons/simple-icons - *GitHub - simple-icons/simple-icons: SVG icons for popular brands* [Website](https://simpleicons.org/)
+6. https://github.com/simple-icons/simple-icons - *GitHub - simple-icons/simple-icons: SVG icons for popular brands* [Website](https://simpleicons.org/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/simple-icons/simple-icons?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/simple-icons/simple-icons?display_date=published_at&logo=github)

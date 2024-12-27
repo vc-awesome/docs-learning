@@ -105,6 +105,34 @@ https://badgen.net/ - *badgen.net*
 
 https://shields.io/ - *Shields.io | Shields.io*
 
+Chrome Web Store：
+
+1. https://shields.io/badges/chrome-web-store-last-updated - *Chrome Web Store Last Updated | Shields.io*
+
+2. https://shields.io/badges/chrome-web-store-users - *Chrome Web Store Users | Shields.io*
+
+3. https://shields.io/badges/chrome-web-store-rating - *Chrome Web Store Rating | Shields.io*
+
+4. https://shields.io/badges/chrome-web-store-rating-count - *Chrome Web Store Rating Count | Shields.io*
+
+5. https://shields.io/badges/chrome-web-store-stars - *Chrome Web Store Stars | Shields.io*
+
+6. https://shields.io/badges/chrome-web-store-size - *Chrome Web Store Size | Shields.io*
+
+7. https://shields.io/badges/chrome-web-store-version - *Chrome Web Store Version | Shields.io*
+
+GitHub User：
+
+1. https://shields.io/badges/git-hub-sponsors - *GitHub Sponsors | Shields.io*
+
+2. https://shields.io/badges/git-hub-followers - *GitHub followers | Shields.io*
+
+3. https://shields.io/badges/git-hub-orgs-stars - *GitHub Org's stars | Shields.io*
+
+4. https://shields.io/badges/git-hub-users-stars - *GitHub User's stars | Shields.io*
+
+常用：
+
 1. ![GitHub last commit](https://img.shields.io/github/last-commit/bootstrap-vue/bootstrap-vue?logo=github&color=blue)
 
     ```markdown

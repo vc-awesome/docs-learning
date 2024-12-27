@@ -12,20 +12,6 @@ https://git.savannah.gnu.org/cgit/emacs.git/ - *emacs.git - Emacs source reposit
 
 - https://git.savannah.gnu.org/cgit/emacs.git/?h=feature/android - *emacs.git - Emacs source repository*
 
-## 安装
-
-https://www.gnu.org/software/emacs/download.html - *GNU Emacs download - GNU Project*
-
-### macOS
-
-https://www.gnu.org/software/emacs/download.html#nonfree - *GNU Emacs download - GNU Project*
-
-### Android
-
-https://www.emacswiki.org/emacs/EmacsOnAndroid - *EmacsWiki: Emacs On Android*
-
-https://f-droid.org/packages/org.gnu.emacs - *Emacs | F-Droid - Free and Open Source Android App Repository*
-
 ## 教程
 
 ### 官方教程
@@ -45,6 +31,34 @@ https://www.emacswiki.org/ - *EmacsWiki: 網站地圖*
 ### 社区
 
 https://emacs-china.org/ - *Emacs China*
+
+## 安装
+
+https://www.gnu.org/software/emacs/download.html - *GNU Emacs download - GNU Project*
+
+### macOS
+
+https://www.gnu.org/software/emacs/download.html#nonfree - *GNU Emacs download - GNU Project*
+
+### Android
+
+https://www.emacswiki.org/emacs/EmacsOnAndroid - *EmacsWiki: Emacs On Android*
+
+https://f-droid.org/packages/org.gnu.emacs - *Emacs | F-Droid - Free and Open Source Android App Repository*
+
+#### Termux
+
+查看：
+
+```bash
+pkg show emacs
+```
+
+安装：
+
+```bash
+pkg install emacs
+```
 
 ## 入门指南
 
@@ -94,8 +108,8 @@ https://www.gnu.org/software/emacs/manual/html_node/emacs/Screen.html - *Screen 
 - window - 框架的主要区域，在工具栏下方（如果存在）和回显区域上方
 - scroll bar - 滚动条
 - mode line - 模式行
-- echo area - 
-- buffer - 
+- echo area - 回显区域
+- buffer - 缓冲区
 
 ### 命令
 
@@ -150,7 +164,7 @@ https://blog.csdn.net/hmsiwtv/article/details/16901561 - *Emacs 之 ediff 学习
 
 1. https://mirrors.tuna.tsinghua.edu.cn/help/elpa/ - *elpa | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
 2. https://www.cnblogs.com/k4nz/p/14508524.html - *「GNU Emacs」- 包管理系统（ELPA, Emacs Lisp Package Archive） @20210309 - 研究林纳斯写的 - 博客园*
-3. https://www.emacswiki.org/emacs/ELPA_(%e4%b8%ad%e6%96%87) - *EmacsWiki: ELPA (中文)*
+3. <https://www.emacswiki.org/emacs/ELPA_(中文)> - *EmacsWiki: ELPA (中文)*
 4. https://nyk.ma/posts/emacs-write-your-own/ - *Emacs 自力求生指南 ── 来写自己的配置吧 - Nayuki's Archive*
 5. https://cloud.tencent.com/developer/article/1966582 - *Emacs的包管理器的使用-腾讯云开发者社区-腾讯云*
 
@@ -195,12 +209,13 @@ https://emacs-china.org/t/centaur-markdown/12170 - *[Centaur] markdown 预览支
 
 ### 正则表达式
 
-1. https://emacs-china.org/t/elisp/2349/39 - *elisp 正则表达式如何匹配中文和英文 - Emacs-general - Emacs China*
-2. https://segmentfault.com/q/1010000008383759 - *emacs 如何使用正则查找替换匹配组？ - SegmentFault 思否*
-3. https://blog.csdn.net/borderj/article/details/83170259 - *『Emacs 』Emacs中的正则表达式语法-CSDN博客*
-4. https://blog.csdn.net/zzllabcd/article/details/5895952 - *Emacs 正则表达式-CSDN博客*
-5. https://www.gnu.org/software/emacs/manual/html_node/emacs/Regexp-Replace.html - *Regexp Replace (GNU Emacs Manual)*
-6. https://emacs-china.org/t/topic/16397 - *怎么用正则替换 (.*) $1 求正确打开方式 - Emacs-general - Emacs China*
+1. https://www.gnu.org/software/emacs/manual/html_node/emacs/Regexps.html - *Regexps (GNU Emacs Manual)*
+2. https://emacs-china.org/t/elisp/2349/39 - *elisp 正则表达式如何匹配中文和英文 - Emacs-general - Emacs China*
+3. https://segmentfault.com/q/1010000008383759 - *emacs 如何使用正则查找替换匹配组？ - SegmentFault 思否*
+4. https://blog.csdn.net/borderj/article/details/83170259 - *『Emacs 』Emacs中的正则表达式语法-CSDN博客*
+5. https://blog.csdn.net/zzllabcd/article/details/5895952 - *Emacs 正则表达式-CSDN博客*
+6. https://www.gnu.org/software/emacs/manual/html_node/emacs/Regexp-Replace.html - *Regexp Replace (GNU Emacs Manual)*
+7. https://emacs-china.org/t/topic/16397 - *怎么用正则替换 (.*) $1 求正确打开方式 - Emacs-general - Emacs China*
     - https://www.emacswiki.org/emacs/RegularExpression - *EmacsWiki: Regular Expression*
 
 ## 常见问题解答

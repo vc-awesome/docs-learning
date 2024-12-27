@@ -27,6 +27,13 @@
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/justjavac/openai-proxy?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/openai-proxy?style=social)
 
+3. https://github.com/jaywcjlove/awesome-chatgpt - *GitHub - jaywcjlove/awesome-chatgpt*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/awesome-chatgpt?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jaywcjlove/awesome-chatgpt?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jaywcjlove/awesome-chatgpt?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/awesome-chatgpt?style=social)
+
 ### 百度 AI
 
 1. https://chat.baidu.com/ - *搜索AI伙伴*
@@ -60,6 +67,8 @@ https://www.opera.com/features/aria - *Aria browser AI | Free AI with real-time 
 ### DuckDuckGo AI Chat
 
 https://duckduckgo.com/aichat - *AI Chat*
+
+https://duck.ai/ - *AI Chat*
 
 ### Ecosia Chat
 

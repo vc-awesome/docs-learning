@@ -4,6 +4,7 @@
 
 <small>*Picture source: [About · GitHub](https://github.com/about)*</small>
 
+
 ## 简介
 
 > <img src="https://github.com/pinned-octocat.svg" alt="package icon" align="left" width="58" hspace="0" vspace="0" style="border-radius: 5px;margin: 7px 7px 0 0;"> GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.
@@ -15,6 +16,10 @@
 
 文档：https://docs.github.com/cn/ - *GitHub Documentation*
 
+关于：https://github.com/about - *About GitHub · GitHub*
+
+- https://github.com/logos - *GitHub Logos and Usage · GitHub*
+
 品牌：https://brand.github.com/ - *GitHub Brand Guide*
 
 - Octodex： https://octodex.github.com/ - *GitHub Octodex*
@@ -22,6 +27,14 @@
 Security Bug Bounty：https://bounty.github.com/ - *GitHub Security - GitHub Bug Bounty*
 
 博客：https://github.blog/ - *The GitHub Blog - Updates, ideas, and inspiration from GitHub to help developers build and design software.*
+
+
+## 设置
+
+https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens - *管理个人访问令牌 - GitHub 文档*
+
+- https://github.com/settings/tokens?type=beta - *Fine-grained Personal Access Tokens*
+- https://github.com/settings/tokens - *Personal Access Tokens (Classic)*
 
 
 ## 社区

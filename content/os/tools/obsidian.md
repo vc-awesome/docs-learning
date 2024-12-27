@@ -68,5 +68,4 @@ https://forum-zh.obsidian.md/t/topic/134 - *玩转Obsidian的保姆级别教程�
 
 ## 参考
 
-暂无
-
+1. https://mp.weixin.qq.com/s/2UVkpplt5pe6FKaQCK8Ddg - *知识管理工具 Obsidian 完整指南和插件推荐*

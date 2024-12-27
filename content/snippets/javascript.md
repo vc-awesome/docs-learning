@@ -178,3 +178,9 @@ str.replace("/需要替换的字符串/g", "新替换的字符串");
 
 1. https://www.runoob.com/jsref/jsref-replace.html - _JavaScript replace() 方法 | 菜鸟教程_
 2. https://www.cnblogs.com/cblogs/p/9293522.html - _js中字符串全部替换 - 胡海超的博客 - 博客园_
+
+## 异步操作
+
+### setTimeout()
+
+### Promise

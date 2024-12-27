@@ -985,3 +985,22 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
     ![GitHub Repo stars](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words?style=social)
 
 2. https://mp.weixin.qq.com/s/cI_5vOeeDPRDIax7176jRw - *每个程序员必须掌握的常用英语词汇*
+
+## 常见问题
+
+### 变量 foo 和 bar 的由来
+
+- foobar
+- foo
+- bar
+- baz
+- qux
+
+参考：
+
+1. https://blog.csdn.net/wangluqinglxq/article/details/27711295 - *变量foo 和 bar的由来_bar foo-CSDN博客*
+2. https://cloud.tencent.com/developer/article/1360988 - *你所不知道的“foo”和“bar”-腾讯云开发者社区-腾讯云*
+3. https://www.cnblogs.com/6duxz/p/8116646.html - *有趣的冷知识：编程中Foo, Bar 到底什么意思？ - 6度XZ - 博客园*
+4. https://docs.pingcode.com/ask/64496.html - *foo到底是什么意思 – PingCode*
+5. https://www.cnblogs.com/kenshinobiy/p/14256756.html - *编程中常见的Foo，是什么意思？ - 谦信君 - 博客园*
+6. https://cloud.tencent.com/developer/article/2380231 - *为什么很多教程中都有 foo bar？-腾讯云开发者社区-腾讯云*

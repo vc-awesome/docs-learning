@@ -20,6 +20,24 @@ https://github.com/elastic-rock/KeepScreenOn - *GitHub - elastic-rock/KeepScreen
 
 ## 应用下载
 
+### F-Droid
+
+> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
+
+![f-droid](https://badgen.net/f-droid/v/org.fdroid.fdroid)
+![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/f-droid/fdroidclient?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/f-droid/fdroidclient?style=social)
+
+---
+
+https://f-droid.org/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* 🚫
+
+https://github.com/f-droid/fdroidclient - *GitHub - f-droid/fdroidclient: Android client application.*
+
+https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository* 🚫
+
 ### Droid-ify
 
 > Material-ify with Droid-ify. A quick material F-Droid client.
@@ -40,9 +58,9 @@ https://droidify.eu.org/ - *Droid-ify*
 
 ### Aurora Store
 
-1. ✅ [Aurora Store](http://auroraoss.com/) - *Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.*
+1. [Aurora Store](https://auroraoss.com/) - *Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.*
 
-    - 支持 Android（[F-Droid](https://www.f-droid.org/packages/com.aurora.store/)）
+    - 支持 Android（[GitLab Releases](https://gitlab.com/AuroraOSS/AuroraStore/-/releases), [F-Droid](https://www.f-droid.org/packages/com.aurora.store/)）
 
     - 开源软件（[GitLab Repo](https://gitlab.com/AuroraOSS/AuroraStore)）
 
@@ -54,26 +72,26 @@ https://droidify.eu.org/ - *Droid-ify*
 
 ### Obtainium
 
-1. ✅ [Obtainium]() - *Get Android app updates straight from the source. Contribute to ImranR98/Obtainium development by creating an account on GitHub.*
+1. [Obtainium](https://obtainium.imranr.dev/) - *Get Android app updates straight from the source. Contribute to ImranR98/Obtainium development by creating an account on GitHub.*
 
     - 支持 Android（[GitHub Releases](https://github.com/ImranR98/Obtainium/releases), [F-Droid](https://f-droid.org/packages/dev.imranr.obtainium.fdroid/)）
 
     - 开源软件（[GitHub Repo](https://github.com/ImranR98/Obtainium)）
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/ImranR98/Obtainium?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ImranR98/Obtainium?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/Obtainium?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/Obtainium?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ImranR98/Obtainium?style=social)
 
 ### FFUpdater
 
-1. ✅ [FFUpdater]() - *Updater for privacy friendly browsers*
+1. [FFUpdater]() - *Updater for privacy friendly browsers*
 
     - 支持 Android（[GitHub Releases](https://github.com/Tobi823/ffupdater/releases), [F-Droid](https://f-droid.org/app/de.marmaro.krt.ffupdater)）
 
     - 开源软件（[GitHub Repo](https://github.com/Tobi823/ffupdater)）
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/Tobi823/ffupdater?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Tobi823/ffupdater?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Tobi823/ffupdater?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tobi823/ffupdater?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Tobi823/ffupdater?style=social)
@@ -95,6 +113,8 @@ https://droidify.eu.org/ - *Droid-ify*
 https://f-droid.org/packages/io.github.muntashirakon.AppManager/ - *App Manager - Android package manager | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/MuntashirAkon/AppManager - *GitHub - MuntashirAkon/AppManager: A full-featured package manager and viewer for Android*
+
+https://muntashirakon.github.io/AppManager/ - *App Manager Docs*
 
 ### Activity Manager
 
@@ -134,9 +154,9 @@ https://github.com/SmartPack/PackageManager - *GitHub - SmartPack/PackageManager
 
 Q：如何知道“文件管理应用”含有哪些内置工具？
 
-A：可通过应用“[Activity Manager](os/mobile/mobile-app-list.md#activity-manager)”查看。
+A：可通过应用“[Activity Manager](#activity-manager)”查看。
 
-### 质感文件（Material Files）
+### Material Files
 
 > 免费开源的 Material Design 文件管理器
 
@@ -190,6 +210,8 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
 https://github.com/gsantner/markor - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
 
+https://gsantner.net/page/projects.html#markor - *Projects | gsantner*
+
 ### Acode
 
 > Acode - powerful text/code editor for android
@@ -225,6 +247,65 @@ https://acode.app/ - *Acode - Code editor for android*
 https://f-droid.org/packages/com.sanzoghenzo.markdownr/ - *Markdownr | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Android app that converts an URL to markdown, and lets you share it to your favorite notes app.*
+
+## 网络工具
+
+### PCAPdroid
+
+> PCAPdroid is an open source network capture and monitoring tool which works without root privileges. （译文：PCAPdroid 是一款开源网络捕获和监控工具，无需 root 权限即可运行。）
+
+![f-droid](https://img.shields.io/f-droid/v/com.emanuelef.remote_capture)
+![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/PCAPdroid?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/emanuele-f/PCAPdroid?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/emanuele-f/PCAPdroid?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/PCAPdroid?style=social)
+![](https://badgen.net/badge/💰/应用内包含付费功能/grey)
+
+---
+
+https://f-droid.org/packages/com.emanuelef.remote_capture/ - *PCAPdroid | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/emanuele-f/PCAPdroid - *emanuele-f/PCAPdroid: No-root network monitor, firewall and PCAP dumper for Android*
+
+https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
+
+用法：
+
+- TLS 解密
+
+    官方教程：https://emanuele-f.github.io/PCAPdroid/tls_decryption - *3.1 Introduction | PCAPdroid*
+
+    基本操作步骤，按文档教程操作：
+
+    1. 初始设置（[参照内容](https://emanuele-f.github.io/PCAPdroid/tls_decryption#32-initial-setup)）
+
+    2. 解密（[参照内容](https://emanuele-f.github.io/PCAPdroid/tls_decryption#33-decrypting)）
+
+相关工具：
+
+1. https://github.com/mitmproxy/mitmproxy - *mitmproxy/mitmproxy: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/mitmproxy/mitmproxy?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/mitmproxy/mitmproxy?style=social)
+
+2. https://github.com/M66B/NetGuard - *GitHub - M66B/NetGuard: A simple way to block access to the internet per app*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/M66B/NetGuard?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/M66B/NetGuard?style=social)
+
+3. https://github.com/Genymobile/gnirehtet - *GitHub - Genymobile/gnirehtet: Gnirehtet provides reverse tethering for Android*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Genymobile/gnirehtet?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Genymobile/gnirehtet?style=social)
+
+4. https://github.com/emanuele-f/zdtun - *GitHub - emanuele-f/zdtun: Zero Dep Tunnel: VPN library without dependencies*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/zdtun?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/zdtun?style=social)
+
+相关术语：
+
+1. SNI（Server Name Information，服务器名称信息）
 
 ## DNS
 
@@ -346,8 +427,6 @@ https://f-droid.org/packages/org.itxtech.daedalus/ - *Daedalus | F-Droid - Free 
 
 https://github.com/iTXTech/Daedalus - *GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver.*
 
-https://github.com/iTXTech/Daedalus/releases - *Releases · iTXTech/Daedalus*
-
 https://itxtech.org/ - *Homepage | iTX Technologies*
 
 ## Hosts
@@ -408,63 +487,6 @@ https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
     - Location 填写：*https://raw.hellogithub.com/hosts*
 
 4. 勾选“Apply redirected hosts”
-
-## 网络工具
-
-### PCAPdroid
-
-> PCAPdroid is an open source network capture and monitoring tool which works without root privileges. （译文：PCAPdroid 是一款开源网络捕获和监控工具，无需 root 权限即可运行。）
-
-![f-droid](https://img.shields.io/f-droid/v/com.emanuelef.remote_capture)
-![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/PCAPdroid?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/emanuele-f/PCAPdroid?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/emanuele-f/PCAPdroid?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/PCAPdroid?style=social)
-![](https://badgen.net/badge/💰/应用内包含付费功能/grey)
-
----
-
-https://github.com/emanuele-f/PCAPdroid - *emanuele-f/PCAPdroid: No-root network monitor, firewall and PCAP dumper for Android*
-
-https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
-
-用法：
-
-- TLS 解密
-
-    官方教程：https://emanuele-f.github.io/PCAPdroid/tls_decryption - *3.1 Introduction | PCAPdroid*
-
-    基本操作步骤，按文档教程操作：
-
-    1. 初始设置（[参照内容](https://emanuele-f.github.io/PCAPdroid/tls_decryption#32-initial-setup)）
-
-    2. 解密（[参照内容](https://emanuele-f.github.io/PCAPdroid/tls_decryption#33-decrypting)）
-
-相关工具：
-
-1. https://github.com/mitmproxy/mitmproxy - *mitmproxy/mitmproxy: An interactive TLS-capable intercepting HTTP proxy for penetration testers and software developers.*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/mitmproxy/mitmproxy?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/mitmproxy/mitmproxy?style=social)
-
-2. https://github.com/M66B/NetGuard - *GitHub - M66B/NetGuard: A simple way to block access to the internet per app*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/M66B/NetGuard?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/M66B/NetGuard?style=social)
-
-3. https://github.com/Genymobile/gnirehtet - *GitHub - Genymobile/gnirehtet: Gnirehtet provides reverse tethering for Android*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Genymobile/gnirehtet?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/Genymobile/gnirehtet?style=social)
-
-4. https://github.com/emanuele-f/zdtun - *GitHub - emanuele-f/zdtun: Zero Dep Tunnel: VPN library without dependencies*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/zdtun?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/zdtun?style=social)
-
-相关术语：
-
-1. SNI（Server Name Information，服务器名称信息）
 
 ## RSS
 
@@ -599,6 +621,7 @@ https://github.com/T8RIN/ImageToolbox - *GitHub - T8RIN/ImageToolbox: 🖼️ Im
 - 对比两张指定的图片
 - 文件加密
 - 取色器
+- OCR（文本识别）
 - 从网络加载图像
 
 用法：
@@ -609,7 +632,7 @@ https://github.com/T8RIN/ImageToolbox - *GitHub - T8RIN/ImageToolbox: 🖼️ Im
     
     1. 下拉右侧状态栏打开控制中心；
     2. 点击控制中心右上角的编辑图标，进入编辑页；
-    3. 添加快捷方式"取色器"，添加后点击右上角"完成"按钮。
+    3. 在未添加开关中找到"取色器"快捷方式并添加，添加成功后点击右上角"完成"按钮。
     
     使用（步骤）：
     
@@ -635,17 +658,39 @@ https://f-droid.org/packages/com.kgurgul.cpuinfo/ - *CPU Info | F-Droid - Free a
 
 https://github.com/kamgurgul/cpu-info - *GitHub - kamgurgul/cpu-info: CPU Info provides information about device hardware and software*
 
+## 条码扫描
+
+### Binary Eye
+
+> Yet another barcode scanner. Works in portrait and landscape mode, can read inverted barcodes, reads barcodes with binary data and can also generate barcodes.
+
+![F-Droid Version](https://img.shields.io/f-droid/v/de.markusfisch.android.binaryeye)
+![GitHub last commit](https://img.shields.io/github/last-commit/markusfisch/BinaryEye?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/markusfisch/BinaryEye?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/markusfisch/BinaryEye?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/markusfisch/BinaryEye?style=social)
+
+---
+
+https://f-droid.org/packages/de.markusfisch.android.binaryeye/ - *Binary Eye | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/markusfisch/BinaryEye - *GitHub - markusfisch/BinaryEye: Yet another barcode scanner for Android*
+
+https://markusfisch.de/apps-android.html#binary-eye - *Android • Markus Fisch*
+
 ## 快捷方式
 
 ### HTTP Shortcuts
 
 > A simple but powerful Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request, with the possibility of processing and displaying the response in various ways. Ideal for home automation projects.
 
-![F-Droid Version](https://img.shields.io/f-droid/v/ch.rmy.android.http_shortcuts?logo=f-droid)
+![F-Droid Version](https://img.shields.io/f-droid/v/ch.rmy.android.http_shortcuts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Waboodoo/HTTP-Shortcuts?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Waboodoo/HTTP-Shortcuts?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Waboodoo/HTTP-Shortcuts?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Waboodoo/HTTP-Shortcuts?style=social)
+
+---
 
 ✅ [HTTP Shortcuts](https://http-shortcuts.rmy.ch/) - *Android app to create home screen shortcuts that trigger arbitrary HTTP requests*
 

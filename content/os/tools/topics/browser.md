@@ -472,6 +472,7 @@ https://www.freecodecamp.org/chinese/news/about-blank-what-does-about-blank-mean
 2. https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
 3. https://baijiahao.baidu.com/s?id=1699345724372278183 - *JavaScript 开发者需要了解的15个 DevTools 技巧*
 4. https://github.com/ChromeDevTools - *ChromeDevTools · GitHub*
+5. https://developer.chrome.google.cn/docs/devtools?hl=zh-cn - *Chrome DevTools &nbsp;|&nbsp; Chrome for Developers*
 
 ### Element
 
@@ -518,7 +519,13 @@ https://www.freecodecamp.org/chinese/news/about-blank-what-does-about-blank-mean
 
 ### Console
 
-暂无
+https://segmentfault.com/a/1190000008074942 - *chrome-devtools - Chrome DevTools — Console - 小前端 - SegmentFault 思否*
+
+https://segmentfault.com/q/1010000018895611 - *javascript - 谷歌浏览器控制台如何使用Console.log()输出展开对象详细信息 - SegmentFault 思否*
+
+https://blog.csdn.net/DarinZanya/article/details/139801423 - *如何优雅地使用 console.log 打印数组或对象_console.log打印对象-CSDN博客*
+
+https://segmentfault.com/q/1010000023482235 - *微信小程序 - 微信开发者工具 调试器 console的显示的内容如何复制出来 - SegmentFault 思否*
 
 ### Sources
 

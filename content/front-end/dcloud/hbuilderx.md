@@ -41,7 +41,7 @@ https://hx.dcloud.net.cn/Tutorial/UserGuide/fold - *折叠 - HBuilderX 文档*
 
 ### 文件对比
 
-https://hx.dcloud.net.cn/Tutorial/UserGuide/LocalFileDiff?id=文件对比 - *文件对比 - HBuilderX 文档*
+https://hx.dcloud.net.cn/Tutorial/UserGuide/LocalFileDiff - *文件对比 - HBuilderX 文档*
 
 ### 代码片段
 
@@ -78,23 +78,25 @@ https://ext.dcloud.net.cn/plugin?name=uni-vue-devtools - *vue-devtools - DCloud 
 
 #### 内置浏览器
 
-暂无
+https://hx.dcloud.net.cn/Tutorial/UserGuide/built-in-browser - *内置浏览器 - HBuilderX 文档*
 
 #### 内置终端
 
-暂无
+https://hx.dcloud.net.cn/Tutorial/UserGuide/terminal - *内置终端 - HBuilderX 文档*
 
 #### Git插件
 
-暂无
+https://hx.dcloud.net.cn/Tutorial/SourceControl/Git/README - *Git 介绍 - HBuilderX 文档*
 
 ### scss/sass编译
+
+https://hx.dcloud.net.cn/Tutorial/extension/sass - *Scss/Sass - HBuilderX 文档*
 
 https://ext.dcloud.net.cn/plugin?name=compile-node-sass - *scss/sass编译 - DCloud 插件市场*
 
 ### eslint-js
 
-暂无
+https://hx.dcloud.net.cn/Tutorial/extension/eslint-js - *eslint-js - HBuilderX 文档*
 
 ### eslint-plugin-vue
 
@@ -115,7 +117,11 @@ https://hx.dcloud.net.cn/Tutorial/extension/prettier - *prettier - HBuilderX 文
 
 ### FTP/SFTP
 
+> 支持浏览SFTP/FTP远端文件，保存时自动上传等
+
 https://hx.dcloud.net.cn/Tutorial/extension/ftp - *FTP/SFTP - HBuilderX 文档*
+
+https://ext.dcloud.net.cn/plugin?id=2038 - *SFTP/FTP Sync - DCloud 插件市场*
 
 ### Git Blame
 

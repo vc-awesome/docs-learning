@@ -202,3 +202,8 @@ https://www.tongtool.com/index.html - *通途，eBay 订单管理，亚马逊订
 
     - 谁在使用
         - https://stylelint.io/ - *Home | Stylelint*
+
+
+## 参考
+
+1. https://mp.weixin.qq.com/s/7SG-A7ELxMgttKgXIwNtaQ - *终于有人把供应链与CRM、CMS、ERP、SAP的区别讲明白了！*

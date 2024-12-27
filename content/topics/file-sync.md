@@ -60,19 +60,29 @@ https://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的�
 
 #### Box
 
-暂无
+[Secure, AI-Powered Content Management, Workflow &amp; Collaboration](https://www.box.com/home) - *The intelligent Content Cloud makes it easy to automate workflows, collaborate internally and externally, and protect your sensitive data, all on one platform.*
+
+- 支持 Windows, macOS, Android, iOS
 
 #### Dropbox
 
-暂无
+[Dropbox.com](https://www.dropbox.com/) - *Dropbox 提供的各种工具有助于您快速完成工作，保障工作资料的安全，并让您轻松开展协作。* 🚫
+
+- 支持 Windows, macOS, Android, iOS
 
 #### OneDrive
 
-暂无
+[OneDrive](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/online-cloud-storage) - *个人云储存空间-Microsoft OneDrive登录下载使用 | OneDrive* [OneDrive 帮助和学习](https://support.microsoft.com/zh-CN/onedrive)
+
+- 支持 Windows, macOS, Linux（[非官方](https://github.com/abraunegg/onedrive)）, Android（[Google Play](https://play.google.com/store/apps/details?id=com.microsoft.skydrive)）, iOS, Web
+
+- 注册登录（开通会员解锁更多功能）
 
 #### Google Drive
 
-暂无
+[Google 云端硬盘：利用安全的云端存储空间在线共享文件 | Google Workspace](https://workspace.google.com/intl/zh-CN/products/drive/) - *借助 Google 云端硬盘的文件共享平台，用户可以在安全的个人云存储空间中与其他用户共享内容。欢迎了解详情。* 🚫
+
+- 支持 Android, iOS
 
 #### Nextcloud
 
@@ -84,6 +94,20 @@ https://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的�
 
 - 注册登录（开通会员解锁更多功能）
 
+#### Yandex.Disk
+
+[Yandex Disk](https://disk.yandex.com/) - *Your files are safe on Yandex Disk. You can access them at any time and on any device.* 🚫
+
+- 支持 Windows, macOS, Android, iOS
+
+#### ownCloud
+
+[ownCloud - share files and folders, easy and secure](https://owncloud.com/) - *ownCloud, your file platform. The most essential business tool for enterprise-grade file sync and share.*
+
+- 支持 Windows, macOS, Linux, Android, iOS, Web, Server
+
+- 开源软件（[GitHub Org](https://github.com/owncloud)）
+
 ### 文件协议
 
 ~~http://www.menglei.net/3582/ - *FOLDERSYNC一款支持各大国外网盘同步的软件*~~
@@ -93,19 +117,19 @@ https://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的�
 - WebDAV
 - Samba/SMB/CIFS (SMB1 only)
 
-#### FTP server
+#### FTP Server
 
 暂无
 
-#### SFTP server
+#### SFTP Server
 
 暂无
 
-#### SMB server
+#### SMB Server
 
 暂无
 
-#### WebDAV server
+#### WebDAV Server
 
 1. https://baijiahao.baidu.com/s?id=1666954457030652604 - *WebDAV是什么，有哪些支持webdav的网盘和工具？*
 2. https://baijiahao.baidu.com/s?id=1716111755399982472 - *含WebDAV 文件管理类工具汇总*
@@ -131,6 +155,15 @@ https://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的�
 
     - https://baike.baidu.com/item/NAS/3465615 - *NAS_百度百科*
     - https://www.synology.cn/zh-cn - *群晖科技 Synology Inc.*
+
+#### WebDAV
+
+参考：
+
+1. https://blog.csdn.net/SilentCWQH/article/details/127559615 - *Termux 使用 apache 搭建 webdav 服务器_termux apache-CSDN 博客*
+2. https://www.cnblogs.com/x3d/p/webdav-service-on-android-tablepad.html - *在安卓平板上搭建 webdav 服务 - x3d - 博客园*
+3. https://developer.baidu.com/article/details/3303488 - *Termux 外置硬盘挂载 ——rclone &amp; WebDav 挂载网盘 - 百度开发者中心*
+4. https://post.smzdm.com/p/a0do572r/ - *搭建自己的 webdav 服务器_虚拟产品_什么值得买*
 
 ### 挂载网盘
 

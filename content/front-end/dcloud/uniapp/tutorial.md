@@ -28,13 +28,14 @@ https://github.com/dcloudio/unidocs-zh - *GitHub - dcloudio/unidocs-zh: uni-app�
 
 ### 目录结构
 
-[uni-app 目录结构](home/toc.md?id=uni-app)
-
 <https://uniapp.dcloud.net.cn/tutorial/project.html#目录结构> - *工程简介 | uni-app官网*
 
 ### 预备知识
 
-暂无
+- HTML
+- CSS
+- JavaScript
+- Vue
 
 ## 发布
 
@@ -104,7 +105,9 @@ https://uniapp.dcloud.net.cn/tutorial/run-and-debug.html - *uni-app官网*
 2. 开启模拟器“开发者选项”，打开开发者选项的 USB 调试功能
 3. 配置完成后，如无法连接或启动，重启 HBuilder X 或模拟器
 
-### 微信小程序
+### 小程序
+
+#### 微信开发者工具
 
 1. https://blog.csdn.net/qq_40860800/article/details/122821965 - *uni-app创建并运行微信小程序项目_怎么运行微信小程序项目,项目是已完成的-CSDN博客*
 2. https://zhuanlan.zhihu.com/p/481333920 - *用uniapp运行到微信小程序!!!!!!!!! - 知乎*
@@ -122,17 +125,23 @@ https://uniapp.dcloud.net.cn/collocation/pages.html#customnav - *pages.json 页�
 
 ### App.vue
 
+https://uniapp.dcloud.net.cn/collocation/App.html - *App.vue/App.uvue | uni-app官网*
+
 #### 应用生命周期
 
-暂无
+https://uniapp.dcloud.net.cn/collocation/App.html#applifecycle - *App.vue/App.uvue | uni-app官网*
 
 ### main.js
 
-暂无
+https://uniapp.dcloud.net.cn/collocation/main.html - *main.js/main.uts | uni-app官网*
+
+#### 代码时序
+
+<https://uniapp.dcloud.net.cn/collocation/main.html#代码时序> - *main.js/main.uts | uni-app官网*
 
 ### uni.scss
 
-暂无
+https://uniapp.dcloud.net.cn/collocation/uni-scss.html - *uni-app官网*
 
 ## 生命周期
 
@@ -154,15 +163,44 @@ https://uniapp.dcloud.net.cn/tutorial/page.html - *页面 | uni-app官网*
 
 ### 页面生命周期
 
-暂无
+https://uniapp.dcloud.net.cn/tutorial/page.html#lifecycle - *页面 | uni-app官网*
+
+共 19 个（下面仅列出常用函数）：
+
+- onLoad
+- onShow
+- onReady
+- onPageScroll
+
+#### onPageScroll
+
+参考：
+
+1. https://blog.csdn.net/qq_42740797/article/details/119040722 - *uni-app 监听页面滚动（页面或组件）_uniapp监听页面滚动-CSDN博客*
+2. https://ask.dcloud.net.cn/question/67415 - *uni-app 中的组件怎么监听页面滚动？ - DCloud问答*
 
 ### 组件生命周期
 
-暂无
+https://uniapp.dcloud.net.cn/tutorial/page.html#componentlifecycle - *页面 | uni-app官网*
+
+共 8 个（下面仅列出常用函数）：
+
+- beforeCreate
+- created
+- beforeMount
+- mounted
+- beforeUpdate
+- updated
+- beforeDestroy
+- destroyed
+
+### 页面通讯
+
+<https://uniapp.dcloud.net.cn/tutorial/page.html#页面通讯> - *页面 | uni-app官网*
 
 ### 路由
 
-暂无
+<https://uniapp.dcloud.net.cn/tutorial/page.html#路由> - *页面 | uni-app官网*
 
 ## 互相引用
 
@@ -368,6 +406,21 @@ placeholder-style="color:#fff"
 5. https://www.cnblogs.com/sunRiseProgress/p/14653530.html - *更改uniapp中，input的placeholder样式不生效的问题 - sunRise113 - 博客园*
 6. https://www.cnblogs.com/xijiang/p/14588593.html - *给u-input组件的placeholder添加样式与icon - 铽楉QAQ - 博客园*
 7. https://blog.csdn.net/qq_43382853/article/details/140009000 - *修改uniapp中 input 的 placeholder 样式_uniapp placeholder样式-CSDN博客*
+
+## API
+
+https://uniapp.dcloud.net.cn/api/ - *API 概述 | uni-app官网*
+
+### 网络
+
+#### 上传、下载
+
+https://uniapp.dcloud.net.cn/api/request/network-file.html - *uni.uploadFile(OBJECT) | uni-app官网*
+
+参考：
+
+1. https://blog.csdn.net/roridaisuki/article/details/118724389 - *uniapp文件上传返回参数uploadFileRes使用问题_uni.uploadfile 返回的图片格式有问题-CSDN博客*
+2. https://blog.csdn.net/progrmmmm/article/details/125655276 - *uni.uploadFile等其他功能上传参数返回值不是json格式解决方案_uniapp uploadfile返回数据json格式-CSDN博客*
 
 ## Vue 语法
 

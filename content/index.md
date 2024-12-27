@@ -22,13 +22,13 @@
 
 ## CLI（即 Shell）
 
-### 工具
+### 终端环境
 
 - [Windows cmd](os/windows/cmd.md)
 - [Linux Shell 环境](os/linux/shell.md)
-    - [Bash]()
-    - [powershell](os/tools/powershell.md)
-    - [Zsh]()
+    - [~~Bash~~]()
+    - [PowerShell](os/tools/developer/powershell.md)
+    - [~~Zsh~~]()
 - [macOS terminal](os/mac/terminal.md)
 - [Android termux](os/mobile/termux.md)
 - [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
@@ -42,8 +42,12 @@
 ### 脚本
 
 - [Windows *.bat](os/windows/batch.md)
-- [Windows *.ps1](os/tools/powershell.md)
+- [Windows *.ps1](os/tools/developer/powershell.md)
 - [Linux *.sh](os/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
+
+### 工具
+
+- [CLI App](os/tools/cli-app.md)
 
 ## 模板
 

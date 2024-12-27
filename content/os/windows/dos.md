@@ -9,11 +9,7 @@
 ## 教程
 
 1. https://www.w3cschool.cn/dosmlxxsc1/ - *DOS 命令学习手册_w3cschool*
-
-## 命令
-
-1. <https://baike.baidu.com/item/DOS命令> - *DOS命令_百度百科*
-2. https://dandelioncloud.cn/article/details/1469136116061413378 - *windows中dos命令汇总及获取管理员权限-蒲公英云*
+2. http://www.ruanyifeng.com/blog/2011/07/history_of_dos.html - *DOS的历史 - 阮一峰的网络日志*
 
 ## 快速入门
 
@@ -38,6 +34,7 @@
 #### 启动 DOS
 
 可以从启动软盘、硬盘或启动光盘启动 DOS。在现代 Windows 版本中，可以通过命令提示符或 PowerShell 模拟 DOS 环境。
+
 
 #### 常用 DOS 命令
 
@@ -151,3 +148,10 @@ hello
 
 - [微软官方文档 - MS-DOS 命令](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
 - [DOSBox](https://www.dosbox.com/)：一个模拟 DOS 环境的开源程序，适用于现代操作系统。
+
+## 入门指南
+
+### 命令
+
+1. <https://baike.baidu.com/item/DOS命令> - *DOS命令_百度百科*
+2. https://dandelioncloud.cn/article/details/1469136116061413378 - *windows中dos命令汇总及获取管理员权限-蒲公英云*

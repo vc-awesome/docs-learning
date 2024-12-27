@@ -9,7 +9,9 @@
         - [x] Download exe (direct downloads)
         - [x] Portable App for Flash Drives (Portable version)
         - [x] Microsoft Store
+        - [x] WinGet Package Manager
         - [x] Chocolatey Package Manager
+        - [x] Scoop Package Manager
     - [x] macOS
         - [x] Download dmg (direct downloads)
         - [x] Download for Mac (Intel)
@@ -36,15 +38,18 @@
     - [x] Mozilla Firefox
     - [x] Microsoft Edge
     - [x] Safari
+    - [x] Opera
 - [x] Command Line Interface
     - [x] Windows
     - [x] macOS
     - [x] Linux
     - [x] Node.js（NPM）
 - [x] Source Code
-    - [x] Build/Run
+    - [x] Build
+    - [x] Run
 - [x] Server
     - [x] Docker
+    - [x] Linux Distribution Packages
 
 参考：
 
@@ -56,6 +61,9 @@
 6. https://replit.com/desktop - *Replit Desktop App - Replit*
 7. https://replit.com/mobile - *Replit Mobile App: Available on iOS and Android - Replit*
 8. https://k9mail.app/download - *Download*
+9. https://owncloud.com/download-server/ - *Download Server Packages - ownCloud* 🚫
+10. https://www.qemu.org/download/ - *Download QEMU - QEMU* 🚫
+11. https://todoist.com/downloads - *Todoist for Android | Mobile App Download*
 
 格式：
 
@@ -69,17 +77,24 @@
 
 ## 桌面客户端
 
-- 支持 Windows, macOS, Linux
-- 支持 Android, iOS
-- 支持 Web, Web Browser Extensions
-- 支持 IDEs plugin
-- 支持 CLI
+- 操作系统
+    - 支持 Windows, macOS, Linux
+- 移动应用程序
+    - 支持 Android, iOS
+- 浏览器扩展
+    - 支持 Web, Web Browser Extensions
+- 开发人员
+    - 支持 CLI
+    - 支持 Server
+- 其它
+    - 支持 IDEs Plugin, Editors Plugin
+    - 支持 Email Add-ons
 
 模板样式：
 
 <output data-lang="output">
 
-[VSCode](https://code.visualstudio.com/) - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.* [破解版]()  
+[VSCode](https://code.visualstudio.com/) - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.* [破解版]()\
 \> *via https://baijiahao.baidu.com/s?id=1757678693539809181 - 三款传输工具，LocalSend、极连快传、互传软件体验*
 
 - 支持 Windows（[破解版]()）, macOS（[破解版]()）, Linux, [Web](https://vscode.dev/)
@@ -105,13 +120,13 @@
 
 ### Pro
 
-补充版
+完整版
 
 ```markdown
 1. ✅ [${title}](${url}) - *${description}* [Cracked]()\
     \> _via URL-placeholder_
 
-    - 支持 Windows, macOS（[Homebrew](), [MacPorts](), [App Store](), [Intel Chip](), [Apple Silicon Chip]()）, Linux, Android（[Google Play](), [F-Droid](), [Termux]()）, iOS（[App Store]()）, [Web](), Terminal, Editor Plugins（[VS Code plugin]()）, Email extensions, 微信小程序, 浏览器扩展, 代码部署 或 [Source code](), and [More]()
+    - 支持 Windows, macOS（[Homebrew](), [MacPorts](), [App Store](), [Intel Chip](), [Apple Silicon Chip]()）, Linux, Android（[Google Play](), [F-Droid](), [Termux]()）, iOS（[App Store]()）, [Web](), Server, Terminal, Editors Plugin（[VS Code]()）, Email Add-ons, 微信小程序 或 MiniProgram, 浏览器扩展 或 Web Browser Extensions（[Chrome](), [Firefox](), [Edge](), [Safari]()）, 代码部署 或 [Source Code](), and [More]()
 
     - 开源软件（[GitHub Repo]()）
 ```
@@ -320,8 +335,10 @@ GitHub：
 - [ ] 夜间模式
 - [ ] 页内查找
 - [ ] 添加到主屏幕
-- [ ] 设置 - 应用布局
-- [ ] 设置 - 语言
+- [ ] 设置
+    - [ ] 应用布局
+    - [ ] 语言
+    - [ ] 安全 DNS
 - [ ] 全屏浏览
 - [ ] 屏幕旋转
 - [ ] 导入/导出书签（仅支持 html 格式）
@@ -352,8 +369,10 @@ GitHub：
 - [ ] 夜间模式
 - [ ] 页内查找
 - [ ] 添加到主屏幕
-- [ ] 设置 - 应用布局
-- [ ] 设置 - 语言
+- [ ] 设置
+    - [ ] 应用布局
+    - [ ] 语言
+    - [ ] 安全 DNS
 - [ ] 全屏浏览
 - [ ] 屏幕旋转
 - [ ] 导入/导出书签（仅支持 html 格式）
@@ -375,6 +394,8 @@ GitHub：
 
 - 手机浏览器可用
 
+- 收费功能（Pro 版本，应用内购买升级）
+
 </output>
 
 复制模板：
@@ -392,4 +413,8 @@ GitHub：
 
 ```markdown
 - 手机浏览器可用
+```
+
+```markdown
+- 收费功能（Pro 版本，应用内购买升级）
 ```

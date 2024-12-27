@@ -77,10 +77,11 @@
 - Linux
 - macOS
 - Android
+- iOS
+
 
 ## 编程语言
 
-- Java
 - Bash
 - Markdown
 
@@ -93,10 +94,10 @@
     - [rollup.js](https://www.rollupjs.com/guide/zh) - *Rollup 是一个用于 JavaScript 的模块打包工具，它将小的代码片段编译成更大、更复杂的代码，例如库或应用程序。它使用 JavaScript 的 ES6 版本中包含的新标准化代码模块格式，而不是以前的 CommonJS 和 AMD 等特殊解决方案。*
 - [Vue.js](https://cn.vuejs.org/) - *Vue.js - 渐进式的 JavaScript 框架*
     - [Vite](https://vitejs.cn/) - *下一代前端开发与构建工具*
-- React.js
+- [React.js](https://react.dev/) - *React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript. React is designed to let you seamlessly combine components written by independent people, teams, and organizations.*
 - [jQuery](https://www.jquery123.com/) - *jQuery：用更少的代码完成更多工作！jQuery 是一个最流行的 JavaScript 工具库。*
-- [LESS](http://www.bootcss.com/p/lesscss/)
-- SCSS
+- [LESS](https://lesscss.org/) - *Less extends CSS with dynamic behavior such as variables, mixins, operations and functions. Less runs on both the server-side (with Node.js and Rhino) or client-side (modern browsers only).* [中文站点](http://www.bootcss.com/p/lesscss/)
+- [SCSS](https://sass-lang.com/) - *Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.*
 
 #### UI 框架
 
@@ -127,6 +128,7 @@
 - MongoDB
 - Redis
 - Memcached
+- [SQLite](https://www.sqlite.org/index.html) - *SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.*
 
 ### Web 服务器
 

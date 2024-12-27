@@ -155,8 +155,19 @@ brew install --cask sublime-text
 
 ### 快捷键
 
+暂无
+
+
+### 对比文件
+
 按住 <kbd>command</kbd> + 鼠标点击其它标签页，Sublime Text 编辑器右侧会新建一个窗口，方便的进行两个文件的对比。
 
+参考：
+
+1. https://www.cnblogs.com/Jaguar/p/10970099.html - *代码对比工具Sublime——Sublimerge - Eagel - 博客园*
+2. https://www.cnblogs.com/qdwyy/p/10863904.html - *Sublime Text3 如何比较两个文件内容是否相同 - 橙木香 - 博客园*
+3. https://github.com/colinta/SublimeFileDiffs - *GitHub - colinta/SublimeFileDiffs: Show diffs between the current file, or selection(s) in the current file, and clipboard, another file, or unsaved changes.*
+4. https://github.com/kaste/Compare-Side-By-Side - *GitHub - kaste/Compare-Side-By-Side: Compare anything, side-by-side, in a split view* [Compare Side-By-Side - Packages - Package Control](https://packagecontrol.io/packages/Compare Side-By-Side)
 
 ## Package
 

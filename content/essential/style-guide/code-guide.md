@@ -286,16 +286,17 @@ https://jsdoc.app/ - *Use JSDoc: Index*
 
 https://github.com/jsdoc/jsdoc - *GitHub - jsdoc/jsdoc: An API documentation generator for JavaScript.*
 
-https://www.jsdoc.com.cn/ - *JSDoc 入门 | JSDoc中文文档 | JSDoc中文网*
+https://www.jsdoc.com.cn/ - *JSDoc 入门 | JSDoc中文文档 | JSDoc中文网* [GitHub Repo](https://github.com/yuersen/jsdoc-zh)
+![GitHub last commit](https://img.shields.io/github/last-commit/yuersen/jsdoc-zh?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/yuersen/jsdoc-zh?style=social)
 
 用法：
 
-
+暂无
 
 参考：
 
 1. https://www.shouce.ren/api/view/a/13232 - *JSDoc 介绍 - JSDoc 入门 - [ JSDoc 中文文档 ] - 手册网*
-
 2. https://zhuanlan.zhihu.com/p/391713131 - *使用 jsDoc 提升我们的开发效率 - 知乎*
 
 ### Vue Doc
@@ -316,6 +317,45 @@ https://hx.dcloud.net.cn/Tutorial/Language/vuedoc - *Vue Doc - HBuilderX Doc*
 https://apidocjs.com/ - *apiDoc - Inline Documentation for RESTful web APIs*
 
 https://github.com/apidoc/apidoc - *GitHub - apidoc/apidoc: RESTful web API Documentation Generator.*
+
+## Git 提交规范
+
+格式：
+
+```markdown
+<type>(<scope>): <subject>
+// 空一行
+<body>
+// 空一行
+<footer>
+```
+
+type：
+
+- feat：新功能（feature）
+- fix：修补 bug
+- docs：文档（documentation）
+- style： 格式（不影响代码运行的变动）
+- refactor：重构（即不是新增功能，也不是修改 bug 的代码变动）
+- test：增加测试
+- chore：构建过程或辅助工具的变动
+
+https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
+
+https://www.ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
+
+https://www.conventionalcommits.org/zh-hans/v1.0.0/ - *约定式提交*
+
+### commitlint
+
+https://commitlint.js.org/ - *commitlint*
+
+https://github.com/conventional-changelog/commitlint - *GitHub - conventional-changelog/commitlint: 📓 Lint commit messages*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/conventional-changelog/commitlint?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/conventional-changelog/commitlint?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/conventional-changelog/commitlint?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/conventional-changelog/commitlint?style=social)
 
 ## 规范工具
 

@@ -54,7 +54,7 @@
   - [ ] [Essential#日期与时间](essential/README.md#日期与时间)
   - [ ] [URL](essential/url.md)
 - [ ] [FRONT END/](front-end/)
-    - [ ] [css/](front-end/css/)
+    - [ ] [CSS/](front-end/css/)
         - [ ] [css-naming-rule](front-end/css/css-naming-rule.md)
     - [ ] [JavaScript](front-end/javascript/README.md)
 - [ ] API

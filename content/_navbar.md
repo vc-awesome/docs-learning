@@ -108,5 +108,5 @@
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-gongneng"></use></svg> 功能列表](function-list/README.md)
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-aliyun"></use></svg> 阿里云](tech-stack/aliyun.md)
-    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-weixin1"></use></svg> 微信](tech-stack/weixin.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-weixin1"></use></svg> 微信](tech-stack/wechat.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-google"></use></svg> Google](tech-stack/google.md)

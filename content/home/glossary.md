@@ -12,6 +12,8 @@
 
 3. https://docs.github.com/zh/get-started/quickstart/github-glossary - *GitHub 词汇表 - GitHub Docs*
 
+4. https://foldoc.org/ - *FOLDOC - Computing Dictionary*
+
 ## 缩略词
 
 英文缩略词搜索：

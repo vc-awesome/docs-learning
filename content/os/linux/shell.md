@@ -30,7 +30,7 @@ https://wiki.termux.com/wiki/Shells - *Shells - Termux Wiki*
 
 #### 简介
 
-> Bash is the GNU Project's shell—the Bourne Again SHell. This is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh). It is intended to conform to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard. It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.
+> Bash is the GNU Project's shell—the Bourne Again SHell. This is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh). It is intended to conform to the IEEE POSIX P1003.2/ISO 9945.2 Shell and Tools standard. It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification. - *Bash 是 GNU 项目的 shell--Bourne Again SHell。 这是一个与 sh 兼容的 shell，融合了 Korn shell (ksh) 和 C shell (csh) 的实用功能。 它符合 IEEE POSIX P1003.2/ISO 9945.2 Shell 和 Tools 标准。 与 sh 相比，它在编程和交互使用方面都有功能上的改进。 此外，大多数 sh 脚本无需修改即可由 Bash 运行。*
 
 #### 官方
 
@@ -38,7 +38,7 @@ https://www.gnu.org/software/bash/ - *Bash - GNU Project - Free Software Foundat
 
 #### 教程
 
-https://www.wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
+https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
 
 - 本教程介绍 Linux 命令行 Bash 的基本用法和脚本编程。
 
@@ -64,7 +64,7 @@ echo $BASH_VERSION
 
 #### 简介
 
-> Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh.
+> Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh. - *Zsh 是一种专为交互式使用而设计的 shell，尽管它也是一种功能强大的脚本语言。 Zsh 吸收了 bash、ksh 和 tcsh 的许多有用功能。*
 >
 > <cite>—— [Shells - Termux Wiki](https://wiki.termux.com/wiki/Shells#ZSH)</cite>
 
@@ -85,9 +85,36 @@ https://www.zsh.org/ - *Zsh*
 
 https://du33169.tech/posts/linux/zshconfiguration/ - *Zsh配置与美化 - Lando's Blog*
 
+### Fish
+
+#### 简介
+
+> fish is a smart and user-friendly command line shell for Linux, macOS, and the rest of the family.
+
+#### 官方
+
+https://fishshell.com/ - *fish shell*
+
+#### 教程
+
+http://www.ruanyifeng.com/blog/2017/05/fish_shell.html - *Fish shell 入门教程 - 阮一峰的网络日志*
+
 ### PoweShell
 
-暂无
+#### 简介
+
+> PowerShell for every system!
+
+![GitHub last commit](https://img.shields.io/github/last-commit/PowerShell/PowerShell?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/PowerShell/PowerShell?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/PowerShell/PowerShell?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/PowerShell/PowerShell?style=social)
+
+#### 官方
+
+https://github.com/PowerShell/PowerShell - *PowerShell for every system!*
+
+https://docs.microsoft.com/zh-cn/powershell/ - *PowerShell 文档 - PowerShell | Microsoft Docs*
 
 ## 常见问题
 

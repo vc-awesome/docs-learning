@@ -107,14 +107,47 @@ GitHub:
 
     https://fdroid.link/#https://divestos.org/apks/official/fdroid/repo/?fingerprint=E4BE8D6ABFA4D9D4FEEF03CDDA7FF62A73FD64B75566F6DD4E5E577550BE8467
 
-### 软件仓库镜像
+### F-Droid 软件仓库镜像
 
-1. https://mirrors.cernet.edu.cn/list/fdroid - *校园网联合镜像站* [F-Droid 软件仓库镜像使用帮助 - MirrorZ Help](https://help.mirrors.cernet.edu.cn/fdroid/)
+#### 校园网联合镜像站
 
-    - https://help.mirrors.cernet.edu.cn/fdroid/?mirror=ISRC-ISCAS - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
-    - https://help.mirrors.cernet.edu.cn/fdroid/?mirror=TUNA - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
+https://mirrors.cernet.edu.cn/list/fdroid - *校园网联合镜像站*
 
-2. https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
+https://help.mirrors.cernet.edu.cn/fdroid/ - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
+
+镜像站列表：
+
+1. https://help.mirrors.cernet.edu.cn/fdroid/?mirror=ISRC-ISCAS - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
+
+    Main 仓库：
+
+    ```uri
+    https://mirror.iscas.ac.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+    ```
+
+    Archive 仓库：
+
+    ```uri
+    https://mirror.iscas.ac.cn/fdroid/archive?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+    ```
+
+2. https://help.mirrors.cernet.edu.cn/fdroid/?mirror=TUNA - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
+
+    Main 仓库：
+
+    ```uri
+    https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+    ```
+
+    Archive 仓库：
+
+    ```uri
+    https://mirrors.tuna.tsinghua.edu.cn/fdroid/archive?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB
+    ```
+
+#### 清华大学开源软件镜像站
+
+1. https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/ - *fdroid | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
 
     Main 仓库：
     
@@ -134,43 +167,59 @@ GitHub:
 
 ## 工具
 
-1. ✅ [Droid-ify](https://droidify.eu.org/) - *Material-ify with Droid-ify. A quick material F-Droid client.*
+### Droid-ify
 
-    - 支持 Android（[F-Droid](https://f-droid.org/packages/com.looker.droidify/)）
+[Droid-ify](https://droidify.eu.org/) - *Material-ify with Droid-ify. A quick material F-Droid client.*
 
-    - 开源软件（[GitHub Repo](https://github.com/Iamlooker/Droid-ify)）
+- 支持 Android（[GitHub Releases](https://github.com/Droid-ify/client/releases/releases), [F-Droid](https://f-droid.org/packages/com.looker.droidify/)）
 
-    ![f-droid](https://badgen.net/f-droid/v/com.looker.droidify)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/Iamlooker/Droid-ify?style=social)
+- 开源软件（[GitHub Repo](https://github.com/Iamlooker/Droid-ify)）
 
-2. ✅ [Neo Store]() - *An F-Droid client with modern UI and an arsenal of extra features.*
+![f-droid](https://badgen.net/f-droid/v/com.looker.droidify)
+![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Iamlooker/Droid-ify?style=social)
 
-    - 支持 Android（[GitHub Releases](https://github.com/NeoApplications/Neo-Store/releases/), [F-Droid](https://f-droid.org/packages/com.machiav3lli.fdroid)）
+### Neo Store
 
-    - 开源软件（[GitHub Repo](https://github.com/NeoApplications/Neo-Store)）
+[Neo Store]() - *An F-Droid client with modern UI and an arsenal of extra features.*
 
-    ![f-droid](https://badgen.net/f-droid/v/com.machiav3lli.fdroid)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/NeoApplications/Neo-Store?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/NeoApplications/Neo-Store?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/NeoApplications/Neo-Store?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/NeoApplications/Neo-Store?style=social)
+- 支持 Android（[GitHub Releases](https://github.com/NeoApplications/Neo-Store/releases/), [F-Droid](https://f-droid.org/packages/com.machiav3lli.fdroid)）
+
+- 开源软件（[GitHub Repo](https://github.com/NeoApplications/Neo-Store)）
+
+![f-droid](https://badgen.net/f-droid/v/com.machiav3lli.fdroid)
+![GitHub last commit](https://img.shields.io/github/last-commit/NeoApplications/Neo-Store?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/NeoApplications/Neo-Store?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/NeoApplications/Neo-Store?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/NeoApplications/Neo-Store?style=social)
+
+### F-Droid Build Status 🚫
+
+[F-Droid Build Status]() - *F-Droid_Build_Status - Android App to show and monitor the F-Droid build status*
+
+- 支持 Android（[Codeberg Releases](https://codeberg.org/pstorch/F-Droid_Build_Status/releases), [F-Droid](https://f-droid.org/packages/de.storchp.fdroidbuildstatus/)）
+
+- 开源软件（[Codeberg Repo](https://codeberg.org/pstorch/F-Droid_Build_Status)）
+
+![F-Droid Version](https://img.shields.io/f-droid/v/de.storchp.fdroidbuildstatus)
 
 ## 常见问题
 
-1. 如何查看应用所属“分类”？（按照下面的步骤操作）
+### 如何查看应用所属“分类”？
 
-    1. 打开应用网页：https://f-droid.org/packages/com.dede.android_eggs/ ；
+操作步骤：
 
-    2. 大概在网页中间部分找到“构建元数据”链接：https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.dede.android_eggs.yml ；
+1. 打开应用网页：https://f-droid.org/packages/com.dede.android_eggs/ ；
+2. 大概在网页中间部分找到“构建元数据”链接：https://gitlab.com/fdroid/fdroiddata/-/blob/master/metadata/com.dede.android_eggs.yml ；
+3. 在元数据文件 *com.dede.android_eggs.yml > Categories* 中的描述，即当前应用的所属“分类”（一个应用可能有包含多个分类的情况）。
 
-    3. 在元数据文件 *com.dede.android_eggs.yml > Categories* 中的描述，即当前应用的所属“分类”（一个应用可能有包含多个分类的情况）。
+### 如何通过镜像站下载应用安装包？
 
-2. 如何通过镜像站下载应用安装包？（按照下面的步骤操作）
+操作步骤：
 
-    1. 打开应用网页：https://fdroid.gitlab.io/fdroid-website/en/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* ；
-    2. 找到最新版本的下载链接（`Download APK`）：https://f-droid.org/repo/org.fdroid.fdroid_1019051.apk ；
-    3. 将链接中的 `org.fdroid.fdroid_1019051.apk` 粘贴至 `https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/` 的尾部；
-    4. 打开浏览器并访问镜像站的下载链接：https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid_1019051.apk 。
+1. 打开应用网页：https://fdroid.gitlab.io/fdroid-website/en/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* ；
+2. 找到最新版本的下载链接（`Download APK`）：https://f-droid.org/repo/org.fdroid.fdroid_1019051.apk ；
+3. 将链接中的 `org.fdroid.fdroid_1019051.apk` 粘贴至 `https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/` 的尾部；
+4. 打开浏览器并访问镜像站的下载链接：https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid_1019051.apk 。

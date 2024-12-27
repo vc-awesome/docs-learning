@@ -74,7 +74,7 @@ ${url} - *${title}*${enter}${enter}![GitHub last commit](https://badgen.net/gith
 
 ## 资源
 
-https://github.com/Chalarangelo/30-seconds-of-code - *GitHub - Chalarangelo/30-seconds-of-code: Short code snippets for all your development needs*
+https://github.com/Chalarangelo/30-seconds-of-code - *GitHub - Chalarangelo/30-seconds-of-code: Short code snippets for all your development needs* [Website](https://www.30secondsofcode.org/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/Chalarangelo/30-seconds-of-code?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Chalarangelo/30-seconds-of-code?display_date=published_at&logo=github)

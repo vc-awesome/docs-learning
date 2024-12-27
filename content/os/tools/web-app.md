@@ -64,6 +64,17 @@ https://c.runoob.com/ - *菜鸟工具 - 不止于工具*
 
 https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image modification.* [中文](https://www.iloveimg.com/zh-cn)
 
+### 占位图
+
+1. https://dummyimage.com/ - *Dynamic Dummy Image Generator - DummyImage.com* [GitHub Repo](https://github.com/kingkool68/dummyimage)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/kingkool68/dummyimage?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/kingkool68/dummyimage?style=social)
+
+    - 谁在使用：[开发辅助 / API Mock](https://developers.weixin.qq.com/miniprogram/dev/devtools/api-mock.html)
+
+2. https://www.jyshare.com/front-end/9355/ - *在线占位图生成工具 | 菜鸟工具*
+
 ### 图片压缩
 
 1. https://tinypng.com/ - _TinyPNG – Compress WebP, PNG and JPEG images intelligently_
@@ -79,6 +90,7 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 ### SVG
 
 1. https://www.svgviewer.dev/ - *SVG Viewer - View, edit, and optimize SVGs*
+    - 支持 SVG 转 PNG , SVG 转 DataURI
 
 #### SVG 代码转 DataURL
 
@@ -100,13 +112,34 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 
     - *注：在手机上使用时，复制大图片转换后的代码，文字内容会出现不能全部复制的问题，这是由于手机系统剪贴板有字数限制。建议使用“帮小忙”工具箱 - “base64编码”进行转换。*
 
+## 资源下载
+
+https://github.com/bradtraversy/design-resources-for-developers - *GitHub - bradtraversy/design-resources-for-developers: Curated list of design and UI resources from stock photos, web templates, CSS frameworks, UI libraries, tools and much more*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/bradtraversy/design-resources-for-developers?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/bradtraversy/design-resources-for-developers?style=social)
+
+### 图标
+
+暂无
+
+### 字体
+
+暂无
+
+### 插图
+
+暂无
+
+### 壁纸
+
+暂无
+
 ## 音/视频播放器
 
 1. [ZY Player Web](http://hunlongyu.gitee.io/zy-player-web/) - *▶️ 跨平台浏览器端视频资源播放器. 简洁免费. 🎞 ZY Player 浏览器端。* [GitHub Repo](https://github.com/Hunlongyu/ZY-Player-Web)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Hunlongyu/ZY-Player-Web?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Hunlongyu/ZY-Player-Web?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Hunlongyu/ZY-Player-Web?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Hunlongyu/ZY-Player-Web?style=social)
 
 2. https://www.m3u8hls.com/ - *M3U8 Online Media Player*
@@ -133,6 +166,9 @@ https://www.iloveimg.com/ - *iLoveIMG | The fastest free web app for easy image 
 
 1. https://convertio.co/zh/ - *Convertio — 文件转换器*
 2. https://github.com/asadm/markdowndown - *Convert any webpage to a clean markdown w/ images downloaded.*
+    ![GitHub last commit](https://img.shields.io/github/last-commit/asadm/markdowndown?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/asadm/markdowndown?style=social)
+3. https://cloudconvert.com/ - *CloudConvert*
 
 ### 文件对比
 
@@ -211,6 +247,41 @@ https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确�
 
 ## 代码格式化
 
+有许多在线代码格式化工具可以帮助你格式化代码，支持多种编程语言。以下是一些常用的在线代码格式化工具：
+
+1. **Prettier Playground**
+   - 网站: [Prettier Playground](https://prettier.io/playground/)
+   - 描述: 这是 Prettier 的官方在线工具，可以实时格式化 JavaScript、TypeScript、JSON、CSS、HTML 等代码。你可以在左侧输入代码，右侧会显示格式化后的结果。
+
+2. **Code Beautify**
+   - 网站: [Code Beautify](https://codebeautify.org/)
+   - 描述: 这个网站提供多种代码格式化工具，支持 JSON、XML、HTML、CSS、JavaScript 等。你可以选择相应的工具进行格式化。
+
+3. **JS Beautifier**
+   - 网站: [JS Beautifier](https://jsbeautifier.org/)
+   - 描述: 专注于 JavaScript 的格式化工具，可以格式化 JavaScript、HTML 和 CSS 代码。你只需粘贴代码并点击格式化按钮。
+
+4. **HTML Formatter**
+   - 网站: [HTML Formatter](https://htmlformatter.com/)
+   - 描述: 专门用于格式化 HTML 代码的工具，支持缩进和美化 HTML 代码。
+
+5. **JSON Formatter**
+   - 网站: [JSON Formatter](https://jsonformatter.curiousconcept.com/)
+   - 描述: 用于格式化和验证 JSON 数据的工具，可以帮助你查看 JSON 数据的结构。
+
+6. **Online Code Editor (CodePen, JSFiddle, etc.)**
+   - 网站: [CodePen](https://codepen.io/) 或 [JSFiddle](https://jsfiddle.net/)
+   - 描述: 这些在线代码编辑器允许你编写和测试 HTML、CSS 和 JavaScript 代码，并提供实时预览功能。虽然它们不是专门的格式化工具，但你可以在这些平台上编写和格式化代码。
+
+使用方法
+
+1. 访问上述任一网站。
+2. 将你的代码粘贴到提供的文本框中。
+3. 点击格式化按钮，查看格式化后的代码。
+4. 复制格式化后的代码并粘贴到你的代码编辑器中。
+
+这些工具可以帮助你快速格式化代码，提高代码的可读性。选择适合你需求的工具进行使用即可。
+
 ### HTML
 
 暂无
@@ -238,3 +309,10 @@ https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确�
 ## 地图工具
 
 1. https://jingweidu.bmcx.com/ - *经纬度查询 - 坐标拾取系统*
+
+## 开发者工具
+
+https://github.com/lvwzhen/tools - *GitHub - lvwzhen/tools: Tools Online*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/lvwzhen/tools?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/lvwzhen/tools?style=social)

@@ -1,6 +1,8 @@
 * [Windows](/os/windows/)
-* [CMD](/os/windows/windows-cmd.md "windows 命令提示符")
-* [CLI](/os/windows/windows-cli.md "windows 命令行工具")
-* [DOS](os/windows/dos.md)
-* [批处理](os/windows/batch.md)
-* [FAQ](/os/windows/windows-faq.md "windows FAQ")
+* [Windows 命令](/os/windows/command.md)
+* [批处理（脚本）](os/windows/batch.md)
+* [常见问题解答](/os/windows/windows-faq.md "windows FAQ")
+* **操作系统**
+  * [DOS](os/windows/dos.md)
+* **工具**
+  * [CMD](/os/windows/windows-cmd.md "windows 命令提示符")

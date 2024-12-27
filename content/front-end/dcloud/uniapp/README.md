@@ -12,11 +12,13 @@
 
 ## Official
 
-官网：https://www.dcloud.io - *DCloud - HBuilder、HBuilderX、uni-app、uniapp、5+、5plus、mui、wap2app、流应用、HTML5、小程序开发、跨平台App、多端框架*
+官网：
 
-uni-app：https://uniapp.dcloud.io - *uni-app官网*
+1. https://uniapp.dcloud.io - *uni-app官网*
 
-GitHub：https://github.com/dcloudio/uni-app - *dcloudio/uni-app: A cross-platform framework using Vue.js*
+GitHub：
+
+1. https://github.com/dcloudio/uni-app - *dcloudio/uni-app: A cross-platform framework using Vue.js*
 
 ## Mini Program
 
@@ -25,6 +27,22 @@ GitHub：https://github.com/dcloudio/uni-app - *dcloudio/uni-app: A cross-platfo
 暂无
 
 ## Tools
+
+### 开发者后台
+
+https://dev.dcloud.net.cn/ - *开发者中心*
+
+#### 应用管理
+
+https://ask.dcloud.net.cn/article/35907 - *DCloud appid 用途/作用/使用说明 - DCloud问答*
+
+此应用 DCloud appid 为 __UNI__9107F65 ，您不是这个应用的项目成员。
+
+成为应用管理人员的 3 种方式：
+
+1. 联系这个应用的所有者，请求加入项目成员（https://dev.dcloud.net.cn "成员管理"-"添加项目成员"）；
+2. 重新在 manifest.json 文件中生成自己的 APPID；
+3. 联系应用所有者将此 DCloud appid 转让给当前账号。
 
 ### Hello uni-app
 
@@ -46,40 +64,16 @@ https://itunes.apple.com/cn/app/hello-uni-app/id1417078253 - *App Store 上的�
 
 https://m3w.cn/uniapp - *Hello uni-app*
 
-### MUI
+#### 源码
 
-> MUI: 最接近原生APP体验的高性能前端框架
+![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/hello-uniapp?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/hello-uniapp?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/hello-uniapp?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/hello-uniapp?style=social)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/mui?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/mui?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/mui?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/mui?style=social)
+https://ext.dcloud.net.cn/plugin?id=4941 - *hello-uniapp 示例工程 - DCloud 插件市场*
 
-https://mui.dcloud.net.cn/ - *MUI-最接近原生APP体验的高性能前端框架*
-
-https://github.com/dcloudio/mui - *GitHub - dcloudio/mui: 最接近原生APP体验的高性能框架*
-
-#### Web
-
-https://dcloud.io/hellomui/ - *Hello MUI*
-
-### 电脑端
-
-#### HBuilderX
-
-https://www.dcloud.io/hbuilderx.html - *HBuilderX-高效极客技巧*
-
-### 手机端
-
-#### HelloH5
-
-https://www.dcloud.io/runtime.html - *HTML5+ - DCloud*
-
-直接下载：http://www.dcloud.io/helloh5/d
-
-#### 流应用
-
-https://www.dcloud.io/streamapp.html - *流应用 - DCloud*
+https://github.com/dcloudio/hello-uniapp - *GitHub - dcloudio/hello-uniapp: uni-app框架演示示例*
 
 ## Marketplace
 
@@ -89,24 +83,44 @@ https://ext.dcloud.net.cn/ - *DCloud 插件市场*
 
 https://uniapp.dcloud.net.cn/plugin/ - *uni-app官网*
 
+### 官方组件
+
+https://ext.dcloud.net.cn/publisher?id=586192 - *DCloud 插件市场*
+
+#### uni-ui
+
+![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/uni-ui?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/uni-ui?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/uni-ui?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/uni-ui?style=social)
+
+https://ext.dcloud.net.cn/plugin?id=55 - *uni-ui - DCloud 插件市场*
+
+https://github.com/dcloudio/uni-ui - *GitHub - dcloudio/uni-ui: 基于 uni-app 的、全端兼容的、高性能 UI 框架*
+
 ### 前端项目模板
-
-#### hello-uniapp 示例工程
-
-https://ext.dcloud.net.cn/plugin?id=4941 - *hello-uniapp 示例工程 - DCloud 插件市场*
-
-https://github.com/dcloudio/hello-uniapp - *GitHub - dcloudio/hello-uniapp: uni-app框架演示示例*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/hello-uniapp?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/hello-uniapp?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/hello-uniapp?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/hello-uniapp?style=social)
 
 #### ColorUI
 
+![GitHub last commit](https://img.shields.io/github/last-commit/weilanwl/coloruicss?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/weilanwl/coloruicss?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/weilanwl/coloruicss?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/weilanwl/coloruicss?style=social)
+
 https://ext.dcloud.net.cn/plugin?id=239 - *ColorUI-UniApp - DCloud 插件市场*
 
+https://github.com/weilanwl/coloruicss - *GitHub - weilanwl/coloruicss: 鲜亮的高饱和色彩，专注视觉的小程序组件库*
+
+https://www.color-ui.com/ - *ColorUI 组件库 | 蔚海云*
+
 #### uView
+
+![GitHub last commit](https://img.shields.io/github/last-commit/umicro/uView2.0?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/umicro/uView2.0?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/umicro/uView2.0?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/umicro/uView2.0?style=social)
+
+https://github.com/umicro/uView2.0 - *GitHub - umicro/uView2.0: uView UI，是全面兼容 nvue 的 uni-app 生态框架，全面的组件和便捷的工具会让您信手拈来，如鱼得水*
 
 官网：https://www.uviewui.com/ - *uView 2.0 - 全面兼容nvue的uni-app生态框架 - uni-app UI框架*
 
@@ -115,22 +129,32 @@ https://ext.dcloud.net.cn/plugin?id=239 - *ColorUI-UniApp - DCloud 插件市场*
 #### 模板组件对比
 
 | html | uViewUI | ColorUI | uniapp |
-| ---- | ------- | ------- | ------ |
-| list | cell    |         |        |
+| :--- | :--- | :--- | :--- |
+| list | cell |  | uni-list |
 
 ### 通用组件
 
 ID  | 插件名  | 插件市场链接
----|---|---
+:---| :--- | :---
 1  | 跑马灯  | [g_bro_marquee](https://ext.dcloud.net.cn/plugin?id=1805)
 2  | 拦截器、网络请求  | [luch-request](https://ext.dcloud.net.cn/plugin?id=392)
 3  | APP 版本更新  | [APP Update](https://ext.dcloud.net.cn/plugin?id=1643)
 4  | 列表上下循环滚动  | [tony-scroll](https://ext.dcloud.net.cn/plugin?id=1179)
-5  | 列表垂直方向拖拽drag组件  | [m-drag](https://ext.dcloud.net.cn/plugin?id=14571) [Via](https://juejin.cn/post/7277115202234974249)
+5  | 列表垂直方向拖拽 drag 组件  | [m-drag](https://ext.dcloud.net.cn/plugin?id=14571) [Via](https://juejin.cn/post/7277115202234974249)
 
 ### 水印相机
 
-暂无
+1. https://blog.csdn.net/qq_44910894/article/details/131690813 - *uni-app实现水印相机（仅小程序端）_uniapp 水印相机-CSDN博客*
+2. https://qdpz.zhoukaiwen.com/components/camera.html - *camera 自定义相机 | 前端铺子 | 开发者聚集地*
+3. https://gitee.com/kevin_chou/qdpz/blob/develop/tn_components/company.vue - *tn_components/company.vue · 凯文同学/前端铺子-uniapp移动端 - 码云 - 开源中国*
+
+### 下拉菜单
+
+1. https://ext.dcloud.net.cn/plugin?id=13062 - *da-dropdown 下拉筛选菜单 (支持主题色、功能丰富，Vue2 版) - DCloud 插件市场*
+2. https://ext.dcloud.net.cn/plugin?id=13838 - *uv-drop-down 下拉筛选 全面兼容vue3+2、app、h5、小程序等多端 - DCloud 插件市场*
+3. https://gitee.com/kcren/uniapp-dropdown-filter - *Aren/uniapp-dropdown-filter*
+4. https://ext.dcloud.net.cn/plugin?id=2315 - *ren-dropdown-filter 下拉筛选菜单 - DCloud 插件市场* [GitHub Repo](https://github.com/AR1N/uniapp-dropdown-filter)
+5. https://gitee.com/le-ui/le-dropdown - *le-ui/le-dropdown*
 
 ## FAQ
 
@@ -187,6 +211,14 @@ https://ask.dcloud.net.cn/article/35627 - *uni-app运行环境版本和编译器
 1. https://ask.dcloud.net.cn/question/73055 - *uni -app webview 内嵌 H5 页面 底部导航栏 在 苹果 X xr xs 下 安全区的问题 - DCloud 问答*
 
 ### uni-app 中小程序样式穿透问题
+
+```javascript
+export default {
+  options: {
+    styleIsolation: 'shared'
+  }
+}
+```
 
 参考：
 

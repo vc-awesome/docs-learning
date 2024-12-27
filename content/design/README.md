@@ -73,6 +73,12 @@ https://github.com/material-components - *Material Components · GitHub*
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-web?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-web?style=social)
 
+### Logo, Icon, 插画
+
+https://mp.weixin.qq.com/s/CyYwc5aNd3ik5aOe8bBmpw - *程序员如何设计logo，如何找Icon和插画（绝对干货）*
+
+https://github.com/bytedance/iconpark - *GitHub - bytedance/IconPark: 🍎Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons*
+
 ## 平面设计
 
 1. https://www.yuque.com/markyun/doc/mda1sg - *平面设计基础常识汇总 · 语雀*

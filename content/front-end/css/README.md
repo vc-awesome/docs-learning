@@ -43,6 +43,16 @@ https://www.runoob.com/cssref/css-functions.html - *CSS 函数 | 菜鸟教程*
 
 1. https://www.runoob.com/css/css-font.html - *CSS Fonts(字体) | 菜鸟教程*
 2. https://www.runoob.com/css3/css3-fonts.html - *CSS3 字体 | 菜鸟教程*
+3. https://developer.mozilla.org/zh-CN/docs/Web/CSS/@font-face - *@font-face - CSS：层叠样式表 | MDN*
+
+参考：
+
+1. https://zhuanlan.zhihu.com/p/56275402 - *CSS font-family 正确规范的选择字体 - 知乎*
+2. https://www.zhihu.com/question/587473260 - *如何在 css 中实现等宽布局？ - 知乎*
+3. https://segmentfault.com/a/1190000045269125 - *盘点CSS文本两端对齐的N种方式 - 前端侦探 - SegmentFault 思否*
+4. https://segmentfault.com/q/1010000037694181 - *前端如何解决网页相同位数的数字无法对齐的问题？ - SegmentFault 思否*
+5. https://geek-docs.com/css/css-ask-answer/709_css_fontfamily_monospace_monospace.html - *CSS “字体族：等宽字体”|极客教程*
+6. https://deepinout.com/css/css-questions/60_css_how_to_set_width_of_div_to_fit_constant_number_of_letters_in_monospace_font.html - *CSS 如何设置< div>的宽度以适应定量字母数的等宽字体|极客笔记*
 
 ### 文本
 
@@ -228,7 +238,7 @@ fixed 在苹果手机 ios 不生效_前端 ios 上子设置 zinde 无法覆盖 -
 3. https://blog.csdn.net/sunqiang4/article/details/119427445 - *IOS safari
 浏览器中出现的 z-index 不生效的层级问题_ios 设备上 z-index 不生效_就是不掉头发的博客 - CSDN 博客*
 
-### transform
+#### transform
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform - *transform - CSS：层叠样式表 | MDN*
 

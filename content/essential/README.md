@@ -42,19 +42,31 @@ https://baike.baidu.com/item/转义字符/86397 - *转义字符_百度百科*
 \r  | 回车(CR) ，将当前位置移到本行开头
 \t  | 水平制表(HT) （跳到下一个TAB位置）
 
-## 换行符
+## 回车和换行
+
+- CR（Carriage Return）代表回车，对应字符 `\r`
+- LF（Line Feed）代表换行，对应字符 `\n`
+
+Unix 系统：
+
+`\n`
+
+Windows 系统：
+
+`\r\n`
+
+Mac 系统：
+
+`\r`
 
 参考：
 
-1. https://zhuanlan.zhihu.com/p/380574688 - *CRLF和LF的差异 - 知乎*
-
-2. https://www.cnblogs.com/jiayouba/p/15309132.html - *CRLF和LF的差异 - 飞叶飞花 - 博客园*
-
-3. https://blog.csdn.net/weixin_43899065/article/details/124864157 - *换行符CRLF LF及在GIT设置_git 换行符_幸运的lucia的博客-CSDN博客*
-
-4. https://www.jianshu.com/p/6c6ae0c8daa5 - *换行符(CRLF/LF) - 简书*
-
-5. https://qa.1r1g.com/sf/ask/1946753091/ - *如何在单个文件中用lf替换crlf | 那些遇到过的问题*
+1. https://www.ruanyifeng.com/blog/2006/04/post_213.html - *回车和换行 - 阮一峰的网络日志*
+2. https://zhuanlan.zhihu.com/p/380574688 - *CRLF和LF的差异 - 知乎*
+3. https://www.cnblogs.com/jiayouba/p/15309132.html - *CRLF和LF的差异 - 飞叶飞花 - 博客园*
+4. https://blog.csdn.net/weixin_43899065/article/details/124864157 - *换行符CRLF LF及在GIT设置_git 换行符_幸运的lucia的博客-CSDN博客*
+5. https://www.jianshu.com/p/6c6ae0c8daa5 - *换行符(CRLF/LF) - 简书*
+6. https://qa.1r1g.com/sf/ask/1946753091/ - *如何在单个文件中用lf替换crlf | 那些遇到过的问题*
 
 ## P2P
 
@@ -194,7 +206,7 @@ https://code.visualstudio.com/docs/editor/glob-patterns - *Visual Studio Code gl
 
 http://www.ruanyifeng.com/blog/2015/02/make.html - *Make 命令教程 - 阮一峰的网络日志*
 
-https://www.liaoxuefeng.com/wiki/1599771213037600#0 - *Makefile教程 - 廖雪峰的官方网站*
+https://www.liaoxuefeng.com/wiki/1599771213037600 - *Makefile教程 - 廖雪峰的官方网站*
 
 ## 数据结构
 
@@ -202,3 +214,7 @@ https://www.liaoxuefeng.com/wiki/1599771213037600#0 - *Makefile教程 - 廖雪�
 
 1. https://blog.csdn.net/m0_60697583/article/details/137749108 - *数据结构——字典_dictionary字典,本课程的最重要的一种数据类型之一。它的结构,是一种映射结构。在-CSDN博客*
 2. https://www.jianshu.com/p/c53460c9c8e4 - *数据结构(八)之字典结构 - coderwhy - 简书*
+
+## 进程和线程
+
+https://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html - *进程与线程的一个简单解释 - 阮一峰的网络日志*

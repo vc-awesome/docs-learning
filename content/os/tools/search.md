@@ -35,7 +35,7 @@
 
 https://www.appinn.com/ - *小众软件 - 分享免费、小巧、实用、有趣、绿色的软件*
 
-- 支持搜索 Windows, macOS, Linux, Android, iOS, Chrome, Web 平台的工具
+- 支持搜索 Windows, macOS, Linux, Android, iOS, Chrome, Web 等平台的工具
 
 #### 更多
 
@@ -45,7 +45,7 @@ https://www.appinn.com/ - *小众软件 - 分享免费、小巧、实用、有�
 
 3. https://mp.weixin.qq.com/s/FqxX9s6DHy3boeBONt156g - *程序员 macOS 有哪些必装软件？*
 
-4. https://mrhelloworld.com/categories/分享/ - *分享 - 分类 - 哈喽沃德先生*
+4. https://www.mrhelloworld.com/categories/分享/ - *分享 - 分类 - 哈喽沃德先生*
 
 5. 酷软清单
 
@@ -62,11 +62,18 @@ https://www.appinn.com/ - *小众软件 - 分享免费、小巧、实用、有�
 
 ### GitHub
 
+#### All
+
+https://github.com/pluja/awesome-privacy - *GitHub - pluja/awesome-privacy: Awesome Privacy - A curated list of services and alternatives that respect your privacy because PRIVACY MATTERS.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/pluja/awesome-privacy?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/pluja/awesome-privacy?style=social)
+
 #### Windows
 
 Awesome:
 
-1. https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*
+1. ~~https://github.com/Awesome-Windows/Awesome - *💻 🎉 An awesome & curated list of best applications and tools for Windows.*~~
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Awesome-Windows/Awesome?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Awesome-Windows/Awesome?style=social)
@@ -81,19 +88,17 @@ Awesome:
 
 1. https://github.com/jaywcjlove/awesome-mac - * Now we have become very big, Different from the original idea. Collect premium software in various categories.* [中文文档](https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/jaywcjlove/awesome-mac?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/awesome-mac?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/awesome-mac?style=social)
 
 2. https://github.com/iCHAIT/awesome-macOS - * A curated list of awesome applications, softwares, tools and shiny things for macOS.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/iCHAIT/awesome-macOS?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/iCHAIT/awesome-macOS?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/iCHAIT/awesome-macOS?style=social)
 
 3. https://github.com/serhii-londar/open-source-mac-os-apps - *GitHub - serhii-londar/open-source-mac-os-apps: 🚀 Awesome list of open source applications for macOS. https://t.me/s/opensourcemacosapps*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/serhii-londar/open-source-mac-os-apps?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/serhii-londar/open-source-mac-os-apps?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/serhii-londar/open-source-mac-os-apps?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/serhii-londar/open-source-mac-os-apps?style=social)
 
 #### Android
@@ -109,14 +114,14 @@ Awesome:
 
 2. https://github.com/Psyhackological/AAA - *GitHub - Psyhackological/AAA: Awesome Android Apps - get the Android you deserve.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/Psyhackological/AAA?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Psyhackological/AAA?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Psyhackological/AAA?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Psyhackological/AAA?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Psyhackological/AAA?style=social)
 
 3. https://github.com/ImranR98/apps.obtainium.imranr.dev - *GitHub - ImranR98/apps.obtainium.imranr.dev: Collection of suggested apps for Obtainium.* [Website](https://apps.obtainium.imranr.dev/)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/ImranR98/apps.obtainium.imranr.dev?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ImranR98/apps.obtainium.imranr.dev?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/apps.obtainium.imranr.dev?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/apps.obtainium.imranr.dev?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ImranR98/apps.obtainium.imranr.dev?style=social)
@@ -133,15 +138,21 @@ Awesome:
 
 1. https://github.com/dkhamsing/open-source-ios-apps - *GitHub - dkhamsing/open-source-ios-apps: :iphone: Collaborative List of Open-Source iOS Apps*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/dkhamsing/open-source-ios-apps?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dkhamsing/open-source-ios-apps?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/dkhamsing/open-source-ios-apps?style=social)
+
+#### Web
+
+暂无
 
 #### Self-hosting
 
-https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers* [Website](https://awesome-selfhosted.net/)
+Awesome:
 
-![GitHub last commit](https://badgen.net/github/last-commit/awesome-selfhosted/awesome-selfhosted?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/awesome-selfhosted/awesome-selfhosted?style=social)
+1. https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-selfhosted/awesome-selfhosted: A list of Free Software network services and web applications which can be hosted on your own servers* [Website](https://awesome-selfhosted.net/)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/awesome-selfhosted/awesome-selfhosted?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/awesome-selfhosted/awesome-selfhosted?style=social)
 
 ## 下载渠道
 
@@ -156,11 +167,11 @@ https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-sel
 
 #### Windows/macOS/Android/iOS
 
-1. http://windows.dailydownloaded.com/zh/ - *软件评论，下载，游戏和应用..... | Windows*
+1. https://windows.dailydownloaded.com/zh/ - *软件评论，下载，游戏和应用..... | Windows*
 
 2. https://download.cnet.com/ - *Free Software Downloads and Reviews for Windows, Android, Mac, and iOS – CNET Download*
 
-3. http://www.xmpojie.com/ - *熊喵破解|最全的Win/Mac软件分享站，一直被模仿，从未被超越*
+3. ~~http://www.xmpojie.com/ - *熊喵破解|最全的Win/Mac软件分享站，一直被模仿，从未被超越*~~
 
 #### Windows/macOS/Android
 
@@ -172,7 +183,7 @@ https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-sel
 
     - https://github.com/ldqk/Masuit.MyBlogs - *基于C#/.NET6的 masuit.org个人博客站项目源码，[https://masuit.org](https://masuit.org/) ，供参考、学习、引用、非商业性质的部署。*
 
-        ![GitHub last commit](https://badgen.net/github/last-commit/ldqk/Masuit.MyBlogs?icon=github&color=blue)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/ldqk/Masuit.MyBlogs?color=blue&logo=github)
         ![GitHub Repo stars](https://img.shields.io/github/stars/ldqk/Masuit.MyBlogs?style=social)
 
 2. https://www.freedownloadmanager.org/zh/ - *Free Download Manager - 從網路下載任何東西*
@@ -181,11 +192,11 @@ https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-sel
 
 1. https://www.ghxi.com/ - *果核剥壳 - 互联网的净土* `破解`
 
-2. http://www.dayanzai.me/ - *大眼仔旭 - 专注视频剪辑、解压、录屏、思维导图等办公资源分享* `破解`
+2. https://www.dayanzai.me/ - *大眼仔旭 - 专注视频剪辑、解压、录屏、思维导图等办公资源分享* `破解`
 
 3. https://www.softonic.cn/ - *应用新闻和评论、最佳软件下载量和发现 - Softonic*
 
-#### Windows
+#### Windows/Web
 
 1. https://www.sordum.org/ - *Simplify Your computer Usage* `破解, 英文, Web Tools`
 
@@ -200,14 +211,16 @@ https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-sel
     - 如果站点页面打开缓慢，可以使用广告拦截工具 “[AdGuard](adguard.md)” 拦截 Google Translater 请求（AdGuard 过滤规则：`||translate.google.com^`）。
     - 锁定的应用需要注册登录后才可以访问，例如：[Скачать CleanMyMac X 4.15.3 на Мак с ключом активации (Crack) бесплатно и без регистрации | Не требуется | macOS Big Sur](https://appstorrent.ru/6-cleanmymac.html)。
 
-2. https://xclient.info/ - *精品MAC应用分享*\
+2. https://sindresorhus.com/apps - *Apps — Sindre Sorhus*
+
+3. https://xclient.info/ - *精品MAC应用分享*\
     \> _via https://blog.csdn.net/qq_36303853/article/details/129399310 - *Mac免费软件下载网站推荐（最全免费，替代MacWk）_mac软件下载网站推荐-CSDN博客*_
 
-3. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！* `破解`
+4. https://www.imacso.com/ - *麦氪搜(iMacSO.com)-我们致力于让您的Mac更有价值 ！* `破解`
 
-4. https://www.macappbox.com/ - *mac软件推荐_分享优质mac软件游戏_苹果软件盒子*
+5. https://www.macappbox.com/ - *mac软件推荐_分享优质mac软件游戏_苹果软件盒子*
 
-5. https://www.minorpatch.com/ - *Minorpatch.com | Mac Apps Free Share* `🐢`
+6. https://www.minorpatch.com/ - *Minorpatch.com | Mac Apps Free Share* `🐢`
 
     https://t.me/minorpatch_com - *Telegram: Contact @minorpatch_com*
 
@@ -215,23 +228,27 @@ https://github.com/awesome-selfhosted/awesome-selfhosted - *GitHub - awesome-sel
 
     - .dmg 格式文件打开密码：`minorpatch.com`
 
-6. https://www.macapp.so/ - *Mac软件之家 - Mac软件,Mac游戏,Mac破解软件,photoshop,office,Mac壁纸* `破解, 🪪`
+7. https://www.macapp.so/ - *Mac软件之家 - Mac软件,Mac游戏,Mac破解软件,photoshop,office,Mac壁纸* `破解, 🪪`
 
-7. https://www.macupdate.com/ - *MacUpdate | Download Best Mac Software | 30,000+ Free Apps*
+8. https://www.macupdate.com/ - *MacUpdate | Download Best Mac Software | 30,000+ Free Apps*
 
-8. https://macked.app/ - *MacKed - 专注于mac软件分享与下载* `破解`
+9. https://macked.app/ - *MacKed - 专注于mac软件分享与下载* `破解`
 
     - 浏览器使用扩展 [Replace Google CDN](https://www.crxsoso.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice)，可以增加站点的访问速度。
 
-9.  ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
+10.  ~~https://macwk.com/ - *MacWk - 精品mac软件下载*~~
 
 #### Android
 
-知乎搜索：*国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?*
+知乎搜索：*国外安卓APP下载网站上标注的[Mod]、[Paid]是什么意思?* https://zhuanlan.zhihu.com/p/531002335 - *5.3.1 什么是MOD? 如何安装MOD? - 知乎*
 
-- Mod：可以理解为修改版，https://zhuanlan.zhihu.com/p/531002335 - *5.3.1 什么是MOD? 如何安装MOD? - 知乎*
+- **Mod**：这个标记表示该应用程序是经过修改的版本（Modification）。这些修改可能包括去除广告、解锁付费功能、增加额外的功能或修改游戏内的资源等。使用这些修改版应用可能会存在安全风险，因为它们不是官方发布的版本。
 
-http://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
+- **Paid**：这个标记表示该应用程序是付费应用，用户需要支付一定的费用才能下载和使用。与免费应用相比，付费应用通常提供更完整的功能或更好的用户体验。
+
+> 在下载这些应用时，请务必注意安全性和合法性，确保来源可靠，以避免潜在的风险。
+
+https://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站apk下载 – N把刀*
 
 墙内：
 
@@ -355,7 +372,21 @@ https://repology.org/ - *Repology* [GitHub Repo](https://github.com/repology)
 
 1. https://scoop.sh - *A command-line installer for Windows*
 
+    - https://github.com/ScoopInstaller/Scoop - *GitHub - ScoopInstaller/Scoop: A command-line installer for Windows.*
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/ScoopInstaller/Scoop?logo=github&color=blue)
+        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ScoopInstaller/Scoop?display_date=published_at&logo=github)
+        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ScoopInstaller/Scoop?logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/ScoopInstaller/Scoop?style=social)
+
 2. https://chocolatey.org - *Chocolatey Software | Chocolatey - The package manager for Windows*
+
+    - https://github.com/chocolatey/choco - *GitHub - chocolatey/choco: Chocolatey - the package manager for Windows*
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/chocolatey/choco?logo=github&color=blue)
+        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/chocolatey/choco?display_date=published_at&logo=github)
+        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/chocolatey/choco?logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/chocolatey/choco?style=social)
 
     - https://www.jianshu.com/p/f6c4d261f356 - *chocolatey介绍与使用 - 简书*
 
@@ -402,6 +433,10 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-packages?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-packages?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-packages?style=social)
+
+#### NPM
+
+https://www.npmjs.com/ - *npm | Home*
 
 ## 应用商店
 
@@ -486,8 +521,6 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 >
 > App Store 为全球各地的用户提供了一个安全可靠、值得信赖的好去处，用户可以探索各种精彩 app，这些 app 均达到我们对隐私、安全和内容本身的高标准。
 
----
-
 官网：
 
 1. https://www.apple.com.cn/app-store/ - *App Store - Apple (中国大陆)*
@@ -517,11 +550,11 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 
     - 例如：
 
-        1. https://apps.apple.com/cn/app/google-authenticator/id388497605（❌ 无法访问）
+        1. https://apps.apple.com/cn/app/google-authenticator/id388497605 （❌ 无法访问）
 
-        2. https://apps.apple.com/hk/app/google-authenticator/id388497605（✅ 可以访问）
+        2. https://apps.apple.com/hk/app/google-authenticator/id388497605 （✅ 可以访问）
 
-        3. https://apps.apple.com/sg/app/google-authenticator/id388497605（✅ 可以访问）
+        3. https://apps.apple.com/sg/app/google-authenticator/id388497605 （✅ 可以访问）
 
 ### Android
 
@@ -531,15 +564,13 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 >
 > 您可以随时随地在自己的各种设备上畅享数百万最新的 Android 应用、游戏、音乐、电影、电视节目、图书、杂志等精彩内容。
 
----
-
 官网：
 
-1. https://play.google.com/store/apps - *Google Play 上的 Android 应用*
+1. https://play.google.com/store/apps - *Google Play 上的 Android 应用* 🚫
 
 实例：
 
-1. https://play.google.com/store/apps/details?id=website.leifs.delta
+1. https://play.google.com/store/apps/details?id=website.leifs.delta - *Delta Icon Pack - Google Play 上的应用* 🚫
 
 常见问题：
 
@@ -553,42 +584,6 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 
     1. https://apkmod.cc/google-play-store/ - *Google Play Store v36.9.16 (Latest Version) - APKMOD.CC*
     2. https://www.apkmirror.com/apk/google-inc/google-play-store/ - *Download Google Play Store APKs for Android - APKMirror*
-
-#### F-Droid
-
-> <img src="https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
->
-> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
-
----
-
-官网：
-
-1. https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository* 🚫
-
-2. https://fdroid.gitlab.io/fdroid-website/ - *F-Droid - Free and Open Source Android App Repository*
-
-安装：
-
-1. https://f-droid.org/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* 🚫
-
-2. https://fdroid.gitlab.io/fdroid-website/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository*
-
-GitLab: 
-
-1. https://gitlab.com/fdroid - *F-Droid · GitLab*
-
-2. https://gitlab.com/fdroid/fdroidclient - *F-Droid / Client · GitLab*
-
-3. https://gitlab.com/fdroid/fdroid-website - *F-Droid / Website · GitLab*
-
-4. https://gitlab.com/fdroid/artwork - *F-Droid / Artwork · GitLab*
-
-GitHub: 
-
-1. https://github.com/f-droid - *F-Droid*
-
-2. https://github.com/f-droid/fdroid-website - *GitHub - f-droid/fdroid-website: mirror of https://gitlab.com/fdroid/fdroid-website*
 
 #### Amazon Appstore
 
@@ -614,8 +609,6 @@ GitHub:
 >
 > 小米应用商店是由小米推出的手机软件商店合集，致力于成为全面、优质的手机游戏应用商店，在这里用户可以找到最新最好玩的手机app和游戏应用，并提供软件商店app下载，最新最好玩的应用和游戏尽在小米应用商店。
 
----
-
 官网：
 
 1. https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应用商店*
@@ -632,6 +625,16 @@ GitHub:
 
 1. https://sj.qq.com/ - *应用宝官网-全网最新最热手机应用游戏下载*
 
+#### 360手机助手
+
+> <img src="https://p5.ssl.qhimg.com/t0139fc5f73cb931db6.png" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
+> 
+> 360手机助手为你提供360手机助手下载, 查看最新360手机助手介绍、查看360手机助手应用截图。一键快捷、方便的将安卓版360手机助手免费下载到手机。
+
+官网：
+
+1. https://app.so.com/ - *360 应用_首页*
+
 #### 华为应用市场
 
 官网：
@@ -643,8 +646,6 @@ GitHub:
 > <img src="https://android-artworks.25pp.com/fs08/2023/05/23/0/110_d144c13d8fff06f529d6107cac0464f3_con_130x130.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
 >
 > 豌豆荚是一家提供绿色安全应用与游戏的下载市场，商店上汇聚了海量更新更全的安卓软件、安卓应用和安卓游戏免费下载资源。
-
----
 
 https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量安卓APP应用与游戏免费下载*
 
@@ -665,8 +666,6 @@ https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量
 >
 > 玩数码，上酷安！酷安，真实有趣的数码社区。快来下载酷安APP体验吧。
 
----
-
 官网：
 
 1. https://www.coolapk.com/ - *酷安 - 发现科技新生活*
@@ -674,5 +673,89 @@ https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量
 下载应用程序：
 
 1. https://www.coolapk.com/apk/ - *安卓应用 - 酷安*
+
+#### F-Droid
+
+> <img src="https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
+>
+> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
+
+![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/f-droid/fdroidclient?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/f-droid/fdroidclient?style=social)
+
+官网：
+
+1. https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository* 🚫
+
+2. https://fdroid.gitlab.io/fdroid-website/ - *F-Droid - Free and Open Source Android App Repository*
+
+安装：
+
+1. https://f-droid.org/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* 🚫
+
+2. https://fdroid.gitlab.io/fdroid-website/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository*
+
+GitLab:
+
+1. https://gitlab.com/fdroid - *F-Droid · GitLab*
+
+2. https://gitlab.com/fdroid/fdroidclient - *F-Droid / Client · GitLab*
+
+3. https://gitlab.com/fdroid/fdroid-website - *F-Droid / Website · GitLab*
+
+4. https://gitlab.com/fdroid/artwork - *F-Droid / Artwork · GitLab*
+
+GitHub:
+
+1. https://github.com/f-droid - *F-Droid*
+
+2. https://github.com/f-droid/fdroid-website - *GitHub - f-droid/fdroid-website: mirror of https://gitlab.com/fdroid/fdroid-website*
+
+3. https://github.com/f-droid/fdroidclient - *GitHub - f-droid/fdroidclient: Android client application.*
+
+#### Accrescent
+
+> Accrescent is an Android app store focused on security, privacy, and usability.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/accrescent/accrescent?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/accrescent/accrescent?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/accrescent/accrescent?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/accrescent/accrescent?style=social)
+
+官方：
+
+1. https://accrescent.app/ - *Accrescent | Home*
+2. https://github.com/accrescent/accrescent - *GitHub - accrescent/accrescent: A novel Android app store focused on security, privacy, and usability*
+3. https://github.com/soupslurpr/AppVerifier - *GitHub - soupslurpr/AppVerifier: Verify apps easily.*
+
+安装：
+
+1. https://github.com/accrescent/accrescent/releases - *Releases · accrescent/accrescent · GitHub*
+
+#### Obtainium
+
+> Obtainium allows you to install and update apps directly from their release pages, and receive notifications when new releases are made available.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/ImranR98/Obtainium?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/Obtainium?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/Obtainium?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/ImranR98/Obtainium?style=social)
+
+官方：
+
+1. https://obtainium.imranr.dev/ - *Obtainium*
+2. https://github.com/ImranR98/Obtainium - *GitHub - ImranR98/Obtainium: Get Android app updates straight from the source.*
+
+安装：
+
+1. https://github.com/ImranR98/Obtainium/releases - *Releases · ImranR98/Obtainium · GitHub*
+2. https://apt.izzysoft.de/fdroid/index/apk/dev.imranr.obtainium - *Obtainium - IzzyOnDroid F-Droid Repository*
+3. https://f-droid.org/packages/dev.imranr.obtainium.fdroid/ - *Obtainium | F-Droid - Free and Open Source Android App Repository*
+
+下载应用：
+
+1. https://apps.obtainium.imranr.dev/ - *Obtainium Apps*
 
 [^refer]: https://localsend.org/#/download "LocalSend"

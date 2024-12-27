@@ -6,9 +6,7 @@
 
 ## 官方
 
-### 版本
-
-#### 3.x
+### v3.x
 
 https://element-plus.org/zh-CN/ - *一个 Vue 3 UI 框架 | Element Plus*
 
@@ -21,7 +19,7 @@ https://github.com/element-plus/element-plus - *GitHub - element-plus/element-pl
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/element-plus/element-plus?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/element-plus/element-plus?style=social)
 
-#### 2.x
+### v2.x
 
 https://element.eleme.cn/#/zh-CN - *Element，一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库*
 

@@ -63,22 +63,30 @@
 6. [CopyTabTitleUrl](#copy-tab-title-url)
 7. [Wappalyzer](#wappalyzer)
 8. [FeHelper(前端助手)](#fehelper)
-9. [MetaMask](#metamask)
-10. [Tampermonkey](#tampermonkey)
-11. [uBlock Origin](#ublock-origin)
-12. [Jisū](#jisu)
-13. [Google 翻译](#google-translate)
-14. [Proxy SwitchyOmega](#proxy-switchyomega)
-15. [Clipboard Helper](#clipboard-helper)
+9. [Tampermonkey](#dhdgffkkebhmkfjojejmpbldmpobfkfo)
+10. [uBlock Origin](#ublock-origin)
+11. [Google 翻译](#google-translate)
+12. [Proxy SwitchyOmega](#proxy-switchyomega)
+13. [Clipboard Helper](#clipboard-helper)
+14. [Replace Google CDN](#kpampjmfiopfpkkepbllemkibefkiice)
+15. [floccus](#fnaicdffflnofjppbagibeoednhnbjhg)
 
 
 ### 使用场景
+
+手机浏览器常用：
+
+1. [Tampermonkey](#tampermonkey)
+2. [uBlock Origin](#ublock-origin)
+3. [CopyTabTitleUrl](#copy-tab-title-url)
+4. [Wappalyzer](#wappalyzer)
 
 在手机上写作：
 
 1. [CopyTabTitleUrl](#copy-tab-title-url)
 2. [Copy Image URL](#copy-image-url)
 3. [拷贝猫](#copycat)
+4. [MarkDownload - Markdown Web Clipper](#markdown)
 
 
 ## 开发扩展
@@ -91,7 +99,7 @@
 
 2. https://github.com/zenorocha/codecopy - *zenorocha/codecopy: A browser extension that adds copy to clipboard buttons on every code block*
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/zenorocha/codecopy?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/zenorocha/codecopy?color=blue&logo=github)
 
    > 环境要求：
    >
@@ -144,11 +152,11 @@
 
 1. https://github.com/wadefelix/copylinktabnameandurl - *wadefelix/copylinktabnameandurl: 复制链接/标签名称和地址*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/wadefelix/copylinktabnameandurl?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/wadefelix/copylinktabnameandurl?color=blue&logo=github)
 
 2. https://github.com/ruanyf/chrome-extension-demo - *GitHub - ruanyf/chrome-extension-demo: how to create a Chrome extension*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/chrome-extension-demo?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ruanyf/chrome-extension-demo?color=blue&logo=github)
 
 ### 如何将浏览器扩展程序打包成 crx 文件？
 
@@ -188,15 +196,37 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ## 扩展列表
 
+### 脚本管理器
+
+1. [篡改猴（Tampermonkey）](https://www.tampermonkey.net/) <i id="dhdgffkkebhmkfjojejmpbldmpobfkfo"></i> - *使用用户脚本自由地改变网络* [Chrome](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/), Mobile Browser (Firefox, Edge, Kiwi)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
+
+2. [暴力猴（Violentmonkey）](https://violentmonkey.github.io/) - *一个开源的用户脚本管理器，支持很多浏览器* [Chrome](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag), [Firefox](https://addons.mozilla.org/firefox/addon/violentmonkey/), [Edge](https://microsoftedge.microsoft.com/addons/detail/eeagobfjdenkkddmbclomhiblgggliao), [GitHub Repo](https://github.com/violentmonkey/violentmonkey)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/violentmonkey/violentmonkey?color=blue&logo=github)
+
+
+3. [Greasemonkey](http://www.greasespot.net/) - *Greasemonkey is a user script manager for Firefox.* [Chrome](#), [Firefox](https://addons.mozilla.org/firefox/addon/greasemonkey/), [Edge](#), [Opera](#), [Web](#), [GitHub Repo](https://github.com/greasemonkey/greasemonkey/), [Via](#), [Tampermonkey](#), Mobile Browser (Firefox, ~~Edge~~, ~~Kiwi~~)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/greasemonkey/greasemonkey?color=blue&logo=github)
+
+4. [ScriptCat](https://docs.scriptcat.org/) - *脚本猫,一个可以执行用户脚本的浏览器扩展,万物皆可脚本化,让你的浏览器可以做更多的事情!* [Chrome](https://chrome.google.com/webstore/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/scriptcat/), [Edge](https://microsoftedge.microsoft.com/addons/detail/scriptcat/liilgpjgabokdklappibcjfablkpcekh), [GitHub Repo](https://github.com/scriptscat/scriptcat)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ndcooeababalnlpkfedmmbbbgkljhpjf)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ndcooeababalnlpkfedmmbbbgkljhpjf?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/scriptscat/scriptcat?color=blue&logo=github)
+
+
 ### 扩展管理
 
-1. ✅ [Extensity](https://sergiokas.github.io/Extensity/ ':id=extensity') - *Quickly enable/disable Google Chrome extensions* [Chrome](https://chrome.google.com/webstore/detail/jjmflmamggggndanpgfnpelongoepncg) [GitHub](https://github.com/sergiokas/Extensity)
+1. [Extensity](https://sergiokas.github.io/Extensity/) <i id="extensity"></i> - *Quickly enable/disable Google Chrome extensions* [Chrome](https://chrome.google.com/webstore/detail/jjmflmamggggndanpgfnpelongoepncg), [GitHub Repo](https://github.com/sergiokas/Extensity)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jjmflmamggggndanpgfnpelongoepncg)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jjmflmamggggndanpgfnpelongoepncg?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/sergiokas/Extensity?color=blue&logo=github)
 
-2. [SimpleExtManager](http://blandlifedev.blogspot.com) - *这简单的菜单可让您方便的管理瀏覽器的扩展程序。* [Chrome](https://chrome.google.com/webstore/detail/kniehgiejgnnpgojkdhhjbgbllnfkfdk) [Opera](https://addons.opera.com/en/extensions/details/simpleextmanager/)
+2. [SimpleExtManager](http://blandlifedev.blogspot.com) - *这简单的菜单可让您方便的管理瀏覽器的扩展程序。* [Chrome](https://chrome.google.com/webstore/detail/kniehgiejgnnpgojkdhhjbgbllnfkfdk), [Opera](https://addons.opera.com/en/extensions/details/simpleextmanager/)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kniehgiejgnnpgojkdhhjbgbllnfkfdk)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kniehgiejgnnpgojkdhhjbgbllnfkfdk?style=social)
@@ -204,24 +234,51 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 标签页管理
 
-1. ✅ [OneTab](https://www.one-tab.com/ ':id=onetab') - *节省高达95％的内存，并减轻标签页混乱现象* [Chrome](https://chrome.google.com/webstore/detail/chphlpgkkbolifaimnlloiipkdnihall) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/onetab/) [Edge](https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop) [Safari](https://apps.apple.com/gb/app/onetab/id1540160809)
+1. [OneTab](https://www.one-tab.com/) <i id="onetab"></i> - *节省高达95％的内存，并减轻标签页混乱现象* [Chrome](https://chrome.google.com/webstore/detail/chphlpgkkbolifaimnlloiipkdnihall), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/onetab/), [Edge](https://microsoftedge.microsoft.com/addons/detail/onetab/hoimpamkkoehapgenciaoajfkfkpgfop), [Safari](https://apps.apple.com/gb/app/onetab/id1540160809), Mobile Browser (Firefox)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/chphlpgkkbolifaimnlloiipkdnihall) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/chphlpgkkbolifaimnlloiipkdnihall?style=social)
 
-2. ✅ [TABLERONE tab manager](https://www.crxsoso.com/webstore/detail/andpjllgocabfacjlelkfpdemfklpfpo) - *打开太多标签会降低您的工作效率。您的计算机变慢，您需要更长时间才能找到正确的选项卡，而且您经常会在此过程中分心。*
+2. [TABLERONE tab manager](https://www.crxsoso.com/webstore/detail/andpjllgocabfacjlelkfpdemfklpfpo) - *打开太多标签会降低您的工作效率。您的计算机变慢，您需要更长时间才能找到正确的选项卡，而且您经常会在此过程中分心。*
 
-3. ✅ [ Toast - Save Tabs for Later](https://www.crxsoso.com/webstore/detail/pejhbjnfifdecpkgcjhgmcaphdobmiie) - *您肯定有一些打开或固定的选项卡非常有用，但现在不需要。它们不应该被添加到书签中，尽管它们太重要了，不会丢失在浏览器的阅读列表中。*
+3. [ Toast - Save Tabs for Later](https://www.crxsoso.com/webstore/detail/pejhbjnfifdecpkgcjhgmcaphdobmiie) - *您肯定有一些打开或固定的选项卡非常有用，但现在不需要。它们不应该被添加到书签中，尽管它们太重要了，不会丢失在浏览器的阅读列表中。*
 
-4. ✅ `Duplicate Tab` - *Duplicates the current tab* [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/duplicate_tab/) [GitHub](https://github.com/Skeletonxf/duplicate-tab/)
+4. **Duplicate Tab** - *Duplicates the current tab* [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/duplicate_tab/), [GitHub Repo](https://github.com/Skeletonxf/duplicate-tab)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Skeletonxf/duplicate-tab?color=blue&logo=github)
 
-    - 手机浏览器可用
-
 ### 标签页定时刷新
 
-1. ✅ [ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) - *Automatically reload a page. Configure interval between page refreshes and see a count-down until the next refresh.* [Chrome](https://chrome.google.com/webstore/detail/nbbpjdmdkcmpimmhloehkojhbhjlboog)
+1. [ChromeReloadPlus](https://chrome.google.com/webstore/detail/chromereloadplus/nbbpjdmdkcmpimmhloehkojhbhjlboog) - *Automatically reload a page. Configure interval between page refreshes and see a count-down until the next refresh.* [Chrome](https://chrome.google.com/webstore/detail/nbbpjdmdkcmpimmhloehkojhbhjlboog)
 
+
+### 书签同步
+
+1. [EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog) - *Synchronize your bookmarks, FVD Speed Dials. Secure online access. Backup, restore your bookmarks. Sync favorites between computers* [Chrome](https://chrome.google.com/webstore/detail/iohcojnlgnfbmjfjfkbhahhmppcggdog)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
+
+2. [Cross-browser bookmarks syncing - floccus.org](https://floccus.org/) <i id="fnaicdffflnofjppbagibeoednhnbjhg"></i> - *:cloud: Sync your bookmarks privately across browsers and devices - floccusaddon/floccus* [Chrome](https://chrome.google.com/webstore/detail/floccus/fnaicdffflnofjppbagibeoednhnbjhg), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/floccus/), [Edge](https://microsoftedge.microsoft.com/addons/detail/gjkddcofhiifldbllobcamllmanombji), [GitHub Repo](https://github.com/floccusaddon/floccus), Mobile Browser (~~Firefox~~, Kiwi)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fnaicdffflnofjppbagibeoednhnbjhg?style=flat) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fnaicdffflnofjppbagibeoednhnbjhg?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/floccusaddon/floccus?color=blue&logo=github)
+
+3. [xBrowserSync](https://github.com/xbrowsersync) - *xBrowserSync - Browser syncing as it should be: secure, anonymous and free!* [Chrome](https://chrome.google.com/webstore/detail/lcbjdhceifofjlpecfpeimnnphbcjgnc)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lcbjdhceifofjlpecfpeimnnphbcjgnc?style=flat)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lcbjdhceifofjlpecfpeimnnphbcjgnc?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/xbrowsersync/app?color=blue&logo=github)
+
+4. [BookmarkHub](https://github.com/dudor/BookmarkHub) - *BookmarkHub is a browser plug-in that can synchronize your bookmarks between different browsers.* [Chrome](https://chrome.google.com/webstore/detail/fohimdklhhcpcnpmmichieidclgfdmol), [GitHub Repo](https://github.com/dudor/BookmarkHub)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fohimdklhhcpcnpmmichieidclgfdmol?style=flat)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fohimdklhhcpcnpmmichieidclgfdmol?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dudor/BookmarkHub?color=blue&logo=github)
+
+
+### 标签页和书签
+
+1. [Sidebery]() - *Vertical tabs tree and bookmarks in sidebar with advanced containers configuration, grouping and many other features.* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/sidebery/), [GitHub Repo](https://github.com/mbnuqw/sidebery)
+
+2. [Default Bookmark Folder]() - *Allows you to choose the default bookmark location folder and quickly bookmark pages via a dedicated icon.* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/default-bookmark-folder/), [GitHub Repo](https://github.com/teddy-gustiaux/default-bookmark-folder)
 
 ### 浏览历史记录
 
@@ -230,18 +287,18 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 密码管理
 
-1. ✅ [Bitwarden - 免费密码管理器](https://bitwarden.com/download/#downloads-web-browser ':id=bitwarden') - *Bitwarden 是一个安全且免费的跨平台密码管理器。* [Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/), [Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh)
+1. [Bitwarden - 免费密码管理器](https://bitwarden.com/download/#downloads-web-browser) <i id="bitwarden"></i> - *Bitwarden 是一个安全且免费的跨平台密码管理器。* [Chrome](https://chrome.google.com/webstore/detail/nngceckbapebfimnlniiiahkandclblb), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/), [Edge](https://microsoftedge.microsoft.com/addons/detail/jbkfoedolllekgbhcbcoahefnbanhhlh), [GitHub Repo](https://github.com/bitwarden/clients)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nngceckbapebfimnlniiiahkandclblb?style=flat) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/nngceckbapebfimnlniiiahkandclblb?style=social)
 
 
 ### 广告拦截
 
-1. ✅ [AdGuard 广告拦截器](https://adguard.com/zh_cn/adguard-browser-extension/overview.html) - *一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。* [Chrome](https://chrome.google.com/webstore/detail/bgnkhhnnamicmpeenaelnjfhikgbkllg), [Firefox](https://www.crxsoso.com/firefox/detail/adguard-adblocker), [Opera](https://addons.opera.com/en/extensions/details/adguard/), [GitHub Repo](https://github.com/AdGuardTeam/AdGuardBrowserExtension)
+1. [AdGuard 广告拦截器](https://adguard.com/zh_cn/adguard-browser-extension/overview.html) - *一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。* [Chrome](https://chrome.google.com/webstore/detail/bgnkhhnnamicmpeenaelnjfhikgbkllg), [Firefox](https://www.crxsoso.com/firefox/detail/adguard-adblocker), [Opera](https://addons.opera.com/en/extensions/details/adguard/), [GitHub Repo](https://github.com/AdGuardTeam/AdGuardBrowserExtension)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bgnkhhnnamicmpeenaelnjfhikgbkllg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/bgnkhhnnamicmpeenaelnjfhikgbkllg?style=social)
 
-2. ✅ [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm ':id=ublock-origin') - *一款高效的网络请求过滤工具，占用极低的内存和 CPU。* [Chrome](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/), [Opera](https://addons.opera.com/en/extensions/details/ublock/), [GitHub Repo](https://github.com/gorhill/uBlock)
+2. [uBlock Origin](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm) <i id="ublock-origin"></i> - *一款高效的网络请求过滤工具，占用极低的内存和 CPU。* [Chrome](https://chrome.google.com/webstore/detail/cjpalhdlnbpafiamejdnhcphjbkeiagm), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/), [Opera](https://addons.opera.com/en/extensions/details/ublock/), [GitHub Repo](https://github.com/gorhill/uBlock)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cjpalhdlnbpafiamejdnhcphjbkeiagm) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cjpalhdlnbpafiamejdnhcphjbkeiagm?style=social)
 
@@ -259,7 +316,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 二维码
 
-1. ✅ 推荐使用[FeHelper(前端助手)](#fehelper)扩展，这样可以少安装一个扩展程序。
+1. 推荐使用[FeHelper(前端助手)](#fehelper)扩展，这样可以少安装一个扩展程序。
 
     - 使用方法：「FH应用市场」中安装「二维码/解码」功能，并将其「加入右键」。
 
@@ -270,9 +327,9 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 鼠标手势
 
-1. ✅ [crxMouse Chrome™ 手势](https://crxmouse.com/ ':id=crxmouse') - *原名:Gestures for Chrome(TM)汉化版.方便,快捷,充分发掘鼠标的所有操作.功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等.* [Chrome](https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo)
+1. [crxMouse Chrome™ 手势](https://crxmouse.com/) <i id="crxmouse"></i> - *原名:Gestures for Chrome(TM)汉化版.方便,快捷,充分发掘鼠标的所有操作.功能包括:鼠标手势,超级拖曳,滚轮手势,摇杆手势,平滑滚动,标签页列表等.* [Chrome](https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo)
 
-2. ✅ **Gesturefy** - *Navigate, operate, and browse faster with mouse gestures! A customizable Firefox mouse gesture add-on with a variety of different commands.* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/gesturefy/), [GitHub Repo](https://github.com/Robbendebiene/Gesturefy)
+2. **Gesturefy** - *Navigate, operate, and browse faster with mouse gestures! A customizable Firefox mouse gesture add-on with a variety of different commands.* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/gesturefy/), [GitHub Repo](https://github.com/Robbendebiene/Gesturefy)
 
 
 ### 搜索引擎
@@ -283,14 +340,14 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ---
 
-1. ✅ `Selection Search` - *Search for the selected text in search engines* [Chrome](https://chrome.google.com/webstore/detail/gipnlpdeieaidmmeaichnddnmjmcakoe) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/selection-search-ff/) [GitHub](https://github.com/Pitmairen/selection-search)
+1. **Selection Search** - *Search for the selected text in search engines* [Chrome](https://chrome.google.com/webstore/detail/gipnlpdeieaidmmeaichnddnmjmcakoe), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/selection-search-ff/), [GitHub Repo](https://github.com/Pitmairen/selection-search)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gipnlpdeieaidmmeaichnddnmjmcakoe)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gipnlpdeieaidmmeaichnddnmjmcakoe?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/Pitmairen/selection-search?color=blue&logo=github)
 
 
-2. [大术专搜](https://garywill.github.io/) - *以 灵活又顺手 的方式 在(切换) 任意一个 或 (连续)多个 搜索引擎（或任意网站）进行搜索。跨浏览器工具。具有高度自定义性。* [Chrome](https://chrome.google.com/webstore/detail/ojcnjeigmgjaiolalpapfnmmhdmpjhfb) [Firefox](https://addons.mozilla.org/firefox/addon/big-search/) [GitHub](https://github.com/garywill/BigSearch) [Web](http://acsearch.tk)
+2. [大术专搜](https://garywill.github.io/) - *以 灵活又顺手 的方式 在(切换) 任意一个 或 (连续)多个 搜索引擎（或任意网站）进行搜索。跨浏览器工具。具有高度自定义性。* [Chrome](https://chrome.google.com/webstore/detail/ojcnjeigmgjaiolalpapfnmmhdmpjhfb), [Firefox](https://addons.mozilla.org/firefox/addon/big-search/), [GitHub Repo](https://github.com/garywill/BigSearch), [Web](http://acsearch.tk)
 
 3. [All in one web searcher](https://www.aakashweb.com) - *多合一网络搜索器是一个简单而强大的扩展，可以通过零点击搜索多个站点。添加站点以进行搜索，自定义顺序并在任何地方快速搜索。* [Chrome](https://chrome.google.com/webstore/detail/enofjgiadilpmldfknojklfjbeaooiap)
 
@@ -299,18 +356,18 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 工具箱
 
-1. ✅ [Ctool 程序开发常用工具](https://ctool.dev/) - *程序开发常用工具,哈希/加解密/编码转换/时间戳/二维码/拼音/IP查询/代码优化/Unicode/正则等...* [Chrome](https://chrome.google.com/webstore/detail/ipfcebkfhpkjeikaammlkcnalknjahmh) [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ctool/) [Web](https://ctool.dev/) [GitHub](https://github.com/baiy/Ctool) [Windows](https://www.microsoft.com/store/apps/9P63J98XZ0M1) [macOS](https://github.com/baiy/Ctool/releases/latest) [Linux](https://github.com/baiy/Ctool/releases/latest)
+1. [Ctool 程序开发常用工具](https://ctool.dev/) - *程序开发常用工具,哈希/加解密/编码转换/时间戳/二维码/拼音/IP查询/代码优化/Unicode/正则等...* [Chrome](https://chrome.google.com/webstore/detail/ipfcebkfhpkjeikaammlkcnalknjahmh), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ctool/) [Web](https://ctool.dev/), [GitHub Repo](https://github.com/baiy/Ctool), [Windows](https://www.microsoft.com/store/apps/9P63J98XZ0M1), [macOS](https://github.com/baiy/Ctool/releases/latest), [Linux](https://github.com/baiy/Ctool/releases/latest)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ipfcebkfhpkjeikaammlkcnalknjahmh)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ipfcebkfhpkjeikaammlkcnalknjahmh?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/baiy/Ctool?color=blue&logo=github)
 
-2. [即时工具](https://www.67tool.com/) - *一款在线高效办公工具，拥有近300款工具包括视频工具、音频工具、图片工具、文档处理、文档转换、办公辅助、设计工具等等* [Chrome](https://chrome.google.com/webstore/detail/fnlomhffjgaiejopfbacfjjpnegclmfb) [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/即时工具/) [Web](https://www.67tool.com/) [Windows](https://client.67tool.com/#download) [macOS](https://client.67tool.com/#download)
+2. [即时工具](https://www.67tool.com/) - *一款在线高效办公工具，拥有近300款工具包括视频工具、音频工具、图片工具、文档处理、文档转换、办公辅助、设计工具等等* [Chrome](https://chrome.google.com/webstore/detail/fnlomhffjgaiejopfbacfjjpnegclmfb), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/即时工具/), [Web](https://www.67tool.com/), [Windows](https://client.67tool.com/#download), [macOS](https://client.67tool.com/#download)
 
 
-### 计算字数
+### 统计字数
 
-1. ✅ [Jisū](https://www.crxsoso.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi ':id=jisu') - *Count words and characters in selected text.* [Chrome](https://chrome.google.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi) [Edge](https://microsoftedge.microsoft.com/addons/detail/jis%C5%AB/bbclbgdgnkggbgnknlppkkgghfemliap) [GitHub](https://github.com/ikamonster/jisu)
+1. [Jisū](https://www.crxsoso.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi) <i id="jisu"></i> - *Count words and characters in selected text.* [Chrome](https://chrome.google.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi), [Edge](https://microsoftedge.microsoft.com/addons/detail/jis%C5%AB/bbclbgdgnkggbgnknlppkkgghfemliap), [GitHub Repo](https://github.com/ikamonster/jisu)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dgnmohofbgnaacababkedheeannmdohi)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dgnmohofbgnaacababkedheeannmdohi?style=social)
@@ -319,11 +376,9 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 复制链接
 
-1. ✅ [CopyTabTitleUrl](https://www.bugbugnow.net ':id=copy-tab-title-url') - *Copy the title and URL to the clipboard.* [Chrome](https://chrome.google.com/webstore/detail/lmgbdjfoaihhgdphombpgjpaohjfeapp), [Firefox](https://www.crxsoso.com/firefox/detail/copytabtitleurl/), [GitHub Repo](https://github.com/k08045kk/CopyTabTitleUrl)
+1. [CopyTabTitleUrl](https://www.bugbugnow.net) <i id="copy-tab-title-url"></i> - *Copy the title and URL to the clipboard.* [Chrome](https://chrome.google.com/webstore/detail/lmgbdjfoaihhgdphombpgjpaohjfeapp), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/copytabtitleurl/), [GitHub Repo](https://github.com/k08045kk/CopyTabTitleUrl), Mobile Browser (Firefox, Kiwi)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lmgbdjfoaihhgdphombpgjpaohjfeapp) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lmgbdjfoaihhgdphombpgjpaohjfeapp?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/k08045kk/CopyTabTitleUrl?color=blue&logo=github)
-
-    - 手机浏览器可用
 
     <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
 
@@ -404,21 +459,19 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 2. [Copy Title and Url as Markdown Style](https://www.crxsoso.com/webstore/detail/fpmbiocnfbjpajgeaicmnjnnokmkehil) - *Copy the title and url of the page as Markdown style*
 
-    - 手机浏览器可用
-
     - 自定义格式
 
         ```markdown
         ${url} - *${title}*
         ```
 
-3. ✅ [复制链接/标签名称和地址](https://www.crxsoso.com/webstore/detail/noakklbbencpgcahamhocalnepfjeeok) - *在链接上右键菜单中加入命令以纯文本格式同时拷贝该链接的文本和链接地址，也可在标签栏上右键复制该标签页面的标题和链接。极大方便了在即时聊天工具、电子邮件、博客等网络工具中分享互联网链接。*
+3. [复制链接/标签名称和地址](https://www.crxsoso.com/webstore/detail/noakklbbencpgcahamhocalnepfjeeok) - *在链接上右键菜单中加入命令以纯文本格式同时拷贝该链接的文本和链接地址，也可在标签栏上右键复制该标签页面的标题和链接。极大方便了在即时聊天工具、电子邮件、博客等网络工具中分享互联网链接。*
 
 4. [复制链接到剪贴板 ](https://www.crxsoso.com/webstore/detail/miancenhdlkbmjmhlginhaaepbdnlllc) - *复制 URL 到剪贴板，支持 HTML, Markdown, 纯文本等多种格式。*
 
     - _**via** https://www.zhihu.com/tardis/landing/m/360/art/342236056 - *效率工具：如何快速复制页面标题和链接？*_
 
-5. ✅ [拷贝猫](https://blackglory.me/ ":id=copycat") - *为网页提供前所未有的强大复制功能。* [Chrome](https://chrome.google.com/webstore/detail/jdjbiojkklnaeoanimopafmnmhldejbg), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/extension-copycat/), [GitHub Repo](https://github.com/BlackGlory/copycat)
+5. [拷贝猫](https://blackglory.me/) <i id="copycat"></i> - *为网页提供前所未有的强大复制功能。* [Chrome](https://chrome.google.com/webstore/detail/jdjbiojkklnaeoanimopafmnmhldejbg), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/extension-copycat/), [GitHub Repo](https://github.com/BlackGlory/copycat)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jdjbiojkklnaeoanimopafmnmhldejbg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jdjbiojkklnaeoanimopafmnmhldejbg?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/BlackGlory/copycat?color=blue&logo=github)
@@ -428,7 +481,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 复制图片链接
 
-1. ✅ [Copy Image URL](https://www.crxsoso.com/webstore/detail/okellkdngnddldceghgglinloadinfgg ":id=copy-image-url") - *此扩展程序允许您从 Google 图片搜索结果中复制图片源 URL*
+1. [Copy Image URL](https://www.crxsoso.com/webstore/detail/okellkdngnddldceghgglinloadinfgg) <i id="copy-image-url"></i> - *此扩展程序允许您从 Google 图片搜索结果中复制图片源 URL*
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/okellkdngnddldceghgglinloadinfgg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/okellkdngnddldceghgglinloadinfgg?style=social)
 
@@ -440,7 +493,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 剪贴板
 
-1. ✅ [Clipboard Helper](https://www.crxsoso.com/webstore/detail/meljmedplehjlnnaempfdoecookjenph ':id=clipboard-helper') - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
+1. [Clipboard Helper](https://www.crxsoso.com/webstore/detail/meljmedplehjlnnaempfdoecookjenph) <i id="clipboard-helper"></i> - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
 
 2. [Clipboard History Pro: best productivity tool](https://www.crxsoso.com/webstore/detail/ajiejmhbejpdgkkigpddefnjmgcbkenk) - *Clipboard manager extension for your browser: history of copied text, favorite items, instant paste*
 
@@ -456,31 +509,45 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### Table of Contents
 
-1. ✅ `Smart TOC` - *显示任何网站的目录，使阅读和浏览长篇文章、文档和在线书籍更加容易。* [Chrome](https://chrome.google.com/webstore/detail/lifgeihcfpkmmlfjbailfpfhbahhibba), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/), [GitHub Repo](https://github.com/FallenMax/smart-toc)
+🔎 ▸ `toc`, `outline`
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lifgeihcfpkmmlfjbailfpfhbahhibba) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lifgeihcfpkmmlfjbailfpfhbahhibba?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/FallenMax/smart-toc?icon=github&color=blue)
+测试：
+
+- [ ] https://sindresorhus.com/velja - *Velja — Sindre Sorhus*
+
+1. **Smart TOC** - *显示任何网站的目录，使阅读和浏览长篇文章、文档和在线书籍更加容易。* [Chrome](https://chrome.google.com/webstore/detail/lifgeihcfpkmmlfjbailfpfhbahhibba), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/), [GitHub Repo](https://github.com/FallenMax/smart-toc)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lifgeihcfpkmmlfjbailfpfhbahhibba) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lifgeihcfpkmmlfjbailfpfhbahhibba?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/FallenMax/smart-toc?color=blue&logo=github)
 
     > 狐猴手机浏览器需要开启“桌面模式”，否则提示“Can not locate article/headings”。
 
-2. ✅ `AI TOC` - *Generate a table of contents (TOC) based on heading tags, and even get a summary of each section with the power of AI.* [Chrome](https://chrome.google.com/webstore/detail/ghnagbbpipiicibgeiglmckdnblokcdf)
+    - 收费功能（Pro 版本，应用内购买升级）
+
+2. **AI TOC** - *Generate a table of contents (TOC) based on heading tags, and even get a summary of each section with the power of AI.* [Chrome](https://chrome.google.com/webstore/detail/ghnagbbpipiicibgeiglmckdnblokcdf)
 
      ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ghnagbbpipiicibgeiglmckdnblokcdf) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ghnagbbpipiicibgeiglmckdnblokcdf?style=social)
 
-    - 手机浏览器可用
+3. [Better TOC](https://www.crxsoso.com/webstore/detail/mfdeklaldohihacjmckidgphclafeaaa) - *Auto generate toc for readme, article, more, support llm Q&A* [Chrome](https://chromewebstore.google.com/detail/better-toc/mfdeklaldohihacjmckidgphclafeaaa), [Firefox](#), [Edge](#), [Opera](#), [Web](#), [GitHub Repo](#), [Via](#)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mfdeklaldohihacjmckidgphclafeaaa)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mfdeklaldohihacjmckidgphclafeaaa?style=social)
+
+4. [Simple Outliner / 智能网页大纲]() - *Simple Outliner / 自动生成网页大纲、目录，Support Inoreader and Feedly。* [Chrome](https://chromewebstore.google.com/detail/simple-outliner-%E6%99%BA%E8%83%BD%E7%BD%91%E9%A1%B5%E5%A4%A7%E7%BA%B2/ppdjhggfcaenclmimmdigbcglfoklgaf), [Firefox](#), [Edge](#), [Opera](#), [Web](#), [GitHub Repo](https://github.com/lcomplete/smart-toc), [Via](#)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ppdjhggfcaenclmimmdigbcglfoklgaf)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ppdjhggfcaenclmimmdigbcglfoklgaf?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/lcomplete/smart-toc?color=blue&logo=github)
 
 
 ### 翻译
 
-1. ✅ [沉浸式翻译](https://immersivetranslate.com/) - *沉浸式翻译是一款浏览器插件，可以智能识别网页主内容区进行双语翻译，插件支持全平台浏览器，PDF文件翻译，EPUB电子书双语翻译、制作、导出，字幕文件翻译等功能。* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/), [GitHub Repo](https://github.com/immersive-translate/immersive-translate)
+1. [沉浸式翻译](https://immersivetranslate.com/) - *沉浸式翻译是一款浏览器插件，可以智能识别网页主内容区进行双语翻译，插件支持全平台浏览器，PDF文件翻译，EPUB电子书双语翻译、制作、导出，字幕文件翻译等功能。* [Chrome](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/), [Edge](https://microsoftedge.microsoft.com/addons/detail/沉浸式翻译-网页翻译插件-pdf翻译-/amkbmndfnliijdhojkpoglbnaaahippg), [Web](https://app.immersivetranslate.com/text/), [GitHub Repo](https://github.com/immersive-translate/immersive-translate), [Tampermonkey](https://download.immersivetranslate.com/immersive-translate.user.js), Mobile Browser (Firefox, Edge, Kiwi)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/immersive-translate/immersive-translate?color=blue&logo=github)
-    ![Static Badge](https://img.shields.io/badge/Tampermonkey-blue?logo=tampermonkey&labelColor=grey)
 
-    - 手机浏览器可用（Available on Firefox for Android™）
-
-2. ✅ [Google 翻译](https://translate.google.com/ ":id=google-translate") - *浏览网页时可轻松查看翻译版本。由Google翻译小组提供。* [Chrome](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
+2. [Google 翻译](https://translate.google.com/) <i id="google-translate"></i> - *浏览网页时可轻松查看翻译版本。由Google翻译小组提供。* [Chrome](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/aapbdbdomjkkjkaonfhkkikfgjllcleb) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/aapbdbdomjkkjkaonfhkkikfgjllcleb?style=social)
 
@@ -506,9 +573,9 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
     
     </details>
 
-3. ✅ `TWP - Translate Web Pages` - *使用谷歌或者Yandex实时翻译您的界面。不需要打开新的标签。现在与NoScript Extension一起工作。* [Chrome(.crx)](https://github.com/FilipePS/Traduzir-paginas-web#chrome-edge-and-brave-with-crx-and-auto-update) [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/traduzir-paginas-web/) [GitHub](https://github.com/FilipePS/Traduzir-paginas-web)
+3. **TWP - Translate Web Pages** - *使用谷歌或者Yandex实时翻译您的界面。不需要打开新的标签。现在与NoScript Extension一起工作。* [Chrome(.crx)](https://github.com/FilipePS/Traduzir-paginas-web#chrome-edge-and-brave-with-crx-and-auto-update), [Firefox](https://addons.mozilla.org/pt-BR/firefox/addon/traduzir-paginas-web/), [GitHub Repo](https://github.com/FilipePS/Traduzir-paginas-web)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/FilipePS/Traduzir-paginas-web?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/FilipePS/Traduzir-paginas-web?color=blue&logo=github)
 
 4. [~~百度翻译：网页翻译、海淘神器~~](https://fanyi.baidu.com/) - *百度翻译官方出品。支持27种语言的翻译，浏览外文网页时可一键网页翻译、双语对照查看、查询单词结果等。特别针对20+家海淘网站进行过翻译优化，让你的海淘过程更加得心应手。* [Chrome](https://chrome.google.com/webstore/detail/edhchknefojhifoiebpcbkhcjlkkklci)
 
@@ -519,32 +586,32 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
         - 仍可使用；*如何安装？👉可查看“阿虚同学”这篇微信公众号文章《[谷歌带走了我最爱的全文翻译，连夜找来1个复活方法和6个替代神器！](https://mp.weixin.qq.com/s/6pU3et5V7xUc2_ZlHO186w)》 的第 4.1 节*。
     </details>
 
-5. [划词翻译](https://hcfy.app/) - *一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。* [Chrome](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad) [GitHub](https://github.com/hcfyapp)
+5. [划词翻译](https://hcfy.app/) - *一站式划词 / 截图 / 网页全文 / 音视频翻译扩展，支持谷歌、DeepL、百度、腾讯等 9 个国内外主流翻译源，且均可用于网页翻译。能在 PDF 里使用。* [Chrome](https://chrome.google.com/webstore/detail/%E5%88%92%E8%AF%8D%E7%BF%BB%E8%AF%91/ikhdkkncnoglghljlkmcimlnlhkeamad), [GitHub Org](https://github.com/hcfyapp)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ikhdkkncnoglghljlkmcimlnlhkeamad)
-    ![GitHub last commit](https://badgen.net/github/last-commit/hcfyapp/crx-selection-translate?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/hcfyapp/crx-selection-translate?color=blue&logo=github)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ikhdkkncnoglghljlkmcimlnlhkeamad?style=social)
 
     - FAQ：https://hcfy.app/blog/2022/09/28/ggg - *谷歌翻译不能用的解决方案 | 划词翻译 (hcfy.app)*
 
-6. [沙拉查词-聚合词典划词翻译](https://saladict.crimx.com/) - *Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。* [Chrome](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg) [GitHub](https://github.com/crimx/ext-saladict)
+6. [沙拉查词-聚合词典划词翻译](https://saladict.crimx.com/) - *Saladict 沙拉查词是一款专业划词翻译扩展，为交叉阅读而生。大量权威词典涵盖中英日韩法德西语，支持复杂的划词操作、网页翻译、生词本与 PDF 浏览。* [Chrome](https://chrome.google.com/webstore/detail/cdonnmffkdaoajfknoeeecmchibpmkmg), [GitHub Repo](https://github.com/crimx/ext-saladict)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/cdonnmffkdaoajfknoeeecmchibpmkmg)
-    ![GitHub last commit](https://badgen.net/github/last-commit/crimx/ext-saladict?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/crimx/ext-saladict?color=blue&logo=github)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cdonnmffkdaoajfknoeeecmchibpmkmg?style=social)
 
 ### 开发者
 
-1. ✅ [Wappalyzer](https://www.wappalyzer.com/) <i id="wappalyzer"></i> - *Identify web technologies* [Chrome](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg) [Edge](https://microsoftedge.microsoft.com/addons/detail/wappalyzer-technology-p/mnbndgmknlpdjdnjfmfcdjoegcckoikn?hl=zh-CN) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
+1. [Wappalyzer](https://www.wappalyzer.com/) <i id="wappalyzer"></i> - *Identify web technologies* [Chrome](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg), [Edge](https://microsoftedge.microsoft.com/addons/detail/wappalyzer-technology-p/mnbndgmknlpdjdnjfmfcdjoegcckoikn?hl=zh-CN), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gppongmhjkpfnbhagpmjfkannfbllamg)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gppongmhjkpfnbhagpmjfkannfbllamg?style=social)
 
-2. ✅ [FeHelper(前端助手)](https://www.baidufe.com/fehelper) <i id="fehelper"></i> - *JSON自动格式化、手动格式化，支持排序、解码、下载等，更多功能可在配置页按需安装！* [Chrome](https://chrome.google.com/webstore/detail/pkgccpejnmalmdinmhkkfafefagiiiad) [Firefox](https://www.baidufe.com/fehelper/index/index.html?action=install-firefox) [GitHub](https://github.com/zxlie/FeHelper)
+2. [FeHelper(前端助手)](https://www.baidufe.com/fehelper) <i id="fehelper"></i> - *JSON自动格式化、手动格式化，支持排序、解码、下载等，更多功能可在配置页按需安装！* [Chrome](https://chrome.google.com/webstore/detail/pkgccpejnmalmdinmhkkfafefagiiiad), [Firefox](https://www.baidufe.com/fehelper/index/index.html?action=install-firefox), [GitHub Repo](https://github.com/zxlie/FeHelper)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pkgccpejnmalmdinmhkkfafefagiiiad)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pkgccpejnmalmdinmhkkfafefagiiiad?style=social)
-    ![GitHub last commit](https://badgen.net/github/last-commit/zxlie/FeHelper?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/zxlie/FeHelper?color=blue&logo=github)
 
     <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
 
@@ -568,32 +635,28 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
     </details>
 
-3. ✅ [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) - *EditThisCookie是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！* [Chrome](https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg)
+3. [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg) - *EditThisCookie是一个cookie管理器。您可以添加，删除，编辑，搜索，锁定和屏蔽cookies！* [Chrome](https://chrome.google.com/webstore/detail/fngmhnnpilhplaeedifhccceomclgfbg)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fngmhnnpilhplaeedifhccceomclgfbg)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fngmhnnpilhplaeedifhccceomclgfbg?style=social)
   
-4. ✅ [时间戳转化](https://www.crxsoso.com/webstore/detail/ahkgjgnlldlkagonpndejcbhipkealgo) - *鼠标右键格式化时间戳*
+4. [时间戳转化](https://www.crxsoso.com/webstore/detail/ahkgjgnlldlkagonpndejcbhipkealgo) - *鼠标右键格式化时间戳*
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ahkgjgnlldlkagonpndejcbhipkealgo)
 
-5. ✅ [SingleFile](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) - *SingleFile 是一个扩展程序，可帮助您将完整的页面（包含 CSS、图像、字体、框架等）保存为单个 HTML 文件。*
+5. [SingleFile](https://www.crxsoso.com/webstore/detail/mpiodijhokgodhhofbcjdecpffjipkle) - *SingleFile 是一个扩展程序，可帮助您将完整的页面（包含 CSS、图像、字体、框架等）保存为单个 HTML 文件。*
 
-6. ✅ `MobiDevTools` - *A mobile devtools for debugging web sites and applications with the console, DOM, network info, sources, and more.* [Firefox](https://addons.mozilla.org/zh-CN/android/addon/mobidevtools/)
-
-    - 手机浏览器可用
+6. **MobiDevTools** - *A mobile devtools for debugging web sites and applications with the console, DOM, network info, sources, and more.* [Firefox](https://addons.mozilla.org/zh-CN/android/addon/mobidevtools/)
 
 7. 页面取色
 
     1. [TabColor color picker](https://www.crxsoso.com/webstore/detail/kcebljecdacbgcoiajdooincchocggha) - *Extract color codes from opened tabs with TabColor color picker tool*
 
-        - 手机浏览器可用
-
     2. [颜色选择器 - Geco](https://www.crxsoso.com/webstore/detail/eokjikchkppnkdipbiggnmlkahcdkikp) - *从网页抓取颜色，颜色选择器，颜色历史。与颜色选择器，颜色选择，滴管，colorzilla相比，这个更好。*
 
 8. 查看页面源代码（适用于手机端「狐猴浏览器」，电脑端直接右键操作 > 显示网页源代码）
 
-    1. ✅ [View Page Source](https://apps.jeurissen.co/view-page-source) - *Get access to the page source with the click of a button* [Chrome](https://www.crxsoso.com/webstore/detail/lcdkhcclmhdepcmfjmdjehekfdldpbje)
+    1. [View Page Source](https://apps.jeurissen.co/view-page-source) - *Get access to the page source with the click of a button* [Chrome](https://www.crxsoso.com/webstore/detail/lcdkhcclmhdepcmfjmdjehekfdldpbje)
 
     2. [View link source](https://www.crxsoso.com/webstore/detail/kmpjbdkdnehfenbgchigbbmnahcfeidc) - *Add &quot;View link source&quot; to the context menu.*
 
@@ -604,9 +667,11 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 #### URL
 
-1. ✅ `URL Parser` - *Parse Your URL* [Chrome](https://chrome.google.com/webstore/detail/hdcdndiioaocgliphphofdcaiblbhjem)
+1. **URL Parser** - *Parse Your URL* [Chrome](https://chrome.google.com/webstore/detail/hdcdndiioaocgliphphofdcaiblbhjem)
 
 2. [JSON formatter, viewer and URL Encoder tool](https://sites.google.com/view/url-encoder-decoder-extension/home) - *Automatic URL Encoder, Decoder tool with JSON Formatter, Validator and Beautifier features* [Chrome](https://chrome.google.com/webstore/detail/infnlhnhibphpaljmnnadaldibggkokb)
+
+3. [Force Underline](http://www.efojs.com/) - *Chrome extension that enforces underline on all hyperlinks* [Chrome](https://chrome.google.com/webstore/detail/force-underline/mailocoigbmikldobfkikagehcoficho), [Firefox](#), [Edge](#), [Opera](#), [Web](#), [GitHub Repo](#), [Via](#), Mobile Browser (Kiwi)
 
 ### GitHub
 
@@ -616,15 +681,15 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 2. https://github.com/stefanbuck/awesome-browser-extensions-for-github - *A collection of awesome browser extensions for GitHub.* [Website](https://stefanbuck.com/awesome-browser-extensions-for-github)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/stefanbuck/awesome-browser-extensions-for-github?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/stefanbuck/awesome-browser-extensions-for-github?color=blue&logo=github)
 
 扩展程序列表：
 
-1. [Refined GitHub](https://github.com/refined-github/refined-github) - *:octocat: Browser extension that simplifies the GitHub interface and adds useful features* [Chrome](https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf) [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/refined-github-/)
+1. [Refined GitHub](https://github.com/refined-github/refined-github) - *:octocat: Browser extension that simplifies the GitHub interface and adds useful features* [Chrome](https://chrome.google.com/webstore/detail/hlepfoohegkhhmjieoechaddaejaokhf), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/refined-github-/)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/hlepfoohegkhhmjieoechaddaejaokhf)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/hlepfoohegkhhmjieoechaddaejaokhf?style=social)
-    ![GitHub last commit](https://badgen.net/github/last-commit/refined-github/refined-github?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/refined-github/refined-github?color=blue&logo=github)
 
 2. [OctoLinker](https://github.com/OctoLinker/OctoLinker) - *GitHub - OctoLinker/OctoLinker: OctoLinker — Links together, what belongs together* [Chrome](https://chrome.google.com/webstore/detail/jlmafbaeoofdegohdhinkhilhclaklkp)
 
@@ -637,7 +702,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 6. [Enhanced GitHub](https://varunmalhotra.xyz/enhanced-github/) - *Display repo size, size of each file, download link and option to copy file contents* [Chrome](https://chrome.google.com/webstore/detail/anlikcnbgdeidpacdbdljnabclhahhmd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/enhanced-github/), [Edge](https://microsoftedge.microsoft.com/addons/detail/enhanced-github/eibibhailjcnbpjmemmcaakcookdleon), [GitHub Repo](https://github.com/softvar/enhanced-github)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/anlikcnbgdeidpacdbdljnabclhahhmd)
-    ![GitHub last commit](https://badgen.net/github/last-commit/softvar/enhanced-github?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/softvar/enhanced-github?color=blue&logo=github)
 
     - 💡 不支持图片、文件夹的大小显示
 
@@ -657,15 +722,15 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 11. [GitHub File Icons](https://github.com/homerchen19/github-file-icons) - *🌈 🗂 A browser extension which gives different filetypes different icons to GitHub, GitLab, gitea and gogs.* [Chrome](https://chrome.google.com/webstore/detail/kkokonbjllgdmblmbichgkkikhlcnekp)
 
-     ![GitHub last commit](https://badgen.net/github/last-commit/homerchen19/github-file-icons?icon=github&color=blue)
+     ![GitHub last commit](https://img.shields.io/github/last-commit/homerchen19/github-file-icons?color=blue&logo=github)
 
      🏷️ _安装谷歌扩展程序_ 、 _图标 icon_
 
      _**via** [简单三步，让GitHub依照不同文档类型显示不同的图标](https://baijiahao.baidu.com/s?id=1590369276833636579)_
 
-12. [Sourcegraph](https://github.com/sourcegraph/sourcegraph) - *GitHub - sourcegraph/sourcegraph: Code Intelligence Platform* [Chrome](https://chrome.google.com/webstore/detail/dgjhfomjieaadpoljlnidmbgkdffpack) [Website](https://sourcegraph.com/)
+12. [Sourcegraph](https://github.com/sourcegraph/sourcegraph) - *GitHub - sourcegraph/sourcegraph: Code Intelligence Platform* [Chrome](https://chrome.google.com/webstore/detail/dgjhfomjieaadpoljlnidmbgkdffpack), [Website](https://sourcegraph.com/)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/sourcegraph/sourcegraph?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/sourcegraph/sourcegraph?color=blue&logo=github)
 
 ### Markdown
 
@@ -675,94 +740,48 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/elifhakcjgalahccnjkneoccemfahfoa?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/adam-p/markdown-here?color=blue&logo=github)
 
-2. ✅ `MarkDownload - Markdown Web Clipper` - *A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. - deathau/markdownload* [Chrome](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdownload/), [Edge](https://microsoftedge.microsoft.com/addons/detail/hajanaajapkhaabfcofdjgjnlgkdkknm), [GitHub Repo](https://github.com/deathau/markdownload)
+2. **MarkDownload - Markdown Web Clipper** - *A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. - deathau/markdownload* [Chrome](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdownload/), [Edge](https://microsoftedge.microsoft.com/addons/detail/hajanaajapkhaabfcofdjgjnlgkdkknm), [GitHub Repo](https://github.com/deathau/markdownload)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcmpcfapbekmbjjkdalcgopdkipoggdi)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pcmpcfapbekmbjjkdalcgopdkipoggdi?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/deathau/markdownload?color=blue&logo=github)
-    ![Static Badge](https://img.shields.io/badge/Tampermonkey-blue?logo=tampermonkey&labelColor=grey)
-
-    - 手机浏览器可用（Available on Firefox for Android™）
 
 
 ### 钱包
 
-1. ✅ [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn ':id=metamask') - *以太坊浏览器插件* [Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
+1. [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) <i id="metamask"></i> - *以太坊浏览器插件* [Edge](https://microsoftedge.microsoft.com/addons/detail/metamask/ejbalbakoplchlghecdalmeeeajnimhm)
 
-2. ✅ [TronLink（波宝钱包）](https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec) - *The first and most popular TRON wallet. Recommended by TRON Foundation.*
-
-
-### 脚本管理器
-
-1. ✅ [篡改猴](https://www.tampermonkey.net/) - *使用用户脚本自由地改变网络* [Chrome](https://chrome.google.com/webstore/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/), [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta/)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/dhdgffkkebhmkfjojejmpbldmpobfkfo) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/dhdgffkkebhmkfjojejmpbldmpobfkfo?style=social)
-
-    - 手机浏览器可用
-
-2. ✅ [暴力猴](https://violentmonkey.github.io/) - *一个开源的用户脚本管理器，支持很多浏览器* [Chrome](https://chrome.google.com/webstore/detail/jinjaccalgkegednnccohejagnlnfdag) [GitHub](https://github.com/violentmonkey/violentmonkey)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jinjaccalgkegednnccohejagnlnfdag) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jinjaccalgkegednnccohejagnlnfdag?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/violentmonkey/violentmonkey?icon=github&color=blue)
-
-3. ✅ [ScriptCat](https://docs.scriptcat.org/) - *脚本猫,一个可以执行用户脚本的浏览器扩展,万物皆可脚本化,让你的浏览器可以做更多的事情!* [Chrome](https://chrome.google.com/webstore/detail/scriptcat/ndcooeababalnlpkfedmmbbbgkljhpjf) [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/scriptcat/) [Edge](https://microsoftedge.microsoft.com/addons/detail/scriptcat/liilgpjgabokdklappibcjfablkpcekh) [GitHub Repo](https://github.com/scriptscat/scriptcat)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ndcooeababalnlpkfedmmbbbgkljhpjf)
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ndcooeababalnlpkfedmmbbbgkljhpjf?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/scriptscat/scriptcat?color=blue&logo=github)
-    ![Static Badge](https://img.shields.io/badge/Tampermonkey-blue?logo=tampermonkey&labelColor=grey)
-
-    - 手机浏览器可用
+2. [TronLink（波宝钱包）](https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec) - *The first and most popular TRON wallet. Recommended by TRON Foundation.*
 
 
 ### 下载工具
 
-1. ✅ [Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn) - *最好用的 Chrome 下载管理（支持资源嗅探）*
+1. [Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn) - *最好用的 Chrome 下载管理（支持资源嗅探）*
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
   
-2. ✅ [视频下载器 - CoCoCut](https://www.crxsoso.com/webstore/detail/gddbgllpilhpnjpkdbopahnpealaklle) - _Chrome专业视频下载器和音乐下载器,可以 在线下载视频、音乐。免费、安全、简单易用。_
+2. [视频下载器 - CoCoCut](https://www.crxsoso.com/webstore/detail/gddbgllpilhpnjpkdbopahnpealaklle) - _Chrome专业视频下载器和音乐下载器,可以 在线下载视频、音乐。免费、安全、简单易用。_
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gddbgllpilhpnjpkdbopahnpealaklle) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gddbgllpilhpnjpkdbopahnpealaklle?style=social)
 
 3. 🧪[M3U8 Downloader](https://www.crxsoso.com/webstore/detail/pibnhedpldjakfpnfkabbnifhmokakfb) - *You can download m3u8 live stream video.*
 
 
-### 书签同步
-
-1. ✅ [EverSync - Sync bookmarks, backup favorites](https://chrome.google.com/webstore/detail/eversync-sync-bookmarks-b/iohcojnlgnfbmjfjfkbhahhmppcggdog) - *Synchronize your bookmarks, FVD Speed Dials. Secure online access. Backup, restore your bookmarks. Sync favorites between computers* [Chrome](https://chrome.google.com/webstore/detail/iohcojnlgnfbmjfjfkbhahhmppcggdog)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=flat) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/iohcojnlgnfbmjfjfkbhahhmppcggdog?style=social)
-
-2. [xBrowserSync](https://github.com/xbrowsersync) - *xBrowserSync - Browser syncing as it should be: secure, anonymous and free!* [Chrome](https://chrome.google.com/webstore/detail/lcbjdhceifofjlpecfpeimnnphbcjgnc)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lcbjdhceifofjlpecfpeimnnphbcjgnc?style=flat)
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lcbjdhceifofjlpecfpeimnnphbcjgnc?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/xbrowsersync/app?color=blue&logo=github)
-
-3. [BookmarkHub](https://github.com/dudor/BookmarkHub) - *BookmarkHub is a browser plug-in that can synchronize your bookmarks between different browsers.* [Chrome](https://chrome.google.com/webstore/detail/fohimdklhhcpcnpmmichieidclgfdmol)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fohimdklhhcpcnpmmichieidclgfdmol?style=flat)
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fohimdklhhcpcnpmmichieidclgfdmol?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/dudor/BookmarkHub?color=blue&logo=github)
-
-
 ### 网络管理
 
 #### HTTP/URL
 
-1. ✅ [Redirector](https://einaregilsson.com/redirector/) - *Automatically redirect content based on user-defined rules.* [Chrome](https://chrome.google.com/webstore/detail/ocgpenflpmgnfapjedencafcfakcekcd), [Firefox](https://www.crxsoso.com/firefox/detail/redirector), [GitHub Repo](https://github.com/einaregilsson/Redirector)
+1. [Redirector](https://einaregilsson.com/redirector/) - *Automatically redirect content based on user-defined rules.* [Chrome](https://chrome.google.com/webstore/detail/ocgpenflpmgnfapjedencafcfakcekcd), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/redirector/), [GitHub Repo](https://github.com/einaregilsson/Redirector), Mobile Browser (Firefox, ~~Edge~~, Kiwi)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ocgpenflpmgnfapjedencafcfakcekcd) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ocgpenflpmgnfapjedencafcfakcekcd?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/einaregilsson/Redirector?icon=github&color=blue)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ocgpenflpmgnfapjedencafcfakcekcd) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ocgpenflpmgnfapjedencafcfakcekcd?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/einaregilsson/Redirector?color=blue&logo=github)
 
-    - ⚠️ 无法重定向地址：`https://chrome.google.com/`
+    - 💡 无法重定向地址：`https://chrome.google.com/`
 
-    - 手机浏览器可用（Available on Firefox for Android™）
+2. [Gooreplacer](https://github.com/jiacai2050/gooreplacer) <i id="gooreplacer"></i> *⚡️⚡️A browser extension to modify HTTP requests :-)* [Chrome](https://chrome.google.com/webstore/detail/jnlkjeecojckkigmchmfoigphmgkgbip), [GitHub Repo](https://github.com/jiacai2050/gooreplacer)
 
-2. ✅ [Gooreplacer](https://github.com/jiacai2050/gooreplacer ':id=gooreplacer') *⚡️⚡️A browser extension to modify HTTP requests :-)* [Chrome](https://chrome.google.com/webstore/detail/jnlkjeecojckkigmchmfoigphmgkgbip), [GitHub Repo](https://github.com/jiacai2050/gooreplacer)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/jiacai2050/gooreplacer?color=blue&logo=github)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jnlkjeecojckkigmchmfoigphmgkgbip) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jnlkjeecojckkigmchmfoigphmgkgbip?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/jiacai2050/gooreplacer?icon=github&color=blue)
-
-    ⚠️ 无法重定向地址：`https://chrome.google.com/`
+    💡 无法重定向地址：`https://chrome.google.com/`
 
     <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
 
@@ -786,38 +805,36 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
     
     </details>
 
-3. ✅ [ClearURLs](https://docs.clearurls.xyz/) - *ClearURLs is an add-on based on the new WebExtensions technology and will automatically remove tracking elements from URLs to help protect your privacy.* [Chrome](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk), [Firefox](https://addons.mozilla.org/firefox/addon/clearurls/), [Edge](https://microsoftedge.microsoft.com/addons/detail/mdkdmaickkfdekbjdoojfalpbkgaddei), [GitHub Repo](https://github.com/ClearURLs/Addon)
+3. [ClearURLs](https://docs.clearurls.xyz/) - *ClearURLs is an add-on based on the new WebExtensions technology and will automatically remove tracking elements from URLs to help protect your privacy.* [Chrome](https://chrome.google.com/webstore/detail/clearurls/lckanjgmijmafbedllaakclkaicjfmnk), [Firefox](https://addons.mozilla.org/firefox/addon/clearurls/), [Edge](https://microsoftedge.microsoft.com/addons/detail/mdkdmaickkfdekbjdoojfalpbkgaddei), [GitHub Repo](https://github.com/ClearURLs/Addon)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lckanjgmijmafbedllaakclkaicjfmnk)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lckanjgmijmafbedllaakclkaicjfmnk?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/ClearURLs/Addon?color=blue&logo=github)
 
-    - 手机浏览器可用
-
     - 测试链接：<https://getpocket.com/zh/collections?utm_source=www.mozilla.org&utm_campaign=homepage&utm_medium=referral&_gl=1*10ctwb5*_ga*OTIzMjc0MTM1LjE2OTMyNTE1OTg.*_ga_MQ7767QQQW*MTcwNTU1NDA1MS4zLjEuMTcwNTU1NDk3My4wLjAuMA..>
 
 #### CDN
 
-1. ✅ [Replace Google CDN](https://www.crxsoso.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice) - *♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。* [Chrome](https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/google-cdn-replace/), [Firefox-forked](https://addons.mozilla.org/zh-CN/firefox/addon/replace-google-cdn/), [GitHub Repo](https://github.com/justjavac/ReplaceGoogleCDN)
+1. [Replace Google CDN](https://www.crxsoso.com/webstore/detail/kpampjmfiopfpkkepbllemkibefkiice) <i id="kpampjmfiopfpkkepbllemkibefkiice"></i> - *♋ 一个 Chrome 插件：将 Google CDN 替换为国内的。* [Chrome](https://chrome.google.com/webstore/detail/replace-google-cdn/kpampjmfiopfpkkepbllemkibefkiice), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/google-cdn-replace/), [Firefox-forked](https://addons.mozilla.org/zh-CN/firefox/addon/replace-google-cdn/), [GitHub Repo](https://github.com/justjavac/ReplaceGoogleCDN)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/justjavac/ReplaceGoogleCDN?icon=github&color=blue)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/kpampjmfiopfpkkepbllemkibefkiice) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/kpampjmfiopfpkkepbllemkibefkiice?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/justjavac/ReplaceGoogleCDN?color=blue&logo=github)
 
-2. ✅ [LocalCDN](https://www.localcdn.org/) - *将请求重定向到本地资源，保护你免于 CDN（内容分发网络）的跟踪。* [Chrome](https://chrome.google.com/webstore/detail/njdfdhgcmkocbgbhcioffdbicglldapd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/), [Source Code](https://codeberg.org/nobody/LocalCDN)
+2. [LocalCDN](https://www.localcdn.org/) - *将请求重定向到本地资源，保护你免于 CDN（内容分发网络）的跟踪。* [Chrome](https://chrome.google.com/webstore/detail/njdfdhgcmkocbgbhcioffdbicglldapd), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/localcdn-fork-of-decentraleyes/), [Source Code](https://codeberg.org/nobody/LocalCDN)
 
 #### Proxy
 
-1. ✅ [Proxy SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega ":id=proxy-switchyomega") - *轻松快捷地管理和切换多个代理设置。* [Chrome](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/), [GitHub Repo](https://github.com/FelisCatus/SwitchyOmega), [更多内容](os/tools/vpn#proxy-switchyomega-🔥)
+1. [Proxy SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) <i id="proxy-switchyomega"></i> - *轻松快捷地管理和切换多个代理设置。* [Chrome](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/), [GitHub Repo](https://github.com/FelisCatus/SwitchyOmega), [更多内容](os/tools/vpn#proxy-switchyomega-🔥)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/FelisCatus/SwitchyOmega?icon=github&color=blue)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/padekgcemlokbadohgkifijomclgjgif) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/padekgcemlokbadohgkifijomclgjgif?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/FelisCatus/SwitchyOmega?color=blue&logo=github)
 
 2. [FoxyProxy Standard](http://getfoxyproxy.org/) - *FoxyProxy是一个高级的代理管理工具，它完全替代了Firefox有限的代理功能。它提供比SwitchProxy、ProxyButton、 QuickProxy、xyzproxy、ProxyTex、TorButton等等更多的功能。* [Chrome](https://chrome.google.com/webstore/detail/gcknhkkoolaabfmlnjonogaaifnjlfnp), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/foxyproxy-standard/), [GitHub Repo](https://github.com/foxyproxy/browser-extension)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/foxyproxy/browser-extension?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/foxyproxy/browser-extension?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/foxyproxy/browser-extension?style=social)
 
-3. ✅ [Chrome同步助手](https://www.crxsoso.com/webstore/detail/gbkepcmpjglfonklehdgjnimebhnmlel ':id=chrome-sync-helper') - *实现Chrome账号同步和扩展自动更新。* [Chrome](https://chrome.google.com/webstore/detail/gbkepcmpjglfonklehdgjnimebhnmlel)
+3. [Chrome同步助手](https://www.crxsoso.com/webstore/detail/gbkepcmpjglfonklehdgjnimebhnmlel) <i id="chrome-sync-helper"></i> - *实现Chrome账号同步和扩展自动更新。* [Chrome](https://chrome.google.com/webstore/detail/gbkepcmpjglfonklehdgjnimebhnmlel)
 
-4. ✅ [CroxyProxy Free Web Proxy](https://www.croxyproxy.com/) - *CroxyProxy is free and reliable web proxy service. Access your favorite resources such as Youtube, Facebook, Gmail, Google!* [Chrome](https://chrome.google.com/webstore/detail/lmmpgfjnchldhcieiiegcpdmaidkaanb)
+4. [CroxyProxy Free Web Proxy](https://www.croxyproxy.com/) - *CroxyProxy is free and reliable web proxy service. Access your favorite resources such as Youtube, Facebook, Gmail, Google!* [Chrome](https://chrome.google.com/webstore/detail/lmmpgfjnchldhcieiiegcpdmaidkaanb)
 
 5. [ZenMate Free VPN–Best VPN for Chrome](https://chrome.google.com/webstore/detail/zenmate-free-vpn%E2%80%93best-vpn/fdcgdnkidjaadafnichfpabhfomcebme) - *ZenMate Free VPN 是一款用于 Chrome 的免费 vpn，用于隐藏您的 IP 地址* [Chrome](https://chrome.google.com/webstore/detail/fdcgdnkidjaadafnichfpabhfomcebme)
 
@@ -828,19 +845,19 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 1. [DNS Checker - SEO and Domain Analysis](https://www.crxsoso.com/webstore/detail/gegfpbhjnhegdnjdkghhnneaocdbbhjp) - *SEO and Domain Analysis Tool by DNS Checker. Provides SEO Report, Meta Redirects and 404s, Client IP, Domain IP & Geo Location, etc*
 
-2. ✅ [Country Flags & IP Whois](https://add0n.com/country-flags.html)（[Website 1](https://webextension.org/listing/country-flags.html)） - *显示网站服务器位置的国旗、Whois 和地理信息* [Chrome](https://chrome.google.com/webstore/detail/bffjckjhidlcnenenacdahhpbacpgapo) [Firefox](https://addons.mozilla.org/en-US/firefox/addon/country-flags-ip-whois/) [Edge](https://microsoftedge.microsoft.com/addons/detail/country-flags-ip-whois/hmkmedgmocnmelekbdpogdpednpfjdne) [Opera](https://addons.opera.com/en/extensions/details/country-flags-ip-whois/) [GitHub](https://github.com/andy-portmen/country-flags)
+2. [Country Flags & IP Whois](https://add0n.com/country-flags.html)（[Website 1](https://webextension.org/listing/country-flags.html)） - *显示网站服务器位置的国旗、Whois 和地理信息* [Chrome](https://chrome.google.com/webstore/detail/bffjckjhidlcnenenacdahhpbacpgapo), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/country-flags-ip-whois/), [Edge](https://microsoftedge.microsoft.com/addons/detail/country-flags-ip-whois/hmkmedgmocnmelekbdpogdpednpfjdne), [Opera](https://addons.opera.com/en/extensions/details/country-flags-ip-whois/), [GitHub Repo](https://github.com/andy-portmen/country-flags)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bffjckjhidlcnenenacdahhpbacpgapo)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/bffjckjhidlcnenenacdahhpbacpgapo?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/andy-portmen/country-flags?color=blue&logo=github)
 
-3. ✅ [Flagfox](https://flagfox.wordpress.com/) - *显示描述当前服务器位置的国旗。* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/flagfox/)
+3. [Flagfox](https://flagfox.wordpress.com/) - *显示描述当前服务器位置的国旗。* [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/flagfox/)
 
 ### SEO
 
-1. ✅ [SEO META 1 COPY](https://macha795.com/addon-seo-meta-1-copy/) - *This is an extension that allows you to easily check SEO-related meta information and copy it with one click.* [Chrome](https://chrome.google.com/webstore/detail/eblbmdomppeajmpblgeppodbkfnonppc), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/seo-meta-1-copy/) 👉 *未开启 Proxy 时，可搭配 [Chrome同步助手](#chrome-sync-helper) 使用*
+1. [SEO META 1 COPY](https://macha795.com/addon-seo-meta-1-copy/) - *This is an extension that allows you to easily check SEO-related meta information and copy it with one click.* [Chrome](https://chrome.google.com/webstore/detail/eblbmdomppeajmpblgeppodbkfnonppc), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/seo-meta-1-copy/) 👉 *未开启 Proxy 时，可搭配 [Chrome同步助手](#chrome-sync-helper) 使用*
 
-2. ✅ [Detailed SEO Extension](https://detailed.com/extension/) - *Get SEO insights at the click of a button to any website you're currently on. Built by full-time SEO's for daily analysis.* [Chrome](https://chrome.google.com/webstore/detail/pfjdepjjfjjahkjfpkcgfmfhmnakjfba), [Firefox](https://www.crxsoso.com/firefox/detail/detailed-seo-extension)
+2. [Detailed SEO Extension](https://detailed.com/extension/) - *Get SEO insights at the click of a button to any website you're currently on. Built by full-time SEO's for daily analysis.* [Chrome](https://chrome.google.com/webstore/detail/pfjdepjjfjjahkjfpkcgfmfhmnakjfba), [Firefox](https://www.crxsoso.com/firefox/detail/detailed-seo-extension)
 
 3. [Blue Button | the webpage X-ray](https://www.crxsoso.com/webstore/detail/ahbcoeleapdfhmlnjglbiaddohfncace) - *See title tags & meta description, scripts, stylesheets, images & fonts* [Chrome](https://chrome.google.com/webstore/detail/ahbcoeleapdfhmlnjglbiaddohfncace)
 
@@ -849,13 +866,17 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 ### 主题
 
-1. ✅ [Dark Reader](https://darkreader.org/) - *Enable dark mode (night mode) on all websites* [Chrome](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh/), [Firefox](https://addons.mozilla.org/firefox/addon/darkreader/), [Edge](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc/), [GitHub Repo](https://github.com/darkreader/darkreader)
+1. [Dark Reader](https://darkreader.org/) - *Enable dark mode (night mode) on all websites* [Chrome](https://chrome.google.com/webstore/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh/), [Firefox](https://addons.mozilla.org/firefox/addon/darkreader/), [Edge](https://microsoftedge.microsoft.com/addons/detail/dark-reader/ifoakfbpdcdoeenechcleahebpibofpc/), [GitHub Repo](https://github.com/darkreader/darkreader), Mobile Browser (Firefox, Edge, Kiwi)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/eimadpbcbfnmbkopoojfekhnkhdbieeh)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/eimadpbcbfnmbkopoojfekhnkhdbieeh?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/darkreader/darkreader?color=blue&logo=github)
 
-    - 手机浏览器可用
+
+2. [Stylish](https://userstyles.org/) - *Stylish is the #1 choice for free website themes that lets you customize any website. Choose your website skins today from our gallery and get Styling!* [Chrome](https://chromewebstore.google.com/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/stylish/), [Edge](https://microsoftedge.microsoft.com/addons/detail/stylish-custom-themes-f/pibpbbbcgeakmkmhgnllkkjdgpoabdge?hl=en-GB), [Opera](#), [Web](#), [GitHub Repo](#), [Via](#), [Tampermonkey](#), Mobile Browser (~~Firefox~~, ~~Edge~~, Kiwi)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/fjnbnpbmkenffdnngjfgmeleoegfcffe)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/fjnbnpbmkenffdnngjfgmeleoegfcffe?style=social)
 
 
 ### 其他
@@ -868,12 +889,11 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 4. [MultiLogin](https://www.crxsoso.com/webstore/detail/ijfgglilaeakmoilplpcjcgjaoleopfi) - *Using websites with multiple accounts at the same time is made easy. Create an independent tab with a click of a button.*
 
-5. ✅ `为什么你们就是不能加个空格呢？` - *自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。（摊手）没办法，我大处女座都有强迫症。* [Chrome](https://chrome.google.com/webstore/detail/paphcfdffjnbcgkokihcdjliihicmbpd), [Firefox](https://github.com/vinta/pangu.js/blob/master/browser_extensions/firefox/paranoid-auto-spacing.user.js), [GitHub Repo](https://github.com/vinta/pangu.js), [jsDelivr](https://cdn.jsdelivr.net/gh/vinta/pangu.js/)
+5. **为什么你们就是不能加个空格呢？** - *自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。（摊手）没办法，我大处女座都有强迫症。* [Chrome](https://chrome.google.com/webstore/detail/paphcfdffjnbcgkokihcdjliihicmbpd), [Firefox](https://github.com/vinta/pangu.js/blob/master/browser_extensions/firefox/paranoid-auto-spacing.user.js), [GitHub Repo](https://github.com/vinta/pangu.js), [Tampermonkey](https://cdn.jsdelivr.net/gh/vinta/pangu.js@4.0.7/browser_extensions/firefox/paranoid-auto-spacing.user.js), [jsDelivr](https://cdn.jsdelivr.net/gh/vinta/pangu.js/)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/paphcfdffjnbcgkokihcdjliihicmbpd)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/paphcfdffjnbcgkokihcdjliihicmbpd?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/vinta/pangu.js?color=blue&logo=github)
-    ![Static Badge](https://img.shields.io/badge/Tampermonkey-blue?logo=tampermonkey&labelColor=grey)
 
 
 ## 备注

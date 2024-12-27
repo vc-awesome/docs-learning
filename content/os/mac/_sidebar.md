@@ -1,5 +1,5 @@
 * [macOS](os/mac/README.md)
-* [Developer](os/mac/developer.md)
+  * [Developer](os/mac/developer.md)
 * **工具**
   * [Alfred](os/mac/alfred.md)
   * [Homebrew](os/mac/homebrew.md)

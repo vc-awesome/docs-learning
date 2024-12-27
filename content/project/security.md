@@ -19,6 +19,9 @@
 - 多账户
 - 两步登录
 
+https://mp.weixin.qq.com/s/FlImoxbQQpeH0rvl88kCSg - *零售电商类微信小程序安全防护要点指南*
+
 ## 法律
 
-https://mp.weixin.qq.com/s/tlhUMrIIHA8l7Nk9xGDKiw - *只因写了一段爬虫，公司200多人被抓！*
+1. https://mp.weixin.qq.com/s/tlhUMrIIHA8l7Nk9xGDKiw - *只因写了一段爬虫，公司200多人被抓！*
+2. https://lawrefbook.github.io/ - *首页 | 中国法律快查手册*

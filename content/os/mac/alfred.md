@@ -28,6 +28,10 @@ https://www.alfredapp.com/help/features/file-search/ - *File Search - Alfred Hel
 
 https://www.alfredapp.com/help/features/web-search/ - *Web Search, Custom Search & URLs/History - Alfred Help and Support*
 
+#### Web Bookmarks
+
+https://www.alfredapp.com/help/features/bookmarks/ - *Browser Bookmarks - Alfred Help and Support*
+
 #### Clipboard History
 
 https://www.alfredapp.com/help/features/clipboard/ - *Clipboard History - Alfred Help and Support*
@@ -56,7 +60,7 @@ collections:
 
 https://www.alfredapp.com/workflows/ - *Alfred Workflows - Extend Alfred and Boost Your Productivity*
 
-#### GitHub
+#### GitHub Repo
 
 1. https://github.com/vitorgalvao/alfred-workflows - *GitHub - vitorgalvao/alfred-workflows: Collection of Alfred workflows*
 
@@ -70,6 +74,19 @@ https://www.alfredapp.com/workflows/ - *Alfred Workflows - Extend Alfred and Boo
     ![GitHub last commit](https://badgen.net/github/last-commit/learn-anything/alfred-workflows?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/learn-anything/alfred-workflows?style=social)
 
+3. https://github.com/deanishe/alfred-firefox - *GitHub - deanishe/alfred-firefox: Search and control Firefox from Alfred*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/deanishe/alfred-firefox?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deanishe/alfred-firefox?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deanishe/alfred-firefox?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/deanishe/alfred-firefox?style=social)
+
+    参考：
+
+    1. https://blog.gitcode.com/8df665136bc15aeaa3a7d4a31b8c22e9.html - *使用Alfred与Firefox无缝集成的超强助手 - GitCode博客*
+    2. https://www.showapi.com/news/article/66ac6f964ddd79f11a002fc6 - *Alfred搜索Firefox收藏夹、历史记录和标签页的高效方法-易源AI资讯 | 万维易源*
+    3. https://anotherdayu.com/2022/3500/ - *macOS | 2024 Alfred 5 基础设置和 Worklfow 推荐【持续更新】 - Another Dayu*
+
 #### Alfred Gallery
 
 > The official source for Alfred workflows
@@ -82,6 +99,7 @@ https://alfred.app/ - *Alfred Gallery*
 2. https://alfred.app/workflows/alanhe/about-mac/ - *Alfred Gallery • Workflows • About Mac*
 3. https://alfred.app/workflows/zbrl/template-file/ - *Alfred Gallery • Workflows • Template File*
 4. https://alfred.app/workflows/vitor/coffee-coffee/ - *Alfred Gallery • Workflows • Coffee Coffee*
+5. https://alfred.app/workflows/alexchantastic/ip-address/ - *Alfred Gallery • Workflows • IP Address*
 
 #### Packal
 

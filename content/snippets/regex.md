@@ -22,15 +22,53 @@ https://regex101.com/r/8oFHrM/1 - *regex101: build, test, and debug regex*
 4. 在替换内容中输入：`$2 - *$1*`；
 5. 点击回车键 <kbd>Enter</kbd>（ 即键盘按键 <kbd>↵</kbd> ）进行逐个替换。
 
-Emacs:
+Acode：
 
-```regex
-\[\([^]]+\)\](\([^)]+\))
-```
+- 查找内容
 
-```regex
-\2 - *\1*
-```
+    ```regex
+    \[([^\]]+)\]\(([^\(]+)\)
+    ```
+
+- 替换内容
+
+    ```regex
+    $2 - *$1*
+    ```
+
+Emacs：
+
+- 查找内容
+
+    ```regex
+    \[\([^]]+\)\](\([^)]+\))
+    ```
+
+- 替换内容
+
+    ```regex
+    \2 - *\1*
+    ```
+
+Vim：
+
+- 查找内容
+
+    ```regex
+    \[\([^]]\+\)\](\([^)]\+\))
+    ```
+
+- 替换内容
+
+    ```regex
+    \2 - *\1*
+    ```
+
+- 替换语句
+
+    ```regex
+    :%s/\[\([^]]\+\)\](\([^)]\+\))/\2 - *\1*/gc
+    ```
 
 ### 中文与英文之间添加空格
 
@@ -79,5 +117,25 @@ https:\/\/badgen.net\/github\/last-commit\/([^\?]*)\?icon=github&color=blue
 替换内容：
 
 ```regex
-https://img.shields.io/github/last-commit/$1?color=blue&logo=github
+https:\/\/img.shields.io\/github\/last-commit\/$1?color=blue&logo=github
 ```
+
+Vim：
+
+- 查找内容
+
+    ```regex
+    https:\/\/badgen.net\/github\/last-commit\/\([^?]*\)?icon=github&color=blue
+    ```
+
+- 替换内容
+
+    ```regex
+    https:\/\/img.shields.io\/github\/last-commit\/\1?color=blue\&logo=github
+    ```
+
+- 替换语句
+
+    ```regex
+    :%s/https:\/\/badgen.net\/github\/last-commit\/\([^?]*\)?icon=github&color=blue/https:\/\/img.shields.io\/github\/last-commit\/\1?color=blue\&logo=github/gc
+    ```

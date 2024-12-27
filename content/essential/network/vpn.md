@@ -31,17 +31,17 @@ GitHub：
 
 1. 👏 https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙* [Wiki](https://github.com/Alvin9999/new-pac/wiki)
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/Alvin9999/new-pac?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/Alvin9999/new-pac?color=blue&logo=github)
    ![GitHub Repo stars](https://img.shields.io/github/stars/Alvin9999/new-pac?style=social)
 
 2. https://github.com/crifan/scientific_network_summary - *总结关于科学上网的概念方法及工具*
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/crifan/scientific_network_summary?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/crifan/scientific_network_summary?color=blue&logo=github)
    ![GitHub Repo stars](https://img.shields.io/github/stars/crifan/scientific_network_summary?style=social)
 
 3. https://github.com/hoochanlon/w3-goto-world - *🍅 Git/AWS/Google 镜像 ,SS/SSR/VMESS节点,WireGuard,IPFS, DeepWeb,Capitalism 、行业研究报告的知识储备库*
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/hoochanlon/w3-goto-world?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/hoochanlon/w3-goto-world?color=blue&logo=github)
    ![GitHub Repo stars](https://img.shields.io/github/stars/hoochanlon/w3-goto-world?style=social)
 
 4. https://github.com/hoochanlon/fq-book - *GitHub - hoochanlon/fq-book: 📖《网络代理与VPN应用详解》 详细阐述代理、隧道、VPN运作过程，并对GFW策略如：地址端口封锁、服务器缓存投毒、数字验证攻击、SSL连接阻断做相关的原理说明* [Website](https://hoochanlon.github.io/fq-book)
@@ -56,7 +56,7 @@ GitHub：
 
 6. ~~https://github.com/xiaoming2028/FreePAC - *科学上网/翻墙梯子/自由上网/SS/SSR/V2Ray/Brook 搭建教程 免费机场、VPN工具*~~
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/xiaoming2028/FreePAC?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/xiaoming2028/FreePAC?color=blue&logo=github)
    ![GitHub Repo stars](https://img.shields.io/github/stars/xiaoming2028/FreePAC?style=social)
 
 ## Account
@@ -75,7 +75,7 @@ GitHub：
 
 https://github.com/free-ss/free-ss.site - *GitHub - free-ss/free-ss.site: 关于 free-ss.site 网站的介绍*
 
-![GitHub last commit](https://badgen.net/github/last-commit/free-ss/free-ss.site?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/free-ss/free-ss.site?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/free-ss/free-ss.site?style=social)
 
 常见问题：
@@ -131,7 +131,7 @@ GitHub*
 
 3. ~~https://github.com/freefq/free - *翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子 - freefq/free* [GitHub User](https://github.com/freefq)~~
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/freefq/free?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/freefq/free?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/freefq/free?style=social)
 
     - 订阅地址：
@@ -144,7 +144,7 @@ GitHub*
 4. https://github.com/freenodes/freenodes - *GitHub - freenodes/freenodes:
 免费梯子🪜 免费科学上网🛜免费翻墙🧱免费订阅♻️免费代理✨ 免费节点🆓免费机场✈️4 小时更新⌚️一键订阅📪*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/freenodes/freenodes?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/freenodes/freenodes?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/freenodes/freenodes?style=social)
 
     - 在手机应用「Clash for Android」中填写配置信息
@@ -161,7 +161,7 @@ GitHub*
 
 2. https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy#subscription-links - *GitHub - WilliamStar007/ClashX-V2Ray-TopFreeProxy: Top free VPN (ClashX & V2Ray proxy) with subscription links. [免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray 教程]*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/WilliamStar007/ClashX-V2Ray-TopFreeProxy?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/WilliamStar007/ClashX-V2Ray-TopFreeProxy?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/WilliamStar007/ClashX-V2Ray-TopFreeProxy?style=social)
 
     - 在手机应用「Clash for Android」中填写配置信息
@@ -198,12 +198,12 @@ GitHub*
 
 2. https://github.com/proxifly/free-proxy-list - *GitHub - proxifly/free-proxy-list: 🚀 Free HTTP, SOCKS4, & SOCKS5 Proxy List. Updated every 5 minutes* [Website](https://proxifly.dev/)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/proxifly/free-proxy-list?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/proxifly/free-proxy-list?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/proxifly/free-proxy-list?style=social)
 
 3. https://github.com/TheSpeedX/PROXY-List - *GitHub - TheSpeedX/PROXY-List: Get PROXY List that gets updated everyday*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/TheSpeedX/PROXY-List?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/TheSpeedX/PROXY-List?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/TheSpeedX/PROXY-List?style=social)
 
 ### Purchases
@@ -218,7 +218,7 @@ GitHub*
 
 1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/xiaoshoudian/xiazai?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/xiaoshoudian/xiazai?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/xiaoshoudian/xiazai?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/xiaoshoudian/xiazai?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/xiaoshoudian/xiazai?style=social)
@@ -243,13 +243,13 @@ https://github.com/v2ray - *Project V · GitHub*
 
 1. https://github.com/yanue/V2rayU - *GitHub - yanue/V2rayU: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/yanue/V2rayU?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/yanue/V2rayU?color=blue&logo=github)
 
     - 支持 macOS
 
 2. https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, support Xray core and v2fly core and others*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/2dust/v2rayN?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayN?color=blue&logo=github)
 
     - 支持 Windows
 
@@ -293,7 +293,7 @@ https://github.com/v2ray - *Project V · GitHub*
 
 2. https://github.com/ToutyRater/v2ray-guide
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/ToutyRater/v2ray-guide?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ToutyRater/v2ray-guide?color=blue&logo=github)
 
     - https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
 
@@ -307,11 +307,12 @@ https://github.com/v2fly - *V2Fly · GitHub*
 
 1. https://github.com/v2fly/v2fly-github-io - *GitHub - v2fly/v2fly-github-io: V2Fly Website & Documentation* [Website🪜](https://www.v2fly.org)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/v2fly/v2fly-github-io?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+    ![GitHub last
+    commit](https://img.shields.io/github/last-commit/v2fly/v2fly-github-io?color=blue&logo=github)
 
 2. https://github.com/v2fly/v2ray-step-by-step - *GitHub - v2fly/v2ray-step-by-step: This repo is a fork of ToutyRater/v2ray-guide, we aim to provide a new step-by-step guide of v2ray* [Website🪜](https://guide.v2fly.org)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/v2fly/v2ray-step-by-step?icon=github&color=blue&ynotemdtimestamp=1669997210647)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/v2fly/v2ray-step-by-step?color=blue&logo=github)
 
 ##### DNS
 
@@ -471,7 +472,7 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 1. https://github.com/TheTorProject/gettorbrowser
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/TheTorProject/gettorbrowser?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/TheTorProject/gettorbrowser?color=blue&logo=github)
 
 2. https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
 
@@ -487,7 +488,7 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 > 轻松快捷地管理和切换多个代理设置。
 
-![GitHub last commit](https://badgen.net/github/last-commit/FelisCatus/SwitchyOmega?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/FelisCatus/SwitchyOmega?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/FelisCatus/SwitchyOmega?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/FelisCatus/SwitchyOmega?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/FelisCatus/SwitchyOmega?style=social)
@@ -539,6 +540,8 @@ Support browsers:
 
 ### Web Proxy
 
+搜索词：`web proxy`
+
 #### Free Proxy Sites
 
 https://privacysavvy.com/security/safe-browsing/best-free-proxy-sites/ - *31 Best Free Proxy Sites to Surf Anonymously Online in 2023 - PrivacySavvy*
@@ -588,12 +591,12 @@ https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy bas
 
 1. https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/gfwlist/gfwlist?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/gfwlist/gfwlist?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/gfwlist/gfwlist?style=social)
 
 2. https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/petronny/gfwlist2pac?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/petronny/gfwlist2pac?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/petronny/gfwlist2pac?style=social)
 
 gfwlist2hosts：

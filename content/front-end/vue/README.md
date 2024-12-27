@@ -6,15 +6,13 @@
 
 ![npm](https://img.shields.io/npm/v/vue?logo=npm)
 
-## 教程
-
-https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started - *开始使用 Vue - 学习 Web 开发 | MDN*
-
 ## 官方
 
 https://vuejs.org/ - *Vue.js - The Progressive JavaScript Framework | Vue.js*
 
 https://github.com/vuejs - *Vue · GitHub*
+
+https://github.com/vuejs/awesome-vue - *GitHub - vuejs/awesome-vue: 🎉 A curated list of awesome things related to Vue.js*
 
 ### v3.x
 
@@ -27,8 +25,6 @@ https://cn.vuejs.org/ - *Vue.js - 渐进式 JavaScript 框架 | Vue.js*
 
 https://github.com/vuejs/core - *GitHub - vuejs/core: 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.*
 
-https://www.runoob.com/vue3/vue3-tutorial.html - *Vue3 教程 | 菜鸟教程*
-
 ### v2.x
 
 ![GitHub last commit](https://badgen.net/github/last-commit/vuejs/vue?icon=github&color=blue)
@@ -40,13 +36,27 @@ https://v2.cn.vuejs.org/ - *Vue.js*
 
 https://github.com/vuejs/vue - *GitHub - vuejs/vue: This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core*
 
+## 教程
+
+https://developer.mozilla.org/zh-CN/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Vue_getting_started - *开始使用 Vue - 学习 Web 开发 | MDN*
+
 https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
+
+https://www.runoob.com/vue3/vue3-tutorial.html - *Vue3 教程 | 菜鸟教程*
 
 ## 安装
 
+v2.x：
+
+https://v2.cn.vuejs.org/v2/guide/installation.html - *安装 — Vue.js*
+
+v3.x：
+
+https://cn.vuejs.org/guide/quick-start.html - *快速上手 | Vue.js*
+
 ### 通过 npm 安装
 
-使用 npm 安装（安装的 nodejs 环境中内含 npm 指令）
+使用 npm 安装（安装的 nodejs 环境中内置 npm 指令）
 
 - 查看 node 版本
 
@@ -68,7 +78,7 @@ https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
 
   `npm install cnpm -g` - 全局安装
 
-  问题：使用 cnpm 时报错
+  问题：Windows 系统使用 cnpm 时报错
 
   原因：首次在计算机上启动 Windows PowerShell 时，现用执行策略很可能是 Restricted（默认设置）。Restricted 策略不允许任何脚本运行。
 
@@ -80,7 +90,7 @@ https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
 
   3. 键入 Y 或者 A ，同意
 
-  4. 执行 `get-executionpolicy` 查看是否更改成功，为 RemoteSigned 表示成功
+  4. 执行 `get-executionpolicy` 查看是否更改成功（RemoteSigned 表示成功）
 
   参考：
   1. https://blog.csdn.net/l_x_cser/article/details/104956657 - *实测解决:系统上禁止运行脚本。有关详细信息， 请参阅 https:/go.microsoft.com/fwlink/?LinkID=135170 中的 about_Execution_Policies_SeanHit的博客-CSDN博客*
@@ -107,23 +117,7 @@ https://www.runoob.com/vue2/vue-tutorial.html - *Vue.js 教程 | 菜鸟教程*
 
   http://localhost:8080
 
-#### 通过 package.json 安装
-
-> 已有 package.json ， 安装模块依赖。
-
-`npm install` - 一键安装 package.json 里的所有依赖文件
-
-`npm install --dependencies` - 只安装 dependencies（运行依赖）文件
-
-`npm install --devDependencies` - 只安装 devDependencies （开发依赖）文件
-
-`npm install -g npm-check-updates` - 更新依赖到最新版本
-
-参考：
-
-1. https://www.cnblogs.com/sese/p/10119511.html - *npm安装package.json中的模块依赖 - 前端[色色] - 博客园*
-
-### Web CDN
+### 通过 CDN 安装
 
 1. https://cdn.jsdelivr.net/npm/vue/ - [jsDelivr](https://www.jsdelivr.com/package/npm/vue)
 
@@ -179,7 +173,10 @@ https://www.runoob.com/vue3/vue3-build.html - *Vue3 项目打包 | 菜鸟教程*
 
   ```javascript
   data() {
-    return 
+    return {
+      num: 1,
+      string: '1',
+    }
   }
   ```
 
@@ -196,7 +193,7 @@ https://www.runoob.com/vue3/vue3-build.html - *Vue3 项目打包 | 菜鸟教程*
 
   ```javascript
   method: {
-    details: function() {
+    details: function () {
       return this.num += 1;
     }
   }
@@ -261,10 +258,15 @@ https://www.runoob.com/vue2/vue-template-syntax.html - *Vue.js 模板语法 | �
 
 1. https://blog.csdn.net/qq_23539027/article/details/114402432 - *vue点击事件 根据条件判断是否可以点击_根据条件判断点击事件是否使用-CSDN博客*
 
+### 计算属性和侦听器
 
-### 计算属性 - *computed*
+<https://v2.cn.vuejs.org/v2/guide/computed.html#侦听器> - *计算属性和侦听器 — Vue.js*
+
+#### 计算属性 - *computed*
 
 https://www.runoob.com/vue2/vue-computed.html - *Vue.js 计算属性 | 菜鸟教程*
+
+https://v2.cn.vuejs.org/v2/api/#computed - *API — Vue.js*
 
 ```javascript
 computed: {
@@ -280,7 +282,7 @@ computed vs methods
 
 - 不同
 
-  - 首先最明显的不同 就是调用的时候，methods 要加上（）
+  - 首先最明显的不同就是调用的时候，methods 要加上（）
 
   - computed 是基于它的依赖缓存，只有相关依赖发生改变时才会重新取值
 
@@ -294,7 +296,13 @@ computed getter
 
 computed setter
 
-### 监听属性 - *watch*
+#### 监听属性 - *watch*
+
+https://www.runoob.com/vue2/vue-watch.html - *Vue.js 监听属性 | 菜鸟教程*
+
+https://v2.cn.vuejs.org/v2/api/#watch - *API — Vue.js*
+
+https://v2.cn.vuejs.org/v2/api/#vm-watch - *API — Vue.js*
 
 ```javascript
 watch: {
@@ -303,9 +311,6 @@ watch: {
 ```
 
 - $watch 是一个实例方法
-
-"prop"，类似于一个自定义 attribute。
-设置新的属性 --Vue.set(）方法
 
 ### Class 与 Style 绑定
 
@@ -337,6 +342,8 @@ https://v2.cn.vuejs.org/v2/guide/class-and-style.html - *Class 与 Style 绑定 
   <tagName></tagName>
   ```
 
+- "prop"，类似于一个自定义 attribute。
+
 #### 自定义事件
 
 https://www.runoob.com/vue2/vue-component-custom-event.html - *Vue.js 组件 – 自定义事件 | 菜鸟教程*
@@ -353,6 +360,10 @@ https://www.runoob.com/vue2/vue-component-custom-event.html - *Vue.js 组件 –
 
 #### 过滤器 - *filters*
 
+https://v2.cn.vuejs.org/v2/guide/filters.html - *过滤器 — Vue.js*
+
+https://v2.cn.vuejs.org/v2/api/#Vue-filter - *API — Vue.js*
+
 ```javascript
 filters: {
   
@@ -367,13 +378,27 @@ https://www.runoob.com/vue2/vue-mixins.html - *Vue.js 混入 | 菜鸟教程*
 
 - 全局混入
 
+    ```javascript
+    Vue.mixin({
+      created: function () {}
+    })
+    ```
+
 - 局部混入
 
-```javascript
-Vue.mixin({
-  
-})
-```
+    ```javascript
+    var mixin = {
+        created: function () {
+            document.write('混入调用' + '<br>')
+        }
+    }
+    new Vue({
+        mixins: [mixin],
+            created: function () {
+            document.write('组件调用' + '<br>')
+        }
+    });
+    ```
 
 ## API
 
@@ -393,13 +418,45 @@ https://www.runoob.com/vue3/vue3-composition-api.html - *Vue3 组合式 API | �
 
 https://www.uviewui.com/components/vueUse.html - *简要介绍Vue.use的原理 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
 
+https://v2.cn.vuejs.org/v2/api/#Vue-use - *API — Vue.js*
+
+#### Vue.set
+
+https://v2.cn.vuejs.org/v2/api/#Vue-set - *API — Vue.js*
+
+设置新的属性 - Vue.set() 方法
+
 ### 选项 / 生命周期钩子
 
 https://v2.cn.vuejs.org/v2/guide/instance.html - *Vue 实例 — Vue.js*
 
+#### created
+
+https://v2.cn.vuejs.org/v2/api/#created - *API — Vue.js*
+
 #### mounted
 
 https://v2.cn.vuejs.org/v2/api/#mounted - *API — Vue.js*
+
+#### updated
+
+https://v2.cn.vuejs.org/v2/api/#updated - *API — Vue.js*
+
+#### destroyed
+
+https://v2.cn.vuejs.org/v2/api/#destroyed - *API — Vue.js*
+
+### 实例方法 / 数据
+
+#### vm.$set
+
+https://v2.cn.vuejs.org/v2/api/#vm-set - *API — Vue.js*
+
+### 实例方法 / 生命周期
+
+#### vm.$nextTick
+
+https://v2.cn.vuejs.org/v2/api/#vm-nextTick - *API — Vue.js*
 
 ### 指令
 
@@ -419,7 +476,7 @@ https://v2.cn.vuejs.org/v2/api/#指令 - *API — Vue.js*
 
 HTML（输出 html 代码）
 
-#### v-bind
+#### v-bind - `:`
 
 - 属性
 
@@ -444,7 +501,7 @@ HTML（输出 html 代码）
 
 - 类似于 v-if
 
-#### v-on
+#### v-on - `@`
 
 - 监听 DOM 事件
 
@@ -631,6 +688,17 @@ https://blog.csdn.net/qq_48332419/article/details/135343668 - *关于uniapp的�
 3. https://blog.csdn.net/weixin_44056717/article/details/132205216 - *uniapp 强制修改子组件样式使用/deep/无效（解决办法）_uniapp组件修改样式无效-CSDN博客*
 4. https://blog.csdn.net/gps666666/article/details/137138166 - *uniapp 中引入第三方组件后,更改组件的样式 -使用/deep/不生效_深度样式选择没有效果uniapp-CSDN博客*
 
+### Devtools
+
+![GitHub last commit](https://img.shields.io/github/last-commit/vuejs/devtools-v6?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vuejs/devtools-v6?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vuejs/devtools-v6?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vuejs/devtools-v6?style=social)
+
+https://github.com/vuejs/devtools-v6 - *GitHub - vuejs/devtools-v6: ⚙️ Browser devtools extension for debugging Vue.js applications.*
+
+https://devtools-v6.vuejs.org/ - *Home | Vue Devtools*
+
 ### Vue CLI
 
 引入
@@ -695,7 +763,7 @@ https://github.com/vuejs/eslint-plugin-vue - *GitHub - vuejs/eslint-plugin-vue: 
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/airyland/vux?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/airyland/vux?style=social)
 
-### Mint
+### ~~Mint~~
 
 1. [Mint](http://mint-ui.github.io/#!/zh-cn) - *基于 Vue.js 的移动端组件库* [GitHub Repo](https://github.com/ElemeFE/mint-ui) `饿了么前端团队出品`
 
@@ -744,6 +812,13 @@ https://github.com/vuejs/eslint-plugin-vue - *GitHub - vuejs/eslint-plugin-vue: 
 4. https://zhuanlan.zhihu.com/p/265531781 - *Vue 使用 v-show 导致页面闪烁的问题 - 知乎*
 5. https://www.cnblogs.com/pangwl/p/7979169.html - *vue 页面加载闪烁问题的解决方法 - 在水伊人 - 博客园*
 6. https://juejin.cn/post/6844904023611408392 - *vue 中使用 v-if 或 v-show ，出现闪屏的解决方法 - 掘金*
+
+### 响应式
+
+https://www.cnblogs.com/cisum/p/12195515.html - *uniapp - props、 ref、$emit、$parent、$child、$on、$set - Sunsin - 博客园*
+https://www.jianshu.com/p/de5b10de3ee9 - *uniapp $set用法说明 - 追逐繁星的阿忠 - 简书*
+http://www.duanlonglong.com/qdjy/953.html - *vue或uniapp中this.$set()时的语法格式（写法）_段龙龙博客*
+https://www.cnblogs.com/weizwz/p/17952042 - *uni-app+vue3+ts项目搭建完整流程 - 唯之为之 - 博客园*
 
 ## 参考
 

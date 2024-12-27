@@ -28,9 +28,11 @@
 
 ### OrgMode 文档规范
 
-*编写 “工具使用文档” 模板，参考下列 ✍🏻：*
+暂无
 
-### 目录
+### 目录大纲
+
+*编写 “工具使用文档” 模板，参考下列 ✍🏻：*
 
 <output data-lang="output">
 
@@ -212,20 +214,32 @@ FAQ：
 
 Mac 符号列表：
 
-- command（或 Cmd）：<kbd>⌘</kbd> `⌘`
-- shift：<kbd>⇧</kbd> `⇧`
-- option（或 Alt）：<kbd>⌥</kbd> `⌥`
-- control（或 Ctrl）：<kbd>⌃</kbd> `⌃`
-- 空格（或 Space）：<kbd>␣</kbd> `␣`
-- 回车（或 Return）：<kbd>↵</kbd> `↵`
+- command（或 Cmd）：<kbd>⌘</kbd>
+    - `⌘`
+- shift：<kbd>⇧</kbd>
+    - `⇧`
+- option（或 Alt）：<kbd>⌥</kbd>
+    - `⌥`
+- control（或 Ctrl）：<kbd>⌃</kbd>
+    - `⌃`
+- 空格（或 Space）：<kbd>␣</kbd>
+    - `␣`
+- 回车（或 Return 或 Enter）：<kbd>↵</kbd>
+    - `↵`
 - Down Arrow
 - Up Arrow
+- Fn
+- Tab
+- Esc
+- Del
+- BKSP（或 Backspace）
 
 参考：
 
-1. https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
-2. https://sspai.com/post/36203# - *一日一技 | 在 Mac 上输入 ⌘、⌥、⇧、⌃、⎋ 等特殊字符 - 少数派*
-3. https://www.sysgeek.cn/macos-keyboard-symbols/ - *新手不再抓瞎，macOS键盘符号释义汇总 - 系统极客*
+1. https://support.apple.com/zh-cn/guide/mac-help/cpmh0011/mac - *Mac 上的菜单中显示的那些符号表示什么？ - 官方 Apple 支持 (中国)*
+2. https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
+3. https://sspai.com/post/36203# - *一日一技 | 在 Mac 上输入 ⌘、⌥、⇧、⌃、⎋ 等特殊字符 - 少数派*
+4. https://www.sysgeek.cn/macos-keyboard-symbols/ - *新手不再抓瞎，macOS键盘符号释义汇总 - 系统极客*
 
 </output>
 
@@ -391,6 +405,31 @@ https://github.com/devgianlu/DNSHero/blob/HEAD/CHANGELOG.md - *DNSHero/CHANGELOG
 - https://keepachangelog.com/zh-CN/1.1.0/ - *如何维护更新日志*
 - https://semver.org/lang/zh-CN/ - *语义化版本 2.0.0 | Semantic Versioning*
 
+用法：
+
+更新内容：
+
+- BUG 修复
+    1. 修复 亿联车机端无声弹窗截断，适配未全履盖问题
+    2. 修复 首次打开酷狗音乐不提示无权限的问题
+    3. 修复 百度网盘首次使用连接超时的问题
+    4. 修复 再次进入媒体列表页面无法加载下一页的问题
+    5. 修复 打开高德地图车机版或者百度地图车机版，再打开高德地图手机版全屏之后没有返回主页按键
+
+- 优化内容
+    1. 优化 卡片页卡片移除后自适应布局调整及卡片页卡片校准问题
+    2. 优化 音乐卡片显示样式
+    3. 优化 保存上次关闭时的全屏地图悬浮按钮位置
+    4. 优化 CarLife盒子的连接敏感度
+    5. 优化 打开地图逻辑，车机端仅能同时使用一个地应用
+
+- 新增功能
+    1. 新增 屏幕圆角功能
+    2. 新增 高德地图巡航功能
+    3. 新增 显示大小调节功能
+    4. 新增 CarLink通道通话设备切换功能:可切换到蓝牙耳机、有线耳机、听简、免提、车机
+    5. 新增 语音助手截图功能
+
 示例：
 
 2023.11.28 `v2.4.3`
@@ -456,6 +495,8 @@ We now display the actual README file name in user's profile READMEs, instead of
 ### License
 
 http://www.ruanyifeng.com/blog/2011/05/how_to_choose_free_software_licenses.html - *如何选择开源许可证？*
+
+https://www.opensource.org/ - *Open Source Initiative &#8211; The steward of the Open Source Definition, setting the foundation for the Open Source Software ecosystem.*
 
 - https://opensource.org/licenses/ - *Licenses – Open Source Initiative*
 

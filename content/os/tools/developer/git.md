@@ -18,6 +18,26 @@ Docs: https://git-scm.com/doc - *Git - Documentation*
 
 GitHub: https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.*
 
+## 教程
+
+### 官方教程
+
+1. https://git-scm.com/docs - *Git - Reference*
+2. https://git-scm.com/book/zh/ - *Git - Book*
+
+### 第三方教程
+
+1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
+2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
+3. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
+4. https://github.com/wangdoc/git-tutorial - *GitHub - wangdoc/git-tutorial: Git 教程*\
+    \> _via https://www.bookstack.cn/read/git-tutorial/README.md - *介绍 - 《阮一峰 Git 教程》 - 书栈网 · BookStack*_
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/git-tutorial?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/wangdoc/git-tutorial?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wangdoc/git-tutorial?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/git-tutorial?style=social)
+
 ## 安装
 
 https://git-scm.com/downloads - *Git - Downloads*
@@ -38,6 +58,7 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
        - https://www.cnblogs.com/wl-blog/p/15105318.html - *SourceTree使用方法（拉取、提交、推送、获取、冲突解决、分支管理） - dreamw - 博客园*
        - https://www.jianshu.com/p/4349a8843730 - *解决sourcetree无法推送 - 简书*
        - https://blog.csdn.net/pp5265/article/details/127442157 - *Sourcetree无法推送问题_深夜加餐的博客-CSDN博客*
+       - https://www.cnblogs.com/hellosanbao/p/7504598.html - *mac下 sourcetree配置beyond compare外部对比工具 - hellosanbao - 博客园*
        </details>
 
 2. ✅ [GitHub Desktop](https://desktop.github.com/) <i id="github-desktop"></i> - *GitHub Desktop | Simple collaboration from your desktop*
@@ -73,20 +94,6 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 1. https://learngitbranching.js.org/?locale=zh_CN - *Learn Git Branching*
 
-## 教程
-
-1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
-2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
-3. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
-4. https://git-scm.com/docs - *Git - Reference*
-5. https://git-scm.com/book/zh/ - *Git - Book*
-6. https://github.com/wangdoc/git-tutorial - *GitHub - wangdoc/git-tutorial: Git 教程*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/git-tutorial?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/wangdoc/git-tutorial?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wangdoc/git-tutorial?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/git-tutorial?style=social)
-
 ## 快速入门
 
 1. 👏 https://github.com/rogerdudler/git-guide - *GitHub - rogerdudler/git-guide: git - the simple guide*
@@ -119,11 +126,11 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 ### 工作流程
 
-1. 克隆 Git 资源作为工作目录。
-2. 在克隆的资源上添加或修改文件。
-3. 如果其他人修改了，你可以更新资源。
-4. 在提交前查看修改。
-5. 提交修改。
+1. 克隆 Git 资源作为工作目录；
+2. 在克隆的资源上添加或修改文件；
+3. 如果其他人修改了，你可以更新资源；
+4. 在提交前查看修改；
+5. 提交修改；
 6. 在修改完成后，如果发现错误，可以撤回提交并再次修改并提交。
 
 你的本地仓库由 git 维护的三棵“树”组成。
@@ -135,67 +142,69 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
 <small>*插图来源于：[git 使用简易指南](https://www.bootcss.com/p/git-guide/)*</small>
 
-### 创建仓库
+### 创建本地仓库
 
-初始化 `git` 仓库（在指定系统文件夹下执行）
+操作步骤：
 
-```bash
-git init
-```
+1. 初始化 `git` 仓库（在指定系统文件夹下执行）
 
-克隆 `git` 仓库至指定的系统文件夹
+    ```bash
+    git init
+    ```
 
-```bash
-git clone <repo> <directory> # repo: git仓库，directory: 本地目录
-```
+    或者克隆 `git` 仓库至指定的系统文件夹
 
-查看在你上次提交之后是否有修改
+    ```bash
+    git clone <repo> <directory> # repo: git仓库，directory: 本地目录
+    ```
 
-```bash
-git status
-```
+2. 将仓库添加至安全目录（可选操作）
 
-显示当前的 git 配置信息
+    ```bash
+    git config --global --add safe.directory <directory>
+    ```
 
-```bash
-git config --list
-```
+    注：部分设备（例：**Termux** ）未执行此命令，会提示错误：“必须执行此命令”（在提示的内容中复制命令执行即可）。
 
-```bash
-git config -l
-```
+3. 查看在你上次提交之后是否有修改
 
-编辑 git 配置文件
+    ```bash
+    git status
+    ```
 
-```bash
-git config -e #针对当前仓库
-```
+4. 显示当前的 git 配置信息
 
-```bash
-git config -e --global #针对系统上所有仓库
-```
+    ```bash
+    git config --list
+    ```
 
-设置提交代码时的用户信息
+    ```bash
+    git config -l
+    ```
 
-```bash
-git config --global user.name "vc"
-```
+5. 编辑 git 配置文件
 
-```bash
-git config --global user.email "caiyongwen@yeah.net"
-```
+    ```bash
+    git config -e #针对当前仓库
+    ```
 
-注：去掉 `--global` 参数只针对当前仓库有效。
+    ```bash
+    git config -e --global #针对系统上所有仓库
+    ```
 
-将仓库添加至安全目录（可选操作）
+    设置提交代码时的用户信息
 
-```bash
-git config --global --add safe.directory /storage/emulated/0/Documents/markor/GitHub/vc-awesome
-```
+    ```bash
+    git config --global user.name "vc"
+    ```
 
-注：部分设备（例：**Termux** ）未执行此命令，会提示错误：“必须执行此命令”（在提示的内容中复制命令执行即可）。
+    ```bash
+    git config --global user.email "caiyongwen@yeah.net"
+    ```
 
-#### 创建新仓库
+    注：去掉 `--global` 参数只针对当前仓库有效。
+
+#### 克隆远程仓库
 
 - 方式一（via 阿里云代码仓库）
 
@@ -457,6 +466,16 @@ git config --list
 git config --list --global
 ```
 
+#### gitconfig 文件
+
+<https://git-scm.com/book/zh/v2/起步-初次运行-Git-前的配置> - *Git - 初次运行 Git 前的配置*
+
+查看所有的配置以及它们所在的文件
+
+```bash
+git config --list --show-origin
+```
+
 ### 克隆 - *clone*
 
 > [git-clone](https://git-scm.com/docs/git-clone/zh_HANS-CN) - 将存储库克隆到新目录
@@ -496,6 +515,47 @@ git clone git@github.com:zenorocha/codecopy.git
 ### 添加 - *add*
 
 > [git-add](https://git-scm.com/docs/git-add/zh_HANS-CN) - 添加内容到索引
+
+```bash
+git add -h
+```
+
+update tracked files：
+
+```bash
+git add -u
+```
+
+select hunks interactively：
+
+```bash
+git add -p
+```
+
+保存除 `path/to/file1`、`path/to/file2`、`path/to/folder1/*` 之外的所有变化文件：
+
+```bash
+git add --all -- ':!path/to/file1' ':!path/to/file2' ':!path/to/folder1/*'
+```
+
+参考：
+
+1. https://segmentfault.com/q/1010000012605030 - *git add 多个文件，但想忽略某一个文件 - SegmentFault 思否*
+2. https://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file - *git - Add all files to a commit except a single file? - Stack Overflow*
+
+### 提交 - *commit*
+
+> [git-commit](https://git-scm.com/docs/git-commit/zh_HANS-CN) - 记录仓库的修改
+
+创建新的提交时，将上一次提交的日志信息和作者信息（包括时间戳）作为本次提交信息
+
+```bash
+git commit -c <commit_id>
+```
+
+参考：
+
+1. https://blog.csdn.net/m0_62464865/article/details/138863043 - *如何合并 Git 提交到上一次提交_git合并上一次提交-CSDN博客*
 
 ### 推送改动 - *push*
 
@@ -639,7 +699,7 @@ git status -s
 
 > *工作区状态*
 
-`untracked` 表示是新文件，没有被 `git add` 过，是未跟踪的意思；此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；可通过执行 `git add` 命令将文件状态更改为 Staged 。
+`untracked` 表示是新文件，没有被 `git add` 过，是未跟踪的意思；此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；可通过执行 `git add` 命令将文件状态更改为 staged 。
 
 #### 未暂存 - *not staged*
 
@@ -734,13 +794,13 @@ git log --decorate
 
 > [git-diff](https://git-scm.com/docs/git-diff/zh_HANS-CN) - 显示提交和工作区等变化
 
-尚未缓存的改动（没有 git add 的文件），显示暂存区和工作区的差异
+尚未缓存的改动（没有 git add 的文件），显示暂存区和工作区的差异：
 
 ```bash
 git diff [file]
 ```
 
-查看已缓存的改动（已经 git add 的文件），显示暂存区和上一次提交(commit)的差异
+查看已缓存的改动（已经 git add 的文件），显示暂存区和上一次提交(commit)的差异：
 
 ```bash
 git diff --cached [file]
@@ -750,51 +810,63 @@ git diff --cached [file]
 git diff --staged [file]
 ```
 
-查看已缓存的与未缓存的所有改动
+查看已缓存的与未缓存的所有改动：
 
 ```bash
 git diff HEAD [file]
 ```
 
-显示摘要而非整个 diff
+显示摘要而非整个 diff：
 
 ```bash
 git diff --stat
 ```
 
-显示两次提交之间的差异（first-branch 相当于 commit-id）
+显示两次提交之间的差异（first-branch 相当于 commit-id）：
 
 ```bash
 git diff [first-branch]...[second-branch]
 ```
 
-查看本地和远程文件之间的差异
+查看本地和远程文件之间的差异：
 
-方式一（按下列步骤执行）：
+- 方式一（按下列步骤执行）：
 
-第 1 步
+    第 1 步
+
+    ```bash
+    git fetch origin master
+    ```
+
+    第 2 步
+
+    ```bash
+    git diff master origin/master
+    ```
+
+- 方式二：
+
+    ```bash
+    git diff <masterbranch> <remotebranch>
+    ```
+
+- 以上参考：
+
+    - https://www.coder.work/article/7752449 - *git - 如何在 Git 中显示本地和远程文件之间的差异？ - IT工具网*
+
+        - https://stackoverflow.com/questions/46786070/how-do-i-show-differences-between-local-and-remote-files-in-git - *How do I show differences between local and remote files in Git? - Stack Overflow*
+
+[**--word-diff[=<模式>]**](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---word-diffltgt) - 显示词的差异，用 `<模式>` 来分隔已更改的词。默认情况下，单词是以空格分隔。
 
 ```bash
-git fetch origin master
+git diff --word-diff=porcelain
 ```
 
-第 2 步
+[**--color-words[=<正则表达式>]**](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---color-wordsltgt) - 与 `--word-diff=color` 和（如果指明了正则表达式）`--word-diff-regex=<正则表达式>` 两个选项含义相同。
 
 ```bash
-git diff master origin/master
+git diff --color-words
 ```
-
-方式二：
-
-```bash
-git diff <masterbranch> <remotebranch>
-```
-
-以上参考：
-
-https://www.coder.work/article/7752449 - *git - 如何在 Git 中显示本地和远程文件之间的差异？ - IT工具网*
-
-- https://stackoverflow.com/questions/46786070/how-do-i-show-differences-between-local-and-remote-files-in-git - *How do I show differences between local and remote files in Git? - Stack Overflow*
 
 参考：
 
@@ -1432,6 +1504,57 @@ git show <commit_id>:<filename>
 1. https://www.jianshu.com/p/c0f7e4ac14c7 - *git 放弃本地文件修改*
 2. https://blog.csdn.net/weixin_43721000/article/details/124264598 - *Git强制更新代码到本地【远端仓库替换本地】*
 
+### 放弃某区块的修改
+
+在 Git 中放弃某一区块的修改而不是整个文件，可以使用以下几种方法：
+
+1. 使用 `git add -p`（交互式暂存）
+
+    `git add -p` 是 Git 的交互式暂存功能，可以选择性地暂存或放弃文件中的某些修改区块。操作步骤如下：
+
+    ```bash
+    git add -p <文件名>
+    ```
+
+    Git 会按区块逐步显示修改内容，提供几个选项：
+
+    - `y` 暂存该区块。
+    - `n` 跳过该区块，不做更改。
+    - `d` 放弃这个区块的所有修改。
+    - `s` 分割区块成更小的部分。
+    - `q` 退出，不再处理其他区块。
+
+    如果你选择 `n` 或 `s`，可以跳过你不想暂存的区块，只保留需要的内容。
+
+2. 使用 `git restore -p`（Git 2.23 及以后）
+
+    Git 2.23 及更高版本支持 `git restore` 命令，也可以用来按区块恢复文件内容。这样可以有选择性地丢弃某些区块的修改：
+
+    ```bash
+    git restore -p <文件名>
+    ```
+
+    这个命令会按区块显示未暂存的修改，提供类似的选项：
+
+    - `y` 恢复该区块，丢弃修改。
+    - `n` 保留修改，跳过此区块。
+    - `s` 分割区块成更小的部分。
+    - `q` 退出，不再处理其他区块。
+
+    选择 `y` 即可丢弃指定的区块修改，而保留其他部分。
+
+3. 使用 GUI 工具
+
+    如果使用 Git GUI 客户端（如 VSCode、Sourcetree 或 GitKraken 等），通常可以在文件的差异视图中选择特定区块，并执行撤销或暂存操作。
+
+    例如，在 VSCode 中：
+    - 打开文件的 Git 差异视图。
+    - 选择你想要丢弃的区块，点击旁边的 `Discard Changes`。
+
+4. 手动编辑文件
+
+    如果修改比较细致，或者无法直接用交互命令分割区块，也可以直接打开文件手动编辑，删除或还原特定区块内容，然后保存。最后可以重新暂存文件。
+
 ### 从远端获取某个文件
 
 第 1 步：
@@ -1491,28 +1614,45 @@ https://github.com/carloscuesta/gitmoji-cli - *GitHub - carloscuesta/gitmoji-cli
 ![npm](https://img.shields.io/npm/v/gitmoji-cli?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/carloscuesta/gitmoji-cli?style=social)
 
+- 安装
+
+    ```bash
+    npm i -g gitmoji-cli
+    ```
+
+用法：
+
+```bash
+gitmoji --help
+```
+
 参考：
 
 1. https://jackiehao.blog.csdn.net/article/details/109309743 - *GitHub中提交代码说明时添加emoji小图标*
 
 ### commit 提交规范
 
+Angular 规范
+
 工具：
 
 1. https://marketplace.visualstudio.com/items?itemName=redjue.git-commit-plugin - *git-commit-plugin - Visual Studio Marketplace*
+2. https://github.com/conventional-changelog/conventional-changelog - *GitHub - conventional-changelog/conventional-changelog: Generate changelogs and release notes from a project's commit messages and metadata.*
+3. https://github.com/commitizen/cz-cli - *GitHub - commitizen/cz-cli: The commitizen command line utility. #BlackLivesMatter*
+    1. https://juejin.cn/post/6844903793033756680 - *超详细的Git提交规范引入指南 - 掘金*
+    2. https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
+    3. https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
 
 参考：
 
-1. http://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
-2. https://ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
+1. https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
+2. https://www.ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
 3. https://www.conventionalcommits.org/zh-hans/v1.0.0/ - *约定式提交*
-4. https://juejin.cn/post/6844903793033756680 - *超详细的Git提交规范引入指南 - 掘金*
-5. https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
-6. https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
 
 ### 在本地局域网中的两台电脑间同步代码
 
 1. https://www.cnblogs.com/phillee/p/15353020.html - *通过Git在本地局域网中的两台电脑间同步代码*
+2. https://www.ruanyifeng.com/blog/2022/10/git-server.html - *最简单的 Git 服务器 - 阮一峰的网络日志*
 
 ### 如何缩小 GitHub 仓库大小
 

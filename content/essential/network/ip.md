@@ -150,6 +150,7 @@ IP 地址？- 百度经验*
 
 - IPv6
     - 检测工具：https://test-ipv6.com/ - *IPv6 测试*
+        - via https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn - *开始使用  |  Public DNS  |  Google for Developers*
 
 ----
 

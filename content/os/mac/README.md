@@ -10,7 +10,7 @@
 
 ## 官方
 
-主页：https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
+主页：https://www.apple.com.cn/ - *Apple (中国大陆) - 官方网站*
 
 手册：https://support.apple.com/zh-cn/guide/mac-help/welcome/mac - *macOS 使用手册 - 官方 Apple 支持 (中国)*
 
@@ -23,14 +23,6 @@ https://discussionschinese.apple.com/welcome - *官方 Apple 支持社区*
 \> 打开 *访达 > 菜单栏 > 帮助 > macOS 帮助或者 Mac 使用技巧*（根据当前使用的电脑设备来打开指定版本的使用手册）。
 
 https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 使用手册 - 官方 Apple 支持 (中国)*
-
-### 键盘快捷键
-
-https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
-
-### 鼠标快捷键
-
-https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键点按 - 官方 Apple 支持 (中国)*
 
 ## 教程
 
@@ -56,6 +48,12 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlad96d366/14.0/mac/14.3.1 - *�
 
 https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *Mac 上的“网络”设置 - 官方 Apple 支持 (中国)*
 
+### 默认应用
+
+- 如何设置文件默认打开方式？
+
+  - https://jingyan.baidu.com/article/d5c4b52bd1496e9b560dc5b0.html - *苹果MAC电脑如何更改默认打开方式-百度经验*
+
 ## 用法
 
 > Mac 使用教程
@@ -63,6 +61,10 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 ### 基础操作
 
 暂无
+
+### 用户界面
+
+https://support.apple.com/zh-cn/guide/mac-help/mchlp1446/mac - *Mac 上的菜单栏包含哪些项？ - 官方 Apple 支持 (中国)*
 
 ### 目录结构
 
@@ -93,6 +95,24 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 - `/usr/local/bin`： 存放所有用户都可用的第三方软件程序，如：mysql
 
 - `/usr/local/sbin`： 存放超级用户才能使用的第三方软件，如：nginx
+
+### 键盘
+
+https://support.apple.com/zh-cn/HT3164 - *Mac 笔记本电脑：按键位置和功能 - 官方 Apple 支持 (中国)*
+
+https://zhidao.baidu.com/question/1515268495610377860/answer/3761641845.html - *macbook page up是哪个键*
+
+https://blog.csdn.net/sdu_hao/article/details/86713554 - *Mac系统随笔 | (1)Mac系统中的PageUp、PageDown、Home和End_mac pageup-CSDN博客*
+
+### 快捷键
+
+键盘快捷键：
+
+https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支持 (中国)*
+
+鼠标快捷键：
+
+https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键点按 - 官方 Apple 支持 (中国)*
 
 ### 触控板
 
@@ -158,7 +178,7 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
   - https://www.jianshu.com/p/fadb08f64771 - *mac系统如何新建文件 - 简书*
   - https://support.apple.com/zh-cn/guide/mac-help/mh26885/mac - *在 Mac 上以文件夹形式整理文件 - 官方 Apple 支持 (中国)*
 
-- 复制文件/目录绝对路径
+- 复制文件/目录的绝对路径
 
   - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>C</kbd>
 
@@ -226,7 +246,7 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 
 - 显示当前应用程序的所有窗口
 
-  - <kbd>control</kbd> + <kbd>下箭头</kbd> - *如果当前app有多个窗口，按command+下方向键可以显示此app的所有窗口，这也叫作“应用程序暴露”*
+  - <kbd>control</kbd> + <kbd>下箭头</kbd> - *如果当前 app 有多个窗口，按 「command + 下方向键」可以显示此 app 的所有窗口，这也叫作“应用程序暴露”*
 
 ### 应用双开
 
@@ -237,14 +257,8 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 - 微信双开：[参考](https://zhuanlan.zhihu.com/p/397900267)
 
   1. 先打开并登录第一个微信；
-  2. 打开 访达 > 应用程序 > 微信（双指同时摁或鼠标右键） > 显示包内容；
-  3. 依次打开以下⽂件夹 Contents > MacOS > 双击 WeChat 即可登录第 2 个微信。
-
-### 默认应用
-
-- 如何设置文件默认打开方式？
-
-  - https://jingyan.baidu.com/article/d5c4b52bd1496e9b560dc5b0.html - *苹果MAC电脑如何更改默认打开方式-百度经验*
+  2. 然后打开 *访达 > 应用程序 > 微信（双指同时摁或鼠标右键） > 显示包内容*；
+  3. 依次打开以下⽂件夹 *Contents > MacOS > 双击 WeChat* 即可登录第 2 个微信。
 
 ### 卸载软件
 
@@ -261,7 +275,7 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 操作步骤：
 
 1. 打开 *系统偏好设置 > 用户与群组 > 登录项* ；
-2. 添加完然后重启电脑。
+2. 添加完成后重启电脑。
 
 参考：
 
@@ -272,7 +286,7 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 > 系统版本：*macOS Ventura 13.3.1* 中设置
 
 1. 打开 *系统设置 > 通用 > 登录项* ；
-2. 添加完然后重启电脑。
+2. 添加完成后重启电脑。
 
 ### 查看网络活动
 
@@ -287,6 +301,23 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlee7b367f/14.0/mac/14.3.1 - *M
 > Mac 预先安装了各种 App，便于你娱乐、工作、联系朋友、安排日程、购物等。若要查看 Mac 上可用的 App，请点按程序坞中的启动台图标 。若要打开 App，请在程序坞中点按其图标或使用启动台。
 
 https://support.apple.com/zh-cn/guide/mac-help/mchl110b00b7/14.0/mac/14.0 - *Mac 附带的 App - 官方 Apple 支持 (中国)*
+
+### App Store
+
+https://support.apple.com/zh-cn/guide/app-store/welcome/mac - *适用于 Mac 的 App Store 使用手册 - 官方 Apple 支持 (中国)*
+
+### 访达
+
+https://support.apple.com/zh-cn/guide/mac-help/mchlp2605/mac - *在 Mac 上的“访达”中整理文件 - 官方 Apple 支持 (中国)*
+
+### 词典
+
+https://support.apple.com/zh-cn/guide/dictionary/welcome/mac - *适用于 Mac 的词典使用手册 - 官方 Apple 支持 (中国)*
+
+参考：
+
+1. https://discussionschinese.apple.com/thread/140129373 - *如何使用Mac自带的词典 - Apple 社区*
+2. https://zhuanlan.zhihu.com/p/119031715 - *mac下使用翻译软件的正确姿势 - 知乎*
 
 ### 活动监视器
 
@@ -321,6 +352,10 @@ https://support.apple.com/zh-cn/guide/notes/welcome/mac - *适用于 Mac 的备�
 ### 便签
 
 https://support.apple.com/zh-cn/guide/stickies/welcome/mac - *适用于 Mac 的便笺使用手册 - 官方 Apple 支持 (中国)*
+
+### 预览
+
+https://support.apple.com/zh-cn/guide/preview/welcome/mac - *适用于 Mac 的预览使用手册 - 官方 Apple 支持 (中国)*
 
 ### 截屏和录屏
 
@@ -397,11 +432,11 @@ https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,z
    https://jingyan.baidu.com/article/b87fe19e6dc68a1319356823.html - *mac提示无法验证开发者怎么办-百度经验*
 
    操作步骤：
-   1. 打开`系统偏好设置`；
-   2. 点击`安全性与隐私`进入；
-   3. 点击`通用`进入；
-   4. 点击`左下角锁`并输入用户密码进行解锁；
-   5. 找到并勾选 `App Store 和被认可的开发者`。
+   1. 打开"系统偏好设置"；
+   2. 点击"安全性与隐私"进入；
+   3. 点击"通用"进入；
+   4. 点击"左下角锁"并输入用户密码进行解锁；
+   5. 找到并勾选"App Store 和被认可的开发者"。
 
    > 系统版本：*macOS Ventura 13.1.1* 中设置
    1. 在“程序坞”中找到并打开应用“系统设置”；

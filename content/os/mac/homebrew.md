@@ -58,17 +58,17 @@ https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux - *Ins
 
 `brew`
 
-- Outputs the usage instructions for brew command. Equivalent to brew --help command.
+- Outputs the usage instructions for brew command. Equivalent to brew --help command. - *输出 brew 命令的使用说明。 等同于 brew -help 命令。*
 
   `brew help` [COMMAND]
 
-- Show lists of built-in and external commands.
+- Show lists of built-in and external commands. - *显示内置和外部命令列表。*
 
   `brew commands`
 
 - 查看 brew 命令手册
 
-  `man brew` (*[man brew documentation](https://docs.brew.sh/Manpage)*)
+  `man brew` (*在线手册：[man brew documentation](https://docs.brew.sh/Manpage)*)
 
 - 查看 brew 版本信息
 
@@ -76,41 +76,41 @@ https://docs.brew.sh/Installation#linux-or-windows-10-subsystem-for-linux - *Ins
 
   `brew --version`
 
-- Fetch the newest version of Homebrew and all formulae from GitHub using git(1) and perform any necessary migrations.
+- Fetch the newest version of Homebrew and all formulae from GitHub using git(1) and perform any necessary migrations. - *使用 git(1) 从 GitHub 获取最新版本的 Homebrew 和所有 formulae，并执行必要的迁移。*
 
   `brew update`
 
   https://docs.brew.sh/Manpage#update-options - *brew(1) – The Missing Package Manager for macOS (or Linux) — Homebrew Documentation*
 
-- Upgrade outdated casks and outdated, unpinned formulae using the same options they were originally installed with, plus any appended brew formula options. If cask or formula are specified, upgrade only the given cask or formula kegs (unless they are pinned; see pin, unpin).
+- Upgrade outdated casks and outdated, unpinned formulae using the same options they were originally installed with, plus any appended brew formula options. If cask or formula are specified, upgrade only the given cask or formula kegs (unless they are pinned; see pin, unpin). - *使用与最初安装时相同的选项，加上任何附加的 brew formula 选项，升级过时的 casks 和过时的未固定 formulae。 如果指定了 cask 或 formulae，则只升级给定的 cask 或formulae（除非它们被固定；见固定、取消固定）。*
 
   `brew upgrade` [FORMULA|CASK...]
 
-- Show Homebrew and system configuration info useful for debugging. If you file a bug report, you will be required to provide this information.
+- Show Homebrew and system configuration info useful for debugging. If you file a bug report, you will be required to provide this information. - *显示对调试有用的 Homebrew 和系统配置信息。 如果您提交错误报告，则需要提供这些信息。*
 
   `brew config`
 
-- Display brief statistics for your Homebrew installation. If a formula or cask is provided, show summary of information about it.
+- Display brief statistics for your Homebrew installation. If a formula or cask is provided, show summary of information about it. - *显示 Homebrew 安装的简要统计数据。 如果提供了 formula 或 cask，则显示其信息摘要。*
 
   `brew info` [FORMULA|CASK...]
 
-- Perform a substring search of cask tokens and formula names for text. If text is flanked by slashes, it is interpreted as a regular expression.
+- Perform a substring search of cask tokens and formula names for text. If text is flanked by slashes, it is interpreted as a regular expression. - *对 cask 标记和 formula 名称的文本进行子串搜索。 如果文本两侧有斜线，则将其解释为正则表达式。*
 
   `brew search` TEXT|/REGEX/
 
-- List all installed formulae.
+- List all installed formulae. - *列出所有已安装的 formulae。*
 
   `brew list` [FORMULA|CASK...]
 
   `brew ls` [FORMULA|CASK...]
 
-- Install formula. formula is usually the name of the formula to install, but it has other syntaxes which are listed in the SPECIFYING FORMULAE section.
+- Install formula. formula is usually the name of the formula to install, but it has other syntaxes which are listed in the SPECIFYING FORMULAE section. - *安装 formula。formula 通常是要安装的 formula 的名称，但也有其他语法，详见 SPECIFYING FORMULAE 部分。*
 
-  `brew install` \<formula>
+  `brew install` [FORMULA|CASK...]
 
-- Uninstall formula.
+- Uninstall formula. - *卸载 formula。*
 
-  `brew uninstall` \<formula>
+  `brew uninstall` [FORMULA|CASK...]
 
 #### 关闭自动更新
 
@@ -143,6 +143,12 @@ Website:
 - https://formulae.brew.sh/ - *Homebrew Formulae*
 - https://docs.brew.sh/Formula-Cookbook#homebrew-terminology - *Formula Cookbook — Homebrew Documentation*
 
+#### Formulae
+
+已安装列表：
+
+1. https://formulae.brew.sh/formula/tree - *tree — Homebrew Formulae*
+
 #### Cask
 
 > 🍻 A CLI workflow for the administration of macOS applications distributed as binaries
@@ -171,6 +177,8 @@ Website:
 4. https://formulae.brew.sh/cask/genymotion - *genymotion — Homebrew Formulae*
 5. https://formulae.brew.sh/cask/cheatsheet - *cheatsheet — Homebrew Formulae*
 6. https://formulae.brew.sh/cask/cyberduck - *cyberduck — Homebrew Formulae*
+7. https://formulae.brew.sh/cask/deepl - *deepl — Homebrew Formulae*
+8. https://formulae.brew.sh/cask/devtoys#default - *devtoys — Homebrew Formulae*
 
 ## 设置
 
@@ -268,7 +276,7 @@ cd "$(brew --repo homebrew/core)" && git remote -v
 
 安装：
 
-https://formulae.brew.sh/cask/cakebrew - *cakebrew — Homebrew Formulae*
+1. https://formulae.brew.sh/cask/cakebrew - *cakebrew — Homebrew Formulae*
 
 参考：
 

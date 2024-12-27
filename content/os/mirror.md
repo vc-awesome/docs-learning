@@ -41,7 +41,7 @@
     ![GitHub last commit](https://img.shields.io/github/last-commit/Alvin9999/new-pac?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Alvin9999/new-pac?style=social)
 
-    - [备用地址](https://bku7.xyz/不翻墙上github/)
+    - ~~[备用地址](https://bku7.xyz/不翻墙上github/)~~
 
 2. https://github.com/hunshcn/gh-proxy - *hunshcn/gh-proxy: github release、archive以及项目文件的加速项目*
 
@@ -51,6 +51,11 @@
     - https://gh-proxy.com/ - *GitHub Proxy 代理加速*
 
 3. 👏https://greasyfork.org/zh-CN/scripts/412245-github-增强-高速下载 - *Github 增强 - 高速下载*
+
+    - Release、Code(ZIP) 文件加速
+    - Git Clone 加速
+    - Git Clone SSH 加速
+    - Raw 文件加速
 
 其他：
 

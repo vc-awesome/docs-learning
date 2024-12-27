@@ -1,5 +1,5 @@
-* [技术栈](/tech-stack/)
-* [微信](tech-stack/weixin.md)
+* [技术栈](/tech-stack/README.md)
+* [微信](tech-stack/wechat.md)
 * [支付宝](tech-stack/alipay.md)
 * [阿里云](tech-stack/aliyun.md)
 * [Google](tech-stack/google.md)

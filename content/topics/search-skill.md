@@ -6,13 +6,13 @@
 
 ## 搜索引擎
 
-1. [搜索引擎](os/tools/browser.md#搜索引擎)
+1. [搜索引擎](os/tools/topics/browser.md#搜索引擎)
 
     1. 寻找更多搜索引擎：https://addons.mozilla.org/zh-CN/firefox/extensions/category/search-tools/ - *搜索工具 中的扩展 – Firefox 附加组件（zh-CN）*
 
-2. [浏览器扩展](os/tools/browser-extensions.md#搜索引擎)
+2. [浏览器扩展](os/tools/topics/browser-extensions.md#搜索引擎)
 
-3. [自建 Web search 工具](os/tools/custom-search.md)
+3. [自建 Web search 工具](os/tools/custom/search.md)
 
 4. https://www.chongbuluo.com/ - *虫部落 - 让搜索更简单*
 
@@ -156,12 +156,14 @@ _注：其中 %s 是关键字的占位符。_
 
 ## 搜索工具
 
-### DuckDuckGo !Bangs
+### DuckDuckGo
+
+#### !Bangs
 
 https://duckduckgo.com/bangs - *DuckDuckGo !Bangs*\
 \> _via https://github.com/einaregilsson/Redirector - *GitHub - einaregilsson/Redirector: Browser extension (Firefox, Chrome, Opera, Edge) to redirect urls based on regex patterns, like a client side mod_rewrite.*_
 
-### DuckDuckGo Lite
+#### Lite
 
 https://lite.duckduckgo.com/lite - *DuckDuckGo*
 
@@ -171,7 +173,7 @@ https://lite.duckduckgo.com/lite - *DuckDuckGo*
 
 > Sourcegraph’s code AI platform makes it easy for devs to write, fix, and maintain code with Cody, the AI coding assistant, and Code Search.
 
-![GitHub last commit](https://badgen.net/github/last-commit/sourcegraph/sourcegraph?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/sourcegraph/sourcegraph?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/sourcegraph/sourcegraph?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sourcegraph/sourcegraph?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sourcegraph/sourcegraph?style=social)
@@ -179,9 +181,7 @@ https://lite.duckduckgo.com/lite - *DuckDuckGo*
 官方：
 
 1. https://sourcegraph.com/ - *Sourcegraph | Code AI platform*
-
 2. https://docs.sourcegraph.com/ - *Sourcegraph - Sourcegraph docs*
-
 3. https://github.com/sourcegraph/sourcegraph - *GitHub - sourcegraph/sourcegraph: Code AI platform with Code Search & Cody*
 
 安装：
@@ -196,16 +196,24 @@ https://sourcegraph.com/docs/integration/browser_extension/how-tos/browser_searc
 
 https://sourcegraph.com/search - *Sourcegraph*
 
-- 示例：
+示例：
 
-    1. https://sourcegraph.com/search?origin=source&q=repo%3A%5Egithub.com%2Fwangdoc%2Fbash-tutorial%24+source&patternType=literal - *repo:^github.com/wangdoc… - Sourcegraph*
+1. https://sourcegraph.com/search?origin=source&q=repo%3A%5Egithub.com%2Fwangdoc%2Fbash-tutorial%24+source&patternType=literal - *repo:^github.com/wangdoc… - Sourcegraph*
+2. <https://sourcegraph.com/search?q=context:global+repo:^github\.com/TonyJiangWJ/Ant-Forest$+file:has.content(当前在限制运行时间范围，停止运行)&patternType=standard&sm=1&groupBy=path> - *context:global repo:^git… - Sourcegraph*
 
-    2. <https://sourcegraph.com/search?q=context:global+repo:^github\.com/TonyJiangWJ/Ant-Forest$+file:has.content(当前在限制运行时间范围，停止运行)&patternType=standard&sm=1&groupBy=path> - *context:global repo:^git… - Sourcegraph*
+#### Code Search
+
+https://sourcegraph.com/search - *Search Public Code*
+
+https://sourcegraph.com/code-search - *Code Search | Grok your entire codebase with Sourcegraph*
 
 ### ChatGPT
 
+简介：
+
 > ChatGPT helps you get answers, find inspiration and be more productive. It is free to use and easy to try. Just ask and ChatGPT can help with writing, learning, brainstorming and more.
 
-https://openai.com/chatgpt/ - *ChatGPT | OpenAI*
+官方：
 
-https://chatgpt.com/ - *ChatGPT*
+1. https://openai.com/chatgpt/ - *ChatGPT | OpenAI*
+2. https://chatgpt.com/ - *ChatGPT*

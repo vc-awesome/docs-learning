@@ -3,4 +3,4 @@
 * **包管理器**
 * [NPM](front-end/node.js/npm.md)
 * [Yarn](front-end/node.js/yarn.md)
-* [Modules](front-end/node.js/modules.md)
+* [软件包](front-end/node.js/package.md)

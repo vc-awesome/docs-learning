@@ -36,6 +36,20 @@ https://github.com/justjavac/awesome-wechat-weapp - *GitHub - justjavac/awesome-
 
 https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html - *微信开放文档*
 
+##### API Mock
+
+https://developers.weixin.qq.com/miniprogram/dev/devtools/api-mock.html - *开发辅助 / API Mock*
+
+#### 登录
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/login.html - *开放能力 / 用户信息 / 小程序登录*
+
+https://developers.weixin.qq.com/miniprogram/dev/platform-capabilities/miniapp/quickstart/auth.html - *多端能力 / 新手指引 / 快速接入小程序登录服务*
+
+https://cloud.tencent.com/developer/article/1677389 - *微信小程序：授权登录 + 基于token的身份验证详解-腾讯云开发者社区-腾讯云*
+
+https://dev.weixin.qq.com/docs/miniapp/quickstart/auth.html - *快速接入小程序登录服务*
+
 ## 常见问题解答
 
 ### 如何在网页中打开微信小程序
@@ -53,6 +67,16 @@ https://developers.weixin.qq.com/miniprogram/dev/devtools/devtools.html - *微�
 测试链接：http://zzb.yunkaochang.cn/index/my/goods/id/2389.html ⇒ *此链接会自动跳转至下列链接*
 - https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx9053c114a2085c8e&redirect_uri=http%3A%2F%2Fzzb.yunkaochang.cn%2Findex%2Findex%2Fbaselogin&response_type=code&scope=snsapi_base&state=36862and1960and9and&connect_redirect=1#wechat_redirect - *抱歉，出错了*
 
-### 怎么获取微信公众号的主页链接
+### 如何获取微信公众号的主页链接
 
 https://jingyan.baidu.com/article/fec4bce2bdc1dbb3608d8b03.html - *怎么获取微信公众号的主页链接？-百度经验*
+
+### 如何获取小程序 appid 以及页面 path
+
+参考：
+
+1. https://blog.csdn.net/chw0629/article/details/124318655 - *获取小程序appid以及页面pagepath的各种方法-CSDN博客*
+2. https://blog.csdn.net/qq_42543244/article/details/130089623 - *如何获取到他人小程序的页面路径_查看别人小程序页面路径-CSDN博客*
+3. https://zhuanlan.zhihu.com/p/384982128 - *如何获取微信小程序页面路径（详细教程） - 知乎*
+4. https://blog.csdn.net/xiyang1011/article/details/110385375 - *如何获取任意小程序的AppId和页面路径？_获取其他小程序的跳转链接和appid-CSDN博客*
+5. https://www.cnblogs.com/Alex80/p/17813038.html - *获取小程序appid和path教程详细版 - 大西瓜3721 - 博客园*

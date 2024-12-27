@@ -8,6 +8,17 @@
 >
 > —— <cite>[导论 - JavaScript 教程 - 网道](https://wangdoc.com/javascript/basic/introduction)</cite>
 
+## 官方
+
+https://github.com/tc39 - *Ecma TC39 · GitHub*
+
+https://github.com/tc39/ecma262/ - *GitHub - tc39/ecma262: Status, process, and documents for ECMA-262*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/tc39/ecma262?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/tc39/ecma262?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tc39/ecma262?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/tc39/ecma262?style=social)
+
 ## 教程
 
 1. https://www.runoob.com/js/js-tutorial.html - *JavaScript 教程 | 菜鸟教程*
@@ -36,10 +47,6 @@
 
 #### 代码规范
 
-1. https://wangdoc.com/javascript/features/style - *编程风格 - JavaScript 教程 - 网道*
-
-2. https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
-
 变量命名（驼峰法）：
 
 *camelCase*，例：`firstName`
@@ -55,6 +62,12 @@
 常量命名（大写）：
 
 *UPPERCASE*，例：`PI`
+
+参考：
+
+1. https://wangdoc.com/javascript/features/style - *编程风格 - JavaScript 教程 - 网道*
+2. https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
+3. http://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格 - 阮一峰的网络日志*
 
 ##### 区块
 
@@ -86,6 +99,10 @@ a // 1
 
 <https://wangdoc.com/javascript/features/style#圆括号> - *编程风格 - JavaScript 教程 - 网道*
 
+#### 注释
+
+<https://wangdoc.com/javascript/basic/grammar#注释> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
+
 #### 调试
 
 https://wangdoc.com/javascript/features/console - *console 对象与控制台 - JavaScript
@@ -115,15 +132,11 @@ https://wangdoc.com/javascript/features/console - *console 对象与控制台 - 
 
 https://www.runoob.com/js/js-hoisting.html - *JavaScript 声明提升 | 菜鸟教程*
 
+<https://wangdoc.com/javascript/basic/grammar#变量提升> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
+
 #### 数据类型
 
 https://www.runoob.com/js/js-datatypes.html - *JavaScript 数据类型 | 菜鸟教程*
-
-- 整型
-
-- 字符串
-
-- 布尔型
 
 ##### 数值
 
@@ -182,11 +195,27 @@ https://www.runoob.com/w3cnote/detect-empty-javascript-object.html - *如何判�
 
 https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScript 判断空值、NULL、undefined的方法 | 菜鸟教程*
 
+##### 布尔值
+
+如果 JavaScript 预期某个位置应该是布尔值，会将该位置上现有的值自动转为布尔值。转换规则是除了下面六个值被转为 `false`，其他值都视为 `true`。
+
+1. `undefined`
+2. `null`
+3. `false`
+4. `0`
+5. `NaN`
+6. `""` 或 `''`（空字符串）
+
+参考：
+
+1. <https://wangdoc.com/javascript/types/null-undefined-boolean#布尔值> - *null, undefined 和布尔值 - JavaScript 教程 - 网道*
+2. https://developer.mozilla.org/zh-CN/docs/Glossary/Truthy - *真值 - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
+
 ##### 数据类型判断
 
-1. https://wangdoc.com/javascript/types/general#typeof-运算符 - *数据类型概述 - JavaScript 教程 - 网道*
+1. <https://wangdoc.com/javascript/types/general#typeof-运算符> - *数据类型概述 - JavaScript 教程 - 网道*
 
-2. https://wangdoc.com/javascript/stdlib/object#tostring-的应用判断数据类型 - *Object 对象 - JavaScript 教程 - 网道*
+2. <https://wangdoc.com/javascript/stdlib/object#tostring-的应用判断数据类型> - *Object 对象 - JavaScript 教程 - 网道*
 
 3. https://github.com/chaijs/type-detect - *GitHub - chaijs/type-detect: Improved typeof detection for node.js and the browser.*
 
@@ -283,6 +312,10 @@ print.name; // x
 
 ##### 回调函数
 
+<https://wangdoc.com/javascript/async/general#回调函数> - *异步操作概述 - JavaScript 教程 - 网道*
+
+https://blog.csdn.net/weixin_46001736/article/details/134007859 - *uni-app：解决异步请求返回值问题_uniapp异步数据赋值-CSDN博客*
+
 1. 前奏
 
     代码 demo
@@ -376,6 +409,8 @@ print.name; // x
 
 <https://wangdoc.com/javascript/types/function#闭包> - *函数 - JavaScript 教程 - 网道*
 
+http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html - *学习Javascript闭包（Closure） - 阮一峰的网络日志*
+
 #### return
 
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/return - *return - JavaScript | MDN*
@@ -390,7 +425,9 @@ https://wangdoc.com/javascript/async/timer - *定时器 - JavaScript 教程 - �
 
 ##### Promise 对象
 
-https://wangdoc.com/javascript/async/promise#promiseprototypethen - *Promise 对象 - JavaScript 教程 - 网道*
+https://wangdoc.com/javascript/async/promise - *Promise 对象 - JavaScript 教程 - 网道*
+
+https://wangdoc.com/es6/promise - *Promise 对象 - ES6 教程 - 网道*
 
 ### 进阶
 
@@ -409,12 +446,12 @@ var v = new Vehicle();
 v.price // 1000
 ```
 
-
 #### this
 
 1. https://wangdoc.com/javascript/oop/this - *this 关键字 - JavaScript 教程 - 网道*
-
 2. http://www.hcoder.net/books/read_10104.html - *唔透 javascript this 关键字*
+3. http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html - *Javascript 的 this 用法 - 阮一峰的网络日志*
+4. http://www.ruanyifeng.com/blog/2018/06/javascript-this.html - *JavaScript 的 this 原理 - 阮一峰的网络日志*
 
 ##### call/apply/bind
 
@@ -435,6 +472,10 @@ v.price // 1000
 ### Array 对象
 
 1. https://wangdoc.com/javascript/stdlib/array - *Array 对象 - JavaScript 教程 - 网道*
+
+### Boolean 对象
+
+https://wangdoc.com/javascript/stdlib/boolean - *Boolean 对象 - JavaScript 教程 - 网道*
 
 ### Number 对象
 
@@ -475,6 +516,48 @@ https://wangdoc.com/javascript/stdlib/json - *JSON 对象 - JavaScript 教程 - 
 1. https://wangdoc.com/javascript/bom/engine#url-协议 - *浏览器环境概述 - JavaScript 教程 -网道*
 2. https://www.runoob.com/js/js-void.html - *javascript:void(0) 含义 | 菜鸟教程*
 3. https://www.ruanyifeng.com/blog/2011/06/a_guide_for_writing_bookmarklet.html - *Bookmarklet编写指南 - 阮一峰的网络日志*
+
+## polyfill
+
+A **polyfill** is a piece of code (usually JavaScript on the web) that provides functionality that is not available in a particular environment. Polyfills are often used to implement APIs or features that are part of newer specifications in web development, especially when those features are not yet supported by all browsers or platforms.
+
+For example, when a new feature is introduced in the ECMAScript (JavaScript) specification, it may take some time before all browsers fully support it. During this transition period, developers can use polyfills to "fill in" the missing functionality, allowing the feature to be used in older browsers as well.
+
+### How Polyfills Work
+
+Polyfills typically check if a feature is already implemented by the browser. If it isn't, the polyfill will define it. Here's a basic example:
+
+```javascript
+if (!Array.prototype.includes) {
+  Array.prototype.includes = function (element) {
+    // Polyfill implementation for Array.includes
+    return this.indexOf(element) !== -1;
+  };
+}
+```
+
+In this example, the polyfill checks if the `Array.prototype.includes` method exists. If it doesn't, the polyfill defines it using an older method (`indexOf`).
+
+### Common Use Cases
+
+- **Backward Compatibility**: Ensuring modern JavaScript or CSS features work in older browsers.
+- **Cross-Browser Consistency**: Providing consistent functionality across different web browsers.
+- **Progressive Enhancement**: Allowing developers to use newer features while maintaining a functional baseline for unsupported environments.
+
+### Popular Polyfills Libraries
+
+Some popular polyfill libraries include:
+- **core-js**: A modular polyfill library for modern JavaScript.
+- **Babel**: Transpiles modern JavaScript code to be compatible with older environments, often including polyfills for new features.
+- **Polyfill.io**: A service that detects the user's browser and delivers the necessary polyfills.
+
+Using polyfills is a crucial practice in web development to maintain a broad compatibility range while adopting new web standards and features.
+
+参考：
+
+1. https://blog.csdn.net/weixin_47450807/article/details/123080204 - *什么是polyfill?-CSDN博客*
+2. https://blog.csdn.net/C_ZhangSir/article/details/102490761 - *什么是polyfill-CSDN博客*
+3. https://en.m.wikipedia.org/wiki/Polyfill_(programming) - *Polyfill (programming) - Wikipedia*
 
 ## 参考手册
 

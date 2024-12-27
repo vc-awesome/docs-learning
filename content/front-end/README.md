@@ -26,22 +26,27 @@
 
 > Learning resource
 
-https://github.com/FrontEndGitHub/FrontEndGitHub - *:octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）*
+1. https://github.com/FrontEndGitHub/FrontEndGitHub - *:octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）*
 
-![GitHub last commit](https://badgen.net/github/last-commit/FrontEndGitHub/FrontEndGitHub?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/FrontEndGitHub/FrontEndGitHub?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/FrontEndGitHub/FrontEndGitHub?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/FrontEndGitHub/FrontEndGitHub?style=social)
 
-https://github.com/o2team - *AOTU Labs · GitHub*
+2. https://github.com/o2team - *AOTU Labs · GitHub*
 
-1. https://github.com/o2team/guide - *GitHub - o2team/guide: O2前端规范文档*
+    1. https://github.com/o2team/guide - *GitHub - o2team/guide: O2前端规范文档*
   
-    ![GitHub last commit](https://badgen.net/github/last-commit/o2team/guide?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/guide?style=social)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/o2team/guide?color=blue&logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/guide?style=social)
 
-2. https://github.com/o2team/H5Skills - *GitHub - o2team/H5Skills: 移动端开发技巧集合*
+    2. https://github.com/o2team/H5Skills - *GitHub - o2team/H5Skills: 移动端开发技巧集合*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/o2team/H5Skills?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/H5Skills?style=social)
+        ![GitHub last commit](https://img.shields.io/github/last-commit/o2team/H5Skills?color=blue&logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/H5Skills?style=social)
+
+3. https://github.com/jtyjty99999/mobileTech - *GitHub - jtyjty99999/mobileTech: A useful tools or tips list for mobile web application developing*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/jtyjty99999/mobileTech?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/jtyjty99999/mobileTech?style=social)
 
 ### 优质框架
 
@@ -69,10 +74,10 @@ https://github.com/o2team - *AOTU Labs · GitHub*
 
 1. https://wangdoc.com/javascript/bom/engine - *浏览器环境概述 - JavaScript 教程 -网道*
 2. https://github.com/vasanthk/how-web-works - *GitHub - vasanthk/how-web-works: What happens behind the scenes when we type www.google.com in a browser?*  
-    ![GitHub last commit](https://badgen.net/github/last-commit/vasanthk/how-web-works?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/vasanthk/how-web-works?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/vasanthk/how-web-works?style=social)
 3. https://github.com/alex/what-happens-when - *GitHub - alex/what-happens-when: An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"*  
-    ![GitHub last commit](https://badgen.net/github/last-commit/alex/what-happens-when?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/alex/what-happens-when?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/alex/what-happens-when?style=social)
 4. https://web.dev/howbrowserswork/ - *How browsers work*
 5. https://developer.mozilla.org/zh-CN/docs/Web/Performance/How_browsers_work - *渲染页面：浏览器的工作原理 - Web 性能 | MDN*
@@ -122,3 +127,4 @@ https://caniuse.com/ - *Can I use... Support tables for HTML5, CSS3, etc* [GitHu
 
 1. https://zhuanlan.zhihu.com/p/148313476 - *19个前端开发人员的救生工具*
 2. https://zhuanlan.zhihu.com/p/159659392 - *9个不错的前端开源项目*
+3. https://www.cnblogs.com/weizwz/p/17952042 - *uni-app+vue3+ts项目搭建完整流程 - 唯之为之 - 博客园*

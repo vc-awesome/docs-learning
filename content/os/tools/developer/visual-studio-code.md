@@ -22,9 +22,14 @@ GitHub: https://github.com/Microsoft/vscode - *GitHub - microsoft/vscode: Visual
 
 ## Tutorials
 
+### Official
+
 1. https://code.visualstudio.com/docs - *Documentation for Visual Studio Code*
-2. https://www.w3cschool.cn/vscode/ - *Visual Studio Code 教程_w3cschool*
-3. https://geek-docs.com/vscode/vscode-tutorials/what-is-vscode.html - *VSCode 是什么|极客教程*
+
+### Third-party
+
+1. https://www.w3cschool.cn/vscode/ - *Visual Studio Code 教程_w3cschool*
+2. https://geek-docs.com/vscode/vscode-tutorials/what-is-vscode.html - *VSCode 是什么|极客教程*
 
 ## Installation
 
@@ -43,6 +48,8 @@ brew install --cask visual-studio-code
 ## Getting Started
 
 ### User Interface
+
+https://code.visualstudio.com/docs/getstarted/userinterface - *Visual Studio Code User Interface*
 
 ## Configuration
 

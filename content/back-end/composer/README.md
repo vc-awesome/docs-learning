@@ -25,7 +25,8 @@ GitHub:
 
 Docs: 
 
-1. https://docs.phpcomposer.com/ - *Composer 中文文档 | Composer 中文网*
+1. https://getcomposer.org/doc/ - *Composer*
+2. https://docs.phpcomposer.com/ - *Composer 中文文档 | Composer 中文网*
 
 ## 安装
 
@@ -52,6 +53,8 @@ v2021.1
 https://www.jetbrains.com/help/phpstorm/2021.1/using-the-composer-dependency-manager.html - *Composer dependency manager | PhpStorm Documentation*
 
 ### 命令
+
+https://getcomposer.org/doc/03-cli.md - *Command-line interface / Commands - Composer*
 
 - 下载指定版本的安装包
 
@@ -231,16 +234,16 @@ https://www.jetbrains.com/help/phpstorm/2021.1/using-the-composer-dependency-man
     composer require -h
     ```
 
-### 镜像源
-
-1. https://pkg.xyz/ - *Packagist / Composer 中国全量镜像*
-2. https://packagist.org/mirrors - *Packagist*
-
 ### 安装包管理
 
 > The PHP Package Repository
 
 https://packagist.org/ - *Packagist*
+
+#### 镜像源
+
+1. https://pkg.xyz/ - *Packagist / Composer 中国全量镜像*
+2. https://packagist.org/mirrors - *Packagist*
 
 ## 参考
 

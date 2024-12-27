@@ -16,15 +16,17 @@
 
 ### 桌面端
 
-1. Beta：https://www.google.cn/intl/zh-CN/chrome/beta/ - *试用 Google Chrome Beta 版的新功能 - Google Chrome*
-2. Canary：https://www.google.cn/intl/zh-CN/chrome/canary/ - *开发者专用的 Chrome Canary 版功能 - Google Chrome* [macOS Download dmg (direct downloads)](https://dl.google.com/chrome/mac/universal/canary/googlechromecanary.dmg)
-3. Dev：https://www.google.cn/intl/zh-CN/chrome/dev/ - *Google Chrome 开发者工具 - Google Chrome*
+1. 正式版：https://www.google.cn/intl/zh-CN/chrome/ - *Google Chrome 网络浏览器*
+2. Beta：https://www.google.cn/intl/zh-CN/chrome/beta/ - *试用 Google Chrome Beta 版的新功能 - Google Chrome*
+3. Canary：https://www.google.cn/intl/zh-CN/chrome/canary/ - *开发者专用的 Chrome Canary 版功能 - Google Chrome* [macOS Download dmg (direct downloads)](https://dl.google.com/chrome/mac/universal/canary/googlechromecanary.dmg)
+4. Dev：https://www.google.cn/intl/zh-CN/chrome/dev/ - *Google Chrome 开发者工具 - Google Chrome*
 
 ### 移动端
 
-1. Beta：https://play.google.com/store/apps/details?id=com.chrome.beta - *Chrome Beta*
-2. Canary：https://play.google.com/store/apps/details?id=com.chrome.canary - *Chrome Canary（不稳定）*
-3. Dev：https://play.google.com/store/apps/details?id=com.chrome.dev - *Chrome Dev*
+1. 正式版：https://play.google.com/store/apps/details?id=com.android.chrome - *Chrome*
+2. Beta：https://play.google.com/store/apps/details?id=com.chrome.beta - *Chrome Beta*
+3. Canary：https://play.google.com/store/apps/details?id=com.chrome.canary - *Chrome Canary（不稳定）*
+4. Dev：https://play.google.com/store/apps/details?id=com.chrome.dev - *Chrome Dev*
 
 ## 设置
 
@@ -66,6 +68,14 @@ chrome://inspect/
 chrome://net-internals/#dns
 ```
 
+```bash
+chrome://credits/
+```
+
+```bash
+chrome-native://newtab/
+```
+
 参考：
 
 1. https://blog.csdn.net/m0_37948734/article/details/81502734 - *chrome://命令*
@@ -77,11 +87,13 @@ chrome://net-internals/#dns
 
 ## 常见问题解答
 
-- Chrome 浏览器禁止 http 自动转成 https
+### 浏览器禁止 http 自动转成 https
 
-    1. 打开 Chrome 浏览器，在地址栏中输入 `chrome://net-internals/#hsts`
-    2. 在页面中查找 `Delete domain security policies`，在 `Domain` 的输入框中输入域名，并点击 `Delete` 删除
-    3. 可以在 `Query Expect-CT domain` 中测试是否删除成功
+操作步骤：
+
+1. 打开 Chrome 浏览器，在地址栏中输入 `chrome://net-internals/#hsts`
+2. 在页面中查找 `Delete domain security policies`，在 `Domain` 的输入框中输入域名，并点击 `Delete` 删除
+3. 可以在 `Query Expect-CT domain` 中测试是否删除成功
 
 ## 参考
 

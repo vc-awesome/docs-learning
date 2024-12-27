@@ -1,5 +1,7 @@
 # Bitwarden
 
+![](https://gh-proxy.com/raw.githubusercontent.com/bitwarden/brand/refs/heads/main/screenshots/apps-combo-logo.png)
+
 > Bitwarden makes it easy for businesses and individuals to securely generate, store, and share passwords from any location, browser, or device. Create your free Bitwarden account today.
 
 Mobile:
@@ -33,6 +35,8 @@ https://github.com/bitwarden/server - *bitwarden/server: The core infrastructure
 
 https://bitwarden.com/ - *Bitwarden Open Source Password Manager | Bitwarden*
 
+https://bitwarden.com/open-source/ - *Open Source Password Manager | Bitwarden*
+
 https://github.com/bitwarden - *Bitwarden · GitHub*
 
 - [x] ![Open-Source Software][OSS Icon] means **open source**, click to open **open source** repo;
@@ -59,6 +63,13 @@ https://bitwarden.com/download/ - *Install and Sync All of Your Devices | Bitwar
     - [x] Safari
 - [x] Web Application
 - [x] Command Line Interface
+
+https://bitwarden.com/open-source/ - *Open Source Password Manager | Bitwarden*
+
+- [x] Self-hosting
+    - [x] Windows
+    - [x] macOS
+    - [x] Linux
 
 ## Usage
 
@@ -102,6 +113,22 @@ https://bitwarden.com/help/ - *Help Center | Bitwarden*
 ## FAQ
 
 暂无
+
+## About
+
+https://bitwarden.com/about/ - *About Us | Bitwarden*
+
+### Bitwarden Brand
+
+https://bitwarden.com/brand/ - *The Bitwarden Brand | Bitwarden*
+
+https://github.com/bitwarden/brand - *GitHub - bitwarden/brand: Logos, icons, screenshots, and other media related to the Bitwarden brand.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/bitwarden/brand?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/bitwarden/brand?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bitwarden/brand?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/bitwarden/brand?style=social)
+
 
 [OSS Icon]: https://jaywcjlove.github.io/sb/ico/min-oss.svg "Open Source Software"
 [Freeware Icon]: https://jaywcjlove.github.io/sb/ico/min-free.svg "Freeware"

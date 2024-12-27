@@ -6,9 +6,7 @@
 
 ## 官方
 
-### 版本
-
-#### 2.x
+### v2.x
 
 https://uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
 
@@ -23,7 +21,7 @@ https://uviewui.com/ - *uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 -
 
 👏 https://www.kancloud.cn/uview/uview-ui_v2 - *uView-UI v2.x常见问题整理 · 看云*
 
-#### 1.x
+### v1.x
 
 https://v1.uviewui.com/ - *uView - 多平台快速开发的UI框架 - uni-app UI框架*
 
@@ -38,8 +36,12 @@ https://github.com/umicro/uView - *GitHub - umicro/uView: uView UI，是uni-app�
 
 ## 安装
 
+### v2.x
+
 https://uviewui.com/components/install.html - *安装 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
 - https://ext.dcloud.net.cn/plugin?id=1593 - *uView2.0重磅发布，利剑出鞘，一统江湖 - DCloud 插件市场*
+
+### v1.x
 
 https://v1.uviewui.com/components/install.html - *安装 | uView - 多平台快速开发的UI框架 - uni-app UI框架*
 - https://ext.dcloud.net.cn/plugin?id=6682 - *uView - DCloud 插件市场*
@@ -110,6 +112,13 @@ https://v1.uviewui.com/components/install.html - *安装 | uView - 多平台快�
 
 自动上传
 
+#### List 列表
+
+v2.x：
+
+- https://uviewui.com/components/list.html - *List 列表 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+- https://v2-h5.uviewui.com/index.html#/pages/componentsC/list/list - *列表*
+
 #### NoticeBar 滚动通知
 
 #### Line 线条
@@ -124,11 +133,11 @@ https://v1.uviewui.com/components/install.html - *安装 | uView - 多平台快�
 
 #### Divider 分割线
 
-#### Radio单选框
+#### Radio 单选框
 
-#### Checkbox复选框
+#### Checkbox 复选框
 
-#### Modal模态框
+#### Modal 模态框
 
 #### Empty 内容为空
 

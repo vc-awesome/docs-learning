@@ -206,3 +206,9 @@ GitHub: https://github.com/aliyun/aliyun-oss-php-sdk - *Aliyun OSS SDK for PHP*
 > 阿里云访问控制（RAM）服务可以帮您安全地集中管理对阿里云资源的访问。您可以控制哪些用户以何种方式进行身份验证后有权限访问哪些资源。
 
 https://www.aliyun.com/product/ram - *访问控制_云资源集中管控_权限分配_安全-阿里云*
+
+https://help.aliyun.com/zh/ram/ - *访问控制(RAM)-阿里云帮助中心*
+
+#### 访问密钥管理（AccessKey）
+
+https://help.aliyun.com/zh/ram/user-guide/accesskey-pair-management/ - *访问密钥管理（AccessKey）_访问控制(RAM)-阿里云帮助中心*

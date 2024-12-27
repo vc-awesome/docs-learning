@@ -303,6 +303,10 @@
 5. [Sublime Text](os/tools/app-list.md#sublime)
 
 
+### Linux
+
+1. [Vim](developer/vim.md)
+
 ### Android
 
 场景一：
@@ -319,104 +323,13 @@
 
 场景三：
 
-1. [MGit](os/mobile/mgit.md)
+1. [~~MGit~~](os/mobile/mgit.md)（Termux 安装 Git 替代）
 2. [Markor](os/tools/app-list.md#markor)
 3. [Termux](os/mobile/termux.md)
 4. [Acode](os/mobile/mobile-app-list.md#acode)
 5. [Markdownr](os/mobile/mobile-app-list.md#markdownr)
 6. [UrlCheck](os/mobile/mobile-app-list.md#urlcheck)
-
-
-## 下载指南
-
-Download guide：
-
-1. https://github.com/BeyondDimension/SteamTools/blob/develop/download-guide.md - *SteamTools/download-guide.md at develop · BeyondDimension/SteamTools · GitHub*
-
-    - 备用：https://github.com/A-nony-mous/SteamTools/blob/develop/download-guide.md - *SteamTools/download-guide.md at develop · A-nony-mous/SteamTools · GitHub*
-
-2. https://github.com/PowerShell/PowerShell/ - *Releases · PowerShell/PowerShell*
-
-    - https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell?view=powershell-7.3 - *在 Windows、Linux 和 macOS 上安装 PowerShell - PowerShell | Microsoft Learn*
-
-参考：
-
-1. 🔥 https://localsend.org/#/download - *LocalSend*
-
-
-### 系统要求
-
-参考：
-
-1. https://www.genymotion.com/download/ - *Downloads Archive - Genymotion – Android Emulator for app testing*
-
-2. https://developer.android.google.cn/studio/install?hl=zh - *安装 Android Studio  |  Android Developers*
-
-3. https://www.mozilla.org/en-US/firefox/119.0.1/system-requirements/ - *Firefox 119.0.1 System Requirements*
-
-
-### 平台架构
-
-Platform architecture:
-
-1. 32-bit
-
-2. 64-bit
-
-3. arm64
-
-支持的平台 | CPU 架构  | 平台架构 | 处理器体系结构   |  芯片 | 支持的主流设备 | 操作系统兼容性 | 安装包名称
----|---|---|---|---|---|---|---
-Windows (x86) | X86 架构  | 32-bit | x86, x86_x32   |  Intel, AMD | 主要是 PC 端，像移动智能设备端较少。 | Windows / Linux | PowerShell-7.3.4-win-x86.zip
-Windows (x64) | X86 架构  | 64-bit | x64(x86-64/AMD64)  |  Intel, AMD | \- | \- |  PowerShell-7.3.4-win-x64.zip
-macOS | X86 架构  | 64-bit | x64(x86-64)  |  Intel | \- | \- | powershell-7.3.4-osx-x64.tar.gz
-macOS | ARM 架构  | 64-bit | arm64   |  Apple Silicon (M1) | 主要是嵌入式设备、智能手机、平板电脑、智能穿戴和物联网设备，PC端也逐步开始占领市场。 | Linux / Mac / Android | powershell-7.3.4-osx-arm64.tar.gz
-\-  | ARM 架构  | 32-bit  | armv7, armv7s   |  \- |  \- |  \- |  \-
-
-💡 *x86 是指 32 位处理器、x64 是指 64 位处理器，因为 x64 指令是在 x86 指令集上扩展出来的，所以 x86 编译出来的程序可以在 64 位处理器上运行，反过来就不行。*
-
-参考：
-
-1. https://blog.csdn.net/qq_37061368/article/details/118730409/ - *x86 x64 arm64 安装包的区别*
-2. https://zhuanlan.zhihu.com/p/508557771/ - *ARM64指的是什么？与x86什么区别？*
-3. https://wenku.baidu.com/view/0053fe41f6335a8102d276a20029bd64783e62f5.html - *arm64是什么*
-4. https://www.yunqishi.net/dnjc/win10jc/68817.html - *ARM64是什么意思*
-5. https://www.eefocus.com/ask/489696 - *arm64什么意思*
-6. https://www.henrypp.org/product/memreduct - *Mem Reduct*
-
-手机客户端：
-
-arm64-v8a
-
-armeabi-v7a
-
-x86（32 位处理器）
-
-x86_64（64 位处理器）
-
-1. ~~https://github.com/Kr328/ClashForAndroid/releases - *Releases · Kr328/ClashForAndroid · GitHub*~~
-2. https://github.com/2dust/v2rayNG/releases - *Releases · 2dust/v2rayNG · GitHub*
-3. https://www.bromite.org/#download-bromite - *Bromite | Bromite - take back your browser*
-4. https://www.yxssp.com/26940.html - *NetGuard Pro v2.305 for Android 直装已付费专业版—— 一款简洁实用的网络权限管理应用 | 异星软件空间*
-
-如何查看处理器体系结构？
-
-- Windows:
-
-    1. https://blog.csdn.net/weixin_52369224/article/details/122557636 - *查看安卓模拟器 CPU版本_查看模拟器cpu_1ens的博客-CSDN博客*
-
-- macOS:
-
-    1. https://zhuanlan.zhihu.com/p/322291715 - *在Mac OS系统下查看CPU型号以及核心数量 - 知乎*
-    2. https://juejin.cn/post/7146406416914481183 - *Mac OS查看CPU型号以及核心数量 - 掘金*
-    3. https://support.apple.com/zh-cn/HT201581 - *查找 Mac 机型名称和序列号 - 官方 Apple 支持 (中国)*
-
-- Android:
-
-    1. 方式一：*使用应用 [CPU Info](os/mobile/mobile-app-list#cpu-info) > Hardware-CPU-ABI*
-    2. 方式二：*使用应用 [App Manager](os/mobile/mobile-app-list.md#App-Manager) > 设置 > 关于此设备-CPU*
-    3. 方式三：*使用应用 [Termux](os/mobile/termux.md) > 设置 > About-Device Info*
-    4. 方式四：*使用应用「小红书」> 设置 > 个人信息收集清单 > 设备信息 - CPU型号*
+7. [HTTP Shortcuts](../mobile/http-shortcuts.md)
 
 
 ## 装机必备
@@ -567,6 +480,15 @@ x86_64（64 位处理器）
 
 ---
 
+- Free
+- Pro
+- Business
+- Enterprise
+
+参考：https://github.com/features/copilot/ - *GitHub Copilot · Your AI pair programmer · GitHub*
+
+---
+
 - Basic - 基础版
 - Pro - 专业版
 - Teams - 团队版
@@ -608,6 +530,141 @@ x86_64（64 位处理器）
 1. https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html - *微信开发者工具下载地址与更新日志*
 
 
+## 软件安装
+
+### 下载指南
+
+Download guide：
+
+1. https://github.com/BeyondDimension/SteamTools/blob/develop/download-guide.md - *SteamTools/download-guide.md at develop · BeyondDimension/SteamTools · GitHub*
+
+    - 备用：https://github.com/A-nony-mous/SteamTools/blob/develop/download-guide.md - *SteamTools/download-guide.md at develop · A-nony-mous/SteamTools · GitHub*
+
+2. https://github.com/PowerShell/PowerShell/ - *Releases · PowerShell/PowerShell*
+
+    - https://learn.microsoft.com/zh-cn/powershell/scripting/install/installing-powershell?view=powershell-7.3 - *在 Windows、Linux 和 macOS 上安装 PowerShell - PowerShell | Microsoft Learn*
+
+参考：
+
+1. https://localsend.org/#/download - *LocalSend*
+
+
+### 系统要求
+
+参考：
+
+1. https://www.genymotion.com/download/ - *Downloads Archive - Genymotion – Android Emulator for app testing*
+
+2. https://developer.android.google.cn/studio/install?hl=zh - *安装 Android Studio  |  Android Developers*
+
+3. https://www.mozilla.org/en-US/firefox/119.0.1/system-requirements/ - *Firefox 119.0.1 System Requirements*
+
+
+### 平台架构
+
+Platform architecture:
+
+1. 32-bit
+
+2. 64-bit
+
+3. arm64
+
+支持的平台 | CPU 架构  | 平台架构 | 处理器体系结构   |  芯片 | 支持的主流设备 | 操作系统兼容性 | 安装包名称
+---|---|---|---|---|---|---|---
+Windows (x86) | X86 架构  | 32-bit | x86, x86_x32   |  Intel, AMD | 主要是 PC 端，像移动智能设备端较少。 | Windows / Linux | PowerShell-7.3.4-win-x86.zip
+Windows (x64) | X86 架构  | 64-bit | x64(x86-64/AMD64)  |  Intel, AMD | \- | \- |  PowerShell-7.3.4-win-x64.zip
+macOS | X86 架构  | 64-bit | x64(x86-64)  |  Intel | \- | \- | powershell-7.3.4-osx-x64.tar.gz
+macOS | ARM 架构  | 64-bit | arm64   |  Apple Silicon (M1) | 主要是嵌入式设备、智能手机、平板电脑、智能穿戴和物联网设备，PC端也逐步开始占领市场。 | Linux / Mac / Android | powershell-7.3.4-osx-arm64.tar.gz
+\-  | ARM 架构  | 32-bit  | armv7, armv7s   |  \- |  \- |  \- |  \-
+
+💡 *x86 是指 32 位处理器、x64 是指 64 位处理器，因为 x64 指令是在 x86 指令集上扩展出来的，所以 x86 编译出来的程序可以在 64 位处理器上运行，反过来就不行。*
+
+参考：
+
+1. https://blog.csdn.net/qq_37061368/article/details/118730409/ - *x86 x64 arm64 安装包的区别*
+2. https://zhuanlan.zhihu.com/p/508557771/ - *ARM64指的是什么？与x86什么区别？*
+3. https://wenku.baidu.com/view/0053fe41f6335a8102d276a20029bd64783e62f5.html - *arm64是什么*
+4. https://www.yunqishi.net/dnjc/win10jc/68817.html - *ARM64是什么意思*
+5. https://www.eefocus.com/ask/489696 - *arm64什么意思*
+6. https://www.henrypp.org/product/memreduct - *Mem Reduct*
+
+手机客户端：
+
+- arm64-v8a
+
+- armeabi-v7a
+
+- x86（32 位处理器）
+
+- x86_64（64 位处理器）
+
+    1. ~~https://github.com/Kr328/ClashForAndroid/releases - *Releases · Kr328/ClashForAndroid · GitHub*~~
+    2. https://github.com/2dust/v2rayNG/releases - *Releases · 2dust/v2rayNG · GitHub*
+    3. https://www.bromite.org/#download-bromite - *Bromite | Bromite - take back your browser*
+    4. https://www.yxssp.com/26940.html - *NetGuard Pro v2.305 for Android 直装已付费专业版—— 一款简洁实用的网络权限管理应用 | 异星软件空间*
+
+如何查看处理器体系结构？
+
+- Windows:
+
+    1. https://blog.csdn.net/weixin_52369224/article/details/122557636 - *查看安卓模拟器 CPU版本_查看模拟器cpu_1ens的博客-CSDN博客*
+
+- macOS:
+
+    1. https://zhuanlan.zhihu.com/p/322291715 - *在Mac OS系统下查看CPU型号以及核心数量 - 知乎*
+    2. https://juejin.cn/post/7146406416914481183 - *Mac OS查看CPU型号以及核心数量 - 掘金*
+    3. https://support.apple.com/zh-cn/HT201581 - *查找 Mac 机型名称和序列号 - 官方 Apple 支持 (中国)*
+
+- Android:
+
+    1. 方式一：*使用应用 [CPU Info](os/mobile/mobile-app-list#cpu-info) > Hardware-CPU-ABI*
+    2. 方式二：*使用应用 [App Manager](os/mobile/mobile-app-list.md#App-Manager) > 设置 > 关于此设备-CPU*
+    3. 方式三：*使用应用 [Termux](os/mobile/termux.md) > 设置 > About-Device Info*
+    4. 方式四：*使用应用「小红书」> 设置 > 个人信息收集清单 > 设备信息 - CPU型号*
+
+
+### 安装方式
+
+1. 源码编译安装
+    - https://www.ruanyifeng.com/blog/2013/07/gpg.html - *GPG入门教程 - 阮一峰的网络日志*
+    - https://linux.cn/article-8782-1.html - *技术|Linux 包管理基础：apt、yum、dnf 和 pkg*
+2. 编译好的二进制包安装（一键安装）
+    - https://www.ruanyifeng.com/blog/2013/07/gpg.html - *GPG入门教程 - 阮一峰的网络日志*
+
+#### 源码编译安装
+
+源码编译安装（操作步骤）：
+
+1. 下载源码
+
+    ```bash
+    cd /usr/local/src/
+    wget http://nodejs.org/dist/v0.10.24/node-v0.10.24.tar.gz
+    ```
+
+2. 解压源码
+
+    ```bash
+    tar zxvf node-v0.10.24.tar.gz
+    ```
+
+3. 编译安装
+
+    ```bash
+    cd node-v0.10.24
+    ./configure --prefix=/usr/local/node/0.10.24
+    make
+    make install
+    ```
+
+参考：
+
+1. https://www.php.net/manual/zh/install.pecl.phpize.php - *PHP: 用 phpize 编译共享 PECL 扩展库 - Manual*
+2. https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=10153 - *安装第三方PHP扩展示例 - Linux面板 - 宝塔面板论坛*
+3. https://www.runoob.com/nodejs/nodejs-install-setup.html - *Node.js 安装配置 | 菜鸟教程* （🫱 查看文档标题「CentOS 下源码安装 Node.js」下的内容）
+
+
 ## 软件卸载
 
 https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA - *最后教一次：完美解决电脑上的流氓软件* 🏷️ *阿虚同学*
@@ -615,17 +672,15 @@ https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA - *最后教一次：完美解
 
 ## 软件检测
 
-[Accrescent | Home](https://accrescent.app/) - *Accrescent is an Android app store focused on security, privacy, and usability.*
+1. [VirusTotal](https://www.virustotal.com/) - *VirusTotal*\
+    \> _via https://xz.aliyun.com/t/14250?time__1311=GqAxuDcDRD9D27DlxGoSDyA0titqw4HvpD - *VirusTotal食用指南（非付费项目） - 先知社区*_
 
-- 开源软件（[GitHub Repo](https://github.com/soupslurpr/AppVerifier)）
+2. [GitHub - soupslurpr/AppVerifier: Verify apps easily.](https://github.com/soupslurpr/AppVerifier)
 
-![GitHub last commit](https://img.shields.io/github/last-commit/soupslurpr/AppVerifier?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/soupslurpr/AppVerifier?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/soupslurpr/AppVerifier?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/soupslurpr/AppVerifier?style=social)
-
-[VirusTotal](https://www.virustotal.com/) - *VirusTotal*\
-\> _via https://xz.aliyun.com/t/14250?time__1311=GqAxuDcDRD9D27DlxGoSDyA0titqw4HvpD - *VirusTotal食用指南（非付费项目） - 先知社区*_
+    ![GitHub last commit](https://img.shields.io/github/last-commit/soupslurpr/AppVerifier?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/soupslurpr/AppVerifier?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/soupslurpr/AppVerifier?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/soupslurpr/AppVerifier?style=social)
 
 ### 隐私
 

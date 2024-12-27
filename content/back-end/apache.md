@@ -28,11 +28,15 @@ Website: https://httpd.apache.org/ - *Welcome! - The Apache HTTP Server Project*
 
 暂无
 
-### Termux
+### Android（Termux）
 
 ```bash
 pkg install apache2
 ```
+
+### Docker
+
+http://www.runoob.com/docker/docker-install-apache.html - *Docker 安装 Apache | 菜鸟教程*
 
 ## 配置
 
@@ -42,36 +46,66 @@ pkg install apache2
 
 ### 命令
 
+#### apachectl
+
 https://wangchujiang.com/linux-command/c/apachectl.html - *apachectl 命令，Linux apachectl 命令详解：Apache服务器前端控制工具 - Linux 命令搜索引擎*
 
-list available command line options (this page)
+http://www.runoob.com/linux/linux-comm-apachectl.html - *Linux apachectl 命令 | 菜鸟教程*
+
+list available command line options (this page)：
 
 ```bash
 apachectl -h
 ```
 
-show version number
+```bash
+apachectl help
+```
+
+show version number：
 
 ```bash
 apachectl -v
 ```
 
-show compile settings
+show compile settings：
 
 ```bash
 apachectl -V
 ```
 
+启动 Apache 服务器：
+
 ```bash
 apachectl start
 ```
+
+重新启动 Apache 服务器：
 
 ```bash
 apachectl restart
 ```
 
+停止 Apache 服务器：
+
 ```bash
 apachectl stop
+```
+
+#### httpd
+
+http://www.runoob.com/linux/linux-comm-httpd.html - *Linux httpd 命令 | 菜鸟教程*
+
+list available command line options (this page)：
+
+```bash
+httpd -h
+```
+
+show version number：
+
+```bash
+httpd -v
 ```
 
 ### 局域网配置
@@ -198,3 +232,7 @@ apachectl stop
 参考文献：
 
 1. http://blog.sina.com.cn/s/blog_a03d702f0101133h.html - *Apache Options Indexes FollowSymLinks 详解_callie_新浪博客*
+
+### WebDAV
+
+暂无

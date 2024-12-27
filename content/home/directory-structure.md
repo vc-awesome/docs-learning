@@ -316,7 +316,7 @@ project/ #目录结构
 
 https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-workflow: A web developer workflow used by WeChat team based on Gulp, with cross-platform supported and solutions prepared.*
 
-![GitHub last commit](https://badgen.net/github/last-commit/Tencent/tmt-workflow?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Tencent/tmt-workflow?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Tencent/tmt-workflow?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tencent/tmt-workflow?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/tmt-workflow?style=social)
@@ -508,7 +508,7 @@ li:before {
 
 1. https://github.com/ekalinin/github-markdown-toc - *GitHub - ekalinin/github-markdown-toc: Easy TOC creation for GitHub README.md*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/ekalinin/github-markdown-toc?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ekalinin/github-markdown-toc?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ekalinin/github-markdown-toc?style=social)
 
 ## 参考

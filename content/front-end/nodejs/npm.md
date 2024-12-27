@@ -26,46 +26,46 @@ GitHub：
     ![GitHub last commit](https://img.shields.io/github/last-commit/sindresorhus/awesome-npm?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/sindresorhus/awesome-npm?style=social)
 
-Docs：
+
+## 教程
+
+### 官方教程
 
 1. https://docs.npmjs.com/ - *npm Docs*
 
-官网搜索用法：
-
-1. 按组织搜索：https://www.npmjs.com/search?q=@dcloudio - *@dcloudio - npm search*
-
-2. 按关键字搜索：https://www.npmjs.com/search?q=keywords:uni-app - *keywords\:uni-app - npm search*
-
-非官方：
+### 第三方教程
 
 1. https://www.npmjs.cn/ - *npm 中文文档 | npm 中文网*
-
 2. https://www.runoob.com/nodejs/nodejs-npm.html - *NPM 使用介绍 | 菜鸟教程*
 
 
 ## 设置
 
+https://docs.npmjs.com/cli/configuring-npm - *Configuring npm | npm Docs*
+
 ### 镜像源
 
 #### npmmirror 镜像站（原淘宝 npm）
 
-官方：https://npmmirror.com/ - *npmmirror 镜像站*
+官网：
 
----
+https://npmmirror.com/ - *npmmirror 镜像站*
 
-使用淘宝 NPM 镜像命令：
+安装 cnpm 命令行工具：
 
-- 安装 cnpm 命令行工具
+```bash
+npm install -g cnpm --registry=https://registry.npmmirror.com
+```
 
-  `npm install -g cnpm --registry=https://registry.npmmirror.com`
+使用 cnpm 命令安装模块：
 
-  - 使用 cnpm 命令安装模块
+```bash
+cnpm install [Module Name]
+```
 
-    `cnpm install [Module Name]`
+参考：
 
-  - 参考
-
-    https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
+https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜像设置*
 
 
 #### 中科大镜像站
@@ -126,27 +126,79 @@ Docs：
   1. https://www.cnblogs.com/seeding/p/15219113.html - *NPM镜像源查看和切换*
 
 
+### package.json
+
+> 已有 package.json ， 安装模块依赖。
+
+官方：
+
+1. https://docs.npmjs.com/cli/configuring-npm/package-json/ - *package.json | npm Docs*
+
+安装：
+
+- `npm install` - 一键安装 package.json 文件里的所有依赖文件
+
+- `npm install --dependencies` - 只安装 dependencies（运行依赖）文件
+
+- `npm install --devDependencies` - 只安装 devDependencies （开发依赖）文件
+
+- `npm install -g npm-check-updates` - 更新依赖到最新版本
+
+参考：
+
+1. https://www.cnblogs.com/sese/p/10119511.html - *npm安装package.json中的模块依赖 - 前端[色色] - 博客园*
+
+
+## 目录结构
+
+### 查看全局安装路径
+
+`npm root -g`
+
+https://docs.npmjs.com/cli/commands/npm-root/ - *npm-root | npm Docs*
+
+### 查看安装目录路径
+
+`npm config get prefix`
+
+### 修改安装目录路径
+
+`npm config set ""`
+
+
 ## 命令行
 
 1. https://docs.npmjs.com/cli - *npm CLI | npm Docs*
 
-2. https://docs.npmjs.com/cli/commands - *CLI Commands | npm Docs*
+    1. https://docs.npmjs.com/cli/commands/ - *CLI Commands | npm Docs*
 
-3. https://zhuanlan.zhihu.com/p/534461112 - *npm 常用命令和使用技巧*
+2. https://zhuanlan.zhihu.com/p/534461112 - *npm 常用命令和使用技巧*
 
-### Search npm help documentation
+### Search npm help documentation - npm help
 
-`npm help`
+https://docs.npmjs.com/cli/commands/npm-help/ - *npm-help | npm Docs*
 
-https://docs.npmjs.com/cli/commands/npm-help - *npm-help | npm Docs*
+```bash
+npm help <term> [<terms..>]
+```
 
-### 查看当前版本
+### 查看当前版本 - npm version
+
+https://docs.npmjs.com/cli/commands/npm-version/ - *npm-version | npm Docs*
+
+```bash
+npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]
+```
+
+示例：
 
 `npm -v`
 
-### 安装模块（本地安装）
+### 安装模块 - npm install
 
-https://docs.npmjs.com/cli/commands/npm-install - *npm-install | npm Docs*
+#### 本地安装
+
+https://docs.npmjs.com/cli/commands/npm-install/ - *npm-install | npm Docs*
 
 ```bash
 npm install [<package-spec> ...]
@@ -155,10 +207,10 @@ npm install [<package-spec> ...]
 使用指定镜像源安装某个软件包：
 
 1. 方式 1：
-`npm --registry https://npmreg.proxy.ustclug.org/ install <packagename>`
+`npm --registry https://npmreg.proxy.ustclug.org/ install <package-spec>`
 
 2. 方式 2：
-`npm install <Module Name> --registry=https://registry.npmjs.org`
+`npm install <package-spec> --registry=https://registry.npmjs.org`
 
 安装 package.json 定义好的模块：
 
@@ -175,163 +227,227 @@ npm i
 安装指定模块：
 
 ```bash
-npm i <ModuleName>
+npm i <package-spec>
 ```
 
 全局安装：
 
 ```bash
-npm i <ModuleName> -g
+npm i <package-spec> -g
 ```
 
 安装包的同时，将信息写入到 package.json 中的 dependencies 配置中：
 
 ```bash
-npm i <ModuleName> --save
+npm i <package-spec> --save
 ```
 
 安装包的同时，将信息写入到 package.json 中的 devDependencies 配置中：
 
 ```bash
-npm i <ModuleName> --save-dev
+npm i <package-spec> --save-dev
 ```
 
 安装多模块：
 
 ```bash
-npm i <ModuleName1> <ModuleName2>
+npm i <package-spec> <package-spec>
 ```
 
-安装方式参数：
+安装参数：
 
--save # 简写 -S，加入到生产依赖中
+- -save # 简写 -S，加入到生产依赖中
 
--save-dev # 简写 -D，加入到开发依赖中
+- -save-dev # 简写 -D，加入到开发依赖中
 
--g # 全局安装 将安装包放在 /usr/local 下或者你 node 的安装目录
+- -g # 全局安装，将安装包放在 /usr/local 目录或者 node 的安装目录
 
-### 安装模块（全局安装）
+#### 全局安装
 
-`npm install -g <ModuleName>`
+`npm install -g <package-spec>`
 
-### 卸载模块
+#### 升级版本
 
-`npm uninstall <Module Name>` - *卸载本地模块*
+`npm install -g <package-spec>` - *执行已安装的软件包，表示更新软件包版本*
 
-`npm uninstall -g <Module Name>` - *卸载全局模块*
+示例：
 
-### 更新模块
+`npm install npm`  - *本地升级*
+
+`npm install npm -g` - *全局升级*
+
+### 卸载模块 - npm uninstall
+
+https://docs.npmjs.com/cli/commands/npm-uninstall/ - *npm-uninstall | npm Docs*
+
+```bash
+npm uninstall [<@scope>/]<pkg>...
+```
+
+`npm uninstall <pkg>` - *卸载本地模块*
+
+`npm uninstall -g <pkg>` - *卸载全局模块*
+
+### 更新模块 - npm update
+
+https://docs.npmjs.com/cli/commands/npm-update/ - *npm-update | npm Docs*
+
+```bash
+npm update [<pkg>...]
+```
 
 本地更新：
 
-`npm update <Module Name>`
+`npm update <pkg>`
 
 全局更新：
 
-`npm update -g <Module Name>`
+`npm update -g <pkg>`
 
-### 搜索模块
+### 搜索模块 - npm search
 
-`npm search <Module Name>`
+https://docs.npmjs.com/cli/commands/npm-search/ - *npm-search | npm Docs*
 
-### 升级 npm 版本
+```bash
+npm search <search term> [<search term> ...]
+```
 
-`npm install npm` # 本地升级
+示例：
 
-`npm install npm -g` # 全局升级
+`npm search npm`
 
-### 设置镜像源
+在线（官网）搜索：
 
-- 查看
+1. 按组织搜索：https://www.npmjs.com/search?q=@dcloudio - *@dcloudio - npm search*
+2. 按关键字搜索：https://www.npmjs.com/search?q=keywords:uni-app - *keywords\:uni-app - npm search*
 
-  `npm config get registry`
+### 列出已安装的软件包 - npm ls
 
-- 设置
+https://docs.npmjs.com/cli/commands/npm-ls/ - *npm-ls | npm Docs*
 
-  新版：
+```bash
+npm ls <package-spec>
+```
 
-  `npm config set registry https://registry.npmmirror.com --global`
-  
-  `npm config set disturl https://npmmirror.com/mirrors/node --global`
-  
-  旧版：
-  
-  ~~`npm config set registry https://registry.npm.taobao.org --global`~~
-  
-  ~~`npm config set disturl https://npm.taobao.org/dist --global`~~
+#### 查看全局安装的模块
 
-### 查看全局安装的模块
+`npm ls -g`
 
-`npm list -g`
+#### 查看指定模块的版本号
 
-### 查看 grunt 模块的版本号
+示例：
 
-`npm list grunt`
+`npm ls npm`
 
-### 查看包的 package.json 文件
+`npm ls --global npm`
 
-`npm view <ModuleName>`
+### View registry info - npm view
 
-https://docs.npmjs.com/cli/commands/npm-view - *npm-view | npm Docs*
+https://docs.npmjs.com/cli/commands/npm-view/ - *npm-view | npm Docs*
 
-### 查看设置
+```bash
+npm view [<package-spec>] [<field>[.subfield]...]
+```
+
+示例：
+
+`npm view npm`
+
+`npm view npm repository.url`
+
+#### 查看包的 package.json 文件
+
+暂无
+
+### 配置文件 - npm config
+
+https://docs.npmjs.com/cli/commands/npm-config/ - *npm-config | npm Docs*
+
+```bash
+npm config set <key>=<value> [<key>=<value> ...]
+npm config get [<key> [<key> ...]]
+npm config delete <key> [<key> ...]
+npm config list [--json]
+npm config edit
+npm config fix
+```
+
+#### 查看所有设置
+
+本地：
 
 `npm config list` 或 `npm config ls`
 
-全局
+全局：
 
 `npm config list -g` 或 `npm config ls -g`
 
-### 查看完整的设置
+#### 查看完整的设置
 
 `npm config list -l` 或 `npm config ls -l`
 
-### 查看全局安装路径
+#### 查看镜像源
 
-`npm root -g`
+`npm config get registry`
 
-https://docs.npmjs.com/cli/commands/npm-root - *npm-root | npm Docs*
+#### 设置镜像源
 
-### 查看安装目录路径
+新版：
 
-`npm config get prefix`
+`npm config set registry https://registry.npmmirror.com --global`
 
-### 修改安装目录路径
+`npm config set disturl https://npmmirror.com/mirrors/node --global`
 
-`npm config set ""`
+旧版：
 
-### 清空缓存
+~~`npm config set registry https://registry.npm.taobao.org --global`~~
 
-`npm cache clean`
+~~`npm config set disturl https://npm.taobao.org/dist --global`~~
 
-https://docs.npmjs.com/cli/commands/npm-cache - *npm-cache | npm Docs*
+### 清空缓存 - npm cache
 
-### Open package repository page in the browser
+https://docs.npmjs.com/cli/commands/npm-cache/ - *npm-cache | npm Docs*
 
-`npm repo [<pkgname> [<pkgname> ...]]`
+```bash
+npm cache add <package-spec>
+npm cache clean [<key>]
+npm cache ls [<name>@<version>]
+npm cache verify
+```
 
-示例：`npm repo npm`
+### Open package repository page in the browser - npm repo
 
 https://docs.npmjs.com/cli/commands/npm-repo/ - *npm-repo | npm Docs*
 
-### Docs for a package in a web browser maybe
-
-`npm docs [<pkgname> [<pkgname> ...]]`
-
-示例：`npm docs npm`
-
-https://docs.npmjs.com/cli/commands/npm-docs - *npm-docs | npm Docs*
-
-### Create a tarball from a package
-
-https://docs.npmjs.com/cli/commands/npm-pack - *npm-pack | npm Docs*
-
 ```bash
-npm pack
+npm repo [<pkgname> [<pkgname> ...]]
 ```
 
+示例：
 
-## 模块
+`npm repo npm`
+
+### Docs for a package in a web browser maybe - npm docs
+
+https://docs.npmjs.com/cli/commands/npm-docs/ - *npm-docs | npm Docs*
+
+```bash
+npm docs [<pkgname> [<pkgname> ...]]
+```
+
+示例：
+
+`npm docs npm`
+
+### Create a tarball from a package - npm pack
+
+https://docs.npmjs.com/cli/commands/npm-pack/ - *npm-pack | npm Docs*
+
+```bash
+npm pack <package-spec>
+```
+
+## 软件包
 
 ### cnpm
 
@@ -572,6 +688,10 @@ https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-c
 - 安装
 
   `npm install -g npm-check-updates`
+
+- 更新
+
+  `npm i -g npm-check-updates`
 
 - You're lookin' at it.
 

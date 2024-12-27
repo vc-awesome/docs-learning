@@ -1,9 +1,9 @@
 * [Overview](os/tools/README.md)
 * [Search](os/tools/search.md)
 * **应用列表**
-  * [Desktop Tools](os/tools/app-list.md)
-  * [Web Tools](os/tools/web-app.md "在线工具")
-  * [CLI Tools](os/tools/cli-app.md)
+  * [Desktop Apps](os/tools/app-list.md)
+  * [Web Apps](os/tools/web-app.md "在线工具")
+  * [CLI Apps](os/tools/cli-app.md)
 * **浏览器**
   * [Browser](os/tools/topics/browser.md "浏览器")
   * [Chrome](os/tools/chrome.md)
@@ -38,5 +38,5 @@
   * [phpMyAdmin](os/tools/phpmyadmin.md)
   * [仿站工具](os/tools/webpage-downloader.md)
 * **自建工具**
-  * [Badge](os/tools/custom-badge.md)
-  * [Search](os/tools/custom-search.md)
+  * [Badge](os/tools/custom/badge.md)
+  * [Search](os/tools/custom/search.md)
