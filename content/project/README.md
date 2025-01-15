@@ -24,6 +24,10 @@ https://mp.weixin.qq.com/s/rKssu46Cemwn2EqmJkkM2Q - *一文看懂DevOps，再不
 
 2. https://wenku.baidu.com/view/e1e52b00df80d4d8d15abe23482fb4daa58d1de6.html - *项目开发规范文档 - 百度文库*
 
+## 指南
+
+http://www.runoob.com/web/web-buildingprimer.html - *网站建设指南 | 菜鸟教程*
+
 ## 安全
 
 > 百度关键词搜索：[Web 安全与认证授权](https://www.baidu.com/s?word=Web%20安全与认证授权)
@@ -44,6 +48,10 @@ https://mp.weixin.qq.com/s/rKssu46Cemwn2EqmJkkM2Q - *一文看懂DevOps，再不
 6. 代码加密、混淆
 
 ## 测试
+
+暂无
+
+## 调试
 
 暂无
 

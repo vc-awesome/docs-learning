@@ -24,7 +24,7 @@
     ![GitHub last commit](https://img.shields.io/github/last-commit/PanJiaChen/awesome-bookmarks?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/PanJiaChen/awesome-bookmarks?style=social)
 
-## 知识体系
+## 技术体系
 
 > 学会如何全面使用编程工具各项功能。
 
@@ -32,6 +32,8 @@
 - 计算机硬件知识
 - 计算机网络知识
 - 计算机软件知识
+
+---
 
 - HTML 基础
 - CSS 基础
@@ -49,7 +51,7 @@
     - 教程2 https://www.w3cschool.cn/dosmlxxsc1/ - *DOS 命令学习手册_w3cschool*
 - 队列 think-queue
     - https://www.jianshu.com/p/f5e33215c13c - *think-queue - JunChow520 - 简书*
-- RabbitMQ
+- [RabbitMQ: One broker to queue them all | RabbitMQ](https://www.rabbitmq.com/) - *RabbitMQ is a reliable and mature messaging and streaming broker, which is easy to deploy on cloud environments, on-premises, and on your local machine. It is currently used by millions worldwide.*
 - 单点登录 JWT
     - https://www.jianshu.com/p/60bbc1c3990e - *JWT（JSON Web Token） - 匆匆岁月 - 简书*
 - cURL
@@ -69,21 +71,7 @@
 - OAuth
 - JSX
 - 地图
-    - https://lbs.qq.com/ - *腾讯位置服务 - 立足生态，连接未来*
-
-## 操作系统
-
-- Windows
-- Linux
-- macOS
-- Android
-- iOS
-
-
-## 编程语言
-
-- Bash
-- Markdown
+    - [腾讯位置服务 - 立足生态，连接未来](https://lbs.qq.com/) - *腾讯地图开放平台为各类应用厂商和开发者提供基于腾讯地图的地理位置服务和解决方案；有针对Web应用的JavaScript API, 适合手机端Native APP的各种SDK, WebService接口和各类地图API等。*
 
 ### Web 前端
 
@@ -105,7 +93,7 @@
 - AmazeUI
 - Bootstrap
 
-### 服务器（后）端
+### 服务端
 
 - PHP
 - Java
@@ -116,13 +104,13 @@
 
 #### 框架
 
-- [Workman](https://www.workerman.net) - *高性能PHP应用容器 workerman*
+- [高性能PHP应用容器workerman](https://www.workerman.net/) - *workerman是一款开源高性能PHP应用容器，它大大突破了传统PHP应用范围，被广泛的用于互联网、即时通讯、APP开发、硬件通讯、智能家居、物联网等领域的开发。*
 
 #### 性能引擎
 
-- [Swoole](https://www.swoole.com) *Swoole - PHP 协程框架*
+- [Swoole - PHP 协程框架](https://www.swoole.com/) - *Swoole: PHP的异步、并行、高性能网络通信引擎，支持TCP长连接，Websocket，Mqtt等协议。广泛用于手机app、手游服务端、网络游戏服务器、聊天室、硬件通讯、智能家居、车联网、物联网等领域的开发。*
 
-### 数据库管理系统
+### 数据库
 
 - MySQL
 - MongoDB
@@ -137,22 +125,208 @@
 - Tengine
 - OpenResty （结合编程语言 Lua 使用）
 - IIS
-- [Vercel](https://vercel.com/ "前端部署") - *Vercel: Develop. Preview. Ship. For the best frontend teams*
+- [Vercel: Build and deploy the best web experiences with the Frontend Cloud](https://vercel.com/) - *Vercel's Frontend Cloud gives developers the frameworks, workflows, and infrastructure to build a faster, more personalized web.*
 
 #### 应用容器引擎
 
 - Docker
 
-### 版本控制工具
+### 版本控制
 
 - SubVersion
 - Git
 
 ### 全文搜索引擎
 
-- [Sphinx](http://sphinxsearch.com/) - *Sphinx | Open Source Search Engine*
+- [Sphinx | Open Source Search Engine](http://sphinxsearch.com/) - *Sphinx is an open source full text search server, designed with performance, relevance (search quality),
+and integration simplicity in mind. Sphinx lets you either batch index and search data stored in files, an SQL database, NoSQL storage --
+or index and search data on the fly, working with Sphinx pretty much as with a database server.*
 
 ### 开放平台
 
 - QQ 开放平台
     - https://q.qq.com/wiki/ - *平台入驻文档 | 文档*
+
+## 操作系统
+
+### Windows
+
+暂无
+
+### Linux
+
+暂无
+
+### macOS
+
+暂无
+
+### Android
+
+暂无
+
+### iOS
+
+暂无
+
+## 编程语言
+
+https://docs.github.com/en/get-started/learning-about-github/github-language-support - *GitHub language support - GitHub Docs*
+- https://github.com/github-linguist/linguist - *GitHub - github-linguist/linguist: Language Savant. If your repository's language is being reported incorrectly, send us a pull request!*
+    - https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml - *linguist/lib/linguist/languages.yml at main · github-linguist/linguist · GitHub*
+
+### ApacheConf
+
+暂无
+
+### Awk
+
+暂无
+
+### Batchfile
+
+暂无
+
+### CSS
+
+暂无
+
+### Go
+
+暂无
+
+### HTML
+
+暂无
+
+### INI
+
+暂无
+
+### Java
+
+暂无
+
+### JavaScript
+
+暂无
+
+### JSON
+
+暂无
+
+### Less
+
+暂无
+
+### Lua
+
+暂无
+
+### Markdown
+
+暂无
+
+### Nginx
+
+暂无
+
+### PHP
+
+暂无
+
+### Python
+
+暂无
+
+### Regular Expression
+
+暂无
+
+### SCSS
+
+暂无
+
+### Shell
+
+暂无
+
+### SQL
+
+暂无
+
+### SVG
+
+暂无
+
+### Text
+
+暂无
+
+### TypeScript
+
+暂无
+
+### Vue
+
+暂无
+
+### XML
+
+暂无
+
+### YAML
+
+暂无
+
+## 技术公司
+
+### Adobe
+
+暂无
+
+### Apple Inc.
+
+暂无
+
+### Google Inc.
+
+暂无
+
+### Microsoft
+
+暂无
+
+### Mozilla
+
+暂无
+
+### Tencent
+
+暂无
+
+## 标准化组织
+
+http://www.runoob.com/web/web-standards.html - *Web 标准 | 菜鸟教程*
+
+有关详细信息，请参阅“[README](essential/README.md#标准规格)”。
+
+### ECMA
+
+暂无
+
+### IETF
+
+暂无
+
+### ISO
+
+暂无
+
+### RFC
+
+暂无
+
+### W3C
+
+暂无

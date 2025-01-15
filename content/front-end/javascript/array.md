@@ -28,13 +28,19 @@ https://wangdoc.com/es6/array - *数组的扩展 - ES6 教程 - 网道*
 
 ## 构造函数
 
+暂无
+
 ## 静态属性
+
+暂无
 
 ## 静态方法
 
 Array.isArray()
 
 ## 实例属性
+
+暂无
 
 ## 实例方法
 
@@ -57,3 +63,7 @@ splice()
 ### sort()
 
 `sort()` - sort() 方法就地对数组的元素进行排序，并返回对相同数组的引用。默认排序是将元素转换为字符串，然后按照它们的 UTF-16 码元值升序排序。 [Array.prototype.sort() - JavaScript | MDN](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
+
+### includes()
+
+<https://wangdoc.com/es6/array#实例方法includes> - *数组的扩展 - ES6 教程 - 网道*

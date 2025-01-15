@@ -538,6 +538,10 @@ git add -p
 git add --all -- ':!path/to/file1' ':!path/to/file2' ':!path/to/folder1/*'
 ```
 
+```bash
+git add --all -- ':!*.md~' ':!*.swp' # 示例
+```
+
 参考：
 
 1. https://segmentfault.com/q/1010000012605030 - *git add 多个文件，但想忽略某一个文件 - SegmentFault 思否*

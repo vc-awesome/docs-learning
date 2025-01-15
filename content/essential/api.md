@@ -98,6 +98,8 @@ API 安全
 
 #### HTTP
 
+暂无
+
 ### 设计规范
 
 1. https://juejin.cn/post/6844904069652283400 - *API 接口设计规范 - 掘金*
@@ -227,11 +229,28 @@ https://graphql.org/ - *GraphQL | A query language for your API* [中文站点](
 https://apifox.com/help/auth/api-key - *什么是 API Key | Apifox 帮助文档*
 
 #### API Key
+
+暂无
+
 #### Bearer Token
+
+暂无
+
 #### JWT
+
+暂无
+
 #### Basic Auth
+
+暂无
+
 #### Digest Auth
+
+暂无
+
 #### OAuth 2.0
+
+暂无
 
 ### 文档书写
 
@@ -460,7 +479,7 @@ json响应格式
 
 业务错误码 error_code ：
 
-- 400000 数据验证错误 message ``
+- 400000 Bad Request message `数据验证错误`
 - 401000 Unauthorized message `校验失败，需要重新登录`
 - 404000 Not Found message `请求数据不存在`
 - 403000 Forbidden message `账户严重违规，已封号`
@@ -590,6 +609,8 @@ console.log('[Pre]OpenAccountApi.getUserToken _pre_sign='+_pre_sign+',_sign=' + 
 
 ### YApi
 
+> YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台. Contribute to YMFE/yapi development by creating an account on GitHub.
+
 https://github.com/YMFE/yapi - *YApi 是一个可本地部署的、打通前后端及QA的、可视化的接口管理平台. Contribute to YMFE/yapi development by creating an account on GitHub.*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/YMFE/yapi?color=blue&logo=github)
@@ -600,12 +621,21 @@ https://github.com/YMFE/yapi - *YApi 是一个可本地部署的、打通前后�
 
 ### Postman
 
+> Accelerate API development with Postman's all-in-one platform. Streamline collaboration and simplify the API lifecycle for faster, better results. Learn more.
+
 https://www.postman.com/ - *Postman is an API platform for building and using APIs. Postman simplifies each step of the API lifecycle and streamlines collaboration so you can create better APIs—faster.*
 
 
 ### Showdoc
 
 > 一个非常适合IT团队的在线API文档、技术文档工具。你可以使用Showdoc来编写在线API文档、技术文档、数据字典、在线手册
+
+![GitHub last commit](https://img.shields.io/github/last-commit/star7th/showdoc?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/star7th/showdoc?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/star7th/showdoc?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/star7th/showdoc?style=social)
+
+https://github.com/star7th/showdoc - *GitHub - star7th/showdoc: ShowDoc is a tool greatly applicable for an IT team to share documents online一个非常适合IT团队的在线API文档、技术文档工具*
 
 https://www.showdoc.com.cn/ - *ShowDoc*
 
@@ -616,10 +646,14 @@ https://www.showdoc.com.cn/page/102098 - *开放API*
 
 ### Apizza
 
+> apizza 是一个极客专属的api协作管理工具，你可以在这里进行api测试，方便快捷的编写api文档，智能识别参数，自动生成代码，流程测试，让你的团队协作更高效。
+
 https://www.apizza.net/ - *apizza - 极客专属的 api 管理工具*
 
 
 ### Apijson
+
+> 🏆 实时 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构 🏆 Real-Time coding-free, powerful and secure ORM 🚀 providing APIs and Docs without coding by Backend, and the returned JSON of API can be customized by Frontend(Client) users - Tencent/APIJSON
 
 https://github.com/Tencent/APIJSON - *🏆 零代码、全功能、强安全 ORM 库 🚀 后端接口和文档零代码，前端(客户端) 定制返回 JSON 的数据和结构。 🏆 A JSON Transmission Protocol and an ORM Library 🚀 provides APIs and Docs without writing any code.*
 
@@ -631,10 +665,14 @@ https://github.com/Tencent/APIJSON - *🏆 零代码、全功能、强安全 ORM
 
 ### docway
 
+> 小幺鸡在线接口文档管理工具(原小幺鸡),支持markdown语法、http接口管理测试、支持mock server
+
 http://www.docway.net - *小幺鸡在线接口文档管理工具*
 
 
 ### swagger
+
+> Simplify API development for users, teams, and enterprises with our open source and professional toolset. Find out how Swagger can help you and get started today.
 
 https://swagger.io - *API Documentation & Design Tools for Teams | Swagger*
 
@@ -644,6 +682,8 @@ https://github.com/swagger-api - *Swagger · GitHub*
 
 ### Apipost
 
+> Apipost是集API设计、API调试、API文档、自动化测试为一体的API研发协同平台,支持grpc,http,websocket,socketio,socketjs类型接口调试,支持私有化部署。
+
 https://www.apipost.cn/ - *Apipost-API 文档、设计、调试、自动化测试一体化协作平台*
 
 参考：
@@ -652,6 +692,8 @@ https://www.apipost.cn/ - *Apipost-API 文档、设计、调试、自动化测�
 
 
 ### Apifox
+
+> Apifox = Postman + Swagger + Mock + JMeter。集接口文档工具、接口Mock工具、接口自动化测试工具、接口调试工具于一体，提升 10 倍研发效率。是最好用的API文档工具，API自动化测试工具，API Mock工具，接口文档管理工具，接口文档生成工具。
 
 https://apifox.com/ - *Apifox - API 文档、调试、Mock、测试一体化协作平台 - 接口文档工具，接口自动化测试工具，接口Mock工具，API文档工具，API Mock工具，API自动化测试工具*
 

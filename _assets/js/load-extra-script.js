@@ -98,6 +98,7 @@ function styleInject(css, ref) {
     'css',
   );
   loadjscssfile('_assets/css/simple.css', 'css');
+  loadjscssfile('_assets/css/material-symbols-outlined.css', 'css');
   
   /* 切换主题 */
   const mediaQueryListDark = window.matchMedia('(prefers-color-scheme: dark)');

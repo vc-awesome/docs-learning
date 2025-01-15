@@ -213,7 +213,7 @@ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefo
 
 7. [Redirector](https://einaregilsson.com/redirector/) - *Automatically redirect content based on user-defined rules.* [Chrome](https://chrome.google.com/webstore/detail/ocgpenflpmgnfapjedencafcfakcekcd), [Firefox](https://www.crxsoso.com/firefox/detail/redirector), [GitHub Repo](https://github.com/einaregilsson/Redirector)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ocgpenflpmgnfapjedencafcfakcekcd) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ocgpenflpmgnfapjedencafcfakcekcd?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/einaregilsson/Redirector?icon=github&color=blue)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/ocgpenflpmgnfapjedencafcfakcekcd) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/ocgpenflpmgnfapjedencafcfakcekcd?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/einaregilsson/Redirector?color=blue&logo=github)
 
     - ⚠️ 无法重定向地址：`https://chrome.google.com/`
 
@@ -227,7 +227,7 @@ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefo
 
 9. [Smart TOC](#) - **显示任何网站的目录，使阅读和浏览长篇文章、文档和在线书籍更加容易。** [Chrome](https://chrome.google.com/webstore/detail/lifgeihcfpkmmlfjbailfpfhbahhibba), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/smart_toc/), [GitHub Repo](https://github.com/FallenMax/smart-toc)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lifgeihcfpkmmlfjbailfpfhbahhibba) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lifgeihcfpkmmlfjbailfpfhbahhibba?style=social) ![GitHub last commit](https://badgen.net/github/last-commit/FallenMax/smart-toc?icon=github&color=blue)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lifgeihcfpkmmlfjbailfpfhbahhibba) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lifgeihcfpkmmlfjbailfpfhbahhibba?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/FallenMax/smart-toc?color=blue&logo=github)
 
 ### Tampermonkey 脚本
 

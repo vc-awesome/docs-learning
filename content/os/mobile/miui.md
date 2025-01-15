@@ -67,7 +67,7 @@
     1. *[OCR](https://f-droid.org/packages/io.github.subhamtyagi.ocr/)（推荐）*
     2. *夸克 - 提取文字*
     3. *百度翻译*
-    4. *[Yander Browser](os/mobile/browser.md#yander) - 智能摄像头*
+    4. *[Yander Browser](os/mobile/browser.md#yandex) - 智能摄像头*
 
 
 ## 屏幕录制
@@ -123,7 +123,7 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 
 > MIUI 14
 
-使用操作：*应用 > 小爱语音 > 右上角“我的” > 蓝牙设备 > 连接指定设备后可查看电池电量、产品说明书*
+使用操作：*应用 > [小爱语音](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.miui.voiceassist) > 右上角“我的” > 蓝牙设备 > 连接指定设备后可查看电池电量、产品说明书*
 
 
 ## 文件管理
@@ -253,7 +253,7 @@ MIUI 14 设置操作：
 
 查看系统应用：
 
-1. _应用 > App Manager > 点击顶部搜索框右边的「列表选项」 > 选择「系统应用」选项_
+1. _应用 > [App Manager](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=io.github.muntashirakon.AppManager) > 点击顶部搜索框右边的「列表选项」 > 选择「系统应用」选项_
 
 常用系统应用：
 
@@ -264,6 +264,7 @@ MIUI 14 设置操作：
 ### 文件管理
 
 1. 文件管理 - 应用包名：`com.android.fileexplorer`（[启动应用](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)）
+
 
 ### 悬浮球
 
@@ -320,7 +321,25 @@ MIUI 14 设置操作：
 设置操作：_应用 > 手机管家 > 自动任务_
 
 
+### 应用商店
+
+暂无
+
+
+### 系统桌面
+
+MIUI 14 设置操作：*应用 > [设置](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.settings) > 桌面*
+
+
 ## 官方应用
+
+> *应用 > [应用商店](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.xiaomi.market) > 我的 > （应用管理）官方应用*
+
+
+### 小爱同学
+
+暂无
+
 
 ### 小米笔记
 
@@ -337,6 +356,41 @@ https://s.xiaomi.cn/c/8qK7lYlC - *🏷️ 小米社区*
 ### 小米社区
 
 https://www.xiaomi.cn/ - *小米社区*
+
+
+### 小米商城
+
+暂无
+
+
+### 小米有品
+
+暂无
+
+
+### 小米天气
+
+暂无
+
+
+### 日历
+
+暂无
+
+
+### 时钟
+
+暂无
+
+
+### 计算器
+
+暂无
+
+
+### 米家
+
+暂无
 
 
 ### 屏幕录制
@@ -463,7 +517,7 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 
 操作步骤：
 1. 新建 HTML 格式 (test.html) 文件（可使用手机应用 [Markor](os/mobile/app-list.md#markor) 新建）；
-2. 打开“[系统文件管理器](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)”；
+2. 打开系统应用“[文件管理](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)”；
 3. 找到新建的 HTML 文件 *> 长按文件 > 更多 > 用其他应用打开 > 选择自己常用的手机浏览器*。
 
 

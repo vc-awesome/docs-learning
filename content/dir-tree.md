@@ -12,12 +12,13 @@
 
 1. 📄 [\_sidebar.md](back-end/_sidebar.md)
 2. 📄 [apache.md](back-end/apache.md)
-3. 📄 [docker.md](back-end/docker.md)
-4. 📄 [java.md](back-end/java.md)
-5. 📄 [laravel.md](back-end/laravel.md)
-6. 📄 [nginx.md](back-end/nginx.md)
-7. 📄 [README.md](back-end/README.md)
-8. 📄 [travis\-ci.md](back-end/travis-ci.md)
+3. 📄 [caddy.md](back-end/caddy.md)
+4. 📄 [docker.md](back-end/docker.md)
+5. 📄 [java.md](back-end/java.md)
+6. 📄 [laravel.md](back-end/laravel.md)
+7. 📄 [nginx.md](back-end/nginx.md)
+8. 📄 [README.md](back-end/README.md)
+9. 📄 [travis\-ci.md](back-end/travis-ci.md)
 
 ### 📂 __composer__
 
@@ -85,12 +86,15 @@
 4. 📄 [character\-sets.md](essential/character-sets.md)
 5. 📄 [code\-common.md](essential/code-common.md)
 6. 📄 [crypto.md](essential/crypto.md)
-7. 📄 [curl.md](essential/curl.md)
-8. 📄 [hardware.md](essential/hardware.md)
-9. 📄 [identity.md](essential/identity.md)
+7. 📄 [hardware.md](essential/hardware.md)
+8. 📄 [identity.md](essential/identity.md)
+9. 📄 [json.md](essential/json.md)
 10. 📄 [README.md](essential/README.md)
 11. 📄 [regex.md](essential/regex.md)
-12. 📄 [url.md](essential/url.md)
+12. 📄 [svg.md](essential/svg.md)
+13. 📄 [url.md](essential/url.md)
+14. 📄 [xml.md](essential/xml.md)
+15. 📄 [yaml.md](essential/yaml.md)
 
 ### 📂 __design\-pattern__
 
@@ -101,15 +105,16 @@
 ### 📂 __network__
 
 1. 📄 [\_sidebar.md](essential/network/_sidebar.md)
-2. 📄 [cross\-domain.md](essential/network/cross-domain.md)
-3. 📄 [dns.md](essential/network/dns.md)
-4. 📄 [hosting.md](essential/network/hosting.md)
-5. 📄 [hosts.md](essential/network/hosts.md)
-6. 📄 [http.md](essential/network/http.md)
-7. 📄 [internet.md](essential/network/internet.md)
-8. 📄 [ip.md](essential/network/ip.md)
-9. 📄 [README.md](essential/network/README.md)
-10. 📄 [vpn.md](essential/network/vpn.md)
+2. 📄 [cdn.md](essential/network/cdn.md)
+3. 📄 [cross\-domain.md](essential/network/cross-domain.md)
+4. 📄 [dns.md](essential/network/dns.md)
+5. 📄 [hosting.md](essential/network/hosting.md)
+6. 📄 [hosts.md](essential/network/hosts.md)
+7. 📄 [http.md](essential/network/http.md)
+8. 📄 [internet.md](essential/network/internet.md)
+9. 📄 [ip.md](essential/network/ip.md)
+10. 📄 [README.md](essential/network/README.md)
+11. 📄 [vpn.md](essential/network/vpn.md)
 
 ### 📂 __style\-guide__
 
@@ -120,16 +125,16 @@
 
 1. 📄 [\_sidebar.md](front-end/_sidebar.md)
 2. 📄 [ajax.md](front-end/ajax.md)
-3. 📄 [cdn.md](front-end/cdn.md)
-4. 📄 [iconfont.md](front-end/iconfont.md)
-5. 📄 [jquery.md](front-end/jquery.md)
-6. 📄 [README.md](front-end/README.md)
+3. 📄 [iconfont.md](front-end/iconfont.md)
+4. 📄 [jquery.md](front-end/jquery.md)
+5. 📄 [README.md](front-end/README.md)
 
 ### 📂 __android__
 
-1. 📄 [adb.md](front-end/android/adb.md)
-2. 📄 [android\-studio.md](front-end/android/android-studio.md)
-3. 📄 [README.md](front-end/android/README.md)
+1. 📄 [\_sidebar.md](front-end/android/_sidebar.md)
+2. 📄 [adb.md](front-end/android/adb.md)
+3. 📄 [android\-studio.md](front-end/android/android-studio.md)
+4. 📄 [README.md](front-end/android/README.md)
 
 ### 📂 __css__
 
@@ -141,6 +146,21 @@
 6. 📄 [naming\-rule.md](front-end/css/naming-rule.md)
 7. 📄 [README.md](front-end/css/README.md)
 8. 📄 [sass.md](front-end/css/sass.md)
+
+### 📂 __dcloud__
+
+1. 📄 [\_sidebar.md](front-end/dcloud/_sidebar.md)
+2. 📄 [hbuilderx.md](front-end/dcloud/hbuilderx.md)
+3. 📄 [README.md](front-end/dcloud/README.md)
+
+#### 📂 __uniapp__
+
+1. 📄 [\_sidebar.md](front-end/dcloud/uniapp/_sidebar.md)
+2. 📄 [colorui.md](front-end/dcloud/uniapp/colorui.md)
+3. 📄 [luch\-request.md](front-end/dcloud/uniapp/luch-request.md)
+4. 📄 [README.md](front-end/dcloud/uniapp/README.md)
+5. 📄 [tutorial.md](front-end/dcloud/uniapp/tutorial.md)
+6. 📄 [uview.md](front-end/dcloud/uniapp/uview.md)
 
 ### 📂 __html__
 
@@ -169,16 +189,6 @@
 5. 📄 [README.md](front-end/nodejs/README.md)
 6. 📄 [yarn.md](front-end/nodejs/yarn.md)
 
-### 📂 __uniapp__
-
-1. 📄 [\_sidebar.md](front-end/uniapp/_sidebar.md)
-2. 📄 [colorui.md](front-end/uniapp/colorui.md)
-3. 📄 [hbuilderx.md](front-end/uniapp/hbuilderx.md)
-4. 📄 [luch\-request.md](front-end/uniapp/luch-request.md)
-5. 📄 [README.md](front-end/uniapp/README.md)
-6. 📄 [tutorial.md](front-end/uniapp/tutorial.md)
-7. 📄 [uview.md](front-end/uniapp/uview.md)
-
 ### 📂 __vue__
 
 1. 📄 [\_sidebar.md](front-end/vue/_sidebar.md)
@@ -202,8 +212,9 @@
 ## 📂 __os__
 
 1. 📄 [\_sidebar.md](os/_sidebar.md)
-2. 📄 [mirror.md](os/mirror.md)
-3. 📄 [README.md](os/README.md)
+2. 📄 [bash.md](os/bash.md)
+3. 📄 [mirror.md](os/mirror.md)
+4. 📄 [README.md](os/README.md)
 
 ### 📂 __linux__
 
@@ -260,31 +271,34 @@
 
 #### 📂 __developer__
 
-1. 📄 [bt.md](os/tools/developer/bt.md)
-2. 📄 [emacs.md](os/tools/developer/emacs.md)
-3. 📄 [git.md](os/tools/developer/git.md)
-4. 📄 [lanhu.md](os/tools/developer/lanhu.md)
-5. 📄 [navicat.md](os/tools/developer/navicat.md)
-6. 📄 [phpmyadmin.md](os/tools/developer/phpmyadmin.md)
-7. 📄 [phpstorm.md](os/tools/developer/phpstorm.md)
-8. 📄 [phpstudy.md](os/tools/developer/phpstudy.md)
-9. 📄 [postman.md](os/tools/developer/postman.md)
-10. 📄 [powershell.md](os/tools/developer/powershell.md)
-11. 📄 [prettier.md](os/tools/developer/prettier.md)
-12. 📄 [sublime\-text.md](os/tools/developer/sublime-text.md)
-13. 📄 [vim.md](os/tools/developer/vim.md)
-14. 📄 [visual\-studio\-code.md](os/tools/developer/visual-studio-code.md)
-15. 📄 [yapi.md](os/tools/developer/yapi.md)
-16. 📄 [emacs.md~](os/tools/developer/emacs.md~)
+1. 📄 [\_sidebar.md](os/tools/developer/_sidebar.md)
+2. 📄 [bt.md](os/tools/developer/bt.md)
+3. 📄 [curl.md](os/tools/developer/curl.md)
+4. 📄 [emacs.md](os/tools/developer/emacs.md)
+5. 📄 [git.md](os/tools/developer/git.md)
+6. 📄 [lanhu.md](os/tools/developer/lanhu.md)
+7. 📄 [navicat.md](os/tools/developer/navicat.md)
+8. 📄 [phpmyadmin.md](os/tools/developer/phpmyadmin.md)
+9. 📄 [phpstorm.md](os/tools/developer/phpstorm.md)
+10. 📄 [phpstudy.md](os/tools/developer/phpstudy.md)
+11. 📄 [postman.md](os/tools/developer/postman.md)
+12. 📄 [powershell.md](os/tools/developer/powershell.md)
+13. 📄 [prettier.md](os/tools/developer/prettier.md)
+14. 📄 [rclone.md](os/tools/developer/rclone.md)
+15. 📄 [sublime\-text.md](os/tools/developer/sublime-text.md)
+16. 📄 [vim.md](os/tools/developer/vim.md)
+17. 📄 [visual\-studio\-code.md](os/tools/developer/visual-studio-code.md)
+18. 📄 [yapi.md](os/tools/developer/yapi.md)
 
 #### 📂 __topics__
 
-1. 📄 [ai.md](os/tools/topics/ai.md)
-2. 📄 [browser\-extensions.md](os/tools/topics/browser-extensions.md)
-3. 📄 [browser.md](os/tools/topics/browser.md)
-4. 📄 [multimedia.md](os/tools/topics/multimedia.md)
-5. 📄 [rss.md](os/tools/topics/rss.md)
-6. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
+1. 📄 [\_sidebar.md](os/tools/topics/_sidebar.md)
+2. 📄 [ai.md](os/tools/topics/ai.md)
+3. 📄 [browser\-extensions.md](os/tools/topics/browser-extensions.md)
+4. 📄 [browser.md](os/tools/topics/browser.md)
+5. 📄 [multimedia.md](os/tools/topics/multimedia.md)
+6. 📄 [rss.md](os/tools/topics/rss.md)
+7. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
 
 ### 📂 __windows__
 
@@ -375,12 +389,15 @@
 ## 📂 __tech\-stack__
 
 1. 📄 [\_sidebar.md](tech-stack/_sidebar.md)
-2. 📄 [alipay.md](tech-stack/alipay.md)
-3. 📄 [aliyun.md](tech-stack/aliyun.md)
-4. 📄 [google.md](tech-stack/google.md)
-5. 📄 [mozilla.md](tech-stack/mozilla.md)
-6. 📄 [README.md](tech-stack/README.md)
-7. 📄 [wechat.md](tech-stack/wechat.md)
+2. 📄 [google.md](tech-stack/google.md)
+3. 📄 [mozilla.md](tech-stack/mozilla.md)
+4. 📄 [README.md](tech-stack/README.md)
+5. 📄 [wechat.md](tech-stack/wechat.md)
+
+### 📂 __ali__
+
+1. 📄 [alipay.md](tech-stack/ali/alipay.md)
+2. 📄 [aliyun.md](tech-stack/ali/aliyun.md)
 
 ## 📂 __topics__
 

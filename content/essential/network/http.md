@@ -22,9 +22,9 @@
 
 ## 版本
 
-### 1.0
+### 2.0
 
-HTTP 1.0 规定浏览器与服务器只保持短暂的连接，浏览器的每次请求都需要与服务器建立一个 TCP 连接，服务器完成请求处理后立即断开 TCP 连接，服务器不跟踪每个客户也不记录过去的请求。
+暂无
 
 ### 1.1
 
@@ -67,9 +67,9 @@ HTTP/1.1 相较于 HTTP/1.0 协议的区别主要体现在：
 5. 互联网地址的维护
 6. 安全性及完整性
 
-### 2.0
+### 1.0
 
-暂无
+HTTP 1.0 规定浏览器与服务器只保持短暂的连接，浏览器的每次请求都需要与服务器建立一个 TCP 连接，服务器完成请求处理后立即断开 TCP 连接，服务器不跟踪每个客户也不记录过去的请求。
 
 ## 请求
 
@@ -195,9 +195,51 @@ https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions/ - *Mul
 
 #### User-Agent
 
-1. https://www.useragents.me/ - *Useragents — The Latest and Most Common (Updated Weekly)*
+教程：
 
-2. http://useragent.kuzhazha.com/ - *UserAgent大全_常用的UserAgent库下载_UserAgent在线工具_流行的UserAgent手机库UA_UA标识网*
+1. https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent - *User-Agent - HTTP | MDN*
+
+2. https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/User-Agent/Firefox - *Firefox 用户代理字符串 (user agent string) 参考 - HTTP | MDN*
+
+用户代理列表：
+
+1. https://user-agents.net/ - *User Agents*
+
+2. https://www.useragents.me/ - *The Latest and Most Common User Agents List (Updated Weekly)*
+
+    `Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36`
+
+3. http://useragent.kuzhazha.com/ - *UserAgent大全_常用的UserAgent库下载_UserAgent在线工具_流行的UserAgent手机库UA_UA标识网*
+
+GitHub Search:
+
+1. `"user agent" sort:stars language:javascript`
+
+2. `"user agent" sort:stars language:php`
+
+GitHub：
+
+1. https://github.com/DamonOehlman/detect-browser - *GitHub - DamonOehlman/detect-browser: Unpack a browser type and version from the useragent string*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/DamonOehlman/detect-browser?color=blue&logo=github)
+
+2. https://github.com/Ikimea/Browser - *GitHub - Ikimea/Browser: Detecting the user’s browser type and version*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Ikimea/Browser?color=blue&logo=github)
+
+3. https://github.com/mumuy/browser - *GitHub - mumuy/browser: 浏览器检测工具 - Useragent分析/浏览器识别/浏览器判断/UA解析/用户代理信息_Useragent analysis tool*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/mumuy/browser?color=blue&logo=github)
+
+4. https://github.com/fex-team/ua-device - *GitHub - fex-team/ua-device: userAgent解析库*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/fex-team/ua-device?color=blue&logo=github)
+
+参考：
+
+1. https://www.codeweavers.com/support/wiki/mac/mactutorial/changeua - *如何在 Mac 上修改您的用户代理 | Knowledge Base | CodeWeavers*
+
+2. https://www.howtogeek.com/211961/how-to-change-safaris-user-agent-in-os-x/ - *How to Change Safari's User Agent on OS X --- 如何在OS X上更改Safari的用户代理*
 
 
 #### 身份验证
@@ -235,7 +277,7 @@ https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions/ - *Mul
 - 404 Not Found 服务器无法找到被请求的页面。
 - 405 Method Not Allowed 请求中指定的方法不被允许。（HTTP 1.1新）
 - 406 Not Acceptable 服务器生成的响应无法被客户端所接受。（HTTP 1.1新）
-- 407 Proxy Authentication Required用户必须首先使用代理服务器进行验证，这样请求才会被处理。（HTTP 1.1新）
+- 407 Proxy Authentication Required 用户必须首先使用代理服务器进行验证，这样请求才会被处理。（HTTP 1.1新）
 - 408 Request Timeout 请求超出了服务器的等待时间。（HTTP 1.1新）
 - 409 Conflict 由于冲突，请求无法被完成。（HTTP 1.1新）
 - 410 Gone 被请求的页面不可用。（HTTP 1.1新）

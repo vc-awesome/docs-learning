@@ -13,4 +13,3 @@
 * [图标字体](front-end/iconfont.md)
 * [Ajax](front-end/ajax.md)
 * [jQuery](front-end/jquery.md)
-* [CDN](front-end/cdn.md)

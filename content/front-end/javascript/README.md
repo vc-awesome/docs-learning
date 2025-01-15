@@ -452,6 +452,7 @@ v.price // 1000
 2. http://www.hcoder.net/books/read_10104.html - *唔透 javascript this 关键字*
 3. http://www.ruanyifeng.com/blog/2010/04/using_this_keyword_in_javascript.html - *Javascript 的 this 用法 - 阮一峰的网络日志*
 4. http://www.ruanyifeng.com/blog/2018/06/javascript-this.html - *JavaScript 的 this 原理 - 阮一峰的网络日志*
+5. https://mp.weixin.qq.com/s/H5_Z8xItRlOGvXzrDyGnWg - *学会这7个箭头函数用法，解决80%的this绑定问题！*
 
 ##### call/apply/bind
 

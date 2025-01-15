@@ -316,6 +316,75 @@ watch: {
 
 https://v2.cn.vuejs.org/v2/guide/class-and-style.html - *Class 与 Style 绑定 — Vue.js*
 
+#### 绑定 Class
+
+对象语法：
+
+```html
+<div
+  class="static"
+  v-bind:class="{ active: isActive, 'text-danger': hasError }"
+></div>
+```
+
+```javascript
+data: {
+  isActive: true,
+  hasError: false
+}
+```
+
+数组语法：
+
+```html
+<div v-bind:class="[activeClass, errorClass]"></div>
+```
+
+```javascript
+data: {
+  activeClass: isActive ? activeClass : '',
+  errorClass: 'text-danger'
+}
+```
+
+数组中使用对象语法：
+
+```html
+<div v-bind:class="[{ active: isActive }, errorClass]"></div>
+```
+
+#### 绑定 Style
+
+对象语法：
+
+```html
+<div v-bind:style="{ color: activeColor, fontSize: fontSize + 'px' }"></div>
+```
+
+```javascript
+data: {
+  activeColor: 'red',
+  fontSize: 30
+}
+```
+
+数组语法：
+
+```html
+<div v-bind:style="[baseStyles, overridingStyles]"></div>
+```
+
+```javascript
+data: {
+  baseStyles: {
+    color: 'red',
+  },
+  overridingStyles: {
+    fontSize: '13px'
+  }
+}
+```
+
 ### 组件
 
 1. https://012-cn.vuejs.org/api/index.html - *概述 - vue.js*

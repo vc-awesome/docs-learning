@@ -94,12 +94,6 @@ https://www.runoob.com/php/php-oop.html - *PHP 面向对象 | 菜鸟教程*
 
 暂无
 
-## JSON
-
-> JSON（JavaScript Object Notation, JS对象简谱）是一种轻量级的数据交换格式。
-
-https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Objects/JSON - *使用 JSON - 学习 Web 开发 | MDN*
-
 ## 异常处理
 
 暂无

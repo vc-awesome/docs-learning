@@ -43,6 +43,7 @@ https://pixabay.com/zh/ - *免费正版高清图片素材库 超过4.5百万张�
 4. https://developers.weixin.qq.com/miniprogram/dev/devtools/page.html - *界面*
 5. https://developers.weixin.qq.com/miniprogram/design/ - *设计*
 6. https://www.navicat.com/manual/online_manual/en/navicat_17/mac_manual/#/main_window_0 - *Navicat Tutorials | Navicat Online Manual*
+7. https://www.gnu.org/software/emacs/manual/html_node/emacs/Screen.html - *Screen (GNU Emacs Manual)*
 
 ### Material Design
 

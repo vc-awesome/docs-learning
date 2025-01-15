@@ -1,3 +1,4 @@
+- [Awesome list](topics/awesome.md)
 - [广告过滤](topics/ad-filter.md)
 - [视频](topics/video.md)
 - [翻译](topics/translate.md)

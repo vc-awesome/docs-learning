@@ -1,6 +1,6 @@
 /* 外链图标 -start */
 
-:not(header a):not(footer .social-link a)[target="_blank"]::after {
+:not(header a):not(footer .social-link a):not([href^="http-shortcuts"])[target="_blank"]::after {
   display: inline-block;
   padding-left: 3px;
   font: normal normal normal 14px/1 FontAwesome;

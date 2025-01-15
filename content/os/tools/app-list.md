@@ -134,6 +134,21 @@
 
     - 开源软件（[GitHub Repo](https://github.com/oldj/SwitchHosts)）
 
+#### 代码格式化
+
+1. [dprint](https://dprint.dev/) - *dprint - Code Formatter*
+
+    - 支持 Windows, macOS, Linux, Web, Editors Plugin
+
+    - 开源软件（[GitHub Repo](https://github.com/dprint)）
+
+2. [JSON Hero](https://jsonhero.io/) - *JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀*  
+    \> *via https://mp.weixin.qq.com/s/rbm_r41kmZjKz9vW0TiXZA - 发现一款 JSON 可视化工具神器，太爱了！*
+
+    - 支持 Web, Editors Plugin（[VS Code](https://marketplace.visualstudio.com/items?itemName=JSONHero.jsonhero-vscode)）
+
+    - 开源软件（[GitHub Repo](https://github.com/jsonhero-io/jsonhero-web)）
+
 ### 命令行界面
 
 1. [PowerShell](https://microsoft.com/PowerShell) - *PowerShell for every system!*
@@ -184,7 +199,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/xpf0000/PhpWebStudy)）
 
-### 服务器运维工具
+### 服务器运维
 
 1. [宝塔面板 - 简单好用的Linux/Windows服务器运维管理面板](https://www.bt.cn/new/index.html) - *宝塔，让运维简单高效。面板支持Linux与Windows系统。一键配置：LAMP/LNMP、网站、数据库、FTP、SSL，通过Web端轻松管理服务器。*
 
@@ -200,7 +215,7 @@
 
     - 收费功能（Pro 版本，应用内购买升级）
 
-### 数据库管理工具
+### 数据库管理
 
 1. [SQLyog](https://webyog.com/) - *Webyog | Tools for MySQL and MariaDB Databases*
 
@@ -218,7 +233,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/phpmyadmin/phpmyadmin)）
 
-### API 管理工具
+### API 开发和分析
 
 > API（*Application Programming Interface*，应用程序编程接口）
 
@@ -260,7 +275,7 @@
         3. https://blog.csdn.net/HelloApplication/article/details/123544301 - *（四）JMeter 定时器*
     </details>
 
-### 版本控制工具
+### 版本控制
 
 > VCS（*Version Control System*，版本控制系统）
 
@@ -300,7 +315,9 @@
 
     - 支持 Windows, macOS
 
-### 抓包工具
+### 网络分析
+
+#### 抓包工具
 
 1. ✅ [Fiddler](https://www.telerik.com/fiddler) <i id="fiddler"></i> - *Fiddler | Web Debugging Proxy and Troubleshooting Solutions*
 
@@ -319,7 +336,7 @@
 
    - 免费试用
 
-### 采集工具
+#### 采集工具
 
 1. [QueryList](http://www.querylist.cc) - *QueryList|优雅的渐进式PHPDOM解析框架*
 
@@ -333,7 +350,9 @@
 
     - 注册登录（开通会员解锁更多功能）
 
-### SSH
+### 文件共享
+
+#### SSH
 
 > SSH（*Secure Shell*，安全外壳协议）
 
@@ -349,7 +368,7 @@
 
     - 含收费功能（应用内购买升级）
 
-### FTP 
+#### FTP
 
 > FTP（*File Transfer Protocol*，文件传输协议）
 
@@ -401,7 +420,7 @@
 
     - [macOS 系统](https://support.apple.com/zh-cn/guide/mac-help/mchlp3015/13.0/mac/13.0)
 
-### HTTP
+#### HTTP
 
 > HTTP（*HyperText Transfer Protocol*，超文本传输协议）
 
@@ -461,24 +480,11 @@
     
     </details>
 
-### 代码格式化工具
+### 前端工程化
 
-1. [dprint](https://dprint.dev/) - *dprint - Code Formatter*
+1. [Feflow](https://feflowjs.com/) - *GitHub - Tencent/feflow: 🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.*
 
-    - 支持 Windows, macOS, Linux, Web, Editors Plugin
-
-    - 开源软件（[GitHub Repo](https://github.com/dprint)）
-
-2. [JSON Hero](https://jsonhero.io/) - *JSON Hero is an open-source, beautiful JSON explorer for the web that lets you browse, search and navigate your JSON files at speed. 🚀*  
-    \> *via https://mp.weixin.qq.com/s/rbm_r41kmZjKz9vW0TiXZA - 发现一款 JSON 可视化工具神器，太爱了！*
-
-    - 支持 Web, Editors Plugin（[VS Code](https://marketplace.visualstudio.com/items?itemName=JSONHero.jsonhero-vscode)）
-
-    - 开源软件（[GitHub Repo](https://github.com/jsonhero-io/jsonhero-web)）
-
-### 前端工程化工具
-
-1. [Feflow](https://github.com/Tencent/feflow) - *GitHub - Tencent/feflow: 🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.*
+    - 支持 CLI（Node.js）
 
     - 开源软件（[GitHub Repo](https://github.com/Tencent/tmt-workflow)）
 
@@ -835,7 +841,7 @@
 
     - 注册登录（开通会员解锁更多功能）
 
-### 待办事项工具
+### 待办事项
 
 1. [Todoist](https://todoist.com/zh-CN) - *深受三千万个用户和团队的信任。Todoist是全球最受欢迎的任务管理器和待办清单应用。忠于专注、有序和理性。*
 
@@ -934,7 +940,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/Wox-launcher/Wox)）
 
-### 剪贴板工具
+### 剪贴板
 
 1. ✅ [Ditto](https://ditto-cp.sourceforge.io/) <i id="ditto"></i> - *一个免费剪贴板增强工具。支持网络同步，记录分组，名称粘贴等多种功能。小巧却又强大易用。可以将剪贴板中，文字，图片， HTML，自定义格式粘贴。*
 
@@ -944,7 +950,13 @@
 
 ## 翻译工具
 
-1. ✅ [有道翻译](https://www.youdao.com/) - *有道翻译提供即时免费的中文、英语、日语、韩语、法语、德语、俄语、西班牙语、葡萄牙语、越南语、印尼语、意大利语、荷兰语、泰语全文翻译、网页翻译、文档翻译、PDF翻译、DOC翻译、PPT翻译、人工翻译、同传等服务。*
+1. [沉浸式翻译](https://immersivetranslate.com/) - *沉浸式翻译是一款浏览器插件，可以智能识别网页主内容区进行双语翻译，插件支持全平台浏览器，PDF文件翻译，EPUB电子书双语翻译、制作、导出，字幕文件翻译等功能。*
+
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.immersivetranslate.browser)）, iOS（[App Store](https://apps.apple.com/app/id6476744995)）, [Web](https://app.immersivetranslate.com/text/), Web Browser Extensions（[Tampermonkey](https://download.immersivetranslate.com/immersive-translate.user.js)）, MiniProgram（WeChat）
+
+    - 非开源软件（[GitHub Repo](https://github.com/immersive-translate/immersive-translate)）
+
+2. ✅ [有道翻译](https://www.youdao.com/) - *有道翻译提供即时免费的中文、英语、日语、韩语、法语、德语、俄语、西班牙语、葡萄牙语、越南语、印尼语、意大利语、荷兰语、泰语全文翻译、网页翻译、文档翻译、PDF翻译、DOC翻译、PPT翻译、人工翻译、同传等服务。*
 
     - 支持 Windows, macOS, Linux, Android, iOS, [Web](https://fanyi.youdao.com/), Web Browser Extensions
 
@@ -957,17 +969,17 @@
       - [x] 文档翻译
       - [x] 图片翻译
 
-2. ✅ [百度翻译](https://fanyi.baidu.com/home) - *百度翻译官网*
+3. ✅ [百度翻译](https://fanyi.baidu.com/home) - *百度翻译依托互联网数据资源和自然语言处理技术优势，致力于帮助用户跨越语言鸿沟，方便快捷地获取信息和服务。支持全球200多种语言互译，拥有网页、APP、百度小程序等多种产品形态，此外还针对开发者提供开放云接口服务，日均响应千亿字符翻译请求。*
 
     - 支持 Windows, macOS, Android, iOS, [Web](https://fanyi.baidu.com/), Web Browser Extensions
 
-3. ✅ [微软翻译](https://www.microsoft.com/zh-cn/translator/) - *快速翻译英语和 100 多种语言之间的字词和短语。*
+4. ✅ [微软翻译](https://www.microsoft.com/zh-cn/translator/) - *快速翻译英语和 100 多种语言之间的字词和短语。*
 
     - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.microsoft.translator)）, iOS（[App Store](https://apps.apple.com/app/microsoft-translator/id1018949559)）, [Web](https://cn.bing.com/translator)
 
-4. [腾讯交互翻译](https://transmart.qq.com/) - *腾讯交互翻译融合了腾讯人工智能实验室自研的交互式机器翻译、神经网络机器翻译、 统计机器翻译、语义理解、信息检索等技术，帮助用户更快、更好地完成翻译任务。*
+5. [腾讯交互翻译](https://transmart.qq.com/zh-CN/intro) - *腾讯交互翻译融合了腾讯人工智能实验室自研的交互式机器翻译、神经网络机器翻译、 统计机器翻译、语义理解、信息检索等技术，帮助用户更快、更好地完成翻译任务。*
 
-    - 支持 Windows, macOS, Linux, Web, Web Browser Extensions
+    - 支持 Windows, macOS, Linux, [Web](https://transmart.qq.com/), Web Browser Extensions, Email Add-ons（Outlook）
 
     - 功能
 
@@ -979,13 +991,15 @@
       - [x] 文档翻译
       - [x] 图片翻译
 
-5. [Google翻译](https://translate.google.com/) - *Google 翻译*
+6. [Google翻译](https://translate.google.com/about) - *谷歌翻译助您了解世界，与不同语言的人士轻松交流。在各种设备上翻译文本、语音内容、图片、文档、网站和其他内容。*
 
-    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.translate)）, Web, Web Browser Extensions
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.translate)）, [Web](https://translate.google.com/), Web Browser Extensions
 
-6. ✅ [Bob](https://bobtranslate.com/) - *一款 macOS 平台的翻译和 OCR 软件* [GitHub Repo](https://github.com/ripperhe/Bob)
+7. ✅ [Bob](https://bobtranslate.com/) - *一款 macOS 平台的翻译和 OCR 软件*
 
     - 支持 macOS（[App Store](https://apps.apple.com/cn/app/id1630034110)）
+
+    - 非开源软件（[GitHub Repo](https://github.com/ripperhe/Bob)）
 
     - 免费功能（每日翻译限制使用 15 次）
 
@@ -1001,40 +1015,11 @@
       - [ ] 文档翻译
       - [ ] 图片翻译
 
-7. ✅ [DeepL翻译：全世界最准确的翻译](https://www.deepl.com/translator) - *Translate texts &amp; full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.*
+8. ✅ [DeepL翻译：全世界最准确的翻译](https://www.deepl.com/translator) - *Translate texts &amp; full document files instantly. Accurate translations for individuals and Teams. Millions translate with DeepL every day.*
 
-    - 支持 Windows, macOS, [Web](https://www.deepl.com/translator), Android（[Google Play](https://play.google.com/store/apps/details?id=com.deepl.mobiletranslator)）, iOS（[App Store](https://apps.apple.com/app/apple-store/id1552407475)）, Web Browser Extensions
+    - 支持 Windows, macOS, Android（[Google Play](https://play.google.com/store/apps/details?id=com.deepl.mobiletranslator)）, iOS（[App Store](https://apps.apple.com/app/apple-store/id1552407475)）, [Web](https://www.deepl.com/translator), Web Browser Extensions
 
     - 开源软件（[GitHub Org](https://github.com/DeepLcom)）
-
-## 截图工具
-
-1. ✅ [Snipaste](https://zh.snipaste.com/index.html) - *Snipaste - 截图 + 贴图* [GitHub Org](https://github.com/Snipaste)
-
-    - 支持 Windows, macOS（[Homebrew](https://formulae.brew.sh/cask/snipaste)）, Linux
-
-2. ✅ [QQ截图独立版](https://www.isharepc.com/34098.html) <i id="qq-screenshot"></i> - *QQ截图独立版，简单易用的经典截图工具* [GitHub Repo](https://github.com/insoxin/QQScreenShot)
-
-    - 支持 Windows
-
-3. ✅ `QQ截屏插件` - *1. 先下载 QQ ；2. 在应用程序目录：/Applications/QQ.app/Contents/Resources/app/ 下的 QQ ScreenCapture plugin.app 就是QQ截屏独立插件；3. 为了方便开启，可将其复制到桌面。注意：单独使用此插件时，OCR 功能无法使用，需要登录到 QQ 中才能使用 OCR 功能（ QQ 版本：6.9.19）*
-
-    - 支持 macOS
-
-4. [iShot](https://www.better365.cn/ishot.html) - *一个顶六个，样样都优秀！iShot是Mac上一款免费优秀、功能全面的长截图、滚动截图、滚动截屏、区域截图、窗口截图、多窗口截图、长截图、延时截图、快速标注、贴图、取色、屏幕录制工具。* [破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)
-
-    - 支持 macOS
-
-5. [GIF Brewery by Gfycat](https://gfycat.com/gifbrewery) - *GIF Brewery gives you the power to create and edit GIFs and videos. It’s simple and powerful — download today from the App Store!*
-
-    - 支持 macOS
-
-## 取色工具
-
-1. ✅ [Pixolor](https://hanpingchinese.com/faq/#permissions-pixolor) - *Pixolor 是一个漂浮在您的应用程序上方的圆圈，显示底层像素的缩放视图，包括颜色信息和中心像素的坐标。*\
-    \> _via https://www.appinn.com/pixolor-for-android/ - *Pixolor - 在 Android 屏幕上取色 - 小众软件*_
-
-    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.embermitre.pixolor.app)）
 
 ## 压缩工具
 
@@ -1089,7 +1074,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/aria2/aria2)）
 
-## 设计工具
+## 设计和产品工具
 
 1. [Photoshop](https://www.adobe.com/products/photoshop.html) - *Official Adobe Photoshop | Photo and design software*
 
@@ -1109,6 +1094,35 @@
 3. ✅ [蓝湖](https://lanhuapp.com/) <i id="lanhu"></i> - *高效的产品设计协作平台*
 
     - 支持 Android, iOS, Web, Editors Plugin（[VS Code](https://support.lanhuapp.com/5612/2a6d/6f25)）
+
+### 截图工具
+
+1. ✅ [Snipaste](https://zh.snipaste.com/index.html) - *Snipaste - 截图 + 贴图* [GitHub Org](https://github.com/Snipaste)
+
+    - 支持 Windows, macOS（[Homebrew](https://formulae.brew.sh/cask/snipaste)）, Linux
+
+2. ✅ [QQ截图独立版](https://www.isharepc.com/34098.html) <i id="qq-screenshot"></i> - *QQ截图独立版，简单易用的经典截图工具* [GitHub Repo](https://github.com/insoxin/QQScreenShot)
+
+    - 支持 Windows
+
+3. ✅ `QQ截屏插件` - *1. 先下载 QQ ；2. 在应用程序目录：/Applications/QQ.app/Contents/Resources/app/ 下的 QQ ScreenCapture plugin.app 就是QQ截屏独立插件；3. 为了方便开启，可将其复制到桌面。注意：单独使用此插件时，OCR 功能无法使用，需要登录到 QQ 中才能使用 OCR 功能（ QQ 版本：6.9.19）*
+
+    - 支持 macOS
+
+4. [iShot](https://www.better365.cn/ishot.html) - *一个顶六个，样样都优秀！iShot是Mac上一款免费优秀、功能全面的长截图、滚动截图、滚动截屏、区域截图、窗口截图、多窗口截图、长截图、延时截图、快速标注、贴图、取色、屏幕录制工具。* [破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)
+
+    - 支持 macOS
+
+5. [GIF Brewery by Gfycat](https://gfycat.com/gifbrewery) - *GIF Brewery gives you the power to create and edit GIFs and videos. It’s simple and powerful — download today from the App Store!*
+
+    - 支持 macOS
+
+### 取色工具
+
+1. ✅ [Pixolor](https://hanpingchinese.com/faq/#permissions-pixolor) - *Pixolor 是一个漂浮在您的应用程序上方的圆圈，显示底层像素的缩放视图，包括颜色信息和中心像素的坐标。*\
+    \> _via https://www.appinn.com/pixolor-for-android/ - *Pixolor - 在 Android 屏幕上取色 - 小众软件*_
+
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.embermitre.pixolor.app)）
 
 ## 网络工具
 
@@ -1272,9 +1286,9 @@
 
    - 支持 [Windows](https://wm.makeding.com/iclk/?zoneid=50200), [macOS](https://wm.makeding.com/iclk/?zoneid=50201)
 
-## 文件管理
+## 文件管理工具
 
-### 文件管理工具
+### 文件管理
 
 1. [Total Commander](https://www.ghisler.com/) - *is a Shareware file manager for Windows® 95/98/ME/NT/2000/XP/Vista/7/8/8.1/10/11, and Windows® 3.1.*
 
@@ -1290,7 +1304,7 @@
 
     - 注册登录（开通会员解锁更多功能）
 
-### 文件对比工具
+### 文件对比
 
 1. ✅ [Beyond Compare](https://www.scootersoftware.com/) - *专业的文件对比工具*
 
@@ -1315,7 +1329,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/WinMerge/winmerge)）
 
-### 文件同步工具
+### 文件同步
 
 1. [GoodSync](https://www.goodsync.com/cn/) - *使用 GoodSync 轻松备份和同步您的文件。我们简单而安全的软件确保您绝对不会丢失文件。立即免费下载 GoodSync！*
 
@@ -1351,9 +1365,9 @@
 
    - 支持 Windows, macOS, Linux, Android
 
-   - Free 为免费版本（[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite), 包含广告, 包含内购商品）
+   - Free 为免费版本（[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite), [破解版](https://www.yxssp.com/34858.html), 包含广告, 包含内购商品）
 
-   - Pro 为收费版本（[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full) , [破解版](https://www.yxssp.com/34858.html)）
+   - Pro 为收费版本（[Google Play](https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.full)）
 
    - <details><summary><i style="color:red">SEE MORE >></i></summary>
 
@@ -1381,17 +1395,17 @@
      2. https://zhuanlan.zhihu.com/p/69267020 - *Syncthing - P2P文件同步工具 - 知乎*
     </details>
 
-### 文件转换工具
+### 文件转换
 
 1. [迅捷 PDF 转换器 | 专业的 PDF 转换成 Word 转换器软件_互盾数据恢复](https://www.shipinzhuanhuan.cn/pdfconverter4mac/) - *迅捷pdf转换器是一款功能强大的pdf转换成word转换器软件.它不仅支持pdf转换成word,word转pdf,还可以实现excel,ppt,jpg与pdf文件的一键式转换.有了它,你可以很轻松完成pdf文件的转换工作.*
 
     - 支持 macOS
 
-### 文件查重工具
+### 文件查重
 
 暂无
 
-### 云（盘）存储
+### 云存储
 
 1. ✅ [百度网盘](https://pan.baidu.com/) - *百度网盘-免费云盘丨文件共享软件丨超大容量丨存储安全*
 
@@ -1434,6 +1448,8 @@
 5. [蓝奏云](https://www.lanzoui.com/) - *蓝奏·云存储*
 
     - 支持 Android, Web
+
+    - 注册登录（开通会员解锁更多功能）
 
 6. [Seafile](https://www.seafile.com/) - *Seafile - 开源的企业私有网盘 私有云存储软件 企业维基 知识管理*
 

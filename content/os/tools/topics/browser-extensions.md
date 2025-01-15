@@ -429,7 +429,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
         
             | ✅  已勾选 | ❌ 未勾选 |
             | ---- | ---- |
-            | - *电脑端浏览器：鼠标右键图标*<br />![browser-extension-copytabtitleurl-01](_images/browser-extension-copytabtitleurl-01.png)<br />*手机端狐猴浏览器：长按图标* 这下面放一张图 | - *电脑端浏览器：鼠标右键图标*<br />![browser-extension-copytabtitleurl-01](_images/browser-extension-copytabtitleurl-02.png)<br />*手机端狐猴浏览器：长按图标* 这下面放一张图 |
+            | - *电脑端浏览器：鼠标右键图标*<br />![browser-extension-copytabtitleurl-01](../_images/browser-extension-copytabtitleurl-01.png)<br />*手机端狐猴浏览器：长按图标* 这下面放一张图 | - *电脑端浏览器：鼠标右键图标*<br />![browser-extension-copytabtitleurl-01](../_images/browser-extension-copytabtitleurl-02.png)<br />*手机端狐猴浏览器：长按图标* 这下面放一张图 |
         
         - 复制选定的文本或空白文本（※1）
         

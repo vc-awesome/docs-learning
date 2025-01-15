@@ -14,6 +14,8 @@
 
 https://http-shortcuts.rmy.ch/ - *HTTP Shortcuts*
 
+https://http-shortcuts.rmy.ch/documentation - *HTTP Shortcuts*
+
 https://github.com/Waboodoo/HTTP-Shortcuts - *GitHub - Waboodoo/HTTP-Shortcuts: Android app to create home screen shortcuts that trigger arbitrary HTTP requests*
 
 ## 安装
@@ -28,7 +30,7 @@ https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts - *H
 
 ### Send Intent
 
-https://http-shortcuts.rmy.ch/scripting#send-intent
+https://http-shortcuts.rmy.ch/scripting#send-intent - *HTTP Shortcuts*
 
 ### deep-link
 
@@ -43,7 +45,37 @@ https://http-shortcuts.rmy.ch/advanced#deep-link - *HTTP Shortcuts*
 
 ## 设置
 
-暂无
+### 自定义 User-Agent
+
+⚙️ *设置 >（全局快捷方式设置）自定义 User-Agent*
+
+[HTTP User-Agent](essential/network/http.md#user-agent)
+
+- https://www.useragents.me/ - *The Latest and Most Common User Agents List (Updated Weekly)*
+
+### 全局脚本
+
+https://http-shortcuts.rmy.ch/scripting#scripting - *HTTP Shortcuts*
+
+⚙️ *设置 >（全局快捷方式设置）全局脚本*
+
+```javascript
+/**
+ * 为保证测试输出正常，需要转义输出 html 的标签
+ * @param {string} unsafe - 包含 html 标签的文本
+ * @return {string} 转义 html 标签后的文本
+ * @see https://www.runoob.com/try/try2.php?filename=tryjsref_regexp_htmltag - *菜鸟教程在线编辑器*
+ */
+function globalEscapeHtml(unsafe)
+{
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+```
 
 ## 用法
 

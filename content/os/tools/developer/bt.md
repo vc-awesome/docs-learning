@@ -155,7 +155,7 @@ https://www.bt.cn/btcode.html - *宝塔linux面板命令大全 - 宝塔面板*
 
 PHP 安装 `redis` 扩展（如有需要，注意：安装完成后重启 PHP）
 
-![img](./_images/bt-deploy-01.png)
+![img](../_images/bt-deploy-01.png)
 
 #### Redis（可安装最新版）
 
@@ -200,11 +200,11 @@ GitHub：
 
 > **添加定点计划任务需特别注意，比如凌晨 00:00:00 执行的任务**
 
-![img](./_images/bt-deploy-02.png)
+![img](../_images/bt-deploy-02.png)
 
 ##### 修改 SSH 登录密码
 
-![img](./_images/bt-deploy-03.png)
+![img](../_images/bt-deploy-03.png)
 
 参考：
 
@@ -216,35 +216,35 @@ GitHub：
 
 当无法修改远程服务器组策略的情况下，可尝试下图组红框端口区间内的端口是否可用
 
-![img](./_images/bt-deploy-04.png)
+![img](../_images/bt-deploy-04.png)
 
 #### 安全配置
 
 1. 修改 SSH 默认端口 22
 
-   ![img](./_images/bt-deploy-05.png)
+   ![img](../_images/bt-deploy-05.png)
 
 2. 修改面板别名
 
-   ![img](./_images/bt-deploy-06.png)
+   ![img](../_images/bt-deploy-06.png)
 
 3. 修改面板端口号
 
-   ![img](./_images/bt-deploy-07.png)
+   ![img](../_images/bt-deploy-07.png)
 
 4. 修改安全入口
 
-   ![img](./_images/bt-deploy-08.png)
+   ![img](../_images/bt-deploy-08.png)
 
 5. 开启 BasicAuth 认证
 
-   ![img](./_images/bt-deploy-09.png)
+   ![img](../_images/bt-deploy-09.png)
 
-   ![img](./_images/bt-deploy-10.png)
+   ![img](../_images/bt-deploy-10.png)
 
 6. 设置域名、IP 访问（如有需要）
 
-   ![img](./_images/bt-deploy-11.png)
+   ![img](../_images/bt-deploy-11.png)
 
    例如：设置访问域名 `www.lukswapd.test` ，然后在电脑 `hosts` 文件中添加 `45.115.243.144 www.lukswapd.test`
 
@@ -252,7 +252,7 @@ GitHub：
 
 #### 清空操作日志
 
-![img](./_images/bt-deploy-17.png)
+![img](../_images/bt-deploy-17.png)
 
 ### 网站站点
 
@@ -264,15 +264,15 @@ GitHub：
 
 3. 站点修改设置运行目录为 `/public` 目录
 
-   ![img](./_images/bt-deploy-12.png)
+   ![img](../_images/bt-deploy-12.png)
 
 4. 设置伪静态
 
-   ![img](./_images/bt-deploy-13.png)
+   ![img](../_images/bt-deploy-13.png)
 
 5. 申请 SSL
 
-   ![img](./_images/bt-deploy-14.png)
+   ![img](../_images/bt-deploy-14.png)
 
    `api 域名`申请 SSL
 
@@ -315,21 +315,21 @@ GitHub：
 
 - 切换至根目录，搜索文件（输入完整域名（例如：`adesf.com`）搜索，防止模糊误删非删除文件）
 
-  ![img](./_images/bt-deploy-18.png)
+  ![img](../_images/bt-deploy-18.png)
 
 - 清空回收站
 
-  ![img](./_images/bt-deploy-19.png)
+  ![img](../_images/bt-deploy-19.png)
 
 ### 站点备份（计划任务）
 
 #### 备份网站
 
-![img](./_images/bt-deploy-15.png)
+![img](../_images/bt-deploy-15.png)
 
 #### 备份数据库
 
-![img](./_images/bt-deploy-16.png)
+![img](../_images/bt-deploy-16.png)
 
 #### 项目所需定时任务
 
@@ -345,7 +345,7 @@ GitHub：
 
 1. 检查防火墙（可在面板安全中查看）
 
-   ![img](./_images/bt-图片1.png) 
+   ![img](../_images/bt-图片1.png)
 
 2. 检查安全组（需在服务器供应商中查看，比如阿里云、腾讯云）
 
@@ -353,11 +353,11 @@ GitHub：
 
    1. 设置
 
-      ![img](./_images/bt-图片2.png)
+      ![img](../_images/bt-图片2.png)
 
    2. 访问的端口应该为安全组中已放行的端口范围
 
-      ![img](./_images/bt-图片3.png) 
+      ![img](../_images/bt-图片3.png)
 
 ### composer update topthink/framework报错
 
@@ -369,7 +369,7 @@ GitHub：
 
 执行命令时出现`“Failed to extract topthink/framework: (9) unzip -qq  '/www/wwwroot/tron_service/vendor/composer/tmp-2fc59eeea62afa8f0bc5ab230da84e14' -d '/www/wwwroot/tron_service/vendor/composer/c156dae7'”`错误
 
-![img](./_images/bt-图片4.png) 
+![img](../_images/bt-图片4.png)
 
 原因：
 

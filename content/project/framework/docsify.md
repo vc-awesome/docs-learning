@@ -164,6 +164,14 @@ https://docsify.js.org/#/write-a-plugin - *Write a Plugin*
 5. doneEach
 6. ready
 
+#### footer
+
+https://docsify.js.org/#/zh-cn/write-a-plugin?id=footer - *开发插件*
+
+#### Edit Button
+
+https://docsify.js.org/#/zh-cn/write-a-plugin?id=edit-button - *开发插件*
+
 ## Links
 
 https://cloud.tencent.com/developer/article/1005968 - *Docsify 深入源码*

@@ -29,11 +29,22 @@ GitHub:
 
 1. https://www.vim.org/docs.php - *Vim documentation : vim online*
     1. https://vimhelp.org/ - *Vim: help.txt*
-    2. https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文文档计划* [Website](https://yianwillis.github.io/vimcdoc/)
-        ![GitHub last commit](https://img.shields.io/github/last-commit/yianwillis/vimcdoc?logo=github&color=blue)
-        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/yianwillis/vimcdoc?display_date=published_at&logo=github)
-        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yianwillis/vimcdoc?logo=github)
-        ![GitHub Repo stars](https://img.shields.io/github/stars/yianwillis/vimcdoc?style=social)
+2. https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文文档计划* \
+    ![GitHub last commit](https://img.shields.io/github/last-commit/yianwillis/vimcdoc?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/yianwillis/vimcdoc?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yianwillis/vimcdoc?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/yianwillis/vimcdoc?style=social)
+    1. https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
+        1. https://yianwillis.github.io/vimcdoc/doc/help.html#reference_toc - *VIM 中文帮助: 总览及快速参考*
+    2. https://yianwillis.github.io/vimcdoc/doc/usr_toc.html - *VIM 中文用户手册: 目录*
+    3. https://yianwillis.github.io/vimcdoc/doc/quickref.html - *VIM 中文帮助: 总览最常用的命令*
+        1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#option-list - *VIM 中文帮助: 总览最常用的命令*
+    4. https://yianwillis.github.io/vimcdoc/doc/index.html - *VIM 中文帮助: 以字母顺序排列的命令索引*
+
+经常访问：
+
+1. https://yianwillis.github.io/vimcdoc/doc/quickref.html - *VIM 中文帮助: 总览最常用的命令*
+2. https://yianwillis.github.io/vimcdoc/doc/usr_toc.html - *VIM 中文用户手册: 目录*
 
 ### 第三方教程
 
@@ -137,6 +148,10 @@ https://blog.csdn.net/qq_42200183/article/details/81531422 - *Linux中.swp 文�
 .viminfo
 
 .vim/
+
+### 用户界面
+
+暂无
 
 ### 速查表
 
@@ -370,6 +385,19 @@ https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Workti
 2. <kbd>Ctrl</kbd> + <kbd>w</kbd> + <kbd>c</kbd>
 3. <kbd>:</kbd> + <kbd>q</kbd>
 
+禁用命令行历史记录：
+
+- 在当前 Vim 会话中禁用
+
+    `:set history=0`
+
+- 在所有 Vim 会话中禁用
+
+    1. 修改 .vimrc 文件：`vim ~/.vimrc`
+    2. 在 .vimrc 文件中，添加行：`set history=0`
+    3. 保存并退出：`:wq`
+    4. 重新启动 Vim
+
 参考：
 
 1. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
@@ -395,7 +423,7 @@ https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Workti
     - <kbd>Ctrl</kbd> + <kbd>^</kbd> - 回退到上一次的操作
     - https://cloud.tencent.com/developer/article/1646310 - *vim目录操作-腾讯云开发者社区-腾讯云*
 
-打开目录：
+打开目录（Vim 内置文件浏览器）：
 
 1. `:e ./` - 打开当前目录
 2. `:e %:h` - 打开当前所编辑的文件所在的目录
@@ -437,9 +465,43 @@ https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Workti
 1. https://stackoverflow.org.cn/questions/10488717 - *vim - 如何在 Vim 中永久显示当前文件的路径？_Stack Overflow中文网*
 2. https://blog.csdn.net/u013408061/article/details/81565966 - *vim 查看文件路径_vim查看当前文件路径-CSDN博客*
 
-### 位置标记
+### 光标移动
+
+https://yianwillis.github.io/vimcdoc/doc/motion.html - *VIM 中文帮助: 有关移动的命令*
+
+#### 位置标记
+
+m{a-zA-Z} - *用标记 {a-zA-Z} 记录当前位置*
+
+`{a-z} - *至当前文件中的标记 {a-z}*
+
+`` - *至前次跳转之前的位置*
+
+`:marks` - *列出活动的标记*
+
+https://yianwillis.github.io/vimcdoc/doc/usr_03.html#03.10 - *VIM 中文用户手册: 移动*
 
 https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
+
+https://yianwillis.github.io/vimcdoc/doc/motion.html#mark-motions - *VIM 中文帮助: 有关移动的命令*
+
+#### 跳转
+
+N  CTRL-O - *跳转到跳转表中第 N 个较早的位置*
+
+跳回到上一个光标位置：按 Ctrl + o。这个命令会让你在光标位置的历史记录中向后跳转。
+
+N  CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
+
+跳到下一个光标位置：按 Ctrl + i。这个命令会让你在光标位置的历史记录中向前跳转。
+
+:ju[mps] - *列出跳转表*
+
+:cle[arjumps] - *清除当前窗口的跳转表*
+
+https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
+
+https://yianwillis.github.io/vimcdoc/doc/motion.html#jump-motions -*VIM 中文帮助: 有关移动的命令*
 
 ### 对比文件
 
@@ -454,6 +516,10 @@ vimdiff file1 file2 [file3 [file4]]
 ```bash
 vim -d file1 file2 [file3 [file4]]
 ```
+
+示例：
+
+`man -a vimdiff` - *显示所有匹配的手册页面*
 
 参考：
 
@@ -544,15 +610,15 @@ ChatGPT
 
 `:w !diff % -` 是在 Vim 中保存文件并使用 `diff` 命令比较当前文件和标准输入的一种命令。让我们逐步解析这个命令：
 
-1. **`:w`**：这是一个 Vim 命令，用于保存当前文件的内容。
+1. **`:w`** ：这是一个 Vim 命令，用于保存当前文件的内容。
 
-2. **`!`**：这是一个 Vim 中的特殊符号，用于调用外部命令。当你在 `:w` 后加上 `!` 时，表示保存文件的内容并将其通过管道传递给外部命令。
+2. **`!`** ：这是一个 Vim 中的特殊符号，用于调用外部命令。当你在 `:w` 后加上 `!` 时，表示保存文件的内容并将其通过管道传递给外部命令。
 
-3. **`diff`**：这是一个 Unix/Linux 系统中的命令，用于比较两个文件的差异。
+3. **`diff`** ：这是一个 Unix/Linux 系统中的命令，用于比较两个文件的差异。
 
-4. **`%`**：在 Vim 中，`%` 是一个特殊符号，代表当前文件的文件名。
+4. **`%`** ：在 Vim 中，`%` 是一个特殊符号，代表当前文件的文件名。
 
-5. **`-`**：在许多命令行工具中，`-` 表示标准输入（stdin）。在这个上下文中，`diff` 命令将读取来自标准输入的数据并与当前文件进行比较。
+5. **`-`** ：在许多命令行工具中，`-` 表示标准输入（stdin）。在这个上下文中，`diff` 命令将读取来自标准输入的数据并与当前文件进行比较。
 
 完整过程解析：
 
@@ -617,14 +683,14 @@ ChatGPT
 
 答：
 
-`-` 表示**标准输入**（stdin），是 Unix/Linux 系统中的一种约定，用来告诉命令从标准输入中读取数据，而不是从文件或其他来源读取数据。许多命令行工具都支持这个符号，它的作用就是简化命令行操作，让工具更加灵活和可组合。
+`-` 表示 **标准输入** （stdin），是 Unix/Linux 系统中的一种约定，用来告诉命令从标准输入中读取数据，而不是从文件或其他来源读取数据。许多命令行工具都支持这个符号，它的作用就是简化命令行操作，让工具更加灵活和可组合。
 
 如何理解 `-` 表示标准输入？
 
-1. **标准输入 (stdin)**：
+1. **标准输入 (stdin)** ：
    标准输入是操作系统提供的一种机制，用于接收用户输入或其他命令的输出。通常，标准输入是从键盘接收输入，但也可以通过管道 (`|`) 将一个命令的输出传递给另一个命令作为其标准输入。
 
-2. **`-` 作为占位符**：
+2. **`-` 作为占位符** ：
    在很多命令中，`-` 被约定为表示标准输入（stdin），因此当命令遇到 `-` 时，它就会知道不再从文件或其他资源中读取数据，而是从标准输入获取数据。例如：
 
    - `cat -`：从标准输入读取内容，而不是从文件读取。你可以通过键盘输入，结束时使用 `Ctrl+D` 发送 EOF 信号。
@@ -633,7 +699,7 @@ ChatGPT
 
 示例
 
-1. **直接读取键盘输入**：
+1. **直接读取键盘输入** ：
    运行 `cat -` 命令，输入一些文本并按下 `Enter`，然后按 `Ctrl+D` 结束输入，`cat` 会将输入的内容显示出来。
 
    ```bash
@@ -642,7 +708,7 @@ ChatGPT
    hello world
    ```
 
-2. **通过管道输入**：
+2. **通过管道输入** ：
    将一个命令的输出通过管道传给另一个命令使用标准输入。以下例子将 `echo` 命令的输出通过管道传给 `grep` 来查找字符串：
 
    ```bash
@@ -650,7 +716,7 @@ ChatGPT
    hello world
    ```
 
-3. **使用 `diff` 比较内容**：
+3. **使用 `diff` 比较内容** ：
    将文件与标准输入的内容进行比较。在 Vim 中执行 `:w !diff % -`，将比较当前文件已保存的版本和未保存的修改。Vim 会将未保存的修改通过标准输入传给 `diff` 命令。
 
 总结
@@ -665,19 +731,19 @@ ChatGPT
 
 答：
 
-在 Unix/Linux 系统中，很多命令使用 `-` 来表示**标准输入**（`stdin`）或者**标准输出**（`stdout`）。这是 Unix 设计哲学的一部分，旨在让命令行工具能够以一种简单而一致的方式组合和处理数据流。以下是具体原因：
+在 Unix/Linux 系统中，很多命令使用 `-` 来表示 **标准输入** （`stdin`）或者 **标准输出** （`stdout`）。这是 Unix 设计哲学的一部分，旨在让命令行工具能够以一种简单而一致的方式组合和处理数据流。以下是具体原因：
 
-1. **历史原因**：
+1. **历史原因** ：
 早期 Unix 设计的核心原则之一是「一切皆文件」，包括标准输入、标准输出和标准错误。这种设计让工具可以通过管道进行组合，而 `-` 被定义为占位符，代表「从标准输入读取」或「写入到标准输出」。这种设计从 Unix 开始就沿用至今。
 
-2. **方便和简洁**：
+2. **方便和简洁** ：
 `-` 作为占位符提供了方便的方式，让命令可以更加灵活地处理数据流。比如：
    - `cat file.txt`：从文件 `file.txt` 中读取内容。
    - `cat -`：从标准输入中读取内容，通常是用户通过键盘输入，或者来自其他命令的输出。
 
 通过这种方式，用户不需要每次都明确地指定输入或输出文件，而可以利用管道和重定向符号来处理数据。
 
-3. **普遍性**：
+3. **普遍性** ：
 `-` 作为标准输入的符号已被广泛接受并应用于许多命令。例如：
    - `grep pattern file.txt`：在文件中搜索模式。
    - `grep pattern -`：从标准输入（管道或用户输入）中搜索模式。
@@ -698,7 +764,7 @@ ChatGPT
 
 ### 插入空行
 
-在 Vim 的**正常模式**下插入空行，可以使用以下命令：
+在 Vim 的 **正常模式** 下插入空行，可以使用以下命令：
 
 1. **在当前行的上方插入空行**
    ```bash
@@ -716,13 +782,13 @@ ChatGPT
 
    如果你只想插入空行，但不希望 Vim 进入插入模式，可以结合以下命令：
    
-   - **在当前行上方插入空行**：
+   - **在当前行上方插入空行** ：
      ```bash
      :put! _
      ```
      这会在当前行上方插入一行空行，并保持在正常模式中。
 
-   - **在当前行下方插入空行**：
+   - **在当前行下方插入空行** ：
      ```bash
      :put _
      ```
@@ -740,7 +806,7 @@ ChatGPT
    这是最常用的删除当前行的命令，它会将光标所在的整行删除。
 
 2. **删除多行**
-   - **向下删除多行**：
+   - **向下删除多行** ：
      例如，删除当前行及其下方的 3 行：
      ```bash
      3dd
@@ -827,6 +893,10 @@ ChatGPT
 
 `:bd<N>`
 
+删除所有缓冲区：
+
+`:%bdelete`
+
 参考：
 
 1. https://www.bookstack.cn/read/learn-vim/file-two.md - *打开文件、查找内容 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
@@ -905,7 +975,21 @@ ChatGPT
 
 ### 宏操作(Macro)
 
-https://www.bookstack.cn/read/learn-vim/file-seven.md - *vim 中的宏 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
+操作步骤：
+
+例 `qai'<Esc>a',<Esc>jq7@a`
+
+1. <kbd>q</kbd> 是开启录制宏
+2. <kbd>a</kbd> 是给这次宏的录制过程一个存储位置，可以是 0-9 或 a-z；
+3. 然后 `I<单引号><Esc>A<单引号><逗号><Esc>j` 是你这次录制的整个宏的操作过程，意思就是行首插入单引号，行尾插入单引号和逗号，跳到下一行；
+4. 接下来的 <kbd>q</kbd> 是结束本次宏的录制；
+5. <kbd>@</kbd> 是唤起宏，<kbd>a</kbd> 是要唤起的宏的名字（存储位置），前面的 7 你应该明白吧，就是执行 7 次。
+
+Tips：<kbd>@</kbd> + <kbd>@</kbd> 再次唤起最后一次执行的宏。
+
+参考：
+
+1. https://www.bookstack.cn/read/learn-vim/file-seven.md - *vim 中的宏 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
 
 ## 插件
 

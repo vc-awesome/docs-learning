@@ -93,7 +93,15 @@ https://badgen.net/ - *badgen.net*
 
     Demo：https://badgen.net/github/last-commit/bootstrap-vue/bootstrap-vue?icon=github&color=blue
 
-2. ![f-droid](https://badgen.net/f-droid/v/org.fdroid.fdroid)
+2. ![GitHub commits](https://badgen.net/github/commits/bootstrap-vue/bootstrap-vue?icon=github&color=blue)
+
+    ```markdown
+    ![GitHub commits](https://badgen.net/github/commits/?icon=github&color=blue)
+    ```
+
+    Demo：https://badgen.net/github/commits/bootstrap-vue/bootstrap-vue?icon=github&color=blue
+
+3. ![f-droid](https://badgen.net/f-droid/v/org.fdroid.fdroid)
 
     ```markdown
     ![f-droid](https://badgen.net/f-droid/v/)
@@ -141,7 +149,15 @@ GitHub User：
 
     Demo：https://img.shields.io/github/last-commit/bootstrap-vue/bootstrap-vue?logo=github&color=blue
 
-2. ![F-Droid Version](https://img.shields.io/f-droid/v/org.fdroid.fdroid?logo=f-droid&logoColor=B6EC16)
+2. ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/bootstrap-vue/bootstrap-vue?logo=github&color=blue)
+
+    ```markdown
+    ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/?logo=github&color=blue)
+    ```
+
+    Demo：https://img.shields.io/github/commit-activity/t/bootstrap-vue/bootstrap-vue?logo=github&color=blue
+
+3. ![F-Droid Version](https://img.shields.io/f-droid/v/org.fdroid.fdroid?logo=f-droid&logoColor=B6EC16)
 
     ```markdown
     ![F-Droid Version](https://img.shields.io/f-droid/v/?logo=f-droid&logoColor=B6EC16)
@@ -149,7 +165,7 @@ GitHub User：
 
     Demo：https://img.shields.io/f-droid/v/org.fdroid.fdroid?logo=f-droid&logoColor=B6EC16
 
-3. ![GitHub Release Date](https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?logo=github)
+4. ![GitHub Release Date](https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?logo=github)
 
     ```markdown
     ![GitHub Release Date](https://img.shields.io/github/release-date/?logo=github)
@@ -157,7 +173,7 @@ GitHub User：
 
     Demo：https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?logo=github
 
-4. ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?display_date=published_at&logo=github)
+5. ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?display_date=published_at&logo=github)
 
     ```markdown
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/?display_date=published_at&logo=github)
@@ -165,7 +181,7 @@ GitHub User：
 
     Demo：https://img.shields.io/github/release-date/bootstrap-vue/bootstrap-vue?display_date=published_at&logo=github
 
-5. ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bootstrap-vue/bootstrap-vue?logo=github)
+6. ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bootstrap-vue/bootstrap-vue?logo=github)
 
     ```markdown
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/?logo=github)
@@ -173,7 +189,7 @@ GitHub User：
 
     Demo：https://img.shields.io/github/v/release/bootstrap-vue/bootstrap-vue?logo=github
 
-6. ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/bootstrap-vue/bootstrap-vue?logo=github&color=blue)
+7. ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/bootstrap-vue/bootstrap-vue?logo=github&color=blue)
 
     ```markdown
     ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/?logo=github&color=blue)
@@ -181,7 +197,7 @@ GitHub User：
 
     Demo: https://img.shields.io/github/v/tag/bootstrap-vue/bootstrap-vue?logo=github&color=blue
 
-7. ![npm](https://img.shields.io/npm/v/bootstrap-vue?logo=npm)
+8. ![npm](https://img.shields.io/npm/v/bootstrap-vue?logo=npm)
 
     ```markdown
     ![npm](https://img.shields.io/npm/v/?logo=npm)
@@ -189,7 +205,7 @@ GitHub User：
 
     Demo：https://img.shields.io/npm/v/bootstrap-vue?logo=npm
 
-8. ![GitHub Repo stars](https://img.shields.io/github/stars/bootstrap-vue/bootstrap-vue?style=social)
+9. ![GitHub Repo stars](https://img.shields.io/github/stars/bootstrap-vue/bootstrap-vue?style=social)
 
     ```markdown
     ![GitHub Repo stars](https://img.shields.io/github/stars/?style=social)
@@ -197,7 +213,7 @@ GitHub User：
 
     Demo：https://img.shields.io/github/stars/bootstrap-vue/bootstrap-vue?style=social
 
-9. ![Static Badge](https://img.shields.io/badge/Tags-DeFi-8A2BE2)
+10. ![Static Badge](https://img.shields.io/badge/Tags-DeFi-8A2BE2)
 
     ```markdown
     ![Static Badge](https://img.shields.io/badge/Tags-DeFi-8A2BE2)
@@ -205,7 +221,7 @@ GitHub User：
 
     Demo：https://img.shields.io/badge/Tags-DeFi-8A2BE2
 
-10. ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
+11. ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)
 
     ```markdown
     ![Platforms](https://img.shields.io/badge/platforms-Windows%2C%20macOS%20and%20Linux-blue)

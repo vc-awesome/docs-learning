@@ -99,13 +99,13 @@ https://www.xp.cn/linux.html - *phpStudy Linux 面板（小皮面板）- 小皮
 
 2. 选择对应 php 版本的扩展包
 
-   ![phpstudy-图片1.png](./_images/phpstudy-图片1.png)
+   ![phpstudy-图片1.png](../_images/phpstudy-图片1.png)
 
    **如何选取扩展包**
 
    - 输入命令 `php -i` 或者 `php -r "phpinfo();"`
 
-     ![](./_images/phpstudy-图片2.png)
+     ![](../_images/phpstudy-图片2.png)
 
      参考：[使用 php 命令行工具查看架构及是否支持线程安全](https://blog.csdn.net/hfut_wowo/article/details/88169634)
 

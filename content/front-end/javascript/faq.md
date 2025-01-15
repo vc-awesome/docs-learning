@@ -191,42 +191,6 @@ https://cloud.tencent.com/developer/information/js如何打开链接 - *js如何
 window.open("https://www.baidu.com/s?word=");
 ```
 
-## js json 数据的处理
-
-https://blog.csdn.net/cgj19960119/article/details/84987426 - *JS中json数据的处理_js json数据_不为人知的小小鸟的博客-CSDN博客*
-
-JSON 对象：
-
-````javascript
-var obj = {"name":"xiao","age":12};
-````
-
-JSON 数组：
-
-```javascript
-var objArray = [{"name":"xiao","age":12},{"name":"xiao","age":12}];
-```
-
-JSON 字符串：
-
-```javascript
-var jsonString = '{"name":"xiao","age":12}';
-```
-
-类型转换：
-
-```javascript
-// JSON 字符串—> JS 对象：
-obj = JSON.parse(jsonString);
-obj = jQuery.parseJSON(jsonString);
-
-// Note：传入畸形 JSON 字符串（例如：`{name:"xiao",age:12}`），会抛出异常；
-// JSON 字符串格式，严格格式：`{"name":"xiao","age":12}`
-
-// JS 对象 —> JSON 字符串：
-json_str = JSON.stringify(obj);
-```
-
 ## js 跳转至页面底部
 
 https://zhidao.baidu.com/question/308832148.html - *jQuery实现方式不一样的跳转到底部*

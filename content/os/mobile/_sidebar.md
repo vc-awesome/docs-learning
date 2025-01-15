@@ -9,4 +9,4 @@
   * [Markor](os/mobile/markor.md)
   * [Acode](os/mobile/acode.md)
   * [F-Droid](os/mobile/f-droid.md)
-  * [HTTP Shortcuts](os/mobile/http_shortcuts.md)
+  * [HTTP Shortcuts](os/mobile/http-shortcuts.md)

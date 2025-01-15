@@ -7,9 +7,12 @@
 * [加密](essential/crypto.md)
 * [算法](essential/algorithms.md)
 * [正则表达式](essential/regex.md)
-* [cURL](essential/curl.md)
 * [URL](essential/url.md)
 * [API](essential/api.md)
+* [JSON](essential/json.md)
+* [SVG](essential/svg.md)
+* [XML](essential/xml.md)
+* [YAML](essential/yaml.md)
 * **NETWORK**
 * [Internet](essential/network/internet.md)
 * [HTTP(S)](essential/network/http.md)

@@ -179,6 +179,17 @@
         plugins: [
           (hook, vm) => {
             window.console.log({ _that: this, hook, vm });
+
+            hook.beforeEach(function(html) {
+              var url = `http-shortcuts://58acd922-2b4d-4a70-bf1d-9a196340079a?file_path=/storage/emulated/0/Documents/markor/gh/docs-learning${vm.route.file}`;
+              return [
+                '<header>\n\n',
+                '*[' + decodeURIComponent(vm.route.file) + '](' + url + ')*',
+                '</header>\n\n',
+                html
+              ].join('');
+            })
+
           },
         ],
       };

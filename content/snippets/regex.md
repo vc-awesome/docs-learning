@@ -74,6 +74,8 @@ Vim：
 
 https://regex101.com/r/eMKIMI/2 - *regex101: build, test, and debug regex*
 
+MT管理器 - 文本编辑器：
+
 查找内容：
 
 ```regex
@@ -89,6 +91,10 @@ https://regex101.com/r/eMKIMI/2 - *regex101: build, test, and debug regex*
 ```regex
 $1 
 ```
+
+Acode：
+
+- 不支持正则替换
 
 ### 添加标签 `<kbd></kbd>`
 

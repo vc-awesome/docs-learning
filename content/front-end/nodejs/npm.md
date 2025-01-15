@@ -564,15 +564,21 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 
   推荐这种方式来安装 *Browsersync* - 通过本地安装到每个项目的根目录。这种方式的可以使依赖被添加到你的 package.json 文件里（ gulp 或 grunt 构建方式）
 
-  ``` sh
+  ```bash
   npm install browser-sync --save-dev
   ```
 
 - 查看当前版本
 
-  ``` sh
+  ```bash
   browser-sync --version
   ```
+
+- display this help and exit
+
+    ```bash
+    browser-sync
+    ```
 
 - 监听所有文件类型
 
@@ -580,23 +586,23 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 
   - 静态网站
 
-    ``` sh
+    ```bash
     browser-sync start --server --files "**/**.*"
     ```
 
     - 本地安装运行
 
-        ``` sh
+        ```bash
         ./node_modules/.bin/browser-sync start --server "gh/docs-learning" --files "**/**.*"
         ```
 
-        ``` sh
+        ```bash
         npx browser-sync start --server "gh/docs-learning" --files "**/**.*"
         ```
 
   - 动态网站
 
-    ``` sh
+    ```bash
     browser-sync start --proxy "docs-learning.service" --files "**/**.*"
     ```
 

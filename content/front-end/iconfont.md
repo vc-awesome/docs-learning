@@ -90,6 +90,38 @@ https://fontawesome.dashgame.com#fixed-width
 </details>
 
 
+### 斜体
+
+在使用 Iconfont 时，如果你想要实现斜体效果，可以通过 CSS 来实现。Iconfont 本身是一个图标字体库，通常不支持斜体样式，但你可以通过 CSS 的 `transform` 属性来实现斜体效果。
+
+以下是一个简单的示例：
+
+```html
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_1234567_xxxxx.css"> <!-- 替换为你的 Iconfont 链接 -->
+    <style>
+        .icon {
+            font-family: 'iconfont'; /* 使用 Iconfont 字体 */
+            font-size: 24px; /* 设置字体大小 */
+            display: inline-block; /* 使 transform 生效 */
+            transform: skew(-10deg); /* 斜体效果 */
+        }
+    </style>
+    <title>Iconfont 斜体示例</title>
+</head>
+<body>
+    <i class="icon icon-example"></i> <!-- 替换为你的图标类名 -->
+</body>
+</html>
+```
+
+在这个示例中，`transform: skew(-10deg);` 会使图标看起来呈现斜体效果。你可以根据需要调整 `skew` 的角度来获得不同的斜体效果。请确保将 `icon-example` 替换为你实际使用的图标类名。
+
+
 ## Using
 
 ### Font Awesome
@@ -598,7 +630,13 @@ https://github.com/react-icons/react-icons
 
     - 如果遇到站点无法打开，可使用国内站点：https://developers.google.cn/fonts/docs/material_icons
 
-2. https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts*
+2. https://fonts.google.com/icons - *Material Symbols and Icons - Google Fonts* 🚫
+
+#### Material Icons
+
+https://developers.google.cn/fonts/docs/material_icons?hl=zh-cn - *Material 图标指南 &nbsp;|&nbsp; Google Fonts &nbsp;|&nbsp; Google for Developers*
+
+https://fonts.googleapis.com/icon?family=Material+Icons
 
 <i class="fa-solid fa-globe fa-fw"></i>
 
@@ -655,6 +693,11 @@ a[target=_blank]:after {
 
 1. ~~https://gooyuit.blog.csdn.net/article/details/80407804 - *Google发布750个Material design icons 图标大全使用*~~
 
+#### Material Symbols
+
+https://developers.google.cn/fonts/docs/material_symbols?hl=zh-cn - *Material 符号指南  |  Google Fonts  |  Google for Developers*
+
+https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined
 
 ### Glyphicons®
 

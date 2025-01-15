@@ -10,79 +10,80 @@
 
 > 兵马未动，粮草先行。
 
-- [code-guide](essential/code-guide.md)
-- [code-naming-rule](essential/code-naming-rule.md)
-- [document-template](home/document-template.md)
-- [directory-structure](home/directory-structure.md)
+1. [code-guide](essential/style-guide/code-guide.md)
+2. [code-naming-rule](essential/style-guide/code-naming-rule.md)
+3. [document-template](home/document-template.md)
+4. [directory-structure](home/directory-structure.md)
 
 ## 学习
 
-- [书籍](home/book.md)
-- [前端](front-end/README.md#学习资源)
+1. [书籍](home/book.md)
+2. [前端](front-end/README.md#学习资源)
 
 ## CLI（即 Shell）
 
 ### 终端环境
 
-- [Windows cmd](os/windows/cmd.md)
-- [Linux Shell 环境](os/linux/shell.md)
-    - [~~Bash~~]()
-    - [PowerShell](os/tools/developer/powershell.md)
-    - [~~Zsh~~]()
-- [macOS terminal](os/mac/terminal.md)
-- [Android termux](os/mobile/termux.md)
-- [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
+1. [Windows CMD](os/windows/cmd.md)
+2. [Linux Shell 环境](os/linux/shell.md)
+    1. [~~Bash~~]()
+    2. [PowerShell](os/tools/developer/powershell.md)
+    3. [~~Zsh~~]()
+3. [macOS Terminal](os/mac/terminal.md)
+4. [Android Termux](os/mobile/termux.md)
+5. [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
 
 ### 命令
 
-- [Windows](os/windows/command.md)
-- [macOS](os/mac/terminal.md)
-- [Linux](os/linux/command.md)
+1. [Windows](os/windows/command.md)
+2. [macOS](os/mac/terminal.md)
+3. [Linux](os/linux/command.md)
 
 ### 脚本
 
-- [Windows *.bat](os/windows/batch.md)
-- [Windows *.ps1](os/tools/developer/powershell.md)
-- [Linux *.sh](os/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
+1. [Windows *.bat](os/windows/batch.md)
+2. [Windows *.ps1](os/tools/developer/powershell.md)
+3. [Linux *.sh](os/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
 
 ### 工具
 
-- [CLI App](os/tools/cli-app.md)
+1. [CLI App](os/tools/cli-app.md)
 
 ## 模板
 
-- [文档模板](home/document-template.md)
-- [官网模板](project/framework/official-website.md)
-- [后台管理模板](project/framework/background-management-system-template/README.md)
+1. [文档模板](home/document-template.md)
+2. [官网模板](project/framework/official-website.md)
+3. [后台管理模板](project/framework/background-management-system-template/README.md)
 
 ## 站点搭建、部署
 
-- [服务器](essential/hosting.md) - *可购买服务器*
-- [部署](project/README.md#部署) - *可购买服务器*
-- [文档网站](project/framework/README.md#文档网站生成器)（[直达](project/category.md#文档网站生成器)）
-    - [docsify](os/tools/docsify.md) + GitHub Pages
-    - [VitePress](https://vitepress.dev/) + Algolia
-        - Example: https://ruanyf-weekly.vercel.app/
+1. [服务器](essential/network/hosting.md) - *可购买服务器*
+2. [部署](project/README.md#部署) - *可购买服务器*
+3. [文档网站](project/framework/README.md#文档网站生成器)（[直达](project/category.md#文档网站生成器)）
+    1. [docsify](project/framework/docsify.md) + GitHub Pages
+    2. [VitePress](https://vitepress.dev/) + Algolia
+        1. Example: https://ruanyf-weekly.vercel.app/
 
 ## 专题文章
 
-- [广告过滤](topics/ad-filter.md)
-- [翻译](topics/translate.md)
-- [视频](topics/video.md)
-- [输入法](topics/input-method.md)
-- [搜索技巧](topics/search-skill.md)
-- [调试](topics/debug.md)
-- [剪贴板](topics/clipboard.md)
-- [文件转换](topics/file-convert.md)
-- [文件对比](topics/file-diff.md)
-- [文件同步](topics/file-sync.md)
-- [文件传输](topics/file-transfer.md)
-- [快捷键](topics/shortcuts.md)
-- [单位](topics/unit.md)
+1. [广告过滤](topics/ad-filter.md)
+2. [Awesome](topics/awesome.md)
+3. [翻译](topics/translate.md)
+4. [视频](topics/video.md)
+5. [输入法](topics/input-method.md)
+6. [搜索技巧](topics/search-skill.md)
+7. [调试](topics/debug.md)
+8. [剪贴板](topics/clipboard.md)
+9. [文件转换](topics/file-convert.md)
+10. [文件对比](topics/file-diff.md)
+11. [文件同步](topics/file-sync.md)
+12. [文件传输](topics/file-transfer.md)
+13. [快捷键](topics/shortcuts.md)
+14. [单位](topics/unit.md)
 
 ## 大厂
 
-- [Microsoft](os/windows/README.md)
-- [Apple Inc.](os/mac/README.md)
-- [Google Inc.](tech-stack/google.md)
-- [Adobe: Creative, marketing and document management solutions](https://www.adobe.com/) - *Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.*
+1. [Microsoft](os/windows/README.md)
+2. [Apple Inc.](os/mac/README.md)
+3. [Google Inc.](tech-stack/google.md)
+4. [Adobe: Creative, marketing and document management solutions](https://www.adobe.com/) - *Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.*

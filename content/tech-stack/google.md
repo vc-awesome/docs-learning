@@ -22,6 +22,8 @@ https://www.google.com/ - *Google*
 开发：
 
 1. https://developers.google.cn/ - *Google Developers* [英文站点](https://developers.google.com/)
+2. https://github.com/google - *Google · GitHub* [Website](https://opensource.google/)
+    1. https://github.com/google/styleguide - *GitHub - google/styleguide: Style guides for Google-originated open-source projects*
 
 ## 产品
 

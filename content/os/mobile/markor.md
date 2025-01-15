@@ -73,8 +73,8 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
         ```css
           a,
-          em,
-          u {
+          u,
+          em {
             word-break: break-word;
             word-wrap: break-word;
           }
@@ -124,7 +124,7 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
 4. 在“查看模式”下，设置自定义的主题样式：
 
-    [下载主题](os/tools/markdown.md#主题)：
+    [下载主题](home/markdown.md#主题)：
 
     1. [少数派经典主题](https://sspai.com/post/43873)
 
@@ -300,7 +300,9 @@ Typora's Night 主题：
 
 ## 用法
 
-### ActionButton
+### Markdown
+
+#### ActionButton
 
 ActionButton 长按图标按钮触发的功能
 

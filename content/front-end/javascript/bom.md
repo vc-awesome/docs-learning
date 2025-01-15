@@ -1,7 +1,5 @@
 # BOM
 
-## 浏览器 BOM
-
 https://www.runoob.com/js/js-window.html - *JavaScript Window - 浏览器对象模型*
 
 > 对象分为两类：对象属性和对象方法。

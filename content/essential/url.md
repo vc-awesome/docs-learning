@@ -47,7 +47,7 @@ AI 搜索：`macos 如何使用 Platypus 创建 url scheme`
     示例：
     
     1. [打开文件，绝对路径：*file:////storage/emulated/0/Documents/markor/note/📱%20apps-for-daily-use.md*](file:////storage/emulated/0/Documents/markor/note/📱%20apps-for-daily-use.md)
-    2. [打开文件，相对路径：*./curl.md*](file:///curl.md)（无法使用）
+    2. [打开文件，相对路径：*./regex.md*](file:///regex.md)（无法使用）
 
     代码片段：
 

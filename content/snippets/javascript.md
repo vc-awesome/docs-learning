@@ -183,4 +183,8 @@ str.replace("/需要替换的字符串/g", "新替换的字符串");
 
 ### setTimeout()
 
+暂无
+
 ### Promise
+
+暂无

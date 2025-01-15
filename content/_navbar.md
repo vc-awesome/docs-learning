@@ -31,7 +31,6 @@
     - [<i class="ri-key-2-line"></i> 加密](essential/crypto.md)
     - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](essential/design-pattern/README.md)
     - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
-    - [<i class="ri-link"></i> cURL](essential/curl.md)
     - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
     - [<i class="ri-questionnaire-line"></i> API](essential/api.md)
     - **_NETWORK_**
@@ -57,7 +56,7 @@
     - <hr />
     - [<i class="fa-duotone fa-compass-drafting fa-fw"></i> 产品设计](front-end/design/README.md)
     - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
-    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-CDNHub"></use></svg> CDN](front-end/cdn.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-CDNHub"></use></svg> CDN](essential/network/cdn.md)
 - Back-end
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-php1"></use></svg> PHP](back-end/php/README.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-thinkphp"></use></svg> ThinkPHP](back-end/thinkphp/README.md)

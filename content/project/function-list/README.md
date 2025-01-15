@@ -60,7 +60,7 @@ server {
 
 2. https://github.com/fatedier/frp - *A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.*
 
-   ![GitHub last commit](https://badgen.net/github/last-commit/fatedier/frp?icon=github&color=blue)
+   ![GitHub last commit](https://img.shields.io/github/last-commit/fatedier/frp?color=blue&logo=github)
 
    https://sspai.com/post/73283 - *简单几步实现内网穿透 - 少数派*
 
@@ -290,7 +290,7 @@ if (mediaQueryListLight.matches) {
 
 https://github.com/Martinomagnifico/reveal.js-copycode - *GitHub - Martinomagnifico/reveal.js-copycode: A simple plugin that automatically shows a 'copy' button in code blocks in Reveal.js*
 
-![GitHub last commit](https://badgen.net/github/last-commit/Martinomagnifico/reveal.js-copycode?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Martinomagnifico/reveal.js-copycode?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Martinomagnifico/reveal.js-copycode?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Martinomagnifico/reveal.js-copycode?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Martinomagnifico/reveal.js-copycode?style=social)
@@ -356,24 +356,24 @@ https://mp.weixin.qq.com/s/1hBmfI47ptZgw7KNb97T8A - *使用 react-pdf 打造在�
 
 搜索关键词：`file tree md`
 
-1. https://www.npmjs.com/package/files2md - *files2md - npm*
+1. [files2md - npm](https://www.npmjs.com/package/files2md) - *Automagically generate file trees in your markdown files. Latest version: 1.0.1, last published: 8 years ago. Start using files2md in your project by running `npm i files2md`. There are no other projects in the npm registry using files2md.*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/aymericbeaumet/files2md?color=blue&logo=github)
     ![npm](https://img.shields.io/npm/v/files2md?logo=npm)
 
-2. ✅ https://www.npmjs.com/package/file-mkdir - *file-mkdir - npm* [GitHub](https://github.com/inblossoms/file-mkdir)
+2. [file-mkdir - npm](https://www.npmjs.com/package/file-mkdir) - *It is used to generate the project directory tree, and supports markdown and txt file formats.. Latest version: 0.1.3, last published: a year ago. Start using file-mkdir in your project by running `npm i file-mkdir`. There are no other projects in the npm registry using file-mkdir.* [GitHub Repo](https://github.com/inblossoms/file-mkdir)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/inblossoms/file-mkdir?color=blue&logo=github)
     ![npm](https://img.shields.io/npm/v/file-mkdir?logo=npm)
     ![GitHub Repo stars](https://img.shields.io/github/stars/inblossoms/file-mkdir?style=social)
 
-3. https://www.npmjs.com/package/markdown-file-tree - *markdown-file-tree - npm* [GitHub](https://github.com/pavel-john/markdown-file-tree)
+3. [markdown-file-tree - npm](https://www.npmjs.com/package/markdown-file-tree) - *Generate file-tree in markdown, e.g. (`_Sidebar.md`) for Github wiki, including links to files.. Latest version: 1.0.7, last published: 5 years ago. Start using markdown-file-tree in your project by running `npm i markdown-file-tree`. There are no other projects in the npm registry using markdown-file-tree.* [GitHub Repo](https://github.com/pavel-john/markdown-file-tree)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/pavel-john/markdown-file-tree?color=blue&logo=github)
     ![npm](https://img.shields.io/npm/v/markdown-file-tree?logo=npm)
     ![GitHub Repo stars](https://img.shields.io/github/stars/pavel-john/markdown-file-tree?style=social)
 
-4. ✅ https://www.npmjs.com/package/md-file-tree - *md-file-tree - npm* [GitHub](https://github.com/michalbe/md-file-tree)
+4. [md-file-tree - npm](https://www.npmjs.com/package/md-file-tree) - *Generate markdown tree of all the files in a directory, recursively.. Latest version: 0.2.0, last published: 5 years ago. Start using md-file-tree in your project by running `npm i md-file-tree`. There are no other projects in the npm registry using md-file-tree.* [GitHub Repo](https://github.com/michalbe/md-file-tree)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/michalbe/md-file-tree?color=blue&logo=github)
     ![npm](https://img.shields.io/npm/v/md-file-tree?logo=npm)
@@ -408,7 +408,7 @@ JavaScript 源码解读
 
 <https://github.com/jperasmus/docsify-copy-code> - *GitHub - jperasmus/docsify-copy-code: A docsify plugin that copies Markdown code block to your clipboard*
 
-![GitHub last commit](https://badgen.net/github/last-commit/jperasmus/docsify-copy-code?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/jperasmus/docsify-copy-code?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jperasmus/docsify-copy-code?style=social)
 
 - https://unpkg.com/docsify-copy-code@2.1.1/dist/docsify-copy-code.js （文件内容中出现的 `1e3` 表示 1×10^3 = 1000）

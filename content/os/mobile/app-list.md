@@ -543,6 +543,8 @@ https://f-droid.org/packages/com.trianguloy.urlchecker/ - *URLCheck | F-Droid - 
 
 https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck*
 
+https://triangularapps.blogspot.com/search/label/UrlChecker - *TrianguloY's Apps: UrlChecker* 🚫
+
 ---
 
 「模块」设置：

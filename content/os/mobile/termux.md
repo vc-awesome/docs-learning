@@ -171,7 +171,15 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
   注：Termux 会自动将环境变量 `$PREFIX` 设定为 `/data/data/com.termux/files/usr`
 
 
-#### termux-tools/pkg
+#### termux-tools
+
+##### pkg
+
+简介：
+
+> Termux 自带的包管理工具，可以用于安装大部分工具。
+
+官方：
 
 https://wiki.termux.com/wiki/Package_Management#Using_the_package_manager - *Package Management - Termux Wiki*
 
@@ -280,6 +288,8 @@ pkg set-mirror tuna
 
 #### apt
 
+包管理器，用于安装 .deb 格式的软件包。
+
 简介：
 
 > Front-end for the dpkg package manager
@@ -287,6 +297,8 @@ pkg set-mirror tuna
 官方：
 
 https://packages.debian.org/apt - *Debian -- Package Search Results -- apt*
+
+https://manpages.debian.org/jessie/apt/index.html - *Manpages of apt in Debian jessie — Debian Manpages*
 
 查看：
 
@@ -422,18 +434,33 @@ grep " install " /var/log/apt/history.log
 3. https://www.sysgeek.cn/apt-command-linux/ - *Linux APT 命令实战教程：Ubuntu、Debian、Mint 用户必备指南 - 系统极客*
 
 
-##### apt-get
+##### apt-cache
 
 https://manpages.debian.org/jessie/apt/apt-cache.8.en.html - *apt-cache(8) — apt — Debian jessie — Debian Manpages*
+
+
+##### apt-config
+
+https://manpages.debian.org/jessie/apt/apt-config.8.en.html - *apt-config(8) — apt — Debian jessie — Debian Manpages*
+
+
+##### apt-get
+
+https://manpages.debian.org/jessie/apt/apt-get.8.en.html - *apt-get(8) — apt — Debian jessie — Debian Manpages*
 
 https://cn.linux-console.net/?p=29400 - *如何在 Ubuntu 中使用 'apt-get' 命令 [20 个示例]*
 
 https://cn.linux-console.net/?p=17920 - *在 Ubuntu 中使用 apt 命令安装特定的软件包版本*
 
 
-##### apt-cache
+##### apt-key
 
-暂无
+https://manpages.debian.org/jessie/apt/apt-key.8.en.html - *apt-key(8) — apt — Debian jessie — Debian Manpages*
+
+
+##### apt-mark
+
+https://manpages.debian.org/jessie/apt/apt-mark.8.en.html - *apt-mark(8) — apt — Debian jessie — Debian Manpages*
 
 
 #### dpkg
@@ -820,6 +847,12 @@ disable a service
 
 ```bash
 sv-disable <service>
+```
+
+查看有哪些自启动服务
+
+```bash
+ls -alh $PREFIX/var/service/
 ```
 
 目录结构：
@@ -1345,6 +1378,121 @@ httpd
 有关详细用法，请参阅本文“[如何将 Apache 的网站默认路径，修改为手机本地存储？](#%e5%a6%82%e4%bd%95%e5%b0%86-apache-%e7%9a%84%e7%bd%91%e7%ab%99%e9%bb%98%e8%ae%a4%e8%b7%af%e5%be%84%ef%bc%8c%e4%bf%ae%e6%94%b9%e4%b8%ba%e6%89%8b%e6%9c%ba%e6%9c%ac%e5%9c%b0%e5%ad%98%e5%82%a8%ef%bc%9f)”。
 
 
+#### apt-file
+
+简介：
+
+> search for files within packages
+
+官方：
+
+https://wiki.debian.org/apt-file - *apt-file - Debian Wiki*
+
+查看：
+
+```bash
+pkg show apt-file
+```
+
+安装：
+
+```bash
+pkg install apt-file
+```
+
+用法：
+
+```bash
+apt-file --help
+```
+
+
+#### aria2
+
+简介：
+
+> aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
+
+![GitHub last commit](https://badgen.net/github/last-commit/aria2/aria2?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/aria2/aria2?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/aria2/aria2?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/aria2/aria2?style=social)
+
+官方：
+
+https://aria2.github.io/ - *aria2*
+
+https://github.com/aria2/aria2 - *GitHub - aria2/aria2: aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.*
+
+安装：
+
+```bash
+pkg install aria2
+```
+
+卸载：
+
+```bash
+pkg uninstall aria2
+```
+
+用法：
+
+```bash
+aria2c -v
+```
+
+```bash
+aria2c -h
+```
+
+
+#### colordiff
+
+简介：
+
+> The Perl script colordiff is a wrapper for 'diff' and produces the same output but with pretty 'syntax' highlighting. Colour schemes can be customized.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/daveewart/colordiff?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/daveewart/colordiff?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/daveewart/colordiff?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/daveewart/colordiff?style=social)
+
+官方：
+
+https://www.colordiff.org/ - *colordiff*
+
+https://github.com/daveewart/colordiff - *GitHub - daveewart/colordiff: Primary development for colordiff*
+
+查看：
+
+```bash
+pkg show colordiff
+```
+
+安装：
+
+```bash
+pkg install colordiff
+```
+
+卸载：
+
+```bash
+pkg uninstall colordiff
+```
+
+用法：
+
+```bash
+colordiff --help
+```
+
+```bash
+man colordiff
+```
+
+
 #### curl
 
 简介：
@@ -1392,179 +1540,78 @@ curl --help
 ```
 
 
-#### Nano
+#### dnsutils
 
 简介：
 
-> Small, free and friendly text editor
+> Clients provided with BIND
 
 官方：
 
-https://www.nano-editor.org/ - *nano &ndash; Text editor*
+https://www.isc.org/bind/ - *BIND 9 - ISC*
 
-搜索：
-
-```bash
-pkg search nano
-```
+https://packages.debian.org/source/buster/bind9 - *Debian -- 在 buster 中的 bind9 源码包详细信息*
 
 查看：
 
 ```bash
-pkg show nano
+pkg show dnsutils
 ```
 
 安装：
 
 ```bash
-pkg install nano
+pkg install dnsutils
 ```
 
 卸载：
 
 ```bash
-pkg uninstall nano
+pkg uninstall dnsutils
 ```
 
-参考：
 
-1. https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
-2. https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
-
-
-#### Vim
+#### fdupes
 
 简介：
 
-> Vi IMproved - enhanced vi editor
+> FDUPES is a program for identifying or deleting duplicate files residing within specified directories. - adrianlopezroche/fdupes
 
-![GitHub last commit](https://img.shields.io/github/last-commit/vim/vim?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vim/vim?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vim/vim?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/vim/vim?style=social)
+![GitHub last commit](https://badgen.net/github/last-commit/adrianlopezroche/fdupes?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/adrianlopezroche/fdupes?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/adrianlopezroche/fdupes?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/adrianlopezroche/fdupes?style=social)
 
 官方：
 
-https://www.vim.org - *welcome home : vim online*
-
-https://github.com/vim/vim - *GitHub - vim/vim: The official Vim repository*
-
-搜索：
-
-```bash
-pkg search ^vim
-```
+https://github.com/adrianlopezroche/fdupes - *GitHub - adrianlopezroche/fdupes: FDUPES is a program for identifying or deleting duplicate files residing within specified directories.*
 
 查看：
 
 ```bash
-pkg show vim
+pkg show fdupes
 ```
 
 安装：
 
 ```bash
-pkg install vim
-```
-
-```bash
-pkg install vim-python
+pkg install fdupes
 ```
 
 卸载：
 
 ```bash
-pkg uninstall vim
+pkg uninstall fdupes
 ```
 
 用法：
 
 ```bash
-vim --help
-```
-
-
-#### Tree
-
-简介：
-
-> Recursive directory lister producing a depth indented listing of files
-
-官方：
-
-http://mama.indstate.edu/users/ice/tree/ - *The Tree Command for Linux Homepage*
-
-查看：
-
-```bash
-pkg show tree
-```
-
-安装：
-
-```bash
-pkg install tree
-```
-
-卸载：
-
-```bash
-pkg uninstall tree
-```
-
-用法：
-
-https://wangchujiang.com/linux-command/c/tree.html - *tree 命令，Linux tree 命令详解：树状图列出目录的内容 - Linux 命令搜索引擎*
-
-
-#### Node.js
-
-简介：
-
-> Open Source, cross-platform JavaScript runtime environment
-
-官方：
-
-https://nodejs.org/ - *Node.js — Run JavaScript Everywhere*
-
-搜索：
-
-```bash
-pkg search ^node
-```
-
-查看：
-
-```bash
-pkg show nodejs
-```
-
-安装：
-
-```bash
-pkg install nodejs-lts
+fdupes --help
 ```
 
 ```bash
-pkg install nodejs
-```
-
-更新：
-
-```bash
-pkg upgrade
-```
-
-注意：更新版本时需连同依赖项一并更新至最新版
-
-卸载：
-
-```bash
-pkg uninstall nodejs-lts
-```
-
-```bash
-pkg uninstall nodejs
+fdupes -r ./
 ```
 
 
@@ -1679,91 +1726,57 @@ gitui
     ```
 
 
-#### OpenSSH
+#### McFly
 
 简介：
 
-> OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.
+> Replaces your default ctrl-r shell history search with an intelligent search engine
+
+![GitHub last commit](https://img.shields.io/github/last-commit/cantino/mcfly?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/cantino/mcfly?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cantino/mcfly?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/cantino/mcfly?style=social)
 
 官方：
 
-https://www.openssh.com/ - *OpenSSH*
+https://github.com/cantino/mcfly - *GitHub - cantino/mcfly: Fly through your shell history. Great Scott!*
 
-https://github.com/openssh - *OpenSSH · GitHub*
+搜索：
+
+```bash
+pkg search mcfly
+```
 
 查看：
 
 ```bash
-pkg show openssh
+pkg show mcfly
 ```
 
 安装：
 
 ```bash
-pkg install openssh
+pkg install mcfly
 ```
-
 卸载：
 
 ```bash
-pkg uninstall openssh
+pkg uninstall mcfly
 ```
 
 用法：
 
-```bash
-ssh --help
-```
+操作步骤：
 
-```bash
-ssh -V
-```
+1. Add the following to the end of your `~/.bashrc`, `~/.zshrc`, or `~/.config/fish/config.fish` file:
 
-```bash
-man ssh
-```
+    ```bash
+     eval "$(mcfly init bash)"
+    ```
 
-```bash
-pkg files openssh
-```
+2. Run `. ~/.bashrc` / `. ~/.zshrc` / `source ~/.config/fish/config.fish` or restart your terminal emulator.
 
-
-#### Xclip
-
-简介：
-
-> Command line interface to the X11 clipboard
-
-![GitHub last commit](https://img.shields.io/github/last-commit/astrand/xclip?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/astrand/xclip?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/astrand/xclip?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/astrand/xclip?style=social)
-
-官方：
-
-https://github.com/astrand/xclip - *GitHub - astrand/xclip: Command line interface to the X11 clipboard*
-
-⚠️ 按下面顺序安装，否则无法安装。
-
-先安装：
-
-```bash
-pkg install x11-repo
-```
-
-再安装：
-
-```bash
-pkg install xclip
-```
-
-!> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
-
-卸载：
-
-```bash
-pkg uninstall xclip
-```
+3. <kbd>Ctrl</kbd> + <kbd>r</kbd> to bring up a full-screen reverse history search prioritized with a small neural network.
 
 
 #### miniserve
@@ -1831,6 +1844,47 @@ pkg install mlocate
 pkg install mlocate
 ```
 
+
+#### Nano
+
+简介：
+
+> Small, free and friendly text editor
+
+官方：
+
+https://www.nano-editor.org/ - *nano &ndash; Text editor*
+
+搜索：
+
+```bash
+pkg search nano
+```
+
+查看：
+
+```bash
+pkg show nano
+```
+
+安装：
+
+```bash
+pkg install nano
+```
+
+卸载：
+
+```bash
+pkg uninstall nano
+```
+
+参考：
+
+1. https://www.51cto.com/article/745458.html - *Nano 编辑器中，怎样保存和退出-51CTO.COM*
+2. https://www.freecodecamp.org/chinese/news/how-to-save-and-exit-nano-in-terminal-nano-quit-command/amp/ - *如何在终端中保存和退出 Nano*
+
+
 #### Nmap
 
 简介：
@@ -1893,163 +1947,194 @@ nmap 127.0.0.1
 ```
 
 
-#### aria2
+#### Node.js
 
 简介：
 
-> aria2 is a lightweight multi-protocol & multi-source command-line download utility. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink. aria2 can be manipulated via built-in JSON-RPC and XML-RPC interfaces.
-
-![GitHub last commit](https://badgen.net/github/last-commit/aria2/aria2?icon=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/aria2/aria2?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/aria2/aria2?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/aria2/aria2?style=social)
+> Open Source, cross-platform JavaScript runtime environment
 
 官方：
 
-https://aria2.github.io/ - *aria2*
+https://nodejs.org/ - *Node.js — Run JavaScript Everywhere*
 
-https://github.com/aria2/aria2 - *GitHub - aria2/aria2: aria2 is a lightweight multi-protocol & multi-source, cross platform download utility operated in command-line. It supports HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink.*
+搜索：
+
+```bash
+pkg search ^node
+```
+
+查看：
+
+```bash
+pkg show nodejs
+```
 
 安装：
 
 ```bash
-pkg install aria2
+pkg install nodejs-lts
+```
+
+```bash
+pkg install nodejs
+```
+
+更新：
+
+```bash
+pkg upgrade
+```
+
+注意：更新版本时需连同依赖项一并更新至最新版
+
+卸载：
+
+```bash
+pkg uninstall nodejs-lts
+```
+
+```bash
+pkg uninstall nodejs
+```
+
+
+#### OpenSSH
+
+简介：
+
+> OpenSSH is the premier connectivity tool for remote login with the SSH protocol. It encrypts all traffic to eliminate eavesdropping, connection hijacking, and other attacks. In addition, OpenSSH provides a large suite of secure tunneling capabilities, several authentication methods, and sophisticated configuration options.
+
+官方：
+
+https://www.openssh.com/ - *OpenSSH*
+
+https://github.com/openssh - *OpenSSH · GitHub*
+
+查看：
+
+```bash
+pkg show openssh
+```
+
+安装：
+
+```bash
+pkg install openssh
 ```
 
 卸载：
 
 ```bash
-pkg uninstall aria2
+pkg uninstall openssh
 ```
 
 用法：
 
 ```bash
-aria2c -v
+ssh --help
 ```
 
 ```bash
-aria2c -h
+ssh -V
+```
+
+```bash
+man ssh
+```
+
+```bash
+pkg files openssh
 ```
 
 
-#### dnsutils
+#### pet
 
 简介：
 
-> Clients provided with BIND
+> Simple command-line snippet manager
+
+![GitHub last commit](https://img.shields.io/github/last-commit/knqyf263/pet?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/knqyf263/pet?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/knqyf263/pet?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/knqyf263/pet?style=social)
 
 官方：
 
-https://www.isc.org/bind/ - *BIND 9 - ISC*
-
-https://packages.debian.org/source/buster/bind9 - *Debian -- 在 buster 中的 bind9 源码包详细信息*
+https://github.com/knqyf263/pet - *GitHub - knqyf263/pet: Simple command-line snippet manager*
 
 查看：
 
 ```bash
-pkg show dnsutils
+pkg show pet
 ```
 
 安装：
 
 ```bash
-pkg install dnsutils
+pkg install pet
 ```
 
 卸载：
 
 ```bash
-pkg uninstall dnsutils
-```
-
-
-#### fdupes
-
-简介：
-
-> FDUPES is a program for identifying or deleting duplicate files residing within specified directories. - adrianlopezroche/fdupes
-
-![GitHub last commit](https://badgen.net/github/last-commit/adrianlopezroche/fdupes?icon=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/adrianlopezroche/fdupes?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/adrianlopezroche/fdupes?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/adrianlopezroche/fdupes?style=social)
-
-官方：
-
-https://github.com/adrianlopezroche/fdupes - *GitHub - adrianlopezroche/fdupes: FDUPES is a program for identifying or deleting duplicate files residing within specified directories.*
-
-查看：
-
-```bash
-pkg show fdupes
-```
-
-安装：
-
-```bash
-pkg install fdupes
-```
-
-卸载：
-
-```bash
-pkg uninstall fdupes
+pkg uninstall pet
 ```
 
 用法：
 
 ```bash
-fdupes --help
+pet
 ```
 
-```bash
-fdupes -r ./
-```
+参考：
 
-#### colordiff
+1. https://linux.cn/article-9600-1.html - *技术|Pet：一个简单的命令行片段管理器*
+2. http://www.dngz.net/linux/61777.html - *Pet：一个简单的命令行片段管理器 - 电脑故障网 Linux 中国归档站*
+
+
+#### Rclone
 
 简介：
 
-> The Perl script colordiff is a wrapper for 'diff' and produces the same output but with pretty 'syntax' highlighting. Colour schemes can be customized.
+> Rclone syncs files to and from cloud storage providers as well as mounting them, listing them in lots of different ways.
 
-![GitHub last commit](https://img.shields.io/github/last-commit/daveewart/colordiff?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/daveewart/colordiff?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/daveewart/colordiff?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/daveewart/colordiff?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/rclone/rclone?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/rclone/rclone?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/rclone/rclone?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/rclone/rclone?style=social)
 
 官方：
 
-https://www.colordiff.org/ - *colordiff*
+https://github.com/rclone/rclone - *GitHub - rclone/rclone: "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files*
 
-https://github.com/daveewart/colordiff - *GitHub - daveewart/colordiff: Primary development for colordiff*
+https://rclone.org/ - *Rclone*
 
 查看：
 
 ```bash
-pkg show colordiff
+pkg show rclone
+```
+
+```bash
+pkg files rclone
 ```
 
 安装：
 
 ```bash
-pkg install colordiff
+pkg install rclone
 ```
 
 卸载：
 
 ```bash
-pkg uninstall colordiff
+pkg uninstall rclone
 ```
 
 用法：
 
 ```bash
-colordiff --help
-```
-
-```bash
-man colordiff
+rclone --help
 ```
 
 
@@ -2137,6 +2222,39 @@ man tmux
 3. https://blog.csdn.net/weixin_42462804/article/details/106047837 - *【小白入门】Tmux详细 使用教程_tmux 入门-CSDN博客*
 
 
+#### Tree
+
+简介：
+
+> Recursive directory lister producing a depth indented listing of files
+
+官方：
+
+http://mama.indstate.edu/users/ice/tree/ - *The Tree Command for Linux Homepage*
+
+查看：
+
+```bash
+pkg show tree
+```
+
+安装：
+
+```bash
+pkg install tree
+```
+
+卸载：
+
+```bash
+pkg uninstall tree
+```
+
+用法：
+
+https://wangchujiang.com/linux-command/c/tree.html - *tree 命令，Linux tree 命令详解：树状图列出目录的内容 - Linux 命令搜索引擎*
+
+
 #### tsu
 
 简介：
@@ -2175,130 +2293,93 @@ pkg uninstall tsu
 ```
 
 
-#### pet
+#### Vim
 
 简介：
 
-> Simple command-line snippet manager
+> Vi IMproved - enhanced vi editor
 
-![GitHub last commit](https://img.shields.io/github/last-commit/knqyf263/pet?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/knqyf263/pet?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/knqyf263/pet?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/knqyf263/pet?style=social)
-
-官方：
-
-https://github.com/knqyf263/pet - *GitHub - knqyf263/pet: Simple command-line snippet manager*
-
-查看：
-
-```bash
-pkg show pet
-```
-
-安装：
-
-```bash
-pkg install pet
-```
-
-卸载：
-
-```bash
-pkg uninstall pet
-```
-
-用法：
-
-```bash
-pet
-```
-
-参考：
-
-1. https://linux.cn/article-9600-1.html - *技术|Pet：一个简单的命令行片段管理器*
-2. http://www.dngz.net/linux/61777.html - *Pet：一个简单的命令行片段管理器 - 电脑故障网 Linux 中国归档站*
-
-
-#### McFly
-
-简介：
-
-> Replaces your default ctrl-r shell history search with an intelligent search engine
-
-![GitHub last commit](https://img.shields.io/github/last-commit/cantino/mcfly?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/cantino/mcfly?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cantino/mcfly?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/cantino/mcfly?style=social)
+![GitHub last commit](https://img.shields.io/github/last-commit/vim/vim?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vim/vim?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vim/vim?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vim/vim?style=social)
 
 官方：
 
-https://github.com/cantino/mcfly - *GitHub - cantino/mcfly: Fly through your shell history. Great Scott!*
+https://www.vim.org - *welcome home : vim online*
+
+https://github.com/vim/vim - *GitHub - vim/vim: The official Vim repository*
 
 搜索：
 
 ```bash
-pkg search mcfly
+pkg search ^vim
 ```
 
 查看：
 
 ```bash
-pkg show mcfly
+pkg show vim
 ```
 
 安装：
 
 ```bash
-pkg install mcfly
+pkg install vim
 ```
+
+```bash
+pkg install vim-python
+```
+
 卸载：
 
 ```bash
-pkg uninstall mcfly
+pkg uninstall vim
 ```
 
 用法：
 
-操作步骤：
-
-1. Add the following to the end of your `~/.bashrc`, `~/.zshrc`, or `~/.config/fish/config.fish` file:
-
-    ```bash
-     eval "$(mcfly init bash)"
-    ```
-
-2. Run `. ~/.bashrc` / `. ~/.zshrc` / `source ~/.config/fish/config.fish` or restart your terminal emulator.
-
-3. <kbd>Ctrl</kbd> + <kbd>r</kbd> to bring up a full-screen reverse history search prioritized with a small neural network.
+```bash
+vim --help
+```
 
 
-#### apt-file
+#### Xclip
 
 简介：
 
-> search for files within packages
+> Command line interface to the X11 clipboard
+
+![GitHub last commit](https://img.shields.io/github/last-commit/astrand/xclip?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/astrand/xclip?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/astrand/xclip?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/astrand/xclip?style=social)
 
 官方：
 
-https://wiki.debian.org/apt-file - *apt-file - Debian Wiki*
+https://github.com/astrand/xclip - *GitHub - astrand/xclip: Command line interface to the X11 clipboard*
 
-查看：
+⚠️ 按下面顺序安装，否则无法安装。
+
+先安装：
 
 ```bash
-pkg show apt-file
+pkg install x11-repo
 ```
 
-安装：
+再安装：
 
 ```bash
-pkg install apt-file
+pkg install xclip
 ```
 
-用法：
+!> 无法使用！执行 `xclip -sel clip < ~/.ssh/id_rsa.pub` 命令，出现 `Error: Can't open display: (null)` 错误。
+
+卸载：
 
 ```bash
-apt-file --help
+pkg uninstall xclip
 ```
 
 

@@ -60,7 +60,7 @@ https://www.navicat.com/en/download/navicat-premium - *Navicat | Download Navica
 
 不勾选“在每个运行中运行多重查询”**（验证可用）**
 
-![](./_images/navicat-import-01.png)
+![](../_images/navicat-import-01.png)
 
 参考链接：
 

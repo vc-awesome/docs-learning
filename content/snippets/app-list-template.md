@@ -71,9 +71,9 @@
 [${title}](${url}) - *${description}*
 ```
 
-- `${title}` 部分是从网页 \<title>\</title> 中提取
-- `${url}` 部分是网址链接
-- `${description}` 部分是从网页 \<meta name="description" content="" / > 中提取
+- `${title}` 内容是从网页 \<title>\</title> 中提取
+- `${url}` 内容是网址链接
+- `${description}` 内容是从网页 \<meta name="description" content="" / > 中提取
 
 ## 桌面客户端
 
@@ -89,6 +89,7 @@
 - 其它
     - 支持 IDEs Plugin, Editors Plugin
     - 支持 Email Add-ons
+    - 支持 MiniProgram
 
 模板样式：
 
@@ -126,7 +127,7 @@
 1. ✅ [${title}](${url}) - *${description}* [Cracked]()\
     \> _via URL-placeholder_
 
-    - 支持 Windows, macOS（[Homebrew](), [MacPorts](), [App Store](), [Intel Chip](), [Apple Silicon Chip]()）, Linux, Android（[Google Play](), [F-Droid](), [Termux]()）, iOS（[App Store]()）, [Web](), Server, Terminal, Editors Plugin（[VS Code]()）, Email Add-ons, 微信小程序 或 MiniProgram, 浏览器扩展 或 Web Browser Extensions（[Chrome](), [Firefox](), [Edge](), [Safari]()）, 代码部署 或 [Source Code](), and [More]()
+    - 支持 Windows, macOS（[Homebrew](), [MacPorts](), [App Store](), [Intel Chip](), [Apple Silicon Chip]()）, Linux, Android（[Google Play](), [F-Droid](), [Termux]()）, iOS（[App Store]()）, [Web](), Server（Docker）, Terminal, Editors Plugin（[VS Code]()）, Email Add-ons（Outlook）, 小程序 或 MiniProgram（WeChat, Alipay）, 网页浏览器扩展 或 Web Browser Extensions（[Chrome](), [Firefox](), [Edge](), [Safari]()）, 源码（部署, 构建） 或 [Source Code](), and [More]()
 
     - 开源软件（[GitHub Repo]()）
 ```
@@ -135,25 +136,25 @@
 
 App Store
 
-免费（Free）\
-\> _via https://apps.apple.com/cn/app/apple-store/id375380948 - *App Store 上的“Apple Store”*_
+- 免费（Free）\
+    \> _via https://apps.apple.com/cn/app/apple-store/id375380948 - *App Store 上的“Apple Store”*_
 
-免费 · 提供 App 内购买项目（Free Offers · In-App Purchases）\
-\> _via https://apps.apple.com/cn/app/messenger/id454638411 - *App Store 上的“Messenger”*_
+- 免费 · 提供 App 内购买项目（Free Offers · In-App Purchases）\
+    \> _via https://apps.apple.com/cn/app/messenger/id454638411 - *App Store 上的“Messenger”*_
 
-付费（Paid）\
-\> _via https://apps.apple.com/cn/app/things-3/id904237743 - *App Store 上的“Things 3”*_
+- 付费（Paid）\
+    \> _via https://apps.apple.com/cn/app/things-3/id904237743 - *App Store 上的“Things 3”*_
 
 Google Play
 
-包含内购商品（In-app purchases）\
-\> _via https://play.google.com/store/apps/details?id=com.todoist - *查阅一下“Todoist：待办列表&计划”*_
+- 包含内购商品（In-app purchases）\
+    \> _via https://play.google.com/store/apps/details?id=com.todoist - *查阅一下“Todoist：待办列表&计划”*_
 
-包含广告（Contains ads）\
-\> _via https://play.google.com/store/apps/details?id=com.ted.android - *查阅一下“TED”*_
+- 包含广告（Contains ads）\
+    \> _via https://play.google.com/store/apps/details?id=com.ted.android - *查阅一下“TED”*_
 
-付费（Paid）\
-\> _via https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher.prime - *查阅一下“Nova Launcher Prime”*_
+- 付费（Paid）\
+    \> _via https://play.google.com/store/apps/details?id=com.teslacoilsw.launcher.prime - *查阅一下“Nova Launcher Prime”*_
 
 ```markdown
 包含广告，包含内购商品
@@ -251,14 +252,17 @@ Google Play
 
 ### Lite
 
-模板样式 1：
+模板样式：
 
 <output data-lang="output">
 
 [Omni-Notes](https://omninotes.app/) - *Open source note-taking application for Android* [APK]() [Google Play](https://play.google.com/store/apps/details?id=it.feio.android.omninotes), [F-Droid](https://f-droid.org/repository/browse/?fdid=it.feio.android.omninotes.foss), [GitHub Repo](https://github.com/federicoiosue/Omni-Notes)
 
 ![f-droid](https://badgen.net/f-droid/v/it.feio.android.omninotes.foss)
-![GitHub last commit](https://img.shields.io/github/last-commit/federicoiosue/Omni-Notes?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/federicoiosue/Omni-Notes?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/federicoiosue/Omni-Notes?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/federicoiosue/Omni-Notes?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/federicoiosue/Omni-Notes?style=social)
 
 </output>
 
@@ -270,19 +274,25 @@ Google Play
 
 ```markdown
 ![f-droid](https://badgen.net/f-droid/v/)
-![GitHub last commit](https://img.shields.io/github/last-commit/?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/?style=social)
 ```
 
 ### Pro
 
-模板样式 2：
+模板样式：
 
 <output data-lang="output">
 
 > 在打开网址之前，允许您分析（或共享）它们。
 
 ![f-droid](https://badgen.net/f-droid/v/com.trianguloy.urlchecker)
-![GitHub last commit](https://img.shields.io/github/last-commit/TrianguloY/UrlChecker?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/TrianguloY/URLCheck?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TrianguloY/URLCheck?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TrianguloY/URLCheck?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/TrianguloY/URLCheck?style=social)
 
 ---
 
@@ -298,7 +308,10 @@ https://github.com/TrianguloY/UrlChecker - *GitHub - TrianguloY/UrlChecker: Andr
 > 
 
 ![f-droid](https://badgen.net/f-droid/v/)
-![GitHub last commit](https://img.shields.io/github/last-commit/?color=blue&logo=github)
+![GitHub last commit](https://img.shields.io/github/last-commit/?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/?style=social)
 
 ---
 

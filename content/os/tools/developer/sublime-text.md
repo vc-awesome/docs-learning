@@ -56,11 +56,11 @@ brew install --cask sublime-text
 
 3. 将查找到的整行文字内容 `"draw_white_space": ["selection"],` 修改成 `"draw_white_space": "all",`，复制到右侧的文件中（下图是设置成`"draw_white_space": "all",`的效果）；
 
-   ![sublime-text-setting-01](_images/sublime-text-setting-01.png)
+   ![sublime-text-setting-01](../_images/sublime-text-setting-01.png)
 
 4. 修改后，保存右侧文件；此时发现每一行文字前的空格（符号 · 显示）和缩进（符号 — 显示）会通过标识符填充（下图是没有设置 `"draw_white_space": "all",` 的效果，即编辑器默认效果）。
 
-   ![sublime-text-setting-02](_images/sublime-text-setting-02.png)
+   ![sublime-text-setting-02](../_images/sublime-text-setting-02.png)
 
 参考：
 

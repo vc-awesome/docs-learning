@@ -174,25 +174,21 @@ https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基�
 
 查看：
 
-`ls -l` - *查看文件权限*
+[ls](#ls) - *查看目录下面有多少文件以及文件的名字*
 
 设置：
 
-- `chmod` - *控制用户对文件的权限的命令*
-
-    `chmod +x ` <文件名> - *给指定文件增加可执行权限*
-
-https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜鸟教程*
+[chmod](#chmod) - *控制用户对文件的权限的命令*
 
 #### 查看目录内容
 
 2 种方式：
 
-- [ls](#ls) - *查看目录下面有多少文件以及文件的名字*
+1. [ls](#ls) - *查看目录下面有多少文件以及文件的名字*
 
-- [tree](#tree) - *树状图列出目录的内容*
+2. [tree](#tree) - *树状图列出目录的内容*
 
-#### 查看文件大小
+#### 查看文件[夹]大小
 
 1 种方式：
 
@@ -224,77 +220,48 @@ https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜�
 
 #### 删除目录
 
-语法：
+2 种方式：
 
-`rm -r [目录名]`
+1. [rm](#rm) - *Remove (unlink) the FILE(s).*
+2. [rmdir](#rmdir) - *Remove the DIRECTORY(ies), if they are empty.*
 
-用法：
+#### 查找文件[夹]
 
-https://www.runoob.com/linux/linux-comm-rm.html - *Linux rm 命令 | 菜鸟教程*
+参考：
 
-#### 查找文件或目录
-
-https://www.ruanyifeng.com/blog/2009/10/5_ways_to_search_for_files_using_the_terminal.html - *Linux的五个查找命令 - 阮一峰的网络日志*
+1. https://www.ruanyifeng.com/blog/2009/10/5_ways_to_search_for_files_using_the_terminal.html - *Linux的五个查找命令 - 阮一峰的网络日志*
 
 #### 创建文件
 
-语法：
+1 种方式：
 
-`touch [文件名]`
-
-用法：
-
-https://www.runoob.com/linux/linux-comm-touch.html - *Linux touch命令 | 菜鸟教程*
+1. [touch](#touch) - *Update the access and modification times of each FILE to the current time.*
 
 #### 删除文件
 
-语法：
+1 种方式：
 
-`rm [文件名]`
+1. [rm](#rm) - *Remove (unlink) the FILE(s).*
 
-用法：
+#### 对比文件[夹]
 
-https://www.runoob.com/linux/linux-comm-rm.html - *Linux rm 命令 | 菜鸟教程*
-
-#### 对比文件或目录
+1 种方式：
 
 1. [diff](#diff) - *比较文件的差异*
 
-#### 修改文件名
+#### 修改文件[夹]名
 
-- `mv` - *为文件或目录改名、或将文件或目录移入其它位置*
+2 种方式：
 
-    语法：
+1. [mv](#mv) - *为文件或目录改名、或将文件或目录移入其它位置*
 
-    `mv [源文件名] [目标文件名]`
+2. [rename](#rename) - *用字符串替换的方式批量改变文件名*
 
-    用法：
+#### 搜索文本
 
-    https://www.runoob.com/linux/linux-comm-mv.html - *Linux mv 命令 | 菜鸟教程*
+1 种方式：
 
-- `rename` - *用字符串替换的方式批量改变文件名*
-
-    语法：
-
-    `rename [选项] 表达式 替换的字符 文件...`
-
-    `rename --version` - *显示帮助文本并退出*
-
-    用法：
-
-    https://wangchujiang.com/linux-command/c/rename.html - *rename 命令，Linux rename 命令详解：用字符串替换的方式批量改变文件名 - Linux 命令搜索引擎*
-
-#### 文本搜索
-
-简介：
-
-`grep` - *强大的文本搜索工具*
-
-示例：
-
-`history | grep git` - *搜索命令行历史记录中输入过 `git` 命令的记录*
-
-https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep 命令详解：强大的文本搜索工具 - Linux 命令搜索引擎*
+1. [grep](#grep) - *强大的文本搜索工具*
 
 #### 编辑文件
 
@@ -322,6 +289,8 @@ https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep �
 
 不改变顺序去重
 
+[awk](#awk) - *一种处理文本文件的语言，是一个强大的文本分析工具*
+
 ```bash
 awk '!seen[$0]++' [file]...
 ```
@@ -334,6 +303,10 @@ history=$(tac < .bash_history | awk '!seen[$0]++' | tac) && echo "$history" > .b
 
 排序去重
 
+[sort](#sort) - *将文本文件内容加以排序*
+
+[uniq](#uniq) - *检查及删除文本文件中重复出现的行列，一般与 sort 命令结合使用*
+
 ```bash
 sort [file]... | uniq
 ```
@@ -342,7 +315,7 @@ sort [file]... | uniq
 
 1. https://blog.axiaoxin.com/post/original-order-merge-uniq/ - *Linux 去除重复行而不改变顺序 - 阿小信的博客*
 
-#### 文件写入
+#### 写入文件
 
 示例：
 
@@ -352,74 +325,28 @@ sort [file]... | uniq
 
 #### 查看文件内容
 
-简介：
+1 种方式：
 
-cat（英文全拼：concatenate）命令用于连接文件并打印到标准输出设备上，它的主要作用是用于查看和连接文件。
-
-语法：
-
-`cat [选项] [文件] `
-
-参数：
-
-`-n`：显示行号，会在输出的每一行前加上行号。
-
-`-b`：显示行号，但只对非空行进行编号。
-
-用法：
-
-https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教程*
+1. [cat](#cat) - *Concatenate FILE(s) to standard output.*
 
 ##### 分页显示
+
+2 种方式：
 
 1. [more](#more) - *Linux more 命令类似 cat ，不过会以一页一页的形式显示，更方便使用者逐页阅读，而最基本的指令就是按空白键（space）就往下一页显示，按 b 键就会往回（back）一页显示，而且还有搜寻字串的功能（与 vi 相似），使用中的说明文件，请按 h 。*
 2. [less](#less) - *less 与 more 类似，less 可以随意浏览文件，支持翻页和搜索，支持向上翻页和向下翻页。*
 
 #### 实时查看文件内容变化
 
-简介：
+1 种方式：
 
-tail 命令可用于查看文件的内容，有一个常用的参数 -f 常用于查阅正在改变的日志文件。
-
-语法：
-
-`tail [参数] [文件]`
-
-参数：
-
-`-f`：循环读取
-
-`-q`：不显示处理信息
-
-参考：
-
-1. https://www.runoob.com/linux/linux-comm-tail.html - *Linux tail 命令 | 菜鸟教程*
-2. https://www.cnblogs.com/javabg/p/16813251.html - *Linux实时查看文件内容变化 - 关键步就几步 - 博客园*
-3. https://blog.csdn.net/u012581020/article/details/131332490 - *Linux 实时查看文件 tail 命令详解_tail -n-CSDN博客*
+1. [tail](#tail) -  命令可用于查看文件的内容，有一个常用的参数 -f 常用于查阅正在改变的日志文件。
 
 #### 查看文件指定行
 
-简介：
+1 种方式：
 
-head 命令可用于查看文件的开头部分的内容，有一个常用的参数 -n 用于显示行数，默认为 10，即显示 10 行的内容。
-
-语法：
-
-`head -3 [文件名]`
-
-参数：
-
-`-q`：隐藏文件名
-
-`-v`：显示文件名
-
-`-c <数目>`：显示的字节数。
-
-`-n <行数>`：显示的行数。
-
-用法：
-
-http://www.runoob.com/linux/linux-comm-head.html - *Linux head 命令 | 菜鸟教程*
+1. [head](#head) - *命令可用于查看文件的开头部分的内容，有一个常用的参数 -n 用于显示行数，默认为 10，即显示 10 行的内容。*
 
 #### 查看文件属性
 
@@ -427,46 +354,26 @@ http://www.runoob.com/linux/linux-comm-head.html - *Linux head 命令 | 菜鸟�
 
 1. `ls -l [文件或目录...]`
 
-    https://www.runoob.com/linux/linux-comm-ls.html - *Linux ls命令 | 菜鸟教程*
+2. [stat](#stat) - *以文字的格式来显示 inode 的内容*
 
-2. `stat [文件或目录]`
-
-    https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟教程*
-
-3. `file [文件或目录...]`
-
-    http://www.runoob.com/linux/linux-comm-file.html - *Linux file命令 | 菜鸟教程*
+3. [file](#file) - *辨识文件类型*
 
 参考：
 
 1. https://www.linuxprobe.com/linux-properties-permissions.html - *Linux文件之属性与权限详解 | 《Linux就该这么学》*
 2.  https://blog.csdn.net/p309654858/article/details/127765811 - *Linux如何查看文件的属性_linux查看文件属性_music score的博客-CSDN博客*
 
-#### 复制文件或目录
+#### 复制文件[夹]
 
-语法：
+1 种方式：
 
-`cp [选项] [源文件或目录] [目标文件或目录]`
+1. [cp](#cp) - *将文件或目录从一个位置复制到另一个位置，同时可以选择保留原文件的属性（如权限、时间戳等）*
 
 #### 创建文件链接
 
-简介：
+1 种方式：
 
-ln（英文全拼：link files）命令是一个非常重要命令，它的功能是为某一个文件在另外一个位置建立一个同步的链接。
-
-语法：
-
-`ln -s <source_file> <symbolic_link>`
-
-示例：
-
-`ln --help` - *display this help and exit*
-
-参考：
-
-1. https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/ - *Ln Command in Linux (Create Symbolic Links) | Linuxize*
-2. https://wangchujiang.com/linux-command/c/ln.html - *ln 命令，Linux ln 命令详解：用来为文件创建链接 - Linux 命令搜索引擎*
-3. https://www.runoob.com/linux/linux-comm-ln.html - *Linux ln 命令 | 菜鸟教程*
+1. [ln](#ln) - *为某一个文件在另外一个位置建立一个同步的链接*
 
 #### 删除文件链接
 
@@ -657,131 +564,8 @@ https://tldr.inbrowser.app/pages.zh/common/pkill - *pkill | tldr InBrowser.App*
 
 ### 网络通讯
 
-#### ping
-
-简介：
-
-用于检测主机。
-
-用法：
-
-https://www.runoob.com/linux/linux-comm-ping.html - *Linux ping 命令 | 菜鸟教程*
-
-示例：
-
-`ping www.runoob.com` - *ping <主机名称>*
-
-`ping 120.240.82.52` - *ping <IP 地址>*
-
-#### ifconfig
-
-简介：
-
-用于显示或设置网络设备。
-
- 用法：
-
- https://www.runoob.com/linux/linux-comm-ifconfig.html - *Linux ifconfig命令 | 菜鸟教程*
-
-示例：
-
-`ifconfig`
-
-#### whois
-
-简介：
-
-用于查找并显示用户信息。
-
-用法：
-
-https://www.runoob.com/linux/linux-comm-whois.html - *Linux whois命令 | 菜鸟教程*
-
-示例：
-
-`whois root` - *查找 root 用户信息*
-
-`whois github.com` - *查询域名信息*
-
-#### telnet
-
-简介：
-
-登录远程主机和管理（测试 ip 端口是否连通）。
-
-用法：
-
-https://wangchujiang.com/linux-command/c/telnet.html - *telnet 命令，Linux telnet 命令详解：登录远程主机和管理(测试ip端口是否连通) - Linux 命令搜索引擎*
-
-https://tldr.inbrowser.app/pages/common/telnet - *telnet | tldr InBrowser.App*
-
-示例：
-
-`telnet towel.blinkenlights.nl` - *Telnet to Star Wars animation*
-
-参考：
-
-https://www.easyswoole.com/QuickStart/problem.html - *easyswoole 常见问题*
-
-http://note.iawen.com/note/tools/telnet - *使用 telnet 来调试网络问题 - Iawen's Blog - 我喜欢这样自由的随手涂鸦, 因为我喜欢风......*
-
-#### traceroute
-
-简介：
-
-显示数据包到主机间的路径。
-
-用法：
-
-http://www.runoob.com/linux/linux-comm-traceroute.html - *Linux traceroute命令 | 菜鸟教程*
-
-示例：
-
-`traceroute www.google.com`
-
-参考：
-
-https://www.cisco.com/c/zh_cn/support/docs/ip/ip-routed-protocols/22826-traceroute.html - *使用操作系统的 traceroute 命令 - Cisco*
-
-#### dnsutils
-
-https://www.isc.org/downloads/bind/ - *BIND 9 - ISC*
-
-##### nslookup
-
-简介：
-
-查询域名 DNS 信息的工具。
-
-用法：
-
-https://wangchujiang.com/linux-command/c/nslookup.html - *nslookup 命令，Linux nslookup 命令详解：查询域名DNS信息的工具 - Linux 命令搜索引擎*
-
-示例：
-
-`nslookup`
-
-`nslookup github.com`
-
-##### dig
-
-简介：
-
-域名查询工具。
-
-用法：
-
-https://wangchujiang.com/linux-command/c/dig.html - *dig 命令，Linux dig 命令详解：域名查询工具 - Linux 命令搜索引擎*
-
-示例：
-
-`dig github.com`
-
-参考：
-
-https://zhuanlan.zhihu.com/p/377555624 - *DNS解析-dig工具的使用*
-
-https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/ - *Dig Command in Linux (DNS Lookup) | Linuxize*
+1. [Inetutils](#Inetutils)
+2. [dnsutils](#dnsutils)
 
 ### 清屏
 
@@ -1171,11 +955,85 @@ pkg f coreutils
 
 #### cat
 
+简介：
+
+> cat（英文全拼：concatenate）命令用于连接文件并打印到标准输出设备上，它的主要作用是用于查看和连接文件。
+
 https://www.gnu.org/software/coreutils/cat
+
+语法：
+
+`cat [选项] [文件] `
+
+参数：
+
+`-n`：显示行号，会在输出的每一行前加上行号。
+
+`-b`：显示行号，但只对非空行进行编号。
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教程*
 
 #### chmod
 
-暂无
+简介：
+
+> Change the mode of each FILE to MODE.
+
+语法：
+
+chmod [OPTION]... MODE[,MODE]... FILE...
+
+or:  chmod [OPTION]... OCTAL-MODE FILE...
+
+or:  chmod [OPTION]... --reference=RFILE FILE...
+
+参数：
+
+`-c`, `--changes` - *like verbose but report only when a change is made*
+
+`-R`, `--recursive` - *change files and directories recursively*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜鸟教程*
+
+示例：
+
+`chmod --help`
+
+`chmod +x ` <文件名> - *给指定文件增加可执行权限*
+
+#### cp
+
+简介：
+
+> Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+语法：
+
+cp [OPTION]... [-T] SOURCE DEST
+
+or:  cp [OPTION]... SOURCE... DIRECTORY
+
+or:  cp [OPTION]... -t DIRECTORY SOURCE...
+
+`cp [选项] [源文件或目录] [目标文件或目录]`
+
+参数：
+
+`--help` - *display this help and exit*
+
+`--version` - *output version information and exit*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-cp.html - *Linux cp 命令 | 菜鸟教程*
+
+示例：
+
+`cp --help`
 
 #### du
 
@@ -1201,6 +1059,10 @@ or:  du [OPTION]... --files0-from=F
 
 `-d`, `--max-depth=N` - print the total for a directory (or file, with --all) only if it is N or fewer levels below the command line argument;  --max-depth=0 is the same as --summarize
 
+`-s`, `--summarize` - display only a total for each argument
+
+`--time` - show time of the last modification of any file in the directory, or any of its subdirectories
+
 用法：
 
 https://www.runoob.com/linux/linux-comm-du.html - *Linux du 命令 | 菜鸟教程*
@@ -1209,11 +1071,41 @@ https://www.runoob.com/linux/linux-comm-du.html - *Linux du 命令 | 菜鸟教�
 
 `du -ach --max-depth=1`
 
+`du -ch *` - *列出当前目录以及子目录下每个文件和文件夹的大小（不包含隐藏文件）*
+
+`du -chs *` - *列出当前目录下每个文件和文件夹的大小（不包含隐藏文件）*
+
+`du -sh` - *统计当前目录的大小*
+
 `du --help`
 
 #### env
 
 暂无
+
+#### head
+
+简介：
+
+> head 命令可用于查看文件的开头部分的内容，有一个常用的参数 -n 用于显示行数，默认为 10，即显示 10 行的内容。
+
+语法：
+
+`head -3 [文件名]`
+
+参数：
+
+`-q`：隐藏文件名
+
+`-v`：显示文件名
+
+`-c <数目>`：显示的字节数。
+
+`-n <行数>`：显示的行数。
+
+用法：
+
+http://www.runoob.com/linux/linux-comm-head.html - *Linux head 命令 | 菜鸟教程*
 
 #### id
 
@@ -1221,7 +1113,27 @@ https://www.runoob.com/linux/linux-comm-du.html - *Linux du 命令 | 菜鸟教�
 
 #### ln
 
-暂无
+简介：
+
+ln（英文全拼：link files）命令是一个非常重要命令，它的功能是为某一个文件在另外一个位置建立一个同步的链接。
+
+语法：
+
+`ln -s <source_file> <symbolic_link>`
+
+用法：
+
+https://wangchujiang.com/linux-command/c/ln.html - *ln 命令，Linux ln 命令详解：用来为文件创建链接 - Linux 命令搜索引擎*
+
+https://www.runoob.com/linux/linux-comm-ln.html - *Linux ln 命令 | 菜鸟教程*
+
+示例：
+
+`ln --help` - *display this help and exit*
+
+参考：
+
+1. https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/ - *Ln Command in Linux (Create Symbolic Links) | Linuxize*
 
 #### ls
 
@@ -1267,6 +1179,8 @@ https://zhuanlan.zhihu.com/p/635083904 - *Linux中的20个基本“ls”命令�
 
 `ls --help` - *display this help and exit*
 
+`ls -l` - *查看文件权限*
+
 #### mkdir
 
 简介：
@@ -1293,7 +1207,47 @@ https://wangchujiang.com/linux-command/c/mkdir.html - *mkdir 命令，Linux mkdi
 
 #### mv
 
-暂无
+简介：
+
+> Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+语法：
+
+`mv [源文件名] [目标文件名]`
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-mv.html - *Linux mv 命令 | 菜鸟教程*
+
+#### nl
+
+简介：
+
+Write each FILE to standard output, with line numbers added.
+
+With no FILE, or when FILE is -, read standard input.
+
+语法：
+
+nl [OPTION]... [FILE]...
+
+参数：
+
+`--help` - *display this help and exit*
+
+`--version` - *output version information and exit*
+
+用法：
+
+https://wangchujiang.com/linux-command/c/nl.html - *nl 命令，Linux nl 命令详解：为每一个文件添加行号。 - Linux 命令搜索引擎*
+
+示例：
+
+`nl --help`
 
 #### printenv
 
@@ -1305,15 +1259,107 @@ https://wangchujiang.com/linux-command/c/mkdir.html - *mkdir 命令，Linux mkdi
 
 #### rm
 
+简介：
+
+> Remove (unlink) the FILE(s).
+
 https://www.gnu.org/software/coreutils/rm
+
+语法：
+
+`rm [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-rm.html - *Linux rm 命令 | 菜鸟教程*
+
+示例：
+
+`rm -r [目录名]` - *删除目录*
+
+`rm [文件名]` - *删除文件*
+
+#### rmdir
+
+简介：
+
+> Remove the DIRECTORY(ies), if they are empty.
+
+语法：
+
+rmdir [OPTION]... DIRECTORY...
+
+参数：
+
+`-p`, `--parents` - *remove DIRECTORY and its ancestors; e.g., 'rmdir -p a/b' is similar to 'rmdir a/b a'*
+
+用法：
+
+http://www.runoob.com/linux/linux-comm-rmdir.html - *Linux rmdir 命令 | 菜鸟教程*
+
+示例：
+
+`rmdir --help`
 
 #### sort
 
-暂无
+简介：
+
+> Write sorted concatenation of all FILE(s) to standard output. With no FILE, or when FILE is -, read standard input.
+
+语法：
+
+sort [OPTION]... [FILE]...
+
+or:  sort [OPTION]... --files0-from=F
+
+参数：
+
+`-c`, `--check`, `--check=diagnose-first` - *check for sorted input; do not sort*
+
+`-o`, `--output=FILE` - *write result to FILE instead of standard output*
+
+`-k`, `--key=KEYDEF` - *sort via a key; KEYDEF gives location and type*
+
+`-u`, `--unique` - *with -c, check for strict ordering; without -c, output only the first of an equal run*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-sort.html - *Linux sort命令 | 菜鸟教程*
+
+示例：
+
+`sort --help`
 
 #### stat
 
-暂无
+简介：
+
+> Display file or file system status.
+
+语法：
+
+stat [OPTION]... FILE...
+
+参数：
+
+`-f`, `--file-system` - *display file system status instead of file status*
+
+`--help` - *display this help and exit*
+
+`--version` - *output version information and exit*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟教程*
+
+示例：
+
+`stat --help`
 
 #### tac
 
@@ -1321,11 +1367,45 @@ https://www.gnu.org/software/coreutils/tac
 
 #### tail
 
+简介：
+
+> tail 命令可用于查看文件的内容，有一个常用的参数 -f 常用于查阅正在改变的日志文件。
+
 https://www.gnu.org/software/coreutils/tail
+
+语法：
+
+`tail [参数] [文件]`
+
+参数：
+
+`-f`：循环读取
+
+`-q`：不显示处理信息
+
+参考：
+
+1. https://www.runoob.com/linux/linux-comm-tail.html - *Linux tail 命令 | 菜鸟教程*
+2. https://www.cnblogs.com/javabg/p/16813251.html - *Linux实时查看文件内容变化 - 关键步就几步 - 博客园*
+3. https://blog.csdn.net/u012581020/article/details/131332490 - *Linux 实时查看文件 tail 命令详解_tail -n-CSDN博客*
 
 #### touch
 
-暂无
+简介：
+
+> Update the access and modification times of each FILE to the current time.
+
+语法：
+
+`touch [文件名]`
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-touch.html - *Linux touch命令 | 菜鸟教程*
 
 #### tty
 
@@ -1334,6 +1414,28 @@ https://www.gnu.org/software/coreutils/tail
 #### uname
 
 暂无
+
+#### uniq
+
+简介：
+
+> Filter adjacent matching lines from INPUT (or standard input), writing to OUTPUT (or standard output).
+
+语法：
+
+uniq [OPTION]... [INPUT [OUTPUT]]
+
+参数：
+
+`-c`, `--count` - *prefix lines by the number of occurrences*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-uniq.html - *Linux uniq 命令 | 菜鸟教程*
+
+示例：
+
+`uniq --help`
 
 #### wc
 
@@ -1361,6 +1463,10 @@ https://www.gnu.org/software/diffutils/ - *Diffutils - GNU Project - Free Softwa
 
 `diff [文件或目录1] [文件或目录2]`
 
+diff [OPTION]... FILES
+
+FILES are 'FILE1 FILE2' or 'DIR1 DIR2' or 'DIR FILE' or 'FILE DIR'.                                                         If `--from-file` or `--to-file` is given, there are no restrictions on FILE(s).                                                 If a FILE is '-', read standard input.
+
 参数：
 
 `--help` - display this help and exit
@@ -1374,6 +1480,10 @@ https://wangchujiang.com/linux-command/c/diff.html - *diff 命令，Linux diff �
 https://phoenixnap.com/kb/linux-diff - *Linux diff Command {Syntax, Options and Examples}*
 
 示例：
+
+`man -a diff`
+
+`diff -help`
 
 `diff -c [文件或目录1] [文件或目录2]` - *以上下文 (context) 模式比较差异*
 
@@ -1415,7 +1525,33 @@ https://www.gnu.org/software/gawk/ - *Gawk - GNU Project - Free Software Foundat
 
 #### awk
 
-暂无
+简介：
+
+> Gawk is the GNU Project's implementation of the AWK programming language.  It conforms to the definition of the language in the POSIX 1003.1 standard.
+
+语法：
+
+gawk [ POSIX or GNU style options ] -f program-file [ -- ] file ...
+
+gawk [ POSIX or GNU style options ] [ -- ] program-text file ...
+
+参数：
+
+`-F fs`, `--field-separator fs` - *Use fs for the input field separator (the value of the FS predefined variable).*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-awk.html - *Linux awk 命令 | 菜鸟教程*
+
+示例：
+
+`awk --help`
+
+`man -a gawk`
+
+参考：
+
+https://www.ruanyifeng.com/blog/2018/11/awk.html - *awk 入门教程 - 阮一峰的网络日志*
 
 ### Grep
 
@@ -1425,11 +1561,121 @@ https://www.gnu.org/software/grep/ - *Grep - GNU Project - Free Software Foundat
 
 #### grep
 
-暂无
+简介：
 
-### Wget
+> Search for PATTERNS in each FILE.
 
-https://www.gnu.org/software/wget/ - *Wget - GNU Project - Free Software Foundation*
+语法：
+
+`grep [OPTION]... PATTERNS [FILE]...`
+
+用法：
+
+https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep 命令详解：强大的文本搜索工具 - Linux 命令搜索引擎*
+
+示例：
+
+`history | grep git` - *搜索命令行历史记录中输入过 `git` 命令的记录*
+
+### Inetutils
+
+https://www.gnu.org/software/inetutils/ - *Inetutils - Network utilities - GNU Project - Free Software Foundation*
+
+#### ifconfig
+
+https://www.gnu.org/software/inetutils/manual/html_node/ifconfig-invocation.html - *ifconfig invocation (GNU Inetutils)*
+
+简介：
+
+用于显示或设置网络设备。
+
+ 用法：
+
+ https://www.runoob.com/linux/linux-comm-ifconfig.html - *Linux ifconfig命令 | 菜鸟教程*
+
+示例：
+
+`ifconfig`
+
+#### ping
+
+https://www.gnu.org/software/inetutils/manual/html_node/ping-invocation.html - *ping invocation (GNU Inetutils)*
+
+简介：
+
+用于检测主机。
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-ping.html - *Linux ping 命令 | 菜鸟教程*
+
+示例：
+
+`ping www.runoob.com` - *ping <主机名称>*
+
+`ping 120.240.82.52` - *ping <IP 地址>*
+
+#### telnet
+
+https://www.gnu.org/software/inetutils/manual/html_node/telnet-invocation.html - *telnet invocation (GNU Inetutils)*
+
+简介：
+
+登录远程主机和管理（测试 ip 端口是否连通）。
+
+用法：
+
+https://wangchujiang.com/linux-command/c/telnet.html - *telnet 命令，Linux telnet 命令详解：登录远程主机和管理(测试ip端口是否连通) - Linux 命令搜索引擎*
+
+https://tldr.inbrowser.app/pages/common/telnet - *telnet | tldr InBrowser.App*
+
+示例：
+
+`telnet towel.blinkenlights.nl` - *Telnet to Star Wars animation*
+
+参考：
+
+https://www.easyswoole.com/QuickStart/problem.html - *easyswoole 常见问题*
+
+http://note.iawen.com/note/tools/telnet - *使用 telnet 来调试网络问题 - Iawen's Blog - 我喜欢这样自由的随手涂鸦, 因为我喜欢风......*
+
+#### traceroute
+
+https://www.gnu.org/software/inetutils/manual/html_node/traceroute-invocation.html - *traceroute invocation (GNU Inetutils)*
+
+简介：
+
+显示数据包到主机间的路径。
+
+用法：
+
+http://www.runoob.com/linux/linux-comm-traceroute.html - *Linux traceroute命令 | 菜鸟教程*
+
+示例：
+
+`traceroute www.google.com`
+
+参考：
+
+https://www.cisco.com/c/zh_cn/support/docs/ip/ip-routed-protocols/22826-traceroute.html - *使用操作系统的 traceroute 命令 - Cisco*
+
+#### whois
+
+https://www.gnu.org/software/inetutils/manual/html_node/whois-invocation.html - *whois invocation (GNU Inetutils)*
+
+简介：
+
+用于查找并显示用户信息。
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-whois.html - *Linux whois命令 | 菜鸟教程*
+
+示例：
+
+`whois root` - *查找 root 用户信息*
+
+`whois github.com` - *查询域名信息*
 
 ### Sed
 
@@ -1461,31 +1707,87 @@ https://wangchujiang.com/linux-command/c/info.html - *info 命令，Linux info �
 
 `man info`
 
-### Inetutils
+### Wget
 
-https://www.gnu.org/software/inetutils/ - *Inetutils - Network utilities - GNU Project - Free Software Foundation*
+https://www.gnu.org/software/wget/ - *Wget - GNU Project - Free Software Foundation*
 
-#### ifconfig
+## 其它软件包
 
-https://www.gnu.org/software/inetutils/manual/html_node/ifconfig-invocation.html - *ifconfig invocation (GNU Inetutils)*
+### dnsutils
 
-#### ping
+https://www.isc.org/downloads/bind/ - *BIND 9 - ISC*
 
-https://www.gnu.org/software/inetutils/manual/html_node/ping-invocation.html - *ping invocation (GNU Inetutils)*
+#### dig
 
-#### whois
+简介：
 
-https://www.gnu.org/software/inetutils/manual/html_node/whois-invocation.html - *whois invocation (GNU Inetutils)*
+域名查询工具。
 
-#### telnet
+用法：
 
-https://www.gnu.org/software/inetutils/manual/html_node/telnet-invocation.html - *telnet invocation (GNU Inetutils)*
+https://wangchujiang.com/linux-command/c/dig.html - *dig 命令，Linux dig 命令详解：域名查询工具 - Linux 命令搜索引擎*
 
-#### traceroute
+示例：
 
-https://www.gnu.org/software/inetutils/manual/html_node/traceroute-invocation.html - *traceroute invocation (GNU Inetutils)*
+`dig github.com`
 
-## Less
+参考：
+
+https://zhuanlan.zhihu.com/p/377555624 - *DNS解析-dig工具的使用*
+
+https://linuxize.com/post/how-to-use-dig-command-to-query-dns-in-linux/ - *Dig Command in Linux (DNS Lookup) | Linuxize*
+
+#### nslookup
+
+简介：
+
+查询域名 DNS 信息的工具。
+
+用法：
+
+https://wangchujiang.com/linux-command/c/nslookup.html - *nslookup 命令，Linux nslookup 命令详解：查询域名DNS信息的工具 - Linux 命令搜索引擎*
+
+示例：
+
+`nslookup`
+
+`nslookup github.com`
+
+### file
+
+简介：
+
+> Command-line tool that tells you in words what kind of data a file contains
+
+官方：
+
+https://darwinsys.com/file/ - *Ian Darwin's Fine Free File Command*
+
+#### file
+
+简介：
+
+Determine type of FILEs.
+
+语法：
+
+file [OPTION...] [FILE...]
+
+参数：
+
+`--help` - *display this help and exit*
+
+`-v`, `--version` - *output version information and exit*
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-file.html - *Linux file命令 | 菜鸟教程*
+
+示例：
+
+`file --help`
+
+### Less
 
 简介：
 
@@ -1495,17 +1797,85 @@ https://www.gnu.org/software/inetutils/manual/html_node/traceroute-invocation.ht
 
 https://www.greenwoodsoftware.com/less/ - *Less*
 
-### less
+#### less
+
+简介：
+
+> Less is a program similar to more(1), but it has many more features.
+
+语法：
+
+less -?
+
+less --help
+
+less -V
+
+less --version
+
+less [-[+]aABcCdeEfFgGiIJKLmMnNqQrRsSuUVwWX~]\
+    [-b space] [-h lines] [-j line] [-k keyfile]\
+    [-{oO} lo``gfile] [-p pattern] [-P prompt] [-t tag]\
+    [-T tagsfile] [-x tab,...] [-y lines] [-[z] lines]\
+    [-# shift] [+[+]cmd] [--] [filename]...
+
+参数：
+
+`-e` - *当文件显示结束后，自动离开*
+
+`-m` - *显示类似 more 命令的百分比*
+
+`-N` - *显示每行的行号*
 
 用法：
 
 http://www.runoob.com/linux/linux-comm-less.html - *Linux less 命令 | 菜鸟教程*
 
+<kbd>h</kbd>, <kbd>H</kbd> - *显示帮助界面*
+
+<kbd>q</kbd> - *退出*
+
+MOVING
+
+<kbd>b</kbd>, <kbd>PGUP</kbd> - *向上翻一页*
+
+<kbd>u</kbd>, <kbd>^U</kbd> - *向上翻半页 Backward one half-window (and set half-window to N).*
+
+<kbd>f</kbd>, <kbd>SPACE</kbd>, <kbd>PGDN</kbd> - *向下翻一页*
+
+<kbd>d</kbd>, <kbd>^D</kbd> - *向下翻半页 Forward  one half-window (and set half-window to N).*
+
+JUMPING
+
+<kbd>g</kbd>, <kbd>\<</kbd>, <kbd>ESC-\<</kbd> - *Go to first line in file (or line N).*
+
+<kbd>G</kbd>, <kbd>></kbd>, <kbd>ESC-></kbd> - *Go to last line in file (or line N).*
+
+<kbd>p</kbd>, <kbd>%</kbd> - *Go to beginning of file (or N percent into file).*
+
+SEARCHING
+
+<kbd>/</kbd><字符串> - *向下搜索"字符串"的功能*
+
+<kbd>?</kbd><字符串> - *向上搜索"字符串"的功能*
+
+<kbd>n</kbd> - *重复前一个搜索（与 / 或 ? 有关）*
+
+<kbd>N</kbd> - *反向重复前一个搜索（与 / 或 ? 有关）*
+
+CHANGING FILES
+
+<kbd>=</kbd>, <kbd>^G</kbd>, <kbd>:f</kbd> - *Print current file name.*
+
+- 先按 <kbd>G</kbd> 键，然后按 <kbd>=</kbd> 键，可以显示当前行号和总行数的状态栏。
+
 示例：
 
 `less --help`
 
-## man
+`man -a less`
+
+### man
 
 简介：
 
@@ -1515,41 +1885,21 @@ http://www.runoob.com/linux/linux-comm-less.html - *Linux less 命令 | 菜鸟�
 
 https://mandoc.bsd.lv/ - *mandoc | UNIX manpage compiler*
 
-### man
-
-语法：
-
-`man [-acfhklw] [-C file] [-M path] [-m path] [-S subsection]`
-
-参数：
-
-`man -a man` - *显示所有匹配的手册页面。*
-
-`man -h`
-
-`man -k` - *搜索手册页中与关键字匹配的条目。*
-
-`man -w` - *仅显示手册页的位置，而不显示其内容。*
-
-用法：
-
-https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命令详解：查看Linux中的指令帮助 - Linux 命令搜索引擎*
-
-https://www.runoob.com/linux/linux-comm-man.html - *Linux man 命令 | 菜鸟教程*
-
-参考：
-
-https://www.cnblogs.com/kelamoyujuzhen/p/9807468.html - *【问题】man命令打开的手册上链接怎么展开？ - 克拉默与矩阵 - 博客园*
-
-### apropos
+#### apropos
 
 简介：
 
+> The apropos and whatis utilities query manual page databases generated by makewhatis(8), evaluating expression for each file in each database. By default, they display the names, section numbers, and description lines of all matching manuals.
+
 语法：
+
+`apropos [-dalhvV] -e|-[w|-r] [-s section] [-m system[,...]] [-M path] [-L locale] -C [file] keyword ...`
 
 参数：
 
+`-l`, `--long` - *不根据终端宽度缩减输出*
 
+`-a`, `--and` - *只显示匹配所有 keyword 的手册页和描述。默认显示匹配任何 keyword 的项*
 
 用法：
 
@@ -1559,7 +1909,39 @@ https://wangchujiang.com/linux-command/c/apropos.html - *apropos 命令，Linux 
 
 `man -a apropos`
 
-## mlocate
+#### man
+
+简介：
+
+> The man utility displays the manual page entitled name. Pages may be selected according to a specific category (section) or machine architecture (subsection).
+
+语法：
+
+`man [-acfhklw] [-C file] [-M path] [-m path] [-S subsection]`
+
+参数：
+
+`-a` - *在所有的 man 帮助手册中搜索。*
+
+`-k` - *搜索手册页中与关键字匹配的条目。*
+
+`-w` - *仅显示手册页的位置，而不显示其内容。*
+
+用法：
+
+https://wangchujiang.com/linux-command/c/man.html - *man 命令，Linux man 命令详解：查看Linux中的指令帮助 - Linux 命令搜索引擎*
+
+https://www.runoob.com/linux/linux-comm-man.html - *Linux man 命令 | 菜鸟教程*
+
+示例：
+
+`man -a man` - *显示所有匹配的手册页面*
+
+参考：
+
+https://www.cnblogs.com/kelamoyujuzhen/p/9807468.html - *【问题】man命令打开的手册上链接怎么展开？ - 克拉默与矩阵 - 博客园*
+
+### mlocate
 
 简介：
 
@@ -1569,7 +1951,7 @@ https://wangchujiang.com/linux-command/c/apropos.html - *apropos 命令，Linux 
 
 https://pagure.io/mlocate - *Overview - mlocate - Pagure.io*
 
-### locate
+#### locate
 
 简介：
 
@@ -1591,7 +1973,57 @@ locate [OPTION]... [PATTERN]...
 
 `locate --help`
 
-## Tree
+### Ncurses
+
+简介：
+
+> Library for text-based user interfaces in a terminal-independent manner
+
+官方：
+
+https://invisible-island.net/ncurses/ - *NCURSES &ndash; New Curses*
+
+#### clear
+
+暂无
+
+### procps
+
+简介：
+
+> Utilities that give information about processes using the /proc filesystem
+
+官方：
+
+https://gitlab.com/procps-ng/procps - *procps-ng / procps · GitLab*
+
+#### pkill
+
+暂无
+
+#### ps
+
+暂无
+
+#### uptime
+
+暂无
+
+### psmisc
+
+简介：
+
+> Some small useful utilities that use the proc filesystem
+
+官方：
+
+https://gitlab.com/psmisc/psmisc - *psmisc / psmisc · GitLab*
+
+#### pstree
+
+暂无
+
+### Tree
 
 简介：
 
@@ -1605,7 +2037,7 @@ https://oldmanprogrammer.net/source.php?dir=projects/tree - *Home - Old Man Prog
 
 https://gitlab.com/OldManProgrammer/unix-tree - *Old Man Programmer / Tree · GitLab*
 
-### tree
+#### tree
 
 语法：
 
@@ -1642,7 +2074,7 @@ https://tldr.inbrowser.app/pages.zh/common/tree - *tree | tldr InBrowser.App*
 
 `tree -L 1` - *显示深度达到 “级数” 级的文件和目录（其中 1 表示当前目录）*
 
-## util-linux
+### util-linux
 
 简介：
 
@@ -1654,11 +2086,32 @@ https://github.com/util-linux/util-linux - *GitHub - util-linux/util-linux*
 
 https://en.wikipedia.org/wiki/Util-linux - *util-linux - Wikipedia*
 
-### more
+#### more
 
 简介：
 
 > Linux more 命令类似 cat ，不过会以一页一页的形式显示，更方便使用者逐页阅读，而最基本的指令就是按空白键（space）就往下一页显示，按 b 键就会往回（back）一页显示，而且还有搜寻字串的功能（与 vi 相似），使用中的说明文件，请按 h 。
+
+语法：
+
+more [options] <file>...
+
+参数：
+
+`-c`, `--print-over` - *do not scroll, display text and clean line ends*
+
+`-p`, `--clean-print` - *do not scroll, clean screen and display text*
+
+`-n`, `--lines <number>` - *the number of lines per screenful*
+
+`-h`, `--help` - *display this help*
+
+`-V`, `--version` - *display version*
+
+用法：
+
+1. http://www.runoob.com/linux/linux-comm-more.html - *Linux more命令 | 菜鸟教程*
+2. https://wangchujiang.com/linux-command/c/more.html - *more 命令，Linux more 命令详解：显示文件内容，每次显示一屏 - Linux 命令搜索引擎*
 
 示例：
 
@@ -1666,16 +2119,32 @@ https://en.wikipedia.org/wiki/Util-linux - *util-linux - Wikipedia*
 
 参考：
 
-1. http://www.runoob.com/linux/linux-comm-more.html - *Linux more命令 | 菜鸟教程*
-2. https://wangchujiang.com/linux-command/c/more.html - *more 命令，Linux more 命令详解：显示文件内容，每次显示一屏 - Linux 命令搜索引擎*
-3. https://blog.csdn.net/K346K346/article/details/102922934 - *more(1) command_linux more命令 跳到最后一行-CSDN博客*
-4. https://worktile.com/kb/ask/504184.html - *linux命令more怎么翻到最后一页 • Worktile社区*
+1. https://blog.csdn.net/K346K346/article/details/102922934 - *more(1) command_linux more命令 跳到最后一行-CSDN博客*
+2. https://worktile.com/kb/ask/504184.html - *linux命令more怎么翻到最后一页 • Worktile社区*
 
-### rename
+#### rename
 
-暂无
+简介：
 
-### whereis
+> Rename files.
+
+语法：
+
+`rename [选项] 表达式 替换的字符 文件...`
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://wangchujiang.com/linux-command/c/rename.html - *rename 命令，Linux rename 命令详解：用字符串替换的方式批量改变文件名 - Linux 命令搜索引擎*
+
+示例：
+
+`rename --version` - *显示帮助文本并退出*
+
+#### whereis
 
 简介：
 
@@ -1705,9 +2174,9 @@ whereis node
 
 `node: /Users/caiyongwen/.nvm/versions/node/v15.14.0/bin/node /Users/caiyongwen/.nvm/versions/node/v15.14.0/share/man/man1/node.1`
 
-## which
-
 ### which
+
+#### which
 
 简介：
 
@@ -1724,20 +2193,6 @@ which [options] [--] COMMAND [...]
 用法：
 
 https://www.runoob.com/linux/linux-comm-which.html - *Linux which命令 | 菜鸟教程*
-
-## procps
-
-简介：
-
-> Utilities that give information about processes using the /proc filesystem
-
-官方：
-
-https://gitlab.com/procps-ng/procps - *procps-ng / procps · GitLab*
-
-### uptime
-
-暂无
 
 ## 常见问题
 
@@ -1778,19 +2233,23 @@ https://www.cnblogs.com/codeking100/p/10306028.html - *mv,rm等命令出现unrec
 
 ### 两条命令一起执行
 
-[linux两条命令一起执行 - 百度](https://www.baidu.com/s?wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C)
+3 种方式：
 
-选项一：分号（`;`）运算符（推荐使用选项二、三）
+1. 分号（`;`）运算符（推荐使用选项二、三）
 
-例：`ls ; pwd ; whoami`
+    例：`ls ; pwd ; whoami`
 
-选项二：逻辑与运算符（`&&`）
+2. 逻辑与运算符（`&&`）
 
-例：`mkdir MyFolder && cd MyFolder`
+    例：`mkdir MyFolder && cd MyFolder`
 
-选项三：逻辑或运算符（`||`）
+3. 逻辑或运算符（`||`）
 
-例：`[ -d ~/MyFolder ] || mkdir ~/MyFolder`
+    例：`[ -d ~/MyFolder ] || mkdir ~/MyFolder`
+
+参考：
+
+1. [linux两条命令一起执行 - 百度](https://www.baidu.com/s?wd=linux%E4%B8%A4%E6%9D%A1%E5%91%BD%E4%BB%A4%E4%B8%80%E8%B5%B7%E6%89%A7%E8%A1%8C)
 
 ### 如何查看命令是内建命令还是外部命令
 
@@ -1839,13 +2298,13 @@ cat -n [FILE]...
 
 1. https://www.cnblogs.com/carey9420/p/12691415.html - *【转载】linux查看文件行号的七种方法 - lucky8492 - 博客园*
 
-### 查找字符串所在行
+### 查找文本所在行
 
 参考：
 
 1. https://blog.csdn.net/Olivia_Vang/article/details/104076272 - *linux查找字符串所在行，输出行号_linux输出关键字所在的文件行-CSDN博客*
 
-### 反转文件的行顺序及字符串的顺序
+### 反转文件的行顺序及文本的顺序
 
 参考：
 

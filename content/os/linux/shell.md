@@ -78,7 +78,7 @@ https://www.zsh.org/ - *Zsh*
 
     https://github.com/ohmyzsh/ohmyzsh - *GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,200+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.*
     
-    ![GitHub last commit](https://badgen.net/github/last-commit/ohmyzsh/ohmyzsh?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ohmyzsh/ohmyzsh?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social)
 
 #### 用法

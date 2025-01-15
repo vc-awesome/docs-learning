@@ -284,9 +284,9 @@ https://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站ap
 
 #### Windows/Android
 
-https://www.yxssp.com/ - *异星软件空间 | 感受不一样的精彩体验！* `破解, Windows`
+1. https://www.yxssp.com/ - *异星软件空间 | 感受不一样的精彩体验！* `破解, Windows`
 
-https://www.lan-sha.com/ - *蓝鲨 - 让您在互联网的海洋里自由的遨游！* `破解, Windows`
+2. https://www.lan-sha.com/ - *蓝鲨 - 让您在互联网的海洋里自由的遨游！* `破解, Windows`
 
 #### macOS
 
@@ -347,6 +347,10 @@ Emojj  | 含义
     6. https://www.reddit.com/r/MacCrack/ 🔮
 
 2. 0day 组织
+
+#### Android
+
+1. [APKGODY.COM - Your #1 Source for MOD APK Downloads on Android](https://apkgody.com/) - *APKGODY.COM is your go-to destination for a wide range of APK, MOD APK, and Premium APK games and applications. Whether you&#039;re looking for popular games, useful applications, or premium features unlocked, APKGODY.COM has you covered. All downloads are offered completely free of charge and are guaranteed to be safe for your device. Explore our extensive collection and enhance your mobile experience today!*
 
 ### 绿色软件
 

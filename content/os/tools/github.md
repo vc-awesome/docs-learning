@@ -75,7 +75,7 @@ https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/m
 
 1. https://github.com/markgoodyear/markgoodyear.github.io - *Source for my personal site.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/markgoodyear/markgoodyear.github.io?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/markgoodyear/markgoodyear.github.io?color=blue&logo=github)
 
 2. https://github.com/GitHubDaily/GitHubDaily - *坚持分享 GitHub 上高质量、有趣实用的开源技术教程、开发者工具、编程网站、技术资讯。A list cool, interesting projects of GitHub.*
 
@@ -86,7 +86,7 @@ https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/m
 
 👍 https://github.com/AntBranch/awesome-github - *A curated list of awesome GitHub guides, articles, sites, tools, projects and resources. 收集这个列表，只是为了更好地使用GitHub,欢迎提交pr和issue。*
 
-![GitHub last commit](https://badgen.net/github/last-commit/AntBranch/awesome-github?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/AntBranch/awesome-github?color=blue&logo=github)
 
 参考：
 
@@ -175,7 +175,7 @@ https://docs.github.com/zh/communities/documenting-your-project-with-wikis/about
 
 https://github.com/Yikun/hub-mirror-action - *一个Github Action，用于在Github和Gitee之间同步代码。Action for mirroring repos between Hubs (like Github and Gitee).*
 
-![GitHub last commit](https://badgen.net/github/last-commit/Yikun/hub-mirror-action?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/Yikun/hub-mirror-action?color=blue&logo=github)
 
 http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html - *GitHub Actions 入门教程*
 
@@ -193,7 +193,7 @@ http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html 
 
 1. https://github.com/hackjutsu/Lepton - *💻 Democratizing Snippet Management (macOS/Win/Linux)*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/hackjutsu/Lepton?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/hackjutsu/Lepton?color=blue&logo=github)
 
 FAQ：
 
@@ -287,6 +287,20 @@ https://github.com/cli/cli - *GitHub - cli/cli: GitHub’s official command line
 https://cli.github.com/ - *GitHub CLI | Take GitHub to the command line*
 
 https://docs.github.com/zh/github-cli - *GitHub CLI - GitHub Docs*
+
+
+#### GitHub.dev
+
+> The github.dev web-based editor is a lightweight editing experience that runs entirely in your browser. You can navigate files and source code repositories from GitHub, and make and commit code changes.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/github/dev?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/github/dev?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/github/dev?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/github/dev?style=social)
+
+https://github.com/github/dev - *GitHub - github/dev: Press the . key on any repo*
+
+https://microsoft.github.io/workshop-library/short/intro-github-dev/ - *Introduction to GitHub with GitHub.dev | Ready-to-use Presentations*
 
 
 #### Electron
@@ -575,7 +589,7 @@ https://github.com/mitmproxy/mitmproxy/blob/main/LICENSE - *mitmproxy/LICENSE at
 
 3. ~~[FastGithub](https://github.com/dotnetcore/FastGithub) - *GitHub - dotnetcore/FastGithub: github加速神器，解决github打不开、用户头像无法加载、releases无法上传下载、git-clone、git-pull、git-push失败等问题*~~
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/dotnetcore/FastGithub?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dotnetcore/FastGithub?color=blue&logo=github)
 
     - 支持 Windows, macOS, Linux
 
