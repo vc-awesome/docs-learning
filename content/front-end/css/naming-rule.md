@@ -13,7 +13,7 @@
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/XiaoMi/hiui?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/XiaoMi/hiui?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/XiaoMi/hiui?style=social)
-    
+
     - `React`
 
 3. https://vant-contrib.gitee.io/vant/#/zh-CN - *Vant 4 - 轻量、可定制的移动端组件库*
@@ -65,31 +65,13 @@
         ![GitHub last commit](https://img.shields.io/github/last-commit/necolas/normalize.css?color=blue&logo=github)
         ![GitHub Repo stars](https://img.shields.io/github/stars/necolas/normalize.css?style=social)
 
-### Bootstrap
-
-https://getbootstrap.com/ - *Bootstrap · The most popular HTML, CSS, and JS library in the world.*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/twbs/bootstrap?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/twbs/bootstrap?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/twbs/bootstrap?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/twbs/bootstrap?style=social)
-
-https://www.bootcss.com/ - *Bootstrap中文网*
-
-- https://v5.bootcss.com/ - *Bootstrap v5 中文文档 · Bootstrap 是全球最受欢迎的 HTML、CSS 和 JS 前端工具库。 | Bootstrap 中文网*
-
-- https://v4.bootcss.com/ - *Bootstrap v4 中文文档 · Bootstrap 是全球最受欢迎的 HTML、CSS 和 JS 框架，用于开发响应式布局、移动设备优先的 WEB 项目。 | Bootstrap 中文网*
-
-- https://v3.bootcss.com/ - *Bootstrap v3 中文文档 · Bootstrap 是最受欢迎的 HTML、CSS 和 JavaScript 框架，用于开发响应式布局、移动设备优先的 WEB 项目。 | Bootstrap 中文网*
-
-
 ### Amaze UI
 
 https://github.com/amazeui/amazeui/ - *Amaze UI, a mobile-first and modular front-end framework.*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/amazeui/amazeui?logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/amazeui/amazeui?logo=github)
-![npm](https://img.shields.io/npm/v/amazeui?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/amazeui?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/amazeui/amazeui?style=social)
 
 https://amazeui.shopxo.net/ - *Amaze UI | 中国首个开源 HTML5 跨屏前端框架*
@@ -100,6 +82,15 @@ https://amazeui.shopxo.net/ - *Amaze UI | 中国首个开源 HTML5 跨屏前端�
 
 - https://amazeui.shopxo.net/widgets/ - *Web 组件 | Amaze UI*
 
+
+### Bootstrap
+
+https://getbootstrap.com/ - *Bootstrap · The most popular HTML, CSS, and JS library in the world.* [使用手册](project/framework/bootstrap.md)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/twbs/bootstrap?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/twbs/bootstrap?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/twbs/bootstrap?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/twbs/bootstrap?style=social)
 
 ## 开发前看
 
@@ -190,11 +181,13 @@ http://amazeui.shopxo.net/css/#class-ming-ming-shuo-ming - *CSS | Amaze UI*
 ![GitHub last commit](https://img.shields.io/github/last-commit/getbem/getbem.github.io?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/getbem/getbem.github.io?style=social)
 
+有关详细信息，请参阅“[BEM](front-end/css/bem.md)”。
+
 ## Layout - *布局*
 
 https://www.ruanyifeng.com/blog/2020/08/five-css-layouts-in-one-line.html - *只要一行代码，实现五种 CSS 经典布局 - 阮一峰的网络日志*
 
-### Container *布局容器*
+### Container 布局容器
 
 > From [Bootstrap v5](https://v5.bootcss.com/docs/layout/containers/)
 
@@ -315,11 +308,11 @@ https://www.ruanyifeng.com/blog/2020/08/five-css-layouts-in-one-line.html - *只
 `.top` `.right` `.center` `.bottom` `.left`
 
 
-### Flex *弹性布局*
+### Flex 弹性布局
 
 有关详细信息，请参阅“[Flex](flex.md)”。
 
-### Grid *网格布局*
+### Grid 网格布局
 
 https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html - *CSS Grid 网格布局教程 - 阮一峰的网络日志*
 
@@ -363,480 +356,65 @@ https://www.ruanyifeng.com/blog/2019/03/grid-layout-tutorial.html - *CSS Grid �
 </div>
 ```
 
-### Position *定位布局*
+### Position 定位布局
 
 https://www.ruanyifeng.com/blog/2019/11/css-position.html - *CSS 定位详解 - 阮一峰的网络日志*
 
-### ~~Table *表格布局*~~
-
-
-## Helpers - *工具*
-
-### Color *颜色*
-
-- 字体色
-
-  <span style="background-color: #5eb95e">#5eb95e</span>
-
-- 边框色
-
-  <span style="background-color: #f0ececa8">#f0ececa8</span>
-
-- bg-背景色
-
-  <span style="background-color: #eaeaea">\#eaeaea</span>
-
-  <span style="background-color: #a7a7a7">\#a7a7a7</span>
-
-  <span style="background-color: #666666">\#666666</span>
-
-  <span style="background-color: #999999">\#999999</span>
-
-  <span style="background-color: #f72e36">\#f72e36</span>
-
-> From [uViewUI](https://www.uviewui.com/components/color.html)
-
-- 颜色类型
-  - -primary 蓝色 <span style="color: #3c9cff">#3c9cff</span>
-  - -success 绿色 <span style="color: #5ac725">#5ac725</span>
-  - -error 红色 <span style="color: #f56c6c">#f56c6c</span>
-  - -warning 黄色 <span style="color: #f9ae3d">#f9ae3d</span>
-  - -info 灰色 <span style="color: #909399">#909399</span>
-
-- 颜色状态
-  - -primary 常规颜色 <span style="color: #3c9cff">#3c9cff</span>
-  - -primary-dark 加深颜色 <span style="color: #398ade">#398ade</span>
-  - -primary-disabled 稍浅颜色 <span style="color: #9acafc">#9acafc</span>
-  - -primary-light 变浅颜色 <span style="color: #ecf5ff">#ecf5ff</span>
-
-
-### Border *边框*
-
-> From Bootstrap https://v5.bootcss.com/docs/utilities/borders/
-
-- **Additive/ 加法**
-  - `.border{border: 1 solid #dee2e6 !important;}`
-  - `.border-top{border-top: 1px solid #dee2e6 !important;}`
-  - `.border-right{border-right: 1px solid #dee2e6 !important;}`
-  - `.border-bottom{border-bottom: 1px solid #dee2e6 !important;}`
-  - `.border-left{border-left: 1px solid #dee2e6 !important;}`
-
-- **Subtractive/ 减法**
-  - `.border-0{border: 0 !important;}`
-  - `.border-top-0{border-top: 0 !important;}`
-  - `.border-right-0{border-right: 0 !important;}`
-  - `.border-bottom-0{border-bottom: 0 !important;}`
-  - `.border-left-0{border-left: 0 !important;}`
-
-- **Border-color**
-  - `.border-primary{border-color: rgba(13,110,253,1)) !important;}`
-  - -border-secondary
-  - -border-success
-  - -border-danger
-  - -border-warning
-  - -border-info
-  - -border-light
-  - -border-dark
-  - -border-white
-
-- **Border-radius**
-  - `.rounded{border-radius: 0.375rem !important;}`
-  - `.rounded-top{border-top-left-radius: 0.375rem !important;border-top-right-radius: 0.375rem !important;}`
-  - -rounded-right
-  - -rounded-bottom
-  - -rounded-left
-  - `.rounded-circle{border-radius: 50% !important;}`
-  - `.rounded-pill{border-radius: 50rem !important;}`
-  - `.rounded-0{border-radius: 0 !important;}`
-  - `.rounded-1{border-radius: 0.25rem !important;}`
-  - `.rounded-2{border-radius: 0.375rem !important;}`
-  - `.rounded-3{border-radius: 0.5rem !important;}`
-  - `.rounded-4{border-radius: 1rem !important;}`
-  - `.rounded-5{border-radius: 2rem !important;}`
-
-- **Sizes**
-  - -rounded-sm
-  - -rounded-lg
-
-> From [Amaze UI](http://amazeui.shopxo.net/css/)
-
-`-border-vertical` 垂直方向边框
-
-```css
-.border {
-    border: 1px solid #dee2e6!important;
-}
-.border-top {
-    border-top: 1px solid #dee2e6!important;
-}
-.border-right {
-    border-right: 1px solid #dee2e6!important;
-}
-.border-bottom {
-    border-bottom: 1px solid #dee2e6!important;
-}
-.border-left {
-    border-left: 1px solid #dee2e6!important;
-}
-.border-0 {
-    border: 0!important;
-}
-.border-top-0 {
-    border-top: 0!important;
-}
-.border-right-0 {
-    border-right: 0!important;
-}
-.border-bottom-0 {
-    border-bottom: 0!important;
-}
-.border-left-0 {
-    border-left: 0!important;
-}
-.border-primary {
-    border-color: #007bff!important;
-}
-.border-secondary {
-    border-color: #6c757d!important;
-}
-.border-success {
-    border-color: #28a745!important;
-}
-.border-danger {
-    border-color: #dc3545!important;
-}
-.border-warning {
-    border-color: #ffc107!important;
-}
-.border-info {
-    border-color: #17a2b8!important;
-}
-.border-light {
-    border-color: #f8f9fa!important;
-}
-.border-dark {
-    border-color: #343a40!important;
-}
-.border-white {
-    border-color: #fff!important;
-}
-.am-square {
-    border-radius: 0
-}
-.am-radius {
-    border-radius: 2px
-}
-.am-round {
-    border-radius: 1000px
-}
-.am-circle {
-    border-radius: 50%
-}
-```
-
-
-### Text *文本*
-
-> From Bootstrap https://v5.bootcss.com/docs/utilities/text/
-
-- 对齐方式
-  - `.text-left{text-align: left !important;}`
-  - `.text-center{text-align: center !important;}`
-  - `.text-right{text-align: right !important;}`
-  - -text-justify
-  - -text-nowrap
-
-- 文字颜色
-  - -text-muted <span style="color:#777">#777</span>
-  - -text-white <span style="background-color: #000;color:#fff">#fff</span>
-  - -text-primary <span style="color:#337ab7">#337ab7</span>
-  - -text-secondary
-  - -text-success <span style="color:#3c763d">#3c763d</span>
-  - -text-warning <span style="color:#8a6d3b">#8a6d3b</span>
-  - -text-danger <span style="color:#31708f">#31708f</span>
-  - -text-info <span style="color:#31708f">#31708f</span>
-  - -text-reset inherit
-  - `.text-black{color: rgba(0,0,0,1) !important;}`
-  - `.text-white{color: rgba(255,255,255,1) !important;}`
-  - `.text-black-50{color: rgba(0,0,0,.5) !important;}`
-  - `.text-white-50{color: rgba(255,255,255,.5) !important;}`
-
-- 改变大小写
-  - `.text-lowercase{text-transform: lowercase !important;}`
-  - `.text-uppercase{text-transform: uppercase !important;}`
-  - `.text-capitalize{text-transform: capitalize !important;}`
-
-- 单词中断
-
-  ```css
-  -text-break {
-      word-break: break-word!important;
-      word-wrap: break-word!important;
-  }
-  ```
-
-- 字体粗细和斜体
-
-  ```css
-  -font-weight-bold {
-      font-weight: 700!important;
-  }
-  -font-weight-bolder {
-      font-weight: bolder!important;
-  }
-  -font-weight-normal {
-      font-weight: 400!important;
-  }
-  -font-weight-light {
-      font-weight: 300!important;
-  }
-  -font-weight-lighter {
-      font-weight: lighter!important;
-  }
-  -font-italic {
-      font-style: italic!important;
-  }
-  ```
-
-- 重置颜色
-
-  - `.text-reset {color: inherit !important;}`
-
-- 文本装饰
-
-  - 下划线：`.text-decoration-underline {text-decoration: underline !important;}`
-  - 删除线：`.text-decoration-line-through {text-decoration: line-through !important;}`
-  - 移除文本装饰：`.text-decoration-none {text-decoration: none !important;}`
-
-> From [Amaze UI](http://amazeui.shopxo.net/css/utility/#wen-ben-gong-ju)
-
-- 文字大小
-  - -text-xs 12px 1rem
-  - -text-sm 14px 1.25rem
-  - -text-default 16px 1.5rem
-  - -text-lg 18px 1.75rem
-  - -text-xl 24px 2rem
-  - -text-xxl 32px 2.5rem
-  - -text-xxxl 42px
-
-- 文字换行及截断 - *via Amazeui*
-
-  ```css
-  -text-truncate {
-      overflow: hidden;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-  }
-  ```
-
-- 禁止文字换行
-  - -text-nowrap
-
-    ```css
-    .text-nowrap {
-        white-space: nowrap!important;
-    }
-    ```
-
-
-### Typography *文字*
-
-> From [MUI](https://www.dcloud.io/hellomui/examples/typography.html)
-
-```css
-h1 {
-    font-size: 36px;
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-h2 {
-    font-size: 30px;
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-h3 {
-    font-size: 24px;
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-h4 {
-    font-size: 18px;
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-h5 {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-h6 {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 1;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-```
-
-
-### Background *背景*
-
-- 水平或垂直平铺（设置背景图像是否及如何重复）
-
-  - `background-repeat: no-repeat;`
-
-- 设置背景图像的起始位置
-
-  - `background-position: center;`
-
-  - `background-size: cover;`
-
-- 背景图像是否固定或者随着页面的其余部分滚动
-
-  - `background-attachment: fixed;`
-
-- 简写属性（[可参考菜鸟教程](https://www.runoob.com/css/css-background.html)）（[可参考MDN Web Docs](https://developer.mozilla.org/zh-CN/docs/Web/CSS/background)）
-
-  - `body {background:#ffffff url('img_tree.png') no-repeat right top;}`
-
-
-#### 背景色
-
-> From Bootstrap https://v5.bootcss.com/docs/utilities/background/
-
-- -bg-primary  
-    <span style="color: #fff;background-color: #337ab7;">color: #fff;background-color: #337ab7;</span>
-- -bg-success  
-    <span style="background-color: #dff0d8;">background-color: #dff0d8;</span>
-- -bg-info  
-    <span style="background-color: #d9edf7;">background-color: #d9edf7;</span>
-- -bg-warning  
-    <span style="background-color: #fcf8e3;">background-color: #fcf8e3;</span>
-- -bg-danger  
-    <span style="background-color: #f2dede;">background-color: #f2dede;</span>
-- -bg-light  
-    <span style="background-color: #f8f9fa!important;">background-color: #f8f9fa!important;</span>
-- -bg-white  
-    <span style="background-color: #fff!important;">background-color: #fff!important;</span>
-
-
-#### 渐变背景色
-
-- -bg-gradient-primary
-- -bg-gradient-secondary
-- -bg-gradient-success
-- -bg-gradient-danger
-- -bg-gradient-warning
-- -bg-gradient-info
-- -bg-gradient-light
-- -bg-gradient-dark
-
-
-#### 背景大小
-
-- -bg-xxs
-- -bg-xs
-- -bg-sm
-- -bg-default
-- -bg-lg
-- -bg-xl
-- -bg-xxl
-- -bg-xxxl
-
-
-#### 背景图
-
-- 页面背景容器（整个网页面的容器，防止页面滚动、不同设备打开出现的补白情况）
-
-  ```css
-  -bg-i-page-container {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      z-index: -1;
-  }
-  -bg-i-page-container img {
-      width: 100%;
-      height: 100%;
-  }
-  ```
-
-  例子：
-
-  ```css
-  -bg-i-share {
-      background: rgb(48, 118, 206) url("assets/i/background/bg-i-share.png") center/cover no-repeat;
-  }
-  ```
-
-- 页面背景
-  - -bg-i-page-primary {}
-
-- 元素背景
-  - -bg-i-box-primary {}
-
-- 背景图形状命名
-  - 圆形 circle / round
-  - 正方形 square
-  - 长方形 rectangle
-
-- 背景图色系命名
-  - 深色 dark
-  - 浅色 light
-
-
-### Horizontal Rules *水平线*
-
-> From [Bootstrap v5](https://v5.bootcss.com/docs/5.3/content/reboot/#horizontal-rules)
-
-```css
-hr {
-  margin: 1rem 0;
-  color: inherit;
-  border: 0;
-  border-top: 1px solid;
-  opacity: .25;
-}
-```
-
-
-### Vertical Rule *垂直线*
-
-> From [Bootstrap v5](https://v5.bootcss.com/docs/5.3/helpers/vertical-rule)
-
-```css
-.vr {
-  display: inline-block;
-  align-self: stretch;
-  width: 1px;
-  min-height: 1em;
-  background-color: currentcolor;
-  opacity: .25;
-}
-```
+### ~~Table 表格布局~~
 
 
 ## Components - *组件*
 
-### Jumbotron 巨幕
+### Accordion 折叠面板
 
-> From [Bootstrap v3](https://v3.bootcss.com/components/#jumbotron)
+> From [Amaze UI](https://amazeui.shopxo.net/javascript/collapse/)
+
+
+
+> From [Bootstrap v5](https://v5.bootcss.com/docs/components/accordion/)
+
+- accordion [ accordion-flush ]
+  - accordion-item
+    - accordion-header
+      - accordion-button
+    - accordion-collapse
+      - accordion-body
+
+
+### Avatar 头像
+
+#### Shape 形状
 
 ```css
--jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  background-color: #e9ecef;
-  border-radius: .3rem;
+-avatar-circle {
+    border-radius: 50%;
 }
+
+-avatar-square {
+    border-radius: 4px;
+}
+```
+
+
+#### Size 大小
+
+-avatar-xl 50px*50px
+
+-avatar-large 40px*40px 默认
+
+-avatar-medium 36px*36px
+
+-avatar-small 28px*28px
+
+```css
+-avatar {
+    width: 70px;
+    height: 70px;
+}
+```
+
+```html
+<img src="assets/i/avatar.png" alt="" class="ev-avatar ev-avatar-circle">
 ```
 
 
@@ -905,175 +483,92 @@ hr {
 ```
 
 
-### Icon 图标
+### Button 按钮
 
-> From [Amaze UI](https://amazeui.shopxo.net/css/icon/)
+有关详细信息，请参阅“[Button](front-end/css/button.md)”。
 
-- 图片 icon
-  - `-img-icon`
 
----
+### Cell 单元格
 
-- 块状居中
-  - `-icon-center` [标签：i]
-
----
-
-- 尺寸大小
-  - `-icon-sm` [标签：i]
-  - `-icon-md` [标签：i]
-  - `-icon-lg` [标签：i]
-
----
-
-- 图片文件及样式命名
-  - `-icon-home` 实心图标（选中）
-  - `-icon-home-o` 空心图标（未选中）
-  - 或
-  - `-icon-home-line` 线性图标（未选中）
-  - `-icon-home-fill` 填充图标（选中）
-
----
-
-- 图片命名
-  - `icon-home-ingots` 元宝
-  - `icon-home-upgrade` 升级
-  - `icon-home-packet` 红包
-  - `icon-home-oil` 加油
-  - `icon-home-car` 打车
-  - `icon-home-tour` 旅游
-  - `icon-home-mall` 商城
-  - `icon-ft-home` 首页
-  - `icon-ft-home-checked` 首页（选中）
-  - `icon-ft-task` 任务
-  - `icon-ft-task-checked` 任务（选中）
-  - `icon-ft-asset` 理财
-  - `icon-ft-asset-checked` 理财（选中）
-  - `icon-ft-trade` 交易
-  - `icon-ft-trade-checked` 交易（选中）
-  - `icon-ft-me` 我的
-  - `icon-ft-me-checked` 我的（选中）
-  - `icon-me-payment` 支付方式
-  - `icon-me-message` 消息中心
-  - `icon-me-share` 分享
-  - `icon-me-team` 团队
-  - `icon-me-integral` 积分
-  - `icon-me-service` 客服
-  - `icon-me-exit` 退出
-  - `icon-me-realname` 实名认证
-  - `icon-auth-processing` 认证审核中
-  - `icon-auth-passed` 认证审核通过
-  - `icon-me-bank-o` 银行卡
-  - `icon-me-profile-o` 个人信息
-  - `icon-me-setting-o` 设置
+- `-cell-group`
+  - `-cell`
+  - `-cell-clickable` 单元格点击后的样式
+  - `-cell-center` 垂直居中
+    - `-cell-title` 标题
+    - `-cell-value` 值
+    - `-cell-left-icon` 左 icon
+    - `-cell-right-icon` 右 icon
+      - `-cell-label` 描述信息
 
 ```css
-/* icon 图标 */
-[class*=ev-icon-]:before {
-    content: "";
-    display: inline-block;
-    width: 1.4rem;
-    height: 1.4rem;
-    font: normal normal normal 1.6rem/1 FontAwesome,sans-serif;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-transform: translate(0,0);
-    -ms-transform: translate(0,0);
-    transform: translate(0,0);
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+-cell-clickable {
+    cursor: pointer
 }
-.ev-icon-user-o:before {
-    background-image: url("../i/icon/icon-user-o.png");
-}
-.ev-icon-lock-o:before {
-    background-image: url("../i/icon/icon-lock-o.png");
-}
-.ev-icon-home-o:before {
-    background-image: url("../i/icon/icon-home-o.png");
-}
-.ev-icon-asset-o:before {
-    background-image: url("../i/icon/icon-asset-o.png");
-}
-.ev-icon-me-o:before {
-    background-image: url("../i/icon/icon-me-o.png");
-}
-/* 选中状态图标 */
-.ev-icon-home:before,
-.am-active .ev-icon-home-o:before {
-    background-image: url("../i/icon/icon-home.png");
-}
-.ev-icon-asset:before,
-.am-active .ev-icon-asset-o:before {
-    background-image: url("../i/icon/icon-asset.png");
-}
-.ev-icon-me:before,
-.am-active .ev-icon-me-o:before {
-    background-image: url("../i/icon/icon-me.png");
-}
-/* 块状居中图标 */
-.ev-icon-center:before {
-    display: block;
-    margin: 0 auto;
-}
-/* 图标大小 */
-/* 普通字体的 150% */
-.ev-icon-sm:before {
-    width: 2.1rem;
-    height: 2.1rem;
-}
-/* 普通字体的 200% */
-.ev-icon-md:before {
-    width: 2.8rem;
-    height: 2.8rem;
-}
-/* 普通字体的 250% */
-.ev-icon-lg:before {
-    width: 3.5rem;
-    height: 3.5rem;
+-cell-clickable:active {
+    background-color: #f2f3f5
 }
 ```
 
+> From [Vant](https://vant-contrib.gitee.io/vant/#/zh-CN/cell)
 
-### Accordion 折叠面板
+基础用法：
 
-> From [Amaze UI](https://amazeui.shopxo.net/javascript/collapse/)
+- vant-cell-group
+  - vant-cell
+    - vant-cell__title
+      - van-cell__label
+    - vant-cell__value
 
+```html
+<div class="van-cell-group">
+  <div class="van-cell">
+    <div class="van-cell__title"><span>单元格</span></div>
+    <div class="van-cell__value"><span>内容</span></div>
+  </div>
+  <div class="van-cell">
+    <div class="van-cell__title"><span>单元格</span>
+      <div class="van-cell__label">描述信息</div>
+    </div>
+    <div class="van-cell__value"><span>内容</span></div>
+  </div>
+</div>
+```
 
+单元格大小：
 
-> From [Bootstrap v5](https://v5.bootcss.com/docs/components/accordion/)
+- vant-cell van-cell--large
+  - vant-cell__title
+    - van-cell__label
+  - vant-cell__value
 
-- accordion [ accordion-flush ]
-  - accordion-item
-    - accordion-header
-      - accordion-button
-    - accordion-collapse
-      - accordion-body
+```html
+<div>
+  <div class="van-cell van-cell--large">
+    <div class="van-cell__title"><span>单元格</span></div>
+    <div class="van-cell__value"><span>内容</span></div>
+  </div>
+  <div class="van-cell van-cell--large">
+    <div class="van-cell__title"><span>单元格</span><div class="van-cell__label">描述信息</div></div>
+    <div class="van-cell__value"><span>内容</span></div>
+  </div>
+</div>
+```
 
+展示图标：
 
-### Modal 模态窗口
+- vant-cell
+  - vant-cell__left-icon
+  - vant-cell__title
+    - van-cell__label
+  - vant-cell__value
 
-> From [Amaze UI](https://amazeui.shopxo.net/javascript/modal/)
-
-- `-modal`
-  - `-modal-dialog`
-    - `-modal-hd`
-    - `-modal-bd`
-    - `-modal-footer`
-      - `-modal-btn`
-
-> From [Bootstrap v5](https://v5.bootcss.com/docs/components/modal/)
-
-- modal
-  - modal-dialog [ modal-dialog-scrollable modal-dialog-centered modal-sm modal-lg modal-xl modal-fullscreen ]
-    - modal-content
-      - modal-header
-        - modal-title
-      - modal-body
-      - modal-footer
+```html
+<div class="van-cell">
+  <i class="van-badge__wrapper van-icon van-icon-location-o van-cell__left-icon"></i>
+  <div class="van-cell__title"><span>单元格</span></div>
+  <div class="van-cell__value"><span>内容</span></div>
+</div>
+```
 
 
 ### Form 表单
@@ -1353,6 +848,209 @@ body, button, input, select, textarea {
 }
 ```
 
+
+### Icon 图标
+
+> From [Amaze UI](https://amazeui.shopxo.net/css/icon/)
+
+- 图片 icon
+  - `-img-icon`
+
+---
+
+- 块状居中
+  - `-icon-center` [标签：i]
+
+---
+
+- 尺寸大小
+  - `-icon-sm` [标签：i]
+  - `-icon-md` [标签：i]
+  - `-icon-lg` [标签：i]
+
+---
+
+- 图片文件及样式命名
+  - `-icon-home` 实心图标（选中）
+  - `-icon-home-o` 空心图标（未选中）
+  - 或
+  - `-icon-home-line` 线性图标（未选中）
+  - `-icon-home-fill` 填充图标（选中）
+
+---
+
+- 图片命名
+  - `icon-home-ingots` 元宝
+  - `icon-home-upgrade` 升级
+  - `icon-home-packet` 红包
+  - `icon-home-oil` 加油
+  - `icon-home-car` 打车
+  - `icon-home-tour` 旅游
+  - `icon-home-mall` 商城
+  - `icon-ft-home` 首页
+  - `icon-ft-home-checked` 首页（选中）
+  - `icon-ft-task` 任务
+  - `icon-ft-task-checked` 任务（选中）
+  - `icon-ft-asset` 理财
+  - `icon-ft-asset-checked` 理财（选中）
+  - `icon-ft-trade` 交易
+  - `icon-ft-trade-checked` 交易（选中）
+  - `icon-ft-me` 我的
+  - `icon-ft-me-checked` 我的（选中）
+  - `icon-me-payment` 支付方式
+  - `icon-me-message` 消息中心
+  - `icon-me-share` 分享
+  - `icon-me-team` 团队
+  - `icon-me-integral` 积分
+  - `icon-me-service` 客服
+  - `icon-me-exit` 退出
+  - `icon-me-realname` 实名认证
+  - `icon-auth-processing` 认证审核中
+  - `icon-auth-passed` 认证审核通过
+  - `icon-me-bank-o` 银行卡
+  - `icon-me-profile-o` 个人信息
+  - `icon-me-setting-o` 设置
+
+```css
+/* icon 图标 */
+[class*=ev-icon-]:before {
+    content: "";
+    display: inline-block;
+    width: 1.4rem;
+    height: 1.4rem;
+    font: normal normal normal 1.6rem/1 FontAwesome,sans-serif;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ev-icon-user-o:before {
+    background-image: url("../i/icon/icon-user-o.png");
+}
+.ev-icon-lock-o:before {
+    background-image: url("../i/icon/icon-lock-o.png");
+}
+.ev-icon-home-o:before {
+    background-image: url("../i/icon/icon-home-o.png");
+}
+.ev-icon-asset-o:before {
+    background-image: url("../i/icon/icon-asset-o.png");
+}
+.ev-icon-me-o:before {
+    background-image: url("../i/icon/icon-me-o.png");
+}
+/* 选中状态图标 */
+.ev-icon-home:before,
+.am-active .ev-icon-home-o:before {
+    background-image: url("../i/icon/icon-home.png");
+}
+.ev-icon-asset:before,
+.am-active .ev-icon-asset-o:before {
+    background-image: url("../i/icon/icon-asset.png");
+}
+.ev-icon-me:before,
+.am-active .ev-icon-me-o:before {
+    background-image: url("../i/icon/icon-me.png");
+}
+/* 块状居中图标 */
+.ev-icon-center:before {
+    display: block;
+    margin: 0 auto;
+}
+/* 图标大小 */
+/* 普通字体的 150% */
+.ev-icon-sm:before {
+    width: 2.1rem;
+    height: 2.1rem;
+}
+/* 普通字体的 200% */
+.ev-icon-md:before {
+    width: 2.8rem;
+    height: 2.8rem;
+}
+/* 普通字体的 250% */
+.ev-icon-lg:before {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+```
+
+
+### Jumbotron 巨幕
+
+> From [Bootstrap v3](https://v3.bootcss.com/components/#jumbotron)
+
+```css
+-jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: .3rem;
+}
+```
+
+
+### List 列表
+
+html 标签
+
+ul > li 无序列表
+
+ol > li 有序列表
+
+dl > dt > dd
+
+list-main 列表主体内容
+
+  - list-news 内容列表 / list-news-default 内容列表样式
+
+    - list-news-hd 列表标题
+
+    - list-news-bd 列表内容
+
+    - list-news-ft 列表底部
+
+> From [Amaze UI](https://amazeui.shopxo.net/css/list/)
+
+```html
+<ul class="am-list">
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+```
+
+> From [Vant 4](https://vant-contrib.gitee.io/vant/#/zh-CN/list)
+
+
+### Modal 模态窗口
+
+> From [Amaze UI](https://amazeui.shopxo.net/javascript/modal/)
+
+- `-modal`
+  - `-modal-dialog`
+    - `-modal-hd`
+    - `-modal-bd`
+    - `-modal-footer`
+      - `-modal-btn`
+
+> From [Bootstrap v5](https://v5.bootcss.com/docs/components/modal/)
+
+- modal
+  - modal-dialog [ modal-dialog-scrollable modal-dialog-centered modal-sm modal-lg modal-xl modal-fullscreen ]
+    - modal-content
+      - modal-header
+        - modal-title
+      - modal-body
+      - modal-footer
+
+
 ### Table 表格
 
 tabs 选项卡
@@ -1458,162 +1156,337 @@ HTML
 ```
 
 
-### List 列表
+## Helpers - *工具*
 
-html 标签
+### Background 背景
 
-ul > li 无序列表
-
-ol > li 有序列表
-
-dl > dt > dd
-
-list-main 列表主体内容
-
-  - list-news 内容列表 / list-news-default 内容列表样式
-
-    - list-news-hd 列表标题
-
-    - list-news-bd 列表内容
-
-    - list-news-ft 列表底部
-
-> From [Amaze UI](https://amazeui.shopxo.net/css/list/)
-
-```html
-<ul class="am-list">
-  <li></li>
-  <li></li>
-  <li></li>
-</ul>
-```
-
-> From [Vant 4](https://vant-contrib.gitee.io/vant/#/zh-CN/list)
+有关详细信息，请参阅“[Background](front-end/css/background.md)”。
 
 
-### Cell 单元格
+### Border 边框
 
-- `-cell-group`
-  - `-cell`
-  - `-cell-clickable` 单元格点击后的样式
-  - `-cell-center` 垂直居中
-    - `-cell-title` 标题
-    - `-cell-value` 值
-    - `-cell-left-icon` 左 icon
-    - `-cell-right-icon` 右 icon
-      - `-cell-label` 描述信息
+> From Bootstrap https://v5.bootcss.com/docs/utilities/borders/
 
-```css
--cell-clickable {
-    cursor: pointer
-}
--cell-clickable:active {
-    background-color: #f2f3f5
-}
-```
+- **Additive/ 加法**
+  - `.border{border: 1 solid #dee2e6 !important;}`
+  - `.border-top{border-top: 1px solid #dee2e6 !important;}`
+  - `.border-right{border-right: 1px solid #dee2e6 !important;}`
+  - `.border-bottom{border-bottom: 1px solid #dee2e6 !important;}`
+  - `.border-left{border-left: 1px solid #dee2e6 !important;}`
 
-> From [Vant](https://vant-contrib.gitee.io/vant/#/zh-CN/cell)
+- **Subtractive/ 减法**
+  - `.border-0{border: 0 !important;}`
+  - `.border-top-0{border-top: 0 !important;}`
+  - `.border-right-0{border-right: 0 !important;}`
+  - `.border-bottom-0{border-bottom: 0 !important;}`
+  - `.border-left-0{border-left: 0 !important;}`
 
-基础用法：
+- **Border-color**
+  - `.border-primary{border-color: rgba(13,110,253,1)) !important;}`
+  - -border-secondary
+  - -border-success
+  - -border-danger
+  - -border-warning
+  - -border-info
+  - -border-light
+  - -border-dark
+  - -border-white
 
-- vant-cell-group
-  - vant-cell
-    - vant-cell__title
-      - van-cell__label
-    - vant-cell__value
+- **Border-radius**
+  - `.rounded{border-radius: 0.375rem !important;}`
+  - `.rounded-top{border-top-left-radius: 0.375rem !important;border-top-right-radius: 0.375rem !important;}`
+  - -rounded-right
+  - -rounded-bottom
+  - -rounded-left
+  - `.rounded-circle{border-radius: 50% !important;}`
+  - `.rounded-pill{border-radius: 50rem !important;}`
+  - `.rounded-0{border-radius: 0 !important;}`
+  - `.rounded-1{border-radius: 0.25rem !important;}`
+  - `.rounded-2{border-radius: 0.375rem !important;}`
+  - `.rounded-3{border-radius: 0.5rem !important;}`
+  - `.rounded-4{border-radius: 1rem !important;}`
+  - `.rounded-5{border-radius: 2rem !important;}`
 
-```html
-<div class="van-cell-group">
-  <div class="van-cell">
-    <div class="van-cell__title"><span>单元格</span></div>
-    <div class="van-cell__value"><span>内容</span></div>
-  </div>
-  <div class="van-cell">
-    <div class="van-cell__title"><span>单元格</span>
-      <div class="van-cell__label">描述信息</div>
-    </div>
-    <div class="van-cell__value"><span>内容</span></div>
-  </div>
-</div>
-```
+- **Sizes**
+  - -rounded-sm
+  - -rounded-lg
 
-单元格大小：
+> From [Amaze UI](http://amazeui.shopxo.net/css/)
 
-- vant-cell van-cell--large
-  - vant-cell__title
-    - van-cell__label
-  - vant-cell__value
-
-```html
-<div>
-  <div class="van-cell van-cell--large">
-    <div class="van-cell__title"><span>单元格</span></div>
-    <div class="van-cell__value"><span>内容</span></div>
-  </div>
-  <div class="van-cell van-cell--large">
-    <div class="van-cell__title"><span>单元格</span><div class="van-cell__label">描述信息</div></div>
-    <div class="van-cell__value"><span>内容</span></div>
-  </div>
-</div>
-```
-
-展示图标：
-
-- vant-cell
-  - vant-cell__left-icon
-  - vant-cell__title
-    - van-cell__label
-  - vant-cell__value
-
-```html
-<div class="van-cell">
-  <i class="van-badge__wrapper van-icon van-icon-location-o van-cell__left-icon"></i>
-  <div class="van-cell__title"><span>单元格</span></div>
-  <div class="van-cell__value"><span>内容</span></div>
-</div>
-```
-
-
-### Button 按钮
-
-### Avatar 头像
-
-#### Shape 形状
+`-border-vertical` 垂直方向边框
 
 ```css
--avatar-circle {
-    border-radius: 50%;
+.border {
+    border: 1px solid #dee2e6!important;
 }
-
--avatar-square {
-    border-radius: 4px;
+.border-top {
+    border-top: 1px solid #dee2e6!important;
+}
+.border-right {
+    border-right: 1px solid #dee2e6!important;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+.border-left {
+    border-left: 1px solid #dee2e6!important;
+}
+.border-0 {
+    border: 0!important;
+}
+.border-top-0 {
+    border-top: 0!important;
+}
+.border-right-0 {
+    border-right: 0!important;
+}
+.border-bottom-0 {
+    border-bottom: 0!important;
+}
+.border-left-0 {
+    border-left: 0!important;
+}
+.border-primary {
+    border-color: #007bff!important;
+}
+.border-secondary {
+    border-color: #6c757d!important;
+}
+.border-success {
+    border-color: #28a745!important;
+}
+.border-danger {
+    border-color: #dc3545!important;
+}
+.border-warning {
+    border-color: #ffc107!important;
+}
+.border-info {
+    border-color: #17a2b8!important;
+}
+.border-light {
+    border-color: #f8f9fa!important;
+}
+.border-dark {
+    border-color: #343a40!important;
+}
+.border-white {
+    border-color: #fff!important;
+}
+.am-square {
+    border-radius: 0
+}
+.am-radius {
+    border-radius: 2px
+}
+.am-round {
+    border-radius: 1000px
+}
+.am-circle {
+    border-radius: 50%
 }
 ```
 
 
-#### Size 大小
+### Color 颜色
 
--avatar-xl 50px*50px
+有关详细信息，请参阅“[Color](front-end/css/color.md)”。
 
--avatar-large 40px*40px 默认
 
--avatar-medium 36px*36px
+### Horizontal Rules 水平线
 
--avatar-small 28px*28px
+> From [Bootstrap v5](https://v5.bootcss.com/docs/5.3/content/reboot/#horizontal-rules)
 
 ```css
--avatar {
-    width: 70px;
-    height: 70px;
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: .25;
 }
 ```
 
-```html
-<img src="assets/i/avatar.png" alt="" class="ev-avatar ev-avatar-circle">
+
+### Text 文本
+
+有关详细信息，请参阅“[Text](front-end/css/text.md)”。
+
+
+### Typography 排版
+
+> From [MUI](https://www.dcloud.io/hellomui/examples/typography.html)
+
+```css
+h1 {
+    font-size: 36px;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h2 {
+    font-size: 30px;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h3 {
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h4 {
+    font-size: 18px;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h5 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h6 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+```
+
+
+### Vertical Rule 垂直线
+
+> From [Bootstrap v5](https://v5.bootcss.com/docs/5.3/helpers/vertical-rule)
+
+```css
+.vr {
+  display: inline-block;
+  align-self: stretch;
+  width: 1px;
+  min-height: 1em;
+  background-color: currentcolor;
+  opacity: .25;
+}
 ```
 
 
 ## Utilities - *辅助类*
+
+### Position 定位
+
+> From [Bootstrap v5](https://v5.bootcss.com/docs/helpers/position/)
+
+- -position-static
+- -position-relative
+- -position-absolute
+- -position-fixed
+- -position-sticky
+- -fixed-top
+- -fixed-bottom
+- -sticky-top
+
+```css
+.position-static {
+    position: static!important
+}
+.position-relative {
+    position: relative!important
+}
+.position-absolute {
+    position: absolute!important
+}
+.position-fixed {
+    position: fixed!important
+}
+.position-sticky {
+    position: -webkit-sticky!important;
+    position: sticky!important
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030
+}
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030
+}
+@supports ((position: -webkit-sticky) or (position:sticky)) {
+    .sticky-top {
+        position:-webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1020
+    }
+}
+```
+
+
+### Sizing 宽高
+
+> From Bootstrap https://v5.bootcss.com/docs/utilities/sizing/ - *尺寸（Sizing） · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
+
+```css
+.w-25 {
+    width: 25% !important;
+}
+.w-50 {
+    width: 50% !important;
+}
+.w-75 {
+    width: 75% !important;
+}
+.w-100 {
+    width: 100% !important;
+}
+.w-auto {
+    width: auto !important;
+}
+.mw-100 {
+    max-width: 100% !important;
+}
+.vw-100 {
+  width: 100vw !important;
+}
+.min-vw-100 {
+  min-width: 100vw !important;
+}
+.h-25 {
+    height: 25% !important;
+}
+.h-50 {
+    height: 50% !important;
+}
+.h-75 {
+    height: 75% !important;
+}
+.h-100 {
+    height: 100% !important;
+}
+.h-auto {
+    height: auto !important;
+}
+.mh-100 {
+    max-height: 100% !important;
+}
+.vh-100 {
+  height: 100vh !important;
+}
+.min-vh-100 {
+  min-height: 100vh !important;
+}
+```
+
 
 ### Spacing 内外边距
 
@@ -1689,117 +1562,6 @@ list-main 列表主体内容
 ```
 
 
-### Sizing 宽高
-
-> From Bootstrap https://v5.bootcss.com/docs/utilities/sizing/ - *尺寸（Sizing） · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
-
-```css
-.w-25 {
-    width: 25% !important;
-}
-.w-50 {
-    width: 50% !important;
-}
-.w-75 {
-    width: 75% !important;
-}
-.w-100 {
-    width: 100% !important;
-}
-.w-auto {
-    width: auto !important;
-}
-.mw-100 {
-    max-width: 100% !important;
-}
-.vw-100 {
-  width: 100vw !important;
-}
-.min-vw-100 {
-  min-width: 100vw !important;
-}
-.h-25 {
-    height: 25% !important;
-}
-.h-50 {
-    height: 50% !important;
-}
-.h-75 {
-    height: 75% !important;
-}
-.h-100 {
-    height: 100% !important;
-}
-.h-auto {
-    height: auto !important;
-}
-.mh-100 {
-    max-height: 100% !important;
-}
-.vh-100 {
-  height: 100vh !important;
-}
-.min-vh-100 {
-  min-height: 100vh !important;
-}
-```
-
-
-### Position 定位
-
-> From [Bootstrap v5](https://v5.bootcss.com/docs/helpers/position/)
-
-- -position-static
-- -position-relative
-- -position-absolute
-- -position-fixed
-- -position-sticky
-- -fixed-top
-- -fixed-bottom
-- -sticky-top
-
-```css
-.position-static {
-    position: static!important
-}
-.position-relative {
-    position: relative!important
-}
-.position-absolute {
-    position: absolute!important
-}
-.position-fixed {
-    position: fixed!important
-}
-.position-sticky {
-    position: -webkit-sticky!important;
-    position: sticky!important
-}
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030
-}
-.fixed-bottom {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1030
-}
-@supports ((position: -webkit-sticky) or (position:sticky)) {
-    .sticky-top {
-        position:-webkit-sticky;
-        position: sticky;
-        top: 0;
-        z-index: 1020
-    }
-}
-```
-
-
 ### 屏幕识读器
 
 > From [Bootstrap v4](https://v4.bootcss.com/docs/utilities/screen-readers/)
@@ -1831,6 +1593,247 @@ list-main 列表主体内容
 
 ## Templates - *模板*
 
+### Banner 轮播图
+
+![banner](./_images/banner.png)
+
+```html
+<div class="ev-slider-container ev-bg-gradient-primary">
+  <div class="am-slider am-slider-default" data-am-flexslider id="demo-slider-0">
+    <ul class="am-slides">
+      <li><img src="assets/i/banner-radius.png" alt=""/></li>
+      <li><img src="assets/i/banner-square.png" alt=""/></li>
+      <li><img src="assets/i/banner-square.png" alt=""/></li>
+      <li><img src="assets/i/banner-square.png" alt=""/></li>
+    </ul>
+  </div>
+</div>
+```
+
+```css
+.ev-slider-container {
+    padding: 0 20px;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+.ev-slider-container>.am-slider-default {
+    -webkit-transform: translateY(15px);
+    transform: translateY(15px);
+}
+.ev-slider-container>.am-slider-default .am-control-nav {
+    bottom: 5px;
+}
+.ev-slider-container>.am-slider-default .am-control-nav li a {
+    background-color: rgba(255, 255, 255, .4);
+}
+.ev-slider-container>.am-slider-default .am-control-nav li a.am-active {
+    background-color: #fff;
+}
+.ev-slider-container>.am-slider-default, .ev-slider-container>.am-slider-default .am-viewport {
+    background-color: transparent;
+    border-radius: 10px;
+}
+```
+
+
+### Card 卡片
+
+- card-group / card-deck
+    - card
+        - card-header
+
+---
+
+- card-group / card-deck
+    - card
+        - card-body
+            - card-title / card-subtitle / card-text / card-link
+
+---
+
+- card-group / card-deck
+    - card
+        - card-img-overlay
+
+---
+
+- -card-group/-card-deck
+    - -card
+        - -card-img
+            - -card-img-top `<img>`
+        - -card-header
+        - -card-content / -card-body / -card-img-overlay
+            - -card-title
+                - -card-subtitle 副标题
+                - -card-text
+                - -card-link
+        - -card-footer
+
+
+> From Bootstrap
+
+```css
+.card-img-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.25rem;
+}
+```
+
+
+### Cell 单元格列表
+
+![cell](./_images/cell.png)
+
+```html
+<div class="ev-cell-group">
+  <div class="ev-cell ev-cell-clickable">
+    <i class="ev-icon-message-o ev-icon-sm ev-cell-left-icon"></i>
+    <div class="ev-cell-title">消息中心</div>
+    <div class="ev-cell-value"></div>
+    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
+  </div>
+  <div class="ev-cell ev-cell-clickable">
+    <i class="ev-icon-bank-o ev-icon-sm ev-cell-left-icon"></i>
+    <div class="ev-cell-title">绑定银行卡</div>
+    <div class="ev-cell-value"></div>
+    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
+  </div>
+  <div class="ev-cell ev-cell-clickable">
+    <i class="ev-icon-profile-o ev-icon-sm ev-cell-left-icon"></i>
+    <div class="ev-cell-title">个人信息</div>
+    <div class="ev-cell-value"></div>
+    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
+  </div>
+  <div class="ev-cell ev-cell-clickable">
+    <i class="ev-icon-setting-o ev-icon-sm ev-cell-left-icon"></i>
+    <div class="ev-cell-title">账号设置</div>
+    <div class="ev-cell-value"></div>
+    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
+  </div>
+</div>
+```
+
+```css
+.ev-cell-group {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.ev-cell {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 16px;
+    overflow: hidden;
+    color: #323233;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+}
+.ev-cell::after {
+    position: absolute;
+    box-sizing: border-box;
+    content:' ';
+    pointer-events: none;
+    right: 16px;
+    bottom: 0;
+    left: 16px;
+    border-bottom: 1px solid #ebedf0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.ev-cell-title, .ev-cell-value {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.ev-cell-left-icon, .ev-cell-right-icon {
+    /*min-width: 1em;*/
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ev-cell-left-icon {
+    margin-right: 12px;
+}
+.ev-cell-right-icon {
+    margin-left: 4px;
+    color: #969799;
+}
+.ev-cell-clickable {
+    cursor: pointer
+}
+.ev-cell-clickable:active {
+    background-color: #f2f3f5
+}
+```
+
+
+#### 单元格按钮
+
+![cell-button](./_images/cell-button.png)
+
+```html
+<div class="am-margin-top">
+  <div class="ev-cell ev-cell-radius ev-cell-center">
+    <i class="am-icon-circle ev-text-secondary am-margin-right-sm"></i>
+    <div class="ev-cell-title">本金：10,000.00</div>
+    <div class="ev-cell-value ev-cell-btn">
+      <a href="#" class="am-btn ev-btn-info am-btn-xs">明细</a>
+    </div>
+  </div>
+  <div class="ev-cell ev-cell-radius ev-cell-center am-margin-top-sm">
+    <i class="am-icon-circle ev-text-secondary am-margin-right-sm"></i>
+    <div class="ev-cell-title">余额：94.70</div>
+    <div class="ev-cell-value ev-cell-btn">
+      <a href="#" class="am-btn ev-btn-info am-btn-xs">出金</a>
+    </div>
+  </div>
+</div>
+```
+
+```css
+.ev-cell-btn {
+    margin: -10px -16px -10px 0;
+}
+.ev-cell-btn .am-btn {
+    padding: 16px 26px;
+}
+```
+
+
+### DropdownMenu 下拉菜单
+
+`-dropdown`
+
+> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/dropdown-menu)
+
+
+### Empty 空状态
+
+> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/empty)
+
+- -empty
+  - -empty-image
+  - -empty-description 描述文字
+  - -empty-bottom 底部内容，如返回、跳转按钮等
+
+
+### Menu 菜单栏
+
+html 标签
+
+`<nav></nav>`
+
+
 ### NavBar 顶部导航栏
 
 > From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/nav-bar)
@@ -1842,90 +1845,52 @@ html 标签
 `<header></header>`
 
 
-### TabBar 底部选项卡
+### NoticeBar 通知栏
 
-html 标签
+> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/notice-bar)
 
-`<footer></footer>`
+- -notice-bar
+    - -notice-bar-title
 
-![tabbar](./_images/tabbar.png)
+![notice-bar](./_images/notice-bar.png)
 
 ```html
-<footer class="ev-tabbar">
-  <ul class="am-avg-sm-3">
-    <li>
-      <a href="">
-        <i class="ev-icon-home-o ev-icon-sm ev-icon-center"></i>
-        <span>首页</span>
-      </a>
-    </li>
-    <li>
-      <a href="">
-        <i class="ev-icon-asset-o ev-icon-sm ev-icon-center"></i>
-        <span>理财</span>
-      </a>
-    </li>
-    <li class="am-active">
-      <a href="">
-        <i class="ev-icon-me-o ev-icon-sm ev-icon-center"></i>
-        <span>我的</span>
-      </a>
-    </li>
-  </ul>
-</footer>
+<div class="ev-notice-bar am-margin-vertical-lg">
+  <h3 class="ev-notice-bar-title">公告通知</h3>
+  <van-notice-bar left-icon="volume-o" :scrollable="false">
+    <van-swipe
+        vertical
+        class="notice-swipe"
+        :autoplay="3000"
+        :show-indicators="false"
+    >
+      <van-swipe-item>上海隍金资产管理有限公司</van-swipe-item>
+      <van-swipe-item>上海隍金资产管理有限公司</van-swipe-item>
+      <van-swipe-item>上海隍金资产管理有限公司</van-swipe-item>
+    </van-swipe>
+  </van-notice-bar>
+</div>
 ```
 
 ```css
-.ev-tabbar {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    /*height: 75px;*/
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+.ev-notice-bar-title {
+    padding-left: 12px;
+    margin-bottom: 10px;
+    border-left: 3px solid #3076ce;
+}
+.ev-notice-bar .van-notice-bar {
+    color: #000;
+    border-radius: 10px;
     background-color: #fff;
 }
-.ev-tabbar>ul>li>a {
-    display: block;
-    padding: .5em;
+.ev-notice-bar .van-swipe-item>a {
+    color: inherit;
 }
-.ev-tabbar>ul>li>a>span {
-    font-size: 1.4rem;
-    color: #e7e7e7;
-}
-.ev-tabbar>ul>li.am-active>a>span {
-    color: #3076ce;
+.notice-swipe {
+    height: 40px;
+    line-height: 40px;
 }
 ```
-
-
-#### 底部标签栏
-
-```css
--tabbar {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
-    width: 100%;
-    height: 75px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    background-color: #fff;
-}
-```
-
-
-### Menu 菜单栏
-
-html 标签
-
-`<nav></nav>`
 
 
 ### Profile 个人信息
@@ -2057,203 +2022,6 @@ html 标签
 ```
 
 
-### Card 卡片
-
-- card-group / card-deck
-    - card
-        - card-header
-
----
-
-- card-group / card-deck
-    - card
-        - card-body
-            - card-title / card-subtitle / card-text / card-link
-
----
-
-- card-group / card-deck
-    - card
-        - card-img-overlay
-
----
-
-- -card-group/-card-deck
-    - -card
-        - -card-img
-            - -card-img-top `<img>`
-        - -card-header
-        - -card-content / -card-body / -card-img-overlay
-            - -card-title
-                - -card-subtitle 副标题
-                - -card-text
-                - -card-link
-        - -card-footer
-
-
-> From Bootstrap
-
-```css
-.card-img-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1.25rem;
-}
-```
-
-
-### DropdownMenu 下拉菜单
-
-`-dropdown`
-
-> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/dropdown-menu)
-
-### Tab 标签页
-
-> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/tab) / Amaze UI
-
-`-tabs`
-
-
-### Empty 空状态
-
-> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/empty)
-
-- -empty
-  - -empty-image
-  - -empty-description 描述文字
-  - -empty-bottom 底部内容，如返回、跳转按钮等
-
-
-### Cell 单元格列表
-
-![cell](./_images/cell.png)
-
-```html
-<div class="ev-cell-group">
-  <div class="ev-cell ev-cell-clickable">
-    <i class="ev-icon-message-o ev-icon-sm ev-cell-left-icon"></i>
-    <div class="ev-cell-title">消息中心</div>
-    <div class="ev-cell-value"></div>
-    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
-  </div>
-  <div class="ev-cell ev-cell-clickable">
-    <i class="ev-icon-bank-o ev-icon-sm ev-cell-left-icon"></i>
-    <div class="ev-cell-title">绑定银行卡</div>
-    <div class="ev-cell-value"></div>
-    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
-  </div>
-  <div class="ev-cell ev-cell-clickable">
-    <i class="ev-icon-profile-o ev-icon-sm ev-cell-left-icon"></i>
-    <div class="ev-cell-title">个人信息</div>
-    <div class="ev-cell-value"></div>
-    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
-  </div>
-  <div class="ev-cell ev-cell-clickable">
-    <i class="ev-icon-setting-o ev-icon-sm ev-cell-left-icon"></i>
-    <div class="ev-cell-title">账号设置</div>
-    <div class="ev-cell-value"></div>
-    <i class="am-icon-angle-right am-icon-sm ev-cell-right-icon"></i>
-  </div>
-</div>
-```
-
-```css
-.ev-cell-group {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-radius: 10px;
-    background-color: #fff;
-}
-.ev-cell {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: flex;
-    box-sizing: border-box;
-    width: 100%;
-    padding: 10px 16px;
-    overflow: hidden;
-    color: #323233;
-    font-size: 14px;
-    line-height: 24px;
-    background-color: #fff;
-}
-.ev-cell::after {
-    position: absolute;
-    box-sizing: border-box;
-    content:' ';
-    pointer-events: none;
-    right: 16px;
-    bottom: 0;
-    left: 16px;
-    border-bottom: 1px solid #ebedf0;
-    -webkit-transform: scaleY(0.5);
-    transform: scaleY(0.5);
-}
-.ev-cell-title, .ev-cell-value {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    flex: 1;
-}
-.ev-cell-left-icon, .ev-cell-right-icon {
-    /*min-width: 1em;*/
-    height: 24px;
-    font-size: 16px;
-    line-height: 24px;
-}
-.ev-cell-left-icon {
-    margin-right: 12px;
-}
-.ev-cell-right-icon {
-    margin-left: 4px;
-    color: #969799;
-}
-.ev-cell-clickable {
-    cursor: pointer
-}
-.ev-cell-clickable:active {
-    background-color: #f2f3f5
-}
-```
-
-
-#### 单元格按钮
-
-![cell-button](./_images/cell-button.png)
-
-```html
-<div class="am-margin-top">
-  <div class="ev-cell ev-cell-radius ev-cell-center">
-    <i class="am-icon-circle ev-text-secondary am-margin-right-sm"></i>
-    <div class="ev-cell-title">本金：10,000.00</div>
-    <div class="ev-cell-value ev-cell-btn">
-      <a href="#" class="am-btn ev-btn-info am-btn-xs">明细</a>
-    </div>
-  </div>
-  <div class="ev-cell ev-cell-radius ev-cell-center am-margin-top-sm">
-    <i class="am-icon-circle ev-text-secondary am-margin-right-sm"></i>
-    <div class="ev-cell-title">余额：94.70</div>
-    <div class="ev-cell-value ev-cell-btn">
-      <a href="#" class="am-btn ev-btn-info am-btn-xs">出金</a>
-    </div>
-  </div>
-</div>
-```
-
-```css
-.ev-cell-btn {
-    margin: -10px -16px -10px 0;
-}
-.ev-cell-btn .am-btn {
-    padding: 16px 26px;
-}
-```
-
-
 ### Share 分享邀请好友
 
 - -share-card
@@ -2299,97 +2067,6 @@ html 标签
 .ev-share-qrcode img {
     width: 151px;
     height: 151px;
-}
-```
-
-
-### Banner 轮播图
-
-![banner](./_images/banner.png)
-
-```html
-<div class="ev-slider-container ev-bg-gradient-primary">
-  <div class="am-slider am-slider-default" data-am-flexslider id="demo-slider-0">
-    <ul class="am-slides">
-      <li><img src="assets/i/banner-radius.png" alt=""/></li>
-      <li><img src="assets/i/banner-square.png" alt=""/></li>
-      <li><img src="assets/i/banner-square.png" alt=""/></li>
-      <li><img src="assets/i/banner-square.png" alt=""/></li>
-    </ul>
-  </div>
-</div>
-```
-
-```css
-.ev-slider-container {
-    padding: 0 20px;
-    margin-left: -1rem;
-    margin-right: -1rem;
-}
-.ev-slider-container>.am-slider-default {
-    -webkit-transform: translateY(15px);
-    transform: translateY(15px);
-}
-.ev-slider-container>.am-slider-default .am-control-nav {
-    bottom: 5px;
-}
-.ev-slider-container>.am-slider-default .am-control-nav li a {
-    background-color: rgba(255, 255, 255, .4);
-}
-.ev-slider-container>.am-slider-default .am-control-nav li a.am-active {
-    background-color: #fff;
-}
-.ev-slider-container>.am-slider-default, .ev-slider-container>.am-slider-default .am-viewport {
-    background-color: transparent;
-    border-radius: 10px;
-}
-```
-
-
-### NoticeBar 通知栏
-
-> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/notice-bar)
-
-- -notice-bar
-    - -notice-bar-title
-
-![notice-bar](./_images/notice-bar.png)
-
-```html
-<div class="ev-notice-bar am-margin-vertical-lg">
-  <h3 class="ev-notice-bar-title">公告通知</h3>
-  <van-notice-bar left-icon="volume-o" :scrollable="false">
-    <van-swipe
-        vertical
-        class="notice-swipe"
-        :autoplay="3000"
-        :show-indicators="false"
-    >
-      <van-swipe-item>上海隍金资产管理有限公司</van-swipe-item>
-      <van-swipe-item>上海隍金资产管理有限公司</van-swipe-item>
-      <van-swipe-item>上海隍金资产管理有限公司</van-swipe-item>
-    </van-swipe>
-  </van-notice-bar>
-</div>
-```
-
-```css
-.ev-notice-bar-title {
-    padding-left: 12px;
-    margin-bottom: 10px;
-    border-left: 3px solid #3076ce;
-}
-.ev-notice-bar .van-notice-bar {
-    color: #000;
-    border-radius: 10px;
-    background-color: #fff;
-}
-.ev-notice-bar .van-swipe-item>a {
-    color: inherit;
-}
-.notice-swipe {
-    height: 40px;
-    line-height: 40px;
 }
 ```
 
@@ -2447,6 +2124,92 @@ html 标签
 -record-inc 收入
 
 -record-dec 支出
+
+
+### Tab 标签页
+
+> From [Vant v4](https://vant-ui.github.io/vant/#/zh-CN/tab) / Amaze UI
+
+`-tabs`
+
+
+### TabBar 底部选项卡
+
+html 标签
+
+`<footer></footer>`
+
+![tabbar](./_images/tabbar.png)
+
+```html
+<footer class="ev-tabbar">
+  <ul class="am-avg-sm-3">
+    <li>
+      <a href="">
+        <i class="ev-icon-home-o ev-icon-sm ev-icon-center"></i>
+        <span>首页</span>
+      </a>
+    </li>
+    <li>
+      <a href="">
+        <i class="ev-icon-asset-o ev-icon-sm ev-icon-center"></i>
+        <span>理财</span>
+      </a>
+    </li>
+    <li class="am-active">
+      <a href="">
+        <i class="ev-icon-me-o ev-icon-sm ev-icon-center"></i>
+        <span>我的</span>
+      </a>
+    </li>
+  </ul>
+</footer>
+```
+
+```css
+.ev-tabbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    /*height: 75px;*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
+}
+.ev-tabbar>ul>li>a {
+    display: block;
+    padding: .5em;
+}
+.ev-tabbar>ul>li>a>span {
+    font-size: 1.4rem;
+    color: #e7e7e7;
+}
+.ev-tabbar>ul>li.am-active>a>span {
+    color: #3076ce;
+}
+```
+
+
+#### 底部标签栏
+
+```css
+-tabbar {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #fff;
+}
+```
 
 
 ## 重写规则
@@ -2721,7 +2484,7 @@ margin: 0 auto;
 
 ### input 占位符 placeholder 文本样式
 
-Input placeholder 属性样式设置
+input placeholder 属性样式设置
 
 ```css
 /* WebKit browsers */
@@ -2729,18 +2492,21 @@ Input placeholder 属性样式设置
   color: #30d0a1!important;
   font-size: 16px!important;
 }
+
 /* Mozilla Firefox 4 to 18 */
 input:-moz-placeholder {
   color: #30d0a1!important;
   opacity: 1!important;
   font-size: 16px!important;
 }
+
 /* Mozilla Firefox 19+ */
 input::-moz-placeholder {
   color: #30d0a1!important;
   opacity: 1!important;
   font-size: 16px!important;
 }
+
 /* Internet Explorer 10+ */
 :-ms-input-placeholder {
   color: #30d0a1!important;
@@ -2818,71 +2584,6 @@ https://www.cnblogs.com/hcxwd/p/9232936.html - *css3 placeholder字体颜色大�
 使用后：
 
 ![transform-after](./_images/transform-after.png)
-
-
-### 文本内容不自动换行
-
-> 使用链接中的内容样式
-
-<https://v4.bootcss.com/docs/utilities/text/#文字折行和溢出>
-
-white-space 用法：https://www.runoob.com/cssref/pr-text-white-space.html - *CSS white-space 属性 | 菜鸟教程*
-
-```css
-/* 文字折行 */
-.text-wrap {
-    white-space: normal!important;
-}
-```
-
-```css
-/* 防止文字折行 */
-.text-nowrap {
-    white-space: nowrap!important;
-}
-```
-
-<https://v4.bootcss.com/docs/utilities/text/#单词中断>
-
-word-break 用法：https://www.runoob.com/cssref/css3-pr-word-break.html - *CSS3 word-break 属性 | 菜鸟教程*
-
-word-wrap 用法：https://www.runoob.com/cssref/css3-pr-word-wrap.html - *CSS3 word-wrap 属性 | 菜鸟教程*
-
-```css
-.text-break {
-    word-break: break-word!important;
-    word-wrap: break-word!important;
-}
-```
-
-默认效果：
-
-<p>mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
-
-设置后的效果：
-
-<p style="
-    word-break: break-word !important;
-    word-wrap: break-word !important;
-">mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm</p>
-
-```css
-.text-break {
-    word-break: break-all!important;
-    word-wrap: break-word!important;
-}
-```
-
-默认效果：
-
-<p>Some placeholder text to demonstrate justified text alignment. Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
-
-设置后的效果：
-
-<p style="
-    word-break: break-all!important;
-    word-wrap: break-word!important;
-">Some placeholder text to demonstrate justified text alignment. Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
 
 
 ### 禁止蒙版下的页面滚动

@@ -83,23 +83,23 @@ https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - 
 
 ## 公共 DNS
 
-| 序号 | 服务商 | DNS（IPv4 首选） | DNS（IPv4 备用） | DoH | DoT | 地址 | 文档 |
-| --- | --- | --- | --- | --- | --- |
-| 1 | 谷歌 | `8.8.8.8` | `8.8.4.4` | `https://dns.google/dns-query` | `tls://dns.google` | [官方链接](https://developers.google.com/speed/public-dns) | |
-| 2  | 百度 | `180.76.76.76` | `2400:da00::6666` | | | [官方链接](http://dudns.baidu.com/) | |
-| 3 | 114 | `114.114.114.114` | `114.114.115.115` | | | [官方链接](https://www.114dns.com/) | |
-| 4 | 腾讯 | `119.29.29.29` | `119.28.28.28` | | `dot.pub` | [官方链接](https://www.dnspod.com/) | [配置文档](https://www.dnspod.cn/Products/publicdns)
-| 5 | 阿里 👏 | `223.5.5.5` | `223.6.6.6` | `https://dns.alidns.com/dns-query`, `dns.alidns.com` | | [官方链接](https://www.alidns.com/) | [配置文档](https://www.alidns.com/knowledge?type=SETTING_DOCS) |
-| 6 | 360 👏 | `101.226.4.6` | `218.30.118.6` | `doh.360.cn` | | [官方链接](https://sdns.360.net/) | [配置文档](https://sdns.360.net/dnsPublic.html) |
-| 7 | 微软 | `4.2.2.1` | `4.2.2.2` | | | | |
-| 8 | Cloudflare | `1.1.1.1` | `1.0.0.1` | `https://dns.cloudflare.com/dns-query` | | [官方链接](https://1.1.1.1/) | |
-| 9 | 电信 DNS  | `202.103.44.150` | `202.103.0.68` | | | | |
-| 10 | 移动 DNS  | `211.137.58.20` | `211.137.64.163` | | | | |
-| 11 | 联通 DNS  | `211.95.1.97` | | | | | |
-| 12 | Quad101 | `101.101.101.101` | `101.102.103.104` | | | [官方链接](https://101.101.101.101/) | |
-| 13 | AdGuard 👏 | `94.140.14.140` | `94.140.14.141` | `https://94.140.14.140/dns-query` |  | [官方链接](https://adguard-dns.io/zh_cn/welcome.html) | [配置文档](https://adguard-dns.io/zh_cn/public-dns.html) |
-| 14 | TUNA DNS666 | `101.6.6.6` | `2001:da8::666` | | | [官方链接](https://tuna.moe/help/dns/) | |
-| 15 | RethinkDNS 👏 |  |  | `https://basic.rethinkdns.com/` | `tls://max.rethinkdns.com` | [官方链接](https://www.rethinkdns.com/) | |
+序号 | 服务商 | DNS（IPv4 首选） | DNS（IPv4 备用） | DoH | DoT | 地址 | 文档
+--- | --- | --- | --- | --- | --- | --- | ---
+1 | 谷歌 | `8.8.8.8` | `8.8.4.4` | `https://dns.google/dns-query` | `tls://dns.google` | [官方链接](https://developers.google.com/speed/public-dns) | -
+2  | 百度 | `180.76.76.76` | `2400:da00::6666` | - | - | [官方链接](http://dudns.baidu.com/) | -
+3 | 114 | `114.114.114.114` | `114.114.115.115` | - | - | [官方链接](https://www.114dns.com/) | -
+4 | 腾讯 | `119.29.29.29` | `119.28.28.28` | - | `dot.pub` | [官方链接](https://www.dnspod.com/) | [配置文档](https://www.dnspod.cn/Products/publicdns)
+5 | 阿里 👏 | `223.5.5.5` | `223.6.6.6` | `https://dns.alidns.com/dns-query`, `dns.alidns.com` | - | [官方链接](https://www.alidns.com/) | [配置文档](https://www.alidns.com/knowledge?type=SETTING_DOCS)
+6 | 360 👏 | `101.226.4.6` | `218.30.118.6` | `doh.360.cn` | - | [官方链接](https://sdns.360.net/) | [配置文档](https://sdns.360.net/dnsPublic.html)
+7 | 微软 | `4.2.2.1` | `4.2.2.2` | - | - | - | -
+8 | Cloudflare | `1.1.1.1` | `1.0.0.1` | `https://dns.cloudflare.com/dns-query` | - | [官方链接](https://1.1.1.1/) | -
+9 | 电信 DNS  | `202.103.44.150` | `202.103.0.68` | - | - | - | -
+10 | 移动 DNS  | `211.137.58.20` | `211.137.64.163` | - | - | - | -
+11 | 联通 DNS  | `211.95.1.97` | - | - | - | - | -
+12 | Quad101 | `101.101.101.101` | `101.102.103.104` | - | - | [官方链接](https://101.101.101.101/) | -
+13 | AdGuard 👏 | `94.140.14.140` | `94.140.14.141` | `https://94.140.14.140/dns-query` | - | [官方链接](https://adguard-dns.io/zh_cn/welcome.html) | [配置文档](https://adguard-dns.io/zh_cn/public-dns.html)
+14 | TUNA DNS666 | `101.6.6.6` | `2001:da8::666` | - | - | [官方链接](https://tuna.moe/help/dns/) | -
+15 | RethinkDNS 👏 | - | - | `https://basic.rethinkdns.com/` | `tls://max.rethinkdns.com` | [官方链接](https://www.rethinkdns.com/) | -
 
 参考：
 

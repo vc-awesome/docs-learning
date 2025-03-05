@@ -129,6 +129,8 @@ https://www.runoob.com/charsets/emoji-skin-tones.html  - *Emoji 肤色 | 菜鸟�
 
 #### UTF-16
 
+暂无
+
 ## 用法
 
 ### HTML 符号实体
@@ -193,9 +195,9 @@ a:after {
 
 2. https://www.cnblogs.com/grootbaby/p/13827867.html - *HTML特殊字符编码对照表 - 格鲁特baby - 博客园*
 
-3. https://www.cnblogs.com/grootbaby/p/13827869.html - *HTML特殊字符编码对照表 —— （一） - 格鲁特baby - 博客园*
+    1. https://www.cnblogs.com/grootbaby/p/13827869.html - *HTML特殊字符编码对照表 —— （一） - 格鲁特baby - 博客园*
 
-4. https://www.cnblogs.com/grootbaby/p/13827868.html - *HTML特殊字符编码对照表 —— （二） - 格鲁特baby - 博客园*
+    2. https://www.cnblogs.com/grootbaby/p/13827868.html - *HTML特殊字符编码对照表 —— （二） - 格鲁特baby - 博客园*
 
 ### 文本编码
 
@@ -208,3 +210,8 @@ https://support.microsoft.com/zh-cn/office/在打开和保存文件时选择文�
 2. https://blog.csdn.net/SimonSucks/article/details/106112069 - *Linux查看文件编码格式_linux 查看文件编码格式-CSDN博客*
 
 3. https://jingyan.baidu.com/article/375c8e198ce21564f3a22934.html - *win10怎么查看文本文件编码格式-百度经验*
+
+## 工具
+
+https://www.amp-what.com/ - *Discover Unicode Character Entities & Symbols | AmpWhat* \
+\> _via https://ndpsoftware.com/git-cheatsheet.html - *NDP Software :: Git Cheatsheet*_

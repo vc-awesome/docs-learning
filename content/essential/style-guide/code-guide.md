@@ -40,6 +40,21 @@
         ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZoomZhao/code-guide?logo=github)
         ![GitHub Repo stars](https://img.shields.io/github/stars/ZoomZhao/code-guide?style=social)
 
+#### HTML 属性排序
+
+1. https://codeguide.bootcss.com/#html-attribute-order
+2. https://www.wanghao.me/html-cssshuxingshunxuheguize.html - *Html/CSS 属性顺序和规则 - 小王子*
+
+#### HTML 属性自动换行
+
+1. https://blog.csdn.net/hsj1669666567/article/details/120991547 - *VSCode 设置 HTML 属性自动换行_阿阿阿阿阿阿杰的博客 - CSDN 博客*
+
+#### CSS 声明排序
+
+[CSS 声明排序](https://www.ecosia.org/search?q=css样式排序&addon=firefox)
+- https://juejin.cn/post/6946098917339561998 - *stylelint配置样式自动排序 - 掘金*
+- https://codeguide.bootcss.com/#css-declaration-order
+
 ### CSS
 
 1. https://github.com/airbnb/css - *GitHub - airbnb/css: A mostly reasonable approach to CSS and Sass.*
@@ -64,10 +79,17 @@
     ![GitHub last commit](https://img.shields.io/github/last-commit/airbnb/javascript?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/airbnb/javascript?style=social)
 
-4. https://github.com/rwaldron/idiomatic.js - *idiomatic.js/translations/zh_CN at master · rwaldron/idiomatic.js · GitHub*
+4. https://github.com/rwaldron/idiomatic.js - *GitHub - rwaldron/idiomatic.js: Principles of Writing Consistent, Idiomatic JavaScript*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/rwaldron/idiomatic.js?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/rwaldron/idiomatic.js?style=social)
+
+5. https://standardjs.com/ - *JavaScript Standard Style* [GitHub Repo](https://github.com/standard/standard)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/standard/standard?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/standard/standard?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/standard/standard?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/standard/standard?style=social)
 
 ES6：
 
@@ -82,6 +104,11 @@ ES6：
 
 1. https://cn.vuejs.org/style-guide/ - *Style Guide | Vue.js*
 2. https://v2.cn.vuejs.org/v2/style-guide/ - *风格指南 — Vue.js*
+
+#### Vue 属性自动换行
+
+1. https://www.cnblogs.com/Happy-Lu/p/15157133.html - *解决在写 Vue 时，格式化代码 属性自动换行的问题 - Lulingkun - 博客园*
+2. https://blog.csdn.net/zhuxiandan/article/details/104530060 - *VScode 格式化 HTML 代码保持标签属性不换行_volar 属性换行 - CSDN 博客*
 
 ### Java
 
@@ -132,6 +159,8 @@ http://www.ruanyifeng.com/blog/2007/06/camelcase.html - *骆驼拼写法（Camel
 
 ## 注释规范
 
+https://www.jsdelivr.com/package/npm/file-icons-js?tab=files - *file-icons-js CDN by jsDelivr - A CDN for npm and GitHub*
+
 ``` css
 /* 多行
     注释 */
@@ -150,6 +179,19 @@ div {
 
 👆 上述参考：https://www.w3cschool.cn/wematy/wematy-qaru3bsh.html - *CSS 注释规范_w3cschool*
 
+```javascript
+/* **********************************************
+     Begin prism-core.js
+********************************************** */
+
+/// <reference lib="WebWorker"/>
+```
+
+👆 上述参考：
+
+1. https://prismjs.com/ - *Prism*
+2. https://hg.mozilla.org/mozilla-central/file/tip/netwerk/base/nsURLParsers.cpp - *mozilla-central: netwerk/base/nsURLParsers.cpp@0af7a39fb3e13a48ef366fdb2532896cdf7a119f*
+
 ``` javascript
 // 自定义内容 - start
 /**
@@ -165,22 +207,6 @@ div {
  
 // 自定义内容 - end
 ```
-
-### PHPDoc
-
-> Documentation Generator for PHP
-
-![GitHub last commit](https://img.shields.io/github/last-commit/phpDocumentor/phpDocumentor?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/phpDocumentor/phpDocumentor?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phpDocumentor/phpDocumentor?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/phpDocumentor/phpDocumentor?style=social)
-
-官方：
-
-https://phpdoc.org/ - *Home | phpDocumentor*
-
-https://github.com/phpDocumentor/phpDocumentor - *GitHub - phpDocumentor/phpDocumentor: Documentation Generator for PHP*
-
 
 用法：
 
@@ -259,6 +285,22 @@ https://www.jb51.net/article/137783.htm#_lab2_0_7 - *JAVA开发中的一些规�
    */
   ```
 
+### PHPDoc
+
+> Documentation Generator for PHP
+
+![GitHub last commit](https://img.shields.io/github/last-commit/phpDocumentor/phpDocumentor?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/phpDocumentor/phpDocumentor?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/phpDocumentor/phpDocumentor?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/phpDocumentor/phpDocumentor?style=social)
+
+官方：
+
+https://phpdoc.org/ - *Home | phpDocumentor*
+
+https://github.com/phpDocumentor/phpDocumentor - *GitHub - phpDocumentor/phpDocumentor: Documentation Generator for PHP*
+
+
 参考：
 
 1. https://segmentfault.com/a/1190000005930636 - *PHP注释的艺术——phpDoc规范 - 超能小紫 - SegmentFault 思否*
@@ -286,7 +328,10 @@ https://jsdoc.app/ - *Use JSDoc: Index*
 
 https://github.com/jsdoc/jsdoc - *GitHub - jsdoc/jsdoc: An API documentation generator for JavaScript.*
 
+教程：
+
 https://www.jsdoc.com.cn/ - *JSDoc 入门 | JSDoc中文文档 | JSDoc中文网* [GitHub Repo](https://github.com/yuersen/jsdoc-zh)
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/yuersen/jsdoc-zh?logo=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/yuersen/jsdoc-zh?style=social)
 
@@ -359,9 +404,11 @@ https://github.com/conventional-changelog/commitlint - *GitHub - conventional-ch
 
 ## 规范工具
 
+https://github.com/rwaldron/idiomatic.js#code-quality-tools-resources--references - *GitHub - rwaldron/idiomatic.js: Principles of Writing Consistent, Idiomatic JavaScript*
+
 ### Prettier
 
-暂无
+有关详细信息，请参阅“[Prettier](os/tools/developer/prettier.md)”。
 
 ### ESLint
 
@@ -378,24 +425,3 @@ https://github.com/conventional-changelog/commitlint - *GitHub - conventional-ch
 ### markdownlint
 
 暂无
-
-1. https://standardjs.com/ - *JavaScript Standard Style*
-2. https://github.com/rwaldron/idiomatic.js#code-quality-tools-resources--references - *GitHub - rwaldron/idiomatic.js: Principles of Writing Consistent, Idiomatic JavaScript*
-
-----
-
-1. [CSS 样式排序](https://www.ecosia.org/search?q=css样式排序&addon=firefox)
-    - https://juejin.cn/post/6946098917339561998 - *stylelint配置样式自动排序 - 掘金*
-    - https://codeguide.bootcss.com/#css-declaration-order
-
-2. HTML 属性顺序
-    1. https://codeguide.bootcss.com/#css-declaration-order
-    2. https://www.wanghao.me/html-cssshuxingshunxuheguize.html - *Html/CSS 属性顺序和规则 - 小王子*
-
-3. HTML 属性自动换行
-    1. https://blog.csdn.net/hsj1669666567/article/details/120991547 - *VSCode 设置 HTML 属性自动换行_阿阿阿阿阿阿杰的博客 - CSDN 博客*
-
-4. Vue 属性自动换行
-
-    1. https://www.cnblogs.com/Happy-Lu/p/15157133.html - *解决在写 Vue 时，格式化代码 属性自动换行的问题 - Lulingkun - 博客园*
-    2. https://blog.csdn.net/zhuxiandan/article/details/104530060 - *VScode 格式化 HTML 代码保持标签属性不换行_volar 属性换行 - CSDN 博客*

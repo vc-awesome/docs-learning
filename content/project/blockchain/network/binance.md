@@ -69,11 +69,11 @@ https://docs.binance.org/smart-chain/developer/BEP20.html
 ![GitHub Repo stars](https://img.shields.io/github/stars/pancakeswap/pancake-frontend?style=social)
 ![Static Badge](https://img.shields.io/badge/Tags-DeFi-8A2BE2)
 
-主页：https://pancakeswap.finance/
+主页：https://pancakeswap.finance/ - *Exchange | PancakeSwap*
 
-文档：https://docs.pancakeswap.finance/
+文档：https://docs.pancakeswap.finance/ - *PancakeSwap Intro | PancakeSwap*
 
-GitHub：https://github.com/pancakeswap
+GitHub：https://github.com/pancakeswap - *PancakeSwap · GitHub*
 
 #### API
 

@@ -89,38 +89,54 @@ https://prettier.io/docs/en/options - _Options · Prettier_
 6. HTML Whitespace Sensitivity（HTML 空格敏感度）：\
    _Specify the global whitespace sensitivity for HTML, Vue, Angular, and Handlebars._
    - 选择 > `css`
-7. Insert Pragma（插入杂注）：
+7. Insert Pragma（插入杂注）：\
+   _Insert '@format' pragma into the docblock, if none is present._
    - 不勾选 > `false`
-8. JSX Single Quote（JSX 单引号）：
+8. JSX Single Quote（JSX 单引号）：\
+   _Use single quotes instead of double quotes in JSX._
    - 不勾选 > `false`
-9. Open logs page on error（出错时打开日志页面）：
+9. Open logs page on error（出错时打开日志页面）：\
+   _Open logs page when an error occurs._
    - 勾选 > `true`
-10. Print Width（打印宽度）：
-    - 填写 > `80`
-11. Prose Wrap（散文包装）：
-    - 选择 > `preserve`
-12. Quote Props（引用属性）：
-    - 选择 > `as-needed`
-13. Range End（范围结束）：
-    - 填写 > `Infinity`
-14. Range Start（范围开始）：
-    - 填写 > `0`
-15. Require Pragma（必需杂注）：
-    - 不勾选 > `false`
-16. Semicolons（分号）：
-    - 勾选 > `true`
-17. Single Attribute Per Line（每行单个属性）：
-    - 勾选 > `true`
-18. Single Quote（单引号）：
-    - 勾选 > `true`
-19. Tab Width（制表符宽度）：
-    - 填写 > `2`
-20. Trailing Comma（结尾逗号）：
-    - 选择 > `all`
-21. Use Tabs（使用制表符）：
-    - 不勾选 > `false`
-22. Vue Indent Script And Style（Vue 缩进脚本和样式）：
-    - 不勾选 > `false`
+10. Print Width（打印宽度）：\
+   _The line length where Prettier will try wrap._
+   - 填写 > `80`
+11. Prose Wrap（散文包装）：\
+   _How to wrap prose._
+   - 选择 > `preserve`
+12. Quote Props（引用属性）：\
+   _Change when properties in objects are quoted._
+   - 选择 > `as-needed`
+13. Range End（范围结束）：\
+   _Format only a segment of a file._
+   - 填写 > `Infinity`
+14. Range Start（范围开始）：\
+   _Format only a segment of a file._
+   - 填写 > `0`
+15. Require Pragma（必需杂注）：\
+   _Require either '@prettier' or '@format' to be present in the file's first docblock comment._
+   - 不勾选 > `false`
+16. Semicolons（分号）：\
+   _Print semicolons at the ends of statements._
+   - 勾选 > `true`
+17. Single Attribute Per Line（每行单个属性）：\
+   _Put each attribute in a separate line._
+   - 勾选 > `true`
+18. Single Quote（单引号）：\
+   _Use single quotes instead of double quotes._
+   - 勾选 > `true`
+19. Tab Width（制表符宽度）：\
+   _Number of spaces per indentation level._
+   - 填写 > `2`
+20. Trailing Comma（结尾逗号）：\
+   _Print trailing commas wherever possible._
+   - 选择 > `all`
+21. Use Tabs（使用制表符）：\
+   _Indent lines with tabs instead of spaces._
+   - 不勾选 > `false`
+22. Vue Indent Script And Style（Vue 缩进脚本和样式）：\
+   _Indent script and style tags in Vue files._
+   - 不勾选 > `false`
 
 ## 用法
 

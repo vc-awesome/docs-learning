@@ -524,7 +524,7 @@ json响应格式
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/brix/crypto-js?color=blue&logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/brix/crypto-js?logo=github&color=blue)
-![npm](https://img.shields.io/npm/v/crypto-js?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/crypto-js?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/brix/crypto-js?style=social)
 
 https://github.com/brix/crypto-js - *GitHub - brix/crypto-js: JavaScript library of crypto standards.*

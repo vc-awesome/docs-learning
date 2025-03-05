@@ -4,14 +4,15 @@
  * @param {*} filetype
  */
 function loadjscssfile(filename, filetype) {
+  var fileref;
   if (filetype == 'js') {
     // if filename is a external JavaScript file
-    var fileref = document.createElement('script');
+    fileref = document.createElement('script');
     fileref.setAttribute('type', 'text/javascript');
     fileref.setAttribute('src', filename);
   } else if (filetype == 'css') {
     // if filename is an external CSS file
-    var fileref = document.createElement('link');
+    fileref = document.createElement('link');
     fileref.setAttribute('rel', 'stylesheet');
     fileref.setAttribute('type', 'text/css');
     fileref.setAttribute('href', filename);
@@ -53,6 +54,7 @@ function styleInject(css, ref) {
     style.appendChild(document.createTextNode(css));
   }
 }
+
 (function () {
   /**
    * 注入元素
@@ -91,33 +93,27 @@ function styleInject(css, ref) {
 
   // CSS
   loadjscssfile('_assets/clipboard-code-block.css', 'css');
-  loadjscssfile('https://fastly.jsdelivr.net/gh/vc-awesome/bookmarks@master/fontawesome/releases/v6.5.1/css/all.min.css',
-  'css');
-  loadjscssfile(
-    'https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css',
-    'css',
-  );
+  loadjscssfile('https://fastly.jsdelivr.net/gh/vc-awesome/bookmarks@master/fontawesome/releases/v6.5.1/css/all.min.css', 'css');
+  loadjscssfile('https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css', 'css');
   loadjscssfile('_assets/css/simple.css', 'css');
   loadjscssfile('_assets/css/material-symbols-outlined.css', 'css');
-  
+
   /* 切换主题 */
   const mediaQueryListDark = window.matchMedia('(prefers-color-scheme: dark)');
   if (mediaQueryListDark.matches) {
     // 系统当前是暗色(dark)主题
-  loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/dark.css', 'css');
+    loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/dark.css', 'css');
   }
 
-  const mediaQueryListLight = window.matchMedia(
-    '(prefers-color-scheme: light)',
-  );
+  const mediaQueryListLight = window.matchMedia('(prefers-color-scheme: light)');
   if (mediaQueryListLight.matches) {
     // 系统当前是亮色(light)主题
     loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/vue.css', 'css');
   }
-  
+
   // JS
   /* loadjscssfile(
-    "https://cdn.jsdelivr.net/combine/npm/vue@2/dist/vue.min.js,npm/element-ui/lib/index.js,npm/vue-clipboard2@latest/dist/vue-clipboard.min.js",
+    "https://fastly.jsdelivr.net/combine/npm/vue@2/dist/vue.min.js,npm/element-ui/lib/index.js,npm/vue-clipboard2@latest/dist/vue-clipboard.min.js",
     "js",
   ); */
 

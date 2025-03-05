@@ -6,7 +6,7 @@
 
 > Keep Screen On allows you to add a quick settings tile, with which you can easily disable screen timeout and then restore the previous timeout value.
 
-![f-droid](https://img.shields.io/f-droid/v/com.elasticrock.keepscreenon)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.elasticrock.keepscreenon)
 ![GitHub last commit](https://img.shields.io/github/last-commit/elastic-rock/KeepScreenOn?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/elastic-rock/KeepScreenOn?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/elastic-rock/KeepScreenOn?logo=github)
@@ -22,9 +22,9 @@ https://github.com/elastic-rock/KeepScreenOn - *GitHub - elastic-rock/KeepScreen
 
 ### F-Droid
 
-> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
+> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。[使用手册](os/mobile/f-droid.md)
 
-![f-droid](https://badgen.net/f-droid/v/org.fdroid.fdroid)
+![F-Droid Version](https://badgen.net/f-droid/v/org.fdroid.fdroid)
 ![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/f-droid/fdroidclient?logo=github)
@@ -42,7 +42,7 @@ https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository* �
 
 > Material-ify with Droid-ify. A quick material F-Droid client.
 
-![f-droid](https://img.shields.io/f-droid/v/com.looker.droidify)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.looker.droidify)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
@@ -78,6 +78,7 @@ https://droidify.eu.org/ - *Droid-ify*
 
     - 开源软件（[GitHub Repo](https://github.com/ImranR98/Obtainium)）
 
+    ![F-Droid Version](https://img.shields.io/f-droid/v/dev.imranr.obtainium.fdroid)
     ![GitHub last commit](https://img.shields.io/github/last-commit/ImranR98/Obtainium?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/Obtainium?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/Obtainium?logo=github)
@@ -91,6 +92,7 @@ https://droidify.eu.org/ - *Droid-ify*
 
     - 开源软件（[GitHub Repo](https://github.com/Tobi823/ffupdater)）
 
+    ![F-Droid Version](https://img.shields.io/f-droid/v/de.marmaro.krt.ffupdater)
     ![GitHub last commit](https://img.shields.io/github/last-commit/Tobi823/ffupdater?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Tobi823/ffupdater?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tobi823/ffupdater?logo=github)
@@ -102,7 +104,7 @@ https://droidify.eu.org/ - *Droid-ify*
 
 > A full-featured open source package manager for android.
 
-![f-droid](https://img.shields.io/f-droid/v/io.github.muntashirakon.AppManager)
+![F-Droid Version](https://img.shields.io/f-droid/v/io.github.muntashirakon.AppManager)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/MuntashirAkon/AppManager?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MuntashirAkon/AppManager?logo=github)
@@ -120,7 +122,7 @@ https://muntashirakon.github.io/AppManager/ - *App Manager Docs*
 
 > Hidden activity launcher
 
-![f-droid](https://img.shields.io/f-droid/v/com.activitymanager)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.activitymanager)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sdex/ActivityManager?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/sdex/ActivityManager?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sdex/ActivityManager?logo=github)
@@ -136,7 +138,7 @@ https://github.com/sdex/ActivityManager - *GitHub - sdex/ActivityManager: Launch
 
 > A powerful application to manage your apps!
 
-![f-droid](https://img.shields.io/f-droid/v/com.smartpack.packagemanager)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.smartpack.packagemanager)
 ![GitHub last commit](https://img.shields.io/github/last-commit/SmartPack/PackageManager?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SmartPack/PackageManager?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SmartPack/PackageManager?logo=github)
@@ -160,7 +162,7 @@ A：可通过应用“[Activity Manager](#activity-manager)”查看。
 
 > 免费开源的 Material Design 文件管理器
 
-![f-droid](https://img.shields.io/f-droid/v/me.zhanghai.android.files)
+![F-Droid Version](https://img.shields.io/f-droid/v/me.zhanghai.android.files)
 ![GitHub last commit](https://img.shields.io/github/last-commit/zhanghai/MaterialFiles?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/zhanghai/MaterialFiles?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/zhanghai/MaterialFiles?logo=github)
@@ -196,9 +198,9 @@ https://github.com/zhanghai/MaterialFiles - *GitHub - zhanghai/MaterialFiles: Ma
 
 ### Markor
 
-> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
+> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, .. [使用手册](os/mobile/markor.md)
 
-![f-droid](https://img.shields.io/f-droid/v/net.gsantner.markor)
+![F-Droid Version](https://img.shields.io/f-droid/v/net.gsantner.markor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
@@ -214,9 +216,9 @@ https://gsantner.net/page/projects.html#markor - *Projects | gsantner*
 
 ### Acode
 
-> Acode - powerful text/code editor for android
+> Acode - powerful text/code editor for android [使用手册](os/mobile/acode.md)
 
-![f-droid](https://img.shields.io/f-droid/v/com.foxdebug.acode)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.foxdebug.acode)
 ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/Acode?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deadlyjack/Acode?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deadlyjack/Acode?logo=github)
@@ -236,7 +238,7 @@ https://acode.app/ - *Acode - Code editor for android*
 
 > Converts an URL to markdown and share it
 
-![f-droid](https://img.shields.io/f-droid/v/com.sanzoghenzo.markdownr)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.sanzoghenzo.markdownr)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sanzoghenzo/markdownr?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/sanzoghenzo/markdownr?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sanzoghenzo/markdownr?logo=github)
@@ -254,7 +256,7 @@ https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Andr
 
 > PCAPdroid is an open source network capture and monitoring tool which works without root privileges. （译文：PCAPdroid 是一款开源网络捕获和监控工具，无需 root 权限即可运行。）
 
-![f-droid](https://img.shields.io/f-droid/v/com.emanuelef.remote_capture)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.emanuelef.remote_capture)
 ![GitHub last commit](https://img.shields.io/github/last-commit/emanuele-f/PCAPdroid?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/emanuele-f/PCAPdroid?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/emanuele-f/PCAPdroid?logo=github)
@@ -313,7 +315,7 @@ https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
 
 > 使用 Blocklist 在本地的 VPN 上基于 DNS 请求的主机阻止程序
 
-![f-droid](https://img.shields.io/f-droid/v/dnsfilter.android)
+![F-Droid Version](https://img.shields.io/f-droid/v/dnsfilter.android)
 ![GitHub last commit](https://img.shields.io/github/last-commit/IngoZenz/personaldnsfilter?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/IngoZenz/personaldnsfilter?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/IngoZenz/personaldnsfilter?logo=github)
@@ -435,7 +437,7 @@ https://itxtech.org/ - *Homepage | iTX Technologies*
 
 > 一款面向安卓设备的自由和开源的广告拦截应用。
 
-![f-droid](https://img.shields.io/f-droid/v/org.adaway)
+![F-Droid Version](https://img.shields.io/f-droid/v/org.adaway)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AdAway/AdAway?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/AdAway/AdAway?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AdAway/AdAway?logo=github)
@@ -494,7 +496,7 @@ https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
 
 > 优秀、自由并开源的 RSS 订阅阅读器
 
-![f-droid](https://img.shields.io/f-droid/v/com.nononsenseapps.feeder)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.nononsenseapps.feeder)
 ![GitHub last commit](https://img.shields.io/github/last-commit/spacecowboy/Feeder?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/spacecowboy/Feeder?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/spacecowboy/Feeder?logo=github)
@@ -513,7 +515,7 @@ https://github.com/spacecowboy/Feeder - *GitHub - spacecowboy/Feeder: Android RS
 
 > 一个以 Material You 风格呈现的 RSS 阅读器
 
-![f-droid](https://img.shields.io/f-droid/v/me.ash.reader)
+![F-Droid Version](https://img.shields.io/f-droid/v/me.ash.reader)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Ashinch/ReadYou?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Ashinch/ReadYou?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Ashinch/ReadYou?logo=github)
@@ -531,7 +533,7 @@ https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS r
 
 > 在打开网址之前，允许您分析（或共享）它们。
 
-![f-droid](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.trianguloy.urlchecker)
 ![GitHub last commit](https://img.shields.io/github/last-commit/TrianguloY/UrlChecker?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TrianguloY/UrlChecker?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TrianguloY/UrlChecker?logo=github)
@@ -599,7 +601,7 @@ https://triangularapps.blogspot.com/search/label/UrlChecker - *TrianguloY's Apps
 > 
 > 🖼️ Image Toolbox is an powerful picture editor, which can crop, apply filters, add some drawing, erase background, edit EXIF or even create PDF file - T8RIN/ImageToolbox
 
-![f-droid](https://img.shields.io/f-droid/v/ru.tech.imageresizershrinker)
+![F-Droid Version](https://img.shields.io/f-droid/v/ru.tech.imageresizershrinker)
 ![GitHub last commit](https://img.shields.io/github/last-commit/T8RIN/ImageResizer?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/T8RIN/ImageResizer?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/T8RIN/ImageResizer?logo=github)
@@ -642,13 +644,29 @@ https://github.com/T8RIN/ImageToolbox - *GitHub - T8RIN/ImageToolbox: 🖼️ Im
     2. 向右侧滑动控制中心，找到"取色器"开关；
     3. 点击"取色器"开关即可拾取当前屏幕的颜色值。
 
+### OCR
+
+> 基于Tesseract 5引擎的文字识别
+
+![F-Droid Version](https://img.shields.io/f-droid/v/io.github.subhamtyagi.ocr)
+![GitHub last commit](https://img.shields.io/github/last-commit/SubhamTyagi/android-ocr?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SubhamTyagi/android-ocr?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SubhamTyagi/android-ocr?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/SubhamTyagi/android-ocr?style=social)
+
+---
+
+https://f-droid.org/packages/io.github.subhamtyagi.ocr - *OCR | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/SubhamTyagi/android-ocr - *GitHub - SubhamTyagi/android-ocr: Tesseract based OCR for android*
+
 ## 硬件检测
 
 ### CPU Info
 
 > 查看有关设备硬件和软件的信息
 
-![f-droid](https://img.shields.io/f-droid/v/com.kgurgul.cpuinfo)
+![F-Droid Version](https://img.shields.io/f-droid/v/com.kgurgul.cpuinfo)
 ![GitHub last commit](https://img.shields.io/github/last-commit/kamgurgul/cpu-info?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/kamgurgul/cpu-info?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kamgurgul/cpu-info?logo=github)
@@ -684,7 +702,7 @@ https://markusfisch.de/apps-android.html#binary-eye - *Android • Markus Fisch*
 
 ### HTTP Shortcuts
 
-> A simple but powerful Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request, with the possibility of processing and displaying the response in various ways. Ideal for home automation projects.
+> A simple but powerful Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request, with the possibility of processing and displaying the response in various ways. Ideal for home automation projects. [使用手册](os/mobile/http-shortcuts.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/ch.rmy.android.http_shortcuts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Waboodoo/HTTP-Shortcuts?logo=github&color=blue)

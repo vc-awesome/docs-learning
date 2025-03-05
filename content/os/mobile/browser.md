@@ -2,7 +2,126 @@
 
 ## Browsers
 
-### Kiwi
+### Chrome
+
+> 得益于 Google 智能工具，Chrome 现在更易用、更安全、更快速。
+
+![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.android.chrome%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+Website：
+
+1. https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
+
+功能：
+
+- [ ] 开源
+- [x] 同步
+- [x] 🪜
+
+### Chromium
+
+> The Chromium projects include Chromium and ChromiumOS, the open-source projects behind the [Google Chrome](https://www.google.com/chrome) browser and Google ChromeOS, respectively. This site houses the documentation and code related to the Chromium projects and is intended for developers interested in learning about and contributing to the open-source projects.
+
+Website：
+
+1. https://www.chromium.org/chromium-projects/ - *Home*
+
+Download：
+
+1. [FFUpdater](os/mobile/app-list.md#ffupdater)
+
+### Cromite
+
+> Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!
+
+![GitHub last commit](https://img.shields.io/github/last-commit/uazo/cromite?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/uazo/cromite?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/uazo/cromite?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/uazo/cromite?style=social)
+
+GitHub：
+
+1. https://github.com/uazo/cromite - *GitHub - uazo/cromite: Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!*
+
+### DuckDuckGo
+
+> The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.
+
+![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.duckduckgo.mobile.android%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+![F-Droid Version](https://badgen.net/f-droid/v/com.duckduckgo.mobile.android?icon=f-droid)
+![GitHub last commit](https://img.shields.io/github/last-commit/duckduckgo/Android?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/duckduckgo/Android?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/duckduckgo/Android?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/duckduckgo/Android?style=social)
+
+Website：
+
+1. 🧱 https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
+
+GitHub：
+
+1. https://github.com/duckduckgo/Android - *GitHub - duckduckgo/Android: DuckDuckGo Android App*
+
+功能：
+
+- [x] 开源
+- [x] 隐私保护
+  - [x] 无历史记录
+- [x] 🪜
+- [x] 导入/导出书签（仅支持 html 格式）
+
+### Edge
+
+> 使用具有一流性能、内置隐私等功能的快速安全浏览器 Microsoft Edge 充分提升您的浏览体验。
+
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.microsoft.emmx%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+Website：
+
+1. https://www.microsoft.com/zh-cn/edge - *了解 Microsoft Edge*
+
+功能：
+
+- [ ] 开源
+- [x] 屏蔽广告
+- [x] 扩展程序
+- [x] 翻译
+- [ ] 🪜 - *科学上网*
+- [x] 同步 - *登录账户后使用此功能*
+- [x] 隐私保护
+- [ ] 资源嗅探
+- [x] 夜间模式
+- [x] 页内查找
+- [x] 添加到主屏幕
+- [x] 设置
+    - [x] 应用布局
+    - [x] 语言
+- [ ] 全屏浏览
+- [ ] 屏幕旋转
+
+### Firefox
+
+> 下载由致力于互联网健康与隐私保护的非营利组织 Mozilla 全力开发的浏览器 — Firefox。Windows、Mac、Linux、Android、与 iOS 版皆可免费下载。
+
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.mozilla.firefox%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+Website：
+
+1. https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快速 | 官方最新下载*
+2. https://www.mozilla.org/zh-CN/firefox/ - *下载 Firefox 桌面版、移动版或企业版 - Mozilla*
+
+功能：
+
+- [ ] 开源
+- [x] 扩展程序
+  - [x] 屏蔽广告
+  - [x] 隐私保护
+- [x] 同步
+- [x] 隐私保护
+
+### Kiwi Browser
 
 > Kiwi Browser is made to browse the internet, read news, watch videos and listen to music, without annoyances.
 
@@ -48,210 +167,7 @@ Download：
     - [x] 语言
     - [x] 安全 DNS
 
-### Yandex
-
-> Быстрый и безопасный браузер Яндекса для компьютера, смартфонов и планшетов на Android и iOS (iPhone и iPad). Ускоряет загрузку при медленном соединении, защищает от вирусов и мошенников, делает поиск удобнее. Скачайте бесплатно.
-
-![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.yandex.browser.beta%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-
-Website：
-
-1. https://browser.yandex.com/ - *Download Yandex Browser*
-
-功能：
-
-- [ ] 开源
-- [x] 屏蔽广告
-- [x] 扩展程序
-- [x] 翻译
-- [x] 科学上网
-- [x] 同步
-
-### Via
-
-> Via浏览器，让你肆意享用简洁清爽、快速高效的手机浏览器。充分发挥广告拦截、插件等先进技术，达到”简单””好用”的设计初衷。
-
-![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dmark.via%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-![GitHub last commit](https://img.shields.io/github/last-commit/tuyafeng/Via?color=blue&logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/tuyafeng/Via?style=social)
-
-Website：
-
-1. https://viayoo.com/zh-cn/ - *Via浏览器官网 - 崇尚速度与简约的手机浏览器，Via唯一官方网站*
-
-GitHub：
-
-1. https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository is set for localization.*
-
-功能：
-
-- [x] 开源
-- [x] 屏蔽广告
-  - [x] 可自定义规则
-- [ ] 扩展程序
-- [ ] 🪜
-- [x] 同步
-- [x] 工具
-  - [x] 资源嗅探
-  - [x] 自定脚本
-  - [x] 翻译
-  - [x] 源码
-  - [x] 页内查找
-  - [x] 全屏
-  - [x] 屏幕方向
-  - [x] 阅读模式
-- [x] 夜间模式
-- [x] 添加到主屏幕
-- [x] 设置
-    - [x] 应用布局
-    - [x] 语言
-    - [ ] 安全 DNS
-- [x] 导入/导出书签（仅支持 html 格式）
-
-### Opera
-
-> Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
-
-![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.opera.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-
-Website：
-
-1. https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
-
-功能：
-
-- [ ] 开源
-- [x] 屏蔽广告
-- [ ] 扩展程序
-- [x] 翻译
-- [x] 🪜
-- [x] 同步
-- [x] 隐私保护
-- [ ] 资源嗅探
-- [x] 夜间模式
-- [x] 页内查找
-- [x] 添加到主屏幕
-- [x] 设置
-    - [x] 应用布局
-    - [x] 语言
-    - [x] 安全 DNS
-- [x] 导入/导出书签（仅支持 html 格式）
-
-----
-
-搭建🪜，请参阅“[浏览器配置 DNS](essential/network/dns.md#浏览器配置-dns)”。
-
-### Firefox
-
-> 下载由致力于互联网健康与隐私保护的非营利组织 Mozilla 全力开发的浏览器 — Firefox。Windows、Mac、Linux、Android、与 iOS 版皆可免费下载。
-
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.mozilla.firefox%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-
-Website：
-
-1. https://www.firefox.com.cn/ - *Firefox 火狐浏览器 - 全新、安全、快速 | 官方最新下载*
-2. https://www.mozilla.org/zh-CN/firefox/ - *下载 Firefox 桌面版、移动版或企业版 - Mozilla*
-
-功能：
-
-- [ ] 开源
-- [x] 扩展程序
-  - [x] 屏蔽广告
-  - [x] 隐私保护
-- [x] 同步
-- [x] 隐私保护
-
-### Chrome
-
-> 得益于 Google 智能工具，Chrome 现在更易用、更安全、更快速。
-
-![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.android.chrome%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-
-Website：
-
-1. https://www.google.com/chrome/ - *Google Chrome 网络浏览器*
-
-功能：
-
-- [ ] 开源
-- [x] 同步
-- [x] 🪜
-
-### Cromite
-
-> Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!
-
-![GitHub last commit](https://img.shields.io/github/last-commit/uazo/cromite?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/uazo/cromite?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/uazo/cromite?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/uazo/cromite?style=social)
-
-GitHub：
-
-1. https://github.com/uazo/cromite - *GitHub - uazo/cromite: Cromite a Bromite fork with ad blocking and privacy enhancements; take back your browser!*
-
-### Edge
-
-> 使用具有一流性能、内置隐私等功能的快速安全浏览器 Microsoft Edge 充分提升您的浏览体验。
-
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.microsoft.emmx%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-
-Website：
-
-1. https://www.microsoft.com/zh-cn/edge - *了解 Microsoft Edge*
-
-功能：
-
-- [ ] 开源
-- [x] 屏蔽广告
-- [x] 扩展程序
-- [x] 翻译
-- [ ] 🪜 - *科学上网*
-- [x] 同步 - *登录账户后使用此功能*
-- [x] 隐私保护
-- [ ] 资源嗅探
-- [x] 夜间模式
-- [x] 页内查找
-- [x] 添加到主屏幕
-- [x] 设置
-    - [x] 应用布局
-    - [x] 语言
-- [ ] 全屏浏览
-- [ ] 屏幕旋转
-
-### DuckDuckGo
-
-> The Internet privacy company that empowers you to seamlessly take control of your personal information online, without any tradeoffs.
-
-![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.duckduckgo.mobile.android%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-![f-droid](https://badgen.net/f-droid/v/com.duckduckgo.mobile.android?icon=f-droid)
-![GitHub last commit](https://img.shields.io/github/last-commit/duckduckgo/Android?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/duckduckgo/Android?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/duckduckgo/Android?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/duckduckgo/Android?style=social)
-
-Website：
-
-1. 🧱 https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
-
-GitHub：
-
-1. https://github.com/duckduckgo/Android - *GitHub - duckduckgo/Android: DuckDuckGo Android App*
-
-功能：
-
-- [x] 开源
-- [x] 隐私保护
-  - [x] 无历史记录
-- [x] 🪜
-- [x] 导入/导出书签（仅支持 html 格式）
-
-### 狐猴浏览器
+### Lemur Browser
 
 > 狐猴浏览器（Lemur Browser）是一款同时支持谷歌Chrome插件扩展和微软Edge插件扩展的浏览器，当然也支持油猴脚本Tampermonkey。狐猴浏览器无广告、无新闻、无推送，带给用户纯粹的浏览体验。针对目前市场上支持Chrome插件扩展的kiwi浏览器和Yandex浏览器进行深入研究，狐猴浏览器对用户界面进行了深度优化，相比kiwi浏览器、Yandex 等浏览器，用户界面更加优美、操作体验更加舒适。基于全新Chromium高速内核引擎，极速体验搭配多种多样的扩展插件组合让你的浏览器个性十足，让个性化定制浏览器成为可能！可轻松浏览互联网、阅读新闻、观看视频和听音乐。基于谷歌浏览器的Blink渲染引擎和V8引擎，继承了Chromium优秀的架构，所以您会很快适应狐猴浏览器（Lemur Browser）。
 
@@ -320,7 +236,41 @@ Download：
 
 </details>
 
-### QQ浏览器
+### Opera
+
+> Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
+
+![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.opera.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+Website：
+
+1. https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
+
+功能：
+
+- [ ] 开源
+- [x] 屏蔽广告
+- [ ] 扩展程序
+- [x] 翻译
+- [x] 🪜
+- [x] 同步
+- [x] 隐私保护
+- [ ] 资源嗅探
+- [x] 夜间模式
+- [x] 页内查找
+- [x] 添加到主屏幕
+- [x] 设置
+    - [x] 应用布局
+    - [x] 语言
+    - [x] 安全 DNS
+- [x] 导入/导出书签（仅支持 html 格式）
+
+----
+
+搭建🪜，请参阅“[浏览器配置 DNS](essential/network/dns.md#浏览器配置-dns)”。
+
+### QQBrowser
 
 > QQ浏览器是4亿用户的全能生活神器。全网热搜、学习资料一搜便知；还有手机垃圾清理、文件压缩解压、PDF格式转换、 Word文档编辑、手机扫描、拍照翻译等多种实用工具；更有海量小说、游戏礼包等超多精彩内容，下载 QQ 浏览器即刻体验。
 
@@ -337,6 +287,72 @@ Website：
   - [x] 网页翻译
   - [x] 朗读网页
   - [x] 定时刷新
+
+### Via
+
+> Via浏览器，让你肆意享用简洁清爽、快速高效的手机浏览器。充分发挥广告拦截、插件等先进技术，达到”简单””好用”的设计初衷。
+
+![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dmark.via%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+![GitHub last commit](https://img.shields.io/github/last-commit/tuyafeng/Via?color=blue&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/tuyafeng/Via?style=social)
+
+Website：
+
+1. https://viayoo.com/zh-cn/ - *Via浏览器官网 - 崇尚速度与简约的手机浏览器，Via唯一官方网站*
+
+GitHub：
+
+1. https://github.com/tuyafeng/Via - *Via is a simple browser, and this repository is set for localization.*
+
+功能：
+
+- [x] 开源
+- [x] 屏蔽广告
+  - [x] 可自定义规则
+- [ ] 扩展程序
+- [ ] 🪜
+- [x] 同步
+- [x] 工具
+  - [x] 资源嗅探
+  - [x] 自定脚本
+  - [x] 翻译
+  - [x] 源码
+  - [x] 页内查找
+  - [x] 全屏
+  - [x] 屏幕方向
+  - [x] 阅读模式
+- [x] 夜间模式
+- [x] 添加到主屏幕
+- [x] 设置
+    - [x] 应用布局
+    - [x] 语言
+    - [ ] 安全 DNS
+- [x] 导入/导出书签（仅支持 html 格式）
+
+### Yandex Browser
+
+> Быстрый и безопасный браузер Яндекса для компьютера, смартфонов и планшетов на Android и iOS (iPhone и iPad). Ускоряет загрузку при медленном соединении, защищает от вирусов и мошенников, делает поиск удобнее. Скачайте бесплатно.
+
+![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.yandex.browser.beta%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+
+Website：
+
+1. https://browser.yandex.com/ - *Download Yandex Browser*
+
+Download：
+
+1. https://play.google.com/store/apps/details?id=com.yandex.browser&hl=zh_CN - *Yandex Browser with Protect - Google Play 上的应用*
+
+功能：
+
+- [ ] 开源
+- [x] 屏蔽广告
+- [x] 扩展程序
+- [x] 翻译
+- [x] 科学上网
+- [x] 同步
 
 ### 小米浏览器
 
@@ -355,59 +371,61 @@ Website：
 - [ ] 开源
 - [x] 资源嗅探
 
-## 扩展程序/脚本
-
-### Kiwi
-
-### Yandex
-
-### Via
-
-### Firefox
+## 扩展程序/用户脚本
 
 ### Edge
 
-### 狐猴浏览器
+### Firefox
+
+### Kiwi Browser
+
+### Lemur Browser
+
+### Via
+
+### Yandex Browser
 
 ## 开发者工具
 
-### Kiwi
+### Kiwi Browser
 
-### 狐猴浏览器
+### Lemur Browser
 
 ## 安全 DNS
-
-### Kiwi
-
-设置 > 隐私和安全 > 安全 - 使用安全 DNS
-
-### Opera
-
-设置 > 隐私和安全 > 安全 DNS
 
 ### Chrome
 
 设置 > 基本 - 隐私和安全 > 安全 - 使用安全 DNS
 
+### Chromium
+
 ### Cromite
 
-### 狐猴浏览器
+### Kiwi Browser
+
+设置 > 隐私和安全 > 安全 - 使用安全 DNS
+
+### Lemur Browser
 
 设置 > 基本 - 隐私设置和安全性 > 使用安全 DNS
 
+### Opera
+
+设置 > 隐私和安全 > 安全 DNS
+
 ## 开源
 
-### Kiwi
-
-### Via
+### Chromium
 
 ### Cromite
 
 ### DuckDuckGo
 
-## Chromium-based
+### Kiwi Browser
 
-### Kiwi
+### Via
+
+## Chromium-based
 
 ### Chrome
 
@@ -415,7 +433,9 @@ Website：
 
 ### Edge
 
-### 狐猴浏览器
+### Kiwi Browser
+
+### Lemur Browser
 
 ## FAQ
 

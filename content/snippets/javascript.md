@@ -179,6 +179,26 @@ str.replace("/需要替换的字符串/g", "新替换的字符串");
 1. https://www.runoob.com/jsref/jsref-replace.html - _JavaScript replace() 方法 | 菜鸟教程_
 2. https://www.cnblogs.com/cblogs/p/9293522.html - _js中字符串全部替换 - 胡海超的博客 - 博客园_
 
+### 转义 HTML 字符
+
+```javascript
+/**
+ * 为保证测试输出正常，需要转义输出 html 的标签
+ * @param {string} unsafe - 包含 html 标签的文本
+ * @return {string} 转义 html 标签后的文本
+ * @see https://www.runoob.com/try/try2.php?filename=tryjsref_regexp_htmltag - *菜鸟教程在线编辑器*
+ */
+function escapeHtml(unsafe)
+{
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+```
+
 ## 异步操作
 
 ### setTimeout()

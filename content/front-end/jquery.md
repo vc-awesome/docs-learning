@@ -7,7 +7,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/jquery/jquery?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jquery/jquery?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jquery/jquery?logo=github)
-![npm](https://img.shields.io/npm/v/jquery?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/jquery?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/jquery/jquery?style=social)
 
 ## 官方

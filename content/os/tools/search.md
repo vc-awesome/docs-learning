@@ -409,7 +409,7 @@ https://repology.org/ - *Repology* [GitHub Repo](https://github.com/repology)
 
     - https://formulae.brew.sh/ - *Homebrew Formulae*
 
-    - 有关更多详细信息，请参阅“[Mac > Homebrew](os/mac/homebrew.md)”。
+    - 有关更多详细信息，请参阅“[Mac > Homebrew](os/desktop/mac/homebrew.md)”。
 
 2. [The MacPorts Project -- Home](https://www.macports.org/) - *The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac OS X operating system.*
 
@@ -571,6 +571,8 @@ https://www.npmjs.com/ - *npm | Home*
 官网：
 
 1. https://play.google.com/store/apps - *Google Play 上的 Android 应用* 🚫
+2. https://support.google.com/googleplay?hl=en - *Google Play Help* 🚫
+3. https://play.google.com/apps/publish/ - *Google Play for business | Launch &amp; monetize your apps | Google Play Console*
 
 实例：
 
@@ -619,7 +621,7 @@ https://www.npmjs.com/ - *npm | Home*
 
 2. https://m.app.mi.com/ - *小米应用商店*
 
-#### 应用宝
+#### 腾讯应用宝
 
 > <img src="https://static.sj.qq.com/_next/static/media/logo.e4a2800b.svg" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
 > 

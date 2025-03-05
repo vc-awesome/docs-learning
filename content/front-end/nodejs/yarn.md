@@ -7,7 +7,7 @@
 ![GitHub last commit](https://badgen.net/github/last-commit/yarnpkg/berry?icon=github&color=blue)
 ![GitHub Release Date](https://img.shields.io/github/release-date/yarnpkg/berry?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yarnpkg/berry?logo=github)
-![npm](https://img.shields.io/npm/v/yarn?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/yarn?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/yarnpkg/berry?style=social)
 
 ## 官方

@@ -26,19 +26,23 @@
     ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/free-books?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/free-books?style=social)
 
-4. https://www.kancloud.cn/special - *专题 · 看云*
+4. https://github.com/ruanyf/reading-list - *GitHub - ruanyf/reading-list: Some books I read*
 
-5. https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ruanyf/reading-list?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/reading-list?style=social)
 
-6. https://docs.kilvn.com/ - *东子的藏经阁*
+5. https://www.kancloud.cn/special - *专题 · 看云*
 
+6. https://goalkicker.com/ - *Free Programming Books – GoalKicker.com*
+
+7. https://docs.kilvn.com/ - *东子的藏经阁*
 
 ## 社区
 
 - https://www.freecodecamp.org/ - *Learn to Code — For Free — Coding Courses for Busy People* [GitHub Org](https://github.com/freeCodeCamp)
 
     - https://github.com/freeCodeCamp/freeCodeCamp - *GitHub - freeCodeCamp/freeCodeCamp: freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.*
-    
+
         ![GitHub last commit](https://badgen.net/github/last-commit/freeCodeCamp/freeCodeCamp?icon=github&color=blue)
         ![GitHub Repo stars](https://img.shields.io/github/stars/freeCodeCamp/freeCodeCamp?style=social)
 
@@ -47,14 +51,11 @@
       ![GitHub last commit](https://badgen.net/github/last-commit/freeCodeCamp/devdocs?icon=github&color=blue)
       ![GitHub Repo stars](https://img.shields.io/github/stars/freeCodeCamp/devdocs?style=social)
 
-
 ## 博客
-
 
 ### 运维
 
 1. https://u.sb/ - *烧饼博客*
-
 
 ### 网络安全
 
@@ -63,7 +64,6 @@
     -  https://github.com/sqlsec - *sqlsec (国光) · GitHub*
 
 2. https://blog.csdn.net/qq_44879989/article/details/127343567 - *使用Termux安装黑客工具箱---Lazymux_termux黑客_BinaryMoon的博客-CSDN博客*
-
 
 ### 更多
 
@@ -80,7 +80,6 @@
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Zeb-D/my-review?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Zeb-D/my-review?style=social)
 
-
 ## 博主
 
 ### 阮一峰 ✅
@@ -88,6 +87,14 @@
 #### 阮一峰的网络日志
 
 http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志* [GitHub User](https://github.com/ruanyf)
+
+分类：
+
+- https://www.ruanyifeng.com/blog/javascript/ - *分类：JavaScript - 阮一峰的网络日志*
+- https://www.ruanyifeng.com/blog/developer/ - *分类：开发者手册 - 阮一峰的网络日志*
+- https://www.ruanyifeng.com/blog/computer/ - *分类：理解计算机 - 阮一峰的网络日志*
+- https://www.ruanyifeng.com/blog/industry/ - *分类：计算机行业历史 - 阮一峰的网络日志*
+- https://www.ruanyifeng.com/blog/english/ - *分类：英语爱好者 - 阮一峰的网络日志*
 
 https://github.com/ruanyf/weekly - *GitHub - ruanyf/weekly: 科技爱好者周刊，每周五发布*
 
@@ -100,14 +107,6 @@ https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal article
 ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/articles?style=social)
 
 - [Sourcegraph](https://sourcegraph.com/search?q=context:global+repo:^github\.com/ruanyf/articles$+&patternType=literal&case=yes&sm=0&groupBy=repo)
-
-分类：
-
-- https://www.ruanyifeng.com/blog/javascript/ - *分类：JavaScript - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/developer/ - *分类：开发者手册 - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/computer/ - *分类：理解计算机 - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/industry/ - *分类：计算机行业历史 - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/english/ - *分类：英语爱好者 - 阮一峰的网络日志*
 
 #### 前端
 
@@ -127,11 +126,10 @@ https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程
 
 序号  | 书名  | 阅读进度
 :---|:---|:---
-1  | [HTML 教程](https://www.wangdoc.com/html/) [GitHub Repo](https://github.com/wangdoc/html-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
-2  | [JavaScript 教程（*ES5*）](https://www.wangdoc.com/javascript/) [GitHub Repo](https://github.com/wangdoc/javascript-tutorial) | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
-3  | [ES6 教程](https://www.wangdoc.com/es6/) [GitHub Repo](https://github.com/wangdoc/es6-tutorial#js-repo-pjax-container) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+1  | [HTML 教程](https://www.wangdoc.com/html/), [GitHub Repo](https://github.com/wangdoc/html-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+2  | [JavaScript 教程（*ES5*）](https://www.wangdoc.com/javascript/), [GitHub Repo](https://github.com/wangdoc/javascript-tutorial) | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
+3  | [ES6 教程](https://www.wangdoc.com/es6/), [GitHub Repo](https://github.com/wangdoc/es6-tutorial#js-repo-pjax-container) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
 4  | 更多教程访问 [wangdoc · GitHub](https://github.com/wangdoc)  | -
-
 
 ## 分类
 
@@ -145,7 +143,6 @@ https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程
   ![GitHub Repo stars](https://img.shields.io/github/stars/smknstd/modern-php-cheatsheet?style=social)
 
 - http://phpversions.info/ - *PHP Versions*
-
 
 ##### PHP 之道
 
@@ -162,9 +159,7 @@ https://learnku.com/docs/php-the-right-way/PHP8.0 - *《PHP 之道（PHP The Rig
 
 https://laravel-china.github.io/php-the-right-way/ - *PHP 之道 | PHP The Right Way 中文版*
 
-
 ### 前端
-
 
 #### MDN Web Docs
 
@@ -177,14 +172,12 @@ https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
 https://github.com/mdn/ - *MDN Web Docs · GitHub*
 
-
 #### The Modern JavaScript Tutorial
 
-[现代 JavaScript 教程](https://zh.javascript.info/) - *现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。* [GitHub](https://github.com/javascript-tutorial/en.javascript.info)
+[现代 JavaScript 教程](https://zh.javascript.info/) - *现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。* [GitHub Repo](https://github.com/javascript-tutorial/en.javascript.info)
 
 ![GitHub last commit](https://badgen.net/github/last-commit/javascript-tutorial/en.javascript.info?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/javascript-tutorial/en.javascript.info?style=social)
-
 
 #### 冴羽的博客
 
@@ -192,7 +185,6 @@ https://github.com/mdn/ - *MDN Web Docs · GitHub*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/mqyqingfeng/Blog?style=social)
-
 
 #### Bootstrap 中文网
 
@@ -235,9 +227,10 @@ https://nodejs.cn/ - *Node.js 中文网*
     ![GitHub last commit](https://badgen.net/github/last-commit/ljianshu/Blog?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ljianshu/Blog?style=social)
 
-
 ## 微信公众号
 
 1. [码农老张](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzIxODQyNTU1MA==&scene=124#wechat_redirect)
 
     - https://www.zyblog.com.cn/ - *ZyBlog码农老张*
+
+2. [哔哩哔哩技术](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=Mzg3Njc0NTgwMg==&scene=124#wechat_redirect)

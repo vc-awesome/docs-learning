@@ -62,17 +62,11 @@ https://baike.baidu.com/item/转义字符/86397 - *转义字符_百度百科*
 - CR（Carriage Return）代表回车，对应字符 `\r`
 - LF（Line Feed）代表换行，对应字符 `\n`
 
-Unix 系统：
-
-`\n`
-
-Windows 系统：
-
-`\r\n`
-
-Mac 系统：
-
-`\r`
+系统 | 换行符
+--- | ---
+Windows | `\r\n`
+Mac | `\r`
+Unix | `\n`
 
 参考：
 

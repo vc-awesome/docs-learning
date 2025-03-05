@@ -8,6 +8,8 @@
 
 https://www.mozilla.org/zh-CN/ - *不为营利、造福人民的互联网*
 
+https://www.mozilla.org/en-US/ - *Mozilla - Internet for people, not profit (US)*
+
 ## 产品
 
 https://www.mozilla.org/zh-CN/products/ - *Mozilla 产品 - Mozilla — Mozilla*
@@ -16,9 +18,9 @@ https://www.mozilla.org/zh-CN/products/ - *Mozilla 产品 - Mozilla — Mozilla*
 
 https://www.mozilla.org/zh-CN/firefox/ - *下载 Firefox 桌面版、移动版或企业版 - Mozilla*
 
-### MDN Web Docs
+#### Focus Browser
 
-https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
+https://www.mozilla.org/en-US/firefox/browsers/mobile/focus/ - *Firefox Focus: The privacy browser*
 
 ### Thunderbird
 
@@ -35,6 +37,14 @@ https://github.com/mozilla-mobile - *Mozilla Mobile · GitHub*
 https://firefox-source-docs.mozilla.org/index.html - *Firefox Source Tree Documentation — Firefox Source Docs documentation*
 
 https://hg.mozilla.org/ - *Mercurial repositories index*
+
+### Tools
+
+https://firefox-source-docs.mozilla.org/devtools-user/ - *Firefox DevTools User Docs — Firefox Source Docs documentation*
+
+### MDN Web Docs
+
+https://developer.mozilla.org/zh-CN/ - *MDN Web Docs*
 
 ### GeckoView
 

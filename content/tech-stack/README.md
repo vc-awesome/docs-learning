@@ -72,8 +72,16 @@
 - JSX
 - 地图
     - [腾讯位置服务 - 立足生态，连接未来](https://lbs.qq.com/) - *腾讯地图开放平台为各类应用厂商和开发者提供基于腾讯地图的地理位置服务和解决方案；有针对Web应用的JavaScript API, 适合手机端Native APP的各种SDK, WebService接口和各类地图API等。*
+    - [高德开放平台 | 高德地图API](https://lbs.amap.com/) - *高德开放平台|高德开放平台官网|高德开放平台控制台|官网控制台|控制台|应用管理|应用分析|账号信息|开发者信息|账号权限|KEY管理*
+    - [百度地图开放平台 | 百度地图API SDK | 地图开发](https://lbs.baidu.com/) - *百度地图API是一套为开发者提供的基于百度地图的应用程序接口，包括JavaScript、iOS、Andriod、静态地图、Web服务等多种版本，提供基本地图、位置搜索、周边搜索、公交驾车导航、定位服务、地理编码及逆地理编码等丰富功能。LBS·云是百度地图针对LBS开发者全新推出的平台级服务。通过地图API，一方面解决移动开发者服务器端日益增长的海量位置数据的存储维护压力，另一方面彻底解决所有LBS开发者基于位置数据的高并发检索瓶颈。*
 
-### Web 前端
+### 前端
+
+- Web 开发
+- Android 开发
+- Apple 开发
+
+#### Web 开发
 
 - [Node.js](https://www.nodeapp.cn/) - *Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。Node.js 使用了一个事件驱动、非阻塞式 I/O 的模型，使其轻量又高效。Node.js 的包管理器 npm，是全球最大的开源库生态系统。*
     - [gulp.js](https://www.gulpjs.com.cn/) - *Gulp.js 是一个自动化构建工具，开发者可以使用它在项目开发过程中自动执行常见任务。Gulp.js 是基于 Node.js 构建的，利用 Node.js 流的威力，你可以快速构建项目并减少频繁的 IO 操作。Gulp.js 源文件和你用来定义任务的 Gulp 文件都是通过 JavaScript（或者 CoffeeScript ）源码来实现的。*
@@ -87,7 +95,7 @@
 - [LESS](https://lesscss.org/) - *Less extends CSS with dynamic behavior such as variables, mixins, operations and functions. Less runs on both the server-side (with Node.js and Rhino) or client-side (modern browsers only).* [中文站点](http://www.bootcss.com/p/lesscss/)
 - [SCSS](https://sass-lang.com/) - *Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.*
 
-#### UI 框架
+##### UI 框架
 
 - Ruby on Rails
 - AmazeUI
@@ -215,6 +223,10 @@ https://docs.github.com/en/get-started/learning-about-github/github-language-sup
 
 暂无
 
+### Kotlin
+
+暂无
+
 ### Less
 
 暂无
@@ -279,6 +291,28 @@ https://docs.github.com/en/get-started/learning-about-github/github-language-sup
 
 暂无
 
+## 口语
+
+https://github.com/trending - *Trending repositories on GitHub today · GitHub*
+
+-  _[启动应用 - GitHub](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.github.android) > 探索 > 热门仓库 - 交流语言_
+
+### Chinese
+
+暂无
+
+### English
+
+暂无
+
+### Japanese
+
+暂无
+
+### Korean
+
+暂无
+
 ## 技术公司
 
 ### Adobe
@@ -286,6 +320,10 @@ https://docs.github.com/en/get-started/learning-about-github/github-language-sup
 暂无
 
 ### Apple Inc.
+
+暂无
+
+### Ali
 
 暂无
 

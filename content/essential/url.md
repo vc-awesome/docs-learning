@@ -11,11 +11,56 @@
 1. https://wangdoc.com/html/url - *URL 简介 - HTML 教程 - 网道*
 2. https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL - *什么是 URL？ - 学习 Web 开发 | MDN*
 
+## 入门指南
+
+### URIs
+
+https://developer.mozilla.org/en-US/docs/Web/URI - *URIs | MDN*
+
+#### URI Schemes
+
+https://developer.mozilla.org/en-US/docs/Web/URI/Schemes - *URI schemes - URIs | MDN*
+
+##### Data URL
+
+> 以 `data:` 方案为前缀的 URL，允许内容创建者在文档中嵌入小文件。
+
+https://developer.mozilla.org/zh-CN/docs/Web/URI/Schemes/data - *Data URL - URIs | MDN*
+
+##### javascript:URLs
+
+https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/javascript - *javascript: URLs - URIs | MDN*
+
+## 快速入门
+
+### 格式
+
+`<scheme>://<host>[:port][path][?parameter][#anchor]`
+
 ## 用法
 
-### URL Scheme
+### 在编程语言中使用
 
-#### macOS
+#### PHP
+
+1. http://www.jb51.net/article/57550.htm - *php 中获取主机名、协议及 IP 地址的方法_php 技巧_脚本之家*
+
+#### JavaScript
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/API/URL - *URL - Web API 接口参考 | MDN*
+2. https://kilianvalkhof.com/2024/javascript/the-problem-with-new-url-and-how-url-parse-fixes-that/ - *The problem with new URL(), and how URL.parse() fixes that | Kilian Valkhof*
+
+#### URL 编码和解码
+
+1. <https://wangdoc.com/javascript/bom/location#url-的编码和解码> - *Location 对象，URL 对象，URLSearchParams 对象 - JavaScript 教程 - 网道*
+
+2. https://www.runoob.com/tags/html-urlencode.html - *HTML URL 编码参考手册 | 菜鸟教程*
+
+### 在应用程序中使用
+
+#### URL Scheme
+
+##### macOS
 
 https://stackoverflow.com/questions/471581/how-to-map-a-custom-protocol-to-an-application-on-the-mac - *macos - How to map a custom protocol to an application on the Mac? - Stack Overflow*
 
@@ -27,7 +72,7 @@ VSCode 编辑 Info.plist 文件
 
 AI 搜索：`macos 如何使用 Platypus 创建 url scheme`
 
-#### Android
+##### Android
 
 如何使用安卓手机获取 URL Scheme，按下面步骤获取：
 
@@ -122,7 +167,7 @@ AI 搜索：`macos 如何使用 Platypus 创建 url scheme`
 13. https://www.telerik.com/blogs/how-to-use-custom-url-schemes - *How to Use Custom URL Schemes*
 14. https://developer.android.com/training/app-links/deep-linking?hl=zh-cn - *创建指向应用内容的深层链接  |  Android 开发者  |  Android Developers*
 
-##### 支付宝
+###### 支付宝
 
 格式：
 
@@ -137,7 +182,7 @@ https://opendocs.alipay.com/support/01rb18 - *小程序scheme链接介绍 - 支�
 3. https://blog.csdn.net/weixin_48141487/article/details/134224372 - *支付宝 URL Scheme全网最全，startActivity地址更新中-CSDN博客*
 4. https://cloud.tencent.com/developer/article/2317297 - *微信、支付宝等软件常用功能的的URL schemes整理总汇-腾讯云开发者社区-腾讯云*
 
-##### 淘宝
+###### 淘宝
 
 格式：
 
@@ -150,56 +195,42 @@ taobao://
 1. [淘宝首页](taobao://m.taobao.com)
 2. [淘宝芭芭农场](taobao://market.m.taobao.com/app/starlink/wakeup-transit/pages/download?star_id=4354&slk_force_set_request=true&bc_fl_src=zfb_myxc2bbnc&sceneCodeAlipay=antruralism_taobao_taobaobabafarm0530&userToken=yxg3xgDreLtnLoDWZT4VrQ9p0AWjUKqdxgDxxoGAEXKyb7ggOmOQ4NK4EwnxxoazTusQgAP3NoxcUUgzxgZxcuuVxgM1nnxgc9YGP4Ob73klkg38xgppfoxkx)
 
-##### Google Play Store
+###### Google Play Store
 
-1. 打开应用「Google Play Store」
+格式：`market://details?id=<应用包名>`
 
-    格式：`market://details?id=<应用包名>`
+示例：[在「Google Play Store」中打开应用「Chrome」](market://details?id=com.android.chrome)
 
-    示例：[在「Google Play Store」中打开应用「Chrome」](market://details?id=com.android.chrome)
+代码片段：
 
-    代码片段：
+```uri
+market://details?id=
+```
 
-    ```uri
-    market://details?id=
-    ```
+参考：
 
-https://developer.android.com/distribute/marketing-tools/linking-to-google-play?hl=zh-cn - *链接到 Google Play  |  Android Developers*
+1. https://developer.android.com/distribute/marketing-tools/linking-to-google-play?hl=zh-cn - *链接到 Google Play  |  Android Developers*
+2. https://stackoverflow.com/questions/11753000/how-to-open-the-google-play-store-directly-from-my-android-application - *How to open the Google Play Store directly from my Android application? - Stack Overflow*
 
-##### 小米应用商店
+###### 小米应用商店
 
-1. 打开应用「小米应用商店」
+格式：`mimarket://details?id=<应用包名>`
 
-    格式：`mimarket://details?id=<应用包名>`
+示例：[在「小米应用商店」中打开应用「微信」](mimarket://details?id=com.tencent.mm)
 
-    示例：[在「小米应用商店」中打开应用「微信」](mimarket://details?id=com.tencent.mm)
+代码片段：
 
-    代码片段：
+```uri
+mimarket://details?id=
+```
 
-    ```uri
-    mimarket://details?id=
-    ```
+参考：
 
 https://stackoverflow.com/questions/63208565/whats-xiaomi-mi-store-apps-page-intent - *android - What's Xiaomi Mi Store app's page intent? - Stack Overflow*
 
-### PHP
+#### Firefox 浏览器打开本地文件
 
-1. http://www.jb51.net/article/57550.htm - *php 中获取主机名、协议及 IP 地址的方法_php 技巧_脚本之家*
-
-### JavaScript
-
-1. https://developer.mozilla.org/zh-CN/docs/Web/API/URL - *URL - Web API 接口参考 | MDN*
-2. https://kilianvalkhof.com/2024/javascript/the-problem-with-new-url-and-how-url-parse-fixes-that/ - *The problem with new URL(), and how URL.parse() fixes that | Kilian Valkhof*
-
-### URL 编/解码
-
-1. <https://wangdoc.com/javascript/bom/location#url-的编码和解码> - *Location 对象，URL 对象，URLSearchParams 对象 - JavaScript 教程 - 网道*
-
-2. https://www.runoob.com/tags/html-urlencode.html - *HTML URL 编码参考手册 | 菜鸟教程*
-
-### Firefox 浏览器打开本地文件
-
-假设 macOS 电脑桌面上有张图片，图片所在路径：`/Users/caiyongwen/Desktop/v2-db92f653a2ec17ea3ff309d6d56e8507.gif`
+假设 macOS 电脑桌面上有张图片，图片所在路径为：`/Users/caiyongwen/Desktop/v2-db92f653a2ec17ea3ff309d6d56e8507.gif`，操作步骤如下：
 
 1. 打开 Firefox 浏览器；
 2. 地址栏中输入：`file:///Users/caiyongwen/Desktop/v2-db92f653a2ec17ea3ff309d6d56e8507.gif`；
@@ -211,9 +242,32 @@ https://stackoverflow.com/questions/63208565/whats-xiaomi-mi-store-apps-page-int
 
 https://github.com/ada-url/ada - *GitHub - ada-url/ada: WHATWG-compliant and fast URL parser written in modern C++*
 
+![GitHub last commit](https://img.shields.io/github/last-commit/ada-url/ada?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ada-url/ada?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ada-url/ada?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/ada-url/ada?style=social)
+
+### URL Shortener
+
+1. https://tinyurl.com/ - *URL Shortener, Branded Short Links & Analytics | TinyURL*
+2. https://bitly.com/ - *Bitly Connections Platform | Short URLs, QR Codes, and More*
+3. https://git.io/ - *git.io* (停止运营)
+4. https://goo.gl - *Google URL Shortener links will no longer be available* (2018 年停止运营)
+
+### Unshorten.me
+
+1. https://unshorten.me/ - *Free URL Un-Shortener - Unshorten URLS like goo.gl, bit.ly and many more*
+
+### Google Analytics
+
+https://ga-dev-tools.google/campaign-url-builder/ - *Campaign URL Builder*
+
+### URLCheck
+
+https://github.com/TrianguloY/UrlChecker - _GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck_
+
 ## 常见问题
 
 ### 如何在 JavaScript 中验证 URL
 
 https://www.freecodecamp.org/chinese/news/how-to-validate-urls-in-javascript/ - *如何在 JavaScript 中验证 URL*
-

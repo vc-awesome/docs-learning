@@ -12,6 +12,33 @@ https://www.uisdc.com/ - *优设网官网 - UISDC - 国内专业设计师平台 
 
 https://pixabay.com/zh/ - *免费正版高清图片素材库 超过4.5百万张优质图片和视频素材可供免费使用和下载 - Pixabay - Pixabay*
 
+- [ ] 字体 fonts
+- [ ] 标志 logo
+- [ ] 图标 icons
+- [ ] 插画 illustrations
+- [ ] 视频 videos
+- [ ] 音乐 music
+- [ ] 动图 gifs
+- [ ] 头像 avatars
+- [ ] 照片 photos
+- [ ] 矢量 vectors
+- [ ] 贴纸 stickers
+
+https://undraw.co/ - *unDraw - Open source illustrations for any idea*
+
+https://mp.weixin.qq.com/s/CyYwc5aNd3ik5aOe8bBmpw - *程序员如何设计logo，如何找Icon和插画（绝对干货）*
+
+https://github.com/bytedance/iconpark - *GitHub - bytedance/IconPark: 🍎Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons* [Website](http://iconpark.bytedance.com/)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/bytedance/iconpark?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/bytedance/iconpark?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bytedance/iconpark?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/bytedance/iconpark?style=social)
+
+https://tabler.io/ - *Tabler is a free HTML admin template packed with well-designed components and features. Start your adventure with Tabler and make your dashboard great again!* [GitHub Org](https://github.com/tabler)
+
+https://pictogrammers.com/ - *Pictogrammers - Open-source iconography for designers and developers* [GitHub Org](https://github.com/Pictogrammers)
+
 ## 设计指南
 
 1. https://developers.weixin.qq.com/miniprogram/design/#友好礼貌 - *微信小程序设计指南 | 微信开放文档*
@@ -22,9 +49,23 @@ https://pixabay.com/zh/ - *免费正版高清图片素材库 超过4.5百万张�
 
 1. https://www.kancloud.cn/chandler/user-ex-and-programming/1019684 - *前端用户交互体验*
 
-## UI 设计
+## 标志设计
 
-### UI 设计规范
+暂无
+
+## VI 设计
+
+暂无
+
+## 海报设计
+
+暂无
+
+## 广告设计
+
+暂无
+
+## UI 设计
 
 1. https://www.kancloud.cn/chandler/user-ex-and-programming/1019685 - *UI设计规范 · 前端用户交互体验 · 看云*
 
@@ -35,54 +76,49 @@ https://pixabay.com/zh/ - *免费正版高清图片素材库 超过4.5百万张�
 4. https://developer.android.google.cn/design/ui?hl=zh-cn - *界面设计 | UI Design
 | Android Developers*
 
-### UI 布局
+## 包装设计
 
-1. 浏览器布局说明图，参考：https://learn.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs?view=powershell-7.3 - *如何使用 PowerShell 文档 - PowerShell | Microsoft Learn*
-2. https://code.visualstudio.com/docs/getstarted/userinterface - *Visual Studio Code User Interface*
-3. https://hx.dcloud.net.cn/Tutorial/userinterface - *用户界面 - HBuilderX 文档*
-4. https://developers.weixin.qq.com/miniprogram/dev/devtools/page.html - *界面*
-5. https://developers.weixin.qq.com/miniprogram/design/ - *设计*
-6. https://www.navicat.com/manual/online_manual/en/navicat_17/mac_manual/#/main_window_0 - *Navicat Tutorials | Navicat Online Manual*
-7. https://www.gnu.org/software/emacs/manual/html_node/emacs/Screen.html - *Screen (GNU Emacs Manual)*
+暂无
 
-### Material Design
+## 书籍设计
 
-> Material design file manager for Android. Contribute to TeamAmaze/AmazeFileManager development by creating an account on GitHub.
+暂无
 
-https://m3.material.io/ - *Material Design*
+## 服装设计
 
-https://github.com/material-components - *Material Components · GitHub*
+暂无
 
-- https://github.com/material-components/material-components-android - *GitHub - material-components/material-components-android: Modular and customizable Material Design UI components for Android*
+## 网页设计
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-android?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-android?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-android?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-android?style=social)
+暂无
 
-- https://github.com/material-components/material-components-ios - *GitHub - material-components/material-components-ios: [In maintenance mode] Modular and customizable Material Design UI components for iOS*
+## 电商美工设计
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-ios?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-ios?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-ios?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-ios?style=social)
-
-- https://github.com/material-components/material-web - *GitHub - material-components/material-web: Material Design Web Components* [Website](https://github.com/material-components/material-web)
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-web?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-web?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-web?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-web?style=social)
-
-### Logo, Icon, 插画
-
-https://mp.weixin.qq.com/s/CyYwc5aNd3ik5aOe8bBmpw - *程序员如何设计logo，如何找Icon和插画（绝对干货）*
-
-https://github.com/bytedance/iconpark - *GitHub - bytedance/IconPark: 🍎Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons*
+电商网页
 
 ## 平面设计
 
 1. https://www.yuque.com/markyun/doc/mda1sg - *平面设计基础常识汇总 · 语雀*
+
+## Google Design
+
+> Google Design is an editorial platform about design at Google. We open a window for designers and the design-curious to meet the people and processes behind the products.
+
+https://design.google/ - *Google Design - Discover the people and stories behind the products*
+
+### Material Design
+
+https://m3.material.io/ - *Material Design 3 - Google's latest open source design system*
+
+### Google Fonts
+
+https://fonts.google.com/ - *Browse Fonts - Google Fonts*
+
+## Primer Design System
+
+[Primer](https://primer.style/) - *Principles, standards, and usage guidelines for designing GitHub interfaces.*
+
+https://github.com/primer - *Primer · GitHub*
 
 ---
 

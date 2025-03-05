@@ -79,7 +79,7 @@ https://dev.to/envoy_/150-badges-for-github-pnk - *📛 Awesome Badges - DEV Com
 
 ---
 
-以下 Demo 均以 "https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstrap-vue: BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.*" 为例制作。
+以下 GitHub Demo 均以 "https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstrap-vue: BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.*" 为例制作。
 
 ### Badgen
 
@@ -101,10 +101,10 @@ https://badgen.net/ - *badgen.net*
 
     Demo：https://badgen.net/github/commits/bootstrap-vue/bootstrap-vue?icon=github&color=blue
 
-3. ![f-droid](https://badgen.net/f-droid/v/org.fdroid.fdroid)
+3. ![F-Droid Version](https://badgen.net/f-droid/v/org.fdroid.fdroid)
 
     ```markdown
-    ![f-droid](https://badgen.net/f-droid/v/)
+    ![F-Droid Version](https://badgen.net/f-droid/v/)
     ```
 
     Demo：https://badgen.net/f-droid/v/org.fdroid.fdroid
@@ -197,10 +197,10 @@ GitHub User：
 
     Demo: https://img.shields.io/github/v/tag/bootstrap-vue/bootstrap-vue?logo=github&color=blue
 
-8. ![npm](https://img.shields.io/npm/v/bootstrap-vue?logo=npm)
+8. ![NPM Version](https://img.shields.io/npm/v/bootstrap-vue?logo=npm)
 
     ```markdown
-    ![npm](https://img.shields.io/npm/v/?logo=npm)
+    ![NPM Version](https://img.shields.io/npm/v/?logo=npm)
     ```
 
     Demo：https://img.shields.io/npm/v/bootstrap-vue?logo=npm
@@ -239,6 +239,6 @@ GitHub User：
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/?logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/?logo=github&color=blue)
-![npm](https://img.shields.io/npm/v/?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/?style=social)
 ```

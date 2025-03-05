@@ -291,11 +291,9 @@ https://github.com/v2ray - *Project V · GitHub*
 
     - https://www.v2fly.org/config/routing.html - *Routing 路由 | V2Fly.org*
 
-2. https://github.com/ToutyRater/v2ray-guide
+2. https://github.com/ToutyRater/v2ray-guide - *GitHub - ToutyRater/v2ray-guide: V2Ray 配置指南* [Website](https://toutyrater.github.io/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/ToutyRater/v2ray-guide?color=blue&logo=github)
-
-    - https://toutyrater.github.io/ - *前言 · V2Ray 配置指南|V2Ray 白话文教程*
 
 ##### V2Fly
 
@@ -443,7 +441,7 @@ https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universa
 <i class="fa-brands fa-android"></i>
 [Surfboard Manual](https://getsurfboard.com/) - *A network traffic processing tools on Android platform* [GitHub Repo](https://github.com/getsurfboard/surfboard)
 
-### Browser
+### Web Browser
 
 #### 自由浏览
 
@@ -480,7 +478,7 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 1. https://t.me/s/tor_bridges - *Tor Bridges – Telegram*
 
-### Browser Extensions
+### Web Browser Extensions
 
 有关详细信息，请参阅“[浏览器扩展](os/tools/browser-extensions.md#proxy)”。
 
@@ -588,6 +586,8 @@ https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy bas
 > *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。
 >
 > <cite>—— [《网络代理与VPN应用详解》（这本书能让你连接互联网）](https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac)</cite>
+
+#### GFWList
 
 1. https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
 

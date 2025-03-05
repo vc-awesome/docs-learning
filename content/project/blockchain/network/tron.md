@@ -24,6 +24,7 @@ GitHub：
 区块浏览器：
 
 1. https://tronscan.io/ - *TRONSCAN | TRON BlockChain Explorer | 波场区块链浏览器*
+2. https://tronscan.org/ - *TRONSCAN | TRON BlockChain Explorer | 波场区块链浏览器*
 
 TRON 开发者中心：
 

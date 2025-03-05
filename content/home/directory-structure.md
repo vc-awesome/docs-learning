@@ -76,7 +76,7 @@ root_folder
 `-- README.md
 ```
 
-方式二：
+方式二（推荐）：
 
 ```tree
 root_folder/
@@ -217,22 +217,23 @@ myproject/
 │  └─ login/
 ├─ static/
 │  ├─ css/
-│      ├─ custom.css #自定义样式
-│      ├─ main.css #主样式
-│      ├─ style.css #全局样式
-│      ├─ fonts.css #字体样式
-│      ├─ modal.css
-│      ├─ index.css
-│      └─ default.css
-│  ├─ font/
+│  │   ├─ custom.css #自定义样式
+│  │   ├─ main.css #主样式
+│  │   ├─ style.css #全局样式
+│  │   ├─ fonts.css #字体样式
+│  │   ├─ modal.css
+│  │   ├─ index.css
+│  │   └─ default.css
+│  ├─ fonts/
+│  ├─ icons/
 │  ├─ images/
 │  ├─ plugins/
 │  ├─ themes/
 │  ├─ js/
-│      ├─ data.js #中英文数据
-│      ├─ main.js
-│      ├─ website.js
-│      └─ app.js
+│  │   ├─ data.js #中英文数据
+│  │   ├─ main.js
+│  │   ├─ website.js
+│  │   └─ app.js
 │  ├─ media/
 │  ├─ pdf/
 │  ├─ picture/
@@ -316,24 +317,24 @@ project/ #目录结构
 │  * css、less/scss 等资源不要放在 static 目录下，建议这些公用的资源放在自建的 common 目录下
 │  * static 目录下的 js 文件不会被编译，如果里面有 es6 的代码，不经过转换直接运行，在手机设备上会报错
 │  * 存放应用引用的本地静态资源（如图片、视频等）的目录，注意：静态资源只能存放于此
-│      ├─ images|imgs/
-│      │   ├─ avatar/ #头像
-│      │   │   ├─ avatar-square.png #圆角方形
-│      │   │   └─ avatar-circle.png #圆形
-│      │   ├─ background/ #背景图
-│      │   │   └─ bg-i-user.png #图片背景
-│      │   └─ empty/ #内容为空 --from uView 的 Empty 组件
-│      │        └─ empty-message.png #消息列表为空
-│      │   ├─ start/
-│      │   │   └─ start-image.png #启动图
-│      │   ├─ common/
-│      │   ├─ icon/
-│      │   │   └─ icon-upload.png #上传图标
-│      │   ├─ logo/
-│      │   │   └─ logo.png
-│      │   └─ tabbarA/ #底部标签页 A、B、C... 内的图片
+│  └─ images|imgs/
+│      ├─ avatar/ #头像
+│      │  ├─ avatar-square.png #圆角方形
+│      │  └─ avatar-circle.png #圆形
+│      ├─ background/ #背景图
+│      │  └─ bg-i-user.png #图片背景
+│      ├─ empty/ #内容为空 --from uView 的 Empty 组件
+│      │  └─ empty-message.png #消息列表为空
+│      ├─ start/
+│      │  └─ start-image.png #启动图
+│      ├─ common/
+│      ├─ icon/
+│      │  └─ icon-upload.png #上传图标
+│      ├─ logo/
+│      │  └─ logo.png
+│      └─ tabbarA/ #底部标签页 A、B、C... 内的图片
 ├─ store/ #vuex 状态管理
-│      └─ index.js
+│  └─ index.js
 ├─ utils/ #工具集，从 uni-app 插件导入的插件
 ├─ App.vue
 ├─ main.js

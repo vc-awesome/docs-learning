@@ -10,7 +10,7 @@ that lets developers write command line tools and server-side scripts outside of
 ![GitHub last commit](https://badgen.net/github/last-commit/nodejs/node?icon=github&color=blue)
 ![GitHub Release Date](https://img.shields.io/github/release-date/nodejs/node?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/nodejs/node?logo=github)
-![npm](https://img.shields.io/npm/v/node?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/node?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/nodejs/node?style=social)
 
 ## 官方

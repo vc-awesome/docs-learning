@@ -24,26 +24,26 @@
 
 ### 终端环境
 
-1. [Windows CMD](os/windows/cmd.md)
-2. [Linux Shell 环境](os/linux/shell.md)
+1. [Windows CMD](os/desktop/windows/cmd.md)
+2. [Linux Shell 环境](os/desktop/linux/shell.md)
     1. [~~Bash~~]()
     2. [PowerShell](os/tools/developer/powershell.md)
     3. [~~Zsh~~]()
-3. [macOS Terminal](os/mac/terminal.md)
+3. [macOS Terminal](os/desktop/mac/terminal.md)
 4. [Android Termux](os/mobile/termux.md)
 5. [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
 
 ### 命令
 
-1. [Windows](os/windows/command.md)
-2. [macOS](os/mac/terminal.md)
-3. [Linux](os/linux/command.md)
+1. [Windows](os/desktop/windows/command.md)
+2. [macOS](os/desktop/mac/terminal.md)
+3. [Linux](os/desktop/linux/command.md)
 
 ### 脚本
 
-1. [Windows *.bat](os/windows/batch.md)
+1. [Windows *.bat](os/desktop/windows/batch.md)
 2. [Windows *.ps1](os/tools/developer/powershell.md)
-3. [Linux *.sh](os/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
+3. [Linux *.sh](os/desktop/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
 
 ### 工具
 
@@ -83,7 +83,7 @@
 
 ## 大厂
 
-1. [Microsoft](os/windows/README.md)
-2. [Apple Inc.](os/mac/README.md)
+1. [Microsoft](os/desktop/windows/README.md)
+2. [Apple Inc.](os/desktop/mac/README.md)
 3. [Google Inc.](tech-stack/google.md)
 4. [Adobe: Creative, marketing and document management solutions](https://www.adobe.com/) - *Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.*

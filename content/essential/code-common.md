@@ -19,6 +19,8 @@ https://baike.baidu.com/item/静态变量/10997955 - *静态变量_百度百科*
 
 ## 常量
 
+暂无
+
 ## 数据类型
 
 ### 字符串
@@ -63,6 +65,12 @@ https://baike.baidu.com/item/静态变量/10997955 - *静态变量_百度百科*
 6. https://docs.pingcode.com/ask/ask-ask/220466.html - *如何优雅的给代码写英文注释 – PingCode*
 
 ## 运算符
+
+### 算数运算符
+
+暂无
+
+### 比较运算符
 
 暂无
 

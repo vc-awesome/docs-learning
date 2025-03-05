@@ -10,6 +10,8 @@
 2. https://pkgs.org/ - *Packages for Linux and Unix - pkgs.org*
 3. https://release-monitoring.org/ - *Anitya*
 4. https://formulae.brew.sh/ - *Homebrew Formulae*
+5. https://ss64.com/ - *SS64 Command line reference* \
+    \> _via https://github.com/rgcr/m-cli - *GitHub - rgcr/m-cli:  Swiss Army Knife for macOS*_
 
 ## 开发者工具
 
@@ -17,7 +19,7 @@
 
 #### 文本编辑器
 
-1. [Vim](https://www.vim.org) - *Vi IMproved - enhanced vi editor*
+1. [Vim](https://www.vim.org) - *Vi IMproved - enhanced vi editor* [使用手册](os/tools/developer/editor/vim.md)
 
 ### 编程语言
 
@@ -55,7 +57,7 @@
 
 ### Node.js
 
-1. [Node.js — Run JavaScript Everywhere](https://nodejs.org/) - *Open Source, cross-platform JavaScript runtime environment*
+1. [Node.js — Run JavaScript Everywhere](https://nodejs.org/) - *Open Source, cross-platform JavaScript runtime environment* [使用手册](front-end/nodejs/README.md)
 
 ### 网络服务与服务器
 
@@ -85,7 +87,7 @@
 
 ### 版本控制
 
-1. [Git](https://git-scm.com/) - *Fast, scalable, distributed revision control system*
+1. [Git](https://git-scm.com/) - *Fast, scalable, distributed revision control system* [使用手册](os/tools/developer/git.md)
 
 #### CLI Clients
 
@@ -97,7 +99,7 @@
 
 ## 网络工具
 
-1. [curl](https://curl.se/) - *Command line tool for transferring data with URL syntax* \
+1. [curl](https://curl.se/) - *Command line tool for transferring data with URL syntax* [使用手册](os/tools/developer/curl.md) \
     \> 用于从网络上获取数据。
 
 2. [Wget - GNU Project - Free Software Foundation](https://www.gnu.org/software/wget/) - *Commandline tool for retrieving files using HTTP, HTTPS and FTP* \
@@ -127,7 +129,7 @@
 
 ### 文件同步
 
-1. [Rclone](https://rclone.org/) - *Rclone syncs your files to cloud storage: Google Drive, S3, Swift, Dropbox, Google Cloud Storage, Azure, Box and many more.*
+1. [Rclone](https://rclone.org/) - *Rclone syncs your files to cloud storage: Google Drive, S3, Swift, Dropbox, Google Cloud Storage, Azure, Box and many more.* [使用手册](os/tools/developer/rclone.md)
 
     - 支持 Windows, macOS, Linux, Android（Termux）
 

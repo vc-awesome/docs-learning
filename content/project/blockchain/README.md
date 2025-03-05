@@ -106,7 +106,7 @@ https://github.com/ChainSafe/web3.js - *Ethereum JavaScript API*
 ![GitHub Release Date](https://img.shields.io/github/release-date/ChainSafe/web3.js?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ChainSafe/web3.js?logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/ChainSafe/web3.js?logo=github&color=blue)
-![npm](https://img.shields.io/npm/v/web3?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/web3?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ChainSafe/web3.js?style=social)
 
 ---

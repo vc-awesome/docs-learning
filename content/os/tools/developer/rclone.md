@@ -21,17 +21,76 @@ https://rclone.org/docs/ - _Documentation_
 
 ## 入门指南
 
+### 目录结构
+
 ```bash
-rclone check ~/source/ ~/dest/ --exclude 'node_modules' --exclude
+rclone config paths
+```
+
+```tree
+root_folder/
+└── home/
+      ├── .cache/
+      │       └── rclone/
+      └── .config/
+               └── rclone/
+```
+
+### Commands
+
+#### rclone check
+
+https://rclone.org/commands/rclone_check/ - *rclone check*
+
+#### rclone config
+
+https://rclone.org/commands/rclone_config/ - *rclone config*
+
+#### rclone ls
+
+https://rclone.org/commands/rclone_ls/ - *rclone ls*
+
+#### rclone sync
+
+https://rclone.org/commands/rclone_sync/ - *rclone sync*
+
+### Filtering
+
+https://rclone.org/filtering/ - *Rclone Filtering*
+
+#### --exclude
+
+暂无
+
+### Flags
+
+https://rclone.org/flags/ - *Global Flags*
+
+#### --interactive/-i
+
+暂无
+
+### Storage Systems
+
+https://rclone.org/overview/ - *Overview of cloud storage systems*
+
+#### Microsoft OneDrive
+
+https://rclone.org/onedrive/ - *Microsoft OneDrive*
+
+#### The local filesystem
+
+https://rclone.org/local/ - *Local Filesystem*
+
+## 快速入门
+
+```bash
+rclone check ~/source/ ~/dest/ --exclude 'node_modules' --exclude 'package-lock.json'
 ```
 
 ```bash
 rclone sync ~/source/ ~/dest/ --progress --dry-run --exclude 'node_modules' --exclude 'package-lock.json'
 ```
-
-## 快速入门
-
-暂无
 
 ## 安装
 
@@ -55,14 +114,16 @@ https://rclone.org/docs/ - _Documentation_
 
 1. https://rclone.org/local/ - _Local Filesystem_
 
-## 更新日志
-
-https://rclone.org/changelog/ - _Documentation_
-
 ## 常见问题解答
 
 https://rclone.org/faq/ - _FAQ_
 
-## 参考
+## 附录
+
+### 更新日志
+
+https://rclone.org/changelog/ - _Documentation_
+
+### 参考
 
 暂无

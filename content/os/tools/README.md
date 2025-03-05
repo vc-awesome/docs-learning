@@ -291,8 +291,8 @@
 8. [VS Code](os/tools/app-list.md#visual-studio-code)
 9. [Sublime Text](os/tools/app-list.md#sublime)
 10. [蓝湖](os/tools/app-list.md#lanhu)
-11. [Homebrew](os/mac/homebrew.md)
-12. [Alfred](os/mac/alfred.md)
+11. [Homebrew](os/desktop/mac/homebrew.md)
+12. [Alfred](os/desktop/mac/alfred.md)
 
 场景二：
 
@@ -401,14 +401,15 @@
 客户端（Client）：
 
 - 网页（Web）软件（可在浏览器中使用）
-- 桌面（Desktop）软件（需下载安装到电脑中使用）
+- 桌面（Desktop）软件（需下载并安装到电脑中使用）
     - 版本（Version）
         - 安装程序包（Installer / Setup）
         - 便携式版本（Portable Version）
 - 电脑（Computer）软件
 - 平板（Tablet）软件
 - 手机（Mobile）软件
-- 跨平台应用（支持 PC 端、智能手机、平板、Web 网页等平台）
+- 智能穿戴（Wearables）软件
+- 跨平台软件（支持 PC 端、智能手机、平板、Web 网页等平台）
 - 编程（Programming）软件
     - 源码构建、源码编译（参考：https://www.qemu.org/download/ - *Download QEMU - QEMU*）
 - 插件（Plugin）API
@@ -421,6 +422,7 @@
 
 1. https://bugs.opera.com/wizard/mobile - *Bug report wizard - Opera Software*
 2. https://github.com/bitwarden - *Bitwarden · GitHub*
+3. https://www.todoist.com/downloads - *Todoist for Android | Mobile App Download*
 
 ---
 
@@ -530,6 +532,12 @@
 1. https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html - *微信开发者工具下载地址与更新日志*
 
 
+### 按职位分类
+
+- 开发人员
+- 设计人员
+
+
 ## 软件安装
 
 ### 下载指南
@@ -547,6 +555,10 @@ Download guide：
 参考：
 
 1. https://localsend.org/#/download - *LocalSend*
+
+Note: All three different versions (Play Store, F-droid and GitHub) are signed with different certificates, so you cannot update one with another unless you uninstall first. Remember to use the backup/restore functionality to migrate your data!
+
+_via https://github.com/TrianguloY/URLCheck/releases/tag/v3.1 - *Release URLCheck 3.1 release apk · TrianguloY/URLCheck · GitHub*_
 
 
 ### 系统要求
@@ -675,7 +687,7 @@ https://mp.weixin.qq.com/s/isiJmU2vfvPRSipQ34QHkA - *最后教一次：完美解
 1. [VirusTotal](https://www.virustotal.com/) - *VirusTotal*\
     \> _via https://xz.aliyun.com/t/14250?time__1311=GqAxuDcDRD9D27DlxGoSDyA0titqw4HvpD - *VirusTotal食用指南（非付费项目） - 先知社区*_
 
-2. [GitHub - soupslurpr/AppVerifier: Verify apps easily.](https://github.com/soupslurpr/AppVerifier)
+2. [GitHub - soupslurpr/AppVerifier: Verify apps easily.](https://github.com/soupslurpr/AppVerifier) - *Verify apps easily. Contribute to soupslurpr/AppVerifier development by creating an account on GitHub.*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/soupslurpr/AppVerifier?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/soupslurpr/AppVerifier?display_date=published_at&logo=github)
@@ -698,7 +710,13 @@ https://exodus-privacy.eu.org/en/ - *Exodus Privacy*
 
 ### 如何进行软件分类？
 
-_> 参考「Google Play 商店」、「小米应用商店」、「Mac APP Store」。_
+_> 参考「[Google Play 商店](os/tools/search.md#play-store)」、「[小米应用商店](os/tools/search.md#小米应用商店)」、「[APP Store](os/tools/search.md#app-store)」等应用商店。_
+
+参考：
+
+1. https://support.google.com/googleplay/android-developer/answer/9859673?hl=en - *Choose a category and tags for your app or game - Play Console Help*
+2. https://play.google.com/store/apps/category/COMMUNICATION - *Communication - Android Apps on Google Play*
+3. https://play.google.com/store/apps/details?id=com.android.chrome - *Google Chrome - Apps on Google Play*
 
 
 ### 如何验证软件安装包的真伪？

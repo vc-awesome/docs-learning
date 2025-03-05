@@ -14,7 +14,10 @@ https://developer.android.google.cn/studio?hl=zh-cn - *下载 Android Studio 和
 
 1. https://developer.android.google.cn/studio/install - *Download Android Studio & App Tools - Android Developers*
 2. https://developer.android.google.cn/studio#downloads - *Download Android Studio & App Tools - Android Developers*
-3. https://formulae.brew.sh/cask/android-studio - *android-studio — Homebrew Formulae*
+
+### macOS
+
+1. https://formulae.brew.sh/cask/android-studio - *android-studio — Homebrew Formulae*
 
 ## 入门指南
 

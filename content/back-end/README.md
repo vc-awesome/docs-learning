@@ -44,9 +44,9 @@
 
 ### 📂 __5.1__
 
-0. 📄 [thinkphp5.1\-validate.md](back-end/thinkphp/5.1/thinkphp5.1-validate.md)
-1. 📄 [thinkphp5.1\-curd.md](back-end/thinkphp/5.1/thinkphp5.1-curd.md)
-2. 📄 [thinkphp5.1\-api.md](back-end/thinkphp/5.1/thinkphp5.1-api.md)
+0. 📄 [validate.md](back-end/thinkphp/5.1/validate.md)
+1. 📄 [curd.md](back-end/thinkphp/5.1/curd.md)
+2. 📄 [api.md](back-end/thinkphp/5.1/api.md)
 3. 📄 [README.md](back-end/thinkphp/5.1/README.md)
 
 ### 📂 __6.0__

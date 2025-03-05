@@ -1,7 +1,5 @@
 # 文件对比
 
-// TODO: 完善内容
-
 1. https://blog.csdn.net/lzp_k2/article/details/88529094 - *10款最佳的Linux文件比较工具_kompare下载-CSDN博客*
 
 2. https://cn.linux-console.net/?p=998 - *Linux 中 10 个最佳文件比较和差异 (Diff) 工具*
@@ -23,33 +21,9 @@
 - [x] 对比文件
 - [x] 对比目录
 
-## git diff
+## Desktop & Mobile App
 
-[git diff](os/tools/developer/git.md#文件差异-diff) - *Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.*
-
-- diff-so-fancy - *美化输出工具，Termux 暂不支持*
-
-Git 自带彩色差异显示功能，无需额外工具。
-
-命令：
-
-```bash
-git diff --color
-```
-
-如果是非 Git 文件，也可以用 Git 的 diff 功能：
-
-```bash
-git diff --no-index <path> <path>
-```
-
-[_--diff-filter=[(A/C/D/M/R/T/U/X/B)…​\[\*\]]_](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---diff-filterACDMRTUXB82308203) - *对比两个目录都存在的文件*
-
-```bash
-git diff --diff-filter=ACM dir1 dir2
-```
-
-## colordiff
+### colordiff
 
 [colordiff](os/mobile/termux.md#colordiff) - *The Perl script colordiff is a wrapper for ‘diff’ and produces the same output but with pretty ‘syntax’ highlighting. Colour schemes can be customized.*
 
@@ -67,15 +41,42 @@ sudo apt install colordiff
 colordiff -u file1 file2
 ```
 
-## diff
+### diff
 
-[diff](os/linux/command.md#diff) - *Compare FILES line by line.*
+[diff](os/desktop/linux/command.md#diff) - *Compare FILES line by line.*
 
-## vimdiff
+### diff-so-fancy
 
-[vimdiff](os/tools/developer/vim.md#对比文件) - *Vimdiff starts Vim on two up to eight files.  Each file gets its own window.  The differences between the files are highlighted.  This is a nice way to inspect changes and to move changes from one version to another version of the same file.*
+[GitHub - so-fancy/diff-so-fancy: Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada:](https://github.com/so-fancy/diff-so-fancy#start-of-content) - *Good-lookin&#39; diffs. Actually… nah… The best-lookin&#39; diffs. :tada: - so-fancy/diff-so-fancy*
 
-## meld
+- _via https://www.ruanyifeng.com/blog/2022/01/cli-alternative-tools.html - *命令行常用工具的替代品 - 阮一峰的网络日志*_
+- *美化输出工具，Termux 暂不支持*
+
+### git diff
+
+[git diff](os/tools/developer/git.md#文件差异-diff) - *Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.*
+
+支持：
+
+- [x] Windows
+- [x] macOS
+- [x] Linux
+- [x] Android (Termux)
+- [ ] Web
+
+### kdiff3
+
+https://repology.org/project/kdiff3/versions - *kdiff3 package versions - Repology*
+
+支持：
+
+- [x] Windows
+- [x] macOS
+- [x] Linux
+- [ ] Android (Termux)
+- [ ] Web
+
+### meld
 
 https://repology.org/project/meld/versions - *meld package versions - Repology*
 
@@ -87,17 +88,9 @@ https://repology.org/project/meld/versions - *meld package versions - Repology*
 - [x] Android (Termux)
 - [ ] Web
 
-## kdiff3
+### vimdiff
 
-https://repology.org/project/kdiff3/versions - *kdiff3 package versions - Repology*
-
-支持：
-
-- [x] Windows
-- [x] macOS
-- [x] Linux
-- [ ] Android (Termux)
-- [ ] Web
+[vimdiff](os/tools/developer/editor/vim.md#对比文件) - *Vimdiff starts Vim on two up to eight files.  Each file gets its own window.  The differences between the files are highlighted.  This is a nice way to inspect changes and to move changes from one version to another version of the same file.*
 
 ## Web app
 

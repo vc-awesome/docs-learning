@@ -2,9 +2,9 @@
 * [快速入门](home/getting-started.md)
 * **Frequent Use**
 * [学习资源](home/book.md)
-* [Markdown](home/markdown.md)
 * [软件版本号](home/semver.md)
 * [目录结构](home/directory-structure.md)
 * [文档模板](home/document-template.md)
-* [Emoji](home/emoji.md)
 * [术语表/词汇表](home/glossary.md)
+* [Emoji](home/emoji.md)
+* [Markdown](home/markdown.md)

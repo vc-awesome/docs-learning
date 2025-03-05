@@ -4,7 +4,7 @@
 
 > Vue (发音为 /vjuː/，类似 view) 是一款用于构建用户界面的 JavaScript 框架。它基于标准 HTML、CSS 和 JavaScript 构建，并提供了一套声明式的、组件化的编程模型，帮助你高效地开发用户界面。无论是简单还是复杂的界面，Vue 都可以胜任。
 
-![npm](https://img.shields.io/npm/v/vue?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/vue?logo=npm)
 
 ## 官方
 
@@ -54,7 +54,7 @@ v3.x：
 
 https://cn.vuejs.org/guide/quick-start.html - *快速上手 | Vue.js*
 
-### 通过 npm 安装
+### 通过 NPM 安装
 
 使用 npm 安装（安装的 nodejs 环境中内置 npm 指令）
 

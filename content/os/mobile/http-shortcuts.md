@@ -4,7 +4,7 @@
 
 > A simple but powerful Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request, with the possibility of processing and displaying the response in various ways. Ideal for home automation projects.
 
-![F-Droid Version](https://img.shields.io/f-droid/v/ch.rmy.android.http_shortcuts?logo=f-droid)
+![F-Droid Version](https://img.shields.io/f-droid/v/ch.rmy.android.http_shortcuts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Waboodoo/HTTP-Shortcuts?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Waboodoo/HTTP-Shortcuts?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Waboodoo/HTTP-Shortcuts?logo=github)
@@ -124,11 +124,33 @@ https://mp.weixin.qq.com/s/ZYuWhsYrhOmzuZwMV01B2w
 <meta property="og:title" content="我是怎么自学 Git / GitHub 的？" />
 ```
 
+```javascript
+//const url = 'https://nodejs.org/en' // 测试网页
+setVariable("url", url);
+const resultObject = executeShortcut("默认UA获取站点元数据", {
+  meta_type: 'description',
+});
+if (resultObject.status !== 'success' || !resultObject.result) {
+  abort();
+}
+copyToClipboard(resultObject.result);
+```
+
+## 更新日志
+
+https://github.com/Waboodoo/HTTP-Shortcuts/blob/develop/CHANGELOG.md - *HTTP-Shortcuts/CHANGELOG.md at develop · Waboodoo/HTTP-Shortcuts · GitHub*
+
 ## 常见问题解答
 
-问题：
+- 问题：
 
-版本 `3.13.0 (1103130003)` , `3.12.1 (1103120100)` 和 `3.12.0 (1103120008)` 编辑（删除文字）快捷方式会使应用闪退。
+    版本 `3.13.0 (1103130003)` , `3.12.1 (1103120100)` 和 `3.12.0 (1103120008)` 编辑（删除文字）快捷方式会使应用闪退。
+
+- 问题：
+
+    **Q:** 提示 "发生错误：已达到最大递归深度，快捷方式无法启动"。
+
+    **A:** 将脚本代码中的 `executeShortcut` 替换为 `enqueueShortcut`，有关详细信息，请参阅“[HTTP Shortcuts 官方文档 > executeShortcut](https://http-shortcuts.rmy.ch/scripting#execute-shortcut)”。
 
 ## 参考
 

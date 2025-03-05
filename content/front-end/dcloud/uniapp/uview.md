@@ -94,52 +94,64 @@ https://v1.uviewui.com/components/install.html - *安装 | uView - 多平台快�
 
 ### 常用组件
 
-#### Icon 图标
+#### 基础组件
 
-#### Cell 单元格
+##### Button 按钮
 
-#### Button 按钮
+##### Cell 单元格
 
-#### Layout 布局
+##### Icon 图标
 
-#### Form 表单
+##### Layout 布局
 
-#### Rate 评分
+#### 表单组件
 
-#### Upload 上传
+##### Checkbox 复选框
+
+##### Form 表单
+
+##### Radio 单选框
+
+##### Rate 评分
+
+##### Upload 上传
 
 手动上传
 
 自动上传
 
-#### List 列表
+#### 数据组件
+
+##### List 列表
 
 v2.x：
 
 - https://uviewui.com/components/list.html - *List 列表 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
 - https://v2-h5.uviewui.com/index.html#/pages/componentsC/list/list - *列表*
 
-#### NoticeBar 滚动通知
+#### 反馈组件
 
-#### Line 线条
+##### Modal 模态框
 
-#### Card 卡片
+##### NoticeBar 滚动通知
 
-#### Grid 宫格布局
+#### 布局组件
 
-#### TimeLine 时间轴
+##### Card 卡片
 
-#### Skeleton 骨架屏
+##### Divider 分割线
 
-#### Divider 分割线
+##### Grid 宫格布局
 
-#### Radio 单选框
+##### Line 线条
 
-#### Checkbox 复选框
+##### Skeleton 骨架屏
 
-#### Modal 模态框
+##### TimeLine 时间轴
 
-#### Empty 内容为空
+#### 导航组件
+
+##### Empty 内容为空
 
 代码示例
 
@@ -195,7 +207,9 @@ v2.x：
 
 ```
 
-#### Gap 间隔槽
+#### 其他组件
+
+##### Gap 间隔槽
 
 ## 常见问题
 

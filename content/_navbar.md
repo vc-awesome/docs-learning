@@ -1,8 +1,8 @@
 - [Home](home/README.md)
     - **_常用文档_**
     - [<i class="fa-duotone fa-book fa-fw"></i> 学习资源](home/book.md)
-    - [<i class="fa fa-warning medium-orange fa-fw"></i> 注意事项](home/README.md#warning)
-    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
+    - [<i class="fa fa-warning medium-orange fa-fw"></i> 注意事项](project/warning.md)
+    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](design/iconfont.md)
     - [<i class="fa-brands fa-bootstrap fa-fw"></i> Bootstrap](framework/README.md#bootstrap-🔥)
     - [<i class="fa-regular fa-circle-info fa-fw"></i> 版本号](home/semver.md)
     - [<i class="fa-duotone fa-book-font fa-fw"></i> Glossary](home/README.md#术语表)
@@ -19,10 +19,10 @@
     - [<i class="fa-brands fa-git-alt fa-fw" style="color: #f64d27;"></i> Git](os/tools/git.md)
     - [<i class="fab fa-markdown fa-fw"></i> Markdown](os/tools/markdown.md)
     - <hr />
-    - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/linux/linux%20指令)
-    - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/mac/homebrew.md)
+    - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/desktop/linux/linux%20指令)
+    - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/desktop/mac/homebrew.md)
     - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/termux.md)
-    - [<i class="fa-duotone fa-toolbox fa-fw"></i> Vim](os/linux/vim.md)
+    - [<i class="fa-duotone fa-toolbox fa-fw"></i> Vim](os/desktop/linux/vim.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> VS Code](os/tools/visual-studio-code.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> Sublime Text](os/tools/sublime-text.md)
 - [Essentials](essential/README.md)
@@ -55,7 +55,7 @@
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-android"></use></svg> Android](front-end/android.md)
     - <hr />
     - [<i class="fa-duotone fa-compass-drafting fa-fw"></i> 产品设计](front-end/design/README.md)
-    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](front-end/iconfont.md)
+    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](design/iconfont.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-CDNHub"></use></svg> CDN](essential/network/cdn.md)
 - Back-end
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-php1"></use></svg> PHP](back-end/php/README.md)
@@ -76,9 +76,9 @@
     - [<i class="icon octicon-file mongodb-icon dark-green fa-fw"></i> MongoDB](database/mongodb.md)
     <!--- [<span class="animate__animated animate__heartBeat animate__infinite animate__slow" style="display: inline-block;">🔥 OS</span>](os/README.md)-->
 - [🔥 OS</span>](os/README.md)
-  - [<i class="fa fa-windows fa-fw"></i> Windows](os/windows/README.md)
-  - [<i class="fa fa-linux fa-fw"></i> Linux](os/linux/README.md)
-  - [<i class="fa fa-apple fa-fw"></i> Mac](os/mac/README.md)
+  - [<i class="fa fa-windows fa-fw"></i> Windows](os/desktop/windows/README.md)
+  - [<i class="fa fa-linux fa-fw"></i> Linux](os/desktop/linux/README.md)
+  - [<i class="fa fa-apple fa-fw"></i> Mac](os/desktop/mac/README.md)
   - [<i class="fal fa-mobile fa-fw"></i> Mobile](os/mobile/README.md)
   - [<i class="fa-regular fa-bags-shopping fa-fw"></i> 应用商店](os/app-store.md)
   - <hr />
@@ -104,8 +104,8 @@
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-stack"></use></svg> TechStack](tech-stack/README.md "技术栈")
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-kuangjia"></use></svg> 开发框架](framework/README.md)
-    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-gongneng"></use></svg> 功能列表](function-list/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-gongneng"></use></svg> 功能列表](features/README.md)
     - <hr />
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-aliyun"></use></svg> 阿里云](tech-stack/aliyun.md)
-    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-weixin1"></use></svg> 微信](tech-stack/wechat.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-weixin1"></use></svg> 微信](tech-stack/tencent/wechat.md)
     - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-google"></use></svg> Google](tech-stack/google.md)

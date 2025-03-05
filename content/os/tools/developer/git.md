@@ -27,10 +27,11 @@ GitHub: https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror -
 
 ### 第三方教程
 
-1. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
-2. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
-3. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
-4. https://github.com/wangdoc/git-tutorial - *GitHub - wangdoc/git-tutorial: Git 教程*\
+1. https://github.com/git-guides - *Git · GitHub*
+2. https://www.runoob.com/git/git-tutorial.html - *Git 教程 | 菜鸟教程*
+3. https://www.liaoxuefeng.com/wiki/896043488029600 - *Git教程 - 廖雪峰的官方网站*
+4. https://www.atlassian.com/zh/git - *Learn Git- Git tutorials, workflows and commands | Atlassian Git Tutorial*
+5. https://github.com/wangdoc/git-tutorial - *GitHub - wangdoc/git-tutorial: Git 教程*\
     \> _via https://www.bookstack.cn/read/git-tutorial/README.md - *介绍 - 《阮一峰 Git 教程》 - 书栈网 · BookStack*_
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/git-tutorial?logo=github&color=blue)
@@ -115,6 +116,8 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
     ![GitHub Repo stars](https://img.shields.io/github/stars/github/training-kit?style=social)
 
     https://training.github.com/downloads/zh_CN/github-git-cheat-sheet/ - *GitHub Git 备忘单 - GitHub Cheatsheets*
+
+3. <https://git-scm.com/book/zh/v2/Git-基础-记录每次更新到仓库> - *Git - 记录每次更新到仓库*
 
 ---
 
@@ -520,6 +523,12 @@ git clone git@github.com:zenorocha/codecopy.git
 git add -h
 ```
 
+interactive picking：
+
+```bash
+git add -i
+```
+
 update tracked files：
 
 ```bash
@@ -544,8 +553,9 @@ git add --all -- ':!*.md~' ':!*.swp' # 示例
 
 参考：
 
-1. https://segmentfault.com/q/1010000012605030 - *git add 多个文件，但想忽略某一个文件 - SegmentFault 思否*
-2. https://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file - *git - Add all files to a commit except a single file? - Stack Overflow*
+1. <https://git-scm.com/book/zh/v2/Git-工具-交互式暂存> - *Git - 交互式暂存*
+2. https://segmentfault.com/q/1010000012605030 - *git add 多个文件，但想忽略某一个文件 - SegmentFault 思否*
+3. https://stackoverflow.com/questions/4475457/add-all-files-to-a-commit-except-a-single-file - *git - Add all files to a commit except a single file? - Stack Overflow*
 
 ### 提交 - *commit*
 
@@ -798,13 +808,17 @@ git log --decorate
 
 > [git-diff](https://git-scm.com/docs/git-diff/zh_HANS-CN) - 显示提交和工作区等变化
 
+```bash
+git diff -h
+```
+
 尚未缓存的改动（没有 git add 的文件），显示暂存区和工作区的差异：
 
 ```bash
 git diff [file]
 ```
 
-查看已缓存的改动（已经 git add 的文件），显示暂存区和上一次提交(commit)的差异：
+查看已缓存的改动（已经 git add 的文件），显示暂存区和上一次提交（commit）的差异：
 
 ```bash
 git diff --cached [file]
@@ -824,6 +838,18 @@ git diff HEAD [file]
 
 ```bash
 git diff --stat
+```
+
+自带彩色差异显示功能，无需额外工具：
+
+```bash
+git diff --color
+```
+
+如果是非 git 文件，也可以用 git 的 diff 功能：
+
+```bash
+git diff --no-index <path> <path>
 ```
 
 显示两次提交之间的差异（first-branch 相当于 commit-id）：
@@ -851,7 +877,7 @@ git diff [first-branch]...[second-branch]
 - 方式二：
 
     ```bash
-    git diff <masterbranch> <remotebranch>
+    git diff <master branch> <remote branch>
     ```
 
 - 以上参考：
@@ -860,16 +886,22 @@ git diff [first-branch]...[second-branch]
 
         - https://stackoverflow.com/questions/46786070/how-do-i-show-differences-between-local-and-remote-files-in-git - *How do I show differences between local and remote files in Git? - Stack Overflow*
 
-[**--word-diff[=<模式>]**](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---word-diffltgt) - 显示词的差异，用 `<模式>` 来分隔已更改的词。默认情况下，单词是以空格分隔。
+[\-\-word-diff[=<模式>]](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---word-diffltgt) - _显示词的差异，用 `<模式>` 来分隔已更改的词。默认情况下，单词是以空格分隔。_
 
 ```bash
 git diff --word-diff=porcelain
 ```
 
-[**--color-words[=<正则表达式>]**](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---color-wordsltgt) - 与 `--word-diff=color` 和（如果指明了正则表达式）`--word-diff-regex=<正则表达式>` 两个选项含义相同。
+[\-\-color-words[=<正则表达式>]](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---color-wordsltgt) - _与 `--word-diff=color` 和（如果指明了正则表达式）`--word-diff-regex=<正则表达式>` 两个选项含义相同。_
 
 ```bash
 git diff --color-words
+```
+
+[\-\-diff-filter=[(A/C/D/M/R/T/U/X/B)…​\[\*\]]](https://git-scm.com/docs/git-diff/zh_HANS-CN#git-diff---diff-filterACDMRTUXB82308203) - *对比两个目录都存在的文件*
+
+```bash
+git diff --diff-filter=ACM dir1 dir2
 ```
 
 参考：
@@ -1040,6 +1072,12 @@ git restore <file> #恢复已改动但未提交的文件
 
 ```bash
 git restore --staged <file> #恢复暂存状态的文件
+```
+
+select hunks interactively：
+
+```bash
+git restore -p
 ```
 
 参考：
@@ -1261,6 +1299,14 @@ git stash clear
 git reflog
 ```
 
+### 列出文件信息 - *ls-files*
+
+> [git-ls-files](https://git-scm.com/docs/git-ls-files/zh_HANS-CN) - *显示索引和工作目录树中的文件信息*
+
+```bash
+git ls-files
+```
+
 ### 列出树对象 - *ls-tree*
 
 > [git-ls-tree](https://git-scm.com/docs/git-ls-tree/zh_HANS-CN) - 列出树对象的内容
@@ -1460,6 +1506,16 @@ git ls-tree --name-only <commit_id>
 git show <commit_id>:<filename>
 ```
 
+### 查看未追踪的文件
+
+要简短地查看未追踪的文件，可以使用以下命令：
+
+```bash
+git ls-files --others --exclude-standard
+```
+
+这个命令会列出所有未追踪的文件，`--others` 选项表示显示未追踪的文件，`--exclude-standard` 选项会排除那些在 `.gitignore` 文件中列出的文件。这样，你可以快速查看当前目录下的未追踪文件。
+
 ### webhook
 
 - 在 Gitee 中实现
@@ -1615,7 +1671,7 @@ https://github.com/carloscuesta/gitmoji-cli - *GitHub - carloscuesta/gitmoji-cli
 ![GitHub last commit](https://badgen.net/github/last-commit/carloscuesta/gitmoji-cli?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/carloscuesta/gitmoji-cli?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/carloscuesta/gitmoji-cli?logo=github)
-![npm](https://img.shields.io/npm/v/gitmoji-cli?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/gitmoji-cli?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/carloscuesta/gitmoji-cli?style=social)
 
 - 安装

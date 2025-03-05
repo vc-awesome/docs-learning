@@ -6,7 +6,7 @@
 
 ![GitHub last commit](https://badgen.net/github/last-commit/sass/sass?icon=github&color=blue)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/sass/sass?logo=github&color=blue)
-![npm](https://img.shields.io/npm/v/sass?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/sass?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sass/sass?style=social)
 
 ## 官方

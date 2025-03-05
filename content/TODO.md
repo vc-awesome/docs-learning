@@ -10,11 +10,6 @@
 // TODO: 
 ```
 
-例：
-
-1. `// TODO: 新建 markor.md 文件，并把下面内容转移过去。`
-2. `// TODO: 优化代码格式`
-
 ```markdown
 // NOTE:
 ```
@@ -38,6 +33,11 @@
 //  <Writing  a message>...
 ```
 
+示例：
+
+1. `// TODO: 新建 markor.md 文件，并把下面内容转移过去。`
+2. `// TODO: 优化代码格式`
+
 参考：
 
 1. https://www.jetbrains.com/help/phpstorm/using-todo.html - *TODO comments | PhpStorm Documentation*
@@ -55,8 +55,7 @@
   - [ ] [URL](essential/url.md)
 - [ ] [FRONT END/](front-end/)
     - [ ] [CSS/](front-end/css/)
-        - [ ] [css-naming-rule](front-end/css/css-naming-rule.md)
-    - [ ] [JavaScript](front-end/javascript/README.md)
+    - [ ] [JavaScript/](front-end/javascript/)
 - [ ] API
   - [ ] 开放 API 授权
   - [ ] [身份认证](essential/identity.md)
@@ -67,18 +66,16 @@
   - [ ] [BlockChain](project/blockchain/README.md)
 - [ ] [OS](os/README.md)
   - [ ] 电脑系统安装
-  - [ ] [tools](os/tools/README.md)
-    - [ ] [github](os/tools/github)
-      - [ ] [awesome 系列](os/tools/awesome.md)
+  - [ ] [应用](os/tools/README.md)
 - [ ] 桌面浏览器调试模拟器网页
 - [ ] 图床
     - https://www.ruanyifeng.com/blog/2010/03/built_a_image_server.html - *搭建了一个图片库 - 阮一峰的网络日志*
     - https://support.typoraio.cn/Images/ - *Images in Typora - Typora Support*
     - https://www.picgo.net/ - *PicGo - 免费图床，贴出分享，图显不凡*
 - [ ] [文本编码](essential/character-sets.md#文本编码)
-- [ ] [Windows bat 脚本](os/windows/README.md#bat-脚本)
+- [ ] [Windows bat 脚本](os/desktop/windows/batch.md)
 - [ ] [文档模板](home/document-template.md)
-- [ ] [VS Code 代码片段](os/tools/visual-studio-code.md#代码片段)
+- [ ] [VS Code 代码片段](os/tools/developer/editor/visual-studio-code.md#代码片段)
 - [ ] [正则表达式](essential/regex.md)
 - [x] 本站点添加「目录大纲」功能
 - [x] [生成文件目录树文件](dir-tree.md)
@@ -103,5 +100,3 @@
 - [ ] 知识整理 | ETH 知识
 - [ ] 知识整理 | TRON 知识
 - [ ] 文档整理 | F盘 Markdown 区块链文档最新源码整理
-
-## ~~下载~~

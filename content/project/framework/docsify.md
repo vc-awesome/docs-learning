@@ -7,7 +7,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/docsifyjs/docsify?logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/docsifyjs/docsify?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/docsifyjs/docsify?logo=github)
-![npm](https://img.shields.io/npm/v/docsify?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/docsify?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/docsifyjs/docsify?style=social)
 
 ## Official
@@ -17,6 +17,60 @@ https://docsify.js.org/ - *A magical documentation generator.*
 https://github.com/docsifyjs/docsify - *GitHub - docsifyjs/docsify: 🃏 A magical documentation site generator.*
 
 https://cli.docsifyjs.org/#/ - *docsify-cli - A magical documentation generator.*
+
+## Getting Started
+
+### Directory Structure
+
+```wiki
++-- _images // 功能截图...
+|   +-- zh-cn
+|   +-- ...
++-- _media // 存放图片、视频、音频等资源
+|   +-- ... // 网站图标、公共文件...
++-- index.html
+```
+
+### Technologies
+
+#### vue-clipboard2
+
+[vue-clipboard2](framework/javascript-plugins.md#vue-clipboard2)
+
+``` html
+<script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
+```
+
+#### Primer CSS
+
+[Primer CSS](framework/README.md#primer-css-🔥)
+
+``` html
+<link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
+```
+
+#### Vue.js
+
+[Vue.js](framework/README.md#vuejs)
+
+```html
+<script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
+```
+
+#### Element UI
+
+[Element UI](%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/README.md#element-ui-%f0%9f%94%a5) 🔥
+
+``` html
+<!-- 引入样式 -->
+<link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
+```
+
+``` html
+<!-- 引入组件库 -->
+<script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
+<script src="//unpkg.com/element-ui/lib/index.js"></script>
+```
 
 ## Installation
 
@@ -47,8 +101,6 @@ https://www.jsdelivr.com/package/npm/docsify - *docsify CDN by jsDelivr - A CDN 
 渲染效果：
 
 ?> 🃏 A magical documentation site generator.<br><i class="bi bi-translate dark-yellow"></i> *🃏 一个神奇的文档网站生成器。*
-
----
 
 语法：
 
@@ -172,61 +224,9 @@ https://docsify.js.org/#/zh-cn/write-a-plugin?id=footer - *开发插件*
 
 https://docsify.js.org/#/zh-cn/write-a-plugin?id=edit-button - *开发插件*
 
-## Links
+## Advanced Usage
 
 https://cloud.tencent.com/developer/article/1005968 - *Docsify 深入源码*
-
-## Directory Structure
-
-```wiki
-+-- _images // 功能截图...
-|   +-- zh-cn
-|   +-- ...
-+-- _media // 存放图片、视频、音频等资源
-|   +-- ... // 网站图标、公共文件...
-+-- index.html
-```
-
-## Technologies
-
-### vue-clipboard2
-
-[vue-clipboard2](framework/javascript-plugins.md#vue-clipboard2)
-
-``` html
-<script src="//unpkg.com/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
-```
-
-### Primer CSS
-
-[Primer CSS](framework/README.md#primer-css-🔥)
-
-``` html
-<link href="//unpkg.com/@primer/css@latest/dist/primer.css" rel="stylesheet" />
-```
-
-### Vue.js
-
-[Vue.js](framework/README.md#vuejs)
-
-```html
-<script src="//unpkg.com/vue@2/dist/vue.min.js"></script>
-```
-
-### Element UI
-
-[Element UI](%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/README.md#element-ui-%f0%9f%94%a5) 🔥
-
-``` html
-<!-- 引入样式 -->
-<link rel="stylesheet" href="//unpkg.com/element-ui/lib/theme-chalk/index.css">
-```
-
-``` html
-<!-- 引入组件库 -->
-<script src="//cdn.jsdelivr.net/npm/vue@2/dist/vue.min.js"></script>
-<script src="//unpkg.com/element-ui/lib/index.js"></script>
-```
 
 ## Awesome
 
@@ -1206,7 +1206,7 @@ Showcase
 
   - https://xflihaibo.github.io/docs/#/standard/standard - *书写规范 - 幸福拾荒者*
 
-#### Flexible Alerts 🎁
+#### Flexible Alerts
 
 - Plugin
 
@@ -1250,7 +1250,7 @@ Showcase
     > An alert of type 'attention' using global style 'callout'.
     ```
 
-#### Page title 🎁
+#### Page title
 
 - Plugin
 
@@ -1331,7 +1331,7 @@ Showcase
     <!-- tabs:end -->
     ```
 
-#### ~~Accordion（手风琴） 🎁~~
+#### ~~Accordion（手风琴）~~
 
 - Plugin
 
@@ -1483,3 +1483,9 @@ https://docsify.js.org/#/themes - *Themes*
 
     </div>
     </details>
+
+## Appendix
+
+### CDN
+
+https://www.jsdelivr.com/package/npm/docsify-copy-code - *docsify-copy-code CDN by jsDelivr - A CDN for npm and GitHub*

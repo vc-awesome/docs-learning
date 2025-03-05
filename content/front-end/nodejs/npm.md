@@ -7,7 +7,7 @@
 ![GitHub last commit](https://badgen.net/github/last-commit/npm/cli?icon=github&color=blue)
 ![GitHub Release Date](https://img.shields.io/github/release-date/npm/cli?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/npm/cli?logo=github)
-![npm](https://img.shields.io/npm/v/npm?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/npm?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/npm/cli?style=social)
 
 
@@ -80,7 +80,7 @@ https://www.cnblogs.com/seeding/p/15219113.html - *npm淘宝镜像和查看镜�
 ![GitHub last commit](https://badgen.net/github/last-commit/Pana/nrm?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Pana/nrm?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Pana/nrm?logo=github)
-![npm](https://img.shields.io/npm/v/nrm?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/nrm?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Pana/nrm?style=social)
 
 ---
@@ -469,7 +469,7 @@ http://npmmirror.com/ - *npmmirror 镜像站*
 > npm package executor
 
 ![GitHub last commit](https://badgen.net/github/last-commit/npm/npx?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/npx?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/npx?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/npm/npx?style=social)
 
 ---
@@ -502,7 +502,7 @@ https://www.npmjs.com/package/npx
 > http-server: a simple static HTTP server
 
 ![GitHub last commit](https://badgen.net/github/last-commit/http-party/http-server?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/http-server?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/http-server?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/http-party/http-server?style=social)
 
 ---
@@ -530,7 +530,7 @@ https://www.npmjs.com/package/http-server
 > 使用 pm2 管理 node 服务器启动，停止
 
 ![GitHub last commit](https://badgen.net/github/last-commit/Unitech/pm2?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/pm2?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/pm2?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Unitech/pm2?style=social)
 
 ---
@@ -545,7 +545,7 @@ Via <http://yapi.smart-xwork.cn/doc/devops/index.html#服务器管理>
 > Keep multiple browsers & devices in sync when building websites.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/BrowserSync/browser-sync?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/browser-sync?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/browser-sync?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/BrowserSync/browser-sync?style=social)
 
 ---
@@ -577,7 +577,7 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 - display this help and exit
 
     ```bash
-    browser-sync
+    browser-sync --help
     ```
 
 - 监听所有文件类型
@@ -587,23 +587,23 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
   - 静态网站
 
     ```bash
-    browser-sync start --server --files "**/**.*"
+    browser-sync start --server --files "**/**.*" --no-ghost-mode --no-notify
     ```
 
     - 本地安装运行
 
         ```bash
-        ./node_modules/.bin/browser-sync start --server "gh/docs-learning" --files "**/**.*"
+        ./node_modules/.bin/browser-sync start --server "gh/docs-learning" --files "**/**.*" --no-ghost-mode --no-notify
         ```
 
         ```bash
-        npx browser-sync start --server "gh/docs-learning" --files "**/**.*"
+        npx browser-sync start --server "gh/docs-learning" --files "**/**.*" --no-ghost-mode --no-notify
         ```
 
   - 动态网站
 
     ```bash
-    browser-sync start --proxy "docs-learning.service" --files "**/**.*"
+    browser-sync start --proxy "docs-learning.service" --files "**/**.*" --no-ghost-mode --no-notify
     ```
 
       > `**` （表示匹配任意目录）
@@ -625,7 +625,7 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 > Transform CSS with the power of JavaScript. Auto-prefixing, future CSS syntaxes, modules, linting and more are possible with hundreds of PostCSS plugins.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/postcss/postcss?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/postcss?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/postcss?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/postcss/postcss?style=social)
 
 ---
@@ -649,7 +649,7 @@ Plugins：
 > Transform CSS with the power of JavaScript. Auto-prefixing, future CSS syntaxes, modules, linting and more are possible with hundreds of PostCSS plugins.
 
 ![GitHub last commit](https://badgen.net/github/last-commit/postcss/autoprefixer?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/autoprefixer?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/autoprefixer?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/postcss/autoprefixer?style=social)
 
 ---
@@ -669,7 +669,7 @@ https://autoprefixer.github.io/ - *Autoprefixer CSS online*
 ![GitHub last commit](https://badgen.net/github/last-commit/cssnano/cssnano?icon=github&color=blue)
 ![GitHub Release Date](https://img.shields.io/github/release-date/cssnano/cssnano?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cssnano/cssnano?logo=github)
-![npm](https://img.shields.io/npm/v/cssnano?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/cssnano?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/cssnano/cssnano?style=social)
 
 ---
@@ -684,7 +684,7 @@ https://cssnano.co/ - *CSSNANO*
 > Find newer versions of package dependencies than what your package.json allows
 
 ![GitHub last commit](https://badgen.net/github/last-commit/raineorshine/npm-check-updates?icon=github&color=blue)
-![npm](https://img.shields.io/npm/v/npm-check-updates?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/npm-check-updates?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/raineorshine/npm-check-updates?style=social)
 
 ---

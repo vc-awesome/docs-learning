@@ -1,26 +1,28 @@
 # 命名规则
 
-## 变量名
+## 开发者系列
+
+### 变量名
 
 > 变量的命名使用驼峰法（首字母小写），例如 `$tableName`、`$instance`
 
-## 常量名
+### 常量名
 
 > 常量以大写字母和下划线命名，例如 `APP_PATH`
 
-## 函数名
+### 函数名
 
 > 函数的命名使用小写字母和下划线（小写字母开头）的方式，例如 `get_client_ip`
 
-## 类名
+### 类名
 
 > 类的命名采用驼峰法（首字母大写），例如 `User`、`UserType`
 
-### 属性名
+#### 属性名
 
 > 属性的命名使用驼峰法（首字母小写），例如 `tableName`、`instance`
 
-### 方法名
+#### 方法名
 
 > 方法的命名使用驼峰法（首字母小写），例如 `getUserName`
 
@@ -62,9 +64,70 @@
 - 方法 `logs`
 - 表示获取募集的日志
 
+### HTML
+
+#### 表单属性 name
+
+格式：`[prefix_]<name>`
+
+示例：
+
+1. `member_name`
+2. `member_email`
+
+注册和登录
+
+- `name` / `account` 账号
+- `email` 邮箱
+- `nickname` 昵称
+- `truename` 真实姓名
+- `sex` 性别
+- `birthday` 生日
+- `address` / `area_info` 详细地址/地区内容
+- `mobile` 手机号码
+- `email` 邮箱
+- `password` 登录密码
+- `password_confirm` / `repassword` 确认登录密码
+- `payment_password` / `paypwd` 支付密码
+- `payment_password_confirm` / `paypwd_confirm` / `repaypwd` 确认支付密码
+- `security_password` 安全密码
+- `security_password_confirm` 确认安全密码
+- `captcha_normal` 图片验证码
+- `sms_mobile` 短信手机号
+- `sms_captcha` 短信验证码
+- `email_captcha` 邮箱验证码
+- `inviter_mobile` 邀请人手机号码
+- `invitation_code` 邀请码
+- `is_accept` 未勾选隐私政策注册协议
+
+转账
+
+- `to_member_mobile` 接收人手机号码
+- `money` 金额
+- `amount` 数量
+
+按钮
+
+- `view certificate` 查看证书
+- `confirm` 确认
+- `cancel` 取消
+- `login` 登录
+- `register` 注册
+- `save` 保存
+- `long press to save` 长按图片保存
+- `download` 下载
+
+### CSS
+
+#### 属性 class
+
+暂无
+
 ## 目录名
 
 > 使用小写+下划线
+
+`customize` - 自定义
 
 ## 文件名
 
@@ -164,241 +227,41 @@
 
 ## 图片名
 
-参考
-- [css命名规则]() > 工具 > background 背景
-- [css命名规则]() > 组件 > icon 图标
+格式：
 
-形状
-- 圆形 /`circle`/`round`
-- 正方形 /`square`
-- 长方形 /`rectangle`
+```bash
+[prefix-]<name>[-[shape|color|size]]<.[jpg|jpeg|png|gif]>
+```
 
-颜色
-- 深色 `dark`
-- 浅色 `light`
+- `shape` - 形状
+  - `circle` - 圆形
+  - `round` - 圆角
+  - `square` - 正方形
+  - `rectangle` - 长方形
 
-尺寸
-- `xxs`
-- `xs`
-- `sm`
-- `default`
-- `lg`
-- `xl`
-- `xxl`
-- `xxxl`
+- `color` - 颜色
+  - `dark` - 深色
+  - `light` - 浅色
 
-## HTML
+- `size` - 尺寸
+  - `xxs`
+  - `xs`
+  - `sm`
+  - `default`
+  - `lg`
+  - `xl`
+  - `xxl`
+  - `xxxl`
 
-### 表单属性 name
+示例：
 
-注册和登录
+1. `cf-logo-square.jpg`
+2. `cf-logo-dark.png`
 
-- [member_]`name` / [member_]`account` 账号
-- [member_]`email` 邮箱
-- [member_]`nickname` 昵称
-- [member_]`truename` 真实姓名
-- [member_]`sex` 性别
-- [member_]`birthday` 生日
-- [member_]`address` / [member_]`area_info` 详细地址/地区内容
-- [member_]`mobile` 手机号码
-- [member_]`email` 邮箱
-- [member_]`password` 登录密码
-- [member_]`password_confirm` / [member_]`repassword` 确认登录密码
-- [member_]`payment_password` / [member_]`paypwd` 支付密码
-- [member_]`payment_password_confirm` / [member_]`paypwd_confirm` / [member_]`repaypwd` 确认支付密码
-- [member_]`security_password` 安全密码
-- [member_]`security_password_confirm` 确认安全密码
-- `captcha_normal` 图片验证码
-- `sms_mobile` 短信手机号
-- `sms_captcha` 短信验证码
-- `email_captcha` 邮箱验证码
-- `inviter_mobile` 邀请人手机号码
-- `invitation_code` 邀请码
-- `is_accept` 未勾选隐私政策注册协议
+参考：
 
-转账
-
-- `to_member_mobile` 接收人手机号码
-- `money` 金额
-- `amount` 数量
-
-按钮
-
-- `view certificate` 查看证书
-- `confirm` 确认
-- `cancel` 取消
-- `login` 登录
-- `register` 注册
-- `save` 保存
-- `long press to save` 长按图片保存
-- `download` 下载
-
-## CSS
-
-### 属性 class
-
-暂无
-
-## 布局
-
-### TokenPocket
-
-> App 名称：TokenPocket
-
-Tabbar 底部导航栏
-
-- 资产 `Assets`
-
-- 市场 `Market`
-
-- 发现 `Discover`
-
-- 资讯 `News`
-
-- 我的 `Me`
-
-资产（Assets）页
-
-- 我的资产 `my assets`
-
-- 详情 `details`
-
-转账 `transfer`
-- 直接转账 `transfer`
-  - 收款地址 `receiver`
-  - 输入或粘贴钱包地址 `enter or paste the wallet address`
-    - 地址簿 `address book`
-    - 新建联系人 `add contact`
-  - 转账金额 `transfer amount`
-  - 请输入数量 `please input amount`
-  - 全部 `all`
-  - 钱包余额 `wallet balance`
-  - 高级功能 `advanced`
-  - 上链数据 `input data`
-  - 该数据会写入区块链，并且消耗一定得费用 `the data will be recorded on the blockchain and it will cost some fee`
-  - 确认 `confirm`
-- 地址簿转账 `contact`
-- 扫码转账 `scan qrcode`
-- 转账历史 `transfer history`
-收款 `receive`
-- 扫一扫，向我支付 `scan to pay`
-- 收款地址 `receiver`
-- 分享 `share`
-- 复制 `copy`
-闪兑 `swap`
-- 余额 `bal`
-- 转出数量 `pay amount`
-- 转入数量 `receive amount`
-- 选择接收者钱包 `receive address`
-- 接收者地址 `recipient account`
-- 参考汇率 `reference rate`
-- 手续费 0.2%，矿工费及换币费自付，小额兑换将损失较大汇率 `Fee 0.2%,pay miner fee and coin exchange fee by yourself`
-- 开始兑换 `instant swap`
-- 交易记录 `records`
-- 没有兑换记录 `no swap record`
-
-搜索 `search`
-
-更多工具 `more`
-
-带宽/能量 `resources`
-
-钱包列表 `wallets`
-
-波场 `tron`
-
-我知道了 `i got it`
-
-创建钱包 `create wallet`
-
-导入钱包 `import wallet`
-
-取消 `cancel`
-
-### GitHub Mobile
-
-1. `Home` 主页
-2. `My Work` 我的工作
-3. `Issues` 议题
-4. `Pull Requests` 拉取请求
-5. `Discussions` 讨论
-6. `Repositories` 仓库
-7. `Organizations` 组织
-8. `Favorites` 收藏夹
-9. `Shortcuts` 快捷键
-10. `Notifications` 通知
-11. `Explore` 探索
-12. `Profile` 个人资料
-
-### MIUI
-
-1. `skip` 跳过
-2. `settings` 设置
-3. `wallpaper` 壁纸
-4. `album` 相册
-5. `gallery` 相册
-6. `app info` 应用信息
-7. `getapps` 应用商店
-8. `floating windows` 小窗应用
-9. 全部参数
-
-手机布局
-
-1. `status bar` 状态栏
-2. `control center` 控制中心
-3. `notifications` 通知
-4. `lock screen` 锁屏通知
-5. `floating` 悬浮通知
-6. `badges` 桌面角标
-
-应用商店
-
-1. `accept` 接受
-2. `deny` 拒绝
-3. `allow` 允许
-4. `sync` 同步
-5. `install` 安装
-6. `uninstall` 卸载
-7. `share` 分享
-8. `update` 更新
-9. `connecting pending` 等待中
-10. `holding` 等待安装
-11. `verifying` 验证中
-12. `installing` 安装中
-13. `resume` 重新开始；（中断后）继续
-14. `open` 打开
-15. `ignore this time` 忽略这次
-16. `always ignore` 总是忽略
-17. `Non-system app updates` 非系统 app 更新
-18. `System app updates` 系统 app 更新
-19. `ignored apps` 已忽略的 app 
-20. `update history` 更新历史 
-21. `All apps are up to date` 所有应用程序都是最新的
-
-### 弹层提示
-
-下载页面提示
-- IOS 暂未开放...
-
-首页面提示
-- 功能开发中...
-
-复制提示
-- 内容已复制
-- 已复制到剪贴板！ `copied to clipboard!`
-- 已保存图片至相册
-- 图片保存成功
-
-未分类
-- 系统正忙，请稍后
-- 加载中...
-- 安装准备中
-- 正在加载更多内容...
-- 正在加载
-- 今天的施肥次数已经用完啦，明天再来吧
-- 忙不过来了，客官请稍后
-- 订阅成功~
-- 请刷新页面后提交 `Refresh the page`
+1. [css命名规则]() > 工具 > background 背景
+2. [css命名规则]() > 组件 > icon 图标
 
 ## 英语词汇
 
@@ -420,10 +283,12 @@ Tabbar 底部导航栏
 
 https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历list吗？*
 
-- filter 过滤
-- map 映射
-- sorted 排序
-- collect 聚合
+- `filter` 过滤
+- `map` 映射
+- `sorted` 排序
+    - `acsending` 升序
+    - `descending` 降序
+- `collect` 聚合
 
 ### 简写
 
@@ -440,7 +305,7 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
 - `template`
     - `tmp` 或者 `tpl` 模板
 - `temporary`
-    - `temp` 短暂的;暂时的;临时的
+    - `temp` adj.短暂的;暂时的;临时的 n.临时工;临时雇员
 - `number`
     - `num` 数字;编号;
 - `administrators`
@@ -481,33 +346,38 @@ https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历
     - `fav` v. 把……添加到收藏夹；n. 特别喜爱的人（或事物）；最有希望获胜者；收藏夹，书签
 - `download`
     - `dl` 下载 [via](https://docs.snipaste.com/zh-cn/download)
+- `thumbnails`
+    - `thumb` 略缩图、预览图
 
-https://www.runoob.com/w3cnote/linux-command-full-fight.html - *Linux 常用命令全拼 | 菜鸟教程*
+参考：
+
+1. https://www.runoob.com/w3cnote/linux-command-full-fight.html - *Linux 常用命令全拼 | 菜鸟教程*
+2. https://gnu-linux.readthedocs.io/zh/latest/Chapter04/30_unix.abbreviation.html - *UNIX 缩写习惯 — Linux latest 文档*
 
 ### 分类
 
-1. `unsorted` 未分类的
-2. `multi-platform` 多平台的
-3. `cross-platform` 跨平台的 [via](https://www.wireguard.com/xplatform/)
-4. `category` `categories` 类别
-5. `uncategorized` 未分类
+1. `category` `categories` 类别
+2. `cross-platform` 跨平台的 [via](https://www.wireguard.com/xplatform/)
+3. `multi-platform` 多平台的
+4. `uncategorized` 未分类
+5. `unsorted` 未分类的
 
 ### 文件
 
 > `multi` 是 `multiple` 的缩写，意思是多个的，多种的
 
-1. `multifile` 多文件
-2. `multimedia` 多媒体
-3. `folder` 文件夹
-4. `file` 文件
-5. `archive` 档案
-6. `thumb`（`thumbnails`） 略缩图、预览图
-7. `audio` 声音、音频
-8. `image` 图像
-9. `img_cache` 缓存的图像
-10. `avatar` 头像
-11. `apk`
-12. `ipa`
+1. `apk`
+2. `archive` 档案
+3. `audio` 声音、音频
+4. `avatar` 头像
+5. `file` 文件
+6. `folder` 文件夹
+7. `image` 图像
+8. `img_cache` 缓存的图像
+9. `ipa`
+10. `multifile` 多文件
+11. `multimedia` 多媒体
+12. `thumbnails` 略缩图、预览图
 
 ### 文档
 
@@ -520,8 +390,8 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 ### 体彩
 
 1. `betting` 投注;打赌;打牌;下注;押宝
-2. `odds` (事物发生的)可能性，概率，几率，机会;不利条件;掣肘的事情;逆境;投注赔率
-3. `lottery` 彩票
+2. `lottery` 彩票
+3. `odds` (事物发生的)可能性，概率，几率，机会;不利条件;掣肘的事情;逆境;投注赔率
 
 ### OTC
 
@@ -583,8 +453,8 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 ### 名词
 
 1. `canceller` 取消者
-2. `withdrawal` 提现
-3. `scope` 范围
+2. `scope` 范围
+3. `withdrawal` 提现
 
 ### 动词
 
@@ -633,30 +503,18 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 
 31. `iterate` vi.迭代(数学或计算过程，或一系列指令)
 
----
-
 32. `cancel` 取消;撤销;终止;废除(具有法律效力的协议);盖销，注销(票或邮票)
-
----
 
 33. `buy` 买，购买
 34. `sell` 卖，出售
 
----
-
 35. `withdraw` 提取
-
----
 
 36. `purchase` 买;购买;采购
 37. `sale` n. 出售;销售;销售量;销售部 [名词]
 
----
-
 38. `rebate` 返利
 39. `commission` 佣金
-
----
 
 40. `diff` 级差
 41. `peer` 同级
@@ -664,209 +522,125 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 43. `yield` 产量
 44. `profit` 收益
 
----
+45. `sticker` 粘贴标签、贴纸
+46. `statistics` 统计
+47. `data`
+48. `digits` 数字
+49. `faqs` 解答
+50. `notice` / `announcement` 公告
 
-1. `temp` 临时
-2. `temporary` adj.短暂的;暂时的;临时的 n.临时工;临时雇员
-3. `sticker` 粘贴标签、贴纸
-4. `statistics` 统计
-5. `data`
-6. `digits` 数字
-7. `faqs` 解答
-8. `notice` / `announcement` 公告
+51. `invest` 投资
+52. `task` 任务
 
----
+53. `filter` 筛选
 
-61. `invest` 投资
-62. `task` 任务
+54. `ranking` 排名
 
----
+55. `currency` 货币
 
-63. `filter` 筛选
+56. `approved` 审核通过
+57. `unapproved` 未审核通过
 
----
+58. `accept` 接受（例：Accept All Cookies）
+59. `reject` 拒绝;驳回（例：Reject All）
 
-64. `ranking` 排名
+60. `retrieve` 找回;取回
 
----
+61. `exchange` / `swap` 兑换 [ 不同币/币间兑换 ]
+62. `convert` 划转 [ 币/币间划转 ]
+63. `transfer` 转移；划转 [ 转给他人 ]
 
-65. `currency` 货币
+64. `rent` v.租用，租借(房屋、土地、机器等);出租;将…租给;(短期)租用，租借
+65. `rerent` 续租（语义单词仅程序开发使用,英文词库无此单词）
 
----
+66. `annotated` 含附注的
+67. `tag` 标签
 
-66. `approved` 审核通过
-67. `unapproved` 未审核通过
+68. `search` 搜索
+69. `filter` 过滤
+70. `export` 导出/出口/输出
+71. `import` 导入/入口/输入
 
----
+72. `portage` 搬运/运费
+73. `transport` 运输
 
-67. `accept` 接受（例：Accept All Cookies）
-68. `reject` 拒绝;驳回（例：Reject All）
+74. `apportion` 分配
+75. `proportion` 比例
 
----
+76. `match` 匹配
 
-69. `retrieve` 找回;取回
+77. `bad`
+78. `good`
+79. `perfect`
 
----
+80. `shortage` 不足;缺少;短缺
 
-70. `exchange` / `swap` 兑换 [ 不同币/币间兑换 ]
-71. `convert` 划转 [ 币/币间划转 ]
-72. `transfer` 转移；划转 [ 转给他人 ]
+81. `channel` 渠道
 
----
+82. `account` 账号
 
-1. `rent` v.租用，租借(房屋、土地、机器等);出租;将…租给;(短期)租用，租借
-2. `rerent` 续租（语义单词仅程序开发使用,英文词库无此单词）
+83. `trash` 垃圾
 
----
+84. `launch` 发动;发射;展开
 
-76. `annotated` 含附注的
-77. `tag` 标签
+85. `parses` 解析
 
----
+86. `hex` 十六进制
 
-78. `search` 搜索
-79. `filter` 过滤
-80. `export` 导出/出口/输出
-81. `import` 导入/入口/输入
-
----
-
-82. `portage` 搬运/运费
-83. `transport` 运输
-
----
-
-84. `apportion` 分配
-85. `proportion` 比例
-
----
-
-86. `match` 匹配
-
----
-
-87. `bad`
-88. `good`
-89. `perfect`
-
----
-
-90. `shortage` 不足;缺少;短缺
-
----
-
-91. `channel` 渠道
-
----
-
-92. `account` 账号
-
----
-
-93. `trash` 垃圾
-
----
-
-1. `launch` 发动;发射;展开
-
----
-
-98. `parses` 解析
-
----
-
-99. `hex` 十六进制
-
----
-
-100. `capture`
+87. `capture`
 
      vt.俘虏;俘获;捕获;用武力夺取;攻取;攻占;夺得;赢得;争得
 
      n.(被)捕获;(被)俘获
 
----
+88. `interceptor` 拦截器
 
-101. `interceptor` 拦截器
+89. `library` 库
 
----
+90. `plugin` 插件
 
-102. `library` 库
+91. `development` 开发
+92. `production` 生产
 
----
+93. `vendor` 第三方库
 
-103. `plugin` 插件
+94. `permit` 允许;准许;使有可能
 
----
+95. `profit` 利润, 盈利, 收益, 利, 利益, 润
 
-104. `development` 开发
-105. `production` 生产
+96. `repeat` 重复
 
----
+97. `allocate` v.拨…(给);划…(归);分配…(给)
+98. `allocation`
 
-106. `vendor` 第三方库
+99. `prompt` 提示
+100. `tip` 提示 复数 `tips`
+101. `remarks` 备注
+102. `description` 说明;描述
+103. `title` 标题
+104. `details` 详情, 细节, 详, 内容, 枝节
+105. `feature` 特征, 特性, 特点, 点, 面目, 详情
 
----
+106. `helper` 帮手, 助手, 帮工, 义务, 合作者
 
-107. `permit` 允许;准许;使有可能
+107. `dot` 点;小点;小圆点;点(用以分隔域名、统一资源地址、电子邮件地址的组成部分)
 
----
+108. `captcha` (图片)验证码(即全自动区分计算机和人类的图灵测试)
 
-108. `profit` 利润, 盈利, 收益, 利, 利益, 润
+109. `per` prep.每;每一
+110. `each` det./pron.(两个或两个以上的人或物中)各自，各个，每个
 
----
+111. `last` det.最后的;最末的;末尾的;最近的;上一个的;仅剩下的;最终的
+112. `recent` adj.近来的;新近的
+113. `current` adj. 现在的，现行的
+114. `prev` 上一个
+115. `next` 下一个
 
-109. `repeat` 重复
+116. `sign in` 登录 （到旅馆或俱乐部）签到，登记
+117. `sign up` 注册
+118. `sign out` 签名离开；签退
 
----
-
-110. `allocate` v.拨…(给);划…(归);分配…(给)
-111. `allocation`
-
----
-
-112. `prompt` 提示
-113. `tip` 提示 复数 `tips`
-114. `remarks` 备注
-115. `description` 说明;描述
-116. `title` 标题
-117. `details` 详情, 细节, 详, 内容, 枝节
-118. `feature` 特征, 特性, 特点, 点, 面目, 详情
-
----
-
-119. `helper` 帮手, 助手, 帮工, 义务, 合作者
-
----
-
-120. `dot` 点;小点;小圆点;点(用以分隔域名、统一资源地址、电子邮件地址的组成部分)
-
----
-
-121. `captcha` (图片)验证码(即全自动区分计算机和人类的图灵测试)
-
----
-
-122. `per` prep.每;每一
-123. `each` det./pron.(两个或两个以上的人或物中)各自，各个，每个
-
----
-
-124. `last` det.最后的;最末的;末尾的;最近的;上一个的;仅剩下的;最终的
-125. `recent` adj.近来的;新近的
-126. `current` adj. 现在的，现行的
-127. `prev` 上一个
-128. `next` 下一个
-
----
-
-129. `sign in` 登录 （到旅馆或俱乐部）签到，登记
-130. `sign up` 注册
-131. `sign out` 签名离开；签退
-
----
-
-133. `announce` v.宣布;宣告(决定、计划等);(尤指通过广播)通知;声称;宣称
+119. `announce` v.宣布;宣告(决定、计划等);(尤指通过广播)通知;声称;宣称
 
 ### 层级
 
@@ -875,29 +649,49 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 
 ### 时间
 
-1. `start time` 开始时间戳
-2. `end time` 结束时间戳
-3. `start time format` 格式化开始时间戳（输出格式：2022-7-11 20:00:00）
-4. `end time format` 格式化结束时间戳（输出格式：2022-7-11 20:00:00）
-5. `yesterday` 昨天
-6. `today` 今天
-7. `friday` 星期五
-8. `now` 现在
+1. `start time` - 开始时间戳
+2. `end time` - 结束时间戳
+3. `start time format` - 格式化开始时间戳（输出格式：2022-7-11 20:00:00）
+4. `end time format` - 格式化结束时间戳（输出格式：2022-7-11 20:00:00）
 
-月份
+Day - 日
 
-1. `January` - `Jan.` 一月
-2. `February` - `Feb.` 二月
-3. `March` - `Mar.` 三月
-4. `April` - `Apr.` 四月
-5. `May` - `May` 五月
-6. `June` - `Jun.` 六月
-7. `July` - `Jul.` 七月
-8. `August` - `Aug.` 八月
-9. `September` - `Sep.` 九月
-10. `October` - `Oct.` 十月
-11. `November` - `Nov.` 十一月
-12. `December` - `Dec.` 十二月
+1. `Yesterday` - 昨天
+2. `Today` - 今天
+3. `Tomorrow` - 明天
+4. `Now` - 现在
+5. `Hour` - 时
+6. `Minute` - 分
+7. `Second` - 秒
+
+Week - 星期
+
+英文 | 缩写 | 中文
+--- | --- | ---
+`Sunday` | `SUN` | 周日
+`Monday` | `MON` | 周一
+`Tuesday` | `TUE` | 周二
+`Wednesday` | `WED` | 周三
+`Thursday` | `THU` | 周四
+`Friday` | `FRI` | 周五
+`Saturday` | `SAT` | 周六
+
+Month - 月份
+
+英文 | 缩写 | 中文
+--- | --- | ---
+`January` | `Jan.` | 一月
+`February` | `Feb.` | 二月
+`March` | `Mar.` | 三月
+`April` | `Apr.` | 四月
+`May` | `May` | 五月
+`June` | `Jun.` | 六月
+`July` | `Jul.` | 七月
+`August` | `Aug.` | 八月
+`September` | `Sep.` | 九月
+`October` | `Oct.` | 十月
+`November` | `Nov.` | 十一月
+`December` | `Dec.` | 十二月
 
 💡 很明显，12个月的英文缩写为其单词的前三个字母加上 “.” 。但要注意五月是 May，本身就只有三个字母，所以不用加点表缩写。
 
@@ -913,6 +707,33 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 
 ### 天气
 
+1. `15-day forecast` - 查看近 15 日天气
+2. `Clear` - 晴
+3. `Cloudy` - 多云
+4. `Haze` - 霾
+5. `Light rain` - 小雨
+6. `Mist` - 雾
+7. `Moderate rain` - 中雨
+8. `Overcast` - 阴
+9. `Rain` - 雨
+10. `Showers` - 阵雨
+11. `Thunderstorm` - 雷阵雨
+12. `Manage cities` - 城市管理
+13. `Enter location` - 搜索位置
+14. `24-hour forecast` - 24 小时预报
+15. `East` - 东
+16. `South` - 南
+17. `West` - 西
+18. `North` - 北
+19. `Sunrise` - 日出
+20. `Sunset` - 日落
+21. `Humidity` - 温度
+22. `Real feel` - 体感
+23. `UV` - 紫外线
+24. `Pressure` - 气压
+25. `AQI` - 空气质量
+26. `Force` - 风力
+
 https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *为啥30℃气温热成狗，30℃洗澡水冻成猴？*
 
 ### 身份
@@ -922,10 +743,14 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
 
 ### 图表
 
-1. `Line`
-2. `Bar`
-3. `Pie`
-4. `Area`
+1. `Area` - 面积图
+2. `Bar` - 柱状图
+3. `Candlestick` - K 线图
+4. `Line` - 折线图
+5. `Pie` - 饼图
+6. `Scatter` - 散点图
+
+https://echarts.apache.org/examples/zh/index.html - *Examples - Apache ECharts*
 
 ### 审核
 
@@ -977,15 +802,6 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
   
   1. https://jingyan.baidu.com/article/73c3ce2845a23ae50343d936.html - *如何使用notepad++查看和替换回车换行符-百度经验*
 
-### 参考
-
-1. [程序员英语词汇宝典](https://learn-english.dev/) - *程序员工作中常见的英语词汇* [GitHub Repo](https://github.com/Wei-Xia/most-frequent-technology-english-words)
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/Wei-Xia/most-frequent-technology-english-words?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words?style=social)
-
-2. https://mp.weixin.qq.com/s/cI_5vOeeDPRDIax7176jRw - *每个程序员必须掌握的常用英语词汇*
-
 ## 常见问题
 
 ### 变量 foo 和 bar 的由来
@@ -1004,3 +820,12 @@ https://fanyi-app.baidu.com/static/passage/2022-07/2022-07-04/002/index.html - *
 4. https://docs.pingcode.com/ask/64496.html - *foo到底是什么意思 – PingCode*
 5. https://www.cnblogs.com/kenshinobiy/p/14256756.html - *编程中常见的Foo，是什么意思？ - 谦信君 - 博客园*
 6. https://cloud.tencent.com/developer/article/2380231 - *为什么很多教程中都有 foo bar？-腾讯云开发者社区-腾讯云*
+
+## 参考
+
+1. [程序员英语词汇宝典](https://learn-english.dev/) - *程序员工作中常见的英语词汇* [GitHub Repo](https://github.com/Wei-Xia/most-frequent-technology-english-words)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Wei-Xia/most-frequent-technology-english-words?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Wei-Xia/most-frequent-technology-english-words?style=social)
+
+2. https://mp.weixin.qq.com/s/cI_5vOeeDPRDIax7176jRw - *每个程序员必须掌握的常用英语词汇*

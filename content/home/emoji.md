@@ -9,7 +9,7 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 >
 > —— <cite>[HTML Emoji | 菜鸟教程](https://www.runoob.com/tags/html-emoji.html)</cite>
 
-## Link
+## Tutorial
 
 1. https://www.ruanyifeng.com/blog/2017/04/emoji.html - *Emoji 简介 - 阮一峰的网络日志*
 

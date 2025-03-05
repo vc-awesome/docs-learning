@@ -12,8 +12,6 @@ https://sspai.com/post/68349 - *中文技术文档书写指东 - 少数派*
 
 ### 中文技术文档的写作规范
 
-<output data-lang="output">
-
 简介：
 
 > 中文技术文档的写作规范
@@ -40,11 +38,7 @@ https://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html - *为
     - https://redux.js.org/introduction/getting-started - *Getting Started with Redux | Redux*
 7. [参考链接](https://github.com/ruanyf/document-style-guide/blob/master/docs/reference.md)
 
-</output>
-
 ### GitHub Docs
-
-<output data-lang="output">
 
 https://docs.github.com/zh - *GitHub Docs*
 
@@ -56,15 +50,13 @@ https://docs.github.com/zh - *GitHub Docs*
   - 有关详细信息，请参阅 GitHub Enterprise Cloud 文档中的“[关于适用于企业的 GitHub]()”。
   - 有关详细信息，请参阅“[设置 GitHub Enterprise Cloud 试用版]()”和“[设置 GitHub Enterprise Server 试用版]()”。
 
-</output>
-
 ### 阿里云产品文档
 
 https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮助中心-阿里云，领先的云计算服务提供商*
 
 ### Vue.js
 
-官方文档：http://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](https://cn.vuejs.org/v2/guide/syntax.html)
+http://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](https://cn.vuejs.org/v2/guide/syntax.html)
 
 ## 入门指南
 
@@ -86,7 +78,7 @@ https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮�
 #### Markdown
 
 1. [markdownlint](front-end/nodejs/package.md#markdownlint)
-    1. [Markdown linting and style checking for Visual Studio Code](os/tools/developer/visual-studio-code.md#markdownlint)
+    1. [Markdown linting and style checking for Visual Studio Code](os/tools/developer/editor/visual-studio-code.md#markdownlint)
 
 #### OrgMode
 
@@ -94,90 +86,78 @@ https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮�
 
 ### 标点符号
 
-<output data-lang="output">
-
 符号列表：
+
+序号 | 名称 | 英文名称 | 半角符号 | 全角符号
+--- | --- | --- | --- | ---
+1 | 句号 | period or full stop | . | 。
+2 | 逗号 | comma | , | ，
+3 | 冒号 | colon | : | ：
+4 | 分号 | semicolon | ; | ；
+5 | 方括号 | square brackets | [] | ［］
+6 | 尖括号 | Angle brackets | <> | 〈〉
+7 | 连字符 | hyphen | - | -
+8 | 省略号 | ellipsis | ... | ……
 
 - `⋮`
 - `ⵈ`
 - 角括号：`「」`
 - 空心角括号：`『』`
-- 方括号（英文）：`[]`
-- 方括号（全角）：`［］`
 - 书名号：`《》`
 - 单书名号：`〈〉`
-- 连字符：`-`
-- 尖括号：`‹›`
-- 尖括号（全角）：`＜＞`
-- 尖括号（英文）：`<>`
-- 省略号：`……`
-- 省略号（英文）：`......`
 
 FAQ：
 
-1. https://zhidao.baidu.com/question/93086804.html - *全角和半角的区别*
-2. 标点符号的用途
+1. 标点符号的用途
 
 参考：
 
 1. https://www.jiuwa.net/fuhao/agg/52/ - *三点符号 三个点的特殊符号图案大全-九蛙特殊符号*
 2. https://www.ruanyifeng.com/blog/2007/07/english_punctuation.html - *标点符号的英语名称 - 阮一峰的网络日志*
 
-</output>
+#### 全角与半角
+
+全角和半角是指字符在排版时所占用的空间和形状的不同。
+
+1. **全角（Full-width）**：
+   - 全角字符通常占用一个汉字的宽度，适用于中文排版。
+   - 全角标点符号的形状和大小与汉字相似，通常看起来更为饱满。
+   - 例如，全角的逗号是“，”，全角的句号是“。”。
+
+2. **半角（Half-width）**：
+   - 半角字符的宽度大约是全角字符的一半，适用于英文和其他拉丁字母的排版。
+   - 半角标点符号的形状和大小较小，通常用于英文文本中。
+   - 例如，半角的逗号是“,”，半角的句号是“.”。
+
+在排版时，选择全角或半角通常取决于文本的语言和格式要求。在中文文本中，通常使用全角标点，而在英文文本中则使用半角标点。
+
+参考：
+
+1. https://zhidao.baidu.com/question/93086804.html - *全角和半角的区别*
 
 ### 键盘符号
 
 #### macOS
 
-<output data-lang="output">
-
 Mac 符号列表：
 
-- Command（或 Cmd）：
-    - <kbd>⌘</kbd>
-    - `⌘`
-- Shift：
-    - <kbd>⇧</kbd>
-    - `⇧`
-- Option（或 Alt）：
-    - <kbd>⌥</kbd>
-    - `⌥`
-- Control（或 Ctrl）：
-    - <kbd>⌃</kbd>
-    - `⌃`
-- 空格（或 Space）：
-    - <kbd>␣</kbd>
-    - `␣`
-- 回车（或 Return 或 Enter）：
-    - <kbd>↵</kbd>
-    - `↵`
-- 删除（或 BKSP 或 Backspace）：
-    - <kbd>⌫</kbd>
-    - `⌫`
-- 向前删除（或 Delete）：
-    - <kbd>⌦</kbd>
-    - `⌦`
-- 大写锁定（或 Caps Lock）：
-    - <kbd>⇪</kbd>
-    - `⇪`
-- Escape (或 Esc)：
-    - <kbd>⎋</kbd>
-    - `⎋`
-- 上箭头（或 Up Arrow）：
-    - <kbd>↑</kbd>
-    - `↑`
-- 下箭头（或 Down Arrow）：
-    - <kbd>↓</kbd>
-    - `↓`
-- 右制表符（或 Tab）：
-    - <kbd>⇥</kbd>
-    - `⇥`
-- 左制表符：
-    - <kbd>⇤</kbd>
-    - `⇤`
-- 地球仪（或 Function 或 Fn）：
-    - <kbd>fn</kbd>
-    - `fn`
+名称 | 中文名称 | 符号 | 复制
+--- | --- | --- | ---
+Command（或 Cmd） | - | <kbd>⌘</kbd> | `⌘`
+Shift | - | <kbd>⇧</kbd> | `⇧`
+Option（或 Alt） | - | <kbd>⌥</kbd> | `⌥`
+Control（或 Ctrl） | - | <kbd>⌃</kbd> | `⌃`
+Space | 空格 | <kbd>␣</kbd> | `␣`
+Return 或 Enter | 回车 | <kbd>↵</kbd> | `↵`
+BKSP 或 Backspace | 删除 | <kbd>⌫</kbd> | `⌫`
+Delete | 向前删除 | <kbd>⌦</kbd> | `⌦`
+Caps Lock | 大写锁定 | <kbd>⇪</kbd> | `⇪`
+Escape (或 Esc) | 退出 | <kbd>⎋</kbd> | `⎋`
+Up Arrow | 上箭头 | <kbd>↑</kbd> | `↑`
+Down Arrow | 下箭头 | <kbd>↓</kbd> | `↓`
+Tab | 右制表符 | <kbd>⇥</kbd> | `⇥`
+Tab | 左制表符 | <kbd>⇤</kbd> | `⇤`
+Function 或 Fn | 地球仪 | <kbd>fn</kbd> | `fn`
 
 参考：
 
@@ -186,8 +166,6 @@ Mac 符号列表：
 3. https://sspai.com/post/36203# - *一日一技 | 在 Mac 上输入 ⌘、⌥、⇧、⌃、⎋ 等特殊字符 - 少数派*
 4. https://www.sysgeek.cn/macos-keyboard-symbols/ - *新手不再抓瞎，macOS键盘符号释义汇总 - 系统极客*
 5. https://blog.csdn.net/liaowhgg/article/details/84960769 - *Mac键盘符号说明(全)_苹果特殊符号 fn-CSDN博客*
-
-</output>
 
 ## 快速入门
 
@@ -217,6 +195,8 @@ Table of Contents
 - [Introduction](#introduction)
 - Features
 - [Official Website](#official)
+  - Homepage
+  - GitHub
 - [Tutorial](#tutorial)
   - Official
   - Third-party
@@ -229,6 +209,7 @@ Table of Contents
   - [User Interface](#user-interface)
   - Technologies
   - Tools
+  - Programming Languages
 - Quick Start
   - Index
 - [Installation](#installation)
@@ -246,10 +227,16 @@ Table of Contents
 - [Usage](#usage)
   - Basic Usage
     - [Shortcut Key](#shortcut-key)
+    - Usage with CDNs
+    - Usage with Node
   - Advanced Usage
+    - API
+    - Usage with Specialized Tools and Utilities
+    - Usage with Programming Languages
 - Help & Support
 - [FAQ](#faq)
 - Appendix
+  - [Brand](#brand)
   - Glossary
   - Troubleshooting
   - [Changelog](#changelog)
@@ -274,6 +261,8 @@ Table of Contents
 - `Introduction` - *`简介`*
 - `Features` - *`特色功能`*
 - `Official Website` - *`官网`*
+  - `Homepage` - *`主页`*
+  - `GitHub` - *`GitHub`*
 - `Tutorial` - *`教程`*
   - `Official` - *`官方教程`*
   - `Third-party` - *`第三方教程`*
@@ -286,6 +275,7 @@ Table of Contents
   - `User Interface` - *`用户界面`* （[Via](https://code.visualstudio.com/docs/getstarted/userinterface)）
   - `Technologies` - *`技术列表`* （[Via](https://github.com/gsantner/markor)）
   - `Tools` - *`工具`*
+  - `Programming Languages` - *`编程语言`* （[Via](https://www.regular-expressions.info/tools.html)）
 - `Quick Start` - *`快速入门`*
   - `Index` - *`索引`*
 - `Installation` - *`安装`*
@@ -298,10 +288,16 @@ Table of Contents
 - `Usage` - *`用法`*
   - `Basic Usage` - *`基础用法`* （[Via](https://github.com/dimitri/el-get)）
     - `Shortcut Key` - *`快捷键`*
+    - `Usage with CDNs` - *与 CDNs 一起使用*
+    - `Usage with Node` - *与 Node 一起使用*
   - `Advanced Usage` - *`高级用法`*
+    - `API`
+    - `Usage with Specialized Tools and Utilities` - *`与专用工具和实用程序一起使用`* （[Via](https://www.regular-expressions.info/tools.html)）
+    - `Usage with Programming Languages` - *`与编程语言一起使用`* （[Via](https://www.regular-expressions.info/tools.html)）
 - `Help` / `Support` - *`帮助与支持`*
 - `FAQ` - *`常见问题解答`*
 - `Appendix` - *`附录`*
+  - `Brand` - *`品牌`*
   - `Glossary` - *`术语表`*
   - `Troubleshooting` - *`故障排除`* （[Via](https://github.com/dimitri/el-get), [Via](https://github.com/github-linguist/linguist/tree/main/docs)）
   - `Changelog` - *`版本说明`*
@@ -319,7 +315,7 @@ Table of Contents
 
 </output>
 
-#### 工具
+#### 应用/工具
 
 <output data-lang="output">
 
@@ -327,7 +323,7 @@ Table of Contents
 
 - `Overview` / `Intro` - *简介 / 描述 / 概述*
 - `Official` - *官方*
-  - `Home page` - *主页*
+  - `Homepage` - *主页*
   - `Website` / `Official site` - *官网 / 官方网站*
   - `Docs` / `Manual` / `Documentation center` / `Wiki` - *文档 / 手册 / 文档中心 / Wiki*
   - `Forum` / `BBS` / `Community` - *论坛 / 社区*
@@ -355,18 +351,86 @@ Table of Contents
 
 </output>
 
+参考：
+
+1. https://github.com/outline/outline - *GitHub - outline/outline: The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.*
+
+#### 框架/插件/库
+
+<output data-lang="output">
+
+Outline
+
+- Used By
+- Examples
+- Full list of features
+- Limitations
+- Basic usage
+  - Language inheritance
+  - Manual highlighting
+  - Usage with CDNs
+  - Usage with Webpack, Browserify, & Other Bundlers
+  - Usage with Node
+- Supported languages
+- Plugins
+- Third-party language definitions
+- Third-party tutorials
+- Credits
+
+</output>
+
+参考：
+
+1. https://prismjs.com/index.html - *Prism*
+
 #### 企业
 
-- Product
-    - Download the app
+<output data-lang="output">
+
+- Products - 产品
+    - Features - 功能
+    - Pricing - 定价
+    - Download the app - 下载
+    - Downloads -  下载
     - Support Center
         - Manuals
-- Company
-    - About
-    - Blog
+- Support
+    - Docs - 文档
+    - Community Forum - 社区论坛
+    - Skills
+    - Status
+    - Contact - 联系方式
+    - Tutorials（[Via](https://www.alfredapp.com/)）
+    - Labs（[Via](https://www.alfredapp.com/)）
+- Company - 公司
+    - About - 关于我们
+    - Brand Assets - 品牌资产（[Via](https://www.jetbrains.com/company/brand/)）
+    - Blog - 博客
+    - Open Source
+    - Partners - 合作伙伴
+    - Shop
+- Resources - 资源
+    - Resource Center
+    - Community Forums
+    - Newsfeed
 - Social
+    - Facebook
     - GitHub
+    - Instagram
+    - LinkedIn
+    - Mastodon
+    - Reddit
+    - TikTok
+    - Twitch
+    - X
     - YouTube
+- Site Map - 网站地图（[Via](https://www.apple.com/sitemap/)）
+
+</output>
+
+参考：
+
+1. https://github.com/ - *GitHub · Build and ship software on a single, collaborative platform · GitHub*
 
 #### 实践
 
@@ -390,7 +454,7 @@ Table of Contents
 
 </output>
 
-#### 自述文件
+#### 开发/自述文件
 
 文件名：`README.md`
 
@@ -490,15 +554,38 @@ GitHub：
 
 #### Table of Contents
 
+模板：
+
+```tree
+root_folder/
+├── a first folder/
+│   ├── a second folder/
+│   │   ├── a third folder/
+│   │   │   └── some_picture.jpg
+│   │   └── some_picture.jpg
+│   ├── holidays.mov
+│   ├── javascript-file.js
+│   └── some_picture.jpg
+├── documents/
+│   ├── spreadsheet.xls
+│   ├── manual.pdf
+│   ├── document.docx
+│   └── pre
+```
+
 有关详细信息，请参阅“[目录结构](home/directory-structure.md)”。
 
 #### Shortcut Key
 
-暂无
+有关详细信息，请参阅“[专题 > 快捷键](topics/shortcuts.md)”。
 
 #### User Interface
 
 有关详细信息，请参阅“[设计 > UI 布局](../design/README.md#ui-布局)”。
+
+#### Programming Languages
+
+有关详细信息，请参阅“[技术栈 > 编程语言](tech-stack/README.md#编程语言)”。
 
 ### Installation
 
@@ -641,6 +728,17 @@ https://www.opensource.org/ - *Open Source Initiative &#8211; The steward of the
     - 主页：https://creativecommons.org/ - *When we share, everyone wins - Creative Commons*
 
     - 示例：本页面使用 [Creative Commons Attribution-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nd/4.0/) 授权。
+
+### Appendix
+
+#### Brand
+
+参考：
+
+1. https://bitwarden.com/brand/ - *The Bitwarden Brand | Bitwarden*
+2. https://browsersync.io/brand-assets - *Browsersync - Brand Assets*
+3. https://github.com/about - *About GitHub · GitHub*
+4. https://brand.github.com/ - *GitHub Brand Toolkit*
 
 ## 常用工具模板（中文）
 

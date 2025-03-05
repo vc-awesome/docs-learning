@@ -17,11 +17,11 @@
 
 官网：
 
-1. https://ethereum.org/zh/
+1. https://ethereum.org/zh/ - *以太坊是一个全球性的去中心化金融和新型应用程序平台。在以太坊，我们可以编写代码来控制资产，并构建在世界上任何地方皆可访问的应用程序。*
 
 API：
 
-1. https://cn.etherscan.com/apis
+1. https://cn.etherscan.com/apis - *Etherscan APIs- Ethereum (ETH) API Provider*
 
 GitHub：
 
@@ -30,11 +30,12 @@ GitHub：
 
 区块浏览器：
 
-1. https://cn.etherscan.com/
+1. https://cn.etherscan.com/ - *Etherscan中国Ethereum(ETH)区块链浏览器*
+2. https://etherscan.io/ - *Ethereum (ETH) Blockchain Explorer*
 
 开发者中心：
 
-1. https://ethereum.org/zh/developers/
+1. https://ethereum.org/zh/developers/ - *以太坊开发者资源*
 
 ## Web3
 
@@ -46,7 +47,7 @@ GitHub：
 >
 > 以太坊网络：以太坊集群节点或者使用 `Infura` 集群节点，由于考虑到自己搭建集群成本和同步节点成本，所以优先选用 `Infura`
 
-<https://infura.io/>
+<https://infura.io/> - *Web3 Development Platform | IPFS API & Gateway | Blockchain Node Service*
 
 ## Book
 
@@ -81,9 +82,9 @@ GitHub：
 > K = 6e145ccef1033dea239875dd00dfb4fee6e3348b84985c92f103444683bae07b83b5c38e5e2b0c8529d7fa3f64d46daa1ece2d9ac14cab9477d042c84c32ccd0
 > ```
 >
-> | Warning | 值得注意的是，在计算地址时，公钥没有用前缀（十六进制）04格式化。 |
-> | ------- | ------------------------------------------------------------ |
-> |         |                                                              |
+> Warning | 值得注意的是，在计算地址时，公钥没有用前缀（十六进制）04格式化。
+> --- | ---
+> ... | ...
 
 以太坊地址 `address`
 

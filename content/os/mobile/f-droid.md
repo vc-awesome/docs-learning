@@ -4,7 +4,7 @@
 
 > F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
 
-![f-droid](https://badgen.net/f-droid/v/org.fdroid.fdroid)
+![F-Droid Version](https://img.shields.io/f-droid/v/org.fdroid.fdroid)
 ![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/f-droid/fdroidclient?logo=github)
@@ -175,7 +175,7 @@ https://help.mirrors.cernet.edu.cn/fdroid/ - *F-Droid 软件仓库镜像使用�
 
 - 开源软件（[GitHub Repo](https://github.com/Iamlooker/Droid-ify)）
 
-![f-droid](https://badgen.net/f-droid/v/com.looker.droidify)
+![F-Droid Version](https://badgen.net/f-droid/v/com.looker.droidify)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
@@ -189,7 +189,7 @@ https://help.mirrors.cernet.edu.cn/fdroid/ - *F-Droid 软件仓库镜像使用�
 
 - 开源软件（[GitHub Repo](https://github.com/NeoApplications/Neo-Store)）
 
-![f-droid](https://badgen.net/f-droid/v/com.machiav3lli.fdroid)
+![F-Droid Version](https://badgen.net/f-droid/v/com.machiav3lli.fdroid)
 ![GitHub last commit](https://img.shields.io/github/last-commit/NeoApplications/Neo-Store?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/NeoApplications/Neo-Store?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/NeoApplications/Neo-Store?logo=github)

@@ -44,18 +44,25 @@
       } */
 
       :root {
+        --theme-color: #42b983;
         --border-color: rgba(0, 0, 0, 0.07);
+        --background-color: #ffffff;
       }
       @media (prefers-color-scheme: dark) {
         :root {
+          --theme-color: #ea6f5a;
           --border-color: rgba(255, 255, 255, 0.07);
+          --background-color: #3f3f3f;
+        }
+        .markdown-section.markdown-section tr:nth-child(2n) {
+          background-color: #141414;
         }
       }
 
       .toc-nav-container {
         left: -300px;
       }
-      
+
       .toc-nav-container a {
         text-decoration: underline !important;
       }
@@ -165,7 +172,6 @@
         noEmoji: false,
         // 设置首页文件加载路径。适合不想将 README.md 作为入口文件渲染，或者是文档存放在其他位置的情况使用。
         basePath: 'content/',
-        homepage: 'README.md',
         // Add table of contents (TOC) in custom sidebar.
         subMaxLevel: 6, // 最大 6 级，默认 0 级
         // 全文搜索
@@ -180,29 +186,26 @@
           (hook, vm) => {
             window.console.log({ _that: this, hook, vm });
 
-            hook.beforeEach(function(html) {
+            hook.beforeEach(function (html) {
               var url = `http-shortcuts://58acd922-2b4d-4a70-bf1d-9a196340079a?file_path=/storage/emulated/0/Documents/markor/gh/docs-learning${vm.route.file}`;
-              return [
-                '<header>\n\n',
-                '*[' + decodeURIComponent(vm.route.file) + '](' + url + ')*',
-                '</header>\n\n',
-                html
-              ].join('');
-            })
-
+              return ['<header>\n\n', '*[' + decodeURIComponent(vm.route.file) + '](' + url + ')*', '</header>\n\n', html].join('');
+            });
           },
         ],
       };
     </script>
 
     <script src="//fastly.jsdelivr.net/combine/npm/docsify@latest/lib/docsify.min.js,npm/docsify@latest/lib/plugins/search.min.js,npm/vue@2/dist/vue.min.js,npm/element-ui/lib/index.min.js,npm/vue-clipboard2@latest/dist/vue-clipboard.min.js"></script>
-    <script src="//fastly.jsdelivr.net/combine/npm/prismjs@latest/components/prism-php.min.js,npm/prismjs@latest/components/prism-bash.min.js,npm/prismjs@latest/components/prism-sql.min.js,npm/prismjs@latest/components/prism-json.min.js,npm/prismjs@latest/components/prism-markdown.min.js,npm/prismjs@latest/components/prism-uri.min.js,npm/prismjs@latest/components/prism-powershell.min.js,npm/prismjs@latest/components/prism-regex.min.js,npm/prismjs@latest/components/prism-diff.min.js"></script>
+    <script src="//fastly.jsdelivr.net/combine/npm/prismjs@latest/components/prism-php.min.js,npm/prismjs@latest/components/prism-bash.min.js,npm/prismjs@latest/components/prism-sql.min.js,npm/prismjs@latest/components/prism-json.min.js,npm/prismjs@latest/components/prism-markdown.min.js,npm/prismjs@latest/components/prism-uri.min.js,npm/prismjs@latest/components/prism-powershell.min.js,npm/prismjs@latest/components/prism-regex.min.js,npm/prismjs@latest/components/prism-diff.min.js,npm/prismjs@latest/components/prism-scss.min.js,npm/prismjs@latest/components/prism-vim.min.js"></script>
 
     <!-- 返回顶部 -->
     <script src="_assets/js/simple-back2top.js"></script>
 
     <!--复制代码块-->
-    <script src="_assets/libs/docsify-copy-code.js"></script>
+    <!--<script src="_assets/libs/docsify-copy-code.js"></script>-->
+    <script src="
+https://cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js
+"></script>
 
     <!--复制代码-->
     <script src="_assets/js/docsify-copy-code.js"></script>
@@ -238,10 +241,7 @@
 
     <!-- Table of Contents -->
     <script>
-      const tree = (
-        toc,
-        tpl = /* html */ '<ul class="toc-nav-list">{inner}</ul>',
-      ) => {
+      const tree = (toc, tpl = /* html */ '<ul class="toc-nav-list">{inner}</ul>') => {
         if (!toc || !toc.length) {
           return '';
         }
@@ -285,17 +285,15 @@
               nav.innerHTML = `<div class="toc-nav-container sidebar"><div class="toc-nav-title">On This Page</div>${treeList}</div><div class="toc-nav-mask"></div>`;
               setTimeout(() => {
                 Docsify.dom.find('.toc-toggle').style.visibility = 'visible';
-                Docsify.dom
-                  .find('.toc-toggle')
-                  .addEventListener('click', () => {
-                    Docsify.dom.toggleClass(nav, 'add', 'active');
-                  });
-                Docsify.dom
-                  .find('.toc-nav-mask')
-                  .addEventListener('click', () => {
-                    // 关闭目录
-                    Docsify.dom.toggleClass(nav, 'remove', 'active');
-                  });
+                Docsify.dom.find('.toc-toggle').addEventListener('click', () => {
+                  Docsify.dom.toggleClass(nav, 'add', 'active');
+                  Docsify.dom.find('body').style.overflow = 'hidden';
+                });
+                Docsify.dom.find('.toc-nav-mask').addEventListener('click', () => {
+                  // 关闭目录
+                  Docsify.dom.toggleClass(nav, 'remove', 'active');
+                  Docsify.dom.find('body').style.overflow = '';
+                });
               }, 0);
             } else {
               setTimeout(() => {
@@ -309,13 +307,7 @@
     </script>
     <img
       src="https://lug.ustc.edu.cn/static/USTC_logo.svg"
-      style="
-        position: fixed;
-        bottom: -320px;
-        left: -200px;
-        opacity: 0.1;
-        z-index: -100;
-      "
+      style="position: fixed; bottom: -320px; left: -200px; opacity: 0.1; z-index: -100"
     />
   </body>
 </html>

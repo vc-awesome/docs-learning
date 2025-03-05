@@ -7,7 +7,7 @@ https://github.com/animate-css/animate.css - *🍿 A cross-browser library of CS
 ![GitHub last commit](https://img.shields.io/github/last-commit/animate-css/animate.css?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/animate-css/animate.css?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/animate-css/animate.css?logo=github)
-![npm](https://img.shields.io/npm/v/animate.css?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/animate.css?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/animate-css/animate.css?style=social)
 
 <details markdown='1'>

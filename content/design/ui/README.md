@@ -1,0 +1,232 @@
+# User Interface
+
+- Editor - 编辑器
+- Side Bar - 侧边栏
+- Status Bar - 状态栏
+- Activity Bar - 活动栏
+- Panel - 面板
+- Tabs - 标签
+- Minimap - 迷你地图
+- Breadcrumbs (Navigation Bar) - 面包屑（导航栏）
+- Explorer View - 资源管理器视图
+    - Outline View - 大纲视图
+    - Timeline View - 时间线视图
+- Views - 视图
+- Tool Bars - 工具栏
+- Menu Bar - 菜单栏
+- Context Menu - 上下文菜单
+- ${filename}
+- ${extname}
+- ${dirname}
+
+网页浏览器
+
+- address bar - 地址栏
+- menu bar - 菜单栏
+- tabbar - 标签栏
+- toolbar - 工具栏
+- webpage - 网页
+
+### UI Layout
+
+#### Desktop App
+
+- menu bar - 菜单栏
+- tab bar - 标签栏
+- tool bar - 工具栏
+- window - 窗口
+
+#### Mobile App
+
+- System Bars - 系统栏
+    - Status Bar - 状态栏
+    - Navigation Bar - 导航栏
+- Layout & Content - 布局和内容
+    - Navigation region - 导航区域
+
+https://developer.android.google.cn/design/ui?hl=zh-cn - *界面设计  |  UI Design  |  Android Developers*
+
+https://developer.android.google.cn/design/ui - *UI Design  |  Android Developers*
+
+#### Web App
+
+- 菜单栏
+- 导航栏
+    - Site level navigation - 网站级别导航（页面顶部）
+    - Related content navigation - 相关内容导航（站点级别导航正下方）
+    - In this article - 本文内容
+- Table of Contents - 目录
+- Action buttons - 操作按钮
+
+浏览器布局说明图，参考：
+1. https://learn.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs?view=powershell-7.3 - *如何使用 PowerShell 文档 - PowerShell | Microsoft Learn*
+2. https://learn.microsoft.com/en-us/powershell/scripting/how-to-use-docs?view=powershell-7.5 - *How to use the PowerShell documentation - PowerShell | Microsoft Learn*
+
+#### Developer
+
+1. [Design](design/README.md)
+2. [HTML](front-end/html/README.md)
+3. [CSS](front-end/css/README.md)
+    - [naming-rule](front-end/css/naming-rule.md)
+
+语义化：
+
+- `<p></p>` 段落
+- `<h1> ~ <h6>` 标题
+- `<blockquote></blockquote>` 引用
+- `<code></code>` 代码
+- `<kbd></kbd>` 键盘
+- `<header></header>`
+- `<main></main>`
+- `<article></article>`
+- `<aside></aside>`
+- `<section></section>`
+- `<nav></nav>`
+- `<footer></footer>`
+- `<button></button>`
+
+```html
+<div class="container">
+  <div class="header">顶栏容器</div>
+  <div class="aside">侧边栏容器</div>
+  <div class="main">主要区域容器</div>
+  <div class="footer">底栏容器</div>
+</div>
+```
+
+命名风格：
+
+`{命名空间}-{模块名}-{状态描述}`
+
+`{命名空间}-{模块名}-{子模块名}`
+
+命名空间：
+
+- am
+- mu
+
+模块名：
+
+- box
+- modal
+- tab
+- nav
+- list
+- form
+- table
+- menu
+- card
+- tag
+- search
+- icon
+- btn
+- badge
+- panel
+- container
+- text
+- link
+
+子模块名：
+
+- header
+- body
+- content
+- footer
+- text
+- img
+- title
+- value
+- item
+- cell
+- icon
+- group
+- top
+- bottom
+- left
+- right
+- center
+
+状态描述：
+
+- active
+- disabled
+- hover
+- current
+- selected
+- checked
+- success
+- error
+- show
+- hide
+
+语法：
+
+- block
+- block__element
+- block--modifier
+- block__element--modifier
+- block--modifier-value
+
+Block：
+
+- header
+- container
+- menu
+- checkbox
+- input
+
+Element：
+
+- menu item
+- list item
+- checkbox caption
+- header title
+
+Modifier：
+
+- disabled
+- highlighted
+- checked
+- fixed
+- size big
+- color yellow
+
+##### Material Design
+
+> Material design file manager for Android. Contribute to TeamAmaze/AmazeFileManager development by creating an account on GitHub.
+
+https://m3.material.io/ - *Material Design*
+
+https://github.com/material-components - *Material Components · GitHub*
+
+- https://github.com/material-components/material-components-android - *GitHub - material-components/material-components-android: Modular and customizable Material Design UI components for Android*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-android?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-android?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-android?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-android?style=social)
+
+- https://github.com/material-components/material-components-ios - *GitHub - material-components/material-components-ios: [In maintenance mode] Modular and customizable Material Design UI components for iOS*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-ios?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-ios?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-ios?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-ios?style=social)
+
+- https://github.com/material-components/material-web - *GitHub - material-components/material-web: Material Design Web Components* [Website](https://material-web.dev)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-web?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-web?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-web?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-web?style=social)
+
+## Reference
+
+1. https://code.visualstudio.com/docs/getstarted/userinterface - *Visual Studio Code User Interface*
+    1. https://code.visualstudio.com/docs/editor/custom-layout - *Custom layout of Visual Studio Code*
+    2. https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette - *Visual Studio Code User Interface*
+2. https://hx.dcloud.net.cn/Tutorial/userinterface - *用户界面 - HBuilderX 文档*
+3. https://developers.weixin.qq.com/miniprogram/dev/devtools/page.html - *界面*
+4. https://developers.weixin.qq.com/miniprogram/design/ - *设计*
+5. https://www.navicat.com/manual/online_manual/en/navicat_17/mac_manual/#/main_window_0 - *Navicat Tutorials | Navicat Online Manual*
+6. https://www.gnu.org/software/emacs/manual/html_node/emacs/Screen.html - *Screen (GNU Emacs Manual)*

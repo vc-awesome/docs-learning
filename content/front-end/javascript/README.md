@@ -25,12 +25,12 @@ https://github.com/tc39/ecma262/ - *GitHub - tc39/ecma262: Status, process, and 
 
 2. https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/javascript-tutorial)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/javascript-tutorial?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/javascript-tutorial?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/javascript-tutorial?style=social)
 
 3. https://wangdoc.com/es6/ - *ES6 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/es6-tutorial)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/wangdoc/es6-tutorial?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/es6-tutorial?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/es6-tutorial?style=social)
 
 4. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript - *JavaScript - 学习 Web 开发 | MDN*
@@ -219,7 +219,7 @@ https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScrip
 
 3. https://github.com/chaijs/type-detect - *GitHub - chaijs/type-detect: Improved typeof detection for node.js and the browser.*
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/chaijs/type-detect?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/chaijs/type-detect?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/chaijs/type-detect?style=social)
 
 #### 运算符
@@ -425,9 +425,7 @@ https://wangdoc.com/javascript/async/timer - *定时器 - JavaScript 教程 - �
 
 ##### Promise 对象
 
-https://wangdoc.com/javascript/async/promise - *Promise 对象 - JavaScript 教程 - 网道*
-
-https://wangdoc.com/es6/promise - *Promise 对象 - ES6 教程 - 网道*
+有关详细信息，请参阅“[Promise](front-end/javascript/promise.md)”。
 
 ### 进阶
 

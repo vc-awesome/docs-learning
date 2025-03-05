@@ -1,8 +1,11 @@
 * [代码片段](snippets/README.md)
 * [插图](snippets/illustration.md)
-* [应用模板](snippets/app-list-template.md)
 * [Badge](snippets/badge.md)
 * [HTML](snippets/html.md)
 * [CSS](snippets/css.md)
 * [JavaScript](snippets/javascript.md)
 * [正则表达式](snippets/regex.md)
+* [Bookmarklet](snippets/bookmarklet.md)
+* **应用模板**
+* [应用分类](snippets/app-list-template/category.md)
+* [应用详情](snippets/app-list-template/details.md)

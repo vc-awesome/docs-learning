@@ -132,7 +132,7 @@ https://www.runoob.com/cssref/css-selectors.html - *CSS 选择器 | 菜鸟教程
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity - *优先级 - CSS：层叠样式表 | MDN*
 
-#### :not()
+#### `:not()`
 
 - https://www.runoob.com/cssref/sel-not.html - *CSS3 :not 选择器 | 菜鸟教程*
 - https://developer.mozilla.org/zh-CN/docs/Web/CSS/:not - *:not() - CSS：层叠样式表 | MDN*
@@ -182,6 +182,10 @@ https://www.runoob.com/css3/css3-transitions.html - *CSS3 过渡 | 菜鸟教程*
 ### CSS3 动画
 
 https://www.runoob.com/css3/css3-animations.html - *CSS3 动画 | 菜鸟教程*
+
+### CSS3 渐变
+
+https://www.runoob.com/css3/css3-gradients.html - *CSS3 渐变 | 菜鸟教程*
 
 ### 布局
 
@@ -315,7 +319,7 @@ https://sass-lang.com - *Sass is the most mature, stable, and powerful professio
 
 ![GitHub last commit](https://badgen.net/github/last-commit/sass/sass?icon=github&color=blue)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/sass/sass?logo=github&color=blue)
-![npm](https://img.shields.io/npm/v/sass?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/sass?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sass/sass?style=social)
 
 ### Less
@@ -326,7 +330,7 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 ![GitHub Release Date](https://img.shields.io/github/release-date/less/less.js?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/less/less.js?logo=github)
 ![GitHub tag (with filter)](https://img.shields.io/github/v/tag/less/less.js?logo=github&color=blue)
-![npm](https://img.shields.io/npm/v/less?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/less?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/less/less.js?style=social)
 
 ## 工具
@@ -464,9 +468,25 @@ animations* [GitHub User](https://github.com/Afif13/)
 1. https://www.css-generators.com/ - *CSS Generators: Your CSS code with less
 effort*
 
-## ~~常见问题~~
+## 常见问题
 
-暂无
+### 从文本区域获取文本时如何保留换行符
+
+```html
+ <textarea id="post-text" class="form-control" rows="3" placeholder="What's up?" required></textarea>
+```
+
+```css
+textarea {
+  width: 100%;
+  white-space: pre-wrap;
+}
+```
+
+参考：
+
+1. https://segmentfault.com/q/1010000042590223 - *javascript - 从文本区域获取文本时如何保留换行符？ - SegmentFault 思否*
+2. https://blog.csdn.net/github_35631540/article/details/122970690 - *使用 white-space 来实现保留文本域 textarea的换行格式和 空格格式_js textarea white-space属性-CSDN博客*
 
 ## 参考
 

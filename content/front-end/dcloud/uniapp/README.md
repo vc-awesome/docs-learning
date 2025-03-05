@@ -7,7 +7,7 @@
 ![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/uni-app?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/uni-app?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/uni-app?logo=github)
-![npm](https://img.shields.io/npm/v/@dcloudio/uni-app?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/@dcloudio/uni-app?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/uni-app?style=social)
 
 ## Official
@@ -20,11 +20,15 @@ GitHub：
 
 1. https://github.com/dcloudio/uni-app - *dcloudio/uni-app: A cross-platform framework using Vue.js*
 
+Gitee：
+
+1. https://gitee.com/dcloud/uni-app - *DCloud/uni-app: uniapp:使用 Vue.js 开发跨平台应用的前端框架*
+
 ## Mini Program
 
 ### WeChat
 
-暂无
+https://developers.weixin.qq.com/miniprogram/dev/framework/ - *微信开放文档 / 开发*
 
 ## Tools
 
@@ -46,6 +50,17 @@ https://ask.dcloud.net.cn/article/35907 - *DCloud appid 用途/作用/使用说�
 
 ### Hello uni-app
 
+> uni-app 框架示例，一套代码，同时发行到iOS、Android、H5、小程序等多个平台，请使用手机扫码快速体验 uni-app 的强大功能
+
+![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/hello-uniapp?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/hello-uniapp?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/hello-uniapp?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/hello-uniapp?style=social)
+
+https://ext.dcloud.net.cn/plugin?id=4941 - *hello-uniapp 示例工程 - DCloud 插件市场*
+
+https://github.com/dcloudio/hello-uniapp - *GitHub - dcloudio/hello-uniapp: uni-app框架演示示例*
+
 官方下载：https://m3w.cn/uniapp - *Hello uni-app*
 
 #### Web
@@ -64,17 +79,6 @@ https://itunes.apple.com/cn/app/hello-uni-app/id1417078253 - *App Store 上的�
 
 https://m3w.cn/uniapp - *Hello uni-app*
 
-#### 源码
-
-![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/hello-uniapp?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/hello-uniapp?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/hello-uniapp?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/hello-uniapp?style=social)
-
-https://ext.dcloud.net.cn/plugin?id=4941 - *hello-uniapp 示例工程 - DCloud 插件市场*
-
-https://github.com/dcloudio/hello-uniapp - *GitHub - dcloudio/hello-uniapp: uni-app框架演示示例*
-
 ## Marketplace
 
 > DCloud 插件市场
@@ -89,6 +93,8 @@ https://ext.dcloud.net.cn/publisher?id=586192 - *DCloud 插件市场*
 
 #### uni-ui
 
+> uni-ui 是基于uni-app的、全端兼容的、高性能UI框架
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/uni-ui?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dcloudio/uni-ui?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dcloudio/uni-ui?logo=github)
@@ -102,6 +108,8 @@ https://github.com/dcloudio/uni-ui - *GitHub - dcloudio/uni-ui: 基于 uni-app �
 
 #### ColorUI
 
+> 这是一款适应于H5、微信小程序、安卓、ios、支付宝的高颜值，高度自定义的Css组件库.
+
 ![GitHub last commit](https://img.shields.io/github/last-commit/weilanwl/coloruicss?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/weilanwl/coloruicss?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/weilanwl/coloruicss?logo=github)
@@ -114,6 +122,8 @@ https://github.com/weilanwl/coloruicss - *GitHub - weilanwl/coloruicss: 鲜亮�
 https://www.color-ui.com/ - *ColorUI 组件库 | 蔚海云*
 
 #### uView
+
+> uView UI已完美兼容nvue，全面的组件和便捷的工具会让您信手拈来，如鱼得水
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/umicro/uView2.0?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/umicro/uView2.0?display_date=published_at&logo=github)
@@ -266,3 +276,16 @@ export default {
 2. https://developer.baidu.com/article/detail.html?id=3237244 - *Uniapp微信小程序：轻松获取用户头像和昵称-百度开发者中心*
 3. https://developers.weixin.qq.com/community/develop/article/doc/0008a494fd4f4097a70fd72785b013 - *小程序用户头像昵称获取（含部分常见问题） | 微信开放社区*
 4. https://blog.csdn.net/LJM51200/article/details/128589119 - *uniapp之最新获取用户昵称以及头像_uniapp 获取头像-CSDN博客*
+
+### 微信小程序分享给好友按钮为灰色
+
+参考：
+
+1. https://blog.csdn.net/qq_54276699/article/details/135993691 - *微信小程序转发给朋友按钮是灰色如何解决_微信小程序不能转发-CSDN博客*
+2. https://developers.weixin.qq.com/community/develop/doc/000880732503208c5b0e0e2f751000 - *小程序转发给朋友及分享朋友圈的按钮为灰色，如何恢复权限？ | 微信开放社区*
+3. https://blog.csdn.net/qq_17335549/article/details/130849793 - *微信小程序【发送给朋友】和【复制链接】功能，灰色不可用_微信小程序分享到朋友圈是灰的-CSDN博客*
+4. https://blog.csdn.net/qq_45569925/article/details/139475187 - *解决微信小程序分享按钮不可用_微信小程序不能分享-CSDN博客*
+5. https://juejin.cn/post/7451427308164005924 - *uniapp开发APP&小程序分享功能分享到微信、QQ、微博等实战在不同平台，分享的调用方式和逻辑有较大差异App：可以 - 掘金*
+6. https://juejin.cn/post/7439016399462596660 - *最全的uniapp微信小程序分享功能（列表多个分享按钮，每个按钮都可设置不同参数，实现动态分享）本文介绍了如何在unia - 掘金*
+7. https://developer.aliyun.com/article/1628459 - *uni-app开发实战：利用Vue混入(mixin)实现微信小程序全局分享功能，一键发送给朋友、分享到朋友圈、复制链接-阿里云开发者社区*
+8. https://blog.csdn.net/qq_43201350/article/details/140503038 - *uni-app—— uniapp 小程序开启分享-复制链接功能_uniapp 小程序复制链接-CSDN博客*

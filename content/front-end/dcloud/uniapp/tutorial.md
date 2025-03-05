@@ -2,12 +2,23 @@
 
 > uni-app, uniCloud, serverless, uni-app 组成和跨端原理，基本语言和开发规范，编译器，运行时（runtime），逻辑层和渲染层分离。
 
-https://uniapp.dcloud.net.cn/ - *uni-app官网*
+中文：
 
-https://github.com/dcloudio/unidocs-zh - *GitHub - dcloudio/unidocs-zh: uni-app官方文档*
+1. https://uniapp.dcloud.net.cn/ - *uni-app官网*
 
-![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/unidocs-zh?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/unidocs-zh?style=social)
+2. https://github.com/dcloudio/unidocs-zh - *GitHub - dcloudio/unidocs-zh: uni-app官方文档*
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/dcloudio/unidocs-zh?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/unidocs-zh?style=social)
+
+英文：
+
+1. https://en.uniapp.dcloud.io/ - *uni-app*
+
+2. https://github.com/dcloudio/unidocs-en - *GitHub - dcloudio/unidocs-en: A cross-platform framework using Vue.js*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dcloudio/unidocs-en?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/dcloudio/unidocs-en?style=social)
 
 ## 开发指南
 
@@ -115,14 +126,6 @@ https://uniapp.dcloud.net.cn/tutorial/run-and-debug.html - *uni-app官网*
 
 ## 全局文件
 
-### pages.json
-
-https://uniapp.dcloud.net.cn/collocation/pages.html - *pages.json 页面路由 | uni-app官网*
-
-#### 自定义导航栏
-
-https://uniapp.dcloud.net.cn/collocation/pages.html#customnav - *pages.json 页面路由 | uni-app官网*
-
 ### App.vue
 
 https://uniapp.dcloud.net.cn/collocation/App.html - *App.vue/App.uvue | uni-app官网*
@@ -138,6 +141,14 @@ https://uniapp.dcloud.net.cn/collocation/main.html - *main.js/main.uts | uni-app
 #### 代码时序
 
 <https://uniapp.dcloud.net.cn/collocation/main.html#代码时序> - *main.js/main.uts | uni-app官网*
+
+### pages.json
+
+https://uniapp.dcloud.net.cn/collocation/pages.html - *pages.json 页面路由 | uni-app官网*
+
+#### 自定义导航栏
+
+https://uniapp.dcloud.net.cn/collocation/pages.html#customnav - *pages.json 页面路由 | uni-app官网*
 
 ### uni.scss
 
@@ -421,6 +432,10 @@ https://uniapp.dcloud.net.cn/api/request/network-file.html - *uni.uploadFile(OBJ
 
 1. https://blog.csdn.net/roridaisuki/article/details/118724389 - *uniapp文件上传返回参数uploadFileRes使用问题_uni.uploadfile 返回的图片格式有问题-CSDN博客*
 2. https://blog.csdn.net/progrmmmm/article/details/125655276 - *uni.uploadFile等其他功能上传参数返回值不是json格式解决方案_uniapp uploadfile返回数据json格式-CSDN博客*
+
+### 页面和路由
+
+https://uniapp.dcloud.net.cn/api/router.html - *uni.navigateTo(OBJECT) | uni-app官网*
 
 ## Vue 语法
 

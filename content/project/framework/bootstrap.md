@@ -7,7 +7,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/twbs/bootstrap?logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/twbs/bootstrap?logo=github)
 ![GitHub repo size](https://img.shields.io/github/repo-size/twbs/bootstrap?logo=github)
-![npm](https://img.shields.io/npm/v/bootstrap?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/bootstrap?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/twbs/bootstrap?style=social)
 
 ## 官方

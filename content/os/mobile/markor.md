@@ -4,7 +4,7 @@
 
 > Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..
 
-![F-Droid Version](https://img.shields.io/f-droid/v/net.gsantner.markor?logo=f-droid)
+![F-Droid Version](https://img.shields.io/f-droid/v/net.gsantner.markor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)

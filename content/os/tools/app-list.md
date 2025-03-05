@@ -14,7 +14,7 @@
 
 1. [JetBrains 系列](https://www.jetbrains.com/) - *JetBrains: Essential tools for software developers and teams*
 
-    1. ✅ [PhpStorm](https://www.jetbrains.com/phpstorm/) <i id="phpstorm"></i> - *PhpStorm: PHP IDE and Code Editor from JetBrains*
+    1. ✅ [PhpStorm](https://www.jetbrains.com/phpstorm/) <i id="phpstorm"></i> - *PhpStorm: PHP IDE and Code Editor from JetBrains* [使用手册](os/tools/developer/editor/phpstorm.md)
 
         - 支持 Windows, macOS, Linux
 
@@ -26,7 +26,7 @@
 
         - 免费试用 30 天
 
-2. ✅ [Visual Studio Code](https://code.visualstudio.com/) <i id="visual-studio-code"></i> - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.*
+2. ✅ [Visual Studio Code](https://code.visualstudio.com/) <i id="visual-studio-code"></i> - *Visual Studio Code is a code editor redefined and optimized for building and debugging modern web and cloud applications.  Visual Studio Code is free and available on your favorite platform - Linux, macOS, and Windows.* [使用手册](os/tools/developer/editor/visual-studio-code.md)
 
     - 支持 Windows, macOS（[Homebrew](https://formulae.brew.sh/cask/visual-studio-code)）, Linux, [Web](https://vscode.dev/)
 
@@ -34,7 +34,7 @@
 
     - 注册登录
 
-3. ✅ [HBuilderX-高效极客技巧](https://www.dcloud.io/hbuilderx.html) - *HBuilderX是当前最快的HTML开发工具，强大的代码助手帮你快速完成开发，最全的语法库和浏览器兼容性数据让浏览器碎片化不再头痛*
+3. ✅ [HBuilderX-高效极客技巧](https://www.dcloud.io/hbuilderx.html) - *HBuilderX是当前最快的HTML开发工具，强大的代码助手帮你快速完成开发，最全的语法库和浏览器兼容性数据让浏览器碎片化不再头痛* [使用手册](front-end/dcloud/hbuilderx.md)
 
     - 支持 Windows, macOS（[Homebrew](https://formulae.brew.sh/cask/hbuilderx)）
 
@@ -50,7 +50,7 @@
 
 #### 文本编辑器
 
-1. ✅ [Sublime Text - Text Editing, Done Right](https://www.sublimetext.com/) <i id="sublime"></i> - *Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.*
+1. ✅ [Sublime Text - Text Editing, Done Right](https://www.sublimetext.com/) <i id="sublime"></i> - *Sublime Text is a sophisticated text editor for code, markup and prose. You'll love the slick user interface, extraordinary features and amazing performance.* [使用手册](os/tools/developer/editor/sublime-text.md)
 
     - 支持 Windows（[Portable version](https://www.sublimetext.com/download_thanks?target=win-x64-portable)）, macOS（[Homebrew](https://formulae.brew.sh/cask/sublime-text)）, Linux
 
@@ -70,13 +70,13 @@
 
     - ~~开源软件（[GitHub Repo](https://github.com/atom/atom)）~~
 
-5. ✅ [GNU Emacs - GNU Project](https://www.gnu.org/software/emacs/) - *An extensible, customizable, free/libre text editor — and more.*
+5. ✅ [GNU Emacs - GNU Project](https://www.gnu.org/software/emacs/) - *An extensible, customizable, free/libre text editor — and more.* [使用手册](os/tools/developer/editor/emacs.md)
 
     - 支持 Windows, macOS, Linux, Android（[F-Droid](https://f-droid.org/packages/org.gnu.emacs/)）
 
     - 开源软件（[Self-hosting](https://git.savannah.gnu.org/cgit/emacs.git/)）
 
-6. ✅ [Vim](https://www.vim.org/) - *Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.*
+6. ✅ [Vim](https://www.vim.org/) - *Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.* [使用手册](os/tools/developer/editor/vim.md)
 
     - 支持 Windows, macOS, Linux, Android（Termux）, iOS
 
@@ -120,7 +120,7 @@
 
     - 开源软件（[GitHub Org](https://github.com/editorconfig)）
 
-3. [Prettier · Opinionated Code Formatter](https://prettier.io/) - *Opinionated Code Formatter*
+3. [Prettier · Opinionated Code Formatter](https://prettier.io/) - *Opinionated Code Formatter* [使用手册](os/tools/developer/prettier.md)
 
     - 支持 Editors Plugin
 
@@ -136,7 +136,7 @@
 
 #### 代码格式化
 
-1. [dprint](https://dprint.dev/) - *dprint - Code Formatter*
+1. [dprint - Code Formatter](https://dprint.dev/) - *A pluggable and configurable code formatting platform written in Rust.*
 
     - 支持 Windows, macOS, Linux, Web, Editors Plugin
 
@@ -151,7 +151,7 @@
 
 ### 命令行界面
 
-1. [PowerShell](https://microsoft.com/PowerShell) - *PowerShell for every system!*
+1. [PowerShell](https://microsoft.com/PowerShell) - *PowerShell for every system!* [使用手册](os/tools/developer/shell/powershell.md)
 
     - 支持 Windows, macOS, Linux
 
@@ -161,9 +161,17 @@
 
     - 支持 [Windows](https://gitforwindows.org/), [macOS](https://git-scm.com/download/mac), [Linux](https://git-scm.com/download/linux)
 
+#### Shell
+
+1. [Bash - GNU Project - Free Software Foundation](https://www.gnu.org/software/bash/) - *Bash is the GNU Project's shell—the Bourne Again SHell. This is an sh-compatible shell that incorporates useful features from the Korn shell (ksh) and the C shell (csh).* [使用手册](os/tools/developer/shell/bash.md)
+
+    - 支持 Linux, macOS, Android（Termux）
+
+    - 开源软件（Self-hosting）
+
 ### PHP 集成环境
 
-1. ✅ [PhpStudy](https://www.xp.cn) <i id="phpstudy"></i> - *phpStudy(小皮面板) - 让天下没有难配的服务器环境！*
+1. ✅ [PhpStudy](https://www.xp.cn) <i id="phpstudy"></i> - *phpStudy(小皮面板) - 让天下没有难配的服务器环境！* [使用手册](os/tools/developer/phpstudy.md)
 
     - 支持 Windows, macOS, Linux
 
@@ -201,7 +209,7 @@
 
 ### 服务器运维
 
-1. [宝塔面板 - 简单好用的Linux/Windows服务器运维管理面板](https://www.bt.cn/new/index.html) - *宝塔，让运维简单高效。面板支持Linux与Windows系统。一键配置：LAMP/LNMP、网站、数据库、FTP、SSL，通过Web端轻松管理服务器。*
+1. [宝塔面板 - 简单好用的Linux/Windows服务器运维管理面板](https://www.bt.cn/new/index.html) - *宝塔，让运维简单高效。面板支持Linux与Windows系统。一键配置：LAMP/LNMP、网站、数据库、FTP、SSL，通过Web端轻松管理服务器。* [使用手册](os/tools/developer/bt.md)
 
     - 支持 Windows, Linux
 
@@ -221,7 +229,7 @@
 
     - 支持 Windows
 
-2. ✅ [Navicat Premium](https://www.navicat.com.cn/) <i id="navicat"></i> - *强大的数据库管理和设计工具，支持 Win、macOS 和 linux。直观的 GUI 让用户简单地管理 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库。* [破解版](https://ldqk.xyz/37), [英文站点](https://www.navicat.com/en)
+2. ✅ [Navicat Premium](https://www.navicat.com.cn/) <i id="navicat"></i> - *强大的数据库管理和设计工具，支持 Win、macOS 和 linux。直观的 GUI 让用户简单地管理 MySQL、Redis、MariaDB、MongoDB、SQL Server、SQLite、Oracle 和 PostgreSQL 的数据库。* [破解版](https://ldqk.xyz/37), [英文站点](https://www.navicat.com/en) [使用手册](os/tools/developer/navicat.md)
 
     - 支持 Windows, macOS, Linux
 
@@ -237,13 +245,13 @@
 
 > API（*Application Programming Interface*，应用程序编程接口）
 
-1. [Postman](https://www.postman.com/) - *Postman API Platform*
+1. [Postman](https://www.postman.com/) - *Accelerate API development with Postman's all-in-one platform. Streamline collaboration and simplify the API lifecycle for faster, better results. Learn more.* [使用手册](os/tools/developer/postman.md)
 
     - 支持 Windows, macOS, Linux, Web, CLI, Web Browser Extensions
 
     - 注册登录（开通会员解锁更多功能）
 
-2. [YApi 接口管理平台](https://hellosean1025.github.io/yapi/) - *YApi-高效、易用、功能强大的可视化接口管理平台*
+2. [YApi 接口管理平台](https://hellosean1025.github.io/yapi/) - *YApi-高效、易用、功能强大的可视化接口管理平台* [使用手册](os/tools/developer/yapi.md)
 
     - 支持 Web, CLI（Node.js）, Web Browser Extensions
 
@@ -279,7 +287,7 @@
 
 > VCS（*Version Control System*，版本控制系统）
 
-1. ✅ [Git](https://git-scm.com/) <i id="git"></i> - *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.*
+1. ✅ [Git](https://git-scm.com/) <i id="git"></i> - *Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.* [使用手册](os/tools/developer/git.md)
 
    - 支持 Windows, macOS, Linux, Android（Termux）
 
@@ -299,7 +307,7 @@
 
 #### GUI Clients
 
-1. ✅ [Sourcetree](https://www.sourcetreeapp.com/) <i id="sourcetree"></i> - *Sourcetree | Free Git GUI for Mac and Windows* [使用教程](https://www.runoob.com/git/source-tree-intro.html)
+1. ✅ [Sourcetree | Free Git GUI for Mac and Windows](https://www.sourcetreeapp.com/) <i id="sourcetree"></i> - *A Git GUI that offers a visual representation of your repositories. Sourcetree is a free Git client for Windows and Mac.* [使用教程](https://www.runoob.com/git/source-tree-intro.html)
 
     - 支持 Windows, macOS
 
@@ -311,7 +319,7 @@
 
     - 开源免费（[GitHub Repo](https://github.com/desktop/desktop)）
 
-3. [Tower](https://www.git-tower.com/) - *The most powerful Git client for Mac and Windows | Tower Git Client*
+3. [Tower &mdash; The most powerful Git client for Mac and Windows](https://www.git-tower.com/) - *Over 100,000 developers and designers are more productive with Tower - the most powerful Git client for Mac and Windows.*
 
     - 支持 Windows, macOS
 
@@ -356,7 +364,7 @@
 
 > SSH（*Secure Shell*，安全外壳协议）
 
-1. ✅ [PuTTY](https://www.putty.org/) <i id="putty"></i> - *远程管理 Linux*
+1. ✅ [PuTTY](https://www.putty.org/) <i id="putty"></i> - *a free SSH and telnet client for Windows，远程管理 Linux*
 
     - 支持 Windows
 
@@ -374,7 +382,7 @@
 
 客户端：
 
-1. ✅ [WinSCP](https://winscp.net/eng/index.php) <i id="winscp"></i> - *基于 SSH 的开源图形化 SFTP 客户端*
+1. ✅ [WinSCP :: Official Site :: Free SFTP and FTP client for Windows](https://winscp.net/eng/index.php) <i id="winscp"></i> - *WinSCP is a free file manager for Windows supporting FTP, SFTP, S3 and WebDAV.*
 
     - 支持 Windows
 
@@ -498,7 +506,7 @@
 
 ## 网页浏览器
 
-1. [Google Chrome](https://www.google.cn/chrome/) - *得益于 Google 智能工具，Chrome 现在更易用、更安全、更快速。* [英文站点](https://www.google.com/chrome/)
+1. [Google Chrome](https://www.google.cn/chrome/) - *得益于 Google 智能工具，Chrome 现在更易用、更安全、更快速。* [英文站点](https://www.google.com/chrome/) [使用手册](os/tools/browser/chrome.md)
 
     - 支持 Windows, macOS（[Direct download](https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg)）, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=com.android.chrome)）, iOS
 
@@ -508,11 +516,11 @@
 
     - 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=com.microsoft.emmx)）, iOS
 
-3. [Firefox 火狐浏览器](http://www.firefox.com.cn/) - *下载由致力于互联网健康与隐私保护的非营利组织 Mozilla 全力开发的浏览器 — Firefox。Windows、Mac、Linux、Android、与 iOS 版皆可免费下载。* [英文站点](https://www.mozilla.org/zh-CN/firefox/)
+3. [Firefox 火狐浏览器](http://www.firefox.com.cn/) - *下载由致力于互联网健康与隐私保护的非营利组织 Mozilla 全力开发的浏览器 — Firefox。Windows、Mac、Linux、Android、与 iOS 版皆可免费下载。* [英文站点](https://www.mozilla.org/zh-CN/firefox/) [使用手册](os/tools/browser/firefox.md)
 
     - 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=org.mozilla.firefox)）, iOS
 
-4. [Opera Web Browser](https://www.opera.com/zh-cn) - *Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.*
+4. [Opera Web Browser](https://www.opera.com/zh-cn) - *Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.* [使用手册](os/tools/browser/opera.md)
 
     - 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=com.opera.browser)）, iOS
 
@@ -563,11 +571,15 @@
 
     - 支持 Web
 
+2. [语雀，为每一个人提供优秀的文档和知识库工具 · 语雀](https://www.yuque.com/) - *优雅高效的在线文档编辑与协同工具，让每个企业轻松拥有文档中心，阿里巴巴集团内部使用多年，众多中小企业首选。主流 Office 文件全兼容，多人协同，轻松拥有团队知识库。企业文档中心化管理，各类文档井然有序，独立域名，随时随地安全获取。语雀致力于帮助每一个个体与企业，都拥有珍贵的知识财富。写文档，就用语雀！*
+
+    - 支持 Windows, macOS, Android, iOS, Web, Web Browser Extensions
+
 ## 账号安全
 
 ### 密码管理
 
-1. ✅ [Bitwarden](https://bitwarden.com/) - *Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations*
+1. ✅ [Bitwarden](https://bitwarden.com/) - *Bitwarden is an integrated open source password management solution for individuals, teams, and business organizations* [使用手册](os/tools/productivity/bitwarden.md)
 
     - 支持 Windows, macOS（[Homebrew](https://formulae.brew.sh/cask/bitwarden)）, Linux, Android, iOS, Web Browser Extensions, Web, CLI
 
@@ -669,7 +681,7 @@
 
 ## 模拟器
 
-1. ✅ [Android Studio](https://developer.android.google.cn/studio) - *Android Studio provides app builders with an integrated development environment (IDE) optimized for Android apps. Download Android Studio today.*
+1. ✅ [Android Studio](https://developer.android.google.cn/studio) - *Android Studio provides app builders with an integrated development environment (IDE) optimized for Android apps. Download Android Studio today.* [使用手册](front-end/android/android-studio.md)
 
     - 支持 Windows, macOS, Linux
 
@@ -775,19 +787,19 @@
 
     </details>
 
-2. ✅ [Markor](https://gsantner.net/) <i id="markor"></i> - *Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
+2. ✅ [Markor](https://gsantner.net/) <i id="markor"></i> - *Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..* [使用手册](os/mobile/markor.md)
 
    - 支持 Android（[GitHub Releases](https://github.com/gsantner/markor/releases)）
 
    - 开源软件（[GitHub Repo](https://github.com/gsantner/markor)）
 
-3. [MarkdownPad](http://markdownpad.com/) - *MarkdownPad is a full-featured Markdown editor for Windows.*\
+3. [MarkdownPad](http://markdownpad.com/) - *MarkdownPad is a full-featured Markdown editor for Windows.* \
 \> 官网看起来很舒服，可借鉴学习
 
     - 支持 Windows
 
 1. [Obsidian](https://obsidian.md/) - *Obsidian is a powerful knowledge base on top of*
-   *a local folder of plain text Markdown files.*
+   *a local folder of plain text Markdown files.* [使用手册](os/tools/productivity/obsidian.md)
 
     - 支持 Windows, macOS, Linux, iOS, Android
 
@@ -825,7 +837,7 @@
 
 ### Office
 
-1. ✅ [WPS Office](https://www.wps.cn/) <i id="wps"></i> - *金山办公-支持多人在线协作编辑Word、Excel和PPT文档_WPS官方网站*
+1. ✅ [WPS Office](https://www.wps.cn/) <i id="wps"></i> - *金山办公-支持多人在线协作编辑Word、Excel和PPT文档_WPS官方网站* [使用手册](os/tools/productivity/wps.md)
 
     - 支持 Windows, macOS, Linux, Android, iOS
 
@@ -835,7 +847,7 @@
 
 ### 笔记
 
-1. ✅ [有道云笔记](https://note.youdao.com/) <i id="youdao-note"></i> - *有道云笔记*
+1. ✅ [有道云笔记](https://note.youdao.com/) <i id="youdao-note"></i> - *有道云笔记是一款多平台记录工具，支持扫描、语音、Markdown、收藏等多种记录方式，内容多端实时同步。强大的AI工具带来全方位赋能，帮你提效减负；微信、微博等优质内容一键收藏到笔记，全面助力高效学习和工作。*
 
     - 支持 Windows, macOS, Linux, Android, iOS, Web, 微信小程序, Web Browser Extensions
 
@@ -843,7 +855,7 @@
 
 ### 待办事项
 
-1. [Todoist](https://todoist.com/zh-CN) - *深受三千万个用户和团队的信任。Todoist是全球最受欢迎的任务管理器和待办清单应用。忠于专注、有序和理性。*
+1. [Todoist](https://todoist.com/zh-CN) - *深受三千万个用户和团队的信任。Todoist是全球最受欢迎的任务管理器和待办清单应用。忠于专注、有序和理性。* [使用手册](os/tools/productivity/todoist.md)
 
     - 支持 Windows, macOS, Linux, Android, iOS, Web, Web Browser Extensions, Email Add-ons（Outlook）
 
@@ -851,27 +863,7 @@
 
     - 包含内购商品
 
-    - <details><summary><i style="color:red">SEE MORE >></i></summary>
-
-        https://todoist.com/zh-CN/downloads - *下载 | Todoist*
-
-        https://todoist.com/zh-CN/templates - *工作&生活的免费模版 | Todoist*
-
-        https://todoist.com/zh-CN/integrations - *Integrations | Todoist*
-
-        https://developer.todoist.com/guides/ - *Developing with Todoist – Guides | Todoist Developer*
-
-        用法：
-
-        https://todoist.com/zh-CN/help - *帮助 | Todoist*
-
-        https://todoist.com/zh-CN/help/articles/introduction-to-due-dates-and-due-times - *介绍截止日期和时间*
-
-        https://developer.todoist.com/guides/#mobile-app-url-schemes - *Mobile app URL schemes – Guides | Todoist Developer*
-
-    </details>
-
-### 文档实时协作
+### 实时编辑协同
 
 1. ✅ [Etherpad](https://etherpad.org/) - *Etherpad: A modern really-real-time collaborative document editor.（在线文档协作编辑工具）*
 
@@ -926,7 +918,7 @@
 
 ### 启动器
 
-1. ✅ [Alfred](https://www.alfredapp.com/) - *Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion. Search your Mac and the web, and control your Mac using custom actions with the Powerpack.*
+1. ✅ [Alfred](https://www.alfredapp.com/) - *Alfred is a productivity application for macOS, which boosts your efficiency with hotkeys, keywords and text expansion. Search your Mac and the web, and control your Mac using custom actions with the Powerpack.* [使用手册](os/desktop/mac/alfred.md)
 
     - 支持 macOS（[破解版](https://appstorrent.ru/129-alfred.html)）
 
@@ -1043,7 +1035,7 @@
 
     - 免费试用 30 天
 
-3. ✅ [Free Download Manager](https://www.freedownloadmanager.org/zh/) - *Free Download Manager - 從網路下載任何東西*
+3. ✅ [Free Download Manager - 從網路下載任何東西](https://www.freedownloadmanager.org/zh/) - *Free Download Manager能加速下載所有類型的資料、影片、種子。它在 Windows、macOS作業系統上是一款聰明且快速的網路下載管理器。*
 
     - 支持 Windows, macOS, Linux, Android, Web Browser Extensions
 
@@ -1076,7 +1068,7 @@
 
 ## 设计和产品工具
 
-1. [Photoshop](https://www.adobe.com/products/photoshop.html) - *Official Adobe Photoshop | Photo and design software*
+1. [Official Adobe Photoshop - Photo &#x26; Design Software | Buy Now](https://www.adobe.com/products/photoshop.html) - *Explore quick new ways to create custom scenes, make complex edits &#x26; combine images with the latest generative AI features in Adobe Photoshop.*
 
     - 支持 Windows, macOS
 
@@ -1087,13 +1079,23 @@
         操作 > 选中图层 > 快捷键 <kbd>ctrl</kbd> + <kbd>t</kbd>
     </details>
 
-2. [PxCook](https://www.fancynode.com.cn/pxcook) - *PxCook - 高效易用的自动标注工具,生成前端代码,设计研发协作利器*
+2. [Figma: The Collaborative Interface Design Tool](https://www.figma.com/) - *Figma is the leading collaborative design tool for building meaningful products. Seamlessly design, prototype, develop, and collect feedback in a single platform.*
 
-    - 支持 Windows, macOS
+    - 支持 Windows, macOS, Android（[Google Play](https://play.google.com/store/apps/details?id=com.figma.mirror)）, iOS（[App Store](https://itunes.apple.com/app/figma-mirror/id1152747299)）
 
-3. ✅ [蓝湖](https://lanhuapp.com/) <i id="lanhu"></i> - *高效的产品设计协作平台*
+3. ✅ [蓝湖 - 高效的产品设计协作平台](https://lanhuapp.com/) <i id="lanhu"></i> - *蓝湖是一款产品文档和设计图的共享平台，帮助互联网团队更好地管理文档和设计图。蓝湖可以在线展示Axure，自动生成设计图标注，与团队共享设计图，展示页面之间的跳转关系。蓝湖支持从Sketch、Ps一键共享、在线讨论，而且蓝湖只需简单几步就能将设计图变成一个可以点击的演示原型，蓝湖还支持分享给同事，让他也可以在手机中查看设计效果。蓝湖已经成为新一代产品设计的工作方式。* [使用手册](os/tools/developer/lanhu.md)
 
     - 支持 Android, iOS, Web, Editors Plugin（[VS Code](https://support.lanhuapp.com/5612/2a6d/6f25)）
+
+4. ~~[PxCook](https://www.fancynode.com.cn/pxcook) - *PxCook - 高效易用的自动标注工具,生成前端代码,设计研发协作利器*~~
+
+    - ~~支持 Windows, macOS~~
+
+### 作图工具
+
+1. [ProcessOn思维导图流程图-在线画思维导图流程图_在线作图实时协作](https://www.processon.com/) - *ProcessOn是一款专业在线作图工具和知识分享社区，提供AI生成思维导图流程图。支持思维导图、流程图、组织结构图、网络拓扑图、鱼骨图、UML图等多种图形，同时可实现人与人之间的实时协作和共享，提升团队工作效率。*
+
+    - 支持 Web
 
 ### 截图工具
 
@@ -1173,6 +1175,12 @@
     - 支持 Windows, macOS
 
 ## 系统工具
+
+1. [一键杀毒_清爽守护_垃圾清理_软件管理_AI办公工具-腾讯电脑管家官网](https://guanjia.qq.com/) - *腾讯电脑管家官网网站，提供正版电脑管家软件下载，最大的安全云库，全新的杀毒引擎，深度清理电脑垃圾，为电脑重回巅峰状态，远程控制电脑，保护电脑安全。*
+
+    - 支持 Windows, [macOS](https://lemon.qq.com/)（[App Store](https://apps.apple.com/cn/app/%E8%85%BE%E8%AE%AF%E6%9F%A0%E6%AA%AC%E6%B8%85%E7%90%86-lemon-cleaner/id1449962996)）, Android, iOS
+
+    - 免费使用
 
 ### Windows
 
@@ -1498,7 +1506,7 @@
 
     - 支持 Windows, macOS, Linux, Android, iOS, Web
 
-6. [QQ邮箱](https://mail.qq.com/) - *QQ邮箱*
+6. [QQ邮箱](https://mail.qq.com/) - *QQ邮箱，为亿万用户提供高效稳定便捷的电子邮件服务。你可以在电脑网页、iOS/iPad客户端、及Android客户端上使用它，通过邮件发送3G的超大附件，体验文件中转站、日历、记事本、漂流瓶等特色功能。QQ邮箱，常联系。*
 
     - 支持 Android, iOS, Web
 
@@ -1515,23 +1523,27 @@
 
     - 永久免费（[GitHub Org](https://github.com/thunderbird)）
 
-### 社交工具
+### 社交网络
 
 ![mastodon-01](_images/mastodon-01.png)
 
-1. ✅ [Telegram Messenger](https://telegram.org/) - *Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.*
+1. [Skype | Stay connected with free video calls worldwide](https://www.skype.com/en/) - *Keep in touch with free video chat, messaging &amp; affordable international calls. Create instant online video calls with one click, no download required.*
+
+    - 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=com.skype.raider)）, iOS（[App Store](https://apps.apple.com/us/app/skype/id304878510)）, [Web](https://web.skype.com/)
+
+2. [Telegram Messenger](https://telegram.org/) - *Telegram is a cloud-based mobile and desktop messaging app with a focus on security and speed.*
 
     - 支持 Windows, macOS（[App Store](https://apps.apple.com/us/app/telegram-desktop/id946399090)）, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=org.telegram.messenger)）, iOS, Web
 
     - 开源软件（[Self-hosting](https://telegram.org/apps#source-code)）
 
-2. ✅ [Reddit](https://reddit.com/) - *Reddit - Dive into anything*
+3. [Reddit](https://reddit.com/) - *Reddit - Dive into anything*
 
     - 支持 Android, iOS, Web
 
-3. ✅ [Mastodon](https://joinmastodon.org/) - *Mastodon - Decentralized social media，免费、开源的去中心化社交媒体平台。*
+4. [Mastodon](https://joinmastodon.org/) - *Mastodon - Decentralized social media，免费、开源的去中心化社交媒体平台。*
 
-    - 支持 Android（[GitHub Releases](https://github.com/mastodon/mastodon-android/releases/), [Google Play](https://play.google.com/store/apps/details?id=org.joinmastodon.android), [F-Droid](https://www.f-droid.org/packages/ru.tech.imageresizershrinker/)）, iOS, Web
+    - 支持 Android（[GitHub Releases](https://github.com/mastodon/mastodon-android/releases/), [Google Play](https://play.google.com/store/apps/details?id=org.joinmastodon.android), [F-Droid](https://www.f-droid.org/packages/ru.tech.imageresizershrinker/)）, iOS, [Web](https://mastodon.social/)
 
     - 开源软件（[GitHub Org](https://github.com/mastodon)）
 
@@ -1554,33 +1566,33 @@
             https://joinmastodon.org/zh/apps - *获取 Mastodon 应用 - Mastodon*
     </details>
 
-4. [Twitter](https://twitter.com/) - *从突发新闻和娱乐资讯到体坛风云和政治时事，纵览事件全程，获悉实时评论。*
+5. [Twitter](https://twitter.com/) - *从突发新闻和娱乐资讯到体坛风云和政治时事，纵览事件全程，获悉实时评论。*
 
     - 支持 Android, iOS, Web
 
-5. [Discord](https://discord.gg/) - *Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.*
+6. [Discord](https://discord.gg/) - *Discord is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.*
 
     - 支持 Windows, macOS, Linux, Android, iOS, Web
 
-6. [Matrix](https://matrix.org/ ) - *An open network for secure, decentralised communication*
+7. [Matrix](https://matrix.org/ ) - *An open network for secure, decentralised communication*
 
     - 开源软件（[GitHub Org](https://github.com/matrix-org)）
 
 ### 即时通讯
 
-1. ✅ [飞鸽传书](http://www.ipmsg.org.cn/) - *飞鸽传书官方网站-飞鸽传书2022 飞鸽传书2022(IP Messenger) 飞鸽传书2022绿色版企业即时通讯下载*
+1. [飞鸽传书官网-飞鸽传书2025版 IPMSG 飞鸽传书QT信创局域网即时通讯-内网通](http://www.ipmsg.org.cn/) - *飞鸽传书官方网站，飞鸽传书(飞秋、ipmsg），局域网即时通讯-内网通，企业即时通讯软件，支持离线文件、文件夹、表情、截图、语音、视频、远程控制、讨论组等，最新推出飞鸽传书QT版信创版即时通讯，支持统信、uos、麒麟、kylin、龙芯，支持苹果电脑MacOS、Linux、鸿蒙等版本。*
 
     - 支持 Windows, macOS, Linux, Android, iOS
 
-    - 可用网络：局域网，同一“Wi-Fi”，同一“个人热点”
+    - 可用网络：局域网，同一“Wi-Fi”，同一“个人热点”, IP Messenger
 
-2. [BeeBEEP](https://www.beebeep.net/) - *BeeBEEP - Free Office Messenger - Official Website*
+2. [BeeBEEP - Free Office Messenger - Official Website](https://www.beebeep.net/) - *Welcome on BeeBEEP official website. Always keep your messages private.*
 
     - 支持 Windows, macOS, Linux
 
     - 可用网络：局域网
 
-3. [Manyverse](https://www.manyver.se/) - *Manyverse – a peer-to-peer social network*
+3. [Manyverse – a peer-to-peer social network](https://www.manyver.se/) - *A social network off the grid – mobile and available on Android*
 
     - 支持 Windows, macOS, Linux, Android, iOS
 

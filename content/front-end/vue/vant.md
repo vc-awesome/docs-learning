@@ -7,7 +7,7 @@
 ![GitHub last commit](https://badgen.net/github/last-commit/youzan/vant?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/youzan/vant?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/youzan/vant?logo=github)
-![npm](https://img.shields.io/npm/v/vant?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/vant?logo=npm)
 ![GitHub Repo stars](https://img.shields.io/github/stars/youzan/vant?style=social)
 
 ## 官方

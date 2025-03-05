@@ -17,8 +17,6 @@ Website：https://termux.dev/ - *Termux | The main termux site and help pages.* 
 ![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux.github.io?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux.github.io?style=social)
 
-Wiki：https://wiki.termux.com/wiki/ - *Termux Wiki*
-
 GitHub：https://github.com/termux - *Android terminal emulator and Linux environment.*
 
 
@@ -37,15 +35,22 @@ GitHub：https://github.com/termux - *Android terminal emulator and Linux enviro
     1. https://p3terx.com/archives/termux-tutorial-2.html - *Termux 使用教程 #2 - 打造手机上的最强终端 - P3TERX ZONE*
 
 
+### Community
+
+1. https://www.termuxcommands.com/ - *Termux Commands - Learn Termux and Linux*
+
+
 ## Install
 
 ### Android
 
 GitHub：https://github.com/termux/termux-app - *Termux - a terminal emulator application for Android OS extendible by variety of packages.*
 
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-app?logo=github)
+
 F-Droid：https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
 
-![f-droid](https://badgen.net/f-droid/v/com.termux)
+![F-Droid Version](https://badgen.net/f-droid/v/com.termux)
 
 
 ## Configuration
@@ -100,6 +105,11 @@ PS1="\[\e[0;31m\]\u\[\e[0m\]@\h \[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\]"
 ```
 
 
+### 桌面环境
+
+1. https://blog.ulna520.top/2024/10/10/tab7plus/ - *利用termux搭建桌面级生产力工具 -*
+
+
 ## Getting started
 
 https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
@@ -126,6 +136,16 @@ https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux W
 https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A package build system for Termux.*
 
 
+
+命令 | pkg | apt | dpkg
+---|---|---|---
+Search package by query | `pkg search <query>` | `apt search <query>` | -
+Show information about specific package | `pkg show <packages>` | `apt show <packages>` | -
+Installing a new package  | `pkg install <packages>`  | `apt install <packages>`  | -
+List installed packages | `pkg list-installed` | `apt list --installed` | -
+Show all files installed by packages | `pkg files <packages>` | - | `dpkg -L <packages>`
+
+
 #### 镜像源
 
 官方镜像源：
@@ -147,21 +167,21 @@ https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A 
 
     https://mirrors.ustc.edu.cn/termux/ - *Index of /termux/*
 
-更换镜像源：
+更换镜像源（3 种方式）：
 
-- 方式一：`termux-change-repo` （推荐）
+1. `termux-change-repo` （推荐）
 
     1. 推荐先更新 「termux-tools」 软件包：`pkg install termux-tools`
     2. 使用（终端输入命令：`termux-change-repo`，回车）
     3. 先选择 「Single mirror」
     4. 再选择「mirrors.ustc.edu.cn」
 
-- 方式二：手动更换
+2. 手动更换
 
     1. `vim /data/data/com.termux/files/usr/etc/apt/sources.list`（或者 `apt edit-sources` ）
     2. 将 sources.list 文件的内容，替换成 `deb https://mirrors.ustc.edu.cn/termux/apt/termux-main stable main`
 
-- 方式三：`sed` 命令更换
+3. `sed` 命令更换
 
   ```bash
   sed -i 's@packages.termux.org@mirrors.ustc.edu.cn/termux@' $PREFIX/etc/apt/sources.list
@@ -193,6 +213,10 @@ pkg [--check-mirror] command [arguments]
 
 ```bash
 pkg
+```
+
+```bash
+man -a termux
 ```
 
 *Search package by query, for example by name or description part. - 通过查询搜索软件包，例如通过名称或描述部分。*
@@ -432,6 +456,7 @@ grep " install " /var/log/apt/history.log
 1. https://manpages.debian.org/jessie/apt/apt.8.en.html - *apt(8) — apt — Debian jessie — Debian Manpages*
 2. https://deepinout.com/linux/linux-ask-and-questions/103_tk_1703812992.html - *Linux安装apt完全指南|极客笔记*
 3. https://www.sysgeek.cn/apt-command-linux/ - *Linux APT 命令实战教程：Ubuntu、Debian、Mint 用户必备指南 - 系统极客*
+4. http://www.runoob.com/linux/linux-comm-apt.html - *Linux apt 命令 | 菜鸟教程*
 
 
 ##### apt-cache
@@ -513,6 +538,22 @@ https://wangchujiang.com/linux-command/c/dpkg.html - *dpkg 命令，Linux dpkg �
 
 
 ### 文件系统
+
+```tree
+/data/data/com.termux/files/
+├── home/
+│   ├── .termux/
+│   │   ├── colors.properties
+│   │   └── termux.properties
+│   └── .bash_history
+│   ├── .bash_profile
+│   ├── .bashrc
+├── usr/
+│   ├── bin/
+│   ├── etc/
+│   ├── share/
+│   └── var/
+```
 
 #### 目录结构
 
@@ -700,6 +741,43 @@ https://wangdoc.com/bash/readline - *Bash 行操作 - Bash 脚本教程 - 网道
 1. https://gnu-linux.readthedocs.io/zh/latest/Chapter05/00_shortcuts.html#id5 - *Shell 快捷键 — Linux latest 文档*
 2. https://blog.csdn.net/cnds123321/article/details/124815867 - *Linux命令之键绑定bind_linuxbind-CSDN博客*
 3. https://wangchujiang.com/linux-command/c/bind.html - *bind 命令，Linux bind 命令详解：显示或设置键盘按键与其相关的功能 - Linux 命令搜索引擎*
+
+
+### 远程访问
+
+https://wiki.termux.com/wiki/Remote_Access - *Remote Access - Termux Wiki*
+
+https://wangdoc.com/ssh/ - *SSH 教程 - 网道*
+
+
+#### FTP
+
+暂无
+
+
+#### SSH
+
+安装：
+
+```bash
+pkg install openssh
+```
+
+SSH 客户端：
+
+```bash
+ssh -p 8022 '192.168.3.42'
+```
+
+SSH 服务器：
+
+默认 SSH 端口：8022
+
+开启 OpenSSH 服务器：
+
+```bash
+sshd
+```
 
 
 ### 备份与恢复
@@ -1330,6 +1408,48 @@ https://repology.org/repository/termux - *Termux repository information - Repolo
 
 ### 终端工具
 
+#### android-tools
+
+简介：
+
+> Android platform tools
+
+官方：
+
+https://developer.android.com/?hl=zh-cn - *Android 移动应用开发者工具 – Android 开发者  |  Android Developers*
+
+查看：
+
+```bash
+pkg show android-tools
+```
+
+```bash
+pkg files android-tools
+```
+
+安装：
+
+```bash
+pkg install android-tools
+```
+
+卸载：
+
+```bash
+pkg uninstall android-tools
+```
+
+用法：
+
+```bash
+adb help
+```
+
+```bash
+adb version
+```
+
 #### apache2
 
 简介：
@@ -1613,6 +1733,63 @@ fdupes --help
 ```bash
 fdupes -r ./
 ```
+
+
+#### fzf
+
+简介：
+
+> Command-line fuzzy finder
+
+![GitHub last commit](https://img.shields.io/github/last-commit/junegunn/fzf?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/junegunn/fzf?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/junegunn/fzf?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/junegunn/fzf?style=social)
+
+官方：
+
+https://junegunn.github.io/fzf/ - *fzf | junegunn.choi.*
+
+https://github.com/junegunn/fzf - *GitHub - junegunn/fzf: :cherry_blossom: A command-line fuzzy finder*
+
+搜索：
+
+```bash
+pkg search fzf
+```
+
+查看：
+
+```bash
+pkg show fzf
+```
+
+```bash
+pkg files fzf
+```
+
+安装：
+
+```bash
+pkg install fzf
+```
+
+卸载：
+
+```bash
+pkg uninstall fzf
+```
+
+用法：
+
+```bash
+fzf --help
+```
+
+参考：
+
+1. https://www.jianshu.com/p/bcbeb192ce0c - *fzf 教程：终端中的模糊查找器 - 迪巴格小能手 - 简书*
+2. https://www.cnblogs.com/TangQF/articles/18653884 - *Linux 下的模糊查找神器 fzf 使用教程 - 我是唐青枫 - 博客园*
 
 
 #### Git
@@ -2016,6 +2193,10 @@ https://github.com/openssh - *OpenSSH · GitHub*
 pkg show openssh
 ```
 
+```bash
+pkg files openssh
+```
+
 安装：
 
 ```bash
@@ -2040,10 +2221,6 @@ ssh -V
 
 ```bash
 man ssh
-```
-
-```bash
-pkg files openssh
 ```
 
 
@@ -2555,6 +2732,52 @@ https://wiki.termux.com/wiki/Package_Management#Other_package_managers - *Packag
 
 - https://wiki.termux.com/wiki/Node.js - *Node.js - Termux Wiki*
 
+#### npm-check-updates
+
+简介：
+
+> Find newer versions of dependencies than what your package.json allows
+
+![GitHub last commit](https://img.shields.io/github/last-commit/raineorshine/npm-check-updates?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/raineorshine/npm-check-updates?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/raineorshine/npm-check-updates?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/raineorshine/npm-check-updates?style=social)
+
+官方：
+
+https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-check-updates: Find newer versions of package dependencies than what your package.json allows*
+
+搜索：
+
+```bash
+npm search --searchlimit=1 npm-check-updates
+```
+
+查看：
+
+```bash
+npm view npm-check-updates
+```
+
+安装：
+
+```bash
+npm install --global npm-check-updates
+```
+
+卸载：
+
+```bash
+npm uninstall --global npm-check-updates
+```
+
+用法：
+
+```bash
+ncu --help
+```
+
+
 #### open-cli
 
 简介：
@@ -2644,51 +2867,6 @@ npm uninstall --global tldr
 
 ```bash
 tldr --help
-```
-
-
-#### npm-check-updates
-
-简介：
-
-> Find newer versions of dependencies than what your package.json allows
-
-![GitHub last commit](https://img.shields.io/github/last-commit/raineorshine/npm-check-updates?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/raineorshine/npm-check-updates?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/raineorshine/npm-check-updates?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/raineorshine/npm-check-updates?style=social)
-
-官方：
-
-https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-check-updates: Find newer versions of package dependencies than what your package.json allows*
-
-搜索：
-
-```bash
-npm search --searchlimit=1 npm-check-updates
-```
-
-查看：
-
-```bash
-npm view npm-check-updates
-```
-
-安装：
-
-```bash
-npm install --global npm-check-updates
-```
-卸载：
-
-```bash
-npm uninstall --global npm-check-updates
-```
-
-用法：
-
-```bash
-ncu --help
 ```
 
 
@@ -3124,3 +3302,5 @@ Once this permission is granted, Termux should be able to start terminal session
 9. https://blog.chs.pub/p/23-07-codingonandroid/ - *在 Android 上码代码*
 
 10. https://blog.zhilu.cyou/2023/termux-guide - *Termux 简单指南 | 纸鹿摸鱼处*
+
+11. https://www.jianshu.com/p/5963a747e280 - *Termux-得用终端打通手机和电脑 - 李司徒 - 简书*

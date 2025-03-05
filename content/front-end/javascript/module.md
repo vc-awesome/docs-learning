@@ -6,7 +6,7 @@
 
 https://cn.vuejs.org/guide/quick-start.html - *快速上手 | Vue.js*
 
-- https://github.com/vuejs/core/tree/main/packages/vue#which-dist-file-to-use - *core/packages/vue at main · vuejs/core · GitHub*
+- https://github.com/vuejs/core/tree/main/packages/vue/README.md#which-dist-file-to-use - *core/packages/vue at main · vuejs/core · GitHub*
 
 - https://cdn.jsdelivr.net/npm/vue/dist/ - *vue CDN by jsDelivr - A free, fast, and reliable Open Source CDN*
 

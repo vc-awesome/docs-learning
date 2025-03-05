@@ -18,11 +18,9 @@
 4. https://wangdoc.com/es6/regex - *正则的扩展 - ES6 教程 - 网道*
 5. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
 
-## 快速入门
+## 入门指南
 
 普通字符（例如，a 到 z 之间的字母）
-
-特殊字符（称为“[元字符](https://www.runoob.com/regexp/regexp-metachar.html)”）
 
 ### 语法
 
@@ -54,14 +52,14 @@
 
 | 字符 | 描述 |
 | --- | :--- |
-| \* | 匹配前面的子表达式零次或多次。例如，zo\* 能匹配 **"z"** 以及 **"zoo"**。\* 等价于 {0,}。 |
-| + | 匹配前面的子表达式一次或多次。例如，zo+ 能匹配 **"zo"** 以及 "**zoo"**，但不能匹配 **"z"**。+ 等价于 {1,}。 |
-| ? | 匹配前面的子表达式零次或一次。例如，do(es)? 可以匹配 **"do"** 、 **"does"**、 **"doxy"** 中的 **"do"** 和 **"does"**。? 等价于 {0,1}。|
+| \* | 匹配前面的子表达式零次或多次。例如，zo\* 能匹配 **"z"** 以及 **"zoo"** 。\* 等价于 {0,}。 |
+| + | 匹配前面的子表达式一次或多次。例如，zo+ 能匹配 **"zo"** 以及 **"zoo"** ，但不能匹配 **"z"** 。+ 等价于 {1,}。 |
+| ? | 匹配前面的子表达式零次或一次。例如，do(es)? 可以匹配 **"do"** 、 **"does"**、 **"doxy"** 中的 **"do"** 和 **"does"** 。? 等价于 {0,1}。|
 | {n} | n 是一个非负整数。匹配确定的 **n** 次。例如，o{2} 不能匹配 **"Bob"** 中的 **o**，但是能匹配 **"food"** 中的两个 **o**。 |
 | {n,} | n 是一个非负整数。至少匹配n 次。例如，o{2,} 不能匹配 **"Bob"** 中的 **o**，但能匹配 **"foooood"** 中的所有 **o**。o{1,} 等价于 o+。o{0,} 则等价于 o\*。 |
 | {n,m} | m 和 n 均为非负整数，其中 n <= m。最少匹配 n 次且最多匹配 m 次。例如，o{1,3} 将匹配 **"fooooood"** 中的前三个 **o**。o{0,1} 等价于 o?。请注意在逗号和两个数之间不能有空格。 |
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - *Quantifier: \*, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN*
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - _Quantifier: *, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN_
 
 ### 定位符(^,$,\b,\B)
 
@@ -83,18 +81,20 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 详见：https://www.runoob.com/regexp/regexp-flags.html - *正则表达式 – 修饰符（标记） | 菜鸟教程*
 
-### 特殊字符(\n,\r)
+### 特殊字符(\n,\r,\\,|)
 
-暂无
+特殊字符（称为“[元字符](https://www.runoob.com/regexp/regexp-metachar.html)”）
 
-### 元字符
+字符 | 描述
+--- | :---
+\\ | 将下一个字符标记为一个特殊字符、或一个原义字符、或一个 向后引用、或一个八进制转义符。例如，'n' 匹配字符 "n"。'\n' 匹配一个换行符。序列 '\\\\' 匹配 "\\" 而 "\\(" 则匹配 "("。 |
+x\|y | 匹配 x 或 y。例如，'z\|food' 能匹配 "z" 或 "food"。'(z\|f)ood' 则匹配 "zood" 或 "food"。
+... | ...
 
-| 字符 | 描述 |
-| --- | :--- |
-| x\|y | 匹配 x 或 y。例如，'z|food' 能匹配 "z" 或 "food"。'(z|f)ood' 则匹配 "zood" 或 "food"。 |
-| ... | |
+详见：
 
-详见：https://www.runoob.com/regexp/regexp-metachar.html - *正则表达式 – 元字符 | 菜鸟教程*
+1. https://www.runoob.com/regexp/regexp-metachar.html - *正则表达式 – 元字符 | 菜鸟教程*
+2. <https://wangdoc.com/javascript/stdlib/regexp#特殊字符> - *RegExp 对象 - JavaScript 教程 - 网道*
 
 ### 捕获组(...)
 
@@ -143,8 +143,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 非（取消）贪婪模式：`.*?`（使用 ? 来取消贪婪，? 表示匹配前面的内容 0 次或者 1 次）
 
-## 入门指南
-
 ### 反向引用(\num)
 
 正则表达式反向引用 `\1` `\2` 类型的用途
@@ -163,6 +161,94 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 - 语法*
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Backreference - *Backreference: \1, \2 - JavaScript | MDN*
+
+## 用法
+
+### 在编程语言中使用
+
+#### PHP
+
+> `#` 号可以替代 `/`
+
+教程：
+
+1. https://www.php.net/manual/zh/book.pcre.php - *PHP: PCRE - Manual*
+2. https://www.runoob.com/php/php-pcre.html - *PHP 正则表达式(PCRE) | 菜鸟教程*
+
+函数：
+
+- preg_match() — *执行匹配正则表达式*
+
+  https://www.php.net/manual/zh/function.preg-match.php - *PHP: preg_match - Manual*
+
+  https://www.runoob.com/php/php-preg_match.html - *PHP preg_match() 函数 | 菜鸟教程*
+
+  `preg_match(pattern , string);`
+
+- preg_match_all() — *执行一个全局正则表达式匹配*
+
+  https://www.php.net/manual/zh/function.preg-match-all.php - *PHP: preg_match_all - Manual*
+
+  https://www.runoob.com/php/php-preg_match_all.html - *PHP preg_match_all() 函数 | 菜鸟教程*
+
+参考：
+
+1. https://blog.csdn.net/fujiafeihudui/article/details/39402007 - *php 正则表达式中的#号*
+2. https://blog.csdn.net/qq_46456049/article/details/108589822 - *php(正则匹配)*
+3. https://www.cnblogs.com/liliuguang/p/10411396.html - *php中正则表达式详解*
+4. http://c.biancheng.net/view/7569.html - *PHP正则表达式，看这一篇就够了*
+
+#### Java
+
+教程：
+
+1. https://www.runoob.com/java/java-regular-expressions.html - *Java 正则表达式 | 菜鸟教程*
+
+#### JavaScript
+
+教程：
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions - *正则表达式 - JavaScript | MDN*
+2. https://wangdoc.com/javascript/stdlib/regexp - *RegExp 对象 - JavaScript 教程 - 网道*
+3. https://wangdoc.com/es6/regex - *正则的扩展 - ES6 教程 - 网道*
+
+用法：
+
+方式一：
+
+```javascript
+var str = "abc123def";
+var pattern = /[0-9]+/;
+document.write(str.match(pattern)); // 输出：123
+```
+
+方式二：
+
+```javascript
+var pattern = /^[a-zA-Z0-9_-]{4,16}$/; // 用户名正则，4 到 16 位（字母，数字，下划线，减号）
+document.write(pattern.test("runoob123")); // 输出：true
+```
+
+### 在应用程序中使用
+
+正则替换，有关详细信息，请参阅“[regex](snippets/regex.md)”。
+
+#### Grep
+
+暂无
+
+## 工具
+
+### Web
+
+1. https://regex101.com/ - *regex101: build, test, and debug regex*
+2. https://ihateregex.io/ - *i Hate Regex - The Regex Cheat Sheet* [GitHub Repo](https://github.com/geongeorge/i-hate-regex)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/geongeorge/i-hate-regex?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/geongeorge/i-hate-regex?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/geongeorge/i-hate-regex?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/geongeorge/i-hate-regex?style=social)
+3. https://toolwa.com/regex/ - *正则表达式在线测试 - 工具哇 - 在线工具大全*
+4. https://www.lddgo.net/string/text-replace - *在线文本替换工具*
 
 ## 实例
 
@@ -210,7 +296,21 @@ https://c.runoob.com/codedemo/7100/ - *密码强度正则表达式 | 菜鸟工�
 
 https://www.cnblogs.com/blogforly/p/5644049.html - *PHP手机号码正则表达式 - Undefined丶 - 博客园*
 
-### 2 位至 6 位中文
+### 中文字符
+
+方式 1：
+
+```regex
+/[\u4e00-\u9fa5]+/
+```
+
+方式 2：
+
+```regex
+/[\x{4e00}-\x{9fa5}]+/
+```
+
+### 2 位至 6 位中文字符
 
 ```regex
 /^[\x{4e00}-\x{9fa5}]{2,6}$/u
@@ -299,91 +399,13 @@ https://www.cnblogs.com/chenjiacheng/p/6522598.html - *php正则表达式验证�
 
 https://www.runoob.com/regexp/regexp-example.html - *正则表达式 – 示例 | 菜鸟教程*
 
+### 匹配重复行
+
+https://www.regular-expressions.info/duplicatelines.html - *Regexp Example: Deleting Duplicate Lines or Items with Regular Expressions*
+
 ### 查看更多
 
 https://c.runoob.com/front-end/854/#about - *正则表达式在线测试 | 菜鸟工具*
-
-## 用法
-
-### 在 PHP 中使用
-
-> `#` 号可以替代 `/`
-
-教程：
-
-1. PHP 手册：https://www.php.net/manual/zh/book.pcre.php
-2. 菜鸟教程：https://www.runoob.com/php/php-pcre.html
-
-函数：
-
-- preg_match() — *执行匹配正则表达式*
-
-  https://www.php.net/manual/zh/function.preg-match.php
-
-  https://www.runoob.com/php/php-preg_match.html
-
-  `preg_match(pattern , string);`
-
-- preg_match_all() — *执行一个全局正则表达式匹配*
-
-  https://www.php.net/manual/zh/function.preg-match-all.php
-
-  https://www.runoob.com/php/php-preg_match_all.html
-
-参考：
-
-1. https://blog.csdn.net/fujiafeihudui/article/details/39402007 - *php 正则表达式中的#号* 
-2. https://blog.csdn.net/qq_46456049/article/details/108589822 - *php(正则匹配)*
-3. https://www.cnblogs.com/liliuguang/p/10411396.html - *php中正则表达式详解*
-4. http://c.biancheng.net/view/7569.html - *PHP正则表达式，看这一篇就够了*
-
-### 在 Java 中使用
-
-教程：
-
-1. https://www.runoob.com/java/java-regular-expressions.html - *Java 正则表达式 | 菜鸟教程*
-
-### 在 JavaScript 中使用
-
-教程：
-
-1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions - *正则表达式 - JavaScript | MDN*
-2. https://wangdoc.com/javascript/stdlib/regexp - *RegExp 对象 - JavaScript 教程 - 网道*
-3. https://wangdoc.com/es6/regex - *正则的扩展 - ES6 教程 - 网道*
-
-用法：
-
-方式一：
-
-```javascript
-var str = "abc123def";
-var pattern = /[0-9]+/;
-document.write(str.match(pattern)); // 输出：123
-```
-
-方式二：
-
-```javascript
-var pattern = /^[a-zA-Z0-9_-]{4,16}$/; // 用户名正则，4 到 16 位（字母，数字，下划线，减号）
-document.write(pattern.test("runoob123")); // 输出：true
-```
-
-### 在 Grep 中使用
-
-暂无
-
-## 工具
-
-### Web
-
-1. https://regex101.com/ - *regex101: build, test, and debug regex*
-2. https://ihateregex.io/ - *i Hate Regex - The Regex Cheat Sheet* [GitHub Repo](https://github.com/geongeorge/i-hate-regex)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/geongeorge/i-hate-regex?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/geongeorge/i-hate-regex?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/geongeorge/i-hate-regex?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/geongeorge/i-hate-regex?style=social)
-3. https://toolwa.com/regex/ - *正则表达式在线测试 - 工具哇 - 在线工具大全*
-4. https://www.lddgo.net/string/text-replace - *在线文本替换工具*
 
 ## 参考
 

@@ -1,3 +1,5 @@
+_59 directories, 291 files_
+
 # 📂 __content__
 
 1. 📄 [\_navbar\-simple.md](_navbar-simple.md)
@@ -51,10 +53,10 @@
 
 #### 📂 __5.1__
 
-1. 📄 [README.md](back-end/thinkphp/5.1/README.md)
-2. 📄 [thinkphp5.1\-api.md](back-end/thinkphp/5.1/thinkphp5.1-api.md)
-3. 📄 [thinkphp5.1\-curd.md](back-end/thinkphp/5.1/thinkphp5.1-curd.md)
-4. 📄 [thinkphp5.1\-validate.md](back-end/thinkphp/5.1/thinkphp5.1-validate.md)
+1. 📄 [api.md](back-end/thinkphp/5.1/api.md)
+2. 📄 [curd.md](back-end/thinkphp/5.1/curd.md)
+3. 📄 [README.md](back-end/thinkphp/5.1/README.md)
+4. 📄 [validate.md](back-end/thinkphp/5.1/validate.md)
 
 ## 📂 __database__
 
@@ -76,7 +78,17 @@
 ## 📂 __design__
 
 1. 📄 [\_sidebar.md](design/_sidebar.md)
-2. 📄 [README.md](design/README.md)
+2. 📄 [icon.md](design/icon.md)
+3. 📄 [iconfont.md](design/iconfont.md)
+4. 📄 [README.md](design/README.md)
+
+### 📂 __font__
+
+1. 📄 [README.md](design/font/README.md)
+
+### 📂 __ui__
+
+1. 📄 [README.md](design/ui/README.md)
 
 ## 📂 __essential__
 
@@ -125,9 +137,8 @@
 
 1. 📄 [\_sidebar.md](front-end/_sidebar.md)
 2. 📄 [ajax.md](front-end/ajax.md)
-3. 📄 [iconfont.md](front-end/iconfont.md)
-4. 📄 [jquery.md](front-end/jquery.md)
-5. 📄 [README.md](front-end/README.md)
+3. 📄 [jquery.md](front-end/jquery.md)
+4. 📄 [README.md](front-end/README.md)
 
 ### 📂 __android__
 
@@ -139,13 +150,16 @@
 ### 📂 __css__
 
 1. 📄 [\_sidebar.md](front-end/css/_sidebar.md)
-2. 📄 [bem.md](front-end/css/bem.md)
-3. 📄 [button.md](front-end/css/button.md)
-4. 📄 [flex.md](front-end/css/flex.md)
-5. 📄 [grid.md](front-end/css/grid.md)
-6. 📄 [naming\-rule.md](front-end/css/naming-rule.md)
-7. 📄 [README.md](front-end/css/README.md)
-8. 📄 [sass.md](front-end/css/sass.md)
+2. 📄 [background.md](front-end/css/background.md)
+3. 📄 [bem.md](front-end/css/bem.md)
+4. 📄 [button.md](front-end/css/button.md)
+5. 📄 [color.md](front-end/css/color.md)
+6. 📄 [flex.md](front-end/css/flex.md)
+7. 📄 [grid.md](front-end/css/grid.md)
+8. 📄 [naming\-rule.md](front-end/css/naming-rule.md)
+9. 📄 [README.md](front-end/css/README.md)
+10. 📄 [sass.md](front-end/css/sass.md)
+11. 📄 [text.md](front-end/css/text.md)
 
 ### 📂 __dcloud__
 
@@ -178,7 +192,8 @@
 7. 📄 [faq.md](front-end/javascript/faq.md)
 8. 📄 [module.md](front-end/javascript/module.md)
 9. 📄 [object.md](front-end/javascript/object.md)
-10. 📄 [README.md](front-end/javascript/README.md)
+10. 📄 [promise.md](front-end/javascript/promise.md)
+11. 📄 [README.md](front-end/javascript/README.md)
 
 ### 📂 __nodejs__
 
@@ -212,25 +227,43 @@
 ## 📂 __os__
 
 1. 📄 [\_sidebar.md](os/_sidebar.md)
-2. 📄 [bash.md](os/bash.md)
-3. 📄 [mirror.md](os/mirror.md)
-4. 📄 [README.md](os/README.md)
+2. 📄 [mirror.md](os/mirror.md)
+3. 📄 [README.md](os/README.md)
+4. 📄 [ssh.md](os/ssh.md)
 
-### 📂 __linux__
+### 📂 __cli__
 
-1. 📄 [\_sidebar.md](os/linux/_sidebar.md)
-2. 📄 [command.md](os/linux/command.md)
-3. 📄 [README.md](os/linux/README.md)
-4. 📄 [shell.md](os/linux/shell.md)
+1. 📄 [\_sidebar.md](os/cli/_sidebar.md)
+2. 📄 [README.md](os/cli/README.md)
+3. 📄 [shell.md](os/cli/shell.md)
 
-### 📂 __mac__
+### 📂 __desktop__
 
-1. 📄 [\_sidebar.md](os/mac/_sidebar.md)
-2. 📄 [alfred.md](os/mac/alfred.md)
-3. 📄 [developer.md](os/mac/developer.md)
-4. 📄 [homebrew.md](os/mac/homebrew.md)
-5. 📄 [README.md](os/mac/README.md)
-6. 📄 [terminal.md](os/mac/terminal.md)
+
+#### 📂 __linux__
+
+1. 📄 [\_sidebar.md](os/desktop/linux/_sidebar.md)
+2. 📄 [command.md](os/desktop/linux/command.md)
+3. 📄 [README.md](os/desktop/linux/README.md)
+
+#### 📂 __mac__
+
+1. 📄 [\_sidebar.md](os/desktop/mac/_sidebar.md)
+2. 📄 [alfred.md](os/desktop/mac/alfred.md)
+3. 📄 [developer.md](os/desktop/mac/developer.md)
+4. 📄 [homebrew.md](os/desktop/mac/homebrew.md)
+5. 📄 [README.md](os/desktop/mac/README.md)
+6. 📄 [terminal.md](os/desktop/mac/terminal.md)
+
+#### 📂 __windows__
+
+1. 📄 [\_sidebar.md](os/desktop/windows/_sidebar.md)
+2. 📄 [batch.md](os/desktop/windows/batch.md)
+3. 📄 [cmd.md](os/desktop/windows/cmd.md)
+4. 📄 [command.md](os/desktop/windows/command.md)
+5. 📄 [dos.md](os/desktop/windows/dos.md)
+6. 📄 [faq.md](os/desktop/windows/faq.md)
+7. 📄 [README.md](os/desktop/windows/README.md)
 
 ### 📂 __mobile__
 
@@ -249,20 +282,23 @@
 ### 📂 __tools__
 
 1. 📄 [\_sidebar.md](os/tools/_sidebar.md)
-2. 📄 [adguard.md](os/tools/adguard.md)
-3. 📄 [app\-list.md](os/tools/app-list.md)
-4. 📄 [bitwarden.md](os/tools/bitwarden.md)
-5. 📄 [chrome.md](os/tools/chrome.md)
-6. 📄 [cli\-app.md](os/tools/cli-app.md)
-7. 📄 [firefox.md](os/tools/firefox.md)
-8. 📄 [github.md](os/tools/github.md)
-9. 📄 [obsidian.md](os/tools/obsidian.md)
-10. 📄 [opera.md](os/tools/opera.md)
-11. 📄 [README.md](os/tools/README.md)
-12. 📄 [search.md](os/tools/search.md)
-13. 📄 [tampermonkey.md](os/tools/tampermonkey.md)
-14. 📄 [web\-app.md](os/tools/web-app.md)
-15. 📄 [wps.md](os/tools/wps.md)
+2. 📄 [app\-list.md](os/tools/app-list.md)
+3. 📄 [cli\-app.md](os/tools/cli-app.md)
+4. 📄 [README.md](os/tools/README.md)
+5. 📄 [search.md](os/tools/search.md)
+6. 📄 [web\-app.md](os/tools/web-app.md)
+
+#### 📂 __browser__
+
+1. 📄 [chrome.md](os/tools/browser/chrome.md)
+2. 📄 [firefox.md](os/tools/browser/firefox.md)
+3. 📄 [opera.md](os/tools/browser/opera.md)
+4. 📄 [README.md](os/tools/browser/README.md)
+
+##### 📂 __extensions__
+
+1. 📄 [browser\-extensions.md](os/tools/browser/extensions/browser-extensions.md)
+2. 📄 [tampermonkey.md](os/tools/browser/extensions/tampermonkey.md)
 
 #### 📂 __custom__
 
@@ -274,41 +310,45 @@
 1. 📄 [\_sidebar.md](os/tools/developer/_sidebar.md)
 2. 📄 [bt.md](os/tools/developer/bt.md)
 3. 📄 [curl.md](os/tools/developer/curl.md)
-4. 📄 [emacs.md](os/tools/developer/emacs.md)
-5. 📄 [git.md](os/tools/developer/git.md)
-6. 📄 [lanhu.md](os/tools/developer/lanhu.md)
-7. 📄 [navicat.md](os/tools/developer/navicat.md)
-8. 📄 [phpmyadmin.md](os/tools/developer/phpmyadmin.md)
-9. 📄 [phpstorm.md](os/tools/developer/phpstorm.md)
-10. 📄 [phpstudy.md](os/tools/developer/phpstudy.md)
-11. 📄 [postman.md](os/tools/developer/postman.md)
-12. 📄 [powershell.md](os/tools/developer/powershell.md)
-13. 📄 [prettier.md](os/tools/developer/prettier.md)
-14. 📄 [rclone.md](os/tools/developer/rclone.md)
-15. 📄 [sublime\-text.md](os/tools/developer/sublime-text.md)
-16. 📄 [vim.md](os/tools/developer/vim.md)
-17. 📄 [visual\-studio\-code.md](os/tools/developer/visual-studio-code.md)
-18. 📄 [yapi.md](os/tools/developer/yapi.md)
+4. 📄 [git.md](os/tools/developer/git.md)
+5. 📄 [lanhu.md](os/tools/developer/lanhu.md)
+6. 📄 [navicat.md](os/tools/developer/navicat.md)
+7. 📄 [phpmyadmin.md](os/tools/developer/phpmyadmin.md)
+8. 📄 [phpstudy.md](os/tools/developer/phpstudy.md)
+9. 📄 [postman.md](os/tools/developer/postman.md)
+10. 📄 [prettier.md](os/tools/developer/prettier.md)
+11. 📄 [rclone.md](os/tools/developer/rclone.md)
+12. 📄 [yapi.md](os/tools/developer/yapi.md)
+
+##### 📂 __editor__
+
+1. 📄 [emacs.md](os/tools/developer/editor/emacs.md)
+2. 📄 [phpstorm.md](os/tools/developer/editor/phpstorm.md)
+3. 📄 [sublime\-text.md](os/tools/developer/editor/sublime-text.md)
+4. 📄 [vim.md](os/tools/developer/editor/vim.md)
+5. 📄 [visual\-studio\-code.md](os/tools/developer/editor/visual-studio-code.md)
+
+##### 📂 __shell__
+
+1. 📄 [bash.md](os/tools/developer/shell/bash.md)
+2. 📄 [powershell.md](os/tools/developer/shell/powershell.md)
+
+#### 📂 __productivity__
+
+1. 📄 [adguard.md](os/tools/productivity/adguard.md)
+2. 📄 [bitwarden.md](os/tools/productivity/bitwarden.md)
+3. 📄 [github.md](os/tools/productivity/github.md)
+4. 📄 [obsidian.md](os/tools/productivity/obsidian.md)
+5. 📄 [todoist.md](os/tools/productivity/todoist.md)
+6. 📄 [wps.md](os/tools/productivity/wps.md)
 
 #### 📂 __topics__
 
 1. 📄 [\_sidebar.md](os/tools/topics/_sidebar.md)
 2. 📄 [ai.md](os/tools/topics/ai.md)
-3. 📄 [browser\-extensions.md](os/tools/topics/browser-extensions.md)
-4. 📄 [browser.md](os/tools/topics/browser.md)
-5. 📄 [multimedia.md](os/tools/topics/multimedia.md)
-6. 📄 [rss.md](os/tools/topics/rss.md)
-7. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
-
-### 📂 __windows__
-
-1. 📄 [\_sidebar.md](os/windows/_sidebar.md)
-2. 📄 [batch.md](os/windows/batch.md)
-3. 📄 [cmd.md](os/windows/cmd.md)
-4. 📄 [command.md](os/windows/command.md)
-5. 📄 [dos.md](os/windows/dos.md)
-6. 📄 [faq.md](os/windows/faq.md)
-7. 📄 [README.md](os/windows/README.md)
+3. 📄 [multimedia.md](os/tools/topics/multimedia.md)
+4. 📄 [rss.md](os/tools/topics/rss.md)
+5. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
 
 ## 📂 __project__
 
@@ -328,19 +368,6 @@
 1. 📄 [\_sidebar.md](project/blockchain/_sidebar.md)
 2. 📄 [README.md](project/blockchain/README.md)
 3. 📄 [wallet.md](project/blockchain/wallet.md)
-4. 📄 [zh\-en\-translation.md](project/blockchain/zh-en-translation.md)
-
-#### 📂 __deploy\-eth__
-
-1. 📄 [deploy\-eth.md](project/blockchain/deploy-eth/deploy-eth.md)
-
-#### 📂 __deploy\-eth\-erc20__
-
-1. 📄 [deploy\-eth\-erc20.md](project/blockchain/deploy-eth-erc20/deploy-eth-erc20.md)
-
-#### 📂 __deploy\-tron__
-
-1. 📄 [deploy\-tron.md](project/blockchain/deploy-tron/deploy-tron.md)
 
 #### 📂 __network__
 
@@ -349,36 +376,55 @@
 3. 📄 [README.md](project/blockchain/network/README.md)
 4. 📄 [tron.md](project/blockchain/network/tron.md)
 
+##### 📂 __deploy__
+
+1. 📄 [eth\-erc20.md](project/blockchain/network/deploy/eth-erc20.md)
+2. 📄 [eth.md](project/blockchain/network/deploy/eth.md)
+3. 📄 [tron.md](project/blockchain/network/deploy/tron.md)
+
+### 📂 __features__
+
+1. 📄 [\_sidebar.md](project/features/_sidebar.md)
+2. 📄 [amap.md](project/features/amap.md)
+3. 📄 [email.md](project/features/email.md)
+4. 📄 [README.md](project/features/README.md)
+
+#### 📂 __i18n__
+
+1. 📄 [README.md](project/features/i18n/README.md)
+2. 📄 [translations.md](project/features/i18n/translations.md)
+
 ### 📂 __framework__
 
 1. 📄 [\_sidebar.md](project/framework/_sidebar.md)
 2. 📄 [bootstrap.md](project/framework/bootstrap.md)
 3. 📄 [css\-library.md](project/framework/css-library.md)
 4. 📄 [docsify.md](project/framework/docsify.md)
-5. 📄 [javascript\-plugins.md](project/framework/javascript-plugins.md)
-6. 📄 [official\-website.md](project/framework/official-website.md)
-7. 📄 [README.md](project/framework/README.md)
+5. 📄 [fontawesome.md](project/framework/fontawesome.md)
+6. 📄 [javascript\-plugins.md](project/framework/javascript-plugins.md)
+7. 📄 [prism.md](project/framework/prism.md)
+8. 📄 [README.md](project/framework/README.md)
 
-#### 📂 __background\-management\-system\-template__
+#### 📂 __template__
 
-1. 📄 [\_sidebar.md](project/framework/background-management-system-template/_sidebar.md)
-2. 📄 [eleadmin.md](project/framework/background-management-system-template/eleadmin.md)
-3. 📄 [README.md](project/framework/background-management-system-template/README.md)
-4. 📄 [tpl.md](project/framework/background-management-system-template/tpl.md)
-5. 📄 [xenon.md](project/framework/background-management-system-template/xenon.md)
+1. 📄 [README.md](project/framework/template/README.md)
 
-### 📂 __function\-list__
+##### 📂 __background\-management\-system__
 
-1. 📄 [\_sidebar.md](project/function-list/_sidebar.md)
-2. 📄 [amap.md](project/function-list/amap.md)
-3. 📄 [email.md](project/function-list/email.md)
-4. 📄 [README.md](project/function-list/README.md)
+1. 📄 [\_sidebar.md](project/framework/template/background-management-system/_sidebar.md)
+2. 📄 [eleadmin.md](project/framework/template/background-management-system/eleadmin.md)
+3. 📄 [README.md](project/framework/template/background-management-system/README.md)
+4. 📄 [xenon.md](project/framework/template/background-management-system/xenon.md)
+
+##### 📂 __official\-website__
+
+1. 📄 [README.md](project/framework/template/official-website/README.md)
 
 ## 📂 __snippets__
 
 1. 📄 [\_sidebar.md](snippets/_sidebar.md)
-2. 📄 [app\-list\-template.md](snippets/app-list-template.md)
-3. 📄 [badge.md](snippets/badge.md)
+2. 📄 [badge.md](snippets/badge.md)
+3. 📄 [bookmarklet.md](snippets/bookmarklet.md)
 4. 📄 [css.md](snippets/css.md)
 5. 📄 [html.md](snippets/html.md)
 6. 📄 [illustration.md](snippets/illustration.md)
@@ -386,18 +432,26 @@
 8. 📄 [README.md](snippets/README.md)
 9. 📄 [regex.md](snippets/regex.md)
 
+### 📂 __app\-list\-template__
+
+1. 📄 [category.md](snippets/app-list-template/category.md)
+2. 📄 [details.md](snippets/app-list-template/details.md)
+
 ## 📂 __tech\-stack__
 
 1. 📄 [\_sidebar.md](tech-stack/_sidebar.md)
 2. 📄 [google.md](tech-stack/google.md)
 3. 📄 [mozilla.md](tech-stack/mozilla.md)
 4. 📄 [README.md](tech-stack/README.md)
-5. 📄 [wechat.md](tech-stack/wechat.md)
 
 ### 📂 __ali__
 
 1. 📄 [alipay.md](tech-stack/ali/alipay.md)
 2. 📄 [aliyun.md](tech-stack/ali/aliyun.md)
+
+### 📂 __tencent__
+
+1. 📄 [wechat.md](tech-stack/tencent/wechat.md)
 
 ## 📂 __topics__
 

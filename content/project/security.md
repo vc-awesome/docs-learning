@@ -12,6 +12,11 @@
     ![GitHub last commit](https://badgen.net/github/last-commit/Tencent/secguide?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/secguide?style=social)
 
+## 简介
+
+https://www.cisco.com/site/us/en/learn/topics/security/what-is-cybersecurity.html - *What is cybersecurity? - Cisco* \
+\> _via https://www.termuxcommands.com/top-5-termux-tools-for-ethical-hacking/ - *Top 5 Termux Tools for Ethical Hacking - Termux Commands*_
+
 ## 安全措施
 
 可参考：Bitwarden
