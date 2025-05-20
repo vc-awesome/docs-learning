@@ -92,24 +92,30 @@ function styleInject(css, ref) {
   /* 用于 os/tools/custom-badge.md */
 
   // CSS
-  loadjscssfile('_assets/clipboard-code-block.css', 'css');
-  loadjscssfile('https://fastly.jsdelivr.net/gh/vc-awesome/bookmarks@master/fontawesome/releases/v6.5.1/css/all.min.css', 'css');
-  loadjscssfile('https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css', 'css');
-  loadjscssfile('_assets/css/simple.css', 'css');
-  loadjscssfile('_assets/css/material-symbols-outlined.css', 'css');
+  let cssArr = [
+    '_assets/clipboard-code-block.css',
+    '_assets/css/simple.css',
+    '_assets/css/material-symbols-outlined.css',
+    'https://fastly.jsdelivr.net/gh/vc-awesome/bookmarks@master/fontawesome/releases/v6.5.1/css/all.min.css',
+    'https://fastly.jsdelivr.net/npm/element-ui/lib/theme-chalk/index.css',
+  ];
 
   /* 切换主题 */
   const mediaQueryListDark = window.matchMedia('(prefers-color-scheme: dark)');
   if (mediaQueryListDark.matches) {
     // 系统当前是暗色(dark)主题
-    loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/dark.css', 'css');
+    cssArr.push('https://fastly.jsdelivr.net/npm/docsify/lib/themes/dark.css');
   }
 
   const mediaQueryListLight = window.matchMedia('(prefers-color-scheme: light)');
   if (mediaQueryListLight.matches) {
     // 系统当前是亮色(light)主题
-    loadjscssfile('https://fastly.jsdelivr.net/npm/docsify/lib/themes/vue.css', 'css');
+    cssArr.push('https://fastly.jsdelivr.net/npm/docsify/lib/themes/vue.css');
   }
+
+  cssArr.forEach(src => {
+    loadjscssfile(src, 'css');
+  });
 
   // JS
   /* loadjscssfile(

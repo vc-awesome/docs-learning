@@ -3,6 +3,10 @@
 ![illustration](https://camo.githubusercontent.com/deadf15ef64292f0576fee682c1d7fe4a9b2617bc436cb335eb6c136ccfcbe50/68747470733a2f2f63646e2e66726565636f646563616d702e6f72672f706c6174666f726d2f756e6976657273616c2f6663635f62616e6e65725f6e65772e706e67)
 <small>*Picture source: [GitHub Org](https://github.com/freeCodeCamp)*</small>
 
+## 推荐
+
+1. [阮一峰](#阮一峰-)
+
 ## 书籍
 
 1. https://www.bookstack.cn/ - *书栈网 · BookStack_程序员IT互联网开源编程书籍免费阅读，助您【码】力十足！*
@@ -37,9 +41,11 @@
 
 7. https://docs.kilvn.com/ - *东子的藏经阁*
 
+8. https://tutsplus.com/ - *Free Courses, Tutorials, Tips & Tricks with Envato Tuts+*
+
 ## 社区
 
-- https://www.freecodecamp.org/ - *Learn to Code — For Free — Coding Courses for Busy People* [GitHub Org](https://github.com/freeCodeCamp)
+1. https://www.freecodecamp.org/ - *Learn to Code — For Free — Coding Courses for Busy People* [GitHub Org](https://github.com/freeCodeCamp)
 
     - https://github.com/freeCodeCamp/freeCodeCamp - *GitHub - freeCodeCamp/freeCodeCamp: freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.*
 
@@ -84,36 +90,55 @@
 
 ### 阮一峰 ✅
 
+https://github.com/ruanyf - *ruanyf (Ruan YiFeng) · GitHub*
+
+仓库：
+
+1. https://github.com/ruanyf/document-style-guide - *GitHub - ruanyf/document-style-guide: 中文技术文档的写作规范*
+2. https://github.com/ruanyf/dotfiles - *GitHub - ruanyf/dotfiles: My various config files*
+
 #### 阮一峰的网络日志
 
-http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志* [GitHub User](https://github.com/ruanyf)
+http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志*
 
 分类：
 
-- https://www.ruanyifeng.com/blog/javascript/ - *分类：JavaScript - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/developer/ - *分类：开发者手册 - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/computer/ - *分类：理解计算机 - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/industry/ - *分类：计算机行业历史 - 阮一峰的网络日志*
-- https://www.ruanyifeng.com/blog/english/ - *分类：英语爱好者 - 阮一峰的网络日志*
+1. https://www.ruanyifeng.com/blog/javascript/ - *分类：JavaScript - 阮一峰的网络日志*
+2. https://www.ruanyifeng.com/blog/developer/ - *分类：开发者手册 - 阮一峰的网络日志*
+3. https://www.ruanyifeng.com/blog/computer/ - *分类：理解计算机 - 阮一峰的网络日志*
+4. https://www.ruanyifeng.com/blog/industry/ - *分类：计算机行业历史 - 阮一峰的网络日志*
+5. https://www.ruanyifeng.com/blog/english/ - *分类：英语爱好者 - 阮一峰的网络日志*
 
-https://github.com/ruanyf/weekly - *GitHub - ruanyf/weekly: 科技爱好者周刊，每周五发布*
+仓库：
 
-![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/weekly?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/weekly?style=social)
+1. https://github.com/ruanyf/weekly - *GitHub - ruanyf/weekly: 科技爱好者周刊，每周五发布*
 
-https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal articles*
+    ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/weekly?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/weekly?style=social)
 
-![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/articles?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/articles?style=social)
+2. https://github.com/ruanyf/articles - *GitHub - ruanyf/articles: personal articles*
 
-- [Sourcegraph](https://sourcegraph.com/search?q=context:global+repo:^github\.com/ruanyf/articles$+&patternType=literal&case=yes&sm=0&groupBy=repo)
+    ![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/articles?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/articles?style=social)
+
+    - [Sourcegraph](https://sourcegraph.com/search?q=context:global+repo:^github\.com/ruanyf/articles$+&patternType=literal&case=yes&sm=0&groupBy=repo)
 
 #### 前端
 
-https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程师培训材料*
+1. https://github.com/ruanyf/es6tutorial - *GitHub - ruanyf/es6tutorial: 《ECMAScript 6入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新增的语法特性。*
 
-![GitHub last commit](https://badgen.net/github/last-commit/ruanyf/jstraining?icon=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/jstraining?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ruanyf/es6tutorial?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/es6tutorial?style=social)
+
+2. https://github.com/ruanyf/jstutorial - *GitHub - ruanyf/jstutorial: Javascript tutorial book*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ruanyf/jstutorial?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/jstutorial?style=social)
+
+3. https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程师培训材料*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ruanyf/jstraining?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ruanyf/jstraining?style=social)
 
 #### 网道 - 互联网开发文档
 
@@ -124,11 +149,11 @@ https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程
 
 阅读列表：
 
-序号  | 书名  | 阅读进度
-:---|:---|:---
-1  | [HTML 教程](https://www.wangdoc.com/html/), [GitHub Repo](https://github.com/wangdoc/html-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
-2  | [JavaScript 教程（*ES5*）](https://www.wangdoc.com/javascript/), [GitHub Repo](https://github.com/wangdoc/javascript-tutorial) | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
-3  | [ES6 教程](https://www.wangdoc.com/es6/), [GitHub Repo](https://github.com/wangdoc/es6-tutorial#js-repo-pjax-container) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+序号 | 书名 | 阅读进度
+:--- | :--- | :---
+1  | [HTML 教程](https://wangdoc.com/html/), [GitHub Repo](https://github.com/wangdoc/html-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
+2  | [JavaScript 教程（*ES5*）](https://wangdoc.com/javascript/), [GitHub Repo](https://github.com/wangdoc/javascript-tutorial) | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
+3  | [ES6 教程](https://wangdoc.com/es6/), [GitHub Repo](https://github.com/wangdoc/es6-tutorial#js-repo-pjax-container) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
 4  | 更多教程访问 [wangdoc · GitHub](https://github.com/wangdoc)  | -
 
 ## 分类
@@ -137,12 +162,12 @@ https://github.com/ruanyf/jstraining - *GitHub - ruanyf/jstraining: 全栈工程
 
 #### PHP
 
-- https://github.com/smknstd/modern-php-cheatsheet - *Cheatsheet for some PHP knowledge you will frequently encounter in modern projects.* [Website](https://smknstd.github.io/modern-php-cheatsheet/)
+1. https://github.com/smknstd/modern-php-cheatsheet - *Cheatsheet for some PHP knowledge you will frequently encounter in modern projects.* [Website](https://smknstd.github.io/modern-php-cheatsheet/)
 
-  ![GitHub last commit](https://img.shields.io/github/last-commit/smknstd/modern-php-cheatsheet?logo=github&color=blue)
-  ![GitHub Repo stars](https://img.shields.io/github/stars/smknstd/modern-php-cheatsheet?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/smknstd/modern-php-cheatsheet?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/smknstd/modern-php-cheatsheet?style=social)
 
-- http://phpversions.info/ - *PHP Versions*
+2. http://phpversions.info/ - *PHP Versions*
 
 ##### PHP 之道
 
@@ -174,17 +199,23 @@ https://github.com/mdn/ - *MDN Web Docs · GitHub*
 
 #### The Modern JavaScript Tutorial
 
-[现代 JavaScript 教程](https://zh.javascript.info/) - *现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。* [GitHub Repo](https://github.com/javascript-tutorial/en.javascript.info)
+> 现代 JavaScript 教程：有关示例和任务的简单但详细的解释包括：闭包、文档和事件，以及面向对象编程等。
 
 ![GitHub last commit](https://badgen.net/github/last-commit/javascript-tutorial/en.javascript.info?icon=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/javascript-tutorial/en.javascript.info?style=social)
 
+https://zh.javascript.info/ - *现代 JavaScript 教程*
+
+https://github.com/javascript-tutorial/en.javascript.info - *GitHub - javascript-tutorial/en.javascript.info: Modern JavaScript Tutorial*
+
 #### 冴羽的博客
 
-1. https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*
+> 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。 - mqyqingfeng/Blog
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/mqyqingfeng/Blog?style=social)
+![GitHub last commit](https://badgen.net/github/last-commit/mqyqingfeng/Blog?icon=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/mqyqingfeng/Blog?style=social)
+
+https://github.com/mqyqingfeng/Blog - *冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。*
 
 #### Bootstrap 中文网
 
@@ -192,19 +223,18 @@ https://www.bootcss.com/ - *Bootstrap中文网*
 
 技术列表：
 
-1. [PostCSS]()
-2. [Browsersync]()
-3. [SemVer]()
-4. [Bootstrap 编码规范]()
+1. [Axios]()
+2. [Bootstrap 编码规范]()
+3. [Bootstrap 官网]()
+4. [Browsersync]()
 5. [Git Guide]()
-6. [Prettier]()
-7. [Axios]()
-8. [Bootstrap 官网]()
-9. [Rollup]()
-10. [gulp.js]()
-11. [Axios]()
-12. [Node.js]()
-13. [Grunt]()
+6. [Grunt]()
+7. [gulp.js]()
+8. [Node.js]()
+9. [PostCSS]()
+10. [Prettier]()
+11. [Rollup]()
+12. [SemVer]()
 
 #### Node.js 中文网
 
@@ -226,6 +256,28 @@ https://nodejs.cn/ - *Node.js 中文网*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/ljianshu/Blog?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/ljianshu/Blog?style=social)
+
+4. https://github.com/FrontEndGitHub/FrontEndGitHub - *:octocat:GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、数据结构与算法、开发工具、求职面试等）*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/FrontEndGitHub/FrontEndGitHub?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/FrontEndGitHub/FrontEndGitHub?style=social)
+
+5. https://github.com/o2team - *AOTU Labs · GitHub*
+
+    1. https://github.com/o2team/guide - *GitHub - o2team/guide: O2前端规范文档*
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/o2team/guide?color=blue&logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/guide?style=social)
+
+    2. https://github.com/o2team/H5Skills - *GitHub - o2team/H5Skills: 移动端开发技巧集合*
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/o2team/H5Skills?color=blue&logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/H5Skills?style=social)
+
+6. https://github.com/jtyjty99999/mobileTech - *GitHub - jtyjty99999/mobileTech: A useful tools or tips list for mobile web application developing*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/jtyjty99999/mobileTech?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/jtyjty99999/mobileTech?style=social)
 
 ## 微信公众号
 

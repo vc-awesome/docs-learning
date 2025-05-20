@@ -21,6 +21,10 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 
 ## Usage
 
+### Categories
+
+暂无
+
 ### Emoji Kitchen
 
 https://emojikitchen.dev/ - *Emoji Kitchen* [GitHub Repo](https://github.com/xsalazar/emoji-kitchen) 「Emoji 组合使用」

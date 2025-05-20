@@ -9,7 +9,7 @@
     - [<i class="fa-duotone fa-message-code fa-fw"></i> 源码解读](home/code-analysis.md)
     - <hr />
     - [<i class="fa-duotone fa-list-tree fa-fw"></i> TOC](home/toc.md)
-    - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](home/emoji.md)
+    - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](essential/character-sets/emoji.md)
     - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](os/mirror.md)
     - [<i class="fa-regular fa-chart-network fa-fw"></i> DNS](essential/dns.md)
     - [<i class="fa-regular fa-language fa-fw"></i> 中英译](home/chinese-english-translate.md)
@@ -28,13 +28,13 @@
 - [Essentials](essential/README.md)
     - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
     - **_PROGRAM_**
-    - [<i class="ri-key-2-line"></i> 加密](essential/crypto.md)
+    - [<i class="ri-key-2-line"></i> 加密](essential/security/crypto.md)
     - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](essential/design-pattern/README.md)
-    - [<i class="ri-shield-user-line"></i> 身份认证](essential/identity.md)
-    - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pcre.md)
+    - [<i class="ri-shield-user-line"></i> 身份认证](essential/security/identity.md)
+    - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/regex.md)
     - [<i class="ri-questionnaire-line"></i> API](essential/api.md)
     - **_NETWORK_**
-    - [<i class="ri-earth-line"></i> Internet](essential/internet.md)
+    - [<i class="ri-earth-line"></i> Internet](essential/network/internet.md)
     - [<i class="ri-server-line"></i> Server](essential/hosting.md)
     - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
     - [<i class="ri-questionnaire-line"></i> Hosts](os/tools/hosts.md)

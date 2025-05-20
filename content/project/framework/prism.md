@@ -95,6 +95,18 @@ https://prismjs.com/index.html#supported-languages - _Supported languages_
    + https://clients2.google.com/service/update2/crx?response=redirect&x=id%3Diheapfheanfjcemgneblljhaebonakbg%26uc&prodversion=32
    ```
 
+9. vim
+
+    ```html
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-vim.min.js"></script>
+    ```
+
+10. http
+
+    ```html
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-vim.min.js"></script>
+    ```
+
 ## 更新日志
 
 https://github.com/PrismJS/prism/blob/master/CHANGELOG.md - *prism/CHANGELOG.md at master · PrismJS/prism · GitHub*

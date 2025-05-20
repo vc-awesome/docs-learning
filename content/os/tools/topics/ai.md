@@ -1,5 +1,9 @@
 # AI
 
+![illustration](../../../../_media/1743331888575.png)
+
+<small>*插图来源于：[小米应用商店](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.xiaomi.market)*</small>
+
 ## 简介
 
 > Artificial intelligence is the ability of a computer or computer-controlled robot to perform tasks that are commonly associated with the intellectual processes characteristic of humans, such as the ability to reason. Although there are as yet no AIs that match full human flexibility over wider domains or in tasks requiring much everyday knowledge, some AIs perform specific tasks as well as humans.
@@ -7,6 +11,12 @@
 > <cite>—— [Artificial intelligence (AI) | Definition, Examples, Types, Applications, Companies, & Facts | Britannica](https://www.britannica.com/technology/artificial-intelligence)</cite>
 
 ## 产品
+
+- AI 办公
+- AI 美图
+- AI 对话
+- AI 写作
+- AI 学习
 
 1. https://anakin.ai/zh-cn - *Anakin.ai - 一站式 AI 应用平台*
 2. https://www.anthropic.com/claude - *Meet Claude \ Anthropic*
@@ -72,8 +82,12 @@ https://duck.ai/ - *AI Chat*
 
 ### Ecosia Chat
 
-https://www.ecosia.org/chat - *Ecosia - Chat*
+https://www.ecosia.org/chat?q=%20 - *Ecosia - Chat*
 
 设置搜索区域为：除 China 之外的任何区域
 
 比如设置成美式英语：*Settings > Search region > United States (English)*
+
+### DeepSeek
+
+暂无

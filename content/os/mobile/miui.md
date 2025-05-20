@@ -2,7 +2,7 @@
 
 > <img src="https://cia.sec.miui.com/miui-14-homepage/miui-14.png?imageMogr2/thumbnail/200x/quality/80/format/webp" alt="package icon" align="left" height="54" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> 更轻巧 / 更流畅 / 更安全 / 更人性化
 > 
->  玩转小米手机；尝试长按有惊喜！
+> [^1] 玩转小米手机；尝试长按有惊喜！
 
 
 ## 官方网址
@@ -65,9 +65,10 @@
     可选文字识别应用：
 
     1. *[OCR](https://f-droid.org/packages/io.github.subhamtyagi.ocr/)（推荐）*
-    2. *夸克 - 提取文字*
-    3. *百度翻译*
-    4. *[Yander Browser](os/mobile/browser.md#yandex) - 智能摄像头*
+    2. *[Image Toolbox](https://f-droid.org/packages/ru.tech.imageresizershrinker) - OCR (文本识别)*
+    3. *夸克 - 提取文字*
+    4. *百度翻译*
+    5. *[Yander Browser](os/mobile/browser.md#yandex) - 智能摄像头*
 
 
 ## 屏幕录制
@@ -161,7 +162,8 @@ http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈
 - 「调试」模块
 
     1. USB 调试
-    2. 允许在“设置”上重叠显示
+    2. 无线调试
+    3. 允许在“设置”上重叠显示
 
 - 「输入」模块
 
@@ -212,6 +214,13 @@ MIUI 14 特殊权限设置：_应用 > 设置 > 隐私保护 > 右滑切换至�
 MIUI 14.0.7 操作步骤：*应用 > 设置 > 我的设备 > 备份与恢复*
 
 
+### 隐私保护
+
+#### 隐藏应用
+
+MIUI 14.0.7 操作步骤：_应用 > 设置 > 隐私保护 > 下滑至底部 - （隐私功能）隐藏应用_
+
+
 ## 应用管理
 
 ### 应用分类管理
@@ -242,6 +251,14 @@ MIUI 14 设置操作：
 2. 方式二：_应用 > 设置 > 应用设置 > 授权管理 > 自启动管理_
 
 
+### 应用双开
+
+MIUI 14 设置操作：*应用 > 设置 > 应用设置 > 应用管理 > 应用双开*
+
+### 预置应用
+
+MIUI 14.0.7 操作步骤：*应用 > 设置 > 我的设备 > 下滑至底部-全部参数与信息 > 下滑至底部-预置应用*
+
 ## 系统应用
 
 查看系统应用：
@@ -250,13 +267,16 @@ MIUI 14 设置操作：
 
 常用系统应用：
 
-1. 文件 - 应用包名：`com.google.android.documentsui`（[启动应用](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.google.android.documentsui)）
-2. 备份 - 应用包名：`com.miui.backup`（[启动应用](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.miui.backup)）
+1. [文件](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.google.android.documentsui)
+    - 应用包名：`com.google.android.documentsui`
+2. [备份](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.miui.backup)
+    - 应用包名：`com.miui.backup`
 
 
 ### 文件管理
 
-1. 文件管理 - 应用包名：`com.android.fileexplorer`（[启动应用](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)）
+1. [文件管理](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)
+    - 应用包名：`com.android.fileexplorer`
 
 
 ### 悬浮球
@@ -396,6 +416,11 @@ https://www.xiaomi.cn/ - *小米社区*
 暂无
 
 
+### 音乐
+
+暂无
+
+
 ## 外接设备
 
 ### 蓝牙耳机
@@ -467,7 +492,9 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 
 3. 方式三：_系统应用 > 设置 > 应用设置 > 授权管理 > 自启动管理_
 
-4. 方式四：_应用 > [Blocker](https://github.com/lihenggui/blocker)_
+4. 方式四：_用户应用 > [Blocker](https://github.com/lihenggui/blocker)_
+
+5. 方式五：_用户应用 > [App Manager](https://github.com/MuntashirAkon/AppManager) > ⋮ 更多选项 > 正在运行的应用_
 
 参考：
 
@@ -554,3 +581,5 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 [image-category-list]: data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAyNCAxMDI0JyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzE2JyBoZWlnaHQ9JzE2Jz48cGF0aCBkPSdNMzgxLjI0MjgyODE5IDQ2MS4yNzUyMzUwN0gxNTguMDUzODYyNUMxMTQuMDkyMzk5NTYgNDYxLjI3NTIzNTA3IDc4LjAyMTQ1NTYxIDQyNS4yMDQyOTExMyA3OC4wMjE0NTU2MSAzODEuMjQyODI4MTlWMTU4LjA1Mzg2MjVDNzguMDIxNDU1NjEgMTE0LjA5MjM5OTU2IDExNC4wOTIzOTk1NiA3OC4wMjE0NTU2MSAxNTguMDUzODYyNSA3OC4wMjE0NTU2MWgyMjMuMTg4OTY1NjlDNDI1LjIwNDI5MTEzIDc4LjAyMTQ1NTYxIDQ2MS4yNzUyMzUwNyAxMTQuMDkyMzk5NTYgNDYxLjI3NTIzNTA3IDE1OC4wNTM4NjI1djIyMy4xODg5NjU2OUM0NjEuMjc1MjM1MDcgNDI1LjIwNDI5MTEzIDQyNS4yMDQyOTExMyA0NjEuMjc1MjM1MDcgMzgxLjI0MjgyODE5IDQ2MS4yNzUyMzUwN3pNMTU4LjA1Mzg2MjUgMTQ1LjY1NDQ3NTUyQzE1MS4yOTA1NjA1MiAxNDUuNjU0NDc1NTIgMTQ1LjY1NDQ3NTUyIDE1MS4yOTA1NjA1MiAxNDUuNjU0NDc1NTIgMTU4LjA1Mzg2MjV2MjIzLjE4ODk2NTY5YzAgNi43NjMzMDE5OSA1LjYzNjA4NDk5IDEyLjM5OTM4Njk4IDEyLjM5OTM4Njk4IDEyLjM5OTM4Njk4aDIyMy4xODg5NjU2OWM2Ljc2MzMwMTk5IDAgMTIuMzk5Mzg2OTgtNS42MzYwODQ5OSAxMi4zOTkzODY5OC0xMi4zOTkzODY5OFYxNTguMDUzODYyNWMwLTYuNzYzMzAxOTktNS42MzYwODQ5OS0xMi4zOTkzODY5OC0xMi4zOTkzODY5OC0xMi4zOTkzODY5OEgxNTguMDUzODYyNXpNMzg5LjEzMzM0NzE3IDk0Mi41OTY4OTMzOUgxNjUuOTQ0MzgxNDljLTQzLjk2MTQ2Mjk0IDAtODAuMDMyNDA2ODktMzYuMDcwOTQzOTUtODAuMDMyNDA2ODktODAuMDMyNDA2ODl2LTIyMy4xODg5NjU2OWMwLTQzLjk2MTQ2Mjk0IDM2LjA3MDk0Mzk1LTgwLjAzMjQwNjg5IDgwLjAzMjQwNjg5LTgwLjAzMjQwNjg3aDIyMy4xODg5NjU2OGM0My45NjE0NjI5NCAwIDgwLjAzMjQwNjg5IDM2LjA3MDk0Mzk1IDgwLjAzMjQwNjkgODAuMDMyNDA2ODd2MjIzLjE4ODk2NTY5YzAgNDMuOTYxNDYyOTQtMzYuMDcwOTQzOTUgODAuMDMyNDA2ODktODAuMDMyNDA2OSA4MC4wMzI0MDY4OXogbS0yMjMuMTg4OTY1NjgtMzE1LjYyMDc1OTU1Yy02Ljc2MzMwMTk5IDAtMTIuMzk5Mzg2OTggNS42MzYwODQ5OS0xMi4zOTkzODY5OCAxMi4zOTkzODY5N3YyMjMuMTg4OTY1NjljMCA2Ljc2MzMwMTk5IDUuNjM2MDg0OTkgMTIuMzk5Mzg2OTggMTIuMzk5Mzg2OTggMTIuMzk5Mzg2OTloMjIzLjE4ODk2NTY4YzYuNzYzMzAxOTkgMCAxMi4zOTkzODY5OC01LjYzNjA4NDk5IDEyLjM5OTM4Njk5LTEyLjM5OTM4Njk5di0yMjMuMTg4OTY1NjljMC02Ljc2MzMwMTk5LTUuNjM2MDg0OTktMTIuMzk5Mzg2OTgtMTIuMzk5Mzg2OTktMTIuMzk5Mzg2OTdIMTY1Ljk0NDM4MTQ5ek05MTIuNzI1NjQyOTMgMTk0LjY4ODQxNDk0aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTRzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTZoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTZzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk0ek05MTIuNzI1NjQyOTMgNDEyLjI0MTI5NTY0aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTVzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTVoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTVzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk1ek05MTIuNzI1NjQyOTMgNjc4LjgyODExNTc3aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTZzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTVoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTVzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk2ek05MTIuNzI1NjQyOTMgODk2Ljk0NDYwNDk2aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTZzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTRoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTRzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk2eic+PC9wYXRoPjwvc3ZnPg==
 
 [image-settings]: data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgd2lkdGg9JzE2JyBoZWlnaHQ9JzE2Jz48cGF0aCBkPSdNMTIgMUwyMS41IDYuNVYxNy41TDEyIDIzTDIuNSAxNy41VjYuNUwxMiAxWk0xMiAzLjMxMUw0LjUgNy42NTMxMVYxNi4zNDY5TDEyIDIwLjY4OUwxOS41IDE2LjM0NjlWNy42NTMxMUwxMiAzLjMxMVpNMTIgMTZDOS43OTA4NiAxNiA4IDE0LjIwOTEgOCAxMkM4IDkuNzkwODYgOS43OTA4NiA4IDEyIDhDMTQuMjA5MSA4IDE2IDkuNzkwODYgMTYgMTJDMTYgMTQuMjA5MSAxNC4yMDkxIDE2IDEyIDE2Wk0xMiAxNEMxMy4xMDQ2IDE0IDE0IDEzLjEwNDYgMTQgMTJDMTQgMTAuODk1NCAxMy4xMDQ2IDEwIDEyIDEwQzEwLjg5NTQgMTAgMTAgMTAuODk1NCAxMCAxMkMxMCAxMy4xMDQ2IDEwLjg5NTQgMTQgMTIgMTRaJz48L3BhdGg+PC9zdmc+
+
+[^1]: https://tieba.baidu.com/p/7682538967#/ - *贴吧*

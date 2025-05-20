@@ -223,9 +223,28 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
         
         <script type="text/javascript">
           function onPageLoaded() {
-            /*if ('{{ post.text_converter_name }}' == 'MarkdownTextConverter') { 
-         window.scrollTo(0,document.body.scrollHeight); 
-        }*/
+            /*if ('{{ post.text_converter_name }}' == 'MarkdownTextConverter') {
+              window.scrollTo(0, document.body.scrollHeight);
+            }*/
+
+            /* **********************************************
+                Begin 替换 <a> 标签的链接路径
+            ********************************************** */
+
+            const [currentHref, replaceHref] = [window.location.href, `file:///storage/emulated/0/Documents/markor/gh/docs-learning/content/`];
+            const regex = new RegExp(`${replaceHref}(?!.*?\/#)`, 'i');
+
+            // 获取所有的 <a> 标签
+            const links = document.querySelectorAll('a');
+
+            // 遍历每个 <a> 标签并替换 href 属性
+            links.forEach(link => {
+              // alert(link.href);
+              if (regex.test(link.href)) {
+                // alert(link.href);
+                link.href = link.href.replaceAll(currentHref, replaceHref);
+              }
+            });
           }
         </script>
         <script

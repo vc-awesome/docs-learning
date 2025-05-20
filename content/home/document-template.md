@@ -40,6 +40,12 @@ https://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html - *为
 
 ### GitHub Docs
 
+简介：
+
+> 开始使用、排除故障和充分利用 GitHub。 新用户、开发人员、管理员和所有 GitHub 产品的文档。
+
+官方：
+
 https://docs.github.com/zh - *GitHub Docs*
 
 - https://docs.github.com/zh/pages - *GitHub Pages 文档 - GitHub Docs*
@@ -52,11 +58,17 @@ https://docs.github.com/zh - *GitHub Docs*
 
 ### 阿里云产品文档
 
+简介：
+
+> 阿里云帮助中心是阿里云产品文档，即阿里云产品和服务的官方文档平台，以文字、视频、问答等形式的内容协助用户自助使用阿里云产品、科普阿里云产品最佳实践或解决用户使用阿里云产品的问题。同时提供在线反馈渠道，方便用户及时反馈官方文档中的问题。
+
+官方：
+
 https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮助中心-阿里云，领先的云计算服务提供商*
 
 ### Vue.js
 
-http://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](https://cn.vuejs.org/v2/guide/syntax.html)
+https://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](https://cn.vuejs.org/v2/guide/syntax.html)
 
 ## 入门指南
 
@@ -74,6 +86,8 @@ http://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](http
     3. 有序列表
 
 ### 文档规范
+
+<https://publish.obsidian.md/help-zh/助力+Obsidian/文档规范> - *文档规范 - Obsidian 中文帮助*
 
 #### Markdown
 
@@ -167,6 +181,18 @@ Function 或 Fn | 地球仪 | <kbd>fn</kbd> | `fn`
 4. https://www.sysgeek.cn/macos-keyboard-symbols/ - *新手不再抓瞎，macOS键盘符号释义汇总 - 系统极客*
 5. https://blog.csdn.net/liaowhgg/article/details/84960769 - *Mac键盘符号说明(全)_苹果特殊符号 fn-CSDN博客*
 
+### 表示要求的动词
+
+- MUST
+- MUST NOT
+- SHOULD
+- SHOULD NOT
+- MAY
+
+https://www.ruanyifeng.com/blog/2007/03/rfc2119.html - *RFC2119：表示要求的动词 - 阮一峰的网络日志*
+
+https://www.rfc-editor.org/info/rfc2119 - *Information on RFC 2119 » RFC Editor*
+
 ## 快速入门
 
 ### 如何快速上手 App
@@ -201,26 +227,34 @@ Table of Contents
   - Official
   - Third-party
   - Community
+  - [Cheat Sheets](#cheat-sheets)
 - [Getting Started](#getting-started)
   - Requirements
   - Prerequisites
   - [Table of Contents](#table-of-contents)
   - Short Table of Contents
+  - Directory Structure
   - [User Interface](#user-interface)
+  - [Style Guide](#style-guide)
+  - Specification
   - Technologies
+  - Technology Stack
   - Tools
-  - Programming Languages
+  - [Translation](#translation)
+  - [Programming Languages](#programming-languages)
 - Quick Start
   - Index
 - [Installation](#installation)
-  - Desktop Client
+  - [Desktop Client](#desktop-client)
     - Windows
     - macOS
     - Linux
-  - Mobile Client
+  - [Mobile Client](#mobile-client)
     - Android
     - iOS
+  - [Web Client](#web-client)
 - [Configuration](#configuration)
+  - Options
 - Setup
   - Basic Setup
   - Advanced Setup
@@ -249,6 +283,7 @@ Table of Contents
   - Resource
     - Search
       - Keyword
+  - Examples
   - Recipes
 - [License](#license)
 
@@ -267,21 +302,29 @@ Table of Contents
   - `Official` - *`官方教程`*
   - `Third-party` - *`第三方教程`*
   - `Community` - *`社区`*
+  - `Cheat Sheets` - *`速查表`*
 - `Getting Started` - *`入门指南`*
   - `Requirements` - *`要求`* （[Via](https://github.com/google/benchmark#requirements)）
   - `Prerequisites` - *`先决条件/预备知识`* （[Via](https://github.com/doomemacs/doomemacs), [Via](https://cn.vuejs.org/guide/introduction.html)）
   - `Table of Contents` - *`目录结构`*
   - `Short Table of Contents` - *`简短目录`* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
+  - `Directory Structure` - *`目录结构`* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#directory-structure)）
   - `User Interface` - *`用户界面`* （[Via](https://code.visualstudio.com/docs/getstarted/userinterface)）
+  - `Style Guide` - *`风格指南`*
+  - `Specification` - *`规格`*
   - `Technologies` - *`技术列表`* （[Via](https://github.com/gsantner/markor)）
+  - `Technology Stack` - *`技术栈`* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#technology-stack)）
   - `Tools` - *`工具`*
+  - `Translation` - *`翻译`* （[Via](https://f-droid.org/packages/me.zhanghai.android.files/)）
   - `Programming Languages` - *`编程语言`* （[Via](https://www.regular-expressions.info/tools.html)）
 - `Quick Start` - *`快速入门`*
   - `Index` - *`索引`*
 - `Installation` - *`安装`*
   - `Desktop Client` - *`桌面端`*
   - `Mobile Client` - *`移动端`*
+  - `Web Client` - *`网页端`*
 - `Configuration` - *`配置`*
+  - `Options` - *`选项`* （[Via](https://github.com/preservim/vim-markdown)）
 - `Setup` - *`设置`* （[Via](https://github.com/dimitri/el-get)）
   - `Basic Setup` - *`基础设置`*
   - `Advanced Setup` - *`高级设置`*
@@ -311,9 +354,26 @@ Table of Contents
     - `Search` - *`搜索`*
       - `Keyword` - *`关键词`*
   - `Recipes` - *`最佳实践`*
+  - `Examples` - *`示例`*
 - `License` - *`开源许可证`*
 
 </output>
+
+#### 编程语言
+
+Table of Contents
+
+- Getting Started
+- Cheat Sheets
+- Basic Syntax
+- Extended Syntax
+- Hacks
+- Tools
+- book
+
+参考：
+
+1. https://www.markdownguide.org/ - *Markdown Guide*
 
 #### 应用/工具
 
@@ -485,7 +545,7 @@ Outline
 
 1. https://support.apple.com/zh-cn/guide/mac-help/welcome/mac - *Mac 使用手册 - 官方 Apple 支持 (中国)*
 
-## 常用工具模板（英文）
+## 常用工具模板
 
 ### Introduction
 
@@ -550,6 +610,28 @@ GitHub：
 
 暂无
 
+#### Cheat Sheets
+
+> 备忘单；速查表
+
+https://www.git-tower.com/learn/git/faq/git-bash/ - *Git Bash: Getting Started with Git on Windows | Learn Version Control with Git*
+
+https://www.atlassian.com/git/tutorials/git-bash - *Git bash: Definition, commands, & getting started | Atlassian*
+
+http://cheat-sheet.cn/ - *Cheat Sheet | 速查表*
+
+https://www.github-zh.com/collections/cheatsheets - *速查表 cheatsheets-集合 | GitHub 中文社区*
+
+https://github.com/LeCoupa/awesome-cheatsheets - *👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file. - LeCoupa/awesome-cheatsheets*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/LeCoupa/awesome-cheatsheets?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/LeCoupa/awesome-cheatsheets?style=social)
+
+https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-cheat-sheet: A list of cool features of Git and GitHub.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/tiimgreen/github-cheat-sheet?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/tiimgreen/github-cheat-sheet?style=social)
+
 ### Getting Started
 
 #### Table of Contents
@@ -570,18 +652,35 @@ root_folder/
 │   ├── spreadsheet.xls
 │   ├── manual.pdf
 │   ├── document.docx
-│   └── pre
+│   └── presentation.ppt
+└── etc.
 ```
 
 有关详细信息，请参阅“[目录结构](home/directory-structure.md)”。
 
-#### Shortcut Key
-
-有关详细信息，请参阅“[专题 > 快捷键](topics/shortcuts.md)”。
-
 #### User Interface
 
 有关详细信息，请参阅“[设计 > UI 布局](../design/README.md#ui-布局)”。
+
+#### Style Guide
+
+有关详细信息，请参阅“[风格指南 > 编码风格](essential/style-guide/code-guide.md)”。
+
+#### Translation
+
+翻译网站：
+
+1. https://hosted.weblate.org/ - *Hosted Weblate*
+
+2. https://explore.transifex.com/ - *Transifex Explore Projects*
+
+3. https://crowdin.com/ - *Localization Management Platform for agile teams | Crowdin*
+
+参考：
+
+1. https://github.com/hiddify/hiddify-app#-translations - *GitHub - hiddify/hiddify-app: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.*
+
+有关详细信息，请参阅“[i18n](project/features/i18n/README.md)”。
 
 #### Programming Languages
 
@@ -597,13 +696,19 @@ root_folder/
 
 暂无
 
+#### Web Client
+
+暂无
+
 ### Configuration
 
 暂无
 
 ### Usage
 
-暂无
+#### Shortcut Key
+
+有关详细信息，请参阅“[专题 > 快捷键](topics/shortcuts.md)”。
 
 ### Changelog
 
@@ -739,27 +844,3 @@ https://www.opensource.org/ - *Open Source Initiative &#8211; The steward of the
 2. https://browsersync.io/brand-assets - *Browsersync - Brand Assets*
 3. https://github.com/about - *About GitHub · GitHub*
 4. https://brand.github.com/ - *GitHub Brand Toolkit*
-
-## 常用工具模板（中文）
-
-### 简介
-
-### 官方
-
-### 教程
-
-### 入门指南
-
-### 安装
-
-### 设置
-
-### 用法
-
-### 更新日志
-
-### 常见问题解答
-
-### 参考
-
-### 许可证

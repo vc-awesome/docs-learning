@@ -19,7 +19,7 @@
 Security Bug Bounty：https://bounty.github.com/ - *GitHub Security - GitHub Bug Bounty*
 
 
-### GitHub
+### 组织
 
 https://github.com/github - *GitHub · GitHub*
 
@@ -93,13 +93,11 @@ https://docs.github.com/zh/authentication/keeping-your-account-and-data-secure/m
 
 国际：
 
-1. https://github.com/github - *GitHub · GitHub*
+1. https://github.com/twbs - *Bootstrap · GitHub*
 
-2. https://github.com/twbs - *Bootstrap · GitHub*
+2. https://github.com/metafizzy - *Metafizzy · GitHub*
 
-3. https://github.com/metafizzy - *Metafizzy · GitHub*
-
-4. https://github.com/apache - *The Apache Software Foundation*
+3. https://github.com/apache - *The Apache Software Foundation*
 
 
 ## 仓库

@@ -51,6 +51,10 @@
 
 7. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
 
+### 命令全拼
+
+https://www.runoob.com/w3cnote/linux-command-full-fight.html - *Linux 常用命令全拼 | 菜鸟教程*
+
 ## 语法格式
 
 http://docopt.org/ - *docopt—language for description of command-line interfaces* [GitHub Repo](https://github.com/docopt/docopt)
@@ -76,7 +80,7 @@ Usage:
 
 - `()` - 必须
 
-- `|` - 互斥
+- `|` - 互斥（`set`, `remove` 选择其中一个）
 
 - `...` - 重复的元素
 
@@ -126,7 +130,6 @@ Options:
 
 3. [apropos](#apropos) - *在 whatis 数据库中查找字符串*
 
-
 4. [help](#help) - *该命令是 bash 内建命令，用于显示 bash 内建命令的帮助信息。*
 
 5. [info](#info) - *Linux下 info 格式的帮助指令*
@@ -137,7 +140,7 @@ Options:
 
 1. https://blog.csdn.net/Zhi_osX/article/details/80146259 - *linux命令-查看命令帮助文档_Zhi_osX的博客-CSDN博客*
 
-### 查看命令
+### 查看命令信息
 
 3 种方式：
 
@@ -1254,6 +1257,30 @@ https://zhuanlan.zhihu.com/p/635083904 - *Linux中的20个基本“ls”命令�
 
 `ls -l` - *查看文件权限*
 
+#### md5sum
+
+简介：
+
+Print or check MD5 (128-bit) checksums.
+
+语法：
+
+`md5sum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/md5sum
+
+示例：
+
+```bash
+md5sum --help
+```
+
 #### mkdir
 
 简介：
@@ -1282,6 +1309,30 @@ https://wangchujiang.com/linux-command/c/mkdir.html - *mkdir 命令，Linux mkdi
 
 ```bash
 mkdir --help
+```
+
+#### mktemp
+
+简介：
+
+Create a temporary file or directory, safely, and print its name.
+
+语法：
+
+`mktemp [OPTION]... [TEMPLATE]`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/mktemp
+
+示例：
+
+```bash
+mktemp --help
 ```
 
 #### mv
@@ -1395,6 +1446,126 @@ http://www.runoob.com/linux/linux-comm-rmdir.html - *Linux rmdir 命令 | 菜鸟
 示例：
 
 `rmdir --help`
+
+#### sha1sum
+
+简介：
+
+Print or check SHA1 (160-bit) checksums.
+
+语法：
+
+`sha1sum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/sha1sum
+
+示例：
+
+```bash
+sha1sum --help
+```
+
+#### sha224sum
+
+简介：
+
+Print or check SHA224 (224-bit) checksums.
+
+语法：
+
+`sha224sum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/sha224sum
+
+示例：
+
+```bash
+sha224sum --help
+```
+
+#### sha256sum
+
+简介：
+
+Print or check SHA256 (256-bit) checksums.
+
+语法：
+
+`sha256sum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/sha256sum
+
+示例：
+
+```bash
+sha256sum --help
+```
+
+#### sha384sum
+
+简介：
+
+Print or check SHA384 (384-bit) checksums.
+
+语法：
+
+`sha384sum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/sha384sum
+
+示例：
+
+```bash
+sha384sum --help
+```
+
+#### sha512sum
+
+简介：
+
+Print or check SHA512 (512-bit) checksums.
+
+语法：
+
+`sha512sum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+用法：
+
+https://www.gnu.org/software/coreutils/sha512sum
+
+示例：
+
+```bash
+sha512sum --help
+```
 
 #### sort
 
@@ -1574,7 +1745,7 @@ https://phoenixnap.com/kb/linux-diff - *Linux diff Command {Syntax, Options and 
 
 `man -a diff`
 
-`diff -help`
+`diff --help`
 
 `diff -c [文件或目录1] [文件或目录2]` - *以上下文 (context) 模式比较差异*
 
@@ -2133,6 +2304,43 @@ https://invisible-island.net/ncurses/ - *NCURSES &ndash; New Curses*
 #### clear
 
 暂无
+
+### Perl
+
+简介：
+
+> Perl is a highly capable, feature-rich programming language with over 37 years of development.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Perl/perl5?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Perl/perl5?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Perl/perl5?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Perl/perl5?style=social)
+
+官方：
+
+https://github.com/Perl - *The Perl Programming Language · GitHub*
+
+https://www.perl.org/ - *The Perl Programming Language - www.perl.org*
+
+#### shasum
+
+简介：
+
+Print or check SHA checksums.
+
+语法：
+
+`shasum [OPTION]... [FILE]...`
+
+参数：
+
+`--help` - *display this help and exit*
+
+示例：
+
+```bash
+shasum --help
+```
 
 ### procps
 

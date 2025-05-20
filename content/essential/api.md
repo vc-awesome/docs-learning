@@ -98,7 +98,7 @@ API 安全
 
 #### HTTP
 
-暂无
+有关详细信息，请参阅“[HTTP](essential/network/http.md)”。
 
 ### 设计规范
 
@@ -130,56 +130,55 @@ API 安全
 
 2. https://www.kancloud.cn/momingsixiali/thinkphp-resturl-api/664273 - *PHP实战: 使用thinkphp5制作restful api · thinkphp-resturl-api · 看云*
 
-3. http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html - *RESTful API 最佳实践 - 阮一峰的网络日志*
 
-4. http://www.ruanyifeng.com/blog/2014/05/restful_api.html - *RESTful API 设计指南 - 阮一峰的网络日志*
+3. http://www.ruanyifeng.com/blog/2011/09/restful.html - *理解RESTful架构 - 阮一峰的网络日志*
+    1. http://www.ruanyifeng.com/blog/2014/05/restful_api.html - *RESTful API 设计指南 - 阮一峰的网络日志*
+    2. http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html - *RESTful API 最佳实践 - 阮一峰的网络日志*
 
-5. https://segmentfault.com/a/1190000019818569 - *url - RESTful API风格 - 前后端的那点小事 - SegmentFault 思否*
+4. https://segmentfault.com/a/1190000019818569 - *url - RESTful API风格 - 前后端的那点小事 - SegmentFault 思否*
 
-6. https://blog.csdn.net/shangrila_kun/article/details/89026968 - *REST服务和RESTful API是什么_api、rest服务-CSDN博客*
+5. https://blog.csdn.net/shangrila_kun/article/details/89026968 - *REST服务和RESTful API是什么_api、rest服务-CSDN博客*
 
-7. https://blog.csdn.net/laotianv5/article/details/81634997 - *什么是Restful API？_rsetfulapi-CSDN博客*
+6. https://blog.csdn.net/laotianv5/article/details/81634997 - *什么是Restful API？_rsetfulapi-CSDN博客*
 
-8. https://www.cnblogs.com/liwenzhou/p/9338256.html - *RESTful API介绍 - Q1mi - 博客园*
+7. https://www.cnblogs.com/liwenzhou/p/9338256.html - *RESTful API介绍 - Q1mi - 博客园*
 
-9. https://baijiahao.baidu.com/s?id=1634470186508003064 - *RESTful风格/RESTful Api/RESTful 架构？*
+8. https://baijiahao.baidu.com/s?id=1634470186508003064 - *RESTful风格/RESTful Api/RESTful 架构？*
 
-10. https://www.runoob.com/w3cnote/restful-architecture.html - *RESTful 架构详解 | 菜鸟教程*
+9. https://www.runoob.com/w3cnote/restful-architecture.html - *RESTful 架构详解 | 菜鸟教程*
 
-11.  https://gitee.com/liushoukun/restfulapi-tp5 - *liushoukun/restfulapi-tp5*
+10.  https://gitee.com/liushoukun/restfulapi-tp5 - *liushoukun/restfulapi-tp5*
 
-12. https://www.cnblogs.com/haima/p/9486733.html - *thinkphp5开发restful-api接口 学习笔记一 - HaimaBlog - 博客园*
+11. https://www.cnblogs.com/haima/p/9486733.html - *thinkphp5开发restful-api接口 学习笔记一 - HaimaBlog - 博客园*
 
-13. https://www.thinkphp.cn/extend/782.html - *ThinkPHP-RESTful API - ThinkPHP框架*
+12. https://www.thinkphp.cn/extend/782.html - *ThinkPHP-RESTful API - ThinkPHP框架*
 
-14. https://www.jianshu.com/p/5ada97c547b7 - *使用开放API获取网站数据——以豆瓣为例 - Yangjialin - 简书*
+13. https://www.jianshu.com/p/5ada97c547b7 - *使用开放API获取网站数据——以豆瓣为例 - Yangjialin - 简书*
 
-15. https://www.douban.com/group/topic/123746666/ - *REST服务和RESTful API是什么_api、rest服务-CSDN博客*
+14. https://www.douban.com/group/topic/123746666/ - *REST服务和RESTful API是什么_api、rest服务-CSDN博客*
 
-16. https://douban-api-docs.zce.me/book.html
+15. https://douban-api-docs.zce.me/book.html
 
-17. https://www.runoob.com/http/http-tutorial.html - *HTTP 教程 | 菜鸟教程*
-
-18. https://github.com/Leslin/thinkphp5-restfulapi - *GitHub - Leslin/thinkphp5-restfulapi: restful-api 风格接口 APP 接口 APP 接口权限 oauth2.0 接口版本管理 接口鉴权*
+16. https://github.com/Leslin/thinkphp5-restfulapi - *GitHub - Leslin/thinkphp5-restfulapi: restful-api 风格接口 APP 接口 APP 接口权限 oauth2.0 接口版本管理 接口鉴权*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Leslin/thinkphp5-restfulapi?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Leslin/thinkphp5-restfulapi?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Leslin/thinkphp5-restfulapi?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Leslin/thinkphp5-restfulapi?style=social)
 
-19. https://github.com/dotku/thinkphp-restful-api - *GitHub - dotku/thinkphp-restful-api: 还没有空去研究 ThinkPHP 5，自己写了一个基于 ThinkPHP 3.2 的 API*
+17. https://github.com/dotku/thinkphp-restful-api - *GitHub - dotku/thinkphp-restful-api: 还没有空去研究 ThinkPHP 5，自己写了一个基于 ThinkPHP 3.2 的 API*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/dotku/thinkphp-restful-api?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/dotku/thinkphp-restful-api?style=social)
 
-20. https://github.com/crifan/http_restful_api - *GitHub - crifan/http_restful_api: 整理 HTTP 后台端的 RESTful API 方面的知识*
+18. https://github.com/crifan/http_restful_api - *GitHub - crifan/http_restful_api: 整理 HTTP 后台端的 RESTful API 方面的知识*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/crifan/http_restful_api?logo=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/crifan/http_restful_api?style=social)
 
-21. https://docs.microsoft.com/zh-cn/onedrive/developer/rest-api/ - *通过 Microsoft Graph API 访问 OneDrive 和 SharePoint - OneDrive dev center | Microsoft Docs*
+19. https://docs.microsoft.com/zh-cn/onedrive/developer/rest-api/ - *通过 Microsoft Graph API 访问 OneDrive 和 SharePoint - OneDrive dev center | Microsoft Docs*
 
-22. https://github.com/microsoft/api-guidelines - *GitHub - microsoft/api-guidelines: Microsoft REST API Guidelines*
+20. https://github.com/microsoft/api-guidelines - *GitHub - microsoft/api-guidelines: Microsoft REST API Guidelines*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/microsoft/api-guidelines?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/api-guidelines?style=social)
@@ -250,7 +249,7 @@ https://apifox.com/help/auth/api-key - *什么是 API Key | Apifox 帮助文档*
 
 #### OAuth 2.0
 
-暂无
+有关详细信息，请参阅“[OAuth2.0](essential/security/identity.md#oauth2.0)”。
 
 ### 文档书写
 
@@ -516,6 +515,11 @@ json响应格式
     `/api/v1/member/delete`
 
     状态码：204
+
+
+#### 错误码
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/usability/PublicErrno.html - *调试 / Errno错误码*
 
 
 ### 接口加密

@@ -75,7 +75,7 @@ https://github.com/lvwzhen/tools - *GitHub - lvwzhen/tools: Tools Online*
 1. https://lzltool.cn/Tools/UrlParse - *URL分析器-URL Query String—LZL在线工具*
 
 2. https://tool.browser.qq.com/urlencode.html - *url编解码-帮小忙，工具箱平台*
-    - 示例：`document:///content://org.gnu.emacs/tree/%252Fdata%252Fuser%252F0%252Forg.gnu.emacs%252Ffiles?/`（需要解码两次才可以得到最终结果）
+    - 示例：<document:///content://org.gnu.emacs/tree/%252Fdata%252Fuser%252F0%252Forg.gnu.emacs%252Ffiles?/>（需要解码两次才可以得到最终结果）
 
 3. https://c.runoob.com/front-end/695/ - *URL 编码/解码 | 菜鸟工具*
 
@@ -191,14 +191,6 @@ A：要将 RGBA 颜色 `rgba(0, 150, 136, 0.9)` 转换为不透明的 HEX 颜色
 
    所以，最终的不透明 HEX 颜色是 `#00A194`。
 
-### 翻译网站
-
-1. https://hosted.weblate.org/ - *Hosted Weblate*
-
-2. https://explore.transifex.com/ - *Transifex Explore Projects*
-
-3. https://crowdin.com/ - *Localization Management Platform for agile teams | Crowdin*
-
 ### 变量名助手
 
 1. https://www.jyshare.com/front-end/9443/ - *程序员变量名助手 | 菜鸟工具*
@@ -250,6 +242,8 @@ A：要将 RGBA 颜色 `rgba(0, 150, 136, 0.9)` 转换为不透明的 HEX 颜色
 ### 图片压缩
 
 1. https://tinypng.com/ - _TinyPNG – Compress WebP, PNG and JPEG images intelligently_
+
+2. https://www.creativebloq.com/design/image-compression-tools-1132865 - *18 image compression tools tested | Creative Bloq* [Via](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Compression)
 
 ### Favicon
 
@@ -373,8 +367,6 @@ https://www.cloudflare-cn.com/learning/performance/test-the-speed-of-a-website/ 
 
 https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确的测试自己的网速？ - 小辣椒高效Office 的回答 - 知乎*
 
----
-
 1. https://10000.gd.cn/html5-speedtest/#/ - *宽带测速平台*
 
 2. https://librespeed.org/ - *LibreSpeed - Speed Test* [GitHub Repo](https://github.com/librespeed/speedtest)
@@ -401,3 +393,9 @@ https://www.zhihu.com/question/19763656/answer/2531097741 - *如何较为准确�
 ### 地图工具
 
 1. https://jingweidu.bmcx.com/ - *经纬度查询 - 坐标拾取系统*
+
+## 转换工具
+
+### 进制转换
+
+暂无

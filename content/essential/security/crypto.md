@@ -8,9 +8,19 @@
 
 > 不安全，可破解
 
-### SHA-1
+https://www.rfc-editor.org/info/rfc1321 - *Information on RFC 1321 » RFC Editor*
+
+### Hash
+
+https://csrc.nist.gov/pubs/fips/180-2/final - *FIPS 180-2, Secure Hash Standard (SHS) | CSRC*
+
+#### SHA-1
 
 > 不安全，可破解
+
+#### SHA-256
+
+暂无
 
 ### PHP 加密函数
 
@@ -242,6 +252,10 @@ class CryptoArray {
 ```
 
 参考：https://www.cnblogs.com/chenliuxiao/p/12482095.html - *PHP数组加密解密*
+
+## 加密工具
+
+暂无
 
 ## 参考
 

@@ -21,6 +21,17 @@
 - [x] 对比文件
 - [x] 对比目录
 
+工具列表：
+
+1. [colordiff](#colordiff)（推荐）
+2. [diff](#diff)
+3. [diff-so-fancy](#diff-so-fancy)
+4. [git diff](#git%20diff)
+5. [kdiff3](#kdiff3)
+6. [meld](#meld)
+7. [vimdiff](#vimdiff)
+8. [wdiff](#wdiff)
+
 ## Desktop & Mobile App
 
 ### colordiff
@@ -38,8 +49,29 @@ sudo apt install colordiff
 使用方法（直接用 `colordiff` 替代 `diff`）：
 
 ```bash
-colordiff -u file1 file2
+colordiff --help
 ```
+
+```bash
+diff --help
+```
+
+```bash
+colordiff -u FILE1 FILE2
+```
+
+```bash
+colordiff -u DIR1 DIR2
+```
+
+选项：
+
+1. `-u`, `-U NUM`, `--unified[=NUM]` - *output NUM (default 3) lines of unified context*
+2. `-r`, `--recursive` - *recursively compare any subdirectories found* （递归比较两个目录及其子目录中的文件）
+3. `-n`, `--rcs` - *output an RCS format diff*
+4. `-q`, `--brief` - *report only when files differ* （比较两个目录是否不同，而不关心具体的差异）
+5. `-s`, `--report-identical-files` - *report when two files are the same* （比较两个目录是否相同，而不关心具体的差异）
+6. `-x`, `--exclude=PAT` - *exclude files that match PAT*
 
 ### diff
 
@@ -47,7 +79,7 @@ colordiff -u file1 file2
 
 ### diff-so-fancy
 
-[GitHub - so-fancy/diff-so-fancy: Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada:](https://github.com/so-fancy/diff-so-fancy#start-of-content) - *Good-lookin&#39; diffs. Actually… nah… The best-lookin&#39; diffs. :tada: - so-fancy/diff-so-fancy*
+[GitHub - so-fancy/diff-so-fancy: Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada:](https://github.com/so-fancy/diff-so-fancy) - *Good-lookin&#39; diffs. Actually… nah… The best-lookin&#39; diffs. :tada: - so-fancy/diff-so-fancy*
 
 - _via https://www.ruanyifeng.com/blog/2022/01/cli-alternative-tools.html - *命令行常用工具的替代品 - 阮一峰的网络日志*_
 - *美化输出工具，Termux 暂不支持*
@@ -91,6 +123,10 @@ https://repology.org/project/meld/versions - *meld package versions - Repology*
 ### vimdiff
 
 [vimdiff](os/tools/developer/editor/vim.md#对比文件) - *Vimdiff starts Vim on two up to eight files.  Each file gets its own window.  The differences between the files are highlighted.  This is a nice way to inspect changes and to move changes from one version to another version of the same file.*
+
+### wdiff
+
+[Wdiff - GNU Project - Free Software Foundation](https://www.gnu.org/software/wdiff)
 
 ## Web app
 

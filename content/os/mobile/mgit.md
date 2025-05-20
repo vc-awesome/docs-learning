@@ -4,6 +4,7 @@
 
 > <img src="https://f-droid.org/assets/ic_repo_app_default_KNN008Z2K7VNPZOFLMTry3JkfFYPxVGDopS1iwWe5wo=.png" alt="package icon" align="left" width="58" hspace="10" vspace="0"> An open source Android Git client.
 
+![F-Droid Version](https://badgen.net/f-droid/v/com.manichord.mgit)
 ![GitHub last commit](https://img.shields.io/github/last-commit/maks/MGit?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/maks/MGit?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/maks/MGit?logo=github)

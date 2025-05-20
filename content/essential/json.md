@@ -21,41 +21,75 @@ https://www.runoob.com/json/json-tutorial.html - _JSON 教程 | 菜鸟教程_
 JSON 对象：
 
 ```javascript
-var obj = { name: 'xiao', age: 12 };
+const obj = { name: 'foo', age: 21 };
 ```
 
 JSON 数组：
 
 ```javascript
-var objArray = [
-  { name: 'xiao', age: 12 },
-  { name: 'xiao', age: 12 },
+const objArray = [
+  { name: 'foo', age: 21 },
+  { name: 'bar', age: 21 },
 ];
 ```
 
 JSON 字符串：
 
 ```javascript
-var jsonString = '{"name":"xiao","age":12}';
+const jsonString = '{"name": "foo", "age": 21}';
+```
+
+```javascript
+const jsonString = '[{"name": "foo", "age": 21}, {"name": "bar", "age": 21}]';
 ```
 
 类型转换：
 
 ```javascript
-// JSON 字符串—> JS 对象：
-obj = JSON.parse(jsonString);
-obj = jQuery.parseJSON(jsonString);
+// JSON 字符串转换为 JavaScript 对象
+const jsonString = '{"name": "foo", "age": 21}';
+const jsonObject = JSON.parse(jsonString);
+console.log(jsonObject);
+```
 
-// Note：传入畸形 JSON 字符串（例如：`{name:"xiao",age:12}`），会抛出异常；
-// JSON 字符串格式，严格格式：`{"name":"xiao","age":12}`
+错误处理：如果字符串不是有效的 JSON 格式，JSON.parse() 会抛出一个错误。可以使用 try...catch 来处理这种情况。
 
-// JS 对象 —> JSON 字符串：
-json_str = JSON.stringify(obj);
+```javascript
+const invalidJsonString = '{"name": "foo", "age": 21'; // 缺少右括号
+
+try {
+  const jsonObject = JSON.parse(invalidJsonString);
+  console.log(jsonObject);
+} catch (error) {
+  console.error('解析错误:', error.message); // 解析错误: Unexpected end of JSON input
+}
+```
+
+注意事项
+
+1. JSON 格式：确保字符串是有效的 JSON 格式。JSON 的键必须用双引号包围，字符串值也必须用双引号。
+   - 传入畸形 JSON 字符串（例如：`{name:"foo",age:21}`），会抛出异常
+   - JSON 字符串严格格式：`{"name":"foo","age":21}`
+
+```javascript
+// JavaScript 对象转换为 JSON 字符串
+const obj = { name: 'foo', age: 21 };
+const jsonString = JSON.stringify(obj);
+console.log(jsonString);
 ```
 
 参考：
 
 1. https://blog.csdn.net/cgj19960119/article/details/84987426 - _JS中json数据的处理*js json数据*不为人知的小小鸟的博客-CSDN博客_
+
+### jQuery
+
+```javascript
+// JSON 字符串转换为 JavaScript 数组
+const jsonString = '[{"name": "foo", "age": 21}, {"name": "bar", "age": 21}]';
+const jsonArray = jQuery.parseJSON(jsonString);
+console.log(jsonArray);
+```
 
 ## 常见问题
 

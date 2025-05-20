@@ -162,6 +162,24 @@ GitHub: https://github.com/jsdelivr/jsdelivr - *GitHub - jsdelivr/jsdelivr: A fr
 - GitHub- https://www.jsdelivr.com/?docs=gh
 - WordPress - https://www.jsdelivr.com/?docs=wp
 
+1. 在 URL 末尾附加 / 以查看包中所有文件的列表
+
+    例：https://cdn.jsdelivr.net/npm/prismjs/
+
+2. 获取最新版本
+
+    例：
+    1. https://cdn.jsdelivr.net/npm/prismjs@latest/prism.js
+    2. https://cdn.jsdelivr.net/npm/prismjs/prism.js
+
+3. 获取第 1 个版本的最新版本
+
+    例：https://cdn.jsdelivr.net/npm/prismjs@1/prism.js
+
+ 4. 获取第 0 个版本的默认文件
+
+    例：https://cdn.jsdelivr.net/npm/prismjs@0
+
 
 ### loli.net
 

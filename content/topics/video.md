@@ -7,8 +7,8 @@ http://hqyman.cn/post/2674.html - *下载视频(m3u8格式)的4种方法 (附教
 ## 视频播放
 
 - [应用列表](os/tools/app-list.md#音视频工具)
-- [Web 应用](os/tools/online.md#音视频播放器)
-- [Web 浏览器扩展](os/tools/browser-extensions.md#下载工具)
+- [Web 应用](os/tools/web-app.md#音视频播放器)
+- [Web 浏览器扩展](os/tools/browser/extensions/browser-extensions.md#下载工具)
 
 ## 视频剪辑
 

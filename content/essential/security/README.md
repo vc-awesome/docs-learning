@@ -30,3 +30,7 @@ https://mp.weixin.qq.com/s/FlImoxbQQpeH0rvl88kCSg - *零售电商类微信小程
 
 1. https://mp.weixin.qq.com/s/tlhUMrIIHA8l7Nk9xGDKiw - *只因写了一段爬虫，公司200多人被抓！*
 2. https://lawrefbook.github.io/ - *首页 | 中国法律快查手册*
+
+## 参考
+
+1. https://www.ruanyifeng.com/blog/2022/08/weekly-issue-219.html - *科技爱好者周刊（第 219 期）：如何防止帐号被黑 - 阮一峰的网络日志*

@@ -6,4 +6,4 @@
 * [项目开发遇到的问题](project/faq.md)
 * [奖励制度](project/bounty.md)
 * [注意事项](project/warning.md)
-* [安全措施](project/security.md)
+* [安全措施](essential/security/README.md)

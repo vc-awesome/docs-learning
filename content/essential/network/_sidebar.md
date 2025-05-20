@@ -5,6 +5,6 @@
 - [dns](essential/network/dns.md)
 - [vpn](essential/network/vpn.md)
 - [http](essential/network/http.md)
-- [cross-domain](essential/network/cross-domain.md)
+- [cors](essential/network/cors.md)
 - [hosting](essential/network/hosting.md)
 - [cdn](essential/network/cdn.md)

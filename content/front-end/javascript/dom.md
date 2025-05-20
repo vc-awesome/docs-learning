@@ -12,9 +12,37 @@
 
 3. https://developer.mozilla.org/zh-CN/docs/Web/API/Document_Object_Model - *文档对象模型 (DOM) - Web API 接口参考 | MDN*
 
+## 入门指南
+
+### Node 接口
+
+### NodeList 接口，HTMLCollection 接口
+
+#### HTMLCollection
+
+https://www.runoob.com/jsref/dom-htmlcollection.html - *DOM HTMLCollection | 菜鸟教程*
+
+#### NodeList
+
+https://www.runoob.com/js/js-htmldom-nodelist.html - *JavaScript HTML DOM 节点列表 | 菜鸟教程*
+
+### ParentNode 接口，ChildNode 接口
+
+### Document 节点
+
+### Element 节点
+
+### 属性的操作
+
+### Text 节点和 DocumentFragment 节点
+
+### CSS 操作
+
+### Mutation Observer API
+
 ## 用法
 
-### 查找 HTML 元素
+### 获取 HTML 元素
 
 ```javascript
 document.getElementById();
@@ -28,125 +56,15 @@ document.getElementsByTagName();
 document.getElementsByClassName();
 ```
 
-#### querySelector()
+#### querySelector(),querySelectorAll()
 
 ```javascript
 document.querySelector();
 ```
 
-### 改变 HTML
-
-- 改变 HTML 输出流
-  
-  ```javascript
-  document.write();
-  ```
-
-- 改变 HTML 内容
-  
-  语法：
-
-  ```javascript
-  document.getElementById(id).innerHTML = 新的 HTML
-  ```
-
-- 改变 HTML 属性
-  
-  语法：
-
-  ```javascript
-  document.getElementById(id).attribute = 新属性值
-  ```
-
-  实例：
-
-  ```javascript
-  document.getElementById("image").src = "landscape.jpg";`
-  ```
-
-### 获取 CSS
-
-语法：
-
 ```javascript
-window.getComputedStyle("元素", "伪类");
+document.querySelectorAll();
 ```
-
-实例：
-
-```javascript
-var test = document.getElementById("test"),
-    demo = window.getComputedStyle(test, null); 
-
-// 获取节点的 color
-
-demo.color
-```
-
-参考：
-
-1. https://m.jb51.net/article/89961.htm - *原生js获取元素样式的简单方法_javascript技巧_脚本之家*
-2. https://www.baidu.com/s?word=Js查看元素样式 - *Js查看元素样式 - 百度*
-
-### 改变 CSS
-
-#### 通过 style 属性改变
-
-https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 菜鸟教程*
-
-- 改变 HTML 样式
-
-  语法：
-
-  ```javascript
-  document.getElementById(id).style.property = 新样式
-  ```
-  
-  实例：
-
-  ```javascript
-  document.getElementById("p2").style.color = "blue";
-  ```
-
-- 移除样式
-
-  语法：
-
-  ```javascript
-  element.removeAttribute(attributename)
-  ```
-
-  实例：
-
-  ```javascript
-  document.getElementsByTagName("H1")[0].removeAttribute("style");
-  ```
-
-#### 通过 class 属性改变
-
-https://www.runoob.com/jsref/prop-element-classList.html - *HTML DOM classList 属性 | 菜鸟教程*
-
-语法：
-
-`element.classList.add(class1, class2, ...);` 在元素中添加一个或多个类名。
-
-`element.classList.contains(class);` 返回布尔值，判断指定的类名是否存在。
-
-`element.classList.item(index);` 返回元素中索引值对应的类名。索引值从 0 开始。
-
-`element.classList.remove(class1, class2, ...);` 移除元素中一个或多个类名。
-
-`element.classList.toggle(class, true|false);` 在元素中切换类名。
-
-实例：
-
-  ```javascript
-  document.querySelector('body').classList.toggle('close');
-  ```
-
-  *👆 给 body 标签新增 close 类。*
-
-⚠️ 具体用法点击上方链接进入页面查看。
 
 ### 获取元素内容
 
@@ -159,6 +77,8 @@ document.getElementById("intro").childNodes[0].nodeValue;
 ```
 
 ### 获取元素宽高
+
+暂无
 
 ### 创建 HTML 元素
 
@@ -192,37 +112,159 @@ https://www.runoob.com/js/js-htmldom-elements.html - *JavaScript HTML DOM 元素
   element.replaceChild(new_element, old_element);
   ```
 
+### 改变 HTML
+
+- 改变 HTML 输出流
+  
+  ```javascript
+  document.write();
+  ```
+
+- 改变 HTML 内容
+  
+  语法：
+
+  ```javascript
+  document.getElementById(id).innerHTML = 新的 HTML
+  ```
+
+- 改变 HTML 属性
+  
+  语法：
+
+  ```javascript
+  document.getElementById(id).attribute = 新属性值
+  ```
+
+  实例：
+
+  ```javascript
+  document.getElementById("image").src = "landscape.jpg";
+  ```
+
+### 获取 CSS
+
+语法：
+
+```javascript
+window.getComputedStyle("元素", "伪类");
+```
+
+实例：
+
+```javascript
+var test = document.getElementById("test"),
+    demo = window.getComputedStyle(test, null); 
+
+// 获取节点的 color
+
+demo.color
+```
+
+参考：
+
+1. https://m.jb51.net/article/89961.htm - *原生js获取元素样式的简单方法_javascript技巧_脚本之家*
+2. https://www.baidu.com/s?word=Js查看元素样式 - *Js查看元素样式 - 百度*
+
+### 改变 CSS
+
+#### 通过 style 属性
+
+https://www.runoob.com/jsref/prop-element-style.html - *HTML DOM style 属性 | 菜鸟教程*
+
+- 改变 HTML 样式
+
+  语法：
+
+  ```javascript
+  document.getElementById(id).style.property = 新样式
+  ```
+  
+  实例：
+
+  ```javascript
+  document.getElementById("p2").style.color = "blue";
+  ```
+
+- 移除样式
+
+  语法：
+
+  ```javascript
+  element.removeAttribute(attributename)
+  ```
+
+  实例：
+
+  ```javascript
+  document.getElementsByTagName("H1")[0].removeAttribute("style");
+  ```
+
+#### 通过 class 属性
+
+https://www.runoob.com/jsref/prop-element-classList.html - *HTML DOM classList 属性 | 菜鸟教程*
+
+语法：
+
+`element.classList.add(class1, class2, ...);` 在元素中添加一个或多个类名。
+
+`element.classList.contains(class);` 返回布尔值，判断指定的类名是否存在。
+
+`element.classList.item(index);` 返回元素中索引值对应的类名。索引值从 0 开始。
+
+`element.classList.remove(class1, class2, ...);` 移除元素中一个或多个类名。
+
+`element.classList.toggle(class, true|false);` 在元素中切换类名。
+
+实例：
+
+  ```javascript
+  document.querySelector('body').classList.toggle('close');
+  ```
+
+  *👆 给 body 标签新增 close 类。*
+
+⚠️ 具体用法点击上方链接进入页面查看。
+
+### 监听 DOM 变化
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver - *MutationObserver - Web API 接口参考 | MDN*
+
+https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的MutationObserver - 个人文章 - SegmentFault 思否*
+
+## 事件
+
 ### HTML DOM 事件
 
 https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events - *事件介绍 - 学习 Web 开发 | MDN*
 
 - 3 种方式
 
-  - 方式 1 ：HTML 事件属性
+    - 方式 1 ：HTML 事件属性
 
-    ```html
-    <button onclick="this.innerHTML='Ooops!'">点击</button>
-    ```
+        ```html
+        <button onclick="this.innerHTML='Ooops!'">点击</button>
+        ```
 
     - 方式 2 ：使用 HTML DOM 来分配事件
 
-      ```javascript
-      <script>
-        document.getElementById("myBtn").onclick = function(){
-          displayDate();
-        };
-      </script>
-      ```
+        ```javascript
+        <script>
+          document.getElementById("myBtn").onclick = function(){
+            displayDate();
+          };
+        </script>
+        ```
 
     - 方式 3 ：使用 [EventListener](#EventListener) 来监听事件
 
-      ```javascript
-      <script>
-        document.getElementById("myBtn").addEventListener("click", function(){
-          displayDate();
-        });
-      </script>
-      ```
+        ```javascript
+        <script>
+          document.getElementById("myBtn").addEventListener("click", function(){
+            displayDate();
+          });
+        </script>
+        ```
 
 - 事件
 
@@ -276,11 +318,15 @@ https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events
 
     \> 以上代码会执行一次（执行最新添加的 someOtherFunction 点击事件）。
 
+#### 事件传播
+
+暂无
+
 #### 事件委托
 
 https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript/Building_blocks/Events#事件委托 - *事件介绍 - 学习 Web 开发 | MDN*
 
-### EventListener
+### EventTarget
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener#options - *EventTarget.addEventListener() - Web API 接口参考 | MDN*
 
@@ -298,6 +344,8 @@ element.addEventListener(event, function, useCapture);
 element.removeEventListener(event, function, useCapture);
 ```
 
+### 事件列表
+
 #### DOMContentLoaded 事件
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/Document/DOMContentLoaded_event - *Document: DOMContentLoaded 事件 - Web API 接口参考 | MDN*
@@ -305,12 +353,6 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/Document/DOMContentLoaded_event
 #### onhashchange 事件
 
 https://www.wenmayi.com/post/607.html - *用JS实现监听URL地址变化的教程 - 文蚂蚁*
-
-### 监听 DOM 变化
-
-https://developer.mozilla.org/zh-CN/docs/Web/API/MutationObserver - *MutationObserver - Web API 接口参考 | MDN*
-
-https://segmentfault.com/a/1190000012787829 - *javascript - 了解HTML5中的MutationObserver - 个人文章 - SegmentFault 思否*
 
 ## 对象
 
@@ -334,7 +376,7 @@ https://www.runoob.com/jsref/dom-obj-document.html - *HTML DOM Document 对象 |
 
 6. [Element.querySelectorAll()](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/querySelectorAll) - *返回一个 non-live 的 [NodeList](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/NodeList), 它包含所有元素的非活动节点，该元素来自与其匹配指定的 CSS 选择器组的元素。(基础元素本身不包括，即使它匹配。)*
 
-### 元素（Element）对象
+### Element 对象
 
 https://www.runoob.com/jsref/dom-obj-all.html - *HTML DOM 元素对象 | 菜鸟教程*
 
@@ -373,14 +415,6 @@ https://www.runoob.com/jsref/obj-console.html - *Console 对象 | 菜鸟教程*
 ### CSS 样式声明对象(CSSStyleDeclaration)
 
 https://www.runoob.com/jsref/obj-cssstyledeclaration.html - *CSS 样式声明对象(CSSStyleDeclaration) | 菜鸟教程*
-
-### DOM HTMLCollection
-
-https://www.runoob.com/jsref/dom-htmlcollection.html - *DOM HTMLCollection | 菜鸟教程*
-
-### DOM NodeList
-
-https://www.runoob.com/js/js-htmldom-nodelist.html - *JavaScript HTML DOM 节点列表 | 菜鸟教程*
 
 ## 优化
 

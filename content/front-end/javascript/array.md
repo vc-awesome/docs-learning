@@ -7,15 +7,18 @@ https://wangdoc.com/javascript/stdlib/array - *Array 对象 - JavaScript 教程 
 https://wangdoc.com/es6/array - *数组的扩展 - ES6 教程 - 网道*
 
 - 声明（定义）
+    - var arr = ['a', 'b', 'c'];
 - 读取
     - arr[0]
 - 赋值
     - arr[0] = a
 - 多维数组
+    - var a = [[1, 2], [3, 4]];
 - 判断
-    - typeof var
-    - var instanceof Array
-- 是否存在
+    - typeof arr // "object"
+    - Array.isArray(arr)
+    - arr instanceof Array
+- 是否存在键名
     - in 运算符
 - 遍历
     - for...in 循环
@@ -24,7 +27,10 @@ https://wangdoc.com/es6/array - *数组的扩展 - ES6 教程 - 网道*
     - 数组的 forEach 方法
 - 删除数组成员
     - delete 命令
-- 类似数组的对象 - arrayLike
+- 清空数组
+    - arr.length = 0
+- 类似数组的对象 - array-like object
+    - var obj = { 0: 'a', 1: 'b', 2: 'c', length: 3 };
 
 ## 构造函数
 
@@ -36,7 +42,7 @@ https://wangdoc.com/es6/array - *数组的扩展 - ES6 教程 - 网道*
 
 ## 静态方法
 
-Array.isArray()
+1. Array.isArray()
 
 ## 实例属性
 
@@ -44,21 +50,21 @@ Array.isArray()
 
 ## 实例方法
 
-valueOf()，toString()
+1. valueOf()，toString()
 
-push()，pop()
+2. push()，pop()
 
-shift()，unshift()
+3. shift()，unshift()
 
-join()
+4. join()
 
-concat()
+5. concat()
 
-reverse()
+6. reverse()
 
-slice()
+7. slice()
 
-splice()
+8. splice()
 
 ### sort()
 

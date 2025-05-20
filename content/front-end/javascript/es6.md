@@ -47,7 +47,7 @@ https://wangdoc.com/es6/function - *函数的扩展 - ES6 教程 - 网道*
 
 <https://wangdoc.com/es6/function#箭头函数> - *函数的扩展 - ES6 教程 - 网道*
 
-### 扩展运算符（`...`）
+### 扩展运算符（...）
 
 - 数组扩展运算符
 

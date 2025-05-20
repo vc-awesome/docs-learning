@@ -25,6 +25,12 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 > 📢 软件功能优先查看官方文档。
 
 1. https://www.markdownguide.org/tools/ - *Tools | Markdown Guide*
+    1. https://www.markdownguide.org/tools/docsify/ - *Docsify Markdown Reference | Markdown Guide*
+    2. https://www.markdownguide.org/tools/github-pages/ - *GitHub Pages Markdown Reference | Markdown Guide*
+    3. https://www.markdownguide.org/tools/obsidian/ - *Obsidian Markdown Reference | Markdown Guide*
+    4. https://www.markdownguide.org/tools/todoist/ - *Todoist Markdown Reference | Markdown Guide*
+    5. https://www.markdownguide.org/tools/typora/ - *Typora Markdown Reference | Markdown Guide*
+    6. https://www.markdownguide.org/tools/vscode/ - *VS Code Markdown Reference | Markdown Guide*
 
 2. https://github.com/topics/markdown-editor - *markdown-editor · GitHub Topics · GitHub*
 
@@ -48,31 +54,60 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
     ![GitHub last commit](https://badgen.net/github/last-commit/Tencent/cherry-markdown?icon=github&color=blue)
 
-6. ~~[MdEditor](http://www.mdeditor.com/)~~
-
 应用编辑器：
 
-1. [Typora](os/tools/app-list#markdown-Typora) （桌面客户端）
+1. [Typora](os/tools/app-list.md#markdown-Typora) （桌面客户端）
 
-2. [Markor](os/mobile/mobile-app-list.md#markor) （移动客户端）
+2. [Markor](os/mobile/app-list.md#markor) （移动客户端）
 
-有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app-list.md#markdown-工具)”。
+3. 有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app-list.md#markdown)”。
 
-规范：
+站点生成器：
 
-1. https://commonmark.org/ - *CommonMark* [GitHub Org](https://github.com/commonmark)
+1. [docsify](project/framework/docsify.md)
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/commonmark/commonmark-spec?icon=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/commonmark/commonmark-spec?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/commonmark/commonmark-spec?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/commonmark/commonmark-spec?style=social)
+转换器：
 
-2. https://github.com/markdown-it/markdown-it - *GitHub - markdown-it/markdown-it: Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed*
+1. [Markdownr](os/mobile/app-list.md#markdownr) （移动客户端）
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/markdown-it/markdown-it?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/markdown-it/markdown-it?style=social)
+2. [MarkDownload - Markdown Web Clipper](os/tools/browser/extensions/browser-extensions.md#markdown) （浏览器扩展）
 
-## 主题
+Markdown Support：
+
+GitHub Pages provides support for the following Markdown elements.
+
+| Element | Support | Notes |
+| --- | --- | --- |
+| [Headings](https://www.markdownguide.org/basic-syntax/#headings) | Yes |  |
+| [Paragraphs](https://www.markdownguide.org/basic-syntax/#paragraphs-1) | Yes |  |
+| [Line Breaks](https://www.markdownguide.org/basic-syntax/#line-breaks) | Yes |  |
+| [Bold](https://www.markdownguide.org/basic-syntax/#bold) | Yes |  |
+| [Italic](https://www.markdownguide.org/basic-syntax/#italic) | Yes |  |
+| [Blockquotes](https://www.markdownguide.org/basic-syntax/#blockquotes-1) | Yes |  |
+| [Ordered Lists](https://www.markdownguide.org/basic-syntax/#ordered-lists) | Yes |  |
+| [Unordered Lists](https://www.markdownguide.org/basic-syntax/#unordered-lists) | Yes |  |
+| [Code](https://www.markdownguide.org/basic-syntax/#code) | Yes |  |
+| [Horizontal Rules](https://www.markdownguide.org/basic-syntax/#horizontal-rules) | Yes |  |
+| [Links](https://www.markdownguide.org/basic-syntax/#links) | Yes |  |
+| [Images](https://www.markdownguide.org/basic-syntax/#images-1) | Yes |  |
+| [Tables](https://www.markdownguide.org/extended-syntax/#tables) | Yes |  |
+| [Fenced Code Blocks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks) | Yes |  |
+| [Syntax Highlighting](https://www.markdownguide.org/extended-syntax/#syntax-highlighting) | Yes | Make sure that `syntax_highlighter: rouge` is in the `kramdown` section of the `_config.yml` file. |
+| [Footnotes](https://www.markdownguide.org/extended-syntax/#footnotes) | Yes |  |
+| [Heading IDs](https://www.markdownguide.org/extended-syntax/#heading-ids) | Yes |  |
+| [Definition Lists](https://www.markdownguide.org/extended-syntax/#definition-lists) | Yes |  |
+| [Strikethrough](https://www.markdownguide.org/extended-syntax/#strikethrough) | Yes | You can use two tildes (`~~word~~`) or one tilde (`~word~`) — both work. |
+| [Task Lists](https://www.markdownguide.org/extended-syntax/#task-lists) | Yes |  |
+| [Emoji (copy and paste)](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji) | Unknown |  |
+| [Emoji (shortcodes)](https://www.markdownguide.org/extended-syntax/#using-emoji-shortcodes) | Unknown |  |
+| [Highlight](https://www.markdownguide.org/extended-syntax/#highlight) | No |  |
+| [Subscript](https://www.markdownguide.org/extended-syntax/#subscript) | No |  |
+| [Superscript](https://www.markdownguide.org/extended-syntax/#superscript) | No |  |
+| [Automatic URL Linking](https://www.markdownguide.org/extended-syntax/#automatic-url-linking) | Yes |  |
+| [Disabling Automatic URL Linking](https://www.markdownguide.org/extended-syntax/#disabling-automatic-url-linking) | Yes |  |
+| [HTML](https://www.markdownguide.org/basic-syntax/#html) | Yes |  |
+
+### 主题
 
 1. https://sspai.com/post/43873 - *简单又好看，你的 Markdown 文稿也能加上个性化主题 - 少数派*
 
@@ -90,18 +125,26 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
 ## 教程
 
+官方：
+
+1. https://daringfireball.net/projects/markdown/ - *Daring Fireball: Markdown*
+
+速查表：
+
+1. https://wangchujiang.com/reference/docs/markdown.html - *Markdown 备忘清单 & markdown cheatsheet & Quick Reference*
+
 指南：
 
 1. https://www.markdownguide.org/ - *Markdown Guide* [GitHub Repo](https://github.com/mattcone/markdown-guide)
     ![GitHub last commit](https://badgen.net/github/last-commit/mattcone/markdown-guide?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/mattcone/markdown-guide?style=social)
-2. https://www.markdown.xyz/ - *Markdown 指南中文版*
-3. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
+    - https://www.markdown.xyz/ - *Markdown 指南中文版*
+2. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
     ![GitHub last commit](https://badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
-4. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
-5. https://developer.mozilla.org/zh-CN/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN - *如何使用 Markdown 来撰写文档 - MDN Web 文档项目 | MDN*
-6. https://markdown.com.cn/ - *Markdown 官方教程*
-7. https://www.markdowntutorial.com/zh-cn/ - *Markdown Tutorial*
+3. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
+4. https://developer.mozilla.org/zh-CN/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN - *如何使用 Markdown 来撰写文档 - MDN Web 文档项目 | MDN*
+5. https://markdown.com.cn/ - *Markdown 官方教程*
+6. https://www.markdowntutorial.com/zh-cn/ - *Markdown Tutorial*
 
 博文：
 
@@ -110,47 +153,118 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 3. https://www.jianshu.com/p/b30955885e6d - *Typora Markdown 手册*
 4. https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
 
-## 基本语法
+### 规范
 
-### 空格与换行
+1. https://commonmark.org/ - *CommonMark* [GitHub Org](https://github.com/commonmark)
 
-<!-- tabs:start -->
+    ![GitHub last commit](https://badgen.net/github/last-commit/commonmark/commonmark-spec?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/commonmark/commonmark-spec?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/commonmark/commonmark-spec?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/commonmark/commonmark-spec?style=social)
 
-#### **空格**
+2. https://github.github.com/gfm/ - *GitHub Flavored Markdown Spec*
+
+## 基础语法
+
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+https://www.markdownguide.org/cheat-sheet/#basic-syntax - *Markdown Cheat Sheet | Markdown Guide*
+
+https://www.markdownguide.org/basic-syntax/ - *Basic Syntax | Markdown Guide*
+
+Element
+
+- [标题 Heading](#标题)
+- [粗体 Bold](#段落元素)
+- [斜体 Italic](#段落元素)
+- [块引用 Blockquote](#块引用)
+- [有序列表 Ordered List](#列表)
+- [无序列表 Unordered List](#列表)
+- [代码 Code](#代码和代码块)
+- [代码块 Code Block](#代码块)
+- [水平线 Horizontal Rule](#水平分隔线)
+- [链接 Link](#链接)
+- [图像 Image](#图片)
+- [换行 Line Break](#换行)
+- [段落 Paragraph](#换段)
+
+### 标题
+
+```markdown
+# Heading level 1
+## Heading level 2
+### Heading level 3
+#### Heading level 4
+##### Heading level 5
+###### Heading level 6
+```
+
+```markdown
+Heading level 1
+==
+
+Heading level2
+--
+```
+
+### 空格
 
 在输入连续的空格后，Typora 会在编辑器视图里为你保留这些空格，但当你打印或导出时，这些空格会被省略成一个。
 
 你可以在源代码模式下，为每个空格前加一个 `\` 转义符，或者直接使用 HTML 风格的 `&nbsp;` 来保持连续的空格。
 
-#### **软换行**
+### 换行
+
+https://www.markdownguide.org/basic-syntax/#line-breaks - *Basic Syntax | Markdown Guide*
+
+#### 软换行
 
 用法：使用键盘快捷键 <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
 需要说明的是，在 Markdown 语法中，换行（line break）与换段是不同的。且换行分为软换行和硬换行。
 
-在 Typora 中，你可以通过 `Shift + Enter` 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
+在 Typora 中，你可以通过 <kbd>Shift</kbd> + <kbd>Enter</kbd> 完成一次软换行。软换行只在编辑界面可见，当文档被导出时换行会被省略。
 
-#### **硬换行**
+```markdown
+This is the first line.
+And this is the second line.
+```
+
+#### 硬换行
 
 用法：使用键盘快捷键 <kbd>空格</kbd> + <kbd>空格</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
-你可以通过 `空格 + 空格 + Shift + Enter` 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
+你可以通过 <kbd>空格</kbd> + <kbd>空格</kbd> + <kbd>Shift</kbd> + <kbd>Enter</kbd> 完成一次硬换行，而这也是许多 Markdown 编辑器所原生支持的。硬换行在文档被导出时将被保留，且没有换段的段后距。
 
-#### **换段**
+```markdown
+First line with two spaces after.  
+And the next line.
+
+First line with the HTML tag after.<br>
+And the next line.
+```
+
+### 换段
+
+https://www.markdownguide.org/basic-syntax/#paragraphs-1 - *Basic Syntax | Markdown Guide*
 
 - <kbd>Enter</kbd>
 
-  你可以通过 `Enter` 完成一次换段。Typora 会自动帮你完成两次 `Shift + Enter` 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
+  你可以通过 <kbd>Enter</kbd> 完成一次换段。Typora 会自动帮你完成两次 <kbd>Shift</kbd> + <kbd>Enter</kbd> 的软换行，从而完成一次换段。这也意味着在 Markdown 语法下，换段是通过在段与段之间加入空行来实现的。
 
 - 换段
 
   连续两次 <kbd>Shift</kbd> + <kbd>Enter</kbd>
 
-<!-- tabs:end -->
+```markdown
+I really like using Markdown.
+
+I think I'll use it to format all of my documents from now on.
+```
 
 **Windows 风格（CR+LF）与 Unix 风格（CR）的换行符：**
 
-因为 CR 表示回车 `\r` ，即回到一行的开头，而 LF 表示换行 `\n` ，即另起一行，所以 Windows 风格的换行符本质是「回车 + 换行」，而 Unix 风格的换行符是「换行」。这也是为什么 Unix / Mac 系统下的文件，在 Windows 系统直接打开会全部在同一行内。 你可以在 Typora 的 `文件 - 偏好设置 - 编辑器 - 默认换行符` 设置中对此进行切换。
+因为 CR 表示回车 `\r` ，即回到一行的开头，而 LF 表示换行 `\n` ，即另起一行，所以 Windows 风格的换行符本质是「回车 + 换行」，而 Unix 风格的换行符是「换行」。这也是为什么 Unix / Mac 系统下的文件，在 Windows 系统直接打开会全部在同一行内。 你可以在 Typora 的 `文件 > 偏好设置 > 编辑器 > 默认换行符` 设置中对此进行切换。
 
 ### 链接
 
@@ -229,7 +343,7 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 目前已知 3 种引用方式：
 
-- 方式 1、本地路径：`*.jpeg`
+- 方式 1、本地路径：`**/*.jpeg`
 - 方式 2、URL：`https://*`
 - 方式 3、图片 Base64 编码：`data:URL`
 
@@ -293,6 +407,32 @@ My favorite search engine is *[Duck Duck Go](https://duckduckgo.com)*.
 
 <!-- tabs:end -->
 
+### 块引用
+
+To create a blockquote, add a > in front of a paragraph.
+
+```markdown
+> Dorothy followed her through many of the beautiful rooms in her castle.
+```
+
+The rendered output looks like this:
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+<!-- tabs:start -->
+
+#### **Rendered**
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+
+#### **Markdown**
+
+```markdown
+> Dorothy followed her through many of the beautiful rooms in her castle.
+```
+
+<!-- tabs:end -->
+
 ### 段落元素
 
 <!-- tabs:start -->
@@ -329,7 +469,7 @@ _this text is surrounded by literal asterisks_
 
 <!-- tabs:end -->
 
-#### 代码 / 代码块
+#### 代码和代码块
 
 <!-- tabs:start -->
 
@@ -402,8 +542,8 @@ Use the `printf()` function.
 
 *语法高亮：*
 
-> - 语法语言  
->   命令行语言：`sh`、`shell`、`bash`、`powershell`
+> [语法语言](project/framework/prism.md#支持的语言)：  
+> 1. 命令行语言：`sh`、`shell`、`bash`、`powershell`
 
 ~~~markdown
 ```json
@@ -584,6 +724,27 @@ ___
 
 要显示原本用于格式化 Markdown 文档的字符，请在字符前面添加反斜杠字符 (`\`) 。
 
+https://www.markdownguide.org/basic-syntax/#characters-you-can-escape - *Basic Syntax | Markdown Guide*
+
+You can use a backslash to escape the following characters.
+
+| Character | Name |
+| --- | --- |
+| \ | backslash |
+| ` | backtick (see also [escaping backticks in code](https://www.markdownguide.org/extended-syntax/#escaping-backticks)) |
+| * | asterisk |
+| _ | underscore |
+| { } | curly braces |
+| \[ \] | brackets |
+| < > | angle brackets |
+| ( ) | parentheses |
+| # | pound sign |
+| + | plus sign |
+| - | minus sign (hyphen) |
+| . | dot |
+| ! | exclamation mark |
+| \| | pipe (see also [escaping pipe in tables](https://www.markdownguide.org/extended-syntax/#escaping-pipe-characters-in-tables)) |
+
 <!-- tabs:start -->
 
 #### **Rendered**
@@ -599,6 +760,29 @@ ___
 <!-- tabs:end -->
 
 ## 扩展语法
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+https://www.markdownguide.org/cheat-sheet/#extended-syntax - *Markdown Cheat Sheet | Markdown Guide*
+
+https://www.markdownguide.org/extended-syntax/ - *Extended Syntax | Markdown Guide*
+
+Element：
+
+- [表格 Table](#表格)
+- [围栏代码块 Fenced Code Block](#代码和代码块)
+- [语法高亮 Syntax Highlighting](#代码和代码块)
+- [脚注 Footnote](#脚注)
+- [标题 ID Heading ID](#自定义标题的-id)
+- [定义列表 Definition List](#定义列表)
+- [删除线 Strikethrough](#段落元素)
+- [任务列表 Task List](#列表)
+- [Emoji](#emoji-表情)
+- [高亮 Highlight](#高亮)
+- [上标 Subscript](#上标)
+- [下标 Superscript](#下标)
+- [自动 URL 链接 Automatic URL Linking](#自动将-url-转换为链接)
+- [禁用自动 URL 链接 Disabling Automatic URL Linking](#禁止自动将-url-转换为链接)
 
 ### 目录
 
@@ -1126,3 +1310,15 @@ Typora-root-url: image
 ```
 
 🪜 [*Typora-root-url* 用法](https://support.Typora.io/Markdown-Reference/#images)
+
+## Hacks
+
+https://www.markdownguide.org/hacks/ - *Hacks | Markdown Guide*
+
+Element：
+
+- [下划线 Underline](#underline)
+
+### Underline
+
+暂无

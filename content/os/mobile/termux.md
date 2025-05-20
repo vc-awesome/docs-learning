@@ -19,12 +19,53 @@ Website：https://termux.dev/ - *Termux | The main termux site and help pages.* 
 
 GitHub：https://github.com/termux - *Android terminal emulator and Linux environment.*
 
+1. https://github.com/termux/termux-app - *GitHub - termux/termux-app: Termux - a terminal emulator application for Android OS extendible by variety of packages.*
+2. https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A package build system for Termux.*
+3. https://github.com/termux/termux.github.io - *GitHub - termux/termux.github.io: The main termux site and help pages.*
+4. https://github.com/termux/termux-tools - *GitHub - termux/termux-tools: Scripts and small programs that are packaged into termux's termux-tools package*
+
 
 ## Tutorial
 
 ### Official
 
+- Introduction
+    - [Getting started](https://wiki.termux.com/wiki/Getting_started)
+    - [User Interface](https://wiki.termux.com/wiki/User_Interface)
+    - [Terminal Settings](https://wiki.termux.com/wiki/Terminal_Settings)
+    - [Software](https://wiki.termux.com/wiki/Software)
+        - [Development Environments](https://wiki.termux.com/wiki/Development_Environments)
+        - [Differences from Linux](https://wiki.termux.com/wiki/Differences_from_Linux)
+        - [Editors](https://wiki.termux.com/wiki/Editors)
+        - [Graphical Environment](https://wiki.termux.com/wiki/Graphical_Environment)
+        - [Intents and Hooks](https://wiki.termux.com/wiki/Intents_and_Hooks)
+        - [Package Management](https://wiki.termux.com/wiki/Package_Management)
+        - [Package Tips](https://wiki.termux.com/wiki/Package_Tips)
+        - [Remote Access](https://wiki.termux.com/wiki/Remote_Access)
+        - [Sharing Data](https://wiki.termux.com/wiki/Sharing_Data)
+        - [Shells](https://wiki.termux.com/wiki/Shells)
+    - [Hardware](https://wiki.termux.com/wiki/Hardware)
+        - [Hardware Keyboard](https://wiki.termux.com/wiki/Hardware_Keyboard)
+        - [Hardware Mouse](https://wiki.termux.com/wiki/Hardware_Mouse)
+        - [Internal and External Storage](https://wiki.termux.com/wiki/Internal_and_external_storage)
+    - [FAQ](https://wiki.termux.com/wiki/FAQ)
+- [Installation](https://wiki.termux.com/wiki/Installation)
+- Addons
+    - [Termux:API](https://wiki.termux.com/wiki/Termux:API)
+    - [Termux:Boot](https://wiki.termux.com/wiki/Termux:Boot)
+    - [Termux:Float](https://wiki.termux.com/wiki/Termux:Float)
+    - [Termux:Styling](https://wiki.termux.com/wiki/Termux:Styling)
+    - [Termux:Tasker](https://wiki.termux.com/wiki/Termux:Tasker)
+    - [Termux:Widget](https://wiki.termux.com/wiki/Termux:Widget)
+- Community
+    - [Community - Termux Wiki](https://wiki.termux.com/wiki/Community)
+    - [Hacking - Termux Wiki](https://wiki.termux.com/wiki/Hacking)
+
+Wikis:
+
 1. https://wiki.termux.com/wiki/ - *Termux Wiki*
+2. https://github.com/termux/termux-app/wiki - *Home · termux/termux-app Wiki · GitHub*
+3. https://github.com/termux/termux-packages/wiki - *Home · termux/termux-packages Wiki · GitHub*
 
 
 ### Third-party
@@ -37,10 +78,11 @@ GitHub：https://github.com/termux - *Android terminal emulator and Linux enviro
 
 ### Community
 
-1. https://www.termuxcommands.com/ - *Termux Commands - Learn Termux and Linux*
+1. https://wiki.termux.com/wiki/Community - *Community - Termux Wiki*
+2. https://www.termuxcommands.com/ - *Termux Commands - Learn Termux and Linux*
 
 
-## Install
+## Installation
 
 ### Android
 
@@ -56,6 +98,17 @@ F-Droid：https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free
 ## Configuration
 
 https://wiki.termux.com/wiki/Terminal_Settings - *Terminal Settings - Termux Wiki*
+
+
+### 配色方案
+
+> 通过选择字体和配色方案来美化终端。
+
+配置文件：`~/.termux/colors.properties`
+
+1. 通过在终端的任何位置长按，可以显示上下文菜单
+2. 选择菜单项：More... > Style > CHOOSE COLOR
+3. 选择：Tokyonight Dark
 
 
 ### 触摸键盘
@@ -112,7 +165,12 @@ PS1="\[\e[0;31m\]\u\[\e[0m\]@\h \[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\]"
 
 ## Getting started
 
-https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
+https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教程：架设手机 Server 下载文件 - 阮一峰的网络日志*
+
+
+### 用户界面
+
+https://wiki.termux.com/wiki/User_Interface - *User Interface - Termux Wiki*
 
 
 ### 启动流程
@@ -189,125 +247,6 @@ Show all files installed by packages | `pkg files <packages>` | - | `dpkg -L <pa
   ```
 
   注：Termux 会自动将环境变量 `$PREFIX` 设定为 `/data/data/com.termux/files/usr`
-
-
-#### termux-tools
-
-##### pkg
-
-简介：
-
-> Termux 自带的包管理工具，可以用于安装大部分工具。
-
-官方：
-
-https://wiki.termux.com/wiki/Package_Management#Using_the_package_manager - *Package Management - Termux Wiki*
-
-语法：
-
-```bash
-pkg [--check-mirror] command [arguments]
-```
-
-*Show this help message. - 显示命令帮助*
-
-```bash
-pkg
-```
-
-```bash
-man -a termux
-```
-
-*Search package by query, for example by name or description part. - 通过查询搜索软件包，例如通过名称或描述部分。*
-
-```bash
-pkg search <query>
-```
-
-*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
-
-```bash
-pkg upgrade
-```
-
-*Update apt databases from configured repositories. - 从配置的资源库更新 apt 数据库。*
-
-```bash
-pkg update
-```
-
-```bash
-pkg up
-```
-
-*Installing a new package. - 安装新的软件包。* （如果软件包已安装，再次执行此命令，升级当前包到最新版本。）
-
-```bash
-pkg install <packages>
-```
-
-```bash
-pkg i <packages>
-```
-
-*Re-install specified package. - 重新安装指定的软件包。*
-
-```bash
-pkg reinstall <packages>
-```
-
-*Uninstall specified packages. Configuration files will be left intact. - 卸载指定的软件包。配置文件将保持不变。*
-
-```bash
-pkg uninstall <packages>
-```
-
-```bash
-pkg un <packages>
-```
-
-*List installed packages. - 列出已安装的软件包。*
-
-```bash
-pkg list-installed
-```
-
-*List all available packages. - 列出所有可用的软件包。*
-
-```bash
-pkg list-all
-```
-
-*Show information about specific package. - 显示有关特定包的信息。*
-
-```bash
-pkg show <packages>
-```
-
-```bash
-pkg sh <packages>
-```
-
-*Show all files installed by packages. - 显示包安装的所有文件。*
-
-```bash
-pkg files <packages>
-```
-
-```bash
-pkg f <packages>
-```
-
-设置国内的镜像源（以清华大学镜像源为例）。
-
-```bash
-pkg set-mirror tuna
-```
-
-参考：
-
-1. https://zhuanlan.zhihu.com/p/659595231 - *Termux中的pkg命令常见问题解答 - 知乎*
 
 
 #### apt
@@ -537,6 +476,127 @@ man dpkg
 https://wangchujiang.com/linux-command/c/dpkg.html - *dpkg 命令，Linux dpkg 命令详解：Debian Linux系统上安装、创建和管理软件包 - Linux 命令搜索引擎*
 
 
+#### termux-tools
+
+有关详细信息，请参阅“[termux-tools](#termux-tools-1)”。
+
+##### pkg
+
+简介：
+
+> Termux 自带的包管理工具，可以用于安装大部分工具。
+
+官方：
+
+https://wiki.termux.com/wiki/Package_Management#Using_the_package_manager - *Package Management - Termux Wiki*
+
+语法：
+
+```bash
+pkg [--check-mirror] command [arguments]
+```
+
+*Show this help message. - 显示命令帮助*
+
+```bash
+pkg
+```
+
+```bash
+man -a termux
+```
+
+*Search package by query, for example by name or description part. - 通过查询搜索软件包，例如通过名称或描述部分。*
+
+```bash
+pkg search <query>
+```
+
+*Upgrade all installed packages to the latest version. - 将所有已安装的软件包升级到最新版本。*
+
+```bash
+pkg upgrade
+```
+
+*Update apt databases from configured repositories. - 从配置的资源库更新 apt 数据库。*
+
+```bash
+pkg update
+```
+
+```bash
+pkg up
+```
+
+*Installing a new package. - 安装新的软件包。* （如果软件包已安装，再次执行此命令，升级当前包到最新版本。）
+
+```bash
+pkg install <packages>
+```
+
+```bash
+pkg i <packages>
+```
+
+*Re-install specified package. - 重新安装指定的软件包。*
+
+```bash
+pkg reinstall <packages>
+```
+
+*Uninstall specified packages. Configuration files will be left intact. - 卸载指定的软件包。配置文件将保持不变。*
+
+```bash
+pkg uninstall <packages>
+```
+
+```bash
+pkg un <packages>
+```
+
+*List installed packages. - 列出已安装的软件包。*
+
+```bash
+pkg list-installed
+```
+
+*List all available packages. - 列出所有可用的软件包。*
+
+```bash
+pkg list-all
+```
+
+*Show information about specific package. - 显示有关特定包的信息。*
+
+```bash
+pkg show <packages>
+```
+
+```bash
+pkg sh <packages>
+```
+
+*Show all files installed by packages. - 显示包安装的所有文件。*
+
+```bash
+pkg files <packages>
+```
+
+```bash
+pkg f <packages>
+```
+
+设置国内的镜像源（以清华大学镜像源为例）。
+
+```bash
+pkg set-mirror tuna
+```
+
+参考：
+
+1. https://zhuanlan.zhihu.com/p/659595231 - *Termux中的pkg命令常见问题解答 - 知乎*
+
+
 ### 文件系统
 
 ```tree
@@ -555,9 +615,15 @@ https://wangchujiang.com/linux-command/c/dpkg.html - *dpkg 命令，Linux dpkg �
 │   └── var/
 ```
 
-#### 目录结构
-
 https://github.com/termux/termux-packages/wiki/Termux-file-system-layout#packages-installation-root - *Termux file system layout · termux/termux-packages Wiki · GitHub*
+
+由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 `/`、`/usr` 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 `~` ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
+
+如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 `~` 目录下会生成 storage 的文件链接，其中可以访问 Downloads、DCIM、Music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
+
+更多关于 Termux 文件系统的介绍可以在[此处](https://wiki.termux.com/wiki/Internal_and_external_storage)了解。
+
+#### 内部存储
 
 ##### $HOME
 
@@ -598,25 +664,11 @@ https://github.com/termux/termux-packages/wiki/Termux-file-system-layout#package
 
 目录路径：`/data/data/com.termux/files/usr/bin`
 
+#### 外部存储
+
+暂无
+
 #### 常用目录
-
-由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 `/`、`/usr` 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 `~` ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
-
-如何访问手机文件：使用 `termux-setup-storage` 命令，Termux 会请求文件访问权限，允许后在 `~` 目录下会生成 storage 的文件链接，其中可以访问 Downloads、DCIM、Music 等常用文件夹，而 shared 文件夹则对应安卓系统的 `/storage/emulated/0` 路径，是主文件目录。
-
-更多关于 Termux 文件系统的介绍可以在[此处](https://wiki.termux.com/wiki/Internal_and_external_storage)了解。
-
-----
-
-从文件管理器访问 Termux 👇
-
-https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_file_manager - *Internal and external storage - Termux Wiki*
-
-操作步骤：
-
-1. 打开手机应用 [质感文件](os/mobile/mobile-app-list.md#质感文件（Material-Files）)；
-2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
-3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*。
 
 ##### 内部存储
 
@@ -666,6 +718,17 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
     ```
 
     \* *指向手机路径 /storage/emulated/0/Download/*
+
+
+#### 从文件管理器访问 Termux 👇
+
+https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_file_manager - *Internal and external storage - Termux Wiki*
+
+操作步骤：
+
+1. 打开手机应用 [质感文件](os/mobile/app-list.md#material-files)；
+2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
+3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*
 
 
 ### 快捷键
@@ -1201,12 +1264,29 @@ pkg uninstall termux-api
 
 API 实现：
 
-```bash
-termux-clipboard-set
-```
+1. [termux-clipboard-get](#termux-clipboard-get)
+2. [termux-clipboard-set](#termux-clipboard-set)
+
+
+##### termux-clipboard-get
+
+> Get the system clipboard text.
+
+https://wiki.termux.com/wiki/Termux-clipboard-get - *Termux-clipboard-get - Termux Wiki*
 
 ```bash
 termux-clipboard-get
+```
+
+
+##### termux-clipboard-set
+
+> Set the system clipboard text. The text to set is either supplied as arguments or read from stdin if no arguments are given.
+
+https://wiki.termux.com/wiki/Termux-clipboard-set - *Termux-clipboard-set - Termux Wiki*
+
+```bash
+termux-clipboard-set "hello world"
 ```
 
 
@@ -1399,12 +1479,32 @@ Search：
             2. https://du33169.tech/linux/TermuxConfiguration.html - *Termux安装配置与使用 | 岚*
 
 
+## Quick Start
+
+1. 安装应用
+    1. [Termux](#android)
+2. 运行命令
+    1. [termux-chroot](#termux-chroot)
+    2. [termux-setup-storage](#termux-setup-storage)
+    3. [termux-change-repo](#termux-change-repo)
+3. 安装工具
+    1. [常用工具](#常用工具)
+
+
 ## Tool
 
 ![Repository status](https://repology.org/badge/repository-big/termux.svg)
 
 https://repology.org/repository/termux - *Termux repository information - Repology*
 
+
+### 常用工具
+
+1. [fzf](#fzf)
+2. [Git](#git)
+3. [Node.js](#nodejs)
+4. [pet](#pet)
+5. [Vim](#vim)
 
 ### 终端工具
 
@@ -2224,6 +2324,56 @@ man ssh
 ```
 
 
+#### Perl
+
+简介：
+
+> Perl is a highly capable, feature-rich programming language with over 37 years of development.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Perl/perl5?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Perl/perl5?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Perl/perl5?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Perl/perl5?style=social)
+
+官方：
+
+https://github.com/Perl - *The Perl Programming Language · GitHub*
+
+https://www.perl.org/ - *The Perl Programming Language - www.perl.org*
+
+查看：
+
+```bash
+pkg show perl
+```
+
+```bash
+pkg files perl
+```
+
+安装：
+
+```bash
+pkg install perl
+```
+
+卸载：
+
+```bash
+pkg uninstall perl
+```
+
+用法：
+
+```bash
+perl --help
+```
+
+```bash
+perl -v
+```
+
+
 #### pet
 
 简介：
@@ -2898,6 +3048,11 @@ https://github.com/Julow/Unexpected-Keyboard - *GitHub - Julow/Unexpected-Keyboa
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Julow/Unexpected-Keyboard?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Julow/Unexpected-Keyboard?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Julow/Unexpected-Keyboard?style=social)
+
+
+## Changelog
+
+https://github.com/termux/termux-app/releases - *Releases · termux/termux-app*
 
 
 ## FAQ

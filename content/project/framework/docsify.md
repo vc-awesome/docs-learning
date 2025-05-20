@@ -72,6 +72,10 @@ https://cli.docsifyjs.org/#/ - *docsify-cli - A magical documentation generator.
 <script src="//unpkg.com/element-ui/lib/index.js"></script>
 ```
 
+### Markdown Support
+
+https://www.markdownguide.org/tools/docsify/ - *Docsify Markdown Reference | Markdown Guide*
+
 ## Installation
 
 https://docsify.js.org/#/cdn - *CDN*
@@ -1185,14 +1189,7 @@ Showcase
 
 > TOC 添加“代码缩进参考线”
 
-1. 方式一、通过应用工具 [PhpStorm](os/tools/phpstorm.md) 设置查看效果
-
-    - 操作方法：*菜单栏 > preferences...（设置）> 编辑器 > 常规 > 外观：勾选选项“显示缩进参考线”*。
-
-    - 参考文档：
-
-        1. https://blog.csdn.net/weixin_41981080/article/details/82659022 - *PhpStorm代码编辑区竖线的用途*
-        2. https://www.cnblogs.com/zqifa/p/12651446.html - *phpstorm 代码编辑区去掉、设置灰色竖线 打印分割线设置 - zqifa - 博客园*
+1. 方式一、通过应用工具 [PhpStorm](os/tools/developer/editor/phpstorm.md#缩进参考线) 设置查看效果
 
 2. 方式二、借鉴已实现功能的站点
 

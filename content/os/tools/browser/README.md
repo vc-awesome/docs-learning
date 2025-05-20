@@ -42,24 +42,24 @@
 
 ## 分类
 
-序号  | 图标  | 名称  | 国家
----|---|---|---
-1  | <i class="fa-brands fa-qq"></i>  | QQBrowser  | 🇨🇳
-2  | <i class="fa-brands fa-firefox"></i>  | Firefox  | 🇺🇸
-3  | <i class="fa-brands fa-edge"></i>  | Microsoft Edge  | 🇺🇸
-4  | <i class="fa-brands fa-opera"></i>  | Opera  | 🇳🇴
-5  | <i class="fa-brands fa-yandex-international"></i>  | Yandex  | 🇷🇺
-6  | <i class="fa-brands fa-chrome"></i>  | Chrome  | 🇺🇸
+序号 | 图标 | 名称 | 国家
+--- | --- | --- | ---
+1 | <i class="fa-brands fa-chrome"></i> | [Chrome](#google-chrome) | 🇺🇸
+2 | <i class="fa-brands fa-edge"></i> | [Edge](#microsoft-edge) | 🇺🇸
+3 | <i class="fa-brands fa-firefox"></i> | [Firefox](#mozilla-firefox) | 🇺🇸
+4 | <i class="fa-brands fa-opera"></i> | [Opera](#opera) | 🇳🇴
+5 | <i class="fa-brands fa-qq"></i> | [QQBrowser](#qqbrowser) | 🇨🇳
+6 | <i class="fa-brands fa-yandex-international"></i> | [Yandex](#yandex) | 🇷🇺
 
 更多浏览器：https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
 
-QQBrowser
+### QQBrowser
 
 https://browser.qq.com/ - *QQ浏览器官网_QQ浏览器手机版_QQ浏览器Windows版_QQ浏览器MAC版*
 
 - *支持网页版微信*
 
-Yandex
+### Yandex
 
 https://browser.yandex.com/ - *Скачать нейробраузер для устройств под управлением Android*
 
@@ -136,12 +136,12 @@ https://www.mozilla.org/zh-CN/firefox/browsers/compare/ - *六款最佳浏览器
 
 https://www.mozilla.org/zh-CN/firefox/browsers/mobile/compare/ - *五款最佳移动浏览器同台对比*
 
-功能 | Opera | Firefox
----|---|---
-复制标签 | ✔ | ✘
-设置「默认开启隐身标签」 | ✘ | ✔
-Web 扩展/附加组件 | ✘ | ✔
-翻译 | ✔ | ✘
+功能 | Opera | Firefox | Chrome
+--- | --- | --- | ---
+复制标签 | ✔ | ✘ | ✘
+设置「默认开启隐身标签」 | ✘ | ✔ | ✘
+Web 扩展/附加组件 | ✘ | ✔ | ✔
+翻译 | ✔ | ✘ | ✔
 
 ## 书签
 
@@ -384,57 +384,6 @@ macOS:
 
     长按 <kbd>Alt</kbd> + 鼠标左击链接
 
-## 浏览器组成
-
-<https://wangdoc.com/javascript/bom/engine#浏览器的组成> - *浏览器环境概述 - JavaScript 教程 - 网道*
-
-### 渲染引擎
-
-<https://zh.m.wikipedia.org/wiki/浏览器引擎比较_> - *浏览器引擎比较 (HTML) - 维基百科，自由的百科全书*
-
-<https://zh.m.wikipedia.org/wiki/浏览器引擎> - *浏览器引擎 - 维基百科，自由的百科全书*
-
-<https://zh.m.wikipedia.org/wiki/网页浏览器列表> - *网页浏览器列表 - 维基百科，自由的百科全书*
-
-<https://zh.m.wikipedia.org/wiki/网页浏览器> - *网页浏览器 - 维基百科，自由的百科全书*
-
-https://en.m.wikipedia.org/wiki/Comparison_of_web_browsers - *Comparison of web browsers - Wikipedia*
-
-https://juejin.cn/post/7344258231231103015 - *浏览器内核小知识 - 掘金*
-
-https://zhuanlan.zhihu.com/p/374672785 - *浏览器内核发展编年史 - 知乎*
-
-https://www.huhst.edu.cn/__local/7/AB/3B/AE1EB3695CF9E69020881F367E2_A17A69F4_1D78D.htm - *浏览器_百度百科*
-
-工具：
-
-1. https://www.ghxi.com/llq-test.html - *浏览器内核检测与更新2.0 - 果核剥壳*
-2. https://ie.icoa.cn/ - *查看手机浏览器内核版本 Brower Kernel Version2.7*
-3. http://www.ip33.com/browser.html - *在线浏览器检测_ip33.com*
-4. https://github.com/ShirasawaSama/CefDetector - *GitHub - ShirasawaSama/CefDetector: Check how many CEFs are on your computer. 检测你电脑上有几个CEF.*
-
-#### Webkit
-
-Safari
-
-#### Blink
-
-Chromium
-
-- Google Chrome
-- Microsoft Edge
-- Opera
-- Vivaldi
-- Brave
-
-#### Gecko
-
-Mozilla Firefox
-
-### JavaScript 引擎
-
-暂无
-
 ## About URI
 
 https://en.m.wikipedia.org/wiki/About_URI_scheme - *about URI scheme - Wikipedia*
@@ -466,79 +415,6 @@ https://www.freecodecamp.org/chinese/news/about-blank-what-does-about-blank-mean
 15. https://k.sina.com.cn/article_1823348853_6cae187502001dvj1.html - *谷歌Chrome新功能曝光！一键将网页变桌面应用|chrome|桌面应用|谷歌Chrome_新浪新闻*
 16. https://support.google.com/chrome_webstore/answer/3060053 - *添加和打开 Chrome 应用 - Chrome 网上应用店帮助*
 17. https://support.google.com/chrome/answer/9658361 - *使用渐进式 Web 应用 - 计算机 - Google Chrome帮助*
-
-## 开发者工具
-
-1. https://developer.mozilla.org/zh-CN/docs/Web#开发者工具文档 - *Web 开发技术 | MDN*
-2. https://mp.weixin.qq.com/s/hZnN9ZWWWkzG8Do7T2KaOA - *Chrome开发者工具详解*
-3. https://baijiahao.baidu.com/s?id=1699345724372278183 - *JavaScript 开发者需要了解的15个 DevTools 技巧*
-4. https://github.com/ChromeDevTools - *ChromeDevTools · GitHub*
-5. https://developer.chrome.google.cn/docs/devtools?hl=zh-cn - *Chrome DevTools &nbsp;|&nbsp; Chrome for Developers*
-
-### Element
-
-#### 样式
-
-假设某类的样式如下👇：
-
-```css
-.khTxkj {
-    top: 0px;
-    right: 0px;
-    padding: 8px;
-    position: absolute;
-}
-```
-
-在类名 `.khTxkj`上鼠标右键操作：
-
-1. 选择操作「复制selector」，复制的内容为：
-
-    ```css
-    .khTxkj
-    ```
-
-2. 选择操作「复制规则」，复制的内容为：
-
-    ```css
-    .khTxkj {
-        top: 0px;
-        right: 0px;
-        padding: 8px;
-        position: absolute;
-    }
-    ```
-
-3. 选择操作「复制所有声明」，复制的内容为：
-
-    ```css
-        top: 0px;
-        right: 0px;
-        padding: 8px;
-        position: absolute;
-    ```
-
-### Console
-
-https://segmentfault.com/a/1190000008074942 - *chrome-devtools - Chrome DevTools — Console - 小前端 - SegmentFault 思否*
-
-https://segmentfault.com/q/1010000018895611 - *javascript - 谷歌浏览器控制台如何使用Console.log()输出展开对象详细信息 - SegmentFault 思否*
-
-https://blog.csdn.net/DarinZanya/article/details/139801423 - *如何优雅地使用 console.log 打印数组或对象_console.log打印对象-CSDN博客*
-
-https://segmentfault.com/q/1010000023482235 - *微信小程序 - 微信开发者工具 调试器 console的显示的内容如何复制出来 - SegmentFault 思否*
-
-### Sources
-
-暂无
-
-### Network
-
-暂无
-
-### Application
-
-暂无
 
 ## 常见问题
 

@@ -25,7 +25,7 @@
 * [DNS](essential/network/dns.md)
 * [Hosts](essential/network/hosts.md)
 * [AdGuard](os/tools/productivity/adguard.md)
-* [**开发者工具**](os/tools/developer/README.md)
+* [**开发者工具**](os/tools/developer/_sidebar.md)
 * [GitHub](os/tools/productivity/github.md)
 * [Git](os/tools/developer/git.md)
 * [宝塔](os/tools/developer/bt.md)

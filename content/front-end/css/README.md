@@ -20,6 +20,14 @@ https://www.w3.org/Style/CSS/Overview.en.html - *Cascading Style Sheets*
 
 ## 用法
 
+### 语法
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_syntax/Syntax - *语法 - CSS：层叠样式表 | MDN*
+
+### 注释
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_syntax/Comments - *CSS 注释 - CSS：层叠样式表 | MDN*
+
 ### 变量
 
 https://www.ruanyifeng.com/blog/2017/05/css-variables.html - *CSS 变量教程 - 阮一峰的网络日志*
@@ -34,10 +42,10 @@ https://www.runoob.com/cssref/css-functions.html - *CSS 函数 | 菜鸟教程*
 
 常用函数：
 
-1. [var()](https://www.runoob.com/cssref/func-var.html) - *用于插入自定义的属性值。*
+1. [attr()](https://www.runoob.com/cssref/func-attr.html) - *返回选择元素的属性值。*
 2. [calc()](https://www.runoob.com/cssref/func-calc.html) - *允许计算 CSS 的属性值，比如动态计算长度值。*
-3. [attr()](https://www.runoob.com/cssref/func-attr.html) - *返回选择元素的属性值。*
-4. [env()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/env)
+3. [env()](https://developer.mozilla.org/zh-CN/docs/Web/CSS/env) - *将用户代理定义的环境变量值插入 CSS*
+4. [var()](https://www.runoob.com/cssref/func-var.html) - *用于插入自定义的属性值。*
 
 ### 字体
 
@@ -60,7 +68,7 @@ https://www.runoob.com/cssref/css-functions.html - *CSS 函数 | 菜鸟教程*
 
     - [white-space](https://www.runoob.com/cssref/pr-text-white-space.html) - *设置元素中空白的处理方式*
 
-        - `white-space: pre-wrap!important;` - *保留空白符序列，但是正常地进行换行。*
+        - `white-space: pre-wrap !important;` - *保留空白符序列，但是正常地进行换行。*
 
     - [text-decoration - CSS：层叠样式表 | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/text-decoration)
 
@@ -68,7 +76,7 @@ https://www.runoob.com/cssref/css-functions.html - *CSS 函数 | 菜鸟教程*
 
     - [word-break](https://www.runoob.com/cssref/css3-pr-word-break.html) - *规定非中日韩文本的换行规则。*
 
-        - `word-break: break-all!important;` - *允许在单词内换行。*
+        - `word-break: break-all !important;` - *允许在单词内换行。*
 
     - [word-wrap](https://www.runoob.com/cssref/css3-pr-word-wrap.html) - *允许对长的不可分割的单词进行分割并换行到下一行。*
 
@@ -79,14 +87,43 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_colors - *CSS Color - CSS�
 ### 盒模型
 
 1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Introduction_to_the_CSS_box_model - *CSS 基础框盒模型介绍 - CSS：层叠样式表 | MDN*
+2. https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Styling_basics/Box_model - *盒模型 - 学习 Web 开发 | MDN*
 
-2. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model - *盒模型 - 学习 Web 开发 | MDN*
+#### 内容区域
 
-#### box-sizing
+1. width
+2. min-width
+3. max-width
+4. height
+5. min-height
+6. max-height
 
-1. https://css-tricks.com/box-sizing/ - *Box Sizing | CSS-Tricks - CSS-Tricks*
+#### 边框区域
 
-#### 外边距重叠
+1. border
+2. border-width
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/border - *border - CSS：层叠样式表 | MDN*
+
+#### 内边距区域
+
+1. padding-top
+2. padding-right
+3. padding-bottom
+4. padding-left
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/padding - *padding - CSS：层叠样式表 | MDN*
+
+#### 外边距区域
+
+1. margin-top
+2. margin-right
+3. margin-bottom
+4. margin-left
+
+https://developer.mozilla.org/zh-CN/docs/Web/CSS/margin - *margin - CSS：层叠样式表 | MDN*
+
+##### 外边距重叠
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Mastering_margin_collapsing - *掌握外边距折叠 - CSS：层叠样式表 | MDN*
 
@@ -124,6 +161,67 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_box_model/Mastering_margin_
 
 结果：**上下块元素之间的补白为 20px**
 
+#### box-sizing
+
+box-sizing 属性可以被用来调整这些表现：
+
+1. `content-box` 是默认值。如果你设置一个元素的宽为 100px，那么这个元素的内容区会有 100px 宽，并且任何边框和内边距的宽度都会被增加到最后绘制出来的元素宽度中。
+2. `border-box` 告诉浏览器：你想要设置的边框和内边距的值是包含在 width 内的。也就是说，如果你将一个元素的 width 设为 100px，那么这 100px 会包含它的 border 和 padding，内容区的实际宽度是 width 减去 (border + padding) 的值。大多数情况下，这使得我们更容易地设定一个元素的宽高。
+
+参考：
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/CSS/box-sizing - *box-sizing - CSS：层叠样式表 | MDN*
+2. https://css-tricks.com/box-sizing/ - *Box Sizing | CSS-Tricks - CSS-Tricks*
+
+#### display
+
+1. block
+2. inline
+3. inline-block
+
+盒子显示类型：
+
+1. 内部显示
+    1. flow
+    2. flow-root
+    3. table
+    4. flex
+    5. grid
+    6. ruby
+2. 外部显示
+    1. block
+    2. inline
+
+区块元素：
+
+1. `<h1>`
+2. `<p>`
+
+行内元素：
+
+1. `<a>`
+2. `<span>`
+3. `<em>`
+4. `<strong>`
+5. `<code>`
+
+区块盒子：
+
+行内盒子：
+
+参考：
+
+1. https://developer.mozilla.org/zh-CN/docs/Learn/CSS/Building_blocks/The_box_model - *盒模型 - 学习 Web 开发 | MDN*
+2. https://developer.mozilla.org/zh-CN/docs/Web/CSS/display - *display - CSS：层叠样式表 | MDN*
+
+##### 块级盒子
+
+display 属性值为 block
+
+##### 内联盒子
+
+display 属性值为 inline、inline-block、inline-table
+
 ### 选择器
 
 https://www.runoob.com/cssref/css-selectors.html - *CSS 选择器 | 菜鸟教程*
@@ -153,7 +251,13 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/Specificity - *优先级 - CSS�
 
   ```css
   .markdown-section > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
-      font-size: .8rem;
+    font-size: .8rem;
+  }
+
+  /* 等同于 */
+
+  .markdown-section > :not(h1, h2, h3, h4, h5, h6) code {
+    font-size: .8rem;
   }
   ```
 
@@ -197,22 +301,32 @@ https://developer.mozilla.org/zh-CN/docs/Learn/CSS/CSS_layout - *CSS 布局 - �
 
 ```css
 /* vw */
-.aspect-ratio{ width: 100vw; height: calc(100vw * 2 / 1); }
+.aspect-ratio {
+  width: 100vw;
+  height: calc(100vw * 2 / 1);
+}
 
 /*vh */
-.aspect-ratio{ width: 100vh; height: calc(100vw * 2 / 1); }
-
+.aspect-ratio {
+  width: 100vh;
+  height: calc(100vw * 2 / 1);
+}
 ```
 
 3:4
 
 ```css
 /* vw */
-.aspect-ratio{ width: 100vw; height: calc(100vw * 4 / 3); }
+.aspect-ratio {
+  width: 100vw;
+  height: calc(100vw * 4 / 3);
+}
 
 /*vh */
-.aspect-ratio{ width: 100vh; height: calc(100vw * 4 / 3); }
-
+.aspect-ratio {
+  width: 100vh;
+  height: calc(100vw * 4 / 3);
+}
 ```
 
 参考：
@@ -245,16 +359,6 @@ fixed 在苹果手机 ios 不生效_前端 ios 上子设置 zinde 无法覆盖 -
 #### transform
 
 https://developer.mozilla.org/zh-CN/docs/Web/CSS/transform - *transform - CSS：层叠样式表 | MDN*
-
-### display
-
-https://developer.mozilla.org/zh-CN/docs/Web/CSS/display - *display - CSS：层叠样式表 | MDN*
-
-#### 块元素
-
-#### 内联元素
-
-display 属性值为 inline、inline-block、inline-table
 
 ### line-height
 
@@ -315,12 +419,7 @@ https://www.runoob.com/cssref/css-units.html - *CSS 单位 | 菜鸟教程*
 
 ### Sass
 
-https://sass-lang.com - *Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.* [中文](https://www.sasscss.com) [GitHub](https://github.com/sass)
-
-![GitHub last commit](https://badgen.net/github/last-commit/sass/sass?icon=github&color=blue)
-![GitHub tag (with filter)](https://img.shields.io/github/v/tag/sass/sass?logo=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/sass?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/sass/sass?style=social)
+有关详细信息，请参阅“[Sass](front-end/css/sass.md)”。
 
 ### Less
 
@@ -335,9 +434,17 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 
 ## 工具
 
-- https://www.postcss.com.cn - *PostCSS 利用 JavaScript 的强大编程能力对 CSS 代码进行转换。数以百计的 PostCSS 插件可以用来为 CSS 属性添加特定于浏览器厂商的前缀、支持未来 CSS 语法、模块化、代码检测等。*
-- https://stylelint.bootcss.com - *Stylelint 是一个强大、先进的 CSS 代码检查器（linter），可以帮助你规避 CSS 代码中的错误并保持一致的编码风格。*
-- https://www.purgecss.cn/ - *PurgeCSS 是一个用来删除未使用的 CSS 代码的工具，能够减小 CSS 文件的体积。例如可以用来减小 Bootstrap 等前端框架的文件体积，提升加载速度。*
+### PostCSS
+
+https://www.postcss.com.cn - *PostCSS 利用 JavaScript 的强大编程能力对 CSS 代码进行转换。数以百计的 PostCSS 插件可以用来为 CSS 属性添加特定于浏览器厂商的前缀、支持未来 CSS 语法、模块化、代码检测等。*
+
+### Stylelint
+
+https://stylelint.bootcss.com - *Stylelint 是一个强大、先进的 CSS 代码检查器（linter），可以帮助你规避 CSS 代码中的错误并保持一致的编码风格。*
+
+### PurgeCSS
+
+https://www.purgecss.cn/ - *PurgeCSS 是一个用来删除未使用的 CSS 代码的工具，能够减小 CSS 文件的体积。例如可以用来减小 Bootstrap 等前端框架的文件体积，提升加载速度。*
 
 ## 功能
 
@@ -365,47 +472,51 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 
 代码：
 
-``` css
+```css
 // im 图标跳动
 @keyframes im_icon {
-    0% {
-        opacity: .8;
-        transform: translate(0,0);
-    }
-    50% {
-        opacity: 1;
-        transform: translate(0,3px);
-    }
-    100% {
-        opacity: .8;
-        transform: translate(0,0);
-    }
+  0% {
+    opacity: 0.8;
+    transform: translate(0, 0);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 3px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(0, 0);
+  }
 }
 @-webkit-keyframes im_icon {
-    0% {
-        opacity: .8;
-        transform: translate(0,0);
-    }
-    50% {
-        opacity: 1;
-        transform: translate(0,3px);
-    }
-    100% {
-        opacity: .8;
-        transform: translate(0,0);
-    }
+  0% {
+    opacity: 0.8;
+    transform: translate(0, 0);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(0, 3px);
+  }
+  100% {
+    opacity: 0.8;
+    transform: translate(0, 0);
+  }
 }
 .im {
-    margin-top: -4px;
-    margin-left: 10px;
-    cursor: pointer;
-    animation:  im_icon 1s linear infinite;
-    -webkit-animation:  im_icon 1s linear infinite;
+  margin-top: -4px;
+  margin-left: 10px;
+  cursor: pointer;
+  animation: im_icon 1s linear infinite;
+  -webkit-animation: im_icon 1s linear infinite;
 }
 ```
 
-``` html
-<img alt='bunny-color' src='_media/bunny-color.png' class="im" />
+```html
+<img
+  alt="bunny-color"
+  src="_media/bunny-color.png"
+  class="im"
+/>
 ```
 
 效果：
@@ -416,36 +527,36 @@ https://lesscss.org - *Getting started | Less.js* [中文](https://less.bootcss.
 
 *via https://clipboardjs.com/ - *clipboard.js — Copy to clipboard without Flash**
 
-``` css
+```css
 .love {
-    display: inline-block;
-    position: relative;
-    top: .2em;
-    font-size: 1.4em;
-    -webkit-transform: scale(.9);
-    -moz-transform: scale(.9);
-    transform: scale(.9);
-    -webkit-animation: love .5s infinite linear alternate-reverse;
-    -moz-animation: love .5s infinite linear alternate-reverse;
-    animation: love .5s infinite linear alternate-reverse
+  display: inline-block;
+  position: relative;
+  top: 0.2em;
+  font-size: 1.4em;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: love 0.5s infinite linear alternate-reverse;
+  -moz-animation: love 0.5s infinite linear alternate-reverse;
+  animation: love 0.5s infinite linear alternate-reverse;
 }
 
 @-webkit-keyframes love {
-    to {
-        -webkit-transform: scale(1.2)
-    }
+  to {
+    -webkit-transform: scale(1.2);
+  }
 }
 
 @-moz-keyframes love {
-    to {
-        -moz-transform: scale(1.2)
-    }
+  to {
+    -moz-transform: scale(1.2);
+  }
 }
 
 @keyframes love {
-    to {
-        transform: scale(1.2)
-    }
+  to {
+    transform: scale(1.2);
+  }
 }
 ```
 
@@ -473,7 +584,13 @@ effort*
 ### 从文本区域获取文本时如何保留换行符
 
 ```html
- <textarea id="post-text" class="form-control" rows="3" placeholder="What's up?" required></textarea>
+<textarea
+  id="post-text"
+  class="form-control"
+  rows="3"
+  placeholder="What's up?"
+  required
+></textarea>
 ```
 
 ```css

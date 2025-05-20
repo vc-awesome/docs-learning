@@ -1,4 +1,4 @@
-_59 directories, 291 files_
+_61 directories, 294 files_
 
 # 📂 __content__
 
@@ -6,9 +6,8 @@ _59 directories, 291 files_
 2. 📄 [\_navbar.md](_navbar.md)
 3. 📄 [\_portal.md](_portal.md)
 4. 📄 [\_sidebar.md](_sidebar.md)
-6. 📄 [index.md](index.md)
-7. 📄 [README.md](README.md)
-8. 📄 [TODO.md](TODO.md)
+6. 📄 [README.md](README.md)
+7. 📄 [TODO.md](TODO.md)
 
 ## 📂 __back\-end__
 
@@ -88,25 +87,28 @@ _59 directories, 291 files_
 
 ### 📂 __ui__
 
-1. 📄 [README.md](design/ui/README.md)
+1. 📄 [\_sidebar.md](design/ui/_sidebar.md)
+2. 📄 [README.md](design/ui/README.md)
 
 ## 📂 __essential__
 
 1. 📄 [\_sidebar.md](essential/_sidebar.md)
 2. 📄 [algorithms.md](essential/algorithms.md)
 3. 📄 [api.md](essential/api.md)
-4. 📄 [character\-sets.md](essential/character-sets.md)
-5. 📄 [code\-common.md](essential/code-common.md)
-6. 📄 [crypto.md](essential/crypto.md)
-7. 📄 [hardware.md](essential/hardware.md)
-8. 📄 [identity.md](essential/identity.md)
-9. 📄 [json.md](essential/json.md)
-10. 📄 [README.md](essential/README.md)
-11. 📄 [regex.md](essential/regex.md)
-12. 📄 [svg.md](essential/svg.md)
-13. 📄 [url.md](essential/url.md)
-14. 📄 [xml.md](essential/xml.md)
-15. 📄 [yaml.md](essential/yaml.md)
+4. 📄 [code\-common.md](essential/code-common.md)
+5. 📄 [hardware.md](essential/hardware.md)
+6. 📄 [json.md](essential/json.md)
+7. 📄 [README.md](essential/README.md)
+8. 📄 [regex.md](essential/regex.md)
+9. 📄 [svg.md](essential/svg.md)
+10. 📄 [url.md](essential/url.md)
+11. 📄 [xml.md](essential/xml.md)
+12. 📄 [yaml.md](essential/yaml.md)
+
+### 📂 __character\-sets__
+
+1. 📄 [emoji.md](essential/character-sets/emoji.md)
+2. 📄 [README.md](essential/character-sets/README.md)
 
 ### 📂 __design\-pattern__
 
@@ -118,7 +120,7 @@ _59 directories, 291 files_
 
 1. 📄 [\_sidebar.md](essential/network/_sidebar.md)
 2. 📄 [cdn.md](essential/network/cdn.md)
-3. 📄 [cross\-domain.md](essential/network/cross-domain.md)
+3. 📄 [cors.md](essential/network/cors.md)
 4. 📄 [dns.md](essential/network/dns.md)
 5. 📄 [hosting.md](essential/network/hosting.md)
 6. 📄 [hosts.md](essential/network/hosts.md)
@@ -127,6 +129,12 @@ _59 directories, 291 files_
 9. 📄 [ip.md](essential/network/ip.md)
 10. 📄 [README.md](essential/network/README.md)
 11. 📄 [vpn.md](essential/network/vpn.md)
+
+### 📂 __security__
+
+1. 📄 [crypto.md](essential/security/crypto.md)
+2. 📄 [identity.md](essential/security/identity.md)
+3. 📄 [README.md](essential/security/README.md)
 
 ### 📂 __style\-guide__
 
@@ -137,8 +145,9 @@ _59 directories, 291 files_
 
 1. 📄 [\_sidebar.md](front-end/_sidebar.md)
 2. 📄 [ajax.md](front-end/ajax.md)
-3. 📄 [jquery.md](front-end/jquery.md)
-4. 📄 [README.md](front-end/README.md)
+3. 📄 [browser.md](front-end/browser.md)
+4. 📄 [jquery.md](front-end/jquery.md)
+5. 📄 [README.md](front-end/README.md)
 
 ### 📂 __android__
 
@@ -194,6 +203,7 @@ _59 directories, 291 files_
 9. 📄 [object.md](front-end/javascript/object.md)
 10. 📄 [promise.md](front-end/javascript/promise.md)
 11. 📄 [README.md](front-end/javascript/README.md)
+12. 📄 [string.md](front-end/javascript/string.md)
 
 ### 📂 __nodejs__
 
@@ -217,12 +227,11 @@ _59 directories, 291 files_
 2. 📄 [book.md](home/book.md)
 3. 📄 [directory\-structure.md](home/directory-structure.md)
 4. 📄 [document\-template.md](home/document-template.md)
-5. 📄 [emoji.md](home/emoji.md)
-6. 📄 [getting\-started.md](home/getting-started.md)
-7. 📄 [glossary.md](home/glossary.md)
-8. 📄 [markdown.md](home/markdown.md)
-9. 📄 [README.md](home/README.md)
-10. 📄 [semver.md](home/semver.md)
+5. 📄 [getting\-started.md](home/getting-started.md)
+6. 📄 [glossary.md](home/glossary.md)
+7. 📄 [markdown.md](home/markdown.md)
+8. 📄 [README.md](home/README.md)
+9. 📄 [semver.md](home/semver.md)
 
 ## 📂 __os__
 
@@ -270,14 +279,15 @@ _59 directories, 291 files_
 1. 📄 [\_sidebar.md](os/mobile/_sidebar.md)
 2. 📄 [acode.md](os/mobile/acode.md)
 3. 📄 [app\-list.md](os/mobile/app-list.md)
-4. 📄 [browser.md](os/mobile/browser.md)
-5. 📄 [f\-droid.md](os/mobile/f-droid.md)
-6. 📄 [http\-shortcuts.md](os/mobile/http-shortcuts.md)
-7. 📄 [markor.md](os/mobile/markor.md)
-8. 📄 [mgit.md](os/mobile/mgit.md)
-9. 📄 [miui.md](os/mobile/miui.md)
-10. 📄 [README.md](os/mobile/README.md)
-11. 📄 [termux.md](os/mobile/termux.md)
+4. 📄 [app\-manager.md](os/mobile/app-manager.md)
+5. 📄 [browser.md](os/mobile/browser.md)
+6. 📄 [f\-droid.md](os/mobile/f-droid.md)
+7. 📄 [http\-shortcuts.md](os/mobile/http-shortcuts.md)
+8. 📄 [markor.md](os/mobile/markor.md)
+9. 📄 [mgit.md](os/mobile/mgit.md)
+10. 📄 [miui.md](os/mobile/miui.md)
+11. 📄 [README.md](os/mobile/README.md)
+12. 📄 [termux.md](os/mobile/termux.md)
 
 ### 📂 __tools__
 
@@ -360,8 +370,7 @@ _59 directories, 291 files_
 6. 📄 [faq.md](project/faq.md)
 7. 📄 [optimization.md](project/optimization.md)
 8. 📄 [README.md](project/README.md)
-9. 📄 [security.md](project/security.md)
-10. 📄 [warning.md](project/warning.md)
+9. 📄 [warning.md](project/warning.md)
 
 ### 📂 __blockchain__
 

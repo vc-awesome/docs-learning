@@ -115,6 +115,8 @@
 
 ### Android
 
+#### App 列表
+
 1. [Material Files](#) - *Open source Material Design file manager*
 
 2. [Markor](https://gsantner.net/) - *Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
@@ -158,21 +160,12 @@ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefo
 - [代码片段](snippets/README.md)
 - [在线工具](os/tools/web-app.md)
   - [菜鸟工具](https://c.runoob.com/)
-    - [正则表达式在线测试](https://c.runoob.com/front-end/854/)
   - [URL编解码](https://tool.browser.qq.com/urlencode.html)
 - [Markdown Guide](https://www.markdownguide.org/)
 - [iconfont-阿里巴巴矢量图标库](https://www.iconfont.cn/)
 - [Icons Icon | Font Awesome](https://fontawesome.com/v6/icons/)
 
-网址导航
----
-
-1. [GitHub: Let’s build from here · GitHub](https://github.com/) - *GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.*
-2. [Ecosia - the search engine that plants trees](https://www.ecosia.org/) - *Ecosia uses 100% of its profits for the planet and produces enough renewable energy to power all searches twice over.* 🚫
-3. [Internet Archive: Digital Library of Free &amp; Borrowable Books, Movies, Music &amp; Wayback Machine](https://archive.org/) - *Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.* 🚫
-
-快速导航
----
+### 快速导航
 
 > Quick Links
 
@@ -182,18 +175,14 @@ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefo
 - [程序员英语词汇宝典](https://learn-english.dev/)
 - [Bootstrap中文网](https://www.bootcss.com/)
 
-文档插件
----
+### 文档插件
 
 > Document Plug-in
 
-1. [docsify](https://docsify.js.org/#/) - *A magical documentation generator.* [使用手册](project/framework/docsify.md)
-    - [GitHub Repo](https://github.com/docsifyjs/docsify/)
-2. [Animate.css | A cross-browser library of CSS animations.](https://animate.style/) - *Animate.css is a library of ready-to-use, cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and attention-guiding hints.*
-3. [一个 Vue 3 UI 框架 | Element Plus](https://element-plus.org/zh-CN/) - *A Vue 3 based component library for designers and developers* [使用手册](front-end/vue/README.md)
-    - [GitHub Repo](https://github.com/element-plus/element-plus)
-4. [Prism](https://prismjs.com/index.html) - *Lightweight, robust, elegant syntax highlighting.* [使用手册](project/framework/prism.md)
-    - [GitHub Repo](https://github.com/PrismJS/prism/)
-5. [SweetAlert2](https://sweetalert2.github.io/) - *SweetAlert2 - a beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes*
-6. [Primer](https://primer.style/design/) - *Principles, standards, and usage guidelines for designing GitHub interfaces.*
-7. [Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/) - *Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.* [使用手册](project/framework/bootstrap.md)
+1. [Animate.css | A cross-browser library of CSS animations.](https://animate.style/) - *Animate.css is a library of ready-to-use, cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and attention-guiding hints.*
+2. [Bootstrap · The most popular HTML, CSS, and JS library in the world.](https://getbootstrap.com/) - *Powerful, extensible, and feature-packed frontend toolkit. Build and customize with Sass, utilize prebuilt grid system and components, and bring projects to life with powerful JavaScript plugins.* [使用手册](project/framework/bootstrap.md)
+3. [docsify](https://docsify.js.org/#/) - *A magical documentation generator.* [使用手册](project/framework/docsify.md) [GitHub Repo](https://github.com/docsifyjs/docsify/)
+4. [一个 Vue 3 UI 框架 | Element Plus](https://element-plus.org/zh-CN/) - *A Vue 3 based component library for designers and developers* [使用手册](front-end/vue/README.md) [GitHub Repo](https://github.com/element-plus/element-plus)
+5. [Primer](https://primer.style/design/) - *Principles, standards, and usage guidelines for designing GitHub interfaces.*
+6. [Prism](https://prismjs.com/index.html) - *Lightweight, robust, elegant syntax highlighting.* [使用手册](project/framework/prism.md) [GitHub Repo](https://github.com/PrismJS/prism/)
+7. [SweetAlert2](https://sweetalert2.github.io/) - *SweetAlert2 - a beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes*

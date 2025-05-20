@@ -18,99 +18,56 @@
 4. https://wangdoc.com/es6/regex - *正则的扩展 - ES6 教程 - 网道*
 5. https://www.jb51.net/article/126943.htm - *史上最全的PHP正则表达式*
 
+### 速查表
+
+https://wangchujiang.com/reference/docs/regex.html - *RegEX 备忘清单 & regex cheatsheet & Quick Reference*
+
 ## 入门指南
 
 普通字符（例如，a 到 z 之间的字母）
 
-### 语法
-
-| 序号  | 字符 | 描述 |
-| :--- | :--- | :--- |
-| 1 | `?` | 通配符匹配 0 个或 1 个字符 |
-| 2 | `*` | 通配符匹配 0 个或多个字符 |
-| 3 | `+` | 通配符匹配 1 个或多个字符 |
-| 4 | `^` | 匹配输入字符串的开始位置 |
-| 5 | `$` | 匹配输入字符串的结束位置 |
-| 6 | `[ABC]`  | 匹配 [...] 中的所有字符，例如 [aeiou] 匹配字符串 "google runoob taobao" 中所有的 e o u a 字母 |
-| 7 | `[^ABC]` | 匹配除了 [...] 中字符的所有字符，例如 [^aeiou] 匹配字符串 "google runoob taobao" 中除了 e o u a 字母的所有字母 |
-| 8 | `[A-Z]`  | [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母 |
-| 9 | `.` | 匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r] |
-| 10 | `[\s\S]` | 匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行 |
-| 11 | `[\s]` | 匹配任何空白字符，包括空格、制表符、换页符等等。等价于 [ \f\n\r\t\v] |
-| 12 | `[\S]` | 匹配任何非空白字符。等价于 [^ \f\n\r\t\v] |
-| 13 | `\w` | 匹配字母、数字、下划线。等价于 [A-Za-z0-9_] |
-| 14 | `\W` | 匹配非字母、数字、下划线。等价于 [^A-Za-z0-9_] |
-| 15 | `\d` | 匹配任意一个阿拉伯数字（0 到 9）。等价于 [0-9] |
-| 16 | `\D` | 匹配一个非数字字符。等价于 [^0-9]。 |
-| 17 | `{n}` | n 是一个非负整数。匹配确定的 n 次。例如，o{2} 不能匹配 "Bob" 中的 o，但是能匹配 "food" 中的两个 o。 |
-| 18 | `{n,}` | n 是一个非负整数。至少匹配n 次。例如，o{2,} 不能匹配 "Bob" 中的 o，但能匹配 "foooood" 中的所有 o。o{1,} 等价于 o+。o{0,} 则等价于 o*。 |
-| 19 | `{n,m}`  | n 和 m 均为非负整数，其中 n <= m。最少匹配 n 次且最多匹配 m 次。例如，o{1,3} 将匹配 "fooooood" 中的前三个 o。o{0,1} 等价于 o?。请注意在逗号和两个数之间不能有空格。 |
+| 字符 | 描述 |
+| :--- | :--- |
+| `?` | 通配符匹配 0 个或 1 个字符 |
+| `*` | 通配符匹配 0 个或多个字符 |
+| `+` | 通配符匹配 1 个或多个字符 |
+| `^` | 匹配输入字符串的开始位置 |
+| `$` | 匹配输入字符串的结束位置 |
+| `[ABC]`  | 匹配 [...] 中的所有字符，例如 [aeiou] 匹配字符串 "google runoob taobao" 中所有的 e o u a 字母 |
+| `[^ABC]` | 匹配除了 [...] 中字符的所有字符，例如 [^aeiou] 匹配字符串 "google runoob taobao" 中除了 e o u a 字母的所有字母 |
+| `[A-Z]`  | [A-Z] 表示一个区间，匹配所有大写字母，[a-z] 表示所有小写字母 |
+| `.` | 匹配除换行符（\n、\r）之外的任何单个字符，相等于 [^\n\r] |
+| `[\s\S]` | 匹配所有。\s 是匹配所有空白符，包括换行，\S 非空白符，不包括换行 |
+| `[\s]` | 匹配任何空白字符，包括空格、制表符、换页符等等。等价于 [ \f\n\r\t\v] |
+| `[\S]` | 匹配任何非空白字符。等价于 [^ \f\n\r\t\v] |
+| `\w` | 匹配字母、数字、下划线。等价于 [A-Za-z0-9_] |
+| `\W` | 匹配非字母、数字、下划线。等价于 [^A-Za-z0-9_] |
+| `\d` | 匹配任意一个阿拉伯数字（0 到 9）。等价于 [0-9] |
+| `\D` | 匹配一个非数字字符。等价于 [^0-9]。 |
+| `{n}` | n 是一个非负整数。匹配确定的 n 次。例如，o{2} 不能匹配 "Bob" 中的 o，但是能匹配 "food" 中的两个 o。 |
+| `{n,}` | n 是一个非负整数。至少匹配n 次。例如，o{2,} 不能匹配 "Bob" 中的 o，但能匹配 "foooood" 中的所有 o。o{1,} 等价于 o+。o{0,} 则等价于 o*。 |
+| `{n,m}`  | n 和 m 均为非负整数，其中 n <= m。最少匹配 n 次且最多匹配 m 次。例如，o{1,3} 将匹配 "fooooood" 中的前三个 o。o{0,1} 等价于 o?。请注意在逗号和两个数之间不能有空格。 |
 
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 – 语法 | 菜鸟教程*
 
-### 量词(限定符 *, +, ?, {n}, {n,}, {n,m})
+### 修饰符(g,i,m,s)
 
-| 字符 | 描述 |
-| --- | :--- |
-| \* | 匹配前面的子表达式零次或多次。例如，zo\* 能匹配 **"z"** 以及 **"zoo"** 。\* 等价于 {0,}。 |
-| + | 匹配前面的子表达式一次或多次。例如，zo+ 能匹配 **"zo"** 以及 **"zoo"** ，但不能匹配 **"z"** 。+ 等价于 {1,}。 |
-| ? | 匹配前面的子表达式零次或一次。例如，do(es)? 可以匹配 **"do"** 、 **"does"**、 **"doxy"** 中的 **"do"** 和 **"does"** 。? 等价于 {0,1}。|
-| {n} | n 是一个非负整数。匹配确定的 **n** 次。例如，o{2} 不能匹配 **"Bob"** 中的 **o**，但是能匹配 **"food"** 中的两个 **o**。 |
-| {n,} | n 是一个非负整数。至少匹配n 次。例如，o{2,} 不能匹配 **"Bob"** 中的 **o**，但能匹配 **"foooood"** 中的所有 **o**。o{1,} 等价于 o+。o{0,} 则等价于 o\*。 |
-| {n,m} | m 和 n 均为非负整数，其中 n <= m。最少匹配 n 次且最多匹配 m 次。例如，o{1,3} 将匹配 **"fooooood"** 中的前三个 **o**。o{0,1} 等价于 o?。请注意在逗号和两个数之间不能有空格。 |
+| 修饰符 | 含义 | 描述 |
+| --- | --- | --- |
+| `i` | ignore - 不区分大小写 | 将匹配设置为不区分大小写，搜索时不区分大小写: A 和 a 没有区别。 |
+| `g` | global - 全局匹配 | 查找所有的匹配项。 |
+| `m` | multi line - 多行匹配 | 使边界字符 `^` 和 `$` 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾。 |
+| `s` | 特殊字符圆点 `.` 中包含换行符 `\n` | 默认情况下的圆点 `.` 是匹配除换行符 `\n` 之外的任何字符，加上 `s` 修饰符之后, `.` 中包含换行符 `\n`。 |
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - _Quantifier: *, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN_
-
-### 定位符(^,$,\b,\B)
-
-| 字符 | 描述 |
-| --- | :--- |
-| \^ | 匹配输入字符串开始的位置。如果设置了 RegExp 对象的 Multiline 属性，^ 还会与 \\n 或 \\r 之后的位置匹配。 |
-| \$ | 匹配输入字符串结尾的位置。如果设置了 RegExp 对象的 Multiline 属性，$ 还会与 \\n 或 \\r 之前的位置匹配。 |
-| \\b | 匹配一个单词边界，即字与空格间的位置。 |
-| \\B | 非单词边界匹配。 |
-
-### 修饰符(i,g,m,s)
-
-| 序号 | 修饰符 | 含义 | 描述 |
-| --- | --- | --- | --- |
-| 1 | i | ignore - 不区分大小写 | 将匹配设置为不区分大小写，搜索时不区分大小写: A 和 a 没有区别。 |
-| 2 | g | global - 全局匹配 | 查找所有的匹配项。 |
-| 3 | m | multi line - 多行匹配 | 使边界字符 `^` 和 `$` 匹配每一行的开头和结尾，记住是多行，而不是整个字符串的开头和结尾。 |
-| 4 | s | 特殊字符圆点 `.` 中包含换行符 `\n` | 默认情况下的圆点 `.` 是匹配除换行符 `\n` 之外的任何字符，加上 `s` 修饰符之后, `.` 中包含换行符 `\n`。 |
+<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions#正则表达式标志> - *正则表达式 - JavaScript | MDN*
 
 详见：https://www.runoob.com/regexp/regexp-flags.html - *正则表达式 – 修饰符（标记） | 菜鸟教程*
-
-### 特殊字符(\n,\r,\\,|)
-
-特殊字符（称为“[元字符](https://www.runoob.com/regexp/regexp-metachar.html)”）
-
-字符 | 描述
---- | :---
-\\ | 将下一个字符标记为一个特殊字符、或一个原义字符、或一个 向后引用、或一个八进制转义符。例如，'n' 匹配字符 "n"。'\n' 匹配一个换行符。序列 '\\\\' 匹配 "\\" 而 "\\(" 则匹配 "("。 |
-x\|y | 匹配 x 或 y。例如，'z\|food' 能匹配 "z" 或 "food"。'(z\|f)ood' 则匹配 "zood" 或 "food"。
-... | ...
-
-详见：
-
-1. https://www.runoob.com/regexp/regexp-metachar.html - *正则表达式 – 元字符 | 菜鸟教程*
-2. <https://wangdoc.com/javascript/stdlib/regexp#特殊字符> - *RegExp 对象 - JavaScript 教程 - 网道*
-
-### 捕获组(...)
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group - *Capturing group: (...) - JavaScript | MDN*
-
-#### 非捕获分组(?:)
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Non-capturing_group - *Non-capturing group: (?:...) - JavaScript | MDN*
-
-#### 具名捕获组(?\<name>)
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group - *Named capturing group: (?<name>...) - JavaScript | MDN*
 
 ### 断言
 
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 - 语法*
+
+<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions#断言> - *正则表达式 - JavaScript | MDN*
 
 参考：
 
@@ -120,6 +77,24 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 4. https://blog.csdn.net/keheinash/article/details/103063843 - *正则表达式中断言的使用以及简单例子_正则断言-CSDN博客*
 5. https://www.php.net/manual/zh/regexp.reference.assertions.php - *PHP: 断言 - Manual*
 6. https://www.jianshu.com/p/31d5854bde6f - *正则表达式中的断言(assertions) - SpaceCat - 简书*
+
+#### 输入边界断言(^,$)
+
+| 字符 | 描述 |
+| --- | :--- |
+| `^` | 匹配输入字符串开始的位置。如果设置了 RegExp 对象的 Multiline 属性，^ 还会与 \\n 或 \\r 之后的位置匹配。 |
+| `$` | 匹配输入字符串结尾的位置。如果设置了 RegExp 对象的 Multiline 属性，$ 还会与 \\n 或 \\r 之前的位置匹配。 |
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Input_boundary_assertion - *Input boundary assertion: ^, $ - JavaScript | MDN*
+
+#### 单词边界断言(\b,\B)
+
+| 字符 | 描述 |
+| --- | :--- |
+| `\b` | 匹配一个单词边界，即字与空格间的位置。 |
+| `\B` | 非单词边界匹配。 |
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Word_boundary_assertion - *Word boundary assertion: \b, \B - JavaScript | MDN*
 
 #### 先行断言(?=,?!)
 
@@ -135,15 +110,23 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookbehind_assertion - *Lookbehind assertion: (?<=...), (?<!...) - JavaScript | MDN*
 
-### 贪婪模式(.*)
+### 原子
 
-详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 - 语法*
+<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions#原子> - *正则表达式 - JavaScript | MDN*
 
-贪婪模式：`.*`
+#### 捕获组(...)
 
-非（取消）贪婪模式：`.*?`（使用 ? 来取消贪婪，? 表示匹配前面的内容 0 次或者 1 次）
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Capturing_group - *Capturing group: (...) - JavaScript | MDN*
 
-### 反向引用(\num)
+#### 非捕获分组(?:)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Non-capturing_group - *Non-capturing group: (?:...) - JavaScript | MDN*
+
+#### 具名捕获组(?\<name>)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group - *Named capturing group: (?<name>...) - JavaScript | MDN*
+
+#### 反向引用(\num)
 
 正则表达式反向引用 `\1` `\2` 类型的用途
 
@@ -162,9 +145,158 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Backreference - *Backreference: \1, \2 - JavaScript | MDN*
 
+#### 具名反向引用(\k\<name>)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Named_backreference - *Named backreference: \k\<name> - JavaScript | MDN*
+
+#### 字符类([...],[^...])
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class - *Character class: [...], [^...] - JavaScript | MDN*
+
+#### 字符类转义(\d,\D,\w,\W,\s,\S)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_class_escape - *Character class escape: \d, \D, \w, \W, \s, \S - JavaScript | MDN*
+
+#### 字符转义(\n,\u{...})
+
+字符 | 描述
+--- | :---
+`\` | 将下一个字符标记为一个特殊字符、或一个原义字符、或一个 向后引用、或一个八进制转义符。例如，'n' 匹配字符 "n"。'\n' 匹配一个换行符。序列 '\\\\' 匹配 "\\" 而 "\\(" 则匹配 "("。 |
+
+详见：
+
+1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Character_escape - *Character escape: \n, \u{...} - JavaScript | MDN*
+2. <https://wangdoc.com/javascript/stdlib/regexp#特殊字符> - *RegExp 对象 - JavaScript 教程 - 网道*
+
+#### 字面字符(a,b)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Literal_character - *Literal character: a, b - JavaScript | MDN*
+
+#### Unicode 字符类转义(p{...},\P{...})
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape - *Unicode 字符类转义：\p{...}、\P{...} - JavaScript | MDN*
+
+#### 通配符(.)
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Wildcard - *Wildcard: . - JavaScript | MDN*
+
+### 其他特性
+
+<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions#其他特性> - *正则表达式 - JavaScript | MDN*
+
+#### 析取（逻辑或）(|)
+
+字符 | 描述
+--- | :---
+`x\|y` | 匹配 x 或 y。例如，'z\|food' 能匹配 "z" 或 "food"。'(z\|f)ood' 则匹配 "zood" 或 "food"。
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Disjunction - *Disjunction: | - JavaScript | MDN*
+
+#### 量词(*, +, ?, {n}, {n,}, {n,m})
+
+| 字符 | 描述 |
+| --- | :--- |
+| `*` | 匹配前面的子表达式零次或多次。例如，zo\* 能匹配 **"z"** 以及 **"zoo"** 。\* 等价于 {0,}。 |
+| `+` | 匹配前面的子表达式一次或多次。例如，zo+ 能匹配 **"zo"** 以及 **"zoo"** ，但不能匹配 **"z"** 。+ 等价于 {1,}。 |
+| `?` | 匹配前面的子表达式零次或一次。例如，do(es)? 可以匹配 **"do"** 、 **"does"**、 **"doxy"** 中的 **"do"** 和 **"does"** 。? 等价于 {0,1}。|
+| `{n}` | n 是一个非负整数。匹配确定的 **n** 次。例如，o{2} 不能匹配 **"Bob"** 中的 **o**，但是能匹配 **"food"** 中的两个 **o**。 |
+| `{n,}` | n 是一个非负整数。至少匹配n 次。例如，o{2,} 不能匹配 **"Bob"** 中的 **o**，但能匹配 **"foooood"** 中的所有 **o**。o{1,} 等价于 o+。o{0,} 则等价于 o\*。 |
+| `{n,m}` | m 和 n 均为非负整数，其中 n <= m。最少匹配 n 次且最多匹配 m 次。例如，o{1,3} 将匹配 **"fooooood"** 中的前三个 **o**。o{0,1} 等价于 o?。请注意在逗号和两个数之间不能有空格。 |
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Quantifier - _Quantifier: *, +, ?, {n}, {n,}, {n,m} - JavaScript | MDN_
+
+##### 贪婪模式(.*)
+
+`*` 和 `+` 限定符都是贪婪的，因为它们会尽可能多的匹配文字，只有在它们的后面加上一个 `?` 就可以实现非贪婪或最小匹配。
+
+例如，您可能搜索 HTML 文档，以查找在 h1 标签内的内容。HTML 代码如下：
+
+```html
+<h1>RUNOOB-菜鸟教程</h1>
+```
+
+贪婪：下面的表达式匹配从开始小于符号 (<) 到关闭 h1 标记的大于符号 (>) 之间的所有内容。
+
+```regex
+/<.*>/
+```
+
+非贪婪：如果您只需要匹配开始和结束 h1 标签，下面的非贪婪表达式只匹配 `<h1>`。
+
+```regex
+/<.*?>/
+```
+
+通过在 *、+ 或 ? 限定符之后放置 ?，该表达式从"贪婪"表达式转换为"非贪婪"表达式或者最小匹配。
+
+详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 - 语法*
+
+贪婪模式：`.*`
+
+非（取消）贪婪模式：`.*?`（使用 ? 来取消贪婪，? 表示匹配前面的内容 0 次或者 1 次）
+
+### 转义序列
+
+<https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions#转义序列> - *正则表达式 - JavaScript | MDN*
+
+#### \B
+#### \D
+#### \P
+#### \S
+#### \W
+#### \b
+#### \c
+#### \d
+#### \f
+#### \k
+#### \n
+#### \p
+#### \r
+#### \s
+#### \t
+#### \u
+#### \v
+#### \w
+#### \0
+
 ## 用法
 
 ### 在编程语言中使用
+
+#### Java
+
+教程：
+
+1. https://www.runoob.com/java/java-regular-expressions.html - *Java 正则表达式 | 菜鸟教程*
+
+#### JavaScript
+
+教程：
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions - *正则表达式 - JavaScript | MDN*
+2. https://wangdoc.com/javascript/stdlib/regexp - *RegExp 对象 - JavaScript 教程 - 网道*
+3. https://wangdoc.com/es6/regex - *正则的扩展 - ES6 教程 - 网道*
+
+用法：
+
+方式一：
+
+```javascript
+var str = "abc123def";
+var pattern = /[0-9]+/;
+document.write(str.match(pattern)); // 输出：123
+```
+
+方式二：
+
+```javascript
+var pattern = /^[a-zA-Z0-9_-]{4,16}$/; // 用户名正则，4 到 16 位（字母，数字，下划线，减号）
+document.write(pattern.test("runoob123")); // 输出：true
+```
+
+方式三：
+
+[代码片段 - javascript 字符串替换](snippets/javascript.md#字符串替换)
 
 #### PHP
 
@@ -198,37 +330,6 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 3. https://www.cnblogs.com/liliuguang/p/10411396.html - *php中正则表达式详解*
 4. http://c.biancheng.net/view/7569.html - *PHP正则表达式，看这一篇就够了*
 
-#### Java
-
-教程：
-
-1. https://www.runoob.com/java/java-regular-expressions.html - *Java 正则表达式 | 菜鸟教程*
-
-#### JavaScript
-
-教程：
-
-1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions - *正则表达式 - JavaScript | MDN*
-2. https://wangdoc.com/javascript/stdlib/regexp - *RegExp 对象 - JavaScript 教程 - 网道*
-3. https://wangdoc.com/es6/regex - *正则的扩展 - ES6 教程 - 网道*
-
-用法：
-
-方式一：
-
-```javascript
-var str = "abc123def";
-var pattern = /[0-9]+/;
-document.write(str.match(pattern)); // 输出：123
-```
-
-方式二：
-
-```javascript
-var pattern = /^[a-zA-Z0-9_-]{4,16}$/; // 用户名正则，4 到 16 位（字母，数字，下划线，减号）
-document.write(pattern.test("runoob123")); // 输出：true
-```
-
 ### 在应用程序中使用
 
 正则替换，有关详细信息，请参阅“[regex](snippets/regex.md)”。
@@ -237,11 +338,19 @@ document.write(pattern.test("runoob123")); // 输出：true
 
 暂无
 
+#### Vim
+
+<https://wangchujiang.com/reference/docs/vim#vim-搜索和替换> - *Vim 备忘清单 & vim cheatsheet & Quick Reference*
+
 ## 工具
 
 ### Web
 
-1. https://regex101.com/ - *regex101: build, test, and debug regex*
+1. https://regex101.com/ - *regex101: build, test, and debug regex* [GitHub Repo](https://github.com/firasdib/Regex101)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/firasdib/Regex101?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/firasdib/Regex101?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/firasdib/Regex101?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/firasdib/Regex101?style=social)
 2. https://ihateregex.io/ - *i Hate Regex - The Regex Cheat Sheet* [GitHub Repo](https://github.com/geongeorge/i-hate-regex)
     ![GitHub last commit](https://img.shields.io/github/last-commit/geongeorge/i-hate-regex?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/geongeorge/i-hate-regex?display_date=published_at&logo=github)
@@ -249,6 +358,7 @@ document.write(pattern.test("runoob123")); // 输出：true
     ![GitHub Repo stars](https://img.shields.io/github/stars/geongeorge/i-hate-regex?style=social)
 3. https://toolwa.com/regex/ - *正则表达式在线测试 - 工具哇 - 在线工具大全*
 4. https://www.lddgo.net/string/text-replace - *在线文本替换工具*
+5. https://c.runoob.com/front-end/854/ - *正则表达式在线测试*
 
 ## 实例
 
@@ -310,12 +420,6 @@ https://www.cnblogs.com/blogforly/p/5644049.html - *PHP手机号码正则表达�
 /[\x{4e00}-\x{9fa5}]+/
 ```
 
-### 2 位至 6 位中文字符
-
-```regex
-/^[\x{4e00}-\x{9fa5}]{2,6}$/u
-```
-
 参考：
 
 1. https://www.cnblogs.com/diguaer/p/5609938.html - *PHP判断是否都是中文 - diguaer - 博客园*
@@ -364,7 +468,7 @@ https://blog.csdn.net/wake_me_up123/article/details/78471948 - *PHP-身份证号
 
 https://www.cnblogs.com/chenjiacheng/p/6522598.html - *php正则表达式验证手机/固定电话/邮箱/身份证/银行卡自定义函数*
 
-### URL
+### URI
 
 ```regex
 /^http://([\w-]+\.)+[\w-]+(/[\w-./?%&=]*)?$/

@@ -1,42 +1,38 @@
 # User Interface
 
-- Editor - 编辑器
-- Side Bar - 侧边栏
-- Status Bar - 状态栏
 - Activity Bar - 活动栏
-- Panel - 面板
-- Tabs - 标签
-- Minimap - 迷你地图
+- Address Bar - 地址栏
 - Breadcrumbs (Navigation Bar) - 面包屑（导航栏）
+- Context Menu - 上下文菜单
+- Editor - 编辑器
 - Explorer View - 资源管理器视图
     - Outline View - 大纲视图
     - Timeline View - 时间线视图
-- Views - 视图
-- Tool Bars - 工具栏
 - Menu Bar - 菜单栏
-- Context Menu - 上下文菜单
+- Minimap - 迷你地图
+- Panel - 面板
+- Search Bar - 搜索栏
+- Side Bar - 侧边栏
+- Status Bar - 状态栏
+- Tabs - 标签
+- Tool Bars - 工具栏
+- Views - 视图
+- Webpage - 网页
+- Window - 窗口
 - ${filename}
 - ${extname}
 - ${dirname}
 
-网页浏览器
+## Layout
 
-- address bar - 地址栏
-- menu bar - 菜单栏
-- tabbar - 标签栏
-- toolbar - 工具栏
-- webpage - 网页
+### Desktop App
 
-### UI Layout
+- Menu Bar - 菜单栏
+- Tab Bar - 标签栏
+- Tool Bar - 工具栏
+- Window - 窗口
 
-#### Desktop App
-
-- menu bar - 菜单栏
-- tab bar - 标签栏
-- tool bar - 工具栏
-- window - 窗口
-
-#### Mobile App
+### Mobile App
 
 - System Bars - 系统栏
     - Status Bar - 状态栏
@@ -44,14 +40,31 @@
 - Layout & Content - 布局和内容
     - Navigation region - 导航区域
 
-https://developer.android.google.cn/design/ui?hl=zh-cn - *界面设计  |  UI Design  |  Android Developers*
+![system-bars-gradient-protection.png (1999×389)](https://developer.android.google.cn/static/images/design/ui/mobile/system-bars-gradient-protection.png?hl=zh-cn)
 
-https://developer.android.google.cn/design/ui - *UI Design  |  Android Developers*
+![system-bars-gesture-handle.png (2048×468)](https://developer.android.google.cn/static/images/design/ui/mobile/system-bars-gesture-handle.png?hl=zh-cn)
 
-#### Web App
+![system-bars-display-cutouts.png (2048×468)](https://developer.android.google.cn/static/images/design/ui/mobile/system-bars-display-cutouts.png?hl=zh-cn)
 
-- 菜单栏
-- 导航栏
+参考：
+
+1. https://developer.android.google.cn/design/ui?hl=zh-cn - *界面设计 | UI Design | Android Developers*
+2. https://developer.android.google.cn/design/ui - *UI Design | Android Developers*
+
+### Web Browser
+
+- Address Bar - 地址栏
+- Menu Bar - 菜单栏
+- Tabbar - 标签栏
+- Toolbar - 工具栏
+- Webpage - 网页
+
+### Web App
+
+![how-to-use.gif (1191×933)](https://learn.microsoft.com/zh-cn/powershell/docs-conceptual/media/how-to-use-docs/how-to-use.gif)
+
+- Menu bar - 菜单栏
+- Navigation bar - 导航栏
     - Site level navigation - 网站级别导航（页面顶部）
     - Related content navigation - 相关内容导航（站点级别导航正下方）
     - In this article - 本文内容
@@ -59,10 +72,11 @@ https://developer.android.google.cn/design/ui - *UI Design  |  Android Develop
 - Action buttons - 操作按钮
 
 浏览器布局说明图，参考：
-1. https://learn.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs?view=powershell-7.3 - *如何使用 PowerShell 文档 - PowerShell | Microsoft Learn*
-2. https://learn.microsoft.com/en-us/powershell/scripting/how-to-use-docs?view=powershell-7.5 - *How to use the PowerShell documentation - PowerShell | Microsoft Learn*
+1. https://learn.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs - *如何使用 PowerShell 文档 - PowerShell | Microsoft Learn*
+2. https://learn.microsoft.com/en-us/powershell/scripting/how-to-use-docs - *How to use the PowerShell documentation - PowerShell | Microsoft Learn*
+3. https://docs.github.com/zh - *GitHub Docs*
 
-#### Developer
+## Developer
 
 1. [Design](design/README.md)
 2. [HTML](front-end/html/README.md)
@@ -191,34 +205,241 @@ Modifier：
 - size big
 - color yellow
 
-##### Material Design
+### Material Design
 
 > Material design file manager for Android. Contribute to TeamAmaze/AmazeFileManager development by creating an account on GitHub.
 
 https://m3.material.io/ - *Material Design*
 
+Main menu
+- Home
+- Get started
+- Develop
+  - Develop overview
+  - Android
+    - MDC-Android
+    - Jetpack-Compose
+  - Flutter
+  - Web
+- Foundations
+  - Foundations overview
+  - Accessibility
+    - Overview
+    - Designing
+    - Writing and text
+  - Adaptive design
+  - Content design
+    - Overview
+    - Alt text
+    - Global writing
+    - Notifications
+    - Style guide
+  - Customizing Material
+  - Design tokens
+  - Interaction
+    - Gestures
+    - Inputs
+    - Selection
+    - States
+  - Layout
+    - Layout basics
+    - Applying layout
+    - Canonical layouts
+  - Marerial A-Z
+  - Building for all
+- Styles
+  - Styles overview
+  - Color
+    - Color system
+    - Color roles
+    - Color schemes
+      - Choosing a scheme
+      - Static
+      - Dynamic
+    - Advanced
+    - Color resources
+  - Elevation
+  - Icons
+  - Motion
+    - Overview
+    - Easing and duration
+    - Transitions
+  - Shape
+  - Typography
+- Components
+  - [Components overview](#components)
+  - [App bars](#app-bars)
+    - Bottom app bar
+    - Top app bar
+  - Badges
+  - Buttons
+    - All buttons
+    - Common butto
+    - FAB
+    - Extended FAB
+    - Icon buttons
+    - Segmented buttons
+  - Cards
+  - Carousel
+  - Checkbox
+  - Chips
+  - Date & time pickers
+    - Date pickers
+    - Time pickers
+  - Dialogs
+  - Divider
+  - Lists
+  - [Menus](#menus)
+  - [Navigation](#navigation)
+    - Navigation bar
+    - Navigation drawer
+    - Navigation rail
+  - Progress indicators
+  - Radio button
+  - [Search](#search)
+  - Sheets
+    - Bottom sheets
+    - Side sheets
+  - Sliders
+  - Snackbar
+  - Switch
+  - [Tabs](#tabs)
+  - Text fields
+  - Tooltips
+- Blog
+
 https://github.com/material-components - *Material Components · GitHub*
 
-- https://github.com/material-components/material-components-android - *GitHub - material-components/material-components-android: Modular and customizable Material Design UI components for Android*
+#### Android
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-android?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-android?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-android?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-android?style=social)
+https://github.com/material-components/material-components-android - *GitHub - material-components/material-components-android: Modular and customizable Material Design UI components for Android*
 
-- https://github.com/material-components/material-components-ios - *GitHub - material-components/material-components-ios: [In maintenance mode] Modular and customizable Material Design UI components for iOS*
+  ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-android?logo=github&color=blue)
+  ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-android?display_date=published_at&logo=github)
+  ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-android?logo=github)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-android?style=social)
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-ios?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-ios?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-ios?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-ios?style=social)
+#### iOS
 
-- https://github.com/material-components/material-web - *GitHub - material-components/material-web: Material Design Web Components* [Website](https://material-web.dev)
+https://github.com/material-components/material-components-ios - *GitHub - material-components/material-components-ios: [In maintenance mode] Modular and customizable Material Design UI components for iOS*
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-web?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-web?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-web?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-web?style=social)
+  ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-components-ios?logo=github&color=blue)
+  ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-components-ios?display_date=published_at&logo=github)
+  ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-components-ios?logo=github)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-components-ios?style=social)
+
+#### Web
+
+https://github.com/material-components/material-web - *GitHub - material-components/material-web: Material Design Web Components* [Website](https://material-web.dev)
+
+  ![GitHub last commit](https://img.shields.io/github/last-commit/material-components/material-web?logo=github&color=blue)
+  ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/material-components/material-web?display_date=published_at&logo=github)
+  ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/material-components/material-web?logo=github)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/material-components/material-web?style=social)
+
+### Primer
+
+> The Design System for github
+
+https://primer.style/ - *Primer*
+
+https://github.com/primer - *Primer · GitHub*
+
+#### Octicons
+
+https://primer.style/octicons/ - *Octicons | Primer*
+
+https://github.com/primer/octicons - *GitHub - primer/octicons: A scalable set of icons handcrafted with \<3 by GitHub*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/octicons?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/primer/octicons?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/primer/octicons?logo=github)
+![GitHub Repo
+stars](https://img.shields.io/github/stars/primer/octicons?style=social)
+
+#### CSS
+
+https://primer.style/css - *Introduction - Docs ⋅ Storybook*
+
+https://github.com/primer/css - *GitHub - primer/css: Primer is GitHub's design system. This is the CSS implementation*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/css?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/primer/css?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/primer/css?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/primer/css?style=social)
+
+#### Design
+
+https://primer.style/ - *Primer*
+
+https://github.com/primer/design - *GitHub - primer/design: Primer Design Guidelines*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/design?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/primer/design?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/primer/design?logo=github)
+![GitHub Repo
+stars](https://img.shields.io/github/stars/primer/design?style=social)
+
+#### Primitives
+
+https://primer.style/primitives - *primer.style/primitives*
+
+https://github.com/primer/primitives - *GitHub - primer/primitives: Color, typography, and spacing primitives in json.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/primer/primitives?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/primer/primitives?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/primer/primitives?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/primer/primitives?style=social)
+
+## Designer
+
+### Figma
+
+暂无
+
+## Theming
+
+暂无
+
+### Color
+
+暂无
+
+### Shape
+
+暂无
+
+### Typograhpy
+
+暂无
+
+## Components
+
+1. [App Bars](#app-bars)
+2. [Menus](#menus)
+3. [Navigation](#navigation)
+4. [Search](#search)
+5. [Tabs](#tabs)
+
+### App Bars
+
+暂无
+
+### Menus
+
+![hero.webp (2400×1200)](https://material-web.dev/components/images/menu/hero.webp)
+
+### Navigation
+
+暂无
+
+### Search
+
+暂无
+
+### Tabs
+
+![hero.webp (1200×1200)](https://material-web.dev/components/images/tabs/hero.webp)
 
 ## Reference
 

@@ -8,17 +8,15 @@
 >
 > <cite>—— [HTTP | MDN](https://developer.mozilla.org/zh-CN/docs/Web/HTTP)</cite>
 
-
 ## 教程
 
 1. https://developer.mozilla.org/zh-CN/docs/Web/HTTP - *HTTP | MDN*
 
-2. https://www.runoob.com/http/http-tutorial.html - *菜鸟教程*
+2. https://www.runoob.com/http/http-tutorial.html - *HTTP 教程 | 菜鸟教程*
 
 3. https://www.kancloud.cn/kancloud/tealeaf-http/43837 - *HTTP 下午茶*
 
 4. https://segmentfault.com/a/1190000017874063 - *一篇文章带你了解http/https*
-
 
 ## 版本
 
@@ -71,56 +69,7 @@ HTTP/1.1 相较于 HTTP/1.0 协议的区别主要体现在：
 
 HTTP 1.0 规定浏览器与服务器只保持短暂的连接，浏览器的每次请求都需要与服务器建立一个 TCP 连接，服务器完成请求处理后立即断开 TCP 连接，服务器不跟踪每个客户也不记录过去的请求。
 
-## 请求
-
-### Headers
-
-https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers - *HTTP Headers - HTTP | MDN*
-
-- Content-type（响应类型）
-
-  - application/json; charset=utf-8
-  - image/png; charset=utf-8
-
-  - MIME - *Content-type 的值即为 mime 的值*
-    - image/bmp
-    - image/gif
-    - image/jpeg
-    - image/png
-    - image/x-icon
-    - text/html
-
-- Content-length
-
-- 浏览器缓存
-
-  https://segmentfault.com/a/1190000009970329 - *最常被遗忘的Web性能优化：浏览器缓存*
-
-- last-modified
-
-- etag
-
-- expires
-
-- cache-control
-
-- Request
-
-- Response
-
-- 字符集和字符编码相关的消息头是 `Accept-Charset / Content-Type`
-
-  - `Accept-Charset`：浏览器申明自己接收的字符集，这就是本文前面介绍的各种字符集和字符编码，如gb2312，utf-8（通常我们说Charset包括了相应的字符编码方案）；
-
-  - `Accept-Encoding`：浏览器申明自己接收的编码方法，通常指定压缩方法，是否支持压缩，支持什么压缩方法（gzip，deflate），（注意：这不是只字符编码）；
-
-  - `Accept-Language`：浏览器申明自己接收的语言。语言跟字符集的区别：中文是语言，中文有多种字符集，比如big5，gb2312，gbk等等；
-
-  - `Content-Type`：WEB服务器告诉浏览器自己响应的对象的类型和字符集。例如：Content-Type: text/html; charset='gb2312'
-
-  - `Content-Encoding`：WEB服务器表明自己使用了什么压缩方法（gzip，deflate）压缩响应中的对象。例如：Content-Encoding：gzip
-
-  - `Content-Language`：WEB服务器告诉浏览器自己响应的对象的语言。
+## 入门指南
 
 HTTP 协议采用请求 / 响应模型
 
@@ -163,7 +112,7 @@ HTTP 头域：
   - 4xx:客户端错误，客户请求包含语法错误或者是不能正确执行
   - 5xx:服务端错误，服务器不能正确执行一个正确的请求
 
-  - Location	用于重定向接收者到一个新URI地址
+  - Location	用于重定向接收者到一个新 URI 地址
   - Server
 
 - 实体头
@@ -183,17 +132,117 @@ HTTP 头域：
   - 应答/响应报文格式：
     - 状态行 - 通用信息头 - 响应头 - 实体头 - 报文主体
 
+### 请求
 
-#### MIME
+#### 方法
 
-> 媒体类型（通常称为 Multipurpose Internet Mail Extensions 或 MIME 类型 ）是一种标准，用来表示文档、文件或字节流的性质和格式。它在IETF RFC 6838中进行了定义和标准化。<https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/MIME_types>
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Methods - *HTTP 请求方法 - HTTP | MDN*
 
-请参阅 [IANA MIME 类型](http://www.iana.org/assignments/media-types/)，获得标准 MIME 类型的完整列表。
+### 响应
 
-https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions/ - *Multipurpose Internet Mail Extensions (MIME) Encyclopedia*
+#### 状态码
 
+- 100 Continue 服务器仅接收到部分请求，但是一旦服务器并没有拒绝该请求，客户端应该继续发送其余的请求。（HTTP 1.1 新）
+- 101 Switching Protocols 服务器转换协议：服务器将遵从客户的请求转换到另外一种协议。（HTTP 1.1 新）
+- 200 OK 请求成功（其后是对 GET 和 POST 请求的应答文档。）
+- 201 Created 请求被创建完成，同时新的资源被创建。
+- 202 Accepted 供处理的请求已被接受，但是处理未完成。
+- 203 Non-authoritative Information 文档已经正常地返回，但一些应答头可能不正确，因为使用的是文档的拷贝。（HTTP 1.1 新）
+- 204 No Content 没有新文档。浏览器应该继续显示原来的文档。如果用户定期地刷新页面，而 Servlet 可以确定用户文档足够新，这个状态代码是很有用的。
+- 205 Reset Content 没有新文档。但浏览器应该重置它所显示的内容。用来强制浏览器清除表单输入内容。（HTTP 1.1 新）
+- 206 Partial Content 客户发送了一个带有 Range 头的 GET 请求，服务器完成了它。（HTTP 1.1 新）
+- 300 Multiple Choices 多重选择。链接列表。用户可以选择某链接到达目的地。最多允许五个地址。
+- 301 Moved Permanently 所请求的页面已经转移至新的 url。
+- 302 Found 所请求的页面已经临时转移至新的 url。
+- 303 See Other 所请求的页面可在别的 url 下被找到。
+- 304 Not Modified 未按预期修改文档。客户端有缓冲的文档并发出了一个条件性的请求（一般是提供 If-Modified-Since 头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来	缓冲的文档还可以继续使用。
+- 305 Use Proxy 客户请求的文档应该通过 Location 头所指明的代理服务器提取。（HTTP 1.1 新）
+- 306 Unused 此代码被用于前一版本。目前已不再使用，但是代码依然被保留。
+- 307 Temporary Redirect 被请求的页面已经临时移至新的 url。（HTTP 1.1 新）
+- 400 Bad Request 服务器未能理解请求。
+- 401 Unauthorized 被请求的页面需要用户名和密码。
+- 402 Payment Required 此代码尚无法使用。
+- 403 Forbidden 对被请求页面的访问被禁止。
+- 404 Not Found 服务器无法找到被请求的页面。
+- 405 Method Not Allowed 请求中指定的方法不被允许。（HTTP 1.1 新）
+- 406 Not Acceptable 服务器生成的响应无法被客户端所接受。（HTTP 1.1 新）
+- 407 Proxy Authentication Required 用户必须首先使用代理服务器进行验证，这样请求才会被处理。（HTTP 1.1 新）
+- 408 Request Timeout 请求超出了服务器的等待时间。（HTTP 1.1 新）
+- 409 Conflict 由于冲突，请求无法被完成。（HTTP 1.1 新）
+- 410 Gone 被请求的页面不可用。（HTTP 1.1 新）
+- 411 Length Required "Content-Length" 未被定义。如果无此内容，服务器不会接受请求。（HTTP 1.1 新）
+- 412 Precondition Failed 请求中的前提条件被服务器评估为失败。（HTTP 1.1 新）
+- 413 Request Entity Too Large 由于所请求的实体的太大，服务器不会接受请求。（HTTP 1.1 新）
+- 414 Request-url Too Long 由于 url 太长，服务器不会接受请求。当 post 请求被转换为带有很长的查询信息的 get 请求时，就会发生这种情况。（HTTP 1.1 新）
+- 415 Unsupported Media Type 由于媒介类型不被支持，服务器不会接受请求。
+- 416 Requested Range Not Satisfiable 服务器不能满足客户在请求中指定的 Range 头。（HTTP 1.1 新）
+- 417 Expectation Failed 执行失败。
+- 423 锁定的错误。
+- 500 Internal Server Error 请求未完成。服务器遇到不可预知的情况
+- 501 Not Implemented 请求未完成。服务器不支持所请求的功能。
+- 502 Bad Gateway 请求未完成。服务器从上游服务器收到一个无效的响应。
+- 503 Service Unavailable 请求未完成。服务器临时过载或当机。
+- 504 Gateway Timeout 网关超时。（HTTP 1.1 新）
+- 505 HTTP Version Not Supported 服务器不支持请求中指明的 HTTP 协议版本。（HTTP 1.1 新）
 
-#### User-Agent
+参考：
+
+1. https://blog.csdn.net/elifefly/article/details/3964766/ - *HTTP 1.1 与 HTTP 1.0 的比较_html 1.1 和 1.0-CSDN 博客*
+2. https://www.cnblogs.com/gofighting/p/5421890.html - *HTTP1.0 和 HTTP1.1 的区别 - 雪之灵 - 博客园*
+3. https://baike.baidu.com/item/TCP/IP协议 - *TCP/IP 协议_百度百科*
+4. https://www.cnblogs.com/yongshaoye/p/7423881.html - *JS 中的跨域问题 - 泳少爷 - 博客园*
+5. https://www.cnblogs.com/2050/p/3191744.html - *js 中几种实用的跨域方法原理详解 - 无双 - 博客园*
+6. https://www.sohu.com/a/110071655_464071 - *缓存系列文章 --4. 缓存的粒度控制*
+7. https://blog.csdn.net/dinglang_2009/article/details/53420215 - *如何提高缓存命中率 - CSDN 博客*
+8. https://www.zhihu.com/question/24863332 - *什么是面向切面编程 AOP？ - 知乎*
+9. https://baike.baidu.com/item/AOP/1332219 - *AOP（面向切面编程）_百度百科*
+10. https://www.cnblogs.com/cxz/p/6538516.html - *PHP 中的 http 协议 - 当归远志 - 博客园*
+11. https://baike.baidu.com/item/http/243074 - *HTTP_百度百科*
+
+### 标头
+
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers - *HTTP Headers - HTTP | MDN*
+
+- Accept-Charset：浏览器申明自己接收的字符集，这就是本文前面介绍的各种字符集和字符编码，如 gb2312，utf-8（通常我们说 Charset 包括了相应的字符编码方案）
+- Accept-Encoding：浏览器申明自己接收的编码方法，通常指定压缩方法，是否支持压缩，支持什么压缩方法（gzip，deflate），（注意：这不是只字符编码）
+- Accept-Language：浏览器申明自己接收的语言。语言跟字符集的区别：中文是语言，中文有多种字符集，比如 big5，gb2312，gbk 等等
+- Cache-Control
+- Content-Encoding：WEB 服务器表明自己使用了什么压缩方法（gzip，deflate）压缩响应中的对象。例如：Content-Encoding：gzip
+- Content-Length：WEB 服务器告诉浏览器自己响应的对象的语言
+- [Content-Type](#content-type)：WEB 服务器告诉浏览器自己响应的对象的类型和字符集。例如：Content-Type: text/html; charset='gb2312'
+- Etag
+- Expires
+- Last-Modified
+
+浏览器缓存：
+
+1. https://segmentfault.com/a/1190000009970329 - *最常被遗忘的Web性能优化：浏览器缓存*
+
+字符集和字符编码相关的消息头是：
+
+1. Accept-Charset
+2. Content-Type
+
+#### 身份验证
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication -  *HTTP 身份验证 - HTTP | MDN*
+
+2. https://blog.csdn.net/ai2000ai/article/details/85775484 - *HTTP basic auth*
+
+#### Content-Type
+
+语法：
+
+```http
+Content-Type: application/json; charset=utf-8
+Content-Type: image/png; charset=utf-8
+```
+
+[MIME](#mime) - *Content-type 的值即为 mime 的值*
+
+https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers/Content-Type - *Content-Type - HTTP | MDN*
+
+#### 用户代理
 
 教程：
 
@@ -238,95 +287,49 @@ GitHub：
 参考：
 
 1. https://www.codeweavers.com/support/wiki/mac/mactutorial/changeua - *如何在 Mac 上修改您的用户代理 | Knowledge Base | CodeWeavers*
-
 2. https://www.howtogeek.com/211961/how-to-change-safaris-user-agent-in-os-x/ - *How to Change Safari's User Agent on OS X --- 如何在OS X上更改Safari的用户代理*
 
+### MIME 类型
 
-#### 身份验证
+> 媒体类型（通常称为 Multipurpose Internet Mail Extensions 或 MIME 类型 ）是一种标准，用来表示文档、文件或字节流的性质和格式。它在 IETF RFC 6838 中进行了定义和标准化。
 
-1. https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Authentication -  *HTTP 身份验证 - HTTP | MDN*
+Extension | Kind of document | MIME Type
+--- | --- | ---
+`.bmp` | Windows OS/2 Bitmap Graphics | `image/bmp`
+`.css` | Cascading Style Sheets (CSS) | `text/css`
+`.csv` | Comma-separated values (CSV) | `text/csv`
+`.gif` | Graphics Interchange Format (GIF) | `image/gif`
+`.htm`, `.html` | HyperText Markup Language (HTML) | `text/html`
+`.jpeg`, `jpg` | JPEG images | `image/jpeg`
+`.js` | JavaScript | `text/javascript`
+`.json` | JSON format | `application/json`
+`.png` | Portable Network Graphics | `image/png`
+`.pdf` | Adobe Portable Document Format (PDF) | `application/pdf`
+`.svg` | Scalable Vector Graphics (SVG) | `image/svg+xml`
+`.txt` | Text, (generally ASCII or ISO 8859-n) | `text/plain`
 
-2. https://blog.csdn.net/ai2000ai/article/details/85775484 - *HTTP basic auth*
+1. https://developer.mozilla.org/zh-CN/docs/Web/HTTP/MIME_types/Common_types - *常见 MIME 类型列表 - HTTP | MDN*
+2. https://developer.mozilla.org/zh-CN/docs/Web/HTTP/MIME_types - *MIME 类型（IANA 媒体类型） - HTTP | MDN*
+3. https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions/ - *Multipurpose Internet Mail Extensions (MIME) Encyclopedia*
 
+### 安全
 
-## 响应
+#### 跨源资源共享（CORS）
 
-### 状态码
-
-- 100 Continue 服务器仅接收到部分请求，但是一旦服务器并没有拒绝该请求，客户端应该继续发送其余的请求。（HTTP 1.1新）
-- 101 Switching Protocols 服务器转换协议：服务器将遵从客户的请求转换到另外一种协议。（HTTP 1.1新）
-- 200 OK 请求成功（其后是对GET和POST请求的应答文档。）
-- 201 Created 请求被创建完成，同时新的资源被创建。
-- 202 Accepted 供处理的请求已被接受，但是处理未完成。
-- 203 Non-authoritative Information 文档已经正常地返回，但一些应答头可能不正确，因为使用的是文档的拷贝。（HTTP 1.1新）
-- 204 No Content 没有新文档。浏览器应该继续显示原来的文档。如果用户定期地刷新页面，而 Servlet 可以确定用户文档足够新，这个状态代码是很有用的。
-- 205 Reset Content 没有新文档。但浏览器应该重置它所显示的内容。用来强制浏览器清除表单输入内容。（HTTP 1.1新）
-- 206 Partial Content 客户发送了一个带有Range头的GET请求，服务器完成了它。（HTTP 1.1新）
-- 300 Multiple Choices 多重选择。链接列表。用户可以选择某链接到达目的地。最多允许五个地址。
-- 301 Moved Permanently 所请求的页面已经转移至新的url。
-- 302 Found 所请求的页面已经临时转移至新的url。
-- 303 See Other 所请求的页面可在别的url下被找到。
-- 304 Not Modified 未按预期修改文档。客户端有缓冲的文档并发出了一个条件性的请求（一般是提供 If-Modified-Since 头表示客户只想比指定日期更新的文档）。服务器告诉客户，原来	缓冲的文档还可以继续使用。
-- 305 Use Proxy 客户请求的文档应该通过Location头所指明的代理服务器提取。（HTTP 1.1新）
-- 306 Unused 此代码被用于前一版本。目前已不再使用，但是代码依然被保留。
-- 307 Temporary Redirect 被请求的页面已经临时移至新的url。（HTTP 1.1新）
-- 400 Bad Request 服务器未能理解请求。
-- 401 Unauthorized 被请求的页面需要用户名和密码。
-- 402 Payment Required 此代码尚无法使用。
-- 403 Forbidden 对被请求页面的访问被禁止。
-- 404 Not Found 服务器无法找到被请求的页面。
-- 405 Method Not Allowed 请求中指定的方法不被允许。（HTTP 1.1新）
-- 406 Not Acceptable 服务器生成的响应无法被客户端所接受。（HTTP 1.1新）
-- 407 Proxy Authentication Required 用户必须首先使用代理服务器进行验证，这样请求才会被处理。（HTTP 1.1新）
-- 408 Request Timeout 请求超出了服务器的等待时间。（HTTP 1.1新）
-- 409 Conflict 由于冲突，请求无法被完成。（HTTP 1.1新）
-- 410 Gone 被请求的页面不可用。（HTTP 1.1新）
-- 411 Length Required "Content-Length" 未被定义。如果无此内容，服务器不会接受请求。（HTTP 1.1新）
-- 412 Precondition Failed 请求中的前提条件被服务器评估为失败。（HTTP 1.1新）
-- 413 Request Entity Too Large 由于所请求的实体的太大，服务器不会接受请求。（HTTP 1.1新）
-- 414 Request-url Too Long 由于url太长，服务器不会接受请求。当post请求被转换为带有很长的查询信息的 get 请求时，就会发生这种情况。（HTTP 1.1新）
-- 415 Unsupported Media Type 由于媒介类型不被支持，服务器不会接受请求。
-- 416 Requested Range Not Satisfiable 服务器不能满足客户在请求中指定的Range头。（HTTP 1.1新）
-- 417 Expectation Failed 执行失败。
-- 423 锁定的错误。
-- 500 Internal Server Error 请求未完成。服务器遇到不可预知的情况
-- 501 Not Implemented 请求未完成。服务器不支持所请求的功能。
-- 502 Bad Gateway 请求未完成。服务器从上游服务器收到一个无效的响应。
-- 503 Service Unavailable 请求未完成。服务器临时过载或当机。
-- 504 Gateway Timeout 网关超时。（HTTP 1.1新）
-- 505 HTTP Version Not Supported 服务器不支持请求中指明的HTTP协议版本。（HTTP 1.1新）
-
-参考：
-
-1. https://blog.csdn.net/elifefly/article/details/3964766/ - *HTTP 1.1 与 HTTP 1.0 的比较_html 1.1 和 1.0-CSDN 博客*
-2. https://www.cnblogs.com/gofighting/p/5421890.html - *HTTP1.0 和 HTTP1.1 的区别 - 雪之灵 - 博客园*
-3. https://baike.baidu.com/item/TCP/IP协议 - *TCP/IP 协议_百度百科*
-4. https://www.cnblogs.com/yongshaoye/p/7423881.html - *JS 中的跨域问题 - 泳少爷 - 博客园*
-5. https://www.cnblogs.com/2050/p/3191744.html - *js 中几种实用的跨域方法原理详解 - 无双 - 博客园*
-6. https://www.sohu.com/a/110071655_464071 - *缓存系列文章 --4. 缓存的粒度控制*
-7. https://blog.csdn.net/dinglang_2009/article/details/53420215 - *如何提高缓存命中率 - CSDN 博客*
-8. https://www.zhihu.com/question/24863332 - *什么是面向切面编程 AOP？ - 知乎*
-9. https://baike.baidu.com/item/AOP/1332219 - *AOP（面向切面编程）_百度百科*
-10. https://www.cnblogs.com/cxz/p/6538516.html - *PHP 中的 http 协议 - 当归远志 - 博客园*
-11. https://baike.baidu.com/item/http/243074 - *HTTP_百度百科*
-
+有关详细信息，请参阅“[CORS](essential/network/cors.md)”。
 
 ## HTTPS
 
 1. https://www.cnblogs.com/qlongbg/p/12074016.html - _关于http与https_
 
-
 ### SSL/TLS
 
 > （Secure Sockets Layer 安全套接字协议），及其继任者传输层安全（Transport Layer Security，TLS）是为网络通信提供安全及数据完整性的一种安全协议。TLS 与 SSL 在传输层与应用层之间对网络连接进行加密。
 
-链接
-
 1. http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html - *SSL/TLS协议运行机制的概述*
-
 2. https://www.chastephp.com/delicious.html - *证书申请及配置*
 
-证书品牌
+证书品牌：
 
 1. Let's Encrypt
 
@@ -338,14 +341,13 @@ GitHub：
 
     - 事件 https://zhuanlan.zhihu.com/p/146104587 - *通知！Symantec品牌证书已正式更名为Digicert*
 
-SSL 配置
+SSL 配置：
 
-- https://ssl-config.mozilla.org - *Mozilla SSL Configuration Generator*
+1. https://ssl-config.mozilla.org - *Mozilla SSL Configuration Generator*
 
-证书生成
+证书生成：
 
-  - https://toutyrater.github.io/advanced/tls.html#证书生成 - *TLS · V2Ray 配置指南|V2Ray 白话文教程*
-
+1. https://toutyrater.github.io/advanced/tls.html#证书生成 - *TLS · V2Ray 配置指南|V2Ray 白话文教程*
 
 ## 用法
 
@@ -357,41 +359,35 @@ SSL 配置
 
 1. 打开运行 WAMP；
 
-2. 打开 Windows 系统的 telnet 客户端（控制面板 -> 程序和功能 -> 打开和关闭windows功能 -> 找到Telnet服务器/客户端并勾选）
+2. 打开 Windows 系统的 Telnet 客户端（控制面板 > 程序和功能 > 打开和关闭 Windows 功能 > 找到 Telnet 服务器/客户端并勾选）；
 
-3. 通过 cmd 终端打开 telnet
-    - （1）键盘输入 `telnet 127.0.0.1 80`（本虚拟机 IP：127.0.0.1，端口号：80） -> 回车
+3. 通过 cmd 终端打开 telnet：
+    - （1）键盘输入 `telnet 127.0.0.1 80`（本虚拟机 IP：127.0.0.1，端口号：80） > 回车
         ![Alt text](_images/http-telnet-01.png)
     - （2）键盘输入 <kbd>ctrl</kbd> + <kbd>]</kbd>
         ![Alt text](_images/http-telnet-02.png)
     - （3）键盘输入 回车键
-    - （4）输入请求的文件路径 -> 回车 （`不要有错别字，否则执行失败，需重新开始`）
-        ```
+    - （4）输入请求的文件路径 > 回车 （`不要有错别字，否则执行失败，需重新开始`）
+        ```http
         GET /message/add.php HTTP/1.1
         ```
         注释：
         - `GET` 为请求方式
         - `/message/add.php` 为虚拟主机根目录下 message 目录中的 add.php 文件
         - `HTTP/1.1` 为 HTTP 的 1.1 协议
-    - （5）输入主机名 -> 回车两下提交请求
-        ```
+    - （5）输入主机名 > 回车两下提交请求
+        ```http
         Host:www.study.com
         ```
     - （6）提交请求后出现如下页面表示请求成功
         ![Alt text](_images/http-telnet-03.png)
 
-参考文档：
+参考：
 
 1. https://blog.csdn.net/rain722/article/details/53047116 - *Telnet 模拟 HTTP 请求_telnet 模拟请求 - CSDN 博客*
 2. https://blog.csdn.net/hrbeuwhw/article/details/7531775 - *1. 命令行窗口中用 telnet 测试 HTTP 协议 - CSDN 博客*
 
-
 ## 常见问题
-
-### 跨域
-
-有关详细信息，请参阅“[cross-domain](essential/cross-domain.md)”。
-
 
 ### HTTP 与 HTTPS 的区别
 

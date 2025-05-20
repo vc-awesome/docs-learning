@@ -47,7 +47,7 @@ https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linu
 
 1. https://www.opera.com/zh-cn/download/mobile-versions - *Mobile Browser | Download for Phone & Tablet | Opera | Opera*
 
-有关详细信息，请参阅“[Mobile Opera](os/mobile/mobile-browser.md#opera-✅)”。
+有关详细信息，请参阅“[Mobile Opera](os/mobile/browser.md#opera)”。
 
 ## Getting started
 
@@ -84,6 +84,39 @@ https://www.opera.com/products/vpn-pro - *Opera VPN Pro | Complete VPN Protectio
 https://addons.opera.com/zh-cn/ - *Opera 插件* 「 ⚠️ VPN 必须开启全局模式 」
 
 https://forums.opera.com/topic/30366/how-can-i-re-enable-a-blacklisted-extension - *How can I re-enable a blacklisted extension? | Opera forums*
+
+## Settings
+
+- Appearance
+  - Theme: Follow system
+    - Wallpaper
+    - App icon
+    - Night mode: Disabled
+    - Force dark webpages
+  - Layout
+    - Show tab bar
+    - Address bar: Top
+    - Scrolling behavior: Only hide address bar when scrolling
+    - Edit toolbar
+  - Accessibility
+    - Text wrap
+    - Text size
+    - Force allow zoom
+    - Default site layout (user agent)
+  - Gestures & shortcuts
+    - Shortcut in address bar: Share
+- Privacy & security
+  - Site settins
+  - Cookies
+  - Secure DNS
+- Search
+  - Default search engine: Ecosia
+- Notifications
+  - System notifications
+  - In-app notifications
+- Downloads
+  - File storage
+- About Opera
 
 ## Usage
 
@@ -156,32 +189,20 @@ https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Oper
 
 ## Changelog
 
+- https://www.opera.com/zh-cn/ofa/upgraded-89 - *更新完成！*
+- https://www.opera.com/zh-cn/ofa/upgraded-88 - *更新完成！*
 - https://www.opera.com/zh-cn/ofa/upgraded-86 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-85 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-83 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-82 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-81 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-80 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-79 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-78 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-77 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-76 - *更新完成！*
-
-- https://www.opera.com/zh-cn/ofa/upgraded-75 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-74 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-73 - *更新完成！*
-
 - https://www.opera.com/zh-cn/ofa/upgraded-72 - *更新完成！*
 
 ## FAQ

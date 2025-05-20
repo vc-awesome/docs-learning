@@ -1,1 +1,1 @@
-* [Redis](/database/redis/)
+* [Redis](database/redis/README.md)

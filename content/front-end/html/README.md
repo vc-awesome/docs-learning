@@ -12,13 +12,13 @@
 
 2. https://www.runoob.com/html/html-tutorial.html - *HTML 教程 | 菜鸟教程*
 
-## 用法
+## 入门指南
 
-### 代码规范
+### 编码风格
 
 有关详细信息，请参阅“[代码规范](essential/code-guide)”。
 
-### 代码模板
+### 代码片段
 
 https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bootstrap · Bootstrap v5 中文文档 v5.3 | Bootstrap 中文网*
 
@@ -39,6 +39,8 @@ https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bo
   </body>
 </html>
 ```
+
+## 用法
 
 ### 标签
 
@@ -110,6 +112,14 @@ https://www.runoob.com/html/html-head.html - *HTML 头部 | 菜鸟教程*
 <meta charset="utf-8" />
 ```
 
+##### http-equiv
+
+```html
+<meta http-equiv="refresh" content="0;URL=http://example.com/" />
+```
+
+##### name
+
 ```html
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, minimal-ui">
 ```
@@ -139,9 +149,10 @@ https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/link - *\<link>：外�
     ![GitHub last commit](https://badgen.net/github/last-commit/audreyfeldroy/favicon-cheat-sheet?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/audreyfeldroy/favicon-cheat-sheet?style=social)
 
-#### \<script>
+#### \<script>,\<noscript>
 
-https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script#attributes - *\<script>：脚本元素 - HTML（超文本标记语言） | MDN*
+1. https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/script#attributes - *\<script>：脚本元素 - HTML（超文本标记语言） | MDN*
+2. https://wangdoc.com/html/script - *\<script>，\<noscript> - HTML 教程 - 网道*
 
 ##### integrity
 
@@ -208,7 +219,9 @@ https://www.runoob.com/tags/tag-output.html - *HTML \<output> 标签 | 菜鸟教
 </output>
 ```
 
-### \<img>
+### 图像标签
+
+#### \<img>
 
 https://www.runoob.com/tags/tag-img.html - *HTML \<img> 标签 | 菜鸟教程*
 
@@ -226,7 +239,7 @@ https://www.runoob.com/tags/tag-img.html - *HTML \<img> 标签 | 菜鸟教程*
 
 https://www.runoob.com/tags/att-img-loading.html - *HTML img loading 属性 | 菜鸟教程*
 
-#### \<figcaption>
+#### \<figure>,\<figcaption>
 
 https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | 菜鸟教程*
 
@@ -253,6 +266,12 @@ https://www.runoob.com/tags/tag-figcaption.html - *HTML \<figcaption> 标签 | �
 ### \<a>
 
 https://wangdoc.com/html/a - *\<a> - HTML 教程 - 网道*
+
+### 文本标签
+
+#### \<pre>
+
+https://wangdoc.com/html/text#pre - *文本标签 - HTML 教程 - 网道*
 
 ### \<video>
 

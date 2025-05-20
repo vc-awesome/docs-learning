@@ -35,10 +35,10 @@
 
 ---
 
-- HTML 基础
-- CSS 基础
-- JavaScript 基础
-- PHP 基础
+- [HTML 基础](#html)
+- [CSS 基础](#css)
+- [JavaScript 基础](#javascript)
+- [PHP 基础](#php)
     - Composer 基础
 - MySQL 基础
 - Apache 基础
@@ -46,9 +46,9 @@
 - HTTP 基础
     - payload（有效载荷）
 - Git
-- Windows CMD / DOS
-    - 教程1 https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands - *Windows 命令 | Microsoft Learn*
-    - 教程2 https://www.w3cschool.cn/dosmlxxsc1/ - *DOS 命令学习手册_w3cschool*
+- Windows
+    - CMD
+    - DOS
 - 队列 think-queue
     - https://www.jianshu.com/p/f5e33215c13c - *think-queue - JunChow520 - 简书*
 - [RabbitMQ: One broker to queue them all | RabbitMQ](https://www.rabbitmq.com/) - *RabbitMQ is a reliable and mature messaging and streaming broker, which is easy to deploy on cloud environments, on-premises, and on your local machine. It is currently used by millions worldwide.*
@@ -77,9 +77,9 @@
 
 ### 前端
 
-- Web 开发
 - Android 开发
 - Apple 开发
+- [Web 开发](#web-开发)
 
 #### Web 开发
 
@@ -97,18 +97,18 @@
 
 ##### UI 框架
 
-- Ruby on Rails
 - AmazeUI
 - Bootstrap
+- Ruby on Rails
 
 ### 服务端
 
-- PHP
-- Java
-- Python
-- Lua
-- Ruby
-- Go
+- [Go](#go)
+- [Java](#java)
+- [Lua](#lua)
+- [PHP](#php)
+- [Python](#python)
+- [Ruby](#ruby)
 
 #### 框架
 
@@ -141,8 +141,8 @@
 
 ### 版本控制
 
-- SubVersion
 - Git
+- SubVersion
 
 ### 全文搜索引擎
 
@@ -181,7 +181,14 @@ or index and search data on the fly, working with Sphinx pretty much as with a d
 
 https://docs.github.com/en/get-started/learning-about-github/github-language-support - *GitHub language support - GitHub Docs*
 - https://github.com/github-linguist/linguist - *GitHub - github-linguist/linguist: Language Savant. If your repository's language is being reported incorrectly, send us a pull request!*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/github-linguist/linguist?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/github-linguist/linguist?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/github-linguist/linguist?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/github-linguist/linguist?style=social)
+
     - https://github.com/github-linguist/linguist/blob/main/lib/linguist/languages.yml - *linguist/lib/linguist/languages.yml at main · github-linguist/linguist · GitHub*
+    - https://github.com/github-linguist/linguist/raw/refs/heads/main/lib/linguist/languages.yml - *raw.githubusercontent.com/github-linguist/linguist/refs/heads/main/lib/linguist/languages.yml* （用于搜索网页内容）
 
 ### ApacheConf
 
@@ -255,6 +262,10 @@ https://docs.github.com/en/get-started/learning-about-github/github-language-sup
 
 暂无
 
+### Ruby
+
+暂无
+
 ### SCSS
 
 暂无
@@ -276,6 +287,10 @@ https://docs.github.com/en/get-started/learning-about-github/github-language-sup
 暂无
 
 ### TypeScript
+
+暂无
+
+### Vim Script
 
 暂无
 
@@ -317,11 +332,11 @@ https://github.com/trending - *Trending repositories on GitHub today · GitHub*
 
 ### Adobe
 
-暂无
+[Adobe: Creative, marketing and document management solutions](https://www.adobe.com/) - *Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.*
 
 ### Apple Inc.
 
-暂无
+[Apple Inc.](os/desktop/mac/README.md)
 
 ### Ali
 
@@ -329,11 +344,11 @@ https://github.com/trending - *Trending repositories on GitHub today · GitHub*
 
 ### Google Inc.
 
-暂无
+[Google Inc.](tech-stack/google.md)
 
 ### Microsoft
 
-暂无
+[Microsoft](os/desktop/windows/README.md)
 
 ### Mozilla
 
@@ -366,5 +381,9 @@ http://www.runoob.com/web/web-standards.html - *Web 标准 | 菜鸟教程*
 暂无
 
 ### W3C
+
+暂无
+
+### WHATWG
 
 暂无

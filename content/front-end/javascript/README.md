@@ -12,7 +12,7 @@
 
 https://github.com/tc39 - *Ecma TC39 · GitHub*
 
-https://github.com/tc39/ecma262/ - *GitHub - tc39/ecma262: Status, process, and documents for ECMA-262*
+https://github.com/tc39/ecma262 - *GitHub - tc39/ecma262: Status, process, and documents for ECMA-262*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/tc39/ecma262?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/tc39/ecma262?display_date=published_at&logo=github)
@@ -23,29 +23,34 @@ https://github.com/tc39/ecma262/ - *GitHub - tc39/ecma262: Status, process, and 
 
 1. https://www.runoob.com/js/js-tutorial.html - *JavaScript 教程 | 菜鸟教程*
 
-2. https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/javascript-tutorial)
+2. https://zh.javascript.info/ - *现代 JavaScript 教程* [GitHub Repo](https://github.com/javascript-tutorial/en.javascript.info)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/javascript-tutorial/en.javascript.info?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/javascript-tutorial/en.javascript.info?style=social)
+
+3. https://wangdoc.com/javascript/ - *JavaScript 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/javascript-tutorial)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/javascript-tutorial?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/javascript-tutorial?style=social)
 
-3. https://wangdoc.com/es6/ - *ES6 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/es6-tutorial)
+4. https://wangdoc.com/es6/ - *ES6 教程 - 网道* [GitHub Repo](https://github.com/wangdoc/es6-tutorial)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/es6-tutorial?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/es6-tutorial?style=social)
 
-4. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript - *JavaScript - 学习 Web 开发 | MDN*
+5. https://developer.mozilla.org/zh-CN/docs/Learn/JavaScript - *JavaScript - 学习 Web 开发 | MDN*
 
 ## 运行环境
 
-- 浏览器编程：*Browser*
+- 浏览器编程：[Browser](front-end/browser.md)
 
-- 服务器编程：*Node.js*
+- 服务器编程：[Node.js](front-end/nodejs/README.md)
 
 ## 入门指南
 
 ### 基础
 
-#### 代码规范
+#### 编程风格
 
 变量命名（驼峰法）：
 
@@ -66,12 +71,13 @@ https://github.com/tc39/ecma262/ - *GitHub - tc39/ecma262: Status, process, and 
 参考：
 
 1. https://wangdoc.com/javascript/features/style - *编程风格 - JavaScript 教程 - 网道*
-2. https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
-3. http://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格 - 阮一峰的网络日志*
+2. https://wangdoc.com/es6/style - *编程风格 - ES6 教程 - 网道*
+3. https://www.runoob.com/js/js-conventions.html - *JavaScript 代码规范 | 菜鸟教程*
+4. http://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript编程风格 - 阮一峰的网络日志*
 
-##### 区块
+#### 区块
 
-JavaScript 使用大括号，将多个相关的语句组合在一起，称为“区块”（block）。
+> JavaScript 使用大括号，将多个相关的语句组合在一起，称为“区块”（block）。
 
 ```javascript
 {
@@ -81,23 +87,92 @@ JavaScript 使用大括号，将多个相关的语句组合在一起，称为“
 a // 1
 ```
 
+JavaScript 语言中，单独使用区块并不常见，区块往往用来构成其他更复杂的语法结构，比如 for、if、while、function 等。
+
 参考：
 
 1. <https://wangdoc.com/javascript/basic/grammar#区块> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
 
-##### 语句
+#### 语句
+
+> JavaScript 程序的执行单位为行（line），也就是一行一行地执行。一般情况下，每一行就是一个语句。
+
+语句（statement）是为了完成某种任务而进行的操作。
+
+1. 语句以分号结尾，一个分号就表示一个语句结束。多个语句可以写在一行内。
+
+    ```javascript
+    var a = 1 + 3 ; var b = 'abc';
+    ```
+
+2. 分号前面可以没有任何内容，JavaScript 引擎将其视为空语句。
+
+    ```javascript
+    ;;;
+    ```
+
+    上面的代码就表示 3 个空语句。
+
+3. 表达式不需要分号结尾。一旦在表达式后面添加分号，则 JavaScript 引擎就将表达式视为语句，这样会产生一些没有任何意义的语句。
+
+    ```javascript
+    1 + 3;
+    'abc';
+    ```
+
+    上面两行语句只是单纯地产生一个值，并没有任何实际的意义。
 
 <https://wangdoc.com/javascript/basic/grammar#语句> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
 
-###### 表达式
+##### 表达式
+
+语句（statement）是为了完成某种任务而进行的操作，比如下面就是一行赋值语句。
+
+```javascript
+var a = 1 + 3;
+```
+
+这条语句先用 `var` 命令，声明了变量 `a`，然后将 `1 + 3` 的运算结果赋值给变量 `a`。
+
+`1 + 3` 叫做表达式（expression），指一个为了得到返回值的计算式。
+
+- 语句和表达式的区别在于：
+
+    - 前者主要为了进行某种操作，一般情况下不需要返回值；
+    - 后者则是为了得到返回值，一定会返回一个值。
+
+    凡是 JavaScript 语言中预期为值的地方，都可以使用表达式。比如，赋值语句的等号右边，预期是一个值，因此可以放置各种表达式。
+
+##### 条件语句
 
 暂无
 
-##### 圆括号
+##### 循环语句
+
+暂无
+
+#### 圆括号
 
 圆括号（parentheses）在 JavaScript 中有两种作用，一种表示函数的调用，另一种表示表达式的组合（grouping）。
 
-<https://wangdoc.com/javascript/features/style#圆括号> - *编程风格 - JavaScript 教程 - 网道*
+1. <https://wangdoc.com/javascript/features/style#圆括号> - *编程风格 - JavaScript 教程 - 网道*
+2. <https://wangdoc.com/javascript/operators/priority#圆括号的作用> - *其他运算符，运算顺序 - JavaScript 教程 - 网道*
+
+#### 标识符
+
+> 标识符（identifier）指的是用来识别各种值的合法名称。
+
+最常见的标识符：
+
+1. 变量名
+2. 函数名
+
+命名规则：
+
+1. 第一个字符，可以是任意 Unicode 字母（包括英文字母和其他语言的字母），以及美元符号（`$`）和下划线（`_`）。
+2. 第二个字符及后面的字符，除了 Unicode 字母、美元符号和下划线，还可以用数字 `0-9`。
+3. 中文是合法的标识符，可以用作变量名。
+4. JavaScript 有一些保留字，不能用作标识符：arguments、break、case、catch、class、const、continue、debugger、default、delete、do、else、enum、eval、export、extends、false、finally、for、function、if、implements、import、in、instanceof、interface、let、new、null、package、private、protected、public、return、static、super、switch、this、throw、true、try、typeof、var、void、while、with、yield。
 
 #### 注释
 
@@ -114,19 +189,41 @@ https://wangdoc.com/javascript/features/console - *console 对象与控制台 - 
 
 #### 变量
 
-<https://wangdoc.com/javascript/basic/grammar#变量> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
+1. <https://wangdoc.com/javascript/basic/grammar#变量> - *JavaScript 的基本语法 - JavaScript 教程 - 网道*
+2. https://wangdoc.com/es6/let - *let 和 const 命令 - ES6 教程 - 网道*
 
 - 声明变量
 
     - var
+    - function
     - let
     - const
+    - import
+    - class
 
-- 赋值
+- 赋值（[解构赋值](https://wangdoc.com/es6/destructuring)）
+
+    - 数组的解构赋值
+        - let [a, b, c] = [1, 2, 3];
+        - let [foo = true] = [];
+    - 对象的解构赋值
+        - let { foo, bar } = { foo: 'aaa', bar: 'bbb' };
+        - var {x = 3} = {};
+    - 字符串的解构赋值
+        - const [a, b, c, d, e] = 'hello';
+    - 数值和布尔值的解构赋值
+        - let {toString: s} = 123;
+        - let {toString: s} = true;
+        - 解构赋值的规则是，只要等号右边的值不是对象或数组，就先将其转为对象。
+    - 函数参数的解构赋值
+        - [[1, 2], [3, 4]].map(([a, b]) => a + b); // [ 3, 7 ]
+        - function move({x = 0, y = 0} = {}) { return [x, y]; }
 
 ##### 全局变量
 
-暂无
+避免使用全局变量；如果不得不使用，用大写字母表示变量名，比如 UPPER_CASE。
+
+https://www.ruanyifeng.com/blog/2012/04/javascript_programming_style.html - *Javascript 编程风格 - 阮一峰的网络日志*
 
 ##### 变量提升
 
@@ -137,6 +234,17 @@ https://www.runoob.com/js/js-hoisting.html - *JavaScript 声明提升 | 菜鸟�
 #### 数据类型
 
 https://www.runoob.com/js/js-datatypes.html - *JavaScript 数据类型 | 菜鸟教程*
+
+##### 判断数据类型
+
+1. <https://wangdoc.com/javascript/types/general#typeof-运算符> - *数据类型概述 - JavaScript 教程 - 网道*
+
+2. <https://wangdoc.com/javascript/stdlib/object#tostring-的应用判断数据类型> - *Object 对象 - JavaScript 教程 - 网道*
+
+3. https://github.com/chaijs/type-detect - *GitHub - chaijs/type-detect: Improved typeof detection for node.js and the browser.*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/chaijs/type-detect?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/chaijs/type-detect?style=social)
 
 ##### 数值
 
@@ -177,13 +285,9 @@ https://wangdoc.com/javascript/types/object - *对象 - JavaScript 教程 - 网�
 
     [HTMLElement.innerText](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/innerText) - *HTMLElement.innerText - Web API 接口参考 | MDN*
 
-###### 数组
+##### 数组
 
 https://www.runoob.com/js/js-obj-array.html - *JavaScript Array（数组）对象 | 菜鸟教程*
-
-###### 函数
-
-https://wangdoc.com/javascript/types/function - *函数 - JavaScript 教程 - 网道*
 
 ##### Undefined
 
@@ -211,25 +315,9 @@ https://www.runoob.com/w3cnote/javascript-check-null-undefined.html - *JavaScrip
 1. <https://wangdoc.com/javascript/types/null-undefined-boolean#布尔值> - *null, undefined 和布尔值 - JavaScript 教程 - 网道*
 2. https://developer.mozilla.org/zh-CN/docs/Glossary/Truthy - *真值 - MDN Web 文档术语表：Web 相关术语的定义 | MDN*
 
-##### 数据类型判断
+##### 函数
 
-1. <https://wangdoc.com/javascript/types/general#typeof-运算符> - *数据类型概述 - JavaScript 教程 - 网道*
-
-2. <https://wangdoc.com/javascript/stdlib/object#tostring-的应用判断数据类型> - *Object 对象 - JavaScript 教程 - 网道*
-
-3. https://github.com/chaijs/type-detect - *GitHub - chaijs/type-detect: Improved typeof detection for node.js and the browser.*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/chaijs/type-detect?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/chaijs/type-detect?style=social)
-
-#### 运算符
-
-1. https://wangdoc.com/javascript/operators/ - *运算符 - JavaScript 教程 - 网道*
-2. https://wangdoc.com/es6/operator - *运算符的扩展 - ES6 教程 - 网道*
-
-#### 函数
-
-JS 设置一个变量为函数名称，然后执行这个变量会执行函数
+JavaScript 设置一个变量为函数名称，然后执行这个变量会执行函数
 
 ```javascript
 // 定义一个函数
@@ -272,10 +360,11 @@ a[fnName]()
 
 参考：
 
-1. https://blog.csdn.net/WanweI897/article/details/124397923 - *js用变量保存函数名，并使用该变量调用函数的方式_js中变量怎么存一个function-CSDN博客*
-2. https://www.delftstack.com/zh/howto/javascript/javascript-call-function-by-name/ - *在 JavaScript 中按名称调用函数 | D栈 - Delft Stack*
+1. https://wangdoc.com/javascript/types/function - *函数 - JavaScript 教程 - 网道*
+2. https://blog.csdn.net/WanweI897/article/details/124397923 - *js用变量保存函数名，并使用该变量调用函数的方式_js中变量怎么存一个function-CSDN博客*
+3. https://www.delftstack.com/zh/howto/javascript/javascript-call-function-by-name/ - *在 JavaScript 中按名称调用函数 | D栈 - Delft Stack*
 
-##### 立即调用的函数表达式（IIFE）
+###### 立即调用的函数表达式（IIFE）
 
 ```javascript
 (function () { /* code */ }());
@@ -283,7 +372,7 @@ a[fnName]()
 (function () { /* code */ })();
 ```
 
-##### 匿名函数
+###### 匿名函数
 
 ```javascript
 var print = function (s) {
@@ -294,7 +383,7 @@ print(1); // 1
 print.name; // print
 ```
 
-##### 具名函数
+###### 具名函数
 
 ```javascript
 var print = function x() {
@@ -310,7 +399,7 @@ print()
 print.name; // x
 ```
 
-##### 回调函数
+###### 回调函数
 
 <https://wangdoc.com/javascript/async/general#回调函数> - *异步操作概述 - JavaScript 教程 - 网道*
 
@@ -400,24 +489,97 @@ https://blog.csdn.net/weixin_46001736/article/details/134007859 - *uni-app：解
 
     > 回调函数应用场景多用在使用 js 写组件时，尤其是组件的事件很多都需要回调函数的支持
 
-参考文档：
+参考：
 
 1. https://blog.csdn.net/baidu_32262373/article/details/54969696 - *js 彻底理解回调函数_js中的回调函数-CSDN博客*
 2. http://www.jb51.net/article/59447.htm - *js的回调函数详解_javascript技巧_脚本之家*
 
-##### 闭包
+###### 闭包
 
-<https://wangdoc.com/javascript/types/function#闭包> - *函数 - JavaScript 教程 - 网道*
+```javascript
+function f1() {
+  var n = 999;
+  function f2() {
+    console.log(n);
+  }
+  return f2;
+}
 
-http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html - *学习Javascript闭包（Closure） - 阮一峰的网络日志*
+var result = f1();
+result(); // 999
+```
 
-#### return
+闭包的最大用处有两个：
 
-https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/return - *return - JavaScript | MDN*
+1. 一个是可以读取外层函数内部的变量；
+2. 另一个就是让这些变量始终保持在内存中，即闭包可以使得它诞生环境一直存在。
+
+请看下面的例子，闭包使得内部变量记住上一次调用时的运算结果。
+
+```javascript
+function createIncrementor(start) {
+  return function () {
+    return start++;
+  };
+}
+
+var inc = createIncrementor(5);
+
+inc() // 5
+inc() // 6
+inc() // 7
+```
+
+参考：
+
+1. <https://wangdoc.com/javascript/types/function#闭包> - *函数 - JavaScript 教程 - 网道*
+2. http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html - *学习Javascript闭包（Closure） - 阮一峰的网络日志*
+3. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Closures - *闭包 - JavaScript | MDN*
+
+###### return 语句
+
+语法：
+
+```javascript
+return;
+return expression;
+```
+
+参考：
+
+1. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/return - *return - JavaScript | MDN*
+2. <https://wangdoc.com/javascript/types/function#圆括号运算符return-语句和递归> - *函数 - JavaScript 教程 - 网道*
+
+#### 运算符
+
+1. https://wangdoc.com/javascript/operators/ - *运算符 - JavaScript 教程 - 网道*
+2. https://wangdoc.com/es6/operator - *运算符的扩展 - ES6 教程 - 网道*
+
+##### 算数运算符
+
+暂无
+
+##### 比较运算符
+
+暂无
+
+##### 布尔运算符
+
+暂无
+
+##### 二进制位运算符
+
+暂无
+
+#### 错误处理
+
+https://zh.javascript.info/error-handling - *错误处理*
 
 #### 异步操作
 
-https://wangdoc.com/javascript/async/general - *异步操作概述 - JavaScript 教程 - 网道*
+1. https://wangdoc.com/javascript/async/general - *异步操作概述 - JavaScript 教程 - 网道*
+2. <https://www.ruanyifeng.com/blog/2012/12/asynchronous＿javascript.html> - *Javascript异步编程的4种方法*
+3. https://www.ruanyifeng.com/blog/2013/09/finite-state_machine_for_javascript.html - *JavaScript与有限状态机*
 
 ##### 定时器
 
@@ -456,8 +618,20 @@ v.price // 1000
 
 #### 对象的继承（原型）
 
- https://wangdoc.com/javascript/oop/prototype - *对象的继承 - JavaScript 教程 - 网道*
- 
+https://wangdoc.com/javascript/oop/prototype - *对象的继承 - JavaScript 教程 - 网道*
+
+#### 事件循环
+
+https://www.ruanyifeng.com/blog/2014/10/event-loop.html - *JavaScript 运行机制详解：再谈Event Loop*
+
+##### 微任务
+
+暂无
+
+##### 宏任务
+
+暂无
+
 ## 标准库
 
 1. https://wangdoc.com/javascript/stdlib/ - *标准库 - JavaScript 教程 - 网道*
@@ -495,6 +669,7 @@ https://wangdoc.com/javascript/stdlib/json - *JSON 对象 - JavaScript 教程 - 
 ## Source Map 用法
 
 1. https://www.ruanyifeng.com/blog/2013/01/javascript_source_map.html - *JavaScript Source Map 详解*
+2. https://developers.weixin.qq.com/community/develop/article/doc/0008643aa54ce81d519ad84735b413 - *微信开发者工具下载的 sourcemaps 怎么用。 | 微信开放社区*
 
 ## javascript: 用法
 

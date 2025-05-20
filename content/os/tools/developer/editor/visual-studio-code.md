@@ -415,96 +415,33 @@ https://github.com/moshfeu/vscode-compare-folders
 
 #### HTMLHint
 
-https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint - *HTMLHint - Visual Studio Marketplace*
-
-https://github.com/htmlhint/vscode-htmlhint - *GitHub - htmlhint/vscode-htmlhint: VS Code integration of HTMLHint, an HTML linter.*
-
-![GitHub last commit](https://badgen.net/github/last-commit/htmlhint/vscode-htmlhint?icon=github&color=blue)
-
-用法：
-
-1. [HTML 属性排序](https://htmlhint.com/docs/user-guide/rules/attr-sorted)
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#htmlhint)”。
 
 #### Stylelint
 
-https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint - *Stylelint - Visual Studio Marketplace*
-
-https://github.com/stylelint/vscode-stylelint
-
-https://stylelint.io/
-
-![GitHub last commit](https://img.shields.io/github/last-commit/stylelint/vscode-stylelint?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/stylelint/vscode-stylelint?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stylelint/vscode-stylelint?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/stylelint/vscode-stylelint?style=social)
-
-[configs](https://github.com/stylelint/awesome-stylelint#configs)：
-
-1. https://github.com/twbs/stylelint-config-twbs-bootstrap - *GitHub - twbs/stylelint-config-twbs-bootstrap: Stylelint config for Bootstrap* 「支持 CSS 声明排序」
-
-2. https://github.com/ota-meshi/stylelint-config-html - *GitHub - ota-meshi/stylelint-config-html: The shareable HTML config for Stylelint.* 「检测 .html 文件中的样式」
-
-[plugins](https://github.com/stylelint/awesome-stylelint#plugins):
-
-1. https://github.com/prettier/stylelint-prettier - *GitHub - prettier/stylelint-prettier: Stylelint plugin for Prettier formatting*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#stylelint)”。
 
 #### ESLint
 
-https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#settings-options - *ESLint - Visual Studio Marketplace*
-
-https://github.com/Microsoft/vscode-eslint - *GitHub - microsoft/vscode-eslint: VSCode extension to integrate eslint into VSCode*
-
-![GitHub last commit](https://badgen.net/github/last-commit/Microsoft/vscode-eslint?icon=github&color=blue)
-
-configs:
-
-1. https://github.com/airbnb/javascript - *GitHub - airbnb/javascript: JavaScript Style Guide*
-
-plugins:
-
-1. https://github.com/vuejs/eslint-plugin-vue - *GitHub - vuejs/eslint-plugin-vue: Official ESLint plugin for Vue.js* [Website](https://eslint.vuejs.org/)
-
-2. https://github.com/BenoitZugmeyer/eslint-plugin-html - *GitHub - BenoitZugmeyer/eslint-plugin-html: An ESLint plugin to extract and lint scripts from HTML files.*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#eslint)”。
 
 #### JSLint
 
-https://marketplace.visualstudio.com/items?itemName=jslint.vscode-jslint - *vscode-jslint - Visual Studio Marketplace*
-
-https://github.com/jslint-org/jslint#quickstart-jslint-in-vscode - *GitHub - jslint-org/jslint: JSLint, The JavaScript Code Quality and Coverage Tool*
-
-![GitHub last commit](https://badgen.net/github/last-commit/jslint-org/jslint?icon=github&color=blue)
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#jslint)”。
 
 #### markdownlint
 
-https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint - *markdownlint - Visual Studio Marketplace*
-
-https://github.com/DavidAnson/vscode-markdownlint - *GitHub - DavidAnson/vscode-markdownlint: Markdown linting and style checking for Visual Studio Code*
-
-![GitHub last commit](https://badgen.net/github/last-commit/DavidAnson/vscode-markdownlint?icon=github&color=blue)
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#markdownlint)”。
 
 ### Formatters
 
 #### EditorConfig for VS Code
 
-https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig - *EditorConfig for VS Code - Visual Studio Marketplace*
-
-https://github.com/editorconfig/editorconfig-vscode
-
-![GitHub last commit](https://img.shields.io/github/last-commit/editorconfig/editorconfig-vscode?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/editorconfig/editorconfig-vscode?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/editorconfig/editorconfig-vscode?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/editorconfig/editorconfig-vscode?style=social)
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#editorconfig)”。
 
 #### Prettier
 
-https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode - *Prettier - Code formatter - Visual Studio Marketplace*
-
-https://github.com/prettier/prettier-vscode - *GitHub - prettier/prettier-vscode: Visual Studio Code extension for Prettier*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/prettier/prettier-vscode?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/prettier/prettier-vscode?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/prettier/prettier-vscode?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/prettier/prettier-vscode?style=social)
+有关详细信息，请参阅“[Prettier](os/tools/developer/prettier.md#visual-studio-code)”。
 
 ### DocBlocker
 

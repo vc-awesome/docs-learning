@@ -54,7 +54,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
     1. [Website](https://developer.android.google.cn/studio?hl=zh-cn)
 8. [docsify](project/framework/docsify.md)
    1. [Website](https://docsify.js.org/)
-   2. [GitHub](https://github.com/docsifyjs/docsify/)
+   2. [GitHub Repo](https://github.com/docsifyjs/docsify)
 9. [Prettier](os/tools/developer/prettier.md)
     1. [Website](https://prettier.io/)
 10. [Visual Studio Code](os/tools/developer/editor/visual-studio-code.md)
@@ -83,12 +83,15 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 ### 社区
 
 1. [Online Tutorials, Courses, and eBooks Library | Tutorialspoint](https://www.tutorialspoint.com/index.htm)
-2. [Stack Overflow](https://stackoverflow.com/)（加速访问：[LocalCDN](https://www.localcdn.org/)）
+2. [Stack Overflow](https://stackoverflow.com/)
+   1. 加速访问（浏览器扩展）：[LocalCDN](https://www.localcdn.org/)
 3. [少数派 - 高效工作，品质生活](https://sspai.com/)
    1. [爱发电 · 连接创作者与粉丝的会员制平台](http://afdian.net/)
 4. [CSS-Tricks - Tips, Tricks, and Techniques on using Cascading Style Sheets.](https://css-tricks.com/)
 5. [SegmentFault 思否](https://segmentfault.com/)
 6. [freeCodeCamp](https://www.freecodecamp.org/chinese/)👏
+7. [Linux 中国](https://linux.cn/)
+    1. [GitHub Repo](https://github.com/LCTT/TranslateProject)
 
 ### 文档
 
@@ -103,13 +106,25 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 1. [百度百科](https://baike.baidu.com/)
 2. [维基百科](https://wikipedia.org/)🚫
+3. [快懂百科](https://www.baike.com/)
 
 ## 站内导航
+
+<div class="flash-messages"><div class="flash">
+
+*技术可以学，难得的是如何找到好的学习资源。*
+👏[不知道如何获取新技术？](home/book.md) ，还可以按 📖[技术体系](tech-stack/README.md) 进行学习。
+</div></div>
 
 ### [Getting started](home/getting-started.md)
 
 1. [知识管理](home/getting-started.md#知识管理) ![][fire]
 2. [搜索技巧](topics/search-skill.md)👏（[教程](https://www.runoob.com/w3cnote/search-engines-usage-skills.html)）
+
+#### 学习
+
+1. [书籍](home/book.md)
+2. [前端](front-end/README.md#学习资源)
 
 ### 基础
 
@@ -118,12 +133,14 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 3. [目录结构](home/directory-structure.md)
 4. [术语表](home/glossary.md)
 5. [计算机基础](essential/README.md)👏
-6. [字符集](essential/character-sets)
+6. [字符集](essential/character-sets/README.md)
 
-#### [网络](essential/network/README.md)
+#### 网络
+
+[Getting started](essential/network/README.md)
 
 1. [HTTP(S)](essential/network/http.md)
-2. [CORS（跨域）](essential/network/cross-domain.md)
+2. [CORS（跨域）](essential/network/cors.md)
 3. [Hosts](essential/network/hosts.md)
 4. [DNS](essential/network/dns.md)
    1. [AdGuard DNS](essential/network/dns.md#adguard-dns)👏
@@ -140,14 +157,32 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
    2. [CDN](essential/network/cdn.md)
       1. [jsDelivr](essential/network/cdn.md#jsdelivr)（[Website](https://www.jsdelivr.com/)）
 
+#### 风格指南
+
+> 兵马未动，粮草先行。
+
+1. [code-guide](essential/style-guide/code-guide.md)
+2. [code-naming-rule](essential/style-guide/code-naming-rule.md)
+3. [document-template](home/document-template.md)
+4. [directory-structure](home/directory-structure.md)
+
 ### 设计
 
-1. [Icon Font](design/iconfont.md)
+[Getting started](design/README.md)
+
+1. [User Interface](design/ui/README.md)
+2. [Icon Font](design/iconfont.md)
    1. [Font Awesome](design/iconfont.md#font-awesome-🥇)（[Website](https://fontawesome.com/)）
    2. [Material Design Icons](design/iconfont.md#material-design-icons)（[Website](https://fonts.google.com/icons)）
    3. [Octicons](design/iconfont.md#octicons)（[Website](https://primer.style/foundations/icons)）
+3. [Icons](design/icon.md)
+4. [Fonts](design/font/README.md)
 
-### [前端](front-end/README.md)
+### 前端
+
+[Getting started](front-end/README.md)
+
+#### Web 开发
 
 1. [HTML](front-end/html/README.md)
    1. 教程
@@ -189,8 +224,8 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 6. [Vue.js](front-end/vue/README.md)（[Website](https://cn.vuejs.org/)）
    1. [Vant](front-end/vue/vant.md)（[Website](https://vant-contrib.gitee.io/vant/#/zh-CN/)）
 7. _工作原理_
-   1. [浏览器开发者工具](os/tools/browser/README.md#开发者工具)
-   2. [浏览器页面加载过程](front-end/README.md#浏览器加载过程)👏
+   1. [浏览器开发者工具](front-end/browser.md#开发者工具)
+   2. [浏览器页面加载过程](front-end/browser.md#浏览器工作原理)👏
 
 ### 服务端
 
@@ -209,14 +244,18 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 4. [Docker](back-end/docker.md)
 5. [服务器](essential/network/hosting.md)
 
-### [框架](project/framework/README.md)
+### 框架
+
+[Getting started](project/framework/README.md)
 
 1. [搜索](project/framework/README.md#搜索)
 2. [Bootstrap](project/framework/README.md#bootstrap-🔥)
 3. [Amaze UI](project/framework/README.md#amaze-ui)
 4. [Layui](project/framework/README.md#layui)
 
-### [操作系统](os/README.md)
+### 操作系统
+
+[Getting started](os/README.md)
 
 1. [Windows](os/desktop/windows/README.md)
 2. [Linux](os/desktop/linux/README.md)
@@ -224,14 +263,10 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 4. [Mobile](os/mobile/README.md)
 5. [快捷键](topics/shortcuts.md)
 6. [DOS](os/desktop/windows/dos.md)
-7. [CLI](os/cli/README.md)
-   1. [Windows](os/desktop/windows/command.md)
-   2. [Linux](os/desktop/linux/command.md)
-   3. [macOS](os/desktop/mac/terminal.md)
 
-#### [应用](os/tools/README.md)
+#### 应用
 
-> Apps 🧨
+> [Apps 🧨](os/tools/README.md)
 
 1. [推荐使用](os/tools/README.md#推荐使用)👏
 2. [搜索下载](os/tools/search.md)
@@ -260,25 +295,87 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
       3. [Chrome](os/tools/browser/chrome.md)
       4. [Firefox](os/tools/browser/firefox.md)
       5. [Opera](os/tools/browser/opera.md)
-      6. [浏览器扩展列表](os/tools/browser/browser-extensions.md)🧩
+      6. [浏览器扩展列表](os/tools/browser/extensions/browser-extensions.md)🧩
          1. [Crx搜搜](https://www.crxsoso.com/)
-         2. [Tampermonkey](os/tools/browser/tampermonkey.md)
+         2. [Tampermonkey](os/tools/browser/extensions/tampermonkey.md)
 
 ##### 版本控制
 
 > Version Control
 
 1. [Git](os/tools/developer/git.md)
-2. [GitHub](os/tools/github.md)（[Website](https://github.com/)）
+2. [GitHub](os/tools/productivity/github.md)（[Website](https://github.com/)）
    1. [Search](https://github.com/search)
-   2. [加速工具](os/tools/github.md#访问加速)
+   2. [加速工具](os/tools/productivity/github.md#访问加速)
    3. [镜像站](os/mirror.md#github)
 
-### [项目开发流程](project/README.md)
+#### Shell
+
+##### 终端环境
+
+1. [Windows CMD](os/desktop/windows/cmd.md)
+2. [Linux Shell 环境](os/cli/shell.md)
+    1. [Bash](os/tools/developer/shell/bash.md)
+    2. [PowerShell](os/tools/developer/shell/powershell.md)
+    3. [~~Zsh~~]()
+3. [macOS Terminal](os/desktop/mac/terminal.md)
+4. [Android Termux](os/mobile/termux.md)
+5. [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
+
+##### 命令
+
+[CLI](os/cli/README.md)
+1. [Windows](os/desktop/windows/command.md)
+2. [macOS](os/desktop/mac/terminal.md)
+3. [Linux](os/desktop/linux/command.md)
+
+##### 脚本
+
+1. [Windows *.bat](os/desktop/windows/batch.md)
+2. [Windows *.ps1](os/tools/developer/shell/powershell.md)
+3. [Linux *.sh](os/desktop/linux/command.md) - [*Bash 脚本教程*](https://wangdoc.com/bash/)
+
+### 项目
+
+[Getting started](project/README.md)
+
+#### 开发流程
 
 > DevOps
 
-[开发指南](project/README.md#指南) + [风格指南](essential/style-guide/code-guide.md) > 需求 > [设计](design/README.md) > [前端](front-end/README.md) > [后端](back-end/README.md) > 测试（[调试](topics/debug.md)） > [优化](project/optimization.md) （[Web 搜索引擎优化 | 菜鸟教程](http://www.runoob.com/web/web-search.html)）> 上线 > [运维（安全）](project/security.md)
+[开发指南](project/README.md#指南) + [风格指南](essential/style-guide/code-guide.md) > 需求 > [设计](design/README.md) > [前端](front-end/README.md) > [后端](back-end/README.md) > 测试（[调试](topics/debug.md)） > [优化](project/optimization.md) （[Web 搜索引擎优化 | 菜鸟教程](http://www.runoob.com/web/web-search.html)）> 上线 > [运维（安全）](essential/security/README.md)
+
+#### 站点搭建和部署
+
+1. [服务器](essential/network/hosting.md) - *可购买服务器*
+2. [部署](project/README.md#部署) - *可购买服务器*
+3. [文档网站](project/category.md#文档网站生成器)
+    1. [docsify](project/framework/docsify.md) + GitHub Pages
+    2. [VitePress](https://vitepress.dev/) + Algolia
+        1. Example: https://ruanyf-weekly.vercel.app/
+
+### 模板
+
+1. [文档模板](home/document-template.md)
+2. [官网模板](project/framework/template/official-website/README.md)
+3. [后台管理模板](project/framework/template/background-management-system/README.md)
+
+### 专题文章
+
+1. [广告过滤](topics/ad-filter.md)
+2. [Awesome](topics/awesome.md)
+3. [翻译](topics/translate.md)
+4. [视频](topics/video.md)
+5. [输入法](topics/input-method.md)
+6. [搜索技巧](topics/search-skill.md)
+7. [调试](topics/debug.md)
+8. [剪贴板](topics/clipboard.md)
+9. [文件转换](topics/file-convert.md)
+10. [文件对比](topics/file-diff.md)
+11. [文件同步](topics/file-sync.md)
+12. [文件传输](topics/file-transfer.md)
+13. [快捷键](topics/shortcuts.md)
+14. [单位](topics/unit.md)
 
 ## 站外导航
 
@@ -290,10 +387,13 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 ### 网址导航
 
 1. [Open Source Initiative – The steward of the Open Source Definition, setting the foundation for the Open Source Software ecosystem.](https://opensource.org/)（[Via](https://www.w3.org/2003/glossary/keyword/All/open%20source.html)）
+2. [GitHub: Let’s build from here · GitHub](https://github.com/) - *GitHub is where over 100 million developers shape the future of software, together. Contribute to the open source community, manage your Git repositories, review code like a pro, track bugs and features, power your CI/CD and DevOps workflows, and secure code before you commit it.*
+3. [Ecosia - the search engine that plants trees](https://www.ecosia.org/) - *Ecosia uses 100% of its profits for the planet and produces enough renewable energy to power all searches twice over.* 🚫
+4. [Internet Archive: Digital Library of Free &amp; Borrowable Books, Movies, Music &amp; Wayback Machine](https://archive.org/) - *Internet Archive is a non-profit library of millions of free books, movies, software, music, websites, and more.* 🚫
 
 <div class="border border-dashed pl-2 pr-2 m-2">
 
-🔺 有关更多详细信息，请参阅“[快速索引](index.md) 🥰”。
+🔺 有关更多详细信息，请参阅“[技术栈](tech-stack/README.md) 🥰”。
 
 </div>
 

@@ -389,6 +389,32 @@ https://mp.weixin.qq.com/s/Z5g3mlZGeTqHdK0jKBGf-g - *整理常见的实时消息
 
 https://mp.weixin.qq.com/s/NHZ7CmnHspChjh7orBfPqA - *就这么几个限流算法，总是记了又忘。。。*
 
+## 移动应用
+
+### 上拉加载
+
+暂无
+
+### 下拉刷新
+
+暂无
+
+### 页面加载中
+
+暂无
+
+### 扫一扫
+
+暂无
+
+### 推送
+
+接收推送通知和透传消息功能
+
+### 分享
+
+暂无
+
 ## 组件
 
 https://uviewui.com/components/intro.html - *介绍 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*

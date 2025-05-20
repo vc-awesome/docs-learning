@@ -1,44 +1,48 @@
 # 对象
 
-https://wangdoc.com/javascript/types/object - *对象 - JavaScript 教程 - 网道*
+## Getting started
 
-https://wangdoc.com/javascript/stdlib/object - *Object 对象 - JavaScript 教程 - 网道*
+ES5：
 
-https://wangdoc.com/javascript/stdlib/attributes - *属性描述对象 - JavaScript 教程 - 网道*
+1. https://wangdoc.com/javascript/types/object - *对象 - JavaScript 教程 - 网道*
+2. https://wangdoc.com/javascript/stdlib/object - *Object 对象 - JavaScript 教程 - 网道*
+3. https://wangdoc.com/javascript/stdlib/attributes - *属性描述对象 - JavaScript 教程 - 网道*
+4. https://wangdoc.com/javascript/oop/object - *Object 对象的相关方法 - JavaScript 教程 - 网道*
 
-https://wangdoc.com/javascript/oop/object - *Object 对象的相关方法 - JavaScript 教程 - 网道*
+ES6：
 
-https://wangdoc.com/es6/object - *对象的扩展 - ES6 教程 - 网道*
+1. https://wangdoc.com/es6/object - *对象的扩展 - ES6 教程 - 网道*
+2. https://wangdoc.com/es6/object-methods - *对象的新增方法 - ES6 教程 - 网道*
 
-https://wangdoc.com/es6/object-methods - *对象的新增方法 - ES6 教程 - 网道*
-
-- 声明（定义）
+- 声明（又称为"定义"）
+    - `var obj = { foo: 'Hello', bar: 'World' };`
 - 键值对（又称为"成员"）
     - 键名（又称为"属性"或"成员的名称"）
         - 读取
-            - obj.foo（点运算符）
-            - obj['foo']（方括号运算符）
+            - `obj.foo`（点运算符，数值的键名不能使用点结构，因为会被当成小数点）
+            - `obj['foo']`（方括号运算符，使用方括号运算符，键名必须放在引号里面，否则会被当作变量处理）
         - 赋值
-            -  obj.foo = 123
-            - obj['foo'] = 123
+            - `obj.foo = 123`
+            - `obj['foo'] = 123`
         - 查看所有
-            - Object.keys(obj);
+            - `Object.keys(obj);`
+            - `Object.keys(obj).length;` 查看对象长度
         - 删除
-            - delete obj.foo
-            - delete obj['foo']
+            - `delete obj.foo`
+            - `delete obj['foo']`
         - 是否存在
             - in 运算符
-                - 'foo' in obj
+                - `'foo' in obj`
                     ```javascript
                     if ('toString' in obj) {
                       console.log(obj.hasOwnProperty('toString')) //false
                     }
                     ```
         - 遍历
-            - for...in
+            - `for...in`
                 ```javascript
                 for (var key in person) {
-                  if (person.hasOwnProperty(key)) {
+                  if (person.hasOwnProperty(key)) { // 检查属性是否是对象自身的属性
                     console.log(key);
                   }
                 }
@@ -57,7 +61,11 @@ https://wangdoc.com/es6/object-methods - *对象的新增方法 - ES6 教程 - �
     o1.b // 2
     ```
 
-## 构造函数
+[代码片段 - javascript](snippets/javascript.md)
+
+## 标准库
+
+### 构造函数
 
 ```javascript
 var obj = new Object();
@@ -69,50 +77,50 @@ var obj = new Object();
 var obj = {};
 ```
 
-## ~~静态属性~~
+### ~~静态属性~~
 
-## 静态方法
+### 静态方法
 
 所谓“静态方法”，是指部署在 `Object` 对象自身的方法。
 
-Object.keys()，Object.getOwnPropertyNames()
+1. Object.keys()，Object.getOwnPropertyNames()
 
-Object.getOwnPropertyDescriptor()
+2. Object.getOwnPropertyDescriptor()
 
-Object.defineProperty()
+3. Object.defineProperty()
 
-Object.defineProperties()
+4. Object.defineProperties()
 
-Object.preventExtensions()
+5. Object.preventExtensions()
 
-Object.isExtensible()
+6. Object.isExtensible()
 
-Object.seal()
+7. Object.seal()
 
-Object.isSealed()
+8. Object.isSealed()
 
-Object.freeze()
+9. Object.freeze()
 
-Object.isFrozen()
+10. Object.isFrozen()
 
-Object.create()
+11. Object.create()
 
-从一个实例对象，生成另一个实例对象
+    - 从一个实例对象，生成另一个实例对象
 
-Object.getPrototypeOf()
+12. Object.getPrototypeOf()
 
-## ~~实例属性~~
+### ~~实例属性~~
 
-## 实例方法
+### 实例方法
 
-Object.prototype.valueOf()
+1. Object.prototype.valueOf()
 
-Object.prototype.toString()
+2. Object.prototype.toString()
 
-Object.prototype.toLocaleString()
+3. Object.prototype.toLocaleString()
 
-Object.prototype.hasOwnProperty()
+4. Object.prototype.hasOwnProperty()
 
-Object.prototype.isPrototypeOf()
+5. Object.prototype.isPrototypeOf()
 
-Object.prototype.propertyIsEnumerable()
+6. Object.prototype.propertyIsEnumerable()

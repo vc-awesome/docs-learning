@@ -18,13 +18,28 @@ https://f-droid.org/packages/com.elasticrock.keepscreenon/ - *Keep Screen On | F
 
 https://github.com/elastic-rock/KeepScreenOn - *GitHub - elastic-rock/KeepScreenOn: An Android screen timeout quick settings tile*
 
+### Shizuku
+
+> using system APIs directly with adb/root privileges from normal apps
+
+![GitHub last commit](https://img.shields.io/github/last-commit/RikkaApps/Shizuku?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/RikkaApps/Shizuku?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/RikkaApps/Shizuku?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/RikkaApps/Shizuku?style=social)
+
+https://apt.izzysoft.de/fdroid/index/apk/moe.shizuku.privileged.api - *Shizuku - IzzyOnDroid F-Droid Repository*
+
+https://shizuku.rikka.app/ - *Shizuku*
+
+https://github.com/RikkaApps/Shizuku - *GitHub - RikkaApps/Shizuku: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.*
+
 ## 应用下载
 
 ### F-Droid
 
 > F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。[使用手册](os/mobile/f-droid.md)
 
-![F-Droid Version](https://badgen.net/f-droid/v/org.fdroid.fdroid)
+![F-Droid Version](https://img.shields.io/f-droid/v/org.fdroid.fdroid)
 ![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/f-droid/fdroidclient?logo=github)
@@ -37,6 +52,16 @@ https://f-droid.org/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and 
 https://github.com/f-droid/fdroidclient - *GitHub - f-droid/fdroidclient: Android client application.*
 
 https://f-droid.org/ - *F-Droid - Free and Open Source Android App Repository* 🚫
+
+### F-Droid Build Status
+
+> Android App to show and monitor the current F-Droid build status. It uses the F-Droid build server API.
+
+![F-Droid Version](https://img.shields.io/f-droid/v/de.storchp.fdroidbuildstatus)
+
+https://f-droid.org/packages/de.storchp.fdroidbuildstatus/ - *F-Droid Build Status | F-Droid - Free and Open Source Android App Repository*
+
+https://codeberg.org/pstorch/F-Droid_Build_Status - *pstorch/F-Droid_Build_Status: Android App to show and monitor the F-Droid build status - Codeberg.org*
 
 ### Droid-ify
 
@@ -102,7 +127,7 @@ https://droidify.eu.org/ - *Droid-ify*
 
 ### App Manager
 
-> A full-featured open source package manager for android.
+> A full-featured open source package manager for android. [使用手册](os/mobile/app-manager.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/io.github.muntashirakon.AppManager)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github)
@@ -177,7 +202,7 @@ https://github.com/zhanghai/MaterialFiles - *GitHub - zhanghai/MaterialFiles: Ma
 
 ---
 
-一些功能：
+功能：
 
 - 开启本机“FTP 服务器”功能
 - 连接外部“FTP 服务器”功能
@@ -250,6 +275,36 @@ https://f-droid.org/packages/com.sanzoghenzo.markdownr/ - *Markdownr | F-Droid -
 
 https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Android app that converts an URL to markdown, and lets you share it to your favorite notes app.*
 
+## 输入法
+
+### Hacker's Keyboard
+
+> Four- or five-row soft-keyboard
+
+![F-Droid Version](https://img.shields.io/f-droid/v/org.pocketworkstation.pckeyboard)
+![GitHub last commit](https://img.shields.io/github/last-commit/klausw/hackerskeyboard?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/klausw/hackerskeyboard?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/klausw/hackerskeyboard?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/klausw/hackerskeyboard?style=social)
+
+https://f-droid.org/packages/org.pocketworkstation.pckeyboard/ - *Hacker's Keyboard | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/klausw/hackerskeyboard - *GitHub - klausw/hackerskeyboard: Hacker's Keyboard (official)*
+
+### Unexpected Keyboard
+
+> Lightweight and privacy-conscious virtual keyboard for Android.
+
+![F-Droid Version](https://img.shields.io/f-droid/v/juloo.keyboard2)
+![GitHub last commit](https://img.shields.io/github/last-commit/Julow/Unexpected-Keyboard?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Julow/Unexpected-Keyboard?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Julow/Unexpected-Keyboard?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Julow/Unexpected-Keyboard?style=social)
+
+https://f-droid.org/packages/juloo.keyboard2/ - *Unexpected Keyboard | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/Julow/Unexpected-Keyboard - *GitHub - Julow/Unexpected-Keyboard: A lightweight keyboard for Android*
+
 ## 网络工具
 
 ### PCAPdroid
@@ -261,7 +316,7 @@ https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Andr
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/emanuele-f/PCAPdroid?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/emanuele-f/PCAPdroid?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/PCAPdroid?style=social)
-![](https://badgen.net/badge/💰/应用内包含付费功能/grey)
+![](https://img.shields.io/badge/💰-应用内包含付费功能-grey)
 
 ---
 
@@ -717,3 +772,86 @@ https://markusfisch.de/apps-android.html#binary-eye - *Android • Markus Fisch*
 - 支持 Android（[GitHub Releases](https://github.com/Waboodoo/HTTP-Shortcuts/releases), [Google Play](https://play.google.com/store/apps/details?id=ch.rmy.android.http_shortcuts), [F-Droid](https://f-droid.org/packages/ch.rmy.android.http_shortcuts/)）
 
 - 开源软件（[GitHub Repo](https://github.com/Waboodoo/HTTP-Shortcuts)）
+
+### Intent Intercept
+
+> Android dev tool to view inter-app communication
+
+![F-Droid Version](https://img.shields.io/f-droid/v/de.k3b.android.intentintercept)
+![GitHub last commit](https://img.shields.io/github/last-commit/k3b/intent-intercept?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/k3b/intent-intercept?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/k3b/intent-intercept?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/k3b/intent-intercept?style=social)
+
+https://f-droid.org/packages/de.k3b.android.intentintercept/ - *Intent Intercept | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/k3b/intent-intercept - *GitHub - k3b/intent-intercept: Android dev tool to view inter-app communication*
+
+## 开发者
+
+### Termux
+
+> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. [使用手册](os/mobile/termux.md)
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux)
+![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-app?color=blue&logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/termux/termux-app?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-app?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-app?style=social)
+
+https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/termux/termux-app - *Termux - a terminal emulator application for Android OS extendible by variety of packages.*
+
+### MGit
+
+> An open source Android Git client.[使用手册](os/mobile/mgit)
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.manichord.mgit)
+![GitHub last commit](https://img.shields.io/github/last-commit/maks/MGit?color=blue&logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/maks/MGit?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/maks/MGit?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/maks/MGit?style=social)
+
+https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/maks/MGit - *GitHub - maks/MGit: A Git client for Android.*
+
+## 时间
+
+https://f-droid.org/en/categories/time/ - *| F-Droid - Free and Open Source Android App Repository*
+
+类别：
+
+- 日历 - Calendar
+- 闹钟 - Alarm
+- 时钟 - Clock
+- 秒表 - Stopwatch
+- 计时 - Timer
+
+功能：
+
+- Pomodoro
+- Checklists
+- Goals
+- Time Tracking
+- Tasks
+- Repeating Tasks
+
+https://f-droid.org/packages/me.timeto.app - *Productivity Tools - timeto.me*
+
+https://f-droid.org/packages/ru.aleshin.timeplanner - *TimePlanner*
+
+### Simple Time Tracker
+
+> Simple app that helps track how much time you spend on all the useless activities in the world.
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.razeeman.util.simpletimetracker)
+![GitHub last commit](https://img.shields.io/github/last-commit/Razeeman/Android-SimpleTimeTracker?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Razeeman/Android-SimpleTimeTracker?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Razeeman/Android-SimpleTimeTracker?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Razeeman/Android-SimpleTimeTracker?style=social)
+
+https://f-droid.org/packages/com.razeeman.util.simpletimetracker/ - *Simple Time Tracker | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/Razeeman/Android-SimpleTimeTracker - *GitHub - Razeeman/Android-SimpleTimeTracker: Simple app that tracks time.*

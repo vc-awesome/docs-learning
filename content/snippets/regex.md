@@ -96,6 +96,20 @@ Acode：
 
 - 不支持正则替换
 
+Vim：
+
+查找内容：
+
+```regex
+\([0-9A-Za-z_][\u4e00-\u9fa5]\@=\|[\u4e00-\u9fa5][0-9A-Za-z_]\@=\)
+```
+
+替换内容：
+
+```vim
+:%s/\([0-9A-Za-z_][\u4e00-\u9fa5]\@=\|[\u4e00-\u9fa5][0-9A-Za-z_]\@=\)/\1 /gc
+```
+
 ### 添加标签 `<kbd></kbd>`
 
 https://regex101.com/r/fufOPK/1 - *regex101: build, test, and debug regex*

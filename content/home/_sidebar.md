@@ -6,5 +6,4 @@
 * [目录结构](home/directory-structure.md)
 * [文档模板](home/document-template.md)
 * [术语表/词汇表](home/glossary.md)
-* [Emoji](home/emoji.md)
 * [Markdown](home/markdown.md)

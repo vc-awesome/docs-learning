@@ -137,29 +137,25 @@ function clearValue(obj) {
 
 ### 字符串替换
 
-https://www.cnblogs.com/cblogs/p/9293522.html - *js中字符串全部替换 - HaydenChao - 博客园*
-
-语法
+语法：
 
 ```javascript
-str.replace(/需要替换的字符串/g，"新字符串");
+str.replace(/需要替换的字符串/g, "新字符串");
 ```
 
-实例
+实例：
 
 ```javascript
-"yyyy-MM-dd-hh-mm-ss".replace(/-/g,"/") // 结果："yyyy/MM/dd/hh/mm/ss"
+"yyyy-MM-dd-hh-mm-ss".replace(/-/g, "/") // 结果："yyyy/MM/dd/hh/mm/ss"
 ```
 
----
-
-单个字符替换
+替换单个字符：
 
 ``` javascript
-str.replace("需要替换的字符串","新替换的字符串");
+str.replace("需要替换的字符串", "新替换的字符串");
 ```
 
-全部字符替换
+替换全部字符：
 
 > `g` 表示全局替换，`i` 表示忽略大小写，下列写法中函数第一个参数不必加引号，加引号表示替换第 1 个字符
 
@@ -170,14 +166,17 @@ str.replace(/需要替换的字符串/g, "新替换的字符串");
 ```
 
 ❌错误
+
 ```javascript
 str.replace("/需要替换的字符串/g", "新替换的字符串");
 ```
 
 参考：
 
-1. https://www.runoob.com/jsref/jsref-replace.html - _JavaScript replace() 方法 | 菜鸟教程_
-2. https://www.cnblogs.com/cblogs/p/9293522.html - _js中字符串全部替换 - 胡海超的博客 - 博客园_
+1. https://wangdoc.com/javascript/stdlib/string#stringprototypesearchstringprototypereplace - *String 对象 - JavaScript 教程 - 网道*
+2. https://wangdoc.com/javascript/stdlib/regexp#stringprototypereplace - *RegExp 对象 - JavaScript 教程 - 网道*
+3. https://www.runoob.com/jsref/jsref-replace.html - _JavaScript replace() 方法 | 菜鸟教程_
+4. https://www.cnblogs.com/cblogs/p/9293522.html - *js中字符串全部替换 - HaydenChao - 博客园*
 
 ### 转义 HTML 字符
 

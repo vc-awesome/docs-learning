@@ -8,8 +8,7 @@
 
 ## 教程
 
-1. https://wangdoc.com/html/url - *URL 简介 - HTML 教程 - 网道*
-2. https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL - *什么是 URL？ - 学习 Web 开发 | MDN*
+1. https://developer.mozilla.org/zh-CN/docs/Learn/Common_questions/Web_mechanics/What_is_a_URL - *什么是 URL？ - 学习 Web 开发 | MDN*
 
 ## 入门指南
 
@@ -25,9 +24,21 @@ https://developer.mozilla.org/en-US/docs/Web/URI/Schemes - *URI schemes - URIs |
 
 > 以 `data:` 方案为前缀的 URL，允许内容创建者在文档中嵌入小文件。
 
+语法：
+
+```url
+data:[<mediatype>][;base64],<data>
+```
+
 https://developer.mozilla.org/zh-CN/docs/Web/URI/Schemes/data - *Data URL - URIs | MDN*
 
 ##### javascript:URLs
+
+语法：
+
+```url
+javascript:<script>
+```
 
 https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/javascript - *javascript: URLs - URIs | MDN*
 
@@ -40,6 +51,10 @@ https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/javascript - *javascrip
 ## 用法
 
 ### 在编程语言中使用
+
+#### HTML
+
+1. https://wangdoc.com/html/url - *URL 简介 - HTML 教程 - 网道*
 
 #### PHP
 
@@ -247,22 +262,26 @@ https://github.com/ada-url/ada - *GitHub - ada-url/ada: WHATWG-compliant and fas
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ada-url/ada?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/ada-url/ada?style=social)
 
-### URL Shortener
+### Google Analytics
+
+https://ga-dev-tools.google/campaign-url-builder/ - *Campaign URL Builder*
+
+### Web Apps
+
+#### URL Shortener
 
 1. https://tinyurl.com/ - *URL Shortener, Branded Short Links & Analytics | TinyURL*
 2. https://bitly.com/ - *Bitly Connections Platform | Short URLs, QR Codes, and More*
 3. https://git.io/ - *git.io* (停止运营)
 4. https://goo.gl - *Google URL Shortener links will no longer be available* (2018 年停止运营)
 
-### Unshorten.me
+#### Unshorten.me
 
 1. https://unshorten.me/ - *Free URL Un-Shortener - Unshorten URLS like goo.gl, bit.ly and many more*
 
-### Google Analytics
+### Android Apps
 
-https://ga-dev-tools.google/campaign-url-builder/ - *Campaign URL Builder*
-
-### URLCheck
+#### URLCheck
 
 https://github.com/TrianguloY/UrlChecker - _GitHub - TrianguloY/UrlChecker: Android app by TrianguloY: URLCheck_
 

@@ -36,7 +36,13 @@
 
 在这个示例中，根目录下有多个子目录，每个子目录又可以包含其他文件或子目录。这样的结构使得文件的组织更加清晰和高效。
 
-## 文件夹目录
+## 入门指南
+
+### 风格指南
+
+暂无
+
+## 文件系统目录
 
 ### 模板
 
@@ -94,7 +100,25 @@ root_folder/
 
 有关详细信息，请参阅“[Treeview ▲ Prism plugins](https://prismjs.com/plugins/treeview/)”。
 
-### 项目
+### 操作系统
+
+#### Windows
+
+暂无
+
+#### Linux
+
+有关详细信息，请参阅“[Linux](os/desktop/linux/README.md#目录结构)”。
+
+#### macOS
+
+暂无
+
+### 开发者
+
+- [assets](#asset-type)
+
+#### 项目
 
 扩展目录：*H:\√ 123456\╰ 公司项目\!! 统一格式文件分类*
 
@@ -200,9 +224,9 @@ root_folder/
 └─ 范例--以下项目资料--<项目名称>.txt
 ```
 
-### 前端
+#### 前端
 
-#### 自整理
+##### 自整理
 
 > 自定义目录结构
 
@@ -236,7 +260,7 @@ myproject/
 │  │   └─ app.js
 │  ├─ media/
 │  ├─ pdf/
-│  ├─ picture/
+│  ├─ pictures/
 │  ├─ videos/
 │  └─ libs/ #扩展库
 │      └─ bootstrap/
@@ -252,7 +276,7 @@ myproject/
 2. https://unpkg.com/fontawesome-free/ - *UNPKG - fontawesome-free*
 3. https://github.com/fex-team/styleguide/blob/master/project.md - *styleguide/project.md at master · fex-team/styleguide · GitHub*
 
-#### Web
+##### Web
 
 ```tree
 // 每个页面对应一个 css 文件，例如：blog 页面的文件夹下有 index.html 和 blog.css
@@ -273,7 +297,7 @@ assets/
 
 1. https://getbootstrap.com/docs/5.1/getting-started/contents/ - *Contents · Bootstrap v5.1* [中文](https://v5.bootcss.com/docs/getting-started/contents)
 
-#### uni-app
+##### uni-app
 
 ```tree
 // 含 * 号表示官方说明
@@ -347,7 +371,7 @@ project/ #目录结构
 
 1. https://uniapp.dcloud.net.cn/tutorial/project.html - *工程简介 | uni-app官网*
 
-#### 工程化
+##### 工程化
 
 https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-workflow: A web developer workflow used by WeChat team based on Gulp, with cross-platform supported and solutions prepared.*
 
@@ -356,9 +380,9 @@ https://github.com/Tencent/tmt-workflow#目录结构 - *GitHub - Tencent/tmt-wor
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tencent/tmt-workflow?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Tencent/tmt-workflow?style=social)
 
-### 后端
+#### 后端
 
-#### ThinkPHP
+##### ThinkPHP
 
 > ThinkPHP 资源存放：
 >
@@ -562,6 +586,30 @@ li:before {
 
 5. https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents - *Markdown All in One - Visual Studio Marketplace*
 
+## 文件类型
+
+### dotfiles
+
+1. https://github.com/mdo/dotfiles - *GitHub - mdo/dotfiles*
+2. https://github.com/ruanyf/dotfiles - *GitHub - ruanyf/dotfiles: My various config files*
+
+### Asset Type
+
+1. JavaScript
+2. Styling
+3. Source Maps
+4. Images
+5. Fonts
+
+参考：
+
+1. https://cdnjs.com/libraries/bootstrap - *bootstrap - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
+2. https://cdnjs.com/libraries/font-awesome - *font-awesome - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
+
+### 配置文件
+
+暂无
+
 ## 参考
 
 ThinkPHP：
@@ -576,4 +624,6 @@ RequireJS：
 
 1. https://requirejs.org/docs/start.html#add - *How to get started with RequireJS*
 
-有关详细信息，请参阅“[Tools > Docsify > Directory Structure](os/tools/docsify.md#目录结构)”。
+docsify：
+
+1. 有关详细信息，请参阅“[docsify#Directory Structure](project/framework/docsify.md#directory-structure)”。

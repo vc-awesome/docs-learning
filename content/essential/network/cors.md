@@ -119,11 +119,11 @@ add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent
 
 方式一：
 
-![Cross Domain](_images/cross-domain-1.png)
+![CORS](_images/cors-1.png)
 
 方式二：
 
-![Cross Domain](_images/cross-domain-2.png)
+![CORS](_images/cors-2.png)
 
 ---
 

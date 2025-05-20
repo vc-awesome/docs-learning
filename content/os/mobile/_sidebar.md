@@ -6,6 +6,7 @@
 * [Browser](os/mobile/browser.md)
 * ---
 * [Acode](os/mobile/acode.md)
+* [App Manager](os/mobile/app-manager.md)
 * [F-Droid](os/mobile/f-droid.md)
 * [HTTP Shortcuts](os/mobile/http-shortcuts.md)
 * [Markor](os/mobile/markor.md)

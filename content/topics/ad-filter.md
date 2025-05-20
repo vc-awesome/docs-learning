@@ -91,8 +91,8 @@
 
 配置 hosts 来源：
 
-1. 有关“配置 hosts 来源”的详细信息，请参阅“[Hosts - Rules（来源）](os/tools/hosts.md#rules（来源）)”；
-2. 配置完 hosts 来源后，刷新本地缓存的有关详细信息，请参阅“[Hosts - 刷新本地 DNS-Android](os/tools/hosts.md#android)”。
+1. 有关“配置 hosts 来源”的详细信息，请参阅“[Hosts - Rules（来源）](essential/network/hosts.md#rules（来源）)”；
+2. 配置完 hosts 来源后，刷新本地缓存的有关详细信息，请参阅“[Hosts - 刷新本地 DNS-Android](essential/network/hosts.md#android)”。
 
 ## 测试
 

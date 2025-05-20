@@ -17,6 +17,9 @@
 
 ---
 
+[UI 框架](#ui-框架)：
+
+- 设计资源
 - 组件
 - API
 
@@ -47,7 +50,7 @@
 3. [ThinkPHP](#thinkphp-%f0%9f%94%a5) + [workerman](#workerman)
 
 
-## Web 框架
+## UI 框架
 
 ### Amaze UI
 
@@ -585,7 +588,7 @@ Website：https://vux.li/
 GitHub：https://github.com/airyland/vux
 
 
-## 微信小程序
+## 小程序
 
 ### Vant Weapp
 
@@ -699,19 +702,12 @@ https://www.pgyer.com/ - *蒲公英 - 免费且不限次数的 App 内测托管�
 https://dcloud.io/index.html - _DCloud - HBuilder、HBuilderX、uni-app、uniapp、5+、5plus、mui、wap2app、流应用、HTML5、小程序开发、跨平台App、多端框架_
 
 1. 开发文档
-
 2. 开发规范
-
 3. 开发工具：HBuilderX
-
 4. 真机调试
-
 5. 生成 APP（Android / iOS）
-
 6. 市场（插件）
-
 7. 社区
-
 8. 案例
 
 
@@ -720,42 +716,10 @@ https://dcloud.io/index.html - _DCloud - HBuilder、HBuilderX、uni-app、uniapp
 https://www.apicloud.com/ - _APICloud跨平台APP开发技术专家 - 领先低代码开发平台_
 
 1. 开发文档
-
 2. 开发规范
-
 3. 开发工具：APICloud Studio 2
-
 4. 真机调试
-
 5. 生成 APP（Android / iOS）
-
 6. 市场（模块 Store）
-
 7. 社区
-
 8. 案例
-
-
-### 功能列表
-
-1. 上拉加载
-
-2. 下拉刷新
-
-3. 页面加载中
-
-4. 扫一扫
-
-5. 推送（接收推送通知和透传消息功能）
-
-6. 分享
-
-
-## 项目分类
-
-有关详细信息，请参阅“[项目分类](project/category.md)”。
-
-
-### 文档网站生成器
-
-有关详细信息，请参阅“[文档网站生成器](project/category.md#文档网站生成器)”。

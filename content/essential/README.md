@@ -10,6 +10,14 @@ https://github.com/wangdoc/es6-tutorial/blob/master/docs/spec.md - *es6-tutorial
 
 [规范化 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/%E6%A0%87%E5%87%86%E5%8C%96)
 
+### ECMA
+
+> Ecma International is an industry association dedicated to the standardization of information and communication systems
+> 
+> Ecma is driven by industry members to meet their needs, providing a healthy competitive landscape based on differentiation of products and services rather than technology models, generating confidence among vendors and users of new technology.
+
+https://ecma-international.org/ - *Home - Ecma International*
+
 ### IETF
 
 > 互联网工程任务组（英语：Internet Engineering Task Force，缩写：IETF）是一个开放的标准组织，负责开发和推广自愿互联网标准（Internet Standard，英文缩写为STD），特别是构成TCP/IP协议族（TCP/IP）的标准。 — *[互联网工程任务组 - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/%E4%BA%92%E8%81%94%E7%BD%91%E5%B7%A5%E7%A8%8B%E4%BB%BB%E5%8A%A1%E7%BB%84)*
@@ -34,6 +42,12 @@ https://github.com/w3c/ - *World Wide Web Consortium · GitHub*
 
 http://www.runoob.com/w3c/w3c-tutorial.html - *W3C 教程 | 菜鸟教程*
 
+### WHATWG
+
+https://whatwg.org/ - *Web Hypertext Application Technology Working Group (WHATWG)*
+
+https://github.com/whatwg - *WHATWG · GitHub*
+
 ### ISO
 
 https://www.iso.org/home.html - *ISO - International Organization for Standardization*
@@ -42,40 +56,14 @@ https://www.iso.org/home.html - *ISO - International Organization for Standardiz
 
 1. http://c.biancheng.net/view/141.html - *进制是什么？*
 
-    1. 二进制
-    2. 八进制
-    3. 十进制
-    4. 十六进制
+    1. 二进制（Binary）
+    2. 八进制（Octal）
+    3. 十进制（Decimal）
+    4. 十六进制（Hexadecimal）
 
-## 转义字符
+Web Apps：
 
-https://baike.baidu.com/item/转义字符/86397 - *转义字符_百度百科*
-
-转义字符  | 意义
----|---
-\n  | 换行(LF) ，将当前位置移到下一行开头
-\r  | 回车(CR) ，将当前位置移到本行开头
-\t  | 水平制表(HT) （跳到下一个TAB位置）
-
-## 回车和换行
-
-- CR（Carriage Return）代表回车，对应字符 `\r`
-- LF（Line Feed）代表换行，对应字符 `\n`
-
-系统 | 换行符
---- | ---
-Windows | `\r\n`
-Mac | `\r`
-Unix | `\n`
-
-参考：
-
-1. https://www.ruanyifeng.com/blog/2006/04/post_213.html - *回车和换行 - 阮一峰的网络日志*
-2. https://zhuanlan.zhihu.com/p/380574688 - *CRLF和LF的差异 - 知乎*
-3. https://www.cnblogs.com/jiayouba/p/15309132.html - *CRLF和LF的差异 - 飞叶飞花 - 博客园*
-4. https://blog.csdn.net/weixin_43899065/article/details/124864157 - *换行符CRLF LF及在GIT设置_git 换行符_幸运的lucia的博客-CSDN博客*
-5. https://www.jianshu.com/p/6c6ae0c8daa5 - *换行符(CRLF/LF) - 简书*
-6. https://qa.1r1g.com/sf/ask/1946753091/ - *如何在单个文件中用lf替换crlf | 那些遇到过的问题*
+1. https://www.jyshare.com/front-end/58/ - *在线进制转换器 | 菜鸟工具*
 
 ## P2P
 
@@ -143,7 +131,7 @@ https://www.ruanyifeng.com/blog/2018/09/bash-wildcards.html - *命令行通配�
 
 https://wangdoc.com/bash/expansion - *Bash 的模式扩展 - Bash 脚本教程 - 网道*
 
-https://editorconfig.org/ - *EditorConfig*
+https://editorconfig.org/#wildcards - *EditorConfig*
 
 https://code.visualstudio.com/docs/editor/glob-patterns - *Visual Studio Code glob patterns reference*
 

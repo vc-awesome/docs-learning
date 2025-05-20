@@ -119,122 +119,33 @@ https://browsersl.ist/ - *Browserslist*
 
 ### HTMLHint
 
-> Static code analysis tool you need for your HTML
-
-![GitHub last commit](https://badgen.net/github/last-commit/htmlhint/HTMLHint?icon=github&color=blue)
-![GitHub Release
-Date](https://img.shields.io/github/release-date/htmlhint/HTMLHint?logo=github)
-![GitHub release (latest
-SemVer)](https://img.shields.io/github/v/release/htmlhint/HTMLHint?logo=github)
-![NPM Version](https://img.shields.io/npm/v/htmlhint?logo=npm)
-![GitHub Repo
-stars](https://img.shields.io/github/stars/htmlhint/HTMLHint?style=social)
-
-----
-
-https://github.com/htmlhint/HTMLHint - *GitHub - htmlhint/HTMLHint: ⚙️ The
-static code analysis tool you need for your HTML*
-
-https://htmlhint.com/ - *Hello from HTMLHint | HTMLHint*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#htmlhint)”。
 
 ### Stylelint
 
-> A mighty CSS linter that helps you avoid errors and enforce conventions.
-
-![GitHub last commit](https://badgen.net/github/last-commit/stylelint/stylelint?icon=github&color=blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/stylelint/stylelint?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stylelint/stylelint?logo=github)
-![NPM Version](https://img.shields.io/npm/v/stylelint?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/stylelint/stylelint?style=social)
-
-----
-
-https://github.com/stylelint/stylelint - *GitHub - stylelint/stylelint: A mighty CSS linter that helps you avoid errors and enforce conventions.*
-
-https://stylelint.io/ - *Home | Stylelint*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#stylelint)”。
 
 ### ESLint
 
-> A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
-
-![GitHub last commit](https://badgen.net/github/last-commit/eslint/eslint?icon=github&color=blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/eslint/eslint?logo=github)
-![NPM Version](https://img.shields.io/npm/v/eslint?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/eslint/eslint?style=social)
-
-----
-
-https://github.com/eslint/eslint - *GitHub - eslint/eslint: Find and fix problems in your JavaScript code.*
-
-https://eslint.org/ - *Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter* [中文站点](https://zh-hans.eslint.org/)
-
-配置：
-
-- [配置规则](https://zh-hans.eslint.org/docs/latest/use/configure/rules)
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#eslint)”。
 
 ### JSLint
 
-> JSLint, The JavaScript Code Quality and Coverage Tool
-
-![GitHub last commit](https://badgen.net/github/last-commit/jslint-org/jslint?icon=github&color=blue)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jslint-org/jslint?logo=github)
-![NPM Version](https://img.shields.io/npm/v/@jslint-org/jslint?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/jslint-org/jslint?style=social)
-
-----
-
-https://github.com/jslint-org/jslint - *GitHub - jslint-org/jslint: JSLint, The JavaScript Code Quality and Coverage Tool*
-
-https://www.jslint.com/ - *JSLint: The JavaScript Code Quality and Coverage Tool*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#jslint)”。
 
 ### JSHint
 
-> JSHint is a tool that helps to detect errors and potential problems in your JavaScript code
-
-![GitHub last commit](https://badgen.net/github/last-commit/jshint/jshint?icon=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jshint/jshint?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jshint/jshint?logo=github)
-![NPM Version](https://img.shields.io/npm/v/jshint?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/jshint/jshint?style=social)
-
-----
-
-https://github.com/jshint/jshint - *jshint/jshint: JSHint is a tool that helps to detect errors and potential problems in your JavaScript code*
-
-https://jshint.com/ - *JSHint, a JavaScript Code Quality Tool*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#jshint)”。
 
 ### markdownlint
 
-> A Node.js style checker and lint tool for Markdown/CommonMark files.
-
-![GitHub last commit](https://badgen.net/github/last-commit/DavidAnson/markdownlint?icon=github&color=blue)
-![GitHub tag (with filter)](https://img.shields.io/github/v/tag/DavidAnson/markdownlint?logo=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/markdownlint?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/DavidAnson/markdownlint?style=social)
-
-----
-
-https://github.com/DavidAnson/markdownlint - *GitHub -
-DavidAnson/markdownlint: A Node.js style checker and lint tool for
-Markdown/CommonMark files.*
+有关详细信息，请参阅“[编程风格](essential/style-guide/code-guide.md#markdownlint)”。
 
 ## 代码格式化
 
 ### Prettier
 
-> Prettier is an opinionated code formatter.
-
-![GitHub last commit](https://badgen.net/github/last-commit/prettier/prettier?icon=github&color=blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/prettier/prettier?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/prettier/prettier?logo=github)
-![NPM Version](https://img.shields.io/npm/v/prettier?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/prettier/prettier?style=social)
-
-----
-
-https://github.com/prettier/prettier - *GitHub - prettier/prettier: Prettier is an opinionated code formatter.*
-
-https://prettier.io/ - *Prettier · Opinionated Code Formatter* [中文站点](https://www.prettier.cn/)
+有关详细信息，请参阅“[Prettier](os/tools/developer/prettier.md#visual-studio-code)”。
 
 ## 其它
 

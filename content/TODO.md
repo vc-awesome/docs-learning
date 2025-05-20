@@ -53,12 +53,12 @@
   - [ ] [code-common](essential/code-common.md)
   - [ ] [Essential#日期与时间](essential/README.md#日期与时间)
   - [ ] [URL](essential/url.md)
-- [ ] [FRONT END/](front-end/)
-    - [ ] [CSS/](front-end/css/)
-    - [ ] [JavaScript/](front-end/javascript/)
+- [ ] [FRONT END/](front-end/README.md)
+    - [ ] [CSS/](front-end/css/README.md)
+    - [ ] [JavaScript/](front-end/javascript/README.md)
 - [ ] API
   - [ ] 开放 API 授权
-  - [ ] [身份认证](essential/identity.md)
+  - [ ] [身份认证](essential/security/identity.md)
 - [ ] [ThinkPHP](back-end/thinkphp/README.md)
 - [ ] [MySQL](database/mysql/README.md)
 - [ ] [Project](project/README.md)
@@ -72,7 +72,7 @@
     - https://www.ruanyifeng.com/blog/2010/03/built_a_image_server.html - *搭建了一个图片库 - 阮一峰的网络日志*
     - https://support.typoraio.cn/Images/ - *Images in Typora - Typora Support*
     - https://www.picgo.net/ - *PicGo - 免费图床，贴出分享，图显不凡*
-- [ ] [文本编码](essential/character-sets.md#文本编码)
+- [ ] [文本编码](essential/character-sets/README.md#文本编码)
 - [ ] [Windows bat 脚本](os/desktop/windows/batch.md)
 - [ ] [文档模板](home/document-template.md)
 - [ ] [VS Code 代码片段](os/tools/developer/editor/visual-studio-code.md#代码片段)

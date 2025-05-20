@@ -17,12 +17,26 @@
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/fex-team/styleguide?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/fex-team/styleguide?style=social)
 
+    - 开源项目目录规范
+    - JavaScript 编码规范
+    - CSS 编码规范
+    - HTML 编码规范
+    - Markdown 编写规范
+
 2. https://github.com/google/styleguide - *GitHub - google/styleguide: Style guides for Google-originated open-source projects*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/google/styleguide?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/google/styleguide?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/google/styleguide?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/google/styleguide?style=social)
+
+    - HTML/CSS Style Guide
+    - JavaScript Style Guide
+    - JSON Style Guide
+    - Markdown Style Guide
+    - Shell Style Guide
+    - Vim script Style Guide
+    - ...
 
 ### HTML 和 CSS
 
@@ -42,7 +56,7 @@
 
 #### HTML 属性排序
 
-1. https://codeguide.bootcss.com/#html-attribute-order
+1. https://codeguide.bootcss.com/#html-attribute-order - *编码规范 by @mdo*
 2. https://www.wanghao.me/html-cssshuxingshunxuheguize.html - *Html/CSS 属性顺序和规则 - 小王子*
 
 #### HTML 属性自动换行
@@ -52,8 +66,8 @@
 #### CSS 声明排序
 
 [CSS 声明排序](https://www.ecosia.org/search?q=css样式排序&addon=firefox)
-- https://juejin.cn/post/6946098917339561998 - *stylelint配置样式自动排序 - 掘金*
-- https://codeguide.bootcss.com/#css-declaration-order
+1. https://codeguide.bootcss.com/#css-declaration-order - *编码规范 by @mdo*
+2. https://juejin.cn/post/6946098917339561998 - *stylelint配置样式自动排序 - 掘金*
 
 ### CSS
 
@@ -161,6 +175,8 @@ http://www.ruanyifeng.com/blog/2007/06/camelcase.html - *骆驼拼写法（Camel
 
 https://www.jsdelivr.com/package/npm/file-icons-js?tab=files - *file-icons-js CDN by jsDelivr - A CDN for npm and GitHub*
 
+示例 1：
+
 ``` css
 /* 多行
     注释 */
@@ -179,6 +195,8 @@ div {
 
 👆 上述参考：https://www.w3cschool.cn/wematy/wematy-qaru3bsh.html - *CSS 注释规范_w3cschool*
 
+示例 2：
+
 ```javascript
 /* **********************************************
      Begin prism-core.js
@@ -191,6 +209,8 @@ div {
 
 1. https://prismjs.com/ - *Prism*
 2. https://hg.mozilla.org/mozilla-central/file/tip/netwerk/base/nsURLParsers.cpp - *mozilla-central: netwerk/base/nsURLParsers.cpp@0af7a39fb3e13a48ef366fdb2532896cdf7a119f*
+
+示例 3：
 
 ``` javascript
 // 自定义内容 - start
@@ -363,7 +383,11 @@ https://apidocjs.com/ - *apiDoc - Inline Documentation for RESTful web APIs*
 
 https://github.com/apidoc/apidoc - *GitHub - apidoc/apidoc: RESTful web API Documentation Generator.*
 
-## Git 提交规范
+## 规范工具
+
+https://github.com/rwaldron/idiomatic.js#code-quality-tools-resources--references - *GitHub - rwaldron/idiomatic.js: Principles of Writing Consistent, Idiomatic JavaScript*
+
+### Git Commit Messages
 
 格式：
 
@@ -375,23 +399,43 @@ https://github.com/apidoc/apidoc - *GitHub - apidoc/apidoc: RESTful web API Docu
 <footer>
 ```
 
-type：
+- Header `<type>(<scope>): <subject>` (必需)
+  - type (必需)
+    - feat：新功能（feature）
+    - fix：修补 bug
+    - docs：文档（documentation）
+    - style： 格式（不影响代码运行的变动）
+    - refactor：重构（即不是新增功能，也不是修改 bug 的代码变动）
+    - test：增加测试
+    - chore：构建过程或辅助工具的变动
+  - scope (可选)
+  - subject (必需)
+- Body `<body>` (可选)
+- Footer `<footer>` (可选)
 
-- feat：新功能（feature）
-- fix：修补 bug
-- docs：文档（documentation）
-- style： 格式（不影响代码运行的变动）
-- refactor：重构（即不是新增功能，也不是修改 bug 的代码变动）
-- test：增加测试
-- chore：构建过程或辅助工具的变动
+规范：
 
-https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
+- [约定式提交](https://www.conventionalcommits.org/zh-hans/v1.0.0/) - *一种用于给提交信息增加人机可读含义的规范* [GitHub Repo](https://github.com/conventional-commits/conventionalcommits.org)
 
-https://www.ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
+  ![GitHub last commit](https://img.shields.io/github/last-commit/conventional-commits/conventionalcommits.org?logo=github&color=blue)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/conventional-commits/conventionalcommits.org?style=social)
 
-https://www.conventionalcommits.org/zh-hans/v1.0.0/ - *约定式提交*
+工具：
 
-### commitlint
+- [commitlint](#commitlint)
+
+参考：
+
+1. https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
+2. https://www.ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
+
+#### conventional-changelog
+
+> Tools to generate changelogs and release notes from a project&#39;s commit messages and metadata. - conventional-changelog
+
+https://github.com/conventional-changelog - *conventional-changelog · GitHub*
+
+##### commitlint
 
 https://commitlint.js.org/ - *commitlint*
 
@@ -402,26 +446,215 @@ https://github.com/conventional-changelog/commitlint - *GitHub - conventional-ch
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/conventional-changelog/commitlint?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/conventional-changelog/commitlint?style=social)
 
-## 规范工具
+##### conventional-changelog
 
-https://github.com/rwaldron/idiomatic.js#code-quality-tools-resources--references - *GitHub - rwaldron/idiomatic.js: Principles of Writing Consistent, Idiomatic JavaScript*
+https://github.com/conventional-changelog/conventional-changelog - *GitHub - conventional-changelog/conventional-changelog: Generate changelogs and release notes from a project&#39;s commit messages and metadata.*
 
-### Prettier
+![GitHub last commit](https://img.shields.io/github/last-commit/conventional-changelog/conventional-changelog?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/conventional-changelog/conventional-changelog?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/conventional-changelog/conventional-changelog?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/conventional-changelog/conventional-changelog?style=social)
 
-有关详细信息，请参阅“[Prettier](os/tools/developer/prettier.md)”。
+### Linters（代码校验）
 
-### ESLint
+#### ESLint
 
-暂无
+> A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.
 
-### Stylelint
+![GitHub last commit](https://badgen.net/github/last-commit/eslint/eslint?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/eslint/eslint?logo=github)
+![NPM Version](https://img.shields.io/npm/v/eslint?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/eslint/eslint?style=social)
+
+----
+
+https://github.com/eslint/eslint - *GitHub - eslint/eslint: Find and fix problems in your JavaScript code.*
+
+https://eslint.org/ - *Find and fix problems in your JavaScript code - ESLint - Pluggable JavaScript Linter* [中文站点](https://zh-hans.eslint.org/)
+
+配置：
+
+1. https://zh-hans.eslint.org/docs/latest/use/configure/rules - *配置规则 - ESLint - 插件化的 JavaScript 代码检查工具*
+
+configs:
+
+1. https://github.com/airbnb/javascript - *GitHub - airbnb/javascript: JavaScript Style Guide*
+
+plugins:
+
+1. https://github.com/vuejs/eslint-plugin-vue - *GitHub - vuejs/eslint-plugin-vue: Official ESLint plugin for Vue.js* [Website](https://eslint.vuejs.org/)
+
+2. https://github.com/BenoitZugmeyer/eslint-plugin-html - *GitHub - BenoitZugmeyer/eslint-plugin-html: An ESLint plugin to extract and lint scripts from HTML files.*
+
+Visual Studio Code：
+
+1. https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint#settings-options - *ESLint - Visual Studio Marketplace*
+
+    - https://github.com/Microsoft/vscode-eslint - *GitHub - microsoft/vscode-eslint: VSCode extension to integrate eslint into VSCode*
+
+        ![GitHub last commit](https://badgen.net/github/last-commit/Microsoft/vscode-eslint?icon=github&color=blue)
+
+#### JSLint
+
+> JSLint, The JavaScript Code Quality and Coverage Tool
+
+![GitHub last commit](https://badgen.net/github/last-commit/jslint-org/jslint?icon=github&color=blue)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jslint-org/jslint?logo=github)
+![NPM Version](https://img.shields.io/npm/v/@jslint-org/jslint?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/jslint-org/jslint?style=social)
+
+----
+
+https://github.com/jslint-org/jslint - *GitHub - jslint-org/jslint: JSLint, The JavaScript Code Quality and Coverage Tool*
+
+https://www.jslint.com/ - *JSLint: The JavaScript Code Quality and Coverage Tool*
+
+Visual Studio Code：
+
+1. https://marketplace.visualstudio.com/items?itemName=jslint.vscode-jslint - *vscode-jslint - Visual Studio Marketplace*
+
+    - https://github.com/jslint-org/jslint#quickstart-jslint-in-vscode - *GitHub - jslint-org/jslint: JSLint, The JavaScript Code Quality and Coverage Tool*
+
+        ![GitHub last commit](https://badgen.net/github/last-commit/jslint-org/jslint?icon=github&color=blue)
+
+#### JSHint
+
+> JSHint is a tool that helps to detect errors and potential problems in your JavaScript code
+
+![GitHub last commit](https://badgen.net/github/last-commit/jshint/jshint?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jshint/jshint?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/jshint/jshint?logo=github)
+![NPM Version](https://img.shields.io/npm/v/jshint?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/jshint/jshint?style=social)
+
+----
+
+https://github.com/jshint/jshint - *jshint/jshint: JSHint is a tool that helps to detect errors and potential problems in your JavaScript code*
+
+https://jshint.com/ - *JSHint, a JavaScript Code Quality Tool*
+
+#### Stylelint
+
+> A mighty CSS linter that helps you avoid errors and enforce conventions.
+
+![GitHub last commit](https://badgen.net/github/last-commit/stylelint/stylelint?icon=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/stylelint/stylelint?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stylelint/stylelint?logo=github)
+![NPM Version](https://img.shields.io/npm/v/stylelint?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/stylelint/stylelint?style=social)
+
+----
+
+https://github.com/stylelint/stylelint - *GitHub - stylelint/stylelint: A mighty CSS linter that helps you avoid errors and enforce conventions.*
+
+https://stylelint.io/ - *Home | Stylelint*
+
+[configs](https://github.com/stylelint/awesome-stylelint#configs)：
+
+1. https://github.com/twbs/stylelint-config-twbs-bootstrap - *GitHub - twbs/stylelint-config-twbs-bootstrap: Stylelint config for Bootstrap* 「支持 CSS 声明排序」
+
+2. https://github.com/ota-meshi/stylelint-config-html - *GitHub - ota-meshi/stylelint-config-html: The shareable HTML config for Stylelint.* 「检测 .html 文件中的样式」
+
+[plugins](https://github.com/stylelint/awesome-stylelint#plugins):
+
+1. https://github.com/prettier/stylelint-prettier - *GitHub - prettier/stylelint-prettier: Stylelint plugin for Prettier formatting*
+
+Visual Studio Code：
+
+1. https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint - *Stylelint - Visual Studio Marketplace*
+
+    - https://github.com/stylelint/vscode-stylelint
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/stylelint/vscode-stylelint?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/stylelint/vscode-stylelint?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stylelint/vscode-stylelint?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/stylelint/vscode-stylelint?style=social)
+
+参考：
 
 1. https://www.cnblogs.com/Yellow-ice/p/15346883.html - *前端规范之CSS规范（Stylelint） - Yellow_ice - 博客园*
 
-### HTMLHint
+#### HTMLHint
 
-暂无
+> Static code analysis tool you need for your HTML
 
-### markdownlint
+![GitHub last commit](https://badgen.net/github/last-commit/htmlhint/HTMLHint?icon=github&color=blue)
+![GitHub Release
+Date](https://img.shields.io/github/release-date/htmlhint/HTMLHint?logo=github)
+![GitHub release (latest
+SemVer)](https://img.shields.io/github/v/release/htmlhint/HTMLHint?logo=github)
+![NPM Version](https://img.shields.io/npm/v/htmlhint?logo=npm)
+![GitHub Repo
+stars](https://img.shields.io/github/stars/htmlhint/HTMLHint?style=social)
 
-暂无
+----
+
+https://github.com/htmlhint/HTMLHint - *GitHub - htmlhint/HTMLHint: ⚙️ The
+static code analysis tool you need for your HTML*
+
+https://htmlhint.com/ - *Hello from HTMLHint | HTMLHint*
+
+用法：
+
+1. [HTML 属性排序](https://htmlhint.com/docs/user-guide/rules/attr-sorted)
+
+Visual Studio Code：
+
+1. https://marketplace.visualstudio.com/items?itemName=HTMLHint.vscode-htmlhint - *HTMLHint - Visual Studio Marketplace*
+
+    - https://github.com/htmlhint/vscode-htmlhint - *GitHub - htmlhint/vscode-htmlhint: VS Code integration of HTMLHint, an HTML linter.*
+
+        ![GitHub last commit](https://badgen.net/github/last-commit/htmlhint/vscode-htmlhint?icon=github&color=blue)
+
+#### markdownlint
+
+> A Node.js style checker and lint tool for Markdown/CommonMark files.
+
+![GitHub last commit](https://badgen.net/github/last-commit/DavidAnson/markdownlint?icon=github&color=blue)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/DavidAnson/markdownlint?logo=github&color=blue)
+![NPM Version](https://img.shields.io/npm/v/markdownlint?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/DavidAnson/markdownlint?style=social)
+
+----
+
+https://github.com/DavidAnson/markdownlint - *GitHub -
+DavidAnson/markdownlint: A Node.js style checker and lint tool for
+Markdown/CommonMark files.*
+
+Visual Studio Code：
+
+1. https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint - *markdownlint - Visual Studio Marketplace*
+
+    - https://github.com/DavidAnson/vscode-markdownlint - *GitHub - DavidAnson/vscode-markdownlint: Markdown linting and style checking for Visual Studio Code*
+
+        ![GitHub last commit](https://badgen.net/github/last-commit/DavidAnson/vscode-markdownlint?icon=github&color=blue)
+
+### Formatters
+
+#### Prettier
+
+有关详细信息，请参阅“[Prettier](os/tools/developer/prettier.md)”。
+
+#### EditorConfig
+
+> EditorConfig is a file format and collection of text editor plugins for maintaining consistent coding styles between different editors and IDEs.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/editorconfig/editorconfig?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/editorconfig/editorconfig?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/editorconfig/editorconfig?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/editorconfig/editorconfig?style=social)
+
+https://editorconfig.org/ - *EditorConfig*
+
+https://github.com/editorconfig/editorconfig - *GitHub - editorconfig/editorconfig: EditorConfig universal issue tracker and wiki*
+
+Visual Studio Code：
+
+1. https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig - *EditorConfig for VS Code - Visual Studio Marketplace*
+
+    - https://github.com/editorconfig/editorconfig-vscode
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/editorconfig/editorconfig-vscode?logo=github&color=blue)
+        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/editorconfig/editorconfig-vscode?display_date=published_at&logo=github)
+        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/editorconfig/editorconfig-vscode?logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/editorconfig/editorconfig-vscode?style=social)

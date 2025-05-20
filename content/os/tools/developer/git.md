@@ -12,11 +12,17 @@
 
 ## 官方
 
-Website: https://git-scm.com - *Git*
+Website:
 
-Docs: https://git-scm.com/doc - *Git - Documentation*
+1. https://git-scm.com - *Git*
 
-GitHub: https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.*
+Docs:
+
+1. https://git-scm.com/doc - *Git - Documentation*
+
+GitHub:
+
+1. https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements.*
 
 ## 教程
 
@@ -38,6 +44,15 @@ GitHub: https://github.com/git/git - *GitHub - git/git: Git Source Code Mirror -
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/wangdoc/git-tutorial?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wangdoc/git-tutorial?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/git-tutorial?style=social)
+
+### 速查表
+
+1. https://ndpsoftware.com/git-cheatsheet.html - *index :: Git Cheatsheet :: NDP Software* [GitHub Repo](https://github.com/ndp/git-cheatsheet)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/ndp/git-cheatsheet?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ndp/git-cheatsheet?style=social)
+
+2. https://wangchujiang.com/reference/docs/git.html - *Git 备忘清单 & git cheatsheet & Quick Reference*
 
 ## 安装
 
@@ -82,7 +97,7 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 代码托管平台：
 
-1. [GitHub](/tools/github) - *GitHub: Where the world builds software · GitHub*
+1. [GitHub](/tools/github) - *GitHub: Where the world builds software · GitHub*
 2. [Gitee](https://gitee.com/) - *Gitee - 基于 Git 的代码托管和研发协作平台*
 3. [阿里云云效 Codeup](https://codeup.aliyun.com/) - *云效 Codeup · 企业级代码管理平台* [旧版](https://code.aliyun.com/)
 4. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
@@ -145,9 +160,39 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 ![工作流](https://www.bootcss.com/p/git-guide/img/trees.png)
 <small>*插图来源于：[git 使用简易指南](https://www.bootcss.com/p/git-guide/)*</small>
 
+#### 贮藏区
+
+> stash
+
+当你去修改别的东西的时候，隐藏（临时保存）当前的修改的地方
+
+#### 工作区
+
+> workspace
+
+你本地检出的代码。也被叫做 工作拷贝、工作树 或 检出。它是你文件系统上的任何一个目录，它有一个与之相关的仓库（通常通过其中存在一个名为 .git 的子目录来表示）。工作区包括该目录中的所有文件和子目录。
+
+#### 暂存区
+
+> index
+
+用于提交文件修改的暂存区域。在你“提交”（或记录）文件前，你首先需要将它们添加到索引中。也叫做 “当前目录缓存”、“暂存区”、“缓存”或“暂存文件”。
+
+#### 本地仓库
+
+> local repository
+
+.git 文件夹保存仓库需要的全部信息——即 Git 仓库的骨架，典型的分支： main, master, feature-x, bugfix-y。本地仓库具有与任何其他 Git 仓库完全相同的特性和功能。
+
+#### 上游仓库
+
+> upstream repository
+
+与其他开发人员共享和协作的代码仓库。托管于某些网络或远端，例如 Github。默认名称是 "origin"。典型的分支：main、master、shared-feature-x、release-y。也被叫做“远程仓库”或“远端”。
+
 ### 创建本地仓库
 
-操作步骤：
+操作步骤（共 5 步）：
 
 1. 初始化 `git` 仓库（在指定系统文件夹下执行）
 
@@ -713,33 +758,33 @@ git status -s
 
 > *工作区状态*
 
-`untracked` 表示是新文件，没有被 `git add` 过，是未跟踪的意思；此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；可通过执行 `git add` 命令将文件状态更改为 staged 。
+`untracked` 表示是新文件，没有被 `git add` 过，是未跟踪的意思；此文件在文件夹中，但并没有加入到 git 库，不参与版本控制；可通过执行 `git add` 命令将文件状态更改为 `staged` 。
 
 #### 未暂存 - *not staged*
 
-> *执行 git add 命令后，又更改了文件内容的状态*
+> *执行 `git add` 命令后，又更改了文件内容的状态*
 
 `not staged`  表示 `git add` 过的文件（即跟踪文件），再次修改了文件但是没有执行 `git add` 命令，就是未暂存的意思。
 
 #### 已暂存 - *staged*
 
-> *执行 git add 命令后的状态*
+> *执行 `git add` 命令后的状态*
 
 这种类型的文件有 2 个去处：
 
-1. 执行 `git commit` 命令则将修改同步到库中，这时库中的文件和本地文件又变为一致，文件为 unmodify 状态。
-2. 执行 `git reset HEAD filename` 命令取消暂存，文件状态变为 modified 。
+1. 执行 `git commit` 命令则将修改同步到库中，这时库中的文件和本地文件又变为一致，文件为 `unmodify` 状态。
+2. 执行 `git reset HEAD filename` 命令取消暂存，文件状态变为 `modified` 。
 
 #### 未修改 - *unmodify*
 
-> *执行 git commit 命令后的状态*
+> *执行 `git commit` 命令后的状态*
 
 文件已经入库但未修改，即版本库中的文件快照内容与文件夹中完全一致。
 
 这种类型的文件有 2 个去处：
 
-1. 修改文件内容，更改为 modified 状态；
-2. 使用 `git rm` 移出版本库，更改为 untracked 状态。
+1. 修改文件内容，更改为 `modified` 状态；
+2. 使用 `git rm` 移出版本库，更改为 `untracked` 状态。
 
 #### 已修改 - *modified*
 
@@ -749,8 +794,8 @@ git status -s
 
 这种类型的文件也有 2 个去处：
 
-1. 使用 `git add` 更改为暂存 staged 状态；
-2. 使用 `git checkout` （从库中取出文件，覆盖当前修改），丢弃已修改的文件，返回到 unmodify 状态。
+1. 使用 `git add` 更改为暂存 `staged` 状态；
+2. 使用 `git checkout` （从库中取出文件，覆盖当前修改），丢弃已修改的文件，返回到 `unmodify` 状态。
 
 ### 查看提交历史 - *log*
 
@@ -1697,17 +1742,10 @@ Angular 规范
 工具：
 
 1. https://marketplace.visualstudio.com/items?itemName=redjue.git-commit-plugin - *git-commit-plugin - Visual Studio Marketplace*
-2. https://github.com/conventional-changelog/conventional-changelog - *GitHub - conventional-changelog/conventional-changelog: Generate changelogs and release notes from a project's commit messages and metadata.*
-3. https://github.com/commitizen/cz-cli - *GitHub - commitizen/cz-cli: The commitizen command line utility. #BlackLivesMatter*
+2. https://github.com/commitizen/cz-cli - *GitHub - commitizen/cz-cli: The commitizen command line utility. #BlackLivesMatter*
     1. https://juejin.cn/post/6844903793033756680 - *超详细的Git提交规范引入指南 - 掘金*
     2. https://juejin.cn/post/7134487982597210120 - *天天提交代码，git commit 提交时能规范一下吗？ - 掘金*
     3. https://blog.csdn.net/weixin_44292923/article/details/124317911 - *git提交规范，规范自己的提交标准_该走的弯路，一步都不会少。的博客-CSDN博客*
-
-参考：
-
-1. https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html - *Commit message 和 Change log 编写指南 - 阮一峰的网络日志*
-2. https://www.ruanyifeng.com/blog/2015/08/git-use-process.html - *Git 使用规范流程 - 阮一峰的网络日志*
-3. https://www.conventionalcommits.org/zh-hans/v1.0.0/ - *约定式提交*
 
 ### 在本地局域网中的两台电脑间同步代码
 

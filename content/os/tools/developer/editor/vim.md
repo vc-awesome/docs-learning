@@ -39,8 +39,6 @@ https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yianwillis/vimcdoc?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/yianwillis/vimcdoc?style=social)
 
-帮助语法的解释：https://yianwillis.github.io/vimcdoc/doc/intro.html#notation - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
-
 主页：https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
 1. https://yianwillis.github.io/vimcdoc/doc/help.html#reference_toc - *VIM 中文帮助: 总览及快速参考*
 
@@ -76,6 +74,10 @@ https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文
 5. https://wangchujiang.com/linux-command/c/vi.html - *vi 命令，Linux vi 命令详解：功能强大的纯文本编辑器 - Linux 命令搜索引擎*
 
 6. https://docs.kilvn.com/vim_zh_cn/ - *前言 · VIM 操作手册*
+
+#### 键盘图
+
+http://www.runoob.com/w3cnote/all-vim-cheatsheat.html - *史上最全Vim快捷键键位图（入门到进阶） | 菜鸟教程*
 
 #### 速查表
 
@@ -121,11 +123,12 @@ apt install vim-python
 
 ## 配置
 
-https://ruanyifeng.com/blog/2018/09/vimrc.html - *Vim 配置入门 - 阮一峰的网络日志*
-
 查询某个配置项是打开还是关闭，可以在命令模式下，输入该配置，并在后面加上问号。
 
 <kbd>:</kbd> + `set number?` - 返回 number 或者 nonumber。
+
+1. https://ruanyifeng.com/blog/2018/09/vimrc.html - *Vim 配置入门 - 阮一峰的网络日志*
+2. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_op - *VIM 中文帮助: 总览最常用的命令*
 
 ### 显示行号
 
@@ -134,10 +137,37 @@ https://ruanyifeng.com/blog/2018/09/vimrc.html - *Vim 配置入门 - 阮一峰�
 
 https://blog.csdn.net/kye055947/article/details/102714686 - *【LINUX-vim命令】设置vim显示行号-CSDN博客*
 
-#### 显示相对行号
+### 显示相对行号
 
 - <kbd>:</kbd> + `set relativenumber` - 显示相对行号
 - <kbd>:</kbd> + `set norelativenumber` - 取消显示相对行号
+
+### 显示空格与Tab
+
+开启操作步骤：
+
+1. <kbd>:</kbd> + `set listchars=tab:»■,trail:■` - 配置
+2. <kbd>:</kbd> + `set list` - 显示
+
+取消操作步骤：
+
+1. <kbd>:</kbd> + `set nolist` - 取消显示
+
+https://segmentfault.com/a/1190000021101602 - *linux - vim技巧：设置空格和Tab字符可见，并自定义显示的字符颜色 - 南木阁 - SegmentFault 思否*
+
+### 显示缩进参考线
+
+https://github.com/Yggdroot/indentLine - *GitHub - Yggdroot/indentLine: A vim plugin to display the indention levels with thin vertical lines*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Yggdroot/indentLine?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Yggdroot/indentLine?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Yggdroot/indentLine?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Yggdroot/indentLine?style=social)
+
+参考：
+
+1. https://www.cnblogs.com/lvxiaobo616/p/5968105.html - *vim配置有竖对齐线 - lvxiaobo616 - 博客园*
+2. https://zhuanlan.zhihu.com/p/40154597 - *vim-indentLine缩进线,从此告别游标卡尺[视频] - 知乎*
 
 ### 自动折行
 
@@ -162,6 +192,32 @@ https://yianwillis.github.io/vimcdoc/doc/options.html#'autowrite' - *VIM 中文�
 
 ## 入门指南
 
+### 介绍 Vim
+
+https://yianwillis.github.io/vimcdoc/doc/intro.html - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
+
+#### 记法
+
+帮助语法的解释：https://yianwillis.github.io/vimcdoc/doc/intro.html#notation - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
+
+a  | b
+---|---
+[]  | 方括号里的字符可选。
+[count]  | 可选的数值，可用在命令前以倍数或重复该命令。在没有特殊说明的情况下，省略时假定计数为一。
+["x]  | 可选的用于存储文本的寄存器。
+{}  | 花括号里的内容是命令中必须出现的，但是可以取不同的值。
+{char1-char2} | 在 char1 到 char2 区间内的一个字符，例如: {a-z} 是一个小写字母。多个区间可以串接，例如: {a-zA-Z0-9} 代表任一数字或字母。
+{motion}  | 移动光标的命令，或动作。
+\<BS>  | 退格键
+\<NL>  | 换行符
+\<CR>  | 回车符
+\<S-...> | Shift＋键
+\<C-...> | Control＋键
+
+#### 操作符
+
+https://yianwillis.github.io/vimcdoc/doc/motion.html#operator - *VIM 中文帮助: 有关移动的命令*
+
 ### 目录结构
 
 ```tree
@@ -174,7 +230,7 @@ root_folder/
 │   └── .vimrc #用户配置（对用户个人生效）
 ```
 
-**/*.swp - 交换文件主要用于系统崩溃时恢复文件，文件名的开头是 `.` 、结尾是 `.swp`
+`**/*.swp` - 交换文件主要用于系统崩溃时恢复文件，文件名的开头是 `.` 、结尾是 `.swp`。
 
 https://blog.csdn.net/qq_42200183/article/details/81531422 - *Linux中.swp 文件的产生与解决方法_linux .swp-CSDN博客*
 
@@ -214,6 +270,10 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 
 `-d` - Diff mode (like "vimdiff")
 
+`-R` - Readonly mode (like "view")
+
+`--clean` - 'nocompatible', Vim defaults, no plugins, no viminfo
+
 示例：
 
 `vim --help`
@@ -224,9 +284,26 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 
 `vim -np file.txt`
 
+`vim --clean file.txt`
+
 参考：
 
 1. https://www.cnblogs.com/jiangxianseng/p/15592295.html - *vim 命令记录 - Mr江 - 博客园*
+
+#### 常用命令
+
+1. [:w !git diff --no-index % -](#git-diff)
+2. [:Toc](#markdown-syntax)
+3. [:.,'ad](#删除行至标记位置)
+4. [:set relativenumber](#显示相对行号)
+5. [:%w !termux-clipboard-set](#复制内容至系统剪贴板)
+6. [:tabedit ./](#标签页tabs)
+7. [:source ~/.vimrc](#如何在不重启-vim-的情况下重新加载-vimrc)
+
+[组合使用](#执行多条命令)：
+
+1. `execute "w !git diff --no-index % -" | :Toc`
+2. `execute "w !git diff --no-index % -" | execute "Toc"`
 
 #### 帮助文档
 
@@ -235,6 +312,8 @@ vimtutor
 ```
 
 https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
+
+https://yianwillis.github.io/vimcdoc/doc/helphelp.html - *VIM 中文帮助: 关于如何使用帮助文件*
 
 https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Worktile社区*
 
@@ -289,83 +368,21 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 16. <kbd>Z</kbd> + <kbd>Z</kbd> - 保存并退出。
 17. <kbd>Z</kbd> + <kbd>Q</kbd> - 不保存退出。
 
-##### 移动光标
-
-1. <kbd>0</kbd>（数字 0）或功能键 <kbd>Home</kbd> - 移动到这一行的最前面字符处 (常用)
-2. <kbd>$</kbd> 或功能键 <kbd>End</kbd> - 移动到这一行的最后面字符处(常用)
-3. <kbd>Shift</kbd> + <kbd>g</kbd> - 移动到这个档案的最后一行(常用)
-4. <kbd>n</kbd> + <kbd>G</kbd> - n 为数字。移动到这个档案的第 n 行。例如 20G 则会移动到这个档案的第 20 行(可配合 `:set nu`)
-5. <kbd>g</kbd> + <kbd>g</kbd> - 移动到这个档案的第一行，相当于 1G (常用)
-
-##### 查找与替换
-
-文档内查找：
-
-- <kbd>*</kbd> - 向后查找光标当前所在单词
-- <kbd>#</kbd> - 向前查找光标当前所在单词
-- <kbd>/</kbd> + `<search>` - 向后查找指定字符串
-- <kbd>?</kbd> + `<search>` - 向前查找指定字符串
-- <kbd>n</kbd> - 继续查找下一个
-- <kbd>N</kbd> - 继续查找上一个
-
-行内查找：
-
-- <kbd>f</kbd> + `<X>` - 当前行内向行尾方向查找并定位到字符 `X`
-- <kbd>t</kbd> + `<X>` - 当前行内向行尾方向查找并定位到字符 X 之前
-- <kbd>F</kbd> + `<X>` - 当前行内向行首方向查找并定位到字符 `X`
-- <kbd>T</kbd> + `<X>` - 当前行内向行首方向查找并定位到字符 `X` 之后
-- <kbd>;</kbd> - 向当前方向查找下一个字符
-- <kbd>,</kbd> - 向当前相反方向查找下一个字符
-
-重复查找：
-
-- <kbd>/</kbd> + <kbd>/</kbd> - 重复上一个查找
-
-重新执行或编辑搜索历史中的查找，操作步骤：
-
-1. 进入搜索模式（按 <kbd>/</kbd>），然后按 <kbd>↑</kbd> 键找到想要的历史搜索记录。
-2. 可以对该记录进行编辑后按回车，重新执行修改后的搜索。
-
-清除查找历史：
-
-- 如果想要清除搜索历史，可以使用 `:let @/ = ""`，这会清除最后一次的搜索记录。要彻底清除所有搜索历史，需重启 Vim，因为搜索历史在 Vim 中没有直接的清除命令。
-
-替换：
-
-- <kbd>:</kbd> + `s/word1/word2/g` - 在当前行寻找 word1 字符串，并将该字符串取代为 word2 ！(常用)
-- <kbd>:</kbd> + `n1,n2s/word1/word2/g` - 	n1 与 n2 为数字。在第 n1 与 n2 行之间寻找 word1 这个字符串，并将该字符串取代为 word2 ！举例来说，在 100 到 200 行之间搜寻 vbird 并取代为 VBIRD 则：『:100,200s/vbird/VBIRD/g』。(常用)
-- <kbd>:</kbd> + `1,$s/word1/word2/g` 或 <kbd>:</kbd> + `%s/word1/word2/g` - 从第一行到最后一行寻找 word1 字符串，并将该字符串取代为 word2 ！(常用)
-- <kbd>:</kbd> + `1,$s/word1/word2/gc` 或 <kbd>:</kbd> + `%s/word1/word2/gc` - 从第一行到最后一行寻找 word1 字符串，并将该字符串取代为 word2 ！且在取代前显示提示字符给用户确认 (confirm) 是否需要取代！(常用)
-
-重复替换：
-
-- <kbd>:</kbd> + <kbd>&</kbd> - 重新执行上一个替换命令，仅在当前行执行。
-- <kbd>:</kbd> + <kbd>&</kbd> + <kbd>&</kbd> - 在整个文件或指定范围内重新执行上一次的替换命令。
-
-取消查找与替换的高亮：
-
-- `:nohlsearch` (简写：`:noh`)
-
-参考：
-
-1. https://docs.kilvn.com/vim_zh_cn/ch12_search_and_substitute.html - *Ch 12 - 搜索和替换 · VIM 操作手册*
-2. https://www.wenjianb.com/zonghe/16188.html - *vim搜索（Vim查找与替换命令大全） - 文件帮百科*
-
 ##### 删除、复制与粘贴
 
-1. <kbd>.</kbd> -  不要怀疑！这就是小数点！意思是重复前一个动作的意思。 如果你想要重复删除、重复贴上等等动作，按下小数点『.』就好了！ (常用)
+1. <kbd>.</kbd> -  不要怀疑！这就是小数点！意思是重复前一个动作的意思。 如果你想要重复删除、重复贴上等等动作，按下小数点 <kbd>.</kbd> 就好了！ (常用)
 
 删除（剪切）：
 
 - <kbd>x</kbd> 或 <kbd>X</kbd> - 在一行字当中，x 为向后删除一个字符 (相当于 [del] 按键)， X 为向前删除一个字符 (相当于 [backspace] 亦即是退格键) (常用)
-- <kbd>n</kbd> + <kbd>x</kbd> - n 为数字，连续向后删除 n 个字符。举例来说，我要连续删除 10 个字符， 『10x』。
+- <kbd>n</kbd> + <kbd>x</kbd> - n 为数字，连续向后删除 n 个字符。举例来说，我要连续删除 10 个字符， `10x`。
 - <kbd>d</kbd> + <kbd>d</kbd> - 剪切游标所在的那一整行 (常用)，用 p/P 可以粘贴。
-- <kbd>n</kbd> + <kbd>d</kbd> + <kbd>d</kbd> - n 为数字。剪切光标所在的向下 n 行，例如 20dd 则是剪切 20 行 (常用)，用 p/P 可以粘贴。
+- <kbd>n</kbd> + <kbd>d</kbd> + <kbd>d</kbd> - n 为数字。剪切光标所在的向下 n 行，例如 `20dd` 则是剪切 20 行 (常用)，用 p/P 可以粘贴。
 
 复制：
 
 - <kbd>y</kbd> + <kbd>y</kbd> - 复制游标所在的那一行 (常用)
-- <kbd>n</kbd> + <kbd>y</kbd> + <kbd>y</kbd> - n 为数字。复制光标所在的向下 n 行，例如 20yy 则是复制 20 行 (常用)
+- <kbd>n</kbd> + <kbd>y</kbd> + <kbd>y</kbd> - n 为数字。复制光标所在的向下 n 行，例如 `20yy` 则是复制 20 行 (常用)
 
 粘贴：
 
@@ -423,40 +440,12 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 ##### 范围
 
 1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ra - *VIM 中文帮助: 总览最常用的命令*
-2. <https://wangchujiang.com/reference/docs/vim.html#范围> - *Vim 备忘清单 & vim cheatsheet & Quick Reference*
+2. https://yianwillis.github.io/vimcdoc/doc/usr_10.html#10.3 - *VIM 中文用户手册: 做大修改*
+3. <https://wangchujiang.com/reference/docs/vim.html#范围> - *Vim 备忘清单 & vim cheatsheet & Quick Reference*
 
 ##### 快捷键
 
 <kbd>:</kbd> + <kbd>Ctrl</kbd> + <kbd>r</kbd> - 插入 Vim 寄存器中的文本
-
-##### 命令历史记录
-
-打开命令历史记录窗口：
-
-1. <kbd>:</kbd> +  <kbd>Ctrl</kbd> + <kbd>f</kbd>
-
-关闭命令历史记录窗口（3 种方式）：
-
-1. <kbd>Ctrl</kbd> + <kbd>c</kbd> + <kbd>ESC</kbd>
-2. <kbd>Ctrl</kbd> + <kbd>w</kbd> + <kbd>c</kbd>
-3. <kbd>:</kbd> + <kbd>q</kbd>
-
-禁用命令行历史记录：
-
-- 在当前 Vim 会话中禁用
-
-    `:set history=0`
-
-- 在所有 Vim 会话中禁用
-
-    1. 修改 .vimrc 文件：`vim ~/.vimrc`
-    2. 在 .vimrc 文件中，添加行：`set history=0`
-    3. 保存并退出：`:wq`
-    4. 重新启动 Vim
-
-参考：
-
-1. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
 
 ##### 执行多条命令
 
@@ -505,7 +494,7 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#Ex-mode - *VIM 中文帮助:
 
 https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮助: 终端窗口支持*
 
-## 用法
+## 基础用法
 
 ### 打开文件或目录
 
@@ -560,7 +549,13 @@ https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮
 1. https://stackoverflow.org.cn/questions/10488717 - *vim - 如何在 Vim 中永久显示当前文件的路径？_Stack Overflow中文网*
 2. https://blog.csdn.net/u013408061/article/details/81565966 - *vim 查看文件路径_vim查看当前文件路径-CSDN博客*
 
-### 光标移动
+### 移动光标
+
+1. <kbd>0</kbd>（数字 0）或功能键 <kbd>Home</kbd> - 移动到这一行的最前面字符处 (常用)
+2. <kbd>$</kbd> 或功能键 <kbd>End</kbd> - 移动到这一行的最后面字符处(常用)
+3. <kbd>Shift</kbd> + <kbd>g</kbd> - 移动到这个档案的最后一行(常用)
+4. <kbd>n</kbd> + <kbd>G</kbd> - n 为数字。移动到这个档案的第 n 行。例如 20G 则会移动到这个档案的第 20 行(可配合 `:set nu`)
+5. <kbd>g</kbd> + <kbd>g</kbd> - 移动到这个档案的第一行，相当于 1G (常用)
 
 https://yianwillis.github.io/vimcdoc/doc/motion.html - *VIM 中文帮助: 有关移动的命令*
 
@@ -615,6 +610,90 @@ N  CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
 1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
 2. https://yianwillis.github.io/vimcdoc/doc/motion.html#jump-motions -*VIM 中文帮助: 有关移动的命令*
 
+### 查找与替换
+
+取消查找与替换的高亮：
+
+- `:nohlsearch` (简写：`:noh`)
+
+参考：
+
+1. https://docs.kilvn.com/vim_zh_cn/ch12_search_and_substitute.html - *Ch 12 - 搜索和替换 · VIM 操作手册*
+2. https://www.wenjianb.com/zonghe/16188.html - *vim搜索（Vim查找与替换命令大全） - 文件帮百科*
+
+#### 查找
+
+文档内查找：
+
+- <kbd>*</kbd> - 向后查找光标当前所在单词
+- <kbd>#</kbd> - 向前查找光标当前所在单词
+- <kbd>/</kbd> + `<search>` - 向后查找指定字符串
+- <kbd>?</kbd> + `<search>` - 向前查找指定字符串
+- <kbd>n</kbd> - 继续查找下一个
+- <kbd>N</kbd> - 继续查找上一个
+
+行内查找：
+
+- <kbd>f</kbd> + `<X>` - 当前行内向行尾方向查找并定位到字符 `X`
+- <kbd>t</kbd> + `<X>` - 当前行内向行尾方向查找并定位到字符 X 之前
+- <kbd>F</kbd> + `<X>` - 当前行内向行首方向查找并定位到字符 `X`
+- <kbd>T</kbd> + `<X>` - 当前行内向行首方向查找并定位到字符 `X` 之后
+- <kbd>;</kbd> - 向当前方向查找下一个字符
+- <kbd>,</kbd> - 向当前相反方向查找下一个字符
+
+重复查找：
+
+- <kbd>/</kbd> + <kbd>/</kbd> - 重复上一个查找
+
+重新执行或编辑搜索历史中的查找，操作步骤：
+
+1. 进入搜索模式（按 <kbd>/</kbd>），然后按 <kbd>↑</kbd> 键找到想要的历史搜索记录。
+2. 可以对该记录进行编辑后按回车，重新执行修改后的搜索。
+
+清除查找历史：
+
+- 如果想要清除搜索历史，可以使用 `:let @/ = ""`，这会清除最后一次的搜索记录。要彻底清除所有搜索历史，需重启 Vim，因为搜索历史在 Vim 中没有直接的清除命令。
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/usr_27.html - *VIM 中文用户手册: 查找命令及模式*
+
+#### 替换
+
+替换：
+
+- <kbd>:</kbd> + `s/word1/word2/g` - 在当前行寻找 word1 字符串，并将该字符串取代为 word2 ！(常用)
+- <kbd>:</kbd> + `n1,n2s/word1/word2/g` - 	n1 与 n2 为数字。在第 n1 与 n2 行之间寻找 word1 这个字符串，并将该字符串取代为 word2 ！举例来说，在 100 到 200 行之间搜寻 vbird 并取代为 VBIRD 则：『:100,200s/vbird/VBIRD/g』。(常用)
+- <kbd>:</kbd> + `1,$s/word1/word2/g` 或 <kbd>:</kbd> + `%s/word1/word2/g` - 从第一行到最后一行寻找 word1 字符串，并将该字符串取代为 word2 ！(常用)
+- <kbd>:</kbd> + `1,$s/word1/word2/gc` 或 <kbd>:</kbd> + `%s/word1/word2/gc` - 从第一行到最后一行寻找 word1 字符串，并将该字符串取代为 word2 ！且在取代前显示提示字符给用户确认 (confirm) 是否需要取代！(常用)
+    - Confirm 提示的回答：
+        - `y` - Yes，是；执行替换
+        - `n` - No，否；跳过
+        - `a` - All，全部；对剩下的匹配点全部执行替换，不需要再确认
+        - `q` - Quit，退出；不再执行任何替换
+        - `l` - Last，最后；替换完当前匹配点后退出
+        - `CTRL-E` - 向上滚动一行
+        - `CTRL-Y` - 向下滚动一行
+
+重复替换：
+
+- <kbd>:</kbd> + <kbd>&</kbd> - 重新执行上一个替换命令，仅在当前行执行。
+- <kbd>:</kbd> + <kbd>&</kbd> + <kbd>&</kbd> - 在整个文件或指定范围内重新执行上一次的替换命令。
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_re - *VIM 中文帮助: 总览最常用的命令*
+2. https://yianwillis.github.io/vimcdoc/doc/change.html#:substitute - *VIM 中文帮助: 删除和替换文本*
+3. https://yianwillis.github.io/vimcdoc/doc/usr_10.html#10.2 - *VIM 中文用户手册: 做大修改*
+
+#### 正则
+
+`:help regex`
+
+`:help pattern`
+
+https://yianwillis.github.io/vimcdoc/doc/pattern.html#pattern.txt - *VIM 中文帮助: 正则表达式及查找命令*
+
 ### 对比文件
 
 语法：
@@ -640,7 +719,7 @@ vim -d file1 file2 [file3 [file4]]
 3. [vim - 强制 vimdiff 换行？_Stack Overflow中文网](https://stackoverflow.org.cn/questions/16840433)
 4. [使用 vimdiff 检查 Vim 中的文件差异](https://cn.linux-console.net/?p=19643)
 
-### 查看文件改动
+### 查看当前文件的改动
 
 在 Vim 中查看当前文件的改动（即哪些地方发生了修改），可以使用以下方法：
 
@@ -678,11 +757,19 @@ vim -d file1 file2 [file3 [file4]]
 
 通过这些方法，你可以方便地查看当前文件中的改动，无论是否已保存、是否在 Git 仓库中。
 
-#### :w !diff % -
+#### diff
+
+```vim
+:w !diff % -
+```
 
 ChatGPT：
 
-`解析 vim :w !diff % -`
+问：
+
+`解析 vim 的命令行模式命令 :w !diff % -`
+
+答：
 
 <details markdown='1'><summary>回答 1</summary>
 
@@ -744,7 +831,11 @@ ChatGPT：
 
 1. https://cloud.tencent.com/developer/ask/sof/102549204 - *在Vim中保存文件之前，我可以查看更改吗？-腾讯云开发者社区-腾讯云*
 
-#### :w !colordiff % -
+#### colordiff
+
+```vim
+:w !colordiff % -
+```
 
 `colordiff` 是 `diff` 的彩色输出版本，它对原始 `diff` 命令的输出进行着色。
 
@@ -760,7 +851,11 @@ sudo apt install colordiff
 colordiff file1 file2
 ```
 
-#### :w !git diff --no-index % -
+#### git diff
+
+```vim
+:w !git diff --no-index % -
+```
 
 Git 自带彩色差异显示功能，无需额外工具。
 
@@ -954,7 +1049,7 @@ ChatGPT：
 
 1. https://cloud.tencent.com/developer/article/1838332 - *在Vim/Vi中删除行、多行、范围、所有行及包含模式的行-腾讯云开发者社区-腾讯云*
 
-#### 删除行至位置标记处
+#### 删除行至标记位置
 
 在 Vim 中，如果你想删除从当前光标位置到某个标记（例如 `a` 或 `b`）的那一行，可以使用以下命令：
 
@@ -976,7 +1071,7 @@ ChatGPT：
 
 这样就可以删除从当前行到标记行之间的所有行。请注意，这个命令会删除包括当前行和标记行在内的所有行。如果你只想删除当前行到标记行之间的行（不包括标记行），可以使用 `:., 'a-1 d`。
 
-### 重复上一次操作
+### 重复操作
 
 <kbd>.</kbd> - 重复上一次的普通模式命令。
 
@@ -986,8 +1081,9 @@ ChatGPT：
 
 参考：
 
-1. <https://oheyu.github.io/zh/posts/tech/vim重复上一次命令/> - *Vim重复上一次命令 | 史玉浩的个人博客*
-2. https://learnku.com/articles/21986 - *VIM 中的重复操作与高效率 | Laravel China 社区*
+1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_re - *VIM 中文帮助: 总览最常用的命令*
+2. <https://oheyu.github.io/zh/posts/tech/vim重复上一次命令/> - *Vim重复上一次命令 | 史玉浩的个人博客*
+3. https://learnku.com/articles/21986 - *VIM 中的重复操作与高效率 | Laravel China 社区*
 
 ### 命令历史
 
@@ -1009,12 +1105,26 @@ ChatGPT：
 2. <kbd>Ctrl</kbd> + <kbd>w</kbd> + <kbd>c</kbd> - 关闭窗口
 3. <kbd>:</kbd> + <kbd>q</kbd>
 
+禁用命令行历史记录：
+
+- 在当前 Vim 会话中禁用
+
+    `:set history=0`
+
+- 在所有 Vim 会话中禁用
+
+    1. 修改 .vimrc 文件：`vim ~/.vimrc`
+    2. 在 .vimrc 文件中，添加行：`set history=0`
+    3. 保存并退出：`:wq` 或 <kbd>Z</kbd> + <kbd>Z</kbd>
+    4. 重新启动 Vim
+
 参考：
 
-1. https://blog.csdn.net/happycodefly/article/details/86684297 - *vim查看命令历史_vim查看编辑历史-CSDN博客*
-2. https://www.cnblogs.com/xy14/p/12787416.html - *VIM - EX 命令行 - 查看历史记录 - 轩辕拾銉 - 博客园*
-3. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
-4. http://yyq123.github.io/learn-vim/learn-vi-46-01-History.html - *VIM学习笔记 命令历史记录 (History)*
+1. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
+2. https://blog.csdn.net/happycodefly/article/details/86684297 - *vim查看命令历史_vim查看编辑历史-CSDN博客*
+3. https://www.cnblogs.com/xy14/p/12787416.html - *VIM - EX 命令行 - 查看历史记录 - 轩辕拾銉 - 博客园*
+4. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
+5. http://yyq123.github.io/learn-vim/learn-vi-46-01-History.html - *VIM学习笔记 命令历史记录 (History)*
 
 ## 高级用法
 
@@ -1142,9 +1252,12 @@ Tips：<kbd>@</kbd> + <kbd>@</kbd> 再次唤起最后一次执行的宏。
 
 参考：
 
-1. https://cn.linux-console.net/?p=19783 - *如何垂直或水平分割 Vim 工作区*
-2. <https://www.bookstack.cn/read/learn-vim/file-five.md#窗口分屏> - *分屏与标签页 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
-3. https://docs.kilvn.com/vim_zh_cn/ch02_buffers_windows_tabs.html#windows - *Ch 2 - 缓冲区，窗口和选项卡 · VIM 操作手册*
+1. https://yianwillis.github.io/vimcdoc/doc/usr_08.html#usr_08.txt - *VIM 中文用户手册: 分割窗口*
+2. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_wi - *VIM 中文帮助: 总览最常用的命令*
+3. https://yianwillis.github.io/vimcdoc/doc/windows.html#CTRL-W_k - *VIM 中文帮助: 使用多窗口多缓冲区的命令*
+4. https://cn.linux-console.net/?p=19783 - *如何垂直或水平分割 Vim 工作区*
+5. <https://www.bookstack.cn/read/learn-vim/file-five.md#窗口分屏> - *分屏与标签页 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
+6. https://docs.kilvn.com/vim_zh_cn/ch02_buffers_windows_tabs.html#windows - *Ch 2 - 缓冲区，窗口和选项卡 · VIM 操作手册*
 
 ## 插件
 
@@ -1163,6 +1276,11 @@ https://www.bookstack.cn/read/learn-vim/plugin.md - *vim 插件 - 《Vim 实操�
 https://vimawesome.com/ - *Vim Awesome*
 
 https://github.com/vim-awesome/vim-awesome - *GitHub - vim-awesome/vim-awesome: Awesome Vim plugins from across the universe*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/vim-awesome/vim-awesome?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vim-awesome/vim-awesome?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vim-awesome/vim-awesome?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vim-awesome/vim-awesome?style=social)
 
 参考：
 
@@ -1199,7 +1317,73 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 配置：
 
 ```vim
+vim ~/.vimrc
+```
 
+详细配置
+```vim
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
+
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" The following are examples of different formats supported.
+" Keep Plugin commands between vundle#begin/end.
+" plugin on GitHub repo
+Plugin 'tpope/vim-fugitive'
+" plugin from http://vim-scripts.org/vim/scripts.html
+" Plugin 'L9'
+" Git plugin not hosted on GitHub
+Plugin 'git://git.wincent.com/command-t.git'
+" git repos on your local machine (i.e. when working on your own plugin)
+Plugin 'file:///home/gmarik/path/to/plugin'
+" The sparkup vim script is in a subdirectory of this repo called vim.
+" Pass the path to set the runtimepath properly.
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+" Install L9 and avoid a Naming conflict if you've already installed a
+" different version somewhere else.
+" Plugin 'ascenator/L9', {'name': 'newL9'}
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on    " required
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
+```
+
+简洁配置
+```vim
+set nocompatible " 使 Vim 进入更现代的模式
+filetype off " 先关闭文件类型检测
+
+" 设置 Vundle 的运行路径
+set rtp+=~/.vim/bundle/Vundle.vim
+
+" 启用 Vundle
+call vundle#begin()
+
+" 在这里添加你想要安装的插件
+" 例如，安装 vim-prettier
+Plugin 'prettier/vim-prettier'
+
+call vundle#end() " 必须在最后调用
+filetype plugin indent on " 启用文件类型检测
 ```
 
 用法：
@@ -1319,7 +1503,24 @@ Plugin 'preservim/vim-markdown'
 
 用法：
 
-暂无
+- `:Toc`: create a quickfix vertical window navigable table of contents with the headers.
+
+    Hit `<Enter>` on a line to jump to the corresponding line of the markdown file.
+
+### NERDTree
+
+简介：
+
+> The NERDTree is a file system explorer for the Vim editor. Using this plugin, users can visually browse complex directory hierarchies, quickly open files for reading or editing, and perform basic file system operations.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/preservim/nerdtree?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/preservim/nerdtree?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/preservim/nerdtree?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/preservim/nerdtree?style=social)
+
+官方：
+
+https://github.com/preservim/nerdtree - *GitHub - preservim/nerdtree: A tree explorer plugin for vim.*
 
 ### VimWiki
 
@@ -1336,6 +1537,21 @@ Plugin 'preservim/vim-markdown'
 
 https://github.com/vimwiki/vimwiki - *GitHub - vimwiki/vimwiki: Personal Wiki for Vim*
 
+### vim-airline
+
+简介：
+
+> lean & mean status/tabline for vim that's light as air
+
+![GitHub last commit](https://img.shields.io/github/last-commit/vim-airline/vim-airline?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/vim-airline/vim-airline?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/vim-airline/vim-airline?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/vim-airline/vim-airline?style=social)
+
+官方：
+
+https://github.com/vim-airline/vim-airline - *GitHub - vim-airline/vim-airline: lean & mean status/tabline for vim that's light as air*
+
 ### vim-prettier
 
 简介：
@@ -1348,6 +1564,8 @@ https://github.com/vimwiki/vimwiki - *GitHub - vimwiki/vimwiki: Personal Wiki fo
 ![GitHub Repo stars](https://img.shields.io/github/stars/prettier/vim-prettier?style=social)
 
 官方：
+
+https://prettier.io/docs/vim.html - *Vim Setup · Prettier*
 
 https://github.com/prettier/vim-prettier - *GitHub - prettier/vim-prettier: A Vim plugin for Prettier*
 
@@ -1376,6 +1594,22 @@ https://blog.csdn.net/race604/article/details/7314082 - *VIM使用小技巧-重�
 自动：
 
 https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 - YEUNGCHIE - 博客园*
+
+### 复制内容至系统剪贴板
+
+将整个文档复制到剪贴板：
+
+1. Mac OS X 系统
+    1. `:%w !pbcopy`
+2. GNU/Linux 系统
+    1. `:%w !xclip -i -sel c`
+    2. `:%w !xsel -i -b`
+3. Termux 系统
+    1. `:%w !termux-clipboard-set`
+
+参考：
+
+<https://wangchujiang.com/reference/docs/vim.html#技巧> - *Vim 备忘清单 & vim cheatsheet & Quick Reference*
 
 ### 不退出 Vim 执行 Shell 命令
 

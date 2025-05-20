@@ -13,60 +13,33 @@
 
 ## 图标示意
 
-<i class="fa fa-link fa-fw"></i>
-内部链接\
-<i class="fa fa-external-link fa-fw"></i>
-外部链接\
-<i class="fa fa-check-double fa-fw"></i>
-使用中\
-<i class="fa-brands fa-osi fa-fw"></i>
-开源（免费）软件\
-<i class="fa fa-shopping-cart fa-fw"></i>
-付费\
-<i class="fa fa-user-circle fa-fw"></i>
-注册登录
-
-<i class="fa-brands fa-windows fa-fw"></i>
-支持 _Windows_  
-<i class="fa-brands fa-linux fa-fw"></i>
-支持 _Linux_  
-<i class="fa-brands fa-apple fa-fw"></i>
-支持 _macOS_  
-<i class="fa-brands fa-android fa-fw"></i>
-支持 _Android_  
-<i class="fa-brands fa-app-store-ios fa-fw"></i>
-支持 _iOS / iPhone_  
-<i class="fa fa-laptop fa-fw"></i>
-支持 _Web_ 网页  
-<i class="fa fa-mobile fa-fw"></i>
-支持 [_WAP_](https://baike.baidu.com/item/wap%E7%BD%91%E7%AB%99/3419865) 移动版  
-<i class="fa-brands fa-chrome fa-fw"></i>
-支持 浏览器扩展  
-<i class="fa fa-code fa-fw"></i>
-支持 代码部署  
-<i class="fa fa-terminal fa-fw"></i>
-支持 _CLI_ 终端
-
-<i class="fa-brands fa-app-store"></i>
-支持 _App Store_ 下载  
-<img src="https://apps.apple.com/favicon.ico" alt="App Store" width="14" />
-支持 _App Store_ 下载  
-<i class="fa-brands fa-google-play"></i>
-支持 _Play Store_ 下载  
-<img src="https://www.gstatic.com/android/market_images/web/favicon_v3.ico" alt="Play Store" width="14" />
-支持 _Play Store_ 下载  
-<img src="https://www.youxiaohou.com/images/svg/webstore.svg" alt="Chrome 扩展商店" width="14" />
-支持 _Chrome 扩展商店_ 下载  
-<i class="fa-brands fa-github"></i>
-支持 _GitHub_ 下载  
-<img src="http://guanjia.qq.com/assets/images/v15/favicon.ico" alt="腾讯电脑管家" width="14" />
-支持 *腾讯电脑管家-软件管理* 下载  
-<img src="https://fdroid.gitlab.io/fdroid-website/assets/favicon_AfYQ36xPEzFjJiCTyBFVmfWkajkehilUd2geASywhxM=.png" alt="F-Droid" width="14" />
-支持 _F-Droid_ 下载  
-<img src="https://apps.microsoft.com/assets/icons/logo-64x64.png" alt="Microsoft Store" width="14" />
-支持 _Microsoft Store_ 下载
-
-----
+图标 | 描述
+--- | ---
+<i class="fa fa-link fa-fw"></i> | 内部链接
+<i class="fa fa-external-link fa-fw"></i> | 外部链接
+<i class="fa fa-check-double fa-fw"></i> | 使用中
+<i class="fa-brands fa-osi fa-fw"></i> | 开源（免费）软件
+<i class="fa fa-shopping-cart fa-fw"></i> | 付费
+<i class="fa fa-user-circle fa-fw"></i> | 注册登录
+<i class="fa-brands fa-windows fa-fw"></i> | 支持 _Windows_
+<i class="fa-brands fa-linux fa-fw"></i> | 支持 _Linux_
+<i class="fa-brands fa-apple fa-fw"></i> | 支持 _macOS_
+<i class="fa-brands fa-android fa-fw"></i> | 支持 _Android_
+<i class="fa-brands fa-app-store-ios fa-fw"></i> | 支持 _iOS / iPhone_
+<i class="fa fa-laptop fa-fw"></i> | 支持 _Web_ 网页
+<i class="fa fa-mobile fa-fw"></i> | 支持 [_WAP_](https://baike.baidu.com/item/wap%E7%BD%91%E7%AB%99/3419865) 移动版
+<i class="fa-brands fa-chrome fa-fw"></i> | 支持 浏览器扩展
+<i class="fa fa-code fa-fw"></i> | 支持 代码部署
+<i class="fa fa-terminal fa-fw"></i> | 支持 _CLI_ 终端
+<i class="fa-brands fa-app-store"></i> | 支持 _App Store_ 下载
+<img src="https://apps.apple.com/favicon.ico" alt="App Store" width="14" /> | 支持 _App Store_ 下载
+<i class="fa-brands fa-google-play"></i> | 支持 _Play Store_ 下载
+<img src="https://www.gstatic.com/android/market_images/web/favicon_v3.ico" alt="Play Store" width="14" /> | 支持 _Play Store_ 下载
+<img src="https://www.youxiaohou.com/images/svg/webstore.svg" alt="Chrome 扩展商店" width="14" /> | 支持 _Chrome 扩展商店_ 下载
+<i class="fa-brands fa-github"></i> | 支持 _GitHub_ 下载
+<img src="http://guanjia.qq.com/assets/images/v15/favicon.ico" alt="腾讯电脑管家" width="14" /> | 支持 *腾讯电脑管家-软件管理* 下载
+<img src="https://fdroid.gitlab.io/fdroid-website/assets/favicon_AfYQ36xPEzFjJiCTyBFVmfWkajkehilUd2geASywhxM=.png" alt="F-Droid" width="14" /> | 支持 _F-Droid_ 下载
+<img src="https://apps.microsoft.com/assets/icons/logo-64x64.png" alt="Microsoft Store" width="14" /> | 支持 _Microsoft Store_ 下载
 
 参考：
 
@@ -259,22 +232,22 @@
 
 场景二：
 
-1. [GitHub Desktop](os/tools/git#github-desktop)
-2. [Sourcetree](os/tools/git.md#sourcetree)
+1. [GitHub Desktop](os/tools/developer/git.md#github-desktop)
+2. [Sourcetree](os/tools/developer/git.md#sourcetree)
 3. [Typora](os/tools/app-list.md#markdown-typora)
 4. [VS Code](os/tools/app-list.md#visual-studio-code)
 5. [Sublime Text](os/tools/app-list.md#sublime)
 
 场景三：
 
-1. [V2ray](os/tools/vpn.md#v2ray-%f0%9f%94%a5) 
-2. [Browser](os/tools/browser)
-3. [Proxy SwitchyOmega](os/tools/vpn#proxy-switchyomega-%f0%9f%94%a5)
+1. [V2ray](essential/network/vpn.md#v2ray-%f0%9f%94%a5) 
+2. [Browser](os/tools/browser/README.md)
+3. [Proxy SwitchyOmega](essential/network/vpn.md#proxy-switchyomega-%f0%9f%94%a5)
 
 场景四：
 
-1. [Browser](os/tools/browser)
-2. [Browser Extensions](os/tools/browser-extensions)
+1. [Browser](os/tools/browser/README.md)
+2. [Browser Extensions](os/tools/browser/extensions/browser-extensions.md)
 
 
 ### macOS
@@ -296,8 +269,8 @@
 
 场景二：
 
-1. [Sourcetree](os/tools/git.md#sourcetree)
-2. [GitHub](os/tools/github.md)
+1. [Sourcetree](os/tools/developer/git.md#sourcetree)
+2. [GitHub](os/tools/productivity/github.md)
 3. [Typora](os/tools/app-list.md#markdown-typora)
 4. [VS Code](os/tools/app-list.md#visual-studio-code)
 5. [Sublime Text](os/tools/app-list.md#sublime)
@@ -305,7 +278,7 @@
 
 ### Linux
 
-1. [Vim](developer/vim.md)
+1. [Vim](os/tools/developer/editor/vim.md)
 
 ### Android
 
@@ -318,7 +291,7 @@
 
 场景二：
 
-1. [personalDNSfilter](os/mobile/mobile-app-list.md#personaldnsfilter)
+1. [personalDNSfilter](os/mobile/app-list.md#personaldnsfilter)
 2. [Opera](os/mobile/browser.md#opera-%e2%9c%85)
 
 场景三：
@@ -326,10 +299,15 @@
 1. [~~MGit~~](os/mobile/mgit.md)（Termux 安装 Git 替代）
 2. [Markor](os/tools/app-list.md#markor)
 3. [Termux](os/mobile/termux.md)
-4. [Acode](os/mobile/mobile-app-list.md#acode)
-5. [Markdownr](os/mobile/mobile-app-list.md#markdownr)
-6. [UrlCheck](os/mobile/mobile-app-list.md#urlcheck)
-7. [HTTP Shortcuts](../mobile/http-shortcuts.md)
+4. [Acode](os/mobile/app-list.md#acode)
+5. [Markdownr](os/mobile/app-list.md#markdownr)
+6. [UrlCheck](os/mobile/app-list.md#urlcheck)
+7. [HTTP Shortcuts](os/mobile/http-shortcuts.md)
+
+
+### Web
+
+暂无
 
 
 ## 装机必备
@@ -556,9 +534,16 @@ Download guide：
 
 1. https://localsend.org/#/download - *LocalSend*
 
+#### Android
+
 Note: All three different versions (Play Store, F-droid and GitHub) are signed with different certificates, so you cannot update one with another unless you uninstall first. Remember to use the backup/restore functionality to migrate your data!
 
 _via https://github.com/TrianguloY/URLCheck/releases/tag/v3.1 - *Release URLCheck 3.1 release apk · TrianguloY/URLCheck · GitHub*_
+
+参考：
+
+1. https://github.com/kiwibrowser/src.next/releases/tag/14310011181 - *Release Download latest release · kiwibrowser/src.next · GitHub*
+2. https://github.com/Razeeman/Android-SimpleTimeTracker - *GitHub - Razeeman/Android-SimpleTimeTracker: Simple app that tracks time.*
 
 
 ### 系统要求
@@ -731,5 +716,4 @@ _> 参考「[Google Play 商店](os/tools/search.md#play-store)」、「[小米�
 
 使用安卓应用 [App Manager](https://f-droid.org/packages/io.github.muntashirakon.AppManager) 验证
 
-操作步骤：
-_> 打开应用 > 搜索指定应用 > 顶部菜单栏选择“签名”标签页_
+操作步骤：_打开应用 > 顶部搜索栏搜索“指定应用” > 顶部菜单栏选择“签名”标签页_

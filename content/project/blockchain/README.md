@@ -24,7 +24,7 @@
 
 ### 获取节点网络
 
-获取方式：
+获取方式（3 种方式）：
 
 1. 购买服务器，部署本地节点
 
@@ -38,31 +38,16 @@
 
 3. 各生态链官方节点
 
-### Public
+#### Public
 
 https://chainlist.org/zh 👍 - *Chainlist 是 EVM 网络的列表。 用户可以使用这些信息将他们的钱包和 Web3 中间件提供商连接到适当的Chain ID 和网络 ID，以连接到正确的链。*
 
 - https://github.com/DefiLlama/chainlist
 
-    ![GitHub last commit](https://badgen.net/github/last-commit/DefiLlama/chainlist?icon=github&color=blue)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/DefiLlama/chainlist?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/DefiLlama/chainlist?style=social)
 
-### Ethereum
-
-https://www.learnblockchain.cn/article/1792 - *以太坊可用RPC节点列表*
-
-#### Infura
-
-https://infura.io :us: :cn: - *Ethereum API | IPFS API & Gateway | ETH Nodes as a Service | Infura*
-
-https://github.com/INFURA - *Infura · GitHub*
-
----
-
-http://cw.hubwiz.com/card/c/infura-api/ - *Infura开发手册 - 汇智网*
-
-https://blog.csdn.net/fangdengfu123/article/details/82621537 - *使用infura 提供的 API获取以太坊交易记录*
-
-### Binance
+#### Binance
 
 https://docs.pancakeswap.finance/get-started/connection-guide :us: - *Connect Your Wallet to PancakeSwap - PancakeSwap*
 
@@ -96,36 +81,27 @@ https://docs.pancakeswap.finance/get-started/connection-guide :us: - *Connect Yo
 
 公链
 
-## Web3
+#### Ethereum
 
-### Javascript
+https://www.learnblockchain.cn/article/1792 - *以太坊可用RPC节点列表*
 
-https://github.com/ChainSafe/web3.js - *Ethereum JavaScript API*
+##### Infura
 
-![GitHub last commit](https://badgen.net/github/last-commit/ChainSafe/web3.js?icon=github&color=blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/ChainSafe/web3.js?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ChainSafe/web3.js?logo=github)
-![GitHub tag (with filter)](https://img.shields.io/github/v/tag/ChainSafe/web3.js?logo=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/web3?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/ChainSafe/web3.js?style=social)
+https://infura.io :us: :cn: - *Ethereum API | IPFS API & Gateway | ETH Nodes as a Service | Infura*
+
+https://github.com/INFURA - *Infura · GitHub*
 
 ---
 
-https://web3.tryblockchain.org/index.html - *Web3.js API 中文文档*
+http://cw.hubwiz.com/card/c/infura-api/ - *Infura开发手册 - 汇智网*
 
-### PHP
-
-https://github.com/web3p/web3.php - *A php interface for interacting with the Ethereum blockchain and ecosystem. Native ABI parsing and smart contract interactions.* [Old GitHub](https://github.com/sc0Vu/web3.php)
-
-![GitHub last commit](https://badgen.net/github/last-commit/web3p/web3.php?icon=github&color=blue)
-![GitHub Release Date](https://img.shields.io/github/release-date/web3p/web3.php?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/web3p/web3.php?logo=github)
-![GitHub tag (with filter)](https://img.shields.io/github/v/tag/web3p/web3.php?logo=github&color=blue)
-![GitHub Repo stars](https://img.shields.io/github/stars/web3p/web3.php?style=social)
+https://blog.csdn.net/fangdengfu123/article/details/82621537 - *使用infura 提供的 API获取以太坊交易记录*
 
 ## Smart contract
 
 > 智能合约
+
+https://ethereum.org/zh/smart-contracts/ - *智能合约*
 
 ## Platform
 
@@ -234,6 +210,11 @@ Gas
 💡
 https://ethereum.org/zh/developers/docs/gas/
 
+❓
+Smart contract  
+💡
+https://ethereum.org/en/glossary/#smart-contract
+
 > Question
 > ❓
 >
@@ -241,7 +222,36 @@ https://ethereum.org/zh/developers/docs/gas/
 > 👌
 > 💡
 
-## Development
+## Developer
+
+### Web3
+
+#### Javascript
+
+https://github.com/ChainSafe/web3.js - *Ethereum JavaScript API*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/ChainSafe/web3.js?color=blue&logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/ChainSafe/web3.js?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ChainSafe/web3.js?logo=github)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/ChainSafe/web3.js?logo=github&color=blue)
+![NPM Version](https://img.shields.io/npm/v/web3?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/ChainSafe/web3.js?style=social)
+
+---
+
+https://web3.tryblockchain.org/index.html - *Web3.js API 中文文档*
+
+#### PHP
+
+https://github.com/web3p/web3.php - *A php interface for interacting with the Ethereum blockchain and ecosystem. Native ABI parsing and smart contract interactions.* [Old GitHub](https://github.com/sc0Vu/web3.php)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/web3p/web3.php?color=blue&logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/web3p/web3.php?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/web3p/web3.php?logo=github)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/web3p/web3.php?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/web3p/web3.php?style=social)
+
+### API
 
 > API
 
@@ -270,7 +280,7 @@ https://ethereum.org/zh/developers/docs/gas/
 
     https://api.jinse.com/v6/m/information/list?catelogue_key=xueyuan&flag=down&limit=10&information_id=0&version=9.9.9&_source=m
 
-### 获取 USD/CNY 汇率
+#### 获取 USD/CNY 汇率
 
 1. https://dncapi.fxhapp.com/api/home/global `data.usdt_price_cny`
 
@@ -278,7 +288,7 @@ https://ethereum.org/zh/developers/docs/gas/
 
 3. https://www.namecheap.com/support/payment/currency-exchange-rates/  - *Namecheap.com - Currency Exchange Rates*
 
-### 获取新闻快讯
+#### 获取新闻快讯
 
 1. https://dncapi.fxhapp.xyz/api/v4/news/hot?per_page=20&webp=1 :cn: via https://www.feixiaohao.co/
 

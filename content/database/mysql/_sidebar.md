@@ -1,2 +1,2 @@
-* [MySQL](/database/mysql/)
-* [建表](/database/mysql/mysql-naming-rule.md)
+* [MySQL](database/mysql/README.md)
+* [建表](database/mysql/mysql-naming-rule.md)

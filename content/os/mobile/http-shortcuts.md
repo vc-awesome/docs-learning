@@ -79,6 +79,12 @@ function globalEscapeHtml(unsafe)
 
 ## 用法
 
+### 远程编辑
+
+*导入/导出 > (远程编辑) 在电脑上编辑*
+
+服务器地址：https://http-shortcuts.rmy.ch/editor
+
 ### 获取站点元数据
 
 情形一：
@@ -87,42 +93,59 @@ function globalEscapeHtml(unsafe)
 meta content=\"([^<]*?)\"[\s\S]+name=\"description\"\s*(\/>|>)
 ```
 
-https://www.weibo.com/
+1. https://www.weibo.com/
 
-```html
-<meta content="随时随地发现新鲜事！微博带你欣赏世界上每一个精彩瞬间，了解每一个幕后故事。分享你想表达的，让全世界都能听到你的心声！" name="description">
-```
+    ```html
+    <meta content="随时随地发现新鲜事！微博带你欣赏世界上每一个精彩瞬间，了解每一个幕后故事。分享你想表达的，让全世界都能听到你的心声！" name="description">
+    ```
 
 情形二：
+
+正则 1（可匹配示例 2, 3）：
 
 ```regex
 name=\"?description\"?\s+content=\"?([\s\S]*?)\"?\s*(\/>|>)
 ```
 
-https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions
+正则 2（可匹配示例 1, 2, 3）：
 
-```html
-<meta name="description" content="正则表达式（简称 regex）允许开发人员根据模式匹配字符串、提取子匹配信息，或简单地测试字符串是否符合该模式。正则表达式在许多编程语言中都有使用，JavaScript 的语法受 Perl 的启发。"/>
+```regex
+name=\"?description\"?\s+content=["']?([^"'>]+)?["']?
 ```
 
-https://www.showdoc.com.cn/
+示例
 
-```html
-<meta name=description content=一个非常适合IT团队的在线API文档、技术文档工具。你可以使用Showdoc来编写在线API文档、技术文档、数据字典、在线手册><script src="//source.showdoc.com.cn/static/source-status.js?v=2"></script><script src="https://dfyun-main.showdoc.com.cn/static/cdn-status.js?v=1"></script><script type=text/javascript>// 挂在window下的全局配置
-```
+1. https://getpocket.com/zh/collections
+
+    ```html
+    <meta name="description" content="精心策划的网络精华指南" data-next-head=""/>
+    ```
+
+2. https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions
+
+    ```html
+    <meta name="description" content="正则表达式（简称 regex）允许开发人员根据模式匹配字符串、提取子匹配信息，或简单地测试字符串是否符合该模式。正则表达式在许多编程语言中都有使用，JavaScript 的语法受 Perl 的启发。"/>
+    ```
+
+3. https://www.showdoc.com.cn/
+
+    ```html
+    <meta name=description content=一个非常适合IT团队的在线API文档、技术文档工具。你可以使用Showdoc来编写在线API文档、技术文档、数据字典、在线手册><script src="//source.showdoc.com.cn/static/source-status.js?v=2"></script><script src="https://dfyun-main.showdoc.com.cn/static/cdn-status.js?v=1"></script><script type=text/javascript>// 挂在window下的全局配置
+    ```
+
+在线调试：https://regex101.com/r/LLrFVE/1
 
 情形三：
-
 
 ```regex
 <meta property=\"og:title\" content=\"(.*?)\"\s*(\/>|>)
 ```
 
-https://mp.weixin.qq.com/s/ZYuWhsYrhOmzuZwMV01B2w
+1. https://mp.weixin.qq.com/s/ZYuWhsYrhOmzuZwMV01B2w
 
-```html
-<meta property="og:title" content="我是怎么自学 Git / GitHub 的？" />
-```
+    ```html
+    <meta property="og:title" content="我是怎么自学 Git / GitHub 的？" />
+    ```
 
 ```javascript
 //const url = 'https://nodejs.org/en' // 测试网页

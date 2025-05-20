@@ -1,4 +1,4 @@
-* [技术栈](/tech-stack/README.md)
+* [技术栈](tech-stack/README.md)
 * [Google](tech-stack/google.md)
 * [Mozilla](tech-stack/mozilla.md)
 * **阿里系列**

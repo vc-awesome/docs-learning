@@ -1,5 +1,5 @@
-* [CSS](/front-end/css/)
-* [CSS 命名规则](/front-end/css/css-naming-rule.md "CSS 命名规则")
+* [CSS](front-end/css/README.md)
+* [CSS 命名规则](front-end/css/naming-rule.md "CSS 命名规则")
 * [BEM](front-end/css/bem.md)
 * [SASS](front-end/css/sass.md)
 * **布局**

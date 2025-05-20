@@ -281,6 +281,8 @@
 
 `cheat sheet` 速查表 [via](https://www.markdown.xyz/cheat-sheet/)
 
+`hashtags` n. 话题标签：社交媒体平台上用于标记和分类内容的关键词，以井号（#）开头。
+
 https://mp.weixin.qq.com/s/Fyj79XgqzoYw9wfnQWzFcw - *你还在用for循环遍历list吗？*
 
 - `filter` 过滤

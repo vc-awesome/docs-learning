@@ -26,17 +26,15 @@
 
 帮助中心：https://support.token.im/hc/zh-cn
 
----
+## MetaMask
 
-代币名称 token name
+<img src="https://europe1.discourse-cdn.com/metamask/original/1X/03d93bc7cf684df55e25168afbc7c4ef92d7ff61.png" style="zoom: 25%;" />
 
-合约 contact
+主页：https://metamask.io/
 
-钱包 wallets
+GitHub：https://github.com/MetaMask
 
-资产 assets
-
-
+文档：https://docs.metamask.io/
 
 ## TokenPocket 🇨🇳
 
@@ -45,11 +43,9 @@
 主页：https://www.tokenpocket.pro/
 
 
-
 ## TronLink
 
 主页：https://www.tronlink.org/
-
 
 
 ## TrustWallet
@@ -58,14 +54,3 @@
 
 主页：https://trustwallet.com/
 
-
-
-## MetaMask
-
-<img src="https://europe1.discourse-cdn.com/metamask/original/1X/03d93bc7cf684df55e25168afbc7c4ef92d7ff61.png" style="zoom: 25%;" /> 
-
-主页：https://metamask.io/
-
-GitHub：https://github.com/MetaMask
-
-文档：https://docs.metamask.io/

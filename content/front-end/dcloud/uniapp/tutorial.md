@@ -302,6 +302,28 @@ https://uniapp.dcloud.net.cn/component/view.html - *uni-app官网*
 
 https://blog.csdn.net/weixin_45966674/article/details/121462415 - *uni-app带你看一个不一样的view之hover-class_uniapp hover-class-CSDN博客*
 
+## Vue 语法
+
+### Vue2
+
+https://uniapp.dcloud.net.cn/tutorial/vue-basics.html - *介绍 | uni-app官网*
+
+#### Vuex 👏
+
+https://uniapp.dcloud.net.cn/tutorial/vue-vuex.html - *状态管理Vuex | uni-app官网*
+
+### Vue3
+
+https://uniapp.dcloud.net.cn/tutorial/vue3-basics.html - *介绍 | uni-app官网*
+
+#### Vuex
+
+https://uniapp.dcloud.net.cn/tutorial/vue3-vuex.html - *状态管理Vuex | uni-app官网*
+
+#### Pinia
+
+https://uniapp.dcloud.net.cn/tutorial/vue3-pinia.html - *状态管理 Pinia | uni-app官网*
+
 ## 组件
 
 https://uniapp.dcloud.net.cn/component/ - *组件使用的入门教程 | uni-app官网*
@@ -369,7 +391,9 @@ https://uniapp.dcloud.net.cn/api/router.html - *uni.navigateTo(OBJECT) | uni-app
 
 答：`?ref=recharge`（推荐）类似于 `?type=recharge`
 
-### web-view
+### webview
+
+#### web-view
 
 https://uniapp.dcloud.net.cn/component/web-view.html - *web-view | uni-app官网*
 
@@ -382,7 +406,9 @@ https://uniapp.dcloud.net.cn/component/web-view.html - *web-view | uni-app官网
 5. https://ask.dcloud.net.cn/question/120263 - *uniapp webview能操作里面页面的样式吗？*
 6. https://ask.dcloud.net.cn/question/62239 - *uni-app中，webview组件无法设置样式问题，都会遇到的问题，大家来看看。*
 
-### input
+### 表单组件
+
+#### input
 
 https://uniapp.dcloud.net.cn/component/input.html - *input | uni-app官网*
 
@@ -437,27 +463,14 @@ https://uniapp.dcloud.net.cn/api/request/network-file.html - *uni.uploadFile(OBJ
 
 https://uniapp.dcloud.net.cn/api/router.html - *uni.navigateTo(OBJECT) | uni-app官网*
 
-## Vue 语法
+### 订阅消息
 
-### Vue2
+1. https://uniapp.dcloud.net.cn/api/other/requestSubscribeMessage.html - *uni.requestSubscribeMessage(Object object) | uni-app官网*
+2. <https://uniapp.dcloud.net.cn/api/plugins/push.html#小程序平台> - *uni-app 官网*
 
-https://uniapp.dcloud.net.cn/tutorial/vue-basics.html - *介绍 | uni-app官网*
+参考：
 
-#### Vuex 👏
-
-https://uniapp.dcloud.net.cn/tutorial/vue-vuex.html - *状态管理Vuex | uni-app官网*
-
-### Vue3
-
-https://uniapp.dcloud.net.cn/tutorial/vue3-basics.html - *介绍 | uni-app官网*
-
-#### Vuex
-
-https://uniapp.dcloud.net.cn/tutorial/vue3-vuex.html - *状态管理Vuex | uni-app官网*
-
-#### Pinia
-
-https://uniapp.dcloud.net.cn/tutorial/vue3-pinia.html - *状态管理 Pinia | uni-app官网*
+1. https://blog.csdn.net/qq_46566911/article/details/130604929 - *uniapp 微信小程序订阅（一次性订阅消息）_uniapp微信小程序订阅消息-CSDN博客*
 
 ## 条件编译（解决各端差异）
 

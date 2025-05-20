@@ -652,7 +652,7 @@ a[target=_blank]:after {
 
 #### Material Symbols
 
-https://developers.google.cn/fonts/docs/material_symbols?hl=zh-cn - *Material 符号指南  |  Google Fonts  |  Google for Developers*
+https://developers.google.cn/fonts/docs/material_symbols?hl=zh-cn - *Material 符号指南 | Google Fonts | Google for Developers*
 
 https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined
 
@@ -682,6 +682,22 @@ https://github.com/microsoft/vscode-codicons
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/microsoft/vscode-codicons?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/microsoft/vscode-codicons?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/vscode-codicons?style=social)
+
+
+### Lucide
+
+>Beautiful & consistent icon toolkit made by the community.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/lucide-icons/lucide?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/lucide-icons/lucide?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/lucide-icons/lucide?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/lucide-icons/lucide?style=social)
+
+https://lucide.dev/ - *Lucide*
+
+https://github.com/lucide-icons/lucide - *GitHub - lucide-icons/lucide: Beautiful & consistent icon toolkit made by the community. Open-source project and a fork of Feather Icons.*
+
+*Via <https://publish.obsidian.md/help-zh/助力+Obsidian/文档规范#图标> - *文档规范 - Obsidian 中文帮助 - Obsidian Publish**
 
 
 ### More

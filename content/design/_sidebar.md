@@ -1,4 +1,4 @@
-* [设计](/design/README.md)
+* [设计](design/README.md)
 * [User Interface](design/ui/README.md)
 * [Font](design/font/README.md)
 * [Icon](design/icon.md)
