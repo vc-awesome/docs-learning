@@ -745,7 +745,7 @@ https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打�
 
 - [GitHub Mobile](#github-mobile)
 
-- [personalDNSfilter](os/mobile/app-list.md#personalDNSfilter)
+- [personalDNSfilter](os/mobile/android/app/README.md#personalDNSfilter)
 
 
 ### 下载加速

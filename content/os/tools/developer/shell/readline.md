@@ -16,9 +16,17 @@ http://www.gnu.org/software/readline/ - *The GNU Readline Library* （重定向�
 
 ## 安装
 
-暂无
+系统预装
+
+## 配置
+
+https://tiswww.cwru.edu/php/chet/readline/rluserman.html#Readline-Init-File - *GNU Readline Library*
 
 ## 入门指南
+
+### 编辑模式
+
+https://tiswww.cwru.edu/php/chet/readline/rluserman.html#Readline-vi-Mode - *GNU Readline Library*
 
 ### 快捷键
 

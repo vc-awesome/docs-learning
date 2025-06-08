@@ -10,9 +10,10 @@
 
 ## 教程
 
-1. https://www.runoob.com/linux/linux-shell.html - *Shell 教程 | 菜鸟教程*
-2. https://gnu-linux.readthedocs.io/zh/latest/TOC/Chapter05.html - *第五章 Shell 编程 — Linux latest 文档*
-3. https://www.shellscript.sh/ - *The Shell Scripting Tutorial - The Shell Scripting Tutorial*
+1. https://wangdoc.com/bash/ - *Bash 脚本教程 - 网道*
+2. https://www.runoob.com/linux/linux-shell.html - *Shell 教程 | 菜鸟教程*
+3. https://gnu-linux.readthedocs.io/zh/latest/TOC/Chapter05.html - *第五章 Shell 编程 — Linux latest 文档*
+4. https://www.shellscript.sh/ - *The Shell Scripting Tutorial - The Shell Scripting Tutorial*
 
 ## 环境
 
@@ -28,40 +29,30 @@
 
 https://wiki.termux.com/wiki/Shells - *Shells - Termux Wiki*
 
-查看 Shell 版本：
+查看系统的默认 Shell：
 
 ```bash
 echo $SHELL
 ```
 
+查看 Linux 系统安装的所有 Shell：
+
+```bash
+cat /etc/shells
+```
+
+改变系统的默认 Shell：
+
+```bash
+chsh -s /bin/zsh
+```
+
+1. https://wangchujiang.com/linux-command/c/chsh.html - *chsh 命令，Linux chsh 命令详解：用来更换登录系统时使用的shell - Linux 命令搜索引擎*
+2. https://www.runoob.com/linux/linux-comm-chsh.html - *Linux chsh命令 | 菜鸟教程*
+
 ### Bash
 
 有关详细信息，请参阅“[Bash](os/tools/developer/shell/bash.md)”。
-
-### Zsh
-
-简介：
-
-> Zsh is a shell designed for interactive use, although it is also a powerful scripting language. Many of the useful features of bash, ksh, and tcsh were incorporated into zsh. - *Zsh 是一种专为交互式使用而设计的 shell，尽管它也是一种功能强大的脚本语言。 Zsh 吸收了 bash、ksh 和 tcsh 的许多有用功能。*
->
-> <cite>—— [Shells - Termux Wiki](https://wiki.termux.com/wiki/Shells#ZSH)</cite>
-
-官方：
-
-https://www.zsh.org/ - *Zsh*
-
-插件：
-
-1. Oh My Zsh
-
-    https://github.com/ohmyzsh/ohmyzsh - *GitHub - ohmyzsh/ohmyzsh: 🙃 A delightful community-driven (with 2,200+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.*
-    
-    ![GitHub last commit](https://img.shields.io/github/last-commit/ohmyzsh/ohmyzsh?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/ohmyzsh/ohmyzsh?style=social)
-
-用法：
-
-https://du33169.tech/posts/linux/zshconfiguration/ - *Zsh配置与美化 - Lando's Blog*
 
 ### Fish
 
@@ -81,10 +72,53 @@ http://www.ruanyifeng.com/blog/2017/05/fish_shell.html - *Fish shell 入门教�
 
 有关详细信息，请参阅“[PowerShell](os/tools/developer/shell/powershell.md)”。
 
-## 常见问题
+### Zsh
+
+有关详细信息，请参阅“[Zsh](os/tools/developer/shell/zsh.md)”。
+
+## 启动环境
+
+https://wangdoc.com/bash/startup - *Bash 启动环境 - Bash 脚本教程 - 网道*
 
 ### 交互式非登录shell
 
 <https://cn.bing.com/search?q=交互式非登录shell> - *交互式非登录shell - 搜索*
 
-https://wangdoc.com/bash/startup - *Bash 启动环境 - Bash 脚本教程 - 网道*
+## 设置
+
+### 命令提示符
+
+https://wangdoc.com/bash/prompt - *命令提示符 - Bash 脚本教程 - 网道*
+
+## 变量
+
+1. https://wangdoc.com/bash/variable - *Bash 变量 - Bash 脚本教程 - 网道*
+2. https://www.runoob.com/linux/linux-shell-variable.html - *Shell 变量 | 菜鸟教程*
+
+### 环境变量
+
+### 自定义变量
+
+## 命令
+
+有关详细信息，请参阅：
+1. [Linux 命令](os/desktop/linux/command.md)；
+2. [Windows 命令](os/desktop/windows/command.md)。
+
+## 脚本
+
+暂无
+
+## 行操作
+
+### Bash
+
+有关详细信息，请参阅“[Readline](os/tools/developer/shell/readline.md)”。
+
+### Zsh
+
+暂无
+
+## 常见问题
+
+暂无

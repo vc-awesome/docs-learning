@@ -43,9 +43,9 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 <output data-lang="">
 
 1. [待办清单](todo.md) <font color="red"><sup><small>日常</small></sup></font>
-2. [目录结构](home/directory-structure.md)
-3. [文档结构](home/directory-structure.md#文档目录)
-4. [文档模板](home/document-template.md) ![][fire]
+2. [目录结构](home/structure/directory.md)
+3. [文档结构](home/structure/directory.md#文档目录)
+4. [文档结构](home/structure/document.md) ![][fire]
 5. [代码片段](snippets/README.md)
    1. [应用详情模板](snippets/app-list-template/details.md)
    2. [应用分类模板](snippets/app-list-template/category.md)
@@ -130,7 +130,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 1. [编码规范](essential/style-guide/code-guide.md)👏
 2. [软件版本号](home/semver.md)
-3. [目录结构](home/directory-structure.md)
+3. [目录结构](home/structure/directory.md)
 4. [术语表](home/glossary.md)
 5. [计算机基础](essential/README.md)👏
 6. [字符集](essential/character-sets/README.md)
@@ -163,8 +163,8 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 1. [code-guide](essential/style-guide/code-guide.md)
 2. [code-naming-rule](essential/style-guide/code-naming-rule.md)
-3. [document-template](home/document-template.md)
-4. [directory-structure](home/directory-structure.md)
+3. [document](home/structure/document.md)
+4. [directory](home/structure/directory.md)
 
 ### 设计
 
@@ -260,7 +260,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 1. [Windows](os/desktop/windows/README.md)
 2. [Linux](os/desktop/linux/README.md)
 3. [macOS](os/desktop/mac/README.md)
-4. [Mobile](os/mobile/README.md)
+4. [Mobile](os/mobile/android/README.md)
 5. [快捷键](topics/shortcuts.md)
 6. [DOS](os/desktop/windows/dos.md)
 
@@ -274,28 +274,28 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 3. [应用列表](os/tools/app-list.md)👏
 4. [CLI 应用列表](os/tools/cli-app.md)
 5. [Web 应用列表](os/tools/web-app.md)
-6. [Android 应用列表](os/mobile/app-list.md)
-   1. _Android Apps_
-      1. [Termux](os/mobile/termux.md) 👏🏾
-      2. [Markor](os/mobile/markor.md)
-      3. [Acode](os/mobile/acode.md)
-      4. [URLCheck](os/mobile/app-list.md#urlcheck)
-      5. [Material Files](os/mobile/app-list#material-files)
-      6. [HTTP Shortcuts](os/mobile/http-shortcuts.md)
-   2. _Android OS_
-      1. [MIUI](os/mobile/miui.md)
-7. _常用工具_ 📦
-   1. [文件管理器](os/tools/app-list.md#文件管理)
-   2. [跨端文件传输](os/tools/app-list.md#跨端传输)
-   3. [Sublime Text](os/tools/developer/editor/sublime-text.md)
-   4. [PhpStorm](os/tools/developer/editor/phpstorm.md)
-   5. _Web 浏览器_
+6. [Android 应用列表](os/mobile/android/app/README.md)
+   7. _Android Apps_
+      1. [Termux](os/mobile/android/app/termux.md) 👏🏾
+      2. [Markor](os/mobile/android/app/markor.md)
+      3. [Acode](os/mobile/android/app/acode.md)
+      4. [URLCheck](os/mobile/android/app/README.md#urlcheck)
+      5. [Material Files](os/mobile/android/app/README.md#material-files)
+      6. [HTTP Shortcuts](os/mobile/android/app/http-shortcuts.md)
+   8. _Android OS_
+      1. [MIUI](os/mobile/android/miui.md)
+9. _常用工具_ 📦
+   10. [文件管理器](os/tools/app-list.md#文件管理)
+   11. [跨端文件传输](os/tools/app-list.md#跨端传输)
+   12. [Sublime Text](os/tools/developer/editor/sublime-text.md)
+   13. [PhpStorm](os/tools/developer/editor/phpstorm.md)
+   14. _Web 浏览器_
       1. [桌面端浏览器](os/tools/browser/README.md)（[快捷键](os/tools/browser/README.md#快捷键)）
-      2. [移动端浏览器](os/mobile/browser.md)
+      2. [移动端浏览器](os/mobile/android/app/browser.md)
       3. [Chrome](os/tools/browser/chrome.md)
       4. [Firefox](os/tools/browser/firefox.md)
       5. [Opera](os/tools/browser/opera.md)
-      6. [浏览器扩展列表](os/tools/browser/extensions/browser-extensions.md)🧩
+      6. [浏览器扩展列表](os/tools/browser/extensions/README.md)🧩
          1. [Crx搜搜](https://www.crxsoso.com/)
          2. [Tampermonkey](os/tools/browser/extensions/tampermonkey.md)
 
@@ -314,12 +314,12 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 ##### 终端环境
 
 1. [Windows CMD](os/desktop/windows/cmd.md)
-2. [Linux Shell 环境](os/cli/shell.md)
+2. [Linux Shell 环境](os/tools/developer/shell/README.md)
     1. [Bash](os/tools/developer/shell/bash.md)
     2. [PowerShell](os/tools/developer/shell/powershell.md)
     3. [~~Zsh~~]()
 3. [macOS Terminal](os/desktop/mac/terminal.md)
-4. [Android Termux](os/mobile/termux.md)
+4. [Android Termux](os/mobile/android/app/termux.md)
 5. [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
 
 ##### 命令
@@ -356,7 +356,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 ### 模板
 
-1. [文档模板](home/document-template.md)
+1. [文档模板](home/structure/document.md)
 2. [官网模板](project/framework/template/official-website/README.md)
 3. [后台管理模板](project/framework/template/background-management-system/README.md)
 
@@ -364,18 +364,17 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 1. [广告过滤](topics/ad-filter.md)
 2. [Awesome](topics/awesome.md)
-3. [翻译](topics/translate.md)
-4. [视频](topics/video.md)
-5. [输入法](topics/input-method.md)
-6. [搜索技巧](topics/search-skill.md)
-7. [调试](topics/debug.md)
-8. [剪贴板](topics/clipboard.md)
-9. [文件转换](topics/file-convert.md)
-10. [文件对比](topics/file-diff.md)
-11. [文件同步](topics/file-sync.md)
-12. [文件传输](topics/file-transfer.md)
-13. [快捷键](topics/shortcuts.md)
-14. [单位](topics/unit.md)
+3. [翻译](os/tools/topics/translation.md)
+4. [输入法](os/tools/topics/input-method.md)
+5. [搜索技巧](topics/search-skill.md)
+6. [调试](topics/debug.md)
+7. [剪贴板](topics/clipboard.md)
+8. [文件转换](topics/file-convert.md)
+9. [文件对比](topics/file-diff.md)
+10. [文件同步](topics/file-sync.md)
+11. [文件传输](topics/file-transfer.md)
+12. [快捷键](topics/shortcuts.md)
+13. [单位](topics/unit.md)
 
 ## 站外导航
 

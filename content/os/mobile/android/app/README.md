@@ -37,7 +37,7 @@ https://github.com/RikkaApps/Shizuku - *GitHub - RikkaApps/Shizuku: Using system
 
 ### F-Droid
 
-> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。[使用手册](os/mobile/f-droid.md)
+> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。[使用手册](os/mobile/android/app/f-droid.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/org.fdroid.fdroid)
 ![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?color=blue&logo=github)
@@ -127,7 +127,7 @@ https://droidify.eu.org/ - *Droid-ify*
 
 ### App Manager
 
-> A full-featured open source package manager for android. [使用手册](os/mobile/app-manager.md)
+> A full-featured open source package manager for android. [使用手册](os/mobile/android/app/app-manager.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/io.github.muntashirakon.AppManager)
 ![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github)
@@ -223,7 +223,7 @@ https://github.com/zhanghai/MaterialFiles - *GitHub - zhanghai/MaterialFiles: Ma
 
 ### Markor
 
-> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, .. [使用手册](os/mobile/markor.md)
+> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, .. [使用手册](os/mobile/android/app/markor.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/net.gsantner.markor)
 ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
@@ -241,7 +241,7 @@ https://gsantner.net/page/projects.html#markor - *Projects | gsantner*
 
 ### Acode
 
-> Acode - powerful text/code editor for android [使用手册](os/mobile/acode.md)
+> Acode - powerful text/code editor for android [使用手册](os/mobile/android/app/acode.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/com.foxdebug.acode)
 ![GitHub last commit](https://img.shields.io/github/last-commit/deadlyjack/Acode?color=blue&logo=github)
@@ -773,7 +773,7 @@ https://markusfisch.de/apps-android.html#binary-eye - *Android • Markus Fisch*
 
 ### HTTP Shortcuts
 
-> A simple but powerful Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request, with the possibility of processing and displaying the response in various ways. Ideal for home automation projects. [使用手册](os/mobile/http-shortcuts.md)
+> A simple but powerful Android app that allows you to create shortcuts and widgets that can be placed on your home screen. Each shortcut, when clicked, triggers an HTTP request, with the possibility of processing and displaying the response in various ways. Ideal for home automation projects. [使用手册](os/mobile/android/app/http-shortcuts.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/ch.rmy.android.http_shortcuts)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Waboodoo/HTTP-Shortcuts?logo=github&color=blue)
@@ -807,7 +807,7 @@ https://github.com/k3b/intent-intercept - *GitHub - k3b/intent-intercept: Androi
 
 ### Termux
 
-> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. [使用手册](os/mobile/termux.md)
+> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. [使用手册](os/mobile/android/app/termux.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/com.termux)
 ![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-app?color=blue&logo=github)
@@ -821,7 +821,7 @@ https://github.com/termux/termux-app - *Termux - a terminal emulator application
 
 ### MGit
 
-> An open source Android Git client.[使用手册](os/mobile/mgit)
+> An open source Android Git client.[使用手册](os/mobile/android/app/mgit.md)
 
 ![F-Droid Version](https://img.shields.io/f-droid/v/com.manichord.mgit)
 ![GitHub last commit](https://img.shields.io/github/last-commit/maks/MGit?color=blue&logo=github)

@@ -58,7 +58,7 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
 1. [Typora](os/tools/app-list.md#markdown-Typora) （桌面客户端）
 
-2. [Markor](os/mobile/app-list.md#markor) （移动客户端）
+2. [Markor](os/mobile/android/app/README.md#markor) （移动客户端）
 
 3. 有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app-list.md#markdown)”。
 
@@ -68,9 +68,9 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
 转换器：
 
-1. [Markdownr](os/mobile/app-list.md#markdownr) （移动客户端）
+1. [Markdownr](os/mobile/android/app/README.md#markdownr) （移动客户端）
 
-2. [MarkDownload - Markdown Web Clipper](os/tools/browser/extensions/browser-extensions.md#markdown) （浏览器扩展）
+2. [MarkDownload - Markdown Web Clipper](os/tools/browser/extensions/README.md#markdown) （浏览器扩展）
 
 Markdown Support：
 

@@ -1,0 +1,1 @@
+![Static Badge](https://img.shields.io/badge/Tags-DeFi-8A2BE2)

@@ -42,7 +42,7 @@
 
 ### colordiff
 
-[colordiff](os/mobile/termux.md#colordiff) - *The Perl script colordiff is a wrapper for ‘diff’ and produces the same output but with pretty ‘syntax’ highlighting. Colour schemes can be customized.*
+[colordiff](os/mobile/android/app/termux.md#colordiff) - *The Perl script colordiff is a wrapper for ‘diff’ and produces the same output but with pretty ‘syntax’ highlighting. Colour schemes can be customized.*
 
 https://repology.org/project/colordiff/versions - *colordiff package versions - Repology*
 

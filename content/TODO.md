@@ -74,7 +74,7 @@
     - https://www.picgo.net/ - *PicGo - 免费图床，贴出分享，图显不凡*
 - [ ] [文本编码](essential/character-sets/README.md#文本编码)
 - [ ] [Windows bat 脚本](os/desktop/windows/batch.md)
-- [ ] [文档模板](home/document-template.md)
+- [ ] [文档结构](home/structure/document.md)
 - [ ] [VS Code 代码片段](os/tools/developer/editor/visual-studio-code.md#代码片段)
 - [ ] [正则表达式](essential/regex.md)
 - [x] 本站点添加「目录大纲」功能

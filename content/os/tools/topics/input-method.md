@@ -96,6 +96,22 @@ https://srf.xunfei.cn/ - *讯飞输入法官网 - 更好用的手机输入法，
 
 1. https://rime.im/ - *RIME | 中州韻輸入法引擎*
 
+## Gboard
+
+简介：
+
+> Gboard has everything you love about Google Keyboard—speed and reliability, Glide Typing, voice typing, Handwriting, and more
+
+官方：
+
+1. https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin&hl=en-US - *Gboard - the Google Keyboard - Apps on Google Play*
+2. https://apps.apple.com/us/app/gboard-the-google-keyboard/id1091700242?l=en-US - *Gboard – the Google Keyboard on the App Store*
+3. https://support.google.com/gboard?#topic=9024098 - *Gboard Help*
+
+安装：
+
+1. 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)）, iOS（[App Store](https://apps.apple.com/us/app/gboard-the-google-keyboard/id1091700242)）
+
 ## Microsoft SwiftKey Keyboard
 
 简介：
@@ -108,7 +124,7 @@ https://srf.xunfei.cn/ - *讯飞输入法官网 - 更好用的手机输入法，
 
 安装：
 
-1. 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)）, iOS（[App Store](Microsoft SwiftKey AI Keyboard on the App Store - https://apps.apple.com/us/app/microsoft-swiftkey-ai-keyboard/id911813648)）
+1. 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.touchtype.swiftkey)）, iOS（[App Store](https://apps.apple.com/us/app/microsoft-swiftkey-ai-keyboard/id911813648)）
 
 ## Unexpected Keyboard
 

@@ -1,0 +1,1 @@
+![GitHub Repo stars](https://img.shields.io/github/stars/${1}?style=social)

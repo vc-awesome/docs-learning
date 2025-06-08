@@ -1,25 +1,20 @@
 * [Overview](os/tools/README.md)
 * [Search](os/tools/search.md)
-* [Bitwarden](os/tools/productivity/bitwarden.md)
 * **应用列表**
 * [Desktop Apps](os/tools/app-list.md)
 * [Web Apps](os/tools/web-app.md "在线工具")
 * [CLI Apps](os/tools/cli-app.md)
 * **浏览器**
-* [Browser](os/tools/browser/README.md "浏览器")
+* [Overview](os/tools/browser/README.md "浏览器")
 * [Chrome](os/tools/browser/chrome.md)
 * [Firefox](os/tools/browser/firefox.md)
 * [Opera](os/tools/browser/opera.md)
-* [Extensions](os/tools/browser/extensions/browser-extensions.md "浏览器扩展程序")
+* [Extensions](os/tools/browser/extensions/README.md "浏览器扩展程序")
 * [Tampermonkey](os/tools/browser/extensions/tampermonkey.md)
 * **常用工具**
 * [Bitwarden](os/tools/productivity/bitwarden.md)
 * [Todoist](os/tools/productivity/todoist.md)
 * [WPS](os/tools/productivity/wps.md)
-* [RSS](os/tools/topics/rss.md)
-* [剪贴板](topics/clipboard.md)
-* [多媒体](os/tools/topics/multimedia.md)
-* [文件同步](topics/file-sync.md)
 * **网络工具**
 * [VPN](essential/network/vpn.md "科学上网")
 * [DNS](essential/network/dns.md)
@@ -37,7 +32,6 @@
 * [Sublime Text](os/tools/developer/editor/sublime-text.md)
 * [Navicat](os/tools/developer/navicat.md)
 * [phpMyAdmin](os/tools/developer/phpmyadmin.md)
-* [仿站工具](os/tools/topics/webpage-downloader.md)
 * **自建工具**
 * [Badge](os/tools/custom/badge.md)
 * [Search](os/tools/custom/search.md)
@@ -45,3 +39,8 @@
 * [Obsidian](os/tools/productivity/obsidian.md)
 * **专题**
 * [AI 应用](os/tools/topics/ai.md)
+* [RSS](os/tools/topics/rss.md)
+* [仿站工具](os/tools/topics/webpage-downloader.md)
+* [剪贴板](topics/clipboard.md)
+* [多媒体](os/tools/topics/multimedia.md)
+* [文件同步](topics/file-sync.md)

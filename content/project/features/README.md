@@ -497,7 +497,7 @@ https://segmentfault.com/a/1190000040617800 - *前端 - js 字符串脱敏（名
 
 1. <a href="demo/prism-line-numbers.html" target="_blank">prism-line-numbers</a>
 2. <a href="demo/swiper.html" target="_blank">swiper</a>
-3. <a href="content/os/mobile/_files/markor/theme/demo.html"
+3. <a href="os/mobile/_files/markor/theme/demo.html"
 target="_blank">markor-theme-demo</a>
 
 ## 源码分析

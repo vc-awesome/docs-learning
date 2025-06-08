@@ -3,7 +3,7 @@
   - [Todo List <font color="red">ᵀᴼᴾ</font>](TODO.md)
   - [_portal](_portal.md)
   - <hr />
-  - [Document Template <font color="red">ᴴᴼᵀ</font>](home/document-template.md#目录大纲)
+  - [Document Template <font color="red">ᴴᴼᵀ</font>](home/structure/document.md#目录大纲)
   - [Design](design/README.md)
   - [Snippets <font color="red">ᴴᴼᵀ</font>](dir-tree.md#📂-snippets)
   - [Topics](topics/_sidebar.md)
@@ -18,20 +18,20 @@
   - [语义版本号](home/semver.md)
   - [术语表/词汇表](home/glossary.md)
   - <hr />
-  - [目录结构 <font color="red">ᴴᴼᵀ</font>](home/directory-structure.md)
+  - [目录结构 <font color="red">ᴴᴼᵀ</font>](home/structure/directory.md)
   - [Markdown](home/markdown.md)
 - DAILY TOOL
   - [AI <font color="red">ᴴᴼᵀ</font>](os/tools/topics/ai.md)
   - [Bitwarden](os/tools/productivity/bitwarden.md)
   - [Git](os/tools/developer/git.md)
   - [GitHub](os/tools/productivity/github.md)
-  - [Termux <font color="red"><sup>Android</sup></font>](os/mobile/termux.md)
+  - [Termux <font color="red"><sup>Android</sup></font>](os/mobile/android/app/termux.md)
   - [Todoist](os/tools/productivity/todoist.md)
   - <hr />
   - [CLI](os/cli/README.md)
   - [╰ Bash](os/tools/developer/shell/bash.md)
   - [╰ Linux's Command](os/desktop/linux/command.md)
-  - [╰ Shell](os/cli/shell.md)
+  - [╰ Shell](os/tools/developer/shell/README.md)
   - [╰ Windows's Command](os/desktop/windows/command.md)
   - [Shortcut Key](topics/shortcuts.md)
   - <hr />
@@ -108,20 +108,20 @@
   - [Windows](os/desktop/windows/README.md)
   - [Linux](os/desktop/linux/README.md)
   - [Mac](os/desktop/mac/README.md)
-  - [Mobile](os/mobile/README.md)
+  - [Mobile](os/mobile/android/README.md)
   - <hr />
   - **TOOLS**
   - [Overview](os/tools/README.md)
   - [Search](os/tools/search.md)
   - <hr />
   - [Desktop Tools](os/tools/app-list.md)
-  - [Mobile Tools](os/mobile/app-list.md)
+  - [Mobile Tools](os/mobile/android/app/README.md)
   - [Web Tools](os/tools/web-app.md)
   - [CLI Tools](os/tools/cli-app.md)
   - <hr />
   - [Browsers](os/tools/browser/README.md)
-  - [╰ Mobile Browsers](os/mobile/browser.md)
-  - [Extensions](os/tools/browser/extensions/browser-extensions.md)
+  - [╰ Mobile Browsers](os/mobile/android/app/browser.md)
+  - [Extensions](os/tools/browser/extensions/README.md)
   - [╰ Tampermonkey](os/tools/browser/extensions/tampermonkey.md)
 - MORE
   - [Project DevOps](project/README.md)

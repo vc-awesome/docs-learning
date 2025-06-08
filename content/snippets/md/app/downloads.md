@@ -1,0 +1,1 @@
+- 支持 Windows, macOS, Linux, Android（[GitHub Releases](), [Google Play](), [F-Droid]()）, iOS（[App Store]()）, Web Browser Extensions

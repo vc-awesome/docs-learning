@@ -1,4 +1,4 @@
-_61 directories, 298 files_
+_69 directories, 327 files_
 
 # 📂 __content__
 
@@ -226,13 +226,18 @@ _61 directories, 298 files_
 
 1. 📄 [\_sidebar.md](home/_sidebar.md)
 2. 📄 [book.md](home/book.md)
-3. 📄 [directory\-structure.md](home/directory-structure.md)
-4. 📄 [document\-template.md](home/document-template.md)
-5. 📄 [getting\-started.md](home/getting-started.md)
-6. 📄 [glossary.md](home/glossary.md)
-7. 📄 [markdown.md](home/markdown.md)
-8. 📄 [README.md](home/README.md)
-9. 📄 [semver.md](home/semver.md)
+3. 📄 [document\-template.md](content/home/structure/document-template.md)
+4. 📄 [getting\-started.md](home/getting-started.md)
+5. 📄 [glossary.md](home/glossary.md)
+6. 📄 [markdown.md](home/markdown.md)
+7. 📄 [README.md](home/README.md)
+8. 📄 [semver.md](home/semver.md)
+
+### 📂 __structure__
+
+1. 📄 [app.md](home/structure/app.md)
+2. 📄 [directory.md](home/structure/directory.md)
+3. 📄 [document.md](home/structure/document.md)
 
 ## 📂 __os__
 
@@ -245,7 +250,6 @@ _61 directories, 298 files_
 
 1. 📄 [\_sidebar.md](os/cli/_sidebar.md)
 2. 📄 [README.md](os/cli/README.md)
-3. 📄 [shell.md](os/cli/shell.md)
 
 ### 📂 __desktop__
 
@@ -277,27 +281,35 @@ _61 directories, 298 files_
 
 ### 📂 __mobile__
 
-1. 📄 [\_sidebar.md](os/mobile/_sidebar.md)
-2. 📄 [acode.md](os/mobile/acode.md)
-3. 📄 [app\-list.md](os/mobile/app-list.md)
-4. 📄 [app\-manager.md](os/mobile/app-manager.md)
-5. 📄 [browser.md](os/mobile/browser.md)
-6. 📄 [f\-droid.md](os/mobile/f-droid.md)
-7. 📄 [http\-shortcuts.md](os/mobile/http-shortcuts.md)
-8. 📄 [markor.md](os/mobile/markor.md)
-9. 📄 [mgit.md](os/mobile/mgit.md)
-10. 📄 [miui.md](os/mobile/miui.md)
-11. 📄 [README.md](os/mobile/README.md)
-12. 📄 [termux.md](os/mobile/termux.md)
+
+#### 📂 __android__
+
+1. 📄 [\_sidebar.md](os/mobile/android/_sidebar.md)
+2. 📄 [miui.md](os/mobile/android/miui.md)
+3. 📄 [README.md](os/mobile/android/README.md)
+
+##### 📂 __app__
+
+1. 📄 [acode.md](os/mobile/android/app/acode.md)
+2. 📄 [app\-manager.md](os/mobile/android/app/app-manager.md)
+3. 📄 [browser.md](os/mobile/android/app/browser.md)
+4. 📄 [f\-droid.md](os/mobile/android/app/f-droid.md)
+5. 📄 [http\-shortcuts.md](os/mobile/android/app/http-shortcuts.md)
+6. 📄 [macrodroid.md](os/mobile/android/app/macrodroid.md)
+7. 📄 [markor.md](os/mobile/android/app/markor.md)
+8. 📄 [mgit.md](os/mobile/android/app/mgit.md)
+9. 📄 [README.md](os/mobile/android/app/README.md)
+10. 📄 [termux.md](os/mobile/android/app/termux.md)
 
 ### 📂 __tools__
 
 1. 📄 [\_sidebar.md](os/tools/_sidebar.md)
 2. 📄 [app\-list.md](os/tools/app-list.md)
-3. 📄 [cli\-app.md](os/tools/cli-app.md)
-4. 📄 [README.md](os/tools/README.md)
-5. 📄 [search.md](os/tools/search.md)
-6. 📄 [web\-app.md](os/tools/web-app.md)
+3. 📄 [category.md](os/tools/category.md)
+4. 📄 [cli\-app.md](os/tools/cli-app.md)
+5. 📄 [README.md](os/tools/README.md)
+6. 📄 [search.md](os/tools/search.md)
+7. 📄 [web\-app.md](os/tools/web-app.md)
 
 #### 📂 __browser__
 
@@ -308,7 +320,7 @@ _61 directories, 298 files_
 
 ##### 📂 __extensions__
 
-1. 📄 [browser\-extensions.md](os/tools/browser/extensions/browser-extensions.md)
+1. 📄 [README.md](os/tools/browser/extensions/README.md)
 2. 📄 [tampermonkey.md](os/tools/browser/extensions/tampermonkey.md)
 
 #### 📂 __custom__
@@ -345,6 +357,8 @@ _61 directories, 298 files_
 2. 📄 [man.md](os/tools/developer/shell/man.md)
 3. 📄 [powershell.md](os/tools/developer/shell/powershell.md)
 4. 📄 [readline.md](os/tools/developer/shell/readline.md)
+5. 📄 [README.md](os/tools/developer/shell/README.md)
+6. 📄 [zsh.md](os/tools/developer/shell/zsh.md)
 
 #### 📂 __productivity__
 
@@ -359,10 +373,12 @@ _61 directories, 298 files_
 
 1. 📄 [\_sidebar.md](os/tools/topics/_sidebar.md)
 2. 📄 [ai.md](os/tools/topics/ai.md)
-3. 📄 [multimedia.md](os/tools/topics/multimedia.md)
-4. 📄 [package\-manager.md](os/tools/topics/package-manager.md)
-5. 📄 [rss.md](os/tools/topics/rss.md)
-6. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
+3. 📄 [input\-method.md](os/tools/topics/input-method.md)
+4. 📄 [multimedia.md](os/tools/topics/multimedia.md)
+5. 📄 [package\-manager.md](os/tools/topics/package-manager.md)
+6. 📄 [rss.md](os/tools/topics/rss.md)
+7. 📄 [translation.md](os/tools/topics/translation.md)
+8. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
 
 ## 📂 __project__
 
@@ -438,17 +454,57 @@ _61 directories, 298 files_
 1. 📄 [\_sidebar.md](snippets/_sidebar.md)
 2. 📄 [badge.md](snippets/badge.md)
 3. 📄 [bookmarklet.md](snippets/bookmarklet.md)
-4. 📄 [css.md](snippets/css.md)
-5. 📄 [html.md](snippets/html.md)
-6. 📄 [illustration.md](snippets/illustration.md)
-7. 📄 [javascript.md](snippets/javascript.md)
-8. 📄 [README.md](snippets/README.md)
-9. 📄 [regex.md](snippets/regex.md)
+4. 📄 [html.md](snippets/html.md)
+5. 📄 [illustration.md](snippets/illustration.md)
+6. 📄 [javascript.md](snippets/javascript.md)
+7. 📄 [README.md](snippets/README.md)
+8. 📄 [regex.md](snippets/regex.md)
 
-### 📂 __app\-list\-template__
+### 📂 __css__
 
-1. 📄 [category.md](snippets/app-list-template/category.md)
-2. 📄 [details.md](snippets/app-list-template/details.md)
+1. 📄 [README.md](snippets/css/README.md)
+
+### 📂 __md__
+
+
+#### 📂 __app__
+
+1. 📄 [android.md](snippets/md/app/android.md)
+2. 📄 [browser\-extension.md](snippets/md/app/browser-extension.md)
+3. 📄 [downloads.md](snippets/md/app/downloads.md)
+4. 📄 [extra\-ads.md](snippets/md/app/extra-ads.md)
+5. 📄 [lite.md](snippets/md/app/lite.md)
+6. 📄 [macos.md](snippets/md/app/macos.md)
+7. 📄 [mobile\-lite.md](snippets/md/app/mobile-lite.md)
+8. 📄 [mobile\-pro.md](snippets/md/app/mobile-pro.md)
+9. 📄 [pro\-details.md](snippets/md/app/pro-details.md)
+10. 📄 [pro\-web\-browser\-extensions.md](snippets/md/app/pro-web-browser-extensions.md)
+11. 📄 [pro.md](snippets/md/app/pro.md)
+
+#### 📂 __badge__
+
+1. 📄 [f\-droid.md](snippets/md/badge/f-droid.md)
+2. 📄 [gh\-all.md](snippets/md/badge/gh-all.md)
+3. 📄 [gh\-last\-commit.md](snippets/md/badge/gh-last-commit.md)
+4. 📄 [gh\-stars.md](snippets/md/badge/gh-stars.md)
+5. 📄 [npm.md](snippets/md/badge/npm.md)
+6. 📄 [platform.md](snippets/md/badge/platform.md)
+7. 📄 [tag.md](snippets/md/badge/tag.md)
+
+#### 📂 __doc\-tpl__
+
+1. 📄 [cn.md](snippets/md/doc-tpl/cn.md)
+2. 📄 [command.md](snippets/md/doc-tpl/command.md)
+3. 📄 [en.md](snippets/md/doc-tpl/en.md)
+4. 📄 [Illustration\-source\-cn.md](snippets/md/doc-tpl/Illustration-source-cn.md)
+5. 📄 [intro\-cn.md](snippets/md/doc-tpl/intro-cn.md)
+6. 📄 [intro\-en.md](snippets/md/doc-tpl/intro-en.md)
+
+#### 📂 __superscript__
+
+1. 📄 [frequently.md](snippets/md/superscript/frequently.md)
+2. 📄 [hot.md](snippets/md/superscript/hot.md)
+3. 📄 [priority.md](snippets/md/superscript/priority.md)
 
 ## 📂 __tech\-stack__
 
@@ -477,10 +533,7 @@ _61 directories, 298 files_
 7. 📄 [file\-diff.md](topics/file-diff.md)
 8. 📄 [file\-sync.md](topics/file-sync.md)
 9. 📄 [file\-transfer.md](topics/file-transfer.md)
-10. 📄 [input\-method.md](topics/input-method.md)
-11. 📄 [search\-skill.md](topics/search-skill.md)
-12. 📄 [shortcuts.md](topics/shortcuts.md)
-13. 📄 [translate.md](topics/translate.md)
-14. 📄 [unit.md](topics/unit.md)
-15. 📄 [video.md](topics/video.md)
+10. 📄 [search\-skill.md](topics/search-skill.md)
+11. 📄 [shortcuts.md](topics/shortcuts.md)
+12. 📄 [unit.md](topics/unit.md)
 

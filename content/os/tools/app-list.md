@@ -787,7 +787,7 @@
 
     </details>
 
-2. ✅ [Markor](https://gsantner.net/) <i id="markor"></i> - *Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..* [使用手册](os/mobile/markor.md)
+2. ✅ [Markor](https://gsantner.net/) <i id="markor"></i> - *Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..* [使用手册](os/mobile/android/app/markor.md)
 
    - 支持 Android（[GitHub Releases](https://github.com/gsantner/markor/releases)）
 
@@ -942,7 +942,7 @@
 
 ## 翻译工具
 
-[专题](topics/translate.md)
+[专题](os/tools/topics/translation.md)
 
 1. [沉浸式翻译](https://immersivetranslate.com/) - *沉浸式翻译是一款浏览器插件，可以智能识别网页主内容区进行双语翻译，插件支持全平台浏览器，PDF文件翻译，EPUB电子书双语翻译、制作、导出，字幕文件翻译等功能。*
 

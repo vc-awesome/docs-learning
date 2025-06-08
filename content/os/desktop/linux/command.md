@@ -471,10 +471,12 @@ https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教�
 - 查看指定环境变量
 
   1. `echo $PATH`
+  2. `printenv PATH`
 
   示例：
 
-  2. `echo $NVM_NODEJS_ORG_MIRROR`
+  1. `echo $NVM_NODEJS_ORG_MIRROR`
+  2. `printenv NVM_NODEJS_ORG_MIRROR`
 
 - 设置环境变量
 
@@ -495,18 +497,13 @@ https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教�
 
   `unset NVM_NODEJS_ORG_MIRROR`
 
-#### 查看 Shell 版本
+##### 自定义变量
 
-4 种方式：
+https://wangdoc.com/bash/variable#自定义变量 - *Bash 变量 - Bash 脚本教程 - 网道*
 
-1. `echo $0`
-2. `echo $SHELL`
-3. `ps -p $$`
-4. `cat /etc/shells`
+- 显示所有变量（包括环境变量和自定义变量），以及所有的 Bash 函数
 
-参考：
-
-1. https://www.dbs724.com/63477.html - *Linux 查看 Shell 版本的方法（linux查看shell版本）-数据库远程运维*
+  `set`
 
 #### 查看当前用户
 
@@ -523,6 +520,19 @@ https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教�
 2. `passwd` - _修改root密码_
 
     - `passwd [用户名]` - _修改其他用户密码_
+
+#### 查看 Shell
+
+4 种方式：
+
+1. `echo $0`
+2. `echo $SHELL`
+3. `ps -p $$`
+4. `cat /etc/shells`
+
+参考：
+
+1. https://www.dbs724.com/63477.html - *Linux 查看 Shell 版本的方法（linux查看shell版本）-数据库远程运维*
 
 #### 退出 Shell
 
@@ -608,7 +618,7 @@ https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关
 13. complete
 14. compopt
 15. continue
-16. declare
+16. [declare](#declare)
 17. dirs
 18. disown
 19. [echo](#echo)
@@ -620,7 +630,7 @@ https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关
 25. false
 26. fc
 27. [fg](#fg)
-28. getopts
+28. [getopts](#getopts)
 29. hash
 30. [help](#help)
 31. [history](#history)
@@ -640,12 +650,12 @@ https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关
 45. return
 46. [set](#set)
 47. shift
-48. shopt
+48. [shopt](#shopt)
 49. [source](#source)
 50. suspend
 51. test
 52. times
-53. trap
+53. [trap](#trap)
 54. true
 55. [type](#type)
 56. typeset
@@ -815,6 +825,29 @@ https://tldr.inbrowser.app/pages.zh/common/compgen - *compgen | tldr InBrowser.A
 
 `compgen -A function` - *列出所有可以运行的函数*
 
+### declare
+
+简介：
+
+> Set variable values and attributes.
+>
+> Declare variables and give them attributes. If no NAMEs are given, display the attributes and values of all variables.
+
+语法：
+
+declare [-aAfFgiIlnrtux] [name[=value] ...] or declare -p [-aAfFilnrtux] [name ...]
+
+参数：
+
+`-f` - restrict action or display to function names and definitions
+
+`-F` - restrict display to function names only (plus line number and source file when debugging)
+
+用法：
+
+```bash
+declare --help
+```
 
 ### echo
 
@@ -933,6 +966,28 @@ fg [job_spec]
 
 ```bash
 fg --help
+```
+
+### getopts
+
+简介：
+
+> Parse option arguments.
+>
+> Getopts is used by shell procedures to parse positional parameters as options.
+
+语法：
+
+getopts optstring name [arg ...]
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+```bash
+getopts --help
 ```
 
 ### help
@@ -1120,6 +1175,38 @@ set [-abefhkmnptuvxBCEHPT] [-o option-name] [--] [-] [arg ...]
 set --help
 ```
 
+### shopt
+
+简介：
+
+> Set and unset shell options.
+>
+> Change the setting of each shell option OPTNAME.  Without any option arguments, list each supplied OPTNAME, or all shell options if no OPTNAMEs are given, with an indication of whether or not each is set.
+
+语法：
+
+shopt [-pqsu] [-o] [optname ...]
+
+参数：
+
+`--help` - display this help and exit
+
+`-o` - restrict OPTNAMEs to those defined for use with `set -o'
+
+`-p` - print each shell option with an indication of its status
+
+`-q` - suppress output
+
+`-s` - enable (set) each OPTNAME
+
+`-u` - disable (unset) each OPTNAME
+
+用法：
+
+```bash
+shopt --help
+```
+
 ### source
 
 简介：
@@ -1135,6 +1222,44 @@ source filename [arguments]
 https://linuxize.com/post/bash-source-command/ - *Bash Source Command | Linuxize*
 
 https://wangchujiang.com/linux-command/c/source.html - *source 命令，Linux source 命令详解：在当前Shell环境中从指定文件读取和执行命令。 - Linux 命令搜索引擎*
+
+### trap
+
+简介：
+
+> Trap signals and other events.
+> 
+> Defines and activates handlers to be run when the shell receives signals or other conditions.
+
+语法：
+
+trap [-Plp] [[action] signal_spec ...]
+
+参数：
+
+`--help` - display this help and exit
+
+`-l` - print a list of signal names and their corresponding numbers
+
+`-p` - display the trap commands associated with each SIGNAL_SPEC in a form that may be reused as shell input; or for all trapped signals if no arguments are supplied
+
+`-P` - display the trap commands associated with each SIGNAL_SPEC. At least one SIGNAL_SPEC must be supplied. -P and -p cannot be used together.
+
+用法：
+
+```bash
+trap --help
+```
+
+示例：
+
+```bash
+trap -l
+```
+
+参考：
+
+<https://wangdoc.com/bash/mktemp#trap-命令> - *mktemp 命令，trap 命令 - Bash 脚本教程 - 网道*
 
 ### type
 

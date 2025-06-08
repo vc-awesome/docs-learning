@@ -69,7 +69,7 @@
 
 #### Feeder
 
-[Feeder](os/mobile/app-list.md#feeder) - *An awesome Libre and Open Source RSS feed reader*
+[Feeder](os/mobile/android/app/README.md#feeder) - *An awesome Libre and Open Source RSS feed reader*
 
 - 支持 Android
 

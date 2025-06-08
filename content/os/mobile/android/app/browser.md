@@ -31,7 +31,7 @@ Website：
 
 Download：
 
-1. [FFUpdater](os/mobile/app-list.md#ffupdater)
+1. [FFUpdater](os/mobile/android/app/README.md#ffupdater)
 
 ### Cromite
 

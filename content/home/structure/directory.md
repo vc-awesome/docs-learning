@@ -1,6 +1,6 @@
 # 目录结构
 
-![Gif](../../_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
+![Gif](_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
 
 <div style="text-align: right;">
 

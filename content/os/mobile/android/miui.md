@@ -68,7 +68,7 @@
     2. *[Image Toolbox](https://f-droid.org/packages/ru.tech.imageresizershrinker) - OCR (文本识别)*
     3. *夸克 - 提取文字*
     4. *百度翻译*
-    5. *[Yander Browser](os/mobile/browser.md#yandex) - 智能摄像头*
+    5. *[Yander Browser](os/mobile/android/app/browser.md#yandex) - 智能摄像头*
 
 
 ## 屏幕录制
@@ -529,7 +529,7 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 
 打开方式一：
 
-1. 下载应用“[质感文件](os/mobile/app-list.md#Material-Files)”；
+1. 下载应用“[质感文件](os/mobile/android/app/README.md#Material-Files)”；
 2. 打开“质感文件” > 找到 m3u8 格式视频文件的存放位置；
 3. 点击文件右侧 ⋮ > 在弹出的菜单栏选项中选择“打开方式”-第 2 个“质感文件”；
 4. 弹窗中选择将文件作为视频打开；
@@ -538,7 +538,7 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 
 打开方式二（推荐）：
 
-1. 下载应用“[QQ浏览器](os/mobile/browser.md#QQ浏览器)”；
+1. 下载应用“[QQ浏览器](os/mobile/android/app/browser.md#QQ浏览器)”；
 2. 打开“QQ浏览器” > 底部导航栏-“文件” > 顶部“文件管理”-“视频” > 在“本地视频”中找到 m3u8 格式视频文件 > 点击文件播放。
 
 打开方式三：
@@ -562,7 +562,7 @@ https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小
 ### 如何在手机上打开 HTML 文件？
 
 操作步骤：
-1. 新建 HTML 格式 (test.html) 文件（可使用手机应用 [Markor](os/mobile/app-list.md#markor) 新建）；
+1. 新建 HTML 格式 (test.html) 文件（可使用手机应用 [Markor](os/mobile/android/app/README.md#markor) 新建）；
 2. 打开系统应用“[文件管理](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)”；
 3. 找到新建的 HTML 文件 *> 长按文件 > 更多 > 用其他应用打开 > 选择自己常用的手机浏览器*。
 

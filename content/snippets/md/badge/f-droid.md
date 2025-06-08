@@ -1,0 +1,1 @@
+![F-Droid Version](https://badgen.net/f-droid/v/)

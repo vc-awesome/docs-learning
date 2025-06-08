@@ -1,6 +1,6 @@
-# 文档模板
+# 文档结构
 
-![Gif](../../_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
+![Gif](../../../_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
 
 <div style="text-align: right;">
 
@@ -665,7 +665,7 @@ https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-che
 
 #### Table of Contents
 
-有关详细信息，请参阅“[目录结构#文档目录](home/directory-structure.md#文档目录)”。
+有关详细信息，请参阅“[目录结构#文档目录](home/structure/directory.md#文档目录)”。
 
 #### Directory Structure
 
@@ -689,7 +689,7 @@ root_folder/
 └── etc.
 ```
 
-有关详细信息，请参阅“[目录结构#文件系统目录](home/directory-structure.md#文件系统目录)”。
+有关详细信息，请参阅“[目录结构#文件系统目录](home/structure/directory.md#文件系统目录)”。
 
 #### User Interface
 

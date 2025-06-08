@@ -21,7 +21,7 @@
     - <hr />
     - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/desktop/linux/linux%20指令)
     - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/desktop/mac/homebrew.md)
-    - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/termux.md)
+    - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/android/app/termux.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> Vim](os/desktop/linux/vim.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> VS Code](os/tools/visual-studio-code.md)
     - [<i class="fa-duotone fa-toolbox fa-fw"></i> Sublime Text](os/tools/sublime-text.md)
@@ -79,7 +79,7 @@
   - [<i class="fa fa-windows fa-fw"></i> Windows](os/desktop/windows/README.md)
   - [<i class="fa fa-linux fa-fw"></i> Linux](os/desktop/linux/README.md)
   - [<i class="fa fa-apple fa-fw"></i> Mac](os/desktop/mac/README.md)
-  - [<i class="fal fa-mobile fa-fw"></i> Mobile](os/mobile/README.md)
+  - [<i class="fal fa-mobile fa-fw"></i> Mobile](os/mobile/android/README.md)
   - [<i class="fa-regular fa-bags-shopping fa-fw"></i> 应用商店](os/app-store.md)
   - <hr />
   - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools">TOOLS</i></strong>

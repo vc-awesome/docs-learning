@@ -47,7 +47,7 @@ https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linu
 
 1. https://www.opera.com/zh-cn/download/mobile-versions - *Mobile Browser | Download for Phone & Tablet | Opera | Opera*
 
-有关详细信息，请参阅“[Mobile Opera](os/mobile/browser.md#opera)”。
+有关详细信息，请参阅“[Mobile Opera](os/mobile/android/app/browser.md#opera)”。
 
 ## Getting started
 

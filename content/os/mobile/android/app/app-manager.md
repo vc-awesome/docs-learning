@@ -90,7 +90,7 @@ https://muntashirakon.github.io/AppManager/en/#sec:automating-tasks - *App Manag
 intent:#Intent;action=android.intent.action.MAIN;package=io.github.muntashirakon.AppManager;component=io.github.muntashirakon.AppManager/.crypto.auth.AuthFeatureDemultiplexer;S.feature=profile;S.auth=xijKac48V2qUNJexjwvuV2x6;S.prof=test;end
 ```
 
-在安卓应用“[HTTP Shortcuts](os/mobile/http-shortcuts.md)”中编写脚本：
+在安卓应用“[HTTP Shortcuts](os/mobile/android/app/http-shortcuts.md)”中编写脚本：
 
 ```javascript
 sendIntent({

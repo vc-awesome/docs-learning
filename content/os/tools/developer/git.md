@@ -93,7 +93,7 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 1. [GitUI by extrawurst](https://extrawurst.itch.io/gitui) - *blazing fast terminal-ui for git written in rust*
 
-    - 支持 Windows, macOS, Linux, Android（[Termux](os/mobile/termux.md#gitui)）
+    - 支持 Windows, macOS, Linux, Android（[Termux](os/mobile/android/app/termux.md#gitui)）
 
     - 开源免费（[GitHub Repo](https://github.com/desktop/desktop)）
 

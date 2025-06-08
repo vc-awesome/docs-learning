@@ -72,9 +72,9 @@ https://github.com/VeleSila/yhosts/wiki - *Home · VeleSila/yhosts Wiki · GitHu
 
 应用列表：
 
-1. [AdAway](os/mobile/app-list.md#adaway)
-2. [personalDNSfilter](os/mobile/app-list.md#personaldnsfilter)
-3. [Daedalus](os/mobile/app-list.md#daedalus)
+1. [AdAway](os/mobile/android/app/README.md#adaway)
+2. [personalDNSfilter](os/mobile/android/app/README.md#personaldnsfilter)
+3. [Daedalus](os/mobile/android/app/README.md#daedalus)
 4. ✅ [Virtual Hosts]() - *hosts for android,implement by vpn mode,supports wildcard DNS records - x-falcon/Virtual-Hosts*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/x-falcon/Virtual-Hosts?color=blue&logo=github)

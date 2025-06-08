@@ -88,7 +88,7 @@ Wikis:
 
 ### Android
 
-GitHub：https://github.com/termux/termux-app - *Termux - a terminal emulator application for Android OS extendible by variety of packages.*
+GitHub（推荐）：https://github.com/termux/termux-app - *Termux - a terminal emulator application for Android OS extendible by variety of packages.*
 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-app?logo=github)
 
@@ -651,7 +651,7 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
 
 操作步骤：
 
-1. 打开手机应用“[质感文件](os/mobile/app-list.md#material-files)”；
+1. 打开手机应用“[质感文件](os/mobile/android/app/README.md#material-files)”；
 2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
 3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*
 
@@ -793,6 +793,8 @@ https://repology.org/repository/termux - *Termux repository information - Repolo
 #### Editors
 
 https://wiki.termux.com/wiki/Editors - *Editors - Termux Wiki*
+
+Text Editors:
 
 1. [nano](#nano)
 2. [sed](#sed)
@@ -3500,7 +3502,7 @@ cd ~/storage/shared/Documents/markor/GitHub/docs-learning/
 gitui
 ```
 
-方式二：添加 [Termux:Widget](os/mobile/termux.md#termuxwidget) 脚本
+方式二：添加 [Termux:Widget](os/mobile/android/app/termux.md#termuxwidget) 脚本
 
 1. 新建脚本文件
 

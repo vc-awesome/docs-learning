@@ -247,7 +247,7 @@
 场景四：
 
 1. [Browser](os/tools/browser/README.md)
-2. [Browser Extensions](os/tools/browser/extensions/browser-extensions.md)
+2. [Browser Extensions](os/tools/browser/extensions/README.md)
 
 
 ### macOS
@@ -286,24 +286,24 @@
 
 1. ~~[Markor](os/tools/app-list.md#markor)
 2. [Syncthing](os/tools/app-list.md#syncthing)
-3. [Termux](os/mobile/termux.md)
+3. [Termux](os/mobile/android/app/termux.md)
 4. [FolerSync](os/tools/app-list.md#folder-sync)~~
 
 场景二：
 
-1. [personalDNSfilter](os/mobile/app-list.md#personaldnsfilter)
-2. [Opera](os/mobile/browser.md#opera-%e2%9c%85)
+1. [personalDNSfilter](os/mobile/android/app/README.md#personaldnsfilter)
+2. [Opera](os/mobile/android/app/browser.md#opera-✅)
 
 场景三：
 
-1. [Acode](os/mobile/app-list.md#acode)
-2. [HTTP Shortcuts](os/mobile/http-shortcuts.md)
-3. [~~MGit~~](os/mobile/mgit.md)（Termux 安装 Git 替代）
-4. [Markdownr](os/mobile/app-list.md#markdownr)
+1. [Acode](os/mobile/android/app/README.md#acode)
+2. [HTTP Shortcuts](os/mobile/android/app/http-shortcuts.md)
+3. [~~MGit~~](os/mobile/android/app/mgit.md)（Termux 安装 Git 替代）
+4. [Markdownr](os/mobile/android/app/README.md#markdownr)
 5. [Markor](os/tools/app-list.md#markor)
 6. [Obsidian](os/tools/productivity/obsidian.md)
-7. [Termux](os/mobile/termux.md)
-8. [UrlCheck](os/mobile/app-list.md#urlcheck)
+7. [Termux](os/mobile/android/app/termux.md)
+8. [UrlCheck](os/mobile/android/app/README.md#urlcheck)
 
 
 ### Web
@@ -623,9 +623,9 @@ macOS | ARM 架构  | 64-bit | arm64   |  Apple Silicon (M1) | 主要是嵌入�
 
 - Android:
 
-    1. 方式一：*使用应用 [CPU Info](os/mobile/app-list#cpu-info) > Hardware-CPU-ABI*
-    2. 方式二：*使用应用 [App Manager](os/mobile/app-list.md#App-Manager) > 设置 > 关于此设备-CPU*
-    3. 方式三：*使用应用 [Termux](os/mobile/termux.md) > 设置 > About-Device Info*
+    1. 方式一：*使用应用 [CPU Info](os/mobile/android/app/README.md#cpu-info) > Hardware-CPU-ABI*
+    2. 方式二：*使用应用 [App Manager](os/mobile/android/app/README.md#App-Manager) > 设置 > 关于此设备-CPU*
+    3. 方式三：*使用应用 [Termux](/mobile/android/app/termux.md) > 设置 > About-Device Info*
     4. 方式四：*使用应用「小红书」> 设置 > 个人信息收集清单 > 设备信息 - CPU型号*
 
 

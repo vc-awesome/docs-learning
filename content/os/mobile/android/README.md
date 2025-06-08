@@ -6,7 +6,7 @@
 
 http://www.kslabs.ru/ - *KSWEB Official Website*
 
-1. [Termux](os/mobile/termux.md)
+1. [Termux](os/mobile/android/app/termux.md)
 
 ### Reference
 

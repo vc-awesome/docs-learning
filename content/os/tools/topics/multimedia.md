@@ -4,19 +4,19 @@
 
 ### 音频格式
 
-- mp3
 - aac
+- mp3
 
 ## 图像
 
 ### 图片格式
 
-- jpg
-- jpeg
-- png
-- webp
-- svg
 - gif
+- jpeg
+- jpg
+- png
+- svg
+- webp
 
 ### 工具
 
@@ -31,22 +31,42 @@
 
 ### 视频格式
 
-- m3u8
-- m3u
-- mp4
-- mov
-- mkv
 - avi
+- m3u
+- m3u8
+- mkv
+- mov
+- mp4
 - ts
+
+### 格式转换
+
+暂无
+
+### 视频下载
+
+http://hqyman.cn/post/2674.html - *下载视频(m3u8格式)的4种方法 (附教程) ，你值得收藏-HQY 一个和谐有爱的空间*
+
+### 视频播放
+
+- [应用列表](os/tools/app-list.md#音视频工具)
+- [Web 应用](os/tools/web-app.md#音视频播放器)
+- [Web 浏览器扩展](os/tools/browser/extensions/README.md#下载工具)
+
+### 视频剪辑
+
+暂无
+
+### 视频修复
+
+https://huifu.wondershare.cn/repair/10070836.html - *推荐8 个免费的视频修复软件-万兴易修*
 
 ### 功能
 
 - 倍速播放
 - 长按倍速播放
-
     - https://mp.weixin.qq.com/s/-ueYRz90Amwhmb1r7etCHg - *B站同款功能！这些特殊播放器，很难不爱上啊*
 - 视频书签
-
 
 ## 工具
 
@@ -160,3 +180,38 @@ https://github.com/mpv-android/mpv-android - *GitHub - mpv-android/mpv-android: 
 
 
 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=is.xyz.mpv), [F-Droid]()）
+
+### Seal
+
+#### 简介
+
+> 🦭 Video/Audio Downloader for Android, based on yt-dlp - JunkFood02/Seal
+
+![GitHub last commit](https://img.shields.io/github/last-commit/JunkFood02/Seal?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/JunkFood02/Seal?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/JunkFood02/Seal?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/JunkFood02/Seal?style=social)
+
+#### 官方
+
+https://github.com/JunkFood02/Seal - *GitHub - JunkFood02/Seal: 🦭 Video/Audio Downloader for Android, based on yt-dlp*
+
+#### 安装
+
+> 支持 Android（[GitHub Releases](https://github.com/JunkFood02/Seal/releases), [F-Droid](https://f-droid.org/packages/com.junkfood.seal)）
+
+### VLC
+
+#### 简介
+
+> Official download of VLC media player, the best Open Source player
+
+#### 官方
+
+https://www.videolan.org/vlc/ - *Official download of VLC media player, the best Open Source player - VideoLAN*
+
+https://code.videolan.org/videolan/vlc-android - *VideoLAN / VLC-Android · GitLab*
+
+#### 安装
+
+> 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=org.videolan.vlc), [F-Droid](https://f-droid.org/en/packages/org.videolan.vlc/)）

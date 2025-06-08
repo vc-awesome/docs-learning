@@ -793,7 +793,7 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 ### Web Browser Extensions
 
-有关详细信息，请参阅“[浏览器扩展](os/tools/browser/extensions/browser-extensions.md#proxy)”。
+有关详细信息，请参阅“[浏览器扩展](os/tools/browser/extensions/README.md#proxy)”。
 
 #### Proxy SwitchyOmega
 

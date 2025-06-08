@@ -449,97 +449,6 @@ npm pack <package-spec>
 
 ## 软件包
 
-### cnpm
-
-> npm client for China mirror of npm.
-
-![GitHub last commit](https://badgen.net/github/last-commit/cnpm/cnpm?icon=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/cnpm/cnpm?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cnpm/cnpm?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/cnpm/cnpm?style=social)
-
-----
-
-https://github.com/cnpm/cnpm - *GitHub - cnpm/cnpm: cnpm: npm client for China mirror of npm*
-
-http://npmmirror.com/ - *npmmirror 镜像站*
-
-### npx
-
-> npm package executor
-
-![GitHub last commit](https://badgen.net/github/last-commit/npm/npx?icon=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/npx?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/npm/npx?style=social)
-
----
-
-https://www.github.com/npm/npx
-
-https://www.npmjs.com/package/npx
-
-参考：
-
-1. https://www.ruanyifeng.com/blog/2019/02/npx.html - *npx 使用教程 - 阮一峰的网络日志*
-
-2. https://zhuanlan.zhihu.com/p/269419296 - *npx简介*
-
-快速入门：
-
-- 安装（全局安装）
-
-    `npm install -g npx`
-
-- Show the current npx version.
-
-    `npx -v`
-
-    `npx --version`
-
-
-### http-server
-
-> http-server: a simple static HTTP server
-
-![GitHub last commit](https://badgen.net/github/last-commit/http-party/http-server?icon=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/http-server?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/http-party/http-server?style=social)
-
----
-
-https://github.com/http-party/http-server
-
-https://www.npmjs.com/package/http-server
-
-快速入门：
-
-- 安装（Local Install）
-
-  `npm install http-server --save-dev`
-
-- 开始使用
-
-  [如何运行本地安装模块的命令](#如何运行本地安装的模块)
-
-  1. `./node_modules/http-server/bin/http-server`
-  2. 打开浏览器访问 `http://127.0.0.1:8080`， ;)
-
-
-### pm2
-
-> 使用 pm2 管理 node 服务器启动，停止
-
-![GitHub last commit](https://badgen.net/github/last-commit/Unitech/pm2?icon=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/pm2?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/Unitech/pm2?style=social)
-
----
-
-https://github.com/Unitech/pm2 - *Node.js Production Process Manager with a built-in Load Balancer.*
-
-Via <http://yapi.smart-xwork.cn/doc/devops/index.html#服务器管理>
-
-
 ### browser-sync
 
 > Keep multiple browsers & devices in sync when building websites.
@@ -560,7 +469,19 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 
 **[命令行](https://browsersync.bootcss.com/docs/command-line)**
 
-- 安装（ *Local Install* ）
+- 安装（Global Install）
+
+    ```bash
+    npm install -g browser-sync
+    ```
+
+- 卸载
+
+    ```bash
+    npm uninstall -g browser-sync
+    ```
+
+- 安装（Local Install）
 
   推荐这种方式来安装 *Browsersync* - 通过本地安装到每个项目的根目录。这种方式的可以使依赖被添加到你的 package.json 文件里（ gulp 或 grunt 构建方式）
 
@@ -620,6 +541,191 @@ https://browsersync.bootcss.com/ - *Browsersync - 省时的浏览器同步测试
 
 5. https://blog.51cto.com/u_15581727/5177587 - *修改文件后浏览器自动刷新解决方案_51CTO博客_浏览器定时刷新*
 
+### cnpm
+
+> npm client for China mirror of npm.
+
+![GitHub last commit](https://badgen.net/github/last-commit/cnpm/cnpm?icon=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/cnpm/cnpm?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/cnpm/cnpm?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/cnpm/cnpm?style=social)
+
+----
+
+https://github.com/cnpm/cnpm - *GitHub - cnpm/cnpm: cnpm: npm client for China mirror of npm*
+
+http://npmmirror.com/ - *npmmirror 镜像站*
+
+### gitmoji-cli
+
+- 安装
+
+    ```bash
+    npm install -g gitmoji-cli
+    ```
+
+- 卸载
+
+    ```bash
+    npm uninstall -g gitmoji-cli
+    ```
+
+### http-server
+
+> http-server: a simple static HTTP server
+
+![GitHub last commit](https://badgen.net/github/last-commit/http-party/http-server?icon=github&color=blue)
+![NPM Version](https://img.shields.io/npm/v/http-server?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/http-party/http-server?style=social)
+
+---
+
+https://github.com/http-party/http-server
+
+https://www.npmjs.com/package/http-server
+
+快速入门：
+
+- 安装（Local Install）
+
+  `npm install http-server --save-dev`
+
+- 开始使用
+
+  [如何运行本地安装模块的命令](#如何运行本地安装的模块)
+
+  1. `./node_modules/http-server/bin/http-server`
+  2. 打开浏览器访问 `http://127.0.0.1:8080`， ;)
+
+### npm-check-updates
+
+> Find newer versions of package dependencies than what your package.json allows
+
+![GitHub last commit](https://badgen.net/github/last-commit/raineorshine/npm-check-updates?icon=github&color=blue)
+![NPM Version](https://img.shields.io/npm/v/npm-check-updates?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/raineorshine/npm-check-updates?style=social)
+
+---
+
+https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-check-updates: Find newer versions of package dependencies than what your package.json allows*
+
+- 安装
+
+  `npm install -g npm-check-updates`
+
+- 更新
+
+  `npm i -g npm-check-updates`
+
+- You're lookin' at it.
+
+  `ncu -h`
+
+  `ncu --help`
+
+- Output the version number of npm-check-updates.
+
+  `ncu -v`
+
+  `ncu -V`
+
+  `ncu --version`
+
+- Show all new dependencies ([excluding peerDependencies](https://github.com/raineorshine/npm-check-updates/issues/951)) for the project in the current directory.
+
+  `ncu`
+
+- Overwrite package file with upgraded versions instead of just outputting to console.
+
+  `ncu -u`
+
+  `ncu --upgrade`
+
+- Check global packages instead of in the current project.
+
+  `ncu -g`
+
+  `ncu --global`
+
+### npx
+
+> npm package executor
+
+![GitHub last commit](https://badgen.net/github/last-commit/npm/npx?icon=github&color=blue)
+![NPM Version](https://img.shields.io/npm/v/npx?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/npm/npx?style=social)
+
+---
+
+https://www.github.com/npm/npx
+
+https://www.npmjs.com/package/npx
+
+参考：
+
+1. https://www.ruanyifeng.com/blog/2019/02/npx.html - *npx 使用教程 - 阮一峰的网络日志*
+
+2. https://zhuanlan.zhihu.com/p/269419296 - *npx简介*
+
+快速入门：
+
+- 安装（全局安装）
+
+    `npm install -g npx`
+
+- Show the current npx version.
+
+    `npx -v`
+
+    `npx --version`
+
+### nrm
+
+[镜像源管理工具（nrm）](#镜像源管理工具（nrm）)
+
+### open-cli
+
+- 安装
+
+    ```bash
+    npm install -g open-cli
+    ```
+
+- 卸载
+
+    ```bash
+    npm uninstall -g open-cli
+    ```
+
+### pangu
+
+- 安装
+
+    ```bash
+    npm install -g pangu
+    ```
+
+- 卸载
+
+    ```bash
+    npm uninstall -g pangu
+    ```
+
+### pm2
+
+> 使用 pm2 管理 node 服务器启动，停止
+
+![GitHub last commit](https://badgen.net/github/last-commit/Unitech/pm2?icon=github&color=blue)
+![NPM Version](https://img.shields.io/npm/v/pm2?logo=npm)
+![GitHub Repo stars](https://img.shields.io/github/stars/Unitech/pm2?style=social)
+
+---
+
+https://github.com/Unitech/pm2 - *Node.js Production Process Manager with a built-in Load Balancer.*
+
+Via <http://yapi.smart-xwork.cn/doc/devops/index.html#服务器管理>
+
+
 ### PostCSS
 
 > Transform CSS with the power of JavaScript. Auto-prefixing, future CSS syntaxes, modules, linting and more are possible with hundreds of PostCSS plugins.
@@ -678,57 +784,47 @@ https://github.com/cssnano/cssnano - *GitHub - cssnano/cssnano: A modular minifi
 
 https://cssnano.co/ - *CSSNANO*
 
-
-### npm-check-updates
-
-> Find newer versions of package dependencies than what your package.json allows
-
-![GitHub last commit](https://badgen.net/github/last-commit/raineorshine/npm-check-updates?icon=github&color=blue)
-![NPM Version](https://img.shields.io/npm/v/npm-check-updates?logo=npm)
-![GitHub Repo stars](https://img.shields.io/github/stars/raineorshine/npm-check-updates?style=social)
-
----
-
-https://github.com/raineorshine/npm-check-updates - *GitHub - raineorshine/npm-check-updates: Find newer versions of package dependencies than what your package.json allows*
+### prettier
 
 - 安装
 
-  `npm install -g npm-check-updates`
+    ```bash
+    npm install -g prettier
+    ```
 
-- 更新
+- 卸载
 
-  `npm i -g npm-check-updates`
+    ```bash
+    npm uninstall -g prettier
+    ```
 
-- You're lookin' at it.
+### speed-test
 
-  `ncu -h`
+- 安装
 
-  `ncu --help`
+    ```bash
+    npm install -g speed-test
+    ```
 
-- Output the version number of npm-check-updates.
+- 卸载
 
-  `ncu -v`
+    ```bash
+    npm uninstall -g speed-test
+    ```
 
-  `ncu -V`
+### tldr
 
-  `ncu --version`
+- 安装
 
-- Show all new dependencies ([excluding peerDependencies](https://github.com/raineorshine/npm-check-updates/issues/951)) for the project in the current directory.
+    ```bash
+    npm install -g tldr
+    ```
 
-  `ncu`
+- 卸载
 
-- Overwrite package file with upgraded versions instead of just outputting to console.
-
-  `ncu -u`
-
-  `ncu --upgrade`
-
-- Check global packages instead of in the current project.
-
-  `ncu -g`
-  
-  `ncu --global`
-
+    ```bash
+    npm uninstall -g tldr
+    ```
 
 ## 常见问题
 

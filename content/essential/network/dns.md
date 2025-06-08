@@ -588,7 +588,7 @@ https://www.grc.com/dns/benchmark.htm - *GRC's | DNS Nameserver Performance Benc
 1. [DnsChanger](https://git.frostnerd.com/PublicAndroidApps/DnsChanger) - *PublicAndroidApps / DnsChanger · GitLab*
 2. [personalDNSfilter](https://www.zenz-solutions.de/personaldnsfilter-wp/) - *personalDNSfilter | Zenz Solutions | adblocker & privacy protection*
 
-    有关详细信息，请参阅“[personalDNSfilter](os/mobile/app-list.md#personaldnsfilter)”。
+    有关详细信息，请参阅“[personalDNSfilter](os/mobile/android/app/README.md#personaldnsfilter)”。
 
 ### 服务器端
 

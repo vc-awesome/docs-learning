@@ -156,7 +156,7 @@ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefo
 写作辅助工具
 ---
 
-- [文档模板](home/document-template.md)
+- [文档结构](home/structure/document.md)
 - [代码片段](snippets/README.md)
 - [在线工具](os/tools/web-app.md)
   - [菜鸟工具](https://c.runoob.com/)

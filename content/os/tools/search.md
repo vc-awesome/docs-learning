@@ -722,7 +722,7 @@ https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量
 
 > <img src="https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
 >
-> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。 [使用手册](os/mobile/f-droid.md)
+> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。 [使用手册](os/mobile/android/app/f-droid.md)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)

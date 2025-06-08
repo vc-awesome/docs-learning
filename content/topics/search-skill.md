@@ -44,6 +44,12 @@ https://mycroftproject.com/ - *Mycroft Project: Search Engine Plugins - Firefox 
 
     https://www.ecosia.org/search?q=
 
+    ```url
+    https://www.ecosia.org/chat?q=%s
+    ```
+
+    https://www.ecosia.org/chat?q=
+
 2. 知乎话题搜索
 
     ```url
@@ -59,6 +65,12 @@ https://mycroftproject.com/ - *Mycroft Project: Search Engine Plugins - Firefox 
     ```
 
     https://www.baidu.com/s?word=
+
+    ```url
+    https://chat.baidu.com/search?word=%s
+    ```
+
+    https://chat.baidu.com/search?word=
 
 4. 百度百科关键词搜索
 
@@ -91,6 +103,11 @@ https://mycroftproject.com/ - *Mycroft Project: Search Engine Plugins - Firefox 
     ```
 
     https://duckduckgo.com/?q=
+
+    ```url
+    https://duckduckgo.com/?q=%s&ia=chat&duckai=1
+    ```
+    https://duckduckgo.com/?q=&ia=chat&duckai=1
 
 8. Microsoft Bing 搜索
 
