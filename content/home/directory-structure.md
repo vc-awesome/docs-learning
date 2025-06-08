@@ -108,7 +108,7 @@ root_folder/
 
 #### Linux
 
-有关详细信息，请参阅“[Linux](os/desktop/linux/README.md#目录结构)”。
+有关详细信息，请参阅“[Linux#目录结构](os/desktop/linux/README.md#目录结构)”。
 
 #### macOS
 
@@ -592,6 +592,31 @@ li:before {
 
 1. https://github.com/mdo/dotfiles - *GitHub - mdo/dotfiles*
 2. https://github.com/ruanyf/dotfiles - *GitHub - ruanyf/dotfiles: My various config files*
+3. https://github.com/dotfiles/dotfiles.github.com - *GitHub - dotfiles/dotfiles.github.com: Your unofficial guide to doing dotfiles on GitHub.* [Website](http://dotfiles.github.io/), [Via](https://alex.pearwin.com/2016/02/managing-dotfiles-with-stow/)
+
+#### .bash_history
+
+暂无
+
+#### .bashrc
+
+有关详细信息，请参阅“[Bash#配置](os/tools/developer/shell/bash.md#配置)”。
+
+#### .editorconfig
+
+暂无
+
+#### .gitconfig
+
+有关详细信息，请参阅“[Git#.gitconfig](os/tools/developer/git.md#.gitconfig)”。
+
+#### .gitignore
+
+有关详细信息，请参阅“[Git#.gitignore](os/tools/developer/git.md#.gitignore)”。
+
+#### .vimrc
+
+有关详细信息，请参阅“[Vim#配置](os/tools/developer/editor/vim.md#配置)”。
 
 ### Asset Type
 
@@ -607,6 +632,76 @@ li:before {
 2. https://cdnjs.com/libraries/font-awesome - *font-awesome - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
 
 ### 配置文件
+
+暂无
+
+## 常用目录
+
+### .git/
+
+暂无
+
+### .github/
+
+暂无
+
+### .obsidian/
+
+暂无
+
+### .ssh/
+
+暂无
+
+### .tmux/
+
+暂无
+
+### .vim/
+
+暂无
+
+### .vscode/
+
+暂无
+
+### assets/
+
+暂无
+
+### common/
+
+暂无
+
+### demo/
+
+暂无
+
+### dist/
+
+暂无
+
+### docs/
+
+暂无
+
+### scripts/
+
+暂无
+
+### src/
+
+暂无
+
+### static/
+
+暂无
+
+### test/
+
+暂无
+
+### vendor/
 
 暂无
 

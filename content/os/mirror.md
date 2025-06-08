@@ -36,21 +36,15 @@
 
 常用：
 
-1. <https://github.com/Alvin9999/new-pac/wiki/不翻墙上github> - *不翻墙上 github・Alvin9999/new-pac Wiki・GitHub*
+1. ~~<https://github.com/Alvin9999/new-pac/wiki/不翻墙上github> - *不翻墙上 github・Alvin9999/new-pac Wiki・GitHub*~~ <https://github.com/Alvin9999/new-pac/wiki/github镜像> - *github镜像 · Alvin9999/new-pac Wiki · GitHub*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Alvin9999/new-pac?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Alvin9999/new-pac?style=social)
 
+    - [备用网址](https://gitlab.com/zhifan999/fq/-/wikis)
     - ~~[备用地址](https://bku7.xyz/不翻墙上github/)~~
 
-2. https://github.com/hunshcn/gh-proxy - *hunshcn/gh-proxy: github release、archive以及项目文件的加速项目*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/hunshcn/gh-proxy?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/hunshcn/gh-proxy?style=social)
-
-    - https://gh-proxy.com/ - *GitHub Proxy 代理加速*
-
-3. 👏https://greasyfork.org/zh-CN/scripts/412245-github-增强-高速下载 - *Github 增强 - 高速下载*
+2. 👏https://greasyfork.org/zh-CN/scripts/412245-github-增强-高速下载 - *Github 增强 - 高速下载*
 
     - Release、Code(ZIP) 文件加速
     - Git Clone 加速
@@ -70,22 +64,44 @@
 
         - https://doc.fastgit.org/zh-cn/node.html - *反代列表 | FastGit UK Document*
 
-2. https://github.com/kgithub666/kgithub - *GitHub - kgithub666/kgithub*
+2. https://zgq-inc.github.io/overthefirewall/#speedup_download - *Github文件加速下载*
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/kgithub666/kgithub?logo=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/kgithub666/kgithub?style=social)
+#### kkgithub.com
 
-    官方：
+简介：
 
-    - https://kkgithub.com/ - *GitHub: Let’s build from here · GitHub*
-    - https://help.kkgithub.com/ - *KGitHub Help*
+> KGitHub
 
-    用法：
+![GitHub last commit](https://img.shields.io/github/last-commit/kgithub666/kgithub?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/kgithub666/kgithub?style=social)
 
-    - 地址 `kkgithub.com` 指向源地址： `github.com`
-    - 地址 `css.kkgithub.com` 指向源地址： `github.githubassets.com`
+官方：
 
-3. https://zgq-inc.github.io/overthefirewall/#speedup_download - *Github文件加速下载*
+https://github.com/kgithub666/kgithub - *GitHub - kgithub666/kgithub*
+
+https://kkgithub.com/ - *GitHub: Let’s build from here · GitHub*
+
+https://help.kkgithub.com/ - *KGitHub Help*
+
+用法：
+
+- 地址 `kkgithub.com` 指向源地址： `github.com`
+- 地址 `css.kkgithub.com` 指向源地址： `github.githubassets.com`
+
+#### gh-proxy.com
+
+简介：
+
+> github release、archive以及项目文件的加速项目
+
+![GitHub last commit](https://img.shields.io/github/last-commit/hunshcn/gh-proxy?color=blue&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/hunshcn/gh-proxy?style=social)
+
+官方：
+
+https://github.com/hunshcn/gh-proxy - *hunshcn/gh-proxy: github release、archive以及项目文件的加速项目*
+
+https://gh-proxy.com/ - *GitHub Proxy 代理加速*
 
 ### Google
 

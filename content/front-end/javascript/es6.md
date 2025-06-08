@@ -17,7 +17,7 @@
 
 3. https://www.babeljs.cn/docs/learn - *学习 ES2015 · Babel 中文文档 | Babel中文网*
 
-4. https://github.com/o2team/H5Skills/issues/65 - *ES6 新特性・Issue #65・o2team/H5Skills・GitHub*
+4. https://github.com/o2team/H5Skills/issues/65 - *ES6 新特性・Issue \#65・o2team/H5Skills・GitHub*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/o2team/H5Skills?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/o2team/H5Skills?style=social)

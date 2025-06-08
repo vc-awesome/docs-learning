@@ -703,7 +703,7 @@ https://www.jsdelivr.com/?docs=gh - *jsDelivr - A free, fast, and reliable CDN f
 
 4. https://gitee.com/if-the-wind/github-hosts - *若风/github-hosts*
 
-5. *👏 与 [Tools - Hosts](os/tools/hosts.md) 组合使用*
+5. *👏 与 [Tools - Hosts](essential/network/hosts.md) 组合使用*
 
 
 #### 镜像站
@@ -745,7 +745,7 @@ https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打�
 
 - [GitHub Mobile](#github-mobile)
 
-- [personalDNSfilter](os/mobile/mobile-app-list.md#personalDNSfilter)
+- [personalDNSfilter](os/mobile/app-list.md#personalDNSfilter)
 
 
 ### 下载加速
@@ -753,6 +753,7 @@ https://ss-wiki.htmltomd.com/posts/how-to-access-github-in-china/ - *Github打�
 <https://greasyfork.org/zh-CN/scripts/412245-github-增强-高速下载> - *Github 增强 - 高速下载*
 
 - https://gh.ddlc.top/ - *GitHub 文件加速*
+- https://gh-proxy.com/ - *GitHub 文件加速代理 - 快速访问 GitHub 文件*
 
 
 ## 常见问题

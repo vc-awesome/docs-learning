@@ -296,13 +296,14 @@
 
 场景三：
 
-1. [~~MGit~~](os/mobile/mgit.md)（Termux 安装 Git 替代）
-2. [Markor](os/tools/app-list.md#markor)
-3. [Termux](os/mobile/termux.md)
-4. [Acode](os/mobile/app-list.md#acode)
-5. [Markdownr](os/mobile/app-list.md#markdownr)
-6. [UrlCheck](os/mobile/app-list.md#urlcheck)
-7. [HTTP Shortcuts](os/mobile/http-shortcuts.md)
+1. [Acode](os/mobile/app-list.md#acode)
+2. [HTTP Shortcuts](os/mobile/http-shortcuts.md)
+3. [~~MGit~~](os/mobile/mgit.md)（Termux 安装 Git 替代）
+4. [Markdownr](os/mobile/app-list.md#markdownr)
+5. [Markor](os/tools/app-list.md#markor)
+6. [Obsidian](os/tools/productivity/obsidian.md)
+7. [Termux](os/mobile/termux.md)
+8. [UrlCheck](os/mobile/app-list.md#urlcheck)
 
 
 ### Web
@@ -365,6 +366,11 @@
 
 
 ## 软件分类
+
+- 安装分类
+- [应用分类](snippets/app-list-template/category.md)
+
+参考：
 
 1. https://git-scm.com/downloads/guis - *Git - GUI Clients*
 2. https://nextcloud.com/install/ - *Install - Nextcloud*
@@ -437,7 +443,9 @@
 \-  | macOS | \- |  \-
 \-  | Linux  | \- |  \-
 
-参考：https://joplinapp.org/help/#desktop-applications - *Joplin - an open source note taking and to-do application with synchronisation capabilities*
+参考：
+
+1. https://joplinapp.org/help/#desktop-applications - *Joplin - an open source note taking and to-do application with synchronisation capabilities*
 
 
 ### 按定价分类
@@ -615,8 +623,8 @@ macOS | ARM 架构  | 64-bit | arm64   |  Apple Silicon (M1) | 主要是嵌入�
 
 - Android:
 
-    1. 方式一：*使用应用 [CPU Info](os/mobile/mobile-app-list#cpu-info) > Hardware-CPU-ABI*
-    2. 方式二：*使用应用 [App Manager](os/mobile/mobile-app-list.md#App-Manager) > 设置 > 关于此设备-CPU*
+    1. 方式一：*使用应用 [CPU Info](os/mobile/app-list#cpu-info) > Hardware-CPU-ABI*
+    2. 方式二：*使用应用 [App Manager](os/mobile/app-list.md#App-Manager) > 设置 > 关于此设备-CPU*
     3. 方式三：*使用应用 [Termux](os/mobile/termux.md) > 设置 > About-Device Info*
     4. 方式四：*使用应用「小红书」> 设置 > 个人信息收集清单 > 设备信息 - CPU型号*
 

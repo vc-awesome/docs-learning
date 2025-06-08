@@ -23,51 +23,54 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
 ## 设置
 
-1. ActionButton 操作顺序
+### 通用
 
-    - ⚙️ _设置 >（格式）Markdown > （ActionButton）操作顺序_
+> ⚙️ _更多 > 设置 > 通用_
 
-2. ActionButton 水平间距
+1. Features
+    1. 语法高亮：勾选
+    2. 动态高亮：勾选
+    3. 多窗口：勾选
 
-    - ⚙️ _设置 > 其它 > （编辑器）ActionButton 间距_
+### 其它
 
-3. 备份设置
+> ⚙️ _更多 > 设置 > 其它_
 
-    - ⚙️ _设置 > 其它 > （Backup）备份设置 > 导出设置到 JSON 文件_
+1. 编辑器
+    1. 快捷键间距：2
+    2. 基本颜色方案：选择「预设值-Gruvbox」
 
-4. 启用数学公式渲染（ _默认不开启_ ）
+2. 文件浏览器
+    1. 文件描述格式
 
-    - ⚙️ _设置 > （格式）Markdown > （查看模式）启用数学公式渲染_
+        - 设置成：`FS yyyy/MM/dd aahh:mm`
 
-5. 多窗口
+        - 显示效果：**30KB 2020/04/02 上午10:30**
 
-    - ⚙️ _设置 > 通用 > （Features）多窗口_
+3. Backup
+    1. 备份设置
 
-6. 关闭滑动以更改模式
+### 编辑模式
 
-    - ⚙️ *设置 > 查看模式 > 滑动以更改模式*
+> ⚙️ _更多 > 设置 > 编辑模式_
 
-7. 文件描述格式
-
-    - ⚙️ *设置 > 其它 > （文件浏览器）文件描述格式*
-
-    - 设置成：`FS yyyy/MM/dd aahh:mm`
-
-    - 显示效果：**30KB 2020/04/02 上午10:30**
-
-8. 基本颜色方案
-
-    - ⚙️ *设置 > 其他 > （编辑器）基本颜色方案*
-
-    - 选择「预设值」
-
-        1. Gruvbox
+1. 字号：16
+2. 制表符宽度：4
+3. 杂项设置
+    1. 行间距：100
+    2. 折行：勾选
+    3. 使用 Tab 键缩进行：勾选
 
 ### 查看模式
 
-1. 在“查看模式”下，`<a></a>` 标签内的文本内容不自动换行，导致查看完整页面需要左右滑动的处理方式如下：
+> ⚙️ *更多 > 设置 > 查看模式*
 
-    - ⚙️ *设置 > 查看模式 > （Inject）Inject -> Head*
+
+1. 滑动以更改模式：不勾选
+
+2. 在“查看模式”下，`<a></a>` 标签内的文本内容不自动换行，导致查看完整页面需要左右滑动的处理方式如下：
+
+    - ⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> Head*
 
     - 在 `<style></style>` 标签内添加样式 ↓
 
@@ -80,9 +83,9 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
           }
         ```
 
-2. 在“查看模式”下，设置 `<code></code>` 标签内容的样式：
+3. 在“查看模式”下，设置 `<code></code>` 标签内容的样式：
 
-    - ⚙️ *设置 > 查看模式 > （Inject）Inject -> Head*
+    - ⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> Head*
 
     - 在 `<style></style>` 标签内添加样式 ↓
 
@@ -100,9 +103,9 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
     参考：https://docs.github.com/zh/pages/setting-up-a-github-pages-site-with-jekyll/adding-content-to-your-github-pages-site-using-jekyll#about-content-in-jekyll-sites （在网页浏览器的“手机模式”下，查看效果更佳。）
 
-3. 在“查看模式”下，设置 `<kbd></kbd>` 标签内容的样式：
+4. 在“查看模式”下，设置 `<kbd></kbd>` 标签内容的样式：
 
-    - ⚙️ *设置 > 查看模式 > （Inject）Inject -> Head*
+    - ⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> Head*
 
     - 在 `<style></style>` 标签内添加样式 ↓
 
@@ -122,15 +125,15 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
           }
         ```
 
-4. 在“查看模式”下，设置自定义的主题样式：
+5. 在“查看模式”下，设置自定义的主题样式：
 
     [下载主题](home/markdown.md#主题)：
 
     1. [少数派经典主题](https://sspai.com/post/43873)
 
-5. 在“查看模式”下，添加背景图标签内容：
+6. 在“查看模式”下，添加背景图标签内容：
 
-    - ⚙️ *设置 > 查看模式 > （Inject）Inject -> body*
+    - ⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> body*
 
     - 在 `</body>` 标签添加内容 ↓
 
@@ -150,9 +153,9 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
         参考：https://lug.ustc.edu.cn/ - *中国科学技术大学 Linux 用户协会*
 
-6. 以上 5 条设置合并
+7. 以上 5 条设置合并
 
-    - ⚙️ *设置 > 查看模式 > （Inject）Inject -> body*
+    - ⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> body*
 
     - 注入下列内容 ↓
 
@@ -206,9 +209,9 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
         
         ```
 
-7. 在“查看模式”下，添加"返回页面顶部、底部及上下翻页"功能：
+8. 在“查看模式”下，添加"返回页面顶部、底部及上下翻页"功能：
 
-    - ⚙️ *设置 > 查看模式 > （Inject）Inject -> head*
+    - ⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> head*
 
     - 注入下列内容 ↓
 
@@ -267,7 +270,7 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 
 #### 主题
 
-⚙️ *设置 > 查看模式 > （Inject）Inject -> body*（注入下列内容 ↓）
+⚙️ *更多 > 设置 > 查看模式 > （Inject）Inject -> body*（注入下列内容 ↓）
 
 少数派经典主题：
 
@@ -279,7 +282,7 @@ https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and
 />
 ```
 
-Typora's Github 主题：
+Typora's GitHub 主题：
 
 ```html
 <!--Theme-->
@@ -299,23 +302,65 @@ Typora's Night 主题：
 />
 ```
 
-### Markdown
+### 格式
 
-1. 新增行 = 新建段落（*默认不勾选，建议不勾选*）
+#### Markdown
 
-    - ⚙️ _设置 >（格式）Markdown > （语法高亮）新增行 = 新建段落_
+⚙️ _更多 > 设置 >（格式）Markdown_
 
-    - “勾选”显示效果（分行排列）：
+1. 语法高亮
+    1. 语法高亮延时：650
+    2. 高亮行末：勾选
+    3. 新增行 = 新建段落：不勾选（*默认不勾选，建议不勾选*）
 
-        ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)\
-        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)\
-        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
+        - “勾选”显示效果（分行排列）：
 
-    - “不勾选”显示效果（一行排列）
+            ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)\
+            ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)\
+            ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
 
-        ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
-        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
-        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
+        - “不勾选”显示效果（一行排列）
+
+            ![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
+            ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
+            ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
+2. 查看模式
+
+    1. 启用数学公式渲染：勾选（ _默认不开启_ ）
+
+3. ActionButton
+    1. 操作顺序
+        1. 特殊按键
+        2. 打开链接
+        3. Indent
+        4. De-indent
+        5. 行内代码
+        6. 开始新行
+        7. 1级标题
+        8. 2级标题
+        9. 3级标题
+        10. 无序列表
+        11. 有序列表
+        12. 复选列表
+        13. 引用
+        14. 斜体
+        15. 粗体
+        16. 删除线
+        17. 表格
+        18. 水平线
+        19. Accordion
+        20. 下移行
+        21. 上移行
+        22. 复制行
+        23. 删除行
+        24. 日期和时间
+        25. 插入片段
+        26. 插入链接
+        27. 插入图片
+        28. Audio
+        29. 跳转至底部
+        30. 旋转
+        31. 打开方式
 
 ## 用法
 
@@ -346,18 +391,22 @@ ActionButton 长按图标按钮触发的功能
 
 #### todo.txt
 
-https://github.com/gsantner/markor#format-todotxt - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
+简介：
 
-http://todotxt.org/ - *Todo.txt: Future-proof task tracking in a file you control*
-
-https://github.com/todotxt/todo.txt - *GitHub - todotxt/todo.txt: ‼️ A complete primer on the whys and hows of todo.txt.*
-
+> Track your tasks and projects in a plain text file, todo.txt.  A todo.txt is software and operating system agnostic; it's searchable, portable, lightweight and easily manipulated.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/todotxt/todo.txt?color=blue&logo=github)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/todotxt/todo.txt?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/todotxt/todo.txt?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/todotxt/todo.txt?style=social)
 
+官方：
+
+https://github.com/gsantner/markor#format-todotxt - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
+
+http://todotxt.org/ - *Todo.txt: Future-proof task tracking in a file you control*
+
+https://github.com/todotxt/todo.txt - *GitHub - todotxt/todo.txt: ‼️ A complete primer on the whys and hows of todo.txt.*
 
 ## 更新日志
 

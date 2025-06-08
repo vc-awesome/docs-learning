@@ -98,6 +98,10 @@ https://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](htt
 
 暂无
 
+#### Wiki
+
+暂无
+
 ### 标点符号
 
 符号列表：
@@ -219,11 +223,12 @@ https://www.rfc-editor.org/info/rfc2119 - *Information on RFC 2119 » RFC Editor
 Table of Contents
 
 - [Introduction](#introduction)
+- Overview
 - Features
 - [Official Website](#official)
   - Homepage
   - GitHub
-- [Tutorial](#tutorial)
+- [Tutorials](#tutorials)
   - Official
   - Third-party
   - Community
@@ -233,14 +238,14 @@ Table of Contents
   - Prerequisites
   - [Table of Contents](#table-of-contents)
   - Short Table of Contents
-  - Directory Structure
+  - [Directory Structure](#directory%20structure)
   - [User Interface](#user-interface)
   - [Style Guide](#style-guide)
   - Specification
   - Technologies
   - Technology Stack
   - Tools
-  - [Translation](#translation)
+  - [Translations](#translations)
   - [Programming Languages](#programming-languages)
 - Quick Start
   - Index
@@ -269,7 +274,7 @@ Table of Contents
     - Usage with Programming Languages
 - Help & Support
 - [FAQ](#faq)
-- Appendix
+- [Appendix](#appendix)
   - [Brand](#brand)
   - Glossary
   - Troubleshooting
@@ -294,11 +299,12 @@ Table of Contents
 `Table of Contents` - *`目录`*
 
 - `Introduction` - *`简介`*
-- `Features` - *`特色功能`*
+- `Overview` - *`概述`* （[Via](https://www.markdownguide.org/basic-syntax/)）
+- `Features` - *`特色功能`* （[Via](https://www.alfredapp.com/help/features/)）
 - `Official Website` - *`官网`*
   - `Homepage` - *`主页`*
   - `GitHub` - *`GitHub`*
-- `Tutorial` - *`教程`*
+- `Tutorials` - *`教程`* （[Via](https://www.alfredapp.com/)）
   - `Official` - *`官方教程`*
   - `Third-party` - *`第三方教程`*
   - `Community` - *`社区`*
@@ -306,7 +312,7 @@ Table of Contents
 - `Getting Started` - *`入门指南`*
   - `Requirements` - *`要求`* （[Via](https://github.com/google/benchmark#requirements)）
   - `Prerequisites` - *`先决条件/预备知识`* （[Via](https://github.com/doomemacs/doomemacs), [Via](https://cn.vuejs.org/guide/introduction.html)）
-  - `Table of Contents` - *`目录结构`*
+  - `Table of Contents` - *`目录`*
   - `Short Table of Contents` - *`简短目录`* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
   - `Directory Structure` - *`目录结构`* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#directory-structure)）
   - `User Interface` - *`用户界面`* （[Via](https://code.visualstudio.com/docs/getstarted/userinterface)）
@@ -314,7 +320,7 @@ Table of Contents
   - `Specification` - *`规格`*
   - `Technologies` - *`技术列表`* （[Via](https://github.com/gsantner/markor)）
   - `Technology Stack` - *`技术栈`* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#technology-stack)）
-  - `Tools` - *`工具`*
+  - `Tools` - *`工具`* （[Via](https://www.markdownguide.org/tools/)）
   - `Translation` - *`翻译`* （[Via](https://f-droid.org/packages/me.zhanghai.android.files/)）
   - `Programming Languages` - *`编程语言`* （[Via](https://www.regular-expressions.info/tools.html)）
 - `Quick Start` - *`快速入门`*
@@ -339,7 +345,7 @@ Table of Contents
     - `Usage with Programming Languages` - *`与编程语言一起使用`* （[Via](https://www.regular-expressions.info/tools.html)）
 - `Help` / `Support` - *`帮助与支持`*
 - `FAQ` - *`常见问题解答`*
-- `Appendix` - *`附录`*
+- `Appendix` - *`附录`* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
   - `Brand` - *`品牌`*
   - `Glossary` - *`术语表`*
   - `Troubleshooting` - *`故障排除`* （[Via](https://github.com/dimitri/el-get), [Via](https://github.com/github-linguist/linguist/tree/main/docs)）
@@ -388,7 +394,7 @@ Table of Contents
   - `Docs` / `Manual` / `Documentation center` / `Wiki` - *文档 / 手册 / 文档中心 / Wiki*
   - `Forum` / `BBS` / `Community` - *论坛 / 社区*
   - `GitHub` - *GitHub*
-- `Tutorial` - *教程*
+- `Tutorials` - *教程*
   - `Docs` - *官方文档*
   - `Runoob tutorial` - *菜鸟教程*
 - `Install` - *下载安装*
@@ -497,13 +503,13 @@ Outline
 <output data-lang="output">
 
 - 扩展文件：`<文件路径>`
-- 工具 `Tool`
+- 工具 `Tools`
 - 原理
 - 解读
 - 场景（使用场景） `Scene`
 - 前期准备 `Prepare` / `Get Ready`
 - 利弊
-- 实例 `Example`
+- 实例 `Examples`
 - 最佳实践 `Best Practices`
 - 问题 / 解决方法 `FAQs`
 - 总结 `Summary`
@@ -538,6 +544,10 @@ Outline
 5. https://www.markdownguide.org/ - *Markdown Guide*
   6. https://www.markdown.xyz/ - *Markdown 指南中文版 | Markdown中文网*
 7. https://www.wikipedia.org/wiki/Polyfill_(programming) - *Polyfill - Wikipedia* 🪜
+
+#### 参考
+
+1. https://github.com/jesseduffield/lazygit - *GitHub - jesseduffield/lazygit: simple terminal UI for git commands*
 
 ### 使用说明书
 
@@ -606,7 +616,7 @@ Outline
 
 GitHub：
 
-### Tutorial
+### Tutorials
 
 暂无
 
@@ -636,6 +646,10 @@ https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-che
 
 #### Table of Contents
 
+有关详细信息，请参阅“[目录结构#文档目录](home/directory-structure.md#文档目录)”。
+
+#### Directory Structure
+
 模板：
 
 ```tree
@@ -656,7 +670,7 @@ root_folder/
 └── etc.
 ```
 
-有关详细信息，请参阅“[目录结构](home/directory-structure.md)”。
+有关详细信息，请参阅“[目录结构#文件系统目录](home/directory-structure.md#文件系统目录)”。
 
 #### User Interface
 
@@ -666,7 +680,7 @@ root_folder/
 
 有关详细信息，请参阅“[风格指南 > 编码风格](essential/style-guide/code-guide.md)”。
 
-#### Translation
+#### Translations
 
 翻译网站：
 
@@ -687,6 +701,12 @@ root_folder/
 有关详细信息，请参阅“[技术栈 > 编程语言](tech-stack/README.md#编程语言)”。
 
 ### Installation
+
+有关详细信息，请参阅“[工具#软件安装](os/tools/README.md#软件安装)”。
+
+参考：
+
+1. https://github.com/jesseduffield/lazygit#installation - *GitHub - jesseduffield/lazygit: simple terminal UI for git commands*
 
 #### Desktop Client
 

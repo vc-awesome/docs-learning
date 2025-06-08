@@ -33,24 +33,53 @@ root_folder/
       ├── .cache/
       │       └── rclone/
       └── .config/
-               └── rclone/
+              └── rclone/
 ```
 
 ### Commands
 
+用法：
+
+```bash
+rclone [flags]
+```
+
+```bash
+rclone [command]
+```
+
+More information about a command:
+```bash
+rclone [command] --help
+```
+
+#### rclone
+
+Show help for rclone commands, flags and backends.
+
+https://rclone.org/commands/rclone/ - *rclone*
+
 #### rclone check
+
+Checks the files in the source and destination match.
 
 https://rclone.org/commands/rclone_check/ - *rclone check*
 
 #### rclone config
 
+Enter an interactive configuration session.
+
 https://rclone.org/commands/rclone_config/ - *rclone config*
 
 #### rclone ls
 
+List the objects in the path with size and path.
+
 https://rclone.org/commands/rclone_ls/ - *rclone ls*
 
 #### rclone sync
+
+Make source and dest identical, modifying destination only.
 
 https://rclone.org/commands/rclone_sync/ - *rclone sync*
 
@@ -60,15 +89,29 @@ https://rclone.org/filtering/ - *Rclone Filtering*
 
 #### --exclude
 
-暂无
+Excludes path/file names from an rclone command based on a single exclude rule.
+
+https://rclone.org/filtering/#exclude-exclude-files-matching-pattern - *Rclone Filtering*
 
 ### Flags
 
+This describes the global flags available to every rclone command split into groups.
+
 https://rclone.org/flags/ - *Global Flags*
 
-#### --interactive/-i
+#### Config
 
-暂无
+##### -i, --interactive
+
+Enable interactive mode
+
+#### Important
+
+Important flags useful for most commands.
+
+##### -i, --interactive
+
+Enable interactive mode
 
 ### Storage Systems
 
@@ -77,6 +120,10 @@ https://rclone.org/overview/ - *Overview of cloud storage systems*
 #### Microsoft OneDrive
 
 https://rclone.org/onedrive/ - *Microsoft OneDrive*
+
+#### SFTP
+
+https://rclone.org/sftp/ - *SFTP*
 
 #### The local filesystem
 

@@ -89,6 +89,8 @@ https://zhuanlan.zhihu.com/p/555692820 - *vim基础操作速查（超详细版�
 
 https://www.vim.org/download.php - *download : vim online*
 
+[![Packaging status](https://repology.org/badge/vertical-allrepos/vim.svg?columns=3&exclude_unsupported=1)](https://repology.org/project/vim/versions)
+
 ### Windows
 
 暂无
@@ -97,7 +99,11 @@ https://www.vim.org/download.php - *download : vim online*
 
 #### Homebrew
 
+官方：
+
 https://formulae.brew.sh/formula/vim - *vim — Homebrew Formulae*
+
+安装：
 
 ```bash
 brew install vim
@@ -280,7 +286,7 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 
 `vim --version`
 
-`vim -nd -c 'startinsert' -c 'windo set wrap' diff.txt diffr.txt`
+`vim -nd -c 'startinsert' -c 'windo set wrap' file1.txt file2.txt`
 
 `vim -np file.txt`
 
@@ -1666,15 +1672,15 @@ https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 
 
 创建会话文件：
 
-`:mksession ~/vimbook.vim`
+`:mksession ~/.vim/session-book.vim`
 
 还原会话：
 
-`:source ~/vimbook.vim`
+`:source ~/.vim/session-book.vim`
 
 启动 Vim 并还原某个会话：
 
-`vim -nS ~/vimbook.vim`
+`vim -nS ~/.vim/session-book.vim`
 
 参考：
 

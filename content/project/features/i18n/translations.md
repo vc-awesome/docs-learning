@@ -421,6 +421,10 @@ Account
 
 ## Android App
 
+### Common
+
+暂无
+
 ### Alipay
 
 [启动应用](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.eg.android.AlipayGphone)

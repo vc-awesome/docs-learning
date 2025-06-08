@@ -1,22 +1,32 @@
-# 文件同步
+# 文件同步与对比
+
+## 概述
 
 > 💡
 > 增量备份：就是说新增加的文件和改动过的文件才备份，没有变化的文件不备份。
 
 网络文件同步（备份）工具：
 
-1. [Syncthing](os/tools/app-list.md#syncthing)
-2. [FolderSync](os/tools/app-list.md#folder-sync)
+1. [FolderSync](os/tools/app-list.md#folder-sync)
+2. [Rclone](#rclone)
+3. [Syncthing](os/tools/app-list.md#syncthing)
 
 本地文件同步（备份）工具：
 
 1. [FolderSync](os/tools/app-list.md#folder-sync)
+2. [Rclone](#rclone)
 
 搜索：
 
 - http://www.8fe.com/jiaocheng/1897.html - *10款好用的文件同步软件推荐合集*
 - https://post.smzdm.com/p/an3z0g20/ - *聊聊文件同步的解决方案，疫情之下居家办公应该会用到*
 - https://post.smzdm.com/p/ao9kpx57/ - *堪称神器的软件 篇三：电脑和手机的数据备份指南，兼备份软件推荐*
+
+## 对比工具
+
+### colordiff
+
+https://repology.org/project/colordiff/versions - *colordiff package versions - Repology*
 
 ## 同步工具
 
@@ -48,7 +58,11 @@ https://www.360doc.cn/article/40076021_1027046370.html - _推荐四款实用的�
 
 ### Rclone
 
-[Rclone](os/tools/developer/rclone.md) - *Rclone syncs your files to cloud storage: Google Drive, S3, Swift, Dropbox, Google Cloud Storage, Azure, Box and many more.*
+[Rclone](https://rclone.org/) - *Rclone syncs your files to cloud storage: Google Drive, S3, Swift, Dropbox, Google Cloud Storage, Azure, Box and many more.* [使用手册](os/tools/developer/rclone.md)
+
+### Rsync
+
+[rsync](https://rsync.samba.org/) - *Utility that provides fast incremental file transfer*
 
 ## 存储系统
 

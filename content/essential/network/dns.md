@@ -206,8 +206,6 @@ https://www.alidns.com/knowledge?type=SETTING_DOCS#user_chrome - *阿里公共DN
 > *电脑浏览器、手机浏览器均可配置独立 DNS。*
 >
 > 浏览器配置 DNS 或私人 DNS 后，GitHub 访问速度变快，可无需配置 hosts 规则。
->
-> ⚠️ Opera 手机浏览器配置安全 DNS（ AdGuard 公共 DNS：`https://94.140.14.140/dns-query`），直接翻墙！
 
 ### 手机配置私人 DNS
 

@@ -27,7 +27,7 @@ GitHub：
     - https://github.com/topics/vpn - *vpn · GitHub Topics*
     - https://github.com/topics/proxy - *proxy · GitHub Topics · GitHub*
 
-## Tutorial
+## Tutorials
 
 1. 👏 https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙* [Wiki](https://github.com/Alvin9999/new-pac/wiki)
 
@@ -59,13 +59,35 @@ GitHub：
    ![GitHub last commit](https://img.shields.io/github/last-commit/xiaoming2028/FreePAC?color=blue&logo=github)
    ![GitHub Repo stars](https://img.shields.io/github/stars/xiaoming2028/FreePAC?style=social)
 
-## Account
+## Getting Started
 
-### Free
+### Proxy Protocols
 
-#### 导入的方式
+https://github.com/MatsuriDayo/NekoBoxForAndroid
 
-##### vless 免费账号
+1. SOCKS (4/4a/5)
+2. HTTP(S)
+3. Shadowsocks
+4. VMess
+5. Trojan
+6. VLESS
+
+## Quick Start
+
+操作步骤：
+
+1. 通过 GitHub 文件加速代理工具“<https://gh-proxy.com/>”，下载 Android 客户端工具 [NekoBoxForAndroid](#nekobox) 或者 [v2rayNG](#v2rayng)；
+2. 添加免费的“[服务器配置](#free)”账号。
+
+## Configuration
+
+### Accounts
+
+#### Free
+
+##### 导入的方式
+
+###### vless 免费账号
 
 主页：
 
@@ -94,17 +116,19 @@ https://github.com/free-ss/free-ss.site - *GitHub - free-ss/free-ss.site: 关于
 
 1. https://cloud.tencent.com/developer/article/1600793 - *获取free-ss账号并导入SSR-腾讯云开发者社区-腾讯云*
 
-##### ss 免费账号
+###### ss 免费账号
 
 1. <https://github.com/Alvin9999/new-pac/wiki/ss免费账号> - *ss免费账号 · Alvin9999/new-pac Wiki · GitHub*
+2. <https://gitlab.com/zhifan999/fq/-/wikis/ss免费账号> - *ss免费账号 · Wiki · zhifan / fq · GitLab*
 
-##### v2ray 免费账号
+###### v2ray 免费账号
 
 1. <https://github.com/Alvin9999/new-pac/wiki/v2ray免费账号> - *v2ray免费账号 · Alvin9999/new-pac Wiki · GitHub*
+2. <https://gitlab.com/zhifan999/fq/-/wikis/v2ray免费账号> - *v2ray免费账号 · Wiki · zhifan / fq · GitLab*
 
-#### 订阅的方式
+##### 订阅的方式
 
-##### 订阅链接
+###### 订阅链接
 
 订阅搜索：
 
@@ -141,8 +165,7 @@ GitHub*
         3. `https://bulinkbulink.com/freefq/free/master/v2`
         4. ~~`https://raw.fastgit.org/freefq/free/master/v2`~~
 
-4. https://github.com/freenodes/freenodes - *GitHub - freenodes/freenodes:
-免费梯子🪜 免费科学上网🛜免费翻墙🧱免费订阅♻️免费代理✨ 免费节点🆓免费机场✈️4 小时更新⌚️一键订阅📪*
+4. https://github.com/freenodes/freenodes - *GitHub - freenodes/freenodes: 免费梯子🪜 免费科学上网🛜免费翻墙🧱免费订阅♻️免费代理✨ 免费节点🆓免费机场✈️4 小时更新⌚️一键订阅📪*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/freenodes/freenodes?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/freenodes/freenodes?style=social)
@@ -152,14 +175,14 @@ GitHub*
         - 名称：`freenodes/freenodes`
         - URL： `https://raw.githubusercontent.com/freenodes/freenodes/main/clash.yaml`
 
-1. https://proxypool.link/clash - *Free Proxies*
+5. https://proxypool.link/clash - *Free Proxies*
 
     - 在手机应用「Clash for Android」中填写配置信息
 
         - 名称：`https://proxypool.link/`
         - URL： `https://proxypool.link/clash/proxies?type=vmess&c=US&speed=0,20`
 
-2. https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy#subscription-links - *GitHub - WilliamStar007/ClashX-V2Ray-TopFreeProxy: Top free VPN (ClashX & V2Ray proxy) with subscription links. [免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray 教程]*
+6. https://github.com/WilliamStar007/ClashX-V2Ray-TopFreeProxy#subscription-links - *GitHub - WilliamStar007/ClashX-V2Ray-TopFreeProxy: Top free VPN (ClashX & V2Ray proxy) with subscription links. [免费VPN、免费梯子、免费科学上网、免费订阅链接、免费节点、精选、ClashX & V2Ray 教程]*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/WilliamStar007/ClashX-V2Ray-TopFreeProxy?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/WilliamStar007/ClashX-V2Ray-TopFreeProxy?style=social)
@@ -169,7 +192,7 @@ GitHub*
         - 名称：`https://sub.nicevpn.top/`
         - URL： `https://sub.nicevpn.top/Clash.yaml`
 
-##### 订阅转换工具
+###### 订阅转换工具
 
 [订阅转换工具](https://cn.bing.com/search?q=生成订阅链接+intitle:订阅转换)
 
@@ -185,7 +208,7 @@ GitHub*
 
     URL： `https://v1.mk/101IOrE`
 
-#### 代理
+##### 代理
 
 代理类型：
 
@@ -206,15 +229,117 @@ GitHub*
     ![GitHub last commit](https://img.shields.io/github/last-commit/TheSpeedX/PROXY-List?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/TheSpeedX/PROXY-List?style=social)
 
-### Purchases
+#### Purchases
 
 1. https://clashforios.com/ - *Clash 机场推荐（2023 年 11 月更新）*
 
 2. https://getmoreprivacy.com/surfeasy/ - *SurfEasy VPN是否安全？（2023年完整评测） | GetMorePrivacy.com*
 
+### GeoIP
+
+https://duckduckgo.com/?q=GeoIP - *GeoIP at DuckDuckGo*
+
+### GFWList
+
+1. https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/gfwlist/gfwlist?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/gfwlist/gfwlist?style=social)
+
+2. https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/petronny/gfwlist2pac?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/petronny/gfwlist2pac?style=social)
+
+gfwlist2hosts：
+
+1. https://github.com/Nullizer/gfwlist-hosts - *GitHub - Nullizer/gfwlist-hosts*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Nullizer/gfwlist-hosts?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Nullizer/gfwlist-hosts?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Nullizer/gfwlist-hosts?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Nullizer/gfwlist-hosts?style=social)
+
+- 狐猴浏览器 Chat AI 搜索的教程
+
+    ❓[【教程】使用Termux在手机上运行Python - 哔哩哔哩](https://www.bilibili.com/read/mobile?id=17211082)
+
+    将 gfwlist 转换为 hosts 文件可以实现通过 hosts 文件屏蔽访问被墙的网站。以下是一个示例的转换方法：
+
+    1. 下载 gfwlist.txt 文件，可以在 Github 的项目中找到：https://github.com/gfwlist/gfwlist
+
+    2. 下载并安装 gfwlist2pac 工具，该工具可以将 gfwlist 转换为 PAC 文件。可以在 Github 中找到：https://github.com/clowwindy/gfwlist2pac （❓ GitHub 404 用 [gfwlist2pac · PyPI](https://pypi.org/project/gfwlist2pac/) 代替）
+
+    3. 使用 gfwlist2pac 工具将 gfwlist 转换为 pac 文件。命令如下：
+
+        ```sh
+        gfwlist2pac \
+            --input gfwlist.txt \
+            --file gfw.pac \
+            --proxy "SOCKS5 127.0.0.1:1080"
+        ```
+    
+        其中，`gfwlist.txt` 是下载的 gfwlist 文件路径，`gfw.pac` 是生成的 pac 文件路径，`--proxy` 参数指定了代理服务器，可以根据自己的需求进行修改。
+    
+    4. 安装 python 的 geohash 库，用于解析 gfw.pac 文件。可以使用 pip 进行安装：`pip install geohash` （❓ 遇到问题的解决方法：[[1007]python3安装geohash_no module named 'geohash-CSDN博客](https://blog.csdn.net/xc_zhou/article/details/118229819)）
+
+    5. 使用 geohash 库解析 gfw.pac 文件，并将结果保存到 hosts 文件中。根据以下示例代码：
+
+        ```python
+        #!/usr/bin/env python3
+        # 我的第一个 Python 猜数字小游戏
+        # author: 小喾苦
+        # date: 2022/6/21
+        import re
+        import base64
+        import geohash
+        
+        def gfwlist2hosts(gfw_pac_path, hosts_path):
+          with open(gfw_pac_path, 'r') as f:
+            pac_content = f.read()
+        
+          base64_data = re.findall(r'base64,(.*?)\'', pac_content)[0].replace("'", "")
+          decoded_content = base64.b64decode(base64_data).decode('utf-8')
+        
+          with open(hosts_path, 'w') as f:
+            for line in decoded_content.strip().splitlines():
+              if line.startswith('if'):
+                continue
+        
+              domains = re.findall(r'/(.*)/ig', line)
+              for domain in domains:
+                for ip in geohash_ips:
+                  f.write(f"{ip} {domain}\n")
+        
+        gfw_pac_path = 'gfw.pac'  # 转换得到的 pac 文件路径
+        hosts_path = 'hosts'  # 保存为 hosts 文件的路径
+        geohash_ips = ['127.0.0.1']  # 用于屏蔽的 IP 地址，可以根据实际需求修改，例如将被墙网站指向其他IP
+        
+        gfwlist2hosts(gfw_pac_path, hosts_path)
+        ```
+
+        这个示例代码将解析 gfw.pac 文件中的域名，并将其与提供的 IP 地址映射写入到 hosts 文件中。
+
+    请注意，将 hosts 文件配置单到系统中可能需要 root 权限，在配置前请确认操作的安全性，以免造成不必要的风险。
+
+    希望这些信息对您有所帮助！
+
+### Rules
+
+1. https://github.com/Loyalsoldier - *Loyalsoldier (Loyalsoldier) · GitHub*
+
+2. https://github.com/Hackl0us/SS-Rule-Snippet - *GitHub - Hackl0us/SS-Rule-Snippet: 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Hackl0us/SS-Rule-Snippet?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Hackl0us/SS-Rule-Snippet?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Hackl0us/SS-Rule-Snippet?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Hackl0us/SS-Rule-Snippet?style=social)
+
 ## Tools
 
 ### Client
+
+其它客户端：
 
 1. https://github.com/xiaoshoudian/xiazai - *小手电官方版本下载 小手电 翻墙 代理 科学上网 外网 加速器 梯子 路由 Xiaoshoudian proxy vpn censorship-circumvention censorship gfw accelerator*
 
@@ -241,42 +366,27 @@ https://github.com/v2ray - *Project V · GitHub*
 
 工具：
 
+https://www.v2fly.org/awesome/tools.html - *神一样的工具们 | V2Fly.org*
+
 1. https://github.com/yanue/V2rayU - *GitHub - yanue/V2rayU: V2rayU,基于v2ray核心的mac版客户端,用于科学上网,使用swift编写,支持vmess,shadowsocks,socks5等服务协议,支持订阅, 支持二维码,剪贴板导入,手动配置,二维码分享等*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/yanue/V2rayU?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/yanue/V2rayU?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yanue/V2rayU?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/yanue/V2rayU?style=social)
 
     - 支持 macOS
 
-2. https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, support Xray core and v2fly core and others*
+2. https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, Linux and macOS, support Xray and sing-box and others*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayN?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/2dust/v2rayN?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/2dust/v2rayN?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/2dust/v2rayN?style=social)
 
-    - 支持 Windows
+    - 支持 Windows, Linux, macOS
 
-3. https://github.com/2dust/v2rayNG - *GitHub - 2dust/v2rayNG: A V2Ray client for Android, support Xray core and v2fly core*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayNG?color=blue&logo=github)
-
-    - 支持 Android
-
-    - <details><summary><i style="color:red">SEE MORE >></i></summary>
-
-        「路由设置」 > 域名解析策略：
-
-        - AsIs：只使用域名进行路由选择，默认值；
-
-        - IPIfNonMatch：当域名没有匹配任何基于域名的规则时，将域名解析成 IP（A 记录或 AAAA 记录），进行基于 IP 规则的匹配；
-
-            - 当一个域名有多个 IP 地址时，会尝试匹配所有的 IP 地址，直到其中一个与某个 IP 规则匹配为止；
-
-            - 解析后的 IP 仅在路由选择时起作用，转发的数据包中依然使用原始域名。
-
-        - IPOnDemand：当匹配时碰到任何基于 IP 的规则，立即将域名解析为 IP 进行匹配。
-
-        有关详细信息，请参阅“[Routing 路由 | V2Fly.org](https://www.v2fly.org/config/routing.html)”。
-    </details>
-
-4. https://github.com/v2rayA/v2rayA - *GitHub - v2rayA/v2rayA: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀* [Website](https://v2raya.org/)
+3. https://github.com/v2rayA/v2rayA - *GitHub - v2rayA/v2rayA: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀* [Website](https://v2raya.org/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/v2rayA/v2rayA?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/v2rayA/v2rayA?display_date=published_at&logo=github)
@@ -294,6 +404,7 @@ https://github.com/v2ray - *Project V · GitHub*
 2. https://github.com/ToutyRater/v2ray-guide - *GitHub - ToutyRater/v2ray-guide: V2Ray 配置指南* [Website](https://toutyrater.github.io/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/ToutyRater/v2ray-guide?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/ToutyRater/v2ray-guide?style=social)
 
 ##### V2Fly
 
@@ -305,16 +416,46 @@ https://github.com/v2fly - *V2Fly · GitHub*
 
 1. https://github.com/v2fly/v2fly-github-io - *GitHub - v2fly/v2fly-github-io: V2Fly Website & Documentation* [Website🪜](https://www.v2fly.org)
 
-    ![GitHub last
-    commit](https://img.shields.io/github/last-commit/v2fly/v2fly-github-io?color=blue&logo=github)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/v2fly/v2fly-github-io?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/v2fly/v2fly-github-io?style=social)
 
 2. https://github.com/v2fly/v2ray-step-by-step - *GitHub - v2fly/v2ray-step-by-step: This repo is a fork of ToutyRater/v2ray-guide, we aim to provide a new step-by-step guide of v2ray* [Website🪜](https://guide.v2fly.org)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/v2fly/v2ray-step-by-step?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/v2fly/v2ray-step-by-step?style=social)
 
-##### DNS
+##### v2rayNG
 
-1. <https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0> - *漫谈各种黑科技式 DNS 技术在代理环境中的应用. 这篇文章目的是以非技术性例举方式，谈一谈各种 DNS… | by Tachyon | Medium*
+> A V2Ray client for Android, support Xray core and v2fly core
+
+![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayNG?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/2dust/v2rayNG?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/2dust/v2rayNG?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/2dust/v2rayNG?style=social)
+
+官方：
+
+https://github.com/2dust/v2rayNG - *GitHub - 2dust/v2rayNG: A V2Ray client for Android, support Xray core and v2fly core*
+
+安装（Android）：
+
+https://github.com/2dust/v2rayNG/releases - *Releases · 2dust/v2rayNG · GitHub*
+
+配置：
+
+「路由设置」 > 域名解析策略：
+
+- AsIs：只使用域名进行路由选择，默认值；
+
+- IPIfNonMatch：当域名没有匹配任何基于域名的规则时，将域名解析成 IP（A 记录或 AAAA 记录），进行基于 IP 规则的匹配；
+
+    - 当一个域名有多个 IP 地址时，会尝试匹配所有的 IP 地址，直到其中一个与某个 IP 规则匹配为止；
+
+    - 解析后的 IP 仅在路由选择时起作用，转发的数据包中依然使用原始域名。
+
+- IPOnDemand：当匹配时碰到任何基于 IP 的规则，立即将域名解析为 IP 进行匹配。
+
+有关详细信息，请参阅“[Routing 路由 | V2Fly.org](https://www.v2fly.org/config/routing.html)”。
 
 ##### 参考
 
@@ -330,6 +471,8 @@ https://github.com/v2fly - *V2Fly · GitHub*
 
 > shadowsocks is a fast tunnel proxy that helps you bypass firewalls
 
+官方：
+
 https://github.com/shadowsocks - *shadowsocks · GitHub*
 
 https://shadowsocks.org/ - *Shadowsocks | A fast tunnel proxy that helps you bypass firewalls.*
@@ -339,19 +482,30 @@ https://shadowsocks.org/ - *Shadowsocks | A fast tunnel proxy that helps you byp
 1. <i class="fa-brands fa-windows fa-fw"></i> https://github.com/shadowsocks/shadowsocks-windows - *GitHub - shadowsocks/shadowsocks-windows: A C# port of shadowsocks*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/shadowsocks-windows?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/shadowsocks/shadowsocks-windows?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shadowsocks/shadowsocks-windows?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/shadowsocks/shadowsocks-windows?style=social)
 
 2. <i class="fa-brands fa-apple fa-fw"></i> https://github.com/shadowsocks/ShadowsocksX-NG - *GitHub - shadowsocks/ShadowsocksX-NG: Next Generation of ShadowsocksX*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/shadowsocks/ShadowsocksX-NG?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/shadowsocks/ShadowsocksX-NG?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shadowsocks/ShadowsocksX-NG?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/shadowsocks/ShadowsocksX-NG?style=social)
 
 3. <i class="fa-brands fa-android fa-fw"></i> https://github.com/shadowsocks/shadowsocks-android - *GitHub - shadowsocks/shadowsocks-android: A shadowsocks client for Android*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/shadowsocks/shadowsocks-android?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/shadowsocks/shadowsocks-android?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/shadowsocks/shadowsocks-android?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/shadowsocks/shadowsocks-android?style=social)
 
-4. <i class="fa-brands fa-windows fa-fw"></i>
-https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
+4. <i class="fa-brands fa-windows fa-fw"></i> https://github.com/HMBSbige/ShadowsocksR-Windows - *Ship of Theseus*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/HMBSbige/ShadowsocksR-Windows?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/HMBSbige/ShadowsocksR-Windows?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/HMBSbige/ShadowsocksR-Windows?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/HMBSbige/ShadowsocksR-Windows?style=social)
 
 #### Clash 系列
 
@@ -376,22 +530,15 @@ Clash 的设计目标是提供一个强大且灵活的代理工具，适合需�
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/clash-verge-rev/clash-verge-rev?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/clash-verge-rev/clash-verge-rev?style=social)
 
-2. <i class="fa-brands fa-android"></i> https://github.com/MetaCubeX/ClashMetaForAndroid - *MetaCubeX/ClashMetaForAndroid: A rule-based tunnel for Android.*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/MetaCubeX/ClashMetaForAndroid?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/MetaCubeX/ClashMetaForAndroid?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MetaCubeX/ClashMetaForAndroid?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/MetaCubeX/ClashMetaForAndroid?style=social)
-
-3. ~~<i class="fa-brands fa-windows"></i> <i class="fa-brands fa-apple"></i> <i class="fa-brands fa-linux"></i> https://github.com/Fndroid/clash_for_windows_pkg - *A Windows/macOS GUI based on Clash*~~
+2. ~~<i class="fa-brands fa-windows"></i> <i class="fa-brands fa-apple"></i> <i class="fa-brands fa-linux"></i> https://github.com/Fndroid/clash_for_windows_pkg - *A Windows/macOS GUI based on Clash*~~
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Fndroid/clash_for_windows_pkg?color=blue&logo=github)
 
-4. ~~<i class="fa-brands fa-apple"></i> https://github.com/yichengchen/clashX - *GitHub - yichengchen/clashX*~~
+3. ~~<i class="fa-brands fa-apple"></i> https://github.com/yichengchen/clashX - *GitHub - yichengchen/clashX*~~
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/yichengchen/clashX?color=blue&logo=github)
 
-5. ~~<i class="fa-brands fa-android"></i> https://github.com/Kr328/ClashForAndroid - *GitHub - Kr328/ClashForAndroid: A rule-based tunnel for Android.*~~
+4. ~~<i class="fa-brands fa-android"></i> https://github.com/Kr328/ClashForAndroid - *GitHub - Kr328/ClashForAndroid: A rule-based tunnel for Android.*~~
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Kr328/ClashForAndroid?color=blue&logo=github)
 
@@ -403,31 +550,75 @@ Clash 的设计目标是提供一个强大且灵活的代理工具，适合需�
     - https://clash-for-android.en.uptodown.com/android - *Clash for Android for Android - Download the APK from Uptodown*
     - https://apt.izzysoft.de/fdroid/index/apk/com.github.kr328.clash.foss - *Clash for Android - IzzyOnDroid F-Droid Repository*
 
+##### ClashMetaForAndroid
+
+> A Graphical user interface of [Clash.Meta](https://github.com/MetaCubeX/mihomo) for Android
+
+![GitHub last commit](https://img.shields.io/github/last-commit/MetaCubeX/ClashMetaForAndroid?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/MetaCubeX/ClashMetaForAndroid?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MetaCubeX/ClashMetaForAndroid?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/MetaCubeX/ClashMetaForAndroid?style=social)
+
+官方：
+
+<i class="fa-brands fa-android"></i> https://github.com/MetaCubeX/ClashMetaForAndroid - *MetaCubeX/ClashMetaForAndroid: A rule-based tunnel for Android.*
+
+安装：
+
+https://f-droid.org/packages/com.github.metacubex.clash.meta/ - *Clash Meta For Android | F-Droid - Free and Open Source Android App Repository*
+
+#### Lantern
+
+> Fast, reliable, and secure access to anything from anywhere
+
+![GitHub last commit](https://img.shields.io/github/last-commit/getlantern/lantern?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/getlantern/lantern?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/getlantern/lantern?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/getlantern/lantern?style=social)
+
+官方：
+
+https://github.com/getlantern/lantern - *GitHub - getlantern/lantern: Lantern官方版本下载 蓝灯 翻墙 代理 科学上网 外网 加速器 梯子 路由 - Быстрый, надежный и безопасный доступ к открытому интернету - lantern proxy vpn censorship-circumvention censorship gfw accelerator پراکسی لنترن، ضدسانسور، امن، قابل اعتماد و پرسرعت*
+
+https://lantern.io/ - *Lantern | Unlock the full internet*
+
+安装（Windows, Linux, macOS, Android, iOS）：
+
+https://lantern.io/download - *Lantern | Unblock the full internet*
+
 #### NekoBox
 
-https://matsuridayo.github.io/ - *MatsuriDayo*
-
----
-
-<i class="fa-brands fa-android"></i>
-https://github.com/MatsuriDayo/NekoBoxForAndroid - *GitHub - MatsuriDayo/NekoBoxForAndroid: NekoBox for Android / sing-box / universal proxy toolchain for Android*
+> sing-box / universal proxy toolchain for Android.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/MatsuriDayo/NekoBoxForAndroid?color=blue&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/MatsuriDayo/NekoBoxForAndroid?logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MatsuriDayo/NekoBoxForAndroid?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/MatsuriDayo/NekoBoxForAndroid?style=social)
 
+官方：
+
+https://matsuridayo.github.io/ - *MatsuriDayo*
+
+<i class="fa-brands fa-android"></i>
+https://github.com/MatsuriDayo/NekoBoxForAndroid - *GitHub - MatsuriDayo/NekoBoxForAndroid: NekoBox for Android / sing-box / universal proxy toolchain for Android*
+
+安装：
+
 https://apt.izzysoft.de/fdroid/index/apk/moe.nb4a - *NekoBox - IzzyOnDroid F-Droid Repository*
 
 #### SagerNet
 
-<i class="fa-brands fa-android"></i>
-https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universal proxy toolchain for Android*
+> The universal proxy toolchain for Android, written in Kotlin.
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/SagerNet/SagerNet?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SagerNet/SagerNet?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SagerNet/SagerNet?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SagerNet/SagerNet?style=social)
+
+官方：
+
+<i class="fa-brands fa-android"></i>
+https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universal proxy toolchain for Android*
 
 #### Surfboard
 
@@ -438,8 +629,14 @@ https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universa
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/getsurfboard/surfboard?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/getsurfboard/surfboard?style=social)
 
+官方：
+
 <i class="fa-brands fa-android"></i>
 [Surfboard Manual](https://getsurfboard.com/) - *A network traffic processing tools on Android platform* [GitHub Repo](https://github.com/getsurfboard/surfboard)
+
+安装（Android）：
+
+https://github.com/getsurfboard/surfboard/releases - *Releases · getsurfboard/surfboard · GitHub*
 
 ### Web Browser
 
@@ -452,13 +649,39 @@ https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universa
 ![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/greatfire/wiki?style=social)
 
+官方：
+
 [自由浏览](https://freebrowser.org/) - *免费下载自由浏览 app，了解墙外最新资讯* [GitHub Repo](https://github.com/greatfire/wiki)
 
-- 支持 Windows, macOS, Linux, Android
+安装：
+
+支持 Windows, macOS, Linux, Android
+
+#### Opera
+
+> Faster, safer and smarter than default browsers. Fully-featured for privacy, security, and so much more. Get the faster, better Opera browser for free.
+
+官方：
+
+https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Opera*
+
+安装（Android）：
+
+https://www.opera.com/zh-cn/download#opera-browsers - *Download the Opera browser for computer, phone and tablet | Opera*
+
+https://www.opera.com/zh-cn/download/mobile-versions - *Mobile Browser | Download for Phone & Tablet | Opera | Opera*
+
+https://play.google.com/store/apps/details?id=com.opera.browser - *Opera 浏览器：快速又安全*
+
+用法：
+
+有关详细信息，请参阅“[安卓版浏览器设置"科学上网"](os/tools/browser/opera.md#安卓版浏览器设置"科学上网")”。
 
 #### Tor Browser
 
 > 在线匿名 | 保护自己免受追踪和监视，突破网络审查。
+
+官方：
 
 <i class="fa-brands fa-windows"></i>
 <i class="fa-brands fa-apple"></i>
@@ -466,11 +689,14 @@ https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universa
 <i class="fa-brands fa-android"></i>
 https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
-下载：
+安装：
 
 1. https://github.com/TheTorProject/gettorbrowser
 
-   ![GitHub last commit](https://img.shields.io/github/last-commit/TheTorProject/gettorbrowser?color=blue&logo=github)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/TheTorProject/gettorbrowser?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TheTorProject/gettorbrowser?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TheTorProject/gettorbrowser?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/TheTorProject/gettorbrowser?style=social)
 
 2. https://t-browser.sourceforge.net/ - *tor browser - tor浏览器 中文版 官方下载*
 
@@ -480,7 +706,7 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 
 ### Web Browser Extensions
 
-有关详细信息，请参阅“[浏览器扩展](os/tools/browser-extensions.md#proxy)”。
+有关详细信息，请参阅“[浏览器扩展](os/tools/browser/extensions/browser-extensions.md#proxy)”。
 
 #### Proxy SwitchyOmega
 
@@ -491,7 +717,7 @@ https://www.torproject.org/zh-CN/ - *Tor Project | 匿名上网*
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/FelisCatus/SwitchyOmega?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/FelisCatus/SwitchyOmega?style=social)
 
----
+官方：
 
 <i class="fa-brands fa-github fa-fw"></i>
 https://github.com/FelisCatus/SwitchyOmega - *GitHub - FelisCatus/SwitchyOmega: Manage and switch between multiple proxies quickly & easily.*
@@ -581,111 +807,15 @@ https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy bas
 
 ## Glossary
 
+### DNS
+
+1. <https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0> - *漫谈各种黑科技式 DNS 技术在代理环境中的应用. 这篇文章目的是以非技术性例举方式，谈一谈各种 DNS… | by Tachyon | Medium*
+
 ### PAC
 
 > *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。
 >
 > <cite>—— [《网络代理与VPN应用详解》（这本书能让你连接互联网）](https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac)</cite>
-
-#### GFWList
-
-1. https://github.com/gfwlist/gfwlist - *The one and only one gfwlist here*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/gfwlist/gfwlist?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/gfwlist/gfwlist?style=social)
-
-2. https://github.com/petronny/gfwlist2pac - *Automatically convert gfwlist to pac everyday*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/petronny/gfwlist2pac?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/petronny/gfwlist2pac?style=social)
-
-gfwlist2hosts：
-
-1. https://github.com/Nullizer/gfwlist-hosts - *GitHub - Nullizer/gfwlist-hosts*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Nullizer/gfwlist-hosts?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Nullizer/gfwlist-hosts?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Nullizer/gfwlist-hosts?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/Nullizer/gfwlist-hosts?style=social)
-
-- 狐猴浏览器 Chat AI 搜索的教程
-
-    ❓[【教程】使用Termux在手机上运行Python - 哔哩哔哩](https://www.bilibili.com/read/mobile?id=17211082)
-
-    将 gfwlist 转换为 hosts 文件可以实现通过 hosts 文件屏蔽访问被墙的网站。以下是一个示例的转换方法：
-
-    1. 下载 gfwlist.txt 文件，可以在 Github 的项目中找到：https://github.com/gfwlist/gfwlist
-
-    2. 下载并安装 gfwlist2pac 工具，该工具可以将 gfwlist 转换为 PAC 文件。可以在 Github 中找到：https://github.com/clowwindy/gfwlist2pac （❓ GitHub 404 用 [gfwlist2pac · PyPI](https://pypi.org/project/gfwlist2pac/) 代替）
-
-    3. 使用 gfwlist2pac 工具将 gfwlist 转换为 pac 文件。命令如下：
-
-        ```sh
-        gfwlist2pac \
-            --input gfwlist.txt \
-            --file gfw.pac \
-            --proxy "SOCKS5 127.0.0.1:1080"
-        ```
-    
-        其中，`gfwlist.txt` 是下载的 gfwlist 文件路径，`gfw.pac` 是生成的 pac 文件路径，`--proxy` 参数指定了代理服务器，可以根据自己的需求进行修改。
-    
-    4. 安装 python 的 geohash 库，用于解析 gfw.pac 文件。可以使用 pip 进行安装：`pip install geohash` （❓ 遇到问题的解决方法：[[1007]python3安装geohash_no module named 'geohash-CSDN博客](https://blog.csdn.net/xc_zhou/article/details/118229819)）
-
-    5. 使用 geohash 库解析 gfw.pac 文件，并将结果保存到 hosts 文件中。根据以下示例代码：
-
-        ```python
-        #!/usr/bin/env python3
-        # 我的第一个 Python 猜数字小游戏
-        # author: 小喾苦
-        # date: 2022/6/21
-        import re
-        import base64
-        import geohash
-        
-        def gfwlist2hosts(gfw_pac_path, hosts_path):
-          with open(gfw_pac_path, 'r') as f:
-            pac_content = f.read()
-        
-          base64_data = re.findall(r'base64,(.*?)\'', pac_content)[0].replace("'", "")
-          decoded_content = base64.b64decode(base64_data).decode('utf-8')
-        
-          with open(hosts_path, 'w') as f:
-            for line in decoded_content.strip().splitlines():
-              if line.startswith('if'):
-                continue
-        
-              domains = re.findall(r'/(.*)/ig', line)
-              for domain in domains:
-                for ip in geohash_ips:
-                  f.write(f"{ip} {domain}\n")
-        
-        gfw_pac_path = 'gfw.pac'  # 转换得到的 pac 文件路径
-        hosts_path = 'hosts'  # 保存为 hosts 文件的路径
-        geohash_ips = ['127.0.0.1']  # 用于屏蔽的 IP 地址，可以根据实际需求修改，例如将被墙网站指向其他IP
-        
-        gfwlist2hosts(gfw_pac_path, hosts_path)
-        ```
-
-        这个示例代码将解析 gfw.pac 文件中的域名，并将其与提供的 IP 地址映射写入到 hosts 文件中。
-
-    请注意，将 hosts 文件配置单到系统中可能需要 root 权限，在配置前请确认操作的安全性，以免造成不必要的风险。
-
-    希望这些信息对您有所帮助！
-
-### GeoIP
-
-https://duckduckgo.com/?q=GeoIP - *GeoIP at DuckDuckGo*
-
-### Rules
-
-1. https://github.com/Loyalsoldier - *Loyalsoldier (Loyalsoldier) · GitHub*
-
-2. https://github.com/Hackl0us/SS-Rule-Snippet - *GitHub - Hackl0us/SS-Rule-Snippet: 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Hackl0us/SS-Rule-Snippet?logo=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Hackl0us/SS-Rule-Snippet?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Hackl0us/SS-Rule-Snippet?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/Hackl0us/SS-Rule-Snippet?style=social)
 
 ### Proxy
 

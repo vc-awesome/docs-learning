@@ -125,16 +125,6 @@ https://www.iso.org/iso-8601-date-and-time-format.html - *ISO - ISO 8601 — Dat
 
 https://baike.baidu.com/item/session/479100 - *session（计算机术语）_百度百科*
 
-## 通配符
-
-https://www.ruanyifeng.com/blog/2018/09/bash-wildcards.html - *命令行通配符教程 - 阮一峰的网络日志*
-
-https://wangdoc.com/bash/expansion - *Bash 的模式扩展 - Bash 脚本教程 - 网道*
-
-https://editorconfig.org/#wildcards - *EditorConfig*
-
-https://code.visualstudio.com/docs/editor/glob-patterns - *Visual Studio Code glob patterns reference*
-
 ## 构建工具
 
 http://www.ruanyifeng.com/blog/2015/02/make.html - *Make 命令教程 - 阮一峰的网络日志*

@@ -6,6 +6,8 @@ https://support.google.com/android/answer/9064445 - *在计算机和 Android 设
 
 > Browse and transfer files between your Mac computer and your Android device.
 
+官方：
+
 https://www.android.com/filetransfer/ - *Android File Transfer*
 
 macOS 安装：

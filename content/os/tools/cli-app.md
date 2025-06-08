@@ -151,7 +151,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/adrianlopezroche/fdupes)）
 
-## 其他
+## 其它
 
 1. [Tree](http://mama.indstate.edu/users/ice/tree/) - *Recursive directory lister producing a depth indented listing of files*
 

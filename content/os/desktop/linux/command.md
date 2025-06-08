@@ -2,34 +2,13 @@
 
 ## 命令手册和工具
 
-1. [tldr pages](https://tldr.sh/) - *📚 Collaborative cheatsheets for console commands*
+1. https://linuxize.com/ - *Linux Tips, Tricks and Tutorials | Linuxize*
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/tldr-pages/tldr?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=social)
+2. https://www.baeldung.com/linux/ - *Baeldung on Linux*
 
-    - 支持 Android（[F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/)）, [Web](https://tldr.inbrowser.app/)
+3. https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
 
-    - 开源软件（[GitHub Repo](https://github.com/tldr-pages/tldr)）
-
-    [安装](https://tldr.sh/#installation)：
-    
-    ```bash
-    npm install -g tldr
-    ```
-
-    用法：
-    
-    ```bash
-    tldr tar
-    ```
-
-2. https://linuxize.com/ - *Linux Tips, Tricks and Tutorials | Linuxize*
-
-3. https://www.baeldung.com/linux/ - *Baeldung on Linux*
-
-4. https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
-
-5. [Linux命令搜索引擎](https://wangchujiang.com/linux-command/) - *Linux命令搜索引擎 命令，Linux Linux命令搜索引擎 命令详解：最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎*
+4. [Linux命令搜索引擎](https://wangchujiang.com/linux-command/) - *Linux命令搜索引擎 命令，Linux Linux命令搜索引擎 命令详解：最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。 - Linux 命令搜索引擎*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/linux-command?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/jaywcjlove/linux-command?style=social)
@@ -38,7 +17,7 @@
 
     - 开源软件（[GitHub Repo](https://github.com/jaywcjlove/linux-command)）
 
-6. [Linux Command Library](https://linuxcommandlibrary.com/) - *Handy cheat sheets with linux tips and terminal basics about System control, Users, Files, Package managers, Video and Audio, Hacking tools, Terminal games and many more categories.*
+5. [Linux Command Library](https://linuxcommandlibrary.com/) - *Handy cheat sheets with linux tips and terminal basics about System control, Users, Files, Package managers, Video and Audio, Hacking tools, Terminal games and many more categories.*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/SimonSchubert/LinuxCommandLibrary?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SimonSchubert/LinuxCommandLibrary?display_date=published_at&logo=github)
@@ -49,7 +28,58 @@
 
     - 开源软件（[GitHub Repo](https://github.com/SimonSchubert/LinuxCommandLibrary)）
 
-7. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
+6. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
+
+### tldr pages
+
+[tldr pages](https://tldr.sh/) - *📚 Collaborative cheatsheets for console commands*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/tldr-pages/tldr?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/tldr-pages/tldr?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/tldr-pages/tldr?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/tldr-pages/tldr?style=social)
+
+- 支持 Android（[F-Droid](https://f-droid.org/packages/wtf.technodisaster.tldr/)）, CLI（[Node.js](https://www.npmjs.com/package/tldr)）, [Web](https://tldr.inbrowser.app/)
+
+- 开源软件（[GitHub Repo](https://github.com/tldr-pages/tldr)）
+
+[安装](https://tldr.sh/#installation)：
+
+```bash
+npm install -g tldr
+```
+
+https://github.com/tldr-pages/tldr-node-client - *GitHub - tldr-pages/tldr-node-client: Node.js command-line client for tldr pages 📚*
+
+用法：
+
+tldr command [options]
+
+选项：
+
+`-h`, `--help` - Show this help message
+
+`-u`, `--update` - Update the local cache
+
+`-m`, `--markdown` - Output in markdown format
+
+`-t`, `--theme` [theme] - Color theme (simple, base16, ocean)
+
+`-s`, `--search` [keywords] - Search pages using keywords
+
+示例：
+
+```bash
+tldr --help
+```
+
+```bash
+tldr tar
+```
+
+```bash
+tldr tar -m
+```
 
 ### 命令全拼
 
@@ -120,21 +150,18 @@ Options:
 
 > 以下的命令可以点击对应的链接，进入网页查看使用实例。
 
+<https://github.com/jaywcjlove/linux-command#linux命令分类> - *GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux*
+
 ### 查看命令帮助文档
 
 6 种方式：
 
 1. `<command> --help` 或 `<command> -h` - *显示当前指令帮助*（`--help` 或 `-h` 选项）
-
-2. [man](#man) - *查看 Linux 中的指令帮助*
-
-3. [apropos](#apropos) - *在 whatis 数据库中查找字符串*
-
-4. [help](#help) - *该命令是 bash 内建命令，用于显示 bash 内建命令的帮助信息。*
-
-5. [info](#info) - *Linux下 info 格式的帮助指令*
-
-6. [locate](#locate) - *找符合条件的文档，他会去保存文档和目录名称的数据库内，查找合乎范本样式条件的文档或目录*
+2. [help](#help) - *该命令是 bash 内建命令，用于显示 bash 内建命令的帮助信息。*
+3. [info](#info) - *Linux下 info 格式的帮助指令*
+4. [locate](#locate) - *找符合条件的文档，他会去保存文档和目录名称的数据库内，查找合乎范本样式条件的文档或目录*
+5. [man](#man) - *查看 Linux 中的指令帮助*
+    - [apropos](#apropos) - *在 whatis 数据库中查找字符串*
 
 参考：
 
@@ -144,11 +171,9 @@ Options:
 
 3 种方式：
 
-1. [type](#type) - *显示指定命令的类型*
-
+1. [command](#command) - *调用并执行指定的命令*
 2. [compgen](#compgen) - *用于在 bash 中自动完成的内置命令，按两次 tab 键即可调用该命令*
-
-3. [command](#command) - *调用并执行指定的命令*
+3. [type](#type) - *显示指定命令的类型*
 
 参考：
 
@@ -232,9 +257,10 @@ https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基�
 
 #### 查找文件[夹]
 
-1 种方式：
+2 种方式：
 
 1. [find](#find) - *在指定目录下查找文件和目录*
+2. [locate](#locate) - *查找符合条件的文档，他会去保存文档和目录名称的数据库内，查找合乎范本样式条件的文档或目录*
 
 参考：
 
@@ -276,23 +302,9 @@ https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基�
 
 3 种方式：
 
-- `vi` - *功能强大的纯文本编辑器*
-
-    https://wangchujiang.com/linux-command/c/vi.html - *vi 命令，Linux vi 命令详解：功能强大的纯文本编辑器 - Linux 命令搜索引擎*
-
-- `vim` - *Vim 是从 vi 发展出来的一个文本编辑器*
-
-    `vim [文件名]`
-
-    https://www.runoob.com/linux/linux-vim.html - *Linux vi/vim | 菜鸟教程*
-
-- `sed` - *功能强大的流式文本编辑器*
-
-    `sed 's/要被取代的字串/新的字串/g'` - *数据查看与替换*
-   
-     https://wangchujiang.com/linux-command/c/sed.html - *sed 命令，Linux sed 命令详解：功能强大的流式文本编辑器 - Linux 命令搜索引擎*
-
-    https://www.runoob.com/linux/linux-comm-sed.html - *Linux sed 命令 | 菜鸟教程*
+1. [vi](os/tools/developer/editor/vim.md) - *功能强大的纯文本编辑器*
+2. [vim](os/tools/developer/editor/vim.md) - *Vim 是从 vi 发展出来的一个文本编辑器*
+3. [sed](#sed) - *功能强大的流式文本编辑器*
 
 #### 去除重复行
 
@@ -394,9 +406,17 @@ sort [file]... | uniq
 
 https://linuxize.com/post/how-to-remove-symbolic-links-in-linux/ - *How to Remove (Delete) Symbolic Links in Linux | Linuxize*
 
+### 备份压缩
+
+暂无
+
 ### 系统管理
 
 #### 查看系统信息
+
+1 种方式：
+
+1. [uname](#uname) - *Print certain system information.*
 
 示例：
 
@@ -425,8 +445,8 @@ https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教�
 
 - 查看环境变量（3 种方式）
 
-  1. `env`
-  2. `printenv`
+  1. [env](#env)
+  2. [printenv](#printenv)
   3. `echo $PATH`
   
   https://wangchujiang.com/linux-command/c/env.html - *env 命令，Linux env 命令详解：显示系统中已存在的环境变量 - Linux 命令搜索引擎*
@@ -465,17 +485,19 @@ https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教�
 
 #### 查看当前用户
 
-`whoami` - *显示自身用户名称。*
+1 种方式：
 
-https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜鸟教程*
+1. [whoami](#whoami) - *显示自身用户名称。*
 
 #### 修改用户密码
 
-`id` - _查看登录用户信息_
+2 种方式：
 
-`passwd` - _修改root密码_
+1. [id](#id) - _查看登录用户信息_
 
-`passwd [用户名]` - _修改其他用户密码_
+2. `passwd` - _修改root密码_
+
+    - `passwd [用户名]` - _修改其他用户密码_
 
 #### 退出 Shell
 
@@ -511,61 +533,17 @@ https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关
 
 #### 查看进程信息
 
-- `ps` - *Information about running processes.*
+2 种方式：
 
-    语法：
+1. [ps](#ps) - *Information about running processes.*
 
-    ```bash
-    ps [options] [--help]
-    ```
-
-    示例：
-
-    ```bash
-    ps --help
-    ```
-
-    ```bash
-    ps -ef #显示所有命令，连带命令行
-    ```
-
-    ```bash
-    ps -A #列出所有的进程
-    ```
-
-    ```bash
-    ps -w #显示加宽可以显示较多的资讯
-    ```
-
-    http://www.runoob.com/linux/linux-comm-ps.html - *Linux ps 命令 | 菜鸟教程*
-
-    https://wangchujiang.com/linux-command/c/ps.html - *ps 命令，Linux ps 命令详解：报告当前系统的进程状态 - Linux 命令搜索引擎*
-
-    https://tldr.inbrowser.app/pages.zh/common/ps - *ps | tldr InBrowser.App*
-
-- `pstree` - *A convenient tool to show running processes as a tree.*
-
-    示例：
-
-    ```bash
-    pstree --help
-    ```
-
-    ```bash
-    pstree -al #show command line arguments and don't truncate long lines
-    ```
-
-    https://wangchujiang.com/linux-command/c/pstree.html - *pstree 命令，Linux pstree 命令详解：以树状图的方式展现进程之间的派生关系 - Linux 命令搜索引擎*
-
-    https://tldr.inbrowser.app/pages.zh/common/pstree - *pstree | tldr InBrowser.App*
+2. [pstree](#pstree) - *A convenient tool to show running processes as a tree.*
 
 #### 杀死进程
 
-`pkill` - *Signal process by name.Mostly used for stopping processes.*
+1 种方式：
 
-https://wangchujiang.com/linux-command/c/pkill.html - *pkill 命令，Linux pkill 命令详解：可以按照进程名杀死进程 - Linux 命令搜索引擎*
-
-https://tldr.inbrowser.app/pages.zh/common/pkill - *pkill | tldr InBrowser.App*
+1. [pkill](#pkill) - *Signal process by name.Mostly used for stopping processes.*
 
 ### 网络通讯
 
@@ -574,15 +552,9 @@ https://tldr.inbrowser.app/pages.zh/common/pkill - *pkill | tldr InBrowser.App*
 
 ### 清屏
 
-语法：
+1 种方式：
 
-`clear` - *清除当前屏幕终端上的任何信息。*
-
-用法：
-
-https://wangchujiang.com/linux-command/c/clear.html - *clear 命令，Linux clear 命令详解：清除当前屏幕终端上的任何信息 - Linux 命令搜索引擎*
-
-https://www.runoob.com/linux/linux-comm-clear.html - *Linux clear命令 | 菜鸟教程*
+1. [clear](#clear) - *清除当前屏幕终端上的任何信息。*
 
 ## 内建命令
 
@@ -590,15 +562,73 @@ https://www.runoob.com/linux/linux-comm-clear.html - *Linux clear命令 | 菜鸟
 
 命令列表：
 
-1. builtin
-2. declare
-3. hash
+1. .
+2. :
+3. [
+4. [alias](#alias)
+5. bg
+6. [bind](#bind)
+7. break
+8. builtin
+9. caller
+10. [cd](#cd)
+11. [command](#command)
+12. [compgen](#compgen)
+13. complete
+14. compopt
+15. continue
+16. declare
+17. dirs
+18. disown
+19. [echo](#echo)
+20. enable
+21. eval
+22. [exec](#exec)
+23. [exit](#exit)
+24. [export](#export)
+25. false
+26. fc
+27. [fg](#fg)
+28. getopts
+29. hash
+30. [help](#help)
+31. [history](#history)
+32. jobs
+33. [kill](#kill)
+34. let
+35. local
+36. logout
+37. mapfile
+38. popd
+39. printf
+40. pushd
+41. [pwd](#pwd)
+42. [read](#read)
+43. readarray
+44. readonly
+45. return
+46. [set](#set)
+47. shift
+48. shopt
+49. [source](#source)
+50. suspend
+51. test
+52. times
+53. trap
+54. true
+55. [type](#type)
+56. typeset
+57. ulimit
+58. umask
+59. [unalias](#unalias)
+60. [unset](#unset)
+61. wait
 
 ### alias
 
 简介：
 
-Define or display aliases.
+> Define or display aliases.
 
 语法：
 
@@ -620,7 +650,7 @@ alias [-p] [name[=value] ... ]
 
 简介：
 
-Set Readline key bindings and variables.
+> Set Readline key bindings and variables.
 
 语法：
 
@@ -646,7 +676,7 @@ bind [-lpsvPSVX] [-m keymap] [-f filename] [-q name] [-u name] [-r keyseq] [-x k
 
 简介：
 
-Change the shell working directory.
+> Change the shell working directory.
 
 Change the current directory to DIR.  The default DIR is the value of the HOME shell variable. If DIR is "-", it is converted to $OLDPWD.
 
@@ -674,9 +704,9 @@ https://www.runoob.com/linux/linux-comm-cd.html - *Linux cd 命令 | 菜鸟教�
 
 简介：
 
-Execute a simple command or display information about commands.
-
-Runs COMMAND with ARGS suppressing  shell function lookup, or display information about the specified COMMANDs.  Can be used to invoke commands on disk when a function with the same name exists.
+> Execute a simple command or display information about commands.
+>
+> Runs COMMAND with ARGS suppressing  shell function lookup, or display information about the specified COMMANDs.  Can be used to invoke commands on disk when a function with the same name exists.
 
 语法：
 
@@ -706,9 +736,9 @@ https://manned.org/command - *command - manned.org*
 
 简介：
 
-Display possible completions depending on the options.
-
-Intended to be used from within a shell function generating possible completions.  If the optional WORD argument is supplied, matches against WORD are generated.
+> Display possible completions depending on the options.
+>
+> Intended to be used from within a shell function generating possible completions.  If the optional WORD argument is supplied, matches against WORD are generated.
 
 语法：
 
@@ -739,9 +769,9 @@ https://tldr.inbrowser.app/pages.zh/common/compgen - *compgen | tldr InBrowser.A
 
 简介：
 
-Write arguments to the standard output.
-
-Display the ARGs, separated by a single space character and followed by a newline, on the standard output.
+> Write arguments to the standard output.
+>
+> Display the ARGs, separated by a single space character and followed by a newline, on the standard output.
 
 语法：
 
@@ -762,13 +792,29 @@ https://tldr.inbrowser.app/pages/common/echo - *echo | tldr InBrowser.App*
 
 ### exec
 
-暂无
+简介：
+
+> Replace the shell with the given command.
+
+语法：
+
+exec [-cl] [-a name] [command [argument ...]] [redirection ...]
+
+参数：
+
+`-a name` - pass NAME as the zeroth argument to COMMAND
+
+用法：
+
+```bash
+exec --help
+```
 
 ### exit
 
 简介：
 
-Exit the shell.
+> Exit the shell.
 
 语法：
 
@@ -788,9 +834,23 @@ https://www.runoob.com/linux/linux-comm-exit.html - *Linux exit命令 | 菜鸟�
 
 ### export
 
+简介：
+
+> Set export attribute for shell variables.
+
 语法：
 
+export [-fn] [name[=value] ...] or export -p
+
 `export` - *为shell变量或函数设置导出属性*
+
+参数：
+
+`-f` - refer to shell functions
+
+`-n` - remove the export property from each NAME
+
+`-p` - display a list of all exported variables and functions
 
 用法：
 
@@ -798,11 +858,37 @@ https://wangchujiang.com/linux-command/c/export.html - *export 命令，Linux ex
 
 https://www.runoob.com/linux/linux-comm-export.html - *Linux export命令 | 菜鸟教程*
 
+示例：
+
+```bash
+export --help
+```
+
+### fg
+
+简介：
+
+> Move job to the foreground.
+
+语法：
+
+fg [job_spec]
+
+参数：
+
+无
+
+用法：
+
+```bash
+fg --help
+```
+
 ### help
 
 简介：
 
-Display information about builtin commands.
+> Display information about builtin commands.
 
 语法：
 
@@ -828,7 +914,7 @@ https://wangchujiang.com/linux-command/c/help.html - *help 命令，Linux help �
 
 简介：
 
-Display or manipulate the history list.
+> Display or manipulate the history list.
 
 语法：
 
@@ -887,13 +973,31 @@ https://blog.csdn.net/u012581020/article/details/131635514 - *Linux 系统 histo
 
 ### kill
 
+简介：
+
+> Send a signal to a job.
+
+语法：
+
+kill [-s sigspec | -n signum | -sigspec] pid | jobspec ... or kill -l [sigspec]
+
+参数：
+
+`-l` - list the signal names; if arguments follow `-l' they are assumed to be signal numbers for which names should be listed
+
+用法：
+
 https://wangchujiang.com/linux-command/c/kill.html - *kill 命令，Linux kill 命令详解：发送信号到进程。 - Linux 命令搜索引擎*
+
+示例：
+
+`kill --help` - *display this help and exit*
 
 ### pwd
 
 简介：
 
-Print the name of the current working directory.
+> Print the name of the current working directory.
 
 语法：
 
@@ -917,15 +1021,59 @@ https://wangchujiang.com/linux-command/c/pwd.html - *pwd 命令，Linux pwd 命�
 
 `pwd --help` - *display this help and exit*
 
+### read
+
+简介：
+
+> Read a line from the standard input and split it into fields.
+
+语法：
+
+read [-ers] [-a array] [-d delim] [-i text] [-n nchars] [-N nchars] [-p prompt] [-t timeout] [-u fd] [name ...]
+
+参数：
+
+`-a array` - assign the words read to sequential indices of the array variable ARRAY, starting at zero
+
+用法：
+
+```bash
+read --help
+```
+
+参考：
+
+https://www.runoob.com/linux/linux-comm-read.html - *Linux read 命令 | 菜鸟教程*
+
+https://wangchujiang.com/linux-command/c/read.html - *read 命令，Linux read 命令详解：从键盘读取变量值 - Linux 命令搜索引擎*
+
+https://wangdoc.com/bash/read - *read 命令 - Bash 脚本教程 - 网道*
+
 ### set
 
-暂无
+简介：
+
+> Set or unset values of shell options and positional parameters.
+
+语法：
+
+set [-abefhkmnptuvxBCEHPT] [-o option-name] [--] [-] [arg ...]
+
+参数：
+
+`-a` - Mark variables which are modified or created for export.
+
+用法：
+
+```bash
+set --help
+```
 
 ### source
 
 简介：
 
-`source` - *在当前Shell环境中从指定文件读取和执行命令*
+> `source` - *在当前Shell环境中从指定文件读取和执行命令*
 
 语法：
 
@@ -941,7 +1089,7 @@ https://wangchujiang.com/linux-command/c/source.html - *source 命令，Linux so
 
 简介：
 
-Display information about command type.
+> Display information about command type.
 
 语法：
 
@@ -971,11 +1119,47 @@ https://www.baeldung.com/linux/hash-command - *The Linux hash Command | Baeldung
 
 ### unalias
 
-暂无
+简介：
+
+> Remove each NAME from the list of defined aliases.
+
+语法：
+
+unalias [-a] name [name ...]
+
+参数：
+
+`-a` - remove all alias definitions
+
+用法：
+
+```bash
+unalias --help
+```
 
 ### unset
 
-暂无
+简介：
+
+> Unset values and attributes of shell variables and functions.
+
+语法：
+
+unset [-f] [-v] [-n] [name ...]
+
+参数：
+
+`-f` - treat each NAME as a shell function
+
+`-v` - treat each NAME as a shell variable
+
+`-n` - treat each NAME as a name reference and unset the variable itself rather than the variable it references
+
+用法：
+
+```bash
+unset --help
+```
 
 ## GNU 软件包
 
@@ -1151,7 +1335,27 @@ https://www.runoob.com/linux/linux-comm-du.html - *Linux du 命令 | 菜鸟教�
 
 #### env
 
-暂无
+简介：
+
+> Set each NAME to VALUE in the environment and run COMMAND.
+
+语法：
+
+env [OPTION]... [-] [NAME=VALUE]... [COMMAND [ARG]...]
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/env
+
+示例：
+
+```bash
+env --help
+```
 
 #### head
 
@@ -1179,7 +1383,27 @@ http://www.runoob.com/linux/linux-comm-head.html - *Linux head 命令 | 菜鸟�
 
 #### id
 
-暂无
+简介：
+
+> Print user and group information for each specified USER, or (when USER omitted) for the current process.
+
+语法：
+
+id [OPTION]... [USER]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/id
+
+示例：
+
+```bash
+id --help
+```
 
 #### ln
 
@@ -1393,11 +1617,51 @@ https://wangchujiang.com/linux-command/c/nl.html - *nl 命令，Linux nl 命令�
 
 #### printenv
 
-暂无
+简介：
+
+> Print the values of the specified environment VARIABLE(s).    If no VARIABLE is specified, print name and value pairs for them all.
+
+语法：
+
+printenv [OPTION]... [VARIABLE]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/printenv
+
+示例：
+
+```bash
+printenv --help
+```
 
 #### pwd
 
-暂无
+简介：
+
+> Print the name of the current working directory.
+
+语法：
+
+pwd [-LP]
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/pwd
+
+示例：
+
+```bash
+pwd --help
+```
 
 #### rm
 
@@ -1625,7 +1889,27 @@ https://www.runoob.com/linux/linux-comm-stat.html - *Linux stat 命令 | 菜鸟�
 
 #### tac
 
+简介：
+
+> Write each FILE to standard output, last line first.
+
+语法：
+
+tac [OPTION]... [FILE]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
 https://www.gnu.org/software/coreutils/tac
+
+示例：
+
+```bash
+tac --help
+```
 
 #### tail
 
@@ -1671,11 +1955,51 @@ https://www.runoob.com/linux/linux-comm-touch.html - *Linux touch命令 | 菜鸟
 
 #### tty
 
-暂无
+简介：
+
+> Print the file name of the terminal connected to standard input.
+
+语法：
+
+tty [OPTION]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/tty
+
+示例：
+
+```bash
+tty --help
+```
 
 #### uname
 
-暂无
+简介：
+
+> Print certain system information. With no OPTION, same as -s.
+
+语法：
+
+uname [OPTION]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/uname
+
+示例：
+
+```bash
+uname --help
+```
 
 #### uniq
 
@@ -1686,7 +2010,6 @@ https://www.runoob.com/linux/linux-comm-touch.html - *Linux touch命令 | 菜鸟
 语法：
 
 uniq [OPTION]... [INPUT [OUTPUT]]
-
 参数：
 
 `-c`, `--count` - *prefix lines by the number of occurrences*
@@ -1701,7 +2024,29 @@ https://www.runoob.com/linux/linux-comm-uniq.html - *Linux uniq 命令 | 菜鸟�
 
 #### wc
 
+简介：
+
+> Print newline, word, and byte counts for each FILE, and a total line if more than one FILE is specified.
+
+语法：
+
+wc [OPTION]... [FILE]...
+
+or: wc [OPTION]... --files0-from=F
+
+参数：
+
+`-c`, `--bytes` - print the byte counts
+
+`-m`, `--chars` - print the character counts
+
+`-l`, `--lines` - print the newline counts
+
+用法：
+
 https://www.gnu.org/software/coreutils/wc
+
+示例：
 
 ```bash
 wc --help
@@ -1709,7 +2054,29 @@ wc --help
 
 #### whoami
 
-暂无
+简介：
+
+> Print the user name associated with the current effective user ID.
+
+语法：
+
+whoami [OPTION]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/coreutils/whoami
+
+https://www.runoob.com/linux/linux-comm-whoami.html - *Linux whoami命令 | 菜鸟教程*
+
+示例：
+
+```bash
+whoami --help
+```
 
 ### Diffutils
 
@@ -1787,7 +2154,7 @@ find [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]
 
 用法：
 
-http://www.runoob.com/linux/linux-comm-find.html - *Linux find 命令 | 菜鸟教程*
+https://www.runoob.com/linux/linux-comm-find.html - *Linux find 命令 | 菜鸟教程*
 
 示例：
 
@@ -1795,7 +2162,27 @@ http://www.runoob.com/linux/linux-comm-find.html - *Linux find 命令 | 菜鸟�
 
 #### xargs
 
-暂无
+简介：
+
+> Run COMMAND with arguments INITIAL-ARGS and more arguments read from input.
+
+语法：
+
+xargs [OPTION]... COMMAND [INITIAL-ARGS]...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.gnu.org/software/findutils/
+
+示例：
+
+```bash
+xargs --help
+```
 
 ### Gawk
 
@@ -1969,6 +2356,8 @@ https://www.gnu.org/software/sed/ - *GNU sed - GNU Project - Free Software Found
 
 sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 
+`sed 's/要被取代的字串/新的字串/g'` - *数据查看与替换*
+
 参数：
 
 `--help` - display this help and exit
@@ -1979,9 +2368,13 @@ sed [OPTION]... {script-only-if-no-other-script} [input-file]...
 
 https://www.runoob.com/linux/linux-comm-sed.html - *Linux sed 命令 | 菜鸟教程*
 
+https://wangchujiang.com/linux-command/c/sed.html - *sed 命令，Linux sed 命令详解：功能强大的流式文本编辑器 - Linux 命令搜索引擎*
+
 示例：
 
 `sed --help`
+
+`info sed`
 
 `man -a sed`
 
@@ -2303,7 +2696,19 @@ https://invisible-island.net/ncurses/ - *NCURSES &ndash; New Curses*
 
 #### clear
 
-暂无
+简介：
+
+> 清除当前屏幕终端上的任何信息。
+
+语法：
+
+clear
+
+用法：
+
+https://wangchujiang.com/linux-command/c/clear.html - *clear 命令，Linux clear 命令详解：清除当前屏幕终端上的任何信息 - Linux 命令搜索引擎*
+
+https://www.runoob.com/linux/linux-comm-clear.html - *Linux clear命令 | 菜鸟教程*
 
 ### Perl
 
@@ -2354,11 +2759,69 @@ https://gitlab.com/procps-ng/procps - *procps-ng / procps · GitLab*
 
 #### pkill
 
-暂无
+简介：
+
+> Signal process by name.Mostly used for stopping processes.
+
+语法：
+
+pkill [options] <pattern>
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://wangchujiang.com/linux-command/c/pkill.html - *pkill 命令，Linux pkill 命令详解：可以按照进程名杀死进程 - Linux 命令搜索引擎*
+
+https://tldr.inbrowser.app/pages.zh/common/pkill - *pkill | tldr InBrowser.App*
+
+示例：
+
+```bash
+pkill --help
+```
 
 #### ps
 
-暂无
+简介：
+
+> Information about running processes.
+
+语法：
+
+ps [options] [--help]
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+http://www.runoob.com/linux/linux-comm-ps.html - *Linux ps 命令 | 菜鸟教程*
+
+https://wangchujiang.com/linux-command/c/ps.html - *ps 命令，Linux ps 命令详解：报告当前系统的进程状态 - Linux 命令搜索引擎*
+
+https://tldr.inbrowser.app/pages.zh/common/ps - *ps | tldr InBrowser.App*
+
+示例：
+
+```bash
+ps --help
+```
+
+```bash
+ps -ef #显示所有命令，连带命令行
+```
+
+```bash
+ps -A #列出所有的进程
+```
+
+```bash
+ps -w #显示加宽可以显示较多的资讯
+```
 
 #### uptime
 
@@ -2376,7 +2839,37 @@ https://gitlab.com/psmisc/psmisc - *psmisc / psmisc · GitLab*
 
 #### pstree
 
-暂无
+简介：
+
+> A convenient tool to show running processes as a tree.
+
+语法：
+
+pstree [-acglpsStTuZ] [ -h | -H PID ] [ -n | -N type ] ​[ -A | -G | -U ] [ PID | USER ]
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://wangchujiang.com/linux-command/c/pstree.html - *pstree 命令，Linux pstree 命令详解：以树状图的方式展现进程之间的派生关系 - Linux 命令搜索引擎*
+
+https://tldr.inbrowser.app/pages.zh/common/pstree - *pstree | tldr InBrowser.App*
+
+示例：
+
+```bash
+pstree --help
+```
+
+```bash
+pstree -al #show command line arguments and don't truncate long lines
+```
+
+```bash
+man -s 1 pstree
+```
 
 ### Tree
 
@@ -2471,6 +2964,8 @@ more [options] <file>...
 示例：
 
 `more --help`
+
+`man -s 1 more`
 
 参考：
 

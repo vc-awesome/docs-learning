@@ -10,7 +10,7 @@ https://www.todoist.com/ - *Todoist | A To-Do List to Organize Your Work & Life*
 
 https://todoist.com/zh-CN/integrations - *Integrations | Todoist*
 
-## Getting started
+## Getting Started
 
 https://todoist.com/zh-CN/help - *帮助 | Todoist*
 

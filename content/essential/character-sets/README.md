@@ -40,6 +40,8 @@ Symbol | Unicode Name | Unicode Number | BIN | OCT | DEC | HEX | HEX Code | HTML
 . | Full Stop | U+002E | ‪10 1110 | 56 | 46 | 2E | `&#x2e;` | `&#46;` | `&period;` | \002E | %2E | https://symbl.cc/en/002E/
 / | Solidus | U+002F | ‪10 1111 | 57 | 47 | 2F | `&#x2f;` | `&#47;` | `&sol;` | \002F | %2F | https://symbl.cc/en/002F/
 : | Colon | U+003A | 11 1010 | 72 | 58 | 3A | `&#x3a;` | `&#58;` | `&colon;` | \003A | %3A | https://symbl.cc/en/003A/
+< | Less-Than Sign | U+003C | 11 1100 | 74 | 60 | 3C | `&#x3c;` | `&#60;` | `&lt;` | \003C | %3C | https://symbl.cc/en/003C/
+\> | Greater-Than Sign | U+003E | 11 1110 | 76 | 62 | 3E | `&#x3e;` | `&#62;` | `&gt;` | \003E | %3E | https://symbl.cc/en/003E/
 \ | Reverse Solidus | U+005C | ‪101 1100 | 134 | 92 | 5C | `&#x5c` | `&#92;` | `&bsol;` | \005C | %5C | https://symbl.cc/en/005C/
 a | Latin Small Letter A | U+0061 | ‪110 0001 | 142 | 97 | 61 | `&#x61` | `&#142;` | - | \0061 | %61 | https://symbl.cc/en/0061/
   | No-Break Space | U+00A0 | ‪1010 0000 | 240 | 160 | A0 | `&#xa0` | `&#160;` | `&nbsp;` | \00A0 | %A0 | https://symbl.cc/en/00A0/

@@ -5,6 +5,7 @@
 * [身份认证](essential/security/identity.md)
 * [加密](essential/security/crypto.md)
 * [算法](essential/algorithms.md)
+* [通配符](essential/wildcards.md)
 * [正则表达式](essential/regex.md)
 * [URL](essential/url.md)
 * [API](essential/api.md)

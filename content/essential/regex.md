@@ -50,6 +50,15 @@ https://wangchujiang.com/reference/docs/regex.html - *RegEX 备忘清单 & regex
 
 详见：https://www.runoob.com/regexp/regexp-syntax.html - *正则表达式 – 语法 | 菜鸟教程*
 
+### 语法风格
+
+- JavaScript 风格
+- Perl 风格
+
+参考：
+
+1. <https://publish.obsidian.md/help-zh/核心插件/搜索> - *搜索 - Obsidian 中文帮助 - Obsidian Publish*
+
 ### 修饰符(g,i,m,s)
 
 | 修饰符 | 含义 | 描述 |

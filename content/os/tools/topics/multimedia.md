@@ -156,7 +156,7 @@ GitHub: https://github.com/mpv-player/mpv - *GitHub - mpv-player/mpv: 🎥 Comma
 
 https://mpv.io/installation/ - *mpv.io | Installation*
 
-https://github.com/mpv-android/mpv-android - *GitHub - mpv-android/mpv-android: #mpv-android @ libera.chat*
+https://github.com/mpv-android/mpv-android - *GitHub - mpv-android/mpv-android: \#mpv-android @ libera.chat*
 
 
 支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=is.xyz.mpv), [F-Droid]()）

@@ -942,6 +942,8 @@
 
 ## 翻译工具
 
+[专题](topics/translate.md)
+
 1. [沉浸式翻译](https://immersivetranslate.com/) - *沉浸式翻译是一款浏览器插件，可以智能识别网页主内容区进行双语翻译，插件支持全平台浏览器，PDF文件翻译，EPUB电子书双语翻译、制作、导出，字幕文件翻译等功能。*
 
     - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.immersivetranslate.browser)）, iOS（[App Store](https://apps.apple.com/app/id6476744995)）, [Web](https://app.immersivetranslate.com/text/), Web Browser Extensions（[Tampermonkey](https://download.immersivetranslate.com/immersive-translate.user.js)）, MiniProgram（WeChat）
@@ -1331,7 +1333,7 @@
     </details>
 
 2. [WinMerge](https://winmerge.org/) - *WinMerge is an Open Source differencing and merging tool for Windows. WinMerge can compare both folders and files, presenting differences in a visual text format that is easy to understand and handle.*  
-    \> *via https://zhuanlan.zhihu.com/p/443334174 - *强大的文件对比神器，开源免费！ - 知乎**
+    \> _via https://zhuanlan.zhihu.com/p/443334174 - *强大的文件对比神器，开源免费！ - 知乎*_
 
     - 支持 Windows
 

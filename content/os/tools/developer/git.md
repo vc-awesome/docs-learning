@@ -58,6 +58,8 @@ GitHub:
 
 https://git-scm.com/downloads - *Git - Downloads*
 
+### 第三方工具
+
 图形界面工具：
 
 https://git-scm.com/downloads/guis - *Git - GUI Clients*
@@ -91,13 +93,24 @@ https://git-scm.com/downloads/guis - *Git - GUI Clients*
 
 1. [GitUI by extrawurst](https://extrawurst.itch.io/gitui) - *blazing fast terminal-ui for git written in rust*
 
-   - 支持 Windows, macOS, Linux, Android（[Termux](os/mobile/termux.md#gitui)）
+    - 支持 Windows, macOS, Linux, Android（[Termux](os/mobile/termux.md#gitui)）
 
-   - 开源免费（[GitHub Repo](https://github.com/desktop/desktop)）
+    - 开源免费（[GitHub Repo](https://github.com/desktop/desktop)）
+
+2. [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) - *Good-lookin&#39; diffs. Actually… nah… The best-lookin&#39; diffs. :tada: - so-fancy/diff-so-fancy*
+
+    - 支持 macOS, Linux, Android（Termux）
+
+    - 开源免费（[GitHub Repo](https://github.com/so-fancy/diff-so-fancy)）
+
+3. [Lazygit](https://github.com/jesseduffield/lazygit) - *simple terminal UI for git commands. Contribute to jesseduffield/lazygit development by creating an account on GitHub.*
+
+    - 支持 Windows, macOS, Linux, Android（Termux）
+    - 开源免费（[GitHub Repo](https://github.com/jesseduffield/lazygit)）
 
 代码托管平台：
 
-1. [GitHub](/tools/github) - *GitHub: Where the world builds software · GitHub*
+1. [GitHub](https://github.com/) - *GitHub: Where the world builds software · GitHub* [使用手册](os/tools/productivity/github.md)
 2. [Gitee](https://gitee.com/) - *Gitee - 基于 Git 的代码托管和研发协作平台*
 3. [阿里云云效 Codeup](https://codeup.aliyun.com/) - *云效 Codeup · 企业级代码管理平台* [旧版](https://code.aliyun.com/)
 4. [GitLab](https://gitlab.com/gitlab-com) - *The One DevOps Platform | GitLab*
@@ -502,13 +515,13 @@ git -v
 
 > [git-config](https://git-scm.com/docs/git-config/zh_HANS-CN) - 获取和设置仓库或全局选项
 
-查看当前仓库配置信息
+查看当前仓库配置信息：
 
 ```bash
 git config --list
 ```
 
-查看全局仓库配置信息
+查看全局仓库配置信息：
 
 ```bash
 git config --list --global
@@ -518,7 +531,18 @@ git config --list --global
 
 <https://git-scm.com/book/zh/v2/起步-初次运行-Git-前的配置> - *Git - 初次运行 Git 前的配置*
 
-查看所有的配置以及它们所在的文件
+```tree
+root_folder/
+├── etc/
+│   └── gitconfig
+├── home/
+│   └── .gitconfig
+└── {{当前使用仓库}}/
+    └── .git/
+        └── config
+```
+
+查看所有的配置以及它们所在的文件：
 
 ```bash
 git config --list --show-origin
@@ -1362,7 +1386,7 @@ git ls-tree <tree-ish>
 
 实例：`git ls-tree HEAD`
 
-## 文件
+## 文件与文件夹
 
 ### .gitignore
 
@@ -1373,9 +1397,18 @@ https://docs.github.com/zh/get-started/getting-started-with-git/ignoring-files -
     ![GitHub last commit](https://badgen.net/github/last-commit/github/gitignore?icon=github&color=blue)
     ![GitHub Repo stars](https://img.shields.io/github/stars/github/gitignore?style=social)
 
-- https://www.toptal.com/developers/gitignore - *gitignore.io - 为你的项目创建必要的 .gitignore 文件*
-
 https://www.jianshu.com/p/e5b13480479b - *git如何忽略已经提交的文件 (.gitignore文件无效) - 简书*
+
+工具：
+
+1. https://www.toptal.com/developers/gitignore - *gitignore.io - 为你的项目创建必要的 .gitignore 文件* [GitHub Repo](https://github.com/toptal/gitignore.io)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/toptal/gitignore.io?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/toptal/gitignore.io?style=social)
+
+参考：
+
+1. https://dotfiles.github.io/tips/ - *Tips and tricks - dotfiles.github.io*
 
 #### 忽略文件
 
@@ -1496,6 +1529,10 @@ https://github.com/alexkaratarakis/gitattributes - *GitHub - alexkaratarakis/git
 1. https://www.bookstack.cn/read/git-doc-zh/docs-39.md - *gitattributes - 《Git 中文参考》 - 书栈网 · BookStack*
 2. https://baijiahao.baidu.com/s?id=1658545315960482338 - *请把 .gitattributes 加到你的 Git 仓库中*
 3. https://www.cnblogs.com/friedCoder/p/12467515.html - *.gitattributes - friedCoder - 博客园*
+
+### .gitconfig
+
+有关详细信息，请参阅本文档“[gitconfig 文件](#gitconfig%20文件)”。
 
 ## 常见问题
 

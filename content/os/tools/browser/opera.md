@@ -35,7 +35,7 @@ https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linu
 
 1. Opera
     1. Android：https://play.google.com/store/apps/details?id=com.opera.browser - *Opera 浏览器：快速又安全*
-    2. iOS
+    2. iOS：https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974 - *Opera: AI browser with VPN on the App Store*
 2. Opera beta
     1. Android：https://play.google.com/store/apps/details?id=com.opera.browser.beta - *Opera 浏览器 beta 版*
 3. Opera Mini

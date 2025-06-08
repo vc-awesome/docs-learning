@@ -1,4 +1,4 @@
-_61 directories, 294 files_
+_61 directories, 298 files_
 
 # 📂 __content__
 
@@ -102,8 +102,9 @@ _61 directories, 294 files_
 8. 📄 [regex.md](essential/regex.md)
 9. 📄 [svg.md](essential/svg.md)
 10. 📄 [url.md](essential/url.md)
-11. 📄 [xml.md](essential/xml.md)
-12. 📄 [yaml.md](essential/yaml.md)
+11. 📄 [wildcards.md](essential/wildcards.md)
+12. 📄 [xml.md](essential/xml.md)
+13. 📄 [yaml.md](essential/yaml.md)
 
 ### 📂 __character\-sets__
 
@@ -341,7 +342,9 @@ _61 directories, 294 files_
 ##### 📂 __shell__
 
 1. 📄 [bash.md](os/tools/developer/shell/bash.md)
-2. 📄 [powershell.md](os/tools/developer/shell/powershell.md)
+2. 📄 [man.md](os/tools/developer/shell/man.md)
+3. 📄 [powershell.md](os/tools/developer/shell/powershell.md)
+4. 📄 [readline.md](os/tools/developer/shell/readline.md)
 
 #### 📂 __productivity__
 
@@ -357,8 +360,9 @@ _61 directories, 294 files_
 1. 📄 [\_sidebar.md](os/tools/topics/_sidebar.md)
 2. 📄 [ai.md](os/tools/topics/ai.md)
 3. 📄 [multimedia.md](os/tools/topics/multimedia.md)
-4. 📄 [rss.md](os/tools/topics/rss.md)
-5. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
+4. 📄 [package\-manager.md](os/tools/topics/package-manager.md)
+5. 📄 [rss.md](os/tools/topics/rss.md)
+6. 📄 [webpage\-downloader.md](os/tools/topics/webpage-downloader.md)
 
 ## 📂 __project__
 

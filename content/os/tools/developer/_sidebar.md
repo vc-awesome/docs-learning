@@ -4,6 +4,7 @@
 - [emacs.md](os/tools/developer/editor/emacs.md)
 - [git.md](os/tools/developer/git.md)
 - [lanhu.md](os/tools/developer/lanhu.md)
+- [man.md](os/tools/developer/shell/man.md)
 - [navicat.md](os/tools/developer/navicat.md)
 - [phpmyadmin.md](os/tools/developer/phpmyadmin.md)
 - [phpstorm.md](os/tools/developer/editor/phpstorm.md)
