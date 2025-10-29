@@ -149,12 +149,12 @@ http://www.ruanyifeng.com/blog/ - *阮一峰的网络日志*
 
 阅读列表：
 
-序号 | 书名 | 阅读进度
-:--- | :--- | :---
-1  | [HTML 教程](https://wangdoc.com/html/), [GitHub Repo](https://github.com/wangdoc/html-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
-2  | [JavaScript 教程（*ES5*）](https://wangdoc.com/javascript/), [GitHub Repo](https://github.com/wangdoc/javascript-tutorial) | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen)
-3  | [ES6 教程](https://wangdoc.com/es6/), [GitHub Repo](https://github.com/wangdoc/es6-tutorial#js-repo-pjax-container) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey)
-4  | 更多教程访问 [wangdoc · GitHub](https://github.com/wangdoc)  | -
+序号 | 书名 | 阅读进度 | 徽章
+:--- | :--- | :--- | :---
+1  | [HTML 教程](https://wangdoc.com/html/), [GitHub Repo](https://github.com/wangdoc/html-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey) | ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/html-tutorial?logo=github&color=blue)<br>![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/html-tutorial?style=social)
+2  | [JavaScript 教程（*ES5*）](https://wangdoc.com/javascript/), [GitHub Repo](https://github.com/wangdoc/javascript-tutorial) | ![](https://img.shields.io/badge/阅读进度-30%25-brightgreen) | ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/javascript-tutorial?logo=github&color=blue)<br>![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/javascript-tutorial?style=social)
+3  | [ES6 教程](https://wangdoc.com/es6/), [GitHub Repo](https://github.com/wangdoc/es6-tutorial) | ![](https://img.shields.io/badge/阅读进度-0%25-lightgrey) | ![GitHub last commit](https://img.shields.io/github/last-commit/wangdoc/es6-tutorial?logo=github&color=blue)<br>![GitHub Repo stars](https://img.shields.io/github/stars/wangdoc/es6-tutorial?style=social)
+4  | 更多教程访问 [wangdoc · GitHub](https://github.com/wangdoc)  | - | -
 
 ## 分类
 

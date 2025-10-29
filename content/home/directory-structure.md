@@ -1,5 +1,11 @@
 # 目录结构
 
+![Gif](../../_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
+
+<div style="text-align: right;">
+
+<small>*Picture source: [Google](https://www.google.com/)*</small></div>
+
 ## 简介
 
 > 目录结构是指文件系统中用于组织和管理文件和文件夹的层次结构。一个良好的目录结构可以帮助用户更高效地找到和管理文件。
@@ -41,6 +47,17 @@
 ### 风格指南
 
 暂无
+
+## 快速入门
+
+### 文件系统
+
+- archive/
+- docs/
+- images/
+- CHANGELOG.md
+- LICENSE.md
+- README.md
 
 ## 文件系统目录
 

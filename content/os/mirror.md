@@ -1,4 +1,4 @@
-# 开源镜像站
+# 镜像站点
 
 ## 简介
 
@@ -8,7 +8,9 @@
 
 ## 站点
 
-1. http://mirrors.163.com/ - *网易开源镜像站*
+### 开源软件镜像
+
+1. https://mirrors.163.com/ - *网易开源镜像站*
 
 2. https://developer.aliyun.com/mirror/ - *阿里巴巴开源镜像站-OPSX镜像站-阿里云开发者社区*
 
@@ -17,6 +19,7 @@
 4. https://mirrors.huaweicloud.com/home - *华为开源镜像站_软件开发服务_华为云*
 
 5. https://mirrors.cernet.edu.cn/ - *校园网联合镜像站*
+    1. https://mirrorz.org/ - *MirrorZ.org*
 
 6. https://mirrors.tuna.tsinghua.edu.cn/ - *清华大学开源软件镜像站*
 
@@ -24,7 +27,39 @@
 
 8. http://mirrors.neusoft.edu.cn/ - *开源镜像站 | 大连东软信息学院*
 
-### GitHub
+9. https://mirrors.sustech.edu.cn/ - *SUSTech Open Source Mirrors*
+
+#### 操作系统
+
+https://mirrors.huaweicloud.com/os/image - *华为开源镜像站_软件开发服务_华为云*
+
+#### 工具
+
+##### homebrew
+
+1. https://help.mirrors.cernet.edu.cn/homebrew/ - *Homebrew 软件仓库镜像使用帮助 - MirrorZ Help*
+
+##### fdroid
+
+1. https://help.mirrors.cernet.edu.cn/fdroid/ - *F-Droid 软件仓库镜像使用帮助 - MirrorZ Help*
+
+##### termux
+
+1. https://developer.aliyun.com/mirror/termux - *termux镜像_termux下载地址_termux安装教程-阿里巴巴开源镜像站*
+
+#### 语言
+
+##### nodejs-release
+
+1. https://developer.aliyun.com/mirror/nodejs-release - *nodejs-release镜像_nodejs-release下载地址_nodejs-release安装教程-阿里巴巴开源镜像站*
+
+##### npm
+
+1. https://developer.aliyun.com/mirror/NPM - *NPM镜像_NPM下载地址_NPM安装教程-阿里巴巴开源镜像站*
+
+### Git 加速
+
+#### GitHub
 
 用法：
 
@@ -66,7 +101,7 @@
 
 2. https://zgq-inc.github.io/overthefirewall/#speedup_download - *Github文件加速下载*
 
-#### kkgithub.com
+##### kkgithub.com
 
 简介：
 
@@ -88,7 +123,7 @@ https://help.kkgithub.com/ - *KGitHub Help*
 - 地址 `kkgithub.com` 指向源地址： `github.com`
 - 地址 `css.kkgithub.com` 指向源地址： `github.githubassets.com`
 
-#### gh-proxy.com
+##### gh-proxy.com
 
 简介：
 
@@ -106,3 +141,7 @@ https://gh-proxy.com/ - *GitHub Proxy 代理加速*
 ### Google
 
 1. https://github.com/Alvin9999/new-pac/wiki/谷歌镜像 - *谷歌镜像 · Alvin9999/new-pac Wiki · GitHub*
+
+## 参考
+
+1. <https://sorabin.com/5-个主流稳定的image-repository-国内镜像仓库/> - *5 个主流稳定的image repository 国内镜像仓库 | SORABIN 索拉缤*

@@ -73,15 +73,26 @@
 
 ## 屏幕录制
 
-> 系统自带“屏幕录制”工具
+> 系统内置“屏幕录制”工具
 
-功能设置：_应用 > 设置 > 更多设置 > （辅助功能）屏幕录制_
+安装：
 
-http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈网*
+1. _应用 > 应用商店 > 我的 > （应用管理）官方应用 > 点击安装“屏幕录制”_
+
+设置：
+
+1. _应用 > 设置 > 更多设置 > （辅助功能）屏幕录制_
+
+使用：
 
 1. 打开方式一：_拉下“控制中心” > 屏幕录制_
 2. 打开方式二：_全局侧边栏 > 视频工具箱 > 录屏（需“自定义设置”中的应用）_
 3. 打开方式三：_小爱语音 > 屏幕录制_
+
+参考：
+
+1. https://web.vip.miui.com/page/info/mio/mio/detail?app_version=dev.20051&postId=11602826 - *小米手机MIUI“录屏”功能体验：完全由你来支配！*
+2. http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈网*
 
 
 ## 区域截屏
@@ -267,8 +278,9 @@ MIUI 14.0.7 操作步骤：*应用 > 设置 > 我的设备 > 下滑至底部-全
 
 常用系统应用：
 
-1. [文件](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.google.android.documentsui)
+1. [文件](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.google.android.documentsui&class_name=com.android.documentsui.files.FilesActivity)
     - 应用包名：`com.google.android.documentsui`
+    - 类名：`com.android.documentsui.files.FilesActivity`
 2. [备份](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.miui.backup)
     - 应用包名：`com.miui.backup`
 

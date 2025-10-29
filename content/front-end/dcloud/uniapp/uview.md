@@ -211,6 +211,16 @@ v2.x：
 
 ##### Gap 间隔槽
 
+暂无
+
+### API
+
+https://uviewui.com/js/intro.html - *介绍 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+
+#### 网络
+
+https://uviewui.com/js/http.html - *Http请求 | uView 2.0 - 全面兼容 nvue 的 uni-app 生态框架 - uni-app UI 框架*
+
 ## 常见问题
 
 问题：

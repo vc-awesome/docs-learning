@@ -72,11 +72,19 @@ https://github.com/MatsuriDayo/NekoBoxForAndroid
 5. Trojan
 6. VLESS
 
+#### SOCKS
+
+SOCKS (Socket Secure) is a networking protocol that facilitates communication between a client and a server through a proxy server. It allows clients to bypass firewalls and access internet resources via the proxy server. SOCKS operates at the transport layer (TCP and UDP), providing a more flexible approach compared to HTTP proxies, as it can handle various types of network traffic. This flexibility makes SOCKS particularly useful for tasks like anonymizing traffic, circumventing censorship, and accessing geo-restricted content.
+
+SOCKS （套接字安全）是一种网络协议，通过代理服务器促进客户端与服务器之间的通信。 它允许客户端绕过防火墙，通过代理服务器访问互联网资源。 SOCKS 在传输层（TCP 和 UDP）运行，与 HTTP 代理相比，它提供了一种更灵活的方法，因为它可以处理各种类型的网络流量。 这种灵活性使 SOCKS 特别适用于匿名流量、规避审查和访问受地理限制的内容等任务。
+
 ## Quick Start
 
 操作步骤：
 
-1. 通过 GitHub 文件加速代理工具“<https://gh-proxy.com/>”，下载 Android 客户端工具 [NekoBoxForAndroid](#nekobox) 或者 [v2rayNG](#v2rayng)；
+1. 通过 GitHub 文件加速代理工具“<https://gh-proxy.com/>”，下载：
+    1. Android 客户端工具 [NekoBoxForAndroid](#nekobox) 或者 [v2rayNG](#v2rayng)；
+    2. macOS 客户端工具 [v2rayN](#v2rayn)；
 2. 添加免费的“[服务器配置](#free)”账号。
 
 ## Configuration
@@ -235,9 +243,15 @@ GitHub*
 
 2. https://getmoreprivacy.com/surfeasy/ - *SurfEasy VPN是否安全？（2023年完整评测） | GetMorePrivacy.com*
 
-### GeoIP
+### Geo
+
+#### GeoIP
 
 https://duckduckgo.com/?q=GeoIP - *GeoIP at DuckDuckGo*
+
+#### GeoDomain
+
+暂无
 
 ### GFWList
 
@@ -328,12 +342,23 @@ gfwlist2hosts：
 
 1. https://github.com/Loyalsoldier - *Loyalsoldier (Loyalsoldier) · GitHub*
 
-2. https://github.com/Hackl0us/SS-Rule-Snippet - *GitHub - Hackl0us/SS-Rule-Snippet: 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。*
+#### SS
+
+1. https://github.com/Hackl0us/SS-Rule-Snippet - *GitHub - Hackl0us/SS-Rule-Snippet: 搜集、整理、维护 Surge / Quantumult (X) / Shadowrocket / Surfboard / clash (Premium) 实用规则。*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/Hackl0us/SS-Rule-Snippet?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Hackl0us/SS-Rule-Snippet?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Hackl0us/SS-Rule-Snippet?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/Hackl0us/SS-Rule-Snippet?style=social)
+
+#### V2Ray
+
+1. https://github.com/Loyalsoldier/v2ray-rules-dat - *GitHub - Loyalsoldier/v2ray-rules-dat: 🦄 🎃 👻 V2Ray 路由规则文件加强版，可代替 V2Ray 官方 geoip.dat 和 geosite.dat，适用于 V2Ray、Xray-core、mihomo(Clash-Meta)、hysteria、Trojan-Go 和 leaf。Enhanced edition of V2Ray rules dat files, applicable to V2Ray, Xray-core, mihomo(Clash-Meta), hysteria, Trojan-Go and leaf.*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/Loyalsoldier/v2ray-rules-dat?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Loyalsoldier/v2ray-rules-dat?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Loyalsoldier/v2ray-rules-dat?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/Loyalsoldier/v2ray-rules-dat?style=social)
 
 ## Tools
 
@@ -364,6 +389,8 @@ gfwlist2hosts：
 
 https://github.com/v2ray - *Project V · GitHub*
 
+https://www.v2ray.com/ - *Project V · Project V 官方网站*
+
 工具：
 
 https://www.v2fly.org/awesome/tools.html - *神一样的工具们 | V2Fly.org*
@@ -377,16 +404,7 @@ https://www.v2fly.org/awesome/tools.html - *神一样的工具们 | V2Fly.org*
 
     - 支持 macOS
 
-2. https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, Linux and macOS, support Xray and sing-box and others*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayN?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/2dust/v2rayN?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/2dust/v2rayN?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/2dust/v2rayN?style=social)
-
-    - 支持 Windows, Linux, macOS
-
-3. https://github.com/v2rayA/v2rayA - *GitHub - v2rayA/v2rayA: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀* [Website](https://v2raya.org/)
+2. https://github.com/v2rayA/v2rayA - *GitHub - v2rayA/v2rayA: A web GUI client of Project V which supports VMess, VLESS, SS, SSR, Trojan, Tuic and Juicity protocols. 🚀* [Website](https://v2raya.org/)
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/v2rayA/v2rayA?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/v2rayA/v2rayA?display_date=published_at&logo=github)
@@ -412,6 +430,8 @@ https://www.v2fly.org/awesome/tools.html - *神一样的工具们 | V2Fly.org*
 
 https://github.com/v2fly - *V2Fly · GitHub*
 
+https://www.v2fly.org/ - *V2Fly.org*
+
 文档：
 
 1. https://github.com/v2fly/v2fly-github-io - *GitHub - v2fly/v2fly-github-io: V2Fly Website & Documentation* [Website🪜](https://www.v2fly.org)
@@ -423,6 +443,23 @@ https://github.com/v2fly - *V2Fly · GitHub*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/v2fly/v2ray-step-by-step?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/v2fly/v2ray-step-by-step?style=social)
+
+##### v2rayN
+
+> A GUI client for Windows, Linux and macOS, support Xray and sing-box and others
+
+![GitHub last commit](https://img.shields.io/github/last-commit/2dust/v2rayN?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/2dust/v2rayN?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/2dust/v2rayN?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/2dust/v2rayN?style=social)
+
+官方：
+
+https://github.com/2dust/v2rayN - *GitHub - 2dust/v2rayN: A GUI client for Windows, Linux and macOS, support Xray and sing-box and others*
+
+安装（Windows, Linux, macOS）：
+
+https://github.com/2dust/v2rayN/releases - *Releases · 2dust/v2rayN · GitHub*
 
 ##### v2rayNG
 
@@ -567,6 +604,25 @@ Clash 的设计目标是提供一个强大且灵活的代理工具，适合需�
 
 https://f-droid.org/packages/com.github.metacubex.clash.meta/ - *Clash Meta For Android | F-Droid - Free and Open Source Android App Repository*
 
+#### Hiddify
+
+> Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free. - hiddify/hiddify-app
+
+![GitHub last commit](https://img.shields.io/github/last-commit/hiddify/hiddify-app?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/hiddify/hiddify-app?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/hiddify/hiddify-app?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/hiddify/hiddify-app?style=social)
+
+官方：
+
+https://github.com/hiddify/hiddify-app - *GitHub - hiddify/hiddify-app: Multi-platform auto-proxy client, supporting Sing-box, X-ray, TUIC, Hysteria, Reality, Trojan, SSH etc. It’s an open-source, secure and ad-free.*
+
+https://hiddify.com - *Home - Hiddify*
+
+安装（Windows, Linux, macOS, Android, iOS）：
+
+https://github.com/hiddify/hiddify-app/releases - *Releases · hiddify/hiddify-app · GitHub*
+
 #### Lantern
 
 > Fast, reliable, and secure access to anything from anywhere
@@ -602,11 +658,19 @@ https://matsuridayo.github.io/ - *MatsuriDayo*
 <i class="fa-brands fa-android"></i>
 https://github.com/MatsuriDayo/NekoBoxForAndroid - *GitHub - MatsuriDayo/NekoBoxForAndroid: NekoBox for Android / sing-box / universal proxy toolchain for Android*
 
-安装：
+安装（Android）：
+
+https://github.com/MatsuriDayo/NekoBoxForAndroid/releases - *Releases · MatsuriDayo/NekoBoxForAndroid · GitHub*
 
 https://apt.izzysoft.de/fdroid/index/apk/moe.nb4a - *NekoBox - IzzyOnDroid F-Droid Repository*
 
-#### SagerNet
+#### sing-box 系列
+
+https://github.com/SagerNet - *Project S · GitHub*
+
+https://sagernet.org/ - *SagerNet*
+
+##### SagerNet
 
 > The universal proxy toolchain for Android, written in Kotlin.
 
@@ -619,6 +683,29 @@ https://apt.izzysoft.de/fdroid/index/apk/moe.nb4a - *NekoBox - IzzyOnDroid F-Dro
 
 <i class="fa-brands fa-android"></i>
 https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universal proxy toolchain for Android*
+
+##### sing-box
+
+简介：
+
+> The universal proxy platform
+
+![F-Droid Version](https://img.shields.io/f-droid/v/io.nekohasekai.sfa)
+![GitHub last commit](https://img.shields.io/github/last-commit/SagerNet/sing-box?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SagerNet/sing-box?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SagerNet/sing-box?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/SagerNet/sing-box?style=social)
+
+官方：
+
+1. https://github.com/SagerNet/sing-box - *GitHub - SagerNet/sing-box: The universal proxy platform*
+
+2. https://sing-box.sagernet.org/ - *Home - sing-box*
+
+安装（Windows, macOS, Linux, Android, iOS）：
+
+1. https://github.com/SagerNet/sing-box/releases - *Releases · SagerNet/sing-box · GitHub*
+2. https://f-droid.org/packages/io.nekohasekai.sfa/ - *sing-box | F-Droid - Free and Open Source Android App Repository*
 
 #### Surfboard
 
@@ -827,12 +914,6 @@ https://github.com/dariubs/awesome-proxy - *GitHub - dariubs/awesome-proxy: A co
 ![GitHub Repo stars](https://img.shields.io/github/stars/dariubs/awesome-proxy?style=social)
 
 <https://www.bing.com/search?q=检测http代理是否可用> - *检测http代理是否可用 - 搜索*
-
-### SOCKS
-
-SOCKS (Socket Secure) is a networking protocol that facilitates communication between a client and a server through a proxy server. It allows clients to bypass firewalls and access internet resources via the proxy server. SOCKS operates at the transport layer (TCP and UDP), providing a more flexible approach compared to HTTP proxies, as it can handle various types of network traffic. This flexibility makes SOCKS particularly useful for tasks like anonymizing traffic, circumventing censorship, and accessing geo-restricted content.
-
-SOCKS （套接字安全）是一种网络协议，通过代理服务器促进客户端与服务器之间的通信。 它允许客户端绕过防火墙，通过代理服务器访问互联网资源。 SOCKS 在传输层（TCP 和 UDP）运行，与 HTTP 代理相比，它提供了一种更灵活的方法，因为它可以处理各种类型的网络流量。 这种灵活性使 SOCKS 特别适用于匿名流量、规避审查和访问受地理限制的内容等任务。
 
 ## Test
 

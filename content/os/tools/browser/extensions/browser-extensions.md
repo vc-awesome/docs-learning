@@ -31,7 +31,11 @@
 
 ## 安装
 
+<https://github.com/xifangczy/cat-catch#安装方法> - *GitHub - xifangczy/cat-catch: 猫抓 浏览器资源嗅探扩展 / cat-catch Browser Resource Sniffing Extension*
+
 ### 扩展商店
+
+#### 桌面端
 
 1. https://chrome.google.com/webstore/ - *Chrome 应用商店*
 
@@ -39,6 +43,9 @@
 
 3. https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN - _Microsoft Edge 加载项_
 
+#### 移动端
+
+1. https://addons.mozilla.org/zh-CN/android/ - *适用于 Android 的 Firefox 附加组件（zh-CN）*
 
 ### 下载 CRX
 
@@ -365,7 +372,17 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 2. [即时工具](https://www.67tool.com/) - *一款在线高效办公工具，拥有近300款工具包括视频工具、音频工具、图片工具、文档处理、文档转换、办公辅助、设计工具等等* [Chrome](https://chrome.google.com/webstore/detail/fnlomhffjgaiejopfbacfjjpnegclmfb), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/即时工具/), [Web](https://www.67tool.com/), [Windows](https://client.67tool.com/#download), [macOS](https://client.67tool.com/#download)
 
 
-### 统计字数
+### 阅读与写作
+
+1. **为什么你们就是不能加个空格呢？** - *自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。（摊手）没办法，我大处女座都有强迫症。* [Chrome](https://chrome.google.com/webstore/detail/paphcfdffjnbcgkokihcdjliihicmbpd), [Firefox](https://github.com/vinta/pangu.js/blob/master/browser_extensions/firefox/paranoid-auto-spacing.user.js), [GitHub Repo](https://github.com/vinta/pangu.js), [Tampermonkey](https://cdn.jsdelivr.net/gh/vinta/pangu.js@4.0.7/browser_extensions/firefox/paranoid-auto-spacing.user.js), [jsDelivr](https://cdn.jsdelivr.net/gh/vinta/pangu.js/)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/paphcfdffjnbcgkokihcdjliihicmbpd)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/paphcfdffjnbcgkokihcdjliihicmbpd?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/vinta/pangu.js?color=blue&logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/vinta/pangu.js?style=social)
+
+
+#### 统计字数
 
 1. [Jisū](https://www.crxsoso.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi) <i id="jisu"></i> - *Count words and characters in selected text.* [Chrome](https://chrome.google.com/webstore/detail/dgnmohofbgnaacababkedheeannmdohi), [Edge](https://microsoftedge.microsoft.com/addons/detail/jis%C5%AB/bbclbgdgnkggbgnknlppkkgghfemliap), [GitHub Repo](https://github.com/ikamonster/jisu)
 
@@ -374,11 +391,11 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
     ![GitHub last commit](https://img.shields.io/github/last-commit/ikamonster/jisu?color=blue&logo=github)
 
 
-### 复制链接
+#### 复制链接
 
 1. [CopyTabTitleUrl](https://www.bugbugnow.net) <i id="copy-tab-title-url"></i> - *Copy the title and URL to the clipboard.* [Chrome](https://chrome.google.com/webstore/detail/lmgbdjfoaihhgdphombpgjpaohjfeapp), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/copytabtitleurl/), [GitHub Repo](https://github.com/k08045kk/CopyTabTitleUrl), Mobile Browser (Firefox, Kiwi)
 
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lmgbdjfoaihhgdphombpgjpaohjfeapp) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lmgbdjfoaihhgdphombpgjpaohjfeapp?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/k08045kk/CopyTabTitleUrl?color=blue&logo=github)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/lmgbdjfoaihhgdphombpgjpaohjfeapp) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/lmgbdjfoaihhgdphombpgjpaohjfeapp?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/k08045kk/CopyTabTitleUrl?color=blue&logo=github) ![GitHub Repo stars](https://img.shields.io/github/stars/k08045kk/CopyTabTitleUrl?style=social)
 
     <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
 
@@ -474,40 +491,55 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 5. [拷贝猫](https://blackglory.me/) <i id="copycat"></i> - *为网页提供前所未有的强大复制功能。* [Chrome](https://chrome.google.com/webstore/detail/jdjbiojkklnaeoanimopafmnmhldejbg), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/extension-copycat/), [GitHub Repo](https://github.com/BlackGlory/copycat)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/jdjbiojkklnaeoanimopafmnmhldejbg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/jdjbiojkklnaeoanimopafmnmhldejbg?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/BlackGlory/copycat?color=blue&logo=github)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/BlackGlory/copycat?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/BlackGlory/copycat?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/BlackGlory/copycat?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/BlackGlory/copycat?style=social)
 
     -  复制图片为 Data URL
 
 
-### 复制图片链接
+#### 复制图片链接
 
 1. [Copy Image URL](https://www.crxsoso.com/webstore/detail/okellkdngnddldceghgglinloadinfgg) <i id="copy-image-url"></i> - *此扩展程序允许您从 Google 图片搜索结果中复制图片源 URL*
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/okellkdngnddldceghgglinloadinfgg) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/okellkdngnddldceghgglinloadinfgg?style=social)
 
 
-### 复制代码
+#### 复制代码
 
 1. [CodeCopy](https://github.com/zenorocha/codecopy) - *A browser extension that adds copy to clipboard buttons on every code block*
 
 
-### 剪贴板
+#### 剪贴板
 
 1. [Clipboard Helper](https://www.crxsoso.com/webstore/detail/meljmedplehjlnnaempfdoecookjenph) <i id="clipboard-helper"></i> - *Clipboard helper tool tracks clipboard history + keyboard shortcuts*
 
 2. [Clipboard History Pro: best productivity tool](https://www.crxsoso.com/webstore/detail/ajiejmhbejpdgkkigpddefnjmgcbkenk) - *Clipboard manager extension for your browser: history of copied text, favorite items, instant paste*
 
 
-### 音视频播放
+#### Markdown
 
-1. [视频文件播放器](https://webvideoplayer.org/) - *用于播放本地文件的视频播放器。* [Chrome](https://chrome.google.com/webstore/detail/kfcfjmdnmmokdhndbpfcachlkliggggc), [Web](https://webvideoplayer.org/player.html)
+1. [Markdown Here](http://markdown-here.com) - *用Markdown写一封漂亮的电子邮件。* [GitHub Repo](https://github.com/adam-p/markdown-here), [Chrome](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdown-here/)
 
-2. [MediaPlayer - Video and Audio Player](https://www.crxsoso.com/webstore/detail/mgmhnaapafpejpkhdhijgkljhpcpecpj) - *一个建立在video.js项目之上的强大媒体播放器，支持HSL、速度控制和播放列表。*
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/elifhakcjgalahccnjkneoccemfahfoa)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/elifhakcjgalahccnjkneoccemfahfoa?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/adam-p/markdown-here?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/adam-p/markdown-here?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/adam-p/markdown-here?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/adam-p/markdown-here?style=social)
 
-3. [Video Speed Controller](https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk) - _Video Speed Controller Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts_
+2. **MarkDownload - Markdown Web Clipper** - *A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. - deathau/markdownload* [Chrome](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdownload/), [Edge](https://microsoftedge.microsoft.com/addons/detail/hajanaajapkhaabfcofdjgjnlgkdkknm), [GitHub Repo](https://github.com/deathau/markdownload)
+
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcmpcfapbekmbjjkdalcgopdkipoggdi)
+    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pcmpcfapbekmbjjkdalcgopdkipoggdi?style=social)
+    ![GitHub last commit](https://img.shields.io/github/last-commit/deathau/markdownload?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deathau/markdownload?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deathau/markdownload?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/deathau/markdownload?style=social)
 
 
-### Table of Contents
+#### Table of Contents
 
 🔎 ▸ `toc`, `outline`
 
@@ -539,13 +571,16 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
     ![GitHub last commit](https://img.shields.io/github/last-commit/lcomplete/smart-toc?color=blue&logo=github)
 
 
-### 翻译
+#### 翻译
 
 1. [沉浸式翻译](https://immersivetranslate.com/) - *沉浸式翻译是一款浏览器插件，可以智能识别网页主内容区进行双语翻译，插件支持全平台浏览器，PDF文件翻译，EPUB电子书双语翻译、制作、导出，字幕文件翻译等功能。* [Chrome](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh), [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/immersive-translate/), [Edge](https://microsoftedge.microsoft.com/addons/detail/沉浸式翻译-网页翻译插件-pdf翻译-/amkbmndfnliijdhojkpoglbnaaahippg), [Web](https://app.immersivetranslate.com/text/), [GitHub Repo](https://github.com/immersive-translate/immersive-translate), [Tampermonkey](https://download.immersivetranslate.com/immersive-translate.user.js), Mobile Browser (Firefox, Edge, Kiwi)
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/bpoadfkcbjbfhfodiogcnhhhpibjhbnh?style=social)
     ![GitHub last commit](https://img.shields.io/github/last-commit/immersive-translate/immersive-translate?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/immersive-translate/immersive-translate?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/immersive-translate/immersive-translate?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/immersive-translate/immersive-translate?style=social)
 
 2. [Google 翻译](https://translate.google.com/) <i id="google-translate"></i> - *浏览网页时可轻松查看翻译版本。由Google翻译小组提供。* [Chrome](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb)
 
@@ -600,7 +635,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
     ![GitHub last commit](https://img.shields.io/github/last-commit/crimx/ext-saladict?color=blue&logo=github)
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/cdonnmffkdaoajfknoeeecmchibpmkmg?style=social)
 
-### 开发者
+### 开发者工具
 
 1. [Wappalyzer](https://www.wappalyzer.com/) <i id="wappalyzer"></i> - *Identify web technologies* [Chrome](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg), [Edge](https://microsoftedge.microsoft.com/addons/detail/wappalyzer-technology-p/mnbndgmknlpdjdnjfmfcdjoegcckoikn?hl=zh-CN), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/)
 
@@ -673,7 +708,7 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
 3. [Force Underline](http://www.efojs.com/) - *Chrome extension that enforces underline on all hyperlinks* [Chrome](https://chrome.google.com/webstore/detail/force-underline/mailocoigbmikldobfkikagehcoficho), [Firefox](#), [Edge](#), [Opera](#), [Web](#), [GitHub Repo](#), [Via](#), Mobile Browser (Kiwi)
 
-### GitHub
+#### GitHub
 
 搜索：
 
@@ -732,20 +767,6 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/sourcegraph/sourcegraph?color=blue&logo=github)
 
-### Markdown
-
-1. [Markdown Here](http://markdown-here.com) - *用Markdown写一封漂亮的电子邮件。* [GitHub Repo](https://github.com/adam-p/markdown-here), [Chrome](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdown-here/)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/elifhakcjgalahccnjkneoccemfahfoa)
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/elifhakcjgalahccnjkneoccemfahfoa?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/adam-p/markdown-here?color=blue&logo=github)
-
-2. **MarkDownload - Markdown Web Clipper** - *A Firefox and Google Chrome extension to clip websites and download them into a readable markdown file. - deathau/markdownload* [Chrome](https://chrome.google.com/webstore/detail/markdownload-markdown-web/pcmpcfapbekmbjjkdalcgopdkipoggdi), [Firefox](https://addons.mozilla.org/en-US/firefox/addon/markdownload/), [Edge](https://microsoftedge.microsoft.com/addons/detail/hajanaajapkhaabfcofdjgjnlgkdkknm), [GitHub Repo](https://github.com/deathau/markdownload)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/pcmpcfapbekmbjjkdalcgopdkipoggdi)
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pcmpcfapbekmbjjkdalcgopdkipoggdi?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/deathau/markdownload?color=blue&logo=github)
-
 
 ### 钱包
 
@@ -754,17 +775,33 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 2. [TronLink（波宝钱包）](https://chrome.google.com/webstore/detail/tronlink%EF%BC%88%E6%B3%A2%E5%AE%9D%E9%92%B1%E5%8C%85%EF%BC%89/ibnejdfjmmkpcnlpebklmnkoeoihofec) - *The first and most popular TRON wallet. Recommended by TRON Foundation.*
 
 
-### 下载工具
+### 音视频播放
 
-1. [Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn) - *最好用的 Chrome 下载管理（支持资源嗅探）*
+1. [视频文件播放器](https://webvideoplayer.org/) - *用于播放本地文件的视频播放器。* [Chrome](https://chrome.google.com/webstore/detail/kfcfjmdnmmokdhndbpfcachlkliggggc), [Web](https://webvideoplayer.org/player.html)
+
+2. [MediaPlayer - Video and Audio Player](https://www.crxsoso.com/webstore/detail/mgmhnaapafpejpkhdhijgkljhpcpecpj) - *一个建立在video.js项目之上的强大媒体播放器，支持HSL、速度控制和播放列表。*
+
+3. [Video Speed Controller](https://www.crxsoso.com/webstore/detail/nffaoalbilbmmfgbnbgppjihopabppdk) - _Video Speed Controller Speed up, slow down, advance and rewind HTML5 audio/video with shortcuts_
+
+
+### 下载管理
+
+1. [猫抓](https://o2bmm.gitbook.io/cat-catch/) - *网页媒体嗅探工具* [Chrome](https://www.crxsoso.com/webstore/detail/jfedfbgedapdagkghmgibemcoggfppbb), [Firefox](https://www.crxsoso.com/firefox/detail/cat-catch), [Edge](https://microsoftedge.microsoft.com/addons/detail/oohmdefbjalncfplafanlagojlakmjci), [GitHub Repo](https://github.com/xifangczy/cat-catch), Mobile Browser ([Firefox](https://addons.mozilla.org/zh-CN/android/addon/cat-catch/), Edge, Kiwi)
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/xifangczy/cat-catch?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/xifangczy/cat-catch?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/xifangczy/cat-catch?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/xifangczy/cat-catch?style=social)
+
+2. [Chrono下载管理器](https://chrome.google.com/webstore/detail/chrono-download-manager/mciiogijehkdemklbdcbfkefimifhecn) - *最好用的 Chrome 下载管理（支持资源嗅探）*
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/mciiogijehkdemklbdcbfkefimifhecn) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/mciiogijehkdemklbdcbfkefimifhecn?style=social)
   
-2. [视频下载器 - CoCoCut](https://www.crxsoso.com/webstore/detail/gddbgllpilhpnjpkdbopahnpealaklle) - _Chrome专业视频下载器和音乐下载器,可以 在线下载视频、音乐。免费、安全、简单易用。_
+3. [视频下载器 - CoCoCut](https://www.crxsoso.com/webstore/detail/gddbgllpilhpnjpkdbopahnpealaklle) - _Chrome专业视频下载器和音乐下载器,可以 在线下载视频、音乐。免费、安全、简单易用。_
 
     ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/gddbgllpilhpnjpkdbopahnpealaklle) ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/gddbgllpilhpnjpkdbopahnpealaklle?style=social)
 
-3. 🧪[M3U8 Downloader](https://www.crxsoso.com/webstore/detail/pibnhedpldjakfpnfkabbnifhmokakfb) - *You can download m3u8 live stream video.*
+4. 🧪[M3U8 Downloader](https://www.crxsoso.com/webstore/detail/pibnhedpldjakfpnfkabbnifhmokakfb) - *You can download m3u8 live stream video.*
 
 
 ### 网络管理
@@ -888,12 +925,6 @@ https://mp.weixin.qq.com/s/6XmbRFbd8-iTGXFg0LEVmw - *不看后悔！明明是用
 3. [DuckDuckGo Privacy Essentials](https://chrome.google.com/webstore/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg) - *为浏览器提供简单无缝的隐私保护。* [Chrome](https://chrome.google.com/webstore/detail/bkdgflcldnnnapblkhphbgpggdiikppg)
 
 4. [MultiLogin](https://www.crxsoso.com/webstore/detail/ijfgglilaeakmoilplpcjcgjaoleopfi) - *Using websites with multiple accounts at the same time is made easy. Create an independent tab with a click of a button.*
-
-5. **为什么你们就是不能加个空格呢？** - *自动在网页中所有的中文字和半形的英文、数字、符号之间插入空白。（摊手）没办法，我大处女座都有强迫症。* [Chrome](https://chrome.google.com/webstore/detail/paphcfdffjnbcgkokihcdjliihicmbpd), [Firefox](https://github.com/vinta/pangu.js/blob/master/browser_extensions/firefox/paranoid-auto-spacing.user.js), [GitHub Repo](https://github.com/vinta/pangu.js), [Tampermonkey](https://cdn.jsdelivr.net/gh/vinta/pangu.js@4.0.7/browser_extensions/firefox/paranoid-auto-spacing.user.js), [jsDelivr](https://cdn.jsdelivr.net/gh/vinta/pangu.js/)
-
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/v/paphcfdffjnbcgkokihcdjliihicmbpd)
-    ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/paphcfdffjnbcgkokihcdjliihicmbpd?style=social)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/vinta/pangu.js?color=blue&logo=github)
 
 
 ## 备注

@@ -59,6 +59,14 @@ https://wangchujiang.com/reference/docs/regex.html - *RegEX 备忘清单 & regex
 
 1. <https://publish.obsidian.md/help-zh/核心插件/搜索> - *搜索 - Obsidian 中文帮助 - Obsidian Publish*
 
+#### JavaScript 风格
+
+暂无
+
+#### Perl 风格
+
+暂无
+
 ### 修饰符(g,i,m,s)
 
 | 修饰符 | 含义 | 描述 |
@@ -112,12 +120,16 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expres
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookahead_assertion - *Lookahead assertion: (?=...), (?!...) - JavaScript | MDN*
 
+<https://wangdoc.com/javascript/stdlib/regexp#组匹配> - *RegExp 对象 - JavaScript 教程 - 网道*
+
 #### 后行断言(?<=,?<!)
 
 - `(?<=exp2)exp1`：查找 exp2 后面的 exp1。
 - `(?<!exp2)exp1`：查找前面不是 exp2 的 exp1。
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Regular_expressions/Lookbehind_assertion - *Lookbehind assertion: (?<=...), (?<!...) - JavaScript | MDN*
+
+<https://wangdoc.com/es6/regex#后行断言> - *正则的扩展 - ES6 教程 - 网道*
 
 ### 原子
 

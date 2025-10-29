@@ -27,38 +27,49 @@ GitHub:
 
 ### 官方教程
 
-1. https://www.vim.org/docs.php - *Vim documentation : vim online*
-    1. https://vimhelp.org/ - *Vim: help.txt*
+https://www.vim.org/docs.php - *Vim documentation : vim online*
 
-#### yianwillis/vimcdoc
+英文文档：
 
-https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文文档计划*
+1. https://vimhelp.org/ - *Vim: help.txt*
 
-![GitHub last commit](https://img.shields.io/github/last-commit/yianwillis/vimcdoc?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/yianwillis/vimcdoc?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yianwillis/vimcdoc?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/yianwillis/vimcdoc?style=social)
+中文文档：
 
-主页：https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
-1. https://yianwillis.github.io/vimcdoc/doc/help.html#reference_toc - *VIM 中文帮助: 总览及快速参考*
+1. https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文文档计划*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/yianwillis/vimcdoc?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/yianwillis/vimcdoc?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/yianwillis/vimcdoc?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/yianwillis/vimcdoc?style=social)
 
 经常访问：
 
-1. https://yianwillis.github.io/vimcdoc/doc/quickref.html - *VIM 中文帮助: 总览最常用的命令*
-2. https://yianwillis.github.io/vimcdoc/doc/usr_toc.html - *VIM 中文用户手册: 目录*
+1. [快速参考](#快速参考)
+2. [用户手册](#用户手册)
 
-##### 快速参考
+#### 主页
 
-1. https://yianwillis.github.io/vimcdoc/doc/quickref.html - *VIM 中文帮助: 总览最常用的命令*
+- https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
+    1. https://yianwillis.github.io/vimcdoc/doc/help.html#reference_toc - *VIM 中文帮助: 总览及快速参考*
+- https://vimhelp.org/ - *Vim: help.txt*
+    1. https://vimhelp.org/#reference_toc - *Vim: help.txt*
+
+#### 快速参考
+
+- https://yianwillis.github.io/vimcdoc/doc/quickref.html - *VIM 中文帮助: 总览最常用的命令*
     1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#option-list - *VIM 中文帮助: 总览最常用的命令*
+- https://vimhelp.org/quickref.txt.html - *Vim: quickref.txt*
+    1. https://vimhelp.org/quickref.txt.html#option-list - *Vim: quickref.txt*
 
-##### 用户手册
+#### 用户手册
 
-1. https://yianwillis.github.io/vimcdoc/doc/usr_toc.html - *VIM 中文用户手册: 目录*
+- https://yianwillis.github.io/vimcdoc/doc/usr_toc.html - *VIM 中文用户手册: 目录*
+- https://vimhelp.org/usr_toc.txt.html - *Vim: usr_toc.txt*
 
-##### 命令索引
+#### 命令索引
 
-1. https://yianwillis.github.io/vimcdoc/doc/index.html - *VIM 中文帮助: 以字母顺序排列的命令索引*
+- https://yianwillis.github.io/vimcdoc/doc/index.html - *VIM 中文帮助: 以字母顺序排列的命令索引*
+- https://vimhelp.org/index.txt.html - *Vim: index.txt*
 
 ### 第三方教程
 
@@ -69,7 +80,9 @@ https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文
 3. https://segmentfault.com/a/1190000038702606 - *Vim使用全指南 (环境配置，插件推荐，美化) (C++,Python,MarkDown,R...) - 个人文章 - SegmentFault 思否*
 
 4. https://www.bookstack.cn/books/learn-vim - *《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
-    - https://github.com/dofy/learn-vim - *GitHub - dofy/learn-vim: Learning Vim. A Hands-On Tutorial of Vim.*
+    - https://github.com/dofy/learn-vim - *GitHub - dofy/learn-vim: Learning Vim. A Hands-On Tutorial of Vim.* \
+    ![GitHub last commit](https://img.shields.io/github/last-commit/dofy/learn-vim?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/dofy/learn-vim?style=social)
 
 5. https://wangchujiang.com/linux-command/c/vi.html - *vi 命令，Linux vi 命令详解：功能强大的纯文本编辑器 - Linux 命令搜索引擎*
 
@@ -77,7 +90,7 @@ https://github.com/yianwillis/vimcdoc - *GitHub - yianwillis/vimcdoc: Vim 中文
 
 #### 键盘图
 
-http://www.runoob.com/w3cnote/all-vim-cheatsheat.html - *史上最全Vim快捷键键位图（入门到进阶） | 菜鸟教程*
+https://www.runoob.com/w3cnote/all-vim-cheatsheat.html - *史上最全Vim快捷键键位图（入门到进阶） | 菜鸟教程*
 
 #### 速查表
 
@@ -89,7 +102,7 @@ https://zhuanlan.zhihu.com/p/555692820 - *vim基础操作速查（超详细版�
 
 https://www.vim.org/download.php - *download : vim online*
 
-[![Packaging status](https://repology.org/badge/vertical-allrepos/vim.svg?columns=3&exclude_unsupported=1)](https://repology.org/project/vim/versions)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/vim.svg?columns=2&exclude_unsupported=1)](https://repology.org/project/vim/versions)
 
 ### Windows
 
@@ -135,6 +148,41 @@ apt install vim-python
 
 1. https://ruanyifeng.com/blog/2018/09/vimrc.html - *Vim 配置入门 - 阮一峰的网络日志*
 2. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_op - *VIM 中文帮助: 总览最常用的命令*
+
+常用配置：
+
+```bash
+vim -np ~/.vimrc
+```
+
+```vim
+" 显示行号
+set number
+
+" 自动折行，即太长的行分成几行显示
+set wrap
+set linebreak
+
+" 打开文件监视。如果在编辑过程中文件发生外部改变（比如被别的编辑器编辑了），就会发出提示
+set autoread
+" au CursorHold,CursorHoldI * checktime
+
+" 搜索时，高亮显示匹配结果
+set hlsearch
+
+" 是否显示状态栏（0 表示不显示，1 表示只在多窗口时显示，2 表示显示）
+set laststatus=2 " 始终显示状态栏
+
+" 命令模式下，在底部显示，当前键入的指令
+set showcmd
+
+" 在底部显示，当前处于命令模式还是插入模式
+set showmode
+
+" 自动切换工作目录
+set autochdir
+
+```
 
 ### 显示行号
 
@@ -198,32 +246,6 @@ https://yianwillis.github.io/vimcdoc/doc/options.html#'autowrite' - *VIM 中文�
 
 ## 入门指南
 
-### 介绍 Vim
-
-https://yianwillis.github.io/vimcdoc/doc/intro.html - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
-
-#### 记法
-
-帮助语法的解释：https://yianwillis.github.io/vimcdoc/doc/intro.html#notation - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
-
-a  | b
----|---
-[]  | 方括号里的字符可选。
-[count]  | 可选的数值，可用在命令前以倍数或重复该命令。在没有特殊说明的情况下，省略时假定计数为一。
-["x]  | 可选的用于存储文本的寄存器。
-{}  | 花括号里的内容是命令中必须出现的，但是可以取不同的值。
-{char1-char2} | 在 char1 到 char2 区间内的一个字符，例如: {a-z} 是一个小写字母。多个区间可以串接，例如: {a-zA-Z0-9} 代表任一数字或字母。
-{motion}  | 移动光标的命令，或动作。
-\<BS>  | 退格键
-\<NL>  | 换行符
-\<CR>  | 回车符
-\<S-...> | Shift＋键
-\<C-...> | Control＋键
-
-#### 操作符
-
-https://yianwillis.github.io/vimcdoc/doc/motion.html#operator - *VIM 中文帮助: 有关移动的命令*
-
 ### 目录结构
 
 ```tree
@@ -236,17 +258,25 @@ root_folder/
 │   └── .vimrc #用户配置（对用户个人生效）
 ```
 
-`**/*.swp` - 交换文件主要用于系统崩溃时恢复文件，文件名的开头是 `.` 、结尾是 `.swp`。
+文件类型：
 
-https://blog.csdn.net/qq_42200183/article/details/81531422 - *Linux中.swp 文件的产生与解决方法_linux .swp-CSDN博客*
+1. `**/*.swp` - 交换文件主要用于系统崩溃时恢复文件，文件名的开头是 `.` 、结尾是 `.swp`。
+
+参考：
+
+1. https://blog.csdn.net/qq_42200183/article/details/81531422 - *Linux中.swp 文件的产生与解决方法_linux .swp-CSDN博客*
 
 ### 用户界面
 
 暂无
 
-### 命令
+### 启动 Vim
 
-语法：
+简介：
+
+> Vim is a text editor that is upwards compatible to Vi. It can be used to edit all kinds of plain text. It is especially useful for editing programs.
+
+用法：
 
 `vim [arguments] [file ..]` edit specified file(s)
 
@@ -264,9 +294,9 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 
 `-n` - No swap file, use memory only
 
-`-S <session>` - Source file <session> after loading the first file
+`-S <session>` - Source file \<session> after loading the first file
 
-`-c <command>` - Execute <command> after loading the first file
+`-c <command>` - Execute \<command> after loading the first file
 
 `-p[N]` - Open N tab pages (default: one for each file)
 
@@ -296,6 +326,34 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 
 1. https://www.cnblogs.com/jiangxianseng/p/15592295.html - *vim 命令记录 - Mr江 - 博客园*
 
+### 介绍 Vim
+
+https://yianwillis.github.io/vimcdoc/doc/intro.html - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
+
+#### 记法
+
+帮助语法的解释：https://yianwillis.github.io/vimcdoc/doc/intro.html#notation - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
+
+标识符 | 含义
+--- | ---
+[] | 方括号里的字符可选。
+[count] | 可选的数值，可用在命令前以倍数或重复该命令。在没有特殊说明的情况下，省略时假定计数为一。
+["x] | 可选的用于存储文本的寄存器。
+{} | 花括号里的内容是命令中必须出现的，但是可以取不同的值。
+{char1-char2} | 在 char1 到 char2 区间内的一个字符，例如: {a-z} 是一个小写字母。多个区间可以串接，例如: {a-zA-Z0-9} 代表任一数字或字母。
+{motion} | 移动光标的命令，或动作。
+\<BS> | 退格键
+\<NL> | 换行符
+\<CR> | 回车符
+\<S-...> | Shift＋键
+\<C-...> | Control＋键
+
+#### 操作符
+
+https://yianwillis.github.io/vimcdoc/doc/motion.html#operator - *VIM 中文帮助: 有关移动的命令*
+
+### 命令
+
 #### 常用命令
 
 1. [:w !git diff --no-index % -](#git-diff)
@@ -311,17 +369,62 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 1. `execute "w !git diff --no-index % -" | :Toc`
 2. `execute "w !git diff --no-index % -" | execute "Toc"`
 
+#### 命令历史
+
+在“普通模式”下：
+
+- <kbd>q</kbd> + <kbd>/</kbd> - 查看使用 / 输入的搜索历史
+- <kbd>q</kbd> + <kbd>?</kbd> - 查看使用 ? 输入的搜索历史
+- <kbd>q</kbd> + <kbd>:</kbd> - 查看命令行历史
+
+在“命令行模式”下：
+
+- <kbd>:</kbd> + `history` - 查看所有命令行模式下输入的命令历史
+- <kbd>:</kbd> + `history` + `search` 或 `/` 或 `?` - 查看搜索历史
+- <kbd>:</kbd> +  <kbd>Ctrl</kbd> + <kbd>f</kbd> - 查看所有命令行模式下输入的命令历史
+
+关闭命令历史记录窗口（3 种方式）：
+
+1. <kbd>Ctrl</kbd> + <kbd>c</kbd> + <kbd>ESC</kbd>
+2. <kbd>Ctrl</kbd> + <kbd>w</kbd> + <kbd>c</kbd>
+3. <kbd>:</kbd> + <kbd>q</kbd>
+
+禁用命令行历史记录（2 种方式）：
+
+1. 在当前 Vim 会话中禁用
+
+    `:set history=0`
+
+2. 在所有 Vim 会话中禁用
+
+    操作步骤：
+
+    1. 修改 .vimrc 文件：`vim ~/.vimrc`
+    2. 在 .vimrc 文件中，添加行：`set history=0`
+    3. 保存文件：`:w`
+    4. 退出（`:q` 或 <kbd>Z</kbd> + <kbd>Z</kbd>）并重新启动 Vim 或 `:source ~/.vimrc`
+
+参考：
+
+1. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
+2. https://blog.csdn.net/happycodefly/article/details/86684297 - *vim查看命令历史_vim查看编辑历史-CSDN博客*
+3. https://www.cnblogs.com/xy14/p/12787416.html - *VIM - EX 命令行 - 查看历史记录 - 轩辕拾銉 - 博客园*
+4. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
+5. http://yyq123.github.io/learn-vim/learn-vi-46-01-History.html - *VIM学习笔记 命令历史记录 (History)*
+
 #### 帮助文档
 
 ```bash
 vimtutor
 ```
 
-https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
+参考：
 
-https://yianwillis.github.io/vimcdoc/doc/helphelp.html - *VIM 中文帮助: 关于如何使用帮助文件*
+1. https://yianwillis.github.io/vimcdoc/doc/help.html - *VIM 中文帮助: 总览及快速参考*
 
-https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Worktile社区*
+2. https://yianwillis.github.io/vimcdoc/doc/helphelp.html - *VIM 中文帮助: 关于如何使用帮助文件*
+
+3. https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Worktile社区*
 
 ##### &colon;help
 
@@ -334,13 +437,33 @@ https://worktile.com/kb/ask/403704.html - *linux退出vim帮助命令 • Workti
 插入模式命令 | i_ | :help i_<Esc>
 命令行模式命令 | : | :help :quit
 
-### 7 种模式
+### 模式
 
 https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
 
-#### 普通模式(Normal Mode)
+7 种基本模式：
 
-进入命令模式：
+1. [普通模式（Normal Mode）](#%E6%99%AE%E9%80%9A%E6%A8%A1%E5%BC%8F)
+2. [输入模式（Insert Mode）](#%E8%BE%93%E5%85%A5%E6%A8%A1%E5%BC%8F)
+3. [命令行模式（Command-Line Mode）](#%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%A8%A1%E5%BC%8F)
+4. [可视模式（Visual Mode）](#%E5%8F%AF%E8%A7%86%E6%A8%A1%E5%BC%8F)
+5. [选择模式（Select Mode）](#%E9%80%89%E6%8B%A9%E6%A8%A1%E5%BC%8F)
+6. [Ex 模式（Ex Mode）](#ex-%E6%A8%A1%E5%BC%8F)
+7. [终端作业模式（Terminal Mode）](#%E7%BB%88%E7%AB%AF%E4%BD%9C%E4%B8%9A%E6%A8%A1%E5%BC%8F)
+
+7 种附加模式：
+
+1. 操作符等待模式
+2. 替换模式
+3. 虚拟替换模式
+4. 插入普通模式
+5. 终端普通模式
+6. 插入可视模式
+7. 插入选择模式
+
+#### 普通模式
+
+进入普通模式（1 种方式）：
 
 1. `vim [文件名]`
 
@@ -376,6 +499,8 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 
 ##### 删除、复制与粘贴
 
+重复操作：
+
 1. <kbd>.</kbd> -  不要怀疑！这就是小数点！意思是重复前一个动作的意思。 如果你想要重复删除、重复贴上等等动作，按下小数点 <kbd>.</kbd> 就好了！ (常用)
 
 删除（剪切）：
@@ -394,20 +519,20 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 
 - <kbd>p</kbd> 或 <kbd>P</kbd> - p 为将已复制的数据在光标下一行贴上，P 则为贴在游标上一行！ 举例来说，我目前光标在第 20 行，且已经复制了 10 行数据。则按下 p 后， 那 10 行数据会贴在原本的 20 行之后，亦即由 21 行开始贴。但如果是按下 P 呢？ 那么原本的第 20 行会被推到变成 30 行。 (常用)
 
-#### 输入模式(Insert Mode)
+#### 输入模式
 
-进入输入模式：
+进入输入模式（3 种方式）：
 
 1. <kbd>i</kbd> - 切换到输入模式，在光标当前位置开始输入文本。
 2. <kbd>a</kbd> - 进入插入模式，在光标下一个位置开始输入文本。
 3. <kbd>o</kbd> - 在当前行的下方插入一个新行，并进入插入模式。
 
-退出输入模式，切换到命令模式：
+退出输入模式，切换到普通模式（2 种方式）：
 
 1. <kbd>ESC</kbd>
-2. 在输入模式下按 <kbd>Ctrl</kbd> + <kbd>o</kbd> 即可进入「输入 - 命令模式」，执行完一次操作后又会自动回到输入模式。
+2. 在输入模式下按 <kbd>Ctrl</kbd> + <kbd>o</kbd> 即可进入「输入 - 普通模式」，执行完一次操作后又会自动回到输入模式。
 
-#### 命令行模式(Command-Line Mode)
+#### 命令行模式
 
 教程：
 
@@ -415,11 +540,11 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 - https://zhuanlan.zhihu.com/p/76531156 - *VIM学习笔记 命令行模式 (Command-line Mode) - 知乎*
 - https://yianwillis.github.io/vimcdoc/doc/cmdline.html: - *VIM 中文帮助: 命令行编辑*
 
-进入底线命令模式：
+进入底线命令模式（1 种方式）：
 
-1. <kbd>:</kbd> - 命令模式切换到底线命令模式，以在最底一行输入命令。
+1. <kbd>:</kbd> - 普通模式切换到底线命令模式，以在最底一行输入命令。
 
-退出底线命令模式，切换到命令模式（3 种方式）：
+退出底线命令模式，切换到普通模式（3 种方式）：
 
 1. <kbd>ESC</kbd>
 2. <kbd>Ctrl</kbd> + <kbd>c</kbd>
@@ -471,8 +596,8 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
    :source myscript.vim
    ```
 
-3. **在正常模式下执行多个命令**：
-   你也可以在正常模式下使用 `;` 来执行多个命令。例如：
+3. **在普通模式下执行多个命令**：
+   你也可以在普通模式下使用 `;` 来执行多个命令。例如：
    ```
    :normal! dd | normal! p
    ```
@@ -480,7 +605,7 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 
 通过这些方法，你可以在 Vim 中高效地执行多条命令。
 
-#### 可视模式(Visual Mode)
+#### 可视模式
 
 进入可视模式（3 种方式）：
 
@@ -488,17 +613,35 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html#vim-modes-intro - *VIM 中�
 2. <kbd>V</kbd> 或 <kbd>Shift</kbd> + <kbd>v</kbd> - 进入行可视模式，用于选中行 (visual line)。
 3. <kbd>Ctrl</kbd> + <kbd>v</kbd> 或 <kbd>Ctrl</kbd> + <kbd>q</kbd> - 进入块可视模式 (visual block)。
 
-#### 选择模式(Select Mode)
+退出可视模式（1 种方式）：
+
+1. <kbd>ESC</kbd>
+
+#### 选择模式
 
 https://yianwillis.github.io/vimcdoc/doc/visual.html#Select-mode - *VIM 中文帮助: 使用可视模式 (选择一个文本区域)*
 
-#### Ex 模式(Ex Mode)
+#### Ex 模式
 
 https://yianwillis.github.io/vimcdoc/doc/intro.html#Ex-mode - *VIM 中文帮助: 对 Vim 的一般介绍；帮助文件中所使用的符号*
 
-#### 终端作业模式(Terminal Mode)
+#### 终端作业模式
 
 https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮助: 终端窗口支持*
+
+## 快速入门
+
+操作步骤：
+
+1. [安装 Vim](#安装)
+2. [配置 Vim](#配置)
+3. [启动 Vim](#启动%20vim)
+4. [写入与退出](#)
+5. [切换模式](#模式)
+    1. “普通模式”切换至“输入模式”
+    2. “输入模式”切换至“普通模式”
+6. [基础用法](#基础用法)
+    1. [移动光标](#移动光标)
 
 ## 基础用法
 
@@ -528,6 +671,8 @@ https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮
 
 #### 打开当前文件所在的目录
 
+在“命令行模式”下：
+
 - <kbd>:</kbd> + `Ex`
 - <kbd>:</kbd> + `e %:h`
 
@@ -537,7 +682,7 @@ https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮
 
 #### 查看当前文件所在的路径
 
-在"命令模式(普通模式)"下：
+在"普通模式"下：
 
 - <kbd>1</kbd> 或 <kbd>2</kbd> + <kbd>Ctrl</kbd> + <kbd>g</kbd>
 - <kbd>Ctrl</kbd> + <kbd>g</kbd> - 状态栏会显示当前文件的完整路径
@@ -557,13 +702,18 @@ https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮
 
 ### 移动光标
 
-1. <kbd>0</kbd>（数字 0）或功能键 <kbd>Home</kbd> - 移动到这一行的最前面字符处 (常用)
-2. <kbd>$</kbd> 或功能键 <kbd>End</kbd> - 移动到这一行的最后面字符处(常用)
-3. <kbd>Shift</kbd> + <kbd>g</kbd> - 移动到这个档案的最后一行(常用)
-4. <kbd>n</kbd> + <kbd>G</kbd> - n 为数字。移动到这个档案的第 n 行。例如 20G 则会移动到这个档案的第 20 行(可配合 `:set nu`)
-5. <kbd>g</kbd> + <kbd>g</kbd> - 移动到这个档案的第一行，相当于 1G (常用)
+在“普通模式”下：
 
-https://yianwillis.github.io/vimcdoc/doc/motion.html - *VIM 中文帮助: 有关移动的命令*
+1. <kbd>0</kbd>（数字 0）或功能键 <kbd>Home</kbd> - 移动到这一行的最前面字符处（常用）
+2. <kbd>^</kbd> - 移动到行的首个非空白字符（常用）
+3. <kbd>$</kbd> 或功能键 <kbd>End</kbd> - 移动到这一行的最后面字符处（常用）
+4. <kbd>Shift</kbd> + <kbd>g</kbd> - 移动到这个档案的最后一行（常用）
+5. <kbd>n</kbd> + <kbd>G</kbd> - n 为数字。移动到这个档案的第 n 行。例如 20G 则会移动到这个档案的第 20 行（可配合 `:set nu`）
+6. <kbd>g</kbd> + <kbd>g</kbd> - 移动到这个档案的第一行，相当于 1G（常用）
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/motion.html - *VIM 中文帮助: 有关移动的命令*
 
 #### 位置标记
 
@@ -599,17 +749,21 @@ m{a-zA-Z}
 
 #### 跳转
 
-N  CTRL-O - *跳转到跳转表中第 N 个较早的位置*
+在“普通模式”下：
 
-跳回到上一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>o</kbd>。这个命令会让你在光标位置的历史记录中向后跳转。
+- N CTRL-O - *跳转到跳转表中第 N 个较早的位置*
 
-N  CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
+    - 跳回到上一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>o</kbd>。这个命令会让你在光标位置的历史记录中向后跳转。
 
-跳到下一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>i</kbd>。这个命令会让你在光标位置的历史记录中向前跳转。
+- N CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
 
-`:ju[mps]` - *列出跳转表*
+    - 跳到下一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>i</kbd>。这个命令会让你在光标位置的历史记录中向前跳转。
 
-`:cle[arjumps]` - *清除当前窗口的跳转表*
+在“命令行模式”下：
+
+- `:ju[mps]` - *列出跳转表*
+
+- `:cle[arjumps]` - *清除当前窗口的跳转表*
 
 参考：
 
@@ -689,7 +843,7 @@ N  CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
 参考：
 
 1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_re - *VIM 中文帮助: 总览最常用的命令*
-2. https://yianwillis.github.io/vimcdoc/doc/change.html#:substitute - *VIM 中文帮助: 删除和替换文本*
+2. <https://yianwillis.github.io/vimcdoc/doc/change.html#:substitute> - *VIM 中文帮助: 删除和替换文本*
 3. https://yianwillis.github.io/vimcdoc/doc/usr_10.html#10.2 - *VIM 中文用户手册: 做大修改*
 
 #### 正则
@@ -698,9 +852,15 @@ N  CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
 
 `:help pattern`
 
-https://yianwillis.github.io/vimcdoc/doc/pattern.html#pattern.txt - *VIM 中文帮助: 正则表达式及查找命令*
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/pattern.html#pattern.txt - *VIM 中文帮助: 正则表达式及查找命令*
 
 ### 对比文件
+
+简介：
+
+> Vimdiff starts Vim on two up to eight files.  Each file ​gets its own window.  The differences between the files ​are highlighted. This is a nice way to inspect changes ​and to move changes from one version to another version of the same file.
 
 语法：
 
@@ -718,12 +878,16 @@ vim -d file1 file2 [file3 [file4]]
 
 `man -a vimdiff` - *显示所有匹配的手册页面*
 
+```bash
+man -s 1 vimdiff
+```
+
 参考：
 
 1. https://yianwillis.github.io/vimcdoc/doc/diff.html - *VIM 中文帮助: 编辑同一文本的两到八个版本*
 2. https://blog.csdn.net/2401_85760095/article/details/140018164 - *探索Vim的diff模式：代码差异的终极可视化工具_vimdiff-CSDN博客*
-3. [vim - 强制 vimdiff 换行？_Stack Overflow中文网](https://stackoverflow.org.cn/questions/16840433)
-4. [使用 vimdiff 检查 Vim 中的文件差异](https://cn.linux-console.net/?p=19643)
+3. https://stackoverflow.org.cn/questions/16840433 - *vim - 强制 vimdiff 换行？_Stack Overflow中文网*
+4. https://cn.linux-console.net/?p=19643 - *使用 vimdiff 检查 Vim 中的文件差异*
 
 ### 查看当前文件的改动
 
@@ -1079,11 +1243,11 @@ ChatGPT：
 
 ### 重复操作
 
-<kbd>.</kbd> - 重复上一次的普通模式命令。
+1. <kbd>.</kbd> - 重复上一次的普通模式命令。
 
-<kbd>@</kbd> + <kbd>:</kbd> - 重复上一次的命令行模式命令。
+2. <kbd>@</kbd> + <kbd>:</kbd> - 重复上一次的命令行模式命令。
 
-<kbd>@</kbd> + <kbd>@</kbd> - 重复上一次播放的宏。
+3. <kbd>@</kbd> + <kbd>@</kbd> - 重复上一次播放的宏。
 
 参考：
 
@@ -1091,50 +1255,15 @@ ChatGPT：
 2. <https://oheyu.github.io/zh/posts/tech/vim重复上一次命令/> - *Vim重复上一次命令 | 史玉浩的个人博客*
 3. https://learnku.com/articles/21986 - *VIM 中的重复操作与高效率 | Laravel China 社区*
 
-### 命令历史
-
-普通模式下：
-
-- <kbd>q</kbd> + <kbd>/</kbd> - 查看使用 / 输入的搜索历史
-- <kbd>q</kbd> + <kbd>?</kbd> - 查看使用 ? 输入的搜索历史
-- <kbd>q</kbd> + <kbd>:</kbd> - 查看命令行历史
-
-命令行模式下：
-
-- <kbd>:</kbd> + `history` - 查看所有命令行模式下输入的命令历史
-- <kbd>:</kbd> + `history` + `search` 或 `/` 或 `?` - 查看搜索历史
-- <kbd>:</kbd> +  <kbd>Ctrl</kbd> + <kbd>f</kbd> - 查看所有命令行模式下输入的命令历史
-
-关闭命令历史记录窗口（3 种方式）：
-
-1. <kbd>Ctrl</kbd> + <kbd>c</kbd> + <kbd>ESC</kbd>
-2. <kbd>Ctrl</kbd> + <kbd>w</kbd> + <kbd>c</kbd> - 关闭窗口
-3. <kbd>:</kbd> + <kbd>q</kbd>
-
-禁用命令行历史记录：
-
-- 在当前 Vim 会话中禁用
-
-    `:set history=0`
-
-- 在所有 Vim 会话中禁用
-
-    1. 修改 .vimrc 文件：`vim ~/.vimrc`
-    2. 在 .vimrc 文件中，添加行：`set history=0`
-    3. 保存并退出：`:wq` 或 <kbd>Z</kbd> + <kbd>Z</kbd>
-    4. 重新启动 Vim
-
-参考：
-
-1. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
-2. https://blog.csdn.net/happycodefly/article/details/86684297 - *vim查看命令历史_vim查看编辑历史-CSDN博客*
-3. https://www.cnblogs.com/xy14/p/12787416.html - *VIM - EX 命令行 - 查看历史记录 - 轩辕拾銉 - 博客园*
-4. https://cn.linux-console.net/?p=12056 - *如何在 Vim 中访问和使用命令历史记录*
-5. http://yyq123.github.io/learn-vim/learn-vi-46-01-History.html - *VIM学习笔记 命令历史记录 (History)*
-
 ## 高级用法
 
-### 缓冲区(Buffers)
+- [缓冲区（Buffers）](#%E7%BC%93%E5%86%B2%E5%8C%BA)
+- [宏操作（Macro）](#%E5%AE%8F%E6%93%8D%E4%BD%9C)
+- [寄存器（Registers）](#%E5%AF%84%E5%AD%98%E5%99%A8)
+- [标签页（Tabs）](#%E6%A0%87%E7%AD%BE%E9%A1%B5)
+- [窗口（Windows）](#%E7%AA%97%E5%8F%A3)
+
+### 缓冲区
 
 > buffer 就是当前 vim session 的文件历史记录。
 
@@ -1170,11 +1299,11 @@ ChatGPT：
 
 1. https://www.bookstack.cn/read/learn-vim/file-two.md - *打开文件、查找内容 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
 
-### 宏操作(Macro)
+### 宏操作
 
 操作步骤：
 
-例 `qai'<Esc>a',<Esc>jq7@a`
+示例 `qai'<Esc>a',<Esc>jq7@a`
 
 1. <kbd>q</kbd> 是开启录制宏
 2. <kbd>a</kbd> 是给这次宏的录制过程一个存储位置，可以是 0-9 或 a-z；
@@ -1188,7 +1317,7 @@ Tips：<kbd>@</kbd> + <kbd>@</kbd> 再次唤起最后一次执行的宏。
 
 1. https://www.bookstack.cn/read/learn-vim/file-seven.md - *vim 中的宏 - 《Vim 实操教程（Learn Vim）》 - 书栈网 · BookStack*
 
-### 寄存器(Registers)
+### 寄存器
 
 寄存器分类：
 
@@ -1220,7 +1349,7 @@ Tips：<kbd>@</kbd> + <kbd>@</kbd> 再次唤起最后一次执行的宏。
 2. https://docs.kilvn.com/vim_zh_cn/ch08_registers_zh.html - *Ch 8 - 寄存器 · VIM 操作手册*
 3. https://www.baeldung-cn.com/linux/vim-registers - *使用Vim寄存器 | Baeldung中文网*
 
-### 标签页(Tabs)
+### 标签页
 
 创建标签页：
 
@@ -1244,7 +1373,7 @@ Tips：<kbd>@</kbd> + <kbd>@</kbd> 再次唤起最后一次执行的宏。
 2. https://docs.kilvn.com/vim_zh_cn/ch02_buffers_windows_tabs.html#tabs - *Ch 2 - 缓冲区，窗口和选项卡 · VIM 操作手册*
 3. https://yianwillis.github.io/vimcdoc/doc/tabpage.html - *VIM 中文帮助: 使用多个标签页的命令*
 
-### 窗口(Windows)
+### 窗口
 
 打开窗口：
 
@@ -1585,7 +1714,7 @@ https://github.com/prettier/vim-prettier - *GitHub - prettier/vim-prettier: A Vi
 
 参考：
 
-https://linux.cn/article-9392-1.html - *技术|如何在 Linux/Unix 中不重启 Vim 而重新加载 .vimrc 文件*
+1. https://linux.cn/article-9392-1.html - *技术|如何在 Linux/Unix 中不重启 Vim 而重新加载 .vimrc 文件*
 
 ### 重新加载文件
 
@@ -1615,7 +1744,7 @@ https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 
 
 参考：
 
-<https://wangchujiang.com/reference/docs/vim.html#技巧> - *Vim 备忘清单 & vim cheatsheet & Quick Reference*
+1. <https://wangchujiang.com/reference/docs/vim.html#技巧> - *Vim 备忘清单 & vim cheatsheet & Quick Reference*
 
 ### 不退出 Vim 执行 Shell 命令
 
@@ -1687,7 +1816,7 @@ https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 
 1. https://www.cnblogs.com/zhangshuli-1989/p/hq_vim_151019165.html - *vim状态保存跟恢复 - 小白屋 - 博客园*
 2. https://blog.csdn.net/2401_85702623/article/details/140102411 - *掌握Vim的会话之道：深度解析会话管理功能_vim make session-CSDN博客*
 3. https://yianwillis.github.io/vimcdoc/doc/usr_21.html - *VIM 中文用户手册: 离开和回来*
-4. https://yianwillis.github.io/vimcdoc/doc/starting.html#:mksession - *VIM 中文帮助: 启动 Vim，Vim 命令参数，初始化*
+4. <https://yianwillis.github.io/vimcdoc/doc/starting.html#:mksession> - *VIM 中文帮助: 启动 Vim，Vim 命令参数，初始化*
 
 ### Vim 多个文件查找内容并替换
 
@@ -1797,6 +1926,22 @@ https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 
 2. https://www.cnblogs.com/jackie-astro/p/13324675.html - *使用vim在多个文件中进行查找和替换 - jackie_astro - 博客园*
 3. https://blog.csdn.net/sunxiaopengsun/article/details/62046415 - *VIM下,在文件及目录中查找字符串的方法 (vimgrep)_5.用vim查找文件中包含的字符串内容-CSDN博客*
 4. https://www.cnblogs.com/yuanwanli/p/12833821.html - *Linux查找整个目录下包含关键词的文件并全局替换文件内容 - 原万里 - 博客园*
+
+### 定位至光标所在的位置
+
+在 Vim 中，如果你想要定位到光标所在的位置，可以使用以下方法：
+
+1. **使用 `zz` 命令**：在普通模式下，按 `zz` 可以将当前行居中显示在窗口中。
+
+2. **使用 `zt` 命令**：按 `zt` 可以将当前行移动到窗口的顶部。
+
+3. **使用 `zb` 命令**：按 `zb` 可以将当前行移动到窗口的底部。
+
+4. **使用 `Ctrl + u` 和 `Ctrl + d`**：这两个命令可以向上或向下滚动半个窗口，帮助你查看光标周围的内容。
+
+5. **使用 `Ctrl + b` 和 `Ctrl + f`**：这两个命令可以向上或向下翻页，适合查看更远的内容。
+
+这些命令可以帮助你快速调整视图，使光标所在的行更容易查看。
 
 ## 参考
 

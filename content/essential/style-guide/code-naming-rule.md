@@ -644,6 +644,16 @@ https://zhuanlan.zhihu.com/p/456055339 - *【LaTeX】新手教程：从入门到
 
 119. `announce` v.宣布;宣告(决定、计划等);(尤指通过广播)通知;声称;宣称
 
+### 手势
+
+https://m3.material.io/foundations/interaction/gestures - *Gestures – Material Design 3*
+
+1. `gestures` n. 手势
+2. `tap`
+3. `scroll`
+4. `swipe`
+5. `drag`
+
 ### 层级
 
 1. `main` adj.主要的;最重要的

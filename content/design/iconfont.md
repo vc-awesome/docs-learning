@@ -4,7 +4,7 @@
 
 > Icon fonts are vector graphics that contain glyphs and symbols instead of letters and numbers. They may be styled with CSS, similar to regular text.
 >
-> <cite>—— [icon-font · GitHub Topics · GitHub](https://githubfast.com/topics/icon-font)</cite>
+> <cite>—— [icon-font · GitHub Topics · GitHub](https://github.com/topics/icon-font)</cite>
 
 
 ## Search
@@ -343,7 +343,7 @@ https://fontawesome.dashgame.com#fixed-width
 </details>
 
 
-## Tool
+## Tools
 
 ### 字体编辑器
 
@@ -412,7 +412,7 @@ https://fontawesome.dashgame.com#fixed-width
 https://yesicon.app/ - *Yesicon - 精选全球高品质、开源、免费的矢量图标库*
 
 
-## Library
+## Libraries
 
 > 《图标字体库》，部分 Web UI 框架会自带图标库。
 

@@ -306,6 +306,13 @@ https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键�
 1. 打开 *系统设置 > 通用 > 登录项* ；
 2. 添加完成后重启电脑。
 
+### 守护进程
+
+1. https://ss64.com/mac/launchctl.html - *launchctl Man Page - macOS - SS64.com*
+2. https://support.apple.com/zh-cn/guide/terminal/apdc6c1077b-5d5d-4d35-9c19-60f2397b2369/mac - *在 Mac 上的“终端”中使用 launchd 管理脚本 - 官方 Apple 支持 (中国)*
+3. https://medium.com/ - *MacOS Shortcut scheduling using launchctl | by richard moult | Medium*
+4. https://www.alansiu.net/2023/11/15/launchctl-new-subcommand-basics-for-macos/ - *launchctl “new” subcommand basics for macOS – Alan Siu's Blog*
+
 ### 查看网络活动
 
 使用系统工具「[活动监视器](#活动监视器)」。
@@ -351,11 +358,17 @@ https://support.apple.com/zh-cn/guide/mac-help/mh36834/mac - *在 Mac 上设置 
 
 ### Safari 浏览器
 
+官方：
+
 https://www.apple.com.cn/safari/ - *Safari 浏览器 - Apple (中国大陆)*
+
+手册：
 
 https://support.apple.com/zh-cn/safari - *Safari 浏览器 - 官方 Apple 支持*
 
 https://support.apple.com/zh-cn/guide/safari/welcome/mac - *适用于 Mac 的 Safari 浏览器使用手册 - 官方 Apple 支持 (中国)*
+
+安装：
 
 - 支持 macOS（系统内置）, iOS（[App Store](https://apps.apple.com/cn/app/safari/id1146562112)）
 
@@ -398,7 +411,7 @@ https://support.apple.com/zh-cn/guide/preview/welcome/mac - *适用于 Mac 的�
 
 长截图：
 
-- 借助三方工具「[iShot Pro 破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)」；如遇安装、开启问题，可查看网友评论的[解决办法](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html#comment-id-91592)。
+- 借助第三方工具「[iShot Pro 破解版](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html)」；如遇安装、开启问题，可查看网友评论的[解决办法](https://appstorrent.ru/1619-ishot-pro-screenshot-recording.html#comment-id-91592)。
 
 ### 快捷指令
 

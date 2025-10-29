@@ -14,7 +14,7 @@ Website: https://www.alfredapp.com/ - *Alfred - Productivity App for macOS*
 
 破解下载：https://appstorrent.ru/129-alfred.html - *Скачать Alfred 5 Powerpack 5.1 (2134) на Мак с ключом активации (Crack) бесплатно и без регистрации | K'ed by TNT team | macOS Big Sur*
 
-## 快速入门
+## 入门指南
 
 ### Features
 

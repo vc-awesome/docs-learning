@@ -139,6 +139,10 @@ https://addons.mozilla.org/zh-CN/firefox/ - *Firefox 附加组件（zh-CN）*
 
 https://addons.mozilla.org/zh-CN/android/ - *适用于 Android 的 Firefox 附加组件（zh-CN）*
 
+## 更新日志
+
+1. https://www.mozilla.org/en-US/firefox/android/141.0.3/releasenotes/ - *Firefox for Android 141.0.3, See All New Features, Updates and Fixes*
+
 ## 常见问题解答
 
 ### 如何复制链接文字

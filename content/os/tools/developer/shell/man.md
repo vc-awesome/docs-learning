@@ -2,21 +2,34 @@
 
 ## 简介
 
-暂无
+> "Man pages" (short for "manual pages") are a form of software documentation found on Unix-like operating systems. They provide detailed information about commands, system calls, libraries, and other aspects of the system. Each man page is organized into sections, and each section covers a specific topic.
 
 ## 官方
 
 1. https://manned.org/ - *Man Pages Archive - manned.org*
-2. https://manpages.org/ - *Linux Man Pages*
-3. https://www.man7.org/linux/man-pages/ - *Linux man pages online*
-4. https://manpages.debian.org/ - *index — Debian Manpages*
-5. https://wiki.archlinux.org/title/Man_page - *man page - ArchWiki*
-    - 👏 https://wiki.archlinux.org/title/Man_page#Online_man_pages - *6Online man pages*
-    - https://man.archlinux.org/man/man.1.zh_CN - *man(1) — Arch manual pages*
+2. https://www.kernel.org/doc/man-pages/ - *The Linux man-pages project*
+    - https://www.man7.org/linux/man-pages/ - *Linux man pages online*
 
 ## 教程
 
-暂无
+https://github.com/man-pages-zh/manpages-zh - *GitHub - man-pages-zh/manpages-zh: Chinese Manual Pages*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/man-pages-zh/manpages-zh?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/man-pages-zh/manpages-zh?style=social)
+
+### Arch Linux
+
+https://wiki.archlinux.org/title/Man_page - *man page - ArchWiki*
+- 👏 https://wiki.archlinux.org/title/Man_page#Online_man_pages - *6Online man pages*
+- https://man.archlinux.org/man/man.1.zh_CN - *man(1) — Arch manual pages*
+
+### Debain
+
+https://manpages.debian.org/ - *index — Debian Manpages*
+
+### Ubuntu
+
+https://manpages.ubuntu.com/ - *Ubuntu Manpage: Welcome*
 
 ## 入门指南
 

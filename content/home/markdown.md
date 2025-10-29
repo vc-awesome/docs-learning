@@ -1318,7 +1318,22 @@ https://www.markdownguide.org/hacks/ - *Hacks | Markdown Guide*
 Element：
 
 - [下划线 Underline](#underline)
+- [缩进（制表符）Indent (Tab)](#indent-tab)
+- [居中 Center](#center)
+- [颜色 Color](#color)
 
 ### Underline
 
-暂无
+https://www.markdownguide.org/hacks/#underline - *Hacks | Markdown Guide - Hacks | Markdown Guide*
+
+### Indent (Tab)
+
+https://www.markdownguide.org/hacks/#indent-tab - *Hacks | Markdown Guide - Hacks | Markdown Guide*
+
+### Center
+
+https://www.markdownguide.org/hacks/#center - *Hacks | Markdown Guide - Hacks | Markdown Guide*
+
+### Color
+
+https://www.markdownguide.org/hacks/#color - *Hacks | Markdown Guide - Hacks | Markdown Guide*

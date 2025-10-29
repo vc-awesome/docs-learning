@@ -10,7 +10,7 @@
 >
 > <cite>—— [Artificial intelligence (AI) | Definition, Examples, Types, Applications, Companies, & Facts | Britannica](https://www.britannica.com/technology/artificial-intelligence)</cite>
 
-## 产品
+## 功能
 
 - AI 办公
 - AI 美图
@@ -18,26 +18,21 @@
 - AI 写作
 - AI 学习
 
+## 产品
+
 1. https://anakin.ai/zh-cn - *Anakin.ai - 一站式 AI 应用平台*
 2. https://www.anthropic.com/claude - *Meet Claude \ Anthropic*
 
 ---
 
-1. https://github.com/wangrongding/wechat-bot - *GitHub - wangrongding/wechat-bot: 🤖一个基于OpenAi ChatGPT + WeChaty 实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...*
-
-    ![GitHub last commit](https://img.shields.io/github/last-commit/wangrongding/wechat-bot?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/wangrongding/wechat-bot?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wangrongding/wechat-bot?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/wangrongding/wechat-bot?style=social)
-
-2. https://github.com/justjavac/openai-proxy - *GitHub - justjavac/openai-proxy: OpenAI/ChatGPT 免翻墙代理*
+1. https://github.com/justjavac/openai-proxy - *GitHub - justjavac/openai-proxy: OpenAI/ChatGPT 免翻墙代理*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/justjavac/openai-proxy?color=blue&logo=github)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/justjavac/openai-proxy?display_date=published_at&logo=github)
     ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/justjavac/openai-proxy?logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/justjavac/openai-proxy?style=social)
 
-3. https://github.com/jaywcjlove/awesome-chatgpt - *GitHub - jaywcjlove/awesome-chatgpt*
+2. https://github.com/jaywcjlove/awesome-chatgpt - *GitHub - jaywcjlove/awesome-chatgpt*
 
     ![GitHub last commit](https://img.shields.io/github/last-commit/jaywcjlove/awesome-chatgpt?logo=github&color=blue)
     ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/jaywcjlove/awesome-chatgpt?display_date=published_at&logo=github)
@@ -89,5 +84,40 @@ https://www.ecosia.org/chat?q=%20 - *Ecosia - Chat*
 比如设置成美式英语：*Settings > Search region > United States (English)*
 
 ### DeepSeek
+
+> 深度求索（DeepSeek），成立于2023年，专注于研究世界领先的通用人工智能底层模型与技术，挑战人工智能前沿性难题。基于自研训练框架、自建智算集群和万卡算力等资源，深度求索团队仅用半年时间便已发布并开源多个百亿级参数大模型，如DeepSeek-LLM通用大语言模型、DeepSeek-Coder代码大模型，并在2024年1月率先开源国内首个MoE大模型（DeepSeek-MoE），各大模型在公开评测榜单及真实样本外的泛化效果均有超越同级别模型的出色表现。和 DeepSeek AI 对话，轻松接入 API。
+
+![GitHub followers](https://img.shields.io/github/followers/deepseek-ai)
+![GitHub Org's stars](https://img.shields.io/github/stars/deepseek-ai)
+
+https://www.deepseek.com/ - *DeepSeek | 深度求索*
+
+https://chat.deepseek.com/ - *DeepSeek*
+
+https://github.com/deepseek-ai - *DeepSeek · GitHub*
+
+## 集成
+
+1. https://github.com/deepseek-ai/awesome-deepseek-integration - *GitHub - deepseek-ai/awesome-deepseek-integration: Integrate the DeepSeek API into popular softwares*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/deepseek-ai/awesome-deepseek-integration?logo=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deepseek-ai/awesome-deepseek-integration?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deepseek-ai/awesome-deepseek-integration?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/deepseek-ai/awesome-deepseek-integration?style=social)
+
+### 浏览器扩展
+
+暂无
+
+### 微信
+
+1. https://github.com/wangrongding/wechat-bot - *GitHub - wangrongding/wechat-bot: 🤖一个基于OpenAi ChatGPT + WeChaty 实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/wangrongding/wechat-bot?color=blue&logo=github)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/wangrongding/wechat-bot?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/wangrongding/wechat-bot?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/wangrongding/wechat-bot?style=social)
+
+### VS Code 扩展
 
 暂无

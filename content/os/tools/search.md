@@ -149,6 +149,14 @@ Awesome:
 
 暂无
 
+#### Browser Extensions
+
+Topics:
+
+1. https://github.com/topics/chrome-extension - *chrome-extension · GitHub Topics · GitHub*
+
+2. https://github.com/topics/browser-extension - *browser-extension · GitHub Topics · GitHub*
+
 #### Self-hosting
 
 Awesome:
@@ -282,6 +290,16 @@ https://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站ap
 
 1. https://apkpure.com/ - *使用APKPure APK下载器在线极速下载原版应用 - APKPure官网* [配置 hosts](https://zhuanlan.zhihu.com/p/47225701)
 
+#### Browser Extensions
+
+1. https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefox,Opera*
+
+2. https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
+
+3. https://crxdl.com/ - *CrxDL - Chrome浏览器扩展插件CRX下载网*
+
+4. https://www.crx4chrome.com/ - *Crx4Chrome - Download CRX for Chrome Apps & Extensions*
+
 ### 破解软件
 
 > crack 破解
@@ -293,6 +311,8 @@ https://www.nbadao.com/2519.html - *google play 谷歌市场镜像替代网站ap
 2. https://www.lan-sha.com/ - *蓝鲨 - 让您在互联网的海洋里自由的遨游！* `破解, Windows`
 
 #### macOS
+
+https://appstorrent.ru/ - *Appstorrent - Игры и программы для macOS*
 
 https://rutracker.org/ - *RuTracker.org*\
 \> _via https://extfans.com/ - *扩展迷*_ `🔮`
@@ -355,6 +375,7 @@ Emojj | 含义
 #### Android
 
 1. [APKGODY.COM - Your #1 Source for MOD APK Downloads on Android](https://apkgody.com/) - *APKGODY.COM is your go-to destination for a wide range of APK, MOD APK, and Premium APK games and applications. Whether you&#039;re looking for popular games, useful applications, or premium features unlocked, APKGODY.COM has you covered. All downloads are offered completely free of charge and are guaranteed to be safe for your device. Explore our extensive collection and enhance your mobile experience today!*
+2. [LITEAPKS - #1 MOD APK for Android](https://liteapks.com/) - *LITEAPKS.COM is the leading reputable source for mod apk, free games and apps for Android*
 
 ### 绿色软件
 
@@ -662,6 +683,7 @@ https://www.npmjs.com/ - *npm | Home*
 官网：
 
 1. https://appgallery.huawei.com/ - *应用市场*
+2. https://appgallery.huawei.com/Apps - *AppGallery*
 
 #### 豌豆荚
 
@@ -700,7 +722,7 @@ https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量
 
 > <img src="https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/org.fdroid.fdroid/en-US/icon_0slNR8J9edqDZDoyWABFZrqQONU9EyiNVwM6B3Jui_Q=.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
 >
-> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。
+> F-Droid 是一个 Android 平台上 FOSS（Free and Open Source Software，自由开源软件）的目录，并提供下载安装支持。使用客户端可以更轻松地浏览、安装及跟进设备上的应用更新。 [使用手册](os/mobile/f-droid.md)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/f-droid/fdroidclient?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
@@ -779,5 +801,32 @@ GitHub:
 下载应用：
 
 1. https://apps.obtainium.imranr.dev/ - *Obtainium Apps*
+
+### Browser Extensions
+
+#### Chrome
+
+> Add new features to your browser and personalize your browsing experience.
+
+官方：
+
+1. https://chromewebstore.google.com/ - *Chrome 应用商店*
+
+#### Edge
+
+> Make Microsoft Edge your own with extensions that help you personalize the browser and be more productive.
+
+官方：
+
+1. https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home?hl=zh-CN - _Microsoft Edge 加载项_
+
+#### Firefox
+
+> Download Firefox Extensions to add features that customize browsing. Protect passwords, find deals, enhance video, and block annoying ads with browser apps.
+
+官方：
+
+1. https://addons.mozilla.org/zh-CN/firefox/extensions/ - _扩展 – Firefox 附加组件（zh-CN）_
+2. https://addons.mozilla.org/zh-CN/android/ - *适用于 Android 的 Firefox 附加组件（zh-CN）*
 
 [^refer]: https://localsend.org/#/download "LocalSend"

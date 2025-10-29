@@ -1,5 +1,5 @@
 * [设计](design/README.md)
-* [User Interface](design/ui/README.md)
-* [Font](design/font/README.md)
-* [Icon](design/icon.md)
+* [用户界面](design/ui/README.md)
+* [字体](design/font/README.md)
+* [图标](design/icon.md)
 * [图标字体](design/iconfont.md)

@@ -1,5 +1,13 @@
 # DNS
 
+![bg2022080102.webp (WEBP Image, 800 × 400 pixels) — Scaled (49%)](https://cdn.beekka.com/blogimg/asset/202208/bg2022080102.webp)
+
+<div style="text-align: right;">
+
+<small>*Picture source: [DNS 查询原理详解 - 阮一峰的网络日志](https://www.ruanyifeng.com/blog/2022/08/dns-query.html)*</small>
+
+</div>
+
 ## 简介
 
 > DNS（Domain Name System）域名系统，简单点来说，就是当我们在浏览器输入一个网址，需要有一台 DNS 服务器帮我们解析成 IP 地址，我们才能打开这个网站。那么，DNS 服务器解析的速度快慢，直接影响到我们访问网站的快慢。
@@ -20,17 +28,23 @@ DNS 是互联网运行的基础，允许用户使用人类可读的域名访问�
 
 ## 教程
 
-1. http://www.ruanyifeng.com/blog/2022/08/dns-query.html - *DNS 查询原理详解 - 阮一峰的网络日志*
-2. https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts - *An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean*
-3. https://ephen.me/2017/PublicDns_1/ - *使用公共 DNS 上网的弊端（一） | Ephen‘s Blog*
-4. https://ephen.me/2017/PublicDns_2/ - *使用公共 DNS 上网的弊端（二） | Ephen‘s Blog*
-5. https://selfboot.cn/2015/11/05/dns_theory/ - *从理论到实践，全方位认识DNS（理论篇） | Just For Fun*
-6. https://selfboot.cn/2015/11/14/dns_practice/ - *从理论到实践，全方位认识DNS（实践篇） | Just For Fun*
-7. https://blog.skk.moe/post/i-have-my-unique-dns-setup/ - *我有特别的 DNS 配置和使用技巧 | Sukka's Blog*
+1. https://www.ruanyifeng.com/blog/2016/06/dns.html - *DNS 原理入门 - 阮一峰的网络日志*
+2. https://www.ruanyifeng.com/blog/2022/08/dns-query.html - *DNS 查询原理详解 - 阮一峰的网络日志*
+3. https://www.cloudflare.com/zh-cn/learning/dns/what-is-dns/ - *什么是 DNS_DNS如何工作_权威性DNS服务器 | Cloudflare 中国官网 | Cloudflare*
+4. https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts - *An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean*
+5. https://ephen.me/2017/PublicDns_1/ - *使用公共 DNS 上网的弊端（一） | Ephen‘s Blog*
+6. https://ephen.me/2017/PublicDns_2/ - *使用公共 DNS 上网的弊端（二） | Ephen‘s Blog*
+7. https://selfboot.cn/2015/11/05/dns_theory/ - *从理论到实践，全方位认识DNS（理论篇） | Just For Fun*
+8. https://selfboot.cn/2015/11/14/dns_practice/ - *从理论到实践，全方位认识DNS（实践篇） | Just For Fun*
+9. https://blog.skk.moe/post/i-have-my-unique-dns-setup/ - *我有特别的 DNS 配置和使用技巧 | Sukka's Blog*
 
 ### DNS 泄露
 
 https://einverne.github.io/post/2024/06/dns-leak.html - *DNS 泄漏以及如何防止 | Verne in GitHub*
+
+### DNS 污染
+
+暂无
 
 ## DNS 域名商
 
@@ -67,7 +81,19 @@ TXT 记录一般是为某条记录设置说明。
 
 #### A 记录
 
+暂无
+
 #### AAAA 记录
+
+暂无
+
+#### CNAME 记录
+
+暂无
+
+#### NS 记录
+
+暂无
 
 ### 配置
 
@@ -80,6 +106,26 @@ https://yun123.io/dns-ttl-best-practices/ - *DNS TTL值设置最佳实践 – �
 #### CNAME
 
 https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - *如何配置域名的 CNAME - 七牛开发者中心*
+
+## DNS 服务器类型
+
+https://www.ruanyifeng.com/blog/2018/05/root-domain.html - *根域名的知识 - 阮一峰的网络日志*
+
+### 递归解析器
+
+暂无
+
+### 根域名服务器
+
+暂无
+
+### TLD 域名服务器
+
+暂无
+
+### 权威性域名服务器
+
+暂无
 
 ## 公共 DNS
 
@@ -109,6 +155,10 @@ https://developer.qiniu.com/fusion/kb/1322/how-to-configure-cname-domain-name - 
 4. https://jingyan.baidu.com/article/49711c61a30127fa451b7c51.html - *2018 年公共 DNS 推荐 - 百度经验*
 5. https://jingyan.baidu.com/album/6dad50753e6031a123e36e1f.html - *2018 公共 DNS 服务器地址评估 —DNS 推荐_电脑软件 - 百度经验*
 6. https://dnsdaquan.com/ - *全国DNS服务器IP地址大全 公共DNS大全 dns地址大全 dns大全*
+
+### UDP
+
+暂无
 
 ### DNS 安全协议
 
@@ -182,6 +232,10 @@ DoT 是 **DNS over TLS** 的缩写。 它是另一种执行 DNS 解析的协议�
 4. **兼容性：** 一些操作系统、DNS 服务器和客户端软件支持 DoT。 作为 DNS 解析的一种隐私增强技术，DoT 与 DoH 的应用正在不断增长。
 
 对于需要安全 DNS 解析而又不依赖 HTTPS 的应用和设备来说，TLS DNS 尤为有利。 它具有与 DoH 类似的隐私和安全优势，但在 TLS 协议而不是 HTTPS 中运行。
+
+#### DoQ
+
+暂无
 
 ## 配置 DNS
 
@@ -257,7 +311,7 @@ https://www.cnblogs.com/dewan/p/nslookup.html - *nslookup 域名或IP地址 [DNS
 
 ## 清除 DNS 缓存
 
-1. https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache - *如何刷新DNS缓存 | AdGuard DNS Knowledge Base*
+1. https://adguard-dns.io/kb/zh-CN/public-dns/solving-problems/how-to-flush-dns-cache/ - *如何刷新DNS缓存 | AdGuard DNS Knowledge Base*
 2. http://www.dayanzai.me/flush-dns.html - *刷新 DNS：如何清除 DNS 缓存*
 3. https://www.sysgeek.cn/flush-dns-cache/ - *如何清除与刷新 DNS 缓存，完全指南 - 系统极客*
 
@@ -285,7 +339,7 @@ sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder
 
 刷新 macOS 系统 DNS 缓存
 
-### 桌面浏览器
+### 浏览器
 
 用法：
 
@@ -301,9 +355,11 @@ sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder
 
 ## 查询
 
-https://site.ip138.com/ip/domain.htm - *ip子域名大全 ip二级域名 ip域名解析查询*
+https://site.ip138.com/ - *ip子域名大全 ip二级域名 ip域名解析查询*
 
 ### Ping
+
+暂无
 
 ### 子域名
 
@@ -334,15 +390,37 @@ https://mp.weixin.qq.com/s/Ch4JISwgS7rgDQXQT9De8g - *网页打开慢／图片刷
 
 https://www.isc.org/dns-tools/ - *DNS Tools - ISC*
 
-### 在线工具
+### 命令行工具
 
-1. 👏 https://whatismyip.li/dns-leak - *What is my IP | What is a DNS leak?*
+#### dig
+
+暂无
+
+#### host
+
+暂无
+
+#### nslookup
+
+暂无
+
+#### ping
+
+暂无
+
+#### whois
+
+暂无
+
+### Web 工具
+
+1. 👏 https://whatismyip.li/dns-leak/ - *What is my IP | What is a DNS leak?*
 2. https://nstool.netease.com/ - *网易DNS检测工具*
 3. https://uutool.cn/nslookup/ - *在线nslookup域名解析查询工具 - UU在线工具*
 4. https://tool.chinaz.com/nslookup/ - *nslookup查询*
 5. https://cloud.baidu.com/product/bcd/mobile/#/ - *bcd-applet*
 6. https://tool.chinaz.com/dns/ - *DNS查询*
-7. https://ntool.chinaz.com/dnsce/ - *DNS污染检测*
+7. https://tool.chinaz.com/dnsce/ - *DNS污染检测*
 8. https://mping.chinaz.com/ - *多个地点Ping服务器,网站测速 - 站长工具*
 
 ### 客户端工具
@@ -374,11 +452,19 @@ https://www.grc.com/dns/benchmark.htm - *GRC's | DNS Nameserver Performance Benc
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/bitbeans/SimpleDnsCrypt?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/bitbeans/SimpleDnsCrypt?style=social)
 
-Website: https://simplednscrypt.org/ - *Simple DNSCrypt* 🪜
+官方：
 
-GitHub: https://github.com/bitbeans/SimpleDnsCrypt - *bitbeans/SimpleDnsCrypt: A simple management tool for dnscrypt-proxy*
+1. Website: https://simplednscrypt.org/ - *Simple DNSCrypt* 🪜
 
-参考：https://zhuanlan.zhihu.com/p/89837660 - *使用Simple DNSCrypt/DNSoverHTTPS？ - 知乎*
+2. GitHub: https://github.com/bitbeans/SimpleDnsCrypt - *bitbeans/SimpleDnsCrypt: A simple management tool for dnscrypt-proxy*
+
+支持的平台：
+
+1. Windows
+
+参考：
+
+1. https://zhuanlan.zhihu.com/p/89837660 - *使用Simple DNSCrypt/DNSoverHTTPS？ - 知乎*
 
 #### dnscrypt-proxy
 
@@ -389,9 +475,11 @@ GitHub: https://github.com/bitbeans/SimpleDnsCrypt - *bitbeans/SimpleDnsCrypt: A
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/DNSCrypt/dnscrypt-proxy?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/DNSCrypt/dnscrypt-proxy?style=social)
 
-Website: https://dnscrypt.info/ - *DNSCrypt version 2 - Official Project Home Page*
+官方：
 
-GitHub: https://github.com/DNSCrypt/dnscrypt-proxy - *DNSCrypt/dnscrypt-proxy: dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.*
+1. Website: https://dnscrypt.info/ - *DNSCrypt version 2 - Official Project Home Page*
+
+2. GitHub: https://github.com/DNSCrypt/dnscrypt-proxy - *DNSCrypt/dnscrypt-proxy: dnscrypt-proxy 2 - A flexible DNS proxy, with support for encrypted DNS protocols.*
 
 支持的平台：
 
@@ -404,14 +492,16 @@ GitHub: https://github.com/DNSCrypt/dnscrypt-proxy - *DNSCrypt/dnscrypt-proxy: d
 
 > 自建能够保护您的个人信息、允许您在互联网上管理对特殊内容的访问以及屏蔽跟踪器的拦截广告 DNS 服务器。
 
-https://adguard-dns.io/zh_cn/welcome.html - *AdGuard DNS — 拦截广告的 DNS 服务器*
+官方：
 
-1. https://adguard-dns.io/zh_cn/public-dns.html - *连接到公共 AdGuard DNS 服务器*
+1. https://adguard-dns.io/zh_cn/welcome.html - *AdGuard DNS — 拦截广告的 DNS 服务器*
 
-2. https://adguard-dns.io/kb/zh-CN/ - *概览 | AdGuard DNS Knowledge Base* [GitHub Repo](https://github.com/AdguardTeam/KnowledgeBaseDNS)
+    1. https://adguard-dns.io/zh_cn/public-dns.html - *连接到公共 AdGuard DNS 服务器*
 
-    ![GitHub last commit](https://img.shields.io/github/last-commit/AdguardTeam/KnowledgeBaseDNS?color=blue&logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/AdguardTeam/KnowledgeBaseDNS?style=social)
+    2. https://adguard-dns.io/kb/zh-CN/ - *概览 | AdGuard DNS Knowledge Base* [GitHub Repo](https://github.com/AdguardTeam/KnowledgeBaseDNS)
+
+        ![GitHub last commit](https://img.shields.io/github/last-commit/AdguardTeam/KnowledgeBaseDNS?color=blue&logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/AdguardTeam/KnowledgeBaseDNS?style=social)
 
 #### SmartDNS
 
@@ -422,13 +512,11 @@ https://adguard-dns.io/zh_cn/welcome.html - *AdGuard DNS — 拦截广告的 DNS
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/pymumu/smartdns?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/pymumu/smartdns?style=social)
 
-Website:
+官方：
 
-1. https://pymumu.github.io/smartdns/ - *SmartDNS*
+1. Website: https://pymumu.github.io/smartdns/ - *SmartDNS*
 
-GitHub:
-
-1. https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*
+2. GitHub: https://github.com/pymumu/smartdns - *GitHub - pymumu/smartdns: A local DNS server to obtain the fastest website IP for the best Internet experience, support DoT, DoH. 一个本地DNS服务器，获取最快的网站IP，获得最佳上网体验，支持DoH，DoT。*
 
 支持的平台：
 
@@ -484,9 +572,11 @@ GitHub:
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/paulmillr/encrypted-dns?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/paulmillr/encrypted-dns?style=social)
 
-https://paulmillr.com/posts/encrypted-dns/ - *Paul Miller&nbsp;&mdash; iOS 14, Big Sur and DNS over HTTPS*
+官方：
 
-https://github.com/paulmillr/encrypted-dns - *paulmillr/encrypted-dns: DNS over HTTPS config profiles for iOS & macOS*
+1. https://paulmillr.com/posts/encrypted-dns/ - *Paul Miller&nbsp;&mdash; iOS 14, Big Sur and DNS over HTTPS*
+
+2. https://github.com/paulmillr/encrypted-dns - *paulmillr/encrypted-dns: DNS over HTTPS config profiles for iOS & macOS*
 
 支持的平台：
 
@@ -498,7 +588,7 @@ https://github.com/paulmillr/encrypted-dns - *paulmillr/encrypted-dns: DNS over 
 1. [DnsChanger](https://git.frostnerd.com/PublicAndroidApps/DnsChanger) - *PublicAndroidApps / DnsChanger · GitLab*
 2. [personalDNSfilter](https://www.zenz-solutions.de/personaldnsfilter-wp/) - *personalDNSfilter | Zenz Solutions | adblocker & privacy protection*
 
-    有关详细信息，请参阅“[personalDNSfilter](/os/mobile/mobile-app-list.md#personaldnsfilter)”。
+    有关详细信息，请参阅“[personalDNSfilter](os/mobile/app-list.md#personaldnsfilter)”。
 
 ### 服务器端
 

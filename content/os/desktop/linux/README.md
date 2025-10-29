@@ -193,11 +193,15 @@ https://www.ruanyifeng.com/blog/2016/02/linux-daemon.html - *Linux 守护进程�
 
 #### Systemd
 
-http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html - *Systemd 入门教程：命令篇 - 阮一峰的网络日志*
+官方：
 
-http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html - *Systemd 入门教程：实战篇 - 阮一峰的网络日志*
+1. https://systemd.io/ - *System and Service Manager*
 
-http://www.ruanyifeng.com/blog/2018/03/systemd-timer.html - *Systemd 定时器教程 - 阮一峰的网络日志*
+教程：
+
+1. http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-commands.html - *Systemd 入门教程：命令篇 - 阮一峰的网络日志*
+2. http://www.ruanyifeng.com/blog/2016/03/systemd-tutorial-part-two.html - *Systemd 入门教程：实战篇 - 阮一峰的网络日志*
+3. http://www.ruanyifeng.com/blog/2018/03/systemd-timer.html - *Systemd 定时器教程 - 阮一峰的网络日志*
 
 #### Tmux
 

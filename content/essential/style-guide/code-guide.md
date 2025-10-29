@@ -566,9 +566,9 @@ Visual Studio Code：
     - https://github.com/stylelint/vscode-stylelint
 
         ![GitHub last commit](https://img.shields.io/github/last-commit/stylelint/vscode-stylelint?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/stylelint/vscode-stylelint?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stylelint/vscode-stylelint?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/stylelint/vscode-stylelint?style=social)
+        ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/stylelint/vscode-stylelint?display_date=published_at&logo=github)
+        ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/stylelint/vscode-stylelint?logo=github)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/stylelint/vscode-stylelint?style=social)
 
 参考：
 

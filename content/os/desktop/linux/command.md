@@ -30,6 +30,10 @@
 
 6. https://gnu-linux.readthedocs.io/zh/latest/index.html - *GNU/Linux 点滴 — Linux latest 文档*
 
+### man pages
+
+https://www.kernel.org/doc/man-pages/ - *The Linux man-pages project*
+
 ### tldr pages
 
 [tldr pages](https://tldr.sh/) - *📚 Collaborative cheatsheets for console commands*
@@ -80,10 +84,6 @@ tldr tar
 ```bash
 tldr tar -m
 ```
-
-### 命令全拼
-
-https://www.runoob.com/w3cnote/linux-command-full-fight.html - *Linux 常用命令全拼 | 菜鸟教程*
 
 ## 语法格式
 
@@ -141,7 +141,7 @@ Options:
 
 参考：
 
-1. https://blog.csdn.net/wq6ylg08/article/details/88919530 - *Linux命令行帮助文档命令语法公式格式详解和Git命令语法格式解读（最详细解释，关键词:Ubuntu,Terminal,终端,Gtibash,Git,Github,系统,实战,操作,理解）_<command> [inputfile] [outputfile] [<switches>...]-CSDN博客*
+1. https://blog.csdn.net/wq6ylg08/article/details/88919530 - *Linux命令行帮助文档命令语法公式格式详解和Git命令语法格式解读（最详细解释，关键词:Ubuntu,Terminal,终端,Gtibash,Git,Github,系统,实战,操作,理解）_\<command> [inputfile] [outputfile] [\<switches>...]-CSDN博客*
 2. https://blog.csdn.net/weixin_42683556/article/details/115725069 - *命令行帮助文档语法格式详解*
 3. https://blog.csdn.net/u013867301/article/details/103513379 - *命令行格式*
 4. https://www.cnblogs.com/haoyufang/p/11762583.html - *linux命令语法格式 - 昊宇方 - 博客园*
@@ -150,9 +150,16 @@ Options:
 
 > 以下的命令可以点击对应的链接，进入网页查看使用实例。
 
-<https://github.com/jaywcjlove/linux-command#linux命令分类> - *GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux*
+1. <https://github.com/jaywcjlove/linux-command#linux命令分类> - *GitHub - jaywcjlove/linux-command: Linux命令大全搜索工具，内容包含Linux命令手册、详解、学习、搜集。https://git.io/linux*
+2. https://www.runoob.com/linux/linux-command-manual.html - *Linux 命令大全 | 菜鸟教程*
 
-### 查看命令帮助文档
+### 命令全拼
+
+https://www.runoob.com/w3cnote/linux-command-full-fight.html - *Linux 常用命令全拼 | 菜鸟教程*
+
+### 查看命令
+
+#### 帮助文档
 
 6 种方式：
 
@@ -167,7 +174,7 @@ Options:
 
 1. https://blog.csdn.net/Zhi_osX/article/details/80146259 - *linux命令-查看命令帮助文档_Zhi_osX的博客-CSDN博客*
 
-### 查看命令信息
+#### 信息
 
 3 种方式：
 
@@ -204,11 +211,13 @@ https://www.runoob.com/linux/linux-file-attr-permission.html - *Linux 文件基�
 
 查看：
 
-[ls](#ls) - *查看目录下面有多少文件以及文件的名字*
+1. [ls](#ls) - *查看目录下面有多少文件以及文件的名字*
 
 设置：
 
-[chmod](#chmod) - *控制用户对文件的权限的命令*
+1. [chgrp](#chgrp) - *Change the group of each FILE to GROUP.*
+2. [chmod](#chmod) - *控制用户对文件的权限的命令*
+3. [chown](#chown) - *Change the owner and/or group of each FILE to OWNER and/or GROUP.*
 
 #### 查看目录内容
 
@@ -406,11 +415,14 @@ sort [file]... | uniq
 
 https://linuxize.com/post/how-to-remove-symbolic-links-in-linux/ - *How to Remove (Delete) Symbolic Links in Linux | Linuxize*
 
-### 备份压缩
+### 文件传输
 
 暂无
 
 ### 系统管理
+
+1. [free](#free) - *用于显示内存状态。*
+2. [top](https://www.runoob.com/linux/linux-comm-top.html) - *是一个在 Linux 和其他类 Unix 系统上常用的实时系统监控工具。它提供了一个动态的、交互式的实时视图，显示系统的整体性能信息以及正在运行的进程的相关信息。*
 
 #### 查看系统信息
 
@@ -420,7 +432,7 @@ https://linuxize.com/post/how-to-remove-symbolic-links-in-linux/ - *How to Remov
 
 示例：
 
-`uname -a` - *查看版本和内核信息*
+1. `uname -a` - *查看版本和内核信息*
 
 #### 变量
 
@@ -435,21 +447,34 @@ https://wangdoc.com/bash/variable - *Bash 变量 - Bash 脚本教程 - 网道*
 
 ##### 环境变量
 
+简介：
+
 > 环境变量（environment variables）一般是指在[操作系统](https://baike.baidu.com/item/操作系统/192?fromModule=lemma_inlink)中用来指定操作系统运行环境的一些参数，如：[临时文件夹](https://baike.baidu.com/item/临时文件夹/1061467?fromModule=lemma_inlink)位置和[系统文件夹](https://baike.baidu.com/item/系统文件夹/5328647?fromModule=lemma_inlink)位置等。
 >
 > 环境[变量](https://baike.baidu.com/item/变量?fromModule=lemma_inlink)是在操作系统中一个具有特定名字的对象，它包含了一个或者多个应用[程序](https://baike.baidu.com/item/程序?fromModule=lemma_inlink)所将使用到的信息。例如[Windows](https://baike.baidu.com/item/Windows/165458?fromModule=lemma_inlink)和[DOS](https://baike.baidu.com/item/DOS/32025?fromModule=lemma_inlink)操作系统中的path环境变量，当要求系统运行一个[程序](https://baike.baidu.com/item/程序/71525?fromModule=lemma_inlink)而没有告诉它程序所在的完整路径时，系统除了在[当前目录](https://baike.baidu.com/item/当前目录/7205107?fromModule=lemma_inlink)下面寻找此程序外，还应到path中指定的路径去找。用户通过设置环境[变量](https://baike.baidu.com/item/变量?fromModule=lemma_inlink)，来更好的运行进程。
 >
 > —— [环境变量_百度百科](https://baike.baidu.com/item/环境变量/1730949)
 
+教程：
+
 https://wangdoc.com/bash/variable#环境变量 - *Bash 变量 - Bash 脚本教程 - 网道*
 
-- 查看环境变量（3 种方式）
+用法：
+
+- 查看所有环境变量（2 种方式）
 
   1. [env](#env)
   2. [printenv](#printenv)
-  3. `echo $PATH`
   
   https://wangchujiang.com/linux-command/c/env.html - *env 命令，Linux env 命令详解：显示系统中已存在的环境变量 - Linux 命令搜索引擎*
+
+- 查看指定环境变量
+
+  1. `echo $PATH`
+
+  示例：
+
+  2. `echo $NVM_NODEJS_ORG_MIRROR`
 
 - 设置环境变量
 
@@ -527,11 +552,11 @@ https://wangchujiang.com/linux-command/c/crontab.html - *crontab 命令，Linux 
 
 https://www.yisu.com/ask/23224601.html# - *linux中crontab的使用方法是什么 - 问答 - 亿速云*
 
-### 进程管理
+#### 进程管理
 
 https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关闭、查看后台任务 - jihite - 博客园*
 
-#### 查看进程信息
+##### 查看进程信息
 
 2 种方式：
 
@@ -539,22 +564,28 @@ https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关
 
 2. [pstree](#pstree) - *A convenient tool to show running processes as a tree.*
 
-#### 杀死进程
+##### 杀死进程
 
 1 种方式：
 
 1. [pkill](#pkill) - *Signal process by name.Mostly used for stopping processes.*
 
-### 网络通讯
+### 系统设置
 
-1. [Inetutils](#Inetutils)
-2. [dnsutils](#dnsutils)
-
-### 清屏
+#### 清屏
 
 1 种方式：
 
 1. [clear](#clear) - *清除当前屏幕终端上的任何信息。*
+
+### 网络通讯
+
+1. [Inetutils](#inetutils)
+2. [dnsutils](#dnsutils)
+
+### 备份压缩
+
+暂无
 
 ## 内建命令
 
@@ -566,7 +597,7 @@ https://www.cnblogs.com/kaituorensheng/p/3980334.html - *linux后台运行和关
 2. :
 3. [
 4. [alias](#alias)
-5. bg
+5. [bg](#bg)
 6. [bind](#bind)
 7. break
 8. builtin
@@ -645,6 +676,26 @@ alias [-p] [name[=value] ... ]
 示例：
 
 `alias -p`
+
+### bg
+
+简介：
+
+> Move jobs to the background.
+
+语法：
+
+bg [job_spec ...]
+
+参数：
+
+`--help` - display this help and exit
+
+示例：
+
+```bash
+bg --help
+```
 
 ### bind
 
@@ -1229,6 +1280,32 @@ https://www.gnu.org/software/coreutils/cat
 
 https://www.runoob.com/linux/linux-comm-cat.html - *Linux cat 命令 | 菜鸟教程*
 
+#### chgrp
+
+简介：
+
+> Change the group of each FILE to GROUP.
+
+语法：
+
+chgrp [OPTION]... GROUP FILE...
+
+or:  chgrp [OPTION]... --reference=RFILE FILE...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-chgrp.html - *Linux chgrp 命令 | 菜鸟教程*
+
+示例：
+
+```bash
+chgrp --help
+```
+
 #### chmod
 
 简介：
@@ -1258,6 +1335,32 @@ https://www.runoob.com/linux/linux-comm-chmod.html - *Linux chmod 命令 | 菜�
 `chmod --help`
 
 `chmod +x ` <文件名> - *给指定文件增加可执行权限*
+
+#### chown
+
+简介：
+
+> Change the owner and/or group of each FILE to OWNER and/or GROUP.
+
+语法：
+
+chown [OPTION]... [OWNER][:[GROUP]] FILE...
+
+or:  chown [OPTION]... --reference=RFILE FILE...
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-chown.html - *Linux chown 命令 | 菜鸟教程*
+
+示例：
+
+```bash
+chown --help
+```
 
 #### cp
 
@@ -2756,6 +2859,30 @@ shasum --help
 官方：
 
 https://gitlab.com/procps-ng/procps - *procps-ng / procps · GitLab*
+
+#### free
+
+简介：
+
+> Display amount of free and used memory in the system
+
+语法：
+
+free [options]
+
+参数：
+
+`--help` - display this help and exit
+
+用法：
+
+https://www.runoob.com/linux/linux-comm-free.html - *Linux free命令 | 菜鸟教程*
+
+示例：
+
+```bash
+free --help
+```
 
 #### pkill
 

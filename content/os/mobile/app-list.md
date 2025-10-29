@@ -257,6 +257,22 @@ https://github.com/deadlyjack/Acode - *GitHub - deadlyjack/Acode: Acode - powerf
 
 https://acode.app/ - *Acode - Code editor for android*
 
+## 翻译
+
+### Translate You
+
+> Privacy focused translator app built with MD3
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.bnyro.translate)
+![GitHub last commit](https://img.shields.io/github/last-commit/you-apps/TranslateYou?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/you-apps/TranslateYou?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/you-apps/TranslateYou?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/you-apps/TranslateYou?style=social)
+
+https://f-droid.org/packages/com.bnyro.translate/ - *Translate You | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/you-apps/TranslateYou - *GitHub - you-apps/TranslateYou: Privacy focused translator app built with MD3*
+
 ## 写作工具
 
 ### Markdownr
@@ -816,6 +832,12 @@ https://github.com/termux/termux-app - *Termux - a terminal emulator application
 https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/maks/MGit - *GitHub - maks/MGit: A Git client for Android.*
+
+## 自动化
+
+### MacroDroid
+
+
 
 ## 时间
 

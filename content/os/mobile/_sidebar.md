@@ -9,6 +9,7 @@
 * [App Manager](os/mobile/app-manager.md)
 * [F-Droid](os/mobile/f-droid.md)
 * [HTTP Shortcuts](os/mobile/http-shortcuts.md)
+* [MacroDroid](os/mobile/macrodroid.md)
 * [Markor](os/mobile/markor.md)
 * [MGit](os/mobile/mgit.md)
 * [Termux](os/mobile/termux.md)

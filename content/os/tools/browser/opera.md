@@ -189,6 +189,7 @@ https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Oper
 
 ## Changelog
 
+- https://www.opera.com/zh-cn/ofa/upgraded-90 - *更新完成！*
 - https://www.opera.com/zh-cn/ofa/upgraded-89 - *更新完成！*
 - https://www.opera.com/zh-cn/ofa/upgraded-88 - *更新完成！*
 - https://www.opera.com/zh-cn/ofa/upgraded-86 - *更新完成！*

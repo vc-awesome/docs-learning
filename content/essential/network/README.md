@@ -140,6 +140,10 @@ https://ipaddress.is/ip-blacklist-checker - *IP Blacklist Check - see if your IP
 1. https://www.dnsleaktest.com/ - *DNS leak test*
 2. https://ipleak.net/ - *IP/DNS Detect - What is your IP, what is your DNS, what informations you send to websites.*
 
+#### dig
+
+暂无
+
 ### 网速
 
 1Mbit/s = 0.125MB/s

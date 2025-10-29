@@ -70,6 +70,10 @@ https://v5.bootcss.com/docs/getting-started/introduction/ - *Get started with Bo
 
 #### 内联文本元素
 
+https://www.runoob.com/html/html-formatting.html - *HTML 文本格式化 | 菜鸟教程*
+
+https://wangdoc.com/html/text - *文本标签 - HTML 教程 - 网道*
+
 ```html
 <mark></mark>
 <del></del>

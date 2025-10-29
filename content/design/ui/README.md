@@ -8,6 +8,17 @@
 - Explorer View - 资源管理器视图
     - Outline View - 大纲视图
     - Timeline View - 时间线视图
+- Interaction - 互动
+    - Gestures - 手势
+        - Tap - 轻触
+        - Double tap - 轻触两下
+        - Long press - 长按
+        - Scroll and pan - 滚动和平移
+        - Swipe - 滑动
+        - Drag - 拖动
+        - Pick up and move - 拾起并移动
+        - Pinch - 捏合（收缩）
+    - Inputs - 输入
 - Menu Bar - 菜单栏
 - Minimap - 迷你地图
 - Panel - 面板

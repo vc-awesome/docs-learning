@@ -153,24 +153,41 @@ https://blog.csdn.net/hmsiwtv/article/details/16901561 - *Emacs 之 ediff 学习
 1. 手动安装
 2. 使用 package-install 安装
 
-包管理器：
-
-1. http://elpa.gnu.org/ - *GNU Emacs Lisp Package Archive*
-2. http://elpa.gnu.org/devel/index.html - *GNU-devel ELPA Packages*
-3. https://melpa.org/ - *MELPA*
-4. https://github.com/dimitri/el-get - *GitHub - dimitri/el-get: Manage the external elisp bits and pieces upon which you depend!*
+#### 包管理器
 
 参考：
 
+1. https://www.cnblogs.com/k4nz/p/14508524.html - *「GNU Emacs」- 包管理系统（ELPA, Emacs Lisp Package Archive） @20210309 - 研究林纳斯写的 - 博客园*
+2. <https://www.emacswiki.org/emacs/ELPA_(中文)> - *EmacsWiki: ELPA (中文)*
+3. https://nyk.ma/posts/emacs-write-your-own/ - *Emacs 自力求生指南 ── 来写自己的配置吧 - Nayuki's Archive*
+4. https://cloud.tencent.com/developer/article/1966582 - *Emacs的包管理器的使用-腾讯云开发者社区-腾讯云*
+
+##### ELPA
+
+官方：
+
+1. https://elpa.gnu.org/ - *GNU Emacs Lisp Package Archive*
+2. https://elpa.gnu.org/devel/index.html - *GNU-devel ELPA Packages*
+
+镜像站：
+
 1. https://mirrors.tuna.tsinghua.edu.cn/help/elpa/ - *elpa | 镜像站使用帮助 | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
-2. https://www.cnblogs.com/k4nz/p/14508524.html - *「GNU Emacs」- 包管理系统（ELPA, Emacs Lisp Package Archive） @20210309 - 研究林纳斯写的 - 博客园*
-3. <https://www.emacswiki.org/emacs/ELPA_(中文)> - *EmacsWiki: ELPA (中文)*
-4. https://nyk.ma/posts/emacs-write-your-own/ - *Emacs 自力求生指南 ── 来写自己的配置吧 - Nayuki's Archive*
-5. https://cloud.tencent.com/developer/article/1966582 - *Emacs的包管理器的使用-腾讯云开发者社区-腾讯云*
 
-#### YASnippet
+###### org
 
-[Yet another snippet extension](http://joaotavora.github.io/yasnippet/) - *YASnippet is a template system for Emacs.* [GitHub Repo](https://github.com/joaotavora/yasnippet)
+> Outline-based notes management and organizer
+
+官方：
+
+https://orgmode.org/ - *Org mode for GNU Emacs*
+
+安装：
+
+https://elpa.gnu.org/packages/org.html - *GNU ELPA - org*
+
+###### YASnippet
+
+[Yet another snippet extension](https://joaotavora.github.io/yasnippet/) - *YASnippet is a template system for Emacs.* [GitHub Repo](https://github.com/joaotavora/yasnippet)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/joaotavora/yasnippet?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/joaotavora/yasnippet?display_date=published_at&logo=github)
@@ -179,7 +196,7 @@ https://blog.csdn.net/hmsiwtv/article/details/16901561 - *Emacs 之 ediff 学习
 
 安装：
 
-http://elpa.gnu.org/packages/yasnippet.html - *GNU ELPA - yasnippet*
+https://elpa.gnu.org/packages/yasnippet.html - *GNU ELPA - yasnippet*
 
 快速入门：
 
@@ -191,9 +208,45 @@ http://elpa.gnu.org/packages/yasnippet.html - *GNU ELPA - yasnippet*
 2. https://www.eoebook.com/posts/how-to-use-yasnippet/ - *yasnippet使用简单说明 - 个人知识管理*
 3. https://www.coder.work/article/8449398 - *emacs - 如何使用 yasnippet 和 abbrev 进行自动完成工作？ - IT工具网*
 
-#### org
+##### MELPA
 
-https://orgmode.org/ - *Org mode for GNU Emacs*
+官方：
+
+1. https://melpa.org/ - *MELPA*
+
+###### el-get
+
+> Manage the external elisp bits and pieces upon which you depend!
+
+![GitHub last commit](https://img.shields.io/github/last-commit/dimitri/el-get?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dimitri/el-get?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dimitri/el-get?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/dimitri/el-get?style=social)
+
+官方：
+
+https://github.com/dimitri/el-get - *GitHub - dimitri/el-get: Manage the external elisp bits and pieces upon which you depend!*
+
+安装：
+
+https://melpa.org/#/el-get - *el-get - MELPA*
+
+###### jsdoc
+
+> Insert JSDoc comments easily with Emacs.
+
+![GitHub last commit](https://img.shields.io/github/last-commit/isamert/jsdoc.el?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/isamert/jsdoc.el?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/isamert/jsdoc.el?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/isamert/jsdoc.el?style=social)
+
+官方：
+
+https://github.com/isamert/jsdoc.el - *GitHub - isamert/jsdoc.el: Insert JSDoc comments easily with Emacs*
+
+安装：
+
+https://melpa.org/#/jsdoc - *jsdoc - MELPA*
 
 ### 框架
 

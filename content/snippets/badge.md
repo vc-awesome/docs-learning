@@ -129,15 +129,31 @@ Chrome Web Store：
 
 7. https://shields.io/badges/chrome-web-store-version - *Chrome Web Store Version | Shields.io*
 
-GitHub User：
+GitHub User/Org：
 
-1. https://shields.io/badges/git-hub-sponsors - *GitHub Sponsors | Shields.io*
+1. https://shields.io/badges/git-hub-sponsors - *GitHub Sponsors | Shields.io* ![GitHub Sponsors](https://img.shields.io/github/sponsors/bootstrap-vue)
 
-2. https://shields.io/badges/git-hub-followers - *GitHub followers | Shields.io*
+    ```markdown
+    ![GitHub Sponsors](https://img.shields.io/github/sponsors/bootstrap-vue)
+    ```
 
-3. https://shields.io/badges/git-hub-orgs-stars - *GitHub Org's stars | Shields.io*
+2. https://shields.io/badges/git-hub-followers - *GitHub followers | Shields.io* ![GitHub followers](https://img.shields.io/github/followers/bootstrap-vue)
 
-4. https://shields.io/badges/git-hub-users-stars - *GitHub User's stars | Shields.io*
+    ```markdown
+    ![GitHub followers](https://img.shields.io/github/followers/bootstrap-vue)
+    ```
+
+3. https://shields.io/badges/git-hub-orgs-stars - *GitHub Org's stars | Shields.io* ![GitHub Org's stars](https://img.shields.io/github/stars/bootstrap-vue)
+
+    ```markdown
+    ![GitHub Org's stars](https://img.shields.io/github/stars/bootstrap-vue)
+    ```
+
+4. https://shields.io/badges/git-hub-users-stars - *GitHub User's stars | Shields.io* ![GitHub User's stars](https://img.shields.io/github/stars/bootstrap-vue)
+
+    ```markdown
+    ![GitHub User's stars](https://img.shields.io/github/stars/bootstrap-vue)
+    ```
 
 常用：
 

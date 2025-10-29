@@ -454,6 +454,38 @@ https://www.ruanyifeng.com/blog/2019/07/termux-tutorial.html - *Termux 入门教
 
 https://wiki.termux.com/wiki/User_Interface - *User Interface - Termux Wiki*
 
+- [上下文菜单](#%E4%B8%8A%E4%B8%8B%E6%96%87%E8%8F%9C%E5%8D%95)
+- [抽屉式导航栏](#%E6%8A%BD%E5%B1%89%E5%BC%8F%E5%AF%BC%E8%88%AA%E6%A0%8F)
+- [通知](#%E9%80%9A%E7%9F%A5)
+
+#### 上下文菜单
+
+The context menu can be shown by long pressing anywhere on the terminal. It provides menu entries for: - *长按终端上的任意位置可以显示上下文菜单。它为以下项提供了菜单项：*
+
+- Selecting and pasting text. - *选择和粘贴文本。*
+- Sharing text from the terminal to other apps (e.g. email or SMS) - *将文本从终端共享到其他应用程序（例如电子邮件或短信）*
+- Resetting the terminal if it gets stuck. - *如果终端卡住，请重置终端。*
+- Hangup (exiting the current terminal session). - *挂断（退出当前终端会话）。*
+- Styling the terminal by selecting a font and a color scheme. - *通过选择字体和颜色方案来设置终端的样式。*
+- Showing this help page. - *显示此帮助页面。*
+
+#### 抽屉式导航栏
+
+The navigation drawer is revealed by swiping inwards from the left part of the screen (if you have gesture navigation enabled in Android, you will need to hold briefly on the edge of the screen before swiping to bring up the navigation drawer instead of going back in Android). It has three elements: - *从屏幕左侧向内滑动即可显示抽屉式导航栏（如果您在 Android 中启用了手势导航，则需要在滑动之前短暂按住屏幕边缘以调出抽屉式导航栏，而不是在 Android 中返回）。它有三个要素：*
+
+- A list of sessions. Clicking on a session shows it in the terminal while long pressing allows you to specify a session title. - *会话列表。单击会话会在终端中显示它，而长按允许您指定会话标题。*
+- A button to toggle visibility of the touch keyboard. - *用于切换触摸键盘可见性的按钮。*
+- A button to create new terminal sessions (long press for creating a named session or a fail-safe one). - *用于创建新终端会话的按钮（长按可创建命名会话或故障安全会话）。*
+
+#### 通知
+
+The notification, available when a terminal session is running, is available by pulling down the notification menu. Pressing the notification leads to the most current terminal session. The notification may also be expanded (by pinch-zooming or performing a single-finger glide) to expose three actions: - *通知在终端会话运行时可用，可通过下拉通知菜单来使用。按通知将转到最新的终端会话。还可以展开通知（通过捏合缩放或执行单指滑动）以显示三个作：*
+
+- Exiting all running terminal sessions. - *退出所有正在运行的终端会话。*
+- Use a wake lock to avoid entering sleep mode. - *使用唤醒锁以避免进入睡眠模式。*
+- Use a high performance wifi lock to maximize wifi performance. - *使用高性能 wifi 锁以最大限度地提高 wifi 性能。*
+
+With a wake lock held the notification and Termux background processes will be available even if no terminal session is running, which allows server and other background processes to run more reliably. - *持有唤醒锁后，即使没有终端会话正在运行，通知和 Termux 后台进程也将可用，从而使服务器和其他后台进程能够更可靠地运行。*
 
 ### 启动流程
 
@@ -623,7 +655,6 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
 2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
 3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*
 
-
 ### 快捷键
 
 教程：
@@ -649,6 +680,10 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
 1. [操作历史](os/tools/developer/shell/readline.md#操作历史)
 2. [行操作](os/tools/developer/shell/readline.md#行操作)
 3. [自定义快捷键](os/tools/developer/shell/readline.md#自定义快捷键)
+
+### 守护进程
+
+[termux-services](#termux-services)
 
 ### 远程访问
 
@@ -685,6 +720,10 @@ SSH 端口：8022（默认）
 ```bash
 sshd
 ```
+
+##### SFTP
+
+暂无
 
 
 ### 备份与恢复
@@ -815,9 +854,31 @@ Display files provided by a remote package | - | `apt-file list <package>` | -
 
     https://mirrors.tuna.tsinghua.edu.cn/termux/ - *Index of /termux/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror*
 
+    官方源：
+
+    ```bash
+    sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-main stable main@' $PREFIX/etc/apt/sources.list
+    ```
+
+    社区源：
+
+    x11-repo
+    ```bash
+    sed -i 's@^\(deb.*x11 main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-x11 x11 main @' $PREFIX/etc/apt/sources.list.d/x11.list
+    ```
+
+    root-repo
+    ```bash
+    sed -i 's@^\(deb.*root main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/termux/apt/termux-root root main @' $PREFIX/etc/apt/sources.list.d/root.list
+    ```
+
 2. https://mirrors.ustc.edu.cn/help/termux.html - *Termux 源使用帮助 — USTC Mirror Help 文档*
 
     https://mirrors.ustc.edu.cn/termux/ - *Index of /termux/*
+
+3. https://developer.aliyun.com/mirror/termux/ - *termux镜像_termux下载地址_termux安装教程-阿里巴巴开源镜像站*
+
+    https://mirrors.aliyun.com/termux/ - *termux安装包下载_开源镜像站-阿里云*
 
 更换软件源（3 种方式）：
 
@@ -1393,6 +1454,11 @@ set as the default shell
 chsh -s zsh
 ```
 
+##### df
+
+```bash
+df --help
+```
 
 ##### logcat
 
@@ -2330,7 +2396,7 @@ less --help
 man -s 1 less
 ```
 
-#### man
+#### mandoc
 
 简介：
 
@@ -2343,23 +2409,23 @@ https://mdocml.bsd.lv/ - *mandoc | UNIX manpage compiler*
 查看：
 
 ```bash
-pkg show man
+pkg show mandoc
 ```
 
 ```bash
-pkg files man
+pkg files mandoc
 ```
 
 安装：
 
 ```bash
-pkg install man
+pkg install mandoc
 ```
 
 卸载：
 
 ```bash
-pkg uninstall man
+pkg uninstall mandoc
 ```
 
 用法：
@@ -3511,6 +3577,41 @@ mcfly --help
 
 3. <kbd>Ctrl</kbd> + <kbd>r</kbd> to bring up a full-screen reverse history search prioritized with a small neural network.
 
+#### manpages
+
+简介：
+
+> Man pages for linux kernel and C library interfaces
+
+官方：
+
+https://www.kernel.org/doc/man-pages/ - *The Linux man-pages project*
+
+查看：
+
+```bash
+pkg show manpages
+```
+
+```bash
+pkg files manpages
+```
+
+安装：
+
+```bash
+pkg install manpages
+```
+
+卸载：
+
+```bash
+pkg uninstall manpages
+```
+
+用法：
+
+暂无
 
 #### miniserve
 
@@ -4608,7 +4709,7 @@ https://wiki.termux.com/wiki/ZSH - *ZSH - Termux Wiki*
 
 https://www.ruanyifeng.com/blog/2022/01/cli-alternative-tools.html - *命令行常用工具的替代品 - 阮一峰的网络日志*
 
-### Node.js Package Management
+### Node.js Package Management (npm)
 
 https://wiki.termux.com/wiki/Package_Management#Other_package_managers - *Package Management - Termux Wiki*
 
@@ -4751,6 +4852,11 @@ npm uninstall --global tldr
 tldr --help
 ```
 
+### Python Package Management (pip)
+
+https://wiki.termux.com/wiki/Package_Management#Other_package_managers - *Package Management - Termux Wiki*
+
+- https://wiki.termux.com/wiki/Python - *Python - Termux Wiki*
 
 ### 应用工具
 

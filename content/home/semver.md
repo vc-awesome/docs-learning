@@ -11,11 +11,12 @@
 如果有大变动，向下不兼容，需要更新 X 位。
 版本号有了这个保证后，在申明第三方包依赖时，除了可依赖于一个固定版本号外，还可依赖于某个范围的版本号。例如 "argv" :  "0.0.x" 表示依赖于 0.0.x 系列的最新版 argv。
 
-NPM 支持的所有版本号范围指定方式，可以查看[官方文档](https://docs.npmjs.com/about-semantic-versioning)。
+NPM 支持的所有版本号范围指定方式，可以查看[官方文档](https://docs.npmjs.com/about-semantic-versioning/)。
 
 ## 官方
 
 1. https://semver.org/lang/zh-CN/ - *语义化版本 2.0.0*
+2. https://github.com/npm/node-semver - *GitHub - npm/node-semver: The semver parser for node (the one npm uses)*
 
 ## 版本
 

@@ -95,6 +95,17 @@ https://github.com/greasyfork-org/greasyfork - *GitHub - greasyfork-org/greasyfo
     ![GitHub last commit](https://img.shields.io/github/last-commit/awesome-scripts/awesome-userscripts?color=blue&logo=github)
     ![GitHub Repo stars](https://img.shields.io/github/stars/awesome-scripts/awesome-userscripts?style=social)
 
+4. https://github.com/examplecode/useful-user-scripts - *GitHub - examplecode/useful-user-scripts: Some Useful User Script For Mobile Phone Browser - GitHub - examplecode/useful-user-scripts: Some Useful User Script For Mobile Phone Browser*
+
+    ![GitHub last commit](https://img.shields.io/github/last-commit/examplecode/useful-user-scripts?logo=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/examplecode/useful-user-scripts?style=social)
+
+### 安装
+
+打开"扩展程序选项"页面 > 实用工具 > 下滑至页面底部 >
+
+- "从 URL 安装" > 在输入框中输入脚本 URL（例如："沉浸式翻译"的脚本 URL <https://download.immersivetranslate.com/immersive-translate.user.js>） > 点击安装
+
 ### 列表
 
 1. 作者 [X.I.U](https://greasyfork.org/zh-CN/users/457025-x-i-u) 系列

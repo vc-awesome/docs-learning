@@ -68,6 +68,7 @@ https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮�
 
 ### Vue.js
 
+
 https://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](https://cn.vuejs.org/v2/guide/syntax.html)
 
 ## 入门指南
@@ -101,6 +102,10 @@ https://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](htt
 #### Wiki
 
 暂无
+
+### 文件名
+
+https://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html - *为什么文件名要小写？ - 阮一峰的网络日志*
 
 ### 标点符号
 
@@ -375,7 +380,7 @@ Table of Contents
 - Extended Syntax
 - Hacks
 - Tools
-- book
+- Book
 
 参考：
 
@@ -557,6 +562,20 @@ Outline
 
 ## 常用工具模板
 
+封面：
+
+![illustration](https://www.apple.com.cn/app-store/images/overview/hero__fpyktigxzia2_small_2x.jpg)
+
+<small>*插图来源于：[App Store - Apple (中国大陆)](https://www.apple.com.cn/app-store/)*</small>
+
+![illustration](https://www.apple.com/v/app-store/b/images/overview/hero__fpyktigxzia2_small_2x.jpg)
+
+<div style="text-align: right;">
+
+<small>*Picture source：[App Store - Apple](https://www.apple.com/app-store/)*</small>
+
+</div>
+
 ### Introduction
 
 - 样式一
@@ -632,7 +651,7 @@ http://cheat-sheet.cn/ - *Cheat Sheet | 速查表*
 
 https://www.github-zh.com/collections/cheatsheets - *速查表 cheatsheets-集合 | GitHub 中文社区*
 
-https://github.com/LeCoupa/awesome-cheatsheets - *👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file. - LeCoupa/awesome-cheatsheets*
+https://github.com/LeCoupa/awesome-cheatsheets - *👩💻👨💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file. - LeCoupa/awesome-cheatsheets*
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/LeCoupa/awesome-cheatsheets?logo=github&color=blue)
 ![GitHub Repo stars](https://img.shields.io/github/stars/LeCoupa/awesome-cheatsheets?style=social)
