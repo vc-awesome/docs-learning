@@ -1,0 +1,602 @@
+# MIUI
+
+## 简介
+
+> <img src="https://cia.sec.miui.com/miui-14-homepage/miui-14.png?imageMogr2/thumbnail/200x/quality/80/format/webp" alt="package icon" align="left" height="54" hspace="7" vspace="7" style="border-radius: 5px;margin: 7px;"> 更轻巧 / 更流畅 / 更安全 / 更人性化
+> 
+> [^1] 玩转小米手机；尝试长按有惊喜！
+
+
+## 官方
+
+1. https://www.mi.com/ - *小米官网 - Xiaomi 13系列，Xiaomi Mix Fold 2，MIUI14，小米徕卡影像大赛*
+
+2. https://dev.mi.com/ - *小米开放平台*
+
+
+## 安装
+
+1. https://home.miui.com/ - *MIUI 14 锐意新生*
+
+    1. https://home.miui.com/14 - *MIUI 14 锐意新生*
+
+2. https://hyperos.mi.com/ - *小米澎湃 OS 2｜Xiaomi HyperOS 2*
+
+
+## 提取文字
+
+百度关键字搜索：
+
+1. [小米截图识别文字](https://www.baidu.com/s?word=小米截图识别文字)
+2. [提取文字 APP](https://www.baidu.com/s?word=提取文字APP)
+3. [OCR](https://www.baidu.com/s?word=ocr)
+
+以下 6 种操作方式：
+
+1. 小爱翻译
+
+    如何打开：
+    _应用 > 小爱语音 > 技能 > 小爱翻译_
+    
+    添加桌面图标：
+    _应用 > 设置 > 小爱同学 > 小爱翻译 > （打开方式）桌面图标_
+
+2. 小爱视觉
+
+    操作步骤：_打开应用 > 选择“识文字” > 拍一张照片或从相册选择一张图片_
+   
+3. 百度翻译
+
+    操作步骤：_打开应用 > 翻译浮球 > 截屏翻译_
+
+4. 系统相册
+
+    操作步骤：_打开一张图片 > 底部选项“更多ⵈ”  > 提取文字_
+   
+5. 传送门 ✅
+
+    <u>MIUI 13</u> 功能位置：_应用 > 设置 > 特色功能 > 传送门_
+
+    <u>MIUI 14</u> 功能位置：_应用 > 设置 > 更多设置 > （特色功能）传送门_
+   
+    _注：_  
+    1. _✅ 可区域截屏进行文字识别、图片识别、翻译；_
+    2. _⚠️ ️如果正在运行的应用无法使用传送门功能时，查看应用是否加入了黑名单。_
+
+6. 区域截屏 + 文字识别应用 ✅
+
+    操作步骤：*使用 [区域截屏](#区域截屏) 功能截取需要提取的文字 > 点击底部“分享”按钮 > 选择可文字识别的应用 > 在文字识别应用中提取文字*
+    
+    可选文字识别应用：
+
+    1. *[OCR](https://f-droid.org/packages/io.github.subhamtyagi.ocr/)（推荐）*
+    2. *[Image Toolbox](https://f-droid.org/packages/ru.tech.imageresizershrinker) - OCR (文本识别)*
+    3. *夸克 - 提取文字*
+    4. *百度翻译*
+    5. *[Yander Browser](os/mobile/android/app/browser.md#yandex) - 智能摄像头*
+
+
+## 屏幕录制
+
+> 系统内置“屏幕录制”工具
+
+安装：
+
+1. _应用 > 应用商店 > 我的 > （应用管理）官方应用 > 点击安装“屏幕录制”_
+
+设置：
+
+1. _应用 > 设置 > 更多设置 > （辅助功能）屏幕录制_
+
+使用：
+
+1. 打开方式一：_拉下“控制中心” > 屏幕录制_
+2. 打开方式二：_全局侧边栏 > 视频工具箱 > 录屏（需“自定义设置”中的应用）_
+3. 打开方式三：_小爱语音 > 屏幕录制_
+
+参考：
+
+1. https://web.vip.miui.com/page/info/mio/mio/detail?app_version=dev.20051&postId=11602826 - *小米手机MIUI“录屏”功能体验：完全由你来支配！*
+2. http://m.shezhan88.com/electr/1268228.html - *小米手机录屏怎么录-设栈网*
+
+
+## 区域截屏
+
+设置操作：_应用 > 设置 > 更多设置 > 快捷手势 > 区域截屏_
+
+使用操作：_“三指长按”手机屏幕_
+
+
+## 全局侧边栏
+
+> MIUI 13
+
+设置操作：_应用 > 设置 > 特色功能 > 自由窗口 > 全局侧边栏_
+
+> MIUI 14
+
+设置操作：_应用 > 设置 > 更多设置 > 特色功能-自由窗口_
+
+
+## 隐私空间
+
+> MIUI 14
+
+设置操作：_应用 > 设置 > 隐私保护 > 保护隐私 > 保险箱_
+- 私密相册
+    - 打开操作：打开 *系统应用 > 小米相册*，切换到“相册”标签页，在屏幕上方 1/3 处长按屏幕往下拉动，直至出现“松开进入隐私空间”提示，松开后输入隐私密码进入私密相册。
+- 私密文件夹
+    - 打开操作：打开 *系统应用 > 文件管理*，切换到“最近”或“手机”标签页，在屏幕上方 1/3 处长按屏幕往下拉动，直至出现“松开进入隐私空间”提示，松开后输入隐私密码进入私密文件夹。
+
+
+## 专注模式
+
+> MIUI 14
+
+设置操作：_应用 > 设置 > 屏幕时间管理 > 专注模式_
+
+
+## 文件管理
+
+使用操作：*应用 > QQ浏览器 > 底部导航栏-“文件”*
+
+
+## 查看图片
+
+在 *系统应用 > 小米相册（版本：3.5.2.9）* 中查看图片比 *系统应用 > 文件管理（版本：4.4.7.6）* 中查看更清晰，图片放大后也更高清。
+
+
+## 视频播放
+
+- 使用操作方式一：*系统应用 > 小米相册 > 找到视频文件点击播放*
+
+- 使用操作方式二：*系统应用 > 文件管理 > 找到视频文件点击播放*
+
+
+## 更换手机
+
+使用操作：*应用 > 小米换机*
+
+
+## 清理存储空间
+
+> MIUI 14
+
+使用操作：*系统应用 > 文件管理 > 右上角 ⋮ > 存储空间*
+
+
+## 开发者模式
+
+> MIUI 14
+
+开启「开发者模式」操作：*应用 > 设置 > 我的设备 > 全部参数与信息 > 连续点击 7 下「MIUI 版本」*
+
+设置「开发者模式」操作：*应用 > 设置 > 更多设置 > 开发者选项*
+
+在开发者选项列表模块中开启：
+
+- 「调试」模块
+
+    1. USB 调试
+    2. 无线调试
+    3. 允许在“设置”上重叠显示
+
+- 「输入」模块
+
+    1. 显示点按操作反馈（默认关闭）
+    2. 指针位置（默认关闭）
+    3. 时间悬浮窗（可显示当前时间的秒数，默认关闭）
+
+- 启用MIUI优化（默认开启）
+- 高风险功能开启提醒（默认开启）
+
+
+## 快捷方式
+
+### 添加到主屏幕
+
+各 APP、小程序、浏览器等，如果支持此功能均可操作。
+
+以 Opera 浏览器标签页操作为例：
+
+![opera-android-add-to-home-screen](_images/opera-android-add-to-home-screen.jpg)
+
+参考：https://mip.680.com/jingxuangl/info-337716.html - *小米手机微信创建桌面快捷方式的权限在哪里-时间财富网*
+
+
+### 桌面小部件
+
+MIUI 14 使用操作：*长按桌面空白处 3 秒后打开桌面编辑模式 > 点击编辑页面底部“添加小部件”按钮进入小部件添加页面*
+
+
+## 设置
+
+### 权限设置
+
+https://dontkillmyapp.com/ - *Don’t kill my app! | Hey Android vendors, don’t kill my app!* [GitHub Repo](https://github.com/urbandroid-team/dont-kill-my-app)
+
+![GitHub last commit](https://img.shields.io/github/last-commit/urbandroid-team/dont-kill-my-app?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/urbandroid-team/dont-kill-my-app?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/urbandroid-team/dont-kill-my-app?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/urbandroid-team/dont-kill-my-app?style=social)
+
+MIUI 14 应用权限设置：_应用 > 设置 > 隐私保护 > 右滑切换至保护隐私 > 下滑至底部 > 应用权限设置_
+
+MIUI 14 特殊权限设置：_应用 > 设置 > 隐私保护 > 右滑切换至保护隐私 > 下滑至底部 > 特殊权限设置_
+
+
+### 备份与恢复
+
+MIUI 14.0.7 操作步骤：*应用 > 设置 > 我的设备 > 备份与恢复*
+
+
+### 隐私保护
+
+#### 隐藏应用
+
+MIUI 14.0.7 操作步骤：_应用 > 设置 > 隐私保护 > 下滑至底部 - （隐私功能）隐藏应用_
+
+
+## 应用管理
+
+### 应用分类管理
+
+MIUI 14 操作步骤：_应用 > 设置 > 屏幕时间管理 > 看板 > 下滑-“查看更多应用数据” > 右上角 ![分类管理图标][image-category-list] > 分类管理_
+
+
+### 设置默认应用
+
+MIUI 14 操作步骤：_应用 > 设置 > 应用设置 > 应用管理 > 右上角 ⋮ > 默认应用设置_
+
+
+### 锁定任务
+
+MIUI 14 使用操作：
+
+1. 方式 1：*打开近期任务 > 长按需要设置的应用 > 从右侧菜单中选择挂锁图标 > 应用上方出现🔒的图标（成功锁定任务）*
+2. 方式 2：*打开系统应用 > 手机管家 > 点击右上角设置图标 > （各功能模块设置）优化加速 > （锁定任务管理）锁定任务 > 选取需要锁定的应用*
+
+参考：https://dontkillmyapp.com/xiaomi#user-solution - *Xiaomi | Don’t kill my app!*
+
+
+### 自启动
+
+MIUI 14 设置操作：
+
+1. 方式一：*打开近期任务 > 长按需要设置的应用 > 从右侧菜单中选择设置图标 > （权限相关）自启动*
+2. 方式二：_应用 > 设置 > 应用设置 > 授权管理 > 自启动管理_
+
+
+### 应用双开
+
+MIUI 14 设置操作：*应用 > 设置 > 应用设置 > 应用管理 > 应用双开*
+
+### 预置应用
+
+MIUI 14.0.7 操作步骤：*应用 > 设置 > 我的设备 > 下滑至底部-全部参数与信息 > 下滑至底部-预置应用*
+
+## 系统应用
+
+查看系统应用：
+
+1. _应用 > [App Manager](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=io.github.muntashirakon.AppManager) > 点击顶部搜索框右边的「列表选项」 > 选择「系统应用」选项_
+
+常用系统应用：
+
+1. [文件](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.google.android.documentsui&class_name=com.android.documentsui.files.FilesActivity)
+    - 应用包名：`com.google.android.documentsui`
+    - 类名：`com.android.documentsui.files.FilesActivity`
+2. [备份](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.miui.backup)
+    - 应用包名：`com.miui.backup`
+
+
+### 文件管理
+
+1. [文件管理](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)
+    - 应用包名：`com.android.fileexplorer`
+
+
+### 悬浮球
+
+设置操作：*应用 > 设置 > 更多设置 > 悬浮球*
+
+
+### 相机
+
+- 动态图片
+
+
+### 手机管家
+
+#### 网络助手
+
+> MIUI 14
+
+设置操作：_应用 > 手机管家 > 网络助手_
+
+**状态栏显示当前网速**
+
+设置操作：_应用 > 手机管家 > 网络助手 > 点击右上角"设置"图标，进入设置页面 > 打开开关（设置列表中的"更多设置 - 状态栏显示当前网速"）_
+
+**将"网络助手"添加至手机桌面**
+
+设置操作：_应用 > 手机管家 > 点击右上角"设置"图标，进入设置页面 > 选择设置列表中的"常用功能快捷方式" > 打开"网络助手"开关_
+
+**如何关闭单个应用的网络？**
+
+设置操作：_网络助手 > 联网控制 > 应用列表找到要关闭网络的应用 > 联网控制中可选择关闭“数据”或“WLAN”网络_
+
+**搜索帮助**
+
+1. [断开某个应用的网络 - 百度](https://m.baidu.com/s?ie=UTF-8&wd=%E6%96%AD%E5%BC%80%E6%9F%90%E4%B8%AA%E5%BA%94%E7%94%A8%E7%9A%84%E7%BD%91%E7%BB%9C)
+2. https://wen.baidu.com/question/529138871019976405.html - *怎么关闭单个应用的网络_百度问一问*
+
+
+#### 网络诊断
+
+> MIUI 14
+
+设置操作：_应用 > 手机管家 > 网络诊断_
+
+功能：
+
+- 诊断、检测当前手机的网络环境
+- 监控正在运行应用的实时网速（下载速度和上传速度）
+
+
+#### 自动任务
+
+> MIUI 14
+
+设置操作：_应用 > 手机管家 > 自动任务_
+
+
+### 应用商店
+
+暂无
+
+
+### 系统桌面
+
+MIUI 14 设置操作：*应用 > [设置](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.settings) > 桌面*
+
+
+### 主题
+
+暂无
+
+
+## 官方应用
+
+> *应用 > [应用商店](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.xiaomi.market) > 我的 > （应用管理）官方应用*
+
+
+### 小爱同学
+
+https://xiaoai.mi.com/ - *小爱同学*
+
+
+### 小米笔记
+
+https://s.xiaomi.cn/c/8qK7lYlC - *🏷️ 小米社区*
+
+- https://s.xiaomi.cn/c/H3wMf2jB - *【必看公告】笔记（便签）使用指南&常见问题合集*
+
+
+### 小米相册
+
+暂无
+
+
+### 小米社区
+
+https://www.xiaomi.cn/ - *小米社区*
+
+
+### 小米商城
+
+暂无
+
+
+### 小米有品
+
+暂无
+
+
+### 小米天气
+
+暂无
+
+
+### 日历
+
+暂无
+
+
+### 时钟
+
+暂无
+
+
+### 计算器
+
+暂无
+
+
+### 米家
+
+https://home.mi.com/ - *米家*
+
+
+### 屏幕录制
+
+暂无
+
+
+### 音乐
+
+暂无
+
+
+## 外接设备
+
+### 蓝牙耳机
+
+> MIUI 14
+
+使用操作：*应用 > [小爱语音](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.miui.voiceassist) > 右上角“我的” > 蓝牙设备 > 连接指定设备后可查看电池电量、产品说明书*
+
+
+## 常见问题解答
+
+https://kf.qq.com/touch/sappfaq/180705A3IB3Y1807056fMr6V.html - *为什么将小程序添加到桌面后桌面上找不到小程序图标 - 腾讯客服*
+
+<div class="border border-dashed p-2 m-2">
+
+**来源**：任意微信小程序“添加到桌面”操作弹窗提示。
+</div>
+
+
+### 如何将微信公众号文章链接复制成自定义格式？
+
+> 将链接 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 」 复制成 「https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA - *明黄的 iPhone 14 亮出来，接春天。*」 的格式。
+
+操作步骤：
+
+1. 打开应用 *[微信](http://app.xiaomi.com/detail/1122) > 复制链接*；
+2. 使用（小米手机）系统悬浮窗工具打开应用 *[Simple Clipboard Editor](https://play.google.com/store/apps/details?id=com.trianguloy.clipboardeditor) > 点击分享图标（Share：在 Yandex Browser 浏览器中打开）*；
+3. 分享成功后会自动跳转至浏览器，并新建新标签页打开链接 *[Yandex Browser](https://play.google.com/store/apps/details?id=com.yandex.browser) > 扩展插件：[CopyTabTitleUrl](https://chrome.google.com/webstore/detail/copytabtitleurl/lmgbdjfoaihhgdphombpgjpaohjfeapp) > format*。
+   > https://www.cccitu.com/982.html - *手机浏览器 Yandex 安装 Chrome 扩展插件 - CCCiTU - 玩机大学*
+
+
+### 如何将微信公众号文章长链接转换成短链接再复制？
+
+> 将链接¹ https://mp.weixin.qq.com/s?__biz=MzIwOTA2MzYwNA==&mid=2247514218&idx=1&sn=0f3a174deb53be7b962facbfda66fedd 转换成链接² https://mp.weixin.qq.com/s/bQt8ht5yfuSP2Va3r5BjqA 。
+
+操作步骤：
+
+1. 使用 QQ 浏览器 *打开链接¹ > 分享至微信“朋友圈”*；
+2. 跳转至 *微信“朋友圈”编辑页面后，点击链接¹*（通过微信内置浏览器访问链接）；
+3. 微信内置浏览器打开网页后，点击页面右上角 *“ⵈ” > 复制链接* （复制的链接即链接²）。
+
+
+### 如何将微信好友发的“支付宝收款码图片”在支付宝中打开？
+
+操作步骤：
+
+1. 打开二维码图片，点击屏幕右下角 *“ⵈ” > 识别图中二维码*；
+2. 复制识别的二维码链接，在浏览器地址栏粘贴进行访问；
+3. 浏览器访问成功后，会提示是否跳转至支付宝 App，选择跳转即可操作转账。
+
+
+### 如何将微信好友发的“扫一扫二维码图片”在支付宝中打开？
+
+操作步骤：
+
+1. 打开二维码图片，点击屏幕右下角 *“ⵈ” > 识别图中二维码*；
+2. 复制识别到的二维码内容；
+3. 打开支付宝 App 的「搜索」功能，粘贴已复制的内容进行搜索。
+
+### 如何查看正在运行的应用？
+
+> MIUI 版本：14.0.7
+
+操作步骤：
+
+1. 方式一：_系统应用 > 手机管家 > 优化加速_
+
+2. 方式二：_系统应用 > 手机管家 > 省电与电池 > 耗电检测 - 关闭耗电应用_
+
+3. 方式三：_系统应用 > 设置 > 应用设置 > 授权管理 > 自启动管理_
+
+4. 方式四：_用户应用 > [Blocker](https://github.com/lihenggui/blocker)_
+
+5. 方式五：_用户应用 > [App Manager](https://github.com/MuntashirAkon/AppManager) > ⋮ 更多选项 > 正在运行的应用_
+
+参考：
+
+1. https://web.vip.miui.com/page/info/mio/mio/detail?app_version=dev.20051&postId=39511252 - *小米社区*
+
+
+### 如何关闭后台运行中的应用？
+
+操作步骤：*应用 > 设置 > 省电与电池 > 省电 - “发现 ? 个耗电问题，立即优化” > “检测完耗电问题”点击进入 > 点击底部“一键延长 ? 分钟”按钮*
+
+添加桌面快捷方式：*应用 > 设置 > 安全 > 下滑至底部 - “手机管家” > 右上角图标 ![设置图标][image-settings] > 常用功能快捷方式 > 开启“省电优化”*
+
+
+### 如何查看“深圳地铁”各站点首班以及末班发车时间？
+
+操作步骤：_应用 > 微信 > 小程序-“乘车码” > 选择“地铁”标签页-“地铁图” > 点击查询的“站点” - 弹出的菜单中选择“站点详情”（即可查看此站点的首班车及末班车到站时间）_
+
+
+### 如何播放 m3u8 格式视频文件？
+
+打开方式一：
+
+1. 下载应用“[质感文件](os/mobile/android/app/README.md#Material-Files)”；
+2. 打开“质感文件” > 找到 m3u8 格式视频文件的存放位置；
+3. 点击文件右侧 ⋮ > 在弹出的菜单栏选项中选择“打开方式”-第 2 个“质感文件”；
+4. 弹窗中选择将文件作为视频打开；
+5. “打开方式”弹窗中可选择“其他方式”-“小米视频”；
+6. 或者“其他方式”-“播霸（QQ浏览器）”（注：此方式需要提前安装“QQ浏览器”）。
+
+打开方式二（推荐）：
+
+1. 下载应用“[QQ浏览器](os/mobile/android/app/browser.md#QQ浏览器)”；
+2. 打开“QQ浏览器” > 底部导航栏-“文件” > 顶部“文件管理”-“视频” > 在“本地视频”中找到 m3u8 格式视频文件 > 点击文件播放。
+
+打开方式三：
+
+1. 下载应用“[VLC](os/tools/app.md#vlc)”、“[恒星播放器](os/tools/app.md#stellarplayer)”；
+2. 打开系统应用“文件管理” > 找到 m3u8 格式视频文件 > 点击文件-弹出“打开方式”窗口 > 选择“VLC”。
+
+有关更多详细信息，请参阅“[应用列表 > 音/视频工具](os/tools/app.md#音视频工具)”。
+
+
+### 如何正确使用手机电池？
+
+> MIUI 14
+
+操作步骤：_应用 > 设置 > 省电与电池 > 顶部标签页-“电池”_
+- 点击卡片“电池状况”，查看文章“如何延长电池使用时间，延缓电池老化”
+- 点击卡片“当前温度”，查看文章“如果设备温度过高或过低”
+- 点击卡片“今日充电”，查看文章“关于给设备充电”
+
+
+### 如何在手机上打开 HTML 文件？
+
+操作步骤：
+1. 新建 HTML 格式 (test.html) 文件（可使用手机应用 [Markor](os/mobile/android/app/README.md#markor) 新建）；
+2. 打开系统应用“[文件管理](http-shortcuts://0cc6f723-1058-47e7-b887-27226d206897?apk_name=com.android.fileexplorer)”；
+3. 找到新建的 HTML 文件 *> 长按文件 > 更多 > 用其他应用打开 > 选择自己常用的手机浏览器*。
+
+
+### 如何修改文件的默认打开方式？
+
+操作步骤：
+
+1. 打开 _应用 > 设置 > 应用设置 > 应用管理_
+2. 搜索应用，如：`质感文件`
+3. 点击搜索到的结果，进入「应用信息」页面
+4. 向下滑动页面，点击「高级设置 > 清除默认操作」
+
+参考：
+
+1. https://zhidao.baidu.com/question/1111323023250094139/answer/2907354345.html - *安卓系统里如何更改打开某个文件的默认打开方式？*
+2. https://jingyan.baidu.com/article/f006222807c4dbfbd3f0c887.html - *如何修改手机的文件默认打开方式-百度经验*
+3. https://zhidao.baidu.com/question/1111323023250094139/answer/3044384110.html - *安卓系统里如何更改打开某个文件的默认打开方式？*
+
+### 如何获取屏幕坐标点？
+
+参考：
+
+1. https://jingyan.baidu.com/article/00a07f38297bd082d028dce7.html - *安卓手机怎么知道手机屏幕上一个点的坐标呢？-百度经验*
+2. https://www.cnblogs.com/harry66/p/13438789.html - *获取安卓手机的坐标位置 - Harry_666 - 博客园*
+
+
+[image-category-list]: data:image/svg+xml;charset=utf-8;base64,PHN2ZyB2aWV3Qm94PScwIDAgMTAyNCAxMDI0JyB2ZXJzaW9uPScxLjEnIHhtbG5zPSdodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2Zycgd2lkdGg9JzE2JyBoZWlnaHQ9JzE2Jz48cGF0aCBkPSdNMzgxLjI0MjgyODE5IDQ2MS4yNzUyMzUwN0gxNTguMDUzODYyNUMxMTQuMDkyMzk5NTYgNDYxLjI3NTIzNTA3IDc4LjAyMTQ1NTYxIDQyNS4yMDQyOTExMyA3OC4wMjE0NTU2MSAzODEuMjQyODI4MTlWMTU4LjA1Mzg2MjVDNzguMDIxNDU1NjEgMTE0LjA5MjM5OTU2IDExNC4wOTIzOTk1NiA3OC4wMjE0NTU2MSAxNTguMDUzODYyNSA3OC4wMjE0NTU2MWgyMjMuMTg4OTY1NjlDNDI1LjIwNDI5MTEzIDc4LjAyMTQ1NTYxIDQ2MS4yNzUyMzUwNyAxMTQuMDkyMzk5NTYgNDYxLjI3NTIzNTA3IDE1OC4wNTM4NjI1djIyMy4xODg5NjU2OUM0NjEuMjc1MjM1MDcgNDI1LjIwNDI5MTEzIDQyNS4yMDQyOTExMyA0NjEuMjc1MjM1MDcgMzgxLjI0MjgyODE5IDQ2MS4yNzUyMzUwN3pNMTU4LjA1Mzg2MjUgMTQ1LjY1NDQ3NTUyQzE1MS4yOTA1NjA1MiAxNDUuNjU0NDc1NTIgMTQ1LjY1NDQ3NTUyIDE1MS4yOTA1NjA1MiAxNDUuNjU0NDc1NTIgMTU4LjA1Mzg2MjV2MjIzLjE4ODk2NTY5YzAgNi43NjMzMDE5OSA1LjYzNjA4NDk5IDEyLjM5OTM4Njk4IDEyLjM5OTM4Njk4IDEyLjM5OTM4Njk4aDIyMy4xODg5NjU2OWM2Ljc2MzMwMTk5IDAgMTIuMzk5Mzg2OTgtNS42MzYwODQ5OSAxMi4zOTkzODY5OC0xMi4zOTkzODY5OFYxNTguMDUzODYyNWMwLTYuNzYzMzAxOTktNS42MzYwODQ5OS0xMi4zOTkzODY5OC0xMi4zOTkzODY5OC0xMi4zOTkzODY5OEgxNTguMDUzODYyNXpNMzg5LjEzMzM0NzE3IDk0Mi41OTY4OTMzOUgxNjUuOTQ0MzgxNDljLTQzLjk2MTQ2Mjk0IDAtODAuMDMyNDA2ODktMzYuMDcwOTQzOTUtODAuMDMyNDA2ODktODAuMDMyNDA2ODl2LTIyMy4xODg5NjU2OWMwLTQzLjk2MTQ2Mjk0IDM2LjA3MDk0Mzk1LTgwLjAzMjQwNjg5IDgwLjAzMjQwNjg5LTgwLjAzMjQwNjg3aDIyMy4xODg5NjU2OGM0My45NjE0NjI5NCAwIDgwLjAzMjQwNjg5IDM2LjA3MDk0Mzk1IDgwLjAzMjQwNjkgODAuMDMyNDA2ODd2MjIzLjE4ODk2NTY5YzAgNDMuOTYxNDYyOTQtMzYuMDcwOTQzOTUgODAuMDMyNDA2ODktODAuMDMyNDA2OSA4MC4wMzI0MDY4OXogbS0yMjMuMTg4OTY1NjgtMzE1LjYyMDc1OTU1Yy02Ljc2MzMwMTk5IDAtMTIuMzk5Mzg2OTggNS42MzYwODQ5OS0xMi4zOTkzODY5OCAxMi4zOTkzODY5N3YyMjMuMTg4OTY1NjljMCA2Ljc2MzMwMTk5IDUuNjM2MDg0OTkgMTIuMzk5Mzg2OTggMTIuMzk5Mzg2OTggMTIuMzk5Mzg2OTloMjIzLjE4ODk2NTY4YzYuNzYzMzAxOTkgMCAxMi4zOTkzODY5OC01LjYzNjA4NDk5IDEyLjM5OTM4Njk5LTEyLjM5OTM4Njk5di0yMjMuMTg4OTY1NjljMC02Ljc2MzMwMTk5LTUuNjM2MDg0OTktMTIuMzk5Mzg2OTgtMTIuMzk5Mzg2OTktMTIuMzk5Mzg2OTdIMTY1Ljk0NDM4MTQ5ek05MTIuNzI1NjQyOTMgMTk0LjY4ODQxNDk0aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTRzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTZoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTZzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk0ek05MTIuNzI1NjQyOTMgNDEyLjI0MTI5NTY0aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTVzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTVoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTVzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk1ek05MTIuNzI1NjQyOTMgNjc4LjgyODExNTc3aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTZzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTVoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTVzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk2ek05MTIuNzI1NjQyOTMgODk2Ljk0NDYwNDk2aC0zMjEuMjU2ODQ0NTVjLTE4LjU5OTA4MDQ3IDAtMzMuODE2NTA5OTUtMTUuMjE3NDI5NDgtMzMuODE2NTA5OTQtMzMuODE2NTA5OTZzMTUuMjE3NDI5NDgtMzMuODE2NTA5OTUgMzMuODE2NTA5OTQtMzMuODE2NTA5OTRoMzIxLjI1Njg0NDU1YzE4LjU5OTA4MDQ3IDAgMzMuODE2NTA5OTUgMTUuMjE3NDI5NDggMzMuODE2NTA5OTYgMzMuODE2NTA5OTRzLTE1LjIxNzQyOTQ4IDMzLjgxNjUwOTk1LTMzLjgxNjUwOTk2IDMzLjgxNjUwOTk2eic+PC9wYXRoPjwvc3ZnPg==
+
+[image-settings]: data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgd2lkdGg9JzE2JyBoZWlnaHQ9JzE2Jz48cGF0aCBkPSdNMTIgMUwyMS41IDYuNVYxNy41TDEyIDIzTDIuNSAxNy41VjYuNUwxMiAxWk0xMiAzLjMxMUw0LjUgNy42NTMxMVYxNi4zNDY5TDEyIDIwLjY4OUwxOS41IDE2LjM0NjlWNy42NTMxMUwxMiAzLjMxMVpNMTIgMTZDOS43OTA4NiAxNiA4IDE0LjIwOTEgOCAxMkM4IDkuNzkwODYgOS43OTA4NiA4IDEyIDhDMTQuMjA5MSA4IDE2IDkuNzkwODYgMTYgMTJDMTYgMTQuMjA5MSAxNC4yMDkxIDE2IDEyIDE2Wk0xMiAxNEMxMy4xMDQ2IDE0IDE0IDEzLjEwNDYgMTQgMTJDMTQgMTAuODk1NCAxMy4xMDQ2IDEwIDEyIDEwQzEwLjg5NTQgMTAgMTAgMTAuODk1NCAxMCAxMkMxMCAxMy4xMDQ2IDEwLjg5NTQgMTQgMTIgMTRaJz48L3BhdGg+PC9zdmc+
+
+[^1]: https://tieba.baidu.com/p/7682538967#/ - *贴吧*

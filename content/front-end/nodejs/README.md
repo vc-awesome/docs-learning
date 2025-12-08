@@ -39,7 +39,7 @@ that lets developers write command line tools and server-side scripts outside of
 
   3. 安装 NPM *（无需安装，因为 NPM 是随同 NodeJS 一起安装的包管理工具）* ；
   
-  4. [使用淘宝 NPM 镜像](front-end/node.js/npm.md#npm-%e9%95%9c%e5%83%8f)。
+  4. [使用淘宝 NPM 镜像](front-end/nodejs/packages/npm.md)
 
      - https://npmmirror.com/ - *npmmirror 中国镜像站*
 

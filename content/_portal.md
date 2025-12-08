@@ -35,7 +35,7 @@
       - [JavaScript 深入系列](https://github.com/mqyqingfeng/Blog#深入系列)
       - [ES6 系列](https://github.com/mqyqingfeng/Blog#es6-%E7%B3%BB%E5%88%97)
     - [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
-        -  [分类整理](home/book.md#阮一峰的网络日志)
+        -  [分类整理](home/searcher/book.md#阮一峰的网络日志)
 
 ## 常用应用
 
@@ -158,7 +158,7 @@ https://www.crxsoso.com/ - *Crx搜搜 - 浏览器扩展商店 Chrome,Edge,Firefo
 
 - [文档结构](home/structure/document.md)
 - [代码片段](snippets/README.md)
-- [在线工具](os/tools/web-app.md)
+- [在线工具](os/web/app/README.md)
   - [菜鸟工具](https://c.runoob.com/)
   - [URL编解码](https://tool.browser.qq.com/urlencode.html)
 - [Markdown Guide](https://www.markdownguide.org/)

@@ -104,13 +104,15 @@ https://www.vim.org/download.php - *download : vim online*
 
 [![Packaging status](https://repology.org/badge/vertical-allrepos/vim.svg?columns=2&exclude_unsupported=1)](https://repology.org/project/vim/versions)
 
-### Windows
+### 桌面端
+
+#### Windows
 
 暂无
 
-### macOS
+#### macOS
 
-#### Homebrew
+##### Homebrew
 
 官方：
 
@@ -122,13 +124,15 @@ https://formulae.brew.sh/formula/vim - *vim — Homebrew Formulae*
 brew install vim
 ```
 
-### Linux
+#### Linux
 
 暂无
 
-### Android
+### 移动端
 
-#### Termux
+#### Android
+
+##### Termux
 
 安装：
 
@@ -312,15 +316,25 @@ or: `vim [arguments] -q [errorfile]` edit file with first error
 
 示例：
 
-`vim --help`
+```bash
+vim --help
+```
 
-`vim --version`
+```bash
+vim --version
+```
 
-`vim -nd -c 'startinsert' -c 'windo set wrap' file1.txt file2.txt`
+```bash
+vim -nd -c 'startinsert' -c 'windo set wrap' file1.txt file2.txt
+```
 
-`vim -np file.txt`
+```bash
+vim -np file.txt
+```
 
-`vim --clean file.txt`
+```bash
+vim --clean file.txt
+```
 
 参考：
 
@@ -351,6 +365,11 @@ https://yianwillis.github.io/vimcdoc/doc/intro.html - *VIM 中文帮助: 对 Vim
 #### 操作符
 
 https://yianwillis.github.io/vimcdoc/doc/motion.html#operator - *VIM 中文帮助: 有关移动的命令*
+
+- <kbd>c</kbd> - 修改 (change)
+- <kbd>d</kbd> - 删除 (delete)
+- <kbd>y</kbd> - 抽出 (yank) 到寄存器 (不改变文本)
+- <kbd>~</kbd> - 变换大小写 (只有当 'tildeop' 置位时有效)
 
 ### 命令
 
@@ -669,6 +688,20 @@ https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮
 1. https://www.cnblogs.com/Dev0ps/p/11661394.html - *Vim 中进行文件目录操作 - 西门运维 - 博客园*
 2. https://yianwillis.github.io/vimcdoc/doc/usr_22.html - *VIM 中文用户手册: 寻找要编辑的文件*
 
+#### 重新加载文件
+
+手动：
+
+<kbd>:</kbd> + <kbd>e</kbd> - 重新载入当前文件
+
+<kbd>:</kbd> + <kbd>e!</kbd> - 强制重新载入当前文件
+
+https://blog.csdn.net/race604/article/details/7314082 - *VIM使用小技巧-重新载入文件_vim 重读-CSDN博客*
+
+自动：
+
+https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 - YEUNGCHIE - 博客园*
+
 #### 打开当前文件所在的目录
 
 在“命令行模式”下：
@@ -699,76 +732,6 @@ https://yianwillis.github.io/vimcdoc/doc/terminal.html#terminal - *VIM 中文帮
 
 1. https://stackoverflow.org.cn/questions/10488717 - *vim - 如何在 Vim 中永久显示当前文件的路径？_Stack Overflow中文网*
 2. https://blog.csdn.net/u013408061/article/details/81565966 - *vim 查看文件路径_vim查看当前文件路径-CSDN博客*
-
-### 移动光标
-
-在“普通模式”下：
-
-1. <kbd>0</kbd>（数字 0）或功能键 <kbd>Home</kbd> - 移动到这一行的最前面字符处（常用）
-2. <kbd>^</kbd> - 移动到行的首个非空白字符（常用）
-3. <kbd>$</kbd> 或功能键 <kbd>End</kbd> - 移动到这一行的最后面字符处（常用）
-4. <kbd>Shift</kbd> + <kbd>g</kbd> - 移动到这个档案的最后一行（常用）
-5. <kbd>n</kbd> + <kbd>G</kbd> - n 为数字。移动到这个档案的第 n 行。例如 20G 则会移动到这个档案的第 20 行（可配合 `:set nu`）
-6. <kbd>g</kbd> + <kbd>g</kbd> - 移动到这个档案的第一行，相当于 1G（常用）
-
-参考：
-
-1. https://yianwillis.github.io/vimcdoc/doc/motion.html - *VIM 中文帮助: 有关移动的命令*
-
-#### 位置标记
-
-用标记 {a-zA-Z} 记录当前位置：
-
-```vim
-m{a-zA-Z}
-```
-
-至当前文件中的标记 {a-z}：
-
-```vim
-`{a-z}
-```
-
-至前次跳转之前的位置：
-
-```vim
-``
-```
-
-列出活动的标记：
-
-```vim
-:marks
-```
-
-参考：
-
-1. https://yianwillis.github.io/vimcdoc/doc/usr_03.html#03.10 - *VIM 中文用户手册: 移动*
-2. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
-3. https://yianwillis.github.io/vimcdoc/doc/motion.html#mark-motions - *VIM 中文帮助: 有关移动的命令*
-
-#### 跳转
-
-在“普通模式”下：
-
-- N CTRL-O - *跳转到跳转表中第 N 个较早的位置*
-
-    - 跳回到上一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>o</kbd>。这个命令会让你在光标位置的历史记录中向后跳转。
-
-- N CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
-
-    - 跳到下一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>i</kbd>。这个命令会让你在光标位置的历史记录中向前跳转。
-
-在“命令行模式”下：
-
-- `:ju[mps]` - *列出跳转表*
-
-- `:cle[arjumps]` - *清除当前窗口的跳转表*
-
-参考：
-
-1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
-2. https://yianwillis.github.io/vimcdoc/doc/motion.html#jump-motions -*VIM 中文帮助: 有关移动的命令*
 
 ### 查找与替换
 
@@ -855,39 +818,6 @@ m{a-zA-Z}
 参考：
 
 1. https://yianwillis.github.io/vimcdoc/doc/pattern.html#pattern.txt - *VIM 中文帮助: 正则表达式及查找命令*
-
-### 对比文件
-
-简介：
-
-> Vimdiff starts Vim on two up to eight files.  Each file ​gets its own window.  The differences between the files ​are highlighted. This is a nice way to inspect changes ​and to move changes from one version to another version of the same file.
-
-语法：
-
-```bash
-vimdiff file1 file2 [file3 [file4]]
-```
-
-或者
-
-```bash
-vim -d file1 file2 [file3 [file4]]
-```
-
-示例：
-
-`man -a vimdiff` - *显示所有匹配的手册页面*
-
-```bash
-man -s 1 vimdiff
-```
-
-参考：
-
-1. https://yianwillis.github.io/vimcdoc/doc/diff.html - *VIM 中文帮助: 编辑同一文本的两到八个版本*
-2. https://blog.csdn.net/2401_85760095/article/details/140018164 - *探索Vim的diff模式：代码差异的终极可视化工具_vimdiff-CSDN博客*
-3. https://stackoverflow.org.cn/questions/16840433 - *vim - 强制 vimdiff 换行？_Stack Overflow中文网*
-4. https://cn.linux-console.net/?p=19643 - *使用 vimdiff 检查 Vim 中的文件差异*
 
 ### 查看当前文件的改动
 
@@ -1126,6 +1056,39 @@ ChatGPT：
 
 </details>
 
+### 对比文件
+
+简介：
+
+> Vimdiff starts Vim on two up to eight files.  Each file ​gets its own window.  The differences between the files ​are highlighted. This is a nice way to inspect changes ​and to move changes from one version to another version of the same file.
+
+语法：
+
+```bash
+vimdiff file1 file2 [file3 [file4]]
+```
+
+或者
+
+```bash
+vim -d file1 file2 [file3 [file4]]
+```
+
+示例：
+
+`man -a vimdiff` - *显示所有匹配的手册页面*
+
+```bash
+man -s 1 vimdiff
+```
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/diff.html - *VIM 中文帮助: 编辑同一文本的两到八个版本*
+2. https://blog.csdn.net/2401_85760095/article/details/140018164 - *探索Vim的diff模式：代码差异的终极可视化工具_vimdiff-CSDN博客*
+3. https://stackoverflow.org.cn/questions/16840433 - *vim - 强制 vimdiff 换行？_Stack Overflow中文网*
+4. https://cn.linux-console.net/?p=19643 - *使用 vimdiff 检查 Vim 中的文件差异*
+
 ### 插入空行
 
 在 Vim 的 **正常模式** 下插入空行，可以使用以下命令：
@@ -1159,6 +1122,84 @@ ChatGPT：
 
 这些命令都可以帮助你快速在 Vim 中插入空行，并根据需求选择是否进入插入模式。
 
+### 移动光标
+
+在“普通模式”下：
+
+1. <kbd>0</kbd>（数字 0）或功能键 <kbd>Home</kbd> - 移动到这一行的最前面字符处（常用）
+2. <kbd>^</kbd> - 移动到行的首个非空白字符（常用）
+3. <kbd>$</kbd> 或功能键 <kbd>End</kbd> - 移动到这一行的最后面字符处（常用）
+4. <kbd>n</kbd> + <kbd>G</kbd> - n 为数字。移动到这个档案的第 n 行。例如 20G 则会移动到这个档案的第 20 行（可配合 `:set nu`）
+5. <kbd>g</kbd> + <kbd>g</kbd> - 移动到这个档案的第一行，相当于 1G（常用）
+6. <kbd>Shift</kbd> + <kbd>g</kbd> - 移动到这个档案的最后一行（常用）
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/motion.html - *VIM 中文帮助: 有关移动的命令*
+
+#### 左右动作
+
+暂无
+
+#### 上下动作
+
+暂无
+
+#### 位置标记
+
+用标记 {a-zA-Z} 记录当前位置：
+
+```vim
+m{a-zA-Z}
+```
+
+至当前文件中的标记 {a-z}：
+
+```vim
+`{a-z}
+```
+
+至前次跳转之前的位置：
+
+```vim
+``
+```
+
+列出活动的标记：
+
+```vim
+:marks
+```
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/usr_03.html#03.10 - *VIM 中文用户手册: 移动*
+2. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
+3. https://yianwillis.github.io/vimcdoc/doc/motion.html#mark-motions - *VIM 中文帮助: 有关移动的命令*
+
+#### 跳转
+
+在“普通模式”下：
+
+- N CTRL-O - *跳转到跳转表中第 N 个较早的位置*
+
+    - 跳回到上一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>o</kbd>。这个命令会让你在光标位置的历史记录中向后跳转。
+
+- N CTRL-I - *跳转到跳转表中第 N 个较晚的位置*
+
+    - 跳到下一个光标位置：按 <kbd>Ctrl</kbd> + <kbd>i</kbd>。这个命令会让你在光标位置的历史记录中向前跳转。
+
+在“命令行模式”下：
+
+- `:ju[mps]` - *列出跳转表*
+
+- `:cle[arjumps]` - *清除当前窗口的跳转表*
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_ma - *VIM 中文帮助: 总览最常用的命令*
+2. https://yianwillis.github.io/vimcdoc/doc/motion.html#jump-motions -*VIM 中文帮助: 有关移动的命令*
+
 ### 移动行
 
 语法：
@@ -1167,7 +1208,7 @@ ChatGPT：
 
 示例：
 
-1. <details markdown='1'><summary><code>`:2,9m0`</code></summary>
+1. <details markdown='1'><summary><code>:2,9m0</code></summary>
 
     在 Vim 中，命令 `:2,9m0` 的含义是将第 2 行到第 9 行的内容移动到文件的开头（第 0 行）。
 
@@ -1196,28 +1237,46 @@ ChatGPT：
 在 Vim 的正常模式下删除当前行，可以使用以下命令：
 
 1. **删除当前行**
-   ```bash
-   dd
-   ```
-   这是最常用的删除当前行的命令，它会将光标所在的整行删除。
+    ```bash
+    dd
+    ```
+    这是最常用的删除当前行的命令，它会将光标所在的整行删除。
 
 2. **删除多行**
-   - **向下删除多行** ：
-     例如，删除当前行及其下方的 3 行：
-     ```bash
-     3dd
-     ```
-     这会删除当前行和接下来的 3 行，共 4 行。
+    - **向下删除多行** ：
+        例如，删除当前行及其下方的 3 行：
+         ```bash
+         3dd
+         ```
+         这会删除当前行和接下来的 3 行，共 4 行。
 
 3. **删除但不复制到剪贴板**
-   ```bash
-   "_dd
-   ```
-   这会删除当前行，但不将其内容复制到剪贴板，避免替换掉已有的复制内容。
+    ```bash
+    "_dd
+    ```
+    这会删除当前行，但不将其内容复制到剪贴板，避免替换掉已有的复制内容。
 
 参考：
 
 1. https://cloud.tencent.com/developer/article/1838332 - *在Vim/Vi中删除行、多行、范围、所有行及包含模式的行-腾讯云开发者社区-腾讯云*
+
+#### 删除多行
+
+在“普通模式”下：
+
+```vim
+3dd
+```
+或者
+```vim
+d3j
+```
+这会删除当前行及其下方的 3 行，共 4 行。
+
+```vim
+d3k
+```
+这会删除当前行及其上方的 3 行，共 4 行。
 
 #### 删除行至标记位置
 
@@ -1227,11 +1286,11 @@ ChatGPT：
 
 2. 然后，使用以下命令删除到标记的行：
 
-   ```vim
-   :., 'a d
-   ```
+    ```vim
+    :., 'a d
+    ```
 
-   这里的 `.` 表示当前行，`'a` 表示标记 `a` 所在的行，`d` 是删除命令。
+    这里的 `.` 表示当前行，`'a` 表示标记 `a` 所在的行，`d` 是删除命令。
 
 如果你想删除到标记 `b`，可以使用：
 
@@ -1240,6 +1299,31 @@ ChatGPT：
 ```
 
 这样就可以删除从当前行到标记行之间的所有行。请注意，这个命令会删除包括当前行和标记行在内的所有行。如果你只想删除当前行到标记行之间的行（不包括标记行），可以使用 `:., 'a-1 d`。
+
+#### 删除行至指定行
+
+在“普通模式”下：
+
+```vim
+d20G
+```
+这会删除从当前行到第 20 行之间的所有行（请注意，这个命令会删除包括当前行和指定行在内的所有行）。
+
+### 删除文本
+
+暂无
+
+### 粘贴
+
+```vim
+p
+```
+小写的 p ，这会粘贴剪贴板内容到光标下方。
+
+```vim
+P
+```
+大写的 P ，这会粘贴剪贴板内容到光标上方。
 
 ### 重复操作
 
@@ -1254,6 +1338,13 @@ ChatGPT：
 1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_re - *VIM 中文帮助: 总览最常用的命令*
 2. <https://oheyu.github.io/zh/posts/tech/vim重复上一次命令/> - *Vim重复上一次命令 | 史玉浩的个人博客*
 3. https://learnku.com/articles/21986 - *VIM 中的重复操作与高效率 | Laravel China 社区*
+
+### 折叠
+
+参考：
+
+1. https://yianwillis.github.io/vimcdoc/doc/quickref.html#Q_fo - *VIM 中文帮助: 总览最常用的命令*
+2. https://yianwillis.github.io/vimcdoc/doc/fold.html - *VIM 中文帮助: 隐藏 (折叠) 一定范围内的文本*
 
 ## 高级用法
 
@@ -1716,20 +1807,6 @@ https://github.com/prettier/vim-prettier - *GitHub - prettier/vim-prettier: A Vi
 
 1. https://linux.cn/article-9392-1.html - *技术|如何在 Linux/Unix 中不重启 Vim 而重新加载 .vimrc 文件*
 
-### 重新加载文件
-
-手动：
-
-<kbd>:</kbd> + <kbd>e</kbd> - 重新载入当前文件
-
-<kbd>:</kbd> + <kbd>e!</kbd> - 强制重新载入当前文件
-
-https://blog.csdn.net/race604/article/details/7314082 - *VIM使用小技巧-重新载入文件_vim 重读-CSDN博客*
-
-自动：
-
-https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 - YEUNGCHIE - 博客园*
-
 ### 复制内容至系统剪贴板
 
 将整个文档复制到剪贴板：
@@ -1943,7 +2020,9 @@ https://www.cnblogs.com/yeungchie/p/15845052.html - *[ Vim ] 自动重载文件 
 
 这些命令可以帮助你快速调整视图，使光标所在的行更容易查看。
 
-## 参考
+## 附录
+
+### 参考
 
 1. https://segmentfault.com/a/1190000016056004 - *Vim (vi) 编辑器快捷键大全【图解】，各种操作，指令大全 | 从无到有 | linux | mac | terminal - 青枫ky - SegmentFault 思否*
 2. https://www.freecodecamp.org/chinese/news/how-to-exit-vim/ - *如何退出 Vim——Vim 保存和退出命令教程*

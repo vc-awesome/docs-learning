@@ -41,6 +41,12 @@ https://github.com/wangdoc/bash-tutorial/blob/master/docs/archives/redirection.m
 2. https://www.cnblogs.com/bluestorm/p/10754821.html - *Linux 重定向 2>&1 ， 1>&2 - petercao - 博客园*
 3. https://blog.csdn.net/zhaominpro/article/details/82630528 - *Linux shell中2>&1的含义解释 （全网最全，看完就懂）-CSDN博客*
 
+## 入门指南
+
+### 目录结构
+
+暂无
+
 ## 安装
 
 https://repology.org/project/bash/versions - *bash package versions - Repology*

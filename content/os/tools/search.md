@@ -434,7 +434,7 @@ https://repology.org/ - *Repology* [GitHub Org](https://github.com/repology)
 
     - https://formulae.brew.sh/ - *Homebrew Formulae*
 
-    - 有关更多详细信息，请参阅“[Mac > Homebrew](os/desktop/mac/homebrew.md)”。
+    - 有关更多详细信息，请参阅“[Mac > Homebrew](os/desktop/mac/app/homebrew.md)”。
 
 2. [The MacPorts Project -- Home](https://www.macports.org/) - *The MacPorts Project is an open-source community initiative to design an easy-to-use system for compiling, installing, and upgrading either command-line, X11 or Aqua based open-source software on the Mac OS X operating system.*
 
@@ -516,6 +516,16 @@ https://www.npmjs.com/ - *npm | Home*
 
 1. https://jingyan.baidu.com/article/a24b33cd682ebf58fe002be5.html - *如何卸载在Microsoft store安装的软件-百度经验*
 
+#### 联想应用商店
+
+> <img src="https://lestore.lenovo.com/static/media/logo.d020a7b9.svg" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 0px;">
+>
+> 联想应用商店为广大用户提供一站式的软件、游戏的极速下载,所有软件都通过人工亲测,安全无忧。
+
+官网：
+
+1. https://lestore.lenovo.com/ - *联想应用商店*
+
 #### 腾讯电脑管家
 
 > <img src="https://guanjia.qq.com/assets/images/v15/logo.png" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
@@ -532,16 +542,6 @@ https://www.npmjs.com/ - *npm | Home*
 
 有关详细信息，请参阅“[腾讯电脑管家](https://guanjia.qq.com/) > [软件管理](https://pc.qq.com/)”。
 
-#### 联想应用商店
-
-> <img src="https://lestore.lenovo.com/static/media/logo.d020a7b9.svg" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 0px;">
->
-> 联想应用商店为广大用户提供一站式的软件、游戏的极速下载,所有软件都通过人工亲测,安全无忧。
-
-官网：
-
-1. https://lestore.lenovo.com/ - *联想应用商店*
-
 ### macOS/iOS
 
 #### App Store
@@ -552,17 +552,26 @@ https://www.npmjs.com/ - *npm | Home*
 
 官网：
 
-1. https://www.apple.com.cn/app-store/ - *App Store - Apple (中国大陆)*
+1. https://www.apple.com.cn/apps/ - *Apple 打造的 App - Apple (中国大陆)*
+    1. https://www.apple.com.cn/app-store/ - *App Store - Apple (中国大陆)*
+2. https://www.apple.com/apps/ - *Apps by Apple - Apple*
+    1. https://www.apple.com/app-store/ - *App Store - Apple*
 
-2. https://www.apple.com.cn/apps/ - *Apple 打造的 App - Apple (中国大陆)*
+下载应用：
 
-3. https://apps.apple.com/cn/charts/iphone - *App Store 中的 iPhone 排行榜 - Apple（CN）*
+1. https://apps.apple.com/cn/
+    1. https://apps.apple.com/cn/charts/iphone - *App Store 中的 iPhone 排行榜 - Apple（CN）*
+2. https://apps.apple.com/us/
+    1. https://apps.apple.com/us/charts/iphone - *iPhone Top Charts on the App Store - Apple*
 
-4. https://www.apple.com/app-store/ - *App Store - Apple*
+平台：
 
-5. https://www.apple.com/apps/ - *Apps by Apple - Apple*
-
-6. https://apps.apple.com/us/charts/iphone - *iPhone Top Charts on the App Store - Apple*
+1. iPhone
+2. iPad
+3. Mac
+4. Vision
+5. Watch
+6. TV
 
 实例：
 
@@ -587,38 +596,24 @@ https://www.npmjs.com/ - *npm | Home*
 
 ### Android
 
-#### Play Store
+#### Accrescent
 
-> <img src="http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/05878658c9db24750bd268eb2983d45bd0bd3883c" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
->
-> 您可以随时随地在自己的各种设备上畅享数百万最新的 Android 应用、游戏、音乐、电影、电视节目、图书、杂志等精彩内容。
+> Accrescent is an Android app store focused on security, privacy, and usability.
 
-官网：
+![GitHub last commit](https://img.shields.io/github/last-commit/accrescent/accrescent?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/accrescent/accrescent?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/accrescent/accrescent?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/accrescent/accrescent?style=social)
 
-1. https://play.google.com/store/apps - *Google Play 上的 Android 应用* 🚫（默认根据＂浏览器设置的语言＂显示网页内容的语言）
-    1. https://play.google.com/store/apps?hl=zh - *Google Play 上的 Android 应用*
-    2. https://play.google.com/store/apps?hl=en - *Android Apps on Google Play*
-2. https://support.google.com/googleplay?hl=en - *Google Play Help* 🚫
-3. https://play.google.com/apps/publish/ - *Google Play for business | Launch &amp; monetize your apps | Google Play Console*
+官方：
 
-实例：
+1. https://accrescent.app/ - *Accrescent | Home*
+2. https://github.com/accrescent/accrescent - *GitHub - accrescent/accrescent: A novel Android app store focused on security, privacy, and usability*
+3. https://github.com/soupslurpr/AppVerifier - *GitHub - soupslurpr/AppVerifier: Verify apps easily.*
 
-1. https://play.google.com/store/apps/details?id=website.leifs.delta - *Delta Icon Pack - Google Play 上的应用* 🚫
-    1. https://play.google.com/store/apps/details?id=website.leifs.delta&hl=zh - *Delta Icon Pack - Google Play 上的应用*
-    2. https://play.google.com/store/apps/details?id=website.leifs.delta&hl=en - *Delta Icon Pack - Apps on Google Play*
+安装：
 
-常见问题：
-
-1. Q：小米手机如何安装和更新“Google Play商店”？
-
-    A：小米应用商店搜索“[Google Play 商店](http://app.xiaomi.com/detail/191)”，然后点击“下载”或者“升级”按钮。
-
-2. Q：如何在第三方平台下载“Google Play商店”安装包？
-
-    A：可通过以下第三方平台下载（例如下面 2 个平台）
-
-    1. https://apkmod.cc/google-play-store/ - *Google Play Store v36.9.16 (Latest Version) - APKMOD.CC*
-    2. https://www.apkmirror.com/apk/google-inc/google-play-store/ - *Download Google Play Store APKs for Android - APKMirror*
+1. https://github.com/accrescent/accrescent/releases - *Releases · accrescent/accrescent · GitHub*
 
 #### Amazon Appstore
 
@@ -637,86 +632,6 @@ https://www.npmjs.com/ - *npm | Home*
 实例：
 
 1. https://www.amazon.com/K-9-Dog-Walkers-Mail/dp/B004JK61K0/ - *K-9 Mail - App on Amazon Appstore*
-
-#### 小米应用商店
-
-> <img src="https://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0adee447ec4a0b384954da516096f02cf7d4077f9/webp.webp" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
->
-> 小米应用商店是由小米推出的手机软件商店合集，致力于成为全面、优质的手机游戏应用商店，在这里用户可以找到最新最好玩的手机app和游戏应用，并提供软件商店app下载，最新最好玩的应用和游戏尽在小米应用商店。
-
-官网：
-
-1. https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应用商店*
-
-2. https://m.app.mi.com/ - *小米应用商店*
-
-国际：
-
-1. https://global.app.mi.com/?lo=ID&la=zh - *Xiaomi*
-
-#### 腾讯应用宝
-
-> <img src="https://static.sj.qq.com/_next/static/media/logo.e4a2800b.svg" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
-> 
-> 应用宝是腾讯旗下官方手机app应用商店，致力于为您提供海量、优质、安全、最新的安卓应用游戏下载！
-
-官网：
-
-1. https://sj.qq.com/ - *应用宝官网-全网最新最热手机应用游戏下载*
-
-#### 360手机助手
-
-> <img src="https://p5.ssl.qhimg.com/t0139fc5f73cb931db6.png" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
-> 
-> 360手机助手为你提供360手机助手下载, 查看最新360手机助手介绍、查看360手机助手应用截图。一键快捷、方便的将安卓版360手机助手免费下载到手机。
-
-官网：
-
-1. https://app.so.com/ - *360 应用_首页*
-
-#### 华为应用市场
-
-> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+aWNfYWc8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkI2MzYxIiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNFRDNFNDUiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iaWNfYWciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSLnvJbnu4QiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuMDAwMDAwLCAyLjAwMDAwMCkiPgogICAgICAgICAgICA8cGF0aCBkPSJNMTAuMTAwOTk5NSwwIEMyLjcwNTExMjc3LDAgMCwyLjcwNDY0MDk4IDAsMTAuMDk5MDI4NiBMMCwyNS45MDA5NzE0IEMwLDMzLjI5NTM1OSAyLjcwNTExMjc3LDM2IDEwLjEwMDk5OTUsMzYgTDI1Ljg5NDE4NiwzNiBDMzMuMjg5ODYzNCwzNiAzNiwzMy4yOTUzNTkgMzYsMjUuOTAwOTcxNCBMMzYsMTAuMDk5MDI4NiBDMzYsMi43MDQ2NDA5OCAzMy4yOTQ4ODcyLDAgMjUuODk5MDAwNSwwIEwxMC4xMDA5OTk1LDAgWiIgaWQ9IkZpbGwtMSIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0xKSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMTUuNzAzMDUxNSwyMC44NzkyNTEgTDE3LjE0ODMxOTIsMjAuODc5MjUxIEwxNi40MjMyMjYsMTkuMTkyOTYwNyBMMTUuNzAzMDUxNSwyMC44NzkyNTEgWiBNMTUuMzQ3MTU5OCwyMS43MjkwNTExIEwxNC45MTgzNTM2LDIyLjcxMDIxMjggTDEzLjk0MjExMDgsMjIuNzEwMjEyOCBMMTYuMDE4MTQ1OSwxOC4wMDAyODkzIEwxNi44NjE4Njk4LDE4LjAwMDI4OTMgTDE4LjkyOTUxNCwyMi43MTAyMTI4IEwxNy45MjcyMzAzLDIyLjcxMDIxMjggTDE3LjUwMzkyMTYsMjEuNzI5MDUxMSBMMTUuMzQ3MTU5OCwyMS43MjkwNTExIFogTTMxLjA1NjQ1MjksMjIuNzA2NzQwNyBMMzIsMjIuNzA2NzQwNyBMMzIsMTggTDMxLjA1NjQ1MjksMTggTDMxLjA1NjQ1MjksMjIuNzA2NzQwNyBaIE0yNy4zMDEwNzE2LDIwLjY4NDgxMjYgTDI5LjA0MDMxMTcsMjAuNjg0ODEyNiBMMjkuMDQwMzExNywxOS44MjY2MjE2IEwyNy4zMDEwNzE2LDE5LjgyNjYyMTYgTDI3LjMwMTA3MTYsMTguODYxOTUyNCBMMjkuODI1ODc3NiwxOC44NjE5NTI0IEwyOS44MjU4Nzc2LDE4LjAwMzQ3MjEgTDI2LjM1NzgxMzgsMTguMDAzNDcyMSBMMjYuMzU3ODEzOCwyMi43MDk5MjM0IEwyOS45MTY3MzEzLDIyLjcwOTkyMzQgTDI5LjkxNjczMTMsMjEuODUxNDQzMSBMMjcuMzAxMDcxNiwyMS44NTE0NDMxIEwyNy4zMDEwNzE2LDIwLjY4NDgxMjYgWiBNMjMuNTUyMDU1OSwyMS4yNDA5Mjk2IEwyMi40ODIzNTUzLDE4IEwyMS43MDE3MDgyLDE4IEwyMC42MzIwMDc1LDIxLjI0MDkyOTYgTDE5LjU5MDk1MTgsMTguMDAyNjA0MSBMMTguNTczMDQzNiwxOC4wMDI2MDQxIEwyMC4yMTU5MzI1LDIyLjcxMjgxNjkgTDIxLjAwNzI4NTIsMjIuNzEyODE2OSBMMjIuMDc4NzIxOSwxOS42MTg4NzM0IEwyMy4xNTAxNTg2LDIyLjcxMjgxNjkgTDIzLjk0ODQ1NTYsMjIuNzEyODE2OSBMMjUuNTg3MDA0NCwxOC4wMDI2MDQxIEwyNC41OTU0MjYzLDE4LjAwMjYwNDEgTDIzLjU1MjA1NTksMjEuMjQwOTI5NiBaIE0xMi41MDE3NjE5LDIwLjY5NzgzMyBDMTIuNTAxNzYxOSwyMS40NjQwMTMgMTIuMTIxMjc2LDIxLjg3MzQzMzIgMTEuNDMwMzI1MiwyMS44NzM0MzMyIEMxMC43MzU2MTI5LDIxLjg3MzQzMzIgMTAuMzUzMTAxNywyMS40NTIxNDk5IDEwLjM1MzEwMTcsMjAuNjY1MTM3MyBMMTAuMzUzMTAxNywxOC4wMDMxODI4IEw5LjM5NjgyMzQzLDE4LjAwMzE4MjggTDkuMzk2ODIzNDMsMjAuNjk3ODMzIEM5LjM5NjgyMzQzLDIyLjAyMzMxMjggMTAuMTMzNDkwNCwyMi43ODM0MTY1IDExLjQxNzMwNDgsMjIuNzgzNDE2NSBDMTIuNzEzODUwMiwyMi43ODM0MTY1IDEzLjQ1NzE3MjEsMjIuMDA4ODQ1NiAxMy40NTcxNzIxLDIwLjY1ODQ4MjQgTDEzLjQ1NzE3MjEsMTguMDAwMjg5MyBMMTIuNTAxNzYxOSwxOC4wMDAyODkzIEwxMi41MDE3NjE5LDIwLjY5NzgzMyBaIE03LjExNTM1NDgxLDE4LjAwMDI4OTMgTDguMDcxMDU0MzQsMTguMDAwMjg5MyBMOC4wNzEwNTQzNCwyMi43MTMxMDYyIEw3LjExNTM1NDgxLDIyLjcxMzEwNjIgTDcuMTE1MzU0ODEsMjAuNzk5MTAzIEw0Ljk1NjI3ODIyLDIwLjc5OTEwMyBMNC45NTYyNzgyMiwyMi43MTMxMDYyIEw0LDIyLjcxMzEwNjIgTDQsMTguMDAwMjg5MyBMNC45NTYyNzgyMiwxOC4wMDAyODkzIEw0Ljk1NjI3ODIyLDE5LjkwMTI3MjEgTDcuMTE1MzU0ODEsMTkuOTAxMjcyMSBMNy4xMTUzNTQ4MSwxOC4wMDAyODkzIFoiIGlkPSJGaWxsLTEiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTE4LDEyIEMxNC42OTEyNjE2LDEyIDEyLDkuMzA4NDQ5MDcgMTIsNiBMMTIuODQ3NTExNiw2IEMxMi44NDc1MTE2LDguODQwODU2NDggMTUuMTU5MTQzNSwxMS4xNTIxOTkxIDE4LDExLjE1MjE5OTEgQzIwLjg0MDg1NjUsMTEuMTUyMTk5MSAyMy4xNTI0ODg0LDguODQwODU2NDggMjMuMTUyNDg4NCw2IEwyNCw2IEMyNCw5LjMwODQ0OTA3IDIxLjMwODQ0OTEsMTIgMTgsMTIiIGlkPSJGaWxsLTMiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
->
-> 华为应用市场是华为官方应用分发平台，提供海量安卓软件和游戏，精准推荐内容，保障应用安全，让用户畅享便捷体验。
-
-官网：
-
-1. https://appgallery.huawei.com/ - *应用市场*
-2. https://appgallery.huawei.com/Apps - *AppGallery*
-
-#### 豌豆荚
-
-> <img src="https://android-artworks.25pp.com/fs08/2023/05/23/0/110_d144c13d8fff06f529d6107cac0464f3_con_130x130.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
->
-> 豌豆荚是一家提供绿色安全应用与游戏的下载市场，商店上汇聚了海量更新更全的安卓软件、安卓应用和安卓游戏免费下载资源。
-
-https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量安卓APP应用与游戏免费下载*
-
-查看历史版本：
-
-- https://m.wandoujia.com/apps/280001/history - *豌豆荚老旧版本大全_所有历史官方版安装下载_豌豆荚*
-- https://mp.weixin.qq.com/s/bjUfDJUSNwBYvA_iKI40FQ - *互联网历史又被翘掉一块，写个脚本简单抢救一下...*
-
-~~支持下载“历史版本”~~
-
-- 更新日志
-
-    - 2022.07.21 - 已不支持下载历史版本
-
-#### 酷安
-
-> <img src="http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0bf75e3126e094536b32e04d927f58a46fee99561" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
->
-> 玩数码，上酷安！酷安，真实有趣的数码社区。快来下载酷安APP体验吧。
-
-官网：
-
-1. https://www.coolapk.com/ - *酷安 - 发现科技新生活*
-
-下载应用程序：
-
-1. https://www.coolapk.com/apk/ - *安卓应用 - 酷安*
 
 #### F-Droid
 
@@ -759,24 +674,38 @@ GitHub:
 
 3. https://github.com/f-droid/fdroidclient - *GitHub - f-droid/fdroidclient: Android client application.*
 
-#### Accrescent
+#### Google Play
 
-> Accrescent is an Android app store focused on security, privacy, and usability.
+> <img src="http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/05878658c9db24750bd268eb2983d45bd0bd3883c" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
+>
+> 您可以随时随地在自己的各种设备上畅享数百万最新的 Android 应用、游戏、音乐、电影、电视节目、图书、杂志等精彩内容。
 
-![GitHub last commit](https://img.shields.io/github/last-commit/accrescent/accrescent?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/accrescent/accrescent?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/accrescent/accrescent?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/accrescent/accrescent?style=social)
+官网：
 
-官方：
+1. https://play.google.com/store/apps - *Google Play 上的 Android 应用* 🚫（默认根据＂浏览器设置的语言＂显示网页内容的语言）
+    1. https://play.google.com/store/apps?hl=zh - *Google Play 上的 Android 应用*
+    2. https://play.google.com/store/apps?hl=en - *Android Apps on Google Play*
+2. https://support.google.com/googleplay?hl=en - *Google Play Help* 🚫
+3. https://play.google.com/apps/publish/ - *Google Play for business | Launch &amp; monetize your apps | Google Play Console*
 
-1. https://accrescent.app/ - *Accrescent | Home*
-2. https://github.com/accrescent/accrescent - *GitHub - accrescent/accrescent: A novel Android app store focused on security, privacy, and usability*
-3. https://github.com/soupslurpr/AppVerifier - *GitHub - soupslurpr/AppVerifier: Verify apps easily.*
+实例：
 
-安装：
+1. https://play.google.com/store/apps/details?id=website.leifs.delta - *Delta Icon Pack - Google Play 上的应用* 🚫
+    1. https://play.google.com/store/apps/details?id=website.leifs.delta&hl=zh - *Delta Icon Pack - Google Play 上的应用*
+    2. https://play.google.com/store/apps/details?id=website.leifs.delta&hl=en - *Delta Icon Pack - Apps on Google Play*
 
-1. https://github.com/accrescent/accrescent/releases - *Releases · accrescent/accrescent · GitHub*
+常见问题：
+
+1. Q：小米手机如何安装和更新“Google Play 商店”？
+
+    A：小米应用商店搜索“[Google Play 商店](http://app.xiaomi.com/detail/191)”，然后点击“下载”或者“升级”按钮。
+
+2. Q：如何在第三方平台下载“Google Play 商店”安装包？
+
+    A：可通过以下第三方平台下载（例如下面 2 个平台）
+
+    1. https://apkmod.cc/google-play-store/ - *Google Play Store v36.9.16 (Latest Version) - APKMOD.CC*
+    2. https://www.apkmirror.com/apk/google-inc/google-play-store/ - *Download Google Play Store APKs for Android - APKMirror*
 
 #### Obtainium
 
@@ -801,6 +730,90 @@ GitHub:
 下载应用：
 
 1. https://apps.obtainium.imranr.dev/ - *Obtainium Apps*
+
+#### 360手机助手
+
+> <img src="https://p5.ssl.qhimg.com/t0139fc5f73cb931db6.png" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
+> 
+> 360手机助手为你提供360手机助手下载, 查看最新360手机助手介绍、查看360手机助手应用截图。一键快捷、方便的将安卓版360手机助手免费下载到手机。
+
+官网：
+
+1. https://app.so.com/ - *360 应用_首页*
+
+#### 华为应用市场
+
+> <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iNDBweCIgaGVpZ2h0PSI0MHB4IiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDY0ICg5MzUzNykgLSBodHRwczovL3NrZXRjaC5jb20gLS0+CiAgICA8dGl0bGU+aWNfYWc8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZGVmcz4KICAgICAgICA8bGluZWFyR3JhZGllbnQgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSIgaWQ9ImxpbmVhckdyYWRpZW50LTEiPgogICAgICAgICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjRkI2MzYxIiBvZmZzZXQ9IjAlIj48L3N0b3A+CiAgICAgICAgICAgIDxzdG9wIHN0b3AtY29sb3I9IiNFRDNFNDUiIG9mZnNldD0iMTAwJSI+PC9zdG9wPgogICAgICAgIDwvbGluZWFyR3JhZGllbnQ+CiAgICA8L2RlZnM+CiAgICA8ZyBpZD0iaWNfYWciIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSLnvJbnu4QiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIuMDAwMDAwLCAyLjAwMDAwMCkiPgogICAgICAgICAgICA8cGF0aCBkPSJNMTAuMTAwOTk5NSwwIEMyLjcwNTExMjc3LDAgMCwyLjcwNDY0MDk4IDAsMTAuMDk5MDI4NiBMMCwyNS45MDA5NzE0IEMwLDMzLjI5NTM1OSAyLjcwNTExMjc3LDM2IDEwLjEwMDk5OTUsMzYgTDI1Ljg5NDE4NiwzNiBDMzMuMjg5ODYzNCwzNiAzNiwzMy4yOTUzNTkgMzYsMjUuOTAwOTcxNCBMMzYsMTAuMDk5MDI4NiBDMzYsMi43MDQ2NDA5OCAzMy4yOTQ4ODcyLDAgMjUuODk5MDAwNSwwIEwxMC4xMDA5OTk1LDAgWiIgaWQ9IkZpbGwtMSIgZmlsbD0idXJsKCNsaW5lYXJHcmFkaWVudC0xKSI+PC9wYXRoPgogICAgICAgICAgICA8cGF0aCBkPSJNMTUuNzAzMDUxNSwyMC44NzkyNTEgTDE3LjE0ODMxOTIsMjAuODc5MjUxIEwxNi40MjMyMjYsMTkuMTkyOTYwNyBMMTUuNzAzMDUxNSwyMC44NzkyNTEgWiBNMTUuMzQ3MTU5OCwyMS43MjkwNTExIEwxNC45MTgzNTM2LDIyLjcxMDIxMjggTDEzLjk0MjExMDgsMjIuNzEwMjEyOCBMMTYuMDE4MTQ1OSwxOC4wMDAyODkzIEwxNi44NjE4Njk4LDE4LjAwMDI4OTMgTDE4LjkyOTUxNCwyMi43MTAyMTI4IEwxNy45MjcyMzAzLDIyLjcxMDIxMjggTDE3LjUwMzkyMTYsMjEuNzI5MDUxMSBMMTUuMzQ3MTU5OCwyMS43MjkwNTExIFogTTMxLjA1NjQ1MjksMjIuNzA2NzQwNyBMMzIsMjIuNzA2NzQwNyBMMzIsMTggTDMxLjA1NjQ1MjksMTggTDMxLjA1NjQ1MjksMjIuNzA2NzQwNyBaIE0yNy4zMDEwNzE2LDIwLjY4NDgxMjYgTDI5LjA0MDMxMTcsMjAuNjg0ODEyNiBMMjkuMDQwMzExNywxOS44MjY2MjE2IEwyNy4zMDEwNzE2LDE5LjgyNjYyMTYgTDI3LjMwMTA3MTYsMTguODYxOTUyNCBMMjkuODI1ODc3NiwxOC44NjE5NTI0IEwyOS44MjU4Nzc2LDE4LjAwMzQ3MjEgTDI2LjM1NzgxMzgsMTguMDAzNDcyMSBMMjYuMzU3ODEzOCwyMi43MDk5MjM0IEwyOS45MTY3MzEzLDIyLjcwOTkyMzQgTDI5LjkxNjczMTMsMjEuODUxNDQzMSBMMjcuMzAxMDcxNiwyMS44NTE0NDMxIEwyNy4zMDEwNzE2LDIwLjY4NDgxMjYgWiBNMjMuNTUyMDU1OSwyMS4yNDA5Mjk2IEwyMi40ODIzNTUzLDE4IEwyMS43MDE3MDgyLDE4IEwyMC42MzIwMDc1LDIxLjI0MDkyOTYgTDE5LjU5MDk1MTgsMTguMDAyNjA0MSBMMTguNTczMDQzNiwxOC4wMDI2MDQxIEwyMC4yMTU5MzI1LDIyLjcxMjgxNjkgTDIxLjAwNzI4NTIsMjIuNzEyODE2OSBMMjIuMDc4NzIxOSwxOS42MTg4NzM0IEwyMy4xNTAxNTg2LDIyLjcxMjgxNjkgTDIzLjk0ODQ1NTYsMjIuNzEyODE2OSBMMjUuNTg3MDA0NCwxOC4wMDI2MDQxIEwyNC41OTU0MjYzLDE4LjAwMjYwNDEgTDIzLjU1MjA1NTksMjEuMjQwOTI5NiBaIE0xMi41MDE3NjE5LDIwLjY5NzgzMyBDMTIuNTAxNzYxOSwyMS40NjQwMTMgMTIuMTIxMjc2LDIxLjg3MzQzMzIgMTEuNDMwMzI1MiwyMS44NzM0MzMyIEMxMC43MzU2MTI5LDIxLjg3MzQzMzIgMTAuMzUzMTAxNywyMS40NTIxNDk5IDEwLjM1MzEwMTcsMjAuNjY1MTM3MyBMMTAuMzUzMTAxNywxOC4wMDMxODI4IEw5LjM5NjgyMzQzLDE4LjAwMzE4MjggTDkuMzk2ODIzNDMsMjAuNjk3ODMzIEM5LjM5NjgyMzQzLDIyLjAyMzMxMjggMTAuMTMzNDkwNCwyMi43ODM0MTY1IDExLjQxNzMwNDgsMjIuNzgzNDE2NSBDMTIuNzEzODUwMiwyMi43ODM0MTY1IDEzLjQ1NzE3MjEsMjIuMDA4ODQ1NiAxMy40NTcxNzIxLDIwLjY1ODQ4MjQgTDEzLjQ1NzE3MjEsMTguMDAwMjg5MyBMMTIuNTAxNzYxOSwxOC4wMDAyODkzIEwxMi41MDE3NjE5LDIwLjY5NzgzMyBaIE03LjExNTM1NDgxLDE4LjAwMDI4OTMgTDguMDcxMDU0MzQsMTguMDAwMjg5MyBMOC4wNzEwNTQzNCwyMi43MTMxMDYyIEw3LjExNTM1NDgxLDIyLjcxMzEwNjIgTDcuMTE1MzU0ODEsMjAuNzk5MTAzIEw0Ljk1NjI3ODIyLDIwLjc5OTEwMyBMNC45NTYyNzgyMiwyMi43MTMxMDYyIEw0LDIyLjcxMzEwNjIgTDQsMTguMDAwMjg5MyBMNC45NTYyNzgyMiwxOC4wMDAyODkzIEw0Ljk1NjI3ODIyLDE5LjkwMTI3MjEgTDcuMTE1MzU0ODEsMTkuOTAxMjcyMSBMNy4xMTUzNTQ4MSwxOC4wMDAyODkzIFoiIGlkPSJGaWxsLTEiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICAgICAgPHBhdGggZD0iTTE4LDEyIEMxNC42OTEyNjE2LDEyIDEyLDkuMzA4NDQ5MDcgMTIsNiBMMTIuODQ3NTExNiw2IEMxMi44NDc1MTE2LDguODQwODU2NDggMTUuMTU5MTQzNSwxMS4xNTIxOTkxIDE4LDExLjE1MjE5OTEgQzIwLjg0MDg1NjUsMTEuMTUyMTk5MSAyMy4xNTI0ODg0LDguODQwODU2NDggMjMuMTUyNDg4NCw2IEwyNCw2IEMyNCw5LjMwODQ0OTA3IDIxLjMwODQ0OTEsMTIgMTgsMTIiIGlkPSJGaWxsLTMiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
+>
+> 华为应用市场是华为官方应用分发平台，提供海量安卓软件和游戏，精准推荐内容，保障应用安全，让用户畅享便捷体验。
+
+官网：
+
+1. https://appgallery.huawei.com/ - *应用市场*
+2. https://appgallery.huawei.com/Apps - *AppGallery*
+
+#### 酷安
+
+> <img src="http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0bf75e3126e094536b32e04d927f58a46fee99561" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
+>
+> 玩数码，上酷安！酷安，真实有趣的数码社区。快来下载酷安APP体验吧。
+
+官网：
+
+1. https://www.coolapk.com/ - *酷安 - 发现科技新生活*
+
+下载应用：
+
+1. https://www.coolapk.com/apk/ - *安卓应用 - 酷安*
+
+#### 腾讯应用宝
+
+> <img src="https://static.sj.qq.com/_next/static/media/logo.e4a2800b.svg" alt="package icon" width="158" hspace="10" vspace="0" style="border-radius: 5px;">
+> 
+> 应用宝是腾讯旗下官方手机app应用商店，致力于为您提供海量、优质、安全、最新的安卓应用游戏下载！
+
+官网：
+
+1. https://sj.qq.com/ - *应用宝官网-全网最新最热手机应用游戏下载*
+
+#### 豌豆荚
+
+> <img src="https://android-artworks.25pp.com/fs08/2023/05/23/0/110_d144c13d8fff06f529d6107cac0464f3_con_130x130.png" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
+>
+> 豌豆荚是一家提供绿色安全应用与游戏的下载市场，商店上汇聚了海量更新更全的安卓软件、安卓应用和安卓游戏免费下载资源。
+
+https://www.wandoujia.com/ - *豌豆荚手机精灵 豌豆荚手机助手-海量安卓APP应用与游戏免费下载*
+
+查看历史版本：
+
+- https://m.wandoujia.com/apps/280001/history - *豌豆荚老旧版本大全_所有历史官方版安装下载_豌豆荚*
+- https://mp.weixin.qq.com/s/bjUfDJUSNwBYvA_iKI40FQ - *互联网历史又被翘掉一块，写个脚本简单抢救一下...*
+
+~~支持下载“历史版本”~~
+
+- 更新日志
+
+    - 2022.07.21 - 已不支持下载历史版本
+
+#### 小米应用商店
+
+> <img src="https://t10.market.xiaomi.com/thumbnail/webp/w0/MusicServer/0adee447ec4a0b384954da516096f02cf7d4077f9/webp.webp" alt="package icon" width="58" hspace="10" vspace="0" style="border-radius: 5px;">
+>
+> 小米应用商店是由小米推出的手机软件商店合集，致力于成为全面、优质的手机游戏应用商店，在这里用户可以找到最新最好玩的手机app和游戏应用，并提供软件商店app下载，最新最好玩的应用和游戏尽在小米应用商店。
+
+官网：
+
+1. https://app.mi.com/ - *手机游戏应用商店_软件商店app下载-小米应用商店*
+
+2. https://m.app.mi.com/ - *小米应用商店*
+
+国际：
+
+1. https://global.app.mi.com/?lo=ID&la=zh - *Xiaomi*
+
+下载应用：
+
+1. https://app.market.xiaomi.com/hd/apm-h5-cdn/cdn-applinking.html?id=com.xiaomi.smarthome
 
 ### Browser Extensions
 

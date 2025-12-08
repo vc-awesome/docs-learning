@@ -1,6 +1,6 @@
 * [技术栈](tech-stack/README.md)
-* [Google](tech-stack/google.md)
-* [Mozilla](tech-stack/mozilla.md)
+* [Google](tech-stack/google/README.md)
+* [Mozilla](tech-stack/mozilla/README.md)
 * **阿里系列**
 * [支付宝](tech-stack/ali/alipay.md)
 * [阿里云](tech-stack/ali/aliyun.md)

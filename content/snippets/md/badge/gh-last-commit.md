@@ -1,1 +1,1 @@
-![GitHub last commit](https://badgen.net/github/last-commit/?icon=github&color=blue)
+![GitHub last commit](https://img.shields.io/github/last-commit/${path}?logo=github&color=blue)

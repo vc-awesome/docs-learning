@@ -1,5 +1,13 @@
 # 文件对比
 
+## 对比
+
+https://www.ruanyifeng.com/blog/2012/08/how_to_read_diff.html - *读懂diff - 阮一峰的网络日志*
+
+## 合并
+
+暂无
+
 ## Overview
 
 教程：
@@ -7,8 +15,6 @@
 1. https://blog.csdn.net/lzp_k2/article/details/88529094 - *10款最佳的Linux文件比较工具_kompare下载-CSDN博客*
 
 2. https://cn.linux-console.net/?p=998 - *Linux 中 10 个最佳文件比较和差异 (Diff) 工具*
-
-3. https://www.ruanyifeng.com/blog/2012/08/how_to_read_diff.html - *读懂diff - 阮一峰的网络日志*
 
 支持：
 
@@ -133,7 +139,7 @@ colordiff -ru --exclude=".*" docs-learning docs-learning\ \(1\) | diff-so-fancy
 
 ### git diff
 
-[git diff](os/tools/developer/git.md#文件差异-diff) - *Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.*
+[git diff](os/tools/developer/vcs/git.md#文件差异-diff) - *Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.*
 
 支持：
 
@@ -233,4 +239,4 @@ rsync -rvnc --exclude=".*" docs-learning/ docs-learning\ \(1\)
 
 ## Web app
 
-有关详细信息，请参阅“[文件对比](os/tools/web-app.md#文件对比)”。
+有关详细信息，请参阅“[文件对比](os/web/app/README.md#文件对比)”。

@@ -89,18 +89,18 @@
 
 ## 用法
 
-配置 hosts 来源：
+配置 hosts 源（共 2 步）：
 
-1. 有关“配置 hosts 来源”的详细信息，请参阅“[Hosts - Rules（来源）](essential/network/hosts.md#rules（来源）)”；
-2. 配置完 hosts 来源后，刷新本地缓存的有关详细信息，请参阅“[Hosts - 刷新本地 DNS-Android](essential/network/hosts.md#android)”。
+1. 有关“配置 hosts 源”的详细信息，请参阅“[Hosts - Rules（来源）](essential/network/hosts.md#rules（来源）)”；
+2. 配置完 hosts 源后，刷新本地缓存的有关详细信息，请参阅“[Hosts - 刷新本地 DNS-Android](essential/network/hosts.md#android)”。
 
 ## 测试
 
-1. https://whatismyip.li/home - *What is my IP?*
+1. https://whatismyip.li/ - *What is my IP?*
 2. https://www.ipaddress.com/ - *What Is My IP Address? Free IP Lookup*
 3. https://ipaddress.is/ - *Free IP Address Lookup Tools - What Is My IP Address |IPaddress.is*
 4. https://www.netspotapp.com/cn/blog/ip-addresses/what-is-my-ip-address.html - *我的IP地址是什么？ — IP位置*
-5. https://www.tampermonkey.net - *首页 | Tampermonkey*
+5. https://www.tampermonkey.net/ - *首页 | Tampermonkey*
 6. https://www.runoob.com/php/php-tutorial.html - *PHP 教程 | 菜鸟教程*
 
 ## 常见问题

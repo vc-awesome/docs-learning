@@ -1,1 +1,1 @@
-![F-Droid Version](https://badgen.net/f-droid/v/)
+![F-Droid Version](https://img.shields.io/f-droid/v/${version})

@@ -6,27 +6,6 @@
 >
 > <cite>——  [vpn · GitHub Topics](https://github.com/topics/vpn)</cite>
 
-## Search
-
-搜索关键词：
-
-1. `proxy`
-2. `vpn`
-3. `gfw`
-4. `v2ray`
-
-GitHub：
-
-1. 搜索关键词：
-
-    - [免费 ss](https://github.com/search?q=%E5%85%8D%E8%B4%B9%20ss)
-
-2. Topics：
-
-    - https://github.com/topics/v2ray - *v2ray · GitHub Topics · GitHub*
-    - https://github.com/topics/vpn - *vpn · GitHub Topics*
-    - https://github.com/topics/proxy - *proxy · GitHub Topics · GitHub*
-
 ## Tutorials
 
 1. 👏 https://github.com/Alvin9999/new-pac - *翻墙-科学上网、免费翻墙、免费科学上网、VPN、一键翻墙浏览器，vps一键搭建翻墙服务器脚本/教程，免费shadowsocks/ss/ssr/v2ray/goflyway账号/节点，免费自由上网、fanqiang、翻墙梯子，电脑、手机、iOS、安卓、windows、Mac、Linux、路由器翻墙* [Wiki](https://github.com/Alvin9999/new-pac/wiki)
@@ -725,6 +704,10 @@ https://github.com/SagerNet/SagerNet - *GitHub - SagerNet/SagerNet: The universa
 
 https://github.com/getsurfboard/surfboard/releases - *Releases · getsurfboard/surfboard · GitHub*
 
+#### AdGuard VPN
+
+- 有关详细信息，请参阅“[Adguard](os/tools/productivity/adguard.md#vpn)”。
+
 ### Web Browser
 
 #### 自由浏览
@@ -732,17 +715,17 @@ https://github.com/getsurfboard/surfboard/releases - *Releases · getsurfboard/s
 > 免费下载自由浏览 app，了解墙外最新资讯。我们致力于对抗网络审查。
 
 ![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dcom.kiwibrowser.browser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.greatfire.freebrowser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 ![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/greatfire/wiki?style=social)
 
 官方：
 
-[自由浏览](https://freebrowser.org/) - *免费下载自由浏览 app，了解墙外最新资讯* [GitHub Repo](https://github.com/greatfire/wiki)
+[自由浏览](https://freebrowser.org/) 🪜 - *免费下载自由浏览 app，了解墙外最新资讯* [GitHub Repo](https://github.com/greatfire/wiki)
 
 安装：
 
-支持 Windows, macOS, Linux, Android
+支持 Windows, macOS, Linux, Android（[Google Play](https://play.google.com/store/apps/details?id=org.greatfire.freebrowser)）
 
 #### Opera
 
@@ -892,32 +875,9 @@ https://github.com/EtherDream/jsproxy - *EtherDream/jsproxy: An online proxy bas
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/EtherDream/jsproxy?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/EtherDream/jsproxy?style=social)
 
-## Glossary
+### Test
 
-### DNS
-
-1. <https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0> - *漫谈各种黑科技式 DNS 技术在代理环境中的应用. 这篇文章目的是以非技术性例举方式，谈一谈各种 DNS… | by Tachyon | Medium*
-
-### PAC
-
-> *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。
->
-> <cite>—— [《网络代理与VPN应用详解》（这本书能让你连接互联网）](https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac)</cite>
-
-### Proxy
-
-https://github.com/dariubs/awesome-proxy - *GitHub - dariubs/awesome-proxy: A collaborative list of awesome proxy servers and resources. Feel free to contribute!*
-
-![GitHub last commit](https://img.shields.io/github/last-commit/dariubs/awesome-proxy?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dariubs/awesome-proxy?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dariubs/awesome-proxy?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/dariubs/awesome-proxy?style=social)
-
-<https://www.bing.com/search?q=检测http代理是否可用> - *检测http代理是否可用 - 搜索*
-
-## Test
-
-### Test URL
+#### Test URL
 
 墙内：
 
@@ -947,6 +907,58 @@ Other:
 6. https://www.pixiv.net/ - *插画交流网站*
 7. https://free-ss.site/ - *免费上网账号*（当开启了有效的 VPN 网络，页面中的账号列表数据为空）
 
-### Internet Speed Test
+#### Internet Speed Test
 
 https://speed.cloudflare.com/ - *Internet Speed Test - Measure Network Performance | Cloudflare*
+## Appendix
+
+### Glossary
+
+#### DNS
+
+1. <https://tachyondevel.medium.com/漫谈各种黑科技式-dns-技术在代理环境中的应用-62c50e58cbd0> - *漫谈各种黑科技式 DNS 技术在代理环境中的应用. 这篇文章目的是以非技术性例举方式，谈一谈各种 DNS… | by Tachyon | Medium*
+
+#### PAC
+
+> *代理自动配置（Proxy auto-config，简称PAC）* 是一种网页浏览器技术，用于定义浏览器该如何自动选择适当的代理服务器来访问一个网址。
+>
+> <cite>—— [《网络代理与VPN应用详解》（这本书能让你连接互联网）](https://hoochanlon.github.io/fq-book/#/abc/1190000011485579?id=pac)</cite>
+
+#### Proxy
+
+https://github.com/dariubs/awesome-proxy - *GitHub - dariubs/awesome-proxy: A collaborative list of awesome proxy servers and resources. Feel free to contribute!*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/dariubs/awesome-proxy?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/dariubs/awesome-proxy?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/dariubs/awesome-proxy?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/dariubs/awesome-proxy?style=social)
+
+<https://www.bing.com/search?q=检测http代理是否可用> - *检测http代理是否可用 - 搜索*
+
+### Reference
+
+1. https://adguard-vpnx.help/zh_cn/blog/techtok-should-you-always-be-connected-to-vpn.html - *VPN 需要一直开着吗？解答您的疑问*
+
+### Resource
+
+#### Search
+
+搜索关键词：
+
+1. `proxy`
+2. `vpn`
+3. `gfw`
+4. `v2ray`
+5. `免费 ss`
+
+GitHub：
+
+1. 搜索关键词：
+
+    - https://github.com/search?q=gfw
+
+2. Topics：
+
+    - https://github.com/topics/v2ray - *v2ray · GitHub Topics · GitHub*
+    - https://github.com/topics/vpn - *vpn · GitHub Topics*
+    - https://github.com/topics/proxy - *proxy · GitHub Topics · GitHub*

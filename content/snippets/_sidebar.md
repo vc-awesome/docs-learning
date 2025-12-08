@@ -4,5 +4,5 @@
 * [Badge](snippets/badge.md)
 * [Bookmarklet](snippets/bookmarklet.md)
 * [CSS](snippets/css/README.md)
-* [JavaScript](snippets/javascript.md)
-* [HTML](snippets/html.md)
+* [JavaScript](snippets/javascript/README.md)
+* [HTML](snippets/html/README.md)

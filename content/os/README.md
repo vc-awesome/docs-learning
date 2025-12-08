@@ -2,6 +2,8 @@
 
 https://www.gnu.org/gnu/linux-and-gnu.html - *Linux 和 GNU - GNU 工程 - 自由软件基金会*
 
+<https://zh.wikipedia.org/zh-cn/操作系统列表> - *操作系统列表 - 维基百科，自由的百科全书*
+
 ## Unix
 
 > Unix 操作系统是一种多用户、多任务操作系统，最初由肯・汤普逊（Ken Thompson）和丹尼斯・里奇（Dennis Ritchie）在贝尔实验室开发。Unix 操作系统具有许多特点，包括良好的多任务处理能力、强大的命令行界面、灵活的文件系统等。Unix 操作系统的设计哲学强调简单性、灵活性和可定制性，这使得 Unix 成为许多其他操作系统的基础，如 Linux 和 macOS。Unix 操作系统在服务器、工作站和嵌入式系统等领域广泛应用。
@@ -14,6 +16,12 @@ Unix 操作系统本身并没有一个官方的官网，因为 Unix 是一种操
 4. OpenBSD：https://www.openbsd.org/
 
 这些网站提供了关于各自操作系统的详细信息、下载链接、文档和社区支持等资源。
+
+https://zh.wikipedia.org/zh-cn/UNIX - *UNIX - 维基百科，自由的百科全书*
+
+## Unix-like
+
+<https://zh.wikipedia.org/zh-cn/类Unix系统> - *类Unix系统 - 维基百科，自由的百科全书*
 
 ### BSD
 
@@ -31,7 +39,7 @@ https://www.openbsd.org/ - *OpenBSD*
 
 https://man.openbsd.org/ - *OpenBSD manual pages*
 
-## GNU
+### GNU
 
 ![illustration](https://www.gnu.org/graphics/fs-gang.png)
 
@@ -45,36 +53,48 @@ https://www.gnu.org/ - *GNU 操作系统和自由软件运动*
 
 https://developer.aliyun.com/mirror/GNU - *GNU镜像_GNU下载地址_GNU安装教程-阿里巴巴开源镜像站*
 
-### GNOME
+#### GNOME
 
 https://www.gnome.org/ - *GNOME – Simple, beautiful, elegant.*
 
-### FSD
+#### FSD
 
 https://directory.fsf.org/wiki/Main_Page - *Free Software Directory*
 
-### 软件
+#### 软件
 
 https://www.gnu.org/software/ - *软件 - GNU 工程 - 自由软件基金会*
 
-#### Bash
+##### Bash
 
 https://www.gnu.org/software/bash/ - *Bash - GNU Project - Free Software Foundation*
 
 https://www.gnu.org/software/bash/manual/bash.html - *Bash Reference Manual*
 
-#### Coreutils
+##### Coreutils
 
 https://www.gnu.org/software/coreutils/ - *Coreutils - GNU core utilities*
 
-#### Emacs
+##### Emacs
 
 https://www.gnu.org/software/emacs/ - *GNU Emacs - GNU Project*
 
-#### Make
+##### Make
 
 https://www.gnu.org/software/make/manual/make.html - *GNU make*
 
-#### Readline
+##### Readline
 
 https://www.gnu.org/software/readline/ - *The GNU Readline Library*
+
+## 软件
+
+<https://zh.wikipedia.org/zh-cn/软件> - *软件 - 维基百科，自由的百科全书*
+
+### 系统软件
+
+暂无
+
+### 应用软件
+
+暂无

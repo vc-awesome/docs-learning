@@ -24,6 +24,16 @@ https://ecma-international.org/ - *Home - Ecma International*
 
 https://www.ietf.org/ - *IETF | Internet Engineering Task Force*
 
+### IEEE
+
+https://standards.ieee.org/ - *IEEE SA - The IEEE Standards Association - Home*
+
+#### POSIX
+
+https://posix.opengroup.org/ - *POSIX Certification home*
+
+https://en.wikipedia.org/wiki/POSIX - *POSIX - Wikipedia*
+
 ### RFC
 
 > 请求意见稿（英语：Request for Comments，缩写：RFC），又翻译作意见征求，意见请求，请求评论、请求评议等，是由互联网工程任务组（IETF）发布的一系列备忘录。文件收集了有关互联网相关信息，以及UNIX和互联网社群的软件文件，以编号排定。目前RFC文件是由互联网协会（ISOC）赞助发行。 — *[RFC - 维基百科，自由的百科全书](https://zh.m.wikipedia.org/wiki/RFC)*

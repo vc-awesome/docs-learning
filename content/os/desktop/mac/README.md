@@ -38,6 +38,12 @@ https://support.apple.com/zh-cn/guide/mac-help/welcome/13.0/mac/13.3.1 - *macOS 
 
 https://github.com/topics/macos - *macos · GitHub Topics · GitHub*
 
+## 安装
+
+### 版本
+
+暂无
+
 ## 设置
 
 ### 控制中心
@@ -74,16 +80,16 @@ https://support.apple.com/zh-cn/guide/mac-help/mchlp1446/mac - *Mac 上的菜单
 
 ```tree
 root_folder/
-├── bin/
-├── User/
+├── bin/ # 所有用户可用的系统程序（普通的基本命令）
+├── User/ # 用户目录
 │   └── <username>...
 ├── usr/
-│   ├── bin/
-│   ├── local/
-│   │   ├── bin/
-│   │   └── sbin/
-│   └── sbin/
-├── sbin/
+│   ├── bin/ # 所有用户可用的应用程序（已安装软件的运行脚本）
+│   ├── local/ # 第三方软件程序
+│   │   ├── bin/ # 所有用户可用
+│   │   └── sbin/ # 超级用户可用
+│   └── sbin/ # 超级用户可用的应用程序（与服务器软件程序命令相关的程序）
+└── sbin/ # 超级用户可用的系统程序（基本的系统命令）
 ```
 
 - 用户目录：`/Users/<username>`
@@ -106,13 +112,21 @@ root_folder/
 
 - `/sbin`： 存放超级用户才能使用的系统程序，即基本的系统命令，如：sreboot 等
 
-- `/usr/bin`： 存放所有用户都可用的应用程序，一般是已安装软件的运行脚本，如：free、make、wget 等
+- `/usr/bin`： 存放所有用户都可用的应用程序，一般是已安装软件程序的运行脚本，如：free、make、wget 等
 
 - `/usr/sbin`： 存放超级用户才能使用的应用程序，一般是与服务器软件程序命令相关的，如：dhcpd、 httpd、samba 等
 
 - `/usr/local/bin`： 存放所有用户都可用的第三方软件程序，如：mysql
 
-- `/usr/local/sbin`： 存放超级用户才能使用的第三方软件，如：nginx
+- `/usr/local/sbin`： 存放超级用户才能使用的第三方软件程序，如：nginx
+
+### 触控板
+
+- 触控板单指点击为单击功能
+
+- 触控板双指点击为鼠标右键功能
+
+- 更多功能可打开 *系统设置 > （左边列表最底下）触控板* 查看教程。
 
 ### 键盘
 
@@ -132,14 +146,6 @@ https://support.apple.com/zh-cn/102650 - *Mac 键盘快捷键 - 官方 Apple 支
 
 https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键点按 - 官方 Apple 支持 (中国)*
 
-### 触控板
-
-- 触控板单指点击为单击功能
-
-- 触控板双指点击为鼠标右键功能
-
-- 更多功能可打开 *系统设置 > （左边列表最底下）触控板* 查看教程。
-
 ### 应用程序
 
 - <kbd>command</kbd> + <kbd>Q</kbd> - *退出当前程序，后台不运行该程序*
@@ -147,6 +153,18 @@ https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键�
 - <kbd>command</kbd> + <kbd>option</kbd> + <kbd>ESC</kbd> - *强制退出当前程序*
 
 - <kbd>command</kbd> + <kbd>tab</kbd> - *切换应用程序*
+
+### 应用双开
+
+- QQ 双开：
+
+  - 打开 QQ 客户端，然后使用键盘快捷键 <kbd>command</kbd> + <kbd>n</kbd>
+
+- 微信双开：[参考](https://zhuanlan.zhihu.com/p/397900267)
+
+  1. 先打开并登录第一个微信；
+  2. 然后打开 *访达 > 应用程序 > 微信（双指同时摁或鼠标右键） > 显示包内容*；
+  3. 依次打开以下⽂件夹 *Contents > MacOS > 双击 WeChat* 即可登录第 2 个微信。
 
 ### 输入法
 
@@ -265,18 +283,6 @@ https://support.apple.com/zh-cn/guide/mac-help/mh35853/mac - *在 Mac 上右键�
 - 显示当前应用程序的所有窗口
 
   - <kbd>control</kbd> + <kbd>下箭头</kbd> - *如果当前 app 有多个窗口，按 「command + 下方向键」可以显示此 app 的所有窗口，这也叫作“应用程序暴露”*
-
-### 应用双开
-
-- QQ 双开：
-
-  - 打开 QQ 客户端，然后使用键盘快捷键 <kbd>command</kbd> + <kbd>n</kbd>
-
-- 微信双开：[参考](https://zhuanlan.zhihu.com/p/397900267)
-
-  1. 先打开并登录第一个微信；
-  2. 然后打开 *访达 > 应用程序 > 微信（双指同时摁或鼠标右键） > 显示包内容*；
-  3. 依次打开以下⽂件夹 *Contents > MacOS > 双击 WeChat* 即可登录第 2 个微信。
 
 ### 卸载软件
 
@@ -419,6 +425,10 @@ https://support.apple.com/zh-cn/guide/preview/welcome/mac - *适用于 Mac 的�
 
 https://support.apple.com/zh-cn/guide/shortcuts-mac/welcome/7.0/mac - *适用于 Mac 的《快捷指令使用手册》 - 官方 Apple 支持 (中国)*
 
+### 终端
+
+https://support.apple.com/zh-cn/guide/terminal/welcome/mac - *适用于 Mac 的终端使用手册 - 官方 Apple 支持 (中国)*
+
 ## 常见问题
 
 1. Mac 中的 Git
@@ -450,13 +460,13 @@ https://support.apple.com/zh-cn/guide/shortcuts-mac/welcome/7.0/mac - *适用于
 
 http://www.taodudu.cc/news/show-1162355.html?action=onClick - *一分钟学会在Mac中如何将文件批量重命名*
 
-### 解压 rar 文件
+### 如何解压 rar 文件
 
 https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,zip等各种格式文件*
 
 1. 在 App Store 中搜索并安装工具 `The Unarchiver`。
 
-### 程序安装问题
+### 如何解决程序安装问题
 
 1. Mac 提示无法验证开发者
 
@@ -495,7 +505,7 @@ https://zhuanlan.zhihu.com/p/103473716 - *教你如何在Mac系统下解压rar,z
 
 4. https://blog.csdn.net/weixin_44722978/article/details/123347801 - *网上下载软件，macOS无法验证此App不包含恶意软件。*
 
-### 应用窗口置顶
+### 如何让应用窗口置顶
 
 百度关键词搜索：[mac应用窗口置顶工具](https://www.baidu.com/s?word=mac%E5%BA%94%E7%94%A8%E7%AA%97%E5%8F%A3%E7%BD%AE%E9%A1%B6%E5%B7%A5%E5%85%B7)
 

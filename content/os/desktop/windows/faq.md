@@ -49,7 +49,7 @@ https://www.zhihu.com/question/53739927 - *Win10的笔记本如何关闭屏幕�
 
 - 使用工具
   
-   有关详细信息，请参阅“ [关闭屏幕工具](os/tools/app-list.md#windows-系统工具)”。
+   有关详细信息，请参阅“ [关闭屏幕工具](os/tools/app.md#windows-系统工具)”。
   
     https://www.phpvar.com/archives/3134.html - *台式机关闭显示屏快捷键*
   

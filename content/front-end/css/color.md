@@ -2,14 +2,14 @@
 
 https://getbootstrap.com/docs/5.3/utilities/colors/ - *Colors · Bootstrap v5.3*
 
-- -text-muted <span style="color:#777">#777</span>
-- -text-white <span style="background-color: #000;color:#fff">#fff</span>
-- -text-primary <span style="color:#337ab7">#337ab7</span>
+- -text-muted <span style="color:#777">\#777</span>
+- -text-white <span style="background-color: #000;color:#fff">\#fff</span>
+- -text-primary <span style="color:#337ab7">\#337ab7</span>
 - -text-secondary
-- -text-success <span style="color:#3c763d">#3c763d</span>
-- -text-warning <span style="color:#8a6d3b">#8a6d3b</span>
-- -text-danger <span style="color:#31708f">#31708f</span>
-- -text-info <span style="color:#31708f">#31708f</span>
+- -text-success <span style="color:#3c763d">\#3c763d</span>
+- -text-warning <span style="color:#8a6d3b">\#8a6d3b</span>
+- -text-danger <span style="color:#31708f">\#31708f</span>
+- -text-info <span style="color:#31708f">\#31708f</span>
 
   ```css
   .text-black {
@@ -32,11 +32,11 @@ https://getbootstrap.com/docs/5.3/utilities/colors/ - *Colors · Bootstrap v5.3*
 
 - 字体色
 
-  <span style="background-color: #5eb95e">#5eb95e</span>
+  <span style="background-color: #5eb95e">\#5eb95e</span>
 
 - 边框色
 
-  <span style="background-color: #f0ececa8">#f0ececa8</span>
+  <span style="background-color: #f0ececa8">\#f0ececa8</span>
 
 - bg-背景色
 
@@ -53,15 +53,15 @@ https://getbootstrap.com/docs/5.3/utilities/colors/ - *Colors · Bootstrap v5.3*
 > From [uViewUI](https://www.uviewui.com/components/color.html)
 
 - 颜色类型
-  - -primary 蓝色 <span style="color: #3c9cff">#3c9cff</span>
-  - -success 绿色 <span style="color: #5ac725">#5ac725</span>
-  - -error 红色 <span style="color: #f56c6c">#f56c6c</span>
-  - -warning 黄色 <span style="color: #f9ae3d">#f9ae3d</span>
-  - -info 灰色 <span style="color: #909399">#909399</span>
+  - -primary 蓝色 <span style="color: #3c9cff">\#3c9cff</span>
+  - -success 绿色 <span style="color: #5ac725">\#5ac725</span>
+  - -error 红色 <span style="color: #f56c6c">\#f56c6c</span>
+  - -warning 黄色 <span style="color: #f9ae3d">\#f9ae3d</span>
+  - -info 灰色 <span style="color: #909399">\#909399</span>
 
 - 颜色状态
-  - -primary 常规颜色 <span style="color: #3c9cff">#3c9cff</span>
-  - -primary-dark 加深颜色 <span style="color: #398ade">#398ade</span>
-  - -primary-disabled 稍浅颜色 <span style="color: #9acafc">#9acafc</span>
-  - -primary-light 变浅颜色 <span style="color: #ecf5ff">#ecf5ff</span>
+  - -primary 常规颜色 <span style="color: #3c9cff">\#3c9cff</span>
+  - -primary-dark 加深颜色 <span style="color: #398ade">\#398ade</span>
+  - -primary-disabled 稍浅颜色 <span style="color: #9acafc">\#9acafc</span>
+  - -primary-light 变浅颜色 <span style="color: #ecf5ff">\#ecf5ff</span>
 

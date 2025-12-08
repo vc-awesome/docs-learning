@@ -2,7 +2,7 @@
 - [bt.md](os/tools/developer/bt.md)
 - [curl.md](os/tools/developer/curl.md)
 - [emacs.md](os/tools/developer/editor/emacs.md)
-- [git.md](os/tools/developer/git.md)
+- [git.md](os/tools/developer/vcs/git.md)
 - [lanhu.md](os/tools/developer/lanhu.md)
 - [man.md](os/tools/developer/shell/man.md)
 - [navicat.md](os/tools/developer/navicat.md)

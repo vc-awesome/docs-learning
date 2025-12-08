@@ -1,1 +1,1 @@
-![NPM Version](https://img.shields.io/npm/v/?logo=npm)
+![NPM Version](https://img.shields.io/npm/v/${version}?logo=npm)

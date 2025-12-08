@@ -1,6 +1,6 @@
 * [Mobile OS](os/mobile/android/README.md)
 * **Mobile System**
-* [MIUI](os/mobile/android/miui.md)
+* [MIUI](os/mobile/android/xiaomi/miui.md)
 * **Mobile Apps**
 * [应用列表](os/mobile/android/app/README.md)
 * [Browser](os/mobile/android/app/browser.md)

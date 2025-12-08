@@ -113,17 +113,17 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 <div class="flash-messages"><div class="flash">
 
 *技术可以学，难得的是如何找到好的学习资源。*
-👏[不知道如何获取新技术？](home/book.md) ，还可以按 📖[技术体系](tech-stack/README.md) 进行学习。
+👏[不知道如何获取新技术？](home/searcher/book.md) ，还可以按 📖[技术体系](tech-stack/README.md) 进行学习。
 </div></div>
 
 ### [Getting started](home/getting-started.md)
 
 1. [知识管理](home/getting-started.md#知识管理) ![][fire]
-2. [搜索技巧](topics/search-skill.md)👏（[教程](https://www.runoob.com/w3cnote/search-engines-usage-skills.html)）
+2. [搜索技巧](home/searcher/search.md)👏（[教程](https://www.runoob.com/w3cnote/search-engines-usage-skills.html)）
 
 #### 学习
 
-1. [书籍](home/book.md)
+1. [书籍](home/searcher/book.md)
 2. [前端](front-end/README.md#学习资源)
 
 ### 基础
@@ -210,22 +210,22 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 4. [jQuery](front-end/jquery.md)
    1. [插件](front-end/jquery.md#插件)🧩
 5. [Node.js](front-end/nodejs/README.md)（[Website](https://nodejs.org/zh-cn/)）
-   1. [NPM](front-end/nodejs/npm.md) <i class="fab fa-npm fa-lg medium-red"></i>（[Website](https://www.npmjs.com/)）
-   2. [工具](front-end/nodejs/package.md)
-      1. [Browsersync](front-end/nodejs/npm.md#browser-sync)
-      2. [rollup.js](front-end/nodejs/package#rollupjs)
-      3. [HTMLHint](front-end/nodejs/package.md#htmlhint)（[Online App](https://htmlhint-playground.netlify.app/)）
-      4. [PostCSS](front-end/nodejs/npm.md#postcss)
-         1. [Autoprefixer](front-end/nodejs/npm.md#autoprefixer)（[Online App](https://autoprefixer.github.io/)）
-      5. [Stylelint](front-end/nodejs/package.md#stylelint)（[Online App](https://stylelint.io/demo/#N4Igxg9gJgpiBcIQBoQDMCWAbGA5AhgLZyIwAeRADjgHRgDO9K4EAdpgOYIjAA6rAAgG8Q5AC4xWUeiPgCA2vyFCR9MQE8cWDKzEBaSOwwc9YgO4AjenosQIYtQCd8lEciXLVGrTv2HOemr4UviOUCIeALr8AL7M-sYAYhCOhPhi3ABW9GzMsJRMiHyCwiBqmjDaurKlWOkwam4eXhVVfmwBQSFhNSJ1Eo0ozWXelb4GHcamlta29k4uvSD9DWIRrHExQA)）
-      6. [ESLint](front-end/nodejs/package.md#eslint)（[Online App](https://eslint.org/play/)）
-      7. [markdownlint](front-end/nodejs/package.md#markdownlint)
-      8. [Prettier](front-end/nodejs/package.md#prettier)（[Online App](https://prettier.io/playground/)）
+    1. [NPM](front-end/nodejs/packages/npm.md) <i class="fab fa-npm fa-lg medium-red"></i>（[Website](https://www.npmjs.com/)）
+    2. [工具](front-end/nodejs/packages/README.md)
+        1. [Browsersync](front-end/nodejs/packages/npm.md#browser-sync)
+        2. [rollup.js](front-end/nodejs/packages/README.md#rollupjs)
+        3. [HTMLHint](front-end/nodejs/packages/README.md#htmlhint)（[Online App](https://htmlhint-playground.netlify.app/)）
+        4. [PostCSS](front-end/nodejs/packages/npm.md#postcss)
+            1. [Autoprefixer](front-end/nodejs/packages/npm.md#autoprefixer)（[Online App](https://autoprefixer.github.io/)）
+        5. [Stylelint](front-end/nodejs/packages/README.md#stylelint)（[Online App](https://stylelint.io/demo/#N4Igxg9gJgpiBcIQBoQDMCWAbGA5AhgLZyIwAeRADjgHRgDO9K4EAdpgOYIjAA6rAAgG8Q5AC4xWUeiPgCA2vyFCR9MQE8cWDKzEBaSOwwc9YgO4AjenosQIYtQCd8lEciXLVGrTv2HOemr4UviOUCIeALr8AL7M-sYAYhCOhPhi3ABW9GzMsJRMiHyCwiBqmjDaurKlWOkwam4eXhVVfmwBQSFhNSJ1Eo0ozWXelb4GHcamlta29k4uvSD9DWIRrHExQA)）
+        6. [ESLint](front-end/nodejs/packages/README.md#eslint)（[Online App](https://eslint.org/play/)）
+        7. [markdownlint](front-end/nodejs/packages/README.md#markdownlint)
+        8. [Prettier](front-end/nodejs/packages/README.md#prettier)（[Online App](https://prettier.io/playground/)）
 6. [Vue.js](front-end/vue/README.md)（[Website](https://cn.vuejs.org/)）
-   1. [Vant](front-end/vue/vant.md)（[Website](https://vant-contrib.gitee.io/vant/#/zh-CN/)）
+    1. [Vant](front-end/vue/vant.md)（[Website](https://vant-contrib.gitee.io/vant/#/zh-CN/)）
 7. _工作原理_
-   1. [浏览器开发者工具](front-end/browser.md#开发者工具)
-   2. [浏览器页面加载过程](front-end/browser.md#浏览器工作原理)👏
+    1. [浏览器开发者工具](front-end/browser.md#开发者工具)
+    2. [浏览器页面加载过程](front-end/browser.md#浏览器工作原理)👏
 
 ### 服务端
 
@@ -270,10 +270,10 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 1. [推荐使用](os/tools/README.md#推荐使用)👏
 2. [搜索下载](os/tools/search.md)
-   1. [应用商店](os/tools/search.md#应用商店)
-3. [应用列表](os/tools/app-list.md)👏
-4. [CLI 应用列表](os/tools/cli-app.md)
-5. [Web 应用列表](os/tools/web-app.md)
+    1. [应用商店](os/tools/search.md#应用商店)
+3. [应用列表](os/tools/app.md)👏
+4. [CLI 应用列表](os/cli/app/README.md)
+5. [Web 应用列表](os/web/app/README.md)
 6. [Android 应用列表](os/mobile/android/app/README.md)
    7. _Android Apps_
       1. [Termux](os/mobile/android/app/termux.md) 👏🏾
@@ -283,10 +283,10 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
       5. [Material Files](os/mobile/android/app/README.md#material-files)
       6. [HTTP Shortcuts](os/mobile/android/app/http-shortcuts.md)
    8. _Android OS_
-      1. [MIUI](os/mobile/android/miui.md)
+      1. [MIUI](os/mobile/android/xiaomi/miui.md)
 9. _常用工具_ 📦
-   10. [文件管理器](os/tools/app-list.md#文件管理)
-   11. [跨端文件传输](os/tools/app-list.md#跨端传输)
+   10. [文件管理器](os/tools/app.md#文件管理)
+   11. [跨端文件传输](os/tools/app.md#跨端传输)
    12. [Sublime Text](os/tools/developer/editor/sublime-text.md)
    13. [PhpStorm](os/tools/developer/editor/phpstorm.md)
    14. _Web 浏览器_
@@ -303,11 +303,11 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 > Version Control
 
-1. [Git](os/tools/developer/git.md)
-2. [GitHub](os/tools/productivity/github.md)（[Website](https://github.com/)）
-   1. [Search](https://github.com/search)
-   2. [加速工具](os/tools/productivity/github.md#访问加速)
-   3. [镜像站](os/mirror.md#github)
+1. [Git](os/tools/developer/vcs/git.md)
+2. [GitHub](os/tools/developer/vcs/github.md)（[Website](https://github.com/)）
+    1. [Search](https://github.com/search)
+    2. [加速工具](os/tools/developer/vcs/github.md#访问加速)
+    3. [镜像站](os/mirror.md#github)
 
 #### Shell
 
@@ -318,7 +318,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
     1. [Bash](os/tools/developer/shell/bash.md)
     2. [PowerShell](os/tools/developer/shell/powershell.md)
     3. [~~Zsh~~]()
-3. [macOS Terminal](os/desktop/mac/terminal.md)
+3. [macOS Terminal](os/desktop/mac/app/terminal.md)
 4. [Android Termux](os/mobile/android/app/termux.md)
 5. [Git Bash](https://git-scm.com/book/en/v2/Appendix-A:-Git-in-Other-Environments-Git-in-Bash)
 
@@ -326,7 +326,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 
 [CLI](os/cli/README.md)
 1. [Windows](os/desktop/windows/command.md)
-2. [macOS](os/desktop/mac/terminal.md)
+2. [macOS](os/desktop/mac/app/terminal.md)
 3. [Linux](os/desktop/linux/command.md)
 
 ##### 脚本
@@ -366,7 +366,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 2. [Awesome](topics/awesome.md)
 3. [翻译](os/tools/topics/translation.md)
 4. [输入法](os/tools/topics/input-method.md)
-5. [搜索技巧](topics/search-skill.md)
+5. [搜索技巧](home/searcher/search.md)
 6. [调试](topics/debug.md)
 7. [剪贴板](topics/clipboard.md)
 8. [文件转换](topics/file-convert.md)
@@ -374,7 +374,7 @@ absolute;right: 0;bottom: -20px;font-size: x-small;">插图来源于：Todoist
 10. [文件同步](topics/file-sync.md)
 11. [文件传输](topics/file-transfer.md)
 12. [快捷键](topics/shortcuts.md)
-13. [单位](topics/unit.md)
+13. [单位转换](topics/unit-conversion.md)
 
 ## 站外导航
 

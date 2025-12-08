@@ -78,7 +78,7 @@ https://tiswww.cwru.edu/php/chet/readline/rluserman.html#Readline-vi-Mode - *GNU
 
 1. <kbd>Alt</kbd> + <kbd>.</kbd>：插入上一个命令的最后一个词。
 
-### 操作历史
+#### 操作历史
 
 1. <kbd>Ctrl</kbd> + <kbd>r</kbd>：搜索操作历史，选择以前执行过的命令。
 

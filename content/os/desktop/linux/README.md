@@ -43,7 +43,9 @@ GitHub:
 
 6. https://linux.die.net/ - *Linux Documentation*
 
-## 安装(发行版)
+## 安装
+
+### 发行版
 
 https://www.linux.org/pages/download/ - *Download Linux | Linux.org*
 
@@ -51,13 +53,13 @@ http://mirrors.kernel.org/ - *mirrors.kernel.org*
 
 https://flathub.org/setup - *Set Up Flathub | Flathub*
 
-### Archlinux
+#### Archlinux
 
 官方：
 
 https://archlinux.org/ - *Arch Linux*
 
-### Debian
+#### Debian
 
 官方：
 
@@ -69,7 +71,7 @@ https://manpages.debian.org/ - *index — Debian Manpages*
 
 https://www.debian.org/doc/manuals/debian-handbook/index.zh-cn.html - *Debian 管理员手册*
 
-#### Ubuntu
+##### Ubuntu
 
 官方：
 
@@ -77,19 +79,19 @@ https://ubuntu.com/ - *Enterprise Open Source and Linux | Ubuntu*
 
 https://wiki.ubuntu.com.cn/UbuntuManual - *UbuntuManual - Ubuntu中文*
 
-### openSUSE
+#### openSUSE
 
 官方：
 
 https://www.opensuse.org/ - *openSUSE - Linux OS. The makers' choice for sysadmins, developers and desktop users.*
 
-### Red Hat
+#### Red Hat
 
 官方：
 
 https://www.redhat.com/ - *Red Hat - We make open source technologies for the enterprise*
 
-#### CentOS
+##### CentOS
 
 官方：
 
@@ -103,7 +105,7 @@ https://developer.aliyun.com/mirror/centos/ - *centos镜像-centos下载地址-c
 
 https://www.cnblogs.com/boonya/p/7373395.html - *List of CentOS Mirrors - boonya - 博客园*
 
-#### Fedora
+##### Fedora
 
 官方：
 
@@ -253,7 +255,7 @@ https://manpages.debian.org/bookworm/dpkg/dpkg.1.en.html - *dpkg(1) — dpkg —
 
 ### SSH
 
-有关详细信息，请参阅“[SSH](os/ssh.md)”。
+有关详细信息，请参阅“[SSH](os/tools/developer/ssh.md)”。
 
 ## 资源
 

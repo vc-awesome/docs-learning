@@ -3,18 +3,16 @@
 ## Introduction
 
 > Each computer (also known as a host) on the Internet has at least one IP address that distinctively identifies it from all other computers on the Internet; the method by which data is sent from one computer to another is known as the Internet Protocol (IP).
->
+> 
+> 互联网上的每台计算机（也称为主机）至少有一个 IP 地址，该地址将其与互联网上的所有其他计算机区分开来；将数据从一台计算机发送到另一台计算机的方法称为互联网协议 (IP)。
+> 
 > <cite>—— [What is my IP | What is an IP?](https://whatismyip.li/what-is-internet-protocol)</cite>
 
-## Tutorial
+## Tutorials
 
 https://whatismyip.li/learn - *What is my IP? - Frequently Asked Questions*
 
-## Keyword search
-
-GitHub 关键词搜索：[ip](https://github.com/search?q=ip)
-
-## Getting started
+## Getting Started
 
 ### IPv4
 
@@ -62,9 +60,11 @@ IPv6 或互联网协议版本 6 是互联网协议（IP）的最新版本，旨�
 
 ## Tools
 
-### 查询本机（外网） IP 工具
+### 查询本机 IP
 
-#### 在线工具
+#### 外网
+
+##### 在线工具
 
 1. https://u.sb/ip-sb/ - *IP.SB - 在线 IPv4 / IPv6 信息查询 - 烧饼博客* [Website](https://ip.sb/)
 
@@ -91,17 +91,7 @@ IPv6 或互联网协议版本 6 是互联网协议（IP）的最新版本，旨�
 
 9. 👏 https://db-ip.com/ - *IP Geolocation API & Free Address Database | DB-IP*
 
-#### MIUI
-
-问：如何查看 IP 地址？
-
-##### 移动网络
-
-答：可以在 **设置⚙️ > 双卡与移动网络 > 高级设置 > IP 地址** 下找到 IP 地址。
-
-##### WLAN
-
-#### 客户端工具
+##### 客户端工具
 
 1. https://github.com/angryip/ipscan - *GitHub - angryip/ipscan: Angry IP Scanner - fast and friendly network scanner* [Website](https://angryip.org/)
 
@@ -110,7 +100,9 @@ IPv6 或互联网协议版本 6 是互联网协议（IP）的最新版本，旨�
 
     - 支持 Windows, macOS, Linux
 
-### 查询本机局域网（内网） IP
+#### 内网
+
+> 局域网
 
 Windows 系统内置：
 
@@ -138,33 +130,22 @@ IP 地址？- 百度经验*
 “CMD” 查看局域网内所有的 IP 地址 - 百度经验*
 3. https://zhuanlan.zhihu.com/p/343301218 - *如何查看本机 ip（外网、内网） - 知乎*
 
-----
+#### MIUI
 
-- 静态 IP
-- 动态 IP
-- DHCP
+问：如何查看 IP 地址？
 
-----
+答：可以在“**设置⚙️ > 我的设备 > 全部参数与信息 > （下滑屏幕至底部）状态信息 > （下滑屏幕至底部）IP 地址**”下找到 IP 地址；连接“移动网络”显示的是外网 IP，“WLAN”网络显示的是内网 IP。
 
-- IPv4
+##### 移动网络
 
-- IPv6
-    - 检测工具：https://test-ipv6.com/ - *IPv6 测试*
-        - via https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn - *开始使用  |  Public DNS  |  Google for Developers*
+答：可以在 **设置⚙️ > 双卡与移动网络 > 高级设置 > IP 地址** 下找到 IP 地址。
 
-----
+##### WLAN
 
-- Geolocation
+答：可以在“**设置⚙️ > WLAN > 点击进入已连接的网络详情 > IP 地址**”下找到 IP 地址。
 
-- Ip2region
-    - https://github.com/lionsoul2014/ip2region - *GitHub - lionsoul2014/ip2region: Ip2region (2.0 - xdb) is a offline IP address manager framework and locator, support billions of data segments, ten microsecond searching performance. xdb engine implementation for many programming languages*
+### 带宽检测
 
-        ![GitHub last commit](https://badgen.net/github/last-commit/lionsoul2014/ip2region?icon=github&color=blue)
-        ![GitHub Repo stars](https://img.shields.io/github/stars/lionsoul2014/ip2region?style=social)
-
-----
-
-带宽检测
 - https://github.com/esnet/iperf - *GitHub - esnet/iperf: iperf3: A TCP, UDP, and SCTP network bandwidth measurement tool*
 
     ![GitHub last commit](https://badgen.net/github/last-commit/esnet/iperf?icon=github&color=blue)
@@ -175,3 +156,32 @@ IP 地址？- 百度经验*
 ### 为什么别人 ping 不通我的 IP 地址
 
 https://zhidao.baidu.com/question/77017056.html - *ping 不通对方的 ip 地址是什么原因_百度知道*
+
+## Appendix
+
+### Glossary
+
+- ASN
+- IPv4
+- IPv6
+    - 检测工具：https://test-ipv6.com/ - *IPv6 测试*
+        - via https://developers.google.com/speed/public-dns/docs/using?hl=zh-cn - *开始使用  |  Public DNS  |  Google for Developers*
+
+- ISP
+- 静态 IP
+- 动态 IP
+- DHCP
+- Geolocation
+- Ip2region
+    - https://github.com/lionsoul2014/ip2region - *GitHub - lionsoul2014/ip2region: Ip2region (2.0 - xdb) is a offline IP address manager framework and locator, support billions of data segments, ten microsecond searching performance. xdb engine implementation for many programming languages*
+
+        ![GitHub last commit](https://badgen.net/github/last-commit/lionsoul2014/ip2region?icon=github&color=blue)
+        ![GitHub Repo stars](https://img.shields.io/github/stars/lionsoul2014/ip2region?style=social)
+
+### Resource
+
+#### Keyword
+
+##### Search
+
+GitHub 关键词搜索：[ip](https://github.com/search?q=ip)

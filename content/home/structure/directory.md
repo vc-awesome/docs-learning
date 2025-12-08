@@ -1,6 +1,6 @@
 # 目录结构
 
-![Gif](_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
+![Gif](_media/banner/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
 
 <div style="text-align: right;">
 
@@ -28,16 +28,16 @@
 
 ```tree
 /
-├── home
-│   ├── user1
-│   └── user2
-├── etc
+├── home/
+│   ├── user1/
+│   └── user2/
+├── etc/
 │   └── config.conf
-├── var
-│   └── log
-└── usr
-    ├── bin
-    └── lib
+├── var/
+│   └── log/
+└── usr/
+    ├── bin/
+    └── lib/
 ```
 
 在这个示例中，根目录下有多个子目录，每个子目录又可以包含其他文件或子目录。这样的结构使得文件的组织更加清晰和高效。
@@ -52,12 +52,24 @@
 
 ### 文件系统
 
-- archive/
-- docs/
-- images/
-- CHANGELOG.md
-- LICENSE.md
-- README.md
+- [archive/](#archive/) - *归档*
+- [assets/](#assets/) - *资源文件*
+- [dist/](#dist/) - *构建文件*
+- [docs/](#docs/) - *文档*
+- [dotfiles/](#dotfiles) - *点文件*
+- fonts/ - *字体*
+- icons/ - *图标*
+- images/ - *图像*
+- pages/ - *页面*
+- plugins/ - *插件*
+- [scripts/](#scripts/) - *脚本*
+- [src/](#src/) - *源码*
+- [static/](#static/) - *静态文件*
+- themes/ - *主题*
+- videos/ - *视频*
+- CHANGELOG.md - *更新日志*
+- LICENSE.md - *许可证*
+- README.md - *自述文件*
 
 ## 文件系统目录
 
@@ -132,8 +144,6 @@ root_folder/
 暂无
 
 ### 开发者
-
-- [assets](#asset-type)
 
 #### 项目
 
@@ -603,13 +613,25 @@ li:before {
 
 5. https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one#table-of-contents - *Markdown All in One - Visual Studio Marketplace*
 
+## 文件格式
+
+- \*.css
+- \*.csv
+- \*.js
+- \*.json
+- \*.html
+- \*.md
+- \*.txt - *Plain text*
+- ...
+
 ## 文件类型
 
 ### dotfiles
 
 1. https://github.com/mdo/dotfiles - *GitHub - mdo/dotfiles*
 2. https://github.com/ruanyf/dotfiles - *GitHub - ruanyf/dotfiles: My various config files*
-3. https://github.com/dotfiles/dotfiles.github.com - *GitHub - dotfiles/dotfiles.github.com: Your unofficial guide to doing dotfiles on GitHub.* [Website](http://dotfiles.github.io/), [Via](https://alex.pearwin.com/2016/02/managing-dotfiles-with-stow/)
+3. https://github.com/rgcr/dotfiles - *GitHub - rgcr/dotfiles: configuration files*
+4. https://github.com/dotfiles/dotfiles.github.com - *GitHub - dotfiles/dotfiles.github.com: Your unofficial guide to doing dotfiles on GitHub.* [Website](http://dotfiles.github.io/), [Via](https://alex.pearwin.com/2016/02/managing-dotfiles-with-stow/)
 
 #### .bash_history
 
@@ -625,28 +647,15 @@ li:before {
 
 #### .gitconfig
 
-有关详细信息，请参阅“[Git#.gitconfig](os/tools/developer/git.md#.gitconfig)”。
+有关详细信息，请参阅“[Git#.gitconfig](os/tools/developer/vcs/git.md#.gitconfig)”。
 
 #### .gitignore
 
-有关详细信息，请参阅“[Git#.gitignore](os/tools/developer/git.md#.gitignore)”。
+有关详细信息，请参阅“[Git#.gitignore](os/tools/developer/vcs/git.md#.gitignore)”。
 
 #### .vimrc
 
 有关详细信息，请参阅“[Vim#配置](os/tools/developer/editor/vim.md#配置)”。
-
-### Asset Type
-
-1. JavaScript
-2. Styling
-3. Source Maps
-4. Images
-5. Fonts
-
-参考：
-
-1. https://cdnjs.com/libraries/bootstrap - *bootstrap - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
-2. https://cdnjs.com/libraries/font-awesome - *font-awesome - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
 
 ### 配置文件
 
@@ -682,9 +691,24 @@ li:before {
 
 暂无
 
+### archive/
+
+https://github.com/todotxt/todo.txt-android - *GitHub - todotxt/todo.txt-android: Official Todo.txt Android app for managing your todo.txt file stored in Dropbox.*
+
 ### assets/
 
-暂无
+asset type：
+
+1. JavaScript
+2. Styling
+3. Source Maps
+4. Images
+5. Fonts
+
+参考：
+
+1. https://cdnjs.com/libraries/bootstrap - *bootstrap - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
+2. https://cdnjs.com/libraries/font-awesome - *font-awesome - Libraries - cdnjs - The #1 free and open source CDN built to make life easier for developers*
 
 ### common/
 

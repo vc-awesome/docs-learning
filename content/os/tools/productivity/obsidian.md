@@ -75,7 +75,7 @@ https://www.markdownguide.org/tools/obsidian/ - *Obsidian Markdown Reference | M
 │   ├── {theme_name}/
 │   └── ...
 ├── app.json
-├── appearance.json
+├── appearance.json #外观
 ├── backlink.json #反向链接
 ├── command-palette.json #命令面板
 ├── community-plugins.json #第三方插件
@@ -356,7 +356,9 @@ https://obsidian.md/plugins - *Plugins - Obsidian*
 
 ## 快速入门
 
-暂无
+操作步骤：
+
+1. [安装](#安装)
 
 ## 设置
 
@@ -438,6 +440,8 @@ https://obsidian.md/plugins - *Plugins - Obsidian*
 
 暂无
 
-## 参考
+## 附录
+
+### 参考
 
 1. https://mp.weixin.qq.com/s/2UVkpplt5pe6FKaQCK8Ddg - *知识管理工具 Obsidian 完整指南和插件推荐*

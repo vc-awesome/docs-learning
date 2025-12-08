@@ -7,13 +7,13 @@
 
 网络文件同步（备份）工具：
 
-1. [FolderSync](os/tools/app-list.md#folder-sync)
+1. [FolderSync](os/tools/app.md#folder-sync)
 2. [Rclone](#rclone)
-3. [Syncthing](os/tools/app-list.md#syncthing)
+3. [Syncthing](os/tools/app.md#syncthing)
 
 本地文件同步（备份）工具：
 
-1. [FolderSync](os/tools/app-list.md#folder-sync)
+1. [FolderSync](os/tools/app.md#folder-sync)
 2. [Rclone](#rclone)
 
 搜索：

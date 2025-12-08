@@ -61,7 +61,7 @@ ES6：
     o1.b // 2
     ```
 
-[代码片段 - javascript](snippets/javascript.md)
+[代码片段 - javascript](snippets/javascript/README.md)
 
 ## 标准库
 

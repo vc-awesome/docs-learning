@@ -15,7 +15,7 @@
 3. https://gnu-linux.readthedocs.io/zh/latest/TOC/Chapter05.html - *第五章 Shell 编程 — Linux latest 文档*
 4. https://www.shellscript.sh/ - *The Shell Scripting Tutorial - The Shell Scripting Tutorial*
 
-## 环境
+## 安装环境
 
 <https://wangdoc.com/bash/intro#shell-的种类> - *Bash 简介 - Bash 脚本教程 - 网道*
 
@@ -44,7 +44,7 @@ cat /etc/shells
 改变系统的默认 Shell：
 
 ```bash
-chsh -s /bin/zsh
+chsh -s $(which zsh)
 ```
 
 1. https://wangchujiang.com/linux-command/c/chsh.html - *chsh 命令，Linux chsh 命令详解：用来更换登录系统时使用的shell - Linux 命令搜索引擎*
@@ -80,6 +80,10 @@ http://www.ruanyifeng.com/blog/2017/05/fish_shell.html - *Fish shell 入门教�
 
 https://wangdoc.com/bash/startup - *Bash 启动环境 - Bash 脚本教程 - 网道*
 
+### 交互式登录shell
+
+暂无
+
 ### 交互式非登录shell
 
 <https://cn.bing.com/search?q=交互式非登录shell> - *交互式非登录shell - 搜索*
@@ -97,7 +101,11 @@ https://wangdoc.com/bash/prompt - *命令提示符 - Bash 脚本教程 - 网道*
 
 ### 环境变量
 
+暂无
+
 ### 自定义变量
+
+暂无
 
 ## 命令
 
@@ -111,13 +119,19 @@ https://wangdoc.com/bash/prompt - *命令提示符 - Bash 脚本教程 - 网道*
 
 ## 行操作
 
-### Bash
+Bash：
 
-有关详细信息，请参阅“[Readline](os/tools/developer/shell/readline.md)”。
+有关详细信息，请参阅“[Readline - 行操作](os/tools/developer/shell/readline.md#行操作)”。
 
-### Zsh
+Zsh：
 
 暂无
+
+### 操作历史
+
+Bash：
+
+有关详细信息，请参阅“[Readline - 行操作 - 操作历史](os/tools/developer/shell/readline.md#操作历史)”。
 
 ## 常见问题
 

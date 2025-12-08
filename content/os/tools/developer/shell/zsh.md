@@ -14,6 +14,16 @@
 
 1. https://zsh.sourceforge.io/ - *ZSH - THE Z SHELL*
 
+## 入门指南
+
+### 目录结构
+
+暂无
+
+## 安装
+
+https://repology.org/project/zsh/versions - *zsh package versions - Repology*
+
 ## 插件
 
 ### Oh My Zsh

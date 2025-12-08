@@ -20,6 +20,28 @@ CLI 是命令行界面（Command Line Interface）的缩写。 它是一种基�
 
 CLI 界面的例子包括 Windows 的命令提示符、macOS 和 Linux 的终端，以及各种 shell 环境，如 Bash、PowerShell 和 Zsh。
 
+## 教程
+
+https://www.freecodecamp.org/news/command-line-for-beginners/ - *Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]*
+
+## 安装
+
+### Android
+
+[Termux](os/mobile/android/app/termux.md)
+
+### Linux
+
+暂无
+
+### macOS
+
+[终端](os/desktop/mac/app/terminal.md)
+
+### Windows
+
+[命令行提示符](os/desktop/windows/cmd.md)
+
 ## 语法格式
 
 命令行语法格式通常包括以下几个部分：
@@ -75,3 +97,19 @@ command [options] [arguments]
 通过了解和使用这些语法规则，用户可以更加高效地利用命令行工具执行各种操作。
 
 有关详细信息，请参阅“[command#语法格式](os/desktop/linux/command.md#语法格式)”。
+
+## 附录
+
+### 术语表
+
+https://gnu-linux.readthedocs.io/zh/latest/Chapter03/40_console.html - *终端、控制台和 Shell 的区别 — Linux latest 文档*
+
+https://www.freecodecamp.org/news/command-line-for-beginners/ - *Command Line for Beginners – How to Use the Terminal Like a Pro [Full Handbook]*
+
+控制台
+
+终端
+
+Shell
+
+命令行

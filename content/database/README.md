@@ -9,4 +9,4 @@
   * [_sidebar.md](database/redis/_sidebar.md)
 * [README.md](database/README.md)
 * [_sidebar.md](database/_sidebar.md)
-* [mongodb.md](database/mongodb.md)
+* [mongodb.md](database/mongodb/README.md)

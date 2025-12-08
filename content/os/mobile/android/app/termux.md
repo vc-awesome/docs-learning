@@ -110,6 +110,7 @@ F-Droid：https://f-droid.org/packages/com.termux/ - *Termux | F-Droid - Free an
 
 > Termux add-on app which exposes device functionality as API to command line programs.
 
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux.api)
 ![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-api?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-api?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-api?logo=github)
@@ -117,16 +118,15 @@ F-Droid：https://f-droid.org/packages/com.termux/ - *Termux | F-Droid - Free an
 
 官方：
 
-<https://wiki.termux.com/wiki/Termux:API> - *Termux:API - Termux Wiki*
-
-https://github.com/termux/termux-api - *termux/termux-api: Termux add-on app which exposes device functionality as API to command line programs.*
+1. <https://wiki.termux.com/wiki/Termux:API> - *Termux:API - Termux Wiki*
+2. https://github.com/termux/termux-api - *termux/termux-api: Termux add-on app which exposes device functionality as API to command line programs.*
 
 安装：
 
-https://f-droid.org/packages/com.termux.api/ - *Termux:API | F-Droid - Free and Open Source Android App Repository*
+1. https://github.com/termux/termux-api/releases - *Releases · termux/termux-api · GitHub*
+2. https://f-droid.org/packages/com.termux.api/ - *Termux:API | F-Droid - Free and Open Source Android App Repository*
 
-
-用法（步骤）：
+用法（操作步骤）：
 
 1. 下载 Android App：[Termux:API | F-Droid - Free and Open Source Android App Repository](https://f-droid.org/packages/com.termux.api/)
     - MIUI 14 设置 Termux:API 自启动：*应用 > 设置 > 应用设置 > 应用管理 > 自启动*
@@ -145,6 +145,7 @@ API 实现：
 
 > Termux add-on app allowing programs to be run at boot. - termux/termux-boot
 
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux.boot)
 ![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-boot?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-boot?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-boot?logo=github)
@@ -152,13 +153,13 @@ API 实现：
 
 官方：
 
-<https://wiki.termux.com/wiki/Termux:Boot> - *Termux:Boot - Termux Wiki*
-
-https://github.com/termux/termux-boot - *termux/termux-boot: Termux add-on app allowing programs to be run at boot.*
+1. <https://wiki.termux.com/wiki/Termux:Boot> - *Termux:Boot - Termux Wiki*
+2. https://github.com/termux/termux-boot - *termux/termux-boot: Termux add-on app allowing programs to be run at boot.*
 
 安装：
 
-https://f-droid.org/packages/com.termux.boot/ - *Termux:Boot | F-Droid - Free and Open Source Android App Repository*
+1. https://github.com/termux/termux-boot/releases - *Releases · termux/termux-boot*
+2. https://f-droid.org/packages/com.termux.boot/ - *Termux:Boot | F-Droid - Free and Open Source Android App Repository*
 
 
 #### Termux:Float
@@ -167,6 +168,7 @@ https://f-droid.org/packages/com.termux.boot/ - *Termux:Boot | F-Droid - Free an
 
 > Termux add-on app to show the terminal in a floating terminal window.
 
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux.window)
 ![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-float?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-float?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-float?logo=github)
@@ -174,13 +176,13 @@ https://f-droid.org/packages/com.termux.boot/ - *Termux:Boot | F-Droid - Free an
 
 官方：
 
-<https://wiki.termux.com/wiki/Termux:Float> - *Termux:Float - Termux Wiki*
-
-https://github.com/termux/termux-float - *GitHub - termux/termux-float: Termux add-on app to show the terminal in a floating terminal window.*
+1. <https://wiki.termux.com/wiki/Termux:Float> - *Termux:Float - Termux Wiki*
+2. https://github.com/termux/termux-float - *GitHub - termux/termux-float: Termux add-on app to show the terminal in a floating terminal window.*
 
 安装：
 
-https://f-droid.org/packages/com.termux.window/ - *Termux:Float | F-Droid - Free and Open Source Android App Repository*
+1. https://github.com/termux/termux-float/releases - *Releases · termux/termux-float · GitHub*
+2. https://f-droid.org/packages/com.termux.window/ - *Termux:Float | F-Droid - Free and Open Source Android App Repository*
 
 
 #### Termux:Styling
@@ -189,6 +191,7 @@ https://f-droid.org/packages/com.termux.window/ - *Termux:Float | F-Droid - Free
 
 > This addon provides color schemes and fonts to customize the appearance of your Termux terminal.
 
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux.styling)
 ![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-styling?logo=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-styling?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-styling?logo=github)
@@ -196,13 +199,13 @@ https://f-droid.org/packages/com.termux.window/ - *Termux:Float | F-Droid - Free
 
 官方：
 
-<https://wiki.termux.com/wiki/Termux:Styling> - *Termux:Styling - Termux Wiki*
-
-https://github.com/termux/termux-styling - *GitHub - termux/termux-styling: Termux add-on app for customizing the terminal font and color theme.*
+1. <https://wiki.termux.com/wiki/Termux:Styling> - *Termux:Styling - Termux Wiki*
+2. https://github.com/termux/termux-styling - *GitHub - termux/termux-styling: Termux add-on app for customizing the terminal font and color theme.*
 
 安装：
 
-https://f-droid.org/packages/com.termux.styling/ - *Termux:Styling | F-Droid - Free and Open Source Android App Repository*
+1. https://github.com/termux/termux-styling/releases - *Releases · termux/termux-styling · GitHub*
+2. https://f-droid.org/packages/com.termux.styling/ - *Termux:Styling | F-Droid - Free and Open Source Android App Repository*
 
 
 #### Termux:Tasker
@@ -211,6 +214,7 @@ https://f-droid.org/packages/com.termux.styling/ - *Termux:Styling | F-Droid - F
 
 > Termux add-on app for integration with Tasker. Contribute to termux/termux-tasker development by creating an account on GitHub.
 
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux.tasker)
 ![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-tasker?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-tasker?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-tasker?logo=github)
@@ -218,13 +222,13 @@ https://f-droid.org/packages/com.termux.styling/ - *Termux:Styling | F-Droid - F
 
 官方：
 
-<https://wiki.termux.com/wiki/Termux:Tasker> - *Termux:Tasker - Termux Wiki*
-
-https://github.com/termux/termux-tasker - *termux/termux-tasker: Termux add-on app for integration with Tasker.*
+1. <https://wiki.termux.com/wiki/Termux:Tasker> - *Termux:Tasker - Termux Wiki*
+2. https://github.com/termux/termux-tasker - *termux/termux-tasker: Termux add-on app for integration with Tasker.*
 
 安装：
 
-https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Free and Open Source Android App Repository*
+1. https://github.com/termux/termux-tasker/releases - *Releases · termux/termux-tasker · GitHub*
+2. https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Free and Open Source Android App Repository*
 
 
 #### Termux:Widget
@@ -233,6 +237,7 @@ https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Fre
 
 > Termux add-on app which adds shortcuts to commands on the home screen.
 
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux.widget)
 ![GitHub last commit](https://badgen.net/github/last-commit/termux/termux-widget?icon=github&color=blue)
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/termux/termux-widget?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-widget?logo=github)
@@ -242,12 +247,12 @@ https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Fre
 
 1. <https://wiki.termux.com/index.php?title=Termux:Widget&oldid=6237> - *Termux:Widget - Termux Wiki*
 2. <https://wiki.termux.com/wiki/Termux:Widget> - *Termux:Widget - Termux Wiki*
-
 3. https://github.com/termux/termux-widget - *GitHub - termux/termux-widget: Termux add-on app which adds shortcuts to commands on the home screen.*
 
 安装：
 
-1. https://f-droid.org/packages/com.termux.widget/ - *Termux:Widget | F-Droid - Free and Open Source Android App Repository*
+1. https://github.com/termux/termux-widget/releases - *Releases · termux/termux-widget · GitHub*
+2. https://f-droid.org/packages/com.termux.widget/ - *Termux:Widget | F-Droid - Free and Open Source Android App Repository*
 
 搜索：
 
@@ -260,27 +265,27 @@ https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Fre
     ```bash
     termux-chroot
     ```
-    
+
     ```bash
     mkdir -p ~/.shortcuts/
     ```
-    
+
 2. */bin/browser_sync* 实际上是 js 脚本文件，需要修复 [shebang](#termux-fix-shebang)（[如何查看是否为 js 脚本文件？](#how-to-see-if-it-is-a-js-script-file) 、 [解决脚本 shebang 问题](https://du33169.tech/linux/TermuxConfiguration.html#%E8%A7%A3%E5%86%B3%E8%84%9A%E6%9C%ACshebang%E9%97%AE%E9%A2%98)）
-   
+
     ```bash
     termux-fix-shebang $PREFIX/bin/broswer-sync
     ```
-    
+
 3. 进入目录并创建脚本文件
 
     ```bash
     cd ~/.shortcuts
     ```
-    
+
     ```bash
     vim -np run-browser-sync.sh
     ```
-    
+
     输入以下运行 browser-sync 的脚本内容
     ```bash
     #!/data/data/com.termux/files/usr/bin/bash
@@ -288,7 +293,7 @@ https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Fre
     #running browser-sync:
     cd ~/storage/shared/Documents/markor/GitHub/docs-learning/ &&  browser-sync start --server --files "**/**.*"
     ```
-    
+
 4. 给予可执行权限
 
     ```bash
@@ -298,21 +303,21 @@ https://f-droid.org/packages/com.termux.tasker/ - *Termux:Tasker | F-Droid - Fre
 - FAQ：
  
    1. <p id="how-to-see-if-it-is-a-js-script-file">如何查看是否为 js 脚本文件？</p>
-    
+
         ```bash
         cat $PREFIX/bin/browser-sync
         ```
-        
+
         注：输出的内容为 js 代码，则表示为 js 脚本。
-        
+
         ```bash
         ls -l browser-sync
         ```
-        
+
         执行结果：*lrwxrwxrwx 1 u0_a410 u0_a410 44 Mar  8 17:26 <span style="color: #ff5d5d;">browser-sync -> ../lib/node_modules/browser-sync/dist/bin.js</span>* ；
-        
+
         注：执行的结果中包含 *browser-sync -> ../lib/node_modules/browser-sync/dist/bin.js* 表示为 js 脚本。
-    
+
 - 参考：
 
     1. https://blog.csdn.net/qq_36821517/article/details/127836409 - *Termux执行shell脚本报错：cannot execute: required file not found_cannot execute shell_我好高冷的博客-CSDN博客*
@@ -399,7 +404,6 @@ https://wiki.termux.com/wiki/Touch_Keyboard#Extra_Keys_Row - *Touch Keyboard - T
     ```markup
     extra-keys = [ \
      ['ESC','/','-','HOME','UP','END','PGUP','SHIFT'], \
-     
      ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','KEYBOARD'] \
     ]
     ```
@@ -431,13 +435,12 @@ https://wangdoc.com/bash/prompt - *命令提示符 - Bash 脚本教程 - 网道*
 
     ```bash
     PS1="\[\e[0;31m\]\u\[\e[0m\]@\h \[\e[0;32m\]\w\[\e[0m\] \[\e[0;97m\]\$\[\e[0m\]"
-
     ```
 
 3. 保存文件并重新加载配置
 
     ```bash
-    source ~/bashrc
+    source ~/.bashrc
     ```
 
 ### 桌面环境
@@ -489,11 +492,9 @@ With a wake lock held the notification and Termux background processes will be a
 
 ### 启动流程
 
-https://www.ruanyifeng.com/blog/2013/02/booting.html - *计算机是如何启动的？ - 阮一峰的网络日志*
+![illustration](https://ruanyifeng.com/blogimg/asset/201308/bg2013081708.png)
 
-https://ruanyifeng.com/blog/2013/08/linux_boot_process.html - *Linux 的启动流程 - 阮一峰的网络日志*
-
-![](https://ruanyifeng.com/blogimg/asset/201308/bg2013081708.png)
+<small>*插图来源于：[Linux 的启动流程 - 阮一峰的网络日志](https://ruanyifeng.com/blog/2013/08/linux_boot_process.html)*</small>
 
 启动流程：
 
@@ -508,6 +509,11 @@ https://ruanyifeng.com/blog/2013/08/linux_boot_process.html - *Linux 的启动�
 6. 进入 login shell
 7. 打开 non-login shell
 
+参考：
+
+1. https://www.ruanyifeng.com/blog/2013/02/booting.html - *计算机是如何启动的？ - 阮一峰的网络日志*
+2. https://ruanyifeng.com/blog/2013/08/linux_boot_process.html - *Linux 的启动流程 - 阮一峰的网络日志*
+
 ### 文件系统
 
 ```tree
@@ -519,12 +525,12 @@ https://ruanyifeng.com/blog/2013/08/linux_boot_process.html - *Linux 的启动�
 │   ├── .bash_history
 │   ├── .bash_logout
 │   ├── .bash_profile
-│   ├── .bashrc
-├── usr/
-│   ├── bin/
-│   ├── etc/
-│   ├── share/
-│   └── var/
+│   └── .bashrc
+└── usr/
+    ├── bin/
+    ├── etc/
+    ├── share/
+    └── var/
 ```
 
 > 由于 Termux 只作为一个安卓 APP 存在，并不是一个完整的 Linux 系统，所以不能直接使用 `/`、`/usr` 等路径。Termux 提供了环境变量 `$PREFIX` 来指向用户可以使用的“根目录”（实际为 `/data/data/com.termux/files/usr` ），而用户通常意义上的家目录（ home，即 `~` ）为 `/data/data/com.termux/files/home` 。一般只在这两个目录进行操作。
@@ -622,7 +628,7 @@ ls -lh -FR ~/storage/
         └── shared → /storage/emulated/0/
 ```
 
-常用目录（2）：
+常用目录（共 2 个）：
 
 1. `/storage/emulated/0/`
 
@@ -653,7 +659,7 @@ https://wiki.termux.com/wiki/Internal_and_external_storage#Access_Termux_from_a_
 
 1. 打开手机应用“[质感文件](os/mobile/android/app/README.md#material-files)”；
 2. 点击左上角菜单按钮 *> 添加存储... > 外部存储*；
-3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*
+3. 应用转至另一个页面，继续操作，*点击左上角菜单按钮 > 打开文档-“Termux” > 页面底部按钮“使用此文件夹”*。
 
 ### 快捷键
 
@@ -691,6 +697,8 @@ https://wiki.termux.com/wiki/Remote_Access - *Remote Access - Termux Wiki*
 
 https://wangdoc.com/ssh/ - *SSH 教程 - 网道*
 
+有关详细信息，请参阅“[SSH](os/tools/developer/ssh.md)”。
+
 
 #### FTP
 
@@ -713,13 +721,13 @@ ssh -p 8022 '192.168.3.42'
 
 SSH 服务器：
 
-SSH 端口：8022（默认）
+- SSH 端口：8022（默认）
 
-开启 OpenSSH 服务器：
+- 开启 OpenSSH 服务器：
 
-```bash
-sshd
-```
+    ```bash
+    sshd
+    ```
 
 ##### SFTP
 
@@ -737,6 +745,7 @@ https://wiki.termux.com/wiki/Backing_up_Termux - *Backing up Termux - Termux Wik
 
 1. 安装 Android 应用
     1. [Termux](#android)
+    2. [Addons](#addons)（可选）
 2. 设置应用权限
     1. [权限管理](#权限管理)
 3. 运行命令
@@ -811,9 +820,8 @@ Text Editors:
 
 官方：
 
-https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux Wiki*
-
-https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A package build system for Termux.*
+1. https://wiki.termux.com/wiki/Package_Management - *Package Management - Termux Wiki*
+2. https://github.com/termux/termux-packages - *GitHub - termux/termux-packages: A package build system for Termux.*
 
 ##### 包管理器
 
@@ -1286,7 +1294,7 @@ pkg install termux-services
 pkg uninstall termux-services
 ```
 
-命令：
+用法：
 
 enable and run a service
 
@@ -1307,6 +1315,20 @@ ls -alh $PREFIX/var/service/
 ```
 
 目录结构：
+
+```tree
+$PREFIX/
+└── var/
+    ├── service/
+    │   └── <PKG>/
+    │       ├── log/
+    │       │   └── run
+    │       └── run
+    └── log/
+        └── sv/
+            └── <PKG>/
+                └── current
+```
 
 - `$PREFIX/var/service/<PKG>/` - *运行目录*
     - `$PREFIX/var/service/<PKG>/run` - *运行脚本*
@@ -4890,11 +4912,6 @@ https://github.com/Julow/Unexpected-Keyboard - *GitHub - Julow/Unexpected-Keyboa
 ![GitHub Repo stars](https://img.shields.io/github/stars/Julow/Unexpected-Keyboard?style=social)
 
 
-## Changelog
-
-https://github.com/termux/termux-app/releases - *Releases · termux/termux-app*
-
-
 ## FAQ
 
 ### 如何将 Apache 的网站默认路径，修改为手机本地存储
@@ -5274,9 +5291,16 @@ On Android 10 and above, Termux requires the "Display over other apps" permissio
 Once this permission is granted, Termux should be able to start terminal sessions from the background as required on Android 10 and above.
 
 
-## Reference
+## Appendix
 
-### 参考博文
+### Changelog
+
+https://github.com/termux/termux-app/releases - *Releases · termux/termux-app*
+
+
+### Reference
+
+#### 参考博文
 
 1. https://zhuanlan.zhihu.com/p/95865982 - *极致安卓之—Termux安装完整版Linux - 知乎*
 

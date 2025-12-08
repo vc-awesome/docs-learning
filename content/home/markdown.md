@@ -7,7 +7,7 @@ Markdown 语言在 2004 由约翰·格鲁伯（英语：[John Gruber](https://da
 Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。  
 Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
-## 使用场景
+### 使用场景
 
 **Markdown** 是做笔记、为网站创建内容以及生成可打印文档的快速、简便的方法。
 
@@ -19,6 +19,47 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 - 邮件
 - 协作
 - 文档
+
+## 教程
+
+官方：
+
+1. https://daringfireball.net/projects/markdown/ - *Daring Fireball: Markdown*
+
+速查表：
+
+1. https://wangchujiang.com/reference/docs/markdown.html - *Markdown 备忘清单 & markdown cheatsheet & Quick Reference*
+
+指南：
+
+1. https://www.markdownguide.org/ - *Markdown Guide* [GitHub Repo](https://github.com/mattcone/markdown-guide)
+    ![GitHub last commit](https://badgen.net/github/last-commit/mattcone/markdown-guide?icon=github&color=blue)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/mattcone/markdown-guide?style=social)
+    - https://www.markdown.xyz/ - *Markdown 指南中文版*
+2. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
+    ![GitHub last commit](https://badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
+3. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
+4. https://developer.mozilla.org/zh-CN/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN - *如何使用 Markdown 来撰写文档 - MDN Web 文档项目 | MDN*
+5. https://markdown.com.cn/ - *Markdown 官方教程*
+6. https://www.markdowntutorial.com/zh-cn/ - *Markdown Tutorial*
+
+博文：
+
+1. https://sspai.com/post/54912 - *Typora 完全使用详解*
+2. https://www.jianshu.com/p/49dd84559d3b - *Markdown 语法 with Typora*
+3. https://www.jianshu.com/p/b30955885e6d - *Typora Markdown 手册*
+4. https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
+
+### 规范
+
+1. https://commonmark.org/ - *CommonMark* [GitHub Org](https://github.com/commonmark)
+
+    ![GitHub last commit](https://badgen.net/github/last-commit/commonmark/commonmark-spec?icon=github&color=blue)
+    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/commonmark/commonmark-spec?display_date=published_at&logo=github)
+    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/commonmark/commonmark-spec?logo=github)
+    ![GitHub Repo stars](https://img.shields.io/github/stars/commonmark/commonmark-spec?style=social)
+
+2. https://github.github.com/gfm/ - *GitHub Flavored Markdown Spec*
 
 ## 工具
 
@@ -56,11 +97,11 @@ Markdown 编写的文档后缀为 `.md`, `.markdown`。
 
 应用编辑器：
 
-1. [Typora](os/tools/app-list.md#markdown-Typora) （桌面客户端）
+1. [Typora](os/tools/app.md#markdown-Typora) （桌面客户端）
 
 2. [Markor](os/mobile/android/app/README.md#markor) （移动客户端）
 
-3. 有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app-list.md#markdown)”。
+3. 有关更多工具详细信息，请参阅“[应用列表 > Markdown 工具](os/tools/app.md#markdown)”。
 
 站点生成器：
 
@@ -122,47 +163,6 @@ GitHub Pages provides support for the following Markdown elements.
 4. https://zhuanlan.zhihu.com/p/361486179 - *Typora打造最适合编程笔记的精美主题（浅色版和修改后的深色版），可自行修改喜欢的样式。 - 知乎*
 
 5. https://zhuanlan.zhihu.com/p/133863913 - *一份精美的Typora主题 - 知乎*
-
-## 教程
-
-官方：
-
-1. https://daringfireball.net/projects/markdown/ - *Daring Fireball: Markdown*
-
-速查表：
-
-1. https://wangchujiang.com/reference/docs/markdown.html - *Markdown 备忘清单 & markdown cheatsheet & Quick Reference*
-
-指南：
-
-1. https://www.markdownguide.org/ - *Markdown Guide* [GitHub Repo](https://github.com/mattcone/markdown-guide)
-    ![GitHub last commit](https://badgen.net/github/last-commit/mattcone/markdown-guide?icon=github&color=blue)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/mattcone/markdown-guide?style=social)
-    - https://www.markdown.xyz/ - *Markdown 指南中文版*
-2. https://github.com/mundimark/awesome-markdown - *GitHub - mundimark/awesome-markdown: A collection of awesome markdown goodies (libraries, services, editors, tools, cheatsheets, etc.)*
-    ![GitHub last commit](https://badgen.net/github/last-commit/mundimark/awesome-markdown?icon=github&color=blue)
-3. https://www.runoob.com/markdown/md-tutorial.html - *Markdown 教程 | 菜鸟教程*
-4. https://developer.mozilla.org/zh-CN/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN - *如何使用 Markdown 来撰写文档 - MDN Web 文档项目 | MDN*
-5. https://markdown.com.cn/ - *Markdown 官方教程*
-6. https://www.markdowntutorial.com/zh-cn/ - *Markdown Tutorial*
-
-博文：
-
-1. https://sspai.com/post/54912 - *Typora 完全使用详解*
-2. https://www.jianshu.com/p/49dd84559d3b - *Markdown 语法 with Typora*
-3. https://www.jianshu.com/p/b30955885e6d - *Typora Markdown 手册*
-4. https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax - *基本撰写和格式语法 - GitHub Docs*
-
-### 规范
-
-1. https://commonmark.org/ - *CommonMark* [GitHub Org](https://github.com/commonmark)
-
-    ![GitHub last commit](https://badgen.net/github/last-commit/commonmark/commonmark-spec?icon=github&color=blue)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/commonmark/commonmark-spec?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/commonmark/commonmark-spec?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/commonmark/commonmark-spec?style=social)
-
-2. https://github.github.com/gfm/ - *GitHub Flavored Markdown Spec*
 
 ## 基础语法
 
@@ -1337,3 +1337,51 @@ https://www.markdownguide.org/hacks/#center - *Hacks | Markdown Guide - Hacks | 
 ### Color
 
 https://www.markdownguide.org/hacks/#color - *Hacks | Markdown Guide - Hacks | Markdown Guide*
+
+### Details
+
+> 💡 内容前后必须无缩进的空出一行，否则内容的样式无法呈现。
+
+**✅ 前后无缩进空出一行的效果：**
+
+\> 代码
+
+```markdown
+- <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
+
+    - 无序列表内容
+    - 无序列表内容
+    - 无序列表内容
+
+    </details>
+```
+
+\> 效果
+
+- <details markdown='1'><summary><i style="color:red">点击查看</i></summary>
+
+    - 无序列表内容
+    - 无序列表内容
+    - 无序列表内容
+
+    </details>
+
+**❌ 前后没有空出一行的效果：**
+
+\> 代码
+
+```markdown
+- <details markdown='1'><summary><i style="color:red">SEE MORE >></i></summary>
+    - 无序列表内容
+    - 无序列表内容
+    - 无序列表内容
+    </details>
+```
+
+\> 效果
+
+- <details markdown='1'><summary><i style="color:red">点击查看</i></summary>
+    - 无序列表内容
+    - 无序列表内容
+    - 无序列表内容
+    </details>

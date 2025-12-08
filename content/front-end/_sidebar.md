@@ -14,4 +14,4 @@
 * **运行环境**
 * [Browser](front-end/browser.md)
 * [Node.js](front-end/nodejs/README.md)
-    * [NPM](front-end/nodejs/npm.md)
+    * [NPM](front-end/nodejs/packages/npm.md)

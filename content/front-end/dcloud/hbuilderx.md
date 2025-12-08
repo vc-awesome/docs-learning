@@ -72,6 +72,10 @@ https://ask.dcloud.net.cn/m/article/36529 - *HBuilderX 格式化操作、及格�
 
 ### 核心插件
 
+#### Git插件
+
+https://hx.dcloud.net.cn/Tutorial/SourceControl/Git/README - *Git 介绍 - HBuilderX 文档*
+
 #### vue-devtools
 
 https://ext.dcloud.net.cn/plugin?name=uni-vue-devtools - *vue-devtools - DCloud 插件市场*
@@ -84,16 +88,6 @@ https://hx.dcloud.net.cn/Tutorial/UserGuide/built-in-browser - *内置浏览器 
 
 https://hx.dcloud.net.cn/Tutorial/UserGuide/terminal - *内置终端 - HBuilderX 文档*
 
-#### Git插件
-
-https://hx.dcloud.net.cn/Tutorial/SourceControl/Git/README - *Git 介绍 - HBuilderX 文档*
-
-### scss/sass编译
-
-https://hx.dcloud.net.cn/Tutorial/extension/sass - *Scss/Sass - HBuilderX 文档*
-
-https://ext.dcloud.net.cn/plugin?name=compile-node-sass - *scss/sass编译 - DCloud 插件市场*
-
 ### eslint-js
 
 https://hx.dcloud.net.cn/Tutorial/extension/eslint-js - *eslint-js - HBuilderX 文档*
@@ -103,17 +97,6 @@ https://hx.dcloud.net.cn/Tutorial/extension/eslint-js - *eslint-js - HBuilderX �
 https://ext.dcloud.net.cn/plugin?name=eslint-vue - *eslint-plugin-vue - DCloud 插件市场*
 
 https://hx.dcloud.net.cn/Tutorial/extension/eslint-vue - *eslint-vue - HBuilderX 文档*
-
-### Prettier
-
-https://ext.dcloud.net.cn/plugin?id=2025 - *Prettier - DCloud 插件市场*
-
-https://hx.dcloud.net.cn/Tutorial/extension/prettier - *prettier - HBuilderX 文档*
-
-插件配置（偏好设置... > 插件配置）：
-
-1. 去除勾选「优先使用项目下的.jsbeautifyrc配置文件」；
-2. 勾选「启用Prettier」。
 
 ### FTP/SFTP
 
@@ -130,6 +113,23 @@ https://ext.dcloud.net.cn/plugin?id=2038 - *SFTP/FTP Sync - DCloud 插件市场*
 https://hx.dcloud.net.cn/Tutorial/SourceControl/Git/git_blame - *Git Blame - HBuilderX 文档*
 
 https://ext.dcloud.net.cn/plugin?id=16568 - *Git Blame - DCloud 插件市场*
+
+### Prettier
+
+https://ext.dcloud.net.cn/plugin?id=2025 - *Prettier - DCloud 插件市场*
+
+https://hx.dcloud.net.cn/Tutorial/extension/prettier - *prettier - HBuilderX 文档*
+
+插件配置（偏好设置... > 插件配置）：
+
+1. 去除勾选「优先使用项目下的.jsbeautifyrc配置文件」；
+2. 勾选「启用Prettier」。
+
+### scss/sass编译
+
+https://hx.dcloud.net.cn/Tutorial/extension/sass - *Scss/Sass - HBuilderX 文档*
+
+https://ext.dcloud.net.cn/plugin?name=compile-node-sass - *scss/sass编译 - DCloud 插件市场*
 
 ## 常见问题
 

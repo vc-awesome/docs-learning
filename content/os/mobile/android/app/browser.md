@@ -60,7 +60,7 @@ GitHub：
 
 Website：
 
-1. 🧱 https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。*
+1. https://duckduckgo.com/ - *DuckDuckGo — 隐私保护，化繁为简。* 🪜
 
 GitHub：
 
@@ -123,6 +123,21 @@ Website：
 - [x] 翻译
 - [x] 同步
 - [x] 隐私保护
+
+### FreeBrowser
+
+> FreeBrowser is a censorship‑resistant web browser that restores access to the open internet.
+
+![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.greatfire.freebrowser%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+![GitHub last commit](https://img.shields.io/github/last-commit/greatfire/wiki?color=blue&logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/greatfire/wiki?style=social)
+
+https://freebrowser.org/ - *FreeBrowser — a browser that defies censorship* 🪜
+
+https://github.com/greatfire/wiki - *GitHub - greatfire/wiki*
+
+https://play.google.com/store/apps/details?id=org.greatfire.freebrowser&hl=en - *FreeBrowser - Apps on Google Play*
 
 ### Kiwi Browser
 
@@ -296,7 +311,7 @@ Website：
 > Via浏览器，让你肆意享用简洁清爽、快速高效的手机浏览器。充分发挥广告拦截、插件等先进技术，达到”简单””好用”的设计初衷。
 
 ![Google Play](https://badgen.net/badge/icon/googleplay?icon=googleplay&label)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dmark.via%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dmark.via.gp%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tuyafeng/Via?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/tuyafeng/Via?style=social)
 
@@ -374,71 +389,60 @@ Website：
 - [ ] 开源
 - [x] 资源嗅探
 
-## 扩展程序/用户脚本
+## Features
 
-### Edge
+### 扩展程序/用户脚本
 
-### Firefox
+1. [Edge](#edge)
+2. [Firefox](#firefox)
+3. [Kiwi Browser](#kiwi%20browser)
+4. [Lemur Browser](#lemur%20browser)
+5. [Via](#via)
+6. [Yandex Browser](#yandex%20browser)
 
-### Kiwi Browser
+### 开发者工具
 
-### Lemur Browser
+1. [Kiwi Browser](#kiwi%20browser)
+2. [Lemur Browser](#lemur%20browser)
 
-### Via
+### 安全 DNS
 
-### Yandex Browser
+1. [Chrome](#chrome)
 
-## 开发者工具
+    设置 > 基本 - 隐私和安全 > 安全 - 使用安全 DNS
 
-### Kiwi Browser
+2. [Chromium](#chromium)
 
-### Lemur Browser
+3. [Cromite](#cromite)
 
-## 安全 DNS
+4. [Kiwi Browser](#kiwi%20browser)
 
-### Chrome
+    设置 > 隐私和安全 > 安全 - 使用安全 DNS
 
-设置 > 基本 - 隐私和安全 > 安全 - 使用安全 DNS
+5. [Lemur Browser](#lemur%20browser)
 
-### Chromium
+    设置 > 基本 - 隐私设置和安全性 > 使用安全 DNS
 
-### Cromite
+6. [Opera](#opera)
 
-### Kiwi Browser
+    设置 > 隐私和安全 > 安全 DNS
 
-设置 > 隐私和安全 > 安全 - 使用安全 DNS
+### 开源
 
-### Lemur Browser
+1. [Chromium](#chromium)
+2. [Cromite](#cromite)
+3. [DuckDuckGo](#duckduckgo)
+4. [Kiwi Browser](#kiwi%20browser)
+5. [Via](#via)
 
-设置 > 基本 - 隐私设置和安全性 > 使用安全 DNS
+### Chromium-based
 
-### Opera
-
-设置 > 隐私和安全 > 安全 DNS
-
-## 开源
-
-### Chromium
-
-### Cromite
-
-### DuckDuckGo
-
-### Kiwi Browser
-
-### Via
-
-## Chromium-based
-
-### Chrome
-
-### Cromite
-
-### Edge
-
-### Kiwi Browser
-
-### Lemur Browser
+1. [Chrome](#chrome)
+2. [Cromite](#cromite)
+3. [Edge](#edge)
+4. [FreeBrowser](#freebrowser)
+5. [Kiwi Browser](#kiwi%20browser)
+6. [Lemur Browser](#lemur%20browser)
 
 ## FAQ
 
@@ -463,7 +467,7 @@ Website：
 
 > 在 Opera 中使用。
 
-操作步骤：
+操作步骤（共 3 步）：
 
 1. 将当前标签页“添加到书签”；
 2. 进入“创建新书签”表单页面，页面中“名称”输入框内容（即页面标题）；
@@ -471,7 +475,7 @@ Website：
 
 > 在 Via 中使用。
 
-操作步骤：
+操作步骤（共 2 步）：
 
 1. 点击
     ![via-android-tabs-01](_images/via-android-tabs-01.jpg)
@@ -482,7 +486,7 @@ Website：
 
 > 以 Opera 为例。
 
-操作步骤：
+操作步骤（共 3 步）：
 
 1. 点击地址栏左侧的“查看站点信息”图标；
 2. 点击右下角的“网站设置”；
@@ -492,7 +496,7 @@ Website：
 
 > 以 Chrome 为例。
 
-操作步骤：
+操作步骤（共 10 步）：
 
 1.  在您的 Android 设备上启动 Google Chrome，然后从底部向上滑动并按住以查看所有最近的应用程序。
 2.  接下来，点击 Chrome 图标，您将获得 “分屏” 选项。或者，该选项可能会出现在 Chrome 窗口旁边。点击它，您的屏幕将分成两半，Chrome 将移动到上半部分。

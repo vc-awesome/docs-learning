@@ -41,7 +41,7 @@ vuex
 /utils/lang
 
 主色
-#17A1DE
+\#17A1DE
 
 页面背景色
 #091134

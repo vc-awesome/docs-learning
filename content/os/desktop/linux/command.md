@@ -2474,6 +2474,10 @@ https://wangchujiang.com/linux-command/c/grep.html - *grep 命令，Linux grep �
 
 https://www.gnu.org/software/inetutils/ - *Inetutils - Network utilities - GNU Project - Free Software Foundation*
 
+#### hostname
+
+暂无
+
 #### ifconfig
 
 https://www.gnu.org/software/inetutils/manual/html_node/ifconfig-invocation.html - *ifconfig invocation (GNU Inetutils)*
@@ -2507,6 +2511,10 @@ https://www.runoob.com/linux/linux-comm-ping.html - *Linux ping 命令 | 菜鸟�
 `ping www.runoob.com` - *ping <主机名称>*
 
 `ping 120.240.82.52` - *ping <IP 地址>*
+
+#### ping6
+
+暂无
 
 #### telnet
 

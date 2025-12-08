@@ -18,7 +18,7 @@
 
 ## 插图列表
 
-![illustration](../../_media/glossary-hero.png)
+![illustration](_media/banner/glossary-hero.png)
 
 <small>*插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)*</small>
 
@@ -46,7 +46,7 @@
 
 <small>*插图来源于：[An Introduction to DNS Terminology, Components, and Concepts | DigitalOcean](https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts)*</small>
 
-![illustration](../../_media/725a2733193942518c254a7eb15e61feeb01fde0e2b051a9168e9c080263d2c6.jpg)
+![illustration](_media/banner/725a2733193942518c254a7eb15e61feeb01fde0e2b051a9168e9c080263d2c6.jpg)
 
 <small>*插图来源于：[Quizizz | Free Online Quizzes, Lessons, Activities and Homework](https://quizizz.com/?lng=zh-CN)*</small>
 

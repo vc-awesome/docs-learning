@@ -1,6 +1,6 @@
 # 代码片段
 
-![illustration](../../_media/glossary-hero.png)
+![illustration](_media/banner/glossary-hero.png)
 
 <small>*插图来源于：[Android Developers](https://developer.android.google.cn/design/ui/mobile/guides/foundations/glossary?hl=zh-cn)*</small>
 

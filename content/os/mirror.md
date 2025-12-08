@@ -61,6 +61,14 @@ https://mirrors.huaweicloud.com/os/image - *华为开源镜像站_软件开发�
 
 #### GitHub
 
+镜像：
+
+- https://2github.com/
+- https://2git.xyz/
+- https://dgithub.xyz/
+- https://lgithub.xyz/
+- https://github.site/
+
 用法：
 
 - github.com 头像：

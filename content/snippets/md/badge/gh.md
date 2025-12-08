@@ -1,0 +1,6 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/${path}?logo=github&color=blue)
+![GitHub Release Date](https://img.shields.io/github/release-date/${path}?logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/${path}?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/${path}?logo=github)
+![GitHub tag (with filter)](https://img.shields.io/github/v/tag/${path}?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/${path}?style=social)

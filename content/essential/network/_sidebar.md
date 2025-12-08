@@ -1,5 +1,5 @@
 - [README](essential/network/README.md)
-- [internet](essential/network/internet.md)
+- [protocol](essential/network/protocol.md)
 - [ip](essential/network/ip.md)
 - [hosts](essential/network/hosts.md)
 - [dns](essential/network/dns.md)

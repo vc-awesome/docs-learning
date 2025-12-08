@@ -23,24 +23,31 @@ UTF-8 几乎涵盖了世界上所有的字符和符号。
 
 ### Categories
 
-暂无
+- 😃 Smileys
+- 🧑 People
+- 🐻 Animals & Nature
+- 🍔 Food & Drink
+- ⚽ Activity
+- 🚀 Travel & Places
+- 💡 Objects
+- 💕 Symbols
 
 ### Emoji Kitchen
 
 https://emojikitchen.dev/ - *Emoji Kitchen* [GitHub Repo](https://github.com/xsalazar/emoji-kitchen) 「Emoji 组合使用」
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/xsalazar/emoji-kitchen?logo=github&color=blue)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/xsalazar/emoji-kitchen?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/xsalazar/emoji-kitchen?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/xsalazar/emoji-kitchen?style=social)
 
 https://emojipedia.org/emoji-kitchen - *Emoji Kitchen*
 
+### Emojipedia
+
+https://emojipedia.org/ - *📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍* [中文站点](https://emojipedia.org/zh)
+
 ## Frequent use
 
-1. https://emojipedia.org/ - *📙 Emojipedia — 😃 Home of Emoji Meanings 💁👌🎍😍* [中文站点](https://emojipedia.org/zh)
-
-2. https://www.emojiall.com/zh-hans - *Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站*
+https://www.emojiall.com/zh-hans - *Emoji大全 | Emoji表情符号词典 📓 | EmojiAll中文官方网站*
 
 ---
 

@@ -37,7 +37,7 @@ https://code.visualstudio.com/Download - *Download Visual Studio Code - Mac, Lin
 
 ### macOS
 
-使用在线包管理器 - [Homebrew](os/desktop/mac/homebrew.md#安装软件) 安装：
+使用在线包管理器 - [Homebrew](os/desktop/mac/app/homebrew.md#安装软件) 安装：
 
 https://formulae.brew.sh/cask/visual-studio-code - *visual-studio-code — Homebrew Formulae*
 

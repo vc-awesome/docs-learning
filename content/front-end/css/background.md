@@ -23,19 +23,19 @@
 > From Bootstrap https://v5.bootcss.com/docs/utilities/background/
 
 - -bg-primary  
-    <span style="color: #fff;background-color: #337ab7;">color: #fff;background-color: #337ab7;</span>
+    <span style="color: #fff;background-color: #337ab7;">color: \#fff;background-color: \#337ab7;</span>
 - -bg-success  
-    <span style="background-color: #dff0d8;">background-color: #dff0d8;</span>
+    <span style="background-color: #dff0d8;">background-color: \#dff0d8;</span>
 - -bg-info  
-    <span style="background-color: #d9edf7;">background-color: #d9edf7;</span>
+    <span style="background-color: #d9edf7;">background-color: \#d9edf7;</span>
 - -bg-warning  
-    <span style="background-color: #fcf8e3;">background-color: #fcf8e3;</span>
+    <span style="background-color: #fcf8e3;">background-color: \#fcf8e3;</span>
 - -bg-danger  
-    <span style="background-color: #f2dede;">background-color: #f2dede;</span>
+    <span style="background-color: #f2dede;">background-color: \#f2dede;</span>
 - -bg-light  
-    <span style="background-color: #f8f9fa!important;">background-color: #f8f9fa!important;</span>
+    <span style="background-color: #f8f9fa!important;">background-color: \#f8f9fa!important;</span>
 - -bg-white  
-    <span style="background-color: #fff!important;">background-color: #fff!important;</span>
+    <span style="background-color: #fff!important;">background-color: \#fff!important;</span>
 
 #### 渐变背景
 

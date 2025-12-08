@@ -1,0 +1,111 @@
+- [Home](home/README.md)
+    - **_常用文档_**
+    - [<i class="fa-duotone fa-book fa-fw"></i> 学习资源](home/searcher/book.md)
+    - [<i class="fa fa-warning medium-orange fa-fw"></i> 注意事项](project/warning.md)
+    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](design/iconfont.md)
+    - [<i class="fa-brands fa-bootstrap fa-fw"></i> Bootstrap](framework/README.md#bootstrap-🔥)
+    - [<i class="fa-regular fa-circle-info fa-fw"></i> 版本号](home/semver.md)
+    - [<i class="fa-duotone fa-book-font fa-fw"></i> Glossary](home/README.md#术语表)
+    - [<i class="fa-duotone fa-message-code fa-fw"></i> 源码解读](home/code-analysis.md)
+    - <hr />
+    - [<i class="fa-duotone fa-list-tree fa-fw"></i> TOC](home/toc.md)
+    - [<i class="fa-duotone fa-face-melting fa-fw"></i> Emoji](essential/character-sets/emoji.md)
+    - [<i class="fa-duotone fa-refresh fa-fw"></i> Mirror](os/mirror.md)
+    - [<i class="fa-regular fa-chart-network fa-fw"></i> DNS](essential/network/dns.md)
+    - [<i class="fa-regular fa-language fa-fw"></i> 中英译](os/tools/topics/translation.md)
+    - [<i class="fa-regular fa-laptop-mobile fa-fw"></i> 设备传输](os/tools/app.md#跨端传输)
+- Daily tools
+    - [<i class="fab fa-github fa-fw"></i> GitHub](os/tools/developer/vcs/github.md)
+    - [<i class="fa-brands fa-git-alt fa-fw" style="color: #f64d27;"></i> Git](os/tools/developer/vcs/git.md)
+    - [<i class="fab fa-markdown fa-fw"></i> Markdown](home/markdown.md)
+    - <hr />
+    - [<i class="fa-duotone fa-square-terminal fa-fw"></i> Command](os/desktop/linux/command.md)
+    - [<i class="fa-regular fa-beer-mug fa-fw"></i> Homebrew](os/desktop/mac/app/homebrew.md)
+    - [<i class="fa-solid fa-rectangle-terminal fa-fw"></i> Termux](os/mobile/android/app/termux.md)
+    - [<i class="fa-duotone fa-toolbox fa-fw"></i> Vim](os/tools/developer/editor/vim.md)
+    - [<i class="fa-duotone fa-toolbox fa-fw"></i> VS Code](os/tools/developer/editor/visual-studio-code.md)
+    - [<i class="fa-duotone fa-toolbox fa-fw"></i> Sublime Text](os/tools/developer/editor/sublime-text.md)
+- [Essentials](essential/README.md)
+    - [<i class="ri-cpu-line"></i> 硬件设备](essential/hardware.md)
+    - **_PROGRAM_**
+    - [<i class="ri-key-2-line"></i> 加密](essential/security/crypto.md)
+    - [<i class="ri-pencil-ruler-2-line"></i> 设计模式](essential/design-pattern/README.md)
+    - [<i class="ri-shield-user-line"></i> 身份认证](essential/security/identity.md)
+    - [<i class="ri-questionnaire-line"></i> 正则表达式](essential/pattern-matching/regex.md)
+    - [<i class="ri-questionnaire-line"></i> API](essential/api.md)
+    - **_NETWORK_**
+    - [<i class="ri-earth-line"></i> Internet](essential/network/protocol.md)
+    - [<i class="ri-server-line"></i> Server](essential/hosting.md)
+    - [<i class="ri-questionnaire-line"></i> HTTP](essential/http.md)
+    - [<i class="ri-questionnaire-line"></i> Hosts](os/tools/hosts.md)
+    - [<i class="ri-questionnaire-line"></i> DNS](essential/dns.md)
+    - [<i class="ri-questionnaire-line"></i> VPN](os/tools/vpn.md)
+    - [<i class="ri-questionnaire-line"></i> IP](essential/ip.md)
+- [Front-end](front-end/README.md)
+    - [<i class="fa fa-html5 medium-orange fa-fw"></i> HTML](front-end/html/README.md)
+    - [<i class="fa fa-css3 medium-blue fa-fw"></i> CSS](front-end/css/README.md)
+    - [<i class="fab fa-js medium-yellow fa-fw"></i> JavaScript](front-end/javascript/README.md)
+    - <hr />
+    - [<i class="icon octicon-file jquery-icon medium-blue fa-fw"></i> jQuery](front-end/jquery.md)
+    - [<i class="icon octicon-file node-icon fa-fw"></i> Node.js](front-end/node.js/README.md)
+    - [<i class="icon octicon-file npm-icon medium-red fa-fw"></i> NPM](front-end/node.js/npm.md)
+    - [<i class="icon octicon-file vue-icon light-green fa-fw"></i> Vue.js](front-end/vue/README.md)
+    - <hr />
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-uniapp"></use></svg> uni-app](front-end/uniapp/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-android"></use></svg> Android](front-end/android.md)
+    - <hr />
+    - [<i class="fa-duotone fa-compass-drafting fa-fw"></i> 产品设计](front-end/design/README.md)
+    - [<i class="fab fa-font-awesome fa-fw"></i> Icon font](design/iconfont.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-CDNHub"></use></svg> CDN](essential/network/cdn.md)
+- Back-end
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-php1"></use></svg> PHP](back-end/php/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-thinkphp"></use></svg> ThinkPHP](back-end/thinkphp/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-composer"></use></svg> Composer](back-end/composer/README.md)
+    - <hr />
+    - [<i class="fa-brands fa-golang fa-fw"></i> Go]()
+    - [<i class="fa-brands fa-python fa-fw"></i> Python]()
+    - <hr />
+    - [<i class="icon octicon-file nginx-icon dark-green fa-fw"></i> Nginx](back-end/nginx.md)
+    - [<i class="icon octicon-file apache-icon dark-pink fa-fw"></i> Apache](back-end/apache.md)
+    - [<i class="icon octicon-file docker-icon dark-blue fa-fw"></i> Docker](back-end/docker.md "Docker")
+    - <hr />
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-travis"></use></svg> Travis-CI](back-end/travis-ci.md "Travis Ci")
+- Database
+    - [<i class="icon octicon-file mysql-icon dark-blue fa-fw"></i> MySQL](database/mysql/README.md)
+    - [<i class="icon octicon-file redis-icon medium-red fa-fw"></i> Redis](database/redis/README.md)
+    - [<i class="icon octicon-file mongodb-icon dark-green fa-fw"></i> MongoDB](database/mongodb/README.md)
+    <!--- [<span class="animate__animated animate__heartBeat animate__infinite animate__slow" style="display: inline-block;">🔥 OS</span>](os/README.md)-->
+- [🔥 OS</span>](os/README.md)
+  - [<i class="fa fa-windows fa-fw"></i> Windows](os/desktop/windows/README.md)
+  - [<i class="fa fa-linux fa-fw"></i> Linux](os/desktop/linux/README.md)
+  - [<i class="fa fa-apple fa-fw"></i> Mac](os/desktop/mac/README.md)
+  - [<i class="fal fa-mobile fa-fw"></i> Mobile](os/mobile/android/README.md)
+  - [<i class="fa-regular fa-bags-shopping fa-fw"></i> 应用商店](os/tools/search.md#应用商店)
+  - <hr />
+  - <style>.navbar-item-tools {display: inline-block;width: 100%;color: #42b983;box-shadow: 0 0 0 3px rgb(66 185 131 / 40%);}@media screen and (max-width: 768px) {.navbar-item-tools {width: calc(100% - 15px);}}</style><strong><i class="navbar-item-tools">TOOLS</i></strong>
+  - [<i class="fa fa-plane medium-red"></i> &nbsp;Overview](os/tools/README.md)
+  - [<i class="ri-search-line"></i> Search](os/tools/search.md)
+  - <hr />
+  - [<i class="ri-computer-line medium-purple"></i> Desktop Tools](os/tools/app.md)
+    <!-- <i class="ri-apps-line medium-purple"></i> -->
+  - [<i class="ri-smartphone-line"></i> Mobile Tools](os/mobile/android/app/README.md)
+  - [<i class="ri-cloud-line"></i> Web Tools](os/web/app/README.md "在线工具")
+  - <hr />
+  - [<i class="ri-magic-line dark-yellow"></i> Extranet](os/tools/vpn.md)
+  - [<i class="ri-earth-line medium-green"></i> Browser](os/tools/browser/README.md "浏览器")
+  - [<ion-icon name="extension-puzzle-outline"></ion-icon> Extensions](os/tools/browser/extensions/README.md)
+  - [<i class="iconfont icon-tampermonkey" style="font-size: 13px;opacity: .9;"></i> Tampermonkey](os/tools/browser/extensions/tampermonkey.md)
+  - <hr />
+  - [<svg class="icon" aria-hidden="true" style="width: 14px;"><use xlink:href="#icon-badge"></use></svg> Badge](os/tools/custom/badge.md)
+  - [<ion-icon name="search-outline"></ion-icon> Search](os/tools/custom/search.md)
+- More
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-blockchain"></use></svg> BlockChain](blockchain/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-devops"></use></svg> Project DevOps](project/README.md)
+    - <hr />
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-stack"></use></svg> TechStack](tech-stack/README.md "技术栈")
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-kuangjia"></use></svg> 开发框架](framework/README.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-gongneng"></use></svg> 功能列表](features/README.md)
+    - <hr />
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-aliyun"></use></svg> 阿里云](tech-stack/aliyun.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-weixin1"></use></svg> 微信](tech-stack/tencent/wechat.md)
+    - [<svg class="icon fa-fw" aria-hidden="true"><use xlink:href="#icon-google"></use></svg> Google](tech-stack/google/README.md)

@@ -17,9 +17,9 @@ https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands
 不含方括号或大括号的文本 | 必须按所显示键入的项。 | -
 `<Text inside angle brackets>`  | 必须为其提供值的占位符。 | -
 `[Text inside square brackets]` | 可选项。 | -
-`{Text inside braces}` | 一组必需的项。 你必须选择一个。 | [start \| Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/start)
-竖线 (`\|`) | 互斥项的分隔符。 你必须选择一个。 | -
-省略号 (`…`) | 可重复使用多次的项。 | -
+`{Text inside braces}` | 所需项集。 必须选择一个。 | [start \| Microsoft Learn](https://learn.microsoft.com/zh-cn/windows-server/administration/windows-commands/start)
+竖线 (`\|`) | 互斥项的分隔符。 必须选择一个。 | -
+省略号 (`…`) | 可重复和多次使用的项。 | -
 
 参考：
 

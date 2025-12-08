@@ -77,6 +77,11 @@ https://dev.to/envoy_/150-badges-for-github-pnk - *📛 Awesome Badges - DEV Com
 ![GitHub last commit](https://img.shields.io/github/last-commit/Envoy-VC/awesome-badges?color=blue&logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Envoy-VC/awesome-badges?style=social)
 
+https://github.com/Ileriayo/markdown-badges - *GitHub - Ileriayo/markdown-badges: Badges for your personal developer branding, profile, and projects.*
+
+![GitHub last commit](https://img.shields.io/github/last-commit/Ileriayo/markdown-badges?logo=github&color=blue)
+![GitHub Repo stars](https://img.shields.io/github/stars/Ileriayo/markdown-badges?style=social)
+
 ---
 
 以下 GitHub Demo 均以 "https://github.com/bootstrap-vue/bootstrap-vue - *GitHub - bootstrap-vue/bootstrap-vue: BootstrapVue provides one of the most comprehensive implementations of Bootstrap v4 for Vue.js. With extensive and automated WAI-ARIA accessibility markup.*" 为例制作。

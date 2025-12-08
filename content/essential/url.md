@@ -42,6 +42,10 @@ javascript:<script>
 
 https://developer.mozilla.org/en-US/docs/Web/URI/Schemes/javascript - *javascript: URLs - URIs | MDN*
 
+### Deeplink
+
+https://developer.huawei.com/consumer/en/doc/AppGallery-connect-Guides/agdlink-getlink-manual-0000001117762114 - *Manually Creating a Link - HUAWEI Developers*
+
 ## 快速入门
 
 ### 格式

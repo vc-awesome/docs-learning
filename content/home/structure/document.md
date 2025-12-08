@@ -1,6 +1,6 @@
 # 文档结构
 
-![Gif](../../../_media/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
+![Gif](_media/banner/celebrating-the-first-landing-on-the-moons-south-pole-6753651837110163.3-law.gif)
 
 <div style="text-align: right;">
 
@@ -38,6 +38,16 @@ https://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html - *为
     - https://redux.js.org/introduction/getting-started - *Getting Started with Redux | Redux*
 7. [参考链接](https://github.com/ruanyf/document-style-guide/blob/master/docs/reference.md)
 
+### 阿里云产品文档
+
+简介：
+
+> 阿里云帮助中心是阿里云产品文档，即阿里云产品和服务的官方文档平台，以文字、视频、问答等形式的内容协助用户自助使用阿里云产品、科普阿里云产品最佳实践或解决用户使用阿里云产品的问题。同时提供在线反馈渠道，方便用户及时反馈官方文档中的问题。
+
+官方：
+
+https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮助中心-阿里云，领先的云计算服务提供商*
+
 ### GitHub Docs
 
 简介：
@@ -55,16 +65,6 @@ https://docs.github.com/zh - *GitHub Docs*
   - 有关详细信息，请参阅“[为组织启用 GitHub Codespaces]()”。
   - 有关详细信息，请参阅 GitHub Enterprise Cloud 文档中的“[关于适用于企业的 GitHub]()”。
   - 有关详细信息，请参阅“[设置 GitHub Enterprise Cloud 试用版]()”和“[设置 GitHub Enterprise Server 试用版]()”。
-
-### 阿里云产品文档
-
-简介：
-
-> 阿里云帮助中心是阿里云产品文档，即阿里云产品和服务的官方文档平台，以文字、视频、问答等形式的内容协助用户自助使用阿里云产品、科普阿里云产品最佳实践或解决用户使用阿里云产品的问题。同时提供在线反馈渠道，方便用户及时反馈官方文档中的问题。
-
-官方：
-
-https://help.aliyun.com/ - *阿里云文档-阿里云文档中心-阿里云帮助中心-阿里云，领先的云计算服务提供商*
 
 ### Vue.js
 
@@ -92,7 +92,7 @@ https://vuejs.org/v2/guide/syntax.html - *Template Syntax | Vue.js* [中文](htt
 
 #### Markdown
 
-1. [markdownlint](front-end/nodejs/package.md#markdownlint)
+1. [markdownlint](front-end/nodejs/packages/README.md#markdownlint)
     1. [Markdown linting and style checking for Visual Studio Code](os/tools/developer/editor/visual-studio-code.md#markdownlint)
 
 #### OrgMode
@@ -113,21 +113,20 @@ https://www.ruanyifeng.com/blog/2017/02/filename-should-be-lowercase.html - *为
 
 序号 | 名称 | 英文名称 | 半角符号 | 全角符号
 --- | --- | --- | --- | ---
-1 | 句号 | period or full stop | . | 。
-2 | 逗号 | comma | , | ，
-3 | 冒号 | colon | : | ：
-4 | 分号 | semicolon | ; | ；
-5 | 方括号 | square brackets | [] | ［］
-6 | 尖括号 | Angle brackets | <> | 〈〉
-7 | 连字符 | hyphen | - | -
-8 | 省略号 | ellipsis | ... | ……
-
-- `⋮`
-- `ⵈ`
-- 角括号：`「」`
-- 空心角括号：`『』`
-- 书名号：`《》`
-- 单书名号：`〈〉`
+1. | 句号 | period or full stop | . | 。
+2. | 逗号 | comma | , | ，
+3. | 冒号 | colon | : | ：
+4. | 分号 | semicolon | ; | ；
+5. | 方括号 | square brackets | [] | ［］
+6. | 尖括号 | Angle brackets | <> | 〈〉
+7. | 连字符 | hyphen | - | -
+8. | 省略号 | ellipsis | ... | ……
+9. | | | ⋮ | 
+10. | | | ⵈ | 
+11. | 角括号 | | 「」 | 
+12. | 空心角括号 | | 『』 | 
+13. | 书名号 | | 《》 | 
+14. | 单书名号 | | 〈〉 | 
 
 FAQ：
 
@@ -192,22 +191,32 @@ Function 或 Fn | 地球仪 | <kbd>fn</kbd> | `fn`
 
 ### 表示要求的动词
 
-- MUST
-- MUST NOT
-- SHOULD
-- SHOULD NOT
-- MAY
+- MUST（必须）
+    - REQUIRED
+    - SHALL
+- MUST NOT（不得）
+    - SHALL NOT
+- SHOULD（应该）
+    - RECOMMENDED
+- SHOULD NOT（不应）
+    - NOT RECOMMENDED
+- MAY（可选）
+    - OPTIONAL
 
 https://www.ruanyifeng.com/blog/2007/03/rfc2119.html - *RFC2119：表示要求的动词 - 阮一峰的网络日志*
 
 https://www.rfc-editor.org/info/rfc2119 - *Information on RFC 2119 » RFC Editor*
 
+### 优先级
+
+暂无
+
 ## 快速入门
 
-### 如何快速上手 App
 
 <output data-lang="output">
 
+如何快速上手：
 1. 干什么用，有什么用途（`简介`）
 2. 如何安装（`下载`）
 3. 是否依赖其它工具才能运行（`环境准备`）
@@ -225,152 +234,98 @@ https://www.rfc-editor.org/info/rfc2119 - *Information on RFC 2119 » RFC Editor
 
 <output data-lang="output">
 
-Table of Contents
+Table of Contents - *目录*
 
-- [Introduction](#introduction)
-- Overview
-- Features
-- [Official Website](#official)
-  - Homepage
-  - GitHub
-- [Tutorials](#tutorials)
-  - Official
-  - Third-party
-  - Community
-  - [Cheat Sheets](#cheat-sheets)
-- [Getting Started](#getting-started)
-  - Requirements
-  - Prerequisites
-  - [Table of Contents](#table-of-contents)
-  - Short Table of Contents
-  - [Directory Structure](#directory%20structure)
-  - [User Interface](#user-interface)
-  - [Style Guide](#style-guide)
-  - Specification
-  - Technologies
-  - Technology Stack
-  - Tools
-  - [Translations](#translations)
-  - [Programming Languages](#programming-languages)
-- Quick Start
-  - Index
-- [Installation](#installation)
-  - [Desktop Client](#desktop-client)
-    - Windows
-    - macOS
-    - Linux
-  - [Mobile Client](#mobile-client)
-    - Android
-    - iOS
-  - [Web Client](#web-client)
-- [Configuration](#configuration)
-  - Options
-- Setup
-  - Basic Setup
-  - Advanced Setup
-- [Usage](#usage)
-  - Basic Usage
-    - [Shortcut Key](#shortcut-key)
-    - Usage with CDNs
-    - Usage with Node
-  - Advanced Usage
+- [Introduction](#introduction) - *简介*
+- Overview - *概述* （[Via](https://www.markdownguide.org/basic-syntax/)）
+- Features - *特色功能* （[Via](https://www.alfredapp.com/help/features/)）
+- [Official Website](#Official) - *官网*
+  - Homepage - *主页*
+  - Repositories - *源码仓库*
+      - GitHub
+- [Tutorials](#tutorials) - *教程* （[Via](https://www.alfredapp.com/)）
+  - Official - *官方教程*
+      - [Manual Pages](#manual%20pages) - *手册页*
+  - Third-party - *第三方教程*
+  - Community - *社区*
+  - [Book](#book) - *书籍*
+  - [Cheat Sheets](#cheat%20sheets) - *速查表*
+  - Wikipedia - *维基百科*
+- [Getting Started](#getting%20started) - *入门指南*
+  - Requirements - *要求* （[Via](https://github.com/google/benchmark#requirements)）
+  - Prerequisites - *先决条件/预备知识* （[Via](https://github.com/doomemacs/doomemacs), [Via](https://cn.vuejs.org/guide/introduction.html)）
+  - [Table of Contents](#table%20of%20contents) - *目录*
+  - Short Table of Contents - *简短目录* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
+  - [Directory Structure](#directory%20structure) - *目录结构* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#directory-structure)）
+  - Project Structure - *项目结构*（[Via](https://github.com/rajivm1991/DroidDock#project-structure)）
+  - [User Interface](#user%20interface) - *用户界面* （[Via](https://code.visualstudio.com/docs/getstarted/userinterface)）
+  - Screenshots - *截图*（[Via](https://github.com/rajivm1991/DroidDock#screenshots)）
+  - [Style Guide](#style-guide) - *风格指南*
+  - Specifications - *规范*（[Via](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Regular_expressions#%E8%A7%84%E8%8C%83)）
+  - Technologies - *技术列表* （[Via](https://github.com/gsantner/markor)）
+  - Technology Stack - *技术栈* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#technology-stack)）
+  - Tools - *工具* （[Via](https://www.markdownguide.org/tools/)）
+    - Offical Apps - *官方应用*
+    - Community Apps - *社区应用* （[Via](https://todotxt.org/)）
+  - [Translations](#translations) - *翻译* （[Via](https://f-droid.org/packages/me.zhanghai.android.files/)）
+  - [Programming Languages](#programming%20languages) - *编程语言* （[Via](https://www.regular-expressions.info/tools.html)）
+- [Quick Start](#quick%20start) - *快速入门*
+  - Index - *索引*
+- [Installation](#installation) - *安装*
+  - [Desktop Client](#desktop%20client) - *桌面端*
+      - Windows
+      - macOS
+      - Linux
+  - [Mobile Client](#mobile%20client) - *移动端*
+      - Android
+      - iOS
+  - [Web Client](#web%20client) - *网页端*
+  - [Integrations](#integrations) - *集成*
+- [Configuration](#configuration) - *配置*
+  - Options - *选项* （[Via](https://github.com/preservim/vim-markdown)）
+- Setup - *设置* （[Via](https://github.com/dimitri/el-get)）
+  - Basic Setup - *基础设置*
+  - Advanced Setup - *高级设置*
+- [Usage](#usage) - *用法*
+  - Basic Usage - *基础用法* （[Via](https://github.com/dimitri/el-get)）
+    - [Shortcut Key](#shortcut%20key) - *快捷键*
+    - Usage with CDNs - *与 CDNs 一起使用*
+    - Usage with Node - *与 Node 一起使用*
+  - Advanced Usage - *高级用法*
     - API
-    - Usage with Specialized Tools and Utilities
-    - Usage with Programming Languages
-- Help & Support
-- [FAQ](#faq)
-- [Appendix](#appendix)
-  - [Brand](#brand)
-  - Glossary
-  - Troubleshooting
-  - [Changelog](#changelog)
-  - [Reference](#reference)
-    - Blog
-    - Material
-    - Literature
-  - Related Link
-  - Who Uses
-  - Resource
-    - Search
-      - Keyword
-  - Examples
-  - Recipes
-- [License](#license)
+    - Usage with Specialized Tools and Utilities - *与专用工具和实用程序一起使用* （[Via](https://www.regular-expressions.info/tools.html)）
+    - Usage with Programming Languages - *与编程语言一起使用* （[Via](https://www.regular-expressions.info/tools.html)）
+- Help / Support - *帮助与支持*
+- [FAQ](#faq) - *常见问题解答*
+- [Appendix](#appendix) - *附录* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
+  - [Brand](#brand) - *品牌*
+  - [Changelog](#changelog) - *版本说明*
+  - Examples - *示例*
+  - [Glossary](#glossary) - *术语表*
+  - Recipes - *最佳实践*
+  - [Reference](#reference) - *参考*
+    - Blog - *参考博文*
+    - Literature - *参考文献*
+    - Material - *参考资料*
+  - Related Link - *相关链接*
+  - Resource - *资源*
+    - Search - *搜索*
+      - Keyword - *关键词*
+  - Similar App - *类似应用* （[Via](https://github.com/TrianguloY/URLCheck/discussions/223)）
+  - Troubleshooting - *故障排除* （[Via](https://github.com/dimitri/el-get), [Via](https://github.com/github-linguist/linguist/tree/main/docs)）
+  - Who Uses - *谁在使用* （[Via](https://github.com/kucherenko/jscpd)）
+- [License](#license) - *开源许可证*
 
 </output>
 
-<output data-lang="output">
+参考：
 
-`Table of Contents` - *`目录`*
+1. https://github.com/jesseduffield/lazygit - *GitHub - jesseduffield/lazygit: simple terminal UI for git commands*
+2. https://en.wikipedia.org/wiki/Main_Page - *Wikipedia, the free encyclopedia*
 
-- `Introduction` - *`简介`*
-- `Overview` - *`概述`* （[Via](https://www.markdownguide.org/basic-syntax/)）
-- `Features` - *`特色功能`* （[Via](https://www.alfredapp.com/help/features/)）
-- `Official Website` - *`官网`*
-  - `Homepage` - *`主页`*
-  - `GitHub` - *`GitHub`*
-- `Tutorials` - *`教程`* （[Via](https://www.alfredapp.com/)）
-  - `Official` - *`官方教程`*
-  - `Third-party` - *`第三方教程`*
-  - `Community` - *`社区`*
-  - `Cheat Sheets` - *`速查表`*
-- `Getting Started` - *`入门指南`*
-  - `Requirements` - *`要求`* （[Via](https://github.com/google/benchmark#requirements)）
-  - `Prerequisites` - *`先决条件/预备知识`* （[Via](https://github.com/doomemacs/doomemacs), [Via](https://cn.vuejs.org/guide/introduction.html)）
-  - `Table of Contents` - *`目录`*
-  - `Short Table of Contents` - *`简短目录`* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
-  - `Directory Structure` - *`目录结构`* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#directory-structure)）
-  - `User Interface` - *`用户界面`* （[Via](https://code.visualstudio.com/docs/getstarted/userinterface)）
-  - `Style Guide` - *`风格指南`*
-  - `Specification` - *`规格`*
-  - `Technologies` - *`技术列表`* （[Via](https://github.com/gsantner/markor)）
-  - `Technology Stack` - *`技术栈`* （[Via](https://github.com/Razeeman/Android-SimpleTimeTracker#technology-stack)）
-  - `Tools` - *`工具`* （[Via](https://www.markdownguide.org/tools/)）
-  - `Translation` - *`翻译`* （[Via](https://f-droid.org/packages/me.zhanghai.android.files/)）
-  - `Programming Languages` - *`编程语言`* （[Via](https://www.regular-expressions.info/tools.html)）
-- `Quick Start` - *`快速入门`*
-  - `Index` - *`索引`*
-- `Installation` - *`安装`*
-  - `Desktop Client` - *`桌面端`*
-  - `Mobile Client` - *`移动端`*
-  - `Web Client` - *`网页端`*
-- `Configuration` - *`配置`*
-  - `Options` - *`选项`* （[Via](https://github.com/preservim/vim-markdown)）
-- `Setup` - *`设置`* （[Via](https://github.com/dimitri/el-get)）
-  - `Basic Setup` - *`基础设置`*
-  - `Advanced Setup` - *`高级设置`*
-- `Usage` - *`用法`*
-  - `Basic Usage` - *`基础用法`* （[Via](https://github.com/dimitri/el-get)）
-    - `Shortcut Key` - *`快捷键`*
-    - `Usage with CDNs` - *与 CDNs 一起使用*
-    - `Usage with Node` - *与 Node 一起使用*
-  - `Advanced Usage` - *`高级用法`*
-    - `API`
-    - `Usage with Specialized Tools and Utilities` - *`与专用工具和实用程序一起使用`* （[Via](https://www.regular-expressions.info/tools.html)）
-    - `Usage with Programming Languages` - *`与编程语言一起使用`* （[Via](https://www.regular-expressions.info/tools.html)）
-- `Help` / `Support` - *`帮助与支持`*
-- `FAQ` - *`常见问题解答`*
-- `Appendix` - *`附录`* （[Via](https://www.gnu.org/software/emacs/manual/html_node/emacs/index.html)）
-  - `Brand` - *`品牌`*
-  - `Glossary` - *`术语表`*
-  - `Troubleshooting` - *`故障排除`* （[Via](https://github.com/dimitri/el-get), [Via](https://github.com/github-linguist/linguist/tree/main/docs)）
-  - `Changelog` - *`版本说明`*
-  - `Reference` - *`参考`*
-    - `Blog` - *`参考博文`*
-    - `Material` - *`参考资料`*
-    - `Literature` - *`参考文献`*
-  - `Related Link` - *`相关链接`*
-  - `Who Uses` - *`谁在使用`* （[Via](https://github.com/kucherenko/jscpd)）
-  - `Resource` - *`资源`*
-    - `Search` - *`搜索`*
-      - `Keyword` - *`关键词`*
-  - `Recipes` - *`最佳实践`*
-  - `Examples` - *`示例`*
-- `License` - *`开源许可证`*
+## 使用场景
 
-</output>
-
-#### 编程语言
+### 编程语言
 
 Table of Contents
 
@@ -386,7 +341,7 @@ Table of Contents
 
 1. https://www.markdownguide.org/ - *Markdown Guide*
 
-#### 应用/工具
+### 应用/工具
 
 <output data-lang="output">
 
@@ -402,6 +357,7 @@ Table of Contents
 - `Tutorials` - *教程*
   - `Docs` - *官方文档*
   - `Runoob tutorial` - *菜鸟教程*
+  - `Wikipedia` - *维基百科*
 - `Install` - *下载安装*
   - `Windows`
   - `Linux`
@@ -426,7 +382,7 @@ Table of Contents
 
 1. https://github.com/outline/outline - *GitHub - outline/outline: The fastest knowledge base for growing teams. Beautiful, realtime collaborative, feature packed, and markdown compatible.*
 
-#### 框架/插件/库
+### 框架/插件/库
 
 <output data-lang="output">
 
@@ -454,7 +410,7 @@ Outline
 
 1. https://prismjs.com/index.html - *Prism*
 
-#### 企业
+### 企业站
 
 <output data-lang="output">
 
@@ -477,24 +433,27 @@ Outline
     - About - 关于我们
     - Brand Assets - 品牌资产（[Via](https://www.jetbrains.com/company/brand/)）
     - Blog - 博客
-    - Open Source
+    - Open Source - 开源
     - Partners - 合作伙伴
-    - Shop
+    - Shop - 商店
 - Resources - 资源
     - Resource Center
     - Community Forums
     - Newsfeed
 - Social
+    - Discord
     - Facebook
     - GitHub
     - Instagram
     - LinkedIn
     - Mastodon
     - Reddit
+    - Telegram
     - TikTok
     - Twitch
-    - X
+    - 𝕏 (Twitter) [Via](https://github.com/usebruno/bruno)
     - YouTube
+    - RSS
 - Site Map - 网站地图（[Via](https://www.apple.com/sitemap/)）
 
 </output>
@@ -503,7 +462,7 @@ Outline
 
 1. https://github.com/ - *GitHub · Build and ship software on a single, collaborative platform · GitHub*
 
-#### 实践
+### 实践
 
 <output data-lang="output">
 
@@ -525,7 +484,7 @@ Outline
 
 </output>
 
-#### 开发/自述文件
+### 开发/自述文件
 
 文件名：`README.md`
 
@@ -550,17 +509,99 @@ Outline
   6. https://www.markdown.xyz/ - *Markdown 指南中文版 | Markdown中文网*
 7. https://www.wikipedia.org/wiki/Polyfill_(programming) - *Polyfill - Wikipedia* 🪜
 
-#### 参考
-
-1. https://github.com/jesseduffield/lazygit - *GitHub - jesseduffield/lazygit: simple terminal UI for git commands*
-
 ### 使用说明书
 
 参考：
 
 1. https://support.apple.com/zh-cn/guide/mac-help/welcome/mac - *Mac 使用手册 - 官方 Apple 支持 (中国)*
 
-## 常用工具模板
+## 常用模板
+
+<output data-lang="output">
+
+Table of Contents
+
+- [Introduction](#introduction)
+- Overview
+- Features
+- [Official Website](#official)
+  - Homepage
+  - Repositories
+      - GitHub
+- [Tutorials](#tutorials)
+  - Official
+      - [Manual Pages](#manual%20pages)
+  - Third-party
+  - Community
+  - [Book](#book)
+  - [Cheat Sheets](#cheat-sheets)
+  - Wikipedia
+- [Getting Started](#getting-started)
+  - Requirements
+  - Prerequisites
+  - [Table of Contents](#table-of-contents)
+  - Short Table of Contents
+  - [Directory Structure](#directory%20structure)
+  - Project Structure
+  - [User Interface](#user-interface)
+  - Screenshots
+  - [Style Guide](#style-guide)
+  - Specifications
+  - Technologies
+  - Technology Stack
+  - Tools
+    - Offical Apps
+    - Community Apps
+  - [Translations](#translations)
+  - [Programming Languages](#programming-languages)
+- [Quick Start](#quick%20start)
+  - Index
+- [Installation](#installation)
+  - [Desktop Client](#desktop-client)
+    - Windows
+    - macOS
+    - Linux
+  - [Mobile Client](#mobile-client)
+    - Android
+    - iOS
+  - [Web Client](#web-client)
+  - [Integrations](#integrations)
+- [Configuration](#configuration)
+  - Options
+- Setup
+  - Basic Setup
+  - Advanced Setup
+- [Usage](#usage)
+  - Basic Usage
+    - [Shortcut Key](#shortcut-key)
+    - Usage with CDNs
+    - Usage with Node
+  - Advanced Usage
+    - API
+    - Usage with Specialized Tools and Utilities
+    - Usage with Programming Languages
+- Help & Support
+- [FAQ](#faq)
+- [Appendix](#appendix)
+  - [Brand](#brand)
+  - [Changelog](#changelog)
+  - Examples
+  - [Glossary](#glossary)
+  - Recipes
+  - [Reference](#reference)
+    - Blog
+    - Literature
+    - Material
+  - Related Link
+  - Resource
+    - Search
+      - Keyword
+  - Similar App
+  - Troubleshooting
+  - Who Uses
+- [License](#license)
+
+</output>
 
 封面：
 
@@ -639,6 +680,14 @@ GitHub：
 
 暂无
 
+#### Manual Pages
+
+- 有关详细信息，请参阅“[man](os/tools/developer/shell/man.md)”。
+
+#### Book
+
+- 有关详细信息，请参阅“[book](home/searcher/book.md)”。
+
 #### Cheat Sheets
 
 > 备忘单；速查表
@@ -665,7 +714,7 @@ https://github.com/tiimgreen/github-cheat-sheet - *GitHub - tiimgreen/github-che
 
 #### Table of Contents
 
-有关详细信息，请参阅“[目录结构#文档目录](home/structure/directory.md#文档目录)”。
+有关详细信息，请参阅[目录结构](home/structure/directory.md)文档中的“[文档目录](home/structure/directory.md#文档目录)”。
 
 #### Directory Structure
 
@@ -689,15 +738,15 @@ root_folder/
 └── etc.
 ```
 
-有关详细信息，请参阅“[目录结构#文件系统目录](home/structure/directory.md#文件系统目录)”。
+有关详细信息，请参阅[目录结构](home/structure/directory.md)文档中的“[文件系统目录](home/structure/directory.md#文件系统目录)”。
 
 #### User Interface
 
-有关详细信息，请参阅“[设计 > UI 布局](../design/README.md#ui-布局)”。
+有关详细信息，请参阅[设计](design/README.md)文档中的“[UI 布局](design/README.md#ui-布局)”。
 
 #### Style Guide
 
-有关详细信息，请参阅“[风格指南 > 编码风格](essential/style-guide/code-guide.md)”。
+有关详细信息，请参阅[风格指南](essential/style-guide/code-guide.md)文档中的“[编码风格](essential/style-guide/code-guide.md)”。
 
 #### Translations
 
@@ -717,11 +766,17 @@ root_folder/
 
 #### Programming Languages
 
-有关详细信息，请参阅“[技术栈 > 编程语言](tech-stack/README.md#编程语言)”。
+有关详细信息，请参阅[技术栈](tech-stack/README.md)文档中的“[编程语言](tech-stack/README.md#编程语言)”。
+
+### Quick Start
+
+暂无
 
 ### Installation
 
-有关详细信息，请参阅“[工具#软件安装](os/tools/README.md#软件安装)”。
+https://repology.org/project/zsh/versions - *zsh package versions - Repology*
+
+有关详细信息，请参阅[工具](os/tools/README.md)文档中的“[软件安装](os/tools/README.md#软件安装)”。
 
 参考：
 
@@ -738,6 +793,10 @@ root_folder/
 #### Web Client
 
 暂无
+
+#### Integrations
+
+有关详细信息，请参阅“[应用安装](os/tools/install.md)”中的“[集成](os/tools/install.md#integrations)”部分。
 
 ### Configuration
 
@@ -757,6 +816,10 @@ https://github.com/devgianlu/DNSHero/blob/HEAD/CHANGELOG.md - *DNSHero/CHANGELOG
 - https://semver.org/lang/zh-CN/ - *语义化版本 2.0.0 | Semantic Versioning*
 
 用法：
+
+- Breaking Change （[Via](https://github.com/Waboodoo/HTTP-Shortcuts/releases/tag/v4.0.0)）
+- Improvements
+- Bugfixes
 
 更新内容：
 
@@ -883,3 +946,7 @@ https://www.opensource.org/ - *Open Source Initiative &#8211; The steward of the
 2. https://browsersync.io/brand-assets - *Browsersync - Brand Assets*
 3. https://github.com/about - *About GitHub · GitHub*
 4. https://brand.github.com/ - *GitHub Brand Toolkit*
+
+#### Glossary
+
+有关详细信息，请参阅“[glossary](home/glossary.md)”。

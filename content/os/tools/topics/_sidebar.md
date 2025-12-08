@@ -1,4 +1,4 @@
-- [ai.md](os/tools/topics/ai.md)
+- [ai.md](home/searcher/ai.md)
 - [browser\-extensions.md](os/tools/topics/browser-extensions.md)
 - [browser.md](os/tools/topics/browser.md)
 - [multimedia.md](os/tools/topics/multimedia.md)

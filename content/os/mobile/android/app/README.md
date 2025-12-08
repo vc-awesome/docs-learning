@@ -1,4 +1,4 @@
-# 手机应用
+# 安卓应用
 
 ## 系统工具
 
@@ -11,8 +11,6 @@
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/elastic-rock/KeepScreenOn?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/elastic-rock/KeepScreenOn?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/elastic-rock/KeepScreenOn?style=social)
-
----
 
 https://f-droid.org/packages/com.elasticrock.keepscreenon/ - *Keep Screen On | F-Droid - Free and Open Source Android App Repository*
 
@@ -29,11 +27,69 @@ https://github.com/elastic-rock/KeepScreenOn - *GitHub - elastic-rock/KeepScreen
 
 https://apt.izzysoft.de/fdroid/index/apk/moe.shizuku.privileged.api - *Shizuku - IzzyOnDroid F-Droid Repository*
 
-https://shizuku.rikka.app/ - *Shizuku*
-
 https://github.com/RikkaApps/Shizuku - *GitHub - RikkaApps/Shizuku: Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.*
 
+https://shizuku.rikka.app/ - *Shizuku*
+
+### Simple Clipboard Editor
+
+> View, edit or delete the phone clipboard's text with a simple and fast editor.
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.trianguloy.clipboardeditor)
+![GitHub last commit](https://img.shields.io/github/last-commit/TrianguloY/SimpleClipboardEditor?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TrianguloY/SimpleClipboardEditor?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TrianguloY/SimpleClipboardEditor?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/TrianguloY/SimpleClipboardEditor?style=social)
+
+https://f-droid.org/packages/com.trianguloy.clipboardeditor/ - *Simple Clipboard Editor | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/TrianguloY/SimpleClipboardEditor - *GitHub - TrianguloY/SimpleClipboardEditor: Android app by TrianguloY: Simple Clipboard Editor*
+
 ## 应用下载
+
+### Aurora Store
+
+[Aurora Store](https://auroraoss.com/) - *Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.*
+
+- 支持 Android（[GitLab Releases](https://gitlab.com/AuroraOSS/AuroraStore/-/releases), [F-Droid](https://www.f-droid.org/packages/com.aurora.store/)）
+
+- 开源软件（[GitLab Repo](https://gitlab.com/AuroraOSS/AuroraStore)）
+
+- <details><summary><i style="color:red">SEE MORE >></i></summary>
+
+    版本 4.5.0+ 不支持匿名账户登录
+
+</details>
+
+### Droid-ify
+
+> Material-ify with Droid-ify. A quick material F-Droid client.
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.looker.droidify)
+![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Iamlooker/Droid-ify?style=social)
+
+https://f-droid.org/packages/com.looker.droidify/ - *Droid-ify | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/Iamlooker/Droid-ify - *GitHub - Iamlooker/Droid-ify: F-Droid client with Material UI.*
+
+https://droidify.eu.org/ - *Droid-ify*
+
+### FFUpdater
+
+[FFUpdater](#) - *Updater for privacy friendly browsers*
+
+- 支持 Android（[GitHub Releases](https://github.com/Tobi823/ffupdater/releases), [F-Droid](https://f-droid.org/app/de.marmaro.krt.ffupdater)）
+
+- 开源软件（[GitHub Repo](https://github.com/Tobi823/ffupdater)）
+
+![F-Droid Version](https://img.shields.io/f-droid/v/de.marmaro.krt.ffupdater)
+![GitHub last commit](https://img.shields.io/github/last-commit/Tobi823/ffupdater?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Tobi823/ffupdater?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tobi823/ffupdater?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/Tobi823/ffupdater?style=social)
 
 ### F-Droid
 
@@ -44,8 +100,6 @@ https://github.com/RikkaApps/Shizuku - *GitHub - RikkaApps/Shizuku: Using system
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/f-droid/fdroidclient?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/f-droid/fdroidclient?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/f-droid/fdroidclient?style=social)
-
----
 
 https://f-droid.org/packages/org.fdroid.fdroid/ - *F-Droid | F-Droid - Free and Open Source Android App Repository* 🚫
 
@@ -63,85 +117,21 @@ https://f-droid.org/packages/de.storchp.fdroidbuildstatus/ - *F-Droid Build Stat
 
 https://codeberg.org/pstorch/F-Droid_Build_Status - *pstorch/F-Droid_Build_Status: Android App to show and monitor the F-Droid build status - Codeberg.org*
 
-### Droid-ify
-
-> Material-ify with Droid-ify. A quick material F-Droid client.
-
-![F-Droid Version](https://img.shields.io/f-droid/v/com.looker.droidify)
-![GitHub last commit](https://img.shields.io/github/last-commit/Iamlooker/Droid-ify?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Iamlooker/Droid-ify?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Iamlooker/Droid-ify?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/Iamlooker/Droid-ify?style=social)
-
----
-
-https://f-droid.org/packages/com.looker.droidify/ - *Droid-ify | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/Iamlooker/Droid-ify - *GitHub - Iamlooker/Droid-ify: F-Droid client with Material UI.*
-
-https://droidify.eu.org/ - *Droid-ify*
-
-### Aurora Store
-
-1. [Aurora Store](https://auroraoss.com/) - *Aurora Store is an open-source alternative Google Play Store frontend client with privacy and modern design in mind.*
-
-    - 支持 Android（[GitLab Releases](https://gitlab.com/AuroraOSS/AuroraStore/-/releases), [F-Droid](https://www.f-droid.org/packages/com.aurora.store/)）
-
-    - 开源软件（[GitLab Repo](https://gitlab.com/AuroraOSS/AuroraStore)）
-
-    - <details><summary><i style="color:red">SEE MORE >></i></summary>
-
-        版本 4.5.0+ 不支持匿名账户登录
-
-    </details>
-
 ### Obtainium
 
-1. [Obtainium](https://obtainium.imranr.dev/) - *Get Android app updates straight from the source. Contribute to ImranR98/Obtainium development by creating an account on GitHub.*
+[Obtainium](https://obtainium.imranr.dev/) - *Get Android app updates straight from the source. Contribute to ImranR98/Obtainium development by creating an account on GitHub.*
 
-    - 支持 Android（[GitHub Releases](https://github.com/ImranR98/Obtainium/releases), [F-Droid](https://f-droid.org/packages/dev.imranr.obtainium.fdroid/)）
+- 支持 Android（[GitHub Releases](https://github.com/ImranR98/Obtainium/releases), [F-Droid](https://f-droid.org/packages/dev.imranr.obtainium.fdroid/)）
 
-    - 开源软件（[GitHub Repo](https://github.com/ImranR98/Obtainium)）
+- 开源软件（[GitHub Repo](https://github.com/ImranR98/Obtainium)）
 
-    ![F-Droid Version](https://img.shields.io/f-droid/v/dev.imranr.obtainium.fdroid)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/ImranR98/Obtainium?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/Obtainium?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/Obtainium?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/ImranR98/Obtainium?style=social)
-
-### FFUpdater
-
-1. [FFUpdater]() - *Updater for privacy friendly browsers*
-
-    - 支持 Android（[GitHub Releases](https://github.com/Tobi823/ffupdater/releases), [F-Droid](https://f-droid.org/app/de.marmaro.krt.ffupdater)）
-
-    - 开源软件（[GitHub Repo](https://github.com/Tobi823/ffupdater)）
-
-    ![F-Droid Version](https://img.shields.io/f-droid/v/de.marmaro.krt.ffupdater)
-    ![GitHub last commit](https://img.shields.io/github/last-commit/Tobi823/ffupdater?color=blue&logo=github)
-    ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Tobi823/ffupdater?display_date=published_at&logo=github)
-    ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Tobi823/ffupdater?logo=github)
-    ![GitHub Repo stars](https://img.shields.io/github/stars/Tobi823/ffupdater?style=social)
+![F-Droid Version](https://img.shields.io/f-droid/v/dev.imranr.obtainium.fdroid)
+![GitHub last commit](https://img.shields.io/github/last-commit/ImranR98/Obtainium?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/ImranR98/Obtainium?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ImranR98/Obtainium?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/ImranR98/Obtainium?style=social)
 
 ## 应用管理
-
-### App Manager
-
-> A full-featured open source package manager for android. [使用手册](os/mobile/android/app/app-manager.md)
-
-![F-Droid Version](https://img.shields.io/f-droid/v/io.github.muntashirakon.AppManager)
-![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/MuntashirAkon/AppManager?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MuntashirAkon/AppManager?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/MuntashirAkon/AppManager?style=social)
-
----
-
-https://f-droid.org/packages/io.github.muntashirakon.AppManager/ - *App Manager - Android package manager | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/MuntashirAkon/AppManager - *GitHub - MuntashirAkon/AppManager: A full-featured package manager and viewer for Android*
-
-https://muntashirakon.github.io/AppManager/ - *App Manager Docs*
 
 ### Activity Manager
 
@@ -153,11 +143,25 @@ https://muntashirakon.github.io/AppManager/ - *App Manager Docs*
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sdex/ActivityManager?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sdex/ActivityManager?style=social)
 
----
-
 https://f-droid.org/packages/com.activitymanager/ - *Activity Manager | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/sdex/ActivityManager - *GitHub - sdex/ActivityManager: Launch any application activity*
+
+### App Manager
+
+> A full-featured open source package manager for android. [使用手册](os/mobile/android/app/app-manager.md)
+
+![F-Droid Version](https://img.shields.io/f-droid/v/io.github.muntashirakon.AppManager)
+![GitHub last commit](https://img.shields.io/github/last-commit/MuntashirAkon/AppManager?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/MuntashirAkon/AppManager?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/MuntashirAkon/AppManager?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/MuntashirAkon/AppManager?style=social)
+
+https://f-droid.org/packages/io.github.muntashirakon.AppManager/ - *App Manager - Android package manager | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/MuntashirAkon/AppManager - *GitHub - MuntashirAkon/AppManager: A full-featured package manager and viewer for Android*
+
+https://muntashirakon.github.io/AppManager/ - *App Manager Docs*
 
 ### Package Manager
 
@@ -168,8 +172,6 @@ https://github.com/sdex/ActivityManager - *GitHub - sdex/ActivityManager: Launch
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/SmartPack/PackageManager?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SmartPack/PackageManager?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SmartPack/PackageManager?style=social)
-
----
 
 https://f-droid.org/packages/com.smartpack.packagemanager/ - *Package Manager | F-Droid - Free and Open Source Android App Repository*
 
@@ -193,8 +195,6 @@ A：可通过应用“[Activity Manager](#activity-manager)”查看。
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/zhanghai/MaterialFiles?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/zhanghai/MaterialFiles?style=social)
 ![Platforms](https://img.shields.io/badge/platforms-Android-blue)
-
----
 
 https://f-droid.org/packages/me.zhanghai.android.files/ - *Material Files | F-Droid - Free and Open Source Android App Repository*
 
@@ -221,24 +221,6 @@ https://github.com/zhanghai/MaterialFiles - *GitHub - zhanghai/MaterialFiles: Ma
 
 ## 文本编辑
 
-### Markor
-
-> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, .. [使用手册](os/mobile/android/app/markor.md)
-
-![F-Droid Version](https://img.shields.io/f-droid/v/net.gsantner.markor)
-![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/gsantner/markor?style=social)
-
----
-
-https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/gsantner/markor - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
-
-https://gsantner.net/page/projects.html#markor - *Projects | gsantner*
-
 ### Acode
 
 > Acode - powerful text/code editor for android [使用手册](os/mobile/android/app/acode.md)
@@ -249,15 +231,29 @@ https://gsantner.net/page/projects.html#markor - *Projects | gsantner*
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deadlyjack/Acode?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/deadlyjack/Acode?style=social)
 
----
-
 https://f-droid.org/packages/com.foxdebug.acode/ - *Acode | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/deadlyjack/Acode - *GitHub - deadlyjack/Acode: Acode - powerful text/code editor for android*
 
 https://acode.app/ - *Acode - Code editor for android*
 
-## 翻译
+### Markor
+
+> Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, .. [使用手册](os/mobile/android/app/markor.md)
+
+![F-Droid Version](https://img.shields.io/f-droid/v/net.gsantner.markor)
+![GitHub last commit](https://img.shields.io/github/last-commit/gsantner/markor?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/gsantner/markor?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/gsantner/markor?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/gsantner/markor?style=social)
+
+https://f-droid.org/packages/net.gsantner.markor/ - *Markor | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/gsantner/markor - *GitHub - gsantner/markor: Text editor - Notes & ToDo (for Android) - Markdown, todo.txt, plaintext, math, ..*
+
+https://gsantner.net/page/projects.html#markor - *Projects | gsantner*
+
+## 翻译和词典
 
 ### Translate You
 
@@ -285,13 +281,11 @@ https://github.com/you-apps/TranslateYou - *GitHub - you-apps/TranslateYou: Priv
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/sanzoghenzo/markdownr?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/sanzoghenzo/markdownr?style=social)
 
----
-
 https://f-droid.org/packages/com.sanzoghenzo.markdownr/ - *Markdownr | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/sanzoghenzo/markdownr - *GitHub - sanzoghenzo/markdownr: Android app that converts an URL to markdown, and lets you share it to your favorite notes app.*
 
-## 输入法
+## 键盘和输入法
 
 ### Hacker's Keyboard
 
@@ -333,8 +327,6 @@ https://github.com/Julow/Unexpected-Keyboard - *GitHub - Julow/Unexpected-Keyboa
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/emanuele-f/PCAPdroid?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/emanuele-f/PCAPdroid?style=social)
 ![](https://img.shields.io/badge/💰-应用内包含付费功能-grey)
-
----
 
 https://f-droid.org/packages/com.emanuelef.remote_capture/ - *PCAPdroid | F-Droid - Free and Open Source Android App Repository*
 
@@ -380,7 +372,79 @@ https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
 
 1. SNI（Server Name Information，服务器名称信息）
 
-## DNS
+## DNS & Hosts
+
+### AdAway
+
+> 一款面向安卓设备的自由和开源的广告拦截应用。
+
+![F-Droid Version](https://img.shields.io/f-droid/v/org.adaway)
+![GitHub last commit](https://img.shields.io/github/last-commit/AdAway/AdAway?color=blue&logo=github)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/AdAway/AdAway?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AdAway/AdAway?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/AdAway/AdAway?style=social)
+
+https://f-droid.org/packages/org.adaway/ - *AdAway | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/AdAway/AdAway - *GitHub - AdAway/AdAway: AdAway is a free and open source ad blocker for Android.*
+
+https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
+
+---
+
+添加 hosts 来源（本地文件）：
+
+1. Label 填写：*localhosts*
+
+2. List format 选择：*BLOCK*
+
+3. Type 选择：*FILE*
+
+    - 选择手机文件：*\/storage/emulated/0/Download/hosts.txt*
+
+        ```md
+        # This hosts file is generated by AdAway.
+        # Please do not modify it directly, it will be overwritten when AdAway is applied again.
+        # This file is generated from the following sources:
+        # [...]
+        
+        127.0.0.1 localhost
+        0.0.0.0 www.baidu.com
+        
+        108.177.126.90 translate.googleapis.com
+        220.181.174.98 translate.google.com
+        ```
+
+4. 勾选“Apply redirected hosts”
+
+添加 hosts 来源（远程 URL）：
+
+1. Label 填写：*HelloGitHub*
+
+2. List format 选择：*BLOCK*
+
+3. Type 选择：*URL*
+
+    - Location 填写：*https://raw.hellogithub.com/hosts*
+
+4. 勾选“Apply redirected hosts”
+
+### Daedalus
+
+> No root required Android DNS modifier and Hosts/DNSMasq resolver.
+
+![F-Droid](https://img.shields.io/f-droid/v/org.itxtech.daedalus?icon=f-droid)
+![GitHub last commit](https://img.shields.io/github/last-commit/iTXTech/Daedalus?color=blue&logo=github)
+![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.itxtech.daedalus%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
+![GitHub Release Date](https://img.shields.io/github/release-date/iTXTech/Daedalus?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/iTXTech/Daedalus?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/iTXTech/Daedalus?style=social)
+
+https://f-droid.org/packages/org.itxtech.daedalus/ - *Daedalus | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/iTXTech/Daedalus - *GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver.*
+
+https://itxtech.org/ - *Homepage | iTX Technologies*
 
 ### personalDNSfilter
 
@@ -392,8 +456,6 @@ https://emanuele-f.github.io/PCAPdroid/ - *PCAPdroid | User Guide*
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/IngoZenz/personaldnsfilter?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/IngoZenz/personaldnsfilter?style=social)
 ![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Ddnsfilter.android%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-
----
 
 支持的平台：Windows, Linux, Android（Google Play, F-Droid）
 
@@ -483,84 +545,6 @@ FAQ
 
     - 测试 URL：https://github.com/topics - *Topics on GitHub · GitHub*
 
-### Daedalus
-
-> No root required Android DNS modifier and Hosts/DNSMasq resolver.
-
-![F-Droid](https://img.shields.io/f-droid/v/org.itxtech.daedalus?icon=f-droid)
-![GitHub last commit](https://img.shields.io/github/last-commit/iTXTech/Daedalus?color=blue&logo=github)
-![PlayShields](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fplay.cuzi.workers.dev%2Fplay%3Fi%3Dorg.itxtech.daedalus%26l%3DPlay%2520Store%2520version%26m%3Dv%24version)
-![GitHub Release Date](https://img.shields.io/github/release-date/iTXTech/Daedalus?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/iTXTech/Daedalus?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/iTXTech/Daedalus?style=social)
-
----
-
-https://f-droid.org/packages/org.itxtech.daedalus/ - *Daedalus | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/iTXTech/Daedalus - *GitHub - iTXTech/Daedalus: No root required Android DNS modifier and Hosts/DNSMasq resolver.*
-
-https://itxtech.org/ - *Homepage | iTX Technologies*
-
-## Hosts
-
-### AdAway
-
-> 一款面向安卓设备的自由和开源的广告拦截应用。
-
-![F-Droid Version](https://img.shields.io/f-droid/v/org.adaway)
-![GitHub last commit](https://img.shields.io/github/last-commit/AdAway/AdAway?color=blue&logo=github)
-![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/AdAway/AdAway?display_date=published_at&logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/AdAway/AdAway?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/AdAway/AdAway?style=social)
-
----
-
-https://f-droid.org/packages/org.adaway/ - *AdAway | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/AdAway/AdAway - *GitHub - AdAway/AdAway: AdAway is a free and open source ad blocker for Android.*
-
-https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
-
----
-
-添加 hosts 来源（本地文件）：
-
-1. Label 填写：*localhosts*
-
-2. List format 选择：*BLOCK*
-
-3. Type 选择：*FILE*
-
-    - 选择手机文件：*\/storage/emulated/0/Download/hosts.txt*
-
-        ```md
-        # This hosts file is generated by AdAway.
-        # Please do not modify it directly, it will be overwritten when AdAway is applied again.
-        # This file is generated from the following sources:
-        # [...]
-        
-        127.0.0.1 localhost
-        0.0.0.0 www.baidu.com
-        
-        108.177.126.90 translate.googleapis.com
-        220.181.174.98 translate.google.com
-        ```
-
-4. 勾选“Apply redirected hosts”
-
-添加 hosts 来源（远程 URL）：
-
-1. Label 填写：*HelloGitHub*
-
-2. List format 选择：*BLOCK*
-
-3. Type 选择：*URL*
-
-    - Location 填写：*https://raw.hellogithub.com/hosts*
-
-4. 勾选“Apply redirected hosts”
-
 ## RSS
 
 ### Feeder
@@ -573,8 +557,6 @@ https://github.com/AdAway/AdAway/wiki - *Home · AdAway/AdAway Wiki · GitHub*
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/spacecowboy/Feeder?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/spacecowboy/Feeder?style=social)
 ![GitLab last commit](https://img.shields.io/gitlab/last-commit/spacecowboy%2FFeeder?logo=gitlab)
-
----
 
 https://f-droid.org/packages/com.nononsenseapps.feeder/ - *Feeder | F-Droid - Free and Open Source Android App Repository*
 
@@ -592,8 +574,6 @@ https://github.com/spacecowboy/Feeder - *GitHub - spacecowboy/Feeder: Android RS
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Ashinch/ReadYou?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Ashinch/ReadYou?style=social)
 
----
-
 https://f-droid.org/packages/me.ash.reader/ - *Read You | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS reader presented in Material You style.*
@@ -609,8 +589,6 @@ https://github.com/Ashinch/ReadYou - *GitHub - Ashinch/ReadYou: An Android RSS r
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/TrianguloY/UrlChecker?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TrianguloY/UrlChecker?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/TrianguloY/UrlChecker?style=social)
-
----
 
 https://f-droid.org/packages/com.trianguloy.urlchecker/ - *URLCheck | F-Droid - Free and Open Source Android App Repository*
 
@@ -678,8 +656,6 @@ https://triangularapps.blogspot.com/search/label/UrlChecker - *TrianguloY's Apps
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/T8RIN/ImageResizer?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/T8RIN/ImageResizer?style=social)
 
----
-
 https://f-droid.org/packages/ru.tech.imageresizershrinker/ - *Image Resizer | F-Droid - Free and Open Source Android App Repository*
 
 ~~https://github.com/T8RIN/ImageResizer - *GitHub - T8RIN/ImageResizer: Powerful image resizer with width/height selection, cropping, EXIF editing, quality and output image type picking and batch processing feature.*~~
@@ -725,8 +701,6 @@ https://github.com/T8RIN/ImageToolbox - *GitHub - T8RIN/ImageToolbox: 🖼️ Im
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/SubhamTyagi/android-ocr?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/SubhamTyagi/android-ocr?style=social)
 
----
-
 https://f-droid.org/packages/io.github.subhamtyagi.ocr - *OCR | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/SubhamTyagi/android-ocr - *GitHub - SubhamTyagi/android-ocr: Tesseract based OCR for android*
@@ -743,8 +717,6 @@ https://github.com/SubhamTyagi/android-ocr - *GitHub - SubhamTyagi/android-ocr: 
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/kamgurgul/cpu-info?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/kamgurgul/cpu-info?style=social)
 
----
-
 https://f-droid.org/packages/com.kgurgul.cpuinfo/ - *CPU Info | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/kamgurgul/cpu-info - *GitHub - kamgurgul/cpu-info: CPU Info provides information about device hardware and software*
@@ -760,8 +732,6 @@ https://github.com/kamgurgul/cpu-info - *GitHub - kamgurgul/cpu-info: CPU Info p
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/markusfisch/BinaryEye?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/markusfisch/BinaryEye?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/markusfisch/BinaryEye?style=social)
-
----
 
 https://f-droid.org/packages/de.markusfisch.android.binaryeye/ - *Binary Eye | F-Droid - Free and Open Source Android App Repository*
 
@@ -780,8 +750,6 @@ https://markusfisch.de/apps-android.html#binary-eye - *Android • Markus Fisch*
 ![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/Waboodoo/HTTP-Shortcuts?display_date=published_at&logo=github)
 ![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/Waboodoo/HTTP-Shortcuts?logo=github)
 ![GitHub Repo stars](https://img.shields.io/github/stars/Waboodoo/HTTP-Shortcuts?style=social)
-
----
 
 ✅ [HTTP Shortcuts](https://http-shortcuts.rmy.ch/) - *Android app to create home screen shortcuts that trigger arbitrary HTTP requests*
 
@@ -805,20 +773,6 @@ https://github.com/k3b/intent-intercept - *GitHub - k3b/intent-intercept: Androi
 
 ## 开发者
 
-### Termux
-
-> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. [使用手册](os/mobile/android/app/termux.md)
-
-![F-Droid Version](https://img.shields.io/f-droid/v/com.termux)
-![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-app?color=blue&logo=github)
-![GitHub Release Date](https://img.shields.io/github/release-date/termux/termux-app?logo=github)
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-app?logo=github)
-![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-app?style=social)
-
-https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
-
-https://github.com/termux/termux-app - *Termux - a terminal emulator application for Android OS extendible by variety of packages.*
-
 ### MGit
 
 > An open source Android Git client.[使用手册](os/mobile/android/app/mgit.md)
@@ -833,11 +787,25 @@ https://f-droid.org/packages/com.manichord.mgit - *MGit | F-Droid - Free and Ope
 
 https://github.com/maks/MGit - *GitHub - maks/MGit: A Git client for Android.*
 
+### Termux
+
+> Termux is an Android terminal emulator and Linux environment app that works directly with no rooting or setup required. A minimal base system is installed automatically - additional packages are available using the APT package manager. [使用手册](os/mobile/android/app/termux.md)
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.termux)
+![GitHub last commit](https://img.shields.io/github/last-commit/termux/termux-app?color=blue&logo=github)
+![GitHub Release Date](https://img.shields.io/github/release-date/termux/termux-app?logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/termux/termux-app?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/termux/termux-app?style=social)
+
+https://f-droid.org/en/packages/com.termux/ - *Termux | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/termux/termux-app - *Termux - a terminal emulator application for Android OS extendible by variety of packages.*
+
 ## 自动化
 
 ### MacroDroid
 
-
+暂无
 
 ## 时间
 
@@ -877,3 +845,19 @@ https://f-droid.org/packages/ru.aleshin.timeplanner - *TimePlanner*
 https://f-droid.org/packages/com.razeeman.util.simpletimetracker/ - *Simple Time Tracker | F-Droid - Free and Open Source Android App Repository*
 
 https://github.com/Razeeman/Android-SimpleTimeTracker - *GitHub - Razeeman/Android-SimpleTimeTracker: Simple app that tracks time.*
+
+## 消息收发
+
+### Delta Chat
+
+> Decentralized private messenger with chat-shared tools and games for Android
+
+![F-Droid Version](https://img.shields.io/f-droid/v/com.b44t.messenger)
+![GitHub last commit](https://img.shields.io/github/last-commit/deltachat/deltachat-android?logo=github&color=blue)
+![GitHub Release Date - Published_At](https://img.shields.io/github/release-date/deltachat/deltachat-android?display_date=published_at&logo=github)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/deltachat/deltachat-android?logo=github)
+![GitHub Repo stars](https://img.shields.io/github/stars/deltachat/deltachat-android?style=social)
+
+https://f-droid.org/packages/com.b44t.messenger/ - *Delta Chat | F-Droid - Free and Open Source Android App Repository*
+
+https://github.com/deltachat/deltachat-android - *GitHub - deltachat/deltachat-android: Decentralized private messenger with chat-shared tools and games for Android*

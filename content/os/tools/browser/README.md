@@ -44,12 +44,12 @@
 
 序号 | 图标 | 名称 | 国家
 --- | --- | --- | ---
-1 | <i class="fa-brands fa-chrome"></i> | [Chrome](#google-chrome) | 🇺🇸
-2 | <i class="fa-brands fa-edge"></i> | [Edge](#microsoft-edge) | 🇺🇸
-3 | <i class="fa-brands fa-firefox"></i> | [Firefox](#mozilla-firefox) | 🇺🇸
-4 | <i class="fa-brands fa-opera"></i> | [Opera](#opera) | 🇳🇴
-5 | <i class="fa-brands fa-qq"></i> | [QQBrowser](#qqbrowser) | 🇨🇳
-6 | <i class="fa-brands fa-yandex-international"></i> | [Yandex](#yandex) | 🇷🇺
+1. | <i class="fa-brands fa-chrome"></i> | [Chrome](#google-chrome) | 🇺🇸
+2. | <i class="fa-brands fa-edge"></i> | [Edge](#microsoft-edge) | 🇺🇸
+3. | <i class="fa-brands fa-firefox"></i> | [Firefox](#mozilla-firefox) | 🇺🇸
+4. | <i class="fa-brands fa-opera"></i> | [Opera](#opera) | 🇳🇴
+5. | <i class="fa-brands fa-qq"></i> | [QQBrowser](#qqbrowser) | 🇨🇳
+6. | <i class="fa-brands fa-yandex-international"></i> | [Yandex](#yandex) | 🇷🇺
 
 更多浏览器：https://www.baiduyun.wiki/zh-cn/crx.html - *如何安装浏览器扩展？ | 油小猴*
 

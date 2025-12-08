@@ -34,6 +34,7 @@ root_folder/
       │       └── rclone/
       └── .config/
               └── rclone/
+                    └── rclone.conf
 ```
 
 ### Commands
@@ -77,11 +78,23 @@ List the objects in the path with size and path.
 
 https://rclone.org/commands/rclone_ls/ - *rclone ls*
 
+#### rclone mount
+
+Mount the remote as file system on a mountpoint.
+
+https://rclone.org/commands/rclone_mount/ - *rclone mount*
+
 #### rclone sync
 
 Make source and dest identical, modifying destination only.
 
 https://rclone.org/commands/rclone_sync/ - *rclone sync*
+
+#### rclone tree
+
+List the contents of the remote in a tree like fashion.
+
+https://rclone.org/commands/rclone_tree/ - *rclone tree*
 
 ### Filtering
 
@@ -125,11 +138,19 @@ https://rclone.org/onedrive/ - *Microsoft OneDrive*
 
 https://rclone.org/sftp/ - *SFTP*
 
+#### WebDAV
+
+https://rclone.org/webdav/ - *WebDAV*
+
 #### The local filesystem
 
 https://rclone.org/local/ - *Local Filesystem*
 
 ## 快速入门
+
+```bash
+rclone config
+```
 
 ```bash
 rclone check ~/source/ ~/dest/ --exclude 'node_modules' --exclude 'package-lock.json'

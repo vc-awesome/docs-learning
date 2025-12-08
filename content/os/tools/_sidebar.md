@@ -1,9 +1,9 @@
 * [Overview](os/tools/README.md)
 * [Search](os/tools/search.md)
 * **应用列表**
-* [Desktop Apps](os/tools/app-list.md)
-* [Web Apps](os/tools/web-app.md "在线工具")
-* [CLI Apps](os/tools/cli-app.md)
+* [Desktop Apps](os/tools/app.md)
+* [Web Apps](os/web/app/README.md "在线工具")
+* [CLI Apps](os/cli/app/README.md)
 * **浏览器**
 * [Overview](os/tools/browser/README.md "浏览器")
 * [Chrome](os/tools/browser/chrome.md)
@@ -21,8 +21,8 @@
 * [Hosts](essential/network/hosts.md)
 * [AdGuard](os/tools/productivity/adguard.md)
 * [**开发者工具**](os/tools/developer/_sidebar.md)
-* [GitHub](os/tools/productivity/github.md)
-* [Git](os/tools/developer/git.md)
+* [GitHub](os/tools/developer/vcs/github.md)
+* [Git](os/tools/developer/vcs/git.md)
 * [宝塔](os/tools/developer/bt.md)
 * [YApi](os/tools/developer/yapi.md "API 文档工具 - YApi")
 * [PhpStorm](os/tools/developer/editor/phpstorm.md "JetBrains系列编辑器 - Phpstorm")
@@ -38,7 +38,7 @@
 * **Productivity**
 * [Obsidian](os/tools/productivity/obsidian.md)
 * **专题**
-* [AI 应用](os/tools/topics/ai.md)
+* [AI 应用](home/searcher/ai.md)
 * [RSS](os/tools/topics/rss.md)
 * [仿站工具](os/tools/topics/webpage-downloader.md)
 * [剪贴板](topics/clipboard.md)

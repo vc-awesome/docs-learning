@@ -334,29 +334,29 @@ https://github.com/trending - *Trending repositories on GitHub today · GitHub*
 
 [Adobe: Creative, marketing and document management solutions](https://www.adobe.com/) - *Adobe is changing the world through digital experiences. We help our customers create, deliver and optimize content and applications.*
 
-### Apple Inc.
-
-[Apple Inc.](os/desktop/mac/README.md)
-
 ### Ali
 
-暂无
+有关详细信息，请参阅“[ali](tech-stack/ali/README.md)”。
+
+### Apple Inc.
+
+有关详细信息，请参阅“[apple](tech-stack/apple/README.md)”。
 
 ### Google Inc.
 
-[Google Inc.](tech-stack/google.md)
+有关详细信息，请参阅“[google](tech-stack/google/README.md)”。
 
 ### Microsoft
 
-[Microsoft](os/desktop/windows/README.md)
+有关详细信息，请参阅“[microsoft](tech-stack/microsoft/README.md)”。
 
 ### Mozilla
 
-暂无
+有关详细信息，请参阅“[mozilla](tech-stack/mozilla/README.md)”。
 
 ### Tencent
 
-暂无
+有关详细信息，请参阅“[tencent](tech-stack/tencent/README.md)”。
 
 ## 标准化组织
 

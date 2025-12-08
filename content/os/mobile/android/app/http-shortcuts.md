@@ -163,6 +163,10 @@ copyToClipboard(resultObject.result);
 
 https://github.com/Waboodoo/HTTP-Shortcuts/blob/develop/CHANGELOG.md - *HTTP-Shortcuts/CHANGELOG.md at develop · Waboodoo/HTTP-Shortcuts · GitHub*
 
+特别版本：
+
+1. https://github.com/Waboodoo/HTTP-Shortcuts/releases/tag/v4.0.0
+
 ## 常见问题解答
 
 - 问题：

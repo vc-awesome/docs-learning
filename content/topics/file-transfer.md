@@ -23,3 +23,11 @@ https://cdn.cnbj1.fds.api.mi-img.com/usb-solution/index.html - *解决办法*
 参考：
 
 1. https://support.apple.com/zh-cn/104965 - *将内容从安卓设备转移到 iOS - 官方 Apple 支持 (中国)*
+
+## DroidDock
+
+https://github.com/rajivm1991/DroidDock - *GitHub - rajivm1991/DroidDock: A sleek macOS desktop application for browsing Android device files via ADB*
+
+## KDE Connect
+
+暂无

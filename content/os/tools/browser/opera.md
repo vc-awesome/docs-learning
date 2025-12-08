@@ -12,33 +12,59 @@ https://www.opera.com/zh-cn - *Opera Web Browser | Faster, Safer, Smarter | Oper
 
 https://www.opera.com/zh-cn/download - *Download the Opera Browser for Computer, Phone, Tablet | Opera*
 
+https://get.geo.opera.com/ - *Index of /*
+
+https://download5.operacdn.com/ - *Index of /*
+
 ### Desktop Client
 
 https://www.opera.com/zh-cn/browsers - *Browsers for every device | Opera Web Browsers | Opera*
 
-1. Opera
+1. [Opera](#opera)
     1. Windows
     2. Linux
     3. macOS
-2. Opera beta
+2. [Opera beta](#opera%20beta)
     1. Windows
     2. Linux
     3. macOS
-3. Opera developer
+3. [Opera developer](#opera%20developer)
     1. Windows
     2. Linux
     3. macOS
+
+#### Windows
+
+- [Opera](#opera)
+- [Opera Air](#opera%20air)
+- [Opera Beta](#opera%20beta)
+- [Opera Developer](#opera%20developer)
+- [Opera GX](#opera%20gx)
+
+#### macOS
+
+- Opera
+- Opera Air
+- Opera Beta
+- Opera Developer
+- Opera GX
+
+#### Linux
+
+- Opera
+- Opera Beta
+- Opera Developer
 
 ### Mobile Client
 
 https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linux, Android, iOS | Opera*
 
-1. Opera
+1. [Opera](#opera)
     1. Android：https://play.google.com/store/apps/details?id=com.opera.browser - *Opera 浏览器：快速又安全*
     2. iOS：https://apps.apple.com/us/app/opera-ai-browser-with-vpn/id1411869974 - *Opera: AI browser with VPN on the App Store*
-2. Opera beta
+2. [Opera beta](#opera%20beta)
     1. Android：https://play.google.com/store/apps/details?id=com.opera.browser.beta - *Opera 浏览器 beta 版*
-3. Opera Mini
+3. [Opera Mini](#opera%20mini)
     1. Android：https://play.google.com/store/apps/details?id=com.opera.mini.native - *Opera Mini - 极速浏览器*
 4. Opera Mini beta
     1. Android：https://play.google.com/store/apps/details?id=com.opera.mini.native.beta - *Opera Mini beta 版网页浏览器*
@@ -49,23 +75,91 @@ https://www.opera.com/zh-cn/browsers/opera - *Opera Browser | Windows, Mac, Linu
 
 有关详细信息，请参阅“[Mobile Opera](os/mobile/android/app/browser.md#opera)”。
 
-## Getting started
+#### Android
 
-### Sync
+- Opera
+- Opera Beta
+- Opera GX
+- Opera Mini
+- Opera Touch
 
-1. https://www.opera.com/features/sync - *Sync browsing data in the Opera browser | Opera Browser*
+#### iOS
 
-2. https://help.opera.com/en/mobile/android/#QRcodeSync - *Frequently asked questions for Opera for Android - Opera Help*
+- Opera
+- Opera GX
 
-3. https://help.opera.com/en/latest/features/#sync - *Features - Opera Help*
+### Other Versions
 
-4. https://help.opera.com/en/faq/ - *FAQ - Opera Help* 👉 快捷键 <kbd>command（⌘）</kbd> + <kbd>F</kbd> ，在页面中搜索 “`sync`”
+#### Opera
 
-### Flow
+https://www.opera.com/zh-cn/opera - *Opera Browser | Windows, Mac, Linux, Android, iOS | Opera*
 
-1. 电脑端打开网址：https://opera.com/connect
+- 桌面客户端
+    - 支持 Windows
+    - 支持 macOS
+    - 支持 Linux
+- 移动客户端
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.opera.browser)）
+    - 支持 iOS（[App Store](https://apps.apple.com/app/id1411869974)）
 
-### VPN
+https://get.geo.opera.com/ftp/pub/opera/ - *Index of /ftp/pub/opera/*
+
+#### Opera Air
+
+https://www.opera.com/zh-cn/air - *Opera Air | Your Mindful Browser | Opera*
+
+- 桌面客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera_air/)）
+    - 支持 Windows
+    - 支持 macOS
+
+#### Opera Beta
+
+- 桌面客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera-beta/)）
+    - 支持 Windows
+    - 支持 macOS
+    - 支持 Linux
+- 移动客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera/android/beta/)）
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.opera.browser.beta)）
+
+#### Opera Developer
+
+- 桌面客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera-developer/)）
+    - 支持 Windows
+    - 支持 macOS
+    - 支持 Linux
+
+#### Opera GX
+
+https://www.opera.com/zh-cn/gx - *Opera GX | 游戏浏览器 | Opera*
+
+- 桌面客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera_gx/)）
+    - 支持 Windows
+    - 支持 macOS
+- 移动客户端
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.opera.gx)）
+    - 支持 iOS（[App Store](https://apps.apple.com/app/id1559740799)）
+
+#### Opera Mini
+
+https://www.opera.com/zh-cn/mini - *Download Opera Mini | Fast mobile browser with data savings | Opera*
+
+- 移动客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera/android/mini/)）
+    - 支持 Android（[Google Play](https://play.google.com/store/apps/details?id=com.opera.mini.native)）
+
+#### Opera Touch
+
+- 移动客户端（[Direct downloads](https://get.geo.opera.com/ftp/pub/opera/android/touch/)）
+    - 支持 Android
+
+## Getting Started
+
+### Features
+
+https://www.opera.com/zh-cn/features - *浏览器功能 | Opera 功能概览 | Opera*
+
+https://help.opera.com/en/latest/features/ - *Features - Opera Help*
+
+#### VPN
 
 `DuckDuckGo` 搜索：
 
@@ -79,11 +173,39 @@ https://www.opera.com/features/free-vpn - *Free VPN | Browser with built-in VPN 
 
 https://www.opera.com/products/vpn-pro - *Opera VPN Pro | Complete VPN Protection | Opera*
 
-### Addon
+https://help.opera.com/en/latest/features/#VPN - *Features - Opera Help*
+
+#### Sync
+
+1. https://www.opera.com/features/sync - *Sync browsing data in the Opera browser | Opera Browser*
+
+2. https://help.opera.com/en/mobile/android/#QRcodeSync - *Frequently asked questions for Opera for Android - Opera Help*
+
+3. https://help.opera.com/en/latest/features/#sync - *Features - Opera Help*
+
+4. https://help.opera.com/en/faq/ - *FAQ - Opera Help* 👉 快捷键 <kbd>command（⌘）</kbd> + <kbd>F</kbd> ，在页面中搜索 “`sync`”
+
+#### My Flow
+
+https://help.opera.com/en/latest/features/#myFlow - *Features - Opera Help*
+
+1. 电脑端打开网址：https://opera.com/connect
+
+### Customization
+
+https://help.opera.com/en/latest/customization/ - *Customization - Opera Help*
+
+#### Extensions
 
 https://addons.opera.com/zh-cn/ - *Opera 插件* 「 ⚠️ VPN 必须开启全局模式 」
 
+https://help.opera.com/en/latest/customization/#extensions - *Customization - Opera Help*
+
 https://forums.opera.com/topic/30366/how-can-i-re-enable-a-blacklisted-extension - *How can I re-enable a blacklisted extension? | Opera forums*
+
+### Shortcuts
+
+https://help.opera.com/en/latest/shortcuts/ - *Shortcuts - Opera Help*
 
 ## Settings
 
@@ -183,8 +305,6 @@ https://help.opera.com/en/faq/ - *FAQ - Opera Help*
 
 ### 安卓版浏览器
 
-https://help.opera.com/zh-cn/mobile/android/ - *Page not found - Opera Help*
-
 https://help.opera.com/en/mobile/android/ - *Frequently asked questions for Opera for Android - Opera Help*
 
 ## Changelog
@@ -224,3 +344,8 @@ https://blog.csdn.net/schumyxp/article/details/124481601 - *Opera无法打开网
     - 或者直接选择"Cloudflare"；
 3. 返回"设置"页，点击开启"节省流量"；
 4. 重启浏览器，在地址栏输入测试站点："`https://telegram.org/`"，能打开网页表示设置成功。
+
+功能失效版本：
+
+- `com.opera.browser` 93.0.4906.86186 (1909312408) 以及之后的版本
+- `com.opera.browser.beta` 93.0.4906.86160 (1909310408) 以及之后的版本
